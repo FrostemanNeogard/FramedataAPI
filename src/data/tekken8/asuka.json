@@ -1,0 +1,1592 @@
+[
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "H.2+3",
+    "hit_level": "m,​th",
+    "damage": "12,​3",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Throw on hit"
+  },
+  {
+    "input": "R.df+1+2",
+    "hit_level": "m,​th",
+    "damage": "10,​49",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Rage Art\nDamage increases with lower health\nRemoves recoverable health on hit"
+  },
+  {
+    "input": "R.df+1+2*",
+    "hit_level": "m,​th",
+    "damage": "",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Rage Art\nDamage increases with lower health\nRemoves recoverable health on hit"
+  },
+  {
+    "input": "1",
+    "hit_level": "h",
+    "damage": "6",
+    "startup": "i10",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,​1",
+    "hit_level": "h,​m",
+    "damage": "6,​15",
+    "startup": ",",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "",
+    "note": "Combo from 1st CH\nLinks to f+1"
+  },
+  {
+    "input": "1,​2",
+    "hit_level": "h,​m",
+    "damage": "6,​9",
+    "startup": ",",
+    "block": "-8",
+    "hit": "+3a",
+    "counter": "",
+    "note": "Combo from 1st CH"
+  },
+  {
+    "input": "1,​2,​3",
+    "hit_level": "h,​m,​m",
+    "damage": "6,​9,​24",
+    "startup": ",",
+    "block": "-2",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip on block\nLink to f+4\nCan interrupt with up to i15 if previous hit is blocked"
+  },
+  {
+    "input": "1,​2,​3,​B",
+    "hit_level": "h,​m,​m,​sp",
+    "damage": "6,​9,​24,​0",
+    "startup": ",",
+    "block": "-18",
+    "hit": "-7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,​2,​4",
+    "hit_level": "h,​m,​m",
+    "damage": "6,​9,​20",
+    "startup": ",",
+    "block": "-12",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,​3",
+    "hit_level": "h,​l",
+    "damage": "6,​10",
+    "startup": ",",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "",
+    "note": "Combo from 1st hit"
+  },
+  {
+    "input": "1,​4",
+    "hit_level": "h,​l",
+    "damage": "614",
+    "startup": ",",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": "Combo from 1st CH\nLink to attack from Leg Cutter (db+4)"
+  },
+  {
+    "input": "1,​4,​D",
+    "hit_level": "h,​l,​sp",
+    "damage": "6140",
+    "startup": ",",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": "Combo from 1st CH"
+  },
+  {
+    "input": "2",
+    "hit_level": "h",
+    "damage": "9",
+    "startup": "i12",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2,​1",
+    "hit_level": "h,​h",
+    "damage": "9,​10",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "",
+    "note": "Combo from 1st hit"
+  },
+  {
+    "input": "2,​1,​2",
+    "hit_level": "h,​h,​m",
+    "damage": "9,​10,​16",
+    "startup": "i12",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2,​1,​d+1+2",
+    "hit_level": "h,​h,​m",
+    "damage": "9,​10,​23",
+    "startup": "i12",
+    "block": "-10c",
+    "hit": "+3c",
+    "counter": "JG",
+    "note": "Combo from 2nd CH"
+  },
+  {
+    "input": "2,​1,​d+1+2,​D",
+    "hit_level": "h,​h,​m,​sp",
+    "damage": "9,​10,​23,​0",
+    "startup": "i12",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2,​1,​d+1+2,​B",
+    "hit_level": "h,​h,​m,​sp",
+    "damage": "9,​10,​23,​0",
+    "startup": "i12",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2,​3",
+    "hit_level": "h,​m",
+    "damage": "9,​16",
+    "startup": ",",
+    "block": "-19",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i14",
+    "block": "-7",
+    "hit": "+9",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "3,​1",
+    "hit_level": "m,​m",
+    "damage": "17,​17",
+    "startup": "i14",
+    "block": "-11",
+    "hit": "+8",
+    "counter": "KND",
+    "note": "Combo from 1st hit\nCan be delayed 14f\nCombo can be delayed 14f from hit"
+  },
+  {
+    "input": "4",
+    "hit_level": "h",
+    "damage": "18",
+    "startup": "i11",
+    "block": "-7",
+    "hit": "+7",
+    "counter": "JG",
+    "note": ""
+  },
+  {
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i16~17",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "3+4",
+    "hit_level": "mm",
+    "damage": "10,​21",
+    "startup": "i23",
+    "block": "-6",
+    "hit": "KND",
+    "counter": "",
+    "note": "Special effect when hitting grounded opponents"
+  },
+  {
+    "input": "3+4,​D",
+    "hit_level": "mm,​sp",
+    "damage": "10,​21,​0",
+    "startup": "i23",
+    "block": "-6",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "1+4",
+    "hit_level": "sl,​h",
+    "damage": "5,​8",
+    "startup": "i14",
+    "block": "-19",
+    "hit": "-8",
+    "counter": "",
+    "note": "Combo from 1st CH\n2nd hit when blocked is -3, on hit is +9"
+  },
+  {
+    "input": "1+4,​2",
+    "hit_level": "sl,​h,​h",
+    "damage": "5,​8,​10",
+    "startup": "i14",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "note": "Combo from 2nd CH"
+  },
+  {
+    "input": "1+4,​2,​4",
+    "hit_level": "sl,​h,​h,​m",
+    "damage": "5,​8,​10,​26",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "+4",
+    "counter": "KND",
+    "note": "Combo from 3rd CH"
+  },
+  {
+    "input": "1+4,​2,​d+4",
+    "hit_level": "sl,​h,​h,​l",
+    "damage": "5,​8,​10,​15",
+    "startup": "i14",
+    "block": "-23",
+    "hit": "KND",
+    "counter": "",
+    "note": "Combo from 3rd CH"
+  },
+  {
+    "input": "1+4,​3",
+    "hit_level": "sl,​h,​m",
+    "damage": "5,​8,​25",
+    "startup": "i14",
+    "block": "-2",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip on block\nLink to attack from Spinning Heel Drop (f+3)"
+  },
+  {
+    "input": "1+4,​3,​B",
+    "hit_level": "sl,​h,​m,​sp",
+    "damage": "5,​8,​25,​0",
+    "startup": "i14",
+    "block": "-37",
+    "hit": "-26",
+    "counter": "",
+    "note": "If 2nd attack is blocked, -20f"
+  },
+  {
+    "input": "f+1",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i20",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+1,​4",
+    "hit_level": "m,​lh",
+    "damage": "17,​5,​20",
+    "startup": "i20",
+    "block": "-25",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": "Combo from 1st CH\nCan be delayed 15F\nCombo can be delayed 12F from CH\nBlock frame is blocked 2nd attack\n-6F upon 3rd block"
+  },
+  {
+    "input": "f+1,​d+4",
+    "hit_level": "m,​l",
+    "damage": "17,​26",
+    "startup": "i20",
+    "block": "-26",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Combo from 1st CH\nCan be delayed 15F\nCombo can be delayed 5F from CH\nInterruption 11F after 1st block"
+  },
+  {
+    "input": "f+1,​d+4,​DB",
+    "hit_level": "m,​l,​sp",
+    "damage": "17,​26",
+    "startup": "i20",
+    "block": "-26",
+    "hit": "-15",
+    "counter": "",
+    "note": "Combo can be delayed 28F from CH"
+  },
+  {
+    "input": "f+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i17",
+    "block": "-18",
+    "hit": "JG",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+2,​D",
+    "hit_level": "m,​sp",
+    "damage": "20,​0",
+    "startup": ",",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+2,​(must hit) 1",
+    "hit_level": "m,​sp",
+    "damage": "20,​0",
+    "startup": ",",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Gain Naniwa Gusto on hit"
+  },
+  {
+    "input": "f+3",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "31f",
+    "block": "-2",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Chip damage when guarded\n"
+  },
+  {
+    "input": "f+3,​B",
+    "hit_level": "m,​sp",
+    "damage": "24",
+    "startup": "31f",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+3*",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "52f",
+    "block": "+6",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Chip damage when guarded\nInput to cancel"
+  },
+  {
+    "input": "f+3* (max)",
+    "hit_level": "ub(m)",
+    "damage": "28",
+    "startup": "70f",
+    "block": "KND",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Chip damage when guarded\nInput  to cancel"
+  },
+  {
+    "input": "f+4",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i19",
+    "block": "+3",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "f+1+2",
+    "hit_level": "h,​sp",
+    "damage": "26",
+    "startup": "i15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Template:HE\nAbsorb an attack to power up\nGain Naniwa Gusto on Heat activation"
+  },
+  {
+    "input": "f+3+4",
+    "hit_level": "m,​sp",
+    "damage": "27",
+    "startup": "29f",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded\nOn hit gain Naniwa Gusto"
+  },
+  {
+    "input": "f+2+3",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i23",
+    "block": "+0",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Absorbs Punch (H/M) during 4 to 15F\nStun on success punch parry"
+  },
+  {
+    "input": "df+1",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i13",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+1,​2",
+    "hit_level": "m,​h(,​th)",
+    "damage": "10,​13(,​25)",
+    "startup": "i13",
+    "block": "-1",
+    "hit": "Th",
+    "counter": "Th",
+    "note": "Combo from 1st CH\nCan be delayed 7F\nDamage () is Throw bonus"
+  },
+  {
+    "input": "df+1df+1,​4",
+    "hit_level": "m,​m",
+    "damage": "10,​22",
+    "startup": "i13",
+    "block": "-12",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": "Combo from 1st CH\nCan be delayed 7F"
+  },
+  {
+    "input": "df+2",
+    "hit_level": "m",
+    "damage": "14",
+    "startup": "i15",
+    "block": "-6",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "df+3",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i20",
+    "block": "-8",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "16",
+    "startup": "i12",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+3+4",
+    "hit_level": "l",
+    "damage": "22",
+    "startup": "i28",
+    "block": "-26",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": "Alternate input: df+3~4\nStart-up 27F in actuality"
+  },
+  {
+    "input": "df+3+4,​DB",
+    "hit_level": "l,​sp",
+    "damage": "22",
+    "startup": "i28",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+1",
+    "hit_level": "sm",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "Returns to standing when input F"
+  },
+  {
+    "input": "d+2",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i18",
+    "block": "-4c",
+    "hit": "+9c",
+    "counter": "KND",
+    "note": "Template:HE\nGain Naniwa Gusto on Heat activation"
+  },
+  {
+    "input": "d+3",
+    "hit_level": "l",
+    "damage": "12",
+    "startup": "i16",
+    "block": "-17",
+    "hit": "-3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+4",
+    "hit_level": "l",
+    "damage": "7",
+    "startup": "i12",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+1+2",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i20",
+    "block": "-18",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "d+3+4",
+    "hit_level": "l,​h",
+    "damage": "5,​20",
+    "startup": "i14",
+    "block": "-25",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": "Block frame is blocked 1st attack\n-6F upon 2nd block"
+  },
+  {
+    "input": "db+1",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "db+1,​2",
+    "hit_level": "m,​h,​sp",
+    "damage": "13,​20",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": "Template:HE\nGain Naniwa Gusto on Heat activation\nCombo from 1st hit\nCan be delayed 9F\nCombo can be delayed 9F from hit"
+  },
+  {
+    "input": "db+1,​4",
+    "hit_level": "m,​m",
+    "damage": "13,​25",
+    "startup": "i14",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "db+2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i20",
+    "block": "-11",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "db+3",
+    "hit_level": "l",
+    "damage": "17",
+    "startup": "i20",
+    "block": "-12",
+    "hit": "+4c",
+    "counter": "+14g",
+    "note": ""
+  },
+  {
+    "input": "db,​4",
+    "hit_level": "l",
+    "damage": "14",
+    "startup": "i21",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": ""
+  },
+  {
+    "input": "db,​4,​D",
+    "hit_level": "l,​sp",
+    "damage": "14",
+    "startup": "i21",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": ""
+  },
+  {
+    "input": "db,​4,​4",
+    "hit_level": "l,​l",
+    "damage": "14,​15",
+    "startup": "i21",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "db,​4,​4,​D",
+    "hit_level": "l,​l,​sp",
+    "damage": "14,​15,​",
+    "startup": "i21",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "db,​4,​4,​4",
+    "hit_level": "l,​l,​l",
+    "damage": "14,​15,​16",
+    "startup": "i21",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "db,​4,​4,​4,​D",
+    "hit_level": "l,​l,​l,​sp",
+    "damage": "14,​15,​16,​0",
+    "startup": "i21",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "(During Leg Cutter),​3",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i21",
+    "block": "-3",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "(During Leg Cutter),​1+4",
+    "hit_level": "sl,​h",
+    "damage": "5,​8",
+    "startup": "i21",
+    "block": "-19",
+    "hit": "+9",
+    "counter": "",
+    "note": "Link to attack to White Heron ()\nBlock frame is blocked 1st attack\n-3F upon 2nd block"
+  },
+  {
+    "input": "db+1+2",
+    "hit_level": "m,​m",
+    "damage": "10,​20",
+    "startup": "i42",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Parries lows"
+  },
+  {
+    "input": "b+1",
+    "hit_level": "l(,​th)",
+    "damage": "17(,​22)",
+    "startup": "i29",
+    "block": "-10",
+    "hit": "+6",
+    "counter": "Th",
+    "note": "Connect to Sumiregari upon CH\nDamage () is Throw bonus"
+  },
+  {
+    "input": "b+1,​D",
+    "hit_level": "l(,​th),​sp",
+    "damage": "17(,​22),​",
+    "startup": "i29",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i15",
+    "block": "-4c",
+    "hit": "+1c",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+2,​1",
+    "hit_level": "m,​m",
+    "damage": "12,​14",
+    "startup": "i15",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "",
+    "note": "Combo from 1st CH\nLink to attack from Lunging Mist Thrust ()"
+  },
+  {
+    "input": "b+2,​4",
+    "hit_level": "m,​l",
+    "damage": "12,​14",
+    "startup": "i15",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": ""
+  },
+  {
+    "input": "b+2,​4,​D",
+    "hit_level": "m,​l,​sp",
+    "damage": "12,​14,​",
+    "startup": "i15",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": ""
+  },
+  {
+    "input": "b+2,​1+2",
+    "hit_level": "m,​h",
+    "damage": "12,​7",
+    "startup": "i36",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": "Combo from 1st hit\nCan be delayed 12F\nCombo can be delayed 9F from CH"
+  },
+  {
+    "input": "b+2,​1+2,​D",
+    "hit_level": "m,​h,​sp",
+    "damage": "12,​7",
+    "startup": "i36",
+    "block": "-6c",
+    "hit": "-1c",
+    "counter": "-1c",
+    "note": ""
+  },
+  {
+    "input": "b+2,​1+2,​4",
+    "hit_level": "m,​h,​m",
+    "damage": "12,​7,​20",
+    "startup": "i36",
+    "block": "-13",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Combo from 2nd CH"
+  },
+  {
+    "input": "b+3",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i16",
+    "block": "-19",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "b+3,​2",
+    "hit_level": "m,​m",
+    "damage": "15,​20",
+    "startup": "i16",
+    "block": "-20",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "b+3,​2,​D",
+    "hit_level": "m,​mm",
+    "damage": "15,​2015",
+    "startup": "i16",
+    "block": "-33",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "b+3,​2,​(must hit) 1",
+    "hit_level": "m,​m,​sp",
+    "damage": "15,​20",
+    "startup": "i16",
+    "block": "",
+    "hit": "LNC",
+    "counter": "",
+    "note": "Gain Naniwa Gusto"
+  },
+  {
+    "input": "b+3,​4",
+    "hit_level": "m,​l",
+    "damage": "15,​14",
+    "startup": "i16",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": ""
+  },
+  {
+    "input": "b+3,​4,​D",
+    "hit_level": "m,​l,​sp",
+    "damage": "15,​14",
+    "startup": "i16",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+3",
+    "note": ""
+  },
+  {
+    "input": "b+4",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i15",
+    "block": "-7",
+    "hit": "+8",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "b+4,​2",
+    "hit_level": "m,​m",
+    "damage": "17,​12",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+4c",
+    "counter": "",
+    "note": "Can be delayed 15F"
+  },
+  {
+    "input": "b+4,​2,​3",
+    "hit_level": "m,​m,​m",
+    "damage": "17,​12,​21",
+    "startup": "i15",
+    "block": "-16",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Combo from 2nd hit\nCan be delayed 10F\nCombo can be delayed 10F from hit"
+  },
+  {
+    "input": "b+4,​2,​3,​(must hit) 1",
+    "hit_level": "m,​m,​m,​sp",
+    "damage": "17,​12,​21",
+    "startup": "i15",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+1+3_b+2+4",
+    "hit_level": "",
+    "damage": "25",
+    "startup": "",
+    "block": "-6",
+    "hit": "",
+    "counter": "",
+    "note": "Does 25 + 50% of reversed attack as damage\nOpp. Position on hit: Reverse Pos Foot-sd. Face-up\nReverses limb-based h/m attacks"
+  },
+  {
+    "input": "b+1+3*_b+2+4*",
+    "hit_level": "",
+    "damage": "25",
+    "startup": "",
+    "block": "-6",
+    "hit": "",
+    "counter": "",
+    "note": "Does 25 + 50% of reversed attack as damage\nOpp. Position on hit: Reverse Pos Foot-sd. Face-up\nReverses limb-based h/m attacks"
+  },
+  {
+    "input": "b+1+4",
+    "hit_level": "h,​l",
+    "damage": "15,​8",
+    "startup": "i12",
+    "block": "-8",
+    "hit": "+5",
+    "counter": "+7",
+    "note": ""
+  },
+  {
+    "input": "b+1+4,​3",
+    "hit_level": "h,​l,​l",
+    "damage": "15,​8,​18",
+    "startup": "i12",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "b+1+4,​4",
+    "hit_level": "h,​l,​m",
+    "damage": "15,​8,​23",
+    "startup": "i12",
+    "block": "-14",
+    "hit": "+5b",
+    "counter": "+5b",
+    "note": "Combo from 2nd CH"
+  },
+  {
+    "input": "b+2+3",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i24",
+    "block": "-9",
+    "hit": "+6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "uf+2",
+    "hit_level": "h(,​th)",
+    "damage": "20(,​25)",
+    "startup": "i14",
+    "block": "-7",
+    "hit": "Th",
+    "counter": "Th",
+    "note": ""
+  },
+  {
+    "input": "u+1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i18",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "-1",
+    "note": ""
+  },
+  {
+    "input": "u+2",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+9",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "u+3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i20~21",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "u+4",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i20",
+    "block": "-13",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "u+1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i31",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded\nAlternate input: ub+1+2"
+  },
+  {
+    "input": "NWG.u+1+2",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i31",
+    "block": "",
+    "hit": "KDN",
+    "counter": "",
+    "note": "Chip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed"
+  },
+  {
+    "input": "ub+4",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "ub,​b",
+    "hit_level": "sp",
+    "damage": "-",
+    "startup": "i20",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ub,​b+3",
+    "hit_level": "m",
+    "damage": "32",
+    "startup": "i68",
+    "block": "±0",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": ""
+  },
+  {
+    "input": "f,​F+1",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i23",
+    "block": "+4",
+    "hit": "+?c",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "f,​F+2",
+    "hit_level": "m",
+    "damage": "16",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "-3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​F+2,​1",
+    "hit_level": "m,​h",
+    "damage": "16,​21",
+    "startup": "i15",
+    "block": "-5",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Combo from 1st hit\nCan be delayed 13F\nCombo can be delayed 8F from hit\nCombo can be delayed 11F from CH"
+  },
+  {
+    "input": "f,​F+2,​3",
+    "hit_level": "m,​m",
+    "damage": "16,​22",
+    "startup": "i15",
+    "block": "-8",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Combo from 1st CH\nCan be delayed 13F\nCombo can be delayed 5F from CH"
+  },
+  {
+    "input": "f,​F+2,​1+2",
+    "hit_level": "m,​m,​sp",
+    "damage": "16,​25",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​F+3",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i20",
+    "block": "-9",
+    "hit": "+11g",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "f,​F+4",
+    "hit_level": "h",
+    "damage": "28",
+    "startup": "i20",
+    "block": "-3",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": ""
+  },
+  {
+    "input": "f,​F+1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i19",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded\n"
+  },
+  {
+    "input": "NWG.f,​F+1+2",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i19",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n"
+  },
+  {
+    "input": "f,​f,​F+3",
+    "hit_level": "m",
+    "damage": "32",
+    "startup": "i24~28",
+    "block": "+0",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "f,​f,​F+1+2",
+    "hit_level": "h",
+    "damage": "30",
+    "startup": "i17",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded\n"
+  },
+  {
+    "input": "NWG.f,​f,​F+1+2",
+    "hit_level": "h",
+    "damage": "42",
+    "startup": "i17",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n"
+  },
+  {
+    "input": "ws1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i14",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ws1,​4",
+    "hit_level": "m,​h",
+    "damage": "12,​20",
+    "startup": "i14",
+    "block": "-8",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Combo from 1st hit\nCan be delayed 7F"
+  },
+  {
+    "input": "ws2",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i13",
+    "block": "-8",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ws2,​1",
+    "hit_level": "mm,​h",
+    "damage": "1818,​10",
+    "startup": "i13",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ws2,​1+2",
+    "hit_level": "mh,​th",
+    "damage": "18,​4",
+    "startup": "i13",
+    "block": "",
+    "hit": "Th",
+    "counter": "",
+    "note": "Link to attack from Destablilizer (f+1+3 or f+2+4)"
+  },
+  {
+    "input": "ws3",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18",
+    "block": "-16",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "ws4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i11",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ws1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i21",
+    "block": "-2",
+    "hit": "+13g",
+    "counter": "KND",
+    "note": "Wall hit +25g\nCrumple state 17F upon CH"
+  },
+  {
+    "input": "ws1+2,​D",
+    "hit_level": "m,​sp",
+    "damage": "20",
+    "startup": "i21",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.1",
+    "hit_level": "sm",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "Returns to standing when input F"
+  },
+  {
+    "input": "FC.d+2",
+    "hit_level": "sm",
+    "damage": "8",
+    "startup": "i11",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.d+3",
+    "hit_level": "l",
+    "damage": "12",
+    "startup": "i16",
+    "block": "-17",
+    "hit": "-3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.4",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i12",
+    "block": "-15",
+    "hit": "-4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.3+4",
+    "hit_level": "mm",
+    "damage": "10,​10",
+    "startup": "i21",
+    "block": "-6",
+    "hit": "+5c",
+    "counter": "+5c",
+    "note": ""
+  },
+  {
+    "input": "FC.3+4,​D",
+    "hit_level": "mm,​sp",
+    "damage": "10,​10,​",
+    "startup": "i21",
+    "block": "-6",
+    "hit": "+5c",
+    "counter": "+5c",
+    "note": "Forces an opponent to crouching on hit"
+  },
+  {
+    "input": "FC.3+4,​3",
+    "hit_level": "mm,​mm",
+    "damage": "10,​10,​10,​10",
+    "startup": "i21",
+    "block": "+0c",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Interruption 11F after 2nd block"
+  },
+  {
+    "input": "FC.3+4,​3,​D",
+    "hit_level": "mm,​mm,​sp",
+    "damage": "10,​10,​10,​10",
+    "startup": "i21",
+    "block": "+0c",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "FC.df+2",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i16",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+25g",
+    "note": "Crumple State 17F upon CH"
+  },
+  {
+    "input": "FC.df+3",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i17",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": ""
+  },
+  {
+    "input": "SS.2",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": "Template:HE\nGain Naniwa Gusto on Heat activation"
+  },
+  {
+    "input": "SS.4",
+    "hit_level": "h",
+    "damage": "18",
+    "startup": "i17",
+    "block": "-6",
+    "hit": "+7",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Cannot block for 5 seconds\nCH state for 5 seconds"
+  },
+  {
+    "input": "(Back to wall).b,​b,​UB",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i39",
+    "block": "+4c",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1+3",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "-2",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Throw break 1 or 2\nOpp. Position on break: CCW\nOpp. Position on hit: Reverse Pos., F Sd. FU"
+  },
+  {
+    "input": "2+4",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Throw break 1 or 2\nOpp. Position on break: CCW\nOpp. Position on hit: Head Sd. FD"
+  },
+  {
+    "input": "Left throw",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "-3d",
+    "counter": "",
+    "note": "Throw break 1\nOpp. Position on break: CCW\nOpp. Position on hit: F Sd. FD"
+  },
+  {
+    "input": "Right throw",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Throw break 2\nOpp. Position on break:\nOpp. Position on hit: FD F Sd."
+  },
+  {
+    "input": "Back throw",
+    "hit_level": "t",
+    "damage": "50",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Throw break: none\nOpp. Position on break: -\nOpp. Position on hit: Head Sd. Face D"
+  },
+  {
+    "input": "f+1+3_f+2+4",
+    "hit_level": "t(h)",
+    "damage": "0",
+    "startup": "i19",
+    "block": "",
+    "hit": "+8",
+    "counter": "",
+    "note": "Break: none\nOpp. Position on break:\nOpp. Position on hit: "
+  },
+  {
+    "input": "f+1+3_f+2+4,​1",
+    "hit_level": "t(h)m",
+    "damage": "020",
+    "startup": "i19",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Template:HE\nGain Naniwa Gusto on Heat Activation"
+  },
+  {
+    "input": "f+1+3_f+2+4Destabilizer.4",
+    "hit_level": "t(h)l",
+    "damage": "019",
+    "startup": "i19",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+2+3",
+    "hit_level": "t(h)",
+    "damage": "40",
+    "startup": "i12",
+    "block": "-6",
+    "hit": "",
+    "counter": "",
+    "note": "Break: 2\nOpp. Position on break:\nOpp. Position on hit: CCW. Head sd. FU"
+  },
+  {
+    "input": "uf+1+2",
+    "hit_level": "t(h)",
+    "damage": "40",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "",
+    "counter": "",
+    "note": "Break: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Head sd. FU"
+  },
+  {
+    "input": "FC.db+1+2",
+    "hit_level": "t(h)",
+    "damage": "15,​15,​15",
+    "startup": "i11",
+    "block": "-6",
+    "hit": "LNC",
+    "counter": "",
+    "note": "Break: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Reverse Pos. Foot sd. FD\n2nd dmg is on landing\n3rd dmg is non-ukemi bonus"
+  },
+  {
+    "input": "1+2+3+4,​1+2",
+    "hit_level": "sp,​t(m)",
+    "damage": "-,​5,​5",
+    "startup": "i61",
+    "block": "-6",
+    "hit": "LNC",
+    "counter": "",
+    "note": "Break: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Foot sd. FU\nLeft slap is auto-attack\nThrow breaks 16f later (1f)"
+  },
+  {
+    "input": "1+2+3+4,​1+2,​1,​2,​1,​2",
+    "hit_level": "sp,​t(m)",
+    "damage": "-,​5,​5,​5,​5,​5,​10",
+    "startup": "i61",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Break: none\nOpp. Position on break:\nOpp. Position on hit: Foot sd. FU"
+  }
+]

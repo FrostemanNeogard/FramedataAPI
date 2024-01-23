@@ -1,0 +1,1012 @@
+[
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "1",
+    "hit_level": "h",
+    "damage": "5",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,​1",
+    "hit_level": "h,​h",
+    "damage": "5,​7",
+    "startup": "i10",
+    "block": "-3",
+    "hit": "+3",
+    "counter": "",
+    "note": "Combo from 1st hit\nTransition to LWV with 3 (-6/0/0)\nTransition to RWV with 4 (-6/0/0)\nTransition to SWY with b+3_4 (-6/0/0)\nTransition to DCK with f+3_4 (-2/+4/+4)"
+  },
+  {
+    "input": "1,​d+1",
+    "hit_level": "h,​m",
+    "damage": "5,​15",
+    "startup": "i10",
+    "block": "-6",
+    "hit": "0",
+    "counter": "+5",
+    "note": "Transition to FLK with b (0/+6/+11)"
+  },
+  {
+    "input": "1,​1,​d+1",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​7,​15",
+    "startup": "i10",
+    "block": "-6",
+    "hit": "0",
+    "counter": "+5",
+    "note": "Transition to FLK with b (0/+6/+11)"
+  },
+  {
+    "input": "1,​1,​2",
+    "hit_level": "h,​h,​h",
+    "damage": "5,​7,​15",
+    "startup": "i10",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "",
+    "note": "NC from first hit\nInput 3 to LWV (-5/+6/+6)\nInput 4 to RWV (-5/+6/+6)\nInput b+3_4 SWY (-5/+6/+6)\nInput f+3_4 DCK (-3/+8/+8)"
+  },
+  {
+    "input": "1,​2",
+    "hit_level": "h,​h",
+    "damage": "5,​10",
+    "startup": "i10",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "",
+    "note": "Input 3 to LWV (-4/+7/+7)\nInput 4 to RWV (-4/+7/+7)\nInput b+3_4 to SWY (-4/+7/+7)"
+  },
+  {
+    "input": "1,​2,​1",
+    "hit_level": "h,​h,​h",
+    "damage": "5,​10,​15",
+    "startup": "i10",
+    "block": "-3",
+    "hit": "+3",
+    "counter": "",
+    "note": "Input f to PAB (-2/+4/+4)\nInput f to FLK (-1/+5/+5)"
+  },
+  {
+    "input": "1,​2,​1,​2",
+    "hit_level": "h,​h,​h,​m",
+    "damage": "5,​10,​15,​15",
+    "startup": "i10",
+    "block": "-10",
+    "hit": "KND",
+    "counter": "",
+    "note": "Input f+3_4 to DCK (-4/KND/KND)"
+  },
+  {
+    "input": "1,​2,​1,​d+2",
+    "hit_level": "h,​h,​h,​l",
+    "damage": "5,​10,​15,​19",
+    "startup": "i10",
+    "block": "-12",
+    "hit": "+1c",
+    "counter": "KND",
+    "note": "Recover in crouch"
+  },
+  {
+    "input": "2",
+    "hit_level": "h",
+    "damage": "12",
+    "startup": "i12",
+    "block": "-1",
+    "hit": "+5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2,​1",
+    "hit_level": "h,​h",
+    "damage": "12,​14",
+    "startup": "i12",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "Input f to PAB (+2/+13g/+13)\nInput b to FLK (+3/+14g/+14)"
+  },
+  {
+    "input": "2,​1,​2",
+    "hit_level": "h,​h,​m",
+    "damage": "12,​14,​22",
+    "startup": "i12",
+    "block": "-11",
+    "hit": "KND",
+    "counter": "",
+    "note": "Input f to PAB (+2/+13g/+13)\nInput b to FLK (+3/+14g/+14)"
+  },
+  {
+    "input": "2,​2",
+    "hit_level": "h,​h",
+    "damage": "12,​17",
+    "startup": "i12",
+    "block": "-14",
+    "hit": "+6",
+    "counter": "",
+    "note": "Input f to PAB (+2/+13g/+13)\nInput b to FLK (+3/+14g/+14)"
+  },
+  {
+    "input": "1+2",
+    "hit_level": "m,​m",
+    "damage": "7,​21",
+    "startup": "i14",
+    "block": "-12",
+    "hit": "+17/KND",
+    "counter": "",
+    "note": "In Heat input f to Heat dash (+5/KND/KND)"
+  },
+  {
+    "input": "f+2",
+    "hit_level": "m",
+    "damage": "11",
+    "startup": "i21~22",
+    "block": "-6",
+    "hit": "+5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+2,​1",
+    "hit_level": "m,​h",
+    "damage": "11,​12",
+    "startup": "i21~22",
+    "block": "-5",
+    "hit": "+1",
+    "counter": "",
+    "note": "Input f to PAB (+0/+4/+4)\nInput b to FLK (+1/+5/+5)"
+  },
+  {
+    "input": "f+2,​1~2",
+    "hit_level": "m,​m",
+    "damage": "11,​20",
+    "startup": "i21~22",
+    "block": "-10",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+2,​2",
+    "hit_level": "m,​m",
+    "damage": "1115",
+    "startup": "i21~22",
+    "block": "-6",
+    "hit": "+11",
+    "counter": "",
+    "note": "Transistion to LNH"
+  },
+  {
+    "input": "f+2,​2,​1+2",
+    "hit_level": "m,​m,​m,​m,​m",
+    "damage": "1115,​5,​8,​20",
+    "startup": "i21~22",
+    "block": "-12",
+    "hit": "+5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+1+2",
+    "hit_level": "m,​m",
+    "damage": "10,​12",
+    "startup": "i15",
+    "block": "-14",
+    "hit": "-3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+1+2,​2",
+    "hit_level": "m,​m,​m",
+    "damage": "10,​1220",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d/f+1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i13",
+    "block": "-2",
+    "hit": "+4",
+    "counter": "",
+    "note": "Input 3 to LWV\nInput 4 to RWV\nInput b+3_4 to SWY\nInput f+3_4 to DCK (-5/+2/+2)"
+  },
+  {
+    "input": "d/f+1,​2",
+    "hit_level": "m,​h",
+    "damage": "1213",
+    "startup": "i13",
+    "block": "-6",
+    "hit": "+3",
+    "counter": "+5",
+    "note": "Input 3 to LWV (-16/-9/-9)\nInput 4 to RWV (-16/-9/-9)\nInput b+3_4 to SWY (-16/-9/-9)\nInput f+3_4 to DCK (-14/-7/-7)"
+  },
+  {
+    "input": "d/f+1,​2~1",
+    "hit_level": "m,​h",
+    "damage": "1220",
+    "startup": "i13",
+    "block": "-2",
+    "hit": "+2",
+    "counter": "Launch",
+    "note": "Input b to FLK (0/+4/Launch)"
+  },
+  {
+    "input": "d/f+1,​2~2",
+    "hit_level": "m,​m",
+    "damage": "1212",
+    "startup": "i13",
+    "block": "-10",
+    "hit": "KND",
+    "counter": "",
+    "note": "Input b to FLK (0/+4/Launch)"
+  },
+  {
+    "input": "d/f+1,​2~1+2",
+    "hit_level": "m,​h,​h",
+    "damage": "12,​8,​12",
+    "startup": "i13",
+    "block": "-3",
+    "hit": "0",
+    "counter": "",
+    "note": "Input b to FLK (0/+4/Launch)"
+  },
+  {
+    "input": "d/f+2",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i16",
+    "block": "-11",
+    "hit": "+6",
+    "counter": "+8c",
+    "note": "Input 3 to LWV (-7/+10/+12)\nInput 4 to RWV (-7/+10/+12)\nInput b+3_4 to SWY (-7/+10/+12)\nInput f+3_4 to DCK (-2/+15g/+17)"
+  },
+  {
+    "input": "d+1",
+    "hit_level": "l",
+    "damage": "12",
+    "startup": "i16",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "",
+    "note": "Recover in crouch"
+  },
+  {
+    "input": "d+2",
+    "hit_level": "l",
+    "damage": "11",
+    "startup": "i17",
+    "block": "-18",
+    "hit": "-5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+2,​1",
+    "hit_level": "l,​m",
+    "damage": "11,​8",
+    "startup": "i17",
+    "block": "-11",
+    "hit": "-5",
+    "counter": "0",
+    "note": "Input 3 to LWV (-6/0/0)\nInput 4 to RWV (-6/0/0)\nInput b+3_4 to SWY (-6/0/0)\nInput f+3_4 to DCK (-4/+2/+7)"
+  },
+  {
+    "input": "d+2,​1,​2",
+    "hit_level": "l,​m,​h",
+    "damage": "11,​8,​17",
+    "startup": "i17",
+    "block": "-2",
+    "hit": "KND",
+    "counter": "Launch",
+    "note": ""
+  },
+  {
+    "input": "d/b+1",
+    "hit_level": "sm",
+    "damage": "",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d/b+2",
+    "hit_level": "l",
+    "damage": "21",
+    "startup": "i26",
+    "block": "-12",
+    "hit": "+1c",
+    "counter": "KND",
+    "note": "d or d/b to recover in crouch"
+  },
+  {
+    "input": "d/b+3",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i16",
+    "block": "-13",
+    "hit": "0",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d/b+3,​2",
+    "hit_level": "l,​h",
+    "damage": "10,​10",
+    "startup": "i16",
+    "block": "-6",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transition to LNH"
+  },
+  {
+    "input": "d/b+1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i28",
+    "block": "-13",
+    "hit": "+14",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+1",
+    "hit_level": "h",
+    "damage": "10",
+    "startup": "i13",
+    "block": "-14",
+    "hit": "+2",
+    "counter": "Launch",
+    "note": "Input b to FLK (-1/+10/Launch)"
+  },
+  {
+    "input": "b+1,​2",
+    "hit_level": "h,​h",
+    "damage": "10,​17",
+    "startup": "i13",
+    "block": "+3",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transistion to LNH"
+  },
+  {
+    "input": "b+1,​2~1",
+    "hit_level": "h,​m",
+    "damage": "10,​17",
+    "startup": "i13",
+    "block": "+8",
+    "hit": "+4",
+    "counter": "Launch",
+    "note": "Transistion to LNH"
+  },
+  {
+    "input": "b+1,​d+2",
+    "hit_level": "h,​l",
+    "damage": "10,​10",
+    "startup": "i13",
+    "block": "+1",
+    "hit": "0",
+    "counter": "",
+    "note": "Input f to PAB (-9/+2/+2)"
+  },
+  {
+    "input": "b+1,​d+2,​1",
+    "hit_level": "h,​l,​m",
+    "damage": "10,​10,​10",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+2",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i17",
+    "block": "-13",
+    "hit": "+14",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "u/b+2",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i17",
+    "block": "+3",
+    "hit": "+14",
+    "counter": "",
+    "note": "Transition into LNH\nInput b to cancel LNH"
+  },
+  {
+    "input": "u/b+2~1",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i30",
+    "block": "-8",
+    "hit": "+4",
+    "counter": "Launch",
+    "note": ""
+  },
+  {
+    "input": "u/b+1+2",
+    "hit_level": "m",
+    "damage": "70",
+    "startup": "i66",
+    "block": "KND",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "u/f+1",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i19~21",
+    "block": "-6",
+    "hit": "+5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "u/f+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i22~25",
+    "block": "-14",
+    "hit": "Launch",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "u/f+3",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i36",
+    "block": "-12",
+    "hit": "+9",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "u/f+3,​2",
+    "hit_level": "l,​h",
+    "damage": "20,​10",
+    "startup": "i36",
+    "block": "-6",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transition to LNH"
+  },
+  {
+    "input": "u/f+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i23",
+    "block": "-14",
+    "hit": "Launch",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​f+2",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i14~17",
+    "block": "-13c",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "qcf+1",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i16",
+    "block": "-10",
+    "hit": "+17",
+    "counter": "",
+    "note": "Input b to FLK (-3/KND/KND)\nInput f to Heat dash (+5/KND/KND)"
+  },
+  {
+    "input": "qcf+2",
+    "hit_level": "l",
+    "damage": "18",
+    "startup": "i19",
+    "block": "-18",
+    "hit": "+2",
+    "counter": "",
+    "note": "Input f to PAB"
+  },
+  {
+    "input": "f,​f,​f+2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i20~24",
+    "block": "+6",
+    "hit": "+17",
+    "counter": "",
+    "note": "In heat input f to Heat dash (+5/Launch/Launch)"
+  },
+  {
+    "input": "after_3steps+1",
+    "hit_level": "l",
+    "damage": "23",
+    "startup": "i16",
+    "block": "-12",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.d/f+1",
+    "hit_level": "l",
+    "damage": "11",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+2",
+    "counter": "",
+    "note": "Transition to PAB"
+  },
+  {
+    "input": "FC.d/f+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i8",
+    "block": "-15",
+    "hit": "Launch",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "WS.1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i11",
+    "block": "-3",
+    "hit": "+3",
+    "counter": "+8",
+    "note": ""
+  },
+  {
+    "input": "WS.1,​1",
+    "hit_level": "m,​h",
+    "damage": "12,​7",
+    "startup": "i11",
+    "block": "-3",
+    "hit": "+3",
+    "counter": "",
+    "note": "Input 3 to LWV (-6/0/0)\nInput 4 to RWV (-6/0/0)\nInput b+3_4 to SWY (-6/0/0)\nInput f+3_4 to DCK (-2/+4/+4)"
+  },
+  {
+    "input": "WS.1,​2",
+    "hit_level": "m,​m",
+    "damage": "12,​20",
+    "startup": "i11",
+    "block": "-13",
+    "hit": "+3c",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "WS.2",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i13",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "",
+    "note": "Input 3 to LWV\nInput 4 to RWV\nInput b+3_4 to SWY\nInput f+3_4 to DCK (-5/+6/+6)"
+  },
+  {
+    "input": "WS.2,​2",
+    "hit_level": "mm",
+    "damage": "1715",
+    "startup": "i13",
+    "block": "-6",
+    "hit": "+11",
+    "counter": "",
+    "note": "Transition to LNH"
+  },
+  {
+    "input": "3",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i13",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "LWV.1",
+    "hit_level": "m",
+    "damage": "14",
+    "startup": "i15",
+    "block": "-10",
+    "hit": "+1",
+    "counter": "",
+    "note": "Input b to FLK (-3/+8/+8)"
+  },
+  {
+    "input": "LWV.1,​1",
+    "hit_level": "m,​m",
+    "damage": "1422",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "LWV.1,​f+1",
+    "hit_level": "m,​m",
+    "damage": "149",
+    "startup": "i15",
+    "block": "-3",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "LWV.1,​f+1,​1",
+    "hit_level": "m,​m,​h",
+    "damage": "1498",
+    "startup": "i15",
+    "block": "+3",
+    "hit": "+7",
+    "counter": "Launch",
+    "note": ""
+  },
+  {
+    "input": "LWV.1,​2",
+    "hit_level": "m,​h",
+    "damage": "1414",
+    "startup": "i15",
+    "block": "+3",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transition to LNH"
+  },
+  {
+    "input": "LWV.1,​2~1",
+    "hit_level": "m,​m",
+    "damage": "1417",
+    "startup": "i15",
+    "block": "-8",
+    "hit": "+4",
+    "counter": "Launch",
+    "note": ""
+  },
+  {
+    "input": "LMV.2",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i14~16",
+    "block": "-5",
+    "hit": "+4",
+    "counter": "",
+    "note": "Input f to PAB (-1/+8/+8)"
+  },
+  {
+    "input": "LMV.2,​1",
+    "hit_level": "mm",
+    "damage": "1321",
+    "startup": "i14~16",
+    "block": "-8",
+    "hit": "+4c",
+    "counter": "KND",
+    "note": "Input f into PAB (-1/+8/+8)"
+  },
+  {
+    "input": "4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i14~16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "RMV.1",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i14~16",
+    "block": "-5",
+    "hit": "+4",
+    "counter": "",
+    "note": "Input f into PAB (-1/+8/+8)"
+  },
+  {
+    "input": "RMV.1,​2",
+    "hit_level": "m,​h(?)",
+    "damage": "13,​17",
+    "startup": "i14~16",
+    "block": "+3",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transition into LNH"
+  },
+  {
+    "input": "RMV.1,​2~1",
+    "hit_level": "m,​m",
+    "damage": "13,​?",
+    "startup": "i14~16",
+    "block": "+8",
+    "hit": "+4",
+    "counter": "Launch",
+    "note": ""
+  },
+  {
+    "input": "RMV.2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+3_4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to SWY\nInput 3 to LWV\nInput 4 to RWV\nInput f+3_4 to DCK"
+  },
+  {
+    "input": "SWY.1",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i16",
+    "block": "-1c",
+    "hit": "+14",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SWY.2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i17",
+    "block": "-18",
+    "hit": "Launch",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SWY.1+2",
+    "hit_level": "h",
+    "damage": "",
+    "startup": "i10",
+    "block": "",
+    "hit": "+10",
+    "counter": "",
+    "note": "+10 when opponent hits the wall if the throw is successful\nThrow break 1+2"
+  },
+  {
+    "input": "SWY.1+2~b_u_d",
+    "hit_level": "h",
+    "damage": "",
+    "startup": "i10",
+    "block": "",
+    "hit": "+10",
+    "counter": "",
+    "note": "+13 when opponent hits the wall after being rotated by < 90 degrees\n+17 when opponent hits the wall after being rotated by > 90 degrees\nThrow break 1+2"
+  },
+  {
+    "input": "3+4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i10",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition into ALB\nInput f into PAB"
+  },
+  {
+    "input": "ALB.2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i23",
+    "block": "-3",
+    "hit": "+17/KND",
+    "counter": "",
+    "note": "In heat input f into Heat dash (+5/Launch/Launch)"
+  },
+  {
+    "input": "ALB.d+2",
+    "hit_level": "l",
+    "damage": "17",
+    "startup": "i34",
+    "block": "-12",
+    "hit": "+1c",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "ALB.d_u",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i34",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Input f into PAB"
+  },
+  {
+    "input": "ALB.d_u,​1",
+    "hit_level": "sp,​m",
+    "damage": ",​34",
+    "startup": ",i12",
+    "block": "-3",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ALB.d_u,​1",
+    "hit_level": "sp,​l",
+    "damage": ",​30",
+    "startup": ",i22",
+    "block": "-12",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+3_4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": ",i22",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to DCK\nInput 3 to LWV\nInput 4 to RWV\nInput f+3_4 to DCK"
+  },
+  {
+    "input": "DCK.1",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i19",
+    "block": "-7",
+    "hit": "KND",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "DCK.2",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i19",
+    "block": "-14",
+    "hit": "Launch",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "DCK.f+2",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i15",
+    "block": "-3",
+    "hit": "KND",
+    "counter": "CH",
+    "note": "Input 3 to LWV (+1/KND/Launch)\nInput 4 to RWV (+1/KND/Launch)\nInput f+3_4 to DCK (+7/KND/Launch)"
+  },
+  {
+    "input": "DCK.1+2",
+    "hit_level": "m,​m",
+    "damage": "3,​3",
+    "startup": "i16",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "DCK.1+2,​1+2",
+    "hit_level": "m,​m,​m,​m",
+    "damage": "3,​3,​3,​3",
+    "startup": "i16",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "DCK.1+2,​1+2,​1+2",
+    "hit_level": "m,​m,​m,​m,​m,​m",
+    "damage": "3,​3,​3,​3,​2,​2",
+    "startup": "i16",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "DCK.1+2,​1+2,​1+2,​1+2",
+    "hit_level": "m,​m,​m,​m,​m,​m,​m,​m",
+    "damage": "3,​3,​3,​3,​2,​2,​2,​12",
+    "startup": "i16",
+    "block": "-12",
+    "hit": "KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "DCK.f+3_4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to EXTDCK"
+  },
+  {
+    "input": "u/b+3",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to LNH\nInput 3 to LWV\nInput 4 to RWV\nInput b+3_4 to DCK\nInput f+3_4 to DCK"
+  },
+  {
+    "input": "LNH.1",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "14",
+    "block": "-9",
+    "hit": "+17/KND",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "LNH.2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "16",
+    "block": "-13",
+    "hit": "Launch",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "LNH.1+2",
+    "hit_level": "h",
+    "damage": "24",
+    "startup": "20",
+    "block": "+12",
+    "hit": "KND",
+    "counter": "",
+    "note": "True frame advantage"
+  }
+]

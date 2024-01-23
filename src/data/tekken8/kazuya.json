@@ -1,5 +1,65 @@
 [
   {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Alternate input: R1"
+  },
+  {
+    "input": "H.2+3",
+    "hit_level": "l,​m,​th",
+    "damage": "12,​20,​34",
+    "startup": "i18",
+    "block": "",
+    "hit": "Th",
+    "counter": "Th",
+    "note": "Alternate input: R1"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "R.df+1+2",
+    "hit_level": "m,​th",
+    "damage": "10,​45",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Erases opponent's recoverable health on hit\nAlternate input: R2"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -7,97 +67,77 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "Alternate input: f+1"
+    "note": ""
   },
   {
-    "input": "1,1",
-    "hit_level": "h,h",
-    "damage": "5,6",
-    "startup": "",
+    "input": "1,​1",
+    "hit_level": "h,​h",
+    "damage": "5,​6",
+    "startup": "i10",
     "block": "-1",
     "hit": "+8",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": ""
   },
   {
-    "input": "1,1,2",
-    "hit_level": "h,h,m",
-    "damage": "5,6,12",
-    "startup": "",
+    "input": "1,​1,​2",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​6,​12",
+    "startup": "i10",
     "block": "-17",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n* Combo from 1st hit\n* Can be delayed 11F\n"
+    "note": "Combo from 1st hit\nCan be delayed 11F"
   },
   {
-    "input": "1+2",
-    "hit_level": "mm",
-    "damage": "5,20",
-    "startup": "i12",
-    "block": "-13",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "1,2",
-    "hit_level": "h,h",
-    "damage": "5,8",
-    "startup": "",
+    "input": "1,​2",
+    "hit_level": "h,​h",
+    "damage": "5,​8",
+    "startup": "i10",
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": ""
   },
   {
-    "input": "1,2,2",
-    "hit_level": "h,h,h",
-    "damage": "5,8,12",
-    "startup": "",
+    "input": "1,​2,​2",
+    "hit_level": "h,​h,​h",
+    "damage": "5,​8,​12",
+    "startup": "i10",
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "\n* Combo from 1st hit\n* Combo can be delayed 12F from 1st hit\n* "
+    "note": "Combo from 1st hit\nCombo can be delayed 12F from 1st hit\n"
   },
   {
-    "input": "1,2,2~3",
-    "hit_level": "h,h,m",
-    "damage": "5,8,23",
-    "startup": "",
+    "input": "1,​2,​2~3",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​8,​23",
+    "startup": "i10",
     "block": "",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1+2+3+4",
-    "hit_level": "sp",
-    "damage": "-",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Shift to charging\n"
-  },
-  {
-    "input": "1,2,4",
-    "hit_level": "h,h,l",
-    "damage": "5,8,18",
-    "startup": "",
+    "input": "1,​2,​4",
+    "hit_level": "h,​h,​l",
+    "damage": "5,​8,​18",
+    "startup": "i10",
     "block": "-14",
     "hit": "-3",
     "counter": "+0c",
-    "note": "\n* Combo from 2nd CH\n* Can be delayed 7F\n"
+    "note": "Combo from 2nd CH\nCan be delayed 7F"
   },
   {
-    "input": "1,2,4,3",
-    "hit_level": "h,h,l,m",
-    "damage": "5,8,18,25",
-    "startup": "",
+    "input": "1,​2,​4,​3",
+    "hit_level": "h,​h,​l,​m",
+    "damage": "5,​8,​18,​25",
+    "startup": "i10",
     "block": "-2",
     "hit": "KND",
     "counter": "KND*",
-    "note": "\n* Combo from 3rd CH\n* Can be delayed\n"
+    "note": "Combo from 3rd CH\nCan be delayed"
   },
   {
     "input": "2",
@@ -110,24 +150,14 @@
     "note": ""
   },
   {
-    "input": "2,2",
-    "hit_level": "h,m",
-    "damage": "12,24",
-    "startup": "",
+    "input": "2,​2",
+    "hit_level": "h,​m",
+    "damage": "12,​24",
+    "startup": "i12",
     "block": "-10",
     "hit": "+6",
     "counter": "KND",
-    "note": "\n* Combo from 1st hit\n\n"
-  },
-  {
-    "input": "2+3",
-    "hit_level": "m",
-    "damage": "15",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Heat Burst\n* Alternate input: R1\n"
+    "note": "Combo from 1st hit"
   },
   {
     "input": "3",
@@ -137,37 +167,37 @@
     "block": "-8",
     "hit": "+4",
     "counter": "",
-    "note": "Alternate input: 3+4"
+    "note": ""
   },
   {
-    "input": "3,1",
-    "hit_level": "h,h",
-    "damage": "12,10",
-    "startup": "",
+    "input": "3,​1",
+    "hit_level": "h,​h",
+    "damage": "12,​10",
+    "startup": "i14",
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": ""
   },
   {
-    "input": "3,1,4",
-    "hit_level": "h,h,m",
-    "damage": "12,10,17",
-    "startup": "",
-    "block": "-6",
-    "hit": "+8",
-    "counter": "KND",
-    "note": "\n* Combo from 2nd CH\n* Can be delayed 14F\n* Combo can be delayed 6F from CH\n"
-  },
-  {
-    "input": "3,1,DF",
-    "hit_level": "h,h,sp",
-    "damage": "12,10,0",
-    "startup": "",
+    "input": "3,​1,​DF",
+    "hit_level": "h,​h,​sp",
+    "damage": "12,​10,​0",
+    "startup": "i14",
     "block": "",
     "hit": "",
     "counter": "",
     "note": ""
+  },
+  {
+    "input": "3,​1,​4",
+    "hit_level": "h,​h,​m",
+    "damage": "12,​10,​17",
+    "startup": "i14",
+    "block": "-6",
+    "hit": "+8",
+    "counter": "KND",
+    "note": "Combo from 2nd CH\nCan be delayed 14F\nCombo can be delayed 6F from CH"
   },
   {
     "input": "4",
@@ -182,221 +212,241 @@
   {
     "input": "4~3",
     "hit_level": "mm",
-    "damage": "18,25",
+    "damage": "18,​25",
     "startup": "i31",
     "block": "-10",
     "hit": "KND",
     "counter": "KND",
-    "note": "Alternate input: uf+4~3"
+    "note": ""
   },
   {
-    "input": "b+1",
-    "hit_level": "h",
-    "damage": "10",
-    "startup": "i11",
-    "block": "-10",
-    "hit": "+1",
+    "input": "1+2",
+    "hit_level": "mm",
+    "damage": "5,​20",
+    "startup": "i12",
+    "block": "-13",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "f+2",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i20",
+    "block": "-12",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "absorb an attack to power up\n- Add chip damage when guarded\n"
+  },
+  {
+    "input": "f+3",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i17",
+    "block": "-13",
+    "hit": "+5",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "f+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i19~20",
+    "block": "+4c",
+    "hit": "+7c",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "f+1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i25",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Parries high and mid punches"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "df+1",
+    "hit_level": "m",
+    "damage": "11",
+    "startup": "i15~16",
+    "block": "-7",
+    "hit": "+9",
     "counter": "",
     "note": ""
   },
   {
-    "input": "b+1+2",
+    "input": "df+1,​2",
+    "hit_level": "m,​h",
+    "damage": "11,​20",
+    "startup": "i15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "H.df+1,​2,​F",
+    "hit_level": "m,​h",
+    "damage": "11,​20",
+    "startup": "i15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
+  },
+  {
+    "input": "df+1,​df+2",
+    "hit_level": "m,​m",
+    "damage": "11,​22",
+    "startup": "i15",
+    "block": "",
+    "hit": "+?c",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+1,​4",
+    "hit_level": "m,​h",
+    "damage": "11,​20",
+    "startup": "i15",
+    "block": "-3",
+    "hit": "+18Sp",
+    "counter": "",
+    "note": "Combo from 1st hit"
+  },
+  {
+    "input": "df+2",
     "hit_level": "m",
-    "damage": "21",
-    "startup": "i22",
+    "damage": "22",
+    "startup": "i14",
     "block": "-12",
     "hit": "+5",
     "counter": "KND",
-    "note": "\n* Heat Engager\n* Chip damage when guarded"
+    "note": "Crumple stun +13F after CH"
   },
   {
-    "input": "b+1,2",
-    "hit_level": "h,m",
-    "damage": "10,20",
-    "startup": "",
-    "block": "-14",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n* Combo from 1st hit\n* Can be delayed 14F\n* Combo can be delayed 10F from hit\n"
-  },
-  {
-    "input": "b+1+4",
-    "hit_level": "ub(m)",
-    "damage": "60",
-    "startup": "i63",
-    "block": "LNC",
-    "hit": "LNC",
-    "counter": "LNC",
-    "note": ""
-  },
-  {
-    "input": "b+2",
+    "input": "df+3",
     "hit_level": "m",
-    "damage": "12",
-    "startup": "i14",
-    "block": "-8",
-    "hit": "+4",
+    "damage": "13",
+    "startup": "i18",
+    "block": "-7",
+    "hit": "+9",
     "counter": "",
     "note": ""
   },
   {
-    "input": "b+2,2",
-    "hit_level": "m,m",
-    "damage": "12,14",
-    "startup": "",
+    "input": "df+3,​2",
+    "hit_level": "m,​m",
+    "damage": "13,​15",
+    "startup": "i18",
+    "block": "-11",
+    "hit": "+5",
+    "counter": "",
+    "note": "Combo from 1st hit\nCan be delayed 10F\nCombo can be delayed 10F from hit"
+  },
+  {
+    "input": "df+3,​2,​1",
+    "hit_level": "m,​m,​m",
+    "damage": "13,​15,​21",
+    "startup": "i18",
+    "block": "-18",
+    "hit": "KND",
+    "counter": "+24",
+    "note": "Combo from 2nd CH\nCan be delayed 16F"
+  },
+  {
+    "input": "df+3,​2,​1*",
+    "hit_level": "m,​m,​m",
+    "damage": "13,​15,​25",
+    "startup": "i18",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i13~14",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+4,​4",
+    "hit_level": "m,​m",
+    "damage": "10,​16",
+    "startup": "i13~14",
+    "block": "-15",
+    "hit": "-4c",
+    "counter": "",
+    "note": "Combo from 1st hit\nCan be delayed 11F\nCombo can be delayed 11F from hit"
+  },
+  {
+    "input": "df+3+4",
+    "hit_level": "mh",
+    "damage": "7,​9",
+    "startup": "i18",
     "block": "",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "b+2,2,1+2",
-    "hit_level": "m,m,h",
-    "damage": "12,14,20",
-    "startup": "",
-    "block": "",
-    "hit": "KND",
-    "counter": "",
-    "note": "\n* Chip damage when guarded\n"
-  },
-  {
-    "input": "b+2,4",
-    "hit_level": "m,h",
-    "damage": "12,12",
-    "startup": "",
-    "block": "-3",
-    "hit": "+8",
-    "counter": "",
-    "note": "\n* Combo from 1st hit\n* Can be delayed 10F\n* Combo can be delayed 5F from hit\n"
-  },
-  {
-    "input": "b+2,4,1",
-    "hit_level": "m,h,m",
-    "damage": "12,12,22",
-    "startup": "",
-    "block": "-14",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "Combo from 2nd CH"
-  },
-  {
-    "input": "b+3",
-    "hit_level": "h",
-    "damage": "15",
+    "input": "df+3+4,​1",
+    "hit_level": "mh,​m",
+    "damage": "7,​9,​15",
     "startup": "i18",
-    "block": "-8",
-    "hit": "+3",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "b+3,1",
-    "hit_level": "h,h",
-    "damage": "15,10",
-    "startup": "",
-    "block": "+0",
-    "hit": "+6",
-    "counter": "",
-    "note": "Combo from 1st hit"
-  },
-  {
-    "input": "b+3,1,4",
-    "hit_level": "h,h,l",
-    "damage": "15,10,10",
-    "startup": "",
-    "block": "-10",
-    "hit": "+7",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "b+3,1,4,1",
-    "hit_level": "h,h,l,m",
-    "damage": "15,10,10,15",
-    "startup": "",
-    "block": "-14",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "b+3,1,4,3",
-    "hit_level": "h,h,l,l",
-    "damage": "15,10,10,12",
-    "startup": "",
-    "block": "-13",
-    "hit": "+1",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "b+4",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i17",
-    "block": "-5",
-    "hit": "+16Sp",
-    "counter": "KND",
-    "note": "\n* Homing\n* Heat Engager"
-  },
-  {
-    "input": "(back to wall).b,b,ub",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i29",
-    "block": "-1",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n* Air Status 5F\n"
-  },
-  {
-    "input": "BT.1",
-    "hit_level": "h",
-    "damage": "15",
-    "startup": "i8",
-    "block": "-8",
-    "hit": "+3",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "BT.3",
-    "hit_level": "h",
-    "damage": "18",
-    "startup": "i10",
-    "block": "-8",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "BT.d+1",
-    "hit_level": "sm",
-    "damage": "10",
-    "startup": "i10",
-    "block": "-2",
-    "hit": "+9",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "BT.d+3",
-    "hit_level": "l",
-    "damage": "12",
-    "startup": "i10",
-    "block": "-11",
-    "hit": "+3",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "BT.uf+3",
-    "hit_level": "m",
-    "damage": "-",
-    "startup": "",
     "block": "",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+3+4,​1,​2",
+    "hit_level": "mh,​m,​sm,​sm",
+    "damage": "7,​9,​15,​14,​25",
+    "startup": "i18",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
     "note": ""
   },
   {
@@ -407,27 +457,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n* Returns to standing when input F\n"
-  },
-  {
-    "input": "d+1+2",
-    "hit_level": "l",
-    "damage": "20",
-    "startup": "i23",
-    "block": "-14",
-    "hit": "+3c",
-    "counter": "KND",
-    "note": "\n* "
-  },
-  {
-    "input": "d+1+2,B",
-    "hit_level": "l,sp",
-    "damage": "20,0",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
+    "note": "Returns to standing when input F"
   },
   {
     "input": "d+2",
@@ -460,6 +490,36 @@
     "note": ""
   },
   {
+    "input": "d+1+2",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i23",
+    "block": "-14",
+    "hit": "+3c",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "d+1+2,​B",
+    "hit_level": "l,​sp",
+    "damage": "20,​0",
+    "startup": "i23",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
     "input": "db+1",
     "hit_level": "m",
     "damage": "7",
@@ -470,14 +530,24 @@
     "note": ""
   },
   {
-    "input": "db+1,2",
-    "hit_level": "m,mm",
-    "damage": "7,8,15",
-    "startup": "",
+    "input": "db+1,​2",
+    "hit_level": "m,​mm",
+    "damage": "7,​8,​15",
+    "startup": "i13",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n* Heat Engager\n* Chip damage when guarded\n"
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "H.db+1,​2,​F",
+    "hit_level": "m,​mm",
+    "damage": "7,​8,​15",
+    "startup": "i13",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
   },
   {
     "input": "db+2",
@@ -487,7 +557,7 @@
     "block": "-9c",
     "hit": "+?c",
     "counter": "KND",
-    "note": "\n"
+    "note": ""
   },
   {
     "input": "db+3",
@@ -497,7 +567,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "+7c",
-    "note": "\n"
+    "note": ""
   },
   {
     "input": "db+4",
@@ -510,323 +580,373 @@
     "note": ""
   },
   {
-    "input": "df+1",
-    "hit_level": "m",
-    "damage": "11",
-    "startup": "i15~16",
-    "block": "-7",
-    "hit": "+9",
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "b+1",
+    "hit_level": "h",
+    "damage": "10",
+    "startup": "i11",
+    "block": "-10",
+    "hit": "+1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+1,2",
-    "hit_level": "m,h",
-    "damage": "11,20",
-    "startup": "i15",
+    "input": "b+1,​2",
+    "hit_level": "h,​m",
+    "damage": "10,​20",
+    "startup": "i11",
+    "block": "-14",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Combo from 1st hit\nCan be delayed 14F\nCombo can be delayed 10F from hit"
+  },
+  {
+    "input": "b+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i14",
+    "block": "-8",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+2,​2",
+    "hit_level": "m,​m",
+    "damage": "12,​14",
+    "startup": "i14",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n* Heat Engager\n* Chip damage when guarded\n"
+    "note": ""
   },
   {
-    "input": "df+1,4",
-    "hit_level": "m,h",
-    "damage": "11,20",
-    "startup": "",
-    "block": "-3",
-    "hit": "+18Sp",
-    "counter": "",
-    "note": "\n* Combo from 1st hit\n"
-  },
-  {
-    "input": "df+1,df+2",
-    "hit_level": "m,m",
-    "damage": "11,22",
-    "startup": "",
-    "block": "",
-    "hit": "+?c",
-    "counter": "",
-    "note": "\n* Tornado\n"
-  },
-  {
-    "input": "df+2",
-    "hit_level": "m",
-    "damage": "22",
+    "input": "b+2,​2,​1+2",
+    "hit_level": "m,​m,​h",
+    "damage": "12,​14,​20",
     "startup": "i14",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "b+2,​4",
+    "hit_level": "m,​h",
+    "damage": "12,​12",
+    "startup": "i14",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "",
+    "note": "Combo from 1st hit\nCan be delayed 10F\nCombo can be delayed 5F from hit"
+  },
+  {
+    "input": "b+2,​4,​1",
+    "hit_level": "m,​h,​m",
+    "damage": "12,​12,​22",
+    "startup": "i14",
+    "block": "-14",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "b+3",
+    "hit_level": "h",
+    "damage": "15",
+    "startup": "i18",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+3,​1",
+    "hit_level": "h,​h",
+    "damage": "15,​10",
+    "startup": "i18",
+    "block": "+0",
+    "hit": "+6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+3,​1,​4",
+    "hit_level": "h,​h,​l",
+    "damage": "15,​10,​10",
+    "startup": "i18",
+    "block": "-10",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+3,​1,​4,​1",
+    "hit_level": "h,​h,​l,​m",
+    "damage": "15,​10,​10,​15",
+    "startup": "i18",
+    "block": "-14",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "b+3,​1,​4,​3",
+    "hit_level": "h,​h,​l,​l",
+    "damage": "15,​10,​10,​12",
+    "startup": "i18",
+    "block": "-13",
+    "hit": "+1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+4",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i17",
+    "block": "-5",
+    "hit": "+16Sp",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "H.b+4,​F",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i17",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Shift to Devil Form on Heat Activation"
+  },
+  {
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i22",
     "block": "-12",
     "hit": "+5",
     "counter": "KND",
-    "note": "\n* Homing\n* Crumple stun +13F after CH"
+    "note": "Chip damage when guarded"
   },
   {
-    "input": "df+3",
+    "input": "H.b+1+2,​F",
     "hit_level": "m",
-    "damage": "13",
-    "startup": "i18",
-    "block": "-7",
-    "hit": "+9",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "df+3,2",
-    "hit_level": "m,m",
-    "damage": "13,15",
-    "startup": "",
-    "block": "-11",
-    "hit": "+5",
-    "counter": "",
-    "note": "\n* Combo from 1st hit\n* Can be delayed 10F\n* Combo can be delayed 10F from hit\n"
-  },
-  {
-    "input": "df+3,2,1",
-    "hit_level": "m,m,m",
-    "damage": "13,15,21",
-    "startup": "",
-    "block": "-18",
-    "hit": "KND",
-    "counter": "+24",
-    "note": "\n* Tornado\n* Combo from 2nd CH\n* Can be delayed 16F\n"
-  },
-  {
-    "input": "df+3,2,1*",
-    "hit_level": "m,m,m",
-    "damage": "13,15,25",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Tornado\n* Chip damage when guarded\n"
-  },
-  {
-    "input": "df+3+4",
-    "hit_level": "mh",
-    "damage": "7,9",
-    "startup": "i18",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "df+3+4,1",
-    "hit_level": "mh,m",
-    "damage": "7,9,15",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "df+3+4,1,2",
-    "hit_level": "mh,m,sm,sm",
-    "damage": "7,9,15,14,25",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Chip damage when guarded\n"
-  },
-  {
-    "input": "df+4",
-    "hit_level": "m",
-    "damage": "10",
-    "startup": "i13~14",
-    "block": "-9",
-    "hit": "+2",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "df+4,4",
-    "hit_level": "m,m",
-    "damage": "10,16",
-    "startup": "",
-    "block": "-15",
-    "hit": "-4c",
-    "counter": "",
-    "note": "\n* Combo from 1st hit\n* Can be delayed 11F\n* Combo can be delayed 11F from hit\n"
-  },
-  {
-    "input": "DVK.1,1,2,F",
-    "hit_level": "h,h,m,th",
-    "damage": "5,6,12,8",
-    "startup": "i10",
-    "block": "",
-    "hit": "Th",
-    "counter": "",
-    "note": "\n* Partially uses remaining Heat time\n"
-  },
-  {
-    "input": "DVK.1+4",
-    "hit_level": "m",
-    "damage": "27",
+    "damage": "21",
     "startup": "i22",
     "block": "",
-    "hit": "KND",
+    "hit": "",
     "counter": "",
-    "note": "\n* Tornado\n* Partially uses remaining Heat time\n* absorb an attack to power up\n"
+    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
   },
   {
-    "input": "DVK.3+4",
+    "input": "b+1+4",
     "hit_level": "ub(m)",
-    "damage": "30",
-    "startup": "i64",
-    "block": "KND",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n* Partially uses remaining Heat time\n"
-  },
-  {
-    "input": "DVK.db+3+4",
-    "hit_level": "l",
-    "damage": "0",
-    "startup": "i24",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Partially uses remaining Heat time\n"
-  },
-  {
-    "input": "DVK.db+3+4,DF",
-    "hit_level": "l,sp",
-    "damage": "0,0",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Partially uses remaining Heat time\n"
-  },
-  {
-    "input": "DVK.f,F+2",
-    "hit_level": "m,th",
-    "damage": "20,20",
-    "startup": "i16",
-    "block": "",
-    "hit": "Th",
-    "counter": "",
-    "note": "\n* Partially uses remaining Heat time\n"
-  },
-  {
-    "input": "DVK.f,n,d,df+1",
-    "hit_level": "m,th",
-    "damage": "23,15",
-    "startup": "i20",
-    "block": "",
-    "hit": "Th",
-    "counter": "",
-    "note": "\n* Partially uses remaining Heat time\n* On hit, does not shift to throw with n\n"
-  },
-  {
-    "input": "DVK.f,n,d,df+3",
-    "hit_level": "h,th",
-    "damage": "30,15",
-    "startup": "i20",
-    "block": "",
-    "hit": "Th",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "DVK.f,n,d,df+4,1,1",
-    "hit_level": "l,m,m,th",
-    "damage": "15,23,16,15",
-    "startup": "i16",
-    "block": "",
-    "hit": "Th",
-    "counter": "",
-    "note": "\n* Partially uses remaining Heat time\n"
-  },
-  {
-    "input": "DVK.f,n,d,df+4,1,1,B",
-    "hit_level": "l,m,m,th,sp",
-    "damage": "15,23,16,15,0",
-    "startup": "i16",
-    "block": "-17",
+    "damage": "60",
+    "startup": "i63",
+    "block": "LNC",
     "hit": "LNC",
     "counter": "LNC",
     "note": ""
   },
   {
-    "input": "DVK.OTG.db+1+2",
-    "hit_level": "l",
-    "damage": "20",
-    "startup": "i24",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Partially uses remaining Heat time\n"
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
   },
   {
-    "input": "DVK.SS.2",
+    "input": "ub+1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i18",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": "Alternate input:\nu+1\nuf+1u+1\nuf+1"
+  },
+  {
+    "input": "ub+2",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+9",
+    "counter": "",
+    "note": "Alternate input:\nu+2\nuf+2u+2\nuf+2"
+  },
+  {
+    "input": "ub+3",
     "hit_level": "m",
     "damage": "25",
-    "startup": "i17",
-    "block": "-22",
-    "hit": "LNC",
-    "counter": "LNC",
-    "note": "\n* Partially uses remaining Heat time\n* Tornado\n"
+    "startup": "i21",
+    "block": "-17",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
   },
   {
-    "input": "DVK.ub+1+2",
-    "hit_level": "ub(h)",
-    "damage": "40",
+    "input": "u+3",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i19",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "ub,​4",
+    "hit_level": "m",
+    "damage": "11",
+    "startup": "i15",
+    "block": "-19",
+    "hit": "-8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ub+1+2",
+    "hit_level": "h",
+    "damage": "32",
     "startup": "i41",
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n* Partially uses remaining Heat time\n* Jack-8 or Alisa can recovery 20 by input 1+2\n"
+    "note": "Chip damage when guarded\nJack-8 or Alisa can recovery 20 by input 1+2"
   },
   {
-    "input": "DVK.uf+1+2",
-    "hit_level": "ub(h)",
-    "damage": "26",
-    "startup": "i22",
+    "input": "uf+4",
+    "hit_level": "m",
+    "damage": "16",
+    "startup": "i25",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "uf+4,​4",
+    "hit_level": "m,​l",
+    "damage": "16,​12",
+    "startup": "i25",
+    "block": "-23",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "uf+4,​4,​4",
+    "hit_level": "m,​l,​l",
+    "damage": "16,​12,​10",
+    "startup": "i25",
+    "block": "-23",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "uf+4,​4,​4,​4",
+    "hit_level": "m,​l,​l,​m",
+    "damage": "16,​12,​10,​20",
+    "startup": "i25",
+    "block": "-17",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "uf,​n,​4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i23",
+    "block": "-11",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "f,​F+2",
+    "hit_level": "m",
+    "damage": "20(,​15)",
+    "startup": "i16",
+    "block": "-12",
+    "hit": "Th",
+    "counter": "Th",
+    "note": "Damage () is damage bonus when throw"
+  },
+  {
+    "input": "H.f,​F+2,​F",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i16",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: DVK.u+1+2"
+    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
   },
   {
-    "input": "f+1+2",
+    "input": "f,​F+3",
     "hit_level": "m",
-    "damage": "20",
-    "startup": "i25",
-    "block": "-9",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n* Parries high and mid punches\n"
-  },
-  {
-    "input": "f+2",
-    "hit_level": "m",
-    "damage": "23",
+    "damage": "25",
     "startup": "i20",
-    "block": "-12",
+    "block": "-3c",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n* absorb an attack to power up\n*  - Add chip damage when guarded\n* Tornado\n"
+    "note": ""
   },
   {
-    "input": "f+3",
+    "input": "f,​F+4",
     "hit_level": "m",
     "damage": "22",
-    "startup": "i17",
-    "block": "-13",
+    "startup": "i17~18",
+    "block": "-9",
     "hit": "+5",
     "counter": "KND",
     "note": ""
   },
   {
-    "input": "f+4",
+    "input": "f,​f,​F+3",
     "hit_level": "m",
-    "damage": "20",
-    "startup": "i19~20",
-    "block": "+4c",
-    "hit": "+7c",
+    "damage": "30",
+    "startup": "i22~25",
+    "block": "+9",
+    "hit": "KND",
     "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
     "note": ""
   },
   {
@@ -837,7 +957,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n* Returns to standing when input F\n"
+    "note": "Returns to standing when input F"
   },
   {
     "input": "FC.2",
@@ -877,376 +997,16 @@
     "block": "-11c",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n"
-  },
-  {
-    "input": "f,(even numbers frames).n",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
     "note": ""
   },
   {
-    "input": "f,F+2",
-    "hit_level": "m",
-    "damage": "20(,15)",
-    "startup": "i16",
-    "block": "-12",
-    "hit": "Th",
-    "counter": "Th",
-    "note": "\n* Heat Engager\n* Damage () is damage bonus when throw\n"
-  },
-  {
-    "input": "f,F+3",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i20",
-    "block": "-3c",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n"
-  },
-  {
-    "input": "f,F+4",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i17~18",
-    "block": "-9",
-    "hit": "+5",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "f,f,F+3",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i22~25",
-    "block": "+9",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "Chip damage when guarded"
-  },
-  {
-    "input": "f,n,d,DF",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Cannot be buffered\n* Cost 3F\n"
-  },
-  {
-    "input": "f,n,d,df+1",
-    "hit_level": "m",
-    "damage": "23",
-    "startup": "i20",
-    "block": "-16",
-    "hit": "LNC",
-    "counter": "LNC",
-    "note": "\n* Tornado\n* Meaty 1F in actuality\n"
-  },
-  {
-    "input": "f,n,d,df+1+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i24",
-    "block": "",
-    "hit": "KND",
-    "counter": "",
-    "note": "\n* Tornado\n* Chip damage when guarded\n"
-  },
-  {
-    "input": "f,n,d,df+2",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i11",
-    "block": "-10",
-    "hit": "LNC",
-    "counter": "LNC",
-    "note": "Becomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)"
-  },
-  {
-    "input": "f,n,d,df:2",
-    "hit_level": "h",
-    "damage": "23",
-    "startup": "i11",
-    "block": "+5",
-    "hit": "LNC",
-    "counter": "LNC",
-    "note": "\n* Chip damage when guarded\n* Total 36F on block or hit\n"
-  },
-  {
-    "input": "f,n,d,df+3",
-    "hit_level": "h",
-    "damage": "30",
-    "startup": "i20~29",
-    "block": "-9",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "f,n,d,df+4",
-    "hit_level": "l",
-    "damage": "15",
-    "startup": "i16",
-    "block": "-23",
-    "hit": "-3c",
-    "counter": "KND",
-    "note": "\n* Disable 2nd from 1st block\n* 2nd input force to down\n"
-  },
-  {
-    "input": "f,n,d,df+4,1",
-    "hit_level": "l,m",
-    "damage": "15,23",
-    "startup": "",
-    "block": "-16",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "f,n,d,df+4,4",
-    "hit_level": "l,h",
-    "damage": "1515,25",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f,n,DF",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Cannot be buffered\n* Connect to Wind God Step\n* Cost: 2F\n"
-  },
-  {
-    "input": "f,(odd numbers frames).n",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "H.2+3",
-    "hit_level": "l,m,th",
-    "damage": "12,20,34",
-    "startup": "i18",
-    "block": "",
-    "hit": "Th",
-    "counter": "Th",
-    "note": "\n* Heat Smash\n* Alternate input: R1\n"
-  },
-  {
-    "input": "H.b+1+2,F",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i22",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Chip damage when guarded\n* Shift to Devil Form on Heat Activation\n"
-  },
-  {
-    "input": "H.b+4,F",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i17",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Homing\n* Shift to Devil Form on Heat Activation\n"
-  },
-  {
-    "input": "H.db+1,2,F",
-    "hit_level": "m,mm",
-    "damage": "7,8,15",
-    "startup": "i13",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Chip damage when guarded\n* Shift to Devil Form on Heat Activation\n"
-  },
-  {
-    "input": "H.df+1,2,F",
-    "hit_level": "m,h",
-    "damage": "11,20",
-    "startup": "i15",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Chip damage when guarded\n* Shift to Devil Form on Heat Activation\n"
-  },
-  {
-    "input": "H.f,F+2,F",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i16",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Chip damage when guarded\n* Shift to Devil Form on Heat Activation\n"
-  },
-  {
-    "input": "OTG.d+3+4",
-    "hit_level": "l",
-    "damage": "25",
-    "startup": "i23",
-    "block": "-12",
-    "hit": "-1",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "R.df+1+2",
-    "hit_level": "m,th",
-    "damage": "10,45",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\n* Erases opponent's recoverable health on hit\n* Alternate input: R2\n"
-  },
-  {
-    "input": "SS.1+2",
-    "hit_level": "h",
-    "damage": "25",
-    "startup": "i19",
-    "block": "-9",
-    "hit": "KND",
-    "counter": "KND*",
-    "note": "\n"
-  },
-  {
-    "input": "SS.3",
-    "hit_level": "m",
-    "damage": "23",
-    "startup": "i23",
-    "block": "-7",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "u+3",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i19",
-    "block": "-9",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "Alternate input: uf+3"
-  },
-  {
-    "input": "ub+1",
-    "hit_level": "m",
-    "damage": "12",
-    "startup": "i18",
-    "block": "-12",
-    "hit": "-1",
-    "counter": "",
-    "note": "\n* Alternate input:\n** u+1\n** uf+1"
-  },
-  {
-    "input": "ub+1+2",
-    "hit_level": "h",
-    "damage": "32",
-    "startup": "i41",
-    "block": "KND",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n* Chip damage when guarded\n* Jack-8 or Alisa can recovery 20 by input 1+2\n"
-  },
-  {
-    "input": "ub+2",
-    "hit_level": "h",
-    "damage": "17",
-    "startup": "i15",
-    "block": "-12",
-    "hit": "+9",
-    "counter": "",
-    "note": "\n* Alternate input:\n** u+2\n** uf+2"
-  },
-  {
-    "input": "ub+3",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i21",
-    "block": "-17",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "ub,4",
-    "hit_level": "m",
-    "damage": "11",
-    "startup": "i15",
-    "block": "-19",
-    "hit": "-8",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "uf+4",
-    "hit_level": "m",
-    "damage": "16",
-    "startup": "i25",
-    "block": "-12",
-    "hit": "-1",
-    "counter": "",
-    "note": "Alternate input: u+4"
-  },
-  {
-    "input": "uf+4,4",
-    "hit_level": "m,l",
-    "damage": "16,12",
-    "startup": "",
-    "block": "-23",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "Combo from 1st CH"
-  },
-  {
-    "input": "uf+4,4,4",
-    "hit_level": "m,l,l",
-    "damage": "16,12,10",
-    "startup": "",
-    "block": "-23",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "uf+4,4,4,4",
-    "hit_level": "m,l,l,m",
-    "damage": "16,12,10,20",
-    "startup": "",
-    "block": "-17",
-    "hit": "KND",
-    "counter": "KND",
-    "note": ""
-  },
-  {
-    "input": "uf,n,4",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i23",
-    "block": "-11",
-    "hit": "LNC",
-    "counter": "LNC",
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
     "note": ""
   },
   {
@@ -1260,24 +1020,14 @@
     "note": ""
   },
   {
-    "input": "ws1+2",
-    "hit_level": "m",
-    "damage": "25",
+    "input": "ws1,​2",
+    "hit_level": "m,​m",
+    "damage": "10,​12",
     "startup": "i13",
-    "block": "-9",
-    "hit": "+11g (+23w)",
-    "counter": "",
-    "note": "[[:Template:WallCrush]]"
-  },
-  {
-    "input": "ws1,2",
-    "hit_level": "m,m",
-    "damage": "10,12",
-    "startup": "",
     "block": "-12",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "\n* Combo from 1st hit\n* Tornado\n"
+    "note": "Combo from 1st hit\n"
   },
   {
     "input": "ws2",
@@ -1287,7 +1037,7 @@
     "block": "-18",
     "hit": "KND",
     "counter": "KND",
-    "note": "Homing"
+    "note": ""
   },
   {
     "input": "ws3",
@@ -1297,7 +1047,7 @@
     "block": "-5",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n* Homing\n* Meaty 1F in actuality"
+    "note": "Meaty 1F in actuality"
   },
   {
     "input": "ws4",
@@ -1310,13 +1060,523 @@
     "note": ""
   },
   {
-    "input": "ws4,4",
-    "hit_level": "m,m",
-    "damage": "13,16",
-    "startup": "",
+    "input": "ws4,​4",
+    "hit_level": "m,​m",
+    "damage": "13,​16",
+    "startup": "i11~12",
     "block": "-15",
     "hit": "-4c",
     "counter": "-4c",
-    "note": "\n* Combo from 1st hit\n"
+    "note": "Combo from 1st hit"
+  },
+  {
+    "input": "ws1+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "+11g (+23w)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "SS.3",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i23",
+    "block": "-7",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "SS.1+2",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i19",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND*",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "BT.1_2",
+    "hit_level": "h",
+    "damage": "15",
+    "startup": "i8",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.3_4",
+    "hit_level": "h",
+    "damage": "18",
+    "startup": "i10",
+    "block": "-8",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "BT.d+1_d+2",
+    "hit_level": "sm",
+    "damage": "10",
+    "startup": "i10",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.d+3_d+4",
+    "hit_level": "l",
+    "damage": "12",
+    "startup": "i10",
+    "block": "-11",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.uf+3_uf+4",
+    "hit_level": "m",
+    "damage": "-",
+    "startup": "i10",
+    "block": "",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "OTG.d+3+4",
+    "hit_level": "l",
+    "damage": "25",
+    "startup": "i23",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1+2+3+4",
+    "hit_level": "sp",
+    "damage": "-",
+    "startup": "i23",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Shift to charging"
+  },
+  {
+    "input": "(back to wall).b,​b,​ub",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i29",
+    "block": "-1",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Air Status 5F"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "f,​(odd numbers frames).n",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​(even numbers frames).n",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​n,​DF",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Cannot be buffered\nConnect to Wind God Step\nCost: 2F"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "f,​n,​d,​DF",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Cannot be buffered\nCost 3F"
+  },
+  {
+    "input": "f,​n,​d,​df+1",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i20",
+    "block": "-16",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": "Meaty 1F in actuality"
+  },
+  {
+    "input": "f,​n,​d,​df+2",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i11",
+    "block": "-10",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "f,​n,​d,​df:2",
+    "hit_level": "h",
+    "damage": "23",
+    "startup": "i11",
+    "block": "+5",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": "Chip damage when guarded\nTotal 36F on block or hit"
+  },
+  {
+    "input": "f,​n,​d,​df+3",
+    "hit_level": "h",
+    "damage": "30",
+    "startup": "i20~29",
+    "block": "-9",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "f,​n,​d,​df+4",
+    "hit_level": "l",
+    "damage": "15",
+    "startup": "i16",
+    "block": "-23",
+    "hit": "-3c",
+    "counter": "KND",
+    "note": "Disable 2nd from 1st block\n2nd input force to down"
+  },
+  {
+    "input": "f,​n,​d,​df+4,​1",
+    "hit_level": "l,​m",
+    "damage": "15,​23",
+    "startup": "i16",
+    "block": "-16",
+    "hit": "KND",
+    "counter": "KND",
+    "note": ""
+  },
+  {
+    "input": "f,​n,​d,​df+4,​4",
+    "hit_level": "l,​h",
+    "damage": "15,​25",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​n,​d,​df+1+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i24",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "DVK.1,​1,​2,​F",
+    "hit_level": "h,​h,​m,​th",
+    "damage": "5,​6,​12,​8",
+    "startup": "i10",
+    "block": "",
+    "hit": "Th",
+    "counter": "",
+    "note": "Partially uses remaining Heat time"
+  },
+  {
+    "input": "DVK.3+4",
+    "hit_level": "ub(m)",
+    "damage": "30",
+    "startup": "i64",
+    "block": "KND",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Partially uses remaining Heat time"
+  },
+  {
+    "input": "DVK.1+4",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i22",
+    "block": "",
+    "hit": "KND",
+    "counter": "",
+    "note": "Partially uses remaining Heat time\nabsorb an attack to power up"
+  },
+  {
+    "input": "DVK.db+3+4",
+    "hit_level": "l",
+    "damage": "0",
+    "startup": "i24",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Partially uses remaining Heat time"
+  },
+  {
+    "input": "DVK.db+3+4,​DF",
+    "hit_level": "l,​sp",
+    "damage": "0,​0",
+    "startup": "i24",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Partially uses remaining Heat time"
+  },
+  {
+    "input": "DVK.ub+1+2",
+    "hit_level": "ub(h)",
+    "damage": "40",
+    "startup": "i41",
+    "block": "KND",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "Partially uses remaining Heat time\nJack-8 or Alisa can recovery 20 by input 1+2"
+  },
+  {
+    "input": "DVK.uf+1+2",
+    "hit_level": "ub(h)",
+    "damage": "26",
+    "startup": "i22",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "DVK.f,​F+2",
+    "hit_level": "m,​th",
+    "damage": "20,​20",
+    "startup": "i16",
+    "block": "",
+    "hit": "Th",
+    "counter": "",
+    "note": "Partially uses remaining Heat time"
+  },
+  {
+    "input": "DVK.f,​n,​d,​df+1",
+    "hit_level": "m,​th",
+    "damage": "23,​15",
+    "startup": "i20",
+    "block": "",
+    "hit": "Th",
+    "counter": "",
+    "note": "Partially uses remaining Heat time\nOn hit, does not shift to throw with n"
+  },
+  {
+    "input": "DVK.f,​n,​d,​df+3",
+    "hit_level": "h,​th",
+    "damage": "30,​15",
+    "startup": "i20",
+    "block": "",
+    "hit": "Th",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "DVK.f,​n,​d,​df+4,​1,​1",
+    "hit_level": "l,​m,​m,​th",
+    "damage": "15,​23,​16,​15",
+    "startup": "i16",
+    "block": "",
+    "hit": "Th",
+    "counter": "",
+    "note": "Partially uses remaining Heat time"
+  },
+  {
+    "input": "DVK.f,​n,​d,​df+4,​1,​1,​B",
+    "hit_level": "l,​m,​m,​th,​sp",
+    "damage": "15,​23,​16,​15,​0",
+    "startup": "i16",
+    "block": "-17",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": ""
+  },
+  {
+    "input": "DVK.SS.2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i17",
+    "block": "-22",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": "Partially uses remaining Heat time\n"
+  },
+  {
+    "input": "DVK.OTG.db+1+2",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i24",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Partially uses remaining Heat time"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "1+3",
+    "hit_level": "th(h)",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "+0",
+    "hit": "",
+    "counter": "",
+    "note": "Throw break 1 or 2\nRecovers BT on break"
+  },
+  {
+    "input": "2+4",
+    "hit_level": "th(h)",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "+0",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Left throw",
+    "hit_level": "th(h)",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "+1",
+    "counter": "",
+    "note": "Throw break 1"
+  },
+  {
+    "input": "Right throw",
+    "hit_level": "th(h)",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "-4d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Back throw",
+    "hit_level": "th(h)",
+    "damage": "50",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "+3d",
+    "counter": "",
+    "note": "Break: none"
+  },
+  {
+    "input": "uf+1+2",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12",
+    "block": "+0",
+    "hit": "+26d (+8)",
+    "counter": "",
+    "note": "Alternate input f,F+1+2\nThrow break 1+2\nSide switch on break\n15 additional damage on wall hit"
+  },
+  {
+    "input": "FC.db+1+2",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12",
+    "block": "-6",
+    "hit": "-3d",
+    "counter": "",
+    "note": ""
   }
 ]

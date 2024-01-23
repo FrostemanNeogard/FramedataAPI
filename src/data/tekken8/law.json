@@ -1,0 +1,1852 @@
+[
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "12 (12)",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2c",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "H.2+3",
+    "hit_level": "m,​t",
+    "damage": "24,​4,​5,​5,​5,​7 (50)",
+    "startup": "i14",
+    "block": "+11g",
+    "hit": "+5",
+    "counter": "",
+    "note": "Automatically transitions to DSS on block"
+  },
+  {
+    "input": "1,​1,​1",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​5,​20",
+    "startup": "i20",
+    "block": "-12",
+    "hit": "+41d (-17)",
+    "counter": "",
+    "note": "Template:HeatDash\nCombos from 1st or 2nd hit CH\n"
+  },
+  {
+    "input": "b+1,​2,​2",
+    "hit_level": "m,​m,​m",
+    "damage": "12,​12,​22",
+    "startup": "i18",
+    "block": "-14",
+    "hit": "+12a (+5)",
+    "counter": "",
+    "note": "Template:HeatDash\nCombos from 1st or 2nd hit CH\nDelay-able "
+  },
+  {
+    "input": "uf+3",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18",
+    "block": "-8",
+    "hit": "+42d (-16)",
+    "counter": "",
+    "note": "Template:HeatDash\n"
+  },
+  {
+    "input": "f,​F+3",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i20",
+    "block": "-13",
+    "hit": "+18d (+8)",
+    "counter": "",
+    "note": "Template:HeatDash\nAlternate input DSS.f+3 "
+  },
+  {
+    "input": "DSS.f+1",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "+39d (-19)",
+    "counter": "",
+    "note": "Template:HeatDash\nChip damage on block "
+  },
+  {
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i16",
+    "block": "-13",
+    "hit": "+12a (+5)",
+    "counter": "+66a (+50)",
+    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
+  },
+  {
+    "input": "H.d+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Enters DSS\nTransition to Slide Step with DF\nAbsorbs punch attacks and shifts to Dragon Parry "
+  },
+  {
+    "input": "b+2+4",
+    "hit_level": "t",
+    "damage": "34 (38 Heat)",
+    "startup": "i16",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Punches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "R.df+1+2",
+    "hit_level": "m,​t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0",
+    "counter": "",
+    "note": "Rage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "1",
+    "hit_level": "h",
+    "damage": "5",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,​1",
+    "hit_level": "h,​h",
+    "damage": "5,​5",
+    "startup": "i18",
+    "block": "-8",
+    "hit": "-6",
+    "counter": "+6",
+    "note": ""
+  },
+  {
+    "input": "1,​1,​1",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​5,​20",
+    "startup": "i20",
+    "block": "-12",
+    "hit": "+41d (-17)",
+    "counter": "",
+    "note": "Template:HeatDash\nCombos from 1st or 2nd hit CH\n"
+  },
+  {
+    "input": "1,​1,​2",
+    "hit_level": "h,​h,​h",
+    "damage": "5,​5,​12",
+    "startup": "i17",
+    "block": "-6",
+    "hit": "+6",
+    "counter": "",
+    "note": "Transition to DSS with F\n(-5 oB, +7 oH) (-5 oB, +7 oH) "
+  },
+  {
+    "input": "1,​2",
+    "hit_level": "h,​h",
+    "damage": "5,​8",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "+6",
+    "counter": "+6",
+    "note": "Jails from 1st attack\nCombos from 1st hit"
+  },
+  {
+    "input": "1,​2,​2",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​8,​10",
+    "startup": "i20",
+    "block": "-8",
+    "hit": "+4",
+    "counter": "+4",
+    "note": ""
+  },
+  {
+    "input": "1,​2,​2,​2",
+    "hit_level": "h,​h,​m,​h",
+    "damage": "5,​8,​10,​15",
+    "startup": "i20",
+    "block": "-9",
+    "hit": "+4",
+    "counter": "+9d",
+    "note": "Combos from 1st or 3rd hit CH\nDelay-able\nTransition to DSS with F\n(-3 oB, +10g oH, +15d CH)(-3 oB, +10g oH, +15d CH)"
+  },
+  {
+    "input": "1,​2,​2,​1+2",
+    "hit_level": "h,​h,​m,​m",
+    "damage": "5,​8,​10,​23",
+    "startup": "i19",
+    "block": "-13",
+    "hit": "+5a (-4)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,​2,​3",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​8,​10",
+    "startup": "i15",
+    "block": "-5",
+    "hit": "+13 (+24g wallcrush)",
+    "counter": "",
+    "note": "Combos from 1st hit CH\nJails from 1st attack"
+  },
+  {
+    "input": "1,​2,​uf+3",
+    "hit_level": "h,​h,​Special",
+    "damage": "",
+    "startup": "i15",
+    "block": "-20",
+    "hit": "-11",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,​2,​uf+3,​4",
+    "hit_level": "h,​h,​Special,​m",
+    "damage": "20",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+31a (+21)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2",
+    "hit_level": "h",
+    "damage": "8",
+    "startup": "i10",
+    "block": "+0",
+    "hit": "+6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2,​2",
+    "hit_level": "h,​m",
+    "damage": "8,​10",
+    "startup": "i20",
+    "block": "-8",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2,​2,​2",
+    "hit_level": "h,​m,​h",
+    "damage": "8,​10,​10",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "+4",
+    "counter": "+9d",
+    "note": "Combos from 2nd hit\nTransition to DSS with F\n(-3 oB, +10g oH, +15d)(-3 oB, +10g oH, +15d)"
+  },
+  {
+    "input": "2,​2,​1+2",
+    "hit_level": "h,​m,​m",
+    "damage": "8,​10,​20",
+    "startup": "i19",
+    "block": "-13",
+    "hit": "+5a (-4)",
+    "counter": "",
+    "note": "Combos from 2nd hit CH\nDelay-able"
+  },
+  {
+    "input": "2,​b+2",
+    "hit_level": "h,​h",
+    "damage": "8,​8",
+    "startup": "i17",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": "Combos from 1st hit\nDelay-able"
+  },
+  {
+    "input": "2,​b+2,​1",
+    "hit_level": "h,​h,​h",
+    "damage": "8,​8,​8",
+    "startup": "i23",
+    "block": "-3",
+    "hit": "+3",
+    "counter": "",
+    "note": "Combos from 2nd hit CH\nDelay-able"
+  },
+  {
+    "input": "2,​b+2,​1,​2",
+    "hit_level": "h,​h,​h,​m",
+    "damage": "8,​8,​8,​21",
+    "startup": "i20",
+    "block": "-3",
+    "hit": "+20a",
+    "counter": "+55a",
+    "note": "Combos from 3rd hit CH\nDelay-able\nTransition to FC with D"
+  },
+  {
+    "input": "3",
+    "hit_level": "h",
+    "damage": "12",
+    "startup": "i12",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "3,​3",
+    "hit_level": "h,​m",
+    "damage": "12,​17",
+    "startup": "i27",
+    "block": "-14",
+    "hit": "-3",
+    "counter": "+53a (+22)",
+    "note": "Combos from 1st hit CH\nDelay-able"
+  },
+  {
+    "input": "3,​4",
+    "hit_level": "h,​h",
+    "damage": "12,​20",
+    "startup": "i22",
+    "block": "-10",
+    "hit": "+19a (+10)",
+    "counter": "",
+    "note": "Combos from 1st hit\n"
+  },
+  {
+    "input": "4",
+    "hit_level": "h",
+    "damage": "15",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "4,​3",
+    "hit_level": "h,​h",
+    "damage": "15,​12",
+    "startup": "i18",
+    "block": "-8",
+    "hit": "+1",
+    "counter": "+23a",
+    "note": "Combos from 1st hit\nTransition to DSS with F\n(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4"
+  },
+  {
+    "input": "4,​3,​4",
+    "hit_level": "h,​h,​h",
+    "damage": "15,​12,​14",
+    "startup": "i20",
+    "block": "-6",
+    "hit": "-1",
+    "counter": "+31a (+24)",
+    "note": "Combos off of 1st hit CH\nTransition to DSS with F\n(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4"
+  },
+  {
+    "input": "4,​u+3",
+    "hit_level": "h,​m",
+    "damage": "15,​23",
+    "startup": "i33",
+    "block": "-1",
+    "hit": "+30a (+13)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i16",
+    "block": "-13",
+    "hit": "+12a (+5)",
+    "counter": "+66a (+50)",
+    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
+  },
+  {
+    "input": "3+4",
+    "hit_level": "m,​m",
+    "damage": "5,​10",
+    "startup": "i14",
+    "block": "-13",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "3+4,​4",
+    "hit_level": "m,​m,​h",
+    "damage": "5,​10,​25",
+    "startup": "i30",
+    "block": "+7 (+10g wallcrush)",
+    "hit": "+31d (-27)",
+    "counter": "",
+    "note": "Combos from 1st hit\nWallcrush on block\nChip damage on block\nAlternate input DSS.3+4,4"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "f+2",
+    "hit_level": "h",
+    "damage": "10",
+    "startup": "i12",
+    "block": "+0",
+    "hit": "+6",
+    "counter": "",
+    "note": "Can route into:\nRave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)\nAlternate input DSS.f+2Rave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)"
+  },
+  {
+    "input": "f+2~1",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i19",
+    "block": "+2",
+    "hit": "+30a (+4)",
+    "counter": "",
+    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input DSS.f+2~1(+5 oB, +33a (+7))"
+  },
+  {
+    "input": "f+3",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i18",
+    "block": "-10",
+    "hit": "+1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+3,​1",
+    "hit_level": "m,​m",
+    "damage": "10,​12",
+    "startup": "i20",
+    "block": "-2",
+    "hit": "+8",
+    "counter": "",
+    "note": "Transition to DSS with F\n(+4 oB, +14g) (+4 oB, +14g) "
+  },
+  {
+    "input": "f+1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i20",
+    "block": "+3c",
+    "hit": "+8c",
+    "counter": "+55a",
+    "note": ""
+  },
+  {
+    "input": "f+3+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i25",
+    "block": "-2",
+    "hit": "+7c",
+    "counter": "+49a",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "df+1",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i13",
+    "block": "-1",
+    "hit": "+5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+1,​3",
+    "hit_level": "m,​l",
+    "damage": "10,​6",
+    "startup": "i20",
+    "block": "-16",
+    "hit": "-5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+1,​3,​2",
+    "hit_level": "m,​l,​m",
+    "damage": "10,​6,​6",
+    "startup": "i28",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i15",
+    "block": "-7",
+    "hit": "+34a (+24)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+3",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i21",
+    "block": "-13",
+    "hit": "+52a (+21)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i13",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+4,​3",
+    "hit_level": "m,​m",
+    "damage": "15,​23",
+    "startup": "i29",
+    "block": "-14",
+    "hit": "+68a (+52)",
+    "counter": "",
+    "note": "Combos from 1st hit CH "
+  },
+  {
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i13",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "df+3+4",
+    "hit_level": "l",
+    "damage": "12",
+    "startup": "i18",
+    "block": "-15",
+    "hit": "+4c",
+    "counter": "+6a",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "d+1",
+    "hit_level": "l",
+    "damage": "15",
+    "startup": "i21",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+1,​3",
+    "hit_level": "l,​h",
+    "damage": "15,​21",
+    "startup": "i24",
+    "block": "-9",
+    "hit": "+20a (+11)",
+    "counter": "+65a (+45)",
+    "note": "Tornado on CH"
+  },
+  {
+    "input": "d+2",
+    "hit_level": "s",
+    "damage": "8",
+    "startup": "i11",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+2,​3",
+    "hit_level": "s,​m",
+    "damage": "821",
+    "startup": "i23",
+    "block": "-15",
+    "hit": "+30a (+20)",
+    "counter": "",
+    "note": "Combos from 1st hit CH\n"
+  },
+  {
+    "input": "d+3",
+    "hit_level": "l",
+    "damage": "8",
+    "startup": "i16",
+    "block": "-14",
+    "hit": "-3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+3,​3",
+    "hit_level": "l,​h",
+    "damage": "8,​17",
+    "startup": "i16",
+    "block": "-7",
+    "hit": "+20a",
+    "counter": "+46CS",
+    "note": "Combos from 1st hit CH\nDelay-able "
+  },
+  {
+    "input": "d+4",
+    "hit_level": "l",
+    "damage": "7",
+    "startup": "i15",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+4,​3",
+    "hit_level": "l,​h",
+    "damage": "712",
+    "startup": "i12",
+    "block": "-12",
+    "hit": "+0",
+    "counter": "+5",
+    "note": "Combos from 1st hit\nNosebleed stun "
+  },
+  {
+    "input": "d+3+4",
+    "hit_level": "l",
+    "damage": "7",
+    "startup": "i12",
+    "block": "-14",
+    "hit": "-2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "d+3+4,​3",
+    "hit_level": "l,​m",
+    "damage": "723",
+    "startup": "i29",
+    "block": "-14",
+    "hit": "+14a",
+    "counter": "",
+    "note": "Combos from 1st hit CH\nAlternate input FC.d+4,3"
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "db+1",
+    "hit_level": "s",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "db+2",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i14",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "db+2,​4",
+    "hit_level": "m,​m",
+    "damage": "1525",
+    "startup": "i33",
+    "block": "-4",
+    "hit": "+1d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "db+3",
+    "hit_level": "l",
+    "damage": "15",
+    "startup": "i17",
+    "block": "-13",
+    "hit": "+3c",
+    "counter": "+13g",
+    "note": ""
+  },
+  {
+    "input": "db+4",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i26",
+    "block": "-37",
+    "hit": "+15a",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "db+4,​4",
+    "hit_level": "l,​m",
+    "damage": "20,​27",
+    "startup": "i37",
+    "block": "-8",
+    "hit": "+30a (+12)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "b+1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": "Transition to DSS with F\n(-3 oB, +8 oH) (-3 oB, +8 oH) "
+  },
+  {
+    "input": "b+1,​2",
+    "hit_level": "m,​m",
+    "damage": "12,​12",
+    "startup": "i19",
+    "block": "-12",
+    "hit": "+2",
+    "counter": "",
+    "note": "Combos from 1st hit\nDelay-able\nTransition to DSS with F\n(-9 oB, +5 oH) (-9 oB, +5 oH) "
+  },
+  {
+    "input": "b+1,​2,​2",
+    "hit_level": "m,​m,​m",
+    "damage": "12,​12,​22",
+    "startup": "i18",
+    "block": "-14",
+    "hit": "+12a (+5)",
+    "counter": "",
+    "note": "Template:HeatDash\nCombos from 1st or 2nd hit CH\nDelay-able "
+  },
+  {
+    "input": "b+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i16",
+    "block": "-8",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+2,​1",
+    "hit_level": "m,​m",
+    "damage": "12,​16",
+    "startup": "i26",
+    "block": "-15",
+    "hit": "+11a",
+    "counter": "",
+    "note": "Combos from 1st hit CH"
+  },
+  {
+    "input": "b+2,​2",
+    "hit_level": "m,​h",
+    "damage": "12,​15",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "+4",
+    "counter": "+9d",
+    "note": "Combos from 1st hit\nDelay-able\nTransition to DSS with F\n(-3 oB, +10 oH, +15d CH)(-3 oB, +10 oH, +15d CH)"
+  },
+  {
+    "input": "b+2,​3",
+    "hit_level": "m,​l",
+    "damage": "12,​10",
+    "startup": "i23",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+2,​3,​4",
+    "hit_level": "m,​l,​m",
+    "damage": "12,​10,​23",
+    "startup": "i23",
+    "block": "-7,",
+    "hit": "+36a (+26)",
+    "counter": "",
+    "note": "Combos from 2nd hit CH\nDelay-able\nTransition to DSS with F\n(+6 oB, +49a (+39) oH)(+6 oB, +49a (+39) oH)"
+  },
+  {
+    "input": "b+2,​3,​d+4",
+    "hit_level": "m,​l,​l",
+    "damage": "12,​10,​23",
+    "startup": "i34",
+    "block": "-37",
+    "hit": "+11a",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+3",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i23",
+    "block": "-12",
+    "hit": "+17a (+8)",
+    "counter": "",
+    "note": "Transition to BT with B\n(-11 oB, +18a (+9) oH)(-11 oB, +18a (+9) oH)"
+  },
+  {
+    "input": "b+4",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i14",
+    "block": "-7",
+    "hit": "+3",
+    "counter": "",
+    "note": "Transition to BT with B\n(-4 oB, +6 oH) (-4 oB, +6 oH) "
+  },
+  {
+    "input": "b+4,​3",
+    "hit_level": "m,​h",
+    "damage": "13,​21",
+    "startup": "i32",
+    "block": "-5",
+    "hit": "+24a (+15)",
+    "counter": "",
+    "note": "Combos from 1st hit "
+  },
+  {
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i20",
+    "block": "-14",
+    "hit": "+31a (+23)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "b+1+3",
+    "hit_level": "",
+    "damage": "",
+    "startup": "ps2~11",
+    "block": "",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transition to DSS on successful parry with F to be +14\nGuarantees DSS.1, DSS.2, DSS.f+1"
+  },
+  {
+    "input": "b+2+4",
+    "hit_level": "t",
+    "damage": "34 (38 Heat)",
+    "startup": "ps2~11",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Punches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
+  },
+  {
+    "input": "b+3+4",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i23",
+    "block": "-18",
+    "hit": "+16a (+6)",
+    "counter": "",
+    "note": "Can be done from DSS "
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "ub+2",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+9",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ub+1,​2,​1,​2",
+    "hit_level": "h,​h,​h,​h",
+    "damage": "8,​8,​8,​28",
+    "startup": "i12,i6,i6,i13",
+    "block": "-7",
+    "hit": "+13a (-4)",
+    "counter": "",
+    "note": "Jails from 1st to 3rd attack\nLast hit delay-able\nFrame data for 1st, 2nd and 3rd hits:\n(-9 oB, -3 oH) (-9 oB, -3 oH) "
+  },
+  {
+    "input": "ub+3",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to Slide Step with DF\nAlternate input u+3 "
+  },
+  {
+    "input": "ub+3,​4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+31a (+21)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "u+4",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "+19a (+9)",
+    "counter": "+33a (+23)",
+    "note": ""
+  },
+  {
+    "input": "uf+1",
+    "hit_level": "h",
+    "damage": "10",
+    "startup": "i12",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "Alternate input:\nKi Charge~1\nb,B+2+3~1,3 Ki Charge~1\nb,B+2+3~1,3 "
+  },
+  {
+    "input": "uf+1,​3",
+    "hit_level": "h,​l",
+    "damage": "1010",
+    "startup": "i19",
+    "block": "-13",
+    "hit": "-1",
+    "counter": "",
+    "note": "Combos from 1st hit\nAlternate input:\nKi Charge~1,3\nb,B+2+3~1,3 Ki Charge~1,3\nb,B+2+3~1,3 "
+  },
+  {
+    "input": "uf+3",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18",
+    "block": "-8",
+    "hit": "+42d (-16)",
+    "counter": "",
+    "note": "Template:HeatDash\n"
+  },
+  {
+    "input": "uf+4",
+    "hit_level": "m",
+    "damage": "14",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "+33a (+23)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "uf+3+4",
+    "hit_level": "l",
+    "damage": "27",
+    "startup": "i29",
+    "block": "-24",
+    "hit": "+5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "uf,​n,​4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i19",
+    "block": "-15",
+    "hit": "+30a (+20)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "UF+4",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i18",
+    "block": "-17",
+    "hit": "+28a (+18)",
+    "counter": "",
+    "note": "Alternate input\nUB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 UB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 "
+  },
+  {
+    "input": "UF+4,​3",
+    "hit_level": "m,​m",
+    "damage": "2316",
+    "startup": "i19",
+    "block": "-14",
+    "hit": "+78a (+62)",
+    "counter": "",
+    "note": "Combos from 1st hit\n2nd hit Instant Tornado\n(+68a (+52) oH)\nAlternate input\nUB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 (+68a (+52) oH)UB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 "
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "f,​F+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i14",
+    "block": "-6",
+    "hit": "+2",
+    "counter": "+7",
+    "note": ""
+  },
+  {
+    "input": "f,​F+2,​1",
+    "hit_level": "m,​h",
+    "damage": "12,​12",
+    "startup": "i22",
+    "block": "-4",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​F+2,​1,​3",
+    "hit_level": "m,​h,​m",
+    "damage": "12,​12,​23",
+    "startup": "i28",
+    "block": "-13",
+    "hit": "+11a",
+    "counter": "",
+    "note": "Combos off 2nd hit CH\nDelayable"
+  },
+  {
+    "input": "f,​F+2,​4",
+    "hit_level": "m,​h",
+    "damage": "12,​20",
+    "startup": "i16",
+    "block": "-14",
+    "hit": "+37a (-21)",
+    "counter": "",
+    "note": "Combos from 1st hit\nDelayable"
+  },
+  {
+    "input": "f,​F+2,​f+1+2",
+    "hit_level": "m,​m",
+    "damage": "1224",
+    "startup": "i31",
+    "block": "+2",
+    "hit": "+30a (+4)",
+    "counter": "",
+    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB,+33a (+7))(+5 oB,+33a (+7))"
+  },
+  {
+    "input": "f,​F+3",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i20",
+    "block": "-13",
+    "hit": "+18d (+8)",
+    "counter": "",
+    "note": "Template:HeatDash\nAlternate input DSS.f+3 "
+  },
+  {
+    "input": "f,​F+4",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i20",
+    "block": "-11",
+    "hit": "+18a (+1)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,​f,​F+3",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i20~28",
+    "block": "+6",
+    "hit": "+35d (-23)",
+    "counter": "",
+    "note": "Chip damage on block\nAlternate input wr3"
+  },
+  {
+    "input": "b,​B+2+3",
+    "hit_level": "m!",
+    "damage": "60",
+    "startup": "i78",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "FC.1",
+    "hit_level": "s",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.2",
+    "hit_level": "s",
+    "damage": "8",
+    "startup": "i11",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.3",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i16",
+    "block": "-17",
+    "hit": "-6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.3,​4",
+    "hit_level": "l,​m",
+    "damage": "10,​27",
+    "startup": "i29",
+    "block": "-14",
+    "hit": "+14a (-3)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.4",
+    "hit_level": "l",
+    "damage": "7",
+    "startup": "i12",
+    "block": "-14",
+    "hit": "-2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FC.4,​3",
+    "hit_level": "l,​m",
+    "damage": "7,​23",
+    "startup": "i29",
+    "block": "-14",
+    "hit": "+14a",
+    "counter": "",
+    "note": "Combos from 1st hit CH\nAlternate input d+3+4,3"
+  },
+  {
+    "input": "FC.UF+3+4",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i46~49",
+    "block": "-4",
+    "hit": "+17a (+7)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "ws1",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i13",
+    "block": "-7",
+    "hit": "-1",
+    "counter": "",
+    "note": "Transition to DSS with F\n(-4 oB, +2 oH) (-4 oB, +2 oH) "
+  },
+  {
+    "input": "ws1,​2",
+    "hit_level": "m,​h",
+    "damage": "10,​25",
+    "startup": "i16",
+    "block": "-9",
+    "hit": "+40d (-18)",
+    "counter": "",
+    "note": "Delayable "
+  },
+  {
+    "input": "ws2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i15",
+    "block": "-18",
+    "hit": "+31a (+21)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ws3",
+    "hit_level": "m",
+    "damage": "16",
+    "startup": "i16",
+    "block": "+17g",
+    "hit": "+19",
+    "counter": "",
+    "note": "Automatically transitions to DSS on hit and block\nOn hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 On hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 "
+  },
+  {
+    "input": "ws4",
+    "hit_level": "m",
+    "damage": "14",
+    "startup": "i11",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transition to DSS with F\n(+5 oB, +16 oH) (+5 oB, +16 oH) "
+  },
+  {
+    "input": "ws4,​3",
+    "hit_level": "m,​m",
+    "damage": "14,​23",
+    "startup": "i27",
+    "block": "-14",
+    "hit": "+68a (+52)",
+    "counter": "",
+    "note": "Combos from 1st hit CH Combos from 1st hit CH "
+  },
+  {
+    "input": "ws3+4",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i14",
+    "block": "-21",
+    "hit": "+0a (-17)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "BT.1",
+    "hit_level": "h",
+    "damage": "7",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.2",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i15",
+    "block": "-14",
+    "hit": "-1",
+    "counter": "+52a",
+    "note": ""
+  },
+  {
+    "input": "BT.2,​2",
+    "hit_level": "m,​m",
+    "damage": "17,​20",
+    "startup": "i14",
+    "block": "-14",
+    "hit": "+31d (-27)",
+    "counter": "",
+    "note": "Combos from 1st hit\nDelay-able "
+  },
+  {
+    "input": "BT.3",
+    "hit_level": "h",
+    "damage": "18",
+    "startup": "i10",
+    "block": "-8",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.4",
+    "hit_level": "h",
+    "damage": "14",
+    "startup": "i11",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.4,​3",
+    "hit_level": "h,​m",
+    "damage": "14,​24",
+    "startup": "i24",
+    "block": "-12",
+    "hit": "+12a (+3)",
+    "counter": "",
+    "note": "Combos from 1st hit CH "
+  },
+  {
+    "input": "BT.1+2",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i15",
+    "block": "+1",
+    "hit": "+16g",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.d+3",
+    "hit_level": "l",
+    "damage": "6",
+    "startup": "i12",
+    "block": "-15",
+    "hit": "-4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT.d+4",
+    "hit_level": "l",
+    "damage": "17",
+    "startup": "i23",
+    "block": "-13",
+    "hit": "+6c",
+    "counter": "+26d",
+    "note": ""
+  },
+  {
+    "input": "BT.d+3+4",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i26",
+    "block": "-15",
+    "hit": "+0",
+    "counter": "",
+    "note": "Transition to FUFA with D\n(-2 oB, +13d oH) (-2 oB, +13d oH) "
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "d+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Enters DSS\nTransition to Slide Step with DF "
+  },
+  {
+    "input": "DSS.1",
+    "hit_level": "h",
+    "damage": "14",
+    "startup": "i12",
+    "block": "+0",
+    "hit": "+8",
+    "counter": "+18c",
+    "note": "Chip damage on block\nAutomatically transitions to DSS on hit and block\nCH guarantees DSS.f+1, DSS.3+4,4"
+  },
+  {
+    "input": "DSS.2",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i14",
+    "block": "+1",
+    "hit": "+15d",
+    "counter": "+50a",
+    "note": "Chip damage on block "
+  },
+  {
+    "input": "DSS.3",
+    "hit_level": "h",
+    "damage": "30",
+    "startup": "i19",
+    "block": "+3",
+    "hit": "+40a",
+    "counter": "",
+    "note": "Chip damage on block "
+  },
+  {
+    "input": "DSS.4",
+    "hit_level": "l",
+    "damage": "21",
+    "startup": "i21",
+    "block": "-13",
+    "hit": "+6c",
+    "counter": "+38d",
+    "note": ""
+  },
+  {
+    "input": "DSS.1+2",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "i16",
+    "block": "-13",
+    "hit": "+12a (+5)",
+    "counter": "+66a (+50)",
+    "note": "Partially uses remaining Heat time\nInstant Tornado on CH\nAlternate input 1+2"
+  },
+  {
+    "input": "DSS.f+1",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "+39d (-19)",
+    "counter": "",
+    "note": "Template:HeatDash\nChip damage on block "
+  },
+  {
+    "input": "DSS.f+2~1",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i19",
+    "block": "+2",
+    "hit": "+30a (+4)",
+    "counter": "",
+    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input f+2~1(+5 oB, +33a (+7))"
+  },
+  {
+    "input": "DSS.f+3",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i20",
+    "block": "-13",
+    "hit": "+18d (+8)",
+    "counter": "",
+    "note": "Template:HeatDash\nChip damage on block\nAlternate input f,F+3"
+  },
+  {
+    "input": "DSS.f+4",
+    "hit_level": "h",
+    "damage": "40",
+    "startup": "i19",
+    "block": "+7 (+10g wallcrush)",
+    "hit": "+31d (-27)",
+    "counter": "",
+    "note": "Chip damage on block"
+  },
+  {
+    "input": "DSS.uf+1+2",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12",
+    "block": "-2",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "ss2",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i18",
+    "block": "+0",
+    "hit": "+16d (+6)",
+    "counter": "",
+    "note": "Chip damage on block "
+  },
+  {
+    "input": "ss3",
+    "hit_level": "l",
+    "damage": "17",
+    "startup": "i18",
+    "block": "-13",
+    "hit": "+7",
+    "counter": "+16c",
+    "note": "Automatically transitions to DSS on hit\nCH guarantees DSS.f+1, DSS.3+4,4 CH guarantees DSS.f+1, DSS.3+4,4 "
+  },
+  {
+    "input": "ss1+2",
+    "hit_level": "m,​h,​m",
+    "damage": "8,​8,​8",
+    "startup": "i17",
+    "block": "+4",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ss1+2,​2",
+    "hit_level": "m,​h,​m,​m",
+    "damage": "8,​8,​8,​25",
+    "startup": "i22",
+    "block": "-16",
+    "hit": "+16d (+6)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ss3+4",
+    "hit_level": "m,​h",
+    "damage": "9,​10",
+    "startup": "i15",
+    "block": "-12",
+    "hit": "+63a (+43)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1+2+3+4~1",
+    "hit_level": "sph",
+    "damage": "-10",
+    "startup": "i12",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "Alternate input:\nuf+1\nb,B+2+3~1,3 uf+1\nb,B+2+3~1,3 "
+  },
+  {
+    "input": "1+2+3+4~1,​3",
+    "hit_level": "sph,​l",
+    "damage": "-10,​10",
+    "startup": "i19",
+    "block": "-13",
+    "hit": "-1",
+    "counter": "",
+    "note": "Combos from 1st hit\nAlternate input:\nuf+1,3\nb,B+2+3~1,3 uf+1,3\nb,B+2+3~1,3 "
+  },
+  {
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1+2+3+4,​2",
+    "hit_level": "h",
+    "damage": "24",
+    "startup": "i14",
+    "block": "+1",
+    "hit": "+50a",
+    "counter": "",
+    "note": "Chip damage on block\nAlternate input DSS.2 "
+  },
+  {
+    "input": "(While down,​ facing up) 1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "(Back to wall).b,​b,​ub",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i29-33",
+    "block": "-1",
+    "hit": "+45d (-13)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "1+3",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "2+4",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Throw break 1 or 2\nSide swap\nTransition to BT with D\n(+5 BT) (+5 BT) "
+  },
+  {
+    "input": "Left Throw",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Right Throw",
+    "hit_level": "t",
+    "damage": "42",
+    "startup": "i12~14",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Back Throw",
+    "hit_level": "t",
+    "damage": "50",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+2+3",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12",
+    "block": "-2",
+    "hit": "+6d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "uf+1+2",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12",
+    "block": "-6",
+    "hit": "+3d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "uf+1+2,​2,​1,​1+2",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12",
+    "block": "-6",
+    "hit": "-6d",
+    "counter": "",
+    "note": "Throw break 1+2\n"
+  },
+  {
+    "input": "f,​F+3+4",
+    "hit_level": "t",
+    "damage": "10",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "+55a (+28)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "df+1,​3,​2,​2,​3,​3,​3,​4,​4,​4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  }
+]

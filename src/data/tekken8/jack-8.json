@@ -1,0 +1,142 @@
+[
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "12 (12)",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2c",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "H.2+3",
+    "hit_level": "h,​m,​t",
+    "damage": "50",
+    "startup": "i10",
+    "block": "-9",
+    "hit": "-2d (-12)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b+2",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i19",
+    "block": "+5",
+    "hit": "+2d",
+    "counter": "",
+    "note": "Template:HeatDash\n"
+  },
+  {
+    "input": "b+2*",
+    "hit_level": "m",
+    "damage": "40",
+    "startup": "i35",
+    "block": "-2 (+5 WC)",
+    "hit": "+17a (+9)",
+    "counter": "",
+    "note": "Template:HeatDash\nWall crush\nChip damage on block"
+  },
+  {
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "28",
+    "startup": "i14",
+    "block": "-19",
+    "hit": "-1d (-10)",
+    "counter": "",
+    "note": "Template:HeatDash\n"
+  },
+  {
+    "input": "GMH.4",
+    "hit_level": "h",
+    "damage": "30",
+    "startup": "i14",
+    "block": "+3",
+    "hit": "+21d (+11)",
+    "counter": "",
+    "note": "Template:HeatDash\nChip damage on block"
+  },
+  {
+    "input": "GMH.3+4",
+    "hit_level": "s",
+    "damage": "20",
+    "startup": "i20",
+    "block": "-13",
+    "hit": "+40d (-18)",
+    "counter": "",
+    "note": "Template:HeatDash\nChip damage on block when absorbing an attack"
+  },
+  {
+    "input": "d+2+4",
+    "hit_level": "t",
+    "damage": "25",
+    "startup": "i12",
+    "block": "",
+    "hit": "+6d",
+    "counter": "",
+    "note": "Cannot cancel into Heat Dash\nCrouch Throw\nUnbreakable\nAlternate input GMH.2+4"
+  },
+  {
+    "input": "3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "When timed with opponent attack, shift to Gamma Charge\n"
+  },
+  {
+    "input": "GMC.1",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i22",
+    "block": "-6",
+    "hit": "+73a (+57)",
+    "counter": "",
+    "note": "\nPartially uses remaining Heat time\nChip damage on block "
+  },
+  {
+    "input": "GMC.2",
+    "hit_level": "h",
+    "damage": "22",
+    "startup": "i20",
+    "block": "+11",
+    "hit": "",
+    "counter": "",
+    "note": "Guard dCrush\nPartially uses remaining Heat time\nChip damage on block "
+  },
+  {
+    "input": "Input",
+    "hit_level": "Hit level",
+    "damage": "Damage",
+    "startup": "Startup",
+    "block": "Block",
+    "hit": "Hit",
+    "counter": "CH",
+    "note": ""
+  },
+  {
+    "input": "R.df+1+2",
+    "hit_level": "m,​t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Rage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
+  }
+]
