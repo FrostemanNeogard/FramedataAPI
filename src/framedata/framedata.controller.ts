@@ -16,15 +16,6 @@ export class FramedataController {
 
   constructor(private readonly framedataService: FramedataService) {}
 
-  @Get(':characterName')
-  async getFrameData(@Param('characterName') name: string) {
-    try {
-      return await this.framedataService.getCharacterFrameData(name, 'tekken7');
-    } catch (error) {
-      return new BadRequestException(`${error}`);
-    }
-  }
-
   @Post()
   async getFrameDataSingle(@Body() frameDataDto: FramedataRequestDto) {
     try {
