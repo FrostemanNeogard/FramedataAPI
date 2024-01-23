@@ -20,27 +20,27 @@
     "note": "Alternate input: R1"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m",
     "damage": "50",
     "startup": "i21",
     "block": "",
     "hit": "Th",
     "counter": "Th",
-    "note": "Alternate input: H.R1"
+    "note": "Alternate input: in heat R1"
   },
   {
-    "input": "H.HRA.2+3",
+    "input": "in heat HRA.2+3",
     "hit_level": "l",
     "damage": "40",
     "startup": "i18~19",
     "block": "",
     "hit": "Th",
     "counter": "Th",
-    "note": "Alternate input: H.HRA.R1"
+    "note": "Alternate input: in heat HRA.R1"
   },
   {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m",
     "damage": "55",
     "startup": "i20",
@@ -330,7 +330,7 @@
     "note": ""
   },
   {
-    "input": "f+1+2,​CH.3",
+    "input": "f+1+2,​Cin heat 3",
     "hit_level": "m,​l",
     "damage": "22,​33,​18",
     "startup": ",i22",
@@ -420,7 +420,7 @@
     "note": ""
   },
   {
-    "input": "H.df+1,​2,​F",
+    "input": "in heat df+1,​2,​F",
     "hit_level": "m,​m",
     "damage": "8,​20",
     "startup": "i13",
@@ -490,7 +490,7 @@
     "note": ""
   },
   {
-    "input": "CH.df+3+4",
+    "input": "Cin heat df+3+4",
     "hit_level": "m,​th",
     "damage": "6,​35",
     "startup": "i16",
@@ -820,7 +820,7 @@
     "note": ""
   },
   {
-    "input": "H.f,​F+3,​F",
+    "input": "in heat f,​F+3,​F",
     "hit_level": "m",
     "damage": "20",
     "startup": "i20~22",
@@ -1180,7 +1180,7 @@
     "note": "Deals chip damage on block"
   },
   {
-    "input": "H.SEN.3,​F",
+    "input": "in heat SEN.3,​F",
     "hit_level": "h",
     "damage": "22",
     "startup": "i12~13",
@@ -1240,7 +1240,7 @@
     "note": "Deals chip damage on block\nCan be cancelled into crouch with D"
   },
   {
-    "input": "H.UNS.4,​F",
+    "input": "in heat UNS.4,​F",
     "hit_level": "m",
     "damage": "30",
     "startup": "i18~19",
@@ -1290,7 +1290,7 @@
     "note": "Deals chip damage on block"
   },
   {
-    "input": "H.HRA.2,​F",
+    "input": "in heat HRA.2,​F",
     "hit_level": "m",
     "damage": "30",
     "startup": "i15~16",

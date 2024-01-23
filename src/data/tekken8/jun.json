@@ -20,7 +20,7 @@
     "note": "Cancel to r45 with b,b"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​m",
     "damage": "20,​30",
     "startup": "i13 i32~75",
@@ -220,7 +220,7 @@
     "note": ""
   },
   {
-    "input": "H.1+2,​F",
+    "input": "in heat 1+2,​F",
     "hit_level": "m",
     "damage": "26",
     "startup": "i13",
@@ -400,7 +400,7 @@
     "note": "Transition to r20 MIA on hit only\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
-    "input": "H.f+1+2,​P",
+    "input": "in heat f+1+2,​P",
     "hit_level": "h",
     "damage": "0",
     "startup": "i12",
@@ -1300,7 +1300,7 @@
     "note": ""
   },
   {
-    "input": "H.SS.4,​F",
+    "input": "in heat SS.4,​F",
     "hit_level": "m",
     "damage": "20",
     "startup": "i18~20",
@@ -1440,7 +1440,7 @@
     "note": "Jail from 1st attack"
   },
   {
-    "input": "H.IZU.3,​F",
+    "input": "in heat IZU.3,​F",
     "hit_level": "m,​h",
     "damage": "10,​16",
     "startup": "i16~15 i14~15",
@@ -1620,7 +1620,7 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
-    "input": "H.MIA.2,​F",
+    "input": "in heat MIA.2,​F",
     "hit_level": "sm",
     "damage": "30",
     "startup": "i16",

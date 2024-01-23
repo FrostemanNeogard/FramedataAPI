@@ -20,7 +20,7 @@
     "note": ""
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​th",
     "damage": "12,​3",
     "startup": "i16",
@@ -30,7 +30,7 @@
     "note": "Throw on hit"
   },
   {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m,​th",
     "damage": "10,​49",
     "startup": "i16",
@@ -40,7 +40,7 @@
     "note": "Rage Art\nDamage increases with lower health\nRemoves recoverable health on hit"
   },
   {
-    "input": "R.df+1+2*",
+    "input": "in rage df+1+2*",
     "hit_level": "m,​th",
     "damage": "",
     "startup": "i16",
@@ -1530,7 +1530,7 @@
     "note": "Template:HE\nGain Naniwa Gusto on Heat Activation"
   },
   {
-    "input": "f+1+3_f+2+4Destabilizer.4",
+    "input": "f+1+3_f+2+4Destabilizein rage 4",
     "hit_level": "t(h)l",
     "damage": "019",
     "startup": "i19",

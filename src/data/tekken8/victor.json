@@ -27,17 +27,17 @@
     "block": "",
     "hit": "th",
     "counter": "th",
-    "note": "Alternate input: H.R1"
+    "note": "Alternate input: in heat R1"
   },
   {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m",
     "damage": "55",
     "startup": "i20",
     "block": "",
     "hit": "th",
     "counter": "th",
-    "note": "Rage Art\nRemoves recoverable health on hit\nAlternate input: R.R2"
+    "note": "Rage Art\nRemoves recoverable health on hit\nAlternate input: in rage R2"
   },
   {
     "input": "1",
@@ -450,7 +450,7 @@
     "note": ""
   },
   {
-    "input": "CH.d+4",
+    "input": "Cin heat d+4",
     "hit_level": "l,​th",
     "damage": "12,​18",
     "startup": "i16",
@@ -510,7 +510,7 @@
     "note": ""
   },
   {
-    "input": "CH.db+4",
+    "input": "Cin heat db+4",
     "hit_level": "l,​th",
     "damage": "20,​4",
     "startup": "i20~21",
@@ -610,14 +610,14 @@
     "note": "Deals chip damage on block"
   },
   {
-    "input": "H.u+1+2",
+    "input": "in heat u+1+2",
     "hit_level": "m",
     "damage": "54",
     "startup": "i31~32",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: H.ub+1+2\n"
+    "note": "Alternate input: in heat ub+1+2\n"
   },
   {
     "input": "uf+1",
@@ -940,7 +940,7 @@
     "note": "Transition to IAI on hit\nDeals chip damage on block"
   },
   {
-    "input": "H.IAI.d+2",
+    "input": "in heat IAI.d+2",
     "hit_level": "m",
     "damage": "45",
     "startup": "i23~24",

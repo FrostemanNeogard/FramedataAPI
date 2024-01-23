@@ -20,7 +20,7 @@
     "note": ""
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "h,​m,​t",
     "damage": "50",
     "startup": "i10",
@@ -60,7 +60,7 @@
     "note": "Template:HeatDash\n"
   },
   {
-    "input": "GMH.4",
+    "input": "GMin heat 4",
     "hit_level": "h",
     "damage": "30",
     "startup": "i14",
@@ -70,7 +70,7 @@
     "note": "Template:HeatDash\nChip damage on block"
   },
   {
-    "input": "GMH.3+4",
+    "input": "GMin heat 3+4",
     "hit_level": "s",
     "damage": "20",
     "startup": "i20",
@@ -87,7 +87,7 @@
     "block": "",
     "hit": "+6d",
     "counter": "",
-    "note": "Cannot cancel into Heat Dash\nCrouch Throw\nUnbreakable\nAlternate input GMH.2+4"
+    "note": "Cannot cancel into Heat Dash\nCrouch Throw\nUnbreakable\nAlternate input GMin heat 2+4"
   },
   {
     "input": "3+4",
@@ -120,17 +120,7 @@
     "note": "Guard dCrush\nPartially uses remaining Heat time\nChip damage on block "
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m,​t",
     "damage": "55+",
     "startup": "i20",

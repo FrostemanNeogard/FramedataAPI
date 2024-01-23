@@ -20,7 +20,7 @@
     "note": "Cancel to r45 with b,b"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​t",
     "damage": "20,​35",
     "startup": "i18~20",
@@ -40,7 +40,7 @@
     "note": ""
   },
   {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m,​t",
     "damage": "55+",
     "startup": "i20",
@@ -260,7 +260,7 @@
     "note": ""
   },
   {
-    "input": "H.1+2,​F",
+    "input": "in heat 1+2,​F",
     "hit_level": "m",
     "damage": "20",
     "startup": "i14",
@@ -350,7 +350,7 @@
     "note": "Frame advantage is -9 if an attack is absorbed"
   },
   {
-    "input": "H.f+1+2,​F",
+    "input": "in heat f+1+2,​F",
     "hit_level": "m",
     "damage": "10,​20",
     "startup": "i18~19 i26",
@@ -390,7 +390,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
-    "input": "H.df+1,​4",
+    "input": "in heat df+1,​4",
     "hit_level": "m,​sm,​sm",
     "damage": "13,​25,​30",
     "startup": "i14~15, i18~27, i44~45",
@@ -560,7 +560,7 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block"
   },
   {
-    "input": "H.db+2,​1,​1",
+    "input": "in heat db+2,​1,​1",
     "hit_level": "m,​h,​sm,​sm",
     "damage": "13,​15,​21,​30",
     "startup": "i13~14, i22~23, i18~19 i39~47",
@@ -670,7 +670,7 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block"
   },
   {
-    "input": "H.b+2,​4,​2",
+    "input": "in heat b+2,​4,​2",
     "hit_level": "h,​h,​sm,​sm",
     "damage": "12,​17,​21,​30",
     "startup": "i15~17, i24~25, i19~20 i39~-41",
@@ -960,7 +960,7 @@
     "note": ""
   },
   {
-    "input": "H.f,​f,​F+3,​4",
+    "input": "in heat f,​f,​F+3,​4",
     "hit_level": "m,​sm",
     "damage": "20,​20",
     "startup": "i26~28, i43~44",
@@ -1120,7 +1120,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
-    "input": "H.ws3,​2",
+    "input": "in heat ws3,​2",
     "hit_level": "m,​sm,​sm",
     "damage": "18,​18,​20",
     "startup": "i16~17, i19~20 i39~41",
@@ -1150,14 +1150,14 @@
     "note": "Alternate input: qcf+3+4"
   },
   {
-    "input": "H.ws3+4,​F",
+    "input": "in heat ws3+4,​F",
     "hit_level": "m",
     "damage": "20",
     "startup": "i16~18",
     "block": "+5",
     "hit": "+62a (+42)",
     "counter": "",
-    "note": "Alternate input: H.qcf+3+4,F"
+    "note": "Alternate input: in heat qcf+3+4,F"
   },
   {
     "input": "ws3+4~B",
@@ -1240,7 +1240,7 @@
     "note": "Transition to r20 SZN on hit only\nSecond hit available on hit only\nPower up during Heat"
   },
   {
-    "input": "H.FC.df+3+4",
+    "input": "in heat FC.df+3+4",
     "hit_level": "L,​sm",
     "damage": "17,​25",
     "startup": "i18~20 i34~36",
@@ -1370,7 +1370,7 @@
     "note": "Combo from 2nd hit\nCombo from 1st CH\nPower up during Heat"
   },
   {
-    "input": "H.BT.2,​2,​1",
+    "input": "in heat BT.2,​2,​1",
     "hit_level": "h,​m,​sm,​sm",
     "damage": "9,​12,​21,​30",
     "startup": "i10, i21~22, i18~19, i39~47",
@@ -1450,7 +1450,7 @@
     "note": ""
   },
   {
-    "input": "H.BT.4,​F",
+    "input": "in heat BT.4,​F",
     "hit_level": "m",
     "damage": "21",
     "startup": "i19~20",
@@ -1530,7 +1530,7 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block"
   },
   {
-    "input": "H.BT.f+2,​4,​2",
+    "input": "in heat BT.f+2,​4,​2",
     "hit_level": "m,​h,​sm,​sm",
     "damage": "13,​17,​21,​30",
     "startup": "i17~18, i20~21, i19~20 i39~41",
@@ -1790,7 +1790,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
-    "input": "H.qcf+1,​2",
+    "input": "in heat qcf+1,​2",
     "hit_level": "m,​sm,​sm",
     "damage": "15,​21,​30",
     "startup": "i16, 19~20, 39~41",
@@ -1840,7 +1840,7 @@
     "note": "Transitions to attack throw on front hit only, otherwise launch +33a (+23)\nPower up during Heat"
   },
   {
-    "input": "H.qcf+3",
+    "input": "in heat qcf+3",
     "hit_level": "h,​t",
     "damage": "16,​14",
     "startup": "i16~17",
@@ -1920,7 +1920,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
-    "input": "H.SZN.1,​4",
+    "input": "in heat SZN.1,​4",
     "hit_level": "H,​sm,​sm",
     "damage": "12,​25,​30",
     "startup": "i14~15, i18~27, i44~45",
@@ -1950,7 +1950,7 @@
     "note": "Power up during Heat"
   },
   {
-    "input": "H.SZN.2,​F",
+    "input": "in heat SZN.2,​F",
     "hit_level": "m,​sm",
     "damage": "20,​10",
     "startup": "i18 23~24",
@@ -1980,7 +1980,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nPower up during Heat"
   },
   {
-    "input": "H.SZN.3,​2",
+    "input": "in heat SZN.3,​2",
     "hit_level": "m,​sm,​sm",
     "damage": "16,​21,​30",
     "startup": "i16~17, i19~20 i39~-41",

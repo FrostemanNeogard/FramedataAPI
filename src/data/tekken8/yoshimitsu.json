@@ -20,7 +20,7 @@
     "note": "Cancel to r? with b,b"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​t",
     "damage": "51",
     "startup": "i18~19",
@@ -40,7 +40,7 @@
     "note": ""
   },
   {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m",
     "damage": "10,​45",
     "startup": "i20",
@@ -150,7 +150,7 @@
     "note": "Combo from 1st hit\nDeals chip damage on block\nTransition to r? DGF\nDoes not transition to DGF during Heat activation and Heat Dash\nPower up during NSS or Heat (Recovers health on hit, consumes Heat)"
   },
   {
-    "input": "H.3,​1,​F",
+    "input": "in heat 3,​1,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -900,7 +900,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "H.b+2,​2,​F",
+    "input": "in heat b+2,​2,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1760,7 +1760,7 @@
     "note": ""
   },
   {
-    "input": "H.KIN.f+2,​F",
+    "input": "in heat KIN.f+2,​F",
     "hit_level": "h",
     "damage": "25",
     "startup": "i12~13",
@@ -1770,7 +1770,7 @@
     "note": ""
   },
   {
-    "input": "H.KIN.f+2,​F",
+    "input": "in heat KIN.f+2,​F",
     "hit_level": "h",
     "damage": "25",
     "startup": "i12~13",
@@ -2227,7 +2227,7 @@
     "block": "",
     "hit": "+20a (+10)",
     "counter": "",
-    "note": "Combo from 2nd hit\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit\nAlternate input: H.3,2,1+2"
+    "note": "Combo from 2nd hit\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit\nAlternate input: in heat 3,2,1+2"
   },
   {
     "input": "NSS.1+4",
@@ -2277,7 +2277,7 @@
     "block": "",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "Deals chip damage on block\nHas clean hit property\nRecovers health on hit, consumes Heat\nAlternate input: H.ub+1+2)"
+    "note": "Deals chip damage on block\nHas clean hit property\nRecovers health on hit, consumes Heat\nAlternate input: in heat ub+1+2)"
   },
   {
     "input": "NSS.u+1+2",
@@ -2430,7 +2430,7 @@
     "note": ""
   },
   {
-    "input": "H.DGF.4,​F",
+    "input": "in heat DGF.4,​F",
     "hit_level": "m",
     "damage": "24",
     "startup": "i18~20",

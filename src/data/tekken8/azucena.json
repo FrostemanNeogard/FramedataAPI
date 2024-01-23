@@ -20,7 +20,7 @@
     "note": "Cancel to r45 with b,b"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​m,​t",
     "damage": "15,​9,​29",
     "startup": "i15~16",
@@ -30,7 +30,7 @@
     "note": "Throw on hit"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​h,​m",
     "damage": "15,​15,​30",
     "startup": "i15~16 i24~25 i53~54",
@@ -50,7 +50,7 @@
     "note": ""
   },
   {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m",
     "damage": "55+",
     "startup": "i20",
@@ -160,7 +160,7 @@
     "note": ""
   },
   {
-    "input": "H.3,​2~F",
+    "input": "in heat 3,​2~F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -300,7 +300,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "H.f+4,​4,​F",
+    "input": "in heat f+4,​4,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -350,7 +350,7 @@
     "note": "Frame advantage is +0 if an attack is absorbed"
   },
   {
-    "input": "H.f+1+2,​F",
+    "input": "in heat f+1+2,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -680,7 +680,7 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 9f\nChip damage on block"
   },
   {
-    "input": "H.b+1,​1,​2,​F",
+    "input": "in heat b+1,​1,​2,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -710,7 +710,7 @@
     "note": "Chip damage on block"
   },
   {
-    "input": "H.b+2,​F",
+    "input": "in heat b+2,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -730,7 +730,7 @@
     "note": "Chip damage on block"
   },
   {
-    "input": "H.b+3,​F",
+    "input": "in heat b+3,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1260,7 +1260,7 @@
     "note": "Regenerates heat\nHeat meter won't disappear, even if it fully depletes"
   },
   {
-    "input": "H.f+3+4",
+    "input": "in heat f+3+4",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1290,7 +1290,7 @@
     "note": ""
   },
   {
-    "input": "H.LIB,​P (High)",
+    "input": "in heat LIB,​P (High)",
     "hit_level": "m",
     "damage": "25",
     "startup": "i17~18",
@@ -1300,7 +1300,7 @@
     "note": "Regenerates heat\nRestores recoverable health"
   },
   {
-    "input": "H.LIB,​P (Low)",
+    "input": "in heat LIB,​P (Low)",
     "hit_level": "m",
     "damage": "20",
     "startup": "i16~18",
@@ -1340,7 +1340,7 @@
     "note": "Combo from 1st hit with 6f delay\nInput can be delayed 9f\nChip damage on block"
   },
   {
-    "input": "H.LIB.1,​2,​F",
+    "input": "in heat LIB.1,​2,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1370,7 +1370,7 @@
     "note": "Wall crush on hit"
   },
   {
-    "input": "H.LIB.2,​F",
+    "input": "in heat LIB.2,​F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1580,7 +1580,7 @@
     "note": "Crouch throw"
   },
   {
-    "input": "H.LIB.d+3+4",
+    "input": "in heat LIB.d+3+4",
     "hit_level": "m",
     "damage": "27",
     "startup": "i16~18",
@@ -1630,7 +1630,7 @@
     "note": ""
   },
   {
-    "input": "H.2+3+4",
+    "input": "in heat 2+3+4",
     "hit_level": "h!",
     "damage": "0",
     "startup": "i45",

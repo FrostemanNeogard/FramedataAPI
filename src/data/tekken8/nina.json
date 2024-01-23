@@ -20,7 +20,7 @@
     "note": "Cancel to r45 with b,b"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​h,​h,​h,​h,​m",
     "damage": "20,​30",
     "startup": "i16 i28 i35 i42 i49 i90~91",
@@ -30,7 +30,7 @@
     "note": "Transition to attack throw on hit\nTransition to r30 CD on block only with F\nDeals chip damage on block\nJails"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "m,​h,​h,​h,​h",
     "damage": "20,​9,​12,​9,​12",
     "startup": "i16 i28 i35 i42 i49",
@@ -430,7 +430,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "H.f+4,​2",
+    "input": "in heat f+4,​2",
     "hit_level": "m,​h",
     "damage": "15,​22",
     "startup": "i21~22, i18",
@@ -450,7 +450,7 @@
     "note": "Alternate input: WS.1+2\nFrame advantage is -8 if an attack is absorbed\nDeals chip damage if an attack is absorbed"
   },
   {
-    "input": "H.f+1+2,​f",
+    "input": "in heat f+1+2,​f",
     "hit_level": "m",
     "damage": "24",
     "startup": "i17",
@@ -840,7 +840,7 @@
     "note": ""
   },
   {
-    "input": "H.db+1+2,​F",
+    "input": "in heat db+1+2,​F",
     "hit_level": "h,​m",
     "damage": "5,​22",
     "startup": "i11 i30",
@@ -970,7 +970,7 @@
     "note": "Combo from 1st hit only if the second hit connects on i8\n2nd hit available only as combo from 1st\nIf the second hit connects on i9~10, frame advantage on hit will be -16~-15\nErases opponent recoverable health on hit"
   },
   {
-    "input": "H.b+1+2",
+    "input": "in heat b+1+2",
     "hit_level": "m,​m,​h,​h,​h,​h",
     "damage": "5,​20,​5,​5,​5,​5",
     "startup": "i16 i8~10, i28 i35 i42 i49",
@@ -1010,7 +1010,7 @@
     "note": "Combo from 1st hit\nChip damage on block\nPower up during Heat"
   },
   {
-    "input": "H.b+3+4,​1+2",
+    "input": "in heat b+3+4,​1+2",
     "hit_level": "h,​h,​h,​h,​h",
     "damage": "16,​6,​6,​6,​10",
     "startup": "i14~15, i28 i35 i42",
@@ -1390,7 +1390,7 @@
     "note": "Combo from 1st hit\nChip damage on block\nPower up during Heat"
   },
   {
-    "input": "H.WS.1,​1+2",
+    "input": "in heat WS.1,​1+2",
     "hit_level": "m,​h,​h,​h,​h",
     "damage": "17,​6,​6,​6,​10",
     "startup": "i13~14,i25 i35 i39 i42",
@@ -1460,7 +1460,7 @@
     "note": "Combo from 2nd hit\nCombo from 1st CH\nChip damage on block\nPower up during Heat"
   },
   {
-    "input": "H.WS.4,​3,​1+2",
+    "input": "in heat WS.4,​3,​1+2",
     "hit_level": "m,​h,​h,​h,​h,​h",
     "damage": "15,​23,​6,​6,​6,​10",
     "startup": "i11~12, i25, i28 i35 i42 i13",
@@ -1680,7 +1680,7 @@
     "note": ""
   },
   {
-    "input": "H.qcf+2,​F",
+    "input": "in heat qcf+2,​F",
     "hit_level": "M",
     "damage": "25",
     "startup": "i17~18",
@@ -1730,7 +1730,7 @@
     "note": "Combo from 2nd hit\nChip damage on block"
   },
   {
-    "input": "H.qcf+4,​3,​1+2",
+    "input": "in heat qcf+4,​3,​1+2",
     "hit_level": "m,​h,​h,​h,​h,​h",
     "damage": "15,​23,​6,​6,​6,​10",
     "startup": "i14, i25, i28 i35 i42",

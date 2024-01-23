@@ -20,7 +20,7 @@
     "note": "Alternate input: R1"
   },
   {
-    "input": "H.2+3",
+    "input": "in heat 2+3",
     "hit_level": "l,​m,​th",
     "damage": "12,​20,​34",
     "startup": "i18",
@@ -40,7 +40,7 @@
     "note": ""
   },
   {
-    "input": "R.df+1+2",
+    "input": "in rage df+1+2",
     "hit_level": "m,​th",
     "damage": "10,​45",
     "startup": "Startup",
@@ -310,7 +310,7 @@
     "note": "Chip damage when guarded"
   },
   {
-    "input": "H.df+1,​2,​F",
+    "input": "in heat df+1,​2,​F",
     "hit_level": "m,​h",
     "damage": "11,​20",
     "startup": "i15",
@@ -540,7 +540,7 @@
     "note": "Chip damage when guarded"
   },
   {
-    "input": "H.db+1,​2,​F",
+    "input": "in heat db+1,​2,​F",
     "hit_level": "m,​mm",
     "damage": "7,​8,​15",
     "startup": "i13",
@@ -720,7 +720,7 @@
     "note": ""
   },
   {
-    "input": "H.b+4,​F",
+    "input": "in heat b+4,​F",
     "hit_level": "h",
     "damage": "20",
     "startup": "i17",
@@ -740,7 +740,7 @@
     "note": "Chip damage when guarded"
   },
   {
-    "input": "H.b+1+2,​F",
+    "input": "in heat b+1+2,​F",
     "hit_level": "m",
     "damage": "21",
     "startup": "i22",
@@ -900,7 +900,7 @@
     "note": "Damage () is damage bonus when throw"
   },
   {
-    "input": "H.f,​F+2,​F",
+    "input": "in heat f,​F+2,​F",
     "hit_level": "m",
     "damage": "20",
     "startup": "i16",
