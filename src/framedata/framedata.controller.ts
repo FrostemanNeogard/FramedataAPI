@@ -14,12 +14,12 @@ import { FramedataRequestDto } from 'src/__dtos/frame_data_dto';
 export class FramedataController {
   private readonly logger = new Logger();
 
-  constructor(private readonly tekken7Service: FramedataService) {}
+  constructor(private readonly framedataService: FramedataService) {}
 
   @Get(':characterName')
   async getFrameData(@Param('characterName') name: string) {
     try {
-      return await this.tekken7Service.getCharacterFrameData(name, 'tekken7');
+      return await this.framedataService.getCharacterFrameData(name, 'tekken7');
     } catch (error) {
       return new BadRequestException(`${error}`);
     }
@@ -29,13 +29,13 @@ export class FramedataController {
   async getFrameDataSingle(@Body() frameDataDto: FramedataRequestDto) {
     try {
       if (frameDataDto.input) {
-        return await this.tekken7Service.getSingleMoveFrameData(
+        return await this.framedataService.getSingleMoveFrameData(
           frameDataDto.characterCode,
           frameDataDto.gameCode,
           frameDataDto.input,
         );
       } else {
-        return await this.tekken7Service.getCharacterFrameData(
+        return await this.framedataService.getCharacterFrameData(
           frameDataDto.characterCode,
           frameDataDto.gameCode,
         );
