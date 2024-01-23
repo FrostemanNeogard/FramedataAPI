@@ -4,72 +4,24 @@ import { FrameDataType } from 'src/__types/frame_data';
 import { promisify } from 'util';
 
 @Injectable()
-export class Tekken7Service {
+export class FramedataService {
   private readonly logger = new Logger();
 
-  private readonly characterCodes = {
-    akuma: 'akuma',
-    alisa: 'alisa',
-    anna: 'anna',
-    armor_king: 'armor-king',
-    asuka: 'asuka',
-    bob: 'bob',
-    bryan: 'bryan',
-    claudio: 'claudio',
-    devil_jin: 'devil-jin',
-    dragunov: 'dragunov',
-    eddy: 'eddy',
-    eliza: 'eliza',
-    fahkumram: 'fahkumram',
-    feng: 'feng',
-    ganryu: 'ganryu',
-    geese: 'geese',
-    gigas: 'gigas',
-    heihachi: 'heihachi',
-    hwoarang: 'hwoarang',
-    jack_7: 'jack7',
-    jin: 'jin',
-    josie: 'josie',
-    julia: 'julia',
-    katarina: 'katarina',
-    kazumi: 'kazumi',
-    kazuya: 'kazuya',
-    king: 'king',
-    kuma: 'kuma',
-    panda: 'kuma',
-    kunimitsu: 'kunimitsu',
-    lars: 'lars',
-    law: 'law',
-    lee: 'lee',
-    lei: 'lei',
-    leo: 'leo',
-    leroy: 'leroy',
-    lidia: 'lidia',
-    lili: 'lili',
-    lucky_chloe: 'lucky-chloe',
-    marduk: 'marduk',
-    master_raven: 'master-raven',
-    miguel: 'miguel',
-    negan: 'negan',
-    nina: 'nina',
-    noctis: 'noctis',
-    paul: 'paul',
-    shaheen: 'shaheen',
-    steve: 'steve',
-    xiaoyu: 'xiaoyu',
-    yoshimitsu: 'yoshimitsu',
-    zafina: 'zafina',
-  };
-
-  async getCharacterFrameData(characterName: string): Promise<FrameDataType[]> {
-    const characterCode = this.characterCodes[characterName];
-
+  async getCharacterFrameData(
+    characterCode: string,
+    game: string,
+  ): Promise<FrameDataType[]> {
     if (!characterCode) {
-      this.logger.error(`Couldn't find character name: ${characterName}`);
+      this.logger.error(`No character name given.`);
       throw new BadRequestException(`Invalid character name.`);
     }
 
-    const filePath = `src/data/tekken7/${characterCode}.json`;
+    if (!game) {
+      this.logger.error(`No game name given.`);
+      throw new BadRequestException(`Invalid game name.`);
+    }
+
+    const filePath = `src/data/${game}/${characterCode}.json`;
 
     try {
       const readFileAsync = promisify(fs.readFile);
@@ -80,16 +32,22 @@ export class Tekken7Service {
       this.logger.error(
         `An error occurred when reading ${filePath}. ${error.code}: ${error.message}`,
       );
-      throw new BadRequestException(`Error reading file.`);
+      throw new BadRequestException(
+        `Couldn't find framedata for the given character and game.`,
+      );
     }
   }
 
-  async getSingleMoveFrameData(characterName: string, notation: string) {
+  async getSingleMoveFrameData(
+    character: string,
+    game: string,
+    notation: string,
+  ) {
     this.logger.log(
-      `Attempting to find attack: ${notation} for character: ${characterName}.`,
+      `Attempting to find attack: ${notation} for character: ${character} in ${game}.`,
     );
 
-    const frameData = await this.getCharacterFrameData(characterName);
+    const frameData = await this.getCharacterFrameData(character, game);
     let attackInfo: FrameDataType[] = [];
 
     for (let i = 0; i < 2; i++) {
