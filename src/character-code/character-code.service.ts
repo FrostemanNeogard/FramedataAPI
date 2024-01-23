@@ -1,7 +1,7 @@
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 
 @Injectable()
-export class CharacterNameFormatterService {
+export class CharacterCodeService {
   private readonly logger = new Logger();
 
   private readonly characterCodes = {

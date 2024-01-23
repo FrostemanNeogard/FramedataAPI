@@ -4,13 +4,13 @@ import { AppService } from './app.service';
 import { Tekken7Controller } from './tekken7/tekken7.controller';
 import { Tekken7Service } from './tekken7/tekken7.service';
 import { Tekken7Module } from './tekken7/tekken7.module';
-import { CharacterNameFormatterController } from './character_name_formatter/character_name_formatter.controller';
-import { CharacterNameFormatterService } from './character_name_formatter/character_name_formatter.service';
-import { CharacterNameFormatterModule } from './character_name_formatter/character_name_formatter.module';
+import { CharacterCodeController } from './character-code/character-code.controller';
+import { CharacterCodeService } from './character-code/character-code.service';
+import { CharacterNameFormatterModule } from './character-code/character-code.module';
 
 @Module({
   imports: [Tekken7Module, CharacterNameFormatterModule],
-  controllers: [AppController, Tekken7Controller, CharacterNameFormatterController],
-  providers: [AppService, Tekken7Service, CharacterNameFormatterService],
+  controllers: [AppController, Tekken7Controller, CharacterCodeController],
+  providers: [AppService, Tekken7Service, CharacterCodeService],
 })
 export class AppModule {}
