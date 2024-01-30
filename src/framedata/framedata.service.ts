@@ -33,7 +33,7 @@ export class FramedataService {
         `An error occurred when reading ${filePath}. ${error.code}: ${error.message}`,
       );
       throw new BadRequestException(
-        `Couldn't find framedata for the given character and game.`,
+        `No framedata was found for the given character and game combo.`,
       );
     }
   }
@@ -60,7 +60,7 @@ export class FramedataService {
     }
     if (!attackInfo[0]) {
       this.logger.error(`Couldn't find attack: ${notation}`);
-      return new BadRequestException(`No attack found.`);
+      throw new BadRequestException(`Attack not found.`);
     }
     this.logger.log(`Found attack: ${attackInfo[0].input}`);
     return attackInfo[0];
