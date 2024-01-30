@@ -1,7 +1,5 @@
 import {
   Controller,
-  Get,
-  Param,
   Post,
   Body,
   Logger,
