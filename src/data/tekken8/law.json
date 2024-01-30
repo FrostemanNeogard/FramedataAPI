@@ -67,10 +67,10 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "Template:HeatDash\nAlternate input DSS.f+3 "
+    "note": "Template:HeatDash\nAlternate input DSS f+3 "
   },
   {
-    "input": "DSS.f+1",
+    "input": "DSS f+1",
     "hit_level": "m",
     "damage": "20",
     "startup": "i14",
@@ -87,7 +87,7 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
+    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS 1+2 "
   },
   {
     "input": "in heat d+1+2",
@@ -397,7 +397,7 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
+    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS 1+2 "
   },
   {
     "input": "3+4",
@@ -417,7 +417,7 @@
     "block": "+7 (+10g wallcrush)",
     "hit": "+31d (-27)",
     "counter": "",
-    "note": "Combos from 1st hit\nWallcrush on block\nChip damage on block\nAlternate input DSS.3+4,4"
+    "note": "Combos from 1st hit\nWallcrush on block\nChip damage on block\nAlternate input DSS 3+4,4"
   },
   {
     "input": "Input",
@@ -437,7 +437,7 @@
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": "Can route into:\nRave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)\nAlternate input DSS.f+2Rave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)"
+    "note": "Can route into:\nRave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)\nAlternate input DSS f+2Rave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)"
   },
   {
     "input": "f+2~1",
@@ -447,7 +447,7 @@
     "block": "+2",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input DSS.f+2~1(+5 oB, +33a (+7))"
+    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input DSS f+2~1(+5 oB, +33a (+7))"
   },
   {
     "input": "f+3",
@@ -927,7 +927,7 @@
     "block": "",
     "hit": "+7",
     "counter": "",
-    "note": "Transition to DSS on successful parry with F to be +14\nGuarantees DSS.1, DSS.2, DSS.f+1"
+    "note": "Transition to DSS on successful parry with F to be +14\nGuarantees DSS 1, DSS 2, DSS f+1"
   },
   {
     "input": "b+2+4",
@@ -1157,7 +1157,7 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "Template:HeatDash\nAlternate input DSS.f+3 "
+    "note": "Template:HeatDash\nAlternate input DSS f+3 "
   },
   {
     "input": "f,​F+4",
@@ -1317,7 +1317,7 @@
     "block": "+17g",
     "hit": "+19",
     "counter": "",
-    "note": "Automatically transitions to DSS on hit and block\nOn hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 On hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 "
+    "note": "Automatically transitions to DSS on hit and block\nOn hit, guaranteed DSS 1, DSS f+1, DSS 2, DSS f+2, DSS 3+4,4 On hit, guaranteed DSS 1, DSS f+1, DSS 2, DSS f+2, DSS 3+4,4 "
   },
   {
     "input": "ws4",
@@ -1480,17 +1480,17 @@
     "note": "Enters DSS\nTransition to Slide Step with DF "
   },
   {
-    "input": "DSS.1",
+    "input": "DSS 1",
     "hit_level": "h",
     "damage": "14",
     "startup": "i12",
     "block": "+0",
     "hit": "+8",
     "counter": "+18c",
-    "note": "Chip damage on block\nAutomatically transitions to DSS on hit and block\nCH guarantees DSS.f+1, DSS.3+4,4"
+    "note": "Chip damage on block\nAutomatically transitions to DSS on hit and block\nCH guarantees DSS f+1, DSS 3+4,4"
   },
   {
-    "input": "DSS.2",
+    "input": "DSS 2",
     "hit_level": "h",
     "damage": "20",
     "startup": "i14",
@@ -1500,7 +1500,7 @@
     "note": "Chip damage on block "
   },
   {
-    "input": "DSS.3",
+    "input": "DSS 3",
     "hit_level": "h",
     "damage": "30",
     "startup": "i19",
@@ -1510,7 +1510,7 @@
     "note": "Chip damage on block "
   },
   {
-    "input": "DSS.4",
+    "input": "DSS 4",
     "hit_level": "l",
     "damage": "21",
     "startup": "i21",
@@ -1520,7 +1520,7 @@
     "note": ""
   },
   {
-    "input": "DSS.1+2",
+    "input": "DSS 1+2",
     "hit_level": "m",
     "damage": "",
     "startup": "i16",
@@ -1530,7 +1530,7 @@
     "note": "Partially uses remaining Heat time\nInstant Tornado on CH\nAlternate input 1+2"
   },
   {
-    "input": "DSS.f+1",
+    "input": "DSS f+1",
     "hit_level": "m",
     "damage": "20",
     "startup": "i14",
@@ -1540,7 +1540,7 @@
     "note": "Template:HeatDash\nChip damage on block "
   },
   {
-    "input": "DSS.f+2~1",
+    "input": "DSS f+2~1",
     "hit_level": "m",
     "damage": "24",
     "startup": "i19",
@@ -1550,7 +1550,7 @@
     "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input f+2~1(+5 oB, +33a (+7))"
   },
   {
-    "input": "DSS.f+3",
+    "input": "DSS f+3",
     "hit_level": "m",
     "damage": "30",
     "startup": "i20",
@@ -1560,7 +1560,7 @@
     "note": "Template:HeatDash\nChip damage on block\nAlternate input f,F+3"
   },
   {
-    "input": "DSS.f+4",
+    "input": "DSS f+4",
     "hit_level": "h",
     "damage": "40",
     "startup": "i19",
@@ -1570,7 +1570,7 @@
     "note": "Chip damage on block"
   },
   {
-    "input": "DSS.uf+1+2",
+    "input": "DSS uf+1+2",
     "hit_level": "t",
     "damage": "35",
     "startup": "i12",
@@ -1607,7 +1607,7 @@
     "block": "-13",
     "hit": "+7",
     "counter": "+16c",
-    "note": "Automatically transitions to DSS on hit\nCH guarantees DSS.f+1, DSS.3+4,4 CH guarantees DSS.f+1, DSS.3+4,4 "
+    "note": "Automatically transitions to DSS on hit\nCH guarantees DSS f+1, DSS 3+4,4 CH guarantees DSS f+1, DSS 3+4,4 "
   },
   {
     "input": "ss1+2",
@@ -1697,7 +1697,7 @@
     "block": "+1",
     "hit": "+50a",
     "counter": "",
-    "note": "Chip damage on block\nAlternate input DSS.2 "
+    "note": "Chip damage on block\nAlternate input DSS 2 "
   },
   {
     "input": "(While down,​ facing up) 1+2+3+4",
