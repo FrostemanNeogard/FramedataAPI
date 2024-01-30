@@ -1,0 +1,142 @@
+[
+  {
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "in heat 2+3",
+    "hit_level": "l",
+    "damage": "37",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "4,4:4",
+    "hit_level": "h,​h,​h",
+    "damage": "14,​5,​12",
+    "startup": "i20",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "+29",
+    "note": ""
+  },
+  {
+    "input": "df4,4",
+    "hit_level": "m,​h",
+    "damage": "33",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "b3+4",
+    "hit_level": "h",
+    "damage": "23",
+    "startup": "i20",
+    "block": "-7",
+    "hit": "+17",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ff3",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i14~15",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "hms u3",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i20~22",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1",
+    "hit_level": "h",
+    "damage": "5",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,2",
+    "hit_level": "h,​h",
+    "damage": "5,​9",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1,2,2",
+    "hit_level": "h,​h,​m",
+    "damage": "5,​9,​16",
+    "startup": "i20~21",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "4",
+    "hit_level": "h",
+    "damage": "14",
+    "startup": "i11",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "4,4",
+    "hit_level": "h,​h",
+    "damage": "14,​5",
+    "startup": "i10",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "4,4,4",
+    "hit_level": "h,​h,​h",
+    "damage": "14,​5,​5",
+    "startup": "i10",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "4,4:4",
+    "hit_level": "h,​h,​h",
+    "damage": "14,​5,​12",
+    "startup": "i20",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "+29",
+    "note": ""
+  }
+]
