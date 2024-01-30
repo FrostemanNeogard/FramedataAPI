@@ -79,6 +79,7 @@ export class FramedataService {
       .replaceAll('qcb', 'd,db,b')
       .replaceAll('hcf', 'b,db,f,df,f')
       .replaceAll('hcb', 'f,df,d,db,d')
+      .replaceAll('.', '')
       .replaceAll(/ *\([^)]*\) */g, '')
       .split('or')
       .pop()
