@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": ""
+    "note": "\npcHeat Burst"
   },
   {
     "name": "Meteor Raid (Heat Burst)",
@@ -19,7 +19,7 @@
     "block": "-9",
     "hit": "-2d (-12)",
     "counter": "",
-    "note": ""
+    "note": "\npc\n\nHeat Smash\n\nBalcony Break "
   },
   {
     "name": "Piston Gun Assault",
@@ -30,7 +30,7 @@
     "block": "+5",
     "hit": "+2d",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break "
   },
   {
     "name": "Piston Gun Assault (charged)",
@@ -41,7 +41,7 @@
     "block": "-2 (+5 WC)",
     "hit": "+17a (+9)",
     "counter": "",
-    "note": "Wall crush\nChip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break\nWall crush\nChip damage on block\n"
   },
   {
     "name": "Tyulpan Blast",
@@ -52,7 +52,7 @@
     "block": "-19",
     "hit": "-1d (-10)",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d(+35)\n\n\nBalcony Break\n"
   },
   {
     "name": "Full Metal Deathblow",
@@ -63,7 +63,7 @@
     "block": "+3",
     "hit": "+21d (+11)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break\nChip damage on block\n"
   },
   {
     "name": "Particle Barrier",
@@ -74,7 +74,7 @@
     "block": "-13",
     "hit": "+40d (-18)",
     "counter": "",
-    "note": "Chip damage on block when absorbing an attack"
+    "note": "\npc\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\nChip damage on block when absorbing an attack\n"
   },
   {
     "name": "Iron Gunman",
@@ -85,7 +85,7 @@
     "block": "",
     "hit": "+6d",
     "counter": "",
-    "note": "Cannot cancel into Heat Dash\nCrouch Throw\nUnbreakable\nAlternate input GMH.2+4"
+    "note": "\n\nHeat Engager\n\nCannot cancel into Heat Dash\nCrouch Throw\nUnbreakable\nAlternate input GMH.2+4\n"
   },
   {
     "name": "Gamma Howl (Gamma Charge)",
@@ -96,7 +96,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nAlternate input ws3+4"
+    "note": "\npc\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\n\nGamma Charge is always in effect during Heat\nAlternate input ws3+4"
   },
   {
     "name": "Jaguar Hook - Gamma",
@@ -107,7 +107,7 @@
     "block": "-6",
     "hit": "+73a (+57)",
     "counter": "",
-    "note": "\nPartially uses remaining Heat time\nChip damage on block "
+    "note": "\n\nHoming\n\nPartially uses remaining Heat time\nChip damage on block "
   },
   {
     "name": "Exaton Blast - Gamma",
@@ -118,7 +118,7 @@
     "block": "+11",
     "hit": "+31a (+5)",
     "counter": "",
-    "note": "Partially uses remaining Heat time\nChip damage on block "
+    "note": "\npc\n\nTornado\n\nGuard Break +11\n\nBalcony Break\nPartially uses remaining Heat time\nChip damage on block "
   },
   {
     "name": "Terraforming Cannon",
@@ -129,7 +129,7 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "Rage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
+    "note": "\npc8~\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
   },
   {
     "name": "Jab",
@@ -151,7 +151,7 @@
     "block": "-14c",
     "hit": "+4c",
     "counter": "+12d",
-    "note": "Combos from 1st hit\nTransition to GMH with D\n(+4c oB, +8c oH, +16d) "
+    "note": "\n\nElbow\nCombos from 1st hit\nTransition to GMH with D\n(+4c oB, +8c oH, +16d) "
   },
   {
     "name": "Jab > Stunning Hook",
@@ -162,7 +162,7 @@
     "block": "-2",
     "hit": "+30a",
     "counter": "",
-    "note": ""
+    "note": "Combos from 1st hit CH"
   },
   {
     "name": "",
@@ -184,7 +184,7 @@
     "block": "-3",
     "hit": "+2",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\n\nElbow\nCombos from 1st hit "
   },
   {
     "name": "Jab Elbow Smash",
@@ -217,7 +217,7 @@
     "block": "-13",
     "hit": "+5",
     "counter": "+30d (+22)",
-    "note": "2nd hit Balcony Break on CH "
+    "note": "\n\nKnee\n2nd hit Balcony Break on CH "
   },
   {
     "name": "Tornado Punch",
@@ -228,7 +228,7 @@
     "block": "-13",
     "hit": "+67a (+51)",
     "counter": "",
-    "note": "Instant Tornado\n"
+    "note": "\n\nTornado\nInstant Tornado\n\nHoming "
   },
   {
     "name": "Gamma Howl (Gamma Charge)",
@@ -239,7 +239,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nAlternate input ws3+4"
+    "note": "\npc\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\n\nGamma Charge is always in effect during Heat\nAlternate input ws3+4"
   },
   {
     "name": "",
@@ -250,7 +250,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input hcf+1\n1+4 can be held for up to 5 spins (or multiple 360 motions)"
+    "note": "\nAlternate input hcf+1\n1+4 can be held for up to 5 spins (or multiple 360 motions)"
   },
   {
     "name": "Gigaton Punch",
@@ -261,7 +261,7 @@
     "block": "+21g",
     "hit": "+7a (-2)",
     "counter": "+39d (-8)",
-    "note": "Chip damage on block\nAlternate input hcf+1 to do 5 more damage"
+    "note": "\n\nBalcony Break\nChip damage on block\nAlternate input hcf+1 to do 5 more damage"
   },
   {
     "name": "Gigaton Punch (2/3/4/5 spins)",
@@ -272,7 +272,7 @@
     "block": "!",
     "hit": "+70d",
     "counter": "",
-    "note": "Unblockable "
+    "note": "\n\nBalcony Break\nUnblockable "
   },
   {
     "name": "Windup Uppercut",
@@ -283,7 +283,7 @@
     "block": "-17",
     "hit": "+52a (+42)",
     "counter": "",
-    "note": "Alternate input hcf,df+1"
+    "note": "\n\nTornado\nAlternate input hcf,df+1"
   },
   {
     "name": "Prime Windup Uppercut",
@@ -294,7 +294,7 @@
     "block": "-17",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "Just Frame version of 1+4,df+1 (hcf,df+1)\nInstant Tornado\nAlternate input hcf:df+1"
+    "note": "\nJust Frame version of 1+4,df+1 (hcf,df+1)\n\nTornado\nInstant Tornado\nAlternate input hcf:df+1"
   },
   {
     "name": "",
@@ -316,7 +316,7 @@
     "block": "-7",
     "hit": "+8d (-1)",
     "counter": "+40d (-7)",
-    "note": ""
+    "note": "Combos from 1st hit"
   },
   {
     "name": "",
@@ -327,7 +327,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "Combos from 1st hit"
   },
   {
     "name": "Drilling Engine",
@@ -338,7 +338,7 @@
     "block": "-12",
     "hit": "+65a (+49)",
     "counter": "",
-    "note": "Instant Tornado "
+    "note": "\n\nTornado\nInstant Tornado "
   },
   {
     "name": "Piston Gun Blaster",
@@ -349,7 +349,7 @@
     "block": "+6",
     "hit": "+3d",
     "counter": "",
-    "note": "Can be charged to power up\nChip damage on block"
+    "note": "\nCan be charged to power up\nChip damage on block"
   },
   {
     "name": "Piston Gun Blaster (charged)",
@@ -360,7 +360,7 @@
     "block": "-12 (0 wall crush)",
     "hit": "+11d (-15)",
     "counter": "",
-    "note": "Wall crush\nChip damage on block "
+    "note": "\n\nBalcony Break\nWall crush\nChip damage on block "
   },
   {
     "name": "Pinpoint Assault",
@@ -382,7 +382,7 @@
     "block": "-9",
     "hit": "+5",
     "counter": "",
-    "note": "Transition to GMH with D\n(+2 oB, +16g oH)\nAlternate input ws3 (+2 oB, +16g oH)"
+    "note": "\n\nKnee\nTransition to GMH with D\n(+2 oB, +16g oH)\nAlternate input ws3 "
   },
   {
     "name": "Two-Step Die",
@@ -393,7 +393,7 @@
     "block": "-9",
     "hit": "+44d (-14)",
     "counter": "",
-    "note": "Combos from 1st hit\nAlternate input ws3,2 "
+    "note": "\n\nBalcony Break\nCombos from 1st hit\nAlternate input ws3,2 "
   },
   {
     "name": "Machine Press",
@@ -404,7 +404,7 @@
     "block": "-11c",
     "hit": "+2d",
     "counter": "+48a",
-    "note": "Combos from 1st hit CH\nAlternate input ws3,1+2 "
+    "note": "\nCombos from 1st hit CH\nAlternate input ws3,1+2 "
   },
   {
     "name": "Dark Greeting",
@@ -415,7 +415,7 @@
     "block": "!",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "Unblockable"
   },
   {
     "name": "Sudden Elbow",
@@ -426,7 +426,7 @@
     "block": "+8",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "Elbow"
   },
   {
     "name": "Rolling Death Crusher",
@@ -437,7 +437,7 @@
     "block": "i12",
     "hit": "+32d (+6)",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\npc\n\nBalcony Break\nChip damage on block "
   },
   {
     "name": "Merkabah Headbutt",
@@ -448,7 +448,7 @@
     "block": "-11",
     "hit": "+9c",
     "counter": "",
-    "note": "Headbutt\nTransition to GMH with D\n(-3 oB, +15g oB)(-3 oB, +15g oB)"
+    "note": "\nHeadbutt\nTransition to GMH with D\n(-3 oB, +15g oB)"
   },
   {
     "name": "",
@@ -470,7 +470,7 @@
     "block": "-11",
     "hit": "+21cg",
     "counter": "+72a (+56)",
-    "note": "Combos from 1st hit CH\nDelayable"
+    "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit CH\nDelayable"
   },
   {
     "name": "",
@@ -481,7 +481,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combos from 1st hit CH\nDelayable"
+    "note": "\nCombos from 1st hit CH\nDelayable"
   },
   {
     "name": "",
@@ -492,7 +492,7 @@
     "block": "-10",
     "hit": "-2",
     "counter": "",
-    "note": "On air hit +22a (+15)\nCombos from 2nd hit\nCombos from 1st hit CH "
+    "note": "\nOn air hit +22a (+15)\nCombos from 2nd hit\nCombos from 1st hit CH "
   },
   {
     "name": "Overdrive",
@@ -503,7 +503,7 @@
     "block": "-18",
     "hit": "+35d (-23)",
     "counter": "",
-    "note": "On air hit +12 (+5)\nCombos from 2nd hit\nCombos from 1st hit CH "
+    "note": "\n\nBalcony Break\nOn air hit +12 (+5)\nCombos from 2nd hit\nCombos from 1st hit CH "
   },
   {
     "name": "Programmed Uppercut",
@@ -525,7 +525,7 @@
     "block": "-32",
     "hit": "+40a (+22)",
     "counter": "",
-    "note": "Transition to GMH with D\n(+45a (+27) oH)\nCan be charged to power up (+45a (+27) oH)"
+    "note": "\nTransition to GMH with D\n(+45a (+27) oH)\nCan be charged to power up "
   },
   {
     "name": "Cosmic Sweeper (charged)",
@@ -536,7 +536,7 @@
     "block": "-46",
     "hit": "+69a (+53)",
     "counter": "",
-    "note": "Transition to GMH with D\n(+70a (+54) oH))(+70a (+54) oH))"
+    "note": "\n\nTornado\nTransition to GMH with D\n(+70a (+54) oH))"
   },
   {
     "name": "",
@@ -558,7 +558,7 @@
     "block": "-9",
     "hit": "+25d",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Mimesis Wrench Kick",
@@ -580,7 +580,7 @@
     "block": "-23",
     "hit": "+10a (+1)",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Debugger",
@@ -591,7 +591,7 @@
     "block": "-37",
     "hit": "+18d",
     "counter": "",
-    "note": "Alternate input b,db,d,df+1 to power up\n(28 damage, i29)(28 damage, i29)"
+    "note": "\n\nHoming\nAlternate input b,db,d,df+1 to power up\n(28 damage, i29)"
   },
   {
     "name": "Megaton Blast",
@@ -602,7 +602,7 @@
     "block": "-9",
     "hit": "+31d (-5)",
     "counter": "",
-    "note": "Alternate input b,db,d,df+2 to power up\n(31 damage, i22)(31 damage, i22)"
+    "note": "\n\nBalcony Break\nAlternate input b,db,d,df+2 to power up\n(31 damage, i22)"
   },
   {
     "name": "",
@@ -613,7 +613,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -624,7 +624,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Alternate input FC.d+2 "
+    "note": "\nAlternate input FC.d+2 "
   },
   {
     "name": "",
@@ -635,7 +635,7 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "Alternate input FC.d+3 "
+    "note": "\nAlternate input FC.d+3 "
   },
   {
     "name": "",
@@ -646,7 +646,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "Alternate input FC.d+4 "
+    "note": "\nAlternate input FC.d+4 "
   },
   {
     "name": "Double Axe",
@@ -657,7 +657,7 @@
     "block": "-18",
     "hit": "+42a (+32)",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Sit Down",
@@ -668,7 +668,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Transitions to SIT (Sit Down)"
+    "note": "\nTransitions to SIT (Sit Down)"
   },
   {
     "name": "",
@@ -679,7 +679,7 @@
     "block": "-12",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "",
@@ -690,7 +690,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combos from 1st hit"
+    "note": "\ncs\nCombos from 1st hit"
   },
   {
     "name": "",
@@ -701,7 +701,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "Machinegun Blast",
@@ -712,7 +712,7 @@
     "block": "-11",
     "hit": "+43a (-4)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break "
   },
   {
     "name": "Power Shovel",
@@ -723,7 +723,7 @@
     "block": "-18",
     "hit": "+3",
     "counter": "+33d",
-    "note": "Can be charged to power up "
+    "note": "\nCan be charged to power up "
   },
   {
     "name": "Power Shovel (charged)",
@@ -734,7 +734,7 @@
     "block": "-33",
     "hit": "+17d",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\nChip damage on block "
   },
   {
     "name": "Power Shovel (charged)",
@@ -745,7 +745,7 @@
     "block": "-33",
     "hit": "+17d",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\nChip damage on block "
   },
   {
     "name": "Cossack Kick",
@@ -756,7 +756,7 @@
     "block": "-20",
     "hit": "-9",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -767,7 +767,7 @@
     "block": "-16",
     "hit": "-9",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -778,7 +778,7 @@
     "block": "-19",
     "hit": "-8",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -789,7 +789,7 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -800,7 +800,7 @@
     "block": "-19",
     "hit": "-8",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Cossack Kicks",
@@ -811,7 +811,7 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Cossack Smash",
@@ -822,7 +822,7 @@
     "block": "+14g",
     "hit": "+43a (-15)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break "
   },
   {
     "name": "Big Boot",
@@ -833,7 +833,7 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "Megaton Earthquake",
@@ -844,7 +844,7 @@
     "block": "-70",
     "hit": "-5d",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -855,7 +855,7 @@
     "block": "-11",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Double Biceps",
@@ -866,7 +866,7 @@
     "block": "-14",
     "hit": "+15d",
     "counter": "+47a",
-    "note": "Combos from 1st hit "
+    "note": "\n\nSpike\nCombos from 1st hit "
   },
   {
     "name": "Piston Gun Assault",
@@ -877,7 +877,7 @@
     "block": "+5",
     "hit": "+2d",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break "
   },
   {
     "name": "Piston Gun Assault (charged)",
@@ -888,7 +888,7 @@
     "block": "-2 (+5 WC)",
     "hit": "+17a (+9)",
     "counter": "",
-    "note": "Wall crush\nChip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break\nWall crush\nChip damage on block\n"
   },
   {
     "name": "",
@@ -899,7 +899,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -910,7 +910,7 @@
     "block": "-4",
     "hit": "+1",
     "counter": "",
-    "note": "Transition to GMH with D\n(+0 oB, +5 oH) (+0 oB, +5 oH) "
+    "note": "\nTransition to GMH with D\n(+0 oB, +5 oH) "
   },
   {
     "name": "Mad Dozer",
@@ -921,7 +921,7 @@
     "block": "-9",
     "hit": "+44d (-14)",
     "counter": "",
-    "note": "Can be charged to power up "
+    "note": "\n\nBalcony Break\nCan be charged to power up "
   },
   {
     "name": "Mad Dozer (charged)",
@@ -932,7 +932,7 @@
     "block": "-9",
     "hit": "+13d (+5)",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\n\nBalcony Break\n\nWall Crush +3 on block\n\nChip damage on block "
   },
   {
     "name": "",
@@ -943,7 +943,7 @@
     "block": "-13",
     "hit": "-2",
     "counter": "-2a",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Sherman Stomp",
@@ -954,7 +954,7 @@
     "block": "-4",
     "hit": "-8d",
     "counter": "",
-    "note": "Combos from 1st hit CH\nWhen comboing from 1st hit:"
+    "note": "\nCombos from 1st hit CH\nWhen comboing from 1st hit:\nFloor Break\n"
   },
   {
     "name": "Barrel Jacket Hammer",
@@ -965,7 +965,7 @@
     "block": "-9",
     "hit": "+23",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\npc\n\nBalcony Break\n\nHoming\nChip damage on block"
   },
   {
     "name": "",
@@ -976,7 +976,7 @@
     "block": "-16",
     "hit": "+15a (+5)",
     "counter": "",
-    "note": "Alternate input ub+4, uf+4"
+    "note": "\njs\n\nBalcony Break\nAlternate input ub+4, uf+4"
   },
   {
     "name": "Patriot Fist",
@@ -987,7 +987,7 @@
     "block": "-13",
     "hit": "+49a (+39)",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Giant Foot Stomp",
@@ -998,7 +998,7 @@
     "block": "!",
     "hit": "+17d",
     "counter": "",
-    "note": "Unblockable\nCan input additional 3+4 (up to 4 times) to fly farther and deal more damage\nAlternate input ub+3+4"
+    "note": "\njs\nUnblockable\nCan input additional 3+4 (up to 4 times) to fly farther and deal more damage\nAlternate input ub+3+4"
   },
   {
     "name": "Sky Sweeper",
@@ -1009,7 +1009,7 @@
     "block": "",
     "hit": "+71a (+55)",
     "counter": "",
-    "note": "Only hits airborne opponents\nTransition to GMH with D\n(+75a (+59))\nCan be charged to power up\nAlternate input ub+1, u+1 (+75a (+59))"
+    "note": "\n\nTornado\nOnly hits airborne opponents\nTransition to GMH with D\n(+75a (+59))\nCan be charged to power up\nAlternate input ub+1, u+1 "
   },
   {
     "name": "Sky Sweeper (charged)",
@@ -1020,7 +1020,7 @@
     "block": "",
     "hit": "+69a (+53)",
     "counter": "",
-    "note": "Only hits airborne opponents\nTransition to GMH with D\n(+70a (+54))\nAlternate input ub+1*, u+1* (+70a (+54))"
+    "note": "\n\nTornado\nOnly hits airborne opponents\nTransition to GMH with D\n(+70a (+54))\nAlternate input ub+1*, u+1* "
   },
   {
     "name": "Reactor Elbow",
@@ -1031,7 +1031,7 @@
     "block": "+4c",
     "hit": "+7c",
     "counter": "+11d",
-    "note": ""
+    "note": "\njs\n\nElbow  "
   },
   {
     "name": "Terrapulser",
@@ -1042,7 +1042,7 @@
     "block": "-17",
     "hit": "+8c",
     "counter": "",
-    "note": "Automatically transitions to GMH on hit or block\nAlternate input ub+3, u+3"
+    "note": "\njs\nAutomatically transitions to GMH on hit or block\nAlternate input ub+3, u+3"
   },
   {
     "name": "Pancake Press",
@@ -1053,7 +1053,7 @@
     "block": "+13cg",
     "hit": "+20d",
     "counter": "",
-    "note": "Automatically transitions to SIT on hit or block "
+    "note": "\njs\nAutomatically transitions to SIT on hit or block "
   },
   {
     "name": "Jackhammer",
@@ -1064,7 +1064,7 @@
     "block": "-6",
     "hit": "+8c",
     "counter": "+16d",
-    "note": "Transition to GMH with D\n(+4c oB, +8c oH) "
+    "note": "\nTransition to GMH with D\n(+4c oB, +8c oH) "
   },
   {
     "name": "Rocket Uppercut",
@@ -1075,7 +1075,7 @@
     "block": "-16",
     "hit": "+53a (+43)",
     "counter": "",
-    "note": "Can be charged to power up "
+    "note": "\nCan be charged to power up "
   },
   {
     "name": "Rocket Uppercut (charged)",
@@ -1086,7 +1086,7 @@
     "block": "-16",
     "hit": "+61a",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\n\nTornado\nChip damage on block "
   },
   {
     "name": "Granite Stomping",
@@ -1097,7 +1097,7 @@
     "block": "+4c",
     "hit": "+9c",
     "counter": "+22a",
-    "note": "Transition to FC with D"
+    "note": "\nTransition to FC with D"
   },
   {
     "name": "Rocket Kick",
@@ -1108,7 +1108,7 @@
     "block": "-10",
     "hit": "+15d (+5)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nTornado \n\nBalcony Break\nChip damage on block"
   },
   {
     "name": "",
@@ -1119,7 +1119,7 @@
     "block": "-15",
     "hit": "+22cs",
     "counter": "",
-    "note": ""
+    "note": "\n\nHoming "
   },
   {
     "name": "Cross Cut Blast",
@@ -1130,7 +1130,7 @@
     "block": "-11",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\n\nBalcony Break\nCombos from 1st hit "
   },
   {
     "name": "High and Low Cross Cut",
@@ -1141,7 +1141,7 @@
     "block": "-19",
     "hit": "+13d",
     "counter": "",
-    "note": "Alternate input FC.d+1+2"
+    "note": "\ncs\nAlternate input FC.d+1+2"
   },
   {
     "name": "Sliding Attack",
@@ -1152,7 +1152,7 @@
     "block": "-82",
     "hit": "-88",
     "counter": "",
-    "note": "Low attack on landing"
+    "note": "\njs\nLow attack on landing"
   },
   {
     "name": "Cemaho Chop",
@@ -1163,7 +1163,7 @@
     "block": "+10",
     "hit": "+6",
     "counter": "",
-    "note": "Chip damage on block\nAlternate input wr2"
+    "note": "\nChip damage on block\nAlternate input wr2"
   },
   {
     "name": "Mimesis Charging Tackle",
@@ -1174,7 +1174,7 @@
     "block": "+3",
     "hit": "+7a (-2)",
     "counter": "",
-    "note": "Chip damage on block\nAlternate input wr1+2"
+    "note": "\n\nBalcony Break\nChip damage on block\nAlternate input wr1+2"
   },
   {
     "name": "",
@@ -1185,7 +1185,7 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "Double Low Hammer",
@@ -1196,7 +1196,7 @@
     "block": "-12",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "Megaton Strike",
@@ -1207,7 +1207,7 @@
     "block": "-11",
     "hit": "+11a (+2)",
     "counter": "+43a (-4)",
-    "note": ""
+    "note": "\n\nBalcony Break "
   },
   {
     "name": "",
@@ -1218,7 +1218,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Alternate input d+2 "
+    "note": "\ncs\nAlternate input d+2 "
   },
   {
     "name": "",
@@ -1229,7 +1229,7 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "Alternate input d+3 "
+    "note": "\ncs\nAlternate input d+3 "
   },
   {
     "name": "",
@@ -1240,7 +1240,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "Alternate input d+4 "
+    "note": "\ncs\nAlternate input d+4 "
   },
   {
     "name": "",
@@ -1251,7 +1251,7 @@
     "block": "-15",
     "hit": "+13d",
     "counter": "",
-    "note": "Alternate input FC.db+1+2 "
+    "note": "\ncs\nAlternate input FC.db+1+2 "
   },
   {
     "name": "Low Cross Combo",
@@ -1262,7 +1262,7 @@
     "block": "-18",
     "hit": "+42a (+32)",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\nCombos from 1st hit "
   },
   {
     "name": "",
@@ -1273,7 +1273,7 @@
     "block": "-21",
     "hit": "-11c",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -1284,7 +1284,7 @@
     "block": "-21",
     "hit": "-11c",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\nCombos from 1st hit "
   },
   {
     "name": "",
@@ -1295,7 +1295,7 @@
     "block": "-11",
     "hit": "+16cs",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\nCombos from 1st hit "
   },
   {
     "name": "Windmill Punches",
@@ -1306,7 +1306,7 @@
     "block": "+15",
     "hit": "+13BT",
     "counter": "",
-    "note": ""
+    "note": "\n\nGuard Break +15 "
   },
   {
     "name": "",
@@ -1317,7 +1317,7 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "",
@@ -1328,7 +1328,7 @@
     "block": "-13",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "Swing R Knuckle",
@@ -1339,7 +1339,7 @@
     "block": "-12",
     "hit": "+29a (+19)",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "Swing R Knuckle High",
@@ -1350,7 +1350,7 @@
     "block": "-13",
     "hit": "+32a",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\ncs\n\nBalcony Break\nCombos from 1st hit "
   },
   {
     "name": "Swing R Knuckle Low",
@@ -1361,7 +1361,7 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\ncs\n\nBalcony Break\nCombos from 1st hit "
   },
   {
     "name": "",
@@ -1372,7 +1372,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Mimesis Spike Press",
@@ -1383,7 +1383,7 @@
     "block": "-14",
     "hit": "+4c",
     "counter": "+19d",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Atomic Shoulder Tackle",
@@ -1394,7 +1394,7 @@
     "block": "-9",
     "hit": "+1a (-8)",
     "counter": "+33a (-14)",
-    "note": ""
+    "note": "\n\nBalcony Break "
   },
   {
     "name": "",
@@ -1405,7 +1405,7 @@
     "block": "-11",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "",
@@ -1416,7 +1416,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "\ncs\n"
   },
   {
     "name": "Pulverizer",
@@ -1427,7 +1427,7 @@
     "block": "-14",
     "hit": "+9a",
     "counter": "",
-    "note": "Can be charged to power up"
+    "note": "\n\nBalcony Break\nCan be charged to power up"
   },
   {
     "name": "Pulverizer (charged)",
@@ -1438,7 +1438,7 @@
     "block": "-6",
     "hit": "+15a (+7)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nBalcony Break\nChip damage on block"
   },
   {
     "name": "Killing Uppercut",
@@ -1449,7 +1449,7 @@
     "block": "-13",
     "hit": "+34a (+24)",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -1460,7 +1460,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "V-Twin",
@@ -1471,7 +1471,7 @@
     "block": "-14c",
     "hit": "+3d",
     "counter": "+49a",
-    "note": "Combos from 1st hit "
+    "note": "\nCombos from 1st hit "
   },
   {
     "name": "V-Deathblow",
@@ -1482,7 +1482,7 @@
     "block": "+3",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\n\nBalcony Break\nCombos from 1st hit "
   },
   {
     "name": "",
@@ -1493,7 +1493,7 @@
     "block": "-9",
     "hit": "+5",
     "counter": "",
-    "note": "Transition to GMH with D\n(+2 oB, +16g oH)\nAlternate input f+3 (+2 oB, +16g oH)"
+    "note": "\n\nKnee\nTransition to GMH with D\n(+2 oB, +16g oH)\nAlternate input f+3 "
   },
   {
     "name": "Two-Step Die",
@@ -1504,7 +1504,7 @@
     "block": "-9",
     "hit": "+44d (-14)",
     "counter": "",
-    "note": "Combos from 1st hit\nAlternate input f+3,2 "
+    "note": "\n\nBalcony Break\nCombos from 1st hit\nAlternate input f+3,2 "
   },
   {
     "name": "Machine Press",
@@ -1515,7 +1515,7 @@
     "block": "-11c",
     "hit": "+2d",
     "counter": "+48a",
-    "note": "Combos from 1st hit CH\nAlternate input f+3,1+2 "
+    "note": "\nCombos from 1st hit CH\nAlternate input f+3,1+2 "
   },
   {
     "name": "Toe Smash",
@@ -1526,7 +1526,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -1537,7 +1537,7 @@
     "block": "-15",
     "hit": "+26a (+16)",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -1548,7 +1548,7 @@
     "block": "-15",
     "hit": "+15d",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\n\nFloor Break\nCombos from 1st hit "
   },
   {
     "name": "Double Hammer Thrash",
@@ -1559,7 +1559,7 @@
     "block": "-23",
     "hit": "+6d",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\n\nBalcony Break\nCombos from 1st hit "
   },
   {
     "name": "Gamma Howl (Gamma Charge)",
@@ -1570,7 +1570,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nAlternate input ws3+4"
+    "note": "\npc\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\n\nGamma Charge is always in effect during Heat\nAlternate input ws3+4"
   },
   {
     "name": "Juggernaut Hook",
@@ -1581,7 +1581,7 @@
     "block": "-10",
     "hit": "+25d",
     "counter": "",
-    "note": ""
+    "note": "\n\nHoming\n\nBalcony Break "
   },
   {
     "name": "Exaton Blast",
@@ -1592,7 +1592,7 @@
     "block": "+11",
     "hit": "+21d (+11)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\n\nTornado "
   },
   {
     "name": "Granite Stomp",
@@ -1603,7 +1603,7 @@
     "block": "+4",
     "hit": "+9c",
     "counter": "+22a",
-    "note": "Transition to FC with D\n(+7 oH) (+7 oH) "
+    "note": "\nTransition to FC with D\n(+7 oH) "
   },
   {
     "name": "Full Metal Deathblow",
@@ -1614,7 +1614,7 @@
     "block": "+3",
     "hit": "+21d (+11)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break\nChip damage on block\n"
   },
   {
     "name": "Particle Barrier",
@@ -1625,7 +1625,7 @@
     "block": "-13",
     "hit": "+40d (-18)",
     "counter": "",
-    "note": "Chip damage on block when absorbing an attack"
+    "note": "\npc\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\nChip damage on block when absorbing an attack\n"
   },
   {
     "name": "Prime Windup Uppercut",
@@ -1636,7 +1636,7 @@
     "block": "-17",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "Instant Tornado"
+    "note": "\n\nTornado\nInstant Tornado"
   },
   {
     "name": "Megalodriller",
@@ -1647,7 +1647,7 @@
     "block": "-13",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": ""
+    "note": "\npc\n\nBalcony Break "
   },
   {
     "name": "Breakout Fortress",
@@ -1658,7 +1658,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs\n"
   },
   {
     "name": "Flying Fortress",
@@ -1669,7 +1669,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs\n"
   },
   {
     "name": "Jaguar Hook - Gamma",
@@ -1680,7 +1680,7 @@
     "block": "-6",
     "hit": "+73a (+57)",
     "counter": "",
-    "note": "\nPartially uses remaining Heat time\nChip damage on block "
+    "note": "\n\nHoming\n\nPartially uses remaining Heat time\nChip damage on block "
   },
   {
     "name": "Exaton Blast - Gamma",
@@ -1691,7 +1691,7 @@
     "block": "+11",
     "hit": "+31a (+5)",
     "counter": "",
-    "note": "Partially uses remaining Heat time\nChip damage on block "
+    "note": "\npc\n\nTornado\n\nGuard Break +11\n\nBalcony Break\nPartially uses remaining Heat time\nChip damage on block "
   },
   {
     "name": "Sit Down",
@@ -1702,7 +1702,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Transitions to SIT (Sit Down)"
+    "note": "\nTransitions to SIT (Sit Down)"
   },
   {
     "name": "",
@@ -1713,7 +1713,7 @@
     "block": "-48",
     "hit": "-37",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "",
@@ -1724,7 +1724,7 @@
     "block": "-47",
     "hit": "-36",
     "counter": "",
-    "note": "Combos from 1st hit"
+    "note": "\nCombos from 1st hit"
   },
   {
     "name": "",
@@ -1735,7 +1735,7 @@
     "block": "-47",
     "hit": "-36",
     "counter": "",
-    "note": "Combos from 1st hit"
+    "note": "\nCombos from 1st hit"
   },
   {
     "name": "Sit Punches",
@@ -1746,7 +1746,7 @@
     "block": "-47",
     "hit": "-36",
     "counter": "",
-    "note": "Combos from 1st hit\nAlternate input SIT.2,1,2,1"
+    "note": "\nCombos from 1st hit\nAlternate input SIT.2,1,2,1"
   },
   {
     "name": "Ground Assault",
@@ -1757,7 +1757,7 @@
     "block": "-44",
     "hit": "-12d",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Extra Pancake Press",
@@ -1768,7 +1768,7 @@
     "block": "+13cg",
     "hit": "+20d",
     "counter": "",
-    "note": ""
+    "note": "\njs\n"
   },
   {
     "name": "Forward Roll",
@@ -1779,7 +1779,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Backward Roll",
@@ -1790,7 +1790,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Discharger",
@@ -1812,7 +1812,7 @@
     "block": "+9",
     "hit": "+35d (+27)",
     "counter": "",
-    "note": "Transition to GMH with D\n(+9 oB, +35d (+27) oH)(+9 oB, +35d (+27) oH)"
+    "note": "\n\nBalcony Break\nTransition to GMH with D\n(+9 oB, +35d (+27) oH)"
   },
   {
     "name": "Get Up Punch",
@@ -1823,6 +1823,6 @@
     "block": "+18g",
     "hit": "+39d",
     "counter": "",
-    "note": "Recovers in SIT, then stands up "
+    "note": "\nRecovers in SIT, then stands up "
   }
 ]

@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": ""
+    "note": "\npc\n\nHeat Burst"
   },
   {
     "name": "Heavenly Dragon",
@@ -19,7 +19,7 @@
     "block": "+11g",
     "hit": "+5",
     "counter": "",
-    "note": "Automatically transitions to DSS on block"
+    "note": "\n\nHeat Smash\n\nBalcony Break\nAutomatically transitions to DSS on block"
   },
   {
     "name": "Furious Rush",
@@ -30,7 +30,7 @@
     "block": "-12",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "Combos from 1st or 2nd hit CH\n"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nCombos from 1st or 2nd hit CH\n\nBalcony Break"
   },
   {
     "name": "Dragon Storm",
@@ -41,7 +41,7 @@
     "block": "-14",
     "hit": "+12a (+5)",
     "counter": "",
-    "note": "Combos from 1st or 2nd hit CH\nDelay-able "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5, +42a (+27)\n\n\nBalcony Break\nCombos from 1st or 2nd hit CH\nDelay-able "
   },
   {
     "name": "Dragon's Fury",
@@ -52,7 +52,7 @@
     "block": "-8",
     "hit": "+42d (-16)",
     "counter": "",
-    "note": ""
+    "note": "\njs\n\nHeat Engager\n\n\nHeat Dash +5, +36d (+26)\n\n\nBalcony Break "
   },
   {
     "name": "Dragon Cannon",
@@ -63,7 +63,7 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "Alternate input DSS.f+3 "
+    "note": "\npc\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\nAlternate input DSS.f+3 "
   },
   {
     "name": "Dragon Roar",
@@ -74,7 +74,7 @@
     "block": "-9",
     "hit": "+39d (-19)",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nChip damage on block "
   },
   {
     "name": "Tornado Claw",
@@ -85,7 +85,7 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
+    "note": "\n\nTornado\n\nWeapon\nPartially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
   },
   {
     "name": "Dragon Charge (Heat)",
@@ -96,7 +96,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Enters DSS\nTransition to Slide Step with DF\nAbsorbs punch attacks and shifts to Dragon Parry "
+    "note": "\nEnters DSS\nTransition to Slide Step with DF\nAbsorbs punch attacks and shifts to Dragon Parry "
   },
   {
     "name": "Dragon Parry",
@@ -107,7 +107,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Punches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
+    "note": "\nPunches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
   },
   {
     "name": "Fate of the Dragon",
@@ -118,7 +118,7 @@
     "block": "-15",
     "hit": "+0",
     "counter": "",
-    "note": "Rage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
+    "note": "\npc8~\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
   },
   {
     "name": "Jab",
@@ -151,7 +151,7 @@
     "block": "-12",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "Combos from 1st or 2nd hit CH\n"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nCombos from 1st or 2nd hit CH\n\nBalcony Break"
   },
   {
     "name": "Knuckle Barrage Combo",
@@ -162,7 +162,7 @@
     "block": "-6",
     "hit": "+6",
     "counter": "",
-    "note": "Transition to DSS with F\n(-5 oB, +7 oH) (-5 oB, +7 oH) "
+    "note": "\nTransition to DSS with F\n(-5 oB, +7 oH) "
   },
   {
     "name": "Left Right Combo",
@@ -173,7 +173,7 @@
     "block": "-3",
     "hit": "+6",
     "counter": "+6",
-    "note": "Jails from 1st attack\nCombos from 1st hit"
+    "note": "\nJails from 1st attack\nCombos from 1st hit"
   },
   {
     "name": "",
@@ -184,7 +184,7 @@
     "block": "-8",
     "hit": "+4",
     "counter": "+4",
-    "note": ""
+    "note": "Combos from 1st hit CH"
   },
   {
     "name": "Left Right Dragon Fist Combo",
@@ -195,7 +195,7 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+9d",
-    "note": "Combos from 1st or 3rd hit CH\nDelay-able\nTransition to DSS with F\n(-3 oB, +10g oH, +15d CH)(-3 oB, +10g oH, +15d CH)"
+    "note": "\nCombos from 1st or 3rd hit CH\nDelay-able\nTransition to DSS with F\n(-3 oB, +10g oH, +15d CH)"
   },
   {
     "name": "Left Right Blazing Fist Combo",
@@ -206,7 +206,7 @@
     "block": "-13",
     "hit": "+5a (-4)",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Left Right > Knee",
@@ -217,7 +217,7 @@
     "block": "-5",
     "hit": "+13",
     "counter": "",
-    "note": "Combos from 1st hit CH\nJails from 1st attack"
+    "note": "\n\nWall Crush +24g on hit\n\n\nKnee\nCombos from 1st hit CH\nJails from 1st attack"
   },
   {
     "name": "Left Right Combo > Somersault",
@@ -228,7 +228,7 @@
     "block": "-20",
     "hit": "-11",
     "counter": "",
-    "note": ""
+    "note": "\njsTransition to Slide Step with DF"
   },
   {
     "name": "Left Right Combo > Somersault Feint",
@@ -261,7 +261,7 @@
     "block": "-8",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "Delay-able"
   },
   {
     "name": "Rave War Combo",
@@ -272,7 +272,7 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+9d",
-    "note": "Combos from 2nd hit\nTransition to DSS with F\n(-3 oB, +10g oH, +15d)(-3 oB, +10g oH, +15d)"
+    "note": "\nCombos from 2nd hit\nTransition to DSS with F\n(-3 oB, +10g oH, +15d)"
   },
   {
     "name": "Blazing Fist Combo",
@@ -283,7 +283,7 @@
     "block": "-13",
     "hit": "+5a (-4)",
     "counter": "",
-    "note": "Combos from 2nd hit CH\nDelay-able"
+    "note": "\n\nBalcony Break\nCombos from 2nd hit CH\nDelay-able"
   },
   {
     "name": "",
@@ -294,7 +294,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Combos from 1st hit\nDelay-able"
+    "note": "\nCombos from 1st hit\nDelay-able"
   },
   {
     "name": "",
@@ -305,7 +305,7 @@
     "block": "-3",
     "hit": "+3",
     "counter": "",
-    "note": "Combos from 2nd hit CH\nDelay-able"
+    "note": "\nCombos from 2nd hit CH\nDelay-able"
   },
   {
     "name": "Rage Dragon Combo",
@@ -316,7 +316,7 @@
     "block": "-3",
     "hit": "+20a",
     "counter": "+55a",
-    "note": "Combos from 3rd hit CH\nDelay-able\nTransition to FC with D"
+    "note": "\nCombos from 3rd hit CH\nDelay-able\nTransition to FC with D"
   },
   {
     "name": "High Kick",
@@ -338,7 +338,7 @@
     "block": "-14",
     "hit": "-3",
     "counter": "+53a (+22)",
-    "note": "Combos from 1st hit CH\nDelay-able"
+    "note": "\nCombos from 1st hit CH\nDelay-able"
   },
   {
     "name": "High Kick > Bloody Cleaver",
@@ -349,7 +349,7 @@
     "block": "-10",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": "Combos from 1st hit\n"
+    "note": "\nCombos from 1st hit\n\nBalcony Break "
   },
   {
     "name": "Right High Kick",
@@ -371,7 +371,7 @@
     "block": "-8",
     "hit": "+1",
     "counter": "+23a",
-    "note": "Combos from 1st hit\nTransition to DSS with F\n(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4"
+    "note": "\nCombos from 1st hit\nTransition to DSS with F\n(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4"
   },
   {
     "name": "Shaolin Spin Kicks",
@@ -382,7 +382,7 @@
     "block": "-6",
     "hit": "-1",
     "counter": "+31a (+24)",
-    "note": "Combos off of 1st hit CH\nTransition to DSS with F\n(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4"
+    "note": "\nCombos off of 1st hit CH\nTransition to DSS with F\n(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4"
   },
   {
     "name": "Crescent Kick Combo",
@@ -393,7 +393,7 @@
     "block": "-1",
     "hit": "+30a (+13)",
     "counter": "",
-    "note": ""
+    "note": "\njsCombos off of 1st hit CH"
   },
   {
     "name": "Tornado Claw",
@@ -404,7 +404,7 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
+    "note": "\n\nTornado\n\nWeapon\nPartially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
   },
   {
     "name": "",
@@ -415,7 +415,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "Alternate input DSS.3+4"
   },
   {
     "name": "Wild Dragon's Flight",
@@ -426,7 +426,7 @@
     "block": "+7",
     "hit": "+31d (-27)",
     "counter": "",
-    "note": "Combos from 1st hit\nChip damage on block\nAlternate input DSS.3+4,4"
+    "note": "\njs\n\nBalcony Break\nCombos from 1st hit\n\nWall Crush +10g on block\n\nChip damage on block\nAlternate input DSS.3+4,4"
   },
   {
     "name": "",
@@ -437,7 +437,7 @@
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": "Can route into:\nRave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)\nAlternate input DSS.f+2Rave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)"
+    "note": "\nCan route into:\nRave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)\nAlternate input DSS.f+2"
   },
   {
     "name": "Poison Arrow",
@@ -448,7 +448,7 @@
     "block": "+2",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input DSS.f+2~1(+5 oB, +33a (+7))"
+    "note": "\n\nBalcony Break\nChip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input DSS.f+2~1"
   },
   {
     "name": "",
@@ -470,7 +470,7 @@
     "block": "-2",
     "hit": "+8",
     "counter": "",
-    "note": "Transition to DSS with F\n(+4 oB, +14g) (+4 oB, +14g) "
+    "note": "\nTransition to DSS with F\n(+4 oB, +14g) "
   },
   {
     "name": "Dragon Hammer",
@@ -481,7 +481,7 @@
     "block": "+3c",
     "hit": "+8c",
     "counter": "+55a",
-    "note": ""
+    "note": "Transition to FC with D"
   },
   {
     "name": "Dragon Killer",
@@ -492,7 +492,7 @@
     "block": "-2",
     "hit": "+7c",
     "counter": "+49a",
-    "note": ""
+    "note": "\njsAlternate input DSS.f+3+4"
   },
   {
     "name": "",
@@ -503,7 +503,7 @@
     "block": "-1",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "First hit of Law's 10 String"
   },
   {
     "name": "",
@@ -514,7 +514,7 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": ""
+    "note": "Combos from 1st hit"
   },
   {
     "name": "",
@@ -525,7 +525,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "Combos from 1st hit"
   },
   {
     "name": "Dragon Raise",
@@ -569,7 +569,7 @@
     "block": "-14",
     "hit": "+68a (+52)",
     "counter": "",
-    "note": "Combos from 1st hit CH "
+    "note": "\njs\n\nTornado\nCombos from 1st hit CH "
   },
   {
     "name": "Right Middle Kick",
@@ -591,7 +591,7 @@
     "block": "-15",
     "hit": "+4c",
     "counter": "+6a",
-    "note": ""
+    "note": "\ncs6~"
   },
   {
     "name": "Low Backhand",
@@ -602,7 +602,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "\ncs6~Transition to Slide Step with DF"
   },
   {
     "name": "Low Backhand > High Kick",
@@ -613,7 +613,7 @@
     "block": "-9",
     "hit": "+20a (+11)",
     "counter": "+65a (+45)",
-    "note": "Tornado on CH"
+    "note": "\n\nBalcony Break\nTornado on CH"
   },
   {
     "name": "Body Blow",
@@ -624,7 +624,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~Alternate input FC.d+2"
   },
   {
     "name": "Body Blow > Dragon Lift",
@@ -635,7 +635,7 @@
     "block": "-15",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "Combos from 1st hit CH\n"
+    "note": "\nCombos from 1st hit CH\n\nTornado "
   },
   {
     "name": "Dragon Low",
@@ -646,7 +646,7 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": ""
+    "note": "Transition to FC with D"
   },
   {
     "name": "Dragon Low > Hook Kick",
@@ -657,7 +657,7 @@
     "block": "-7",
     "hit": "+20a",
     "counter": "+46CS",
-    "note": "Combos from 1st hit CH\nDelay-able "
+    "note": "\nCombos from 1st hit CH\nDelay-able "
   },
   {
     "name": "",
@@ -679,7 +679,7 @@
     "block": "-12",
     "hit": "+0",
     "counter": "+5",
-    "note": "Combos from 1st hit\nNosebleed stun "
+    "note": "\nCombos from 1st hit\nNosebleed stun "
   },
   {
     "name": "Low Kick",
@@ -690,7 +690,7 @@
     "block": "-14",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~Alternate input FC.d+4"
   },
   {
     "name": "Low Kick > Somersault",
@@ -701,7 +701,7 @@
     "block": "-14",
     "hit": "+14a",
     "counter": "",
-    "note": "Combos from 1st hit CH\nAlternate input FC.d+4,3"
+    "note": "\njs\n\nBalcony Break\nCombos from 1st hit CH\nAlternate input FC.d+4,3"
   },
   {
     "name": "Crouch Jab",
@@ -712,7 +712,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~"
   },
   {
     "name": "",
@@ -734,7 +734,7 @@
     "block": "-4",
     "hit": "+1d",
     "counter": "",
-    "note": ""
+    "note": "\njsTransition to FUFA with D"
   },
   {
     "name": "Shin Crusher",
@@ -756,7 +756,7 @@
     "block": "-37",
     "hit": "+15a",
     "counter": "",
-    "note": ""
+    "note": "\ncs6~Homing"
   },
   {
     "name": "Dragon's Tail > Somersault Kick",
@@ -767,7 +767,7 @@
     "block": "-8",
     "hit": "+30a (+12)",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "",
@@ -778,7 +778,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "Transition to DSS with F\n(-3 oB, +8 oH) (-3 oB, +8 oH) "
+    "note": "\nTransition to DSS with F\n(-3 oB, +8 oH) "
   },
   {
     "name": "",
@@ -789,7 +789,7 @@
     "block": "-12",
     "hit": "+2",
     "counter": "",
-    "note": "Combos from 1st hit\nDelay-able\nTransition to DSS with F\n(-9 oB, +5 oH) (-9 oB, +5 oH) "
+    "note": "\nCombos from 1st hit\nDelay-able\nTransition to DSS with F\n(-9 oB, +5 oH) "
   },
   {
     "name": "Dragon Storm",
@@ -800,7 +800,7 @@
     "block": "-14",
     "hit": "+12a (+5)",
     "counter": "",
-    "note": "Combos from 1st or 2nd hit CH\nDelay-able "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5, +42a (+27)\n\n\nBalcony Break\nCombos from 1st or 2nd hit CH\nDelay-able "
   },
   {
     "name": "",
@@ -822,7 +822,7 @@
     "block": "-15",
     "hit": "+11a",
     "counter": "",
-    "note": "Combos from 1st hit CH"
+    "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit CH"
   },
   {
     "name": "Knuckle Rush",
@@ -833,7 +833,7 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+9d",
-    "note": "Combos from 1st hit\nDelay-able\nTransition to DSS with F\n(-3 oB, +10 oH, +15d CH)(-3 oB, +10 oH, +15d CH)"
+    "note": "\nCombos from 1st hit\nDelay-able\nTransition to DSS with F\n(-3 oB, +10 oH, +15d CH)"
   },
   {
     "name": "",
@@ -844,7 +844,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "Delay-able"
   },
   {
     "name": "Junkyard Kick",
@@ -855,7 +855,7 @@
     "block": "-7,",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "Combos from 2nd hit CH\nDelay-able\nTransition to DSS with F\n(+6 oB, +49a (+39) oH)(+6 oB, +49a (+39) oH)"
+    "note": "\n\nTornado\nCombos from 2nd hit CH\nDelay-able\nTransition to DSS with F\n(+6 oB, +49a (+39) oH)"
   },
   {
     "name": "Dragon Rush Combo",
@@ -866,7 +866,7 @@
     "block": "-37",
     "hit": "+11a",
     "counter": "",
-    "note": ""
+    "note": "\ncsDelay-able"
   },
   {
     "name": "Dragon Spin Kick",
@@ -877,7 +877,7 @@
     "block": "-12",
     "hit": "+17a (+8)",
     "counter": "",
-    "note": "Transition to BT with B\n(-11 oB, +18a (+9) oH)(-11 oB, +18a (+9) oH)"
+    "note": "\n\nHoming\n\nBalcony Break\nTransition to BT with B\n(-11 oB, +18a (+9) oH)"
   },
   {
     "name": "",
@@ -888,7 +888,7 @@
     "block": "-7",
     "hit": "+3",
     "counter": "",
-    "note": "Transition to BT with B\n(-4 oB, +6 oH) (-4 oB, +6 oH) "
+    "note": "\n\nHoming\nTransition to BT with B\n(-4 oB, +6 oH) "
   },
   {
     "name": "Tiger Fang",
@@ -899,7 +899,7 @@
     "block": "-5",
     "hit": "+24a (+15)",
     "counter": "",
-    "note": "Combos from 1st hit "
+    "note": "\n\nBalcony Break\nCombos from 1st hit "
   },
   {
     "name": "Dragon Stinger",
@@ -910,7 +910,7 @@
     "block": "-14",
     "hit": "+31a (+23)",
     "counter": "",
-    "note": ""
+    "note": "\npcBalcony Break"
   },
   {
     "name": "Parry",
@@ -921,7 +921,7 @@
     "block": "",
     "hit": "+7",
     "counter": "",
-    "note": "Transition to DSS on successful parry with F to be +14\nGuarantees DSS.1, DSS.2, DSS.f+1"
+    "note": "\nTransition to DSS on successful parry with F to be +14\nGuarantees DSS.1, DSS.2, DSS.f+1"
   },
   {
     "name": "Dragon Parry",
@@ -932,7 +932,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Punches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
+    "note": "\nPunches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
   },
   {
     "name": "Dragon Arrow",
@@ -943,7 +943,7 @@
     "block": "-18",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "Can be done from DSS "
+    "note": "\n\nBalcony Break\nCan be done from DSS "
   },
   {
     "name": "generic hook",
@@ -965,7 +965,7 @@
     "block": "-7",
     "hit": "+13a (-4)",
     "counter": "",
-    "note": "Jails from 1st to 3rd attack\nLast hit delay-able\nFrame data for 1st, 2nd and 3rd hits:\n(-9 oB, -3 oH) (-9 oB, -3 oH) "
+    "note": "\nJails from 1st to 3rd attack\nLast hit delay-able\nFrame data for 1st, 2nd and 3rd hits:\n(-9 oB, -3 oH) "
   },
   {
     "name": "Somersault",
@@ -976,7 +976,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Transition to Slide Step with DF\nAlternate input u+3 "
+    "note": "\njs\nTransition to Slide Step with DF\nAlternate input u+3 "
   },
   {
     "name": "Somersault > Feint",
@@ -998,7 +998,7 @@
     "block": "-13",
     "hit": "+19a (+9)",
     "counter": "+33a (+23)",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Blackout",
@@ -1009,7 +1009,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "Alternate input:\nKi Charge~1\nb,B+2+3~1,3 Ki Charge~1\nb,B+2+3~1,3 "
+    "note": "\nAlternate input:\nKi Charge~1\nb,B+2+3~1,3 "
   },
   {
     "name": "Blackout > Muggin'",
@@ -1020,7 +1020,7 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": "Combos from 1st hit\nAlternate input:\nKi Charge~1,3\nb,B+2+3~1,3 Ki Charge~1,3\nb,B+2+3~1,3 "
+    "note": "\nCombos from 1st hit\nAlternate input:\nKi Charge~1,3\nb,B+2+3~1,3 "
   },
   {
     "name": "Dragon's Fury",
@@ -1031,7 +1031,7 @@
     "block": "-8",
     "hit": "+42d (-16)",
     "counter": "",
-    "note": ""
+    "note": "\njs\n\nHeat Engager\n\n\nHeat Dash +5, +36d (+26)\n\n\nBalcony Break "
   },
   {
     "name": "Dragon's Rising Kick (hopkick)",
@@ -1042,7 +1042,7 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Dragon's Descent",
@@ -1053,7 +1053,7 @@
     "block": "-24",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "\njsAlternate input DSS.uf+3+4"
   },
   {
     "name": "Dragon's Rising Cannon",
@@ -1064,7 +1064,7 @@
     "block": "-15",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Somersault Kick",
@@ -1075,7 +1075,7 @@
     "block": "-17",
     "hit": "+28a (+18)",
     "counter": "",
-    "note": "Alternate input\nUB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 UB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 "
+    "note": "\njs\nAlternate input\nUB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 "
   },
   {
     "name": "Backflipper",
@@ -1086,7 +1086,7 @@
     "block": "-14",
     "hit": "+78a (+62)",
     "counter": "",
-    "note": "Combos from 1st hit\n2nd hit Instant Tornado\n(+68a (+52) oH)\nAlternate input\nUB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 (+68a (+52) oH)UB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 "
+    "note": "\njs\nCombos from 1st hit\n\nTornado\n2nd hit Instant Tornado\n(+68a (+52) oH)\nAlternate input\nUB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 "
   },
   {
     "name": "Dragon's Poke",
@@ -1108,7 +1108,7 @@
     "block": "-4",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "Delayable"
   },
   {
     "name": "Dragon Strike Combo",
@@ -1119,7 +1119,7 @@
     "block": "-13",
     "hit": "+11a",
     "counter": "",
-    "note": "Combos off 2nd hit CH\nDelayable"
+    "note": "\n\nBalcony Break\nCombos off 2nd hit CH\nDelayable"
   },
   {
     "name": "Dragon Dagger",
@@ -1130,7 +1130,7 @@
     "block": "-14",
     "hit": "+37a (-21)",
     "counter": "",
-    "note": "Combos from 1st hit\nDelayable"
+    "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit\nDelayable"
   },
   {
     "name": "Dragon's Poke > Poison Arrow",
@@ -1141,7 +1141,7 @@
     "block": "+2",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB,+33a (+7))(+5 oB,+33a (+7))"
+    "note": "\nChip damage on block\nTransition to DSS with F\n(+5 oB,+33a (+7))"
   },
   {
     "name": "Dragon Cannon",
@@ -1152,7 +1152,7 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "Alternate input DSS.f+3 "
+    "note": "\npc\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\nAlternate input DSS.f+3 "
   },
   {
     "name": "Dragon's Leap Shot",
@@ -1163,7 +1163,7 @@
     "block": "-11",
     "hit": "+18a (+1)",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Running Side Kick",
@@ -1174,7 +1174,7 @@
     "block": "+6",
     "hit": "+35d (-23)",
     "counter": "",
-    "note": "Chip damage on block\nAlternate input wr3"
+    "note": "\njs\n\nBalcony Break\nChip damage on block\nAlternate input wr3"
   },
   {
     "name": "Charge Power Punch",
@@ -1185,7 +1185,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "Can cancel and transition to DSS with b,b"
   },
   {
     "name": "Crouch Jab",
@@ -1196,7 +1196,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~"
   },
   {
     "name": "Body Blow",
@@ -1207,7 +1207,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~Alternate input d+2"
   },
   {
     "name": "",
@@ -1218,7 +1218,7 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~"
   },
   {
     "name": "Double Impact",
@@ -1229,7 +1229,7 @@
     "block": "-14",
     "hit": "+14a (-3)",
     "counter": "",
-    "note": ""
+    "note": "\njsCombo from 1st hit CH"
   },
   {
     "name": "Low Kick",
@@ -1240,7 +1240,7 @@
     "block": "-14",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~Alternate input d+3+4"
   },
   {
     "name": "Low Kick > Somersault",
@@ -1251,7 +1251,7 @@
     "block": "-14",
     "hit": "+14a",
     "counter": "",
-    "note": "Combos from 1st hit CH\nAlternate input d+3+4,3"
+    "note": "\njs\nCombos from 1st hit CH\nAlternate input d+3+4,3"
   },
   {
     "name": "Rainbow Kick",
@@ -1262,7 +1262,7 @@
     "block": "-4",
     "hit": "+17a (+7)",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "",
@@ -1273,7 +1273,7 @@
     "block": "-7",
     "hit": "-1",
     "counter": "",
-    "note": "Transition to DSS with F\n(-4 oB, +2 oH) (-4 oB, +2 oH) "
+    "note": "\nTransition to DSS with F\n(-4 oB, +2 oH) "
   },
   {
     "name": "Flash Fist",
@@ -1284,7 +1284,7 @@
     "block": "-9",
     "hit": "+40d (-18)",
     "counter": "",
-    "note": "Delayable "
+    "note": "\n\nBalcony Break\nDelayable "
   },
   {
     "name": "Dragon Uppercut",
@@ -1306,7 +1306,7 @@
     "block": "+17g",
     "hit": "+19",
     "counter": "",
-    "note": "Automatically transitions to DSS on hit and block\nOn hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 On hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 "
+    "note": "\nAutomatically transitions to DSS on hit and block\nOn hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 "
   },
   {
     "name": "",
@@ -1317,7 +1317,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Transition to DSS with F\n(+5 oB, +16 oH) (+5 oB, +16 oH) "
+    "note": "\nTransition to DSS with F\n(+5 oB, +16 oH) "
   },
   {
     "name": "Front Kick Somersault Variation",
@@ -1328,7 +1328,7 @@
     "block": "-14",
     "hit": "+68a (+52)",
     "counter": "",
-    "note": "Combos from 1st hit CH Combos from 1st hit CH "
+    "note": "\njs\n\nTornado\nCombos from 1st hit CH "
   },
   {
     "name": "Catapult Kick",
@@ -1339,7 +1339,7 @@
     "block": "-21",
     "hit": "+0a (-17)",
     "counter": "",
-    "note": ""
+    "note": "\njsBalcony Break"
   },
   {
     "name": "Dragon Charge",
@@ -1350,7 +1350,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Enters DSS\nTransition to Slide Step with DF "
+    "note": "\nEnters DSS\nTransition to Slide Step with DF "
   },
   {
     "name": "Dragon Knuckle",
@@ -1361,7 +1361,7 @@
     "block": "+0",
     "hit": "+8",
     "counter": "+18c",
-    "note": "Chip damage on block\nAutomatically transitions to DSS on hit and block\nCH guarantees DSS.f+1, DSS.3+4,4"
+    "note": "\nChip damage on block\nAutomatically transitions to DSS on hit and block\nCH guarantees DSS.f+1, DSS.3+4,4"
   },
   {
     "name": "Cloud Gates",
@@ -1372,7 +1372,7 @@
     "block": "+1",
     "hit": "+15d",
     "counter": "+50a",
-    "note": "Chip damage on block "
+    "note": "\n\nBalcony Break\nChip damage on block "
   },
   {
     "name": "Dragon Charge Spin Kick",
@@ -1383,7 +1383,7 @@
     "block": "+3",
     "hit": "+40a",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\n\nHoming\n\nBalcony Break\nChip damage on block "
   },
   {
     "name": "Dragon Charge Kick",
@@ -1405,7 +1405,7 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "Partially uses remaining Heat time\nInstant Tornado on CH\nAlternate input 1+2"
+    "note": "\n\nTornado\n\nWeapon\nPartially uses remaining Heat time\nInstant Tornado on CH\nAlternate input 1+2"
   },
   {
     "name": "Dragon Roar",
@@ -1416,7 +1416,7 @@
     "block": "-9",
     "hit": "+39d (-19)",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nChip damage on block "
   },
   {
     "name": "Poison Arrow",
@@ -1427,7 +1427,7 @@
     "block": "+2",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input f+2~1(+5 oB, +33a (+7))"
+    "note": "\n\nBalcony Break\nChip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input f+2~1"
   },
   {
     "name": "Dragon Cannon",
@@ -1438,7 +1438,7 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "Chip damage on block\nAlternate input f,F+3"
+    "note": "\npc\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\nChip damage on block\nAlternate input f,F+3\n\nWhile transitioning to DSS from other moves, it is possible to input DSS.f+3 as a Just Frame (ex; 4,3~F:DSS.f+3) for 4 more damage."
   },
   {
     "name": "Dragon's Flight",
@@ -1449,7 +1449,7 @@
     "block": "+7",
     "hit": "+31d (-27)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nBalcony Break\n\nWall Crush +10g on block\n\nChip damage on block\n\nWhile transitioning to DSS from other moves, it is possible to input DSS.f+4 as a Just Frame (ex; 4,3~F:DSS.f+4) for 4 more damage."
   },
   {
     "name": "Facelift",
@@ -1460,7 +1460,7 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1+2"
   },
   {
     "name": "Turning Knuckles",
@@ -1471,7 +1471,7 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "Can route into the same strings as his normal 1"
   },
   {
     "name": "",
@@ -1493,7 +1493,7 @@
     "block": "-14",
     "hit": "+31d (-27)",
     "counter": "",
-    "note": "Combos from 1st hit\nDelay-able "
+    "note": "\nCombos from 1st hit\nDelay-able "
   },
   {
     "name": "",
@@ -1526,7 +1526,7 @@
     "block": "-12",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "Combos from 1st hit CH "
+    "note": "\n\nBalcony Break\nCombos from 1st hit CH "
   },
   {
     "name": "Dragon Back Blow",
@@ -1537,7 +1537,7 @@
     "block": "+1",
     "hit": "+16g",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\nHoming "
   },
   {
     "name": "",
@@ -1570,7 +1570,7 @@
     "block": "-15",
     "hit": "+0",
     "counter": "",
-    "note": "Transition to FUFA with D\n(-2 oB, +13d oH) (-2 oB, +13d oH) "
+    "note": "\nTransition to FUFA with D\n(-2 oB, +13d oH) "
   },
   {
     "name": "Spinning Dragon Blow",
@@ -1581,7 +1581,7 @@
     "block": "+0",
     "hit": "+16d (+6)",
     "counter": "",
-    "note": "Chip damage on block "
+    "note": "\n\nBalcony Break\nChip damage on block "
   },
   {
     "name": "Low Crush",
@@ -1592,7 +1592,7 @@
     "block": "-13",
     "hit": "+7",
     "counter": "+16c",
-    "note": "Automatically transitions to DSS on hit\nCH guarantees DSS.f+1, DSS.3+4,4 CH guarantees DSS.f+1, DSS.3+4,4 "
+    "note": "\nAutomatically transitions to DSS on hit\nCH guarantees DSS.f+1, DSS.3+4,4 "
   },
   {
     "name": "",
@@ -1603,7 +1603,7 @@
     "block": "+4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "Automatically transitions to DSS on hit and block"
   },
   {
     "name": "Dragon Judgment",
@@ -1625,7 +1625,7 @@
     "block": "-12",
     "hit": "+63a (+43)",
     "counter": "",
-    "note": ""
+    "note": "\njsBalcony Break"
   },
   {
     "name": "Ki Charge",
@@ -1647,7 +1647,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "Alternate input:\nuf+1\nb,B+2+3~1,3 uf+1\nb,B+2+3~1,3 "
+    "note": "\nAlternate input:\nuf+1\nb,B+2+3~1,3 "
   },
   {
     "name": "Blackout > Muggin'",
@@ -1658,7 +1658,7 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": "Combos from 1st hit\nAlternate input:\nuf+1,3\nb,B+2+3~1,3 uf+1,3\nb,B+2+3~1,3 "
+    "note": "\nCombos from 1st hit\nAlternate input:\nuf+1,3\nb,B+2+3~1,3 "
   },
   {
     "name": "Ki Charge (Hold)",
@@ -1680,7 +1680,7 @@
     "block": "+1",
     "hit": "+50a",
     "counter": "",
-    "note": "Chip damage on block\nAlternate input DSS.2 "
+    "note": "\nChip damage on block\nAlternate input DSS.2 "
   },
   {
     "name": "Taunt",
@@ -1713,7 +1713,7 @@
     "block": "-1",
     "hit": "+45d (-13)",
     "counter": "",
-    "note": ""
+    "note": "\njs5~7 is8~13 js14~"
   },
   {
     "name": "Dragon's Fire",
@@ -1724,7 +1724,7 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1 or 2"
   },
   {
     "name": "Hopping Frog",
@@ -1735,7 +1735,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1 or 2\nSide swap\nTransition to BT with D\n(+5 BT) (+5 BT) "
+    "note": "\nThrow break 1 or 2\nSide swap\nTransition to BT with D\n(+5 BT) "
   },
   {
     "name": "Headlock Kick",
@@ -1746,7 +1746,7 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1"
   },
   {
     "name": "Ball Breaker",
@@ -1757,7 +1757,7 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 2"
   },
   {
     "name": "Dragon Bites",
@@ -1768,7 +1768,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "Unbreakable"
   },
   {
     "name": "Run Up > Drop",
@@ -1779,7 +1779,7 @@
     "block": "-2",
     "hit": "+6d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1"
   },
   {
     "name": "Headlock Punch",
@@ -1790,7 +1790,7 @@
     "block": "-6",
     "hit": "+3d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1+2"
   },
   {
     "name": "Headlock Drop",
@@ -1801,7 +1801,7 @@
     "block": "-6",
     "hit": "-6d",
     "counter": "",
-    "note": "Throw break 1+2\n"
+    "note": "\nThrow break 1+2\n\nFloor Break "
   },
   {
     "name": "Knee Lift",
@@ -1812,7 +1812,7 @@
     "block": "-3",
     "hit": "+55a (+28)",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1+2"
   },
   {
     "name": "10 Hit Combo",
@@ -1823,6 +1823,6 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "First 3 hits are a natural combo"
   }
 ]

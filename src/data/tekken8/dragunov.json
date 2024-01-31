@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "100% recoverable damage\nChip damage on block"
+    "note": "\npc\n\nHeat Burst\n100% recoverable damage\nChip damage on block"
   },
   {
     "name": "Ultra Russian Sickle",
@@ -19,7 +19,7 @@
     "block": "+6",
     "hit": "+2c",
     "counter": "",
-    "note": "Only 1st and 3rd hit\nChip damage on block\nThrow on 1st hit - 50 damageOnly 1st and 3rd hit"
+    "note": "\npc\n\nHeat Smash\n\nBalcony Break\nOnly 1st and 3rd hit\nChip damage on block\nThrow on 1st hit - 50 damage"
   },
   {
     "name": "Ultra Russian Sickle > Ambush Tackle",
@@ -30,7 +30,7 @@
     "block": "",
     "hit": "-2d",
     "counter": "",
-    "note": ""
+    "note": "Heat Smash"
   },
   {
     "name": "Russian Hook Special > Ambush Tackle",
@@ -41,7 +41,7 @@
     "block": "",
     "hit": "-2d",
     "counter": "",
-    "note": ""
+    "note": "Partially uses remaining Heat time"
   },
   {
     "name": "Hail Slicer > Ambush Tackle",
@@ -52,7 +52,7 @@
     "block": "",
     "hit": "-2d",
     "counter": "",
-    "note": ""
+    "note": "Partially uses remaining Heat time"
   },
   {
     "name": "Salvo",
@@ -63,7 +63,7 @@
     "block": "-14",
     "hit": "+15c",
     "counter": "",
-    "note": "Combo from 1st or 2nd CH"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\n\nBalcony Break\nCombo from 1st or 2nd CH"
   },
   {
     "name": "Crushing Blizzard",
@@ -74,7 +74,7 @@
     "block": "-6",
     "hit": "+22a",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +67a (+50)\n\n\nBalcony Break\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "Tundra Slash",
@@ -85,7 +85,7 @@
     "block": "-9",
     "hit": "+21a (+12)",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\n\nBalcony Break"
   },
   {
     "name": "Ignition Switch",
@@ -96,7 +96,7 @@
     "block": "+7",
     "hit": "+18a",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nBalcony Break\n\nFloor Break\nChip damage on block"
   },
   {
     "name": "Cold Fate",
@@ -107,7 +107,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "Crouch throw\nAlternate input 2+4"
+    "note": "\n\nHeat Engager\n\nCrouch throw\nAlternate input 2+4"
   },
   {
     "name": "Feint & Low Catch",
@@ -118,7 +118,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "Side switch\nCrouch throw\nCancel into FC with D_DB\nAlternate input b+2,1,3~1+2"
+    "note": "\ncs\n\nHeat Engager\n\nSide switch\nCrouch throw\nCancel into FC with D_DB\nAlternate input b+2,1,3~1+2"
   },
   {
     "name": "Feint & Catch",
@@ -129,7 +129,7 @@
     "block": "+5",
     "hit": "-2d",
     "counter": "",
-    "note": "Throw break 1+2\nUnbreakable during Heat\nPartially uses remaining Heat time\nCancel with B\nAlternate input f,F+2~1+2Unbreakable during Heat\nPartially uses remaining Heat time"
+    "note": "\nThrow break 1+2\nUnbreakable during Heat\nPartially uses remaining Heat time\nCancel with B\nAlternate input f,F+2~1+2"
   },
   {
     "name": "Tundra Strike > Ambush Tackle",
@@ -140,7 +140,7 @@
     "block": "-5",
     "hit": "+3d",
     "counter": "",
-    "note": "Throw break 1+2\nRecovery in BT\nUnbreakable during Heat\nPartially uses remaining Heat time\nAlternate input:\nss2,1+2,1+2\nss3+4,1+2\n(Face down).1+2,1+2\nFC.df+1,H.1+2Recovery in BT\nUnbreakable during Heat\nPartially uses remaining Heat timess2,1+2,1+2\nss3+4,1+2\n(Face down).1+2,1+2\nFC.df+1,H.1+2"
+    "note": "\nThrow break 1+2\nRecovery in BT\nUnbreakable during Heat\nPartially uses remaining Heat time\nAlternate input:\nss2,1+2,1+2\nss3+4,1+2\n(Face down).1+2,1+2\nFC.df+1,H.1+2"
   },
   {
     "name": "Jab",
@@ -162,7 +162,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Eye Gouge > Hilt",
@@ -173,7 +173,7 @@
     "block": "-9",
     "hit": "+15a (+6)",
     "counter": "+36a (+0)",
-    "note": "Combo from 2nd CH\nMove can be delayed"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\nMove can be delayed"
   },
   {
     "name": "",
@@ -184,7 +184,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Salvo",
@@ -195,7 +195,7 @@
     "block": "-14",
     "hit": "+15c",
     "counter": "",
-    "note": "Combo from 1st or 2nd CH"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\n\nBalcony Break\nCombo from 1st or 2nd CH"
   },
   {
     "name": "",
@@ -206,7 +206,7 @@
     "block": "-7",
     "hit": "+1",
     "counter": "+9",
-    "note": "Combo from 1st hit"
+    "note": "\nCombo from 1st hit"
   },
   {
     "name": "Hammer and Sickle",
@@ -217,7 +217,7 @@
     "block": "-13",
     "hit": "+41a",
     "counter": "",
-    "note": "Combo from 2nd CH"
+    "note": "\n\nFloor Break\nCombo from 2nd CH"
   },
   {
     "name": "",
@@ -239,7 +239,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to -1 +10 SNK with DF"
+    "note": "\nCombo from 1st hit\nTransition to -1 +10 SNK with DF"
   },
   {
     "name": "One Two Scud Kick",
@@ -250,7 +250,7 @@
     "block": "-9",
     "hit": "+40d (-18)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break"
   },
   {
     "name": "One Two Mine Kick",
@@ -283,7 +283,7 @@
     "block": "-2",
     "hit": "+7",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to -3 +6 SNK with DF"
+    "note": "\nCombo from 1st hit\nTransition to -3 +6 SNK with DF"
   },
   {
     "name": "Disconnector Combo Middle",
@@ -294,7 +294,7 @@
     "block": "-12",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "Combo from 2nd CH with delay"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with delay"
   },
   {
     "name": "Disconnector Combo High",
@@ -305,7 +305,7 @@
     "block": "-9",
     "hit": "+42d (-16)",
     "counter": "",
-    "note": "Combo from 2nd CH with delay"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with delay"
   },
   {
     "name": "",
@@ -327,7 +327,7 @@
     "block": "-4",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Karnov Kick",
@@ -338,7 +338,7 @@
     "block": "-12",
     "hit": "+13c",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "\n\nFloor Break\nCombo from 1st CH"
   },
   {
     "name": "Karnov Avalanche",
@@ -349,7 +349,7 @@
     "block": "+5",
     "hit": "+29a (+20)",
     "counter": "+46a",
-    "note": "Chip damage on block"
+    "note": "\njs\n\nBalcony Break\nChip damage on block"
   },
   {
     "name": "Bloodhound Strike",
@@ -360,7 +360,7 @@
     "block": "-14",
     "hit": "+19a",
     "counter": "",
-    "note": "Absorb an attack to power up and deal more chip damage on block[untested]"
+    "note": "\npc\n\nBalcony Break\n\nFloor Break\nAbsorb an attack to power up and deal more chip damage on block[untested]"
   },
   {
     "name": "Iron Flail",
@@ -371,7 +371,7 @@
     "block": "-13",
     "hit": "+41a",
     "counter": "",
-    "note": "Tech-rollable"
+    "note": "\njs\n\nBalcony Break\nTech-rollable"
   },
   {
     "name": "",
@@ -393,7 +393,7 @@
     "block": "-7",
     "hit": "+28a (+23)",
     "counter": "+31a (+25)",
-    "note": "Combo from 1st CH"
+    "note": "\n\nBalcony Break\nCombo from 1st CH"
   },
   {
     "name": "",
@@ -404,7 +404,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "Transition to +0 +11 SNK with DF"
   },
   {
     "name": "Step-in Mantis",
@@ -415,7 +415,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": "Combo from 1st CH\n+20 damage throw when hit from the front in close range"
+    "note": "\n\nFloor Break\nCombo from 1st CH\n+20 damage throw when hit from the front in close range"
   },
   {
     "name": "Crushing Blizzard",
@@ -426,7 +426,7 @@
     "block": "-6",
     "hit": "+22a",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +67a (+50)\n\n\nBalcony Break\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -448,7 +448,7 @@
     "block": "-9",
     "hit": "+20a",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st hit"
   },
   {
     "name": "",
@@ -459,7 +459,7 @@
     "block": "-11",
     "hit": "+0",
     "counter": "+22a (+15)",
-    "note": "Only on CH\nCombo from 1st hit with delayOnly on CH"
+    "note": "\n\nBalcony Break\nOnly on CH\nCombo from 1st hit with delay"
   },
   {
     "name": "Cougar Combination",
@@ -470,7 +470,7 @@
     "block": "-5",
     "hit": "+21a (+12)",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Orca Combination",
@@ -481,7 +481,7 @@
     "block": "-12",
     "hit": "+3c",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit with delay"
   },
   {
     "name": "Scabbard",
@@ -492,7 +492,7 @@
     "block": "-9",
     "hit": "+35a",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "",
@@ -514,7 +514,7 @@
     "block": "-6",
     "hit": "+22a (+13)",
     "counter": "+58a",
-    "note": "Combo from 1st CH"
+    "note": "\n\nBalcony Break\nCombo from 1st CH"
   },
   {
     "name": "Scimitar",
@@ -536,7 +536,7 @@
     "block": "-6",
     "hit": "+5c",
     "counter": "",
-    "note": "+20 damage throw when hit from the front in close range"
+    "note": "\n\nFloor Break\n+20 damage throw when hit from the front in close range"
   },
   {
     "name": "",
@@ -558,7 +558,7 @@
     "block": "-7",
     "hit": "+12g",
     "counter": "+24a",
-    "note": ""
+    "note": "\n\nHoming\n\nBalcony Break"
   },
   {
     "name": "Bunker-buster Elbow",
@@ -580,7 +580,7 @@
     "block": "-13",
     "hit": "-1c",
     "counter": "+13g",
-    "note": ""
+    "note": "\ncs"
   },
   {
     "name": "",
@@ -602,7 +602,7 @@
     "block": "-6",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st CH"
   },
   {
     "name": "Avalanche Hammer Rush",
@@ -624,7 +624,7 @@
     "block": "-11",
     "hit": "+5",
     "counter": "+23g",
-    "note": ""
+    "note": "Combo from 1st CH"
   },
   {
     "name": "",
@@ -646,7 +646,7 @@
     "block": "-11",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st CH"
   },
   {
     "name": "Separator",
@@ -657,7 +657,7 @@
     "block": "-16",
     "hit": "+9a (+0)",
     "counter": "",
-    "note": "Combo from 1st CH\nCombo from 2nd hit"
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nCombo from 2nd hit"
   },
   {
     "name": "",
@@ -668,7 +668,7 @@
     "block": "-14",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "\n\nBalcony Break\nCombo from 1st CH"
   },
   {
     "name": "Pit Fall",
@@ -679,7 +679,7 @@
     "block": "",
     "hit": "+5d",
     "counter": "",
-    "note": "Parries lows\n100% recoverable damage"
+    "note": "\nParries lows\n100% recoverable damage"
   },
   {
     "name": "",
@@ -701,7 +701,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "+3",
-    "note": ""
+    "note": "Combo from 1st hit with delay"
   },
   {
     "name": "Death's Door",
@@ -712,7 +712,7 @@
     "block": "-14",
     "hit": "+29a (+23)",
     "counter": "",
-    "note": ""
+    "note": "Combo from 2nd CH with delay"
   },
   {
     "name": "Clipping Sweep",
@@ -723,7 +723,7 @@
     "block": "-26",
     "hit": "-2c",
     "counter": "+67a (+51)",
-    "note": ""
+    "note": "\ncsClean hit +67a (+51)"
   },
   {
     "name": "Deadly Scorpion",
@@ -756,7 +756,7 @@
     "block": "-12",
     "hit": "+18gc",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st hit"
   },
   {
     "name": "",
@@ -778,7 +778,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Eye Gouge > Stingray",
@@ -789,7 +789,7 @@
     "block": "-26",
     "hit": "-2c",
     "counter": "+1d",
-    "note": "Clean hit +4\nShift to Clipping Heel Hook on close range CH"
+    "note": "\nClean hit +4\nShift to Clipping Heel Hook on close range CH"
   },
   {
     "name": "Serrated Edge",
@@ -800,7 +800,7 @@
     "block": "-9",
     "hit": "+11g",
     "counter": "",
-    "note": ""
+    "note": "\n\nHoming\n\nBalcony Break"
   },
   {
     "name": "",
@@ -822,7 +822,7 @@
     "block": "-7",
     "hit": "+4c",
     "counter": "",
-    "note": "Transition to FC with D\nTransition to SNK with DF"
+    "note": "\nTransition to FC with D\nTransition to SNK with DF"
   },
   {
     "name": "Tundra Strike > Ear Grab",
@@ -833,7 +833,7 @@
     "block": "-7",
     "hit": "+4c",
     "counter": "+14",
-    "note": "Combo from 1st CH\nCombo from 2nd hit with delay"
+    "note": "\nCombo from 1st CH\nCombo from 2nd hit with delay"
   },
   {
     "name": "Tundra Slash",
@@ -844,7 +844,7 @@
     "block": "-9",
     "hit": "+21a (+12)",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\n\nBalcony Break"
   },
   {
     "name": "Blizzard Hammer",
@@ -855,7 +855,7 @@
     "block": "+6",
     "hit": "+26d",
     "counter": "",
-    "note": ""
+    "note": "Floor Break"
   },
   {
     "name": "Red Alert",
@@ -866,7 +866,7 @@
     "block": "",
     "hit": "-5d",
     "counter": "",
-    "note": "Parries mid and high punches and kicks\n100% recoverable damage\nAlternate input b+2+4"
+    "note": "\nps\nParries mid and high punches and kicks\n100% recoverable damage\nAlternate input b+2+4"
   },
   {
     "name": "Inertia Kick",
@@ -877,7 +877,7 @@
     "block": "-2",
     "hit": "+26a",
     "counter": "",
-    "note": ""
+    "note": "\npsPunch parry"
   },
   {
     "name": "Counterstrike",
@@ -888,7 +888,7 @@
     "block": "-5",
     "hit": "+9",
     "counter": "+53a",
-    "note": ""
+    "note": "Sidesteps left"
   },
   {
     "name": "",
@@ -899,7 +899,7 @@
     "block": "-13",
     "hit": "+14a (+4)",
     "counter": "",
-    "note": ""
+    "note": "\njsBalcony Break"
   },
   {
     "name": "Slicing Sobat",
@@ -910,7 +910,7 @@
     "block": "-9",
     "hit": "+17a",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Sub-Zero",
@@ -921,7 +921,7 @@
     "block": "",
     "hit": "+26d (-32)",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "",
@@ -932,7 +932,7 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": ""
+    "note": "\njsBalcony Break"
   },
   {
     "name": "Slicing Sobat",
@@ -943,7 +943,7 @@
     "block": "-9",
     "hit": "+21a",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Eye Blast",
@@ -954,7 +954,7 @@
     "block": "-9",
     "hit": "+37d (+29)",
     "counter": "",
-    "note": "Alternate input:\nub+1\nu+1ub+1\nu+1"
+    "note": "\n\nTornado\n\nBalcony Break\nAlternate input:\nub+1\nu+1"
   },
   {
     "name": "Under Pressure",
@@ -965,7 +965,7 @@
     "block": "-5",
     "hit": "+42a",
     "counter": "",
-    "note": ""
+    "note": "\njsAlternate input u+2"
   },
   {
     "name": "Breaching Charge Kick",
@@ -976,7 +976,7 @@
     "block": "-7",
     "hit": "+20a (+10)",
     "counter": "",
-    "note": ""
+    "note": "\njsBalcony Break"
   },
   {
     "name": "Slicing Sobat",
@@ -987,7 +987,7 @@
     "block": "-9",
     "hit": "+25a",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -998,7 +998,7 @@
     "block": "-13",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Russian Sickle",
@@ -1009,7 +1009,7 @@
     "block": "-12",
     "hit": "+15a",
     "counter": "+30d (+22)",
-    "note": ""
+    "note": "\n\nBalcony Break\n\nFloor Break"
   },
   {
     "name": "Stinger Kick",
@@ -1020,7 +1020,7 @@
     "block": "+5",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nHoming\n\nBalcony Break\nChip damage on block"
   },
   {
     "name": "Rolling Thunder",
@@ -1031,7 +1031,7 @@
     "block": "-1",
     "hit": "+13",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Russian Hook Special",
@@ -1042,7 +1042,7 @@
     "block": "+6",
     "hit": "+32d (-26)",
     "counter": "+44a",
-    "note": "Chip damage on block\nFast input for powered up version - 30 damage\nAlternate input wr2"
+    "note": "\n\nBalcony Break\n\nFloor Break\nChip damage on block\nFast input for powered up version - 30 damage\nAlternate input wr2"
   },
   {
     "name": "Snap Knee Assault",
@@ -1053,7 +1053,7 @@
     "block": "-7",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw when hit from the front\nAlternate input wr4"
+    "note": "\nThrow when hit from the front\nAlternate input wr4"
   },
   {
     "name": "Chernobog Sweep",
@@ -1064,7 +1064,7 @@
     "block": "-15",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw when hit from the front"
+    "note": "\njs\nThrow when hit from the front"
   },
   {
     "name": "Mass Elbow",
@@ -1075,7 +1075,7 @@
     "block": "-15",
     "hit": "+68a (+52)",
     "counter": "",
-    "note": ""
+    "note": "Tornado"
   },
   {
     "name": "",
@@ -1097,7 +1097,7 @@
     "block": "",
     "hit": "+7",
     "counter": "",
-    "note": "Available only as combo from 1st\nJust input to power up - 14 damage"
+    "note": "\nAvailable only as combo from 1st\nJust input to power up - 14 damage"
   },
   {
     "name": "",
@@ -1108,7 +1108,7 @@
     "block": "-3",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "Transition to -5 +2 SNK with DF"
   },
   {
     "name": "Qullion",
@@ -1119,7 +1119,7 @@
     "block": "-7",
     "hit": "+10g",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit"
   },
   {
     "name": "Double Hilt",
@@ -1130,7 +1130,7 @@
     "block": "-13",
     "hit": "+15a (+6)",
     "counter": "+36a (+0)",
-    "note": "Combo from 1st hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit"
   },
   {
     "name": "Ballistic Upper",
@@ -1152,7 +1152,7 @@
     "block": "-9",
     "hit": "+15a (+6)",
     "counter": "+36a (+0)",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Gelid Smash",
@@ -1163,7 +1163,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Frost Tackle",
@@ -1174,7 +1174,7 @@
     "block": "-14",
     "hit": "+19a (+9)",
     "counter": "",
-    "note": "Alternate input SNK.1+2"
+    "note": "\n\nBalcony Break\nAlternate input SNK.1+2"
   },
   {
     "name": "Sneak",
@@ -1185,7 +1185,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Lapses to standing\nInput d,DF to transition to FC instead of SNK"
+    "note": "\nLapses to standing\nInput d,DF to transition to FC instead of SNK"
   },
   {
     "name": "Cocked Hammer",
@@ -1207,7 +1207,7 @@
     "block": "-14",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": ""
+    "note": "Tornado"
   },
   {
     "name": "Slay Ride",
@@ -1218,7 +1218,7 @@
     "block": "-16",
     "hit": "+0",
     "counter": "+1d",
-    "note": "Throw when CH from the front\nCalled \"Needle Hold\" in-gameCalled \"Needle Hold\" in-game"
+    "note": "\nThrow when CH from the front\nCalled \"Needle Hold\" in-game"
   },
   {
     "name": "Ignition Switch",
@@ -1229,7 +1229,7 @@
     "block": "+7",
     "hit": "+18a",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nBalcony Break\n\nFloor Break\nChip damage on block"
   },
   {
     "name": "Snap Knee",
@@ -1240,7 +1240,7 @@
     "block": "-13",
     "hit": "+27g",
     "counter": "",
-    "note": "Absorb a hit to transition to Snap Knee Assault"
+    "note": "\npc\nAbsorb a hit to transition to Snap Knee Assault"
   },
   {
     "name": "White Angel of Death",
@@ -1251,7 +1251,7 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "Rage Art\nDiminishes opponent's recoverable gauge"
+    "note": "\nRage Art\nDiminishes opponent's recoverable gauge"
   },
   {
     "name": "",
@@ -1273,7 +1273,7 @@
     "block": "-9",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw when hit from the front\nSide switch\nCombo from 1st hit"
+    "note": "\nThrow when hit from the front\nSide switch\nCombo from 1st hit"
   },
   {
     "name": "",
@@ -1284,7 +1284,7 @@
     "block": "-4",
     "hit": "+2",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\nCombo from 1st hit"
   },
   {
     "name": "Integral Blitz",
@@ -1295,7 +1295,7 @@
     "block": "-10",
     "hit": "+45a",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\nCombo from 1st hit"
   },
   {
     "name": "Pigeon Roll",
@@ -1306,7 +1306,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs"
   },
   {
     "name": "Cane Stab",
@@ -1328,7 +1328,7 @@
     "block": "-9",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "\ncsOn close hit"
   },
   {
     "name": "Six Feet Under",
@@ -1339,7 +1339,7 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "+0a (-8) on grounded"
+    "note": "\n\nFloor Break\n+0a (-8) on grounded"
   },
   {
     "name": "Living Dead",
@@ -1361,7 +1361,7 @@
     "block": "-2",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 1 or 2"
+    "note": "\nThrow break 1 or 2"
   },
   {
     "name": "Purge Slam",
@@ -1372,7 +1372,7 @@
     "block": "-2",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 1 or 2\nSide switch on hit and break"
+    "note": "\nThrow break 1 or 2\nSide switch on hit and break"
   },
   {
     "name": "Tarantula Sting",
@@ -1383,7 +1383,7 @@
     "block": "-3",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 1"
+    "note": "\nThrow break 1"
   },
   {
     "name": "Reverse Fracture",
@@ -1394,7 +1394,7 @@
     "block": "-3",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 1"
+    "note": "\nThrow break 1"
   },
   {
     "name": "Absolute Silence",
@@ -1416,7 +1416,7 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1\nSide switch"
+    "note": "\nThrow break 1\nSide switch"
   },
   {
     "name": "Victor Clutch",
@@ -1427,7 +1427,7 @@
     "block": "-2",
     "hit": "-1d",
     "counter": "",
-    "note": "Throw break 2\nSide switch"
+    "note": "\nThrow break 2\nSide switch"
   },
   {
     "name": "Blizzard Rush",
@@ -1438,7 +1438,7 @@
     "block": "-6",
     "hit": "-5d",
     "counter": "",
-    "note": "Throw break 1+2\nSide switch"
+    "note": "\n\nFloor Break\nThrow break 1+2\nSide switch"
   },
   {
     "name": "Cold Fate",
@@ -1449,7 +1449,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "Crouch throw\nAlternate input 2+4"
+    "note": "\n\nHeat Engager\n\nCrouch throw\nAlternate input 2+4"
   },
   {
     "name": "Scorpion Scissors",
@@ -1471,7 +1471,7 @@
     "block": "+5",
     "hit": "-2d",
     "counter": "",
-    "note": "Throw break 1+2\nUnbreakable during Heat\nPartially uses remaining Heat time\nCancel with B\nAlternate input f,F+2~1+2Unbreakable during Heat\nPartially uses remaining Heat time"
+    "note": "\nThrow break 1+2\nUnbreakable during Heat\nPartially uses remaining Heat time\nCancel with B\nAlternate input f,F+2~1+2"
   },
   {
     "name": "Feint & Low Catch",
@@ -1482,7 +1482,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "Side switch\nCrouch throw\nCancel into FC with D_DB\nAlternate input b+2,1,3~1+2"
+    "note": "\ncs\n\nHeat Engager\n\nSide switch\nCrouch throw\nCancel into FC with D_DB\nAlternate input b+2,1,3~1+2"
   },
   {
     "name": "Tundra Strike > Ambush Tackle",
@@ -1493,7 +1493,7 @@
     "block": "-5",
     "hit": "+3d",
     "counter": "",
-    "note": "Throw break 1+2\nRecovery in BT\nUnbreakable during Heat\nPartially uses remaining Heat time\nAlternate input:\nss2,1+2,1+2\nss3+4,1+2\n(Face down).1+2,1+2\nFC.df+1,H.1+2Recovery in BT\nUnbreakable during Heat\nPartially uses remaining Heat timess2,1+2,1+2\nss3+4,1+2\n(Face down).1+2,1+2\nFC.df+1,H.1+2"
+    "note": "\nThrow break 1+2\nRecovery in BT\nUnbreakable during Heat\nPartially uses remaining Heat time\nAlternate input:\nss2,1+2,1+2\nss3+4,1+2\n(Face down).1+2,1+2\nFC.df+1,H.1+2"
   },
   {
     "name": "Snap Knee Assault",
@@ -1504,7 +1504,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Deals maximum 32 (20) damage due to scaling"
+    "note": "\n\nTornado\nDeals maximum 32 (20) damage due to scaling"
   },
   {
     "name": "Frost Bite",
@@ -1515,7 +1515,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1\nDiminishes opponent's recoverable gauge"
+    "note": "\nThrow break 1\nDiminishes opponent's recoverable gauge"
   },
   {
     "name": "Achilles' Hold",
@@ -1526,7 +1526,7 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "Throw break 2"
+    "note": "\nThrow break 2"
   },
   {
     "name": "Iron Curtain",
@@ -1537,6 +1537,6 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "Throw break 1+2"
+    "note": "\nThrow break 1+2"
   }
 ]

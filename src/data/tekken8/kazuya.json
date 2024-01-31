@@ -8,7 +8,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: R1"
+    "note": "\n\nHeat Burst\nAlternate input: R1\n"
   },
   {
     "name": "Omega Crash",
@@ -19,7 +19,7 @@
     "block": "",
     "hit": "Th",
     "counter": "Th",
-    "note": "Alternate input: R1"
+    "note": "\n\nHeat Smash\nAlternate input: R1\n"
   },
   {
     "name": "Jab",
@@ -30,7 +30,7 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "Alternate input: f+1"
   },
   {
     "name": "Flash Punch Combo (2)",
@@ -41,7 +41,7 @@
     "block": "-1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Flash Punch Combo",
@@ -52,7 +52,7 @@
     "block": "-17",
     "hit": "KND",
     "counter": "KND",
-    "note": "Combo from 1st hit\nCan be delayed 11F"
+    "note": "\nCombo from 1st hit\nCan be delayed 11F\n"
   },
   {
     "name": "One Two Punch",
@@ -63,7 +63,7 @@
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Back Fist Combo",
@@ -74,7 +74,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "Combo from 1st hit\nCombo can be delayed 12F from 1st hit\n"
+    "note": "\nCombo from 1st hit\nCombo can be delayed 12F from 1st hit\n\n"
   },
   {
     "name": "Twin Fang Shattered Spine",
@@ -96,7 +96,7 @@
     "block": "-14",
     "hit": "-3",
     "counter": "+0c",
-    "note": "Combo from 2nd CH\nCan be delayed 7F"
+    "note": "\nCombo from 2nd CH\nCan be delayed 7F\n"
   },
   {
     "name": "Twin Fang Double Kick",
@@ -107,7 +107,7 @@
     "block": "-2",
     "hit": "KND",
     "counter": "KND*",
-    "note": "Combo from 3rd CH\nCan be delayed"
+    "note": "\nCombo from 3rd CH\nCan be delayed\n"
   },
   {
     "name": "Right Jab",
@@ -129,7 +129,7 @@
     "block": "-8",
     "hit": "+7",
     "counter": "+50a",
-    "note": "Combo from 1st CH"
+    "note": "\nCombo from 1st CH\n"
   },
   {
     "name": "Face Kick",
@@ -140,7 +140,7 @@
     "block": "-8",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "Alternate input: 3+4"
   },
   {
     "name": "Face Kick to Jab",
@@ -151,7 +151,7 @@
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Face Kick to Jab > Wind God Step",
@@ -173,7 +173,7 @@
     "block": "-6",
     "hit": "+8",
     "counter": "+40(+32)a",
-    "note": "Combo from 2nd CH\nCan be delayed 14F\nCombo can be delayed 6F from CH"
+    "note": "\nCombo from 2nd CH\nCan be delayed 14F\nCombo can be delayed 6F from CH\n"
   },
   {
     "name": "Roundhouse",
@@ -195,7 +195,7 @@
     "block": "-10",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "\njs10~Alternate input: uf+4~3"
   },
   {
     "name": "Acute Pain",
@@ -217,7 +217,7 @@
     "block": "-12",
     "hit": "KND",
     "counter": "KND",
-    "note": "absorb an attack to power up\n- Add chip damage when guarded\n"
+    "note": "\nps8~\nabsorb an attack to power up\n- Add chip damage when guarded\n\nTornado\n"
   },
   {
     "name": "Oni Front Kick",
@@ -250,7 +250,7 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND",
-    "note": "Parries high and mid punches"
+    "note": "\nps\nParries high and mid punches\n"
   },
   {
     "name": "Entrails Smash",
@@ -272,7 +272,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded"
+    "note": "\n\nHeat Engager\n\nChip damage when guarded\n"
   },
   {
     "name": "Slaughter Hook > Heat Dash",
@@ -283,7 +283,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
+    "note": "\nChip damage when guarded\nShift to Devil Form on Heat Activation\n"
   },
   {
     "name": "Slaughter Uppercut",
@@ -294,7 +294,7 @@
     "block": "",
     "hit": "+?c",
     "counter": "",
-    "note": ""
+    "note": "\n\nTornado\n"
   },
   {
     "name": "Slaughter High Kick",
@@ -305,7 +305,7 @@
     "block": "-3",
     "hit": "+18Sp",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\nCombo from 1st hit\n"
   },
   {
     "name": "Abolishing Fist",
@@ -316,7 +316,7 @@
     "block": "-12",
     "hit": "+5",
     "counter": "KND",
-    "note": "Crumple stun +13F after CH"
+    "note": "\n\nHoming\nCrumple stun +13F after CH"
   },
   {
     "name": "Impaling Knee",
@@ -338,7 +338,7 @@
     "block": "-11",
     "hit": "+5",
     "counter": "",
-    "note": "Combo from 1st hit\nCan be delayed 10F\nCombo can be delayed 10F from hit"
+    "note": "\nCombo from 1st hit\nCan be delayed 10F\nCombo can be delayed 10F from hit\n"
   },
   {
     "name": "Impaling Knee Twin Thrust",
@@ -349,7 +349,7 @@
     "block": "-18",
     "hit": "KND",
     "counter": "+24",
-    "note": "Combo from 2nd CH\nCan be delayed 16F"
+    "note": "\n\nTornado\nCombo from 2nd CH\nCan be delayed 16F\n"
   },
   {
     "name": "Impaling Knee Twin Skewer",
@@ -360,7 +360,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded"
+    "note": "\n\nTornado\nChip damage when guarded\n"
   },
   {
     "name": "Tsunami Kick (1)",
@@ -382,7 +382,7 @@
     "block": "-15",
     "hit": "-4c",
     "counter": "",
-    "note": "Combo from 1st hit\nCan be delayed 11F\nCombo can be delayed 11F from hit"
+    "note": "\nCombo from 1st hit\nCan be delayed 11F\nCombo can be delayed 11F from hit\n"
   },
   {
     "name": "Kyogeki Goutsuiken (1)",
@@ -415,7 +415,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded"
+    "note": "\nChip damage when guarded\n"
   },
   {
     "name": "Crouch Jab",
@@ -426,7 +426,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "Returns to standing when input F"
+    "note": "\ncs4~\nReturns to standing when input F\n"
   },
   {
     "name": "Crouch Straight",
@@ -437,7 +437,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~"
   },
   {
     "name": "Crouch Spin Kick",
@@ -448,7 +448,7 @@
     "block": "-17",
     "hit": "-3",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~"
   },
   {
     "name": "Crouch Chin Kick",
@@ -459,7 +459,7 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~"
   },
   {
     "name": "Nejiri Uraken",
@@ -470,7 +470,7 @@
     "block": "-14",
     "hit": "+3c",
     "counter": "KND",
-    "note": ""
+    "note": "\ncs6~\n\n"
   },
   {
     "name": "Nejiri Uraken to Cancel",
@@ -481,7 +481,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs6~"
   },
   {
     "name": "Goutsuiken (1)",
@@ -492,7 +492,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs"
   },
   {
     "name": "Goutsuiken",
@@ -503,7 +503,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded"
+    "note": "\n\nHeat Engager\n\nChip damage when guarded\n"
   },
   {
     "name": "Goutsuiken > Heat Dash",
@@ -514,7 +514,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
+    "note": "\nChip damage when guarded\nShift to Devil Form on Heat Activation\n"
   },
   {
     "name": "Lion Slayer",
@@ -525,7 +525,7 @@
     "block": "-9c",
     "hit": "+?c",
     "counter": "KND",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Sliding Low Kick",
@@ -536,7 +536,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "+7c",
-    "note": ""
+    "note": "\ncs6~\n"
   },
   {
     "name": "Stature Smash",
@@ -569,7 +569,7 @@
     "block": "-14",
     "hit": "KND",
     "counter": "KND",
-    "note": "Combo from 1st hit\nCan be delayed 14F\nCombo can be delayed 10F from hit"
+    "note": "\nCombo from 1st hit\nCan be delayed 14F\nCombo can be delayed 10F from hit\n"
   },
   {
     "name": "Rampaging Demon (1)",
@@ -602,7 +602,7 @@
     "block": "",
     "hit": "KND",
     "counter": "",
-    "note": "Chip damage when guarded"
+    "note": "\nChip damage when guarded\n"
   },
   {
     "name": "Rampaging Demon (2)",
@@ -613,7 +613,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "Combo from 1st hit\nCan be delayed 10F\nCombo can be delayed 5F from hit"
+    "note": "\nCombo from 1st hit\nCan be delayed 10F\nCombo can be delayed 5F from hit\n"
   },
   {
     "name": "Rampaging Demon",
@@ -624,7 +624,7 @@
     "block": "-14",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "Combo from 2nd CH"
   },
   {
     "name": "Demon's Wrath (1)",
@@ -646,7 +646,7 @@
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Demon's Wrath (3)",
@@ -690,7 +690,7 @@
     "block": "-5",
     "hit": "+16Sp",
     "counter": "KND",
-    "note": ""
+    "note": "\n\nHoming\n\nHeat Engager\n"
   },
   {
     "name": "Flash Tornado > Heat Dash",
@@ -701,7 +701,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Shift to Devil Form on Heat Activation"
+    "note": "\n\nHoming\nShift to Devil Form on Heat Activation\n"
   },
   {
     "name": "Kumo Kiri",
@@ -712,7 +712,7 @@
     "block": "-12",
     "hit": "+5",
     "counter": "KND",
-    "note": "Chip damage when guarded"
+    "note": "\n\nHeat Engager\n\nChip damage when guarded"
   },
   {
     "name": "Kumo Kiri > Heat Dash",
@@ -723,7 +723,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
+    "note": "\nChip damage when guarded\nShift to Devil Form on Heat Activation\n"
   },
   {
     "name": "Lightning Screw Uppercut",
@@ -745,7 +745,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Alternate input:\nu+1\nuf+1u+1\nuf+1"
+    "note": "\njs9~\nAlternate input:\nu+1\nuf+1"
   },
   {
     "name": "Hook",
@@ -756,7 +756,7 @@
     "block": "-12",
     "hit": "+9",
     "counter": "",
-    "note": "Alternate input:\nu+2\nuf+2u+2\nuf+2"
+    "note": "\nAlternate input:\nu+2\nuf+2"
   },
   {
     "name": "Jumping Side Kick",
@@ -767,7 +767,7 @@
     "block": "-17",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "\njs9~"
   },
   {
     "name": "Searing Edge",
@@ -778,7 +778,7 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "\njs9~Alternate input: uf+3"
   },
   {
     "name": "Rising Toe Kick",
@@ -789,7 +789,7 @@
     "block": "-19",
     "hit": "-8",
     "counter": "",
-    "note": ""
+    "note": "\njs9~"
   },
   {
     "name": "Inferno",
@@ -800,7 +800,7 @@
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": "Chip damage when guarded\nJack-8 or Alisa can recovery 20 by input 1+2"
+    "note": "\nChip damage when guarded\nJack-8 or Alisa can recovery 20 by input 1+2\n"
   },
   {
     "name": "Roundhouse > Triple Spin Kick (1)",
@@ -811,7 +811,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "\njs9~Alternate input: u+4"
   },
   {
     "name": "Roundhouse > Triple Spin Kick (2)",
@@ -822,7 +822,7 @@
     "block": "-23",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "Combo from 1st CH"
   },
   {
     "name": "Roundhouse > Triple Spin Kick (3)",
@@ -855,7 +855,7 @@
     "block": "-11",
     "hit": "LNC",
     "counter": "LNC",
-    "note": ""
+    "note": "\njs9~"
   },
   {
     "name": "Devil Fist",
@@ -866,7 +866,7 @@
     "block": "-12",
     "hit": "Th",
     "counter": "Th",
-    "note": "Damage () is damage bonus when throw"
+    "note": "\n\nHeat Engager\n\nDamage () is damage bonus when throw\n"
   },
   {
     "name": "Devil Fist > Heat Dash",
@@ -877,7 +877,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
+    "note": "\nChip damage when guarded\nShift to Devil Form on Heat Activation\n"
   },
   {
     "name": "Left Splits Kick",
@@ -888,7 +888,7 @@
     "block": "-3c",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Devil's Steel Petal",
@@ -910,7 +910,7 @@
     "block": "+9",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "\njs3~Chip damage when guarded"
   },
   {
     "name": "Crouch Jab",
@@ -921,7 +921,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "Returns to standing when input F"
+    "note": "\ncs\nReturns to standing when input F\n"
   },
   {
     "name": "Crouch Straight",
@@ -932,7 +932,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "\ncs"
   },
   {
     "name": "Crouch Spin Kick",
@@ -943,7 +943,7 @@
     "block": "-17",
     "hit": "-3",
     "counter": "",
-    "note": ""
+    "note": "\ncs"
   },
   {
     "name": "Crouch Chin Kick",
@@ -954,7 +954,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "\ncs"
   },
   {
     "name": "Tombstone Crusher",
@@ -965,7 +965,7 @@
     "block": "-11c",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "\ncs,js13~\n"
   },
   {
     "name": "Uppercut",
@@ -987,7 +987,7 @@
     "block": "-12",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "Combo from 1st hit\n"
+    "note": "\nCombo from 1st hit\n\nTornado\n"
   },
   {
     "name": "Demon God Fist",
@@ -998,7 +998,7 @@
     "block": "-18",
     "hit": "LNC",
     "counter": "LNC",
-    "note": ""
+    "note": "Homing"
   },
   {
     "name": "Engetsusen",
@@ -1009,7 +1009,7 @@
     "block": "-5",
     "hit": "KND",
     "counter": "KND",
-    "note": "Meaty 1F in actuality"
+    "note": "\n\nHoming\nMeaty 1F in actuality"
   },
   {
     "name": "Toe Smash",
@@ -1031,7 +1031,7 @@
     "block": "-15",
     "hit": "-4c",
     "counter": "-4c",
-    "note": "Combo from 1st hit"
+    "note": "\nCombo from 1st hit\n"
   },
   {
     "name": "Fujin Uraken",
@@ -1042,7 +1042,7 @@
     "block": "-9",
     "hit": "+11g (+23w)",
     "counter": "",
-    "note": ""
+    "note": "Wall Crush {{{1}}}\n"
   },
   {
     "name": "Shattered Spine",
@@ -1064,7 +1064,7 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND*",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Spin Knuckle Jab",
@@ -1119,7 +1119,7 @@
     "block": "",
     "hit": "LNC",
     "counter": "LNC",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Mist Step (Left Side)",
@@ -1152,7 +1152,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Cannot be buffered\nConnect to Wind God Step\nCost: 2F"
+    "note": "\nCannot be buffered\nConnect to Wind God Step\nCost: 2F\n"
   },
   {
     "name": "Wind God Step",
@@ -1163,7 +1163,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Cannot be buffered\nCost 3F"
+    "note": "\nCannot be buffered\nCost 3F\n"
   },
   {
     "name": "Thunder God Fist",
@@ -1174,7 +1174,7 @@
     "block": "-16",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "Meaty 1F in actuality"
+    "note": "\n\nTornado\nMeaty 1F in actuality\n"
   },
   {
     "name": "Wind God Fist",
@@ -1185,7 +1185,7 @@
     "block": "-10",
     "hit": "LNC",
     "counter": "LNC",
-    "note": ""
+    "note": "Becomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)"
   },
   {
     "name": "Electric Wind God Fist",
@@ -1196,7 +1196,7 @@
     "block": "+5",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "Chip damage when guarded\nTotal 36F on block or hit"
+    "note": "\nChip damage when guarded\nTotal 36F on block or hit\n"
   },
   {
     "name": "Hell Lancer",
@@ -1207,7 +1207,7 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "\njs9~"
   },
   {
     "name": "Spinning Demon (1)",
@@ -1218,7 +1218,7 @@
     "block": "-23",
     "hit": "-3c",
     "counter": "KND",
-    "note": "Disable 2nd from 1st block\n2nd input force to down"
+    "note": "\nDisable 2nd from 1st block\n2nd input force to down\n"
   },
   {
     "name": "Spinning Demon > Left Hook",
@@ -1240,7 +1240,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Patricide Fist",
@@ -1251,7 +1251,7 @@
     "block": "",
     "hit": "KND",
     "counter": "",
-    "note": "Chip damage when guarded"
+    "note": "\n\nTornado\nChip damage when guarded\n"
   },
   {
     "name": "Devil Break",
@@ -1262,7 +1262,7 @@
     "block": "",
     "hit": "Th",
     "counter": "",
-    "note": "Partially uses remaining Heat time"
+    "note": "\nPartially uses remaining Heat time\n"
   },
   {
     "name": "Devil Blaster",
@@ -1273,7 +1273,7 @@
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": "Partially uses remaining Heat time"
+    "note": "\njs25~\nPartially uses remaining Heat time\n"
   },
   {
     "name": "Roar of the Devil",
@@ -1284,7 +1284,7 @@
     "block": "",
     "hit": "KND",
     "counter": "",
-    "note": "Partially uses remaining Heat time\nabsorb an attack to power up"
+    "note": "\npc\n\nTornado\nPartially uses remaining Heat time\nabsorb an attack to power up\n"
   },
   {
     "name": "Devil Impact",
@@ -1295,7 +1295,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Partially uses remaining Heat time"
+    "note": "\nPartially uses remaining Heat time\n"
   },
   {
     "name": "Devil Impact to Wind God Step",
@@ -1306,7 +1306,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Partially uses remaining Heat time"
+    "note": "\nPartially uses remaining Heat time\n"
   },
   {
     "name": "Inferno",
@@ -1317,7 +1317,7 @@
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": "Partially uses remaining Heat time\nJack-8 or Alisa can recovery 20 by input 1+2"
+    "note": "\nPartially uses remaining Heat time\nJack-8 or Alisa can recovery 20 by input 1+2\n"
   },
   {
     "name": "Air Inferno",
@@ -1328,7 +1328,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Alternate input: DVK.u+1+2"
   },
   {
     "name": "Chaos Inferno",
@@ -1339,7 +1339,7 @@
     "block": "",
     "hit": "Th",
     "counter": "",
-    "note": "Partially uses remaining Heat time"
+    "note": "\nPartially uses remaining Heat time\n"
   },
   {
     "name": "Damnation",
@@ -1350,7 +1350,7 @@
     "block": "",
     "hit": "Th",
     "counter": "",
-    "note": "Partially uses remaining Heat time\nOn hit, does not shift to throw with n"
+    "note": "\nPartially uses remaining Heat time\nOn hit, does not shift to throw with n\n"
   },
   {
     "name": "Tempest Blaster",
@@ -1361,7 +1361,7 @@
     "block": "",
     "hit": "Th",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Abyss Damnation",
@@ -1372,7 +1372,7 @@
     "block": "",
     "hit": "Th",
     "counter": "",
-    "note": "Partially uses remaining Heat time"
+    "note": "\nPartially uses remaining Heat time\n"
   },
   {
     "name": "Spinning Demon to Left Hook > Thunder God Fist",
@@ -1394,7 +1394,7 @@
     "block": "-22",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "Partially uses remaining Heat time\n"
+    "note": "\nPartially uses remaining Heat time\n\nTornado\n"
   },
   {
     "name": "Grand Inferno",
@@ -1405,7 +1405,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Partially uses remaining Heat time"
+    "note": "\nPartially uses remaining Heat time\n"
   },
   {
     "name": "Demonic Catastrophe",
@@ -1416,7 +1416,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Erases opponent's recoverable health on hit\nAlternate input: R2"
+    "note": "\nErases opponent's recoverable health on hit\nAlternate input: R2\n"
   },
   {
     "name": "Oni Stomp",
@@ -1438,7 +1438,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Shift to charging"
+    "note": "\nShift to charging\n"
   },
   {
     "name": "Wall Jumping Attack",
@@ -1449,7 +1449,7 @@
     "block": "-1",
     "hit": "KND",
     "counter": "KND",
-    "note": "Air Status 5F"
+    "note": "\nis8~13\nAir Status 5F\n"
   },
   {
     "name": "Double High Sweep",
@@ -1460,7 +1460,7 @@
     "block": "+0",
     "hit": "",
     "counter": "",
-    "note": "Throw break 1 or 2\nRecovers BT on break"
+    "note": "\nThrow break 1 or 2\nRecovers BT on break"
   },
   {
     "name": "Lightning Crash",
@@ -1482,7 +1482,7 @@
     "block": "-3",
     "hit": "+1",
     "counter": "",
-    "note": "Throw break 1"
+    "note": "\nThrow break 1"
   },
   {
     "name": "Skull Smash",
@@ -1493,7 +1493,7 @@
     "block": "-3",
     "hit": "-4d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 2"
   },
   {
     "name": "Reverse Neck Throw",
@@ -1504,7 +1504,7 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "Break: none"
+    "note": "\nBreak: none"
   },
   {
     "name": "Stonehead",
@@ -1515,7 +1515,7 @@
     "block": "+0",
     "hit": "+26d (+8)",
     "counter": "",
-    "note": "Alternate input f,F+1+2\nThrow break 1+2\nSide switch on break\n15 additional damage on wall hit"
+    "note": "\nAlternate input f,F+1+2\nThrow break 1+2\nSide switch on break\n15 additional damage on wall hit"
   },
   {
     "name": "Gates of Hell",
@@ -1526,6 +1526,6 @@
     "block": "-6",
     "hit": "-3d",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1+2"
   }
 ]

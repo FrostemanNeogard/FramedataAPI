@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": ""
+    "note": "\npc\n\nHeat Burst"
   },
   {
     "name": "Notorious Monster",
@@ -19,7 +19,7 @@
     "block": "+9",
     "hit": "-1d",
     "counter": "",
-    "note": "2nd and 3rd hit\nThrow on hit\n2nd and 3rd hit"
+    "note": "\njs\n\nHeat Smash\n\nFloor Break\n2nd and 3rd hit\nThrow on hit\n\nWall Crush on block\n\n "
   },
   {
     "name": "Jab",
@@ -41,7 +41,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "+9",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "One Two Body Blow",
@@ -63,7 +63,7 @@
     "block": "-12",
     "hit": "+2",
     "counter": "+14d",
-    "note": ""
+    "note": "Combo from 1st and 2nd CH"
   },
   {
     "name": "One Two Neck Breaker",
@@ -74,7 +74,7 @@
     "block": "-5",
     "hit": "+20a (+11)",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Engager\n"
   },
   {
     "name": "",
@@ -85,7 +85,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -96,7 +96,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "+53a",
-    "note": "Cancel last hit into 1,4,2,1 with f+1\nCancel last hit into 1,4,2,4 with f+4\nAlternate input b+2"
+    "note": "\nCancel last hit into 1,4,2,1 with f+1\nCancel last hit into 1,4,2,4 with f+4\nAlternate input b+2"
   },
   {
     "name": "",
@@ -107,7 +107,7 @@
     "block": "+0",
     "hit": "+55a",
     "counter": "",
-    "note": "Cancel last hit and transition to SS with u_d\nTransition to SLS with F\nAlternate input:\nb+2,1\nqcf+4,1b+2,1\nqcf+4,1"
+    "note": "\nCancel last hit and transition to SS with u_d\nTransition to SLS with F\nAlternate input:\nb+2,1\nqcf+4,1"
   },
   {
     "name": "Lair's Dance",
@@ -118,7 +118,7 @@
     "block": "-8",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "Alternate input:\nb+2,1,2\nqcf+4,1,2b+2,1,2\nqcf+4,1,2"
+    "note": "\n\nBalcony Break\nAlternate input:\nb+2,1,2\nqcf+4,1,2"
   },
   {
     "name": "Cremation",
@@ -129,7 +129,7 @@
     "block": "-5",
     "hit": "+40a (+14)",
     "counter": "",
-    "note": "Alternate input:\nb+2,1,4\nqcf+4,1,4\nSpecial? effect on airborne hit +38a (+31)b+2,1,4\nqcf+4,1,4"
+    "note": "\n\nTornado\nAlternate input:\nb+2,1,4\nqcf+4,1,4\nSpecial? effect on airborne hit +38a (+31)"
   },
   {
     "name": "Whipping Fury",
@@ -140,7 +140,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input b+2,4"
+    "note": "\n\nBalcony Break\nAlternate input b+2,4"
   },
   {
     "name": "Jab > Double Spin Kick",
@@ -162,7 +162,7 @@
     "block": "-7",
     "hit": "+7",
     "counter": "+14d",
-    "note": ""
+    "note": "Combo from 3rd hit"
   },
   {
     "name": "",
@@ -184,7 +184,7 @@
     "block": "-10",
     "hit": "+6",
     "counter": "+16a (+7)",
-    "note": "Combo from 1st hit\nCH frames also apply to combo from 1st CH"
+    "note": "\nCombo from 1st hit\nCH frames also apply to combo from 1st CH"
   },
   {
     "name": "Mid Kick",
@@ -206,7 +206,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st CH"
   },
   {
     "name": "",
@@ -217,7 +217,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "Combo from 2nd hit"
   },
   {
     "name": "Mid Kick > Rush",
@@ -228,7 +228,7 @@
     "block": "-10",
     "hit": "+14a (+10)",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Gatling Combination",
@@ -261,7 +261,7 @@
     "block": "-7",
     "hit": "+43 (+33)",
     "counter": "",
-    "note": ""
+    "note": "Tornado"
   },
   {
     "name": "Anaconda Rage",
@@ -272,7 +272,7 @@
     "block": "-12",
     "hit": "+37d (-21)",
     "counter": "",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "",
@@ -294,7 +294,7 @@
     "block": "-10",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Double Spin Tomahawk",
@@ -305,7 +305,7 @@
     "block": "-10",
     "hit": "+2",
     "counter": "",
-    "note": "Hold to power up and deal more chip damage on block"
+    "note": "\n\nBalcony Break\nHold to power up and deal more chip damage on block"
   },
   {
     "name": "Triple Spin Kick",
@@ -316,7 +316,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+31a (+21)",
-    "note": ""
+    "note": "Combo from 2nd CH"
   },
   {
     "name": "",
@@ -327,7 +327,7 @@
     "block": "-7",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "Homing"
   },
   {
     "name": "Snake Bite",
@@ -338,7 +338,7 @@
     "block": "-1",
     "hit": "+6",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to Sway with B +7 on hit"
+    "note": "\nCombo from 1st hit\nTransition to Sway with B +7 on hit"
   },
   {
     "name": "Snake Pit",
@@ -349,7 +349,7 @@
     "block": "-14",
     "hit": "+51d (+20)",
     "counter": "",
-    "note": "Combo from 1st hit with delay"
+    "note": "\nCombo from 1st hit with delay"
   },
   {
     "name": "Middle Side Kick",
@@ -382,7 +382,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Right Left > Spin Kick > Snake Eyes",
@@ -393,7 +393,7 @@
     "block": "-13",
     "hit": "+3a",
     "counter": "",
-    "note": "Combo from 1st hit\nGain SE on hit with 1+2"
+    "note": "\nCombo from 1st hit\nGain SE on hit with 1+2"
   },
   {
     "name": "Knee Strike",
@@ -404,7 +404,7 @@
     "block": "+0",
     "hit": "+4",
     "counter": "+50a",
-    "note": ""
+    "note": "Knee"
   },
   {
     "name": "",
@@ -426,7 +426,7 @@
     "block": "-13c",
     "hit": "+40a (+32)",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Sidestep Elbow",
@@ -437,7 +437,7 @@
     "block": "-6",
     "hit": "+44d (-14)",
     "counter": "",
-    "note": "Absorb an attack to power up and deal more chip damage on block"
+    "note": "\npc\n\nBalcony Break\n\nElbow\nAbsorb an attack to power up and deal more chip damage on block"
   },
   {
     "name": "",
@@ -448,7 +448,7 @@
     "block": "-5",
     "hit": "+1",
     "counter": "",
-    "note": "Alternate input df+1\nDF+1,1... extension available only with DF+1 input, not df+1"
+    "note": "\nAlternate input df+1\nDF+1,1... extension available only with DF+1 input, not df+1"
   },
   {
     "name": "",
@@ -459,7 +459,7 @@
     "block": "-10",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -470,7 +470,7 @@
     "block": "-10",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Vulcan Cannon",
@@ -481,7 +481,7 @@
     "block": "-10",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Double Body Blow",
@@ -492,7 +492,7 @@
     "block": "-15",
     "hit": "+1",
     "counter": "+14a (+5)",
-    "note": "Combo from 1st hit\nAlternate input:\nDF+1,2\nDF+1,1,2\nDF+1,1,1,2\nDF+1,1,1,1,2\nWall Break on CHDF+1,2\nDF+1,1,2\nDF+1,1,1,2\nDF+1,1,1,1,2"
+    "note": "\nCombo from 1st hit\nAlternate input:\nDF+1,2\nDF+1,1,2\nDF+1,1,1,2\nDF+1,1,1,1,2\nWall Break on CH"
   },
   {
     "name": "",
@@ -503,7 +503,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "Elbow"
   },
   {
     "name": "Blackout Combo",
@@ -514,7 +514,7 @@
     "block": "-4",
     "hit": "+5",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to Sway with B +8 on hit"
+    "note": "\nCombo from 1st hit\nTransition to Sway with B +8 on hit"
   },
   {
     "name": "Blackout Trap",
@@ -536,7 +536,7 @@
     "block": "-26",
     "hit": "+70a (+54)",
     "counter": "",
-    "note": "Insta Tornado launch"
+    "note": "\n\nHoming\nInsta Tornado launch"
   },
   {
     "name": "Wolf's Tail",
@@ -547,7 +547,7 @@
     "block": "-6",
     "hit": "+19d",
     "counter": "",
-    "note": ""
+    "note": "\n\nHoming"
   },
   {
     "name": "",
@@ -558,7 +558,7 @@
     "block": "-2",
     "hit": "+8c",
     "counter": "",
-    "note": ""
+    "note": "Elbow"
   },
   {
     "name": "Python Crush",
@@ -569,7 +569,7 @@
     "block": "-10",
     "hit": "+16a (-1)",
     "counter": "+32a (+18)",
-    "note": ""
+    "note": "\n\nBalcony Break"
   },
   {
     "name": "",
@@ -591,7 +591,7 @@
     "block": "-7",
     "hit": "+35a (+9)",
     "counter": "",
-    "note": "Gain SE on hit with 1+2"
+    "note": "\n\nBalcony Break\nGain SE on hit with 1+2"
   },
   {
     "name": "Low Kick",
@@ -613,7 +613,7 @@
     "block": "-10",
     "hit": "+3",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to SLS with F +10g on hit\nTransition to Sway with B +8"
+    "note": "\nCombo from 1st hit\nTransition to SLS with F +10g on hit\nTransition to Sway with B +8"
   },
   {
     "name": "Hammer Driver Hatchet",
@@ -635,7 +635,7 @@
     "block": "+7",
     "hit": "+53a",
     "counter": "",
-    "note": ""
+    "note": "Chip damage on block"
   },
   {
     "name": "",
@@ -657,7 +657,7 @@
     "block": "-12",
     "hit": "+14a (-3)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\n\nTornado"
   },
   {
     "name": "Stomach Blow",
@@ -690,7 +690,7 @@
     "block": "-9",
     "hit": "+4",
     "counter": "",
-    "note": "Heat Dash +43a (+35)"
+    "note": "\n\nHeat Engager\n\nHeat Dash +43a (+35)"
   },
   {
     "name": "Chopping Elbow",
@@ -701,7 +701,7 @@
     "block": "+4",
     "hit": "+7c",
     "counter": "+78a (+58)",
-    "note": ""
+    "note": "Elbow"
   },
   {
     "name": "",
@@ -712,7 +712,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Cancel into b+2,1 with f+1\nCancel into b+2,4 with f+4\nAlternate input 1,4,2"
+    "note": "\nCancel into b+2,1 with f+1\nCancel into b+2,4 with f+4\nAlternate input 1,4,2"
   },
   {
     "name": "",
@@ -723,7 +723,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Cancel last hit and transition to SS with u_d\nTransition to SLS with F\nAlternate input:\n1,4,2,1\nqcf+4,11,4,2,1\nqcf+4,1"
+    "note": "\nCancel last hit and transition to SS with u_d\nTransition to SLS with F\nAlternate input:\n1,4,2,1\nqcf+4,1"
   },
   {
     "name": "Hands of Doom",
@@ -734,7 +734,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input:\n1,4,2,1,2\nqcf+4,1,21,4,2,1,2\nqcf+4,1,2"
+    "note": "\n\nBalcony Break\nAlternate input:\n1,4,2,1,2\nqcf+4,1,2"
   },
   {
     "name": "Wolf Call",
@@ -745,7 +745,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input 1,4,2,4"
+    "note": "\n\nBalcony Break\nAlternate input 1,4,2,4"
   },
   {
     "name": "Kickass Combo",
@@ -756,7 +756,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input:\n1,4,2,4\nqcf+4,1,41,4,2,4\nqcf+4,1,4"
+    "note": "\n\nTornado\nAlternate input:\n1,4,2,4\nqcf+4,1,4"
   },
   {
     "name": "",
@@ -767,7 +767,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "Transition to SLS with F +17 on hit"
   },
   {
     "name": "",
@@ -789,7 +789,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 2nd hit\nAlternate input 3,2,1"
+    "note": "\nCombo from 2nd hit\nAlternate input 3,2,1"
   },
   {
     "name": "Front Kick > Rush",
@@ -800,7 +800,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input 3,2,1,2"
+    "note": "\nAlternate input 3,2,1,2"
   },
   {
     "name": "Run for Cover",
@@ -811,7 +811,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input 3,2,1,4"
+    "note": "\nAlternate input 3,2,1,4"
   },
   {
     "name": "Front Kick > Double Hammer",
@@ -822,7 +822,7 @@
     "block": "-8",
     "hit": "+4c",
     "counter": "+20d",
-    "note": ""
+    "note": "Combo from 1st CH with delay"
   },
   {
     "name": "Knee Break",
@@ -833,7 +833,7 @@
     "block": "-10",
     "hit": "+15",
     "counter": "",
-    "note": ""
+    "note": "Knee"
   },
   {
     "name": "Parry",
@@ -844,7 +844,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input b+2+4"
+    "note": "\nps\nAlternate input b+2+4"
   },
   {
     "name": "Parry > Mach Breaker > Snake Eyes",
@@ -855,7 +855,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Gain SE on hit\nChip damage on block"
+    "note": "\n\nBalcony Break\nGain SE on hit\nChip damage on block"
   },
   {
     "name": "Gravity Blow",
@@ -888,7 +888,7 @@
     "block": "-16",
     "hit": "-6",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -899,7 +899,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -910,7 +910,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -921,7 +921,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -932,7 +932,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -943,7 +943,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -954,7 +954,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -965,7 +965,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -976,7 +976,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -987,7 +987,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "Gatling Rush",
@@ -998,7 +998,7 @@
     "block": "-35",
     "hit": "-15a (-24)",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block"
+    "note": "\n\nKnee\n\nBalcony Break\nCombo from 1st hit\nChip damage on block"
   },
   {
     "name": "",
@@ -1020,7 +1020,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -1031,7 +1031,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -1042,7 +1042,7 @@
     "block": "-15",
     "hit": "+30a (+12)",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nKnee\nCombo from 1st hit"
   },
   {
     "name": "Rolling Driver",
@@ -1053,7 +1053,7 @@
     "block": "-2",
     "hit": "+15",
     "counter": "",
-    "note": ""
+    "note": "\njsAlternate input u+3"
   },
   {
     "name": "Orbital Heel Kick",
@@ -1064,7 +1064,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njsAlternate input u+4"
   },
   {
     "name": "Bullet Knee > Snake Eyes",
@@ -1075,7 +1075,7 @@
     "block": "-7",
     "hit": "+8a",
     "counter": "",
-    "note": "Gain SE on hit"
+    "note": "\njs\n\nTornado\n\nKnee\nGain SE on hit"
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -1086,7 +1086,7 @@
     "block": "-13",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Mach Breaker",
@@ -1097,7 +1097,7 @@
     "block": "-9",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nChip damage on block"
   },
   {
     "name": "Slash Kick > Snake Eyes",
@@ -1108,7 +1108,7 @@
     "block": "-13",
     "hit": "+28a (-8)",
     "counter": "+39a (-8)",
-    "note": "Gain SE on hit with 1+2\nChip damage 7 (28%) on block"
+    "note": "\n\nBalcony Break\nGain SE on hit with 1+2\nChip damage 7 (28%) on block"
   },
   {
     "name": "",
@@ -1119,7 +1119,7 @@
     "block": "+8",
     "hit": "+71a",
     "counter": "",
-    "note": "Gain SE on hit with 1+2\nChip damage 9 (27%) on block\n"
+    "note": "\n\nBalcony Break\nGain SE on hit with 1+2\nChip damage 9 (27%) on block\n\nWall Crush on block\n\n "
   },
   {
     "name": "Mach Kick",
@@ -1130,7 +1130,7 @@
     "block": "-9",
     "hit": "+15a",
     "counter": "",
-    "note": "Chip damage 9 (28%) on block"
+    "note": "\n\nHoming\nChip damage 9 (28%) on block"
   },
   {
     "name": "Mach Kick",
@@ -1141,7 +1141,7 @@
     "block": "-7",
     "hit": "+43a (+33)",
     "counter": "",
-    "note": ""
+    "note": "\n\nTornado"
   },
   {
     "name": "Wedge Driver",
@@ -1152,7 +1152,7 @@
     "block": "-13",
     "hit": "+14g",
     "counter": "",
-    "note": "Cancel with B"
+    "note": "\nCancel with B"
   },
   {
     "name": "Flying Knee Kick",
@@ -1174,7 +1174,7 @@
     "block": "+6",
     "hit": "+13a (+3)",
     "counter": "",
-    "note": ""
+    "note": "Chip damage 9 (30%) on block"
   },
   {
     "name": "",
@@ -1196,7 +1196,7 @@
     "block": "-8",
     "hit": "+34a (+8)",
     "counter": "",
-    "note": "Combo from 1st hit with delay\nMove can be delayed"
+    "note": "\n\nBalcony Break\nCombo from 1st hit with delay\nMove can be delayed"
   },
   {
     "name": "Northern Cross",
@@ -1207,7 +1207,7 @@
     "block": "-10",
     "hit": "+13g",
     "counter": "",
-    "note": ""
+    "note": "\ncs1~Ballerina spin on hit"
   },
   {
     "name": "Left Upper",
@@ -1218,7 +1218,7 @@
     "block": "-14",
     "hit": "+35a (+25)",
     "counter": "",
-    "note": ""
+    "note": "Alternate input qcf+1"
   },
   {
     "name": "Fisherman's Slam",
@@ -1229,7 +1229,7 @@
     "block": "-10",
     "hit": "+50a",
     "counter": "",
-    "note": "Throw only on hit\nPowerup with f+2 or b+2 (perfect) - additional 5 damage"
+    "note": "\nThrow only on hit\nPowerup with f+2 or b+2 (perfect) - additional 5 damage"
   },
   {
     "name": "High Knee Kick",
@@ -1240,7 +1240,7 @@
     "block": "-10",
     "hit": "+4",
     "counter": "+33a (+27)",
-    "note": "Alternate input qcf+3"
+    "note": "\nAlternate input qcf+3"
   },
   {
     "name": "Double High Knee Kick",
@@ -1251,7 +1251,7 @@
     "block": "-10",
     "hit": "+4",
     "counter": "+29g",
-    "note": "Alternate input qcf+3,4\nMove can be delayed"
+    "note": "\nAlternate input qcf+3,4\nMove can be delayed"
   },
   {
     "name": "Toe Kick",
@@ -1284,7 +1284,7 @@
     "block": "-1",
     "hit": "+35a (+9)",
     "counter": "",
-    "note": "Combo from 1st hit\nConsumes SNE\nChip damage 8 (40%) on block"
+    "note": "\nCombo from 1st hit\nConsumes SNE\nChip damage 8 (40%) on block"
   },
   {
     "name": "Neo Soul Eraser Exceed",
@@ -1295,7 +1295,7 @@
     "block": "+9",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "Consumes SNE\nChip damage on block\nInsta Tornado launcher"
+    "note": "\n\nTornado\n\nBalcony Break\nConsumes SNE\nChip damage on block\n\nGuard Break at the wall\nInsta Tornado launcher"
   },
   {
     "name": "",
@@ -1306,7 +1306,7 @@
     "block": "-12",
     "hit": "+3c",
     "counter": "",
-    "note": "Combo from 1st hit\nConsumes SNE\nChip damage 1 (20%) on block"
+    "note": "\n\nElbow\nCombo from 1st hit\nConsumes SNE\nChip damage 1 (20%) on block"
   },
   {
     "name": "",
@@ -1317,7 +1317,7 @@
     "block": "-15",
     "hit": "+14a (+7)",
     "counter": "",
-    "note": "Combo from 1st hit\nChip damage 2 (28%) on block"
+    "note": "\n\nKnee\nCombo from 1st hit\nChip damage 2 (28%) on block"
   },
   {
     "name": "",
@@ -1328,7 +1328,7 @@
     "block": "-10",
     "hit": "+0a (-1)",
     "counter": "",
-    "note": "Chip damage 8 (40%) on block"
+    "note": "\nChip damage 8 (40%) on block"
   },
   {
     "name": "",
@@ -1339,7 +1339,7 @@
     "block": "-12",
     "hit": "+21a (+14)",
     "counter": "",
-    "note": "6 (4) damage on airborne opponent at 70% scaling - 9 damage?\nConsumes SNE\nChip damage 2 (22%) on block"
+    "note": "\n6 (4) damage on airborne opponent at 70% scaling - 9 damage?\nConsumes SNE\nChip damage 2 (22%) on block"
   },
   {
     "name": "",
@@ -1350,7 +1350,7 @@
     "block": "-12",
     "hit": "",
     "counter": "",
-    "note": "4 (2) damage on airborne opponent at 50% (70%) scaling\nChip damage 2 (22%) on block"
+    "note": "\n4 (2) damage on airborne opponent at 50% (70%) scaling\nChip damage 2 (22%) on block"
   },
   {
     "name": "",
@@ -1361,7 +1361,7 @@
     "block": "-15",
     "hit": "",
     "counter": "",
-    "note": "9 (6) damage on airborne opponent at 40% (70%) scaling\nChip damage 9 (39%) on block"
+    "note": "\n9 (6) damage on airborne opponent at 40% (70%) scaling\nChip damage 9 (39%) on block"
   },
   {
     "name": "Neo Mach Breaker",
@@ -1372,7 +1372,7 @@
     "block": "+5",
     "hit": "+33a (+7)",
     "counter": "",
-    "note": "Consumes SNE\nChip damage 14 (38%) on block\nTransition into Immortal Payback on opponent attack absorb"
+    "note": "\npc\nConsumes SNE\nChip damage 14 (38%) on block\nTransition into Immortal Payback on opponent attack absorb"
   },
   {
     "name": "Immortal Payback",
@@ -1383,7 +1383,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Consumes SNE (again?)[untested]"
+    "note": "\n\nBalcony Break\nConsumes SNE (again?)[untested]"
   },
   {
     "name": "Slither Step",
@@ -1394,7 +1394,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input d,df\nTransition to FC with DF\nLapses to standing"
+    "note": "\nAlternate input d,df\nTransition to FC with DF\nLapses to standing"
   },
   {
     "name": "",
@@ -1416,7 +1416,7 @@
     "block": "-11",
     "hit": "+33a (+18)",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Cross Grenade",
@@ -1427,7 +1427,7 @@
     "block": "-7",
     "hit": "+14a",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit"
   },
   {
     "name": "Cross Bullet",
@@ -1438,7 +1438,7 @@
     "block": "",
     "hit": "+5a",
     "counter": "",
-    "note": "Combo from 1st hit\nGain SE on hit -12a"
+    "note": "\n\nTornado\nCombo from 1st hit\nGain SE on hit -12a"
   },
   {
     "name": "",
@@ -1460,7 +1460,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st CH\nTransition to SS with u_d\nAlternate input:\n1,4,2,1\nb+2,11,4,2,1\nb+2,1"
+    "note": "\nCombo from 1st CH\nTransition to SS with u_d\nAlternate input:\n1,4,2,1\nb+2,1"
   },
   {
     "name": "Snake Spin Mach Breaker",
@@ -1471,7 +1471,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input:\n1,4,2,1,2\nb+2,1,21,4,2,1,2\nb+2,1,2"
+    "note": "\nAlternate input:\n1,4,2,1,2\nb+2,1,2"
   },
   {
     "name": "Snake Spin Kickass",
@@ -1482,7 +1482,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input:\n1,4,2,1,4\nb+2,1,41,4,2,1,4\nb+2,1,4"
+    "note": "\n\nTornado\nAlternate input:\n1,4,2,1,4\nb+2,1,4"
   },
   {
     "name": "Requiem",
@@ -1493,7 +1493,7 @@
     "block": "-9",
     "hit": "+23a (+13)",
     "counter": "",
-    "note": "Chip damage 8 (28%) on block"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nChip damage 8 (28%) on block"
   },
   {
     "name": "SWA",
@@ -1504,7 +1504,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Lapses to standing"
   },
   {
     "name": "Cannonball Straight",
@@ -1515,7 +1515,7 @@
     "block": "+5",
     "hit": "+36d (+28)",
     "counter": "+72a (+56)",
-    "note": "Insta Tornado launcher on CH\nChip damage 6 (27%) on block"
+    "note": "\n\nTornado\n\nBalcony Break\nInsta Tornado launcher on CH\nChip damage 6 (27%) on block"
   },
   {
     "name": "",
@@ -1537,7 +1537,7 @@
     "block": "-9",
     "hit": "+15a",
     "counter": "",
-    "note": "Combo from 1st hit with delay\nChip damage on block"
+    "note": "\nCombo from 1st hit with delay\nChip damage on block"
   },
   {
     "name": "",
@@ -1570,7 +1570,7 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "Rage Art"
+    "note": "\npc\nRage Art"
   },
   {
     "name": "Ki Charge",
@@ -1581,7 +1581,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Cannot block while still in effect\nAutomatic counter hit"
+    "note": "\nCannot block while still in effect\nAutomatic counter hit"
   },
   {
     "name": "Hellraiser",
@@ -1614,7 +1614,7 @@
     "block": "-5",
     "hit": "+43d (-15)",
     "counter": "",
-    "note": "Combo from 1st hit with delay\nMove can be delayed"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 1st hit with delay\nMove can be delayed"
   },
   {
     "name": "Gravity Brain Buster",
@@ -1625,7 +1625,7 @@
     "block": "",
     "hit": "-2d",
     "counter": "",
-    "note": "Throw break 1 or 2"
+    "note": "\n\nFloor Break\nThrow break 1 or 2"
   },
   {
     "name": "Guillotine",
@@ -1636,7 +1636,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1 or 2\nSide switch"
+    "note": "\n\nFloor Break\nThrow break 1 or 2\nSide switch"
   },
   {
     "name": "Gravity Throw",
@@ -1647,7 +1647,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 1\nSide switch"
+    "note": "\n\nFloor Break\nThrow break 1\nSide switch"
   },
   {
     "name": "Knee Blast",
@@ -1658,7 +1658,7 @@
     "block": "",
     "hit": "+6d",
     "counter": "",
-    "note": "Throw break 2"
+    "note": "\nThrow break 2"
   },
   {
     "name": "Neck throw",
@@ -1680,7 +1680,7 @@
     "block": "",
     "hit": "-5d",
     "counter": "",
-    "note": "Throw break 1+2"
+    "note": "\n\nFloor Break\nThrow break 1+2"
   },
   {
     "name": "Chains of Misery",
@@ -1691,6 +1691,6 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 1+2"
+    "note": "\nThrow break 1+2"
   }
 ]

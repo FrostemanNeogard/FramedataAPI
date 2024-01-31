@@ -8,7 +8,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: R1"
+    "note": "\n\nHeat Burst\nAlternate input: R1\n"
   },
   {
     "name": "Hellfire Trespass Slayer",
@@ -19,7 +19,7 @@
     "block": "+3",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: R1\nTransitions to Breaking Step on block"
+    "note": "\n\nHeat Smash\nAlternate input: R1\nTransitions to Breaking Step on block\n"
   },
   {
     "name": "Hellfire Trespass Slayer to Cancel Breaking Step",
@@ -30,7 +30,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Hellfire Darkside Slayer",
@@ -41,7 +41,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Smash\n"
   },
   {
     "name": "Awakened Power Stance",
@@ -52,7 +52,7 @@
     "block": "+4",
     "hit": "+23",
     "counter": "",
-    "note": "Partially uses remaining Heat time\nTransitions to Awakened Breaking Step on hit or block"
+    "note": "\npc\nPartially uses remaining Heat time\nTransitions to Awakened Breaking Step on hit or block\n"
   },
   {
     "name": "Awakened Thunder God Fist",
@@ -63,7 +63,7 @@
     "block": "-13",
     "hit": "+72a (56)",
     "counter": "",
-    "note": ""
+    "note": "\n\nTornado\n"
   },
   {
     "name": "Awakened Wind God Fist",
@@ -74,7 +74,7 @@
     "block": "+4",
     "hit": "+38a (28)",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Awakened Demon's Hoof",
@@ -85,7 +85,7 @@
     "block": "+2",
     "hit": "+22a",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Awakened Demon's Tail",
@@ -96,7 +96,7 @@
     "block": "-23",
     "hit": "-2d",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Awakened Spinning Demon (1)",
@@ -107,7 +107,7 @@
     "block": "-23",
     "hit": "+22a",
     "counter": "",
-    "note": ""
+    "note": "\n"
   },
   {
     "name": "Awakened Spinning Demon",
@@ -118,7 +118,7 @@
     "block": "-23",
     "hit": "+20d (-15)",
     "counter": "",
-    "note": ""
+    "note": "\n\nFloor Break\n"
   },
   {
     "name": "Jab",
@@ -129,7 +129,7 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "Based on Generic-1"
   },
   {
     "name": "Left Right Combo",
@@ -140,7 +140,7 @@
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Left Right > Black Wing Rondo",
@@ -151,7 +151,7 @@
     "block": "-16",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Left Right > Axe Kick",
@@ -162,7 +162,7 @@
     "block": "0",
     "hit": "+31d",
     "counter": "",
-    "note": ""
+    "note": "Interruptable by i10 from 2nd on block"
   },
   {
     "name": "Left Right > Spinning Hook Kick",
@@ -173,7 +173,7 @@
     "block": "-4",
     "hit": "+23a (+14)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\n"
   },
   {
     "name": "Left Jab > Double Low (1)",
@@ -184,7 +184,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Left Jab > Double Low",
@@ -228,7 +228,7 @@
     "block": "-9",
     "hit": "+4",
     "counter": "",
-    "note": "Combo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH"
+    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH"
   },
   {
     "name": "Double Thrust > Low Trick Kick",
@@ -239,7 +239,7 @@
     "block": "-31",
     "hit": "+16d",
     "counter": "",
-    "note": ""
+    "note": "Interruptable by i16 after 2nd on block"
   },
   {
     "name": "Switchblade",
@@ -250,7 +250,7 @@
     "block": "-9",
     "hit": "+11",
     "counter": "",
-    "note": "Combo from 1st hit\nCan cancel into ZEN"
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nCan cancel into ZEN"
   },
   {
     "name": "",
@@ -283,7 +283,7 @@
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -305,7 +305,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+28d",
-    "note": "Combo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH"
+    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH"
   },
   {
     "name": "High Right Roundhouse",
@@ -316,7 +316,7 @@
     "block": "-9",
     "hit": "+10",
     "counter": "+13c",
-    "note": ""
+    "note": "\n\nHoming\n\nBalcony Break"
   },
   {
     "name": "Spinning Flare Kick",
@@ -327,7 +327,7 @@
     "block": "-14~-4",
     "hit": "-4a",
     "counter": "",
-    "note": "Alternate input:\nws4~3\nCD.df+4,3+4ws4~3\nCD.df+4,3+4"
+    "note": "\njs12~\n\nFloor Break\nAlternate input:\nws4~3\nCD.df+4,3+4"
   },
   {
     "name": "Median Line Destruction",
@@ -338,7 +338,7 @@
     "block": "-14",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\n\nHeat Engager\n"
   },
   {
     "name": "Left Sidekick",
@@ -360,7 +360,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "Heat Engager\n"
   },
   {
     "name": "Left Sidekick > Stinger",
@@ -415,7 +415,7 @@
     "block": "-6",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\n\nHeat Engager\n"
   },
   {
     "name": "Polar Demon Gouge",
@@ -426,6 +426,6 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Erases opponent's recoverable health on hit\nAlternate input: R2"
+    "note": "\nErases opponent's recoverable health on hit\nAlternate input: R2\n"
   }
 ]

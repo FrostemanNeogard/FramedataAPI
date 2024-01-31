@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "Cancel to r45 with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor"
+    "note": "\npc7~62\n\nHeat Burst\nCancel to r45 with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor"
   },
   {
     "name": "Divine Sword Kagekiyo",
@@ -19,7 +19,7 @@
     "block": "+4~+5",
     "hit": "-3d",
     "counter": "",
-    "note": "Recovers health on hit\nTransition to r29 DGF on block with U, +10~+11\nUnparryable\nIgnores regular power crush armor\nJails\nEnds Heat"
+    "note": "\njs68~89 fs90~92\n\nHeat Smash\n\nBalcony Break\nRecovers health on hit\nTransition to r29 DGF on block with U, +10~+11\nUnparryable\nIgnores regular power crush armor\nJails\nEnds Heat"
   },
   {
     "name": "Jab",
@@ -41,7 +41,7 @@
     "block": "-9",
     "hit": "+4c",
     "counter": "+6a",
-    "note": "Combo from 1st hit with 2f delay\nInput can be delayed 3f\nInterrupt with i4 from 1st block\n3 chip damage on block\nPower up in NSS or Heat"
+    "note": "\n\nSpike\n\nWeapon\nCombo from 1st hit with 2f delay\nInput can be delayed 3f\nInterrupt with i4 from 1st block\n3 chip damage on block\nPower up in NSS or Heat"
   },
   {
     "name": "Right Cross",
@@ -52,7 +52,7 @@
     "block": "-1",
     "hit": "+5",
     "counter": "+8",
-    "note": ""
+    "note": "Alternate notation: 1SS.2"
   },
   {
     "name": "Seiken Douharai",
@@ -63,7 +63,7 @@
     "block": "-9~-8",
     "hit": "+12a",
     "counter": "",
-    "note": "Combo from 1st CH with 2f delay\nMove can be delayed 2f\nCancel to r15 with b\nInterrupt with i8 from 1st block\nAlternate notation: 1SS.2,1"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st CH with 2f delay\nMove can be delayed 2f\nCancel to r15 with b\nInterrupt with i8 from 1st block\nAlternate notation: 1SS.2,1"
   },
   {
     "name": "Mushibami",
@@ -74,7 +74,7 @@
     "block": "-1",
     "hit": "+15g",
     "counter": "",
-    "note": "Combo from 1st hit with 1f delay\nMove can be delayed 1f\nTransition to NSS on hit or block only\nTransition to r25 KIN with 1+2"
+    "note": "\n\nTornado\nCombo from 1st hit with 1f delay\nMove can be delayed 1f\nTransition to NSS on hit or block only\nTransition to r25 KIN with 1+2"
   },
   {
     "name": "PK Combo",
@@ -85,7 +85,7 @@
     "block": "-10~-9",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "Combo from 1st CH with 2f delay\nInput can be delayed 5f"
+    "note": "\n\nBalcony Break\nCombo from 1st CH with 2f delay\nInput can be delayed 5f"
   },
   {
     "name": "PDK Combo",
@@ -96,7 +96,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combo from 1st hit with 2f delay\nMove can be delayed 2f"
+    "note": "\ncs12~\nCombo from 1st hit with 2f delay\nMove can be delayed 2f"
   },
   {
     "name": "",
@@ -118,7 +118,7 @@
     "block": "+7~+9",
     "hit": "+18g~+20g",
     "counter": "",
-    "note": "Combo from 1st hit\n4 chip damage on block\nDoes not transition to DGF during Heat activation and Heat Dash\nPower up in NSS or Heat\nRecovers in 1SS"
+    "note": "\n,js26~\n\nHeat Engager\n\n\nHeat Dash +5g~7g +62a (+42)\n\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\n4 chip damage on block\nDoes not transition to DGF during Heat activation and Heat Dash\nPower up in NSS or Heat\nRecovers in 1SS"
   },
   {
     "name": "",
@@ -129,7 +129,7 @@
     "block": "-12",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "Interrupt with i1 from 1st block"
   },
   {
     "name": "Enma's Cleansing Sword",
@@ -140,7 +140,7 @@
     "block": "-14c~-13c",
     "hit": "+20a (+10)",
     "counter": "",
-    "note": "Combo from 2nd hit\n5 chip damage on block\nPower up in NSS or Heat"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 2nd hit\n5 chip damage on block\nPower up in NSS or Heat"
   },
   {
     "name": "Tobi Ushiwaka",
@@ -151,7 +151,7 @@
     "block": "-6~-5",
     "hit": "+3~+4",
     "counter": "",
-    "note": "Transition to r18 DGF with 1SS.U"
+    "note": "\njs12-37 fs38-40\nTransition to r18 DGF with 1SS.U"
   },
   {
     "name": "Kangaroo Kick",
@@ -162,7 +162,7 @@
     "block": "-13~-12",
     "hit": "+52a (+42)",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~22 fs10~50Tornado"
   },
   {
     "name": "Magic 4",
@@ -184,7 +184,7 @@
     "block": "-4",
     "hit": "-2",
     "counter": "",
-    "note": "Combo from 1st hit with 4f delay\nMove can be delayed 4f"
+    "note": "\nCombo from 1st hit with 4f delay\nMove can be delayed 4f"
   },
   {
     "name": "",
@@ -195,7 +195,7 @@
     "block": "-22~-21",
     "hit": "-12~-11",
     "counter": "",
-    "note": ""
+    "note": "Yoshimitsu recovers sideturned on block"
   },
   {
     "name": "Wheel of Arrows",
@@ -206,7 +206,7 @@
     "block": "-24~-23",
     "hit": "-13~-12",
     "counter": "",
-    "note": "Combo from 3rd hit\nOpponent recovers BT on hit"
+    "note": "\nCombo from 3rd hit\nOpponent recovers BT on hit"
   },
   {
     "name": "Wheel of Arrows > Sword Stab",
@@ -217,7 +217,7 @@
     "block": "",
     "hit": "-18",
     "counter": "",
-    "note": "Alternate notation: 4,4,2,2,1SS.1 or 1SS.4,4,2,2,1"
+    "note": "\n\nWeapon\nAlternate notation: 4,4,2,2,1SS.1 or 1SS.4,4,2,2,1"
   },
   {
     "name": "Wheel of Arrows > Sword Poke Windmill",
@@ -228,7 +228,7 @@
     "block": "",
     "hit": "-58",
     "counter": "",
-    "note": "Cancel early to r26 with B (earliest cancel -12a)\nPossible to double-hit\nAlternate notation: 4,4,2,2,1SS.1~1 or 1SS.4,4,2,2,1~1"
+    "note": "\n\nWeapon\nCancel early to r26 with B (earliest cancel -12a)\nPossible to double-hit\nAlternate notation: 4,4,2,2,1SS.1~1 or 1SS.4,4,2,2,1~1"
   },
   {
     "name": "Triple Roundhouse Combo",
@@ -239,7 +239,7 @@
     "block": "-4~-3",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "Combo from 2nd CH with 4f delay\nMove can be delayed 4f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 4f delay\nMove can be delayed 4f"
   },
   {
     "name": "Flash",
@@ -250,7 +250,7 @@
     "block": "-15~-12",
     "hit": "+14c~+17c",
     "counter": "",
-    "note": "Knockdown against BT opponent, +23a (+14)\nPower up in NSS or Heat\nAlternate input: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\nAlternate notation: 1SS.1+4\nAlternate names: Yoshimitsu Flash, Soul Stealer"
+    "note": "\n\nWeapon\nKnockdown against BT opponent, +23a (+14)\nPower up in NSS or Heat\nAlternate input: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\nAlternate notation: 1SS.1+4\nAlternate names: Yoshimitsu Flash, Soul Stealer"
   },
   {
     "name": "Spirit Shield",
@@ -261,7 +261,7 @@
     "block": "-8~+10g",
     "hit": "+0~+18",
     "counter": "+16~+34",
-    "note": "Alternate notation: 1SS.1+2+3"
+    "note": "\n\nWeapon\nAlternate notation: 1SS.1+2+3"
   },
   {
     "name": "Manji Backfist",
@@ -272,7 +272,7 @@
     "block": "-4~-3",
     "hit": "+14g~+15g",
     "counter": "+39a",
-    "note": ""
+    "note": "Balcony Break"
   },
   {
     "name": "Manji Backfist Shredder",
@@ -283,7 +283,7 @@
     "block": "-12~-11",
     "hit": "+17a (+10)",
     "counter": "",
-    "note": "Combo from 1st CH\nAlternate input: BT.2,1"
+    "note": "\n\nTornado\n\nWeapon\nCombo from 1st CH\nAlternate input: BT.2,1"
   },
   {
     "name": "Manji Backfist > Stone Fist",
@@ -294,7 +294,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "Link to db+2 extensions"
   },
   {
     "name": "Oni Kick",
@@ -305,7 +305,7 @@
     "block": "-9~-8",
     "hit": "+17a (+8)",
     "counter": "",
-    "note": ""
+    "note": "\n\nHoming\n\nBalcony Break"
   },
   {
     "name": "Zig Zag",
@@ -316,7 +316,7 @@
     "block": "-6~-5",
     "hit": "+37a (+23a)",
     "counter": "",
-    "note": "18f delay after 1st attack\nInterrupt with i17 from 1st block"
+    "note": "\n,js12~20 fs21~23\n\nKnee\n18f delay after 1st attack\nInterrupt with i17 from 1st block"
   },
   {
     "name": "Toita Daoshi",
@@ -327,7 +327,7 @@
     "block": "-13",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": "-9 on attack absorbtion\n8 chip damage on attack absorbtion"
+    "note": "\npc7~17\n\nBalcony Break\n-9 on attack absorbtion\n8 chip damage on attack absorbtion"
   },
   {
     "name": "Kuzuryu",
@@ -338,7 +338,7 @@
     "block": "-12",
     "hit": "+8a (-1)",
     "counter": "",
-    "note": "4 chip damage on block\nPower up in NSS or Heat"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +62a (+42)\n\n\nBalcony Break\n\nWeapon\n4 chip damage on block\nPower up in NSS or Heat"
   },
   {
     "name": "Kamikaze",
@@ -349,7 +349,7 @@
     "block": "-13~-9",
     "hit": "-8a (-15)",
     "counter": "",
-    "note": "Floor break 3rd hit\nTransition to FLE on hit only\nAttacks after 1st only come out on hit\nCombo from 1st hit does 2,1,1 damage\nCombo does 2 extra damage from FLE.n\nCancel to r55 BT with b\nAlternate notation: 1SS.f+3+4"
+    "note": "\n\nBalcony Break\n\nHead\nFloor break 3rd hit\nTransition to FLE on hit only\nAttacks after 1st only come out on hit\nCombo from 1st hit does 2,1,1 damage\nCombo does 2 extra damage from FLE.n\nCancel to r55 BT with b\nAlternate notation: 1SS.f+3+4"
   },
   {
     "name": "Tsuka Atemi",
@@ -371,7 +371,7 @@
     "block": "-4~-3",
     "hit": "+14g~+15g",
     "counter": "+39a",
-    "note": "Combo from 1st CH with 2f delay"
+    "note": "\n\nBalcony Break\nCombo from 1st CH with 2f delay"
   },
   {
     "name": "Tsuka Atemi Shredder",
@@ -382,7 +382,7 @@
     "block": "-12~-11",
     "hit": "+17a (+10)",
     "counter": "",
-    "note": "Combo from 2nd CH\nAlternate notation: 1SS.df+1,2,1 or df+1,2,1SS.1"
+    "note": "\n\nTornado\n\nWeapon\nCombo from 2nd CH\nAlternate notation: 1SS.df+1,2,1 or df+1,2,1SS.1"
   },
   {
     "name": "Tsuka Atemi > Slap U Crazy",
@@ -393,7 +393,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "Links to db+2 extensions"
+    "note": "\nLinks to db+2 extensions"
   },
   {
     "name": "Autumn Leaves",
@@ -404,7 +404,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "Jail from 1st attack with 2f delay"
+    "note": "\nJail from 1st attack with 2f delay"
   },
   {
     "name": "Basic Uppercut",
@@ -415,7 +415,7 @@
     "block": "-7~-6",
     "hit": "+34a (+24)",
     "counter": "",
-    "note": "On hit +4s~+5s against crouching opponent\nOn CH launches crouching opponent"
+    "note": "\nOn hit +4s~+5s against crouching opponent\nOn CH launches crouching opponent"
   },
   {
     "name": "",
@@ -437,7 +437,7 @@
     "block": "-9~-8",
     "hit": "+4c~+5c",
     "counter": "+6a",
-    "note": "Combo from 1st hit\n4 chip damage on block\nPower up in NSS or Heat\nInput can be held to transition to d+1*"
+    "note": "\n\nWeapon\nCombo from 1st hit\n4 chip damage on block\nPower up in NSS or Heat\nInput can be held to transition to d+1*"
   },
   {
     "name": "Side Kick",
@@ -459,7 +459,7 @@
     "block": "-17~-16",
     "hit": "+35a (+25)",
     "counter": "",
-    "note": "Can be buffered\nTransition to r37? KIN with 1+2\nCan be performed in FC\nPower up input: f,n,d,df+1\nAlternate notation: 1SS.df+1+4"
+    "note": "\njs20~42 fs43~45\n\nWeapon\nCan be buffered\nTransition to r37? KIN with 1+2\nCan be performed in FC\nPower up input: f,n,d,df+1\nAlternate notation: 1SS.df+1+4"
   },
   {
     "name": "Flashing Steel (Simple Input)",
@@ -470,7 +470,7 @@
     "block": "-13~-12",
     "hit": "+6",
     "counter": "+58a (+38)",
-    "note": "Can be performed in FC\nPower up input: f,n,d,df+2\nAlternate notation: 1SS.df+2+3"
+    "note": "\ncs9~17\n\nBalcony Break\nCan be performed in FC\nPower up input: f,n,d,df+2\nAlternate notation: 1SS.df+2+3"
   },
   {
     "name": "Quick Slash",
@@ -481,7 +481,7 @@
     "block": "-9~-8",
     "hit": "+1c~+2c",
     "counter": "+6a",
-    "note": "4 chip damage on block\nPower up in NSS or Heat "
+    "note": "\n\nSpike\n\nWeapon\n4 chip damage on block\nPower up in NSS or Heat "
   },
   {
     "name": "Death Slash (1)",
@@ -492,7 +492,7 @@
     "block": "",
     "hit": "+4c~+5c",
     "counter": "+6a",
-    "note": "Constantly realigns while charging\nCan be canceled with b*"
+    "note": "\n\nSpike\n\nWeapon\nConstantly realigns while charging\nCan be canceled with b*"
   },
   {
     "name": "Death Slash (2)",
@@ -503,7 +503,7 @@
     "block": "",
     "hit": "+4c~+5c",
     "counter": "+6a",
-    "note": "Constantly realigns while charging\nCan be canceled with b*"
+    "note": "\n\nSpike\n\nWeapon\nConstantly realigns while charging\nCan be canceled with b*"
   },
   {
     "name": "Death Slash (3)",
@@ -514,7 +514,7 @@
     "block": "",
     "hit": "+4c~+5c",
     "counter": "+6a",
-    "note": "Constantly realigns while charging\nCan be canceled with b*"
+    "note": "\n\nSpike\n\nWeapon\nConstantly realigns while charging\nCan be canceled with b*"
   },
   {
     "name": "Death Slash (4)",
@@ -525,7 +525,7 @@
     "block": "",
     "hit": "+16a",
     "counter": "+52a",
-    "note": "Constantly realigns while charging\nCan be canceled with b*"
+    "note": "\n\nSpike\n\nWeapon\nConstantly realigns while charging\nCan be canceled with b*"
   },
   {
     "name": "Death Slash (5)",
@@ -536,7 +536,7 @@
     "block": "",
     "hit": "+16a",
     "counter": "+52a",
-    "note": "Constantly realigns while charging\nCan be canceled with b*"
+    "note": "\n\nSpike\n\nWeapon\nConstantly realigns while charging\nCan be canceled with b*"
   },
   {
     "name": "Death Slash (6)",
@@ -547,7 +547,7 @@
     "block": "",
     "hit": "+16a",
     "counter": "+52a",
-    "note": "Constantly realigns while charging\nCan be canceled with b*"
+    "note": "\n\nSpike\n\nWeapon\nConstantly realigns while charging\nCan be canceled with b*"
   },
   {
     "name": "",
@@ -558,7 +558,7 @@
     "block": "-9~-8",
     "hit": "+0~+1",
     "counter": "",
-    "note": ""
+    "note": "Weapon"
   },
   {
     "name": "Heshikirigari",
@@ -569,7 +569,7 @@
     "block": "-9~-8",
     "hit": "+17a (+8)",
     "counter": "",
-    "note": "Combo from 1st hit with 8f delay\nInput can be delayed 16f\nMove can be delayed 10f\nAlternate notation: 1SS.d+2,1 or d+2,1SS.1"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit with 8f delay\nInput can be delayed 16f\nMove can be delayed 10f\nAlternate notation: 1SS.d+2,1 or d+2,1SS.1"
   },
   {
     "name": "Heshikirimutou",
@@ -580,7 +580,7 @@
     "block": "-12~-11",
     "hit": "+7g~+8g",
     "counter": "+28a (+22)",
-    "note": "Combo from 1st hit with 13f delay\nInput can be delayed 16f\nMove can be delayed 10f\nIn 1SS transition to r31 NSS with B"
+    "note": "\n\nWeapon\nCombo from 1st hit with 13f delay\nInput can be delayed 16f\nMove can be delayed 10f\nIn 1SS transition to r31 NSS with B"
   },
   {
     "name": "Heshikiribarai",
@@ -591,7 +591,7 @@
     "block": "-9~-8",
     "hit": "+8a (-1)",
     "counter": "",
-    "note": "Input can be delayed 10f\nMove can be delayed 9f\nAlternate notation: 1SS.d+2,2,1 or d+2,2,1SS.1"
+    "note": "\n\nBalcony Break\n\nWeapon\nInput can be delayed 10f\nMove can be delayed 9f\nAlternate notation: 1SS.d+2,2,1 or d+2,2,1SS.1"
   },
   {
     "name": "Heshikiriseibatsu",
@@ -602,7 +602,7 @@
     "block": "-13~-11",
     "hit": "+16a (+9)",
     "counter": "",
-    "note": "Input can be delayed 10f\nMove can be delayed 9f"
+    "note": "\n\nTornado\n\nWeapon\nInput can be delayed 10f\nMove can be delayed 9f"
   },
   {
     "name": "Heshikirinagi",
@@ -613,7 +613,7 @@
     "block": "-12~-11",
     "hit": "+2c~+3c",
     "counter": "+42a",
-    "note": "Input can be delayed 10f\nMove can be delayed 9f"
+    "note": "\n\nSpike\n\nWeapon\nInput can be delayed 10f\nMove can be delayed 9f"
   },
   {
     "name": "Low Sweep",
@@ -624,7 +624,7 @@
     "block": "-18~-16",
     "hit": "-4~-2",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~Most commonly impacts on frame 16, except when tracking right"
   },
   {
     "name": "Toe Check",
@@ -635,7 +635,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "\ncs4~"
   },
   {
     "name": "Harakiri",
@@ -646,7 +646,7 @@
     "block": "",
     "hit": "-32a",
     "counter": "",
-    "note": "60 self damage during 1st recovery frame\nCan connect from the front if the opponent attacks into it\nAlternate notation: 1SS.d+1+4"
+    "note": "\n\nWeapon\n60 self damage during 1st recovery frame\nCan connect from the front if the opponent attacks into it\nAlternate notation: 1SS.d+1+4"
   },
   {
     "name": "",
@@ -657,7 +657,7 @@
     "block": "",
     "hit": "-29a",
     "counter": "",
-    "note": "6 self damage"
+    "note": "\n\nWeapon\n6 self damage"
   },
   {
     "name": "",
@@ -668,7 +668,7 @@
     "block": "",
     "hit": "-29a",
     "counter": "",
-    "note": "6 self damage"
+    "note": "\n\nWeapon\n6 self damage"
   },
   {
     "name": "",
@@ -679,7 +679,7 @@
     "block": "",
     "hit": "-29a",
     "counter": "",
-    "note": "10 self damage"
+    "note": "\n\nWeapon\n10 self damage"
   },
   {
     "name": "",
@@ -690,7 +690,7 @@
     "block": "",
     "hit": "-29a",
     "counter": "",
-    "note": "12 self damage"
+    "note": "\n\nWeapon\n12 self damage"
   },
   {
     "name": "Harakiri > Manji Blood Dance",
@@ -701,7 +701,7 @@
     "block": "",
     "hit": "-30a",
     "counter": "",
-    "note": "17 self-damage\nThe entire string deals 111 self damage"
+    "note": "\n\nWeapon\n17 self-damage\nThe entire string deals 111 self damage"
   },
   {
     "name": "",
@@ -712,7 +712,7 @@
     "block": "-11~-9",
     "hit": "+4~+6",
     "counter": "7~+9",
-    "note": ""
+    "note": "\ncs8~Unavailable in NSS"
   },
   {
     "name": "Nebular Burst",
@@ -723,7 +723,7 @@
     "block": "-13~12",
     "hit": "+0~+1",
     "counter": "+6g~+7g",
-    "note": "Balcony break on CH\nCombo from 1st with 1f delay\nCombo from 1st CH with 8f delay\nInput can be delayed 8f"
+    "note": "\nBalcony break on CH\nCombo from 1st with 1f delay\nCombo from 1st CH with 8f delay\nInput can be delayed 8f"
   },
   {
     "name": "",
@@ -745,7 +745,7 @@
     "block": "-9~-5",
     "hit": "+2~+6",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -756,7 +756,7 @@
     "block": "-9~-5",
     "hit": "+2~+6",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -767,7 +767,7 @@
     "block": "-9~-5",
     "hit": "+2~+6",
     "counter": "",
-    "note": ""
+    "note": "Combo from 3rd CH"
   },
   {
     "name": "",
@@ -778,7 +778,7 @@
     "block": "-9~-5",
     "hit": "+2~+6",
     "counter": "",
-    "note": "Combo from 4th hit\nCombo from 3rd CH"
+    "note": "\nCombo from 4th hit\nCombo from 3rd CH"
   },
   {
     "name": "Stone Fists",
@@ -789,7 +789,7 @@
     "block": "-49",
     "hit": "-37",
     "counter": "",
-    "note": ""
+    "note": "Combo from 5th CH"
   },
   {
     "name": "",
@@ -800,7 +800,7 @@
     "block": "-25~-24",
     "hit": "-14~-13",
     "counter": "",
-    "note": ""
+    "note": "\ncs6~"
   },
   {
     "name": "",
@@ -811,7 +811,7 @@
     "block": "-19~-17",
     "hit": "-7~-5",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to r20 IND with d+3+4"
+    "note": "\n,cs1~\nCombo from 1st hit\nTransition to r20 IND with d+3+4"
   },
   {
     "name": "",
@@ -822,7 +822,7 @@
     "block": "-19~-17",
     "hit": "-7~-5",
     "counter": "",
-    "note": "Combo from 2nd CH\nTransition to r20 IND with d+3+4"
+    "note": "\n,cs1~\nCombo from 2nd CH\nTransition to r20 IND with d+3+4"
   },
   {
     "name": "",
@@ -833,7 +833,7 @@
     "block": "-19~-17",
     "hit": "-7~-5",
     "counter": "",
-    "note": "Combo from 3rd CH\nTransition to r20 IND with d+3+4"
+    "note": "\n,cs1~\nCombo from 3rd CH\nTransition to r20 IND with d+3+4"
   },
   {
     "name": "",
@@ -844,7 +844,7 @@
     "block": "-19~-17",
     "hit": "-7~-5",
     "counter": "",
-    "note": "Combo from 4th CH\nTransition to r20 IND with d+3+4"
+    "note": "\n,cs1~\nCombo from 4th CH\nTransition to r20 IND with d+3+4"
   },
   {
     "name": "Manji Spin Low Kicks",
@@ -855,7 +855,7 @@
     "block": "-26~-24",
     "hit": "-15~-13",
     "counter": "",
-    "note": "Combo from 5th CH"
+    "note": "\n,cs1~\nCombo from 5th CH"
   },
   {
     "name": "Manji Spin Low Kicks Front Kick",
@@ -866,7 +866,7 @@
     "block": "-8~-7",
     "hit": "+23a (+13)",
     "counter": "",
-    "note": "Transition to r21 KIN with 1+2 (-6~-5 on block)\nTransition to r24 NSS with B\nSame animation as ws4\nAlternate inputs:\nDB+3,3,4\nDB+3,3,3,4\nDB+3,3,3,3,4\nDB+3,3,3,3,3,4"
+    "note": "\n\nBalcony Break\nTransition to r21 KIN with 1+2 (-6~-5 on block)\nTransition to r24 NSS with B\nSame animation as ws4\nAlternate inputs:\nDB+3,3,4\nDB+3,3,3,4\nDB+3,3,3,3,4\nDB+3,3,3,3,3,4"
   },
   {
     "name": "Nozuchi Fumi",
@@ -888,7 +888,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Continues as long as DB is held\nTransition to r25 releasing db"
+    "note": "\ncs11~\nContinues as long as DB is held\nTransition to r25 releasing db"
   },
   {
     "name": "Poison Breath",
@@ -899,7 +899,7 @@
     "block": "",
     "hit": "+32a",
     "counter": "",
-    "note": ""
+    "note": "Alternate input: BDS.2"
   },
   {
     "name": "Backflip Kick",
@@ -910,7 +910,7 @@
     "block": "-15~-2",
     "hit": "-13~+0",
     "counter": "",
-    "note": ""
+    "note": "\njs14~ fs28~30Alternate input: BDS.4"
   },
   {
     "name": "",
@@ -921,7 +921,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Can transition to Spinning Evade with b+3 or b+4"
   },
   {
     "name": "",
@@ -932,7 +932,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Can transition to Spinning Evade with b+3 or b+4"
   },
   {
     "name": "",
@@ -943,7 +943,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Can transition to Spinning Evade with b+3 or b+4"
   },
   {
     "name": "",
@@ -954,7 +954,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Can transition to Spinning Evade with b+3 or b+4"
   },
   {
     "name": "",
@@ -965,7 +965,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Can transition to Spinning Evade with b+3 or b+4"
   },
   {
     "name": "Slap U Silly",
@@ -998,7 +998,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st CH?\nCan transition to r? KIN with 1+2"
+    "note": "\njs?~ fs?~\n\nWeapon\nCombo from 1st CH?\nCan transition to r? KIN with 1+2"
   },
   {
     "name": "Oma Kugiuchi",
@@ -1009,7 +1009,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nHeat Engager\n\n\nWeapon\nCombo from 1st hit"
   },
   {
     "name": "Oma Kugiuchi > Heat Dash",
@@ -1031,7 +1031,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "5 self-damage with each spin\nAlternate input: b+4,4,4,4,4,4"
+    "note": "\n5 self-damage with each spin\nAlternate input: b+4,4,4,4,4,4"
   },
   {
     "name": "Cleansing Sword Yoshimitsu",
@@ -1042,7 +1042,7 @@
     "block": "",
     "hit": "+27a (+17)",
     "counter": "",
-    "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "note": "\n\nBalcony Break\n\nWeapon\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
     "name": "Sword Stab",
@@ -1053,7 +1053,7 @@
     "block": "",
     "hit": "-24",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Face Splitter",
@@ -1064,7 +1064,7 @@
     "block": "",
     "hit": "+1~+2",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Sword Poke Windmill",
@@ -1075,7 +1075,7 @@
     "block": "",
     "hit": "-57",
     "counter": "",
-    "note": "Cancel to r? with B"
+    "note": "\n\nWeapon\nCancel to r? with B"
   },
   {
     "name": "Guillotine Crow Kick",
@@ -1086,7 +1086,7 @@
     "block": "",
     "hit": "+24a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~\n\nSpike"
   },
   {
     "name": "Helmet Strike",
@@ -1097,7 +1097,7 @@
     "block": "",
     "hit": "+5~+6",
     "counter": "",
-    "note": "Alternate inputs: ub+1 u+1"
+    "note": "\njs?~\n\nSpike\n\nWeapon\nAlternate inputs: ub+1 u+1"
   },
   {
     "name": "Kurama Itto",
@@ -1108,7 +1108,7 @@
     "block": "",
     "hit": "+6~+7",
     "counter": "",
-    "note": "Cancel to r? FC with D"
+    "note": "\njs?~\n\nWeapon\nCancel to r? FC with D"
   },
   {
     "name": "Rising Knee",
@@ -1119,7 +1119,7 @@
     "block": "",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Knee"
   },
   {
     "name": "Avoiding the Puddle",
@@ -1130,7 +1130,7 @@
     "block": "",
     "hit": "+22a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~\n\nHoming\n\nBalcony Break\n\nSpike"
   },
   {
     "name": "Poison Wind",
@@ -1141,7 +1141,7 @@
     "block": "",
     "hit": "-4a",
     "counter": "",
-    "note": "On hit, jumps backward\nIn 1SS can transitions to r? DGF with 1+2\nIn 1SS can transitions to r? FLE with d+1+2\nCan transitions to r? IND with d+3+4"
+    "note": "\njs?~\n\nSpike\nOn hit, jumps backward\nIn 1SS can transitions to r? DGF with 1+2\nIn 1SS can transitions to r? FLE with d+1+2\nCan transitions to r? IND with d+3+4"
   },
   {
     "name": "",
@@ -1163,7 +1163,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n,js?~"
   },
   {
     "name": "Poison Wind Gold Strike",
@@ -1174,7 +1174,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "note": "\n\nWeapon\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
     "name": "Poison Wind Steel Smash",
@@ -1185,7 +1185,7 @@
     "block": "",
     "hit": "-14",
     "counter": "",
-    "note": ""
+    "note": "\n,js?~On hit, jumps backward"
   },
   {
     "name": "Poison Wind Eclipse Kick",
@@ -1196,7 +1196,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n,js?~Spike"
   },
   {
     "name": "Poison Wind > Kangaroo Kick",
@@ -1207,7 +1207,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n,cs?~ fs?~Tornado"
   },
   {
     "name": "Death Copter",
@@ -1218,7 +1218,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Can transition to r? DGF with 1+2"
   },
   {
     "name": "Death Copter Slice",
@@ -1229,7 +1229,7 @@
     "block": "",
     "hit": "+34",
     "counter": "",
-    "note": ""
+    "note": "\n,js?~Deals chip damage on block"
   },
   {
     "name": "Death Copter Trick",
@@ -1240,7 +1240,7 @@
     "block": "",
     "hit": "+25a",
     "counter": "",
-    "note": ""
+    "note": "\n,js?~Can transition to r? DGF with 1+2"
   },
   {
     "name": "Sword Smash",
@@ -1251,7 +1251,7 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "Elbow"
   },
   {
     "name": "Yomi Kakenuke",
@@ -1262,7 +1262,7 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": "Transition to attack throw on standing or airborne front hit only\nCan transition to r? IND with d+3+4"
+    "note": "\nTransition to attack throw on standing or airborne front hit only\nCan transition to r? IND with d+3+4"
   },
   {
     "name": "Iwatsubute",
@@ -1273,7 +1273,7 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "Can transition to r? KIN with 1+2"
+    "note": "\nCan transition to r? KIN with 1+2"
   },
   {
     "name": "Fubuki Knee",
@@ -1284,7 +1284,7 @@
     "block": "",
     "hit": "+37a (+23)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\n\nKnee"
   },
   {
     "name": "Solar Kick",
@@ -1295,7 +1295,7 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Reverse Cartwheel",
@@ -1306,7 +1306,7 @@
     "block": "",
     "hit": "-9",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "",
@@ -1317,7 +1317,7 @@
     "block": "",
     "hit": "-9",
     "counter": "",
-    "note": "Combo from 2nd CH?\nCan transition to r? IND with 3+4 on wall hit"
+    "note": "\n,js?~\n\nBalcony Break\nCombo from 2nd CH?\nCan transition to r? IND with 3+4 on wall hit"
   },
   {
     "name": "Solar Kick Shark Attack",
@@ -1328,7 +1328,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n,cs~? fs?Tornado"
   },
   {
     "name": "Suicide",
@@ -1339,7 +1339,7 @@
     "block": "",
     "hit": "-65",
     "counter": "",
-    "note": "60 self-damage\nNSS.f,F+1+4 will always cancel into Confusion"
+    "note": "\n\nWeapon\n60 self-damage\nNSS.f,F+1+4 will always cancel into Confusion"
   },
   {
     "name": "Confusion",
@@ -1361,7 +1361,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "185? self-damage"
+    "note": "\n\nWeapon\n185? self-damage"
   },
   {
     "name": "Thunder Blade",
@@ -1372,7 +1372,7 @@
     "block": "",
     "hit": "+2a",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Thunder Blade Feint to Soul Stealer",
@@ -1383,7 +1383,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Gehosen",
@@ -1394,7 +1394,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Flashing Steel",
@@ -1405,7 +1405,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Moonsault Slayer",
@@ -1416,7 +1416,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Deals chip damage on block"
+    "note": "\njs?~ fs?~\n\nWeapon\nDeals chip damage on block"
   },
   {
     "name": "Manji Kick",
@@ -1427,7 +1427,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Deals chip damage on block\nIn 1SS can transition to r? DGF with U"
+    "note": "\njs?~ fs?~\n\nBalcony Break\nDeals chip damage on block\nIn 1SS can transition to r? DGF with U"
   },
   {
     "name": "Knee Cap",
@@ -1438,7 +1438,7 @@
     "block": "",
     "hit": "+4c",
     "counter": "",
-    "note": ""
+    "note": "\ncs1~\n\nHoming"
   },
   {
     "name": "Samurai Cutter",
@@ -1449,7 +1449,7 @@
     "block": "",
     "hit": "+70a (+54)",
     "counter": "",
-    "note": "Alternate input: db,b+1"
+    "note": "\ncs1~\nAlternate input: db,b+1"
   },
   {
     "name": "",
@@ -1471,7 +1471,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "",
@@ -1482,7 +1482,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Combo from 2nd CH?"
   },
   {
     "name": "Door Knocker",
@@ -1493,7 +1493,7 @@
     "block": "",
     "hit": "+6c",
     "counter": "",
-    "note": ""
+    "note": "Combo from 3rd CH?"
   },
   {
     "name": "Door Knocker to Back Knuckle",
@@ -1504,7 +1504,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit"
   },
   {
     "name": "Door Knocker Shredder",
@@ -1515,7 +1515,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 2nd CH?"
+    "note": "\n\nTornado\nCombo from 2nd CH?"
   },
   {
     "name": "Door Knocker > Back Knuckle Slap U Crazy",
@@ -1526,7 +1526,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Links to db+2 extensions"
   },
   {
     "name": "Exorcism Fist",
@@ -1548,7 +1548,7 @@
     "block": "",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nWeapon\nCombo from 1st hit"
   },
   {
     "name": "",
@@ -1570,7 +1570,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nWeapon\nCombo from 1st hit"
   },
   {
     "name": "Toe Smash",
@@ -1581,7 +1581,7 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "Can transition to r? KIN with 1+2\nCan transition to r? NSS with B"
+    "note": "\nCan transition to r? KIN with 1+2\nCan transition to r? NSS with B"
   },
   {
     "name": "Kincho",
@@ -1592,7 +1592,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Can recover in r? FC with D\nParries mid or high punches or kicks"
+    "note": "\nps?~?\nCan recover in r? FC with D\nParries mid or high punches or kicks"
   },
   {
     "name": "Guillotine Crow Trap",
@@ -1603,7 +1603,7 @@
     "block": "",
     "hit": "+14a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~ fs?~"
   },
   {
     "name": "Kincho Dash",
@@ -1614,7 +1614,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~"
   },
   {
     "name": "",
@@ -1625,7 +1625,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Weapon"
   },
   {
     "name": "Doushi Kiri",
@@ -1636,7 +1636,7 @@
     "block": "",
     "hit": "+7c",
     "counter": "",
-    "note": "Power up during NSS or Heat (deals chip damage on block, recovers health on hit, consumes Heat)"
+    "note": "\n\nWeapon\nPower up during NSS or Heat (deals chip damage on block, recovers health on hit, consumes Heat)"
   },
   {
     "name": "",
@@ -1647,7 +1647,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Tenshu Kuzushi",
@@ -1658,7 +1658,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "note": "\n\nSpike\n\nWeapon\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
     "name": "Tenshu Kuzushi (Hold)",
@@ -1669,7 +1669,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Shibakari",
@@ -1680,7 +1680,7 @@
     "block": "",
     "hit": "+13a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~ fs?~"
   },
   {
     "name": "Whirlwind",
@@ -1691,7 +1691,7 @@
     "block": "",
     "hit": "+20a (+11)",
     "counter": "",
-    "note": "Can transition to r? KIN with 1+2\nCan transition to r? MED with 3+4\nAlternate input: SS.4"
+    "note": "\n\nHoming\n\nBalcony Break\nCan transition to r? KIN with 1+2\nCan transition to r? MED with 3+4\nAlternate input: SS.4"
   },
   {
     "name": "Ashura Blade",
@@ -1702,7 +1702,7 @@
     "block": "",
     "hit": "+11a",
     "counter": "",
-    "note": "Combos from any hit"
+    "note": "\njs?~ fs?~\n\nWeapon\nCombos from any hit"
   },
   {
     "name": "Soul Stealer",
@@ -1713,7 +1713,7 @@
     "block": "",
     "hit": "+14",
     "counter": "",
-    "note": "Power up during NSS or Heat (deals chip damage on block, recovers health on hit, consumes Heat)"
+    "note": "\n\nWeapon\nPower up during NSS or Heat (deals chip damage on block, recovers health on hit, consumes Heat)"
   },
   {
     "name": "Ishigaki Kuzushi",
@@ -1724,7 +1724,7 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Submission Chakram",
@@ -1735,7 +1735,7 @@
     "block": "",
     "hit": "-2",
     "counter": "",
-    "note": "Input can be held\nDeals chip damage on block\nPowers up during NSS or Heat (recovers health on hit, consumes Heta)"
+    "note": "\n\nWeapon\nInput can be held\nDeals chip damage on block\nPowers up during NSS or Heat (recovers health on hit, consumes Heta)"
   },
   {
     "name": "Ganto",
@@ -1746,7 +1746,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nHeat Engager\n\n\nHoming\n\nBalcony Break"
   },
   {
     "name": "Ganto > Heat Dash",
@@ -1757,7 +1757,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nHoming"
   },
   {
     "name": "Ganto > Heat Dash",
@@ -1768,7 +1768,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nHoming"
   },
   {
     "name": "",
@@ -1779,7 +1779,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Ikaruga",
@@ -1790,7 +1790,7 @@
     "block": "",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\n\nTornado\n\nWeapon\nCombo from 1st hit"
   },
   {
     "name": "Mumyo Juji Ken",
@@ -1801,7 +1801,7 @@
     "block": "",
     "hit": "+6a",
     "counter": "",
-    "note": ""
+    "note": "\n\nWeapon"
   },
   {
     "name": "Kincho Manji Dragonfly",
@@ -1812,7 +1812,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Meditation",
@@ -1823,7 +1823,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Alternate inputs: b+3+4, BT.3+4"
   },
   {
     "name": "Back Handspring",
@@ -1834,7 +1834,7 @@
     "block": "",
     "hit": "+43a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~ fs?~"
   },
   {
     "name": "Meditation Healing",
@@ -1845,7 +1845,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Recovers health"
   },
   {
     "name": "Flea",
@@ -1878,7 +1878,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs? fs?~"
   },
   {
     "name": "Flea Roll",
@@ -1889,7 +1889,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~ fs?~"
   },
   {
     "name": "Flea > Sliding Headbutt",
@@ -1900,7 +1900,7 @@
     "block": "",
     "hit": "+30a",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~"
   },
   {
     "name": "Flea Dance",
@@ -1911,7 +1911,7 @@
     "block": "",
     "hit": "+30a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Alternate input: FLE.4"
   },
   {
     "name": "Skull Splitter",
@@ -1922,7 +1922,7 @@
     "block": "",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": ""
+    "note": "Tornado"
   },
   {
     "name": "Flea > Kangaroo Kick",
@@ -1933,7 +1933,7 @@
     "block": "",
     "hit": "+52a (+42)",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~ fs?~Tornado"
   },
   {
     "name": "Running Flea",
@@ -1944,7 +1944,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Can transition to r? IND with 3+4 on wall hit"
   },
   {
     "name": "Flea Digger",
@@ -1955,7 +1955,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\nfs?~"
   },
   {
     "name": "Flea > Indian Stance",
@@ -1966,7 +1966,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\nfs?~"
   },
   {
     "name": "Flea > Manji Dragonfly",
@@ -1977,7 +1977,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Flea > Dragonfly Feint",
@@ -1988,7 +1988,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Tech roll to r? FC on frames ?-?"
+    "note": "\njs?~\n\nBalcony Break\nTech roll to r? FC on frames ?-?"
   },
   {
     "name": "Jumping Flea",
@@ -1999,7 +1999,7 @@
     "block": "",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Balcony Break"
   },
   {
     "name": "Flea Step (WFL)",
@@ -2010,7 +2010,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Flea Step Backward (WFL)",
@@ -2021,7 +2021,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Sakanobori",
@@ -2032,7 +2032,7 @@
     "block": "",
     "hit": "+15a",
     "counter": "",
-    "note": ""
+    "note": "Transitions to attack throw on front hit only"
   },
   {
     "name": "Tsurubebi",
@@ -2054,7 +2054,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~ fs~"
   },
   {
     "name": "Indian Stance Healing",
@@ -2065,7 +2065,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\nfs~Recovers health with each pulse"
   },
   {
     "name": "Indian Stance Storm",
@@ -2076,7 +2076,7 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Weapon"
   },
   {
     "name": "Indian Stance Stone Fists",
@@ -2087,7 +2087,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Links to db+2 extensions"
   },
   {
     "name": "",
@@ -2098,7 +2098,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Can transition to r? IND on wall hit\n"
+    "note": "\njs?~\nCan transition to r? IND on wall hit\n\nBalcony Break"
   },
   {
     "name": "Indian Stance Cannon",
@@ -2109,7 +2109,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\n,fs?~Tornado"
   },
   {
     "name": "Indian Stance Knee Cap",
@@ -2120,7 +2120,7 @@
     "block": "",
     "hit": "+4c",
     "counter": "",
-    "note": ""
+    "note": "\ncs1~Homing"
   },
   {
     "name": "Indian Stance Flea",
@@ -2131,7 +2131,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Indian Tobi Ushiwaka",
@@ -2142,7 +2142,7 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Can transition to r? DGF with U"
   },
   {
     "name": "Indian Stance Vaccum Dance",
@@ -2175,7 +2175,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Allows 8-way directional movement in IND\nContinues as long as 3+4 is held"
+    "note": "\nAllows 8-way directional movement in IND\nContinues as long as 3+4 is held"
   },
   {
     "name": "Indian Stance Manji Dragonfly",
@@ -2197,7 +2197,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~"
   },
   {
     "name": "Karakuri Uzumaki",
@@ -2208,7 +2208,7 @@
     "block": "",
     "hit": "+19a",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "\ncs?~\n\nBalcony Break\nCombo from 1st hit"
   },
   {
     "name": "Enma's Soul Blade",
@@ -2219,7 +2219,7 @@
     "block": "",
     "hit": "+20a (+10)",
     "counter": "",
-    "note": "Combo from 2nd hit\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit\nAlternate input: H.3,2,1+2"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 2nd hit\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit\nAlternate input: H.3,2,1+2"
   },
   {
     "name": "Soul Stealer",
@@ -2230,7 +2230,7 @@
     "block": "",
     "hit": "+64a",
     "counter": "",
-    "note": "Increased damage on block\nRecovers health on hit"
+    "note": "\n\nWeapon\nIncreased damage on block\nRecovers health on hit"
   },
   {
     "name": "Unfinished Business",
@@ -2252,7 +2252,7 @@
     "block": "",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~"
   },
   {
     "name": "Battou Kakugo",
@@ -2263,7 +2263,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~"
   },
   {
     "name": "Soul Blade Yoshimitsu",
@@ -2274,7 +2274,7 @@
     "block": "",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "Deals chip damage on block\nHas clean hit property\nRecovers health on hit, consumes Heat\nAlternate input: H.ub+1+2)"
+    "note": "\n\nBalcony Break\n\nWeapon\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit, consumes Heat\nAlternate input: H.ub+1+2)"
   },
   {
     "name": "Ishiusu Tsubushi",
@@ -2285,7 +2285,7 @@
     "block": "",
     "hit": "+22c",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~"
   },
   {
     "name": "Safe Heron Jump",
@@ -2296,7 +2296,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "",
@@ -2307,7 +2307,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit"
   },
   {
     "name": "Scowling Aratama",
@@ -2318,7 +2318,7 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "Combo from 2nd CH"
   },
   {
     "name": "Scowling Spirit",
@@ -2329,7 +2329,7 @@
     "block": "",
     "hit": "+27A (+17)",
     "counter": "",
-    "note": "Combo from 2nd CH"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH"
   },
   {
     "name": "",
@@ -2340,7 +2340,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: NSS.db,b+1"
+    "note": "\ncs1~\nAlternate input: NSS.db,b+1"
   },
   {
     "name": "Agonbaku",
@@ -2351,7 +2351,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nAlternate input: NSS.db,b+1,2"
+    "note": "\ncs1~\nCombo from 1st hit\nAlternate input: NSS.db,b+1,2"
   },
   {
     "name": "Spinning Cleave",
@@ -2373,7 +2373,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Dragonfly Blade",
@@ -2384,7 +2384,7 @@
     "block": "",
     "hit": "+10a",
     "counter": "",
-    "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "note": "\njs?~\n\nWeapon\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
     "name": "Dragonfly Fist",
@@ -2395,7 +2395,7 @@
     "block": "",
     "hit": "?a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Ubume",
@@ -2406,7 +2406,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to r? NSS with B"
+    "note": "\njs?~\n\nTornado\n\nWeapon\nCombo from 1st hit\nTransition to r? NSS with B"
   },
   {
     "name": "Dragonfly Sweep",
@@ -2417,7 +2417,7 @@
     "block": "",
     "hit": "+6c",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Dragonfly Twister",
@@ -2428,7 +2428,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~\n\nHeat Engager\n\n\nBalcony Break"
   },
   {
     "name": "Dragonfly Twister > Heat Dash",
@@ -2439,7 +2439,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Manji Dragonfly > Flea",
@@ -2450,7 +2450,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Spirited Away",
@@ -2461,7 +2461,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Transitions to attack throw on front standing or airborne hit only"
+    "note": "\njs?~\n\nSpike\nTransitions to attack throw on front standing or airborne hit only"
   },
   {
     "name": "Dragonfly Slash",
@@ -2472,7 +2472,7 @@
     "block": "",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": ""
+    "note": "\njs?~\n\nHoming\n\nBalcony Break"
   },
   {
     "name": "Red Spider Lily",
@@ -2483,7 +2483,7 @@
     "block": "",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "note": "\njs?~\n\nHoming\n\nBalcony Break\n\nWeapon\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
     "name": "Manji Dragonfly > Indian Stance",
@@ -2494,7 +2494,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "",
@@ -2516,7 +2516,7 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "Combo from 1st CH?"
+    "note": "\nCombo from 1st CH?"
   },
   {
     "name": "Magatama",
@@ -2527,7 +2527,7 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "Combo from 1st CH?"
+    "note": "\n\nBalcony Break\nCombo from 1st CH?"
   },
   {
     "name": "Perilous Spirit",
@@ -2538,7 +2538,7 @@
     "block": "",
     "hit": "+11a",
     "counter": "",
-    "note": ""
+    "note": "\njs?~"
   },
   {
     "name": "Shisetsu Genman",
@@ -2549,7 +2549,7 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~Weapon"
   },
   {
     "name": "Mutou no Kiwami",
@@ -2560,7 +2560,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\ncs?~Transitions to r? NSS"
   },
   {
     "name": "Inner Palm",
@@ -2582,7 +2582,7 @@
     "block": "",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": ""
+    "note": "Tornado"
   },
   {
     "name": "Indian Stance Healing",
@@ -2593,7 +2593,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\nfs?~"
   },
   {
     "name": "Kaishaku",
@@ -2604,7 +2604,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs?~Weapon"
   },
   {
     "name": "Oni Killer",
@@ -2615,7 +2615,7 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1 or 2"
   },
   {
     "name": "Sword Face Smash",
@@ -2626,7 +2626,7 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": "Throw break 1 or 2"
+    "note": "\n\nSpike\nThrow break 1 or 2"
   },
   {
     "name": "Wheels of Hell",
@@ -2637,7 +2637,7 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": ""
+    "note": "Throw break 1"
   },
   {
     "name": "Neck Breaker",
@@ -2648,7 +2648,7 @@
     "block": "",
     "hit": "-3",
     "counter": "",
-    "note": ""
+    "note": "Throw break 2"
   },
   {
     "name": "Tornado Drop",
@@ -2659,7 +2659,7 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": "Unbreakable"
+    "note": "\n\nSpike\nUnbreakable"
   },
   {
     "name": "Rainbow Drop",
@@ -2670,7 +2670,7 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": "Throw break 1+2"
+    "note": "\n\nSpike\nThrow break 1+2"
   },
   {
     "name": "Soul Siphon",
@@ -2681,7 +2681,7 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "Throw break 1+2"
+    "note": "\nThrow break 1+2"
   },
   {
     "name": "Soul Possession",
@@ -2692,6 +2692,6 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "Unbreakable\nSelf-damage"
+    "note": "\nUnbreakable\nSelf-damage"
   }
 ]
