@@ -525,6 +525,7 @@ export class CharacterCodeService {
     rav: 'raven',
     azucena: 'azucena',
     azu: 'azucena',
+    jack: 'jack8',
     'jack 8': 'jack8',
     jack8: 'jack8',
     'jack-8': 'jack8',
