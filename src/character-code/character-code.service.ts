@@ -305,7 +305,7 @@ export class CharacterCodeService {
       ...this.createAliasMap(['raven', 'rav'], this.characterCodes.raven),
       ...this.createAliasMap(['azucena', 'azu'], this.characterCodes.azucena),
       ...this.createAliasMap(
-        ['jack 8', 'jack8', 'jack-8', 'jack_8'],
+        ['jack 8', 'jack8', 'jack-8', 'jack_8', 'jack'],
         this.characterCodes.jack_8,
       ),
       ...this.createAliasMap(['jun'], this.characterCodes.jun),
