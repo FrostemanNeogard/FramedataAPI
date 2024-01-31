@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "12",
@@ -10,6 +11,7 @@
     "note": "Alternate input: R1\nCan be cancelled with input b,b"
   },
   {
+    "name": "Élimination Samouraï",
     "input": "2+3",
     "hit_level": "l",
     "damage": "39",
@@ -20,6 +22,7 @@
     "note": "Alternate input: H.R1"
   },
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -30,9 +33,10 @@
     "note": ""
   },
   {
+    "name": "Double Cabochon Cut (1)",
     "input": "1,1",
-    "hit_level": "h,​h",
-    "damage": "5,​1",
+    "hit_level": "h,h",
+    "damage": "5,1",
     "startup": ",i16",
     "block": "-3",
     "hit": "",
@@ -40,9 +44,10 @@
     "note": ""
   },
   {
+    "name": "Double Cabochon Cut",
     "input": "1,1,2",
-    "hit_level": "h,​h,​hh",
-    "damage": "5,​1,​5,​10",
+    "hit_level": "h,h,hh",
+    "damage": "5,1,5,10",
     "startup": ",i17~18,i9~10",
     "block": "-12",
     "hit": "+3",
@@ -50,9 +55,10 @@
     "note": ""
   },
   {
+    "name": "Basic Etiquette",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​12",
+    "hit_level": "h,h",
+    "damage": "5,12",
     "startup": ",i10",
     "block": "-3",
     "hit": "+8",
@@ -60,9 +66,10 @@
     "note": ""
   },
   {
+    "name": "Briolette Cut",
     "input": "1,2,1",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​12,​20",
+    "hit_level": "h,h,m",
+    "damage": "5,12,20",
     "startup": ",i26~27",
     "block": "-12",
     "hit": "+18 (+1)",
@@ -70,9 +77,10 @@
     "note": ""
   },
   {
+    "name": "Basic Manners",
     "input": "1,4",
-    "hit_level": "h,​l",
-    "damage": "5,​11",
+    "hit_level": "h,l",
+    "damage": "5,11",
     "startup": ",i21~22",
     "block": "-12",
     "hit": "-1",
@@ -80,6 +88,7 @@
     "note": ""
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "10",
@@ -90,9 +99,10 @@
     "note": ""
   },
   {
+    "name": "Cutlery Etiquette",
     "input": "2,1",
-    "hit_level": "h,​h",
-    "damage": "10,​12",
+    "hit_level": "h,h",
+    "damage": "10,12",
     "startup": ",i16",
     "block": "-6",
     "hit": "+5",
@@ -100,9 +110,10 @@
     "note": "Transition to PRF with F"
   },
   {
+    "name": "Crybaby Sophia (1)",
     "input": "2,2",
-    "hit_level": "h,​mm",
-    "damage": "10,​10,​5",
+    "hit_level": "h,mm",
+    "damage": "10,10,5",
     "startup": ",i17~18,i7",
     "block": "-12",
     "hit": "",
@@ -110,9 +121,10 @@
     "note": ""
   },
   {
+    "name": "Crybaby Sophia",
     "input": "2,2,1",
-    "hit_level": "h,​mm,​h",
-    "damage": "10,​10,​5,​12",
+    "hit_level": "h,mm,h",
+    "damage": "10,10,5,12",
     "startup": ",i22",
     "block": "-3",
     "hit": "+4",
@@ -120,6 +132,7 @@
     "note": "Chip damage on block\nTransitions to IAI on hit or block"
   },
   {
+    "name": "Good Communication (1)",
     "input": "3",
     "hit_level": "h",
     "damage": "11",
@@ -130,9 +143,10 @@
     "note": ""
   },
   {
+    "name": "Good Communication",
     "input": "3,1+2",
-    "hit_level": "h,​hh",
-    "damage": "11,​9,​10",
+    "hit_level": "h,hh",
+    "damage": "11,9,10",
     "startup": ",i19~20,i8~9",
     "block": "-9",
     "hit": "+5",
@@ -140,6 +154,7 @@
     "note": "Hit confirmable"
   },
   {
+    "name": "Asterism of Benevolence (1)",
     "input": "4",
     "hit_level": "h",
     "damage": "15",
@@ -150,9 +165,10 @@
     "note": ""
   },
   {
+    "name": "Asterism of Benevolence (2)",
     "input": "4,3",
-    "hit_level": "h,​m",
-    "damage": "15,​17",
+    "hit_level": "h,m",
+    "damage": "15,17",
     "startup": ",i23~24",
     "block": "-10",
     "hit": "",
@@ -160,9 +176,10 @@
     "note": ""
   },
   {
+    "name": "Asterism of Benevolence",
     "input": "4,3,2",
-    "hit_level": "h,​m,​m",
-    "damage": "15,​17,​25",
+    "hit_level": "h,m,m",
+    "damage": "15,17,25",
     "startup": ",i25~26",
     "block": "-13",
     "hit": "+34 (+13)",
@@ -170,6 +187,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Eden",
     "input": "1+2",
     "hit_level": "m",
     "damage": "17",
@@ -180,6 +198,7 @@
     "note": ""
   },
   {
+    "name": "Iai Stance",
     "input": "3+4",
     "hit_level": "sp",
     "damage": "",
@@ -190,6 +209,7 @@
     "note": "Cancel stance with db"
   },
   {
+    "name": "Gorlagon (1)",
     "input": "f+2",
     "hit_level": "h",
     "damage": "10",
@@ -200,9 +220,10 @@
     "note": ""
   },
   {
+    "name": "Gorlagon (2)",
     "input": "f+2,2",
-    "hit_level": "h,​h",
-    "damage": "10,​10",
+    "hit_level": "h,h",
+    "damage": "10,10",
     "startup": ",i11",
     "block": "-15",
     "hit": "",
@@ -210,9 +231,10 @@
     "note": ""
   },
   {
+    "name": "Gorlagon (3)",
     "input": "f+2,2,1",
-    "hit_level": "h,​h,​m",
-    "damage": "10,​10,​12",
+    "hit_level": "h,h,m",
+    "damage": "10,10,12",
     "startup": ",i13~14",
     "block": "-11",
     "hit": "",
@@ -220,9 +242,10 @@
     "note": ""
   },
   {
+    "name": "Gorlagon",
     "input": "f+2,2,1,1",
-    "hit_level": "h,​h,​m,​m",
-    "damage": "10,​10,​12,​25",
+    "hit_level": "h,h,m,m",
+    "damage": "10,10,12,25",
     "startup": ",i20~21",
     "block": "-15",
     "hit": "+20 (+15)",
@@ -230,9 +253,10 @@
     "note": "Hit confirmable if (f22)1 is ch"
   },
   {
+    "name": "Radiant Cut",
     "input": "f+2,2,2",
-    "hit_level": "h,​h,​hmm",
-    "damage": "10,​10,​7,​5,​20",
+    "hit_level": "h,h,hmm",
+    "damage": "10,10,7,5,20",
     "startup": ",i14,i12~13,i7~8",
     "block": "-13",
     "hit": "+20",
@@ -240,6 +264,7 @@
     "note": ""
   },
   {
+    "name": "Perfumer",
     "input": "f+3",
     "hit_level": "sp",
     "damage": "",
@@ -250,6 +275,7 @@
     "note": "Can transition to FC with df"
   },
   {
+    "name": "Carving Cameo (1)",
     "input": "f+4",
     "hit_level": "m",
     "damage": "15",
@@ -260,9 +286,10 @@
     "note": ""
   },
   {
+    "name": "Carving Cameo",
     "input": "f+4,1",
-    "hit_level": "m,​h",
-    "damage": "15,​21",
+    "hit_level": "m,h",
+    "damage": "15,21",
     "startup": ",i23~24",
     "block": "-4",
     "hit": "",
@@ -270,9 +297,10 @@
     "note": "Hit Confirmable"
   },
   {
+    "name": "Carving Intaglio",
     "input": "f+4,2",
-    "hit_level": "m,​m",
-    "damage": "15,​20",
+    "hit_level": "m,m",
+    "damage": "15,20",
     "startup": ",i26~27",
     "block": "-12",
     "hit": "+5c",
@@ -280,6 +308,7 @@
     "note": "Hit Confirmable"
   },
   {
+    "name": "Durandal",
     "input": "f+1+2",
     "hit_level": "m",
     "damage": "35",
@@ -290,6 +319,7 @@
     "note": "Deals chip damage on block\nPartially restores Heat on hit"
   },
   {
+    "name": "Trilliant Cut (1)",
     "input": "df+1",
     "hit_level": "m",
     "damage": "10",
@@ -300,9 +330,10 @@
     "note": ""
   },
   {
+    "name": "Trilliant Cut",
     "input": "df+1,1",
-    "hit_level": "m,​hh",
-    "damage": "10,​7,​7",
+    "hit_level": "m,hh",
+    "damage": "10,7,7",
     "startup": ",i20",
     "block": "-4",
     "hit": "+7",
@@ -310,6 +341,7 @@
     "note": ""
   },
   {
+    "name": "Arcadia",
     "input": "df+2",
     "hit_level": "m",
     "damage": "14",
@@ -320,6 +352,7 @@
     "note": ""
   },
   {
+    "name": "Iridescence of Loyalty (1)",
     "input": "df+3",
     "hit_level": "m",
     "damage": "10",
@@ -330,9 +363,10 @@
     "note": ""
   },
   {
+    "name": "Iridescence of Loyalty (2)",
     "input": "df+3,4",
-    "hit_level": "m,​m",
-    "damage": "10,​14",
+    "hit_level": "m,m",
+    "damage": "10,14",
     "startup": ",i21",
     "block": "-9",
     "hit": "",
@@ -340,9 +374,10 @@
     "note": ""
   },
   {
+    "name": "Iridescence of Loyalty",
     "input": "df+3,4,2",
-    "hit_level": "m,​m,​sm",
-    "damage": "10,​14,​23",
+    "hit_level": "m,m,sm",
+    "damage": "10,14,23",
     "startup": ",i32~34",
     "block": "-9",
     "hit": "+17 (+10)",
@@ -350,6 +385,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Selfish Miranda (1)",
     "input": "df+4",
     "hit_level": "m",
     "damage": "15",
@@ -360,9 +396,10 @@
     "note": ""
   },
   {
+    "name": "Selfish Miranda",
     "input": "df+4,2",
-    "hit_level": "m,​h",
-    "damage": "15,​16",
+    "hit_level": "m,h",
+    "damage": "15,16",
     "startup": ",i22",
     "block": "-3",
     "hit": "+4",
@@ -370,6 +407,7 @@
     "note": "Deals chip damage on block\nTransitions to IAI"
   },
   {
+    "name": "Llamrei",
     "input": "df+3+4",
     "hit_level": "m",
     "damage": "32",
@@ -380,6 +418,7 @@
     "note": ""
   },
   {
+    "name": "Concave Cut (1)",
     "input": "d+1",
     "hit_level": "l",
     "damage": "7",
@@ -390,9 +429,10 @@
     "note": ""
   },
   {
+    "name": "Concave Cut",
     "input": "d+1,1",
-    "hit_level": "l,​h",
-    "damage": "7,​15",
+    "hit_level": "l,h",
+    "damage": "7,15",
     "startup": ",i18",
     "block": "-7",
     "hit": "+6",
@@ -400,6 +440,7 @@
     "note": ""
   },
   {
+    "name": "Llawfrodedd",
     "input": "d+2",
     "hit_level": "m",
     "damage": "21",
@@ -410,6 +451,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Good Manners",
     "input": "d+3",
     "hit_level": "l",
     "damage": "11",
@@ -420,6 +462,7 @@
     "note": ""
   },
   {
+    "name": "Final Salute",
     "input": "d+4",
     "hit_level": "l",
     "damage": "10",
@@ -430,9 +473,10 @@
     "note": ""
   },
   {
+    "name": "Guilty Mariko",
     "input": "Cin heat d+4",
-    "hit_level": "l,​th",
-    "damage": "12,​18",
+    "hit_level": "l,th",
+    "damage": "12,18",
     "startup": "i16",
     "block": "",
     "hit": "-3",
@@ -440,6 +484,7 @@
     "note": ""
   },
   {
+    "name": "Iridescence of Prowess",
     "input": "d+1+2",
     "hit_level": "sm",
     "damage": "21",
@@ -450,6 +495,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Emerald Cut (1)",
     "input": "db+1",
     "hit_level": "m",
     "damage": "9",
@@ -460,9 +506,10 @@
     "note": ""
   },
   {
+    "name": "Emerald Cut",
     "input": "db+1,1",
-    "hit_level": "m,​m",
-    "damage": "9,​9",
+    "hit_level": "m,m",
+    "damage": "9,9",
     "startup": ",i21~22",
     "block": "-7",
     "hit": "+2",
@@ -470,6 +517,7 @@
     "note": "Transition to PRF with F"
   },
   {
+    "name": "Polite Greetings",
     "input": "db+3",
     "hit_level": "h",
     "damage": "20",
@@ -480,6 +528,7 @@
     "note": ""
   },
   {
+    "name": "Welcome Sweep",
     "input": "db+4",
     "hit_level": "l",
     "damage": "17",
@@ -490,9 +539,10 @@
     "note": ""
   },
   {
+    "name": "Musk Scented Natasha",
     "input": "Cin heat db+4",
-    "hit_level": "l,​th",
-    "damage": "20,​4",
+    "hit_level": "l,th",
+    "damage": "20,4",
     "startup": "i20~21",
     "block": "",
     "hit": "+49",
@@ -500,6 +550,7 @@
     "note": ""
   },
   {
+    "name": "Vanity Love (1)",
     "input": "b+1",
     "hit_level": "m",
     "damage": "11",
@@ -510,9 +561,10 @@
     "note": "Transition to PRF with F"
   },
   {
+    "name": "Vanity Love",
     "input": "b+1,2",
-    "hit_level": "m,​h,​th",
-    "damage": "11,​16(15)",
+    "hit_level": "m,h,th",
+    "damage": "11,16(15)",
     "startup": ",i20",
     "block": "-8",
     "hit": "",
@@ -520,6 +572,7 @@
     "note": "Side switch after attack throw connects\nHit Confirmable on counter hit"
   },
   {
+    "name": "Strobing Memories",
     "input": "b+2",
     "hit_level": "h",
     "damage": "0",
@@ -530,6 +583,7 @@
     "note": ""
   },
   {
+    "name": "Caval (1)",
     "input": "b+3",
     "hit_level": "m",
     "damage": "15",
@@ -540,9 +594,10 @@
     "note": ""
   },
   {
+    "name": "Caval",
     "input": "b+3,1",
-    "hit_level": "m,​m",
-    "damage": "15,​25",
+    "hit_level": "m,m",
+    "damage": "15,25",
     "startup": ",i25~26",
     "block": "-13",
     "hit": "+21 (+16)",
@@ -550,6 +605,7 @@
     "note": "Hit Confirmable\n"
   },
   {
+    "name": "Cordial Circuit",
     "input": "b+4",
     "hit_level": "h",
     "damage": "17",
@@ -560,6 +616,7 @@
     "note": ""
   },
   {
+    "name": "Failnaught",
     "input": "b+1+2",
     "hit_level": "h",
     "damage": "25",
@@ -570,6 +627,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Dun Stallion",
     "input": "b+1+4",
     "hit_level": "m",
     "damage": "24",
@@ -580,6 +638,7 @@
     "note": ""
   },
   {
+    "name": "Caliburnus",
     "input": "u+1+2",
     "hit_level": "m",
     "damage": "40",
@@ -590,6 +649,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Excalibur",
     "input": "in heat u+1+2",
     "hit_level": "m",
     "damage": "54",
@@ -600,6 +660,7 @@
     "note": "Alternate input: H.ub+1+2\n"
   },
   {
+    "name": "Gringolet (1)",
     "input": "uf+1",
     "hit_level": "m",
     "damage": "9",
@@ -610,9 +671,10 @@
     "note": "Alternate input: ub+1 or u+1\nHit confirmable"
   },
   {
+    "name": "Gringolet",
     "input": "uf+1,1",
-    "hit_level": "m,​m",
-    "damage": "9,​21",
+    "hit_level": "m,m",
+    "damage": "9,21",
     "startup": ",i25~26",
     "block": "-14",
     "hit": "+15c",
@@ -620,6 +682,7 @@
     "note": "Cancel the second hit with down or 3+4 to go into IAI"
   },
   {
+    "name": "Marquis Cut",
     "input": "uf+2",
     "hit_level": "",
     "damage": "15",
@@ -630,6 +693,7 @@
     "note": ""
   },
   {
+    "name": "Peaceful Shoes",
     "input": "uf+3",
     "hit_level": "m",
     "damage": "17",
@@ -640,9 +704,10 @@
     "note": "Alternate input: ub+3 or u+3"
   },
   {
+    "name": "Chatoyant Courage",
     "input": "uf+4",
-    "hit_level": "m,​sm",
-    "damage": "12,​16",
+    "hit_level": "m,sm",
+    "damage": "12,16",
     "startup": "i15~17",
     "block": "-19",
     "hit": "+73 (+57)",
@@ -650,6 +715,7 @@
     "note": "Alternate input: ub+4 or u+4"
   },
   {
+    "name": "Carnwennan",
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "24",
@@ -660,6 +726,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Asterism of Virtue",
     "input": "f,f,F+2",
     "hit_level": "m",
     "damage": "30",
@@ -670,6 +737,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Amour Shaft",
     "input": "d,df,f+2",
     "hit_level": "h",
     "damage": "16",
@@ -680,6 +748,7 @@
     "note": "Transition to IAI\nDeals chip damage on block"
   },
   {
+    "name": "Montjoie Takemikazuchi",
     "input": "b,B+2+3",
     "hit_level": "ub(m)",
     "damage": "50",
@@ -690,6 +759,7 @@
     "note": ""
   },
   {
+    "name": "Oval Cut",
     "input": "ws1",
     "hit_level": "m",
     "damage": "20",
@@ -700,6 +770,7 @@
     "note": "Launcher"
   },
   {
+    "name": "Baguette Cut",
     "input": "ws2",
     "hit_level": "m",
     "damage": "15",
@@ -710,6 +781,7 @@
     "note": ""
   },
   {
+    "name": "Iridescence of Faith (1)",
     "input": "ws3",
     "hit_level": "h",
     "damage": "16",
@@ -720,9 +792,10 @@
     "note": ""
   },
   {
+    "name": "Iridescence of Faith",
     "input": "ws3,2",
-    "hit_level": "h,​sm",
-    "damage": "16,​23",
+    "hit_level": "h,sm",
+    "damage": "16,23",
     "startup": ",i30~32",
     "block": "-9",
     "hit": "+17 (+10)",
@@ -730,6 +803,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Praise Smash",
     "input": "ws4",
     "hit_level": "m",
     "damage": "16",
@@ -740,9 +814,10 @@
     "note": ""
   },
   {
+    "name": "Pearly Gates",
     "input": "ws1+2",
     "hit_level": "mm",
-    "damage": "10,​17",
+    "damage": "10,17",
     "startup": "i13~14,i9~10",
     "block": "-8",
     "hit": "+8",
@@ -750,6 +825,7 @@
     "note": "Transition to PRF with F"
   },
   {
+    "name": "Iai Stance",
     "input": "3+4",
     "hit_level": "sp",
     "damage": "",
@@ -760,6 +836,7 @@
     "note": "Can cancel into FC with db"
   },
   {
+    "name": "Spumador (1)",
     "input": "IAI 1",
     "hit_level": "m",
     "damage": "9",
@@ -770,9 +847,10 @@
     "note": ""
   },
   {
+    "name": "Spumador",
     "input": "IAI 1,1",
-    "hit_level": "m,​m",
-    "damage": "9,​21",
+    "hit_level": "m,m",
+    "damage": "9,21",
     "startup": ",i25~26",
     "block": "-14",
     "hit": "+15c",
@@ -780,9 +858,10 @@
     "note": "Can cancel the second hit by holding down or pressing 3+4. Will transition to IAI\nHit confirmable"
   },
   {
+    "name": "Clarent (1)",
     "input": "IAI 1,2",
-    "hit_level": "m,​m",
-    "damage": "9,​15",
+    "hit_level": "m,m",
+    "damage": "9,15",
     "startup": ",i22~24",
     "block": "-19",
     "hit": "",
@@ -790,9 +869,10 @@
     "note": "Hit Confirmable"
   },
   {
+    "name": "Clarent",
     "input": "IAI 1,2,2",
-    "hit_level": "m,​m,​m",
-    "damage": "9,​15,​16",
+    "hit_level": "m,m,m",
+    "damage": "9,15,16",
     "startup": ",i23~24",
     "block": "-18",
     "hit": "+8 (-27)",
@@ -800,9 +880,10 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Chastiefol",
     "input": "IAI 1,1+2",
-    "hit_level": "m,​h",
-    "damage": "9,​23",
+    "hit_level": "m,h",
+    "damage": "9,23",
     "startup": ",i20~21",
     "block": "+3",
     "hit": "+20 (-6)",
@@ -810,6 +891,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Almace",
     "input": "IAI 2",
     "hit_level": "m",
     "damage": "23",
@@ -820,8 +902,9 @@
     "note": ""
   },
   {
+    "name": "Sequence",
     "input": "IAI 3",
-    "hit_level": "m,​th(m)",
+    "hit_level": "m,th(m)",
     "damage": "13 (25)",
     "startup": "i17",
     "block": "-14",
@@ -830,6 +913,7 @@
     "note": ""
   },
   {
+    "name": "Murgleys (1)",
     "input": "IAI 4",
     "hit_level": "l",
     "damage": "17",
@@ -840,9 +924,10 @@
     "note": ""
   },
   {
+    "name": "Murgleys",
     "input": "IAI 4,1",
-    "hit_level": "l,​h",
-    "damage": "17,​25",
+    "hit_level": "l,h",
+    "damage": "17,25",
     "startup": ",i26~27",
     "block": "-5",
     "hit": "+26 (+0)",
@@ -850,6 +935,7 @@
     "note": ""
   },
   {
+    "name": "Hauteclaire",
     "input": "IAI 1+2",
     "hit_level": "h",
     "damage": "30",
@@ -860,6 +946,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Rhongomyniad",
     "input": "IAI d+2",
     "hit_level": "m",
     "damage": "31",
@@ -870,6 +957,7 @@
     "note": "Transition to IAI\nDeals chip damage on block"
   },
   {
+    "name": "Longinus",
     "input": "in heat IAI d+2",
     "hit_level": "m",
     "damage": "45",
@@ -880,9 +968,10 @@
     "note": "Transition to IAI on hit"
   },
   {
+    "name": "Espee Aventureuse",
     "input": "IAI d+1+2",
     "hit_level": "ll",
-    "damage": "10,​20",
+    "damage": "10,20",
     "startup": "i20~21,i14~15",
     "block": "-29",
     "hit": "-3",
@@ -890,6 +979,7 @@
     "note": ""
   },
   {
+    "name": "Take a Bow",
     "input": "IAI d",
     "hit_level": "sp",
     "damage": "",
@@ -900,6 +990,7 @@
     "note": ""
   },
   {
+    "name": "Move Forward",
     "input": "IAI f",
     "hit_level": "sp",
     "damage": "",
@@ -910,6 +1001,7 @@
     "note": "Parries low attacks"
   },
   {
+    "name": "Gwen",
     "input": "IAI P f",
     "hit_level": "m",
     "damage": "21",
@@ -920,6 +1012,7 @@
     "note": ""
   },
   {
+    "name": "Move Backward",
     "input": "IAI b",
     "hit_level": "sp",
     "damage": "",
@@ -930,6 +1023,7 @@
     "note": ""
   },
   {
+    "name": "Perfumer",
     "input": "f+3",
     "hit_level": "sp",
     "damage": "",
@@ -940,6 +1034,7 @@
     "note": "Can cancel into FC with df"
   },
   {
+    "name": "Maceration",
     "input": "PRF 1",
     "hit_level": "l",
     "damage": "17",
@@ -950,6 +1045,7 @@
     "note": ""
   },
   {
+    "name": "Top Note (1)",
     "input": "PRF 2",
     "hit_level": "m",
     "damage": "9",
@@ -960,9 +1056,10 @@
     "note": ""
   },
   {
+    "name": "Top Note (2)",
     "input": "PRF 2,2",
-    "hit_level": "m,​m",
-    "damage": "9,​13",
+    "hit_level": "m,m",
+    "damage": "9,13",
     "startup": ",i13~14",
     "block": "-4",
     "hit": "+1",
@@ -970,9 +1067,10 @@
     "note": "Transition to IAI"
   },
   {
+    "name": "Top Note",
     "input": "PRF 2,2,1",
-    "hit_level": "m,​m,​h",
-    "damage": "9,​13,​20",
+    "hit_level": "m,m,h",
+    "damage": "9,13,20",
     "startup": ",i12~13",
     "block": "-1",
     "hit": "+12",
@@ -980,9 +1078,10 @@
     "note": ""
   },
   {
+    "name": "Last Note",
     "input": "PRF 2,2,1+2",
-    "hit_level": "m,​m,​m",
-    "damage": "9,​13,​31",
+    "hit_level": "m,m,m",
+    "damage": "9,13,31",
     "startup": ",i12",
     "block": "-13",
     "hit": "+7",
@@ -990,6 +1089,7 @@
     "note": ""
   },
   {
+    "name": "Flying Gentleman",
     "input": "PRF 3",
     "hit_level": "m",
     "damage": "21",
@@ -1000,6 +1100,7 @@
     "note": ""
   },
   {
+    "name": "Cordial Circuit",
     "input": "PRF 4",
     "hit_level": "h",
     "damage": "17",
@@ -1010,6 +1111,7 @@
     "note": ""
   },
   {
+    "name": "Hengroen",
     "input": "PRF 1+2",
     "hit_level": "m",
     "damage": "25",
@@ -1020,6 +1122,7 @@
     "note": "Deals chip damage on block"
   },
   {
+    "name": "Sillage",
     "input": "PRF df",
     "hit_level": "sp",
     "damage": "",
@@ -1030,6 +1133,7 @@
     "note": ""
   },
   {
+    "name": "Coup de Chevalier",
     "input": "in rage df+1+2",
     "hit_level": "m",
     "damage": "55",
@@ -1040,9 +1144,10 @@
     "note": "Rage Art\nRemoves recoverable health on hit\nAlternate input: R.R2"
   },
   {
+    "name": "Shangri-La",
     "input": "FC 1+2",
     "hit_level": "lh",
-    "damage": "10,​10",
+    "damage": "10,10",
     "startup": "i16,i10~11",
     "block": "-23, -13",
     "hit": "+0",
@@ -1050,6 +1155,7 @@
     "note": ""
   },
   {
+    "name": "Dandy Blow",
     "input": "SS 1+2",
     "hit_level": "m",
     "damage": "25",
@@ -1060,6 +1166,7 @@
     "note": ""
   },
   {
+    "name": "Taunt",
     "input": "2+3+4",
     "hit_level": "sp",
     "damage": "",
@@ -1070,6 +1177,7 @@
     "note": ""
   },
   {
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "sp",
     "damage": "",
@@ -1080,6 +1188,7 @@
     "note": ""
   },
   {
+    "name": "Le Blanc",
     "input": "ub,b",
     "hit_level": "sp",
     "damage": "",
@@ -1090,6 +1199,7 @@
     "note": ""
   },
   {
+    "name": "One Night Miracle",
     "input": "1+3",
     "hit_level": "h",
     "damage": "35",
@@ -1100,6 +1210,7 @@
     "note": "Throw break: 1 or 2\nOpponent recovery on hit: FDFT"
   },
   {
+    "name": "Je Te Veux",
     "input": "2+4",
     "hit_level": "h",
     "damage": "35",
@@ -1110,6 +1221,7 @@
     "note": "Throw break: 1 or 2\nOpponent recovery on hit: opp. side FDFT off-axis to the right"
   },
   {
+    "name": "One Night Miracle",
     "input": "Left throw",
     "hit_level": "h",
     "damage": "40",
@@ -1120,6 +1232,7 @@
     "note": "Throw break: 1\nOpponent recovery on hit: FDFT"
   },
   {
+    "name": "Je Te Veux",
     "input": "Right throw",
     "hit_level": "h",
     "damage": "40",
@@ -1130,6 +1243,7 @@
     "note": "Throw break: 2\nOpponent recovery on hit: opp. side FDFT off-axis to the right"
   },
   {
+    "name": "Farewell in Taj Mahal",
     "input": "Back throw",
     "hit_level": "h",
     "damage": "50",
@@ -1140,6 +1254,7 @@
     "note": "Throw break: none\nOpponent recovery on hit: FUFA"
   },
   {
+    "name": "Romancing Chaser",
     "input": "uf+1+2",
     "hit_level": "h",
     "damage": "40",

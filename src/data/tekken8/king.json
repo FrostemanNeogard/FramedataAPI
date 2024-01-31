@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "12",
@@ -10,16 +11,18 @@
     "note": ""
   },
   {
+    "name": "Elbow Impact",
     "input": "f+2,1",
-    "hit_level": "m,​h",
-    "damage": "12,​25",
+    "hit_level": "m,h",
+    "damage": "12,25",
     "startup": "i15~18",
     "block": "+1",
     "hit": "+2",
     "counter": "",
-    "note": "Heat Engager"
+    "note": ""
   },
   {
+    "name": "Shoulder Tackle",
     "input": "f+2+3",
     "hit_level": "m",
     "damage": "27",
@@ -27,19 +30,21 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "Heat Engager"
+    "note": ""
   },
   {
+    "name": "Muscle Armor > Emerald Elbow",
     "input": "db+1+2,2",
-    "hit_level": "m,​m",
-    "damage": "15,​25",
+    "hit_level": "m,m",
+    "damage": "15,25",
     "startup": "i15",
     "block": "-9",
     "hit": "+35",
     "counter": "",
-    "note": "Heat Engager"
+    "note": ""
   },
   {
+    "name": "",
     "input": "",
     "hit_level": "",
     "damage": "",
@@ -50,6 +55,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "",
     "hit_level": "",
     "damage": "",
@@ -60,6 +66,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "1",
     "hit_level": "h",
     "damage": "5",

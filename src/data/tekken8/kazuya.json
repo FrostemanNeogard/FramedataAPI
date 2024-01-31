@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "15",
@@ -10,9 +11,10 @@
     "note": "Alternate input: R1"
   },
   {
+    "name": "Omega Crash",
     "input": "in heat 2+3",
-    "hit_level": "l,​m,​th",
-    "damage": "12,​20,​34",
+    "hit_level": "l,m,th",
+    "damage": "12,20,34",
     "startup": "i18",
     "block": "",
     "hit": "Th",
@@ -20,6 +22,7 @@
     "note": "Alternate input: R1"
   },
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -30,9 +33,10 @@
     "note": ""
   },
   {
+    "name": "Flash Punch Combo (2)",
     "input": "1,1",
-    "hit_level": "h,​h",
-    "damage": "5,​6",
+    "hit_level": "h,h",
+    "damage": "5,6",
     "startup": "i10",
     "block": "-1",
     "hit": "+8",
@@ -40,9 +44,10 @@
     "note": ""
   },
   {
+    "name": "Flash Punch Combo",
     "input": "1,1,2",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​6,​12",
+    "hit_level": "h,h,m",
+    "damage": "5,6,12",
     "startup": "i10",
     "block": "-17",
     "hit": "KND",
@@ -50,9 +55,10 @@
     "note": "Combo from 1st hit\nCan be delayed 11F"
   },
   {
+    "name": "One Two Punch",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​8",
+    "hit_level": "h,h",
+    "damage": "5,8",
     "startup": "i10",
     "block": "-1",
     "hit": "+7",
@@ -60,9 +66,10 @@
     "note": ""
   },
   {
+    "name": "Back Fist Combo",
     "input": "1,2,2",
-    "hit_level": "h,​h,​h",
-    "damage": "5,​8,​12",
+    "hit_level": "h,h,h",
+    "damage": "5,8,12",
     "startup": "i10",
     "block": "-12",
     "hit": "+4",
@@ -70,9 +77,10 @@
     "note": "Combo from 1st hit\nCombo can be delayed 12F from 1st hit\n"
   },
   {
+    "name": "Twin Fang Shattered Spine",
     "input": "1,2,2~3",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​8,​23",
+    "hit_level": "h,h,m",
+    "damage": "5,8,23",
     "startup": "i10",
     "block": "",
     "hit": "",
@@ -80,9 +88,10 @@
     "note": ""
   },
   {
+    "name": "Twin Fang Stature Smash",
     "input": "1,2,4",
-    "hit_level": "h,​h,​l",
-    "damage": "5,​8,​18",
+    "hit_level": "h,h,l",
+    "damage": "5,8,18",
     "startup": "i10",
     "block": "-14",
     "hit": "-3",
@@ -90,9 +99,10 @@
     "note": "Combo from 2nd CH\nCan be delayed 7F"
   },
   {
+    "name": "Twin Fang Double Kick",
     "input": "1,2,4,3",
-    "hit_level": "h,​h,​l,​m",
-    "damage": "5,​8,​18,​25",
+    "hit_level": "h,h,l,m",
+    "damage": "5,8,18,25",
     "startup": "i10",
     "block": "-2",
     "hit": "KND",
@@ -100,6 +110,7 @@
     "note": "Combo from 3rd CH\nCan be delayed"
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "12",
@@ -110,9 +121,10 @@
     "note": ""
   },
   {
+    "name": "Double Back Fist",
     "input": "2,2",
-    "hit_level": "h,​m",
-    "damage": "12,​24",
+    "hit_level": "h,m",
+    "damage": "12,24",
     "startup": "24-25",
     "block": "-8",
     "hit": "+7",
@@ -120,6 +132,7 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "Face Kick",
     "input": "3",
     "hit_level": "h",
     "damage": "12",
@@ -130,9 +143,10 @@
     "note": ""
   },
   {
+    "name": "Face Kick to Jab",
     "input": "3,1",
-    "hit_level": "h,​h",
-    "damage": "12,​10",
+    "hit_level": "h,h",
+    "damage": "12,10",
     "startup": "i14",
     "block": "-1",
     "hit": "+7",
@@ -140,9 +154,10 @@
     "note": ""
   },
   {
+    "name": "Face Kick to Jab > Wind God Step",
     "input": "3,1,DF",
-    "hit_level": "h,​h,​sp",
-    "damage": "12,​10,​0",
+    "hit_level": "h,h,sp",
+    "damage": "12,10,0",
     "startup": "i14",
     "block": "",
     "hit": "",
@@ -150,9 +165,10 @@
     "note": ""
   },
   {
+    "name": "Agony Spear",
     "input": "3,1,4",
-    "hit_level": "h,​h,​m",
-    "damage": "12,​10,​17",
+    "hit_level": "h,h,m",
+    "damage": "12,10,17",
     "startup": "i14",
     "block": "-6",
     "hit": "+8",
@@ -160,6 +176,7 @@
     "note": "Combo from 2nd CH\nCan be delayed 14F\nCombo can be delayed 6F from CH"
   },
   {
+    "name": "Roundhouse",
     "input": "4",
     "hit_level": "h",
     "damage": "18",
@@ -170,9 +187,10 @@
     "note": ""
   },
   {
+    "name": "Demon Scissors",
     "input": "4~3",
     "hit_level": "mm",
-    "damage": "18,​25",
+    "damage": "18,25",
     "startup": "i31",
     "block": "-10",
     "hit": "KND",
@@ -180,9 +198,10 @@
     "note": ""
   },
   {
+    "name": "Acute Pain",
     "input": "1+2",
     "hit_level": "mm",
-    "damage": "5,​20",
+    "damage": "5,20",
     "startup": "i12",
     "block": "-13",
     "hit": "KND",
@@ -190,6 +209,7 @@
     "note": ""
   },
   {
+    "name": "Soul Thrust",
     "input": "f+2",
     "hit_level": "m",
     "damage": "23",
@@ -200,6 +220,7 @@
     "note": "absorb an attack to power up\n- Add chip damage when guarded\n"
   },
   {
+    "name": "Oni Front Kick",
     "input": "f+3",
     "hit_level": "m",
     "damage": "22",
@@ -210,6 +231,7 @@
     "note": ""
   },
   {
+    "name": "Right Splits Kick",
     "input": "f+4",
     "hit_level": "m",
     "damage": "20",
@@ -220,6 +242,7 @@
     "note": ""
   },
   {
+    "name": "Glorious Demon God Fist",
     "input": "f+1+2",
     "hit_level": "m",
     "damage": "20",
@@ -230,6 +253,7 @@
     "note": "Parries high and mid punches"
   },
   {
+    "name": "Entrails Smash",
     "input": "df+1",
     "hit_level": "m",
     "damage": "11",
@@ -240,9 +264,10 @@
     "note": ""
   },
   {
+    "name": "Slaughter Hook",
     "input": "df+1,2",
-    "hit_level": "m,​h",
-    "damage": "11,​20",
+    "hit_level": "m,h",
+    "damage": "11,20",
     "startup": "i15",
     "block": "",
     "hit": "",
@@ -250,9 +275,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Slaughter Hook > Heat Dash",
     "input": "in heat df+1,2,F",
-    "hit_level": "m,​h",
-    "damage": "11,​20",
+    "hit_level": "m,h",
+    "damage": "11,20",
     "startup": "i15",
     "block": "",
     "hit": "",
@@ -260,9 +286,10 @@
     "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
   },
   {
+    "name": "Slaughter Uppercut",
     "input": "df+1,df+2",
-    "hit_level": "m,​m",
-    "damage": "11,​22",
+    "hit_level": "m,m",
+    "damage": "11,22",
     "startup": "i15",
     "block": "",
     "hit": "+?c",
@@ -270,9 +297,10 @@
     "note": ""
   },
   {
+    "name": "Slaughter High Kick",
     "input": "df+1,4",
-    "hit_level": "m,​h",
-    "damage": "11,​20",
+    "hit_level": "m,h",
+    "damage": "11,20",
     "startup": "i15",
     "block": "-3",
     "hit": "+18Sp",
@@ -280,6 +308,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Abolishing Fist",
     "input": "df+2",
     "hit_level": "m",
     "damage": "22",
@@ -290,6 +319,7 @@
     "note": "Crumple stun +13F after CH"
   },
   {
+    "name": "Impaling Knee",
     "input": "df+3",
     "hit_level": "m",
     "damage": "13",
@@ -300,9 +330,10 @@
     "note": ""
   },
   {
+    "name": "Impaling Knee Twin Thrust (2)",
     "input": "df+3,2",
-    "hit_level": "m,​m",
-    "damage": "13,​15",
+    "hit_level": "m,m",
+    "damage": "13,15",
     "startup": "i18",
     "block": "-11",
     "hit": "+5",
@@ -310,9 +341,10 @@
     "note": "Combo from 1st hit\nCan be delayed 10F\nCombo can be delayed 10F from hit"
   },
   {
+    "name": "Impaling Knee Twin Thrust",
     "input": "df+3,2,1",
-    "hit_level": "m,​m,​m",
-    "damage": "13,​15,​21",
+    "hit_level": "m,m,m",
+    "damage": "13,15,21",
     "startup": "i18",
     "block": "-18",
     "hit": "KND",
@@ -320,9 +352,10 @@
     "note": "Combo from 2nd CH\nCan be delayed 16F"
   },
   {
+    "name": "Impaling Knee Twin Skewer",
     "input": "df+3,2,1*",
-    "hit_level": "m,​m,​m",
-    "damage": "13,​15,​25",
+    "hit_level": "m,m,m",
+    "damage": "13,15,25",
     "startup": "i18",
     "block": "",
     "hit": "",
@@ -330,6 +363,7 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Tsunami Kick (1)",
     "input": "df+4",
     "hit_level": "m",
     "damage": "10",
@@ -340,9 +374,10 @@
     "note": ""
   },
   {
+    "name": "Tsunami Kick",
     "input": "df+4,4",
-    "hit_level": "m,​m",
-    "damage": "10,​16",
+    "hit_level": "m,m",
+    "damage": "10,16",
     "startup": "i13~14",
     "block": "-15",
     "hit": "-4c",
@@ -350,9 +385,10 @@
     "note": "Combo from 1st hit\nCan be delayed 11F\nCombo can be delayed 11F from hit"
   },
   {
+    "name": "Kyogeki Goutsuiken (1)",
     "input": "df+3+4",
     "hit_level": "mh",
-    "damage": "7,​9",
+    "damage": "7,9",
     "startup": "i18",
     "block": "",
     "hit": "",
@@ -360,9 +396,10 @@
     "note": ""
   },
   {
+    "name": "Kyogeki Goutsuiken (3)",
     "input": "df+3+4,1",
-    "hit_level": "mh,​m",
-    "damage": "7,​9,​15",
+    "hit_level": "mh,m",
+    "damage": "7,9,15",
     "startup": "i18",
     "block": "",
     "hit": "",
@@ -370,9 +407,10 @@
     "note": ""
   },
   {
+    "name": "Kyogeki Goutsuiken",
     "input": "df+3+4,1,2",
-    "hit_level": "mh,​m,​sm,​sm",
-    "damage": "7,​9,​15,​14,​25",
+    "hit_level": "mh,m,sm,sm",
+    "damage": "7,9,15,14,25",
     "startup": "i18",
     "block": "",
     "hit": "",
@@ -380,6 +418,7 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Crouch Jab",
     "input": "d+1",
     "hit_level": "sm",
     "damage": "5",
@@ -390,6 +429,7 @@
     "note": "Returns to standing when input F"
   },
   {
+    "name": "Crouch Straight",
     "input": "d+2",
     "hit_level": "sm",
     "damage": "8",
@@ -400,6 +440,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Kick",
     "input": "d+3",
     "hit_level": "l",
     "damage": "12",
@@ -410,6 +451,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Chin Kick",
     "input": "d+4",
     "hit_level": "l",
     "damage": "7",
@@ -420,6 +462,7 @@
     "note": ""
   },
   {
+    "name": "Nejiri Uraken",
     "input": "d+1+2",
     "hit_level": "l",
     "damage": "20",
@@ -430,9 +473,10 @@
     "note": ""
   },
   {
+    "name": "Nejiri Uraken to Cancel",
     "input": "d+1+2,B",
-    "hit_level": "l,​sp",
-    "damage": "20,​0",
+    "hit_level": "l,sp",
+    "damage": "20,0",
     "startup": "i23",
     "block": "",
     "hit": "",
@@ -440,6 +484,7 @@
     "note": ""
   },
   {
+    "name": "Goutsuiken (1)",
     "input": "db+1",
     "hit_level": "m",
     "damage": "7",
@@ -450,9 +495,10 @@
     "note": ""
   },
   {
+    "name": "Goutsuiken",
     "input": "db+1,2",
-    "hit_level": "m,​mm",
-    "damage": "7,​8,​15",
+    "hit_level": "m,mm",
+    "damage": "7,8,15",
     "startup": "i13",
     "block": "",
     "hit": "",
@@ -460,9 +506,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Goutsuiken > Heat Dash",
     "input": "in heat db+1,2,F",
-    "hit_level": "m,​mm",
-    "damage": "7,​8,​15",
+    "hit_level": "m,mm",
+    "damage": "7,8,15",
     "startup": "i13",
     "block": "",
     "hit": "",
@@ -470,6 +517,7 @@
     "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
   },
   {
+    "name": "Lion Slayer",
     "input": "db+2",
     "hit_level": "m",
     "damage": "23",
@@ -480,6 +528,7 @@
     "note": ""
   },
   {
+    "name": "Sliding Low Kick",
     "input": "db+3",
     "hit_level": "l",
     "damage": "14",
@@ -490,6 +539,7 @@
     "note": ""
   },
   {
+    "name": "Stature Smash",
     "input": "db+4",
     "hit_level": "l",
     "damage": "18",
@@ -500,6 +550,7 @@
     "note": ""
   },
   {
+    "name": "Sokushitsu Goda (1)",
     "input": "b+1",
     "hit_level": "h",
     "damage": "10",
@@ -510,9 +561,10 @@
     "note": ""
   },
   {
+    "name": "Sokushitsu Goda",
     "input": "b+1,2",
-    "hit_level": "h,​m",
-    "damage": "10,​20",
+    "hit_level": "h,m",
+    "damage": "10,20",
     "startup": "i11",
     "block": "-14",
     "hit": "KND",
@@ -520,6 +572,7 @@
     "note": "Combo from 1st hit\nCan be delayed 14F\nCombo can be delayed 10F from hit"
   },
   {
+    "name": "Rampaging Demon (1)",
     "input": "b+2",
     "hit_level": "m",
     "damage": "12",
@@ -530,9 +583,10 @@
     "note": ""
   },
   {
+    "name": "Danzui Raizanba (2)",
     "input": "b+2,2",
-    "hit_level": "m,​m",
-    "damage": "12,​14",
+    "hit_level": "m,m",
+    "damage": "12,14",
     "startup": "i14",
     "block": "",
     "hit": "",
@@ -540,9 +594,10 @@
     "note": ""
   },
   {
+    "name": "Danzui Raizanba",
     "input": "b+2,2,1+2",
-    "hit_level": "m,​m,​h",
-    "damage": "12,​14,​20",
+    "hit_level": "m,m,h",
+    "damage": "12,14,20",
     "startup": "i14",
     "block": "",
     "hit": "KND",
@@ -550,9 +605,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Rampaging Demon (2)",
     "input": "b+2,4",
-    "hit_level": "m,​h",
-    "damage": "12,​12",
+    "hit_level": "m,h",
+    "damage": "12,12",
     "startup": "i14",
     "block": "-3",
     "hit": "+8",
@@ -560,9 +616,10 @@
     "note": "Combo from 1st hit\nCan be delayed 10F\nCombo can be delayed 5F from hit"
   },
   {
+    "name": "Rampaging Demon",
     "input": "b+2,4,1",
-    "hit_level": "m,​h,​m",
-    "damage": "12,​12,​22",
+    "hit_level": "m,h,m",
+    "damage": "12,12,22",
     "startup": "i14",
     "block": "-14",
     "hit": "KND",
@@ -570,6 +627,7 @@
     "note": ""
   },
   {
+    "name": "Demon's Wrath (1)",
     "input": "b+3",
     "hit_level": "h",
     "damage": "15",
@@ -580,9 +638,10 @@
     "note": ""
   },
   {
+    "name": "Demon's Wrath (2)",
     "input": "b+3,1",
-    "hit_level": "h,​h",
-    "damage": "15,​10",
+    "hit_level": "h,h",
+    "damage": "15,10",
     "startup": "i18",
     "block": "+0",
     "hit": "+6",
@@ -590,9 +649,10 @@
     "note": ""
   },
   {
+    "name": "Demon's Wrath (3)",
     "input": "b+3,1,4",
-    "hit_level": "h,​h,​l",
-    "damage": "15,​10,​10",
+    "hit_level": "h,h,l",
+    "damage": "15,10,10",
     "startup": "i18",
     "block": "-10",
     "hit": "+7",
@@ -600,9 +660,10 @@
     "note": ""
   },
   {
+    "name": "Demon's Wrath",
     "input": "b+3,1,4,1",
-    "hit_level": "h,​h,​l,​m",
-    "damage": "15,​10,​10,​15",
+    "hit_level": "h,h,l,m",
+    "damage": "15,10,10,15",
     "startup": "i18",
     "block": "-14",
     "hit": "KND",
@@ -610,9 +671,10 @@
     "note": ""
   },
   {
+    "name": "Reign of Terror",
     "input": "b+3,1,4,3",
-    "hit_level": "h,​h,​l,​l",
-    "damage": "15,​10,​10,​12",
+    "hit_level": "h,h,l,l",
+    "damage": "15,10,10,12",
     "startup": "i18",
     "block": "-13",
     "hit": "+1",
@@ -620,6 +682,7 @@
     "note": ""
   },
   {
+    "name": "Flash Tornado",
     "input": "b+4",
     "hit_level": "h",
     "damage": "20",
@@ -630,6 +693,7 @@
     "note": ""
   },
   {
+    "name": "Flash Tornado > Heat Dash",
     "input": "in heat b+4,F",
     "hit_level": "h",
     "damage": "20",
@@ -640,6 +704,7 @@
     "note": "Shift to Devil Form on Heat Activation"
   },
   {
+    "name": "Kumo Kiri",
     "input": "b+1+2",
     "hit_level": "m",
     "damage": "21",
@@ -650,6 +715,7 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Kumo Kiri > Heat Dash",
     "input": "in heat b+1+2,F",
     "hit_level": "m",
     "damage": "21",
@@ -660,6 +726,7 @@
     "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
   },
   {
+    "name": "Lightning Screw Uppercut",
     "input": "b+1+4",
     "hit_level": "ub(m)",
     "damage": "60",
@@ -670,6 +737,7 @@
     "note": ""
   },
   {
+    "name": "Jumping Knuckle",
     "input": "ub+1",
     "hit_level": "m",
     "damage": "12",
@@ -680,6 +748,7 @@
     "note": "Alternate input:\nu+1\nuf+1u+1\nuf+1"
   },
   {
+    "name": "Hook",
     "input": "ub+2",
     "hit_level": "h",
     "damage": "17",
@@ -690,6 +759,7 @@
     "note": "Alternate input:\nu+2\nuf+2u+2\nuf+2"
   },
   {
+    "name": "Jumping Side Kick",
     "input": "ub+3",
     "hit_level": "m",
     "damage": "25",
@@ -700,6 +770,7 @@
     "note": ""
   },
   {
+    "name": "Searing Edge",
     "input": "u+3",
     "hit_level": "m",
     "damage": "25",
@@ -710,6 +781,7 @@
     "note": ""
   },
   {
+    "name": "Rising Toe Kick",
     "input": "ub,4",
     "hit_level": "m",
     "damage": "11",
@@ -720,6 +792,7 @@
     "note": ""
   },
   {
+    "name": "Inferno",
     "input": "ub+1+2",
     "hit_level": "h",
     "damage": "32",
@@ -730,6 +803,7 @@
     "note": "Chip damage when guarded\nJack-8 or Alisa can recovery 20 by input 1+2"
   },
   {
+    "name": "Roundhouse > Triple Spin Kick (1)",
     "input": "uf+4",
     "hit_level": "m",
     "damage": "16",
@@ -740,9 +814,10 @@
     "note": ""
   },
   {
+    "name": "Roundhouse > Triple Spin Kick (2)",
     "input": "uf+4,4",
-    "hit_level": "m,​l",
-    "damage": "16,​12",
+    "hit_level": "m,l",
+    "damage": "16,12",
     "startup": "i25",
     "block": "-23",
     "hit": "KND",
@@ -750,9 +825,10 @@
     "note": ""
   },
   {
+    "name": "Roundhouse > Triple Spin Kick (3)",
     "input": "uf+4,4,4",
-    "hit_level": "m,​l,​l",
-    "damage": "16,​12,​10",
+    "hit_level": "m,l,l",
+    "damage": "16,12,10",
     "startup": "i25",
     "block": "-23",
     "hit": "KND",
@@ -760,9 +836,10 @@
     "note": ""
   },
   {
+    "name": "Roundhouse > Triple Spin Kick",
     "input": "uf+4,4,4,4",
-    "hit_level": "m,​l,​l,​m",
-    "damage": "16,​12,​10,​20",
+    "hit_level": "m,l,l,m",
+    "damage": "16,12,10,20",
     "startup": "i25",
     "block": "-17",
     "hit": "KND",
@@ -770,6 +847,7 @@
     "note": ""
   },
   {
+    "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
     "hit_level": "m",
     "damage": "20",
@@ -780,9 +858,10 @@
     "note": ""
   },
   {
+    "name": "Devil Fist",
     "input": "f,F+2",
     "hit_level": "m",
-    "damage": "20(,​15)",
+    "damage": "20(,15)",
     "startup": "i16",
     "block": "-12",
     "hit": "Th",
@@ -790,6 +869,7 @@
     "note": "Damage () is damage bonus when throw"
   },
   {
+    "name": "Devil Fist > Heat Dash",
     "input": "in heat f,F+2,F",
     "hit_level": "m",
     "damage": "20",
@@ -800,6 +880,7 @@
     "note": "Chip damage when guarded\nShift to Devil Form on Heat Activation"
   },
   {
+    "name": "Left Splits Kick",
     "input": "f,F+3",
     "hit_level": "m",
     "damage": "25",
@@ -810,6 +891,7 @@
     "note": ""
   },
   {
+    "name": "Devil's Steel Petal",
     "input": "f,F+4",
     "hit_level": "m",
     "damage": "22",
@@ -820,6 +902,7 @@
     "note": ""
   },
   {
+    "name": "Leaping Side kick",
     "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "30",
@@ -830,6 +913,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Jab",
     "input": "FC 1",
     "hit_level": "sm",
     "damage": "5",
@@ -840,6 +924,7 @@
     "note": "Returns to standing when input F"
   },
   {
+    "name": "Crouch Straight",
     "input": "FC 2",
     "hit_level": "sm",
     "damage": "8",
@@ -850,6 +935,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Kick",
     "input": "FC 3",
     "hit_level": "l",
     "damage": "12",
@@ -860,6 +946,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Chin Kick",
     "input": "FC 4",
     "hit_level": "l",
     "damage": "10",
@@ -870,6 +957,7 @@
     "note": ""
   },
   {
+    "name": "Tombstone Crusher",
     "input": "FC df+3+4",
     "hit_level": "m",
     "damage": "24",
@@ -880,6 +968,7 @@
     "note": ""
   },
   {
+    "name": "Uppercut",
     "input": "ws1",
     "hit_level": "m",
     "damage": "10",
@@ -890,9 +979,10 @@
     "note": ""
   },
   {
+    "name": "Twin Pistons",
     "input": "ws1,2",
-    "hit_level": "m,​m",
-    "damage": "10,​12",
+    "hit_level": "m,m",
+    "damage": "10,12",
     "startup": "i13",
     "block": "-12",
     "hit": "LNC",
@@ -900,6 +990,7 @@
     "note": "Combo from 1st hit\n"
   },
   {
+    "name": "Demon God Fist",
     "input": "ws2",
     "hit_level": "m",
     "damage": "25",
@@ -910,6 +1001,7 @@
     "note": ""
   },
   {
+    "name": "Engetsusen",
     "input": "ws3",
     "hit_level": "m",
     "damage": "24",
@@ -920,6 +1012,7 @@
     "note": "Meaty 1F in actuality"
   },
   {
+    "name": "Toe Smash",
     "input": "ws4",
     "hit_level": "m",
     "damage": "13",
@@ -930,9 +1023,10 @@
     "note": ""
   },
   {
+    "name": "Tsunami Kick",
     "input": "ws4,4",
-    "hit_level": "m,​m",
-    "damage": "13,​16",
+    "hit_level": "m,m",
+    "damage": "13,16",
     "startup": "i11~12",
     "block": "-15",
     "hit": "-4c",
@@ -940,6 +1034,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Fujin Uraken",
     "input": "ws1+2",
     "hit_level": "m",
     "damage": "25",
@@ -950,6 +1045,7 @@
     "note": ""
   },
   {
+    "name": "Shattered Spine",
     "input": "SS 3",
     "hit_level": "m",
     "damage": "23",
@@ -960,6 +1056,7 @@
     "note": ""
   },
   {
+    "name": "Elkeid",
     "input": "SS 1+2",
     "hit_level": "h",
     "damage": "25",
@@ -970,6 +1067,7 @@
     "note": ""
   },
   {
+    "name": "Spin Knuckle Jab",
     "input": "BT 1_2",
     "hit_level": "h",
     "damage": "15",
@@ -980,6 +1078,7 @@
     "note": ""
   },
   {
+    "name": "Spin Kick",
     "input": "BT 3_4",
     "hit_level": "h",
     "damage": "18",
@@ -990,6 +1089,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Knuckle",
     "input": "BT d+1_d+2",
     "hit_level": "sm",
     "damage": "10",
@@ -1000,6 +1100,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Kick",
     "input": "BT d+3_d+4",
     "hit_level": "l",
     "damage": "12",
@@ -1010,6 +1111,7 @@
     "note": ""
   },
   {
+    "name": "Reverse Jump Kick",
     "input": "BT uf+3_uf+4",
     "hit_level": "m",
     "damage": "-",
@@ -1020,6 +1122,7 @@
     "note": ""
   },
   {
+    "name": "Mist Step (Left Side)",
     "input": "f,(odd numbers frames) n",
     "hit_level": "sp",
     "damage": "",
@@ -1030,6 +1133,7 @@
     "note": ""
   },
   {
+    "name": "Mist Step (Left Side)",
     "input": "f,(even numbers frames) n",
     "hit_level": "sp",
     "damage": "",
@@ -1040,6 +1144,7 @@
     "note": ""
   },
   {
+    "name": "Mist Step to Wind God Step",
     "input": "f,n,DF",
     "hit_level": "sp",
     "damage": "",
@@ -1050,6 +1155,7 @@
     "note": "Cannot be buffered\nConnect to Wind God Step\nCost: 2F"
   },
   {
+    "name": "Wind God Step",
     "input": "f,n,d,DF",
     "hit_level": "sp",
     "damage": "",
@@ -1060,6 +1166,7 @@
     "note": "Cannot be buffered\nCost 3F"
   },
   {
+    "name": "Thunder God Fist",
     "input": "f,n,d,df+1",
     "hit_level": "m",
     "damage": "23",
@@ -1070,6 +1177,7 @@
     "note": "Meaty 1F in actuality"
   },
   {
+    "name": "Wind God Fist",
     "input": "f,n,d,df+2",
     "hit_level": "h",
     "damage": "20",
@@ -1080,6 +1188,7 @@
     "note": ""
   },
   {
+    "name": "Electric Wind God Fist",
     "input": "f,n,d,df:2",
     "hit_level": "h",
     "damage": "23",
@@ -1090,6 +1199,7 @@
     "note": "Chip damage when guarded\nTotal 36F on block or hit"
   },
   {
+    "name": "Hell Lancer",
     "input": "f,n,d,df+3",
     "hit_level": "h",
     "damage": "30",
@@ -1100,6 +1210,7 @@
     "note": ""
   },
   {
+    "name": "Spinning Demon (1)",
     "input": "f,n,d,df+4",
     "hit_level": "l",
     "damage": "15",
@@ -1110,9 +1221,10 @@
     "note": "Disable 2nd from 1st block\n2nd input force to down"
   },
   {
+    "name": "Spinning Demon > Left Hook",
     "input": "f,n,d,df+4,1",
-    "hit_level": "l,​m",
-    "damage": "15,​23",
+    "hit_level": "l,m",
+    "damage": "15,23",
     "startup": "i16",
     "block": "-16",
     "hit": "KND",
@@ -1120,9 +1232,10 @@
     "note": ""
   },
   {
+    "name": "Illusive Demon",
     "input": "f,n,d,df+4,4",
-    "hit_level": "l,​h",
-    "damage": "15,​25",
+    "hit_level": "l,h",
+    "damage": "15,25",
     "startup": "i16",
     "block": "",
     "hit": "",
@@ -1130,6 +1243,7 @@
     "note": ""
   },
   {
+    "name": "Patricide Fist",
     "input": "f,n,d,df+1+2",
     "hit_level": "m",
     "damage": "25",
@@ -1140,9 +1254,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Devil Break",
     "input": "DVK 1,1,2,F",
-    "hit_level": "h,​h,​m,​th",
-    "damage": "5,​6,​12,​8",
+    "hit_level": "h,h,m,th",
+    "damage": "5,6,12,8",
     "startup": "i10",
     "block": "",
     "hit": "Th",
@@ -1150,6 +1265,7 @@
     "note": "Partially uses remaining Heat time"
   },
   {
+    "name": "Devil Blaster",
     "input": "DVK 3+4",
     "hit_level": "ub(m)",
     "damage": "30",
@@ -1160,6 +1276,7 @@
     "note": "Partially uses remaining Heat time"
   },
   {
+    "name": "Roar of the Devil",
     "input": "DVK 1+4",
     "hit_level": "m",
     "damage": "27",
@@ -1170,6 +1287,7 @@
     "note": "Partially uses remaining Heat time\nabsorb an attack to power up"
   },
   {
+    "name": "Devil Impact",
     "input": "DVK db+3+4",
     "hit_level": "l",
     "damage": "0",
@@ -1180,9 +1298,10 @@
     "note": "Partially uses remaining Heat time"
   },
   {
+    "name": "Devil Impact to Wind God Step",
     "input": "DVK db+3+4,DF",
-    "hit_level": "l,​sp",
-    "damage": "0,​0",
+    "hit_level": "l,sp",
+    "damage": "0,0",
     "startup": "i24",
     "block": "",
     "hit": "",
@@ -1190,6 +1309,7 @@
     "note": "Partially uses remaining Heat time"
   },
   {
+    "name": "Inferno",
     "input": "DVK ub+1+2",
     "hit_level": "ub(h)",
     "damage": "40",
@@ -1200,6 +1320,7 @@
     "note": "Partially uses remaining Heat time\nJack-8 or Alisa can recovery 20 by input 1+2"
   },
   {
+    "name": "Air Inferno",
     "input": "DVK uf+1+2",
     "hit_level": "ub(h)",
     "damage": "26",
@@ -1210,9 +1331,10 @@
     "note": ""
   },
   {
+    "name": "Chaos Inferno",
     "input": "DVK f,F+2",
-    "hit_level": "m,​th",
-    "damage": "20,​20",
+    "hit_level": "m,th",
+    "damage": "20,20",
     "startup": "i16",
     "block": "",
     "hit": "Th",
@@ -1220,9 +1342,10 @@
     "note": "Partially uses remaining Heat time"
   },
   {
+    "name": "Damnation",
     "input": "DVK f,n,d,df+1",
-    "hit_level": "m,​th",
-    "damage": "23,​15",
+    "hit_level": "m,th",
+    "damage": "23,15",
     "startup": "i20",
     "block": "",
     "hit": "Th",
@@ -1230,9 +1353,10 @@
     "note": "Partially uses remaining Heat time\nOn hit, does not shift to throw with n"
   },
   {
+    "name": "Tempest Blaster",
     "input": "DVK f,n,d,df+3",
-    "hit_level": "h,​th",
-    "damage": "30,​15",
+    "hit_level": "h,th",
+    "damage": "30,15",
     "startup": "i20",
     "block": "",
     "hit": "Th",
@@ -1240,9 +1364,10 @@
     "note": ""
   },
   {
+    "name": "Abyss Damnation",
     "input": "DVK f,n,d,df+4,1,1",
-    "hit_level": "l,​m,​m,​th",
-    "damage": "15,​23,​16,​15",
+    "hit_level": "l,m,m,th",
+    "damage": "15,23,16,15",
     "startup": "i16",
     "block": "",
     "hit": "Th",
@@ -1250,9 +1375,10 @@
     "note": "Partially uses remaining Heat time"
   },
   {
+    "name": "Spinning Demon to Left Hook > Thunder God Fist",
     "input": "DVK f,n,d,df+4,1,1,B",
-    "hit_level": "l,​m,​m,​th,​sp",
-    "damage": "15,​23,​16,​15,​0",
+    "hit_level": "l,m,m,th,sp",
+    "damage": "15,23,16,15,0",
     "startup": "i16",
     "block": "-17",
     "hit": "LNC",
@@ -1260,6 +1386,7 @@
     "note": ""
   },
   {
+    "name": "Devil Twister",
     "input": "DVK SS 2",
     "hit_level": "m",
     "damage": "25",
@@ -1270,6 +1397,7 @@
     "note": "Partially uses remaining Heat time\n"
   },
   {
+    "name": "Grand Inferno",
     "input": "DVK OTG db+1+2",
     "hit_level": "l",
     "damage": "20",
@@ -1280,9 +1408,10 @@
     "note": "Partially uses remaining Heat time"
   },
   {
+    "name": "Demonic Catastrophe",
     "input": "in rage df+1+2",
-    "hit_level": "m,​th",
-    "damage": "10,​45",
+    "hit_level": "m,th",
+    "damage": "10,45",
     "startup": "Startup",
     "block": "",
     "hit": "",
@@ -1290,6 +1419,7 @@
     "note": "Erases opponent's recoverable health on hit\nAlternate input: R2"
   },
   {
+    "name": "Oni Stomp",
     "input": "OTG d+3+4",
     "hit_level": "l",
     "damage": "25",
@@ -1300,6 +1430,7 @@
     "note": ""
   },
   {
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "sp",
     "damage": "-",
@@ -1310,6 +1441,7 @@
     "note": "Shift to charging"
   },
   {
+    "name": "Wall Jumping Attack",
     "input": "(back to wall) b,b,ub",
     "hit_level": "m",
     "damage": "25",
@@ -1320,6 +1452,7 @@
     "note": "Air Status 5F"
   },
   {
+    "name": "Double High Sweep",
     "input": "1+3",
     "hit_level": "th(h)",
     "damage": "35",
@@ -1330,6 +1463,7 @@
     "note": "Throw break 1 or 2\nRecovers BT on break"
   },
   {
+    "name": "Lightning Crash",
     "input": "2+4",
     "hit_level": "th(h)",
     "damage": "35",
@@ -1340,6 +1474,7 @@
     "note": ""
   },
   {
+    "name": "Steel Pedal Drop",
     "input": "Left throw",
     "hit_level": "th(h)",
     "damage": "40",
@@ -1350,6 +1485,7 @@
     "note": "Throw break 1"
   },
   {
+    "name": "Skull Smash",
     "input": "Right throw",
     "hit_level": "th(h)",
     "damage": "40",
@@ -1360,6 +1496,7 @@
     "note": ""
   },
   {
+    "name": "Reverse Neck Throw",
     "input": "Back throw",
     "hit_level": "th(h)",
     "damage": "50",
@@ -1370,6 +1507,7 @@
     "note": "Break: none"
   },
   {
+    "name": "Stonehead",
     "input": "uf+1+2",
     "hit_level": "t",
     "damage": "35",
@@ -1380,6 +1518,7 @@
     "note": "Alternate input f,F+1+2\nThrow break 1+2\nSide switch on break\n15 additional damage on wall hit"
   },
   {
+    "name": "Gates of Hell",
     "input": "FC db+1+2",
     "hit_level": "t",
     "damage": "40",

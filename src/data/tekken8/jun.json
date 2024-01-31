@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "12 (12)",
@@ -10,9 +11,10 @@
     "note": "Cancel to r45 with b,b"
   },
   {
+    "name": "Yomotsu Ooyumi",
     "input": "in heat 2+3",
-    "hit_level": "m,​m",
-    "damage": "20,​30",
+    "hit_level": "m,m",
+    "damage": "20,30",
     "startup": "i13 i32~75",
     "block": "-6~+37g",
     "hit": "+21a~+64a (-5~+38)",
@@ -20,6 +22,7 @@
     "note": "Restores recoverable health\nChip damage on block"
   },
   {
+    "name": "Amatsu Izanami",
     "input": "df+1+2",
     "hit_level": "m",
     "damage": "55+",
@@ -30,6 +33,7 @@
     "note": "Rage Art\nRemoves opponent recoverable health on hit"
   },
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -40,9 +44,10 @@
     "note": ""
   },
   {
+    "name": "Suikei > Izumo Smash",
     "input": "1,1",
-    "hit_level": "h,​m",
-    "damage": "5,​15",
+    "hit_level": "h,m",
+    "damage": "5,15",
     "startup": ",i25",
     "block": "-9",
     "hit": "+0",
@@ -50,9 +55,10 @@
     "note": ""
   },
   {
+    "name": "Spear Step",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​8",
+    "hit_level": "h,h",
+    "damage": "5,8",
     "startup": ",i16",
     "block": "-3",
     "hit": "+6",
@@ -60,9 +66,10 @@
     "note": "Jail from 1st attack"
   },
   {
+    "name": "",
     "input": "1,2,u_d",
-    "hit_level": "h,​h",
-    "damage": "5,​8",
+    "hit_level": "h,h",
+    "damage": "5,8",
     "startup": ",i16",
     "block": "+1",
     "hit": "+10g",
@@ -70,9 +77,10 @@
     "note": ""
   },
   {
+    "name": "Spear Step > Izumo Strike",
     "input": "1,2,2",
-    "hit_level": "h,​h,​h",
-    "damage": "5,​8,​17",
+    "hit_level": "h,h,h",
+    "damage": "5,8,17",
     "startup": ",i16~17",
     "block": "+6~+7",
     "hit": "+11~+12",
@@ -80,9 +88,10 @@
     "note": "Combo from 2nd CH with 5f delay\nJail from 2nd block with 1f delay"
   },
   {
+    "name": "Spear Step > Spin Kick",
     "input": "1,2,4",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​8,​16",
+    "hit_level": "h,h,m",
+    "damage": "5,8,16",
     "startup": ",i27~28",
     "block": "-12~-11",
     "hit": "+5~+6",
@@ -90,9 +99,10 @@
     "note": "Combo from 2nd CH with 3f delay\nInput can be delayed 9f"
   },
   {
+    "name": "Suiren Leg Scythe",
     "input": "1,3",
-    "hit_level": "h,​L",
-    "damage": "5,​12",
+    "hit_level": "h,L",
+    "damage": "5,12",
     "startup": ",i23",
     "block": "-12",
     "hit": "+2",
@@ -100,6 +110,7 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "7",
@@ -110,9 +121,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "2,1",
-    "hit_level": "h,​m",
-    "damage": "7,​9",
+    "hit_level": "h,m",
+    "damage": "7,9",
     "startup": ",i21",
     "block": "-6",
     "hit": "+7",
@@ -120,9 +132,10 @@
     "note": "Combo from 1st hit with 9f delay\nInput can be delayed 10f"
   },
   {
+    "name": "",
     "input": "2,1,4",
-    "hit_level": "h,​m,​m",
-    "damage": "7,​9,​12",
+    "hit_level": "h,m,m",
+    "damage": "7,9,12",
     "startup": ",i10",
     "block": "-12",
     "hit": "-1",
@@ -130,9 +143,10 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Byakuren Tsukinuki",
     "input": "2,1,4,1",
-    "hit_level": "h,​m,​m,​m",
-    "damage": "7,​9,​12,​30",
+    "hit_level": "h,m,m,m",
+    "damage": "7,9,12,30",
     "startup": ",i30",
     "block": "-9",
     "hit": "+10a (+1)",
@@ -140,9 +154,10 @@
     "note": "Combo from 3rd CH\nInput can be delayed 10f\nChip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
+    "name": "Byakuren Tamasudare",
     "input": "2,1,4,3",
-    "hit_level": "h,​m,​m,​m",
-    "damage": "7,​9,​12,​21",
+    "hit_level": "h,m,m,m",
+    "damage": "7,9,12,21",
     "startup": ",i25",
     "block": "-9",
     "hit": "+13a (+4)",
@@ -150,9 +165,10 @@
     "note": "Combo from 3rd CH with 5f delay\nInput can be delayed 10f"
   },
   {
+    "name": "Byakuren Misogi",
     "input": "2,1,1+2",
-    "hit_level": "h,​m,​h",
-    "damage": "7,​9,​21",
+    "hit_level": "h,m,h",
+    "damage": "7,9,21",
     "startup": ",i22",
     "block": "+2",
     "hit": "+48a (+10)",
@@ -160,6 +176,7 @@
     "note": "Combo from 2nd CH with 9f delay"
   },
   {
+    "name": "Shion",
     "input": "3",
     "hit_level": "m",
     "damage": "20",
@@ -170,6 +187,7 @@
     "note": ""
   },
   {
+    "name": "Magic Four",
     "input": "4",
     "hit_level": "h",
     "damage": "17",
@@ -180,6 +198,7 @@
     "note": ""
   },
   {
+    "name": "Shunkei",
     "input": "1+2",
     "hit_level": "m",
     "damage": "26",
@@ -190,6 +209,7 @@
     "note": ""
   },
   {
+    "name": "Shunkei > Heat Dash",
     "input": "in heat 1+2,F",
     "hit_level": "m",
     "damage": "26",
@@ -200,9 +220,10 @@
     "note": ""
   },
   {
+    "name": "Ryuuntsui - Misogi",
     "input": "3+4",
-    "hit_level": "m,​M,​M",
-    "damage": "6,​18,​20",
+    "hit_level": "m,M,M",
+    "damage": "6,18,20",
     "startup": "i23~24 i30~31 i16",
     "block": "-6~-5",
     "hit": "+26a (+8)",
@@ -210,9 +231,10 @@
     "note": "3rd hit available only as combo from 2nd hit\nCan recover in r22 FC with D on whiff\nDeals recoverable self-damage when not in Heat"
   },
   {
+    "name": "",
     "input": "1+4",
-    "hit_level": "SL,​h",
-    "damage": "5,​8",
+    "hit_level": "SL,h",
+    "damage": "5,8",
     "startup": "i14 i17",
     "block": "-3",
     "hit": "-3",
@@ -220,9 +242,10 @@
     "note": "Jail from 1st attack\nCH advantage listed is for the 2nd hit"
   },
   {
+    "name": "",
     "input": "1+4,2",
-    "hit_level": "sl,​h,​h",
-    "damage": "-,​10",
+    "hit_level": "sl,h,h",
+    "damage": "-,10",
     "startup": ",i19",
     "block": "-2",
     "hit": "+9",
@@ -230,9 +253,10 @@
     "note": ""
   },
   {
+    "name": "White Heron Dance",
     "input": "1+4,2,4",
-    "hit_level": "sl,​h,​h,​m",
-    "damage": "-,​10,​23",
+    "hit_level": "sl,h,h,m",
+    "damage": "-,10,23",
     "startup": ",i24",
     "block": "-15",
     "hit": "+11a (+2)",
@@ -240,9 +264,10 @@
     "note": ""
   },
   {
+    "name": "White Heron Lower Dance",
     "input": "1+4,2,d+4",
-    "hit_level": "sl,​h,​h,​L",
-    "damage": "-,​10,​15",
+    "hit_level": "sl,h,h,L",
+    "damage": "-,10,15",
     "startup": ",i24~25",
     "block": "-23~-22",
     "hit": "+27a",
@@ -250,9 +275,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "1+4,3",
-    "hit_level": "sl,​h,​m",
-    "damage": "-,​15",
+    "hit_level": "sl,h,m",
+    "damage": "-,15",
     "startup": ",i24~25",
     "block": "-11~-10",
     "hit": "+1~+2",
@@ -260,9 +286,10 @@
     "note": ""
   },
   {
+    "name": "White Heron Sun Palm",
     "input": "1+4,3,1",
-    "hit_level": "sl,​h,​m,​m",
-    "damage": "-,​15,​20",
+    "hit_level": "sl,h,m,m",
+    "damage": "-,15,20",
     "startup": ",i33~34",
     "block": "-13~-12",
     "hit": "+17a (+10)",
@@ -270,9 +297,10 @@
     "note": ""
   },
   {
+    "name": "White Heron Moon Kick",
     "input": "1+4,3,4",
-    "hit_level": "sl,​h,​m,​L",
-    "damage": "-,​15,​17",
+    "hit_level": "sl,h,m,L",
+    "damage": "-,15,17",
     "startup": ",i25~26",
     "block": "-13~-12",
     "hit": "+4c~+5c",
@@ -280,6 +308,7 @@
     "note": ""
   },
   {
+    "name": "Izumo Smash",
     "input": "f+1",
     "hit_level": "m",
     "damage": "15",
@@ -290,6 +319,7 @@
     "note": ""
   },
   {
+    "name": "Demon Slayer",
     "input": "f+2",
     "hit_level": "M",
     "damage": "20",
@@ -300,6 +330,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f+3",
     "hit_level": "m",
     "damage": "13",
@@ -310,6 +341,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f+3~u_d",
     "hit_level": "m",
     "damage": "13",
@@ -320,9 +352,10 @@
     "note": ""
   },
   {
+    "name": "Kanbashira > Izumo Strike",
     "input": "f+3,2",
-    "hit_level": "m,​h",
-    "damage": "13,​17",
+    "hit_level": "m,h",
+    "damage": "13,17",
     "startup": ",i20~21",
     "block": "+6~+7",
     "hit": "+11~+12",
@@ -330,9 +363,10 @@
     "note": "Combo from 1st hit with 5f delay"
   },
   {
+    "name": "Double Kanbashira",
     "input": "f+3,4",
-    "hit_level": "m,​M",
-    "damage": "13,​22",
+    "hit_level": "m,M",
+    "damage": "13,22",
     "startup": ",i20~22",
     "block": "-13~-11",
     "hit": "+28a (+13)",
@@ -340,6 +374,7 @@
     "note": "Combo from 1st hit with 5f delay"
   },
   {
+    "name": "Getsukankyaku",
     "input": "f+4",
     "hit_level": "h",
     "damage": "21",
@@ -350,6 +385,7 @@
     "note": ""
   },
   {
+    "name": "Inner Peace",
     "input": "f+1+2",
     "hit_level": "h",
     "damage": "0",
@@ -360,6 +396,7 @@
     "note": "Transition to r20 MIA on hit only\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "",
     "input": "in heat f+1+2,P",
     "hit_level": "h",
     "damage": "0",
@@ -370,6 +407,7 @@
     "note": "Sabaki, parries mid or high punches or kicks"
   },
   {
+    "name": "Wheel Kick",
     "input": "f+2+3",
     "hit_level": "h",
     "damage": "21",
@@ -380,6 +418,7 @@
     "note": "Punch sabaki, +51a on a successful parry"
   },
   {
+    "name": "Mid Check",
     "input": "df+1",
     "hit_level": "m",
     "damage": "10",
@@ -390,9 +429,10 @@
     "note": ""
   },
   {
+    "name": "Habotan",
     "input": "df+1,1",
-    "hit_level": "m,​m",
-    "damage": "10,​17",
+    "hit_level": "m,m",
+    "damage": "10,17",
     "startup": ",i24~25",
     "block": "-11~-10",
     "hit": "+2~+3",
@@ -400,9 +440,10 @@
     "note": ""
   },
   {
+    "name": "Bull's-Eye",
     "input": "df+1,2",
-    "hit_level": "m,​h",
-    "damage": "10,​12",
+    "hit_level": "m,h",
+    "damage": "10,12",
     "startup": ",i22~23",
     "block": "-4~-3",
     "hit": "+6~+7",
@@ -410,6 +451,7 @@
     "note": ""
   },
   {
+    "name": "Mizuho",
     "input": "df+2",
     "hit_level": "m",
     "damage": "14",
@@ -420,8 +462,9 @@
     "note": ""
   },
   {
+    "name": "Ame-no-Murakumo",
     "input": "df+2,1+2",
-    "hit_level": "m,​M",
+    "hit_level": "m,M",
     "damage": "1414",
     "startup": ",i25~26",
     "block": "-9~-8",
@@ -430,6 +473,7 @@
     "note": "Combo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nAvailable only on hit or block"
   },
   {
+    "name": "Kazakiri",
     "input": "df+3",
     "hit_level": "m",
     "damage": "22",
@@ -440,6 +484,7 @@
     "note": ""
   },
   {
+    "name": "Katabami",
     "input": "df+4",
     "hit_level": "m",
     "damage": "22",
@@ -450,6 +495,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+3+4",
     "hit_level": "m",
     "damage": "17",
@@ -460,9 +506,10 @@
     "note": ""
   },
   {
+    "name": "Heavenly Sun Palm",
     "input": "df+3+4,1",
-    "hit_level": "m,​m",
-    "damage": "17,​20",
+    "hit_level": "m,m",
+    "damage": "17,20",
     "startup": ",i33~34",
     "block": "-13~-12",
     "hit": "+17a (+10)",
@@ -470,9 +517,10 @@
     "note": ""
   },
   {
+    "name": "Heavenly Moon Kick",
     "input": "df+3+4,4",
-    "hit_level": "m,​L",
-    "damage": "17,​17",
+    "hit_level": "m,L",
+    "damage": "17,17",
     "startup": ",i25~26",
     "block": "-13~-12",
     "hit": "+4c~+5c",
@@ -480,6 +528,7 @@
     "note": ""
   },
   {
+    "name": "Narumi",
     "input": "d+2",
     "hit_level": "m",
     "damage": "18",
@@ -490,6 +539,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "d+4",
     "hit_level": "L",
     "damage": "10",
@@ -500,9 +550,10 @@
     "note": ""
   },
   {
+    "name": "Suminagashi",
     "input": "d+4,4",
-    "hit_level": "L,​h",
-    "damage": "10,​20",
+    "hit_level": "L,h",
+    "damage": "10,20",
     "startup": ",i25~26",
     "block": "-9~-8",
     "hit": "+13a (+4)",
@@ -510,6 +561,7 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "Kamudo-no-Tsurugi",
     "input": "d+1+2",
     "hit_level": "M",
     "damage": "28",
@@ -520,9 +572,10 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Double Lift Kicks",
     "input": "d+3+4",
-    "hit_level": "l,​h",
-    "damage": "5,​20",
+    "hit_level": "l,h",
+    "damage": "5,20",
     "startup": "i14 i24~27",
     "block": "-6~-3",
     "hit": "+30a (+20)",
@@ -530,6 +583,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+1",
     "hit_level": "m",
     "damage": "7",
@@ -540,9 +594,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+1,1",
-    "hit_level": "m,​m",
-    "damage": "7,​8",
+    "hit_level": "m,m",
+    "damage": "7,8",
     "startup": ",i21",
     "block": "-11",
     "hit": "+0",
@@ -550,9 +605,10 @@
     "note": ""
   },
   {
+    "name": "Hourai's Dance",
     "input": "db+1,1,1+2",
-    "hit_level": "m,​m,​m,​m,​m",
-    "damage": "7,​8,​5,​5,​20",
+    "hit_level": "m,m,m,m,m",
+    "damage": "7,8,5,5,20",
     "startup": ",i17 i26 i49",
     "block": "-15",
     "hit": "+21a (+11)",
@@ -560,6 +616,7 @@
     "note": "Combo from any hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nLast hit is unparryable"
   },
   {
+    "name": "Ayame",
     "input": "db+2",
     "hit_level": "L",
     "damage": "15",
@@ -570,6 +627,7 @@
     "note": ""
   },
   {
+    "name": "Leg Scythe",
     "input": "db+3",
     "hit_level": "L",
     "damage": "14",
@@ -580,6 +638,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+4",
     "hit_level": "L",
     "damage": "14",
@@ -590,9 +649,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+4,4",
-    "hit_level": "L,​L",
-    "damage": "14,​15",
+    "hit_level": "L,L",
+    "damage": "14,15",
     "startup": ",i31~33",
     "block": "-7~-5",
     "hit": "+4~+6",
@@ -600,9 +660,10 @@
     "note": "Combo from 1st CH\nTransition to r22 FC with D"
   },
   {
+    "name": "Kariashi",
     "input": "db+4,4,4",
-    "hit_level": "L,​L,​L",
-    "damage": "14,​15,​16",
+    "hit_level": "L,L,L",
+    "damage": "14,15,16",
     "startup": ",i31~33",
     "block": "-7~-5",
     "hit": "+4~+6",
@@ -610,9 +671,10 @@
     "note": "Transition to r22 FC with D"
   },
   {
+    "name": "Kariashi Hakuro",
     "input": "db+4,1+4",
-    "hit_level": "L,​sl,​h",
-    "damage": "14,​5,​8",
+    "hit_level": "L,sl,h",
+    "damage": "14,5,8",
     "startup": ",i22 i17",
     "block": "-3",
     "hit": "-3",
@@ -620,6 +682,7 @@
     "note": "Combo from 1st hit\nLinks to 1+4 extensions\nAlternate inputs:\ndb+4,4,1+2\ndb+4,4,4,1+2\nCH advantage listed is for the last hitdb+4,4,1+2\ndb+4,4,4,1+2"
   },
   {
+    "name": "Violet",
     "input": "b+1",
     "hit_level": "L",
     "damage": "19",
@@ -630,6 +693,7 @@
     "note": "Cancel to r14 FC with D\nTransition to attack throw on CH, 22 damage\nOpponent recovers FDFA on CH"
   },
   {
+    "name": "",
     "input": "b+2",
     "hit_level": "m",
     "damage": "10",
@@ -640,9 +704,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "b+2,1",
-    "hit_level": "m,​h",
-    "damage": "10,​7",
+    "hit_level": "m,h",
+    "damage": "10,7",
     "startup": ",i15~16",
     "block": "-9~-8",
     "hit": "+2~+3",
@@ -650,9 +715,10 @@
     "note": "Combo from 1st hit with 5f? delay"
   },
   {
+    "name": "",
     "input": "b+2,1~F",
-    "hit_level": "m,​h",
-    "damage": "10,​7",
+    "hit_level": "m,h",
+    "damage": "10,7",
     "startup": ",i15~16",
     "block": "+0~+1",
     "hit": "+11g~+12g",
@@ -660,9 +726,10 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
+    "name": "",
     "input": "b+2,1~B",
-    "hit_level": "m,​h",
-    "damage": "10,​7",
+    "hit_level": "m,h",
+    "damage": "10,7",
     "startup": ",i15~16",
     "block": "+0~+1",
     "hit": "+11g~+12g",
@@ -670,9 +737,10 @@
     "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
   },
   {
+    "name": "Ryuen Saika Shikei",
     "input": "b+2,1,1",
-    "hit_level": "m,​h,​m",
-    "damage": "10,​7,​20",
+    "hit_level": "m,h,m",
+    "damage": "10,7,20",
     "startup": ",i25",
     "block": "-13",
     "hit": "+13a (+4)",
@@ -680,9 +748,10 @@
     "note": "Combo from 2nd CH with 4f delay\nInput can be delayed 14f"
   },
   {
+    "name": "Ryuen Saika Renken",
     "input": "b+2,1,2",
-    "hit_level": "m,​h,​M",
-    "damage": "10,​7,​20",
+    "hit_level": "m,h,M",
+    "damage": "10,7,20",
     "startup": ",i23",
     "block": "-9",
     "hit": "+30a (+15)",
@@ -690,9 +759,10 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Ryuen Saika Renshuu",
     "input": "b+2,1,4",
-    "hit_level": "m,​h,​h",
-    "damage": "10,​7,​24",
+    "hit_level": "m,h,h",
+    "damage": "10,7,24",
     "startup": ",i23~25",
     "block": "-8~-7",
     "hit": "+42a (-16)",
@@ -700,9 +770,10 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f"
   },
   {
+    "name": "Ryuen Magushi",
     "input": "b+2,4",
-    "hit_level": "m,​m",
-    "damage": "10,​10",
+    "hit_level": "m,m",
+    "damage": "10,10",
     "startup": ",i16~17",
     "block": "-9~-8",
     "hit": "+3",
@@ -710,6 +781,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Wheel Kick",
     "input": "b+3",
     "hit_level": "m",
     "damage": "20",
@@ -720,9 +792,10 @@
     "note": ""
   },
   {
+    "name": "Ryuusha Renken",
     "input": "b+3,2",
-    "hit_level": "m,​M",
-    "damage": "20,​22",
+    "hit_level": "m,M",
+    "damage": "20,22",
     "startup": ",i20",
     "block": "-9",
     "hit": "+30a (+15)",
@@ -730,9 +803,10 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Dragon Wheel Leg Cutter",
     "input": "b+3,4",
-    "hit_level": "m,​L",
-    "damage": "20,​14",
+    "hit_level": "m,L",
+    "damage": "20,14",
     "startup": ",i20~22",
     "block": "-11",
     "hit": "+0~+2",
@@ -740,6 +814,7 @@
     "note": "Links to db+4 extensions\nCan recover in r22 FC with D"
   },
   {
+    "name": "",
     "input": "b+4",
     "hit_level": "m",
     "damage": "14",
@@ -750,9 +825,10 @@
     "note": ""
   },
   {
+    "name": "Shirabyoushi",
     "input": "b+4,2",
-    "hit_level": "m,​M",
-    "damage": "14,​17",
+    "hit_level": "m,M",
+    "damage": "14,17",
     "startup": ",i22~23",
     "block": "-13~-12",
     "hit": "+5~+6",
@@ -760,6 +836,7 @@
     "note": ""
   },
   {
+    "name": "Omoikane",
     "input": "b+3+4",
     "hit_level": "m",
     "damage": "25",
@@ -770,6 +847,7 @@
     "note": "Frame advantage is -8 if an attack is absorbed"
   },
   {
+    "name": "Shinki",
     "input": "b+2+3",
     "hit_level": "m!",
     "damage": "50",
@@ -780,6 +858,7 @@
     "note": ""
   },
   {
+    "name": "Chikura",
     "input": "u+4",
     "hit_level": "m",
     "damage": "21",
@@ -790,9 +869,10 @@
     "note": "Alternate input: ub+4"
   },
   {
+    "name": "Divine Exile - Heaven",
     "input": "uf+1",
-    "hit_level": "h,​h",
-    "damage": "6,​30",
+    "hit_level": "h,h",
+    "damage": "6,30",
     "startup": "i10 i26",
     "block": "-14",
     "hit": "+22a",
@@ -800,6 +880,7 @@
     "note": "Jail from 1st attack\nDeals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit"
   },
   {
+    "name": "Totsuka-no-Tsurugi",
     "input": "uf+2",
     "hit_level": "M",
     "damage": "24",
@@ -810,6 +891,7 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Iwato",
     "input": "uf+3",
     "hit_level": "m",
     "damage": "17",
@@ -820,6 +902,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "uf+4",
     "hit_level": "m",
     "damage": "10",
@@ -830,9 +913,10 @@
     "note": ""
   },
   {
+    "name": "Housenka - Misogi",
     "input": "uf+4,3",
-    "hit_level": "m,​m,​M",
-    "damage": "10,​8,​20",
+    "hit_level": "m,m,M",
+    "damage": "10,8,20",
     "startup": ",i29 i18",
     "block": "-12",
     "hit": "+84a (+68)",
@@ -840,9 +924,10 @@
     "note": "Combo from 1st hit\nTransition to r17 MIA on hit only\n3rd hit available only as combo from 2nd hit"
   },
   {
+    "name": "Saiuntsui",
     "input": "uf+3+4",
-    "hit_level": "m,​M",
-    "damage": "5,​21",
+    "hit_level": "m,M",
+    "damage": "5,21",
     "startup": "i20~23 i26~30",
     "block": "-8~-4",
     "hit": "+18a",
@@ -850,6 +935,7 @@
     "note": "Alternate inputs: ub+3+4, u+3+4"
   },
   {
+    "name": "",
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "16",
@@ -860,6 +946,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f,F+2~F",
     "hit_level": "m",
     "damage": "16",
@@ -870,6 +957,7 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
+    "name": "",
     "input": "f,F+2~B",
     "hit_level": "m",
     "damage": "16",
@@ -880,9 +968,10 @@
     "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
   },
   {
+    "name": "Suiei Ura Saika",
     "input": "f,F+2,2",
-    "hit_level": "m,​m",
-    "damage": "16,​22",
+    "hit_level": "m,m",
+    "damage": "16,22",
     "startup": ",i21",
     "block": "-13",
     "hit": "+8a",
@@ -890,9 +979,10 @@
     "note": "Combo from 1st hit with 8f delay"
   },
   {
+    "name": "Suiei Kagetsu",
     "input": "f,F+2,3",
-    "hit_level": "m,​h",
-    "damage": "16,​22",
+    "hit_level": "m,h",
+    "damage": "16,22",
     "startup": ",i20~21",
     "block": "-8~-7",
     "hit": "+29a (+14)",
@@ -900,6 +990,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f,F+3",
     "hit_level": "m",
     "damage": "23",
@@ -910,9 +1001,10 @@
     "note": ""
   },
   {
+    "name": "Yukimiguruma",
     "input": "f,F+3,3+4",
-    "hit_level": "m,​m,​m",
-    "damage": "23,​12,​15",
+    "hit_level": "m,m,m",
+    "damage": "23,12,15",
     "startup": ",i35~36 i41~42",
     "block": "+3~+4",
     "hit": "+19a",
@@ -920,6 +1012,7 @@
     "note": "Chip damage on block\nInterrupt with i11 from 1st block"
   },
   {
+    "name": "Tokkei - Misogi",
     "input": "f,F+1+2",
     "hit_level": "m",
     "damage": "30",
@@ -930,6 +1023,7 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
+    "name": "Ame-no-Uzume",
     "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "32",
@@ -940,9 +1034,10 @@
     "note": "Chip damage on block\nAlternate input: ub,b+3"
   },
   {
+    "name": "",
     "input": "FC 3+4",
-    "hit_level": "m,​m",
-    "damage": "10,​10",
+    "hit_level": "m,m",
+    "damage": "10,10",
     "startup": "i21~22 i23~24",
     "block": "-6~-5",
     "hit": "+5c~+6c",
@@ -950,9 +1045,10 @@
     "note": "Can recover in r22 FC with D"
   },
   {
+    "name": "Twin Cloud Kicks",
     "input": "FC 3+4,3",
-    "hit_level": "m,​m,​m,​m",
-    "damage": "10,​10,​10,​10",
+    "hit_level": "m,m,m,m",
+    "damage": "10,10,10,10",
     "startup": ",i31~32 i40~41",
     "block": "+0~+1",
     "hit": "+15a",
@@ -960,9 +1056,10 @@
     "note": "Can recover in r22 FC with D"
   },
   {
+    "name": "Divine Exile - Earth",
     "input": "FC df+1",
-    "hit_level": "sl,​m",
-    "damage": "6,​30",
+    "hit_level": "sl,m",
+    "damage": "6,30",
     "startup": "i10 i25~26",
     "block": "-19~-18",
     "hit": "+26a (+11)",
@@ -970,6 +1067,7 @@
     "note": "Deals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit"
   },
   {
+    "name": "Grace",
     "input": "FC df+2",
     "hit_level": "L",
     "damage": "12",
@@ -980,6 +1078,7 @@
     "note": ""
   },
   {
+    "name": "Kanamegaeshi",
     "input": "FC df+3",
     "hit_level": "L",
     "damage": "12",
@@ -990,6 +1089,7 @@
     "note": "Clean hit +10a, 15 damage\nOpponent recovers FDFA on CL"
   },
   {
+    "name": "",
     "input": "ws1",
     "hit_level": "h",
     "damage": "14",
@@ -1000,9 +1100,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "ws1,1",
-    "hit_level": "h,​h",
-    "damage": "14,​7",
+    "hit_level": "h,h",
+    "damage": "14,7",
     "startup": ",i15~16",
     "block": "-9~-8",
     "hit": "+2~+3",
@@ -1010,9 +1111,10 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "",
     "input": "ws1,1~F",
-    "hit_level": "h,​h",
-    "damage": "14,​7",
+    "hit_level": "h,h",
+    "damage": "14,7",
     "startup": ",i15~16",
     "block": "+0~+1",
     "hit": "+11g~+12g",
@@ -1020,9 +1122,10 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
+    "name": "",
     "input": "ws1,1~B",
-    "hit_level": "h,​h",
-    "damage": "14,​7",
+    "hit_level": "h,h",
+    "damage": "14,7",
     "startup": ",i15~16",
     "block": "+0~+1",
     "hit": "+11g~+12g",
@@ -1030,9 +1133,10 @@
     "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
   },
   {
+    "name": "Tenkan Saika Shikei",
     "input": "ws1,1,1",
-    "hit_level": "h,​h,​m",
-    "damage": "14,​7,​20",
+    "hit_level": "h,h,m",
+    "damage": "14,7,20",
     "startup": ",i25",
     "block": "-13",
     "hit": "+13a (+4)",
@@ -1040,9 +1144,10 @@
     "note": "Combo from 2nd CH with 4f delay\nInput can be delayed 14f"
   },
   {
+    "name": "Tenkan Saika Renken",
     "input": "ws1,1,2",
-    "hit_level": "h,​h,​M",
-    "damage": "14,​7,​22",
+    "hit_level": "h,h,M",
+    "damage": "14,7,22",
     "startup": ",i23",
     "block": "-9",
     "hit": "+30a (+15)",
@@ -1050,9 +1155,10 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
+    "name": "Tenkan Saika Renshuu",
     "input": "ws1,1,4",
-    "hit_level": "h,​h,​h",
-    "damage": "14,​7,​24",
+    "hit_level": "h,h,h",
+    "damage": "14,7,24",
     "startup": ",i23~25",
     "block": "-8~-7",
     "hit": "+42a (-16)",
@@ -1060,9 +1166,10 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f"
   },
   {
+    "name": "",
     "input": "ws1,4",
-    "hit_level": "h,​m",
-    "damage": "14,​16",
+    "hit_level": "h,m",
+    "damage": "14,16",
     "startup": ",i22~23",
     "block": "-11~-10",
     "hit": "+0c~+1c",
@@ -1070,9 +1177,10 @@
     "note": "Combo from 1st hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f"
   },
   {
+    "name": "Tomoezakura",
     "input": "ws1,4,2",
-    "hit_level": "h,​m,​L",
-    "damage": "14,​16,​17",
+    "hit_level": "h,m,L",
+    "damage": "14,16,17",
     "startup": ",i23~24",
     "block": "-16~-14",
     "hit": "+0c~+1c",
@@ -1080,9 +1188,10 @@
     "note": "Combo from 2nd CH"
   },
   {
+    "name": "Tomoefuji",
     "input": "ws1,4,1+2",
-    "hit_level": "h,​m,​m",
-    "damage": "14,​16,​28",
+    "hit_level": "h,m,m",
+    "damage": "14,16,28",
     "startup": ",i25~26",
     "block": "-20~-19",
     "hit": "+16a (+11)",
@@ -1090,6 +1199,7 @@
     "note": "Combo from 2nd CH"
   },
   {
+    "name": "",
     "input": "ws2",
     "hit_level": "m",
     "damage": "12",
@@ -1100,9 +1210,10 @@
     "note": ""
   },
   {
+    "name": "Hyakkaou",
     "input": "ws2,1",
-    "hit_level": "m,​m",
-    "damage": "12,​20",
+    "hit_level": "m,m",
+    "damage": "12,20",
     "startup": ",i22~23",
     "block": "-12~-11",
     "hit": "+19a (10)",
@@ -1110,6 +1221,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Gioh",
     "input": "ws3",
     "hit_level": "M",
     "damage": "16",
@@ -1120,6 +1232,7 @@
     "note": ""
   },
   {
+    "name": "Ichikaku",
     "input": "ws4",
     "hit_level": "m",
     "damage": "21",
@@ -1130,6 +1243,7 @@
     "note": ""
   },
   {
+    "name": "Sudare Nagashi",
     "input": "ws1+2",
     "hit_level": "m",
     "damage": "20",
@@ -1140,6 +1254,7 @@
     "note": "Can recover in r18 FC with D"
   },
   {
+    "name": "Flowing Moon Scent",
     "input": "ws3+4",
     "hit_level": "m",
     "damage": "23",
@@ -1150,6 +1265,7 @@
     "note": ""
   },
   {
+    "name": "Izumo Strike",
     "input": "u+2",
     "hit_level": "h",
     "damage": "17",
@@ -1160,6 +1276,7 @@
     "note": "Alternate input: ub+2"
   },
   {
+    "name": "",
     "input": "IZU 1",
     "hit_level": "h",
     "damage": "7",
@@ -1170,9 +1287,10 @@
     "note": ""
   },
   {
+    "name": "Haraede Kannagi",
     "input": "IZU 1,1",
-    "hit_level": "h,​h",
-    "damage": "7,​26",
+    "hit_level": "h,h",
+    "damage": "7,26",
     "startup": ",i23~24",
     "block": "-4~-3",
     "hit": "+30a (+20)",
@@ -1180,9 +1298,10 @@
     "note": "Combo from 1st hit with 6f delay\nChip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
+    "name": "Haraede Musubi",
     "input": "IZU 1,2",
-    "hit_level": "h,​m",
-    "damage": "7,​20",
+    "hit_level": "h,m",
+    "damage": "7,20",
     "startup": ",i24",
     "block": "-13",
     "hit": "+6a",
@@ -1190,6 +1309,7 @@
     "note": "Combo from 1st hit with 5f delay\nInput can be delayed 6f"
   },
   {
+    "name": "Setsurinbu - Misogi",
     "input": "IZU 2",
     "hit_level": "M",
     "damage": "24",
@@ -1200,9 +1320,10 @@
     "note": "Chip damage on block\nDeals recoverable self-damage damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Zuiun Renkyaku",
     "input": "IZU 3",
-    "hit_level": "m,​h",
-    "damage": "10,​16",
+    "hit_level": "m,h",
+    "damage": "10,16",
     "startup": "i16~15 i14~15",
     "block": "-6~-5",
     "hit": "+12a (+3)",
@@ -1210,9 +1331,10 @@
     "note": "Jail from 1st attack"
   },
   {
+    "name": "Zuiun Renkyaku > Heat Dash",
     "input": "in heat IZU 3,F",
-    "hit_level": "m,​h",
-    "damage": "10,​16",
+    "hit_level": "m,h",
+    "damage": "10,16",
     "startup": "i16~15 i14~15",
     "block": "+5~+6",
     "hit": "+36a (+26)",
@@ -1220,6 +1342,7 @@
     "note": "Jail from 1st attack"
   },
   {
+    "name": "",
     "input": "IZU 4",
     "hit_level": "L",
     "damage": "15",
@@ -1230,9 +1353,10 @@
     "note": ""
   },
   {
+    "name": "Wakeikazuchi - Misogi",
     "input": "IZU 4,1",
-    "hit_level": "L,​M",
-    "damage": "15,​15",
+    "hit_level": "L,M",
+    "damage": "15,15",
     "startup": ",i19~20",
     "block": "-14~-13",
     "hit": "+14a (+3)",
@@ -1240,6 +1364,7 @@
     "note": "Combo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
+    "name": "Mihikarioroshi",
     "input": "IZU 1+2",
     "hit_level": "M",
     "damage": "24",
@@ -1250,6 +1375,7 @@
     "note": "Frame advantage is -6 if an attack is absorbed"
   },
   {
+    "name": "Dianthus Garden",
     "input": "IZU f+1+2",
     "hit_level": "m",
     "damage": "21",
@@ -1260,6 +1386,7 @@
     "note": "Only i13 or faster attacks guaranteed on CH"
   },
   {
+    "name": "Genjitsu",
     "input": "f+3+4",
     "hit_level": "",
     "damage": "",
@@ -1270,9 +1397,10 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
+    "name": "Amaterasu",
     "input": "f+3+4,P (Low)",
     "hit_level": "t",
-    "damage": "4,​2,​2,​2,​2,​2,​2,​2,​2",
+    "damage": "4,2,2,2,2,2,2,2,2",
     "startup": "Startup",
     "block": "",
     "hit": "+0d",
@@ -1280,6 +1408,7 @@
     "note": "Restores recoverable health\nOpponent recovers FDFA"
   },
   {
+    "name": "Throw Reversal",
     "input": "f+3+4,P (Throw)",
     "hit_level": "t",
     "damage": "40",
@@ -1290,6 +1419,7 @@
     "note": ""
   },
   {
+    "name": "Rurikoukai",
     "input": "GEN 1",
     "hit_level": "L",
     "damage": "22",
@@ -1300,9 +1430,10 @@
     "note": ""
   },
   {
+    "name": "Kazama Style Spirit",
     "input": "GEN 2",
-    "hit_level": "m,​t",
-    "damage": "16,​32",
+    "hit_level": "m,t",
+    "damage": "16,32",
     "startup": "i16~17",
     "block": "-13~-12",
     "hit": "+0d",
@@ -1310,6 +1441,7 @@
     "note": "Transitions to attack throw on front hit only, otherwise knockdown\nDeals recoverable self-damage when not in Heat\nFrame advantage is -9 if an attack is absorbed\nChip damage on block if an attack is absorbed"
   },
   {
+    "name": "",
     "input": "GEN 3",
     "hit_level": "M",
     "damage": "14",
@@ -1320,9 +1452,10 @@
     "note": ""
   },
   {
+    "name": "Getsuun Renken",
     "input": "GEN 3,2",
-    "hit_level": "M,​M",
-    "damage": "14,​20",
+    "hit_level": "M,M",
+    "damage": "14,20",
     "startup": ",i24",
     "block": "-9",
     "hit": "+33a (+18)",
@@ -1330,6 +1463,7 @@
     "note": "Combo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Nichiun",
     "input": "GEN 4",
     "hit_level": "h",
     "damage": "24",
@@ -1340,9 +1474,10 @@
     "note": ""
   },
   {
+    "name": "Yomotsu Mihashira",
     "input": "in heat GEN 2+3",
-    "hit_level": "l,​m",
-    "damage": "14,​28",
+    "hit_level": "l,m",
+    "damage": "14,28",
     "startup": "i20 i26",
     "block": "-14",
     "hit": "+33 (+5)",
@@ -1350,6 +1485,7 @@
     "note": "Ends heat"
   },
   {
+    "name": "Miare",
     "input": "b+1+2",
     "hit_level": "",
     "damage": "",
@@ -1360,6 +1496,7 @@
     "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
   },
   {
+    "name": "Ame-no-Sakahoko",
     "input": "MIA 1",
     "hit_level": "M",
     "damage": "30",
@@ -1370,6 +1507,7 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Ame-no-Nuboko",
     "input": "MIA 2",
     "hit_level": "sm",
     "damage": "30",
@@ -1380,6 +1518,7 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
+    "name": "Ame-no-Nuboko > Heat Dash",
     "input": "in heat MIA 2,F",
     "hit_level": "sm",
     "damage": "30",
@@ -1390,6 +1529,7 @@
     "note": "Chip damage on block\nUnparryable"
   },
   {
+    "name": "Izumo Strike",
     "input": "MIA 1+2",
     "hit_level": "h",
     "damage": "17",
@@ -1400,6 +1540,7 @@
     "note": ""
   },
   {
+    "name": "Genjitsu",
     "input": "MIA F",
     "hit_level": "",
     "damage": "",
@@ -1410,6 +1551,7 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
+    "name": "Kasanegasumi",
     "input": "SS 2",
     "hit_level": "m",
     "damage": "27",
@@ -1420,6 +1562,7 @@
     "note": ""
   },
   {
+    "name": "Kagura",
     "input": "SS 4",
     "hit_level": "m",
     "damage": "20",
@@ -1430,6 +1573,7 @@
     "note": ""
   },
   {
+    "name": "Kagura > Heat Dash",
     "input": "in heat SS 4,F",
     "hit_level": "m",
     "damage": "20",
@@ -1440,9 +1584,10 @@
     "note": ""
   },
   {
+    "name": "Sankouchou",
     "input": "SS 1+2",
-    "hit_level": "h,​h,​m",
-    "damage": "7,​9,​18",
+    "hit_level": "h,h,m",
+    "damage": "7,9,18",
     "startup": "i16 i17 i15~16",
     "block": "",
     "hit": "+7c~+8c",
@@ -1450,6 +1595,7 @@
     "note": "Jail from 1st attack\nRecovery listed is for the last hit"
   },
   {
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "",
     "damage": "",
@@ -1460,6 +1606,7 @@
     "note": "CH state for 5 seconds\nCan't block for 5 seconds"
   },
   {
+    "name": "Attack Reversal",
     "input": "b+1+3",
     "hit_level": "",
     "damage": "",
@@ -1470,9 +1617,10 @@
     "note": "Alternate input: b+2+4\nParries mid or high punches or kicks"
   },
   {
+    "name": "",
     "input": "b+1+3,P",
     "hit_level": "t",
-    "damage": "7,​8,​10",
+    "damage": "7,8,10",
     "startup": "i16 i17 i15~16",
     "block": "",
     "hit": "+0d",
@@ -1480,6 +1628,7 @@
     "note": "Opponent recovers FDFT"
   },
   {
+    "name": "Back Handspring",
     "input": "UB,b",
     "hit_level": "",
     "damage": "",
@@ -1490,6 +1639,7 @@
     "note": ""
   },
   {
+    "name": "Wall Jump Attack",
     "input": "(Back to wall) b,b,UB",
     "hit_level": "m",
     "damage": "21",
@@ -1500,6 +1650,7 @@
     "note": ""
   },
   {
+    "name": "Shiho Nage",
     "input": "1+3",
     "hit_level": "t",
     "damage": "35",
@@ -1510,6 +1661,7 @@
     "note": "Throw break 1 or 2"
   },
   {
+    "name": "Katanuki",
     "input": "2+4",
     "hit_level": "t",
     "damage": "35",
@@ -1520,6 +1672,7 @@
     "note": "Throw break 1 or 2\nSide switch"
   },
   {
+    "name": "Cloud Taste",
     "input": "Left throw",
     "hit_level": "t",
     "damage": "40",
@@ -1530,6 +1683,7 @@
     "note": "Throw break 1\nCan side switch on hit"
   },
   {
+    "name": "Wind Wheel",
     "input": "Right throw",
     "hit_level": "t",
     "damage": "40",
@@ -1540,6 +1694,7 @@
     "note": "Throw break 2\nSide switch on hit"
   },
   {
+    "name": "Twisted Limbs",
     "input": "Back throw",
     "hit_level": "t",
     "damage": "50",
@@ -1550,6 +1705,7 @@
     "note": "Unbreakable\nSide switch"
   },
   {
+    "name": "White Mountain",
     "input": "df+2+3",
     "hit_level": "t",
     "damage": "40",
@@ -1560,6 +1716,7 @@
     "note": "Throw break 2\n"
   },
   {
+    "name": "Riai",
     "input": "uf+1+2",
     "hit_level": "t",
     "damage": "40",
@@ -1570,9 +1727,10 @@
     "note": ""
   },
   {
+    "name": "Falling Rain",
     "input": "FC db+1+2",
     "hit_level": "t",
-    "damage": "15,​15,​15",
+    "damage": "15,15,15",
     "startup": "i11~12",
     "block": "-6",
     "hit": "+56a (+28)",
@@ -1580,6 +1738,7 @@
     "note": "Throw break 1+2\nOpponent can tech roll to reduce the landing damage"
   },
   {
+    "name": "Tsukuyomi",
     "input": "IZU 1+4",
     "hit_level": "t",
     "damage": "35",

@@ -1,5 +1,6 @@
 [
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -10,8 +11,9 @@
     "note": ""
   },
   {
+    "name": "He Zi Shou",
     "input": "1,2",
-    "hit_level": "h,​h",
+    "hit_level": "h,h",
     "damage": "510",
     "startup": ",i12",
     "block": "",
@@ -20,9 +22,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "1,2,1",
-    "hit_level": "h,​h,​h",
-    "damage": "510,​21",
+    "hit_level": "h,h,h",
+    "damage": "510,21",
     "startup": "i20",
     "block": "",
     "hit": "+6",
@@ -30,9 +33,10 @@
     "note": ""
   },
   {
+    "name": "Liang Yi Zhou",
     "input": "1,2,1,1",
-    "hit_level": "h,​h,​h,​m",
-    "damage": "510,​2121",
+    "hit_level": "h,h,h,m",
+    "damage": "510,2121",
     "startup": "i18",
     "block": "",
     "hit": "+12",
@@ -40,9 +44,10 @@
     "note": ""
   },
   {
+    "name": "Wai Bai Tui",
     "input": "1,2,1,4",
-    "hit_level": "h,​h,​h,​h",
-    "damage": "510,​2130",
+    "hit_level": "h,h,h,h",
+    "damage": "510,2130",
     "startup": "i21",
     "block": "",
     "hit": "+32",
@@ -50,8 +55,9 @@
     "note": ""
   },
   {
+    "name": "Ye Chui",
     "input": "1,2,4",
-    "hit_level": "h,​h,​l",
+    "hit_level": "h,h,l",
     "damage": "51015",
     "startup": "i24",
     "block": "",
@@ -60,8 +66,9 @@
     "note": ""
   },
   {
+    "name": "Lan Tan Jin Ji Du Li",
     "input": "1,4",
-    "hit_level": "h,​h",
+    "hit_level": "h,h",
     "damage": "517",
     "startup": "i16",
     "block": "",
@@ -70,6 +77,7 @@
     "note": ""
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "",
     "damage": "9",
@@ -80,6 +88,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "b+1",
     "hit_level": "m",
     "damage": "17",
@@ -90,8 +99,9 @@
     "note": ""
   },
   {
+    "name": "Ding Zhou Jin Ji Du Li",
     "input": "b+1,4",
-    "hit_level": "m,​m",
+    "hit_level": "m,m",
     "damage": "1714",
     "startup": "i23",
     "block": "+9",
@@ -100,6 +110,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "KNK 1",
     "hit_level": "h",
     "damage": "12",
@@ -110,8 +121,9 @@
     "note": ""
   },
   {
+    "name": "Bai She Tui Chuang",
     "input": "KNK 1,2",
-    "hit_level": "h,​m",
+    "hit_level": "h,m",
     "damage": "1217",
     "startup": "i18",
     "block": "-9",
@@ -120,6 +132,7 @@
     "note": ""
   },
   {
+    "name": "Heng Quan",
     "input": "KNK 2",
     "hit_level": "h",
     "damage": "20",
@@ -130,6 +143,7 @@
     "note": ""
   },
   {
+    "name": "Yi Qi Jiao",
     "input": "KNK 3",
     "hit_level": "m",
     "damage": "13",
@@ -140,8 +154,9 @@
     "note": ""
   },
   {
+    "name": "Er Qi Jiao",
     "input": "KNK 3,4",
-    "hit_level": "m,​m",
+    "hit_level": "m,m",
     "damage": "1318",
     "startup": "i15",
     "block": "-12",
@@ -150,6 +165,7 @@
     "note": ""
   },
   {
+    "name": "Cuo Ti Fu Ren",
     "input": "KNK 4",
     "hit_level": "l",
     "damage": "18",
@@ -160,6 +176,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "KNK 4,DF",
     "hit_level": "l",
     "damage": "18",
@@ -170,6 +187,7 @@
     "note": ""
   },
   {
+    "name": "Upper Rising Fist",
     "input": "KNK 1+2",
     "hit_level": "m",
     "damage": "20",
@@ -180,6 +198,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "KNK 3+4",
     "hit_level": "",
     "damage": "24",
@@ -190,6 +209,7 @@
     "note": ""
   },
   {
+    "name": "Jin Bu",
     "input": "KNK DF",
     "hit_level": "",
     "damage": "",
@@ -200,6 +220,7 @@
     "note": ""
   },
   {
+    "name": "Transcendent Blow",
     "input": "in rage df+1+2",
     "hit_level": "m",
     "damage": "55+",

@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "12",
@@ -10,9 +11,10 @@
     "note": "Cancel to r45 with b,b"
   },
   {
+    "name": "Pandemonium",
     "input": "in heat 2+3",
-    "hit_level": "m,​t",
-    "damage": "20,​35",
+    "hit_level": "m,t",
+    "damage": "20,35",
     "startup": "i18~20",
     "block": "+14g",
     "hit": "+3a",
@@ -20,8 +22,9 @@
     "note": "Transition to r20 SZN on block"
   },
   {
+    "name": "Wild Hunt X-ecutor",
     "input": "in rage df+1+2",
-    "hit_level": "m,​t",
+    "hit_level": "m,t",
     "damage": "55+",
     "startup": "i20",
     "block": "-15",
@@ -30,6 +33,7 @@
     "note": "Rage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
   },
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -40,9 +44,10 @@
     "note": ""
   },
   {
+    "name": "Left Right Combo",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​12",
+    "hit_level": "h,h",
+    "damage": "5,12",
     "startup": ",i12",
     "block": "-3",
     "hit": "+7",
@@ -50,9 +55,10 @@
     "note": "Jail from 1st attack with 2f delay"
   },
   {
+    "name": "Left Right Combo ＞ Black Hole",
     "input": "1,2,4",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​12,​20",
+    "hit_level": "h,h,m",
+    "damage": "5,12,20",
     "startup": ",i23~25",
     "block": "-14~-12",
     "hit": "+15a (-2)",
@@ -60,9 +66,10 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "",
     "input": "1,2,3+4",
-    "hit_level": "h,​h",
-    "damage": "5,​12",
+    "hit_level": "h,h",
+    "damage": "5,12",
     "startup": ",i23~25",
     "block": "-4",
     "hit": "+6",
@@ -70,6 +77,7 @@
     "note": ""
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "9",
@@ -80,9 +88,10 @@
     "note": ""
   },
   {
+    "name": "PDK Combo",
     "input": "2,3",
-    "hit_level": "h,​l",
-    "damage": "9,​10",
+    "hit_level": "h,l",
+    "damage": "9,10",
     "startup": ",i22",
     "block": "-13",
     "hit": "-2",
@@ -90,9 +99,10 @@
     "note": ""
   },
   {
+    "name": "PK Combo",
     "input": "2,4",
-    "hit_level": "h,​h",
-    "damage": "9,​16",
+    "hit_level": "h,h",
+    "damage": "9,16",
     "startup": ",i18~19",
     "block": "-8~-7",
     "hit": "+8~+9",
@@ -100,6 +110,7 @@
     "note": "Combo from 1st hit\nCancel to r31 with B"
   },
   {
+    "name": "",
     "input": "3",
     "hit_level": "m",
     "damage": "10",
@@ -110,9 +121,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "3,3",
-    "hit_level": "m,​h",
-    "damage": "10,​16",
+    "hit_level": "m,h",
+    "damage": "10,16",
     "startup": ",i17~18",
     "block": "-8~-7",
     "hit": "+5~+6",
@@ -120,9 +132,10 @@
     "note": "Jail from 1st attack"
   },
   {
+    "name": "Valkyrie Lance Combo",
     "input": "3,3,4",
-    "hit_level": "m,​h,​h",
-    "damage": "10,​16,​20",
+    "hit_level": "m,h,h",
+    "damage": "10,16,20",
     "startup": ",i26~27",
     "block": "-9",
     "hit": "+39a (-19)",
@@ -130,9 +143,10 @@
     "note": "Combo from 2nd CH"
   },
   {
+    "name": "",
     "input": "3,3,4~B",
-    "hit_level": "m,​h,​h",
-    "damage": "10,​16,​20",
+    "hit_level": "m,h,h",
+    "damage": "10,16,20",
     "startup": ",i26~27",
     "block": "-16~-15",
     "hit": "-3~-2",
@@ -140,6 +154,7 @@
     "note": ""
   },
   {
+    "name": "High Kick",
     "input": "4",
     "hit_level": "h",
     "damage": "16",
@@ -150,9 +165,10 @@
     "note": ""
   },
   {
+    "name": "Brocken Connect",
     "input": "4,1",
-    "hit_level": "h,​h",
-    "damage": "16,​13",
+    "hit_level": "h,h",
+    "damage": "16,13",
     "startup": ",i19~20",
     "block": "-3~-2",
     "hit": "+7~+8",
@@ -160,9 +176,10 @@
     "note": "Jail from 1st attack"
   },
   {
+    "name": "Chariot",
     "input": "3~4",
-    "hit_level": "m,​M",
-    "damage": "10,​16",
+    "hit_level": "m,M",
+    "damage": "10,16",
     "startup": "i25~26 i31~36",
     "block": "-9~-4",
     "hit": "+19a",
@@ -170,9 +187,10 @@
     "note": ""
   },
   {
+    "name": "Chariot to Blind Roll",
     "input": "3~4,F",
-    "hit_level": "m,​M",
-    "damage": "10,​16",
+    "hit_level": "m,M",
+    "damage": "10,16",
     "startup": "i25~26 i31~36",
     "block": "-39~-36",
     "hit": "-8",
@@ -180,9 +198,10 @@
     "note": ""
   },
   {
+    "name": "Hydra Bite",
     "input": "4~3",
-    "hit_level": "m,​m",
-    "damage": "8,​10",
+    "hit_level": "m,m",
+    "damage": "8,10",
     "startup": "i16 i29~30",
     "block": "-16~-15",
     "hit": "+31a (+21)",
@@ -190,9 +209,10 @@
     "note": ""
   },
   {
+    "name": "Hydra Bite Low",
     "input": "4~3,1",
-    "hit_level": "m,​m,​l",
-    "damage": "8,​10,​15",
+    "hit_level": "m,m,l",
+    "damage": "8,10,15",
     "startup": ",i34~35",
     "block": "-13~-2",
     "hit": "+4~+5",
@@ -200,9 +220,10 @@
     "note": ""
   },
   {
+    "name": "Hydra Bite High",
     "input": "4~3,3",
-    "hit_level": "m,​m,​h",
-    "damage": "8,​10,​18",
+    "hit_level": "m,m,h",
+    "damage": "8,10,18",
     "startup": ",i24~27",
     "block": "-3~+0",
     "hit": "+14a",
@@ -210,9 +231,10 @@
     "note": "Can be delayed"
   },
   {
+    "name": "Hydra Bite Mid",
     "input": "4~3,4",
-    "hit_level": "m,​m,​m",
-    "damage": "8,​10,​20",
+    "hit_level": "m,m,m",
+    "damage": "8,10,20",
     "startup": ",i33~34",
     "block": "-14~-13",
     "hit": "+15a",
@@ -220,6 +242,7 @@
     "note": "Can be delayed"
   },
   {
+    "name": "Crusader",
     "input": "1+2",
     "hit_level": "m",
     "damage": "20",
@@ -230,6 +253,7 @@
     "note": ""
   },
   {
+    "name": "Crusader > Heat Dash",
     "input": "in heat 1+2,F",
     "hit_level": "m",
     "damage": "20",
@@ -240,6 +264,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f+2",
     "hit_level": "m",
     "damage": "10",
@@ -250,9 +275,10 @@
     "note": ""
   },
   {
+    "name": "Tartaros",
     "input": "f+2,3",
-    "hit_level": "m,​M",
-    "damage": "10,​13",
+    "hit_level": "m,M",
+    "damage": "10,13",
     "startup": ",i21~22",
     "block": "-9~-8",
     "hit": "+6c~+7c",
@@ -260,9 +286,10 @@
     "note": "Combo from 1st hit\nCan be delayed"
   },
   {
+    "name": "",
     "input": "f+2,3,3+4",
-    "hit_level": "m,​M",
-    "damage": "10,​13",
+    "hit_level": "m,M",
+    "damage": "10,13",
     "startup": ",i21~22",
     "block": "",
     "hit": "",
@@ -270,6 +297,7 @@
     "note": "Alternate input: f+2,3~D"
   },
   {
+    "name": "",
     "input": "f+3",
     "hit_level": "m",
     "damage": "18",
@@ -280,6 +308,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f+3~B",
     "hit_level": "m",
     "damage": "18",
@@ -290,9 +319,10 @@
     "note": ""
   },
   {
+    "name": "Circling Winds",
     "input": "f+3,2",
-    "hit_level": "m,​m",
-    "damage": "18,​21",
+    "hit_level": "m,m",
+    "damage": "18,21",
     "startup": ",i30",
     "block": "-14",
     "hit": "+10a (+1)",
@@ -300,6 +330,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Lance Kick",
     "input": "f+4",
     "hit_level": "h",
     "damage": "23",
@@ -310,9 +341,10 @@
     "note": ""
   },
   {
+    "name": "Minos Typhoon",
     "input": "f+1+2",
     "hit_level": "m",
-    "damage": "10,​20",
+    "damage": "10,20",
     "startup": "i18~19 i26",
     "block": "-14",
     "hit": "+30a (+4)",
@@ -320,9 +352,10 @@
     "note": "Frame advantage is -9 if an attack is absorbed"
   },
   {
+    "name": "Minos Typhoon > Heat Dash",
     "input": "in heat f+1+2,F",
     "hit_level": "m",
-    "damage": "10,​20",
+    "damage": "10,20",
     "startup": "i18~19 i26",
     "block": "+5",
     "hit": "+34a",
@@ -330,6 +363,7 @@
     "note": ""
   },
   {
+    "name": "Body Blow",
     "input": "df+1",
     "hit_level": "m",
     "damage": "13",
@@ -340,9 +374,10 @@
     "note": ""
   },
   {
+    "name": "Body Blow > Phantom Mace",
     "input": "df+1,4",
-    "hit_level": "m,​sm",
-    "damage": "13,​25",
+    "hit_level": "m,sm",
+    "damage": "13,25",
     "startup": ",i18~27",
     "block": "-14~-5",
     "hit": "+32a (-26)",
@@ -350,9 +385,10 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
+    "name": "Body Blow > Phantom Mace",
     "input": "in heat df+1,4",
-    "hit_level": "m,​sm,​sm",
-    "damage": "13,​25,​30",
+    "hit_level": "m,sm,sm",
+    "damage": "13,25,30",
     "startup": "i14~15, i18~27, i44~45",
     "block": "-3~-2",
     "hit": "+32a (-26)",
@@ -360,6 +396,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "Uppercut",
     "input": "df+2",
     "hit_level": "m",
     "damage": "15",
@@ -370,9 +407,10 @@
     "note": "Launches crouching opponent"
   },
   {
+    "name": "Meat Hook",
     "input": "df+2,3",
-    "hit_level": "m,​h",
-    "damage": "15,​17",
+    "hit_level": "m,h",
+    "damage": "15,17",
     "startup": ",i12~13",
     "block": "-8~-7",
     "hit": "+28a (+19)",
@@ -380,9 +418,10 @@
     "note": ""
   },
   {
+    "name": "Bolt Stunner",
     "input": "df+2,4",
-    "hit_level": "m,​m",
-    "damage": "15,​24",
+    "hit_level": "m,m",
+    "damage": "15,24",
     "startup": ",i12~13",
     "block": "-15~-14",
     "hit": "+11a (+2)",
@@ -390,6 +429,7 @@
     "note": ""
   },
   {
+    "name": "Shadow Snap Kick",
     "input": "df+3",
     "hit_level": "h",
     "damage": "17",
@@ -400,6 +440,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+4",
     "hit_level": "m",
     "damage": "15",
@@ -410,9 +451,10 @@
     "note": ""
   },
   {
+    "name": "Pendulum Kick",
     "input": "df+4,4",
-    "hit_level": "m,​M",
-    "damage": "15,​16",
+    "hit_level": "m,M",
+    "damage": "15,16",
     "startup": ",i22~25",
     "block": "-14~-13",
     "hit": "+6a",
@@ -420,9 +462,10 @@
     "note": "Combo from 1st hit with 7f delay\nInput can be delayed 9f\nMove can be delayed 8f"
   },
   {
+    "name": "Pendulum Shadow",
     "input": "df+4,4,3",
-    "hit_level": "m,​M,​M",
-    "damage": "15,​16,​22",
+    "hit_level": "m,M,M",
+    "damage": "15,16,22",
     "startup": ",i27~30",
     "block": "-6~-3",
     "hit": "+18a",
@@ -430,6 +473,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Jab",
     "input": "d+1",
     "hit_level": "sl",
     "damage": "5",
@@ -440,6 +484,7 @@
     "note": "Can recover standing with f"
   },
   {
+    "name": "Crouch Straight",
     "input": "d+2",
     "hit_level": "sl",
     "damage": "8",
@@ -450,6 +495,7 @@
     "note": ""
   },
   {
+    "name": "Stinging Low",
     "input": "d+3",
     "hit_level": "L",
     "damage": "10",
@@ -460,6 +506,7 @@
     "note": ""
   },
   {
+    "name": "Basilisk Fang",
     "input": "d+4",
     "hit_level": "L",
     "damage": "18",
@@ -470,6 +517,7 @@
     "note": ""
   },
   {
+    "name": "Assassin's Sting",
     "input": "db+2",
     "hit_level": "m",
     "damage": "13",
@@ -480,9 +528,10 @@
     "note": ""
   },
   {
+    "name": "Assassin's Sting Combo",
     "input": "db+2,1",
-    "hit_level": "m,​h",
-    "damage": "13,​15",
+    "hit_level": "m,h",
+    "damage": "13,15",
     "startup": ",i22~23",
     "block": "-1~+0",
     "hit": "+8~+9",
@@ -490,9 +539,10 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Assassin's Sting > Phantom Javelin",
     "input": "db+2,1,1",
-    "hit_level": "m,​h,​sm",
-    "damage": "13,​15,​21",
+    "hit_level": "m,h,sm",
+    "damage": "13,15,21",
     "startup": ",i18~19",
     "block": "-14~-13",
     "hit": "+2a (-7)",
@@ -500,9 +550,10 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block"
   },
   {
+    "name": "Assassin's Sting > Phantom Javelin",
     "input": "in heat db+2,1,1",
-    "hit_level": "m,​h,​sm,​sm",
-    "damage": "13,​15,​21,​30",
+    "hit_level": "m,h,sm,sm",
+    "damage": "13,15,21,30",
     "startup": "i13~14, i22~23, i18~19 i39~47",
     "block": "-3~+5",
     "hit": "+2a (-7)",
@@ -510,9 +561,10 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "",
     "input": "db+2,1,3+4",
-    "hit_level": "m,​h",
-    "damage": "13,​15",
+    "hit_level": "m,h",
+    "damage": "13,15",
     "startup": "i13~14, i22~23, i18~19 i39~47",
     "block": "-4",
     "hit": "+5",
@@ -520,6 +572,7 @@
     "note": ""
   },
   {
+    "name": "Killer Bee",
     "input": "db+3",
     "hit_level": "L",
     "damage": "19",
@@ -530,6 +583,7 @@
     "note": ""
   },
   {
+    "name": "Shinobi Cyclone",
     "input": "db+4",
     "hit_level": "L",
     "damage": "21",
@@ -540,6 +594,7 @@
     "note": ""
   },
   {
+    "name": "Elbow Strike",
     "input": "b+1",
     "hit_level": "h",
     "damage": "21",
@@ -550,6 +605,7 @@
     "note": "Deals chip damage on block\nTransitions to r26 SZN on hit or block only"
   },
   {
+    "name": "",
     "input": "b+2",
     "hit_level": "h",
     "damage": "12",
@@ -560,9 +616,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "b+2,2",
-    "hit_level": "h,​m",
-    "damage": "12,​17",
+    "hit_level": "h,m",
+    "damage": "12,17",
     "startup": ",i22",
     "block": "-3",
     "hit": "+6",
@@ -570,9 +627,10 @@
     "note": "Combo from 1st hit\nInput can be delayed 13f"
   },
   {
+    "name": "Unicorn's Tail",
     "input": "b+2,2,3",
-    "hit_level": "h,​m,​M",
-    "damage": "12,​17,​20",
+    "hit_level": "h,m,M",
+    "damage": "12,17,20",
     "startup": "i21~22",
     "block": "-19~-18",
     "hit": "+12a (-5)",
@@ -580,9 +638,10 @@
     "note": "Combo from 2nd CH\nGrounded hit can be inconsistent"
   },
   {
+    "name": "Deadly Talon",
     "input": "b+2,2,1+2",
-    "hit_level": "h,​m,​L",
-    "damage": "12,​17,​20",
+    "hit_level": "h,m,L",
+    "damage": "12,17,20",
     "startup": ",i20~21",
     "block": "-30~-29",
     "hit": "+3d",
@@ -590,9 +649,10 @@
     "note": "Combo from 2nd CH"
   },
   {
+    "name": "Missing Worm",
     "input": "b+2,4",
-    "hit_level": "h,​h",
-    "damage": "12,​17",
+    "hit_level": "h,h",
+    "damage": "12,17",
     "startup": ",i24~25",
     "block": "-7~-6",
     "hit": "+4~+5",
@@ -600,9 +660,10 @@
     "note": "Combo from 1st hit with 4f delay\nInput can be delayed 13f"
   },
   {
+    "name": "Missing Worm > Phantom Halberd",
     "input": "b+2,4,2",
-    "hit_level": "h,​h,​sm",
-    "damage": "12,​17,​21",
+    "hit_level": "h,h,sm",
+    "damage": "12,17,21",
     "startup": ",i19~20",
     "block": "-14~-13",
     "hit": "+24a (+9)",
@@ -610,9 +671,10 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block"
   },
   {
+    "name": "Missing Worm > Phantom Halberd",
     "input": "in heat b+2,4,2",
-    "hit_level": "h,​h,​sm,​sm",
-    "damage": "12,​17,​21,​30",
+    "hit_level": "h,h,sm,sm",
+    "damage": "12,17,21,30",
     "startup": "i15~17, i24~25, i19~20 i39~-41",
     "block": "-3~-1",
     "hit": "+24a (+9)",
@@ -620,6 +682,7 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "Hades Heel",
     "input": "b+3",
     "hit_level": "M",
     "damage": "23",
@@ -630,6 +693,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "",
     "input": "b+4",
     "hit_level": "m",
     "damage": "13",
@@ -640,9 +704,10 @@
     "note": ""
   },
   {
+    "name": "Skull Smasher",
     "input": "b+4,4",
-    "hit_level": "m,​m",
-    "damage": "13,​20",
+    "hit_level": "m,m",
+    "damage": "13,20",
     "startup": ",i17~19",
     "block": "-8~-6",
     "hit": "+6c~+8c",
@@ -650,9 +715,10 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Skull Smasher Feint",
     "input": "b+4,B+4",
-    "hit_level": "m,​M",
-    "damage": "13,​24",
+    "hit_level": "m,M",
+    "damage": "13,24",
     "startup": ",i37~42",
     "block": "+1c~+6c",
     "hit": "+2c~+7c",
@@ -660,9 +726,10 @@
     "note": ""
   },
   {
+    "name": "Skull Smasher Feint Low",
     "input": "b+4,B+4~3",
-    "hit_level": "m,​M,​L",
-    "damage": "13,​24,​11",
+    "hit_level": "m,M,L",
+    "damage": "13,24,11",
     "startup": ",i20",
     "block": "-11",
     "hit": "+0",
@@ -670,9 +737,10 @@
     "note": ""
   },
   {
+    "name": "Skull Spin",
     "input": "b+4,B+4~3,3+4",
-    "hit_level": "m,​M,​L,​m",
-    "damage": "13,​24,​11,​15",
+    "hit_level": "m,M,L,m",
+    "damage": "13,24,11,15",
     "startup": ",i26~30",
     "block": "-25~-21",
     "hit": "+6a",
@@ -680,6 +748,7 @@
     "note": "Combo from 2nd hit with 4f delay\nInput can be delayed 7f"
   },
   {
+    "name": "Alternating Smash",
     "input": "b+1+2",
     "hit_level": "m",
     "damage": "25",
@@ -690,6 +759,7 @@
     "note": "Backswing blow"
   },
   {
+    "name": "",
     "input": "ub+1",
     "hit_level": "m",
     "damage": "11",
@@ -700,9 +770,10 @@
     "note": ""
   },
   {
+    "name": "Gate Keeper",
     "input": "ub+1,2",
-    "hit_level": "m,​m",
-    "damage": "11,​13",
+    "hit_level": "m,m",
+    "damage": "11,13",
     "startup": ",i18~19",
     "block": "-13~-12",
     "hit": "-2c~-1c",
@@ -710,6 +781,7 @@
     "note": "Combo from 1st hit with 7f delay"
   },
   {
+    "name": "Deathbringer",
     "input": "u+3",
     "hit_level": "h",
     "damage": "23",
@@ -720,9 +792,10 @@
     "note": "Chip damage on block\nAlternate input: ub+3"
   },
   {
+    "name": "Deathbringer Low",
     "input": "u+3,3",
-    "hit_level": "h,​L",
-    "damage": "23,​18",
+    "hit_level": "h,L",
+    "damage": "23,18",
     "startup": "i31~32",
     "block": "-16~-15",
     "hit": "+16a",
@@ -730,9 +803,10 @@
     "note": "Transitions to r76 Ki Charge on hit only\nAlternate input: ub+3,3"
   },
   {
+    "name": "Deathbringer Low > Shadow",
     "input": "u+3,3,3",
-    "hit_level": "h,​L,​M",
-    "damage": "23,​18,​22",
+    "hit_level": "h,L,M",
+    "damage": "23,18,22",
     "startup": ",i27~30",
     "block": "-6~-4",
     "hit": "+18a",
@@ -740,6 +814,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "u+4",
     "hit_level": "m",
     "damage": "11",
@@ -750,6 +825,7 @@
     "note": "Alternate input: ub+4"
   },
   {
+    "name": "Shadow Scythe",
     "input": "uf+3",
     "hit_level": "M",
     "damage": "20",
@@ -760,6 +836,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "uf+4",
     "hit_level": "m",
     "damage": "14",
@@ -770,9 +847,10 @@
     "note": ""
   },
   {
+    "name": "Stormbringer",
     "input": "uf+4,4",
-    "hit_level": "m,​m",
-    "damage": "14,​20",
+    "hit_level": "m,m",
+    "damage": "14,20",
     "startup": ",i16~19",
     "block": "-15",
     "hit": "+9g~12g",
@@ -780,9 +858,10 @@
     "note": "Alternate input: ub+4,4 or u+4,4"
   },
   {
+    "name": "",
     "input": "uf+4,4~B",
-    "hit_level": "m,​m",
-    "damage": "14,​20",
+    "hit_level": "m,m",
+    "damage": "14,20",
     "startup": ",i16~19",
     "block": "-16~-15",
     "hit": "+15a (+5)",
@@ -790,6 +869,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "uf+3+4",
     "hit_level": "m",
     "damage": "17",
@@ -800,9 +880,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "uf+3+4,4",
-    "hit_level": "m,​L",
-    "damage": "17,​9",
+    "hit_level": "m,L",
+    "damage": "17,9",
     "startup": ",i21~22",
     "block": "-11~-10",
     "hit": "+0~+1",
@@ -810,9 +891,10 @@
     "note": ""
   },
   {
+    "name": "Chakram",
     "input": "uf+3+4,4,2",
-    "hit_level": "m,​L,​m",
-    "damage": "17,​9,​21",
+    "hit_level": "m,L,m",
+    "damage": "17,9,21",
     "startup": ",i21",
     "block": "-13",
     "hit": "+10a",
@@ -820,9 +902,10 @@
     "note": ""
   },
   {
+    "name": "Spinning Chakram",
     "input": "uf+3+4,3+4",
-    "hit_level": "m,​m",
-    "damage": "17,​15",
+    "hit_level": "m,m",
+    "damage": "17,15",
     "startup": ",i20~24",
     "block": "-25~-21",
     "hit": "+6a",
@@ -830,6 +913,7 @@
     "note": ""
   },
   {
+    "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
     "hit_level": "m",
     "damage": "20",
@@ -840,6 +924,7 @@
     "note": ""
   },
   {
+    "name": "Shadow Spear",
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "26",
@@ -850,6 +935,7 @@
     "note": ""
   },
   {
+    "name": "Sudden Strike",
     "input": "f,F+3",
     "hit_level": "m",
     "damage": "20",
@@ -860,6 +946,7 @@
     "note": ""
   },
   {
+    "name": "Iron Maul",
     "input": "f,F+4",
     "hit_level": "m",
     "damage": "21",
@@ -870,6 +957,7 @@
     "note": ""
   },
   {
+    "name": "Typhon Fang",
     "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "20",
@@ -880,9 +968,10 @@
     "note": ""
   },
   {
+    "name": "Typhon Fang Phantom",
     "input": "in heat f,f,F+3,4",
-    "hit_level": "m,​sm",
-    "damage": "20,​20",
+    "hit_level": "m,sm",
+    "damage": "20,20",
     "startup": "i26~28, i43~44",
     "block": "+7~+8",
     "hit": "+72a (+56)",
@@ -890,9 +979,10 @@
     "note": "Partially uses remaining Heat time\nAvailable only on hit or block"
   },
   {
+    "name": "War Hound",
     "input": "b,B+2",
-    "hit_level": "m,​h",
-    "damage": "15,​21",
+    "hit_level": "m,h",
+    "damage": "15,21",
     "startup": "i17~18 i30~31",
     "block": "-10~-9",
     "hit": "+5~+6",
@@ -900,9 +990,10 @@
     "note": "Jail from 1st attack\nParries high or low punches or kicks"
   },
   {
+    "name": "Blind Ghost",
     "input": "b,B+2,P",
-    "hit_level": "m,​h,​t",
-    "damage": "15,​21,​35",
+    "hit_level": "m,h,t",
+    "damage": "15,21,35",
     "startup": ",i15~25",
     "block": "-8~+2",
     "hit": "+0d",
@@ -910,6 +1001,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Jab",
     "input": "FC 1",
     "hit_level": "sl",
     "damage": "5",
@@ -920,6 +1012,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Straight",
     "input": "FC 2",
     "hit_level": "sl",
     "damage": "8",
@@ -930,6 +1023,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Kick",
     "input": "FC 3",
     "hit_level": "L",
     "damage": "10",
@@ -940,6 +1034,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Chin Kick",
     "input": "FC 4",
     "hit_level": "l",
     "damage": "6",
@@ -950,6 +1045,7 @@
     "note": ""
   },
   {
+    "name": "Aqua Spider",
     "input": "FC df+3",
     "hit_level": "L",
     "damage": "17",
@@ -960,9 +1056,10 @@
     "note": ""
   },
   {
+    "name": "Tornado Destruction",
     "input": "FC df+3+4",
-    "hit_level": "L,​sm",
-    "damage": "17,​25",
+    "hit_level": "L,sm",
+    "damage": "17,25",
     "startup": "i18~20 i34~36",
     "block": "-23~-21",
     "hit": "-5a",
@@ -970,9 +1067,10 @@
     "note": "Transition to r20 SZN on hit only\nSecond hit available on hit only\nPower up during Heat"
   },
   {
+    "name": "Tornado Destruction",
     "input": "in heat FC df+3+4",
-    "hit_level": "L,​sm",
-    "damage": "17,​25",
+    "hit_level": "L,sm",
+    "damage": "17,25",
     "startup": "i18~20 i34~36",
     "block": "-23~-21",
     "hit": "-5",
@@ -980,6 +1078,7 @@
     "note": "Transition to r20 SZN on hit only\nSecond hit available on hit only\nRecover Heat on hit"
   },
   {
+    "name": "Crouch Step",
     "input": "FC df,d,DF",
     "hit_level": "",
     "damage": "",
@@ -990,6 +1089,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Step to Shadow Sprint",
     "input": "FC df,d,DF,f",
     "hit_level": "",
     "damage": "",
@@ -1000,6 +1100,7 @@
     "note": ""
   },
   {
+    "name": "Rising Uppercut",
     "input": "ws1",
     "hit_level": "m",
     "damage": "14",
@@ -1010,6 +1111,7 @@
     "note": ""
   },
   {
+    "name": "Jackknife Elbow",
     "input": "ws2",
     "hit_level": "m",
     "damage": "17",
@@ -1020,6 +1122,7 @@
     "note": ""
   },
   {
+    "name": "Trident Kick",
     "input": "ws3",
     "hit_level": "m",
     "damage": "18",
@@ -1030,9 +1133,10 @@
     "note": ""
   },
   {
+    "name": "Trident Kick > Phantom Halberd",
     "input": "ws3,2",
-    "hit_level": "m,​sm",
-    "damage": "18,​20",
+    "hit_level": "m,sm",
+    "damage": "18,20",
     "startup": ",i19~20",
     "block": "-14~-13",
     "hit": "+65a (+49)",
@@ -1040,9 +1144,10 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
+    "name": "Trident Kick > Phantom Halberd",
     "input": "in heat ws3,2",
-    "hit_level": "m,​sm,​sm",
-    "damage": "18,​18,​20",
+    "hit_level": "m,sm,sm",
+    "damage": "18,18,20",
     "startup": "i16~17, i19~20 i39~41",
     "block": "-3~-1",
     "hit": "+65a (+49)",
@@ -1050,6 +1155,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "Shadow Snap Kick",
     "input": "ws4",
     "hit_level": "m",
     "damage": "18",
@@ -1060,6 +1166,7 @@
     "note": ""
   },
   {
+    "name": "Spinning Middle Kick",
     "input": "ws3+4",
     "hit_level": "m",
     "damage": "20",
@@ -1070,6 +1177,7 @@
     "note": "Alternate input: qcf+3+4"
   },
   {
+    "name": "Spinning Middle Kick",
     "input": "in heat ws3+4,F",
     "hit_level": "m",
     "damage": "20",
@@ -1080,6 +1188,7 @@
     "note": "Alternate input: H.qcf+3+4,F"
   },
   {
+    "name": "",
     "input": "ws3+4~B",
     "hit_level": "m",
     "damage": "20",
@@ -1090,6 +1199,7 @@
     "note": ""
   },
   {
+    "name": "Shadow Sprint",
     "input": "qcf",
     "hit_level": "",
     "damage": "",
@@ -1100,6 +1210,7 @@
     "note": ""
   },
   {
+    "name": "Shadow Sprint Cancel to FC",
     "input": "qcf,d,DF",
     "hit_level": "",
     "damage": "",
@@ -1110,6 +1221,7 @@
     "note": ""
   },
   {
+    "name": "Fatal Elbow",
     "input": "qcf+1",
     "hit_level": "m",
     "damage": "15",
@@ -1120,9 +1232,10 @@
     "note": ""
   },
   {
+    "name": "Fatal Elbow > Phantom Halberd",
     "input": "qcf+1,2",
-    "hit_level": "m,​sm",
-    "damage": "15,​21",
+    "hit_level": "m,sm",
+    "damage": "15,21",
     "startup": ",i19~20",
     "block": "-14~-13",
     "hit": "+24a (+9)",
@@ -1130,9 +1243,10 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
+    "name": "Fatal Elbow > Phantom Halberd",
     "input": "in heat qcf+1,2",
-    "hit_level": "m,​sm,​sm",
-    "damage": "15,​21,​30",
+    "hit_level": "m,sm,sm",
+    "damage": "15,21,30",
     "startup": "i16, 19~20, 39~41",
     "block": "-3~-1",
     "hit": "+24a (+9)",
@@ -1140,6 +1254,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "Fatal Elbow to SZ",
     "input": "qcf+1,3+4",
     "hit_level": "m",
     "damage": "15",
@@ -1150,6 +1265,7 @@
     "note": ""
   },
   {
+    "name": "Buzzsaw",
     "input": "qcf+2",
     "hit_level": "L",
     "damage": "18",
@@ -1160,9 +1276,10 @@
     "note": ""
   },
   {
+    "name": "Laevateinn",
     "input": "qcf+2~1",
-    "hit_level": "L,​m",
-    "damage": "18,​25",
+    "hit_level": "L,m",
+    "damage": "18,25",
     "startup": ",i20~21",
     "block": "-9~-8",
     "hit": "+24a (+14)",
@@ -1170,9 +1287,10 @@
     "note": "Chip damage on block\nActual startup is i40~41"
   },
   {
+    "name": "Poison Needle > Nightmare",
     "input": "qcf+3",
-    "hit_level": "h,​t",
-    "damage": "16,​14",
+    "hit_level": "h,t",
+    "damage": "16,14",
     "startup": "i16~17",
     "block": "-7~-6",
     "hit": "-4d",
@@ -1180,9 +1298,10 @@
     "note": "Transitions to attack throw on front hit only, otherwise launch +33a (+23)\nPower up during Heat"
   },
   {
+    "name": "Poison Needle > Nightmare",
     "input": "in heat qcf+3",
-    "hit_level": "h,​t",
-    "damage": "16,​14",
+    "hit_level": "h,t",
+    "damage": "16,14",
     "startup": "i16~17",
     "block": "-7~-6",
     "hit": "-4d",
@@ -1190,6 +1309,7 @@
     "note": "Transitions to attack throw on front hit only, otherwise launch +33a (+23)"
   },
   {
+    "name": "Black Hole",
     "input": "qcf+4",
     "hit_level": "M",
     "damage": "15",
@@ -1200,9 +1320,10 @@
     "note": ""
   },
   {
+    "name": "Hellhound",
     "input": "qcf+1+2",
-    "hit_level": "m,​m",
-    "damage": "12,​21",
+    "hit_level": "m,m",
+    "damage": "12,21",
     "startup": "i24 i35",
     "block": "-9",
     "hit": "+11a (+2)",
@@ -1210,9 +1331,10 @@
     "note": "Attack reversal\nParries high or mid punches or kicks"
   },
   {
+    "name": "Blind Ghost",
     "input": "qcf+1+2,P",
-    "hit_level": "m,​m,​t",
-    "damage": "12,​21,​35",
+    "hit_level": "m,m,t",
+    "damage": "12,21,35",
     "startup": ",i15~25",
     "block": "-8~+2",
     "hit": "+0d",
@@ -1220,6 +1342,7 @@
     "note": ""
   },
   {
+    "name": "Soulzone",
     "input": "3+4",
     "hit_level": "",
     "damage": "",
@@ -1230,6 +1353,7 @@
     "note": ""
   },
   {
+    "name": "Swift Blade",
     "input": "SZN 1",
     "hit_level": "h",
     "damage": "12",
@@ -1240,9 +1364,10 @@
     "note": ""
   },
   {
+    "name": "Swift Blade > Phantom Mace",
     "input": "SZN 1,4",
-    "hit_level": "h,​sm",
-    "damage": "12,​25",
+    "hit_level": "h,sm",
+    "damage": "12,25",
     "startup": ",i18~27",
     "block": "-14~-5",
     "hit": "+32a (-26)",
@@ -1250,9 +1375,10 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block"
   },
   {
+    "name": "Swift Blade > Phantom Mace",
     "input": "in heat SZN 1,4",
-    "hit_level": "H,​sm,​sm",
-    "damage": "12,​25,​30",
+    "hit_level": "H,sm,sm",
+    "damage": "12,25,30",
     "startup": "i14~15, i18~27, i44~45",
     "block": "-3~-2",
     "hit": "+32a (-26)",
@@ -1260,6 +1386,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "Swift Blade to Shadow Sprint",
     "input": "SZN 1~F",
     "hit_level": "h",
     "damage": "12",
@@ -1270,9 +1397,10 @@
     "note": ""
   },
   {
+    "name": "Dual Thanatos",
     "input": "SZN 2",
-    "hit_level": "m,​sm",
-    "damage": "20,​10",
+    "hit_level": "m,sm",
+    "damage": "20,10",
     "startup": "i18 23~24",
     "block": "-9",
     "hit": "+7a (-2)",
@@ -1280,9 +1408,10 @@
     "note": "Power up during Heat"
   },
   {
+    "name": "Dual Thanatos > Heat Dash",
     "input": "in heat SZN 2,F",
-    "hit_level": "m,​sm",
-    "damage": "20,​10",
+    "hit_level": "m,sm",
+    "damage": "20,10",
     "startup": "i18 23~24",
     "block": "+5",
     "hit": "+36a (+26)",
@@ -1290,6 +1419,7 @@
     "note": ""
   },
   {
+    "name": "Radius Flail",
     "input": "SZN 3",
     "hit_level": "m",
     "damage": "16",
@@ -1300,9 +1430,10 @@
     "note": ""
   },
   {
+    "name": "Radius Flail > Phantom Halberd",
     "input": "SZN 3,2",
-    "hit_level": "m,​sm",
-    "damage": "16,​21",
+    "hit_level": "m,sm",
+    "damage": "16,21",
     "startup": ",i19~20",
     "block": "-14~-13",
     "hit": "+24a (+9)",
@@ -1310,9 +1441,10 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nPower up during Heat"
   },
   {
+    "name": "Radius Flail > Phantom Halberd",
     "input": "in heat SZN 3,2",
-    "hit_level": "m,​sm,​sm",
-    "damage": "16,​21,​30",
+    "hit_level": "m,sm,sm",
+    "damage": "16,21,30",
     "startup": "i16~17, i19~20 i39~-41",
     "block": "-3~-1",
     "hit": "+24a (+9)",
@@ -1320,6 +1452,7 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "Cocytus Glide",
     "input": "SZN 4",
     "hit_level": "L",
     "damage": "21",
@@ -1330,6 +1463,7 @@
     "note": ""
   },
   {
+    "name": "Oceanus Fissure",
     "input": "SZN 1+2",
     "hit_level": "h",
     "damage": "25",
@@ -1340,6 +1474,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Blind Fall",
     "input": "SZN U",
     "hit_level": "",
     "damage": "",
@@ -1350,6 +1485,7 @@
     "note": ""
   },
   {
+    "name": "Blind Fall to Crouching State",
     "input": "SZN D",
     "hit_level": "",
     "damage": "",
@@ -1360,6 +1496,7 @@
     "note": ""
   },
   {
+    "name": "Blind Labyrinth",
     "input": "SZN B",
     "hit_level": "",
     "damage": "",
@@ -1370,6 +1507,7 @@
     "note": ""
   },
   {
+    "name": "Labyrinth",
     "input": "b+3+4",
     "hit_level": "",
     "damage": "",
@@ -1380,6 +1518,7 @@
     "note": ""
   },
   {
+    "name": "Labyrinth to Front",
     "input": "BT b+3+4",
     "hit_level": "",
     "damage": "",
@@ -1390,6 +1529,7 @@
     "note": ""
   },
   {
+    "name": "Blind Axe",
     "input": "BT 1",
     "hit_level": "h",
     "damage": "7",
@@ -1400,9 +1540,10 @@
     "note": ""
   },
   {
+    "name": "Blind Lance",
     "input": "BT 1,4",
-    "hit_level": "h,​h",
-    "damage": "7,​23",
+    "hit_level": "h,h",
+    "damage": "7,23",
     "startup": ",i16~17",
     "block": "-8~-7",
     "hit": "+40a (-18)",
@@ -1410,6 +1551,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Backfist",
     "input": "BT 2",
     "hit_level": "h",
     "damage": "13",
@@ -1420,9 +1562,10 @@
     "note": ""
   },
   {
+    "name": "Backfist > Straight",
     "input": "BT 2,1",
-    "hit_level": "h,​h",
-    "damage": "13,​10",
+    "hit_level": "h,h",
+    "damage": "13,10",
     "startup": ",i14",
     "block": "-3",
     "hit": "+3",
@@ -1430,9 +1573,10 @@
     "note": "Combo from 1st hit\nCan transition to r36 BT with B"
   },
   {
+    "name": "Backfist > Straight to Shadow Sprint",
     "input": "BT 2,1~F",
-    "hit_level": "h,​h",
-    "damage": "13,​10",
+    "hit_level": "h,h",
+    "damage": "13,10",
     "startup": ",i14",
     "block": "+1",
     "hit": "+7",
@@ -1440,9 +1584,10 @@
     "note": ""
   },
   {
+    "name": "Blinding Knife",
     "input": "BT 2,2",
-    "hit_level": "h,​m",
-    "damage": "13,​15",
+    "hit_level": "h,m",
+    "damage": "13,15",
     "startup": ",i21~22",
     "block": "-9~-8",
     "hit": "+2~+3",
@@ -1450,9 +1595,10 @@
     "note": ""
   },
   {
+    "name": "Blinding Knife ＞ Phantom Javelin",
     "input": "BT 2,2,1",
-    "hit_level": "h,​m,​sm",
-    "damage": "13,​15,​21",
+    "hit_level": "h,m,sm",
+    "damage": "13,15,21",
     "startup": ",i18~19",
     "block": "-14~-13",
     "hit": "+2a (-7)",
@@ -1460,9 +1606,10 @@
     "note": "Combo from 2nd hit\nCombo from 1st CH\nPower up during Heat"
   },
   {
+    "name": "Blinding Knife ＞ Phantom Javelin",
     "input": "in heat BT 2,2,1",
-    "hit_level": "h,​m,​sm,​sm",
-    "damage": "9,​12,​21,​30",
+    "hit_level": "h,m,sm,sm",
+    "damage": "9,12,21,30",
     "startup": "i10, i21~22, i18~19, i39~47",
     "block": "-3",
     "hit": "+2a (-7)",
@@ -1470,9 +1617,10 @@
     "note": "Combo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "",
     "input": "BT 2,2,3+4",
-    "hit_level": "h,​m",
-    "damage": "13,​15",
+    "hit_level": "h,m",
+    "damage": "13,15",
     "startup": "i10, i21~22, i18~19, i39~47",
     "block": "-7~-6",
     "hit": "+8~+9",
@@ -1480,6 +1628,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT 3",
     "hit_level": "h",
     "damage": "10",
@@ -1490,9 +1639,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT 3,4",
-    "hit_level": "h,​m",
-    "damage": "10,​17",
+    "hit_level": "h,m",
+    "damage": "10,17",
     "startup": ",i28~30",
     "block": "+0~+2",
     "hit": "+1~+3",
@@ -1500,9 +1650,10 @@
     "note": "Combo from 1st hit with 2f delay\nInput can be delayed 6f\nMove can be delayed 5f\nForces crouch on CH"
   },
   {
+    "name": "Crescent Mirage",
     "input": "BT 3,4,3",
-    "hit_level": "h,​m,​M",
-    "damage": "10,​17,​22",
+    "hit_level": "h,m,M",
+    "damage": "10,17,22",
     "startup": ",i27~30",
     "block": "-6~-3",
     "hit": "+18a",
@@ -1510,9 +1661,10 @@
     "note": ""
   },
   {
+    "name": "Fafnir",
     "input": "BT 3,4,4",
-    "hit_level": "h,​m,​M",
-    "damage": "10,​17,​21",
+    "hit_level": "h,m,M",
+    "damage": "10,17,21",
     "startup": ",i32~34",
     "block": "-9~-8",
     "hit": "+5a",
@@ -1520,9 +1672,10 @@
     "note": "Combo from 2nd CH"
   },
   {
+    "name": "Fafnir to Blind Roll",
     "input": "BT 3,4,4,F",
-    "hit_level": "h,​m,​M",
-    "damage": "10,​17,​21",
+    "hit_level": "h,m,M",
+    "damage": "10,17,21",
     "startup": ",i32~34",
     "block": "-36",
     "hit": "",
@@ -1530,6 +1683,7 @@
     "note": ""
   },
   {
+    "name": "Chronos Lathe",
     "input": "BT 4",
     "hit_level": "m",
     "damage": "21",
@@ -1540,6 +1694,7 @@
     "note": ""
   },
   {
+    "name": "Chronos Lathe > Heat Dash",
     "input": "in heat BT 4,F",
     "hit_level": "m",
     "damage": "21",
@@ -1550,6 +1705,7 @@
     "note": ""
   },
   {
+    "name": "Crusader",
     "input": "BT 1+2",
     "hit_level": "m",
     "damage": "23",
@@ -1560,9 +1716,10 @@
     "note": "Frame advantage is -7 if an attack is absorbed\nChip damage on block if an attack is absorbed"
   },
   {
+    "name": "Spiral Cannon",
     "input": "BT 3+4",
-    "hit_level": "m,​m",
-    "damage": "5,​20",
+    "hit_level": "m,m",
+    "damage": "5,20",
     "startup": "i15 i34~35",
     "block": "-20~-19",
     "hit": "+43a (+39)",
@@ -1570,6 +1727,7 @@
     "note": ""
   },
   {
+    "name": "Soul Steal",
     "input": "BT f+1",
     "hit_level": "m",
     "damage": "18",
@@ -1580,6 +1738,7 @@
     "note": "Transitions to throw on hit only\nOpponent recovers BT on hit"
   },
   {
+    "name": "",
     "input": "BT f+2",
     "hit_level": "m",
     "damage": "13",
@@ -1590,9 +1749,10 @@
     "note": ""
   },
   {
+    "name": "Cold Massacre",
     "input": "BT f+2,3",
-    "hit_level": "m,​M",
-    "damage": "13,​15",
+    "hit_level": "m,M",
+    "damage": "13,15",
     "startup": ",i24~25",
     "block": "-7~-6",
     "hit": "+14~+15",
@@ -1600,9 +1760,10 @@
     "note": "Combo from 1st CH with 5f delay\nInput can be delayed 12f\nForces crouch on CH"
   },
   {
+    "name": "Cold Worm",
     "input": "BT f+2,4",
-    "hit_level": "m,​h",
-    "damage": "13,​17",
+    "hit_level": "m,h",
+    "damage": "13,17",
     "startup": ",i20~21",
     "block": "-7~-6",
     "hit": "+4~+5",
@@ -1610,9 +1771,10 @@
     "note": "Combo from 1st hit with 1f delay\nInput can be delayed 12f\nPower up during Heat"
   },
   {
+    "name": "Cold Worm > Phantom Halberd",
     "input": "BT f+2,4,2",
-    "hit_level": "m,​h,​sm",
-    "damage": "13,​17,​21",
+    "hit_level": "m,h,sm",
+    "damage": "13,17,21",
     "startup": ",i19~20",
     "block": "-14~-13",
     "hit": "+24a (+9)",
@@ -1620,9 +1782,10 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block"
   },
   {
+    "name": "Cold Worm > Phantom Halberd",
     "input": "in heat BT f+2,4,2",
-    "hit_level": "m,​h,​sm,​sm",
-    "damage": "13,​17,​21,​30",
+    "hit_level": "m,h,sm,sm",
+    "damage": "13,17,21,30",
     "startup": "i17~18, i20~21, i19~20 i39~41",
     "block": "-3~-1",
     "hit": "+24a (+9)",
@@ -1630,6 +1793,7 @@
     "note": "Combo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit"
   },
   {
+    "name": "Demon Knee",
     "input": "BT f+3",
     "hit_level": "m",
     "damage": "17",
@@ -1640,6 +1804,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT f+3~B",
     "hit_level": "m",
     "damage": "17",
@@ -1650,6 +1815,7 @@
     "note": ""
   },
   {
+    "name": "Kama Kick",
     "input": "BT f+4",
     "hit_level": "L",
     "damage": "9",
@@ -1660,9 +1826,10 @@
     "note": ""
   },
   {
+    "name": "Trick Bang",
     "input": "BT f+4,1",
-    "hit_level": "L,​h",
-    "damage": "9,​15",
+    "hit_level": "L,h",
+    "damage": "9,15",
     "startup": ",i22~23",
     "block": "-9~-8",
     "hit": "+5~+6",
@@ -1670,9 +1837,10 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "",
     "input": "BT f+4,1,3+4",
-    "hit_level": "L,​h",
-    "damage": "9,​15",
+    "hit_level": "L,h",
+    "damage": "9,15",
     "startup": ",i22~23",
     "block": "-6~-5",
     "hit": "+8~+9",
@@ -1680,6 +1848,7 @@
     "note": ""
   },
   {
+    "name": "Reverse Chakram",
     "input": "BT f+3+4",
     "hit_level": "M",
     "damage": "24",
@@ -1690,6 +1859,7 @@
     "note": ""
   },
   {
+    "name": "Reverse Chakram to Blind Roll",
     "input": "BT f+3+4,F",
     "hit_level": "M",
     "damage": "24",
@@ -1700,6 +1870,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Knuckle",
     "input": "BT d+1",
     "hit_level": "sl",
     "damage": "5",
@@ -1710,6 +1881,7 @@
     "note": ""
   },
   {
+    "name": "Shinobi Cyclone (clean)",
     "input": "BT d+3",
     "hit_level": "l",
     "damage": "21",
@@ -1720,6 +1892,7 @@
     "note": ""
   },
   {
+    "name": "Shinobi Cyclone",
     "input": "BT d+3",
     "hit_level": "L",
     "damage": "16",
@@ -1730,6 +1903,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Kick",
     "input": "BT d+4",
     "hit_level": "l",
     "damage": "6",
@@ -1740,6 +1914,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT b+2",
     "hit_level": "m",
     "damage": "17",
@@ -1750,9 +1925,10 @@
     "note": ""
   },
   {
+    "name": "Abyss Cannon",
     "input": "BT b+2,3",
-    "hit_level": "m,​m,​m",
-    "damage": "17,​5,​20",
+    "hit_level": "m,m,m",
+    "damage": "17,5,20",
     "startup": ",i20 i39~40",
     "block": "-20~-19",
     "hit": "+42a (+38)",
@@ -1760,9 +1936,10 @@
     "note": "Combo from 1st CH\nSecond kick's frame advantage on hit: +34a (+24)"
   },
   {
+    "name": "Abyss Spear",
     "input": "BT b+2,4",
-    "hit_level": "m,​h",
-    "damage": "17,​13",
+    "hit_level": "m,h",
+    "damage": "17,13",
     "startup": ",i17~18",
     "block": "-9~-8",
     "hit": "+2~+3",
@@ -1770,6 +1947,7 @@
     "note": ""
   },
   {
+    "name": "Cannon Tail",
     "input": "BT b+3",
     "hit_level": "h",
     "damage": "22",
@@ -1780,6 +1958,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Gremlin Smasher",
     "input": "BT f,F+3",
     "hit_level": "m",
     "damage": "25",
@@ -1790,6 +1969,7 @@
     "note": ""
   },
   {
+    "name": "Vermillion",
     "input": "BT f,F+3+4",
     "hit_level": "L",
     "damage": "17",
@@ -1800,6 +1980,7 @@
     "note": ""
   },
   {
+    "name": "Blind Roll",
     "input": "BT f,f,f",
     "hit_level": "",
     "damage": "",
@@ -1810,6 +1991,7 @@
     "note": ""
   },
   {
+    "name": "Sixth Sense",
     "input": "BT f+1+2",
     "hit_level": "",
     "damage": "",
@@ -1820,6 +2002,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT f+1+2,P",
     "hit_level": "t",
     "damage": "25",
@@ -1830,6 +2013,7 @@
     "note": ""
   },
   {
+    "name": "Summon Force",
     "input": "1+2+3+4",
     "hit_level": "",
     "damage": "",
@@ -1840,9 +2024,10 @@
     "note": "CH state for 5 seconds\nCan't block for 5 seconds"
   },
   {
+    "name": "Dead End",
     "input": "1+2+3+4,b,f,1+2",
-    "hit_level": "sp,​m!",
-    "damage": "-,​60",
+    "hit_level": "sp,m!",
+    "damage": "-,60",
     "startup": ",i59~61",
     "block": "",
     "hit": "+21a (+11)",
@@ -1850,6 +2035,7 @@
     "note": ""
   },
   {
+    "name": "Wall Jump Attack",
     "input": "(Back to wall) b,b,UB",
     "hit_level": "m",
     "damage": "21",
@@ -1860,6 +2046,7 @@
     "note": ""
   },
   {
+    "name": "Back Handspring",
     "input": "UB,b",
     "hit_level": "",
     "damage": "",
@@ -1870,9 +2057,10 @@
     "note": ""
   },
   {
+    "name": "Pandra Spin",
     "input": "UB,b,3+4",
-    "hit_level": "sp,​M!,​M!,​M!",
-    "damage": "-,​20,​20,​20",
+    "hit_level": "sp,M!,M!,M!",
+    "damage": "-,20,20,20",
     "startup": ",i38~40 i46~49 i51~54",
     "block": "",
     "hit": "-19a",
@@ -1880,6 +2068,7 @@
     "note": ""
   },
   {
+    "name": "Utsusemi Escape",
     "input": "b+1+3",
     "hit_level": "",
     "damage": "",
@@ -1890,6 +2079,7 @@
     "note": "Parries all attacks\nAlternate input: b+2+4"
   },
   {
+    "name": "Utsusemi Escape",
     "input": "b+1+3,P",
     "hit_level": "",
     "damage": "",
@@ -1900,6 +2090,7 @@
     "note": "Deals recoverable self-damage on a successful parry\nRaven will teleport back a safe distance\nAlternate input: BT.b+1+3 or BT.b+2+4"
   },
   {
+    "name": "Grave Digger",
     "input": "1+3",
     "hit_level": "t",
     "damage": "35",
@@ -1910,6 +2101,7 @@
     "note": ""
   },
   {
+    "name": "Salamander",
     "input": "2+4",
     "hit_level": "t",
     "damage": "35",
@@ -1920,6 +2112,7 @@
     "note": "Throw break 1 or 2\nSide switch"
   },
   {
+    "name": "Neck Ringer",
     "input": "Left throw",
     "hit_level": "t",
     "damage": "40",
@@ -1930,6 +2123,7 @@
     "note": "Throw break 1\nSide switch on hit"
   },
   {
+    "name": "Swift Assassin",
     "input": "Right throw",
     "hit_level": "t",
     "damage": "40",
@@ -1940,6 +2134,7 @@
     "note": "Throw break 2"
   },
   {
+    "name": "Dark Matter",
     "input": "Back throw",
     "hit_level": "t",
     "damage": "50",
@@ -1950,6 +2145,7 @@
     "note": "Unbreakable"
   },
   {
+    "name": "Orbiting Moon",
     "input": "df+1+4",
     "hit_level": "t",
     "damage": "35",
@@ -1960,6 +2156,7 @@
     "note": "Throw break 1\nAlternate input: qcf,df+1+4"
   },
   {
+    "name": "Undertaker",
     "input": "uf+1+2",
     "hit_level": "t",
     "damage": "40",

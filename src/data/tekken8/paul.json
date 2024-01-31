@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "12",
@@ -10,9 +11,10 @@
     "note": "Consumes Heat\nCancel move with b,b"
   },
   {
+    "name": "Demolition Ball",
     "input": "in heat 2+3",
-    "hit_level": "L,​m,​t",
-    "damage": "9,​16,​15",
+    "hit_level": "L,m,t",
+    "damage": "9,16,15",
     "startup": "i18,21",
     "block": "-12",
     "hit": "+60a, +3a",
@@ -20,6 +22,7 @@
     "note": "Transition to throw on 1st hit only"
   },
   {
+    "name": "Half-Step Phoenix Smasher",
     "input": "in heat 1+2",
     "hit_level": "m",
     "damage": "30",
@@ -30,6 +33,7 @@
     "note": "Consumes Heat"
   },
   {
+    "name": "Half-Step Phoenix Smasher (Hold)",
     "input": "in heat 1+2*",
     "hit_level": "m",
     "damage": "35",
@@ -40,6 +44,7 @@
     "note": "Consumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b"
   },
   {
+    "name": "Half-Step Phoenix Smasher (Max Hold)",
     "input": "in heat 1+2**",
     "hit_level": "m!",
     "damage": "40",
@@ -50,8 +55,9 @@
     "note": "Consumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b"
   },
   {
+    "name": "Big Bang Phoenix Smasher",
     "input": "in rage df+1+2",
-    "hit_level": "m,​t",
+    "hit_level": "m,t",
     "damage": "55",
     "startup": "i20",
     "block": "-15",
@@ -60,6 +66,7 @@
     "note": "Rage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health"
   },
   {
+    "name": "Left Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -70,9 +77,10 @@
     "note": ""
   },
   {
+    "name": "Left Right Combo",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​12",
+    "hit_level": "h,h",
+    "damage": "5,12",
     "startup": "i10",
     "block": "-3",
     "hit": "+8",
@@ -80,9 +88,10 @@
     "note": "Jail from 1st attack"
   },
   {
+    "name": "Reverse PDK Combo",
     "input": "1,4",
-    "hit_level": "h,​L",
-    "damage": "5,​8",
+    "hit_level": "h,L",
+    "damage": "5,8",
     "startup": "i23",
     "block": "-11c",
     "hit": "+1c",
@@ -90,6 +99,7 @@
     "note": "CH from 1st attack"
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "10",
@@ -100,9 +110,10 @@
     "note": ""
   },
   {
+    "name": "PK Combo",
     "input": "2,3",
-    "hit_level": "h,​h",
-    "damage": "10,​21",
+    "hit_level": "h,h",
+    "damage": "10,21",
     "startup": "i22",
     "block": "-9",
     "hit": "+22d (+13)",
@@ -110,9 +121,10 @@
     "note": "CH from 1st attack"
   },
   {
+    "name": "PDK Combo",
     "input": "2,d+3",
-    "hit_level": "h,​L",
-    "damage": "10,​11",
+    "hit_level": "h,L",
+    "damage": "10,11",
     "startup": "i22",
     "block": "-12c",
     "hit": "-1c",
@@ -120,6 +132,7 @@
     "note": "CH from 1st attack"
   },
   {
+    "name": "Left Kick",
     "input": "3",
     "hit_level": "m",
     "damage": "14",
@@ -130,9 +143,10 @@
     "note": ""
   },
   {
+    "name": "Piston Fire",
     "input": "3,2",
-    "hit_level": "m,​h",
-    "damage": "14,​17",
+    "hit_level": "m,h",
+    "damage": "14,17",
     "startup": "i23",
     "block": "-3",
     "hit": "+7",
@@ -140,6 +154,7 @@
     "note": "Combo from 1st attack\nTransition to +4 + 14 Sway with b\nMove can be delayed"
   },
   {
+    "name": "Right Kick",
     "input": "4",
     "hit_level": "h",
     "damage": "17",
@@ -150,6 +165,7 @@
     "note": ""
   },
   {
+    "name": "Half-Step Phoenix Smasher",
     "input": "1+2",
     "hit_level": "m",
     "damage": "30",
@@ -160,6 +176,7 @@
     "note": "Consumes Heat"
   },
   {
+    "name": "Half-Step Phoenix Smasher (Hold)",
     "input": "1+2*",
     "hit_level": "m",
     "damage": "35",
@@ -170,6 +187,7 @@
     "note": "Consumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b"
   },
   {
+    "name": "Half-Step Phoenix Smasher (Max Hold)",
     "input": "1+2**",
     "hit_level": "m!",
     "damage": "40",
@@ -180,6 +198,7 @@
     "note": "Consumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b"
   },
   {
+    "name": "Phoenix Hook, Tiger Claw",
     "input": "f+2",
     "hit_level": "h",
     "damage": "40",
@@ -190,6 +209,7 @@
     "note": "Transition to throw on hit"
   },
   {
+    "name": "",
     "input": "f+3",
     "hit_level": "h",
     "damage": "11",
@@ -200,9 +220,10 @@
     "note": ""
   },
   {
+    "name": "Lion's Tempest",
     "input": "f+3,1",
-    "hit_level": "h,​m",
-    "damage": "11,​21",
+    "hit_level": "h,m",
+    "damage": "11,21",
     "startup": "i17",
     "block": "-10",
     "hit": "+12d (+3)",
@@ -210,6 +231,7 @@
     "note": "Combo from 1st attack"
   },
   {
+    "name": "Stone Lion",
     "input": "f+4",
     "hit_level": "m",
     "damage": "21",
@@ -220,6 +242,7 @@
     "note": ""
   },
   {
+    "name": "Hammer of the Gods",
     "input": "f+1+2",
     "hit_level": "M",
     "damage": "22",
@@ -230,6 +253,7 @@
     "note": ""
   },
   {
+    "name": "Shoulder Tackle",
     "input": "f+1+4",
     "hit_level": "m",
     "damage": "25",
@@ -240,6 +264,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+1",
     "hit_level": "m",
     "damage": "11",
@@ -250,9 +275,10 @@
     "note": "Transition to +3 +4 Sway with b"
   },
   {
+    "name": "",
     "input": "df+1,1",
-    "hit_level": "m,​h",
-    "damage": "11,​9",
+    "hit_level": "m,h",
+    "damage": "11,9",
     "startup": "i20~21",
     "block": "-5",
     "hit": "+5",
@@ -260,9 +286,10 @@
     "note": "Combo from 1st attack\nMove can be delayed"
   },
   {
+    "name": "Lion's Roar",
     "input": "df+1,1,2",
-    "hit_level": "m,​h,​m",
-    "damage": "11,​9,​22",
+    "hit_level": "m,h,m",
+    "damage": "11,9,22",
     "startup": "i22~23",
     "block": "-9",
     "hit": "+32d (+24)",
@@ -270,6 +297,7 @@
     "note": "Combo from 2nd CH"
   },
   {
+    "name": "Kurenai",
     "input": "df+2",
     "hit_level": "m",
     "damage": "13",
@@ -280,6 +308,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+3",
     "hit_level": "m",
     "damage": "14",
@@ -290,9 +319,10 @@
     "note": ""
   },
   {
+    "name": "Phoenix Wings",
     "input": "df+3,4",
-    "hit_level": "m,​m",
-    "damage": "14,​17",
+    "hit_level": "m,m",
+    "damage": "14,17",
     "startup": "i21~22",
     "block": "-10",
     "hit": "+6",
@@ -300,6 +330,7 @@
     "note": "Combo from 1st attack\nMove can be delayed"
   },
   {
+    "name": "Tiger Claw",
     "input": "df+4",
     "hit_level": "m",
     "damage": "17",
@@ -310,6 +341,7 @@
     "note": ""
   },
   {
+    "name": "Hammer Punch",
     "input": "d+1",
     "hit_level": "M",
     "damage": "16",
@@ -320,9 +352,10 @@
     "note": "Enter crouch with D"
   },
   {
+    "name": "Phoenix Smasher",
     "input": "d+1,2",
-    "hit_level": "M,​m",
-    "damage": "16,​26",
+    "hit_level": "M,m",
+    "damage": "16,26",
     "startup": "i29",
     "block": "-17",
     "hit": "+20d (+10)",
@@ -330,9 +363,10 @@
     "note": "Combo from 1st CH\nConsumes Heat"
   },
   {
-    "input": "d+1,2*",
-    "hit_level": "M,​m",
-    "damage": "16,​26,​39",
+    "name": "Phoenix Smasher Hold",
+    "input": "d+1,2",
+    "hit_level": "M,m",
+    "damage": "16,26,39",
     "startup": "i43",
     "block": "+9",
     "hit": "+20d (+10)",
@@ -340,9 +374,10 @@
     "note": "Chip damage\nConsumes Heat"
   },
   {
+    "name": "",
     "input": "d+1,4",
-    "hit_level": "M,​L",
-    "damage": "16,​15",
+    "hit_level": "M,L",
+    "damage": "16,15",
     "startup": "i19",
     "block": "-31c",
     "hit": "-17",
@@ -350,9 +385,10 @@
     "note": "Combo from 1st CH\nMove can be delayed"
   },
   {
+    "name": "Hang Over",
     "input": "d+1,4,2",
-    "hit_level": "M,​L,​m",
-    "damage": "16,​15,​21",
+    "hit_level": "M,L,m",
+    "damage": "16,15,21",
     "startup": "i21",
     "block": "-14",
     "hit": "+3d (-6)",
@@ -360,6 +396,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "d+4",
     "hit_level": "L",
     "damage": "8",
@@ -370,9 +407,10 @@
     "note": "Has a clean hit effect"
   },
   {
+    "name": "Bone Breaker",
     "input": "d+4,2",
-    "hit_level": "L,​m",
-    "damage": "8,​23",
+    "hit_level": "L,m",
+    "damage": "8,23",
     "startup": "i21",
     "block": "-18",
     "hit": "-9",
@@ -380,9 +418,10 @@
     "note": "Combo from 1st CH\nHas a clean hit effect"
   },
   {
+    "name": "Demolition Man",
     "input": "d+4,2,1+2",
-    "hit_level": "L,​m,​m",
-    "damage": "8,​23,​13",
+    "hit_level": "L,m,m",
+    "damage": "8,23,13",
     "startup": "i26~27",
     "block": "-17",
     "hit": "+3 (-6)",
@@ -390,6 +429,7 @@
     "note": "Combo from 1st CH\nHigher damage with perfect frame input (38 > 40)"
   },
   {
+    "name": "Shoulder Smash",
     "input": "d+1+2",
     "hit_level": "m",
     "damage": "30",
@@ -400,6 +440,7 @@
     "note": ""
   },
   {
+    "name": "Dickjab",
     "input": "db+1",
     "hit_level": "special L",
     "damage": "5",
@@ -410,6 +451,7 @@
     "note": ""
   },
   {
+    "name": "Shoot the Moon",
     "input": "db+2",
     "hit_level": "M",
     "damage": "21",
@@ -420,6 +462,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+3",
     "hit_level": "L",
     "damage": "12",
@@ -430,6 +473,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+4",
     "hit_level": "L",
     "damage": "6",
@@ -440,6 +484,7 @@
     "note": ""
   },
   {
+    "name": "Chain Breaker",
     "input": "db+1+2",
     "hit_level": "M",
     "damage": "21",
@@ -450,6 +495,7 @@
     "note": "Absorb an attack to power up and deal more chip damage"
   },
   {
+    "name": "",
     "input": "b+1",
     "hit_level": "h",
     "damage": "12",
@@ -460,9 +506,10 @@
     "note": ""
   },
   {
+    "name": "Double Wing",
     "input": "b+1,2",
-    "hit_level": "h,​M",
-    "damage": "12,​21",
+    "hit_level": "h,M",
+    "damage": "12,21",
     "startup": "i20~21",
     "block": "-14",
     "hit": "+16d (-1)",
@@ -470,6 +517,7 @@
     "note": "Combo from 1st attack"
   },
   {
+    "name": "Attack Reversal",
     "input": "b1+3/2+4",
     "hit_level": "",
     "damage": "25",
@@ -480,6 +528,7 @@
     "note": "Timed with opponent attack"
   },
   {
+    "name": "",
     "input": "b+2",
     "hit_level": "m",
     "damage": "22",
@@ -490,9 +539,10 @@
     "note": ""
   },
   {
+    "name": "Crushing Wind",
     "input": "b+2,1",
-    "hit_level": "m,​m",
-    "damage": "22,​22",
+    "hit_level": "m,m",
+    "damage": "22,22",
     "startup": "i36",
     "block": "-12",
     "hit": "0c",
@@ -500,9 +550,10 @@
     "note": "Combo from 1st CH"
   },
   {
-    "input": "b+2,1*",
-    "hit_level": "m,​m,​m",
-    "damage": "22,​22,​35",
+    "name": "Crushing Wind Hold",
+    "input": "b+2,1",
+    "hit_level": "m,m,m",
+    "damage": "22,22,35",
     "startup": "i60~61",
     "block": "+8",
     "hit": "+20d",
@@ -510,6 +561,7 @@
     "note": "Chip damage\nConsumes Heat"
   },
   {
+    "name": "Lights Out",
     "input": "b+3",
     "hit_level": "h",
     "damage": "16",
@@ -520,6 +572,7 @@
     "note": ""
   },
   {
+    "name": "Leg Sweep",
     "input": "b+4",
     "hit_level": "L",
     "damage": "14",
@@ -530,6 +583,7 @@
     "note": ""
   },
   {
+    "name": "Hassou Strike",
     "input": "b+1+2",
     "hit_level": "h",
     "damage": "28",
@@ -540,6 +594,7 @@
     "note": "Absorb an attack to power up and deal more damage on block"
   },
   {
+    "name": "Wrecking Ball",
     "input": "ub+2",
     "hit_level": "m",
     "damage": "22",
@@ -550,6 +605,7 @@
     "note": ""
   },
   {
+    "name": "Moonfall",
     "input": "uf+2",
     "hit_level": "h",
     "damage": "22",
@@ -560,6 +616,7 @@
     "note": "Alternate input u+2"
   },
   {
+    "name": "",
     "input": "uf+3",
     "hit_level": "m",
     "damage": "15",
@@ -570,9 +627,10 @@
     "note": "Alternate input u+3 and/or ub+3"
   },
   {
+    "name": "Shredder",
     "input": "uf+3,4",
-    "hit_level": "m,​m",
-    "damage": "15,​10",
+    "hit_level": "m,m",
+    "damage": "15,10",
     "startup": "i13~14",
     "block": "-13",
     "hit": "+32a (+22)",
@@ -580,6 +638,7 @@
     "note": "Combo from 1st attack\nAlternate input u+3,4 and/or ub+3,4"
   },
   {
+    "name": "Rising Toe Kick",
     "input": "uf+4",
     "hit_level": "m",
     "damage": "13",
@@ -590,6 +649,7 @@
     "note": "Alternate input ub+4 and/or u+4"
   },
   {
+    "name": "Delayed Rising Toe Kick",
     "input": "uf,n,4",
     "hit_level": "m",
     "damage": "20",
@@ -600,6 +660,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "14",
@@ -610,9 +671,10 @@
     "note": ""
   },
   {
+    "name": "Juggernaut",
     "input": "f,F+2,1",
-    "hit_level": "m,​m",
-    "damage": "14,​20",
+    "hit_level": "m,m",
+    "damage": "14,20",
     "startup": "i26",
     "block": "-12",
     "hit": "+14d",
@@ -620,9 +682,10 @@
     "note": "Combo from 1st attack\nAlternate input FC.df+2,1\nCancel with B"
   },
   {
+    "name": "Phoenix Bone Breaker",
     "input": "f,F+2:1",
-    "hit_level": "m,​h",
-    "damage": "14,​24",
+    "hit_level": "m,h",
+    "damage": "14,24",
     "startup": ",i15",
     "block": "-4",
     "hit": "+37d (+11)",
@@ -630,9 +693,10 @@
     "note": "Chip damage\nCombo from 1st hit\nAlternate input FC.df+2:1"
   },
   {
+    "name": "Bulldozer",
     "input": "f,F+2,2",
-    "hit_level": "m,​L",
-    "damage": "14,​21",
+    "hit_level": "m,L",
+    "damage": "14,21",
     "startup": "i36~38",
     "block": "-19c",
     "hit": "+27a",
@@ -640,6 +704,7 @@
     "note": "Alternate input FC.df+2,2\nCancel to -18 FC with B"
   },
   {
+    "name": "",
     "input": "f,F+3",
     "hit_level": "m",
     "damage": "17",
@@ -650,9 +715,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f,F+3,4",
-    "hit_level": "m,​m",
-    "damage": "17,​10",
+    "hit_level": "m,m",
+    "damage": "17,10",
     "startup": "i13~14",
     "block": "-16",
     "hit": "+27a (+20)",
@@ -660,9 +726,10 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Double Hop Kick High",
     "input": "f,F+3,4,4",
-    "hit_level": "m,​m,​h",
-    "damage": "17,​10,​25",
+    "hit_level": "m,m,h",
+    "damage": "17,10,25",
     "startup": "i23~25",
     "block": "-5",
     "hit": "+62a (+42)",
@@ -670,9 +737,10 @@
     "note": ""
   },
   {
+    "name": "Triple Kick Combo",
     "input": "f,F+3,4,f+4",
-    "hit_level": "m,​m,​m",
-    "damage": "17,​10,​18",
+    "hit_level": "m,m,m",
+    "damage": "17,10,18",
     "startup": "i27~29",
     "block": "-14",
     "hit": "+12d (+3)",
@@ -680,9 +748,10 @@
     "note": ""
   },
   {
+    "name": "Double Hop Kick Low",
     "input": "f,F+3,4,d+4",
-    "hit_level": "m,​m,​L",
-    "damage": "17,​10,​15",
+    "hit_level": "m,m,L",
+    "damage": "17,10,15",
     "startup": "i27~28",
     "block": "-17c",
     "hit": "-6",
@@ -690,6 +759,7 @@
     "note": ""
   },
   {
+    "name": "Neutron Bomb",
     "input": "f,F+4",
     "hit_level": "m",
     "damage": "20",
@@ -700,9 +770,10 @@
     "note": ""
   },
   {
+    "name": "Turbulent Hammer",
     "input": "f,f,F+2",
-    "hit_level": "m,​t",
-    "damage": "21,​34",
+    "hit_level": "m,t",
+    "damage": "21,34",
     "startup": "i18~19",
     "block": "-10",
     "hit": "+0d",
@@ -710,6 +781,7 @@
     "note": "Transition to throw on front hit only\nAlternate input wr2"
   },
   {
+    "name": "Burning Spear",
     "input": "b,n,f+1",
     "hit_level": "h",
     "damage": "22",
@@ -720,6 +792,7 @@
     "note": "Often written b,f+1"
   },
   {
+    "name": "",
     "input": "ws1",
     "hit_level": "m",
     "damage": "16",
@@ -730,9 +803,10 @@
     "note": ""
   },
   {
+    "name": "Enfolding Dragon",
     "input": "ws1,2",
-    "hit_level": "m,​m",
-    "damage": "16,​17",
+    "hit_level": "m,m",
+    "damage": "16,17",
     "startup": "i20",
     "block": "-11",
     "hit": "+2",
@@ -740,6 +814,7 @@
     "note": "Hold b to transition to Sway\nCombo from 1st CH\nMove can be delayed"
   },
   {
+    "name": "Thunder Palm",
     "input": "ws2",
     "hit_level": "m",
     "damage": "20",
@@ -750,6 +825,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "ws3",
     "hit_level": "M",
     "damage": "16",
@@ -760,9 +836,10 @@
     "note": ""
   },
   {
+    "name": "Shioh",
     "input": "ws3,2",
-    "hit_level": "M,​h",
-    "damage": "16,​21",
+    "hit_level": "M,h",
+    "damage": "16,21",
     "startup": "i13~14",
     "block": "-9",
     "hit": "+17d (+8)",
@@ -770,6 +847,7 @@
     "note": "Combo from 1st\nMove can be delayed"
   },
   {
+    "name": "Toe Smash",
     "input": "ws4",
     "hit_level": "m",
     "damage": "18",
@@ -780,6 +858,7 @@
     "note": ""
   },
   {
+    "name": "Somersault Kick Warm-Up Moves",
     "input": "FC D",
     "hit_level": "",
     "damage": "",
@@ -790,6 +869,7 @@
     "note": ""
   },
   {
+    "name": "Incomplete Somersault",
     "input": "FC D,U+4",
     "hit_level": "m",
     "damage": "40",
@@ -800,6 +880,7 @@
     "note": "Deals recoverable damage to self"
   },
   {
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "",
     "damage": "",
@@ -810,6 +891,7 @@
     "note": ""
   },
   {
+    "name": "Down Strike",
     "input": "OTG d+2",
     "hit_level": "L",
     "damage": "16",
@@ -820,6 +902,7 @@
     "note": ""
   },
   {
+    "name": "Turn Thruster",
     "input": "SS 1",
     "hit_level": "h",
     "damage": "21",
@@ -830,6 +913,7 @@
     "note": "Chip damage"
   },
   {
+    "name": "Pump In Pedal",
     "input": "SS 3",
     "hit_level": "L",
     "damage": "17",
@@ -840,6 +924,7 @@
     "note": ""
   },
   {
+    "name": "Cormorant Step",
     "input": "qcf (d,df,f)",
     "hit_level": "",
     "damage": "",
@@ -850,6 +935,7 @@
     "note": "D,df to enter crouching state"
   },
   {
+    "name": "Thruster",
     "input": "CS 1",
     "hit_level": "h",
     "damage": "21",
@@ -860,6 +946,7 @@
     "note": "Chip damage"
   },
   {
+    "name": "Phoenix Smasher",
     "input": "CS 2",
     "hit_level": "m",
     "damage": "45",
@@ -870,6 +957,7 @@
     "note": "Has a clean hit effect\nPower up while Heat is active"
   },
   {
+    "name": "Gengetsu",
     "input": "CS 3",
     "hit_level": "L",
     "damage": "18",
@@ -880,6 +968,7 @@
     "note": "Has a clean hit effect\nPower up while Heat is active"
   },
   {
+    "name": "Gunba",
     "input": "CS 1+2",
     "hit_level": "L",
     "damage": "20",
@@ -890,6 +979,7 @@
     "note": "Cancel to FC with B"
   },
   {
+    "name": "Mountain Raze",
     "input": "CS 3+4",
     "hit_level": "m",
     "damage": "22",
@@ -900,6 +990,7 @@
     "note": ""
   },
   {
+    "name": "Deep Dive",
     "input": "CD df",
     "hit_level": "",
     "damage": "",
@@ -910,6 +1001,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "DPD 2",
     "hit_level": "m",
     "damage": "17",
@@ -920,9 +1012,10 @@
     "note": ""
   },
   {
+    "name": "Quick Petal Strike",
     "input": "DPD 2,1",
-    "hit_level": "m,​h",
-    "damage": "17,​18",
+    "hit_level": "m,h",
+    "damage": "17,18",
     "startup": "i18~19",
     "block": "-5 (+7 at wall)",
     "hit": "+21d (-5)",
@@ -930,8 +1023,9 @@
     "note": "Combo from 1st attack\nMove can be delayed"
   },
   {
+    "name": "Quick Lightning Breaker",
     "input": "DPD 2,3",
-    "hit_level": "m,​m",
+    "hit_level": "m,m",
     "damage": "1722",
     "startup": "i25~26",
     "block": "-13c",
@@ -940,6 +1034,7 @@
     "note": "Combo from 1st attack\nMove can be delayed"
   },
   {
+    "name": "Bigetsu",
     "input": "DPD 4",
     "hit_level": "L",
     "damage": "12",
@@ -950,6 +1045,7 @@
     "note": ""
   },
   {
+    "name": "Incomplete Somersault",
     "input": "DPD 3+4",
     "hit_level": "m",
     "damage": "32",
@@ -960,6 +1056,7 @@
     "note": "Deals recoverable damage to self"
   },
   {
+    "name": "SWA",
     "input": "qcb (d,db,b)",
     "hit_level": "",
     "damage": "",
@@ -970,6 +1067,7 @@
     "note": ""
   },
   {
+    "name": "God Hammer Punch",
     "input": "SWA 1",
     "hit_level": "M",
     "damage": "24",
@@ -980,6 +1078,7 @@
     "note": "Chip damage"
   },
   {
+    "name": "Rubber Band Attack",
     "input": "SWA 2",
     "hit_level": "m",
     "damage": "27",
@@ -990,6 +1089,7 @@
     "note": "Has a clean hit effect"
   },
   {
+    "name": "Rapid Fire",
     "input": "SWA 3",
     "hit_level": "L",
     "damage": "14",
@@ -1000,9 +1100,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "SWA 3,2",
-    "hit_level": "L,​m",
-    "damage": "14,​20",
+    "hit_level": "L,m",
+    "damage": "14,20",
     "startup": "i27~28",
     "block": "-10",
     "hit": "+6",
@@ -1010,9 +1111,10 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "Petal Strike",
     "input": "SWA 3,2,1",
-    "hit_level": "L,​m,​h",
-    "damage": "14,​20,​25",
+    "hit_level": "L,m,h",
+    "damage": "14,20,25",
     "startup": "i18~19",
     "block": "-5",
     "hit": "+21(-5)",
@@ -1020,9 +1122,10 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "Lightning Breaker",
     "input": "SWA 3,2,3",
-    "hit_level": "L,​m,​m",
-    "damage": "14,​2022",
+    "hit_level": "L,m,m",
+    "damage": "14,2022",
     "startup": "i25~26",
     "block": "-13c",
     "hit": "+10g",
@@ -1030,6 +1133,7 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "Kawaragoma",
     "input": "SWA 4",
     "hit_level": "h",
     "damage": "20",
@@ -1040,6 +1144,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Unseen Gust",
     "input": "SWA 1+2",
     "hit_level": "m",
     "damage": "22",
@@ -1050,6 +1155,7 @@
     "note": ""
   },
   {
+    "name": "Over The Shoulder",
     "input": "1+3",
     "hit_level": "t",
     "damage": "35",
@@ -1060,6 +1166,7 @@
     "note": "Throw break 1 or 2"
   },
   {
+    "name": "Shoulder Pop",
     "input": "2+4",
     "hit_level": "t",
     "damage": "35",
@@ -1070,6 +1177,7 @@
     "note": "Throw break 1 or 2"
   },
   {
+    "name": "Chest Crusher",
     "input": "2+4,b",
     "hit_level": "t",
     "damage": "40",
@@ -1080,6 +1188,7 @@
     "note": "Throw break 2"
   },
   {
+    "name": "Dragon Screw",
     "input": "Left Throw",
     "hit_level": "t",
     "damage": "45",
@@ -1090,6 +1199,7 @@
     "note": "Throw break 1"
   },
   {
+    "name": "Fall Away",
     "input": "Right Throw",
     "hit_level": "t",
     "damage": "40",
@@ -1100,6 +1210,7 @@
     "note": "Throw break 2"
   },
   {
+    "name": "Reverse Neck Throw",
     "input": "Back Throw 1+3",
     "hit_level": "t",
     "damage": "50",
@@ -1110,6 +1221,7 @@
     "note": "Throw cannot be broken"
   },
   {
+    "name": "Piggyback Throw",
     "input": "Back Throw 2+4",
     "hit_level": "t",
     "damage": "50",
@@ -1120,6 +1232,7 @@
     "note": "Throw cannot be broken"
   },
   {
+    "name": "Kongo Blast",
     "input": "df+1+3",
     "hit_level": "t",
     "damage": "22",
@@ -1130,9 +1243,10 @@
     "note": "Throw break 1"
   },
   {
+    "name": "Phoenix Smasher",
     "input": "df+1+3:2",
-    "hit_level": "t,​m",
-    "damage": "22,​20",
+    "hit_level": "t,m",
+    "damage": "22,20",
     "startup": "i13~14",
     "block": "",
     "hit": "+16d (-20)",
@@ -1140,6 +1254,7 @@
     "note": "Throw break 1\nConsumes Heat"
   },
   {
+    "name": "Foot Launch",
     "input": "b+1+4",
     "hit_level": "t",
     "damage": "40",
@@ -1150,6 +1265,7 @@
     "note": "Throw break 1"
   },
   {
+    "name": "Twist and Shout",
     "input": "uf+1+2",
     "hit_level": "t",
     "damage": "40",
@@ -1160,6 +1276,7 @@
     "note": "Throw break 1+2\n"
   },
   {
+    "name": "Push Away",
     "input": "ff+1+2",
     "hit_level": "t",
     "damage": "38",
@@ -1170,6 +1287,7 @@
     "note": "Throw break 1+2"
   },
   {
+    "name": "Ultimate Tackle",
     "input": "FC 1+2",
     "hit_level": "t",
     "damage": "0",
@@ -1180,6 +1298,7 @@
     "note": "Throw break 1+2\nTransition to Takedown on hit"
   },
   {
+    "name": "Ultimate Punch",
     "input": "Takedown 2,1,2,1",
     "hit_level": "t",
     "damage": "30",
@@ -1190,6 +1309,7 @@
     "note": "Throw break 1 or 2\nAlternate input 1,2,1,2"
   },
   {
+    "name": "Ultimate Punishment",
     "input": "Takedown 2,d+1,1,1+2",
     "hit_level": "t",
     "damage": "50",
@@ -1200,6 +1320,7 @@
     "note": "Throw break 1\nTransition to Arm Breaker with 1+2 after third hit"
   },
   {
+    "name": "Arm Breaker",
     "input": "Takedown 1+2,1+2",
     "hit_level": "t",
     "damage": "25",

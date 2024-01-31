@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "12 (12)",
@@ -10,9 +11,10 @@
     "note": ""
   },
   {
+    "name": "Heavenly Dragon",
     "input": "in heat 2+3",
-    "hit_level": "m,​t",
-    "damage": "24,​4,​5,​5,​5,​7 (50)",
+    "hit_level": "m,t",
+    "damage": "24,4,5,5,5,7 (50)",
     "startup": "i14",
     "block": "+11g",
     "hit": "+5",
@@ -20,9 +22,10 @@
     "note": "Automatically transitions to DSS on block"
   },
   {
+    "name": "Furious Rush",
     "input": "1,1,1",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​5,​20",
+    "hit_level": "h,h,m",
+    "damage": "5,5,20",
     "startup": "i20",
     "block": "-12",
     "hit": "+41d (-17)",
@@ -30,9 +33,10 @@
     "note": "Combos from 1st or 2nd hit CH\n"
   },
   {
+    "name": "Dragon Storm",
     "input": "b+1,2,2",
-    "hit_level": "m,​m,​m",
-    "damage": "12,​12,​22",
+    "hit_level": "m,m,m",
+    "damage": "12,12,22",
     "startup": "i18",
     "block": "-14",
     "hit": "+12a (+5)",
@@ -40,6 +44,7 @@
     "note": "Combos from 1st or 2nd hit CH\nDelay-able "
   },
   {
+    "name": "Dragon's Fury",
     "input": "uf+3",
     "hit_level": "m",
     "damage": "20",
@@ -50,6 +55,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Cannon",
     "input": "f,F+3",
     "hit_level": "m",
     "damage": "30",
@@ -60,6 +66,7 @@
     "note": "Alternate input DSS.f+3 "
   },
   {
+    "name": "Dragon Roar",
     "input": "DSS f+1",
     "hit_level": "m",
     "damage": "20",
@@ -70,6 +77,7 @@
     "note": "Chip damage on block "
   },
   {
+    "name": "Tornado Claw",
     "input": "1+2",
     "hit_level": "m",
     "damage": "20",
@@ -80,6 +88,7 @@
     "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
   },
   {
+    "name": "Dragon Charge (Heat)",
     "input": "in heat d+1+2",
     "hit_level": "",
     "damage": "",
@@ -90,6 +99,7 @@
     "note": "Enters DSS\nTransition to Slide Step with DF\nAbsorbs punch attacks and shifts to Dragon Parry "
   },
   {
+    "name": "Dragon Parry",
     "input": "b+2+4",
     "hit_level": "t",
     "damage": "34 (38 Heat)",
@@ -100,8 +110,9 @@
     "note": "Punches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
   },
   {
+    "name": "Fate of the Dragon",
     "input": "in rage df+1+2",
-    "hit_level": "m,​t",
+    "hit_level": "m,t",
     "damage": "55+",
     "startup": "i20",
     "block": "-15",
@@ -110,6 +121,7 @@
     "note": "Rage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
   },
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -120,9 +132,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "1,1",
-    "hit_level": "h,​h",
-    "damage": "5,​5",
+    "hit_level": "h,h",
+    "damage": "5,5",
     "startup": "i18",
     "block": "-8",
     "hit": "-6",
@@ -130,9 +143,10 @@
     "note": ""
   },
   {
+    "name": "Furious Rush",
     "input": "1,1,1",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​5,​20",
+    "hit_level": "h,h,m",
+    "damage": "5,5,20",
     "startup": "i20",
     "block": "-12",
     "hit": "+41d (-17)",
@@ -140,9 +154,10 @@
     "note": "Combos from 1st or 2nd hit CH\n"
   },
   {
+    "name": "Knuckle Barrage Combo",
     "input": "1,1,2",
-    "hit_level": "h,​h,​h",
-    "damage": "5,​5,​12",
+    "hit_level": "h,h,h",
+    "damage": "5,5,12",
     "startup": "i17",
     "block": "-6",
     "hit": "+6",
@@ -150,9 +165,10 @@
     "note": "Transition to DSS with F\n(-5 oB, +7 oH) (-5 oB, +7 oH) "
   },
   {
+    "name": "Left Right Combo",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​8",
+    "hit_level": "h,h",
+    "damage": "5,8",
     "startup": "i12",
     "block": "-3",
     "hit": "+6",
@@ -160,9 +176,10 @@
     "note": "Jails from 1st attack\nCombos from 1st hit"
   },
   {
+    "name": "",
     "input": "1,2,2",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​8,​10",
+    "hit_level": "h,h,m",
+    "damage": "5,8,10",
     "startup": "i20",
     "block": "-8",
     "hit": "+4",
@@ -170,9 +187,10 @@
     "note": ""
   },
   {
+    "name": "Left Right Dragon Fist Combo",
     "input": "1,2,2,2",
-    "hit_level": "h,​h,​m,​h",
-    "damage": "5,​8,​10,​15",
+    "hit_level": "h,h,m,h",
+    "damage": "5,8,10,15",
     "startup": "i20",
     "block": "-9",
     "hit": "+4",
@@ -180,9 +198,10 @@
     "note": "Combos from 1st or 3rd hit CH\nDelay-able\nTransition to DSS with F\n(-3 oB, +10g oH, +15d CH)(-3 oB, +10g oH, +15d CH)"
   },
   {
+    "name": "Left Right Blazing Fist Combo",
     "input": "1,2,2,1+2",
-    "hit_level": "h,​h,​m,​m",
-    "damage": "5,​8,​10,​23",
+    "hit_level": "h,h,m,m",
+    "damage": "5,8,10,23",
     "startup": "i19",
     "block": "-13",
     "hit": "+5a (-4)",
@@ -190,9 +209,10 @@
     "note": ""
   },
   {
+    "name": "Left Right > Knee",
     "input": "1,2,3",
-    "hit_level": "h,​h,​m",
-    "damage": "5,​8,​10",
+    "hit_level": "h,h,m",
+    "damage": "5,8,10",
     "startup": "i15",
     "block": "-5",
     "hit": "+13",
@@ -200,8 +220,9 @@
     "note": "Combos from 1st hit CH\nJails from 1st attack"
   },
   {
+    "name": "Left Right Combo > Somersault",
     "input": "1,2,uf+3",
-    "hit_level": "h,​h,​Special",
+    "hit_level": "h,h,Special",
     "damage": "",
     "startup": "i15",
     "block": "-20",
@@ -210,8 +231,9 @@
     "note": ""
   },
   {
+    "name": "Left Right Combo > Somersault Feint",
     "input": "1,2,uf+3,4",
-    "hit_level": "h,​h,​Special,​m",
+    "hit_level": "h,h,Special,m",
     "damage": "20",
     "startup": "i15",
     "block": "-12",
@@ -220,6 +242,7 @@
     "note": ""
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "8",
@@ -230,9 +253,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "2,2",
-    "hit_level": "h,​m",
-    "damage": "8,​10",
+    "hit_level": "h,m",
+    "damage": "8,10",
     "startup": "i20",
     "block": "-8",
     "hit": "+4",
@@ -240,9 +264,10 @@
     "note": ""
   },
   {
+    "name": "Rave War Combo",
     "input": "2,2,2",
-    "hit_level": "h,​m,​h",
-    "damage": "8,​10,​10",
+    "hit_level": "h,m,h",
+    "damage": "8,10,10",
     "startup": "i13",
     "block": "-9",
     "hit": "+4",
@@ -250,9 +275,10 @@
     "note": "Combos from 2nd hit\nTransition to DSS with F\n(-3 oB, +10g oH, +15d)(-3 oB, +10g oH, +15d)"
   },
   {
+    "name": "Blazing Fist Combo",
     "input": "2,2,1+2",
-    "hit_level": "h,​m,​m",
-    "damage": "8,​10,​20",
+    "hit_level": "h,m,m",
+    "damage": "8,10,20",
     "startup": "i19",
     "block": "-13",
     "hit": "+5a (-4)",
@@ -260,9 +286,10 @@
     "note": "Combos from 2nd hit CH\nDelay-able"
   },
   {
+    "name": "",
     "input": "2,b+2",
-    "hit_level": "h,​h",
-    "damage": "8,​8",
+    "hit_level": "h,h",
+    "damage": "8,8",
     "startup": "i17",
     "block": "-4",
     "hit": "+7",
@@ -270,9 +297,10 @@
     "note": "Combos from 1st hit\nDelay-able"
   },
   {
+    "name": "",
     "input": "2,b+2,1",
-    "hit_level": "h,​h,​h",
-    "damage": "8,​8,​8",
+    "hit_level": "h,h,h",
+    "damage": "8,8,8",
     "startup": "i23",
     "block": "-3",
     "hit": "+3",
@@ -280,9 +308,10 @@
     "note": "Combos from 2nd hit CH\nDelay-able"
   },
   {
+    "name": "Rage Dragon Combo",
     "input": "2,b+2,1,2",
-    "hit_level": "h,​h,​h,​m",
-    "damage": "8,​8,​8,​21",
+    "hit_level": "h,h,h,m",
+    "damage": "8,8,8,21",
     "startup": "i20",
     "block": "-3",
     "hit": "+20a",
@@ -290,6 +319,7 @@
     "note": "Combos from 3rd hit CH\nDelay-able\nTransition to FC with D"
   },
   {
+    "name": "High Kick",
     "input": "3",
     "hit_level": "h",
     "damage": "12",
@@ -300,9 +330,10 @@
     "note": ""
   },
   {
+    "name": "Feint > Middle Kick",
     "input": "3,3",
-    "hit_level": "h,​m",
-    "damage": "12,​17",
+    "hit_level": "h,m",
+    "damage": "12,17",
     "startup": "i27",
     "block": "-14",
     "hit": "-3",
@@ -310,9 +341,10 @@
     "note": "Combos from 1st hit CH\nDelay-able"
   },
   {
+    "name": "High Kick > Bloody Cleaver",
     "input": "3,4",
-    "hit_level": "h,​h",
-    "damage": "12,​20",
+    "hit_level": "h,h",
+    "damage": "12,20",
     "startup": "i22",
     "block": "-10",
     "hit": "+19a (+10)",
@@ -320,6 +352,7 @@
     "note": "Combos from 1st hit\n"
   },
   {
+    "name": "Right High Kick",
     "input": "4",
     "hit_level": "h",
     "damage": "15",
@@ -330,9 +363,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "4,3",
-    "hit_level": "h,​h",
-    "damage": "15,​12",
+    "hit_level": "h,h",
+    "damage": "15,12",
     "startup": "i18",
     "block": "-8",
     "hit": "+1",
@@ -340,9 +374,10 @@
     "note": "Combos from 1st hit\nTransition to DSS with F\n(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4"
   },
   {
+    "name": "Shaolin Spin Kicks",
     "input": "4,3,4",
-    "hit_level": "h,​h,​h",
-    "damage": "15,​12,​14",
+    "hit_level": "h,h,h",
+    "damage": "15,12,14",
     "startup": "i20",
     "block": "-6",
     "hit": "-1",
@@ -350,9 +385,10 @@
     "note": "Combos off of 1st hit CH\nTransition to DSS with F\n(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4"
   },
   {
+    "name": "Crescent Kick Combo",
     "input": "4,u+3",
-    "hit_level": "h,​m",
-    "damage": "15,​23",
+    "hit_level": "h,m",
+    "damage": "15,23",
     "startup": "i33",
     "block": "-1",
     "hit": "+30a (+13)",
@@ -360,6 +396,7 @@
     "note": ""
   },
   {
+    "name": "Tornado Claw",
     "input": "1+2",
     "hit_level": "m",
     "damage": "20",
@@ -370,9 +407,10 @@
     "note": "Partially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 "
   },
   {
+    "name": "",
     "input": "3+4",
-    "hit_level": "m,​m",
-    "damage": "5,​10",
+    "hit_level": "m,m",
+    "damage": "5,10",
     "startup": "i14",
     "block": "-13",
     "hit": "+3",
@@ -380,9 +418,10 @@
     "note": ""
   },
   {
+    "name": "Wild Dragon's Flight",
     "input": "3+4,4",
-    "hit_level": "m,​m,​h",
-    "damage": "5,​10,​25",
+    "hit_level": "m,m,h",
+    "damage": "5,10,25",
     "startup": "i30",
     "block": "+7",
     "hit": "+31d (-27)",
@@ -390,6 +429,7 @@
     "note": "Combos from 1st hit\nChip damage on block\nAlternate input DSS.3+4,4"
   },
   {
+    "name": "",
     "input": "f+2",
     "hit_level": "h",
     "damage": "10",
@@ -400,6 +440,7 @@
     "note": "Can route into:\nRave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)\nAlternate input DSS.f+2Rave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)"
   },
   {
+    "name": "Poison Arrow",
     "input": "f+2~1",
     "hit_level": "m",
     "damage": "24",
@@ -410,6 +451,7 @@
     "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input DSS.f+2~1(+5 oB, +33a (+7))"
   },
   {
+    "name": "",
     "input": "f+3",
     "hit_level": "m",
     "damage": "10",
@@ -420,9 +462,10 @@
     "note": ""
   },
   {
+    "name": "Plunging Knock",
     "input": "f+3,1",
-    "hit_level": "m,​m",
-    "damage": "10,​12",
+    "hit_level": "m,m",
+    "damage": "10,12",
     "startup": "i20",
     "block": "-2",
     "hit": "+8",
@@ -430,6 +473,7 @@
     "note": "Transition to DSS with F\n(+4 oB, +14g) (+4 oB, +14g) "
   },
   {
+    "name": "Dragon Hammer",
     "input": "f+1+2",
     "hit_level": "m",
     "damage": "20",
@@ -440,6 +484,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Killer",
     "input": "f+3+4",
     "hit_level": "m",
     "damage": "20",
@@ -450,6 +495,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+1",
     "hit_level": "m",
     "damage": "10",
@@ -460,9 +506,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+1,3",
-    "hit_level": "m,​l",
-    "damage": "10,​6",
+    "hit_level": "m,l",
+    "damage": "10,6",
     "startup": "i20",
     "block": "-16",
     "hit": "-5",
@@ -470,9 +517,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+1,3,2",
-    "hit_level": "m,​l,​m",
-    "damage": "10,​6,​6",
+    "hit_level": "m,l,m",
+    "damage": "10,6,6",
     "startup": "i28",
     "block": "-12",
     "hit": "-1",
@@ -480,6 +528,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Raise",
     "input": "df+2",
     "hit_level": "m",
     "damage": "12",
@@ -490,6 +539,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Lance",
     "input": "df+3",
     "hit_level": "m",
     "damage": "23",
@@ -500,6 +550,7 @@
     "note": ""
   },
   {
+    "name": "Right Middle Kick",
     "input": "df+4",
     "hit_level": "m",
     "damage": "15",
@@ -510,9 +561,10 @@
     "note": ""
   },
   {
+    "name": "Right Middle Kick > Somersault Kick",
     "input": "df+4,3",
-    "hit_level": "m,​m",
-    "damage": "15,​23",
+    "hit_level": "m,m",
+    "damage": "15,23",
     "startup": "i29",
     "block": "-14",
     "hit": "+68a (+52)",
@@ -520,6 +572,7 @@
     "note": "Combos from 1st hit CH "
   },
   {
+    "name": "Right Middle Kick",
     "input": "df+4",
     "hit_level": "m",
     "damage": "15",
@@ -530,6 +583,7 @@
     "note": ""
   },
   {
+    "name": "Banana Peel",
     "input": "df+3+4",
     "hit_level": "l",
     "damage": "12",
@@ -540,6 +594,7 @@
     "note": ""
   },
   {
+    "name": "Low Backhand",
     "input": "d+1",
     "hit_level": "l",
     "damage": "15",
@@ -550,9 +605,10 @@
     "note": ""
   },
   {
+    "name": "Low Backhand > High Kick",
     "input": "d+1,3",
-    "hit_level": "l,​h",
-    "damage": "15,​21",
+    "hit_level": "l,h",
+    "damage": "15,21",
     "startup": "i24",
     "block": "-9",
     "hit": "+20a (+11)",
@@ -560,6 +616,7 @@
     "note": "Tornado on CH"
   },
   {
+    "name": "Body Blow",
     "input": "d+2",
     "hit_level": "s",
     "damage": "8",
@@ -570,8 +627,9 @@
     "note": ""
   },
   {
+    "name": "Body Blow > Dragon Lift",
     "input": "d+2,3",
-    "hit_level": "s,​m",
+    "hit_level": "s,m",
     "damage": "821",
     "startup": "i23",
     "block": "-15",
@@ -580,6 +638,7 @@
     "note": "Combos from 1st hit CH\n"
   },
   {
+    "name": "Dragon Low",
     "input": "d+3",
     "hit_level": "l",
     "damage": "8",
@@ -590,9 +649,10 @@
     "note": ""
   },
   {
+    "name": "Dragon Low > Hook Kick",
     "input": "d+3,3",
-    "hit_level": "l,​h",
-    "damage": "8,​17",
+    "hit_level": "l,h",
+    "damage": "8,17",
     "startup": "i16",
     "block": "-7",
     "hit": "+20a",
@@ -600,6 +660,7 @@
     "note": "Combos from 1st hit CH\nDelay-able "
   },
   {
+    "name": "",
     "input": "d+4",
     "hit_level": "l",
     "damage": "7",
@@ -610,8 +671,9 @@
     "note": ""
   },
   {
+    "name": "Construct Kick",
     "input": "d+4,3",
-    "hit_level": "l,​h",
+    "hit_level": "l,h",
     "damage": "712",
     "startup": "i12",
     "block": "-12",
@@ -620,6 +682,7 @@
     "note": "Combos from 1st hit\nNosebleed stun "
   },
   {
+    "name": "Low Kick",
     "input": "d+3+4",
     "hit_level": "l",
     "damage": "7",
@@ -630,8 +693,9 @@
     "note": ""
   },
   {
+    "name": "Low Kick > Somersault",
     "input": "d+3+4,3",
-    "hit_level": "l,​m",
+    "hit_level": "l,m",
     "damage": "723",
     "startup": "i29",
     "block": "-14",
@@ -640,6 +704,7 @@
     "note": "Combos from 1st hit CH\nAlternate input FC.d+4,3"
   },
   {
+    "name": "Crouch Jab",
     "input": "db+1",
     "hit_level": "s",
     "damage": "5",
@@ -650,6 +715,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+2",
     "hit_level": "m",
     "damage": "15",
@@ -660,8 +726,9 @@
     "note": ""
   },
   {
+    "name": "Elbow Spring Kick",
     "input": "db+2,4",
-    "hit_level": "m,​m",
+    "hit_level": "m,m",
     "damage": "1525",
     "startup": "i33",
     "block": "-4",
@@ -670,6 +737,7 @@
     "note": ""
   },
   {
+    "name": "Shin Crusher",
     "input": "db+3",
     "hit_level": "l",
     "damage": "15",
@@ -680,6 +748,7 @@
     "note": ""
   },
   {
+    "name": "Dragon's Tail",
     "input": "db+4",
     "hit_level": "l",
     "damage": "20",
@@ -690,9 +759,10 @@
     "note": ""
   },
   {
+    "name": "Dragon's Tail > Somersault Kick",
     "input": "db+4,4",
-    "hit_level": "l,​m",
-    "damage": "20,​27",
+    "hit_level": "l,m",
+    "damage": "20,27",
     "startup": "i37",
     "block": "-8",
     "hit": "+30a (+12)",
@@ -700,6 +770,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "b+1",
     "hit_level": "m",
     "damage": "12",
@@ -710,9 +781,10 @@
     "note": "Transition to DSS with F\n(-3 oB, +8 oH) (-3 oB, +8 oH) "
   },
   {
+    "name": "",
     "input": "b+1,2",
-    "hit_level": "m,​m",
-    "damage": "12,​12",
+    "hit_level": "m,m",
+    "damage": "12,12",
     "startup": "i19",
     "block": "-12",
     "hit": "+2",
@@ -720,9 +792,10 @@
     "note": "Combos from 1st hit\nDelay-able\nTransition to DSS with F\n(-9 oB, +5 oH) (-9 oB, +5 oH) "
   },
   {
+    "name": "Dragon Storm",
     "input": "b+1,2,2",
-    "hit_level": "m,​m,​m",
-    "damage": "12,​12,​22",
+    "hit_level": "m,m,m",
+    "damage": "12,12,22",
     "startup": "i18",
     "block": "-14",
     "hit": "+12a (+5)",
@@ -730,6 +803,7 @@
     "note": "Combos from 1st or 2nd hit CH\nDelay-able "
   },
   {
+    "name": "",
     "input": "b+2",
     "hit_level": "m",
     "damage": "12",
@@ -740,9 +814,10 @@
     "note": ""
   },
   {
+    "name": "Vortex Rush",
     "input": "b+2,1",
-    "hit_level": "m,​m",
-    "damage": "12,​16",
+    "hit_level": "m,m",
+    "damage": "12,16",
     "startup": "i26",
     "block": "-15",
     "hit": "+11a",
@@ -750,9 +825,10 @@
     "note": "Combos from 1st hit CH"
   },
   {
+    "name": "Knuckle Rush",
     "input": "b+2,2",
-    "hit_level": "m,​h",
-    "damage": "12,​15",
+    "hit_level": "m,h",
+    "damage": "12,15",
     "startup": "i13",
     "block": "-9",
     "hit": "+4",
@@ -760,9 +836,10 @@
     "note": "Combos from 1st hit\nDelay-able\nTransition to DSS with F\n(-3 oB, +10 oH, +15d CH)(-3 oB, +10 oH, +15d CH)"
   },
   {
+    "name": "",
     "input": "b+2,3",
-    "hit_level": "m,​l",
-    "damage": "12,​10",
+    "hit_level": "m,l",
+    "damage": "12,10",
     "startup": "i23",
     "block": "-12",
     "hit": "-1",
@@ -770,9 +847,10 @@
     "note": ""
   },
   {
+    "name": "Junkyard Kick",
     "input": "b+2,3,4",
-    "hit_level": "m,​l,​m",
-    "damage": "12,​10,​23",
+    "hit_level": "m,l,m",
+    "damage": "12,10,23",
     "startup": "i23",
     "block": "-7,",
     "hit": "+36a (+26)",
@@ -780,9 +858,10 @@
     "note": "Combos from 2nd hit CH\nDelay-able\nTransition to DSS with F\n(+6 oB, +49a (+39) oH)(+6 oB, +49a (+39) oH)"
   },
   {
+    "name": "Dragon Rush Combo",
     "input": "b+2,3,d+4",
-    "hit_level": "m,​l,​l",
-    "damage": "12,​10,​23",
+    "hit_level": "m,l,l",
+    "damage": "12,10,23",
     "startup": "i34",
     "block": "-37",
     "hit": "+11a",
@@ -790,6 +869,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Spin Kick",
     "input": "b+3",
     "hit_level": "m",
     "damage": "27",
@@ -800,6 +880,7 @@
     "note": "Transition to BT with B\n(-11 oB, +18a (+9) oH)(-11 oB, +18a (+9) oH)"
   },
   {
+    "name": "",
     "input": "b+4",
     "hit_level": "m",
     "damage": "13",
@@ -810,9 +891,10 @@
     "note": "Transition to BT with B\n(-4 oB, +6 oH) (-4 oB, +6 oH) "
   },
   {
+    "name": "Tiger Fang",
     "input": "b+4,3",
-    "hit_level": "m,​h",
-    "damage": "13,​21",
+    "hit_level": "m,h",
+    "damage": "13,21",
     "startup": "i32",
     "block": "-5",
     "hit": "+24a (+15)",
@@ -820,6 +902,7 @@
     "note": "Combos from 1st hit "
   },
   {
+    "name": "Dragon Stinger",
     "input": "b+1+2",
     "hit_level": "m",
     "damage": "21",
@@ -830,6 +913,7 @@
     "note": ""
   },
   {
+    "name": "Parry",
     "input": "b+1+3",
     "hit_level": "",
     "damage": "",
@@ -840,6 +924,7 @@
     "note": "Transition to DSS on successful parry with F to be +14\nGuarantees DSS.1, DSS.2, DSS.f+1"
   },
   {
+    "name": "Dragon Parry",
     "input": "b+2+4",
     "hit_level": "t",
     "damage": "34 (38 Heat)",
@@ -850,6 +935,7 @@
     "note": "Punches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat"
   },
   {
+    "name": "Dragon Arrow",
     "input": "b+3+4",
     "hit_level": "m",
     "damage": "25",
@@ -860,6 +946,7 @@
     "note": "Can be done from DSS "
   },
   {
+    "name": "generic hook",
     "input": "ub+2",
     "hit_level": "h",
     "damage": "17",
@@ -870,9 +957,10 @@
     "note": ""
   },
   {
+    "name": "Fury Fist Rush",
     "input": "ub+1,2,1,2",
-    "hit_level": "h,​h,​h,​h",
-    "damage": "8,​8,​8,​28",
+    "hit_level": "h,h,h,h",
+    "damage": "8,8,8,28",
     "startup": "i12,i6,i6,i13",
     "block": "-7",
     "hit": "+13a (-4)",
@@ -880,6 +968,7 @@
     "note": "Jails from 1st to 3rd attack\nLast hit delay-able\nFrame data for 1st, 2nd and 3rd hits:\n(-9 oB, -3 oH) (-9 oB, -3 oH) "
   },
   {
+    "name": "Somersault",
     "input": "ub+3",
     "hit_level": "",
     "damage": "",
@@ -890,6 +979,7 @@
     "note": "Transition to Slide Step with DF\nAlternate input u+3 "
   },
   {
+    "name": "Somersault > Feint",
     "input": "ub+3,4",
     "hit_level": "m",
     "damage": "20",
@@ -900,6 +990,7 @@
     "note": ""
   },
   {
+    "name": "Rising Toe Kick (neutral hopkick)",
     "input": "u+4",
     "hit_level": "m",
     "damage": "12",
@@ -910,6 +1001,7 @@
     "note": ""
   },
   {
+    "name": "Blackout",
     "input": "uf+1",
     "hit_level": "h",
     "damage": "10",
@@ -920,8 +1012,9 @@
     "note": "Alternate input:\nKi Charge~1\nb,B+2+3~1,3 Ki Charge~1\nb,B+2+3~1,3 "
   },
   {
+    "name": "Blackout > Muggin'",
     "input": "uf+1,3",
-    "hit_level": "h,​l",
+    "hit_level": "h,l",
     "damage": "1010",
     "startup": "i19",
     "block": "-13",
@@ -930,6 +1023,7 @@
     "note": "Combos from 1st hit\nAlternate input:\nKi Charge~1,3\nb,B+2+3~1,3 Ki Charge~1,3\nb,B+2+3~1,3 "
   },
   {
+    "name": "Dragon's Fury",
     "input": "uf+3",
     "hit_level": "m",
     "damage": "20",
@@ -940,6 +1034,7 @@
     "note": ""
   },
   {
+    "name": "Dragon's Rising Kick (hopkick)",
     "input": "uf+4",
     "hit_level": "m",
     "damage": "14",
@@ -950,6 +1045,7 @@
     "note": ""
   },
   {
+    "name": "Dragon's Descent",
     "input": "uf+3+4",
     "hit_level": "l",
     "damage": "27",
@@ -960,6 +1056,7 @@
     "note": ""
   },
   {
+    "name": "Dragon's Rising Cannon",
     "input": "uf,n,4",
     "hit_level": "m",
     "damage": "20",
@@ -970,6 +1067,7 @@
     "note": ""
   },
   {
+    "name": "Somersault Kick",
     "input": "UF+4",
     "hit_level": "m",
     "damage": "23",
@@ -980,8 +1078,9 @@
     "note": "Alternate input\nUB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 UB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 "
   },
   {
+    "name": "Backflipper",
     "input": "UF+4,3",
-    "hit_level": "m,​m",
+    "hit_level": "m,m",
     "damage": "2316",
     "startup": "i19",
     "block": "-14",
@@ -990,6 +1089,7 @@
     "note": "Combos from 1st hit\n2nd hit Instant Tornado\n(+68a (+52) oH)\nAlternate input\nUB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 (+68a (+52) oH)UB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 "
   },
   {
+    "name": "Dragon's Poke",
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "12",
@@ -1000,9 +1100,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f,F+2,1",
-    "hit_level": "m,​h",
-    "damage": "12,​12",
+    "hit_level": "m,h",
+    "damage": "12,12",
     "startup": "i22",
     "block": "-4",
     "hit": "+2",
@@ -1010,9 +1111,10 @@
     "note": ""
   },
   {
+    "name": "Dragon Strike Combo",
     "input": "f,F+2,1,3",
-    "hit_level": "m,​h,​m",
-    "damage": "12,​12,​23",
+    "hit_level": "m,h,m",
+    "damage": "12,12,23",
     "startup": "i28",
     "block": "-13",
     "hit": "+11a",
@@ -1020,9 +1122,10 @@
     "note": "Combos off 2nd hit CH\nDelayable"
   },
   {
+    "name": "Dragon Dagger",
     "input": "f,F+2,4",
-    "hit_level": "m,​h",
-    "damage": "12,​20",
+    "hit_level": "m,h",
+    "damage": "12,20",
     "startup": "i16",
     "block": "-14",
     "hit": "+37a (-21)",
@@ -1030,8 +1133,9 @@
     "note": "Combos from 1st hit\nDelayable"
   },
   {
+    "name": "Dragon's Poke > Poison Arrow",
     "input": "f,F+2,f+1+2",
-    "hit_level": "m,​m",
+    "hit_level": "m,m",
     "damage": "1224",
     "startup": "i31",
     "block": "+2",
@@ -1040,6 +1144,7 @@
     "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB,+33a (+7))(+5 oB,+33a (+7))"
   },
   {
+    "name": "Dragon Cannon",
     "input": "f,F+3",
     "hit_level": "m",
     "damage": "30",
@@ -1050,6 +1155,7 @@
     "note": "Alternate input DSS.f+3 "
   },
   {
+    "name": "Dragon's Leap Shot",
     "input": "f,F+4",
     "hit_level": "m",
     "damage": "17",
@@ -1060,6 +1166,7 @@
     "note": ""
   },
   {
+    "name": "Running Side Kick",
     "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "30",
@@ -1070,6 +1177,7 @@
     "note": "Chip damage on block\nAlternate input wr3"
   },
   {
+    "name": "Charge Power Punch",
     "input": "b,B+2+3",
     "hit_level": "m!",
     "damage": "60",
@@ -1080,6 +1188,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Jab",
     "input": "FC 1",
     "hit_level": "s",
     "damage": "5",
@@ -1090,6 +1199,7 @@
     "note": ""
   },
   {
+    "name": "Body Blow",
     "input": "FC 2",
     "hit_level": "s",
     "damage": "8",
@@ -1100,6 +1210,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "FC 3",
     "hit_level": "l",
     "damage": "10",
@@ -1110,9 +1221,10 @@
     "note": ""
   },
   {
+    "name": "Double Impact",
     "input": "FC 3,4",
-    "hit_level": "l,​m",
-    "damage": "10,​27",
+    "hit_level": "l,m",
+    "damage": "10,27",
     "startup": "i29",
     "block": "-14",
     "hit": "+14a (-3)",
@@ -1120,6 +1232,7 @@
     "note": ""
   },
   {
+    "name": "Low Kick",
     "input": "FC 4",
     "hit_level": "l",
     "damage": "7",
@@ -1130,9 +1243,10 @@
     "note": ""
   },
   {
+    "name": "Low Kick > Somersault",
     "input": "FC 4,3",
-    "hit_level": "l,​m",
-    "damage": "7,​23",
+    "hit_level": "l,m",
+    "damage": "7,23",
     "startup": "i29",
     "block": "-14",
     "hit": "+14a",
@@ -1140,6 +1254,7 @@
     "note": "Combos from 1st hit CH\nAlternate input d+3+4,3"
   },
   {
+    "name": "Rainbow Kick",
     "input": "FC UF+3+4",
     "hit_level": "m",
     "damage": "30",
@@ -1150,6 +1265,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "ws1",
     "hit_level": "m",
     "damage": "10",
@@ -1160,9 +1276,10 @@
     "note": "Transition to DSS with F\n(-4 oB, +2 oH) (-4 oB, +2 oH) "
   },
   {
+    "name": "Flash Fist",
     "input": "ws1,2",
-    "hit_level": "m,​h",
-    "damage": "10,​25",
+    "hit_level": "m,h",
+    "damage": "10,25",
     "startup": "i16",
     "block": "-9",
     "hit": "+40d (-18)",
@@ -1170,6 +1287,7 @@
     "note": "Delayable "
   },
   {
+    "name": "Dragon Uppercut",
     "input": "ws2",
     "hit_level": "m",
     "damage": "20",
@@ -1180,6 +1298,7 @@
     "note": ""
   },
   {
+    "name": "Side Kick",
     "input": "ws3",
     "hit_level": "m",
     "damage": "16",
@@ -1190,6 +1309,7 @@
     "note": "Automatically transitions to DSS on hit and block\nOn hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 On hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 "
   },
   {
+    "name": "",
     "input": "ws4",
     "hit_level": "m",
     "damage": "14",
@@ -1200,9 +1320,10 @@
     "note": "Transition to DSS with F\n(+5 oB, +16 oH) (+5 oB, +16 oH) "
   },
   {
+    "name": "Front Kick Somersault Variation",
     "input": "ws4,3",
-    "hit_level": "m,​m",
-    "damage": "14,​23",
+    "hit_level": "m,m",
+    "damage": "14,23",
     "startup": "i27",
     "block": "-14",
     "hit": "+68a (+52)",
@@ -1210,6 +1331,7 @@
     "note": "Combos from 1st hit CH Combos from 1st hit CH "
   },
   {
+    "name": "Catapult Kick",
     "input": "ws3+4",
     "hit_level": "m",
     "damage": "30",
@@ -1220,6 +1342,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Charge",
     "input": "d+1+2",
     "hit_level": "",
     "damage": "",
@@ -1230,6 +1353,7 @@
     "note": "Enters DSS\nTransition to Slide Step with DF "
   },
   {
+    "name": "Dragon Knuckle",
     "input": "DSS 1",
     "hit_level": "h",
     "damage": "14",
@@ -1240,6 +1364,7 @@
     "note": "Chip damage on block\nAutomatically transitions to DSS on hit and block\nCH guarantees DSS.f+1, DSS.3+4,4"
   },
   {
+    "name": "Cloud Gates",
     "input": "DSS 2",
     "hit_level": "h",
     "damage": "20",
@@ -1250,6 +1375,7 @@
     "note": "Chip damage on block "
   },
   {
+    "name": "Dragon Charge Spin Kick",
     "input": "DSS 3",
     "hit_level": "h",
     "damage": "30",
@@ -1260,6 +1386,7 @@
     "note": "Chip damage on block "
   },
   {
+    "name": "Dragon Charge Kick",
     "input": "DSS 4",
     "hit_level": "l",
     "damage": "21",
@@ -1270,6 +1397,7 @@
     "note": ""
   },
   {
+    "name": "Tornado Claw",
     "input": "DSS 1+2",
     "hit_level": "m",
     "damage": "",
@@ -1280,6 +1408,7 @@
     "note": "Partially uses remaining Heat time\nInstant Tornado on CH\nAlternate input 1+2"
   },
   {
+    "name": "Dragon Roar",
     "input": "DSS f+1",
     "hit_level": "m",
     "damage": "20",
@@ -1290,6 +1419,7 @@
     "note": "Chip damage on block "
   },
   {
+    "name": "Poison Arrow",
     "input": "DSS f+2~1",
     "hit_level": "m",
     "damage": "24",
@@ -1300,6 +1430,7 @@
     "note": "Chip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input f+2~1(+5 oB, +33a (+7))"
   },
   {
+    "name": "Dragon Cannon",
     "input": "DSS f+3",
     "hit_level": "m",
     "damage": "30",
@@ -1310,6 +1441,7 @@
     "note": "Chip damage on block\nAlternate input f,F+3"
   },
   {
+    "name": "Dragon's Flight",
     "input": "DSS f+4",
     "hit_level": "h",
     "damage": "40",
@@ -1320,6 +1452,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Facelift",
     "input": "DSS uf+1+2",
     "hit_level": "t",
     "damage": "35",
@@ -1330,6 +1463,7 @@
     "note": ""
   },
   {
+    "name": "Turning Knuckles",
     "input": "BT 1",
     "hit_level": "h",
     "damage": "7",
@@ -1340,6 +1474,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT 2",
     "hit_level": "m",
     "damage": "17",
@@ -1350,9 +1485,10 @@
     "note": ""
   },
   {
+    "name": "Blind Elbow Combo",
     "input": "BT 2,2",
-    "hit_level": "m,​m",
-    "damage": "17,​20",
+    "hit_level": "m,m",
+    "damage": "17,20",
     "startup": "i14",
     "block": "-14",
     "hit": "+31d (-27)",
@@ -1360,6 +1496,7 @@
     "note": "Combos from 1st hit\nDelay-able "
   },
   {
+    "name": "",
     "input": "BT 3",
     "hit_level": "h",
     "damage": "18",
@@ -1370,6 +1507,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT 4",
     "hit_level": "h",
     "damage": "14",
@@ -1380,9 +1518,10 @@
     "note": ""
   },
   {
+    "name": "Wolf Fang",
     "input": "BT 4,3",
-    "hit_level": "h,​m",
-    "damage": "14,​24",
+    "hit_level": "h,m",
+    "damage": "14,24",
     "startup": "i24",
     "block": "-12",
     "hit": "+12a (+3)",
@@ -1390,6 +1529,7 @@
     "note": "Combos from 1st hit CH "
   },
   {
+    "name": "Dragon Back Blow",
     "input": "BT 1+2",
     "hit_level": "h",
     "damage": "20",
@@ -1400,6 +1540,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT d+3",
     "hit_level": "l",
     "damage": "6",
@@ -1410,6 +1551,7 @@
     "note": ""
   },
   {
+    "name": "Reverse Low",
     "input": "BT d+4",
     "hit_level": "l",
     "damage": "17",
@@ -1420,6 +1562,7 @@
     "note": ""
   },
   {
+    "name": "Frogman",
     "input": "BT d+3+4",
     "hit_level": "m",
     "damage": "25",
@@ -1430,6 +1573,7 @@
     "note": "Transition to FUFA with D\n(-2 oB, +13d oH) (-2 oB, +13d oH) "
   },
   {
+    "name": "Spinning Dragon Blow",
     "input": "ss2",
     "hit_level": "m",
     "damage": "23",
@@ -1440,6 +1584,7 @@
     "note": "Chip damage on block "
   },
   {
+    "name": "Low Crush",
     "input": "ss3",
     "hit_level": "l",
     "damage": "17",
@@ -1450,9 +1595,10 @@
     "note": "Automatically transitions to DSS on hit\nCH guarantees DSS.f+1, DSS.3+4,4 CH guarantees DSS.f+1, DSS.3+4,4 "
   },
   {
+    "name": "",
     "input": "ss1+2",
-    "hit_level": "m,​h,​m",
-    "damage": "8,​8,​8",
+    "hit_level": "m,h,m",
+    "damage": "8,8,8",
     "startup": "i17",
     "block": "+4",
     "hit": "+7",
@@ -1460,9 +1606,10 @@
     "note": ""
   },
   {
+    "name": "Dragon Judgment",
     "input": "ss1+2,2",
-    "hit_level": "m,​h,​m,​m",
-    "damage": "8,​8,​8,​25",
+    "hit_level": "m,h,m,m",
+    "damage": "8,8,8,25",
     "startup": "i22",
     "block": "-16",
     "hit": "+16d (+6)",
@@ -1470,9 +1617,10 @@
     "note": ""
   },
   {
+    "name": "Double Dragon",
     "input": "ss3+4",
-    "hit_level": "m,​h",
-    "damage": "9,​10",
+    "hit_level": "m,h",
+    "damage": "9,10",
     "startup": "i15",
     "block": "-12",
     "hit": "+63a (+43)",
@@ -1480,6 +1628,7 @@
     "note": ""
   },
   {
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "",
     "damage": "",
@@ -1490,6 +1639,7 @@
     "note": ""
   },
   {
+    "name": "Blackout",
     "input": "1+2+3+4~1",
     "hit_level": "sph",
     "damage": "-10",
@@ -1500,9 +1650,10 @@
     "note": "Alternate input:\nuf+1\nb,B+2+3~1,3 uf+1\nb,B+2+3~1,3 "
   },
   {
+    "name": "Blackout > Muggin'",
     "input": "1+2+3+4~1,3",
-    "hit_level": "sph,​l",
-    "damage": "-10,​10",
+    "hit_level": "sph,l",
+    "damage": "-10,10",
     "startup": "i19",
     "block": "-13",
     "hit": "-1",
@@ -1510,6 +1661,7 @@
     "note": "Combos from 1st hit\nAlternate input:\nuf+1,3\nb,B+2+3~1,3 uf+1,3\nb,B+2+3~1,3 "
   },
   {
+    "name": "Ki Charge (Hold)",
     "input": "1+2+3+4",
     "hit_level": "",
     "damage": "",
@@ -1520,6 +1672,7 @@
     "note": ""
   },
   {
+    "name": "Cloud Gates",
     "input": "1+2+3+4,2",
     "hit_level": "h",
     "damage": "24",
@@ -1530,6 +1683,7 @@
     "note": "Chip damage on block\nAlternate input DSS.2 "
   },
   {
+    "name": "Taunt",
     "input": "(While down, facing up) 1+2+3+4",
     "hit_level": "",
     "damage": "",
@@ -1540,6 +1694,7 @@
     "note": ""
   },
   {
+    "name": "Taunt",
     "input": "2+3+4",
     "hit_level": "",
     "damage": "",
@@ -1550,6 +1705,7 @@
     "note": ""
   },
   {
+    "name": "Wall Jump Attack",
     "input": "(Back to wall) b,b,ub",
     "hit_level": "m",
     "damage": "25",
@@ -1560,6 +1716,7 @@
     "note": ""
   },
   {
+    "name": "Dragon's Fire",
     "input": "1+3",
     "hit_level": "t",
     "damage": "35",
@@ -1570,6 +1727,7 @@
     "note": ""
   },
   {
+    "name": "Hopping Frog",
     "input": "2+4",
     "hit_level": "t",
     "damage": "35",
@@ -1580,6 +1738,7 @@
     "note": "Throw break 1 or 2\nSide swap\nTransition to BT with D\n(+5 BT) (+5 BT) "
   },
   {
+    "name": "Headlock Kick",
     "input": "Left Throw",
     "hit_level": "t",
     "damage": "40",
@@ -1590,6 +1749,7 @@
     "note": ""
   },
   {
+    "name": "Ball Breaker",
     "input": "Right Throw",
     "hit_level": "t",
     "damage": "42",
@@ -1600,6 +1760,7 @@
     "note": ""
   },
   {
+    "name": "Dragon Bites",
     "input": "Back Throw",
     "hit_level": "t",
     "damage": "50",
@@ -1610,6 +1771,7 @@
     "note": ""
   },
   {
+    "name": "Run Up > Drop",
     "input": "f+2+3",
     "hit_level": "t",
     "damage": "35",
@@ -1620,6 +1782,7 @@
     "note": ""
   },
   {
+    "name": "Headlock Punch",
     "input": "uf+1+2",
     "hit_level": "t",
     "damage": "35",
@@ -1630,6 +1793,7 @@
     "note": ""
   },
   {
+    "name": "Headlock Drop",
     "input": "uf+1+2,2,1,1+2",
     "hit_level": "t",
     "damage": "40",
@@ -1640,6 +1804,7 @@
     "note": "Throw break 1+2\n"
   },
   {
+    "name": "Knee Lift",
     "input": "f,F+3+4",
     "hit_level": "t",
     "damage": "10",
@@ -1650,6 +1815,7 @@
     "note": ""
   },
   {
+    "name": "10 Hit Combo",
     "input": "df+1,3,2,2,3,3,3,4,4,4",
     "hit_level": "",
     "damage": "",

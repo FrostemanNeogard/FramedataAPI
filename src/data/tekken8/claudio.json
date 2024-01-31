@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "15",
@@ -10,9 +11,10 @@
     "note": ""
   },
   {
+    "name": "Stella Cadente",
     "input": "in heat 2+3",
-    "hit_level": "l,​th",
-    "damage": "12,​40",
+    "hit_level": "l,th",
+    "damage": "12,40",
     "startup": "i18",
     "block": "",
     "hit": "th",
@@ -20,6 +22,7 @@
     "note": ""
   },
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -30,9 +33,10 @@
     "note": ""
   },
   {
+    "name": "Scattered Ashes",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​12",
+    "hit_level": "h,h",
+    "damage": "5,12",
     "startup": "i10",
     "block": "-1",
     "hit": "+6",
@@ -40,9 +44,10 @@
     "note": ""
   },
   {
+    "name": "Absolve",
     "input": "1,3",
-    "hit_level": "h,​l",
-    "damage": "5,​11",
+    "hit_level": "h,l",
+    "damage": "5,11",
     "startup": "i10",
     "block": "-12",
     "hit": "-1",
@@ -50,6 +55,7 @@
     "note": ""
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "10",
@@ -60,9 +66,10 @@
     "note": ""
   },
   {
+    "name": "Circle of Judgement (2)",
     "input": "2,1",
-    "hit_level": "h,​m",
-    "damage": "10,​13",
+    "hit_level": "h,m",
+    "damage": "10,13",
     "startup": "i12",
     "block": "-6",
     "hit": "+5",
@@ -70,9 +77,10 @@
     "note": ""
   },
   {
+    "name": "Circle of Judgement",
     "input": "2,1,2",
-    "hit_level": "h,​m,​m",
-    "damage": "10,​13,​25",
+    "hit_level": "h,m,m",
+    "damage": "10,13,25",
     "startup": "i12",
     "block": "",
     "hit": "",
@@ -80,6 +88,7 @@
     "note": "Combo from 2nd CH\nGrants STB on hit"
   },
   {
+    "name": "Circle of Judgement > Heat Dash",
     "input": "2,1,2",
     "hit_level": "",
     "damage": "",
@@ -90,6 +99,7 @@
     "note": ""
   },
   {
+    "name": "Requiescat (1)",
     "input": "3",
     "hit_level": "m",
     "damage": "14",
@@ -100,9 +110,10 @@
     "note": ""
   },
   {
+    "name": "Requiescat",
     "input": "3,2",
-    "hit_level": "h,​h",
-    "damage": "21,​22",
+    "hit_level": "h,h",
+    "damage": "21,22",
     "startup": "i14",
     "block": "",
     "hit": "",
@@ -110,9 +121,10 @@
     "note": "Grants STB on hit"
   },
   {
+    "name": "Requiescat > Heat Dash",
     "input": "in heat 3,2,F",
-    "hit_level": "m,​h",
-    "damage": "14,​22",
+    "hit_level": "m,h",
+    "damage": "14,22",
     "startup": "i14",
     "block": "",
     "hit": "",
@@ -120,6 +132,7 @@
     "note": ""
   },
   {
+    "name": "High Kick",
     "input": "4",
     "hit_level": "h",
     "damage": "13",
@@ -130,9 +143,10 @@
     "note": ""
   },
   {
+    "name": "Battle Scars",
     "input": "4,3",
-    "hit_level": "h,​h",
-    "damage": "13,​14",
+    "hit_level": "h,h",
+    "damage": "13,14",
     "startup": "i12",
     "block": "+0",
     "hit": "+15Sp",
@@ -140,6 +154,7 @@
     "note": "Combo from 1st hit\nCan be delayed 11F\nCombo can be delayed 5F from hit"
   },
   {
+    "name": "Crimson Delta Edge (1)",
     "input": "1+2",
     "hit_level": "m",
     "damage": "20",
@@ -150,9 +165,10 @@
     "note": ""
   },
   {
+    "name": "Crimson Delta Edge (2)",
     "input": "1+2,1+2",
-    "hit_level": "m,​th",
-    "damage": "20,​10",
+    "hit_level": "m,th",
+    "damage": "20,10",
     "startup": "i17",
     "block": "",
     "hit": "+0",
@@ -160,9 +176,10 @@
     "note": ""
   },
   {
+    "name": "Crimson Delta Edge to Starburst",
     "input": "1+2,1+2,f+2",
-    "hit_level": "m,​thth,​sp",
-    "damage": "20,​10,​18",
+    "hit_level": "m,thth,sp",
+    "damage": "20,10,18",
     "startup": "i17",
     "block": "",
     "hit": "th",
@@ -170,6 +187,7 @@
     "note": "Grants STB on hit\nOnly comes out on hit\nDeals 20 damage with the input b,f+2\nFoot-side & Face-up & -5F from Not Starburst\nHead-side & Face-up & +0F during Starburst"
   },
   {
+    "name": "Rolling Strike",
     "input": "3+4",
     "hit_level": "m",
     "damage": "20",
@@ -180,6 +198,7 @@
     "note": ""
   },
   {
+    "name": "Trinity of Pain (1)",
     "input": "f+2",
     "hit_level": "h",
     "damage": "9",
@@ -190,9 +209,10 @@
     "note": ""
   },
   {
+    "name": "Trinity of Pain (2)",
     "input": "f+2,1",
-    "hit_level": "h,​m",
-    "damage": "9,​12",
+    "hit_level": "h,m",
+    "damage": "9,12",
     "startup": "i12",
     "block": "-10",
     "hit": "+6c",
@@ -200,9 +220,10 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Trinity of Pain",
     "input": "f+2,1,1+2",
-    "hit_level": "h,​m,​m",
-    "damage": "9,​12,​25",
+    "hit_level": "h,m,m",
+    "damage": "9,12,25",
     "startup": "i12",
     "block": "-18",
     "hit": "KND",
@@ -210,9 +231,10 @@
     "note": "Can be delayed 14F\nCombo from 1st or 2nd CH"
   },
   {
+    "name": "Deadly Sin",
     "input": "f+2,2",
     "hit_level": "hm",
-    "damage": "9,​20",
+    "damage": "9,20",
     "startup": "i12",
     "block": "-27",
     "hit": "KND",
@@ -220,6 +242,7 @@
     "note": "Grants STB on hit\nCombo from 1st hit"
   },
   {
+    "name": "Sacred Edge",
     "input": "f+3",
     "hit_level": "h",
     "damage": "18",
@@ -230,6 +253,7 @@
     "note": ""
   },
   {
+    "name": "Into the Abyss",
     "input": "f+4",
     "hit_level": "m",
     "damage": "23",
@@ -240,6 +264,7 @@
     "note": ""
   },
   {
+    "name": "Cross Arm Strike",
     "input": "f+1+2",
     "hit_level": "m",
     "damage": "8",
@@ -250,9 +275,10 @@
     "note": ""
   },
   {
+    "name": "Cross Arm Impact",
     "input": "f+1+2,1+2",
-    "hit_level": "m,​m",
-    "damage": "8,​16",
+    "hit_level": "m,m",
+    "damage": "8,16",
     "startup": "i16",
     "block": "-14",
     "hit": "KND",
@@ -260,6 +286,7 @@
     "note": "Combo from 1st hit\nCan be delayed"
   },
   {
+    "name": "Above the Storm",
     "input": "f+3+4",
     "hit_level": "h",
     "damage": "18",
@@ -270,6 +297,7 @@
     "note": ""
   },
   {
+    "name": "Quick Upper",
     "input": "df+1",
     "hit_level": "m",
     "damage": "10",
@@ -280,9 +308,10 @@
     "note": ""
   },
   {
+    "name": "Sky's Arc",
     "input": "df+1,2",
-    "hit_level": "m,​m",
-    "damage": "10,​15",
+    "hit_level": "m,m",
+    "damage": "10,15",
     "startup": "i15",
     "block": "-15",
     "hit": "LNC",
@@ -290,6 +319,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Chaos Fist",
     "input": "df+2",
     "hit_level": "m",
     "damage": "19",
@@ -300,6 +330,7 @@
     "note": ""
   },
   {
+    "name": "Dispel Magic (1)",
     "input": "df+3",
     "hit_level": "m",
     "damage": "12",
@@ -310,9 +341,10 @@
     "note": ""
   },
   {
+    "name": "Dispel Magic",
     "input": "df+3,1",
-    "hit_level": "m,​m",
-    "damage": "12,​18",
+    "hit_level": "m,m",
+    "damage": "12,18",
     "startup": "i14",
     "block": "-12",
     "hit": "KND",
@@ -320,9 +352,10 @@
     "note": "Combo from 1st hit\nCan be delayed 14F"
   },
   {
+    "name": "Dispel Force",
     "input": "df+3,2",
-    "hit_level": "m,​h",
-    "damage": "12,​10",
+    "hit_level": "m,h",
+    "damage": "12,10",
     "startup": "i14",
     "block": "-2",
     "hit": "+4",
@@ -330,6 +363,7 @@
     "note": "Combo from 1st hit\nCan be delayed 14F"
   },
   {
+    "name": "Front Kick",
     "input": "df+4",
     "hit_level": "m",
     "damage": "14",
@@ -340,6 +374,7 @@
     "note": ""
   },
   {
+    "name": "Axion",
     "input": "d+1",
     "hit_level": "m",
     "damage": "14",
@@ -350,9 +385,10 @@
     "note": ""
   },
   {
+    "name": "Mystic Ray",
     "input": "d+1,2",
-    "hit_level": "m,​m",
-    "damage": "14,​15",
+    "hit_level": "m,m",
+    "damage": "14,15",
     "startup": "i17",
     "block": "",
     "hit": "",
@@ -360,6 +396,7 @@
     "note": ""
   },
   {
+    "name": "Gravity Point",
     "input": "d+2",
     "hit_level": "l",
     "damage": "6",
@@ -370,9 +407,10 @@
     "note": ""
   },
   {
+    "name": "Gravity Hole",
     "input": "d+2,2",
-    "hit_level": "l,​l",
-    "damage": "6,​8",
+    "hit_level": "l,l",
+    "damage": "6,8",
     "startup": "i20",
     "block": "",
     "hit": "",
@@ -380,6 +418,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Side Kick",
     "input": "d+3",
     "hit_level": "l",
     "damage": "12",
@@ -390,6 +429,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Chin Kick",
     "input": "d+4",
     "hit_level": "l",
     "damage": "7",
@@ -400,6 +440,7 @@
     "note": ""
   },
   {
+    "name": "Superbia",
     "input": "d+1+2",
     "hit_level": "m",
     "damage": "28",
@@ -410,6 +451,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Jab",
     "input": "db+1",
     "hit_level": "sm",
     "damage": "5",
@@ -420,6 +462,7 @@
     "note": "Returns to standing when input F"
   },
   {
+    "name": "Crouch Straight",
     "input": "db+2",
     "hit_level": "sm",
     "damage": "8",
@@ -430,9 +473,10 @@
     "note": ""
   },
   {
+    "name": "Twin Claws",
     "input": "db+2,1",
-    "hit_level": "sm,​m",
-    "damage": "8,​12",
+    "hit_level": "sm,m",
+    "damage": "8,12",
     "startup": "i11",
     "block": "-13",
     "hit": "+3",
@@ -440,6 +484,7 @@
     "note": "Combo from 1st CH\nSame move as FC.2,1"
   },
   {
+    "name": "Acedia",
     "input": "db+3",
     "hit_level": "l",
     "damage": "23",
@@ -450,6 +495,7 @@
     "note": ""
   },
   {
+    "name": "Lagrange Needle (1)",
     "input": "db+4",
     "hit_level": "l",
     "damage": "7",
@@ -460,9 +506,10 @@
     "note": ""
   },
   {
+    "name": "Lagrange Needle",
     "input": "db+4,3",
-    "hit_level": "l,​h",
-    "damage": "7,​10",
+    "hit_level": "l,h",
+    "damage": "7,10",
     "startup": "i15",
     "block": "-11",
     "hit": "+0",
@@ -470,6 +517,7 @@
     "note": ""
   },
   {
+    "name": "Blue Moon",
     "input": "db+1+2",
     "hit_level": "m",
     "damage": "20",
@@ -480,6 +528,7 @@
     "note": ""
   },
   {
+    "name": "Vanishing Storm",
     "input": "b+1",
     "hit_level": "m",
     "damage": "25",
@@ -490,6 +539,7 @@
     "note": ""
   },
   {
+    "name": "Spinning Skies",
     "input": "b+2",
     "hit_level": "h",
     "damage": "25",
@@ -500,6 +550,7 @@
     "note": ""
   },
   {
+    "name": "Burning Core",
     "input": "b+3",
     "hit_level": "m",
     "damage": "14",
@@ -510,9 +561,10 @@
     "note": ""
   },
   {
+    "name": "Crescent Heel",
     "input": "b+3,3",
-    "hit_level": "m,​m",
-    "damage": "14,​21",
+    "hit_level": "m,m",
+    "damage": "14,21",
     "startup": "i13",
     "block": "-12",
     "hit": "+7c",
@@ -520,6 +572,7 @@
     "note": "Combo from 1st CH\nCan be delayed"
   },
   {
+    "name": "Shining Ray (1)",
     "input": "b+4",
     "hit_level": "m",
     "damage": "10",
@@ -530,9 +583,10 @@
     "note": ""
   },
   {
+    "name": "Shining Wind",
     "input": "b+4,1",
-    "hit_level": "m,​h",
-    "damage": "10,​18",
+    "hit_level": "m,h",
+    "damage": "10,18",
     "startup": "i17",
     "block": "-8",
     "hit": "+13Sp",
@@ -540,9 +594,10 @@
     "note": "Grants STB on hit\nCombo from 1st hit\nCan be delayed 12F\nCombo can be delayed 10F from CH\nChip damage when guarded"
   },
   {
+    "name": "Shining Ray",
     "input": "b+4,2",
-    "hit_level": "m,​m",
-    "damage": "10,​20",
+    "hit_level": "m,m",
+    "damage": "10,20",
     "startup": "i17",
     "block": "-12",
     "hit": "KND",
@@ -550,9 +605,10 @@
     "note": "Grants STB on hit\nCombo from 1st hit"
   },
   {
+    "name": "Shining Ray > Heat Dash",
     "input": "in heat b+4,2,F",
-    "hit_level": "m,​m",
-    "damage": "10,​20",
+    "hit_level": "m,m",
+    "damage": "10,20",
     "startup": "i17",
     "block": "",
     "hit": "",
@@ -560,9 +616,10 @@
     "note": ""
   },
   {
+    "name": "Axial Ray",
     "input": "b+4,3",
-    "hit_level": "m,​h",
-    "damage": "10,​14",
+    "hit_level": "m,h",
+    "damage": "10,14",
     "startup": "i17",
     "block": "-12",
     "hit": "-4",
@@ -570,9 +627,10 @@
     "note": "Combo from 1st hit\nCan be delayed 12F"
   },
   {
+    "name": "Avaritia",
     "input": "b+4,3,2",
-    "hit_level": "m,​h,​m",
-    "damage": "10,​14,​20",
+    "hit_level": "m,h,m",
+    "damage": "10,14,20",
     "startup": "i17",
     "block": "-13",
     "hit": "KND",
@@ -580,9 +638,10 @@
     "note": ""
   },
   {
+    "name": "Lunar Ray",
     "input": "b+4,4",
-    "hit_level": "m,​m",
-    "damage": "10,​16",
+    "hit_level": "m,m",
+    "damage": "10,16",
     "startup": "i17",
     "block": "",
     "hit": "LNC",
@@ -590,6 +649,7 @@
     "note": ""
   },
   {
+    "name": "Judgment Claw",
     "input": "b+1+2",
     "hit_level": "m",
     "damage": "25",
@@ -600,6 +660,7 @@
     "note": "absorb an attack to power up\n- Add chip damage when guarded"
   },
   {
+    "name": "Eternal Moon",
     "input": "b+3+4",
     "hit_level": "m",
     "damage": "24",
@@ -610,6 +671,7 @@
     "note": ""
   },
   {
+    "name": "Big Bang",
     "input": "b+2+3",
     "hit_level": "ub(m)",
     "damage": "60",
@@ -620,6 +682,7 @@
     "note": ""
   },
   {
+    "name": "Meteor Storm",
     "input": "u+2",
     "hit_level": "m",
     "damage": "21",
@@ -630,6 +693,7 @@
     "note": "Grants STB on hit\nAlternate input: ub+2/uf+2"
   },
   {
+    "name": "Ground Slash Nova",
     "input": "u+3",
     "hit_level": "m",
     "damage": "20",
@@ -640,6 +704,7 @@
     "note": ""
   },
   {
+    "name": "Sky Slash Nova",
     "input": "uf+4",
     "hit_level": "m",
     "damage": "13",
@@ -650,9 +715,10 @@
     "note": ""
   },
   {
+    "name": "Pollux",
     "input": "uf+3+4",
     "hit_level": "mm",
-    "damage": "10,​14",
+    "damage": "10,14",
     "startup": "i20",
     "block": "-11",
     "hit": "KND",
@@ -660,6 +726,7 @@
     "note": ""
   },
   {
+    "name": "Dual Guns (1)",
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "14",
@@ -670,9 +737,10 @@
     "note": "Same move as FC.df+2\nCannot be buffered"
   },
   {
+    "name": "Dual Guns",
     "input": "f,F+2,2",
-    "hit_level": "m,​h",
-    "damage": "14,​20",
+    "hit_level": "m,h",
+    "damage": "14,20",
     "startup": "i14~16",
     "block": "-2c",
     "hit": "",
@@ -680,9 +748,10 @@
     "note": "Combo from 1st hit\nCan be delayed\nSame move as FC.df+2,2"
   },
   {
+    "name": "Bringer of Justice",
     "input": "f,F+2,1+2",
-    "hit_level": "m,​m",
-    "damage": "14,​20",
+    "hit_level": "m,m",
+    "damage": "14,20",
     "startup": "i14~16",
     "block": "-13",
     "hit": "KND",
@@ -690,6 +759,7 @@
     "note": "Grants STB on hit\nCan be delayed\nCombo from 1st NH"
   },
   {
+    "name": "Invidia",
     "input": "f,F+4",
     "hit_level": "m",
     "damage": "20",
@@ -700,6 +770,7 @@
     "note": ""
   },
   {
+    "name": "Ira",
     "input": "f,f,F+2",
     "hit_level": "h",
     "damage": "40",
@@ -710,6 +781,7 @@
     "note": "Grants STB on hit\nChip damage when guarded"
   },
   {
+    "name": "Ira > Heat Dash",
     "input": "in heat f,f,F+2,F",
     "hit_level": "h",
     "damage": "40",
@@ -720,6 +792,7 @@
     "note": "Grants STB on hit"
   },
   {
+    "name": "Noble Step (1)",
     "input": "ws1",
     "hit_level": "m",
     "damage": "12",
@@ -730,9 +803,10 @@
     "note": ""
   },
   {
+    "name": "Noble Step",
     "input": "ws1,1",
-    "hit_level": "m,​h",
-    "damage": "12,​15",
+    "hit_level": "m,h",
+    "damage": "12,15",
     "startup": "i12",
     "block": "-12",
     "hit": "+9",
@@ -740,9 +814,10 @@
     "note": ""
   },
   {
+    "name": "Malefic Draw",
     "input": "ws1,2",
-    "hit_level": "m,​m",
-    "damage": "12,​12",
+    "hit_level": "m,m",
+    "damage": "12,12",
     "startup": "i12",
     "block": "",
     "hit": "",
@@ -750,6 +825,7 @@
     "note": ""
   },
   {
+    "name": "Sylvia",
     "input": "ws2",
     "hit_level": "m",
     "damage": "20",
@@ -760,6 +836,7 @@
     "note": ""
   },
   {
+    "name": "Piercing Wind",
     "input": "ws3",
     "hit_level": "m",
     "damage": "20",
@@ -770,6 +847,7 @@
     "note": ""
   },
   {
+    "name": "Holy Smash",
     "input": "ws4",
     "hit_level": "m",
     "damage": "18",
@@ -780,9 +858,10 @@
     "note": ""
   },
   {
+    "name": "Aurora Pactum",
     "input": "STB 4,2",
-    "hit_level": "h,​sm",
-    "damage": "13,​32",
+    "hit_level": "h,sm",
+    "damage": "13,32",
     "startup": "Startup",
     "block": "",
     "hit": "KND",
@@ -790,9 +869,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Cross Arm Impact Burst",
     "input": "STB f+1+2,1+2",
-    "hit_level": "m,​m",
-    "damage": "8,​16",
+    "hit_level": "m,m",
+    "damage": "8,16",
     "startup": "i16",
     "block": "-9",
     "hit": "KND",
@@ -800,9 +880,10 @@
     "note": "Combo from 1st hit\nCan be delayed\nChip damage when guarded"
   },
   {
+    "name": "Mystic Ray Burst",
     "input": "STB d+1,2",
-    "hit_level": "m,​m",
-    "damage": "16,​23",
+    "hit_level": "m,m",
+    "damage": "16,23",
     "startup": "i16",
     "block": "",
     "hit": "KND",
@@ -810,9 +891,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Gravity Zone",
     "input": "STB d+2,2",
-    "hit_level": "l,​l",
-    "damage": "11,​17",
+    "hit_level": "l,l",
+    "damage": "11,17",
     "startup": "i20",
     "block": "-12",
     "hit": "KND",
@@ -820,6 +902,7 @@
     "note": ""
   },
   {
+    "name": "Blue Moon Burst",
     "input": "STB db+1+2",
     "hit_level": "m",
     "damage": "25",
@@ -830,9 +913,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Avaritia Burst",
     "input": "STB b+4,3,2",
-    "hit_level": "m,​h,​m",
-    "damage": "10,​14,​38",
+    "hit_level": "m,h,m",
+    "damage": "10,14,38",
     "startup": "i17",
     "block": "-1",
     "hit": "LNC",
@@ -840,6 +924,7 @@
     "note": "Combo from 2nd CH\nChip damage when guarded"
   },
   {
+    "name": "Anima",
     "input": "STB f,f,F+1+2",
     "hit_level": "h",
     "damage": "55",
@@ -850,9 +935,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "Malefic Draw Burst",
     "input": "STB ws1,2",
-    "hit_level": "m,​m",
-    "damage": "12,​23",
+    "hit_level": "m,m",
+    "damage": "12,23",
     "startup": "i12",
     "block": "",
     "hit": "KND",
@@ -860,9 +946,10 @@
     "note": "Chip damage when guarded"
   },
   {
+    "name": "La Luce Di Sirio",
     "input": "in rage df+1+2",
-    "hit_level": "m,​th",
-    "damage": "10,​45",
+    "hit_level": "m,th",
+    "damage": "10,45",
     "startup": "Startup",
     "block": "",
     "hit": "",
@@ -870,6 +957,7 @@
     "note": "Rage Art"
   },
   {
+    "name": "Luxuria",
     "input": "SS 4",
     "hit_level": "l",
     "damage": "20",
@@ -880,6 +968,7 @@
     "note": ""
   },
   {
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "sp",
     "damage": "-",
@@ -890,6 +979,7 @@
     "note": ""
   },
   {
+    "name": "Wall Jumping Attack",
     "input": "(back to wall) b,b,ub",
     "hit_level": "m",
     "damage": "21",
@@ -900,6 +990,7 @@
     "note": "Air Status 5F"
   },
   {
+    "name": "Punishment",
     "input": "1+3",
     "hit_level": "th(h)",
     "damage": "35",
@@ -910,6 +1001,7 @@
     "note": "Break: 1 or 2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Foot-sd. Face-up"
   },
   {
+    "name": "Roche Limit",
     "input": "2+4",
     "hit_level": "th(h)",
     "damage": "35",
@@ -920,6 +1012,7 @@
     "note": "Break: 1 or 2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Reverse Pos. Head-sd. Face-up"
   },
   {
+    "name": "Avalaunche Throw",
     "input": "Left throw",
     "hit_level": "th(h)",
     "damage": "40",
@@ -930,6 +1023,7 @@
     "note": "Break: 1\nOpp. Position on break:\nOpp. Position on hit: Right-sd. Face-up"
   },
   {
+    "name": "Prayer into the Void",
     "input": "Right throw",
     "hit_level": "th(h)",
     "damage": "40",
@@ -940,6 +1034,7 @@
     "note": "Break: 2\nOpp. Position on break:\nOpp. Position on hit: Foot-sd. Face-up"
   },
   {
+    "name": "Sudden Shadow",
     "input": "Back throw",
     "hit_level": "th(h)",
     "damage": "50",
@@ -950,6 +1045,7 @@
     "note": "Break: none\nOpp. Position on break: -\nOpp. Position on hit: Foot-sd. Face-down"
   },
   {
+    "name": "Gula",
     "input": "uf+1+2",
     "hit_level": "th(h)",
     "damage": "40",

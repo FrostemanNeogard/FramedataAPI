@@ -1,5 +1,6 @@
 [
   {
+    "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
     "damage": "12 (12)",
@@ -10,9 +11,10 @@
     "note": "Cancel to r45 with b,b"
   },
   {
+    "name": "Azucena Speciality",
     "input": "in heat 2+3",
-    "hit_level": "m,​m,​t",
-    "damage": "15,​9,​29",
+    "hit_level": "m,m,t",
+    "damage": "15,9,29",
     "startup": "i15~16",
     "block": "+6~-7",
     "hit": "+0a",
@@ -20,9 +22,10 @@
     "note": "Throw on hit"
   },
   {
+    "name": "Azucena Speciality (Block)",
     "input": "in heat 2+3",
-    "hit_level": "m,​h,​m",
-    "damage": "15,​15,​30",
+    "hit_level": "m,h,m",
+    "damage": "15,15,30",
     "startup": "i15~16 i24~25 i53~54",
     "block": "+6~-7",
     "hit": "+15a",
@@ -30,6 +33,7 @@
     "note": ""
   },
   {
+    "name": "Jab",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -40,9 +44,10 @@
     "note": ""
   },
   {
+    "name": "High Mountain Combo",
     "input": "1,1",
-    "hit_level": "h,​m",
-    "damage": "5,​15",
+    "hit_level": "h,m",
+    "damage": "5,15",
     "startup": ",i24~25",
     "block": "-9~-8",
     "hit": "+8",
@@ -50,9 +55,10 @@
     "note": "Combo from 1st hit\nTransition to LIB on hit only"
   },
   {
+    "name": "High Roast Combo",
     "input": "1,2",
-    "hit_level": "h,​h",
-    "damage": "5,​23",
+    "hit_level": "h,h",
+    "damage": "5,23",
     "startup": ",i20~21",
     "block": "-14~-13",
     "hit": "+8~+9",
@@ -60,6 +66,7 @@
     "note": "Combo from 1st hit with 4f delay\nCan transition to BT with B"
   },
   {
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "9",
@@ -70,9 +77,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "2,1",
-    "hit_level": "h,​m",
-    "damage": "9,​11",
+    "hit_level": "h,m",
+    "damage": "9,11",
     "startup": ",i17~18",
     "block": "-3~-2",
     "hit": "+7~+8",
@@ -80,9 +88,10 @@
     "note": ""
   },
   {
+    "name": "Andes Mountain Uppercut Combo",
     "input": "2,1,2",
-    "hit_level": "h,​m,​h",
-    "damage": "9,​11,​21",
+    "hit_level": "h,m,h",
+    "damage": "9,11,21",
     "startup": ",i24~25",
     "block": "-5~-4",
     "hit": "+20a (+3)",
@@ -90,6 +99,7 @@
     "note": "Combo from 2nd CH with 5f delay\nInput can be delayed 10f"
   },
   {
+    "name": "Left Kick",
     "input": "3",
     "hit_level": "m",
     "damage": "11",
@@ -100,9 +110,10 @@
     "note": ""
   },
   {
+    "name": "Groovy Strike",
     "input": "3,2",
-    "hit_level": "m,​m",
-    "damage": "11,​18",
+    "hit_level": "m,m",
+    "damage": "11,18",
     "startup": ",i23~24",
     "block": "-12~-11",
     "hit": "+6~+7",
@@ -110,6 +121,7 @@
     "note": "Combo from 1st hit with 5f delay\nInput can be delayed 10f delay"
   },
   {
+    "name": "",
     "input": "3,2~F",
     "hit_level": "m",
     "damage": "11",
@@ -120,6 +132,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "in heat 3,2~F",
     "hit_level": "",
     "damage": "",
@@ -130,9 +143,10 @@
     "note": ""
   },
   {
+    "name": "Groovy Punalada",
     "input": "3,3",
-    "hit_level": "m,​h",
-    "damage": "11,​23",
+    "hit_level": "m,h",
+    "damage": "11,23",
     "startup": ",i24~25",
     "block": "-1~+0",
     "hit": "+43a (-15)",
@@ -140,6 +154,7 @@
     "note": "Combo from 1st hit with 6f delay"
   },
   {
+    "name": "Right Kick",
     "input": "4",
     "hit_level": "h",
     "damage": "15",
@@ -150,9 +165,10 @@
     "note": ""
   },
   {
+    "name": "Guapuño",
     "input": "4,1",
-    "hit_level": "h,​h",
-    "damage": "15,​11",
+    "hit_level": "h,h",
+    "damage": "15,11",
     "startup": ",i21~22",
     "block": "-2~-1",
     "hit": "+4~+5",
@@ -160,9 +176,10 @@
     "note": ""
   },
   {
+    "name": "Delfin Patadas",
     "input": "4,3",
-    "hit_level": "h,​M",
-    "damage": "15,​17",
+    "hit_level": "h,M",
+    "damage": "15,17",
     "startup": ",i26~27",
     "block": "-11~-10",
     "hit": "+19c~+20c",
@@ -170,6 +187,7 @@
     "note": "Balcony Break on CH\nCombo from 1st CH with 8f delay\nInput can be delayed 12f"
   },
   {
+    "name": "Boomerang Scythe",
     "input": "1+2",
     "hit_level": "h",
     "damage": "20",
@@ -180,6 +198,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f+2",
     "hit_level": "h",
     "damage": "14",
@@ -190,9 +209,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f+2,1",
-    "hit_level": "h,​m",
-    "damage": "14,​17",
+    "hit_level": "h,m",
+    "damage": "14,17",
     "startup": ",i22~23",
     "block": "-10~-9",
     "hit": "+5~+6",
@@ -200,9 +220,10 @@
     "note": "Combo from 1st hit with 7f delay\nInput can be delayed 8f"
   },
   {
+    "name": "Danza Del Cóndor",
     "input": "f+2,1,4",
-    "hit_level": "h,​m,​m",
-    "damage": "14,​17,​17",
+    "hit_level": "h,m,m",
+    "damage": "14,17,17",
     "startup": ",i24~25",
     "block": "-14~-13",
     "hit": "+19a (+9)",
@@ -210,6 +231,7 @@
     "note": "Combo from 2nd CH with 10f delay"
   },
   {
+    "name": "",
     "input": "f+3",
     "hit_level": "m",
     "damage": "15",
@@ -220,9 +242,10 @@
     "note": ""
   },
   {
+    "name": "Sumatra Back Knuckle",
     "input": "f+3,2",
-    "hit_level": "m,​h",
-    "damage": "15,​20",
+    "hit_level": "m,h",
+    "damage": "15,20",
     "startup": ",i22~23",
     "block": "-4~-5",
     "hit": "+22a",
@@ -230,6 +253,7 @@
     "note": "Combo from 1st hit with 8f delay"
   },
   {
+    "name": "",
     "input": "f+4",
     "hit_level": "m",
     "damage": "16",
@@ -240,9 +264,10 @@
     "note": ""
   },
   {
+    "name": "Tifón Patear",
     "input": "f+4,4",
-    "hit_level": "m,​h",
-    "damage": "16,​21",
+    "hit_level": "m,h",
+    "damage": "16,21",
     "startup": ",i24~25",
     "block": "-7~-6",
     "hit": "+19a (+10)",
@@ -250,6 +275,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Tifón Patear > Heat Dash",
     "input": "in heat f+4,4,F",
     "hit_level": "",
     "damage": "",
@@ -260,6 +286,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "f+4,4~B",
     "hit_level": "m",
     "damage": "16",
@@ -270,9 +297,10 @@
     "note": ""
   },
   {
+    "name": "Tifón Trueno",
     "input": "f+4,4~2",
-    "hit_level": "m,​h",
-    "damage": "16,​23",
+    "hit_level": "m,h",
+    "damage": "16,23",
     "startup": ",i23~24",
     "block": "+1~+2",
     "hit": "+52a",
@@ -280,9 +308,10 @@
     "note": ""
   },
   {
+    "name": "Tifón Cañón",
     "input": "f+4,4~3",
-    "hit_level": "m,​m",
-    "damage": "16,​24",
+    "hit_level": "m,m",
+    "damage": "16,24",
     "startup": ",i21~22",
     "block": "-9~-8",
     "hit": "+15a (+6)",
@@ -290,6 +319,7 @@
     "note": ""
   },
   {
+    "name": "Aero Press Pegar",
     "input": "f+1+2",
     "hit_level": "h",
     "damage": "25",
@@ -300,6 +330,7 @@
     "note": "Frame advantage is +0 if an attack is absorbed"
   },
   {
+    "name": "Aero Press Pegar > Heat Dash",
     "input": "in heat f+1+2,F",
     "hit_level": "",
     "damage": "",
@@ -310,6 +341,7 @@
     "note": ""
   },
   {
+    "name": "Mid Check",
     "input": "df+1",
     "hit_level": "m",
     "damage": "11",
@@ -320,9 +352,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+1,4",
-    "hit_level": "m,​h",
-    "damage": "11,​17",
+    "hit_level": "m,h",
+    "damage": "11,17",
     "startup": ",i17~18",
     "block": "-7~-6",
     "hit": "+4~+5",
@@ -330,9 +363,10 @@
     "note": "Combo from 1st hit with 8f delay\nJail from 1st block with 1f delay"
   },
   {
+    "name": "Grande Combo",
     "input": "df+1,4,1",
-    "hit_level": "m,​h,​h",
-    "damage": "11,​17,​20",
+    "hit_level": "m,h,h",
+    "damage": "11,17,20",
     "startup": ",i22~23",
     "block": "-5~-4",
     "hit": "+44d (-14)",
@@ -340,9 +374,10 @@
     "note": "Combo from 2nd CH with 7f delay\nInput can be delayed 8f delay"
   },
   {
+    "name": "",
     "input": "df+1,4,1~F",
-    "hit_level": "m,​h",
-    "damage": "11,​17",
+    "hit_level": "m,h",
+    "damage": "11,17",
     "startup": ",i22~23",
     "block": "-17~-16",
     "hit": "-6~-5",
@@ -350,9 +385,10 @@
     "note": ""
   },
   {
+    "name": "Full Body Grande Combo",
     "input": "df+1,4,1~2",
-    "hit_level": "m,​h,​M",
-    "damage": "11,​17,​23",
+    "hit_level": "m,h,M",
+    "damage": "11,17,23",
     "startup": ",i18~19",
     "block": "-10~-9",
     "hit": "+23d",
@@ -360,6 +396,7 @@
     "note": ""
   },
   {
+    "name": "Mount Rainier",
     "input": "df+2",
     "hit_level": "m",
     "damage": "12",
@@ -370,6 +407,7 @@
     "note": ""
   },
   {
+    "name": "Rodilla Shot",
     "input": "df+3",
     "hit_level": "m",
     "damage": "17",
@@ -380,6 +418,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "df+4",
     "hit_level": "m",
     "damage": "15",
@@ -390,9 +429,10 @@
     "note": ""
   },
   {
+    "name": "Blue Mountain Combo",
     "input": "df+4,1",
-    "hit_level": "m,​h",
-    "damage": "15,​23",
+    "hit_level": "m,h",
+    "damage": "15,23",
     "startup": "i23~24",
     "block": "-5~-4",
     "hit": "+20a (+3)",
@@ -400,6 +440,7 @@
     "note": "Combo from 1st hit with 6f delay\nInput can be delayed 10f"
   },
   {
+    "name": "Hand Drip Hammer",
     "input": "d+1",
     "hit_level": "m",
     "damage": "20",
@@ -410,6 +451,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "d+2",
     "hit_level": "m",
     "damage": "15",
@@ -420,9 +462,10 @@
     "note": ""
   },
   {
+    "name": "La Niña Kick Combo",
     "input": "d+2,3",
-    "hit_level": "m,​h",
-    "damage": "15,​20",
+    "hit_level": "m,h",
+    "damage": "15,20",
     "startup": ",i24~25",
     "block": "+1~+2",
     "hit": "+16g~+17g",
@@ -430,6 +473,7 @@
     "note": "Combo from 1st hit with 7f delay"
   },
   {
+    "name": "",
     "input": "d+3",
     "hit_level": "L",
     "damage": "10",
@@ -440,9 +484,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "d+3,3",
-    "hit_level": "L,​m",
-    "damage": "10,​14",
+    "hit_level": "L,m",
+    "damage": "10,14",
     "startup": ",i23",
     "block": "-13",
     "hit": "+1",
@@ -450,9 +495,10 @@
     "note": "Combo from 1st CH with 7f delay\nInput can be delayed 10f"
   },
   {
+    "name": "Passionate Kick Combo",
     "input": "d+3,3,4",
-    "hit_level": "L,​m,​m",
-    "damage": "10,​14,​21",
+    "hit_level": "L,m,m",
+    "damage": "10,14,21",
     "startup": ",i25~26",
     "block": "-14~-13",
     "hit": "+15a (-2)",
@@ -460,6 +506,7 @@
     "note": "Combo from 2nd CH with 10f delay"
   },
   {
+    "name": "",
     "input": "d+4",
     "hit_level": "L",
     "damage": "13",
@@ -470,9 +517,10 @@
     "note": ""
   },
   {
+    "name": "Roast Knuckle Combo",
     "input": "d+4,1",
-    "hit_level": "L,​h",
-    "damage": "13,​5",
+    "hit_level": "L,h",
+    "damage": "13,5",
     "startup": ",i27~28",
     "block": "-1~+0",
     "hit": "+3~+4",
@@ -480,9 +528,10 @@
     "note": "Combo from 1st CH with 2f delay\nInput can be delayed 10f"
   },
   {
+    "name": "Full City Roast Knuckle Combo",
     "input": "d+4,1~2",
-    "hit_level": "L,​m",
-    "damage": "13,​20",
+    "hit_level": "L,m",
+    "damage": "13,20",
     "startup": ",i17~18",
     "block": "-8~-7",
     "hit": "+10g~+11g",
@@ -490,6 +539,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Jab",
     "input": "db+1",
     "hit_level": "sl",
     "damage": "5",
@@ -500,6 +550,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Straight",
     "input": "db+2",
     "hit_level": "sl",
     "damage": "8",
@@ -510,6 +561,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "db+3",
     "hit_level": "L",
     "damage": "12",
@@ -520,9 +572,10 @@
     "note": ""
   },
   {
+    "name": "Borrasca Kick Combo",
     "input": "db+3,4",
-    "hit_level": "L,​h",
-    "damage": "12,​20",
+    "hit_level": "L,h",
+    "damage": "12,20",
     "startup": ",i24~25",
     "block": "-13~-12",
     "hit": "+66a (+50)",
@@ -530,6 +583,7 @@
     "note": "Combo from 1st CH"
   },
   {
+    "name": "Bitter Low Kick",
     "input": "db+4",
     "hit_level": "L",
     "damage": "17",
@@ -540,6 +594,7 @@
     "note": ""
   },
   {
+    "name": "Kilimanjaro Uppercut",
     "input": "db+1+2",
     "hit_level": "M",
     "damage": "23",
@@ -550,6 +605,7 @@
     "note": ""
   },
   {
+    "name": "El Cóndor Pasa",
     "input": "db+3+4",
     "hit_level": "m",
     "damage": "30",
@@ -560,6 +616,7 @@
     "note": "Backswing blow"
   },
   {
+    "name": "",
     "input": "b+1",
     "hit_level": "h",
     "damage": "14",
@@ -570,9 +627,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "b+1,1",
-    "hit_level": "h,​h",
-    "damage": "14,​16",
+    "hit_level": "h,h",
+    "damage": "14,16",
     "startup": ",i23",
     "block": "+3",
     "hit": "+8",
@@ -580,9 +638,10 @@
     "note": ""
   },
   {
+    "name": "Double Blend Tempestad",
     "input": "b+1,1,2",
-    "hit_level": "h,​h,​h",
-    "damage": "14,​16,​20",
+    "hit_level": "h,h,h",
+    "damage": "14,16,20",
     "startup": ",i24~25",
     "block": "-5~-4",
     "hit": "+17a (+8)",
@@ -590,6 +649,7 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 9f\nChip damage on block"
   },
   {
+    "name": "Double Blend Tempestad > Nuevo Libertador",
     "input": "in heat b+1,1,2,F",
     "hit_level": "",
     "damage": "",
@@ -600,9 +660,10 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "",
     "input": "b+1,1,2~B",
-    "hit_level": "h,​h",
-    "damage": "14,​16",
+    "hit_level": "h,h",
+    "damage": "14,16",
     "startup": ",i24~25",
     "block": "-15",
     "hit": "-10",
@@ -610,6 +671,7 @@
     "note": ""
   },
   {
+    "name": "Mil Nudillo",
     "input": "b+2",
     "hit_level": "h",
     "damage": "21",
@@ -620,6 +682,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Mil Nudillo > Nuevo Libertador",
     "input": "in heat b+2,F",
     "hit_level": "",
     "damage": "",
@@ -630,6 +693,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Tacón Plunger",
     "input": "b+3",
     "hit_level": "m",
     "damage": "21",
@@ -640,6 +704,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Tacón Plunger > Heat Dash",
     "input": "in heat b+3,F",
     "hit_level": "",
     "damage": "",
@@ -650,6 +715,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "b+4",
     "hit_level": "m",
     "damage": "10",
@@ -660,9 +726,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "b+4,3",
-    "hit_level": "m,​m",
-    "damage": "10,​10",
+    "hit_level": "m,m",
+    "damage": "10,10",
     "startup": ",i23~24",
     "block": "-10~-9",
     "hit": "+4~+5",
@@ -670,9 +737,10 @@
     "note": "Combo from 1st hit with 6f delay"
   },
   {
+    "name": "",
     "input": "b+4,3,4",
-    "hit_level": "m,​m,​m",
-    "damage": "10,​10,​16",
+    "hit_level": "m,m,m",
+    "damage": "10,10,16",
     "startup": ",i23~24",
     "block": "-10~-9",
     "hit": "-2~-1",
@@ -680,9 +748,10 @@
     "note": "Combo from 2nd CH with 10f delay"
   },
   {
+    "name": "Seattle Skipper",
     "input": "b+4,3,4,3",
-    "hit_level": "m,​m,​m,​h",
-    "damage": "10,​10,​16,​23",
+    "hit_level": "m,m,m,h",
+    "damage": "10,10,16,23",
     "startup": ",i27~28",
     "block": "-7~-6",
     "hit": "+39d (-19)",
@@ -690,6 +759,7 @@
     "note": "Combo from 2nd CH with 6f delay\nCombo from 3rd hit with 2f delay\nInput can be delayed 6f"
   },
   {
+    "name": "Eye Opener",
     "input": "uf+1",
     "hit_level": "h",
     "damage": "18",
@@ -700,6 +770,7 @@
     "note": "Punch Sabaki\nAlternate input: ub+1, u+1"
   },
   {
+    "name": "Close Encounter",
     "input": "uf+1,P",
     "hit_level": "t",
     "damage": "25",
@@ -710,6 +781,7 @@
     "note": ""
   },
   {
+    "name": "Rhythmic Hook",
     "input": "uf+2",
     "hit_level": "h",
     "damage": "23",
@@ -720,6 +792,7 @@
     "note": "Alternate input: ub+2, u+2"
   },
   {
+    "name": "",
     "input": "uf+3",
     "hit_level": "h",
     "damage": "20",
@@ -730,9 +803,10 @@
     "note": ""
   },
   {
+    "name": "Daylight Disk",
     "input": "uf+3,4",
-    "hit_level": "h,​m",
-    "damage": "20,​17",
+    "hit_level": "h,m",
+    "damage": "20,17",
     "startup": ",i20~21",
     "block": "-14~-13",
     "hit": "+15a (+6)",
@@ -740,6 +814,7 @@
     "note": "Alternate input: ub+3,4, u+3,4"
   },
   {
+    "name": "Tacones Drip",
     "input": "uf+4",
     "hit_level": "M",
     "damage": "22",
@@ -750,6 +825,7 @@
     "note": "Alternate input: ub+4, u+4"
   },
   {
+    "name": "Luna Llena",
     "input": "f,F+3",
     "hit_level": "M",
     "damage": "20",
@@ -760,6 +836,7 @@
     "note": ""
   },
   {
+    "name": "Demitasse Molino",
     "input": "f,F+4",
     "hit_level": "M",
     "damage": "21",
@@ -770,9 +847,10 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "Ortiz Molino",
     "input": "f,F+3+4",
-    "hit_level": "m,​M",
-    "damage": "10,​18",
+    "hit_level": "m,M",
+    "damage": "10,18",
     "startup": "i21~22 i32~34",
     "block": "+4~+6",
     "hit": "+5~+7",
@@ -780,6 +858,7 @@
     "note": "Chip damage on block\nCan recover BT with B"
   },
   {
+    "name": "",
     "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "10",
@@ -790,9 +869,10 @@
     "note": ""
   },
   {
+    "name": "Espresso Agresión",
     "input": "f,f,F+3,2",
-    "hit_level": "m,​h",
-    "damage": "10,​10",
+    "hit_level": "m,h",
+    "damage": "10,10",
     "startup": ",i10~12",
     "block": "+5~+7",
     "hit": "+28a (+2)",
@@ -800,6 +880,7 @@
     "note": "Jail from 1st attack\nChip damage on block"
   },
   {
+    "name": "Crouch Jab",
     "input": "FC d+1",
     "hit_level": "sl",
     "damage": "5",
@@ -810,6 +891,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Straight",
     "input": "FC d+2",
     "hit_level": "sl",
     "damage": "8",
@@ -820,6 +902,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Spin Kick",
     "input": "FC d+3",
     "hit_level": "L",
     "damage": "10",
@@ -830,6 +913,7 @@
     "note": ""
   },
   {
+    "name": "Crouch Shin Kick",
     "input": "FC d+4",
     "hit_level": "l",
     "damage": "6",
@@ -840,6 +924,7 @@
     "note": ""
   },
   {
+    "name": "Cosecha Látigo",
     "input": "FC df+3",
     "hit_level": "L",
     "damage": "6",
@@ -850,6 +935,7 @@
     "note": ""
   },
   {
+    "name": "Gold Mountain Fist",
     "input": "ws1",
     "hit_level": "m",
     "damage": "17",
@@ -860,6 +946,7 @@
     "note": ""
   },
   {
+    "name": "Rainbow Mountain Swing",
     "input": "ws2",
     "hit_level": "m",
     "damage": "14",
@@ -870,6 +957,7 @@
     "note": ""
   },
   {
+    "name": "Viento Fuerte",
     "input": "ws3",
     "hit_level": "m",
     "damage": "23",
@@ -880,6 +968,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "",
     "input": "ws4",
     "hit_level": "m",
     "damage": "13",
@@ -890,9 +979,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "ws4,1",
-    "hit_level": "m,​h",
-    "damage": "13,​10",
+    "hit_level": "m,h",
+    "damage": "13,10",
     "startup": ",i21~22",
     "block": "-2~-1",
     "hit": "+6~+7",
@@ -900,9 +990,10 @@
     "note": ""
   },
   {
+    "name": "Combo de Cantuta",
     "input": "ws4,1,3",
-    "hit_level": "m,​h,​m",
-    "damage": "13,​10,​23",
+    "hit_level": "m,h,m",
+    "damage": "13,10,23",
     "startup": ",i22~23",
     "block": "-14~-13",
     "hit": "+10a (+1)",
@@ -910,9 +1001,10 @@
     "note": "Combo from 2nd CH with 7f delay\nInput can be delayed 10f"
   },
   {
+    "name": "",
     "input": "ws4,1,3~B",
-    "hit_level": "m,​h",
-    "damage": "13,​10",
+    "hit_level": "m,h",
+    "damage": "13,10",
     "startup": ",i22~23",
     "block": "-16~-15",
     "hit": "-8~-7",
@@ -920,6 +1012,7 @@
     "note": ""
   },
   {
+    "name": "Libertador",
     "input": "f+3+4",
     "hit_level": "",
     "damage": "",
@@ -930,6 +1023,7 @@
     "note": "Parries all high/low attacks\nCancel to r20 with DB"
   },
   {
+    "name": "Shuffle Jamboree",
     "input": "f+3+4*",
     "hit_level": "",
     "damage": "",
@@ -940,6 +1034,7 @@
     "note": "Regenerates heat\nHeat meter won't disappear, even if it fully depletes"
   },
   {
+    "name": "Libertador Revolución",
     "input": "in heat f+3+4",
     "hit_level": "",
     "damage": "",
@@ -950,6 +1045,7 @@
     "note": "Parries all high/low attacks\nCancel to r20 with DB"
   },
   {
+    "name": "Crema Petalo",
     "input": "LIB,P (High)",
     "hit_level": "",
     "damage": "25",
@@ -960,6 +1056,7 @@
     "note": ""
   },
   {
+    "name": "Flush Valve Gracia",
     "input": "LIB,P (Low)",
     "hit_level": "m",
     "damage": "35",
@@ -970,6 +1067,7 @@
     "note": ""
   },
   {
+    "name": "Puño de Fuego Evitacion",
     "input": "in heat LIB,P (High)",
     "hit_level": "m",
     "damage": "25",
@@ -980,6 +1078,7 @@
     "note": "Regenerates heat\nRestores recoverable health"
   },
   {
+    "name": "One Drip Cielo Evitacion",
     "input": "in heat LIB,P (Low)",
     "hit_level": "m",
     "damage": "20",
@@ -990,6 +1089,7 @@
     "note": "Regenerates heat\nRestores recoverable health"
   },
   {
+    "name": "Hopping Turn",
     "input": "LIB b+3+4",
     "hit_level": "",
     "damage": "",
@@ -1000,6 +1100,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "LIB 1",
     "hit_level": "h",
     "damage": "14",
@@ -1010,9 +1111,10 @@
     "note": ""
   },
   {
+    "name": "Blend Tempestad",
     "input": "LIB 1,2",
-    "hit_level": "h,​h",
-    "damage": "14,​20",
+    "hit_level": "h,h",
+    "damage": "14,20",
     "startup": ",i24~25",
     "block": "-5~-4",
     "hit": "+17a (+8)",
@@ -1020,6 +1122,7 @@
     "note": "Combo from 1st hit with 6f delay\nInput can be delayed 9f\nChip damage on block"
   },
   {
+    "name": "Blend Tempestad > Nuevo Libertador",
     "input": "in heat LIB 1,2,F",
     "hit_level": "",
     "damage": "",
@@ -1030,6 +1133,7 @@
     "note": "Chip damage on block"
   },
   {
+    "name": "",
     "input": "LIB 1,2~B",
     "hit_level": "h",
     "damage": "14",
@@ -1040,6 +1144,7 @@
     "note": ""
   },
   {
+    "name": "Golpe Cappuccino",
     "input": "LIB 2",
     "hit_level": "m",
     "damage": "18",
@@ -1050,6 +1155,7 @@
     "note": ""
   },
   {
+    "name": "Golpe Cappuccino > Heat Dash",
     "input": "in heat LIB 2,F",
     "hit_level": "",
     "damage": "",
@@ -1060,6 +1166,7 @@
     "note": ""
   },
   {
+    "name": "Acerbic Low Kick",
     "input": "LIB 3",
     "hit_level": "L",
     "damage": "15",
@@ -1070,9 +1177,10 @@
     "note": ""
   },
   {
+    "name": "Blend Reganar",
     "input": "LIB 3,1",
-    "hit_level": "L,​m",
-    "damage": "15,​20",
+    "hit_level": "L,m",
+    "damage": "15,20",
     "startup": ",i22~23",
     "block": "-10~-9",
     "hit": "+7c~+8c",
@@ -1080,6 +1188,7 @@
     "note": "Combo from 1st CH with 7f delay\nInput can be delayed 8f"
   },
   {
+    "name": "",
     "input": "LIB 4",
     "hit_level": "m",
     "damage": "14",
@@ -1090,9 +1199,10 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "LIB 4,1",
-    "hit_level": "m,​h",
-    "damage": "14,​10",
+    "hit_level": "m,h",
+    "damage": "14,10",
     "startup": ",i23~24",
     "block": "-2~-1",
     "hit": "+4~+5",
@@ -1100,9 +1210,10 @@
     "note": ""
   },
   {
+    "name": "Blend Asaltar",
     "input": "LIB 4,1,2",
-    "hit_level": "m,​h,​m",
-    "damage": "14,​10,​23",
+    "hit_level": "m,h,m",
+    "damage": "14,10,23",
     "startup": ",i28~29",
     "block": "-10~-9",
     "hit": "+67a (+51)",
@@ -1110,9 +1221,10 @@
     "note": "Combo from 2nd CH with 1f delay\nInput can be delayed 10f"
   },
   {
+    "name": "Blend Martillo",
     "input": "LIB 4,2",
-    "hit_level": "m,​M",
-    "damage": "14,​21",
+    "hit_level": "m,M",
+    "damage": "14,21",
     "startup": ",i25~26",
     "block": "-13~-12",
     "hit": "+16a",
@@ -1120,6 +1232,7 @@
     "note": "Combo from 1st hit with 5f delay"
   },
   {
+    "name": "Rana Barista",
     "input": "LIB 1+2",
     "hit_level": "M",
     "damage": "23",
@@ -1130,6 +1243,7 @@
     "note": "Cancel to r20 BT with B"
   },
   {
+    "name": "El Niño High Kick",
     "input": "LIB 3+4",
     "hit_level": "h",
     "damage": "25",
@@ -1140,6 +1254,7 @@
     "note": "Chip damage on block\nFrame advantage is +0 if an attack is absorbed"
   },
   {
+    "name": "",
     "input": "LIB d+4",
     "hit_level": "L",
     "damage": "14",
@@ -1150,9 +1265,10 @@
     "note": ""
   },
   {
+    "name": "Blend Cortar",
     "input": "LIB d+4,4",
-    "hit_level": "L,​h",
-    "damage": "14,​27",
+    "hit_level": "L,h",
+    "damage": "14,27",
     "startup": ",i30~31",
     "block": "-7~-6",
     "hit": "+14 (+5)",
@@ -1160,6 +1276,7 @@
     "note": "Combo from 1st hit"
   },
   {
+    "name": "Libertador (Varios)",
     "input": "LIB f,f",
     "hit_level": "",
     "damage": "",
@@ -1170,6 +1287,7 @@
     "note": ""
   },
   {
+    "name": "Caer Back Funnel",
     "input": "LIB b,b",
     "hit_level": "",
     "damage": "",
@@ -1180,6 +1298,7 @@
     "note": ""
   },
   {
+    "name": "Azucena Admission",
     "input": "LIB F",
     "hit_level": "",
     "damage": "",
@@ -1190,6 +1309,7 @@
     "note": "Parries all high/low attacks\nRegenerates heat with each step"
   },
   {
+    "name": "Milagros Show",
     "input": "LIB U_D",
     "hit_level": "",
     "damage": "",
@@ -1200,6 +1320,7 @@
     "note": "Parries all high/low attacks\nRegenerates heat with each step"
   },
   {
+    "name": "Salida Castillo",
     "input": "LIB B",
     "hit_level": "",
     "damage": "",
@@ -1210,6 +1331,7 @@
     "note": ""
   },
   {
+    "name": "Eye Opener",
     "input": "LIB uf+1",
     "hit_level": "h",
     "damage": "18",
@@ -1217,12 +1339,13 @@
     "block": "-9~-8",
     "hit": "+7~+8",
     "counter": "",
-    "note": "Punch Sabaki\nAlternate Input: LIB.b,​​b+1"
+    "note": "Punch Sabaki\nAlternate Input: LIB.b,b+1"
   },
   {
+    "name": "Close Encounter",
     "input": "LIB uf+1,P",
-    "hit_level": "h,​t",
-    "damage": "18,​25",
+    "hit_level": "h,t",
+    "damage": "18,25",
     "startup": "i18~19",
     "block": "",
     "hit": "-4d",
@@ -1230,6 +1353,7 @@
     "note": ""
   },
   {
+    "name": "Rhythmic Hook",
     "input": "LIB uf+2",
     "hit_level": "h",
     "damage": "23",
@@ -1240,6 +1364,7 @@
     "note": ""
   },
   {
+    "name": "Inti Raymi Necklace",
     "input": "LIB uf+1+2",
     "hit_level": "t",
     "damage": "40",
@@ -1250,6 +1375,7 @@
     "note": "Throw break 1+2\nSide switch"
   },
   {
+    "name": "Smell the Coffee",
     "input": "LIB d+1+3_d+2+4",
     "hit_level": "t",
     "damage": "30",
@@ -1260,6 +1386,7 @@
     "note": "Crouch throw"
   },
   {
+    "name": "One Drip Cielo",
     "input": "in heat LIB d+3+4",
     "hit_level": "m",
     "damage": "27",
@@ -1270,6 +1397,7 @@
     "note": "Regenerates heat\nRestores recoverable health"
   },
   {
+    "name": "Hopping Turn",
     "input": "b+3+4",
     "hit_level": "",
     "damage": "",
@@ -1280,6 +1408,7 @@
     "note": ""
   },
   {
+    "name": "Shuffle Carnival",
     "input": "b+3+4*",
     "hit_level": "",
     "damage": "",
@@ -1290,6 +1419,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT 1",
     "hit_level": "h",
     "damage": "9",
@@ -1300,9 +1430,10 @@
     "note": ""
   },
   {
+    "name": "Mocha Attaque Matari",
     "input": "BT 1,2",
-    "hit_level": "h,​h",
-    "damage": "9,​23",
+    "hit_level": "h,h",
+    "damage": "9,23",
     "startup": ",i22~23",
     "block": "-7~-6",
     "hit": "+19a (+10)",
@@ -1310,6 +1441,7 @@
     "note": "Combo from 1st hit with 2f delay\nCombo from 1st CH with 4f delay\nInput can be delayed 10f"
   },
   {
+    "name": "",
     "input": "BT 1,2~F",
     "hit_level": "h",
     "damage": "9",
@@ -1320,9 +1452,10 @@
     "note": ""
   },
   {
+    "name": "Mocha Attaque Sidamo",
     "input": "BT 1,4",
-    "hit_level": "h,​m",
-    "damage": "9,​21",
+    "hit_level": "h,m",
+    "damage": "9,21",
     "startup": ",i24~25",
     "block": "-11~-10",
     "hit": "+8~+9",
@@ -1330,6 +1463,7 @@
     "note": "Combo from 1st hit\nCombo from 1st CH with 2f delay\nInput can be delayed 10f\nWill not combo if the kick impacts on i25"
   },
   {
+    "name": "",
     "input": "BT 2",
     "hit_level": "m",
     "damage": "15",
@@ -1340,9 +1474,10 @@
     "note": ""
   },
   {
+    "name": "Qhapaq Ñan",
     "input": "BT 2:2",
-    "hit_level": "m,​t",
-    "damage": "15,​23",
+    "hit_level": "m,t",
+    "damage": "15,23",
     "startup": "i17~18",
     "block": "",
     "hit": "+0d",
@@ -1350,6 +1485,7 @@
     "note": ""
   },
   {
+    "name": "Calf Reaper",
     "input": "BT 3",
     "hit_level": "L",
     "damage": "23",
@@ -1360,6 +1496,7 @@
     "note": ""
   },
   {
+    "name": "",
     "input": "BT 4",
     "hit_level": "m",
     "damage": "15",
@@ -1370,9 +1507,10 @@
     "note": ""
   },
   {
+    "name": "Upbeat Patadas",
     "input": "BT 4,3",
-    "hit_level": "m,​m",
-    "damage": "15,​21",
+    "hit_level": "m,m",
+    "damage": "15,21",
     "startup": ",i23~24",
     "block": "-14~-13",
     "hit": "+16a (-1)",
@@ -1380,6 +1518,7 @@
     "note": "Combo from 1st hit with 6f delay\nInput can be delayed 10f\nOnly hits grounded up close"
   },
   {
+    "name": "Golpe Affogato",
     "input": "BT 1+2",
     "hit_level": "m",
     "damage": "17",
@@ -1390,6 +1529,7 @@
     "note": ""
   },
   {
+    "name": "Foo Fighter",
     "input": "BT 3+4",
     "hit_level": "M",
     "damage": "23",
@@ -1400,6 +1540,7 @@
     "note": ""
   },
   {
+    "name": "Libertador (Regreso)",
     "input": "BT f+3+4",
     "hit_level": "",
     "damage": "",
@@ -1410,6 +1551,7 @@
     "note": ""
   },
   {
+    "name": "Shuffle Walk",
     "input": "BT b+3_4",
     "hit_level": "",
     "damage": "",
@@ -1420,6 +1562,7 @@
     "note": ""
   },
   {
+    "name": "Runaway",
     "input": "BT b+1+2",
     "hit_level": "",
     "damage": "",
@@ -1430,6 +1573,7 @@
     "note": ""
   },
   {
+    "name": "Hide Turn",
     "input": "BT b+3+4",
     "hit_level": "",
     "damage": "",
@@ -1440,6 +1584,7 @@
     "note": ""
   },
   {
+    "name": "Alegría del Café",
     "input": "in rage df+1+2",
     "hit_level": "m",
     "damage": "55+",
@@ -1450,6 +1595,7 @@
     "note": "Rage Art\nDamage increases with lower health\nRemoves recoverable health on hit"
   },
   {
+    "name": "Taunt",
     "input": "1+3+4",
     "hit_level": "",
     "damage": "",
@@ -1460,6 +1606,7 @@
     "note": ""
   },
   {
+    "name": "Shuffle Recital",
     "input": "1+3+4*",
     "hit_level": "",
     "damage": "",
@@ -1470,6 +1617,7 @@
     "note": "Regenerates heat\nHeat meter won't disappear, even if it fully depletes"
   },
   {
+    "name": "Coffee Break",
     "input": "2+3+4",
     "hit_level": "h!",
     "damage": "0",
@@ -1480,6 +1628,7 @@
     "note": ""
   },
   {
+    "name": "Coffee Break",
     "input": "in heat 2+3+4",
     "hit_level": "h!",
     "damage": "0",
@@ -1490,6 +1639,7 @@
     "note": ""
   },
   {
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "",
     "damage": "",
@@ -1500,6 +1650,7 @@
     "note": "Cannot block for 5 seconds\nCH state for 5 seconds"
   },
   {
+    "name": "Black Ivory Talon",
     "input": "1+2+3+4,3+4",
     "hit_level": "spm!",
     "damage": "-54",
@@ -1510,6 +1661,7 @@
     "note": ""
   },
   {
+    "name": "Volterador",
     "input": "UB,b",
     "hit_level": "",
     "damage": "",
@@ -1520,6 +1672,7 @@
     "note": ""
   },
   {
+    "name": "Wall Jump Attack",
     "input": "(Back to wall) b,b,UB",
     "hit_level": "m",
     "damage": "25",
@@ -1530,6 +1683,7 @@
     "note": ""
   },
   {
+    "name": "Amaru Head Squeeze",
     "input": "1+3",
     "hit_level": "t",
     "damage": "35",
@@ -1540,6 +1694,7 @@
     "note": "Throw break 1 or 2"
   },
   {
+    "name": "El Dorado Neck Snap",
     "input": "2+4",
     "hit_level": "t",
     "damage": "35",
@@ -1550,6 +1705,7 @@
     "note": "Throw break 1 or 2\nSide switch"
   },
   {
+    "name": "Urubamba Neck Lock",
     "input": "Left throw",
     "hit_level": "t",
     "damage": "40",
@@ -1560,6 +1716,7 @@
     "note": "Throw break 1"
   },
   {
+    "name": "Giratorio Sleeper Throw",
     "input": "Right throw",
     "hit_level": "t",
     "damage": "40",
@@ -1570,6 +1727,7 @@
     "note": "Throw break 2"
   },
   {
+    "name": "Caffeine Abduction",
     "input": "Back throw",
     "hit_level": "t",
     "damage": "50",
@@ -1580,6 +1738,7 @@
     "note": "Unbreakable\nSide switch"
   },
   {
+    "name": "Inti Raymi Necklace",
     "input": "uf+1+2",
     "hit_level": "t",
     "damage": "40",
@@ -1590,6 +1749,7 @@
     "note": "Throw break 1+2\nCan side switch on hit"
   },
   {
+    "name": "UFO Roll",
     "input": "d+1+2",
     "hit_level": "l",
     "damage": "21",
@@ -1600,6 +1760,7 @@
     "note": "Transition to throw on front hit only\n18 damage to Azucena when blocked\nr41 FC on whiff"
   },
   {
+    "name": "Ultimate Tackle",
     "input": "FC 1+2",
     "hit_level": "t",
     "damage": "0",
@@ -1610,9 +1771,10 @@
     "note": "Throw break 1+2"
   },
   {
+    "name": "Ultimate Punch",
     "input": "FC 1+2,2,1,2,1",
-    "hit_level": "t,​t",
-    "damage": "0,​5,​5,​5,​15",
+    "hit_level": "t,t",
+    "damage": "0,5,5,5,15",
     "startup": "i26",
     "block": "",
     "hit": "+0d",
@@ -1620,9 +1782,10 @@
     "note": "Throw break 1 or 2\nAlternate Input: 1,2,1,2"
   },
   {
+    "name": "Arm Breaker",
     "input": "FC 1+2,1+2",
-    "hit_level": "t,​t",
-    "damage": "0,​25",
+    "hit_level": "t,t",
+    "damage": "0,25",
     "startup": "i26",
     "block": "-9",
     "hit": "+1d",
@@ -1630,6 +1793,7 @@
     "note": "Throw break 1+2"
   },
   {
+    "name": "Smell the Coffee",
     "input": "d+1+3_d+2+4",
     "hit_level": "mt",
     "damage": "30",
