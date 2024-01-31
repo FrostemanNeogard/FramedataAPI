@@ -7,4 +7,5 @@ export type FrameDataType = {
   hit: number;
   counter: number;
   note: string;
+  name: string;
 };
