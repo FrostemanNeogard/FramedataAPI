@@ -840,7 +840,7 @@
     "note": ""
   },
   {
-    "input": "qcf",
+    "input": "qcf (d,df,f)",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -850,17 +850,7 @@
     "note": "D,df to enter crouching state"
   },
   {
-    "input": "d,df,f",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "D,df to enter crouching state"
-  },
-  {
-    "input": "qcf+1",
+    "input": "CS 1",
     "hit_level": "h",
     "damage": "21",
     "startup": "i16~17",
@@ -870,7 +860,7 @@
     "note": "Chip damage"
   },
   {
-    "input": "qcf+2",
+    "input": "CS 2",
     "hit_level": "m",
     "damage": "45",
     "startup": "i13~14",
@@ -880,7 +870,7 @@
     "note": "Has a clean hit effect\nPower up while Heat is active"
   },
   {
-    "input": "qcf+3",
+    "input": "CS 3",
     "hit_level": "L",
     "damage": "18",
     "startup": "i18~19",
@@ -890,7 +880,7 @@
     "note": "Has a clean hit effect\nPower up while Heat is active"
   },
   {
-    "input": "qcf+1+2",
+    "input": "CS 1+2",
     "hit_level": "L",
     "damage": "20",
     "startup": "i32~33",
@@ -900,7 +890,7 @@
     "note": "Cancel to FC with B"
   },
   {
-    "input": "qcf+3+4",
+    "input": "CS 3+4",
     "hit_level": "m",
     "damage": "22",
     "startup": "i19~20",
@@ -970,7 +960,7 @@
     "note": "Deals recoverable damage to self"
   },
   {
-    "input": "qcb",
+    "input": "qcb (d,db,b)",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -980,7 +970,7 @@
     "note": ""
   },
   {
-    "input": "qcb+1",
+    "input": "SWA 1",
     "hit_level": "M",
     "damage": "24",
     "startup": "i21~22",
@@ -990,7 +980,7 @@
     "note": "Chip damage"
   },
   {
-    "input": "qcb+2",
+    "input": "SWA 2",
     "hit_level": "m",
     "damage": "27",
     "startup": "i15",
@@ -1000,7 +990,7 @@
     "note": "Has a clean hit effect"
   },
   {
-    "input": "qcb+3",
+    "input": "SWA 3",
     "hit_level": "L",
     "damage": "14",
     "startup": "i18~19",
@@ -1010,7 +1000,7 @@
     "note": ""
   },
   {
-    "input": "qcb+3,2",
+    "input": "SWA 3,2",
     "hit_level": "L,​m",
     "damage": "14,​20",
     "startup": "i27~28",
@@ -1020,7 +1010,7 @@
     "note": "Combo from 1st CH"
   },
   {
-    "input": "qcb+3,2,1",
+    "input": "SWA 3,2,1",
     "hit_level": "L,​m,​h",
     "damage": "14,​20,​25",
     "startup": "i18~19",
@@ -1030,7 +1020,7 @@
     "note": "Combo from 1st CH"
   },
   {
-    "input": "qcb+3,2,3",
+    "input": "SWA 3,2,3",
     "hit_level": "L,​m,​m",
     "damage": "14,​2022",
     "startup": "i25~26",
@@ -1040,7 +1030,7 @@
     "note": "Combo from 1st CH"
   },
   {
-    "input": "qcb+4",
+    "input": "SWA 4",
     "hit_level": "h",
     "damage": "20",
     "startup": "i15~16",
@@ -1050,7 +1040,7 @@
     "note": "Chip damage on block"
   },
   {
-    "input": "qcb+1+2",
+    "input": "SWA 1+2",
     "hit_level": "m",
     "damage": "22",
     "startup": "i16~17",

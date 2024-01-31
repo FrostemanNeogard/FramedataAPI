@@ -1,20 +1,10 @@
 [
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "2+3",
     "hit_level": "m",
     "damage": "12",
     "startup": "i16",
-    "block": "",
+    "block": "+1",
     "hit": "",
     "counter": "",
     "note": "Alternate input: R1\nCan be cancelled with input b,b"
@@ -24,77 +14,67 @@
     "hit_level": "l",
     "damage": "39",
     "startup": "i20",
-    "block": "",
+    "block": "-15",
     "hit": "th",
     "counter": "th",
-    "note": "Alternate input: in heat R1"
-  },
-  {
-    "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
-    "startup": "i20",
-    "block": "",
-    "hit": "th",
-    "counter": "th",
-    "note": "Rage Art\nRemoves recoverable health on hit\nAlternate input: in rage R2"
+    "note": "Alternate input: H.R1"
   },
   {
     "input": "1",
     "hit_level": "h",
     "damage": "5",
     "startup": "i10",
-    "block": "",
+    "block": "+1",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​1",
+    "input": "1,1",
     "hit_level": "h,​h",
     "damage": "5,​1",
     "startup": ",i16",
-    "block": "",
+    "block": "-3",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​1,​2",
+    "input": "1,1,2",
     "hit_level": "h,​h,​hh",
     "damage": "5,​1,​5,​10",
     "startup": ",i17~18,i9~10",
-    "block": "",
+    "block": "-12",
     "hit": "+3",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​2",
+    "input": "1,2",
     "hit_level": "h,​h",
     "damage": "5,​12",
     "startup": ",i10",
-    "block": "",
+    "block": "-3",
     "hit": "+8",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​2,​1",
+    "input": "1,2,1",
     "hit_level": "h,​h,​m",
     "damage": "5,​12,​20",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-12",
     "hit": "+18 (+1)",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​4",
+    "input": "1,4",
     "hit_level": "h,​l",
     "damage": "5,​11",
     "startup": ",i21~22",
-    "block": "",
+    "block": "-12",
     "hit": "-1",
     "counter": "",
     "note": ""
@@ -104,87 +84,87 @@
     "hit_level": "h",
     "damage": "10",
     "startup": "i12~13",
-    "block": "",
+    "block": "-12",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "2,​1",
+    "input": "2,1",
     "hit_level": "h,​h",
     "damage": "10,​12",
     "startup": ",i16",
-    "block": "",
+    "block": "-6",
     "hit": "+5",
     "counter": "",
     "note": "Transition to PRF with F"
   },
   {
-    "input": "2,​2",
+    "input": "2,2",
     "hit_level": "h,​mm",
     "damage": "10,​10,​5",
     "startup": ",i17~18,i7",
-    "block": "",
+    "block": "-12",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "2,​2,​1",
+    "input": "2,2,1",
     "hit_level": "h,​mm,​h",
     "damage": "10,​10,​5,​12",
     "startup": ",i22",
-    "block": "",
+    "block": "-3",
     "hit": "+4",
     "counter": "",
-    "note": "Chip damage on block\nTransitions to IAI on hit"
+    "note": "Chip damage on block\nTransitions to IAI on hit or block"
   },
   {
     "input": "3",
     "hit_level": "h",
     "damage": "11",
     "startup": ",i12~13",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "3,​1+2",
+    "input": "3,1+2",
     "hit_level": "h,​hh",
     "damage": "11,​9,​10",
     "startup": ",i19~20,i8~9",
-    "block": "",
+    "block": "-9",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "Hit confirmable"
   },
   {
     "input": "4",
     "hit_level": "h",
     "damage": "15",
     "startup": "i13~14",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "4,​3",
+    "input": "4,3",
     "hit_level": "h,​m",
     "damage": "15,​17",
     "startup": ",i23~24",
-    "block": "",
+    "block": "-10",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "4,​3,​2",
+    "input": "4,3,2",
     "hit_level": "h,​m,​m",
     "damage": "15,​17,​25",
     "startup": ",i25~26",
-    "block": "",
+    "block": "-13",
     "hit": "+34 (+13)",
     "counter": "",
     "note": "Deals chip damage on block"
@@ -194,7 +174,7 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i15",
-    "block": "",
+    "block": "-8",
     "hit": "+2",
     "counter": "",
     "note": ""
@@ -214,47 +194,47 @@
     "hit_level": "h",
     "damage": "10",
     "startup": "i13~14",
-    "block": "",
+    "block": "-11",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "f+2,​2",
+    "input": "f+2,2",
     "hit_level": "h,​h",
     "damage": "10,​10",
     "startup": ",i11",
-    "block": "",
+    "block": "-15",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "f+2,​2,​1",
+    "input": "f+2,2,1",
     "hit_level": "h,​h,​m",
     "damage": "10,​10,​12",
     "startup": ",i13~14",
-    "block": "",
+    "block": "-11",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "f+2,​2,​1,​1",
+    "input": "f+2,2,1,1",
     "hit_level": "h,​h,​m,​m",
     "damage": "10,​10,​12,​25",
     "startup": ",i20~21",
-    "block": "",
+    "block": "-15",
     "hit": "+20 (+15)",
     "counter": "",
-    "note": ""
+    "note": "Hit confirmable if (f22)1 is ch"
   },
   {
-    "input": "f+2,​2,​2",
+    "input": "f+2,2,2",
     "hit_level": "h,​h,​hmm",
     "damage": "10,​10,​7,​5,​20",
     "startup": ",i14,i12~13,i7~8",
-    "block": "",
+    "block": "-13",
     "hit": "+20",
     "counter": "",
     "note": ""
@@ -274,37 +254,37 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i14",
-    "block": "",
+    "block": "-10",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "f+4,​1",
+    "input": "f+4,1",
     "hit_level": "m,​h",
     "damage": "15,​21",
     "startup": ",i23~24",
-    "block": "",
+    "block": "-4",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Hit Confirmable"
   },
   {
-    "input": "f+4,​2",
+    "input": "f+4,2",
     "hit_level": "m,​m",
     "damage": "15,​20",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-12",
     "hit": "+5c",
     "counter": "",
-    "note": ""
+    "note": "Hit Confirmable"
   },
   {
     "input": "f+1+2",
     "hit_level": "m",
     "damage": "35",
     "startup": "i24~25",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": "Deals chip damage on block\nPartially restores Heat on hit"
@@ -314,17 +294,17 @@
     "hit_level": "m",
     "damage": "10",
     "startup": "i13~14",
-    "block": "",
+    "block": "-12",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+1,​1",
+    "input": "df+1,1",
     "hit_level": "m,​hh",
     "damage": "10,​7,​7",
     "startup": ",i20",
-    "block": "",
+    "block": "-4",
     "hit": "+7",
     "counter": "",
     "note": ""
@@ -334,7 +314,7 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i15~16",
-    "block": "",
+    "block": "-14",
     "hit": "+31 (+21)",
     "counter": "",
     "note": ""
@@ -344,27 +324,27 @@
     "hit_level": "m",
     "damage": "10",
     "startup": "i16",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+3,​4",
+    "input": "df+3,4",
     "hit_level": "m,​m",
     "damage": "10,​14",
     "startup": ",i21",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+3,​4,​2",
+    "input": "df+3,4,2",
     "hit_level": "m,​m,​sm",
     "damage": "10,​14,​23",
     "startup": ",i32~34",
-    "block": "",
+    "block": "-9",
     "hit": "+17 (+10)",
     "counter": "",
     "note": "Deals chip damage on block"
@@ -374,17 +354,17 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i13~14",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+4,​2",
+    "input": "df+4,2",
     "hit_level": "m,​h",
     "damage": "15,​16",
     "startup": ",i22",
-    "block": "",
+    "block": "-3",
     "hit": "+4",
     "counter": "",
     "note": "Deals chip damage on block\nTransitions to IAI"
@@ -394,7 +374,7 @@
     "hit_level": "m",
     "damage": "32",
     "startup": "i14~15",
-    "block": "",
+    "block": "-17",
     "hit": "+16 (+11)",
     "counter": "",
     "note": ""
@@ -404,17 +384,17 @@
     "hit_level": "l",
     "damage": "7",
     "startup": "i16",
-    "block": "",
+    "block": "-17",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "d+1,​1",
+    "input": "d+1,1",
     "hit_level": "l,​h",
     "damage": "7,​15",
     "startup": ",i18",
-    "block": "",
+    "block": "-7",
     "hit": "+6",
     "counter": "",
     "note": ""
@@ -424,7 +404,7 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i18",
-    "block": "",
+    "block": "0",
     "hit": "",
     "counter": "",
     "note": "Deals chip damage on block"
@@ -434,7 +414,7 @@
     "hit_level": "l",
     "damage": "11",
     "startup": "i18~19",
-    "block": "",
+    "block": "-13",
     "hit": "-2",
     "counter": "",
     "note": ""
@@ -444,7 +424,7 @@
     "hit_level": "l",
     "damage": "10",
     "startup": "i16",
-    "block": "",
+    "block": "-14",
     "hit": "-3",
     "counter": "th",
     "note": ""
@@ -464,7 +444,7 @@
     "hit_level": "sm",
     "damage": "21",
     "startup": "i19~21",
-    "block": "",
+    "block": "-9",
     "hit": "+17 (+10)",
     "counter": "",
     "note": "Deals chip damage on block"
@@ -474,17 +454,17 @@
     "hit_level": "m",
     "damage": "9",
     "startup": "i14~15",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "db+1,​1",
+    "input": "db+1,1",
     "hit_level": "m,​m",
     "damage": "9,​9",
     "startup": ",i21~22",
-    "block": "",
+    "block": "-7",
     "hit": "+2",
     "counter": "",
     "note": "Transition to PRF with F"
@@ -494,7 +474,7 @@
     "hit_level": "h",
     "damage": "20",
     "startup": "i19~20",
-    "block": "",
+    "block": "-8",
     "hit": "+40 (-18)",
     "counter": "",
     "note": ""
@@ -504,7 +484,7 @@
     "hit_level": "l",
     "damage": "17",
     "startup": "i20~21",
-    "block": "",
+    "block": "-26",
     "hit": "+4c",
     "counter": "",
     "note": ""
@@ -524,29 +504,29 @@
     "hit_level": "m",
     "damage": "11",
     "startup": "i14",
-    "block": "",
+    "block": "-13",
     "hit": "",
     "counter": "",
     "note": "Transition to PRF with F"
   },
   {
-    "input": "b+1,​2",
+    "input": "b+1,2",
     "hit_level": "m,​h,​th",
     "damage": "11,​16(15)",
     "startup": ",i20",
-    "block": "",
+    "block": "-8",
     "hit": "",
     "counter": "",
-    "note": "Side switch after attack throw connects"
+    "note": "Side switch after attack throw connects\nHit Confirmable on counter hit"
   },
   {
     "input": "b+2",
     "hit_level": "h",
     "damage": "0",
     "startup": "i12",
-    "block": "",
+    "block": "-9",
     "hit": "+2",
-    "counter": "",
+    "counter": "+14",
     "note": ""
   },
   {
@@ -554,27 +534,27 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i17",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "b+3,​1",
+    "input": "b+3,1",
     "hit_level": "m,​m",
     "damage": "15,​25",
     "startup": ",i25~26",
-    "block": "",
+    "block": "-13",
     "hit": "+21 (+16)",
     "counter": "",
-    "note": ""
+    "note": "Hit Confirmable\n"
   },
   {
     "input": "b+4",
     "hit_level": "h",
     "damage": "17",
     "startup": "i18~19",
-    "block": "",
+    "block": "-6",
     "hit": "+13g",
     "counter": "",
     "note": ""
@@ -584,7 +564,7 @@
     "hit_level": "h",
     "damage": "25",
     "startup": "i15~16",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
     "note": "Deals chip damage on block"
@@ -594,7 +574,7 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i26~27",
-    "block": "",
+    "block": "-21",
     "hit": "+37 (+6)",
     "counter": "",
     "note": ""
@@ -604,7 +584,7 @@
     "hit_level": "m",
     "damage": "40",
     "startup": "i31~32",
-    "block": "",
+    "block": "-20",
     "hit": "",
     "counter": "",
     "note": "Deals chip damage on block"
@@ -614,37 +594,37 @@
     "hit_level": "m",
     "damage": "54",
     "startup": "i31~32",
-    "block": "",
+    "block": "-4",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: in heat ub+1+2\n"
+    "note": "Alternate input: H.ub+1+2\n"
   },
   {
     "input": "uf+1",
     "hit_level": "m",
     "damage": "9",
     "startup": "i13",
-    "block": "",
+    "block": "-9",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: ub+1 or u+1"
+    "note": "Alternate input: ub+1 or u+1\nHit confirmable"
   },
   {
-    "input": "uf+1,​1",
+    "input": "uf+1,1",
     "hit_level": "m,​m",
     "damage": "9,​21",
     "startup": ",i25~26",
-    "block": "",
+    "block": "-14",
     "hit": "+15c",
     "counter": "",
-    "note": "Transition to IAI with 1+2"
+    "note": "Cancel the second hit with down or 3+4 to go into IAI"
   },
   {
     "input": "uf+2",
     "hit_level": "",
     "damage": "15",
     "startup": "i19~20",
-    "block": "",
+    "block": "-9",
     "hit": "+7",
     "counter": "",
     "note": ""
@@ -654,7 +634,7 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i18~19",
-    "block": "",
+    "block": "-9",
     "hit": "+3",
     "counter": "",
     "note": "Alternate input: ub+3 or u+3"
@@ -664,43 +644,43 @@
     "hit_level": "m,​sm",
     "damage": "12,​16",
     "startup": "i15~17",
-    "block": "",
+    "block": "-19",
     "hit": "+73 (+57)",
     "counter": "",
     "note": "Alternate input: ub+4 or u+4"
   },
   {
-    "input": "f,​F+2",
+    "input": "f,F+2",
     "hit_level": "m",
     "damage": "24",
     "startup": "i18~20",
-    "block": "",
+    "block": "-16",
     "hit": "+33 (+23)",
     "counter": "",
     "note": "Deals chip damage on block"
   },
   {
-    "input": "f,​f,​F+2",
+    "input": "f,f,F+2",
     "hit_level": "m",
     "damage": "30",
     "startup": "i16~17",
-    "block": "",
+    "block": "+5",
     "hit": "+16 (+6)",
     "counter": "",
     "note": "Deals chip damage on block"
   },
   {
-    "input": "d,​df,​f+2",
+    "input": "d,df,f+2",
     "hit_level": "h",
     "damage": "16",
     "startup": "i22",
-    "block": "",
+    "block": "-3",
     "hit": "+4",
     "counter": "",
     "note": "Transition to IAI\nDeals chip damage on block"
   },
   {
-    "input": "b,​B+2+3",
+    "input": "b,B+2+3",
     "hit_level": "ub(m)",
     "damage": "50",
     "startup": "i65~66",
@@ -710,51 +690,21 @@
     "note": ""
   },
   {
-    "input": "2+3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "i65~66",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "1+2+3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "i65~66",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "ub,​b",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "i65~66",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
     "input": "ws1",
     "hit_level": "m",
     "damage": "20",
     "startup": "i15~16",
-    "block": "",
+    "block": "-16",
     "hit": "+53",
     "counter": "",
-    "note": ""
+    "note": "Launcher"
   },
   {
     "input": "ws2",
     "hit_level": "m",
     "damage": "15",
     "startup": "i14~15",
-    "block": "",
+    "block": "-8",
     "hit": "+6",
     "counter": "",
     "note": ""
@@ -764,17 +714,17 @@
     "hit_level": "h",
     "damage": "16",
     "startup": "i15~16",
-    "block": "",
+    "block": "-14",
     "hit": "+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "ws3,​2",
+    "input": "ws3,2",
     "hit_level": "h,​sm",
     "damage": "16,​23",
     "startup": ",i30~32",
-    "block": "",
+    "block": "-9",
     "hit": "+17 (+10)",
     "counter": "",
     "note": "Deals chip damage on block"
@@ -784,7 +734,7 @@
     "hit_level": "m",
     "damage": "16",
     "startup": "i11~12",
-    "block": "",
+    "block": "-6",
     "hit": "+5",
     "counter": "",
     "note": ""
@@ -794,173 +744,153 @@
     "hit_level": "mm",
     "damage": "10,​17",
     "startup": "i13~14,i9~10",
-    "block": "",
+    "block": "-8",
     "hit": "+8",
     "counter": "",
     "note": "Transition to PRF with F"
   },
   {
-    "input": "FC.1+2",
-    "hit_level": "lh",
-    "damage": "10,​10",
-    "startup": "i16,i10~11",
-    "block": "",
-    "hit": "+0",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "SS.1+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "+15 (+5)",
-    "counter": "",
-    "note": ""
-  },
-  {
     "input": "3+4",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i18~19",
+    "startup": "Startup",
     "block": "",
     "hit": "",
     "counter": "",
     "note": "Can cancel into FC with db"
   },
   {
-    "input": "IAI.1",
+    "input": "IAI 1",
     "hit_level": "m",
     "damage": "9",
     "startup": "i13~14",
-    "block": "",
+    "block": "-12",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "IAI.1,​1",
+    "input": "IAI 1,1",
     "hit_level": "m,​m",
     "damage": "9,​21",
     "startup": ",i25~26",
-    "block": "",
+    "block": "-14",
     "hit": "+15c",
     "counter": "",
-    "note": "Transition to IAI with 3+4"
+    "note": "Can cancel the second hit by holding down or pressing 3+4. Will transition to IAI\nHit confirmable"
   },
   {
-    "input": "IAI.1,​2",
+    "input": "IAI 1,2",
     "hit_level": "m,​m",
     "damage": "9,​15",
     "startup": ",i22~24",
-    "block": "",
+    "block": "-19",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Hit Confirmable"
   },
   {
-    "input": "IAI.1,​2,​2",
+    "input": "IAI 1,2,2",
     "hit_level": "m,​m,​m",
     "damage": "9,​15,​16",
     "startup": ",i23~24",
-    "block": "",
+    "block": "-18",
     "hit": "+8 (-27)",
     "counter": "",
     "note": "Deals chip damage on block"
   },
   {
-    "input": "IAI.1,​1+2",
+    "input": "IAI 1,1+2",
     "hit_level": "m,​h",
     "damage": "9,​23",
     "startup": ",i20~21",
-    "block": "",
+    "block": "+3",
     "hit": "+20 (-6)",
     "counter": "",
     "note": "Deals chip damage on block"
   },
   {
-    "input": "IAI.2",
+    "input": "IAI 2",
     "hit_level": "m",
     "damage": "23",
     "startup": "i16~17",
-    "block": "",
+    "block": "-7",
     "hit": "+15 (+5)",
     "counter": "",
     "note": ""
   },
   {
-    "input": "IAI.4",
+    "input": "IAI 3",
     "hit_level": "m,​th(m)",
     "damage": "13 (25)",
     "startup": "i17",
-    "block": "",
+    "block": "-14",
     "hit": "+25 (+10)",
     "counter": "",
     "note": ""
   },
   {
-    "input": "IAI.4",
+    "input": "IAI 4",
     "hit_level": "l",
     "damage": "17",
     "startup": "i18~19",
-    "block": "",
+    "block": "-13",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "IAI.4,​1",
+    "input": "IAI 4,1",
     "hit_level": "l,​h",
     "damage": "17,​25",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-5",
     "hit": "+26 (+0)",
     "counter": "",
     "note": ""
   },
   {
-    "input": "IAI.1+2",
+    "input": "IAI 1+2",
     "hit_level": "h",
     "damage": "30",
     "startup": "i20~21",
-    "block": "",
+    "block": "+3",
     "hit": "+20 (-6)",
     "counter": "",
     "note": "Deals chip damage on block"
   },
   {
-    "input": "IAI.d+2",
+    "input": "IAI d+2",
     "hit_level": "m",
     "damage": "31",
     "startup": "i23~24",
-    "block": "",
+    "block": "+1",
     "hit": "+0 (-7)",
     "counter": "",
-    "note": "Transition to IAI on hit\nDeals chip damage on block"
+    "note": "Transition to IAI\nDeals chip damage on block"
   },
   {
-    "input": "in heat IAI.d+2",
+    "input": "in heat IAI d+2",
     "hit_level": "m",
     "damage": "45",
     "startup": "i23~24",
-    "block": "",
+    "block": "+8",
     "hit": "+20 (+2)",
     "counter": "",
     "note": "Transition to IAI on hit"
   },
   {
-    "input": "IAI.d+1+2",
+    "input": "IAI d+1+2",
     "hit_level": "ll",
     "damage": "10,​20",
     "startup": "i20~21,i14~15",
-    "block": "",
+    "block": "-29",
     "hit": "-3",
     "counter": "",
     "note": ""
   },
   {
-    "input": "IAI.d",
+    "input": "IAI d",
     "hit_level": "sp",
     "damage": "",
     "startup": "i20~21,i14~15",
@@ -970,7 +900,7 @@
     "note": ""
   },
   {
-    "input": "IAI.f",
+    "input": "IAI f",
     "hit_level": "sp",
     "damage": "",
     "startup": "i20~21,i14~15",
@@ -980,7 +910,7 @@
     "note": "Parries low attacks"
   },
   {
-    "input": "IAI.P.f",
+    "input": "IAI P f",
     "hit_level": "m",
     "damage": "21",
     "startup": "i16~17",
@@ -990,7 +920,7 @@
     "note": ""
   },
   {
-    "input": "IAI.b",
+    "input": "IAI b",
     "hit_level": "sp",
     "damage": "",
     "startup": "i16~17",
@@ -1003,97 +933,157 @@
     "input": "f+3",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i16~17",
-    "block": "",
+    "startup": "Startup",
+    "block": "-8",
     "hit": "",
     "counter": "",
     "note": "Can cancel into FC with df"
   },
   {
-    "input": "PRF.1",
+    "input": "PRF 1",
     "hit_level": "l",
     "damage": "17",
     "startup": "i19~20",
-    "block": "",
+    "block": "-13",
     "hit": "+4c",
     "counter": "",
     "note": ""
   },
   {
-    "input": "PRF.2",
+    "input": "PRF 2",
     "hit_level": "m",
     "damage": "9",
     "startup": "i12~13",
-    "block": "",
+    "block": "-8",
     "hit": "+1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "PRF.2,​2",
+    "input": "PRF 2,2",
     "hit_level": "m,​m",
     "damage": "9,​13",
     "startup": ",i13~14",
-    "block": "",
+    "block": "-4",
     "hit": "+1",
     "counter": "",
-    "note": "Transition to IAI on hit or block"
+    "note": "Transition to IAI"
   },
   {
-    "input": "PRF.2,​2,​1",
+    "input": "PRF 2,2,1",
     "hit_level": "m,​m,​h",
     "damage": "9,​13,​20",
     "startup": ",i12~13",
-    "block": "",
+    "block": "-1",
     "hit": "+12",
     "counter": "",
     "note": ""
   },
   {
-    "input": "PRF.2,​2,​1+2",
+    "input": "PRF 2,2,1+2",
     "hit_level": "m,​m,​m",
     "damage": "9,​13,​31",
     "startup": ",i12",
-    "block": "",
+    "block": "-13",
     "hit": "+7",
     "counter": "",
     "note": ""
   },
   {
-    "input": "PRF.3",
+    "input": "PRF 3",
     "hit_level": "m",
     "damage": "21",
     "startup": "i15~17",
+    "block": "-8",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "PRF 4",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i18~19",
+    "block": "-6",
+    "hit": "+13g",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "PRF 1+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i25~27",
+    "block": "+4",
+    "hit": "+14",
+    "counter": "",
+    "note": "Deals chip damage on block"
+  },
+  {
+    "input": "PRF df",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i25~27",
     "block": "",
     "hit": "",
     "counter": "",
     "note": ""
   },
   {
-    "input": "PRF.4",
-    "hit_level": "h",
-    "damage": "17",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "+13g",
+    "input": "in rage df+1+2",
+    "hit_level": "m",
+    "damage": "55",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "th",
+    "counter": "th",
+    "note": "Rage Art\nRemoves recoverable health on hit\nAlternate input: R.R2"
+  },
+  {
+    "input": "FC 1+2",
+    "hit_level": "lh",
+    "damage": "10,​10",
+    "startup": "i16,i10~11",
+    "block": "-23, -13",
+    "hit": "+0",
     "counter": "",
     "note": ""
   },
   {
-    "input": "PRF.1+2",
+    "input": "SS 1+2",
     "hit_level": "m",
     "damage": "25",
-    "startup": "i25~27",
-    "block": "",
-    "hit": "+14",
+    "startup": "i18~19",
+    "block": "-9",
+    "hit": "+15 (+5)",
     "counter": "",
-    "note": "Deals chip damage on block"
+    "note": ""
   },
   {
-    "input": "PRF.df",
+    "input": "2+3+4",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i25~27",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1+2+3+4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "ub,b",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i18~19",
     "block": "",
     "hit": "",
     "counter": "",

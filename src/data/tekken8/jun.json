@@ -1,15 +1,5 @@
 [
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "2+3",
     "hit_level": "m",
     "damage": "12 (12)",
@@ -30,16 +20,6 @@
     "note": "Restores recoverable health\nChip damage on block"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "df+1+2",
     "hit_level": "m",
     "damage": "55+",
@@ -48,16 +28,6 @@
     "hit": "+0d",
     "counter": "",
     "note": "Rage Art\nRemoves opponent recoverable health on hit"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
   },
   {
     "input": "1",
@@ -70,7 +40,7 @@
     "note": ""
   },
   {
-    "input": "1,​1",
+    "input": "1,1",
     "hit_level": "h,​m",
     "damage": "5,​15",
     "startup": ",i25",
@@ -80,7 +50,7 @@
     "note": ""
   },
   {
-    "input": "1,​2",
+    "input": "1,2",
     "hit_level": "h,​h",
     "damage": "5,​8",
     "startup": ",i16",
@@ -90,7 +60,7 @@
     "note": "Jail from 1st attack"
   },
   {
-    "input": "1,​2,​u_d",
+    "input": "1,2,u_d",
     "hit_level": "h,​h",
     "damage": "5,​8",
     "startup": ",i16",
@@ -100,7 +70,7 @@
     "note": ""
   },
   {
-    "input": "1,​2,​2",
+    "input": "1,2,2",
     "hit_level": "h,​h,​h",
     "damage": "5,​8,​17",
     "startup": ",i16~17",
@@ -110,7 +80,7 @@
     "note": "Combo from 2nd CH with 5f delay\nJail from 2nd block with 1f delay"
   },
   {
-    "input": "1,​2,​4",
+    "input": "1,2,4",
     "hit_level": "h,​h,​m",
     "damage": "5,​8,​16",
     "startup": ",i27~28",
@@ -120,7 +90,7 @@
     "note": "Combo from 2nd CH with 3f delay\nInput can be delayed 9f"
   },
   {
-    "input": "1,​3",
+    "input": "1,3",
     "hit_level": "h,​L",
     "damage": "5,​12",
     "startup": ",i23",
@@ -140,7 +110,7 @@
     "note": ""
   },
   {
-    "input": "2,​1",
+    "input": "2,1",
     "hit_level": "h,​m",
     "damage": "7,​9",
     "startup": ",i21",
@@ -150,7 +120,7 @@
     "note": "Combo from 1st hit with 9f delay\nInput can be delayed 10f"
   },
   {
-    "input": "2,​1,​4",
+    "input": "2,1,4",
     "hit_level": "h,​m,​m",
     "damage": "7,​9,​12",
     "startup": ",i10",
@@ -160,7 +130,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "2,​1,​4,​1",
+    "input": "2,1,4,1",
     "hit_level": "h,​m,​m,​m",
     "damage": "7,​9,​12,​30",
     "startup": ",i30",
@@ -170,7 +140,7 @@
     "note": "Combo from 3rd CH\nInput can be delayed 10f\nChip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
-    "input": "2,​1,​4,​3",
+    "input": "2,1,4,3",
     "hit_level": "h,​m,​m,​m",
     "damage": "7,​9,​12,​21",
     "startup": ",i25",
@@ -180,7 +150,7 @@
     "note": "Combo from 3rd CH with 5f delay\nInput can be delayed 10f"
   },
   {
-    "input": "2,​1,​1+2",
+    "input": "2,1,1+2",
     "hit_level": "h,​m,​h",
     "damage": "7,​9,​21",
     "startup": ",i22",
@@ -220,7 +190,7 @@
     "note": ""
   },
   {
-    "input": "in heat 1+2,​F",
+    "input": "in heat 1+2,F",
     "hit_level": "m",
     "damage": "26",
     "startup": "i13",
@@ -250,7 +220,7 @@
     "note": "Jail from 1st attack\nCH advantage listed is for the 2nd hit"
   },
   {
-    "input": "1+4,​2",
+    "input": "1+4,2",
     "hit_level": "sl,​h,​h",
     "damage": "-,​10",
     "startup": ",i19",
@@ -260,7 +230,7 @@
     "note": ""
   },
   {
-    "input": "1+4,​2,​4",
+    "input": "1+4,2,4",
     "hit_level": "sl,​h,​h,​m",
     "damage": "-,​10,​23",
     "startup": ",i24",
@@ -270,7 +240,7 @@
     "note": ""
   },
   {
-    "input": "1+4,​2,​d+4",
+    "input": "1+4,2,d+4",
     "hit_level": "sl,​h,​h,​L",
     "damage": "-,​10,​15",
     "startup": ",i24~25",
@@ -280,7 +250,7 @@
     "note": ""
   },
   {
-    "input": "1+4,​3",
+    "input": "1+4,3",
     "hit_level": "sl,​h,​m",
     "damage": "-,​15",
     "startup": ",i24~25",
@@ -290,7 +260,7 @@
     "note": ""
   },
   {
-    "input": "1+4,​3,​1",
+    "input": "1+4,3,1",
     "hit_level": "sl,​h,​m,​m",
     "damage": "-,​15,​20",
     "startup": ",i33~34",
@@ -300,23 +270,13 @@
     "note": ""
   },
   {
-    "input": "1+4,​3,​4",
+    "input": "1+4,3,4",
     "hit_level": "sl,​h,​m,​L",
     "damage": "-,​15,​17",
     "startup": ",i25~26",
     "block": "-13~-12",
     "hit": "+4c~+5c",
     "counter": "+26a",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -360,7 +320,7 @@
     "note": ""
   },
   {
-    "input": "f+3,​2",
+    "input": "f+3,2",
     "hit_level": "m,​h",
     "damage": "13,​17",
     "startup": ",i20~21",
@@ -370,7 +330,7 @@
     "note": "Combo from 1st hit with 5f delay"
   },
   {
-    "input": "f+3,​4",
+    "input": "f+3,4",
     "hit_level": "m,​M",
     "damage": "13,​22",
     "startup": ",i20~22",
@@ -400,7 +360,7 @@
     "note": "Transition to r20 MIA on hit only\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
-    "input": "in heat f+1+2,​P",
+    "input": "in heat f+1+2,P",
     "hit_level": "h",
     "damage": "0",
     "startup": "i12",
@@ -420,16 +380,6 @@
     "note": "Punch sabaki, +51a on a successful parry"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "df+1",
     "hit_level": "m",
     "damage": "10",
@@ -440,7 +390,7 @@
     "note": ""
   },
   {
-    "input": "df+1,​1",
+    "input": "df+1,1",
     "hit_level": "m,​m",
     "damage": "10,​17",
     "startup": ",i24~25",
@@ -450,7 +400,7 @@
     "note": ""
   },
   {
-    "input": "df+1,​2",
+    "input": "df+1,2",
     "hit_level": "m,​h",
     "damage": "10,​12",
     "startup": ",i22~23",
@@ -470,7 +420,7 @@
     "note": ""
   },
   {
-    "input": "df+2,​1+2",
+    "input": "df+2,1+2",
     "hit_level": "m,​M",
     "damage": "1414",
     "startup": ",i25~26",
@@ -510,7 +460,7 @@
     "note": ""
   },
   {
-    "input": "df+3+4,​1",
+    "input": "df+3+4,1",
     "hit_level": "m,​m",
     "damage": "17,​20",
     "startup": ",i33~34",
@@ -520,23 +470,13 @@
     "note": ""
   },
   {
-    "input": "df+3+4,​4",
+    "input": "df+3+4,4",
     "hit_level": "m,​L",
     "damage": "17,​17",
     "startup": ",i25~26",
     "block": "-13~-12",
     "hit": "+4c~+5c",
     "counter": "+26a",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -560,7 +500,7 @@
     "note": ""
   },
   {
-    "input": "d+4,​4",
+    "input": "d+4,4",
     "hit_level": "L,​h",
     "damage": "10,​20",
     "startup": ",i25~26",
@@ -590,16 +530,6 @@
     "note": ""
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "db+1",
     "hit_level": "m",
     "damage": "7",
@@ -610,7 +540,7 @@
     "note": ""
   },
   {
-    "input": "db+1,​1",
+    "input": "db+1,1",
     "hit_level": "m,​m",
     "damage": "7,​8",
     "startup": ",i21",
@@ -620,7 +550,7 @@
     "note": ""
   },
   {
-    "input": "db+1,​1,​1+2",
+    "input": "db+1,1,1+2",
     "hit_level": "m,​m,​m,​m,​m",
     "damage": "7,​8,​5,​5,​20",
     "startup": ",i17 i26 i49",
@@ -660,7 +590,7 @@
     "note": ""
   },
   {
-    "input": "db+4,​4",
+    "input": "db+4,4",
     "hit_level": "L,​L",
     "damage": "14,​15",
     "startup": ",i31~33",
@@ -670,7 +600,7 @@
     "note": "Combo from 1st CH\nTransition to r22 FC with D"
   },
   {
-    "input": "db+4,​4,​4",
+    "input": "db+4,4,4",
     "hit_level": "L,​L,​L",
     "damage": "14,​15,​16",
     "startup": ",i31~33",
@@ -680,7 +610,7 @@
     "note": "Transition to r22 FC with D"
   },
   {
-    "input": "db+4,​1+4",
+    "input": "db+4,1+4",
     "hit_level": "L,​sl,​h",
     "damage": "14,​5,​8",
     "startup": ",i22 i17",
@@ -688,16 +618,6 @@
     "hit": "-3",
     "counter": "+4",
     "note": "Combo from 1st hit\nLinks to 1+4 extensions\nAlternate inputs:\ndb+4,4,1+2\ndb+4,4,4,1+2\nCH advantage listed is for the last hitdb+4,4,1+2\ndb+4,4,4,1+2"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
   },
   {
     "input": "b+1",
@@ -720,7 +640,7 @@
     "note": ""
   },
   {
-    "input": "b+2,​1",
+    "input": "b+2,1",
     "hit_level": "m,​h",
     "damage": "10,​7",
     "startup": ",i15~16",
@@ -730,7 +650,7 @@
     "note": "Combo from 1st hit with 5f? delay"
   },
   {
-    "input": "b+2,​1~F",
+    "input": "b+2,1~F",
     "hit_level": "m,​h",
     "damage": "10,​7",
     "startup": ",i15~16",
@@ -740,7 +660,7 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
-    "input": "b+2,​1~B",
+    "input": "b+2,1~B",
     "hit_level": "m,​h",
     "damage": "10,​7",
     "startup": ",i15~16",
@@ -750,7 +670,7 @@
     "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
   },
   {
-    "input": "b+2,​1,​1",
+    "input": "b+2,1,1",
     "hit_level": "m,​h,​m",
     "damage": "10,​7,​20",
     "startup": ",i25",
@@ -760,7 +680,7 @@
     "note": "Combo from 2nd CH with 4f delay\nInput can be delayed 14f"
   },
   {
-    "input": "b+2,​1,​2",
+    "input": "b+2,1,2",
     "hit_level": "m,​h,​M",
     "damage": "10,​7,​20",
     "startup": ",i23",
@@ -770,7 +690,7 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
-    "input": "b+2,​1,​4",
+    "input": "b+2,1,4",
     "hit_level": "m,​h,​h",
     "damage": "10,​7,​24",
     "startup": ",i23~25",
@@ -780,7 +700,7 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f"
   },
   {
-    "input": "b+2,​4",
+    "input": "b+2,4",
     "hit_level": "m,​m",
     "damage": "10,​10",
     "startup": ",i16~17",
@@ -800,7 +720,7 @@
     "note": ""
   },
   {
-    "input": "b+3,​2",
+    "input": "b+3,2",
     "hit_level": "m,​M",
     "damage": "20,​22",
     "startup": ",i20",
@@ -810,7 +730,7 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
   },
   {
-    "input": "b+3,​4",
+    "input": "b+3,4",
     "hit_level": "m,​L",
     "damage": "20,​14",
     "startup": ",i20~22",
@@ -830,7 +750,7 @@
     "note": ""
   },
   {
-    "input": "b+4,​2",
+    "input": "b+4,2",
     "hit_level": "m,​M",
     "damage": "14,​17",
     "startup": ",i22~23",
@@ -857,16 +777,6 @@
     "block": "",
     "hit": "+6~+7",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -920,7 +830,7 @@
     "note": ""
   },
   {
-    "input": "uf+4,​3",
+    "input": "uf+4,3",
     "hit_level": "m,​m,​M",
     "damage": "10,​8,​20",
     "startup": ",i29 i18",
@@ -940,17 +850,7 @@
     "note": "Alternate inputs: ub+3+4, u+3+4"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "f,​F+2",
+    "input": "f,F+2",
     "hit_level": "m",
     "damage": "16",
     "startup": "i16~17",
@@ -960,7 +860,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+2~F",
+    "input": "f,F+2~F",
     "hit_level": "m",
     "damage": "16",
     "startup": "i16~17",
@@ -970,7 +870,7 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
-    "input": "f,​F+2~B",
+    "input": "f,F+2~B",
     "hit_level": "m",
     "damage": "16",
     "startup": "i16~17",
@@ -980,7 +880,7 @@
     "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
   },
   {
-    "input": "f,​F+2,​2",
+    "input": "f,F+2,2",
     "hit_level": "m,​m",
     "damage": "16,​22",
     "startup": ",i21",
@@ -990,7 +890,7 @@
     "note": "Combo from 1st hit with 8f delay"
   },
   {
-    "input": "f,​F+2,​3",
+    "input": "f,F+2,3",
     "hit_level": "m,​h",
     "damage": "16,​22",
     "startup": ",i20~21",
@@ -1000,7 +900,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+3",
+    "input": "f,F+3",
     "hit_level": "m",
     "damage": "23",
     "startup": "i18~19",
@@ -1010,7 +910,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+3,​3+4",
+    "input": "f,F+3,3+4",
     "hit_level": "m,​m,​m",
     "damage": "23,​12,​15",
     "startup": ",i35~36 i41~42",
@@ -1020,7 +920,7 @@
     "note": "Chip damage on block\nInterrupt with i11 from 1st block"
   },
   {
-    "input": "f,​F+1+2",
+    "input": "f,F+1+2",
     "hit_level": "m",
     "damage": "30",
     "startup": "i22",
@@ -1030,7 +930,7 @@
     "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
-    "input": "f,​f,​F+3",
+    "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "32",
     "startup": "i24~28",
@@ -1040,17 +940,7 @@
     "note": "Chip damage on block\nAlternate input: ub,b+3"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "FC.3+4",
+    "input": "FC 3+4",
     "hit_level": "m,​m",
     "damage": "10,​10",
     "startup": "i21~22 i23~24",
@@ -1060,7 +950,7 @@
     "note": "Can recover in r22 FC with D"
   },
   {
-    "input": "FC.3+4,​3",
+    "input": "FC 3+4,3",
     "hit_level": "m,​m,​m,​m",
     "damage": "10,​10,​10,​10",
     "startup": ",i31~32 i40~41",
@@ -1070,7 +960,7 @@
     "note": "Can recover in r22 FC with D"
   },
   {
-    "input": "FC.df+1",
+    "input": "FC df+1",
     "hit_level": "sl,​m",
     "damage": "6,​30",
     "startup": "i10 i25~26",
@@ -1080,7 +970,7 @@
     "note": "Deals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit"
   },
   {
-    "input": "FC.df+2",
+    "input": "FC df+2",
     "hit_level": "L",
     "damage": "12",
     "startup": "i16~17",
@@ -1090,7 +980,7 @@
     "note": ""
   },
   {
-    "input": "FC.df+3",
+    "input": "FC df+3",
     "hit_level": "L",
     "damage": "12",
     "startup": "i21",
@@ -1098,16 +988,6 @@
     "hit": "+0c",
     "counter": "",
     "note": "Clean hit +10a, 15 damage\nOpponent recovers FDFA on CL"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
   },
   {
     "input": "ws1",
@@ -1120,7 +1000,7 @@
     "note": ""
   },
   {
-    "input": "ws1,​1",
+    "input": "ws1,1",
     "hit_level": "h,​h",
     "damage": "14,​7",
     "startup": ",i15~16",
@@ -1130,7 +1010,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "ws1,​1~F",
+    "input": "ws1,1~F",
     "hit_level": "h,​h",
     "damage": "14,​7",
     "startup": ",i15~16",
@@ -1140,7 +1020,7 @@
     "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
   },
   {
-    "input": "ws1,​1~B",
+    "input": "ws1,1~B",
     "hit_level": "h,​h",
     "damage": "14,​7",
     "startup": ",i15~16",
@@ -1150,7 +1030,7 @@
     "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
   },
   {
-    "input": "ws1,​1,​1",
+    "input": "ws1,1,1",
     "hit_level": "h,​h,​m",
     "damage": "14,​7,​20",
     "startup": ",i25",
@@ -1160,7 +1040,7 @@
     "note": "Combo from 2nd CH with 4f delay\nInput can be delayed 14f"
   },
   {
-    "input": "ws1,​1,​2",
+    "input": "ws1,1,2",
     "hit_level": "h,​h,​M",
     "damage": "14,​7,​22",
     "startup": ",i23",
@@ -1170,7 +1050,7 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat"
   },
   {
-    "input": "ws1,​1,​4",
+    "input": "ws1,1,4",
     "hit_level": "h,​h,​h",
     "damage": "14,​7,​24",
     "startup": ",i23~25",
@@ -1180,7 +1060,7 @@
     "note": "Combo from 2nd CH with 6f delay\nInput can be delayed 14f"
   },
   {
-    "input": "ws1,​4",
+    "input": "ws1,4",
     "hit_level": "h,​m",
     "damage": "14,​16",
     "startup": ",i22~23",
@@ -1190,7 +1070,7 @@
     "note": "Combo from 1st hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f"
   },
   {
-    "input": "ws1,​4,​2",
+    "input": "ws1,4,2",
     "hit_level": "h,​m,​L",
     "damage": "14,​16,​17",
     "startup": ",i23~24",
@@ -1200,7 +1080,7 @@
     "note": "Combo from 2nd CH"
   },
   {
-    "input": "ws1,​4,​1+2",
+    "input": "ws1,4,1+2",
     "hit_level": "h,​m,​m",
     "damage": "14,​16,​28",
     "startup": ",i25~26",
@@ -1220,7 +1100,7 @@
     "note": ""
   },
   {
-    "input": "ws2,​1",
+    "input": "ws2,1",
     "hit_level": "m,​m",
     "damage": "12,​20",
     "startup": ",i22~23",
@@ -1270,17 +1150,267 @@
     "note": ""
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
+    "input": "u+2",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i23~24",
+    "block": "+6~+7",
+    "hit": "+11~+12",
+    "counter": "+20c~+21c",
+    "note": "Alternate input: ub+2"
+  },
+  {
+    "input": "IZU 1",
+    "hit_level": "h",
+    "damage": "7",
+    "startup": "i13~14",
+    "block": "-7~-6",
+    "hit": "+4~+5",
+    "counter": "",
     "note": ""
   },
   {
-    "input": "SS.2",
+    "input": "IZU 1,1",
+    "hit_level": "h,​h",
+    "damage": "7,​26",
+    "startup": ",i23~24",
+    "block": "-4~-3",
+    "hit": "+30a (+20)",
+    "counter": "",
+    "note": "Combo from 1st hit with 6f delay\nChip damage on block\nDeals recoverable self-damage when not in Heat"
+  },
+  {
+    "input": "IZU 1,2",
+    "hit_level": "h,​m",
+    "damage": "7,​20",
+    "startup": ",i24",
+    "block": "-13",
+    "hit": "+6a",
+    "counter": "+15a",
+    "note": "Combo from 1st hit with 5f delay\nInput can be delayed 6f"
+  },
+  {
+    "input": "IZU 2",
+    "hit_level": "M",
+    "damage": "24",
+    "startup": "i23~25",
+    "block": "-13~-11",
+    "hit": "+34a (+24)",
+    "counter": "",
+    "note": "Chip damage on block\nDeals recoverable self-damage damage when not in Heat\nUnparryable"
+  },
+  {
+    "input": "IZU 3",
+    "hit_level": "m,​h",
+    "damage": "10,​16",
+    "startup": "i16~15 i14~15",
+    "block": "-6~-5",
+    "hit": "+12a (+3)",
+    "counter": "",
+    "note": "Jail from 1st attack"
+  },
+  {
+    "input": "in heat IZU 3,F",
+    "hit_level": "m,​h",
+    "damage": "10,​16",
+    "startup": "i16~15 i14~15",
+    "block": "+5~+6",
+    "hit": "+36a (+26)",
+    "counter": "",
+    "note": "Jail from 1st attack"
+  },
+  {
+    "input": "IZU 4",
+    "hit_level": "L",
+    "damage": "15",
+    "startup": "i21~22",
+    "block": "-37~-36",
+    "hit": "-1c~+0c",
+    "counter": "+23a",
+    "note": ""
+  },
+  {
+    "input": "IZU 4,1",
+    "hit_level": "L,​M",
+    "damage": "15,​15",
+    "startup": ",i19~20",
+    "block": "-14~-13",
+    "hit": "+14a (+3)",
+    "counter": "",
+    "note": "Combo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat"
+  },
+  {
+    "input": "IZU 1+2",
+    "hit_level": "M",
+    "damage": "24",
+    "startup": "i21~22",
+    "block": "-12~-11",
+    "hit": "+19a",
+    "counter": "",
+    "note": "Frame advantage is -6 if an attack is absorbed"
+  },
+  {
+    "input": "IZU f+1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i16~17",
+    "block": "-9~-8",
+    "hit": "+2~+3",
+    "counter": "+23",
+    "note": "Only i13 or faster attacks guaranteed on CH"
+  },
+  {
+    "input": "f+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
+  },
+  {
+    "input": "f+3+4,P (Low)",
+    "hit_level": "t",
+    "damage": "4,​2,​2,​2,​2,​2,​2,​2,​2",
+    "startup": "Startup",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Restores recoverable health\nOpponent recovers FDFA"
+  },
+  {
+    "input": "f+3+4,P (Throw)",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "Startup",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "GEN 1",
+    "hit_level": "L",
+    "damage": "22",
+    "startup": "i20~21",
+    "block": "-13~-12",
+    "hit": "+3c~+4c",
+    "counter": "+26a",
+    "note": ""
+  },
+  {
+    "input": "GEN 2",
+    "hit_level": "m,​t",
+    "damage": "16,​32",
+    "startup": "i16~17",
+    "block": "-13~-12",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Transitions to attack throw on front hit only, otherwise knockdown\nDeals recoverable self-damage when not in Heat\nFrame advantage is -9 if an attack is absorbed\nChip damage on block if an attack is absorbed"
+  },
+  {
+    "input": "GEN 3",
+    "hit_level": "M",
+    "damage": "14",
+    "startup": "i17~20",
+    "block": "-4c~-1c",
+    "hit": "+4c~+7c",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "GEN 3,2",
+    "hit_level": "M,​M",
+    "damage": "14,​20",
+    "startup": ",i24",
+    "block": "-9",
+    "hit": "+33a (+18)",
+    "counter": "",
+    "note": "Combo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+  },
+  {
+    "input": "GEN 4",
+    "hit_level": "h",
+    "damage": "24",
+    "startup": "i26~28",
+    "block": "+4~+6",
+    "hit": "+26a (+17)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "in heat GEN 2+3",
+    "hit_level": "l,​m",
+    "damage": "14,​28",
+    "startup": "i20 i26",
+    "block": "-14",
+    "hit": "+33 (+5)",
+    "counter": "",
+    "note": "Ends heat"
+  },
+  {
+    "input": "b+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
+  },
+  {
+    "input": "MIA 1",
+    "hit_level": "M",
+    "damage": "30",
+    "startup": "i24~25",
+    "block": "-9~-8",
+    "hit": "+72a (+56)",
+    "counter": "",
+    "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+  },
+  {
+    "input": "MIA 2",
+    "hit_level": "sm",
+    "damage": "30",
+    "startup": "i16",
+    "block": "-20",
+    "hit": "+26a (+0)",
+    "counter": "",
+    "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+  },
+  {
+    "input": "in heat MIA 2,F",
+    "hit_level": "sm",
+    "damage": "30",
+    "startup": "i16",
+    "block": "+5",
+    "hit": "+36a (+26)",
+    "counter": "",
+    "note": "Chip damage on block\nUnparryable"
+  },
+  {
+    "input": "MIA 1+2",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i23~24",
+    "block": "+6~+7",
+    "hit": "+11~+12",
+    "counter": "+20c~+21c",
+    "note": ""
+  },
+  {
+    "input": "MIA F",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
+  },
+  {
+    "input": "SS 2",
     "hit_level": "m",
     "damage": "27",
     "startup": "i16",
@@ -1290,7 +1420,7 @@
     "note": ""
   },
   {
-    "input": "SS.4",
+    "input": "SS 4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i18~20",
@@ -1300,7 +1430,7 @@
     "note": ""
   },
   {
-    "input": "in heat SS.4,​F",
+    "input": "in heat SS 4,F",
     "hit_level": "m",
     "damage": "20",
     "startup": "i18~20",
@@ -1310,7 +1440,7 @@
     "note": ""
   },
   {
-    "input": "SS.1+2",
+    "input": "SS 1+2",
     "hit_level": "h,​h,​m",
     "damage": "7,​9,​18",
     "startup": "i16 i17 i15~16",
@@ -1340,7 +1470,7 @@
     "note": "Alternate input: b+2+4\nParries mid or high punches or kicks"
   },
   {
-    "input": "b+1+3,​P",
+    "input": "b+1+3,P",
     "hit_level": "t",
     "damage": "7,​8,​10",
     "startup": "i16 i17 i15~16",
@@ -1350,7 +1480,7 @@
     "note": "Opponent recovers FDFT"
   },
   {
-    "input": "UB,​b",
+    "input": "UB,b",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1360,303 +1490,13 @@
     "note": ""
   },
   {
-    "input": "(Back to wall).b,​b,​UB",
+    "input": "(Back to wall) b,b,UB",
     "hit_level": "m",
     "damage": "21",
     "startup": "i39~41",
     "block": "+4c~+6c",
     "hit": "+22",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "u+2",
-    "hit_level": "h",
-    "damage": "17",
-    "startup": "i23~24",
-    "block": "+6~+7",
-    "hit": "+11~+12",
-    "counter": "+20c~+21c",
-    "note": "Alternate input: ub+2"
-  },
-  {
-    "input": "IZU.1",
-    "hit_level": "h",
-    "damage": "7",
-    "startup": "i13~14",
-    "block": "-7~-6",
-    "hit": "+4~+5",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "IZU.1,​1",
-    "hit_level": "h,​h",
-    "damage": "7,​26",
-    "startup": ",i23~24",
-    "block": "-4~-3",
-    "hit": "+30a (+20)",
-    "counter": "",
-    "note": "Combo from 1st hit with 6f delay\nChip damage on block\nDeals recoverable self-damage when not in Heat"
-  },
-  {
-    "input": "IZU.1,​2",
-    "hit_level": "h,​m",
-    "damage": "7,​20",
-    "startup": ",i24",
-    "block": "-13",
-    "hit": "+6a",
-    "counter": "+15a",
-    "note": "Combo from 1st hit with 5f delay\nInput can be delayed 6f"
-  },
-  {
-    "input": "IZU.2",
-    "hit_level": "M",
-    "damage": "24",
-    "startup": "i23~25",
-    "block": "-13~-11",
-    "hit": "+34a (+24)",
-    "counter": "",
-    "note": "Chip damage on block\nDeals recoverable self-damage damage when not in Heat\nUnparryable"
-  },
-  {
-    "input": "IZU.3",
-    "hit_level": "m,​h",
-    "damage": "10,​16",
-    "startup": "i16~15 i14~15",
-    "block": "-6~-5",
-    "hit": "+12a (+3)",
-    "counter": "",
-    "note": "Jail from 1st attack"
-  },
-  {
-    "input": "in heat IZU.3,​F",
-    "hit_level": "m,​h",
-    "damage": "10,​16",
-    "startup": "i16~15 i14~15",
-    "block": "+5~+6",
-    "hit": "+36a (+26)",
-    "counter": "",
-    "note": "Jail from 1st attack"
-  },
-  {
-    "input": "IZU.4",
-    "hit_level": "L",
-    "damage": "15",
-    "startup": "i21~22",
-    "block": "-37~-36",
-    "hit": "-1c~+0c",
-    "counter": "+23a",
-    "note": ""
-  },
-  {
-    "input": "IZU.4,​1",
-    "hit_level": "L,​M",
-    "damage": "15,​15",
-    "startup": ",i19~20",
-    "block": "-14~-13",
-    "hit": "+14a (+3)",
-    "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat"
-  },
-  {
-    "input": "IZU.1+2",
-    "hit_level": "M",
-    "damage": "24",
-    "startup": "i21~22",
-    "block": "-12~-11",
-    "hit": "+19a",
-    "counter": "",
-    "note": "Frame advantage is -6 if an attack is absorbed"
-  },
-  {
-    "input": "IZU.f+1+2",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i16~17",
-    "block": "-9~-8",
-    "hit": "+2~+3",
-    "counter": "+23",
-    "note": "Only i13 or faster attacks guaranteed on CH"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "f+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
-  },
-  {
-    "input": "f+3+4,​P (Low)",
-    "hit_level": "t",
-    "damage": "4,​2,​2,​2,​2,​2,​2,​2,​2",
-    "startup": "Startup",
-    "block": "",
-    "hit": "+0d",
-    "counter": "",
-    "note": "Restores recoverable health\nOpponent recovers FDFA"
-  },
-  {
-    "input": "f+3+4,​P (Throw)",
-    "hit_level": "t",
-    "damage": "40",
-    "startup": "Startup",
-    "block": "",
-    "hit": "+0d",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "GEN.1",
-    "hit_level": "L",
-    "damage": "22",
-    "startup": "i20~21",
-    "block": "-13~-12",
-    "hit": "+3c~+4c",
-    "counter": "+26a",
-    "note": ""
-  },
-  {
-    "input": "GEN.2",
-    "hit_level": "m,​t",
-    "damage": "16,​32",
-    "startup": "i16~17",
-    "block": "-13~-12",
-    "hit": "+0d",
-    "counter": "",
-    "note": "Transitions to attack throw on front hit only, otherwise knockdown\nDeals recoverable self-damage when not in Heat\nFrame advantage is -9 if an attack is absorbed\nChip damage on block if an attack is absorbed"
-  },
-  {
-    "input": "GEN.3",
-    "hit_level": "M",
-    "damage": "14",
-    "startup": "i17~20",
-    "block": "-4c~-1c",
-    "hit": "+4c~+7c",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "GEN.3,​2",
-    "hit_level": "M,​M",
-    "damage": "14,​20",
-    "startup": ",i24",
-    "block": "-9",
-    "hit": "+33a (+18)",
-    "counter": "",
-    "note": "Combo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
-  },
-  {
-    "input": "GEN.4",
-    "hit_level": "h",
-    "damage": "24",
-    "startup": "i26~28",
-    "block": "+4~+6",
-    "hit": "+26a (+17)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "b+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Restores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
-  },
-  {
-    "input": "MIA.1",
-    "hit_level": "M",
-    "damage": "30",
-    "startup": "i24~25",
-    "block": "-9~-8",
-    "hit": "+72a (+56)",
-    "counter": "",
-    "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
-  },
-  {
-    "input": "MIA.2",
-    "hit_level": "sm",
-    "damage": "30",
-    "startup": "i16",
-    "block": "-20",
-    "hit": "+26a (+0)",
-    "counter": "",
-    "note": "Chip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
-  },
-  {
-    "input": "in heat MIA.2,​F",
-    "hit_level": "sm",
-    "damage": "30",
-    "startup": "i16",
-    "block": "+5",
-    "hit": "+36a (+26)",
-    "counter": "",
-    "note": "Chip damage on block\nUnparryable"
-  },
-  {
-    "input": "MIA.1+2",
-    "hit_level": "h",
-    "damage": "17",
-    "startup": "i23~24",
-    "block": "+6~+7",
-    "hit": "+11~+12",
-    "counter": "+20c~+21c",
-    "note": ""
-  },
-  {
-    "input": "MIA.F",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Cancel to r18 FC with D\nParries low punches or kicks\nParries throws"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -1730,7 +1570,7 @@
     "note": ""
   },
   {
-    "input": "FC.db+1+2",
+    "input": "FC db+1+2",
     "hit_level": "t",
     "damage": "15,​15,​15",
     "startup": "i11~12",
@@ -1740,7 +1580,7 @@
     "note": "Throw break 1+2\nOpponent can tech roll to reduce the landing damage"
   },
   {
-    "input": "IZU.1+4",
+    "input": "IZU 1+4",
     "hit_level": "t",
     "damage": "35",
     "startup": "i14",

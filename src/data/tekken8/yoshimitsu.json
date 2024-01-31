@@ -1,63 +1,23 @@
 [
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "2+3",
     "hit_level": "m",
     "damage": "12",
     "startup": "i16",
-    "block": "",
+    "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "Cancel to r? with b,b"
+    "note": "Cancel to r45 with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor"
   },
   {
     "input": "in heat 2+3",
     "hit_level": "m,​t",
     "damage": "51",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "-3",
+    "startup": "i18~19 i40~41 i68~69 i78~79",
+    "block": "+4~+5",
+    "hit": "-3d",
     "counter": "",
-    "note": "Recovers health on hit\nTransition to r? DGF on block with U"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "10,​45",
-    "startup": "i20",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Rage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
+    "note": "Recovers health on hit\nTransition to r29 DGF on block with U, +10~+11\nUnparryable\nIgnores regular power crush armor\nJails\nEnds Heat"
   },
   {
     "input": "1",
@@ -70,131 +30,121 @@
     "note": ""
   },
   {
-    "input": "1,​1",
+    "input": "1,1",
     "hit_level": "h,​m",
     "damage": "7,​19",
     "startup": ",i23",
-    "block": "",
+    "block": "-9",
     "hit": "+4c",
-    "counter": "",
-    "note": "Combo from 1st hit\nDeals chip damage on block\nPower up during NSS or Heat (Recovers health on hit, consumes Heat)"
+    "counter": "+6a",
+    "note": "Combo from 1st hit with 2f delay\nInput can be delayed 3f\nInterrupt with i4 from 1st block\n3 chip damage on block\nPower up in NSS or Heat"
   },
   {
     "input": "2",
     "hit_level": "h",
     "damage": "10",
     "startup": "i11",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-1",
+    "hit": "+5",
+    "counter": "+8",
     "note": ""
   },
   {
-    "input": "2,​1",
+    "input": "2,1",
     "hit_level": "h,​m",
     "damage": "10,​23",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-9~-8",
     "hit": "+12a",
     "counter": "",
-    "note": "Combo from 1st CH?\nCancel to r? with B\nSometimes written as 1SS.2,1"
+    "note": "Combo from 1st CH with 2f delay\nMove can be delayed 2f\nCancel to r15 with b\nInterrupt with i8 from 1st block\nAlternate notation: 1SS.2,1"
   },
   {
-    "input": "2,​2",
+    "input": "2,2",
     "hit_level": "h,​h",
     "damage": "10,​18",
     "startup": ",i24",
-    "block": "",
-    "hit": "+15g?",
+    "block": "-1",
+    "hit": "+15g",
     "counter": "",
-    "note": "Combo from 1st hit\nTransition to NSS on hit or block\nTransition to r? KIN with 1+2"
+    "note": "Combo from 1st hit with 1f delay\nMove can be delayed 1f\nTransition to NSS on hit or block only\nTransition to r25 KIN with 1+2"
   },
   {
-    "input": "2,​3",
+    "input": "2,3",
     "hit_level": "h,​h",
     "damage": "10,​24",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-10~-9",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "Combo from 1st CH?"
+    "note": "Combo from 1st CH with 2f delay\nInput can be delayed 5f"
   },
   {
-    "input": "2,​d+3",
-    "hit_level": "h,​L?",
+    "input": "2,d+3",
+    "hit_level": "h,​L",
     "damage": "10,​11",
     "startup": ",i22",
-    "block": "",
+    "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit with 2f delay\nMove can be delayed 2f"
   },
   {
     "input": "3",
     "hit_level": "m",
     "damage": "12",
     "startup": "i15~16",
-    "block": "",
-    "hit": "",
+    "block": "-9~-8",
+    "hit": "+5~+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "3,​1",
+    "input": "3,1",
     "hit_level": "m,​h",
     "damage": "12,​22",
     "startup": ",i22~24",
-    "block": "",
-    "hit": "",
+    "block": "+7~+9",
+    "hit": "+18g~+20g",
     "counter": "",
-    "note": "Combo from 1st hit\nDeals chip damage on block\nTransition to r? DGF\nDoes not transition to DGF during Heat activation and Heat Dash\nPower up during NSS or Heat (Recovers health on hit, consumes Heat)"
+    "note": "Combo from 1st hit\n4 chip damage on block\nDoes not transition to DGF during Heat activation and Heat Dash\nPower up in NSS or Heat\nRecovers in 1SS"
   },
   {
-    "input": "in heat 3,​1,​F",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "input": "3,2",
+    "hit_level": "m,​m",
+    "damage": "12,​12",
+    "startup": ",i22",
+    "block": "-12",
+    "hit": "+1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "3,​2",
-    "hit_level": "m,​m",
-    "damage": "12,​12",
-    "startup": ",i22",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Combo from 1st CH?"
-  },
-  {
-    "input": "3,​2,​1+2",
-    "hit_level": "m,​m,​M?",
+    "input": "3,2,1+2",
+    "hit_level": "m,​m,​M",
     "damage": "12,​12,​29",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-14c~-13c",
     "hit": "+20a (+10)",
     "counter": "",
-    "note": "Combo from 2nd hit\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "note": "Combo from 2nd hit\n5 chip damage on block\nPower up in NSS or Heat"
   },
   {
     "input": "3~4",
     "hit_level": "m,​m",
     "damage": "6,​22",
-    "startup": "i17~18 i10~11",
-    "block": "",
-    "hit": "+3",
+    "startup": "i17~18 i28~29",
+    "block": "-6~-5",
+    "hit": "+3~+4",
     "counter": "",
-    "note": "Transition to r? DGF with 1SS.U\nCombo from 1st hit"
+    "note": "Transition to r18 DGF with 1SS.U"
   },
   {
     "input": "4~3",
     "hit_level": "m",
     "damage": "25",
     "startup": "i25~26",
-    "block": "",
+    "block": "-13~-12",
     "hit": "+52a (+42)",
     "counter": "",
     "note": ""
@@ -204,138 +154,118 @@
     "hit_level": "h",
     "damage": "12",
     "startup": "i12~13",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-11~-10",
+    "hit": "+0~+1",
+    "counter": "+20a (+10)",
     "note": ""
   },
   {
-    "input": "4,​4",
+    "input": "4,4",
     "hit_level": "h,​h",
     "damage": "12,​12",
     "startup": ",i24~25",
-    "block": "",
-    "hit": "",
+    "block": "-4",
+    "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "Combo from 1st hit with 4f delay\nMove can be delayed 4f"
   },
   {
-    "input": "4,​4,​2",
+    "input": "4,4,2",
     "hit_level": "h,​h,​m",
     "damage": "12,​12,​5",
     "startup": ",i30~31",
-    "block": "",
-    "hit": "",
+    "block": "-22~-21",
+    "hit": "-12~-11",
     "counter": "",
     "note": ""
   },
   {
-    "input": "4,​4,​2,​2",
+    "input": "4,4,2,2",
     "hit_level": "h,​h,​m,​h",
     "damage": "12,​12,​5,​6",
     "startup": ",i22~23",
-    "block": "",
-    "hit": "",
+    "block": "-24~-23",
+    "hit": "-13~-12",
     "counter": "",
     "note": "Combo from 3rd hit\nOpponent recovers BT on hit"
   },
   {
-    "input": "4,​4,​2,​2,​1",
+    "input": "4,4,2,2,1",
     "hit_level": "h,​h,​m,​h,​m!",
     "damage": "12,​12,​5,​6,​30",
     "startup": ",i67",
     "block": "",
     "hit": "-18",
     "counter": "",
-    "note": ""
+    "note": "Alternate notation: 4,4,2,2,1SS.1 or 1SS.4,4,2,2,1"
   },
   {
-    "input": "4,​4,​2,​2,​1~1",
-    "hit_level": "h,​h,​m,​h,​m!",
-    "damage": "12,​12,​5,​6,​30",
-    "startup": ",i67",
+    "input": "4,4,2,2,1~1",
+    "hit_level": "h,​h,​m,​h,​m!,​m!",
+    "damage": "12,​12,​5,​6,​30,​22",
+    "startup": ",i28~113",
     "block": "",
-    "hit": "",
+    "hit": "-58",
     "counter": "",
-    "note": ""
+    "note": "Cancel early to r26 with B (earliest cancel -12a)\nPossible to double-hit\nAlternate notation: 4,4,2,2,1SS.1~1 or 1SS.4,4,2,2,1~1"
   },
   {
-    "input": "4,​4,​4",
+    "input": "4,4,4",
     "hit_level": "h,​h,​h",
     "damage": "12,​12,​20",
     "startup": ",i24~25",
-    "block": "",
+    "block": "-4~-3",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "Combo from 2nd CH?"
+    "note": "Combo from 2nd CH with 4f delay\nMove can be delayed 4f"
   },
   {
     "input": "1+4",
     "hit_level": "m",
     "damage": "21",
     "startup": "i6~9",
-    "block": "",
-    "hit": "+14",
+    "block": "-15~-12",
+    "hit": "+14c~+17c",
     "counter": "",
-    "note": "Alternate input: ws1+4\nPower up during NSS or Heat (chip damage on block, recovers health on hit)"
+    "note": "Knockdown against BT opponent, +23a (+14)\nPower up in NSS or Heat\nAlternate input: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\nAlternate notation: 1SS.1+4\nAlternate names: Yoshimitsu Flash, Soul Stealer"
   },
   {
     "input": "1+2+3",
     "hit_level": "m",
     "damage": "0",
     "startup": "i22~40",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "1+2+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Can't block for 5 seconds\nCH state for 5 seconds"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
+    "block": "-8~+10g",
+    "hit": "+0~+18",
+    "counter": "+16~+34",
+    "note": "Alternate notation: 1SS.1+2+3"
   },
   {
     "input": "f+2",
     "hit_level": "h",
     "damage": "18",
     "startup": "i17~18",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-4~-3",
+    "hit": "+14g~+15g",
+    "counter": "+39a",
     "note": ""
   },
   {
-    "input": "f+2,​1",
-    "hit_level": "h,​M?",
+    "input": "f+2,1",
+    "hit_level": "h,​M",
     "damage": "18,​21",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-12~-11",
     "hit": "+17a (+10)",
     "counter": "",
-    "note": "Combo from 1st CH?\nAlternate input: BT.2,1"
+    "note": "Combo from 1st CH\nAlternate input: BT.2,1"
   },
   {
-    "input": "f+2,​db+2",
+    "input": "f+2,db+2",
     "hit_level": "h,​m",
-    "damage": "18,​7",
+    "damage": "18,​8",
     "startup": ",i10~14",
-    "block": "",
-    "hit": "",
+    "block": "-5",
+    "hit": "+6",
     "counter": "",
     "note": ""
   },
@@ -344,347 +274,447 @@
     "hit_level": "h",
     "damage": "24",
     "startup": "i16~17",
-    "block": "",
+    "block": "-9~-8",
     "hit": "+17a (+8)",
     "counter": "",
     "note": ""
   },
   {
-    "input": "f+3,​4",
+    "input": "f+3,4",
     "hit_level": "h,​m",
-    "damage": "24",
+    "damage": "2420",
     "startup": ",i23~24",
-    "block": "",
-    "hit": "",
+    "block": "-6~-5",
+    "hit": "+37a (+23a)",
     "counter": "",
-    "note": ""
+    "note": "18f delay after 1st attack\nInterrupt with i17 from 1st block"
   },
   {
     "input": "f+4",
     "hit_level": "m",
-    "damage": "",
+    "damage": "20",
     "startup": "i18",
-    "block": "",
+    "block": "-13",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": "Absorbs an attack to power up and deals more damage on block"
+    "note": "-9 on attack absorbtion\n8 chip damage on attack absorbtion"
   },
   {
     "input": "f+1+2",
     "hit_level": "M",
     "damage": "23",
     "startup": "i20",
-    "block": "",
-    "hit": "",
+    "block": "-12",
+    "hit": "+8a (-1)",
     "counter": "",
-    "note": "Power up during NSS or Heat (recovers health on hit, consumes heat)"
+    "note": "4 chip damage on block\nPower up in NSS or Heat"
   },
   {
     "input": "f+3+4",
-    "hit_level": "m",
+    "hit_level": "m,​M,​M,​M",
     "damage": "20,​3,​3,​3",
     "startup": "i21~25",
-    "block": "",
-    "hit": "-8",
+    "block": "-13~-9",
+    "hit": "-8a (-15)",
     "counter": "",
-    "note": "Transition to FLE on hit\nAttacks after 1st only come out on hit\nCombo from 1st hit does 2,1,1 damage\nCancel to r? BT with B"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
+    "note": "Floor break 3rd hit\nTransition to FLE on hit only\nAttacks after 1st only come out on hit\nCombo from 1st hit does 2,1,1 damage\nCombo does 2 extra damage from FLE.n\nCancel to r55 BT with b\nAlternate notation: 1SS.f+3+4"
   },
   {
     "input": "df+1",
     "hit_level": "m",
     "damage": "14",
     "startup": "i13",
-    "block": "",
-    "hit": "-",
+    "block": "-4",
+    "hit": "+5",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+1,​2",
+    "input": "df+1,2",
     "hit_level": "m,​h",
     "damage": "14,​16",
     "startup": ",i25~26",
-    "block": "",
-    "hit": "-",
-    "counter": "",
-    "note": "Combo from 1st hit"
+    "block": "-4~-3",
+    "hit": "+14g~+15g",
+    "counter": "+39a",
+    "note": "Combo from 1st CH with 2f delay"
   },
   {
-    "input": "df+1,​2,​1",
-    "hit_level": "m,​h,​M?",
+    "input": "df+1,2,1",
+    "hit_level": "m,​h,​M",
     "damage": "14,​16,​19",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-12~-11",
     "hit": "+17a (+10)",
     "counter": "",
-    "note": ""
+    "note": "Combo from 2nd CH\nAlternate notation: 1SS.df+1,2,1 or df+1,2,1SS.1"
   },
   {
-    "input": "df+1,​2,​db+2",
+    "input": "df+1,2,db+2",
     "hit_level": "m,​h,​m",
     "damage": "14,​16,​7",
-    "startup": ",i10~14",
-    "block": "",
-    "hit": "+2",
+    "startup": ",i15",
+    "block": "-5",
+    "hit": "+6",
     "counter": "",
     "note": "Links to db+2 extensions"
   },
   {
-    "input": "df+1,​4",
+    "input": "df+1,4",
     "hit_level": "m,​m",
     "damage": "14,​17",
     "startup": ",i17",
-    "block": "",
+    "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Jail from 1st attack with 2f delay"
   },
   {
     "input": "df+2",
     "hit_level": "m",
     "damage": "13",
     "startup": "i15~16",
-    "block": "",
+    "block": "-7~-6",
     "hit": "+34a (+24)",
     "counter": "",
-    "note": ""
+    "note": "On hit +4s~+5s against crouching opponent\nOn CH launches crouching opponent"
   },
   {
     "input": "df+3",
     "hit_level": "m",
     "damage": "10",
     "startup": "i17~18",
-    "block": "",
-    "hit": "",
+    "block": "-4~-3",
+    "hit": "+4~+5",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+3,​1",
-    "hit_level": "m,​M?",
+    "input": "df+3,1",
+    "hit_level": "m,​M",
     "damage": "10,​20",
     "startup": ",i23~24",
-    "block": "",
-    "hit": "+4c",
+    "block": "-9~-8",
+    "hit": "+4c~+5c",
+    "counter": "+6a",
+    "note": "Combo from 1st hit\n4 chip damage on block\nPower up in NSS or Heat\nInput can be held to transition to d+1*"
+  },
+  {
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i12",
+    "block": "-7",
+    "hit": "+4",
     "counter": "",
-    "note": "Combo from 1st hit\nPower up during NSS or Heat (recovers health on hit, consumes Heat)\nInput can be held to transition to d+1*"
+    "note": ""
   },
   {
     "input": "df+1+4",
-    "hit_level": "M?",
+    "hit_level": "M",
     "damage": "20",
     "startup": "i20~21",
-    "block": "",
+    "block": "-17~-16",
     "hit": "+35a (+25)",
     "counter": "",
-    "note": "Transition to r? KIN with 1+2\nAlternate input f,n,d,df+1 to power up"
+    "note": "Can be buffered\nTransition to r37? KIN with 1+2\nCan be performed in FC\nPower up input: f,n,d,df+1\nAlternate notation: 1SS.df+1+4"
   },
   {
     "input": "df+2+3",
     "hit_level": "m",
-    "damage": "20",
+    "damage": "18",
     "startup": "i17~18",
-    "block": "",
+    "block": "-13~-12",
     "hit": "+6",
-    "counter": "",
-    "note": "Alternate input f,n,d,df+2 to power up"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
+    "counter": "+58a (+38)",
+    "note": "Can be performed in FC\nPower up input: f,n,d,df+2\nAlternate notation: 1SS.df+2+3"
   },
   {
     "input": "d+1",
     "hit_level": "M",
     "damage": "15",
     "startup": "i24~25",
-    "block": "",
-    "hit": "+1c",
-    "counter": "",
-    "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "block": "-9~-8",
+    "hit": "+1c~+2c",
+    "counter": "+6a",
+    "note": "4 chip damage on block\nPower up in NSS or Heat "
   },
   {
-    "input": "d+1*,​n",
+    "input": "d+1*(1),n",
+    "hit_level": "M!",
+    "damage": "20",
+    "startup": "i55~56",
+    "block": "",
+    "hit": "+4c~+5c",
+    "counter": "+6a",
+    "note": "Constantly realigns while charging\nCan be canceled with b*"
+  },
+  {
+    "input": "d+1*(2),n",
+    "hit_level": "M!",
+    "damage": "25",
+    "startup": "i99~100",
+    "block": "",
+    "hit": "+4c~+5c",
+    "counter": "+6a",
+    "note": "Constantly realigns while charging\nCan be canceled with b*"
+  },
+  {
+    "input": "d+1*(3),n",
+    "hit_level": "M!",
+    "damage": "30",
+    "startup": "i130~131",
+    "block": "",
+    "hit": "+4c~+5c",
+    "counter": "+6a",
+    "note": "Constantly realigns while charging\nCan be canceled with b*"
+  },
+  {
+    "input": "d+1*(4),n",
+    "hit_level": "M!",
+    "damage": "40",
+    "startup": "i179~180",
+    "block": "",
+    "hit": "+16a",
+    "counter": "+52a",
+    "note": "Constantly realigns while charging\nCan be canceled with b*"
+  },
+  {
+    "input": "d+1*(5),n",
+    "hit_level": "M!",
+    "damage": "60",
+    "startup": "i214~215",
+    "block": "",
+    "hit": "+16a",
+    "counter": "+52a",
+    "note": "Constantly realigns while charging\nCan be canceled with b*"
+  },
+  {
+    "input": "d+1*(6),n",
     "hit_level": "M!",
     "damage": "180",
     "startup": "i249~250",
     "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Cancel to r? with b,b"
+    "hit": "+16a",
+    "counter": "+52a",
+    "note": "Constantly realigns while charging\nCan be canceled with b*"
   },
   {
     "input": "d+2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "12",
     "startup": "i16~17",
-    "block": "",
-    "hit": "+0",
+    "block": "-9~-8",
+    "hit": "+0~+1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "d+2,​1",
-    "hit_level": "m,​h",
+    "input": "d+2,1",
+    "hit_level": "M,​h",
     "damage": "12,​23",
     "startup": ",i27~28",
-    "block": "",
+    "block": "-9~-8",
     "hit": "+17a (+8)",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit with 8f delay\nInput can be delayed 16f\nMove can be delayed 10f\nAlternate notation: 1SS.d+2,1 or d+2,1SS.1"
   },
   {
-    "input": "d+2,​2",
-    "hit_level": "m,​m",
+    "input": "d+2,2",
+    "hit_level": "M,​m",
     "damage": "12,​17",
     "startup": ",i22~23",
-    "block": "",
-    "hit": "+5",
-    "counter": "",
-    "note": "Combo from 1st hit\nIn 1SS transition to r? NSS with B"
+    "block": "-12~-11",
+    "hit": "+7g~+8g",
+    "counter": "+28a (+22)",
+    "note": "Combo from 1st hit with 13f delay\nInput can be delayed 16f\nMove can be delayed 10f\nIn 1SS transition to r31 NSS with B"
   },
   {
-    "input": "d+2,​2,​1",
-    "hit_level": "m,​m,​h",
+    "input": "d+2,2,1",
+    "hit_level": "M,​m,​h",
     "damage": "12,​17,​20",
     "startup": ",i19~20",
-    "block": "",
+    "block": "-9~-8",
     "hit": "+8a (-1)",
     "counter": "",
-    "note": "Combo from 2nd CH?"
+    "note": "Input can be delayed 10f\nMove can be delayed 9f\nAlternate notation: 1SS.d+2,2,1 or d+2,2,1SS.1"
   },
   {
-    "input": "d+2,​2,​2",
-    "hit_level": "m,​m,​M?",
-    "damage": "12,​17,​20",
-    "startup": ",i19~20",
-    "block": "",
+    "input": "d+2,2,2",
+    "hit_level": "M,​m,​M",
+    "damage": "12,​17,​19",
+    "startup": ",i25~27",
+    "block": "-13~-11",
     "hit": "+16a (+9)",
     "counter": "",
-    "note": "Combo from 2nd CH?"
+    "note": "Input can be delayed 10f\nMove can be delayed 9f"
   },
   {
-    "input": "d+2,​2,​d+1",
-    "hit_level": "m,​m,​m",
+    "input": "d+2,2,d+1",
+    "hit_level": "M,​m,​m",
     "damage": "12,​17,​17",
     "startup": ",i29~30",
-    "block": "",
-    "hit": "+2c",
+    "block": "-12~-11",
+    "hit": "+2c~+3c",
+    "counter": "+42a",
+    "note": "Input can be delayed 10f\nMove can be delayed 9f"
+  },
+  {
+    "input": "d+3",
+    "hit_level": "L",
+    "damage": "12",
+    "startup": "i15~17",
+    "block": "-18~-16",
+    "hit": "-4~-2",
     "counter": "",
-    "note": "Combo from 2nd CH?"
+    "note": ""
+  },
+  {
+    "input": "d+4",
+    "hit_level": "l",
+    "damage": "6",
+    "startup": "i12",
+    "block": "-15",
+    "hit": "-4",
+    "counter": "",
+    "note": ""
   },
   {
     "input": "d+1+4",
     "hit_level": "m!",
-    "damage": "60?",
+    "damage": "60",
     "startup": "i29~30",
     "block": "",
-    "hit": "",
+    "hit": "-32a",
     "counter": "",
-    "note": "60? self-damage"
+    "note": "60 self damage during 1st recovery frame\nCan connect from the front if the opponent attacks into it\nAlternate notation: 1SS.d+1+4"
   },
   {
-    "input": "d+1+4,​B+1,​1,​1,​1,​1",
-    "hit_level": "m!,​m!,​m!,​m!,​m!,​m!",
-    "damage": "60?,​18,​20,​21,​28,​30",
-    "startup": ",i1~39 i1~18 i1~18 i1~18 i1~35",
+    "input": "d+1+4,B+1",
+    "hit_level": "m!,​m!",
+    "damage": "60,​18",
+    "startup": ",i1~39",
     "block": "",
-    "hit": "",
+    "hit": "-29a",
     "counter": "",
-    "note": "6,6,10,12,17 self-damage"
+    "note": "6 self damage"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
+    "input": "d+1+4,B+1,1",
+    "hit_level": "m!,​m!,​m!",
+    "damage": "60,​18,​20",
+    "startup": ",i1~18",
+    "block": "",
+    "hit": "-29a",
+    "counter": "",
+    "note": "6 self damage"
+  },
+  {
+    "input": "d+1+4,B+1,1,1",
+    "hit_level": "m!,​m!,​m!,​m!",
+    "damage": "60,​18,​20,​21",
+    "startup": ",i1~18",
+    "block": "",
+    "hit": "-29a",
+    "counter": "",
+    "note": "10 self damage"
+  },
+  {
+    "input": "d+1+4,B+1,1,1,1",
+    "hit_level": "m!,​m!,​m!,​m!,​m!",
+    "damage": "60,​18,​20,​21,​28",
+    "startup": ",i1~18",
+    "block": "",
+    "hit": "-29a",
+    "counter": "",
+    "note": "12 self damage"
+  },
+  {
+    "input": "d+1+4,B+1,1,1,1,1",
+    "hit_level": "m!,​m!,​m!,​m!,​m!,​m!",
+    "damage": "60,​18,​20,​21,​28,​30",
+    "startup": ",i1~35",
+    "block": "",
+    "hit": "-30a",
+    "counter": "",
+    "note": "17 self-damage\nThe entire string deals 111 self damage"
   },
   {
     "input": "db+1",
     "hit_level": "L",
     "damage": "12",
     "startup": "i26~28",
-    "block": "",
-    "hit": "+4",
-    "counter": "",
+    "block": "-11~-9",
+    "hit": "+4~+6",
+    "counter": "7~+9",
     "note": ""
   },
   {
-    "input": "db+1,​2",
+    "input": "db+1,2",
     "hit_level": "Lm",
     "damage": "1220",
     "startup": "i25~26",
-    "block": "",
-    "hit": "+0",
-    "counter": "",
-    "note": "Combo from 1st hit"
+    "block": "-13~12",
+    "hit": "+0~+1",
+    "counter": "+6g~+7g",
+    "note": "Balcony break on CH\nCombo from 1st with 1f delay\nCombo from 1st CH with 8f delay\nInput can be delayed 8f"
   },
   {
     "input": "DB+2",
     "hit_level": "m",
     "damage": "8",
     "startup": "i15",
-    "block": "",
-    "hit": "",
+    "block": "-5",
+    "hit": "+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "DB+2,​2",
+    "input": "DB+2,2",
     "hit_level": "m,​m",
-    "damage": "8,​6",
+    "damage": "8,​7",
     "startup": ",i10~14",
-    "block": "",
-    "hit": "",
+    "block": "-9~-5",
+    "hit": "+2~+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "DB+2,​2,​2",
+    "input": "DB+2,2,2",
     "hit_level": "m,​m,​m",
-    "damage": "8,​6,​5",
+    "damage": "8,​7,​6",
     "startup": ",i10~14",
-    "block": "",
-    "hit": "",
+    "block": "-9~-5",
+    "hit": "+2~+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "DB+2,​2,​2,​2",
+    "input": "DB+2,2,2,2",
     "hit_level": "m,​m,​m,​m",
-    "damage": "8,​6,​5,​4",
+    "damage": "8,​7,​6,​5",
     "startup": ",i10~14",
-    "block": "",
-    "hit": "",
+    "block": "-9~-5",
+    "hit": "+2~+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "DB+2,​2,​2,​2,​2",
+    "input": "DB+2,2,2,2,2",
     "hit_level": "m,​m,​m,​m,​m",
-    "damage": "8,​6,​5,​4,​3",
+    "damage": "8,​7,​6,​5,​4",
     "startup": ",i10~14",
-    "block": "",
+    "block": "-9~-5",
+    "hit": "+2~+6",
+    "counter": "",
+    "note": "Combo from 4th hit\nCombo from 3rd CH"
+  },
+  {
+    "input": "DB+2,2,2,2,2,2",
+    "hit_level": "m,​m,​m,​m,​m,​m",
+    "damage": "8,​7,​6,​5,​4,​3",
+    "startup": ",i10~14",
+    "block": "-49",
     "hit": "-37",
     "counter": "",
     "note": ""
@@ -694,119 +724,109 @@
     "hit_level": "l",
     "damage": "8",
     "startup": "i18~19",
-    "block": "",
-    "hit": "",
+    "block": "-25~-24",
+    "hit": "-14~-13",
     "counter": "",
     "note": ""
   },
   {
-    "input": "DB+3,​3",
+    "input": "DB+3,3",
     "hit_level": "l,​l",
     "damage": "8,​7",
     "startup": ",i15~17",
-    "block": "",
-    "hit": "",
+    "block": "-19~-17",
+    "hit": "-7~-5",
     "counter": "",
-    "note": "Combo from 1st hit\nCan transition to r? IND with d+3+4"
+    "note": "Combo from 1st hit\nTransition to r20 IND with d+3+4"
   },
   {
-    "input": "DB+3,​3,​3",
+    "input": "DB+3,3,3",
     "hit_level": "l,​l,​l",
     "damage": "8,​7,​7",
     "startup": ",i15~17",
-    "block": "",
-    "hit": "",
+    "block": "-19~-17",
+    "hit": "-7~-5",
     "counter": "",
-    "note": "Can transition to r? IND with d+3+4"
+    "note": "Combo from 2nd CH\nTransition to r20 IND with d+3+4"
   },
   {
-    "input": "DB+3,​3,​3,​3",
+    "input": "DB+3,3,3,3",
     "hit_level": "l,​l,​l,​l",
     "damage": "8,​7,​7,​5",
     "startup": ",i15~17",
-    "block": "",
-    "hit": "",
+    "block": "-19~-17",
+    "hit": "-7~-5",
     "counter": "",
-    "note": "Can transition to r? IND with d+3+4"
+    "note": "Combo from 3rd CH\nTransition to r20 IND with d+3+4"
   },
   {
-    "input": "DB+3,​3,​3,​3,​3",
+    "input": "DB+3,3,3,3,3",
     "hit_level": "l,​l,​l,​l,​l",
     "damage": "8,​7,​7,​5,​5",
     "startup": ",i15~17",
-    "block": "",
-    "hit": "",
+    "block": "-19~-17",
+    "hit": "-7~-5",
     "counter": "",
-    "note": "Can transition to r? IND with d+3+4"
+    "note": "Combo from 4th CH\nTransition to r20 IND with d+3+4"
   },
   {
-    "input": "DB+3,​3,​3,​3,​3,​3",
+    "input": "DB+3,3,3,3,3,3",
     "hit_level": "l,​l,​l,​l,​l,​l",
     "damage": "8,​7,​7,​5,​5,​5",
     "startup": ",i9~11",
-    "block": "",
-    "hit": "",
+    "block": "-26~-24",
+    "hit": "-15~-13",
     "counter": "",
-    "note": ""
+    "note": "Combo from 5th CH"
   },
   {
-    "input": "DB+3,​3,​3,​3,​3,​3,​4",
+    "input": "DB+3,3,3,3,3,3,4",
     "hit_level": "l,​l,​l,​l,​l,​l,​m",
     "damage": "8,​7,​7,​5,​5,​5,​15",
     "startup": ",i12~13",
-    "block": "",
-    "hit": "",
+    "block": "-8~-7",
+    "hit": "+23a (+13)",
     "counter": "",
-    "note": "Can transition to r? KIN with 1+2\nCan transition to r? NSS with B\nSame animation as ws4"
+    "note": "Transition to r21 KIN with 1+2 (-6~-5 on block)\nTransition to r24 NSS with B\nSame animation as ws4\nAlternate inputs:\nDB+3,3,4\nDB+3,3,3,4\nDB+3,3,3,3,4\nDB+3,3,3,3,3,4"
   },
   {
     "input": "db+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "14",
     "startup": "i17",
-    "block": "",
+    "block": "-12",
     "hit": "-1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "db+1+2",
+    "input": "DB+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "Continues as long as DB is held\nTransition to r25 releasing db"
   },
   {
-    "input": "BDS.1",
+    "input": "BDS 1",
     "hit_level": "h!",
     "damage": "25",
     "startup": "i21~40",
     "block": "",
-    "hit": "+27a",
+    "hit": "+32a",
     "counter": "",
     "note": ""
   },
   {
-    "input": "BDS.1",
+    "input": "BDS 1",
     "hit_level": "m",
-    "damage": "",
+    "damage": "23",
     "startup": "i17~30",
-    "block": "",
-    "hit": "",
+    "block": "-15~-2",
+    "hit": "-13~+0",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -820,7 +840,7 @@
     "note": ""
   },
   {
-    "input": "B+1,​1",
+    "input": "B+1,1",
     "hit_level": "h,​h",
     "damage": "8,​9",
     "startup": ",i11~12",
@@ -830,7 +850,7 @@
     "note": ""
   },
   {
-    "input": "B+1,​1,​1",
+    "input": "B+1,1,1",
     "hit_level": "h,​h,​h",
     "damage": "8,​9,​10",
     "startup": ",i11~12",
@@ -840,7 +860,7 @@
     "note": ""
   },
   {
-    "input": "B+1,​1,​1,​1",
+    "input": "B+1,1,1,1",
     "hit_level": "h,​h,​h,​h",
     "damage": "8,​9,​10,​12",
     "startup": ",i11~12",
@@ -850,7 +870,7 @@
     "note": ""
   },
   {
-    "input": "B+1,​1,​1,​1",
+    "input": "B+1,1,1,1",
     "hit_level": "h,​h,​h,​h",
     "damage": "8,​9,​10,​14",
     "startup": ",i11~12",
@@ -860,7 +880,7 @@
     "note": ""
   },
   {
-    "input": "B+1,​1,​1,​1,​1",
+    "input": "B+1,1,1,1,1",
     "hit_level": "h,​h,​h,​h,​h",
     "damage": "8,​9,​10,​12,​16",
     "startup": ",i11~12",
@@ -880,7 +900,7 @@
     "note": ""
   },
   {
-    "input": "b+2,​1",
+    "input": "b+2,1",
     "hit_level": "m,​M?",
     "damage": "12,​20",
     "startup": ",i27~28",
@@ -890,7 +910,7 @@
     "note": "Combo from 1st CH?\nCan transition to r? KIN with 1+2"
   },
   {
-    "input": "b+2,​2",
+    "input": "b+2,2",
     "hit_level": "m,​h",
     "damage": "12,​21",
     "startup": ",i22~23",
@@ -900,7 +920,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "in heat b+2,​2,​F",
+    "input": "in heat b+2,2,F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -910,7 +930,7 @@
     "note": ""
   },
   {
-    "input": "b+3,​3,​3,​3,​3,​3",
+    "input": "b+3,3,3,3,3,3",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -918,16 +938,6 @@
     "hit": "",
     "counter": "",
     "note": "5 self-damage with each spin\nAlternate input: b+4,4,4,4,4,4"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
   },
   {
     "input": "ub+1+2",
@@ -950,7 +960,7 @@
     "note": ""
   },
   {
-    "input": "ub+1+3,​1+2",
+    "input": "ub+1+3,1+2",
     "hit_level": "m!h!",
     "damage": "40,​18",
     "startup": ",i18~19",
@@ -960,7 +970,7 @@
     "note": ""
   },
   {
-    "input": "ub+1+3,​n+1",
+    "input": "ub+1+3,n+1",
     "hit_level": "m!,​m!",
     "damage": "40,​22",
     "startup": ",i28~113",
@@ -970,16 +980,6 @@
     "note": "Cancel to r? with B"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "u+3+4",
     "hit_level": "M,​M",
     "damage": "10,​12",
@@ -987,16 +987,6 @@
     "block": "",
     "hit": "+24a",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -1050,7 +1040,7 @@
     "note": "On hit, jumps backward\nIn 1SS can transitions to r? DGF with 1+2\nIn 1SS can transitions to r? FLE with d+1+2\nCan transitions to r? IND with d+3+4"
   },
   {
-    "input": "uf+3+4,​1",
+    "input": "uf+3+4,1",
     "hit_level": "M,​h",
     "damage": "20,​8",
     "startup": ",i16~18",
@@ -1060,7 +1050,7 @@
     "note": ""
   },
   {
-    "input": "uf+3+4,​1,​4",
+    "input": "uf+3+4,1,4",
     "hit_level": "M,​h,​m",
     "damage": "20,​8,​15",
     "startup": ",i28~39",
@@ -1070,7 +1060,7 @@
     "note": ""
   },
   {
-    "input": "uf+3+4,​1,​4,​1",
+    "input": "uf+3+4,1,4,1",
     "hit_level": "M,​h,​m,​M?",
     "damage": "20,​8,​15",
     "startup": ",i24~25",
@@ -1080,7 +1070,7 @@
     "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
-    "input": "uf+3+4,​1,​3+4",
+    "input": "uf+3+4,1,3+4",
     "hit_level": "M,​h,​M",
     "damage": "20,​8,​21",
     "startup": ",i31~35",
@@ -1090,7 +1080,7 @@
     "note": ""
   },
   {
-    "input": "uf+3+4,​3",
+    "input": "uf+3+4,3",
     "hit_level": "M,​M,​M",
     "damage": "20,​10,​10",
     "startup": ",i39~42",
@@ -1100,7 +1090,7 @@
     "note": ""
   },
   {
-    "input": "uf+3+4,​3+4",
+    "input": "uf+3+4,3+4",
     "hit_level": "M,​M,​M",
     "damage": "20,​25",
     "startup": ",i25~26",
@@ -1120,7 +1110,7 @@
     "note": ""
   },
   {
-    "input": "uf+1+3,​d",
+    "input": "uf+1+3,d",
     "hit_level": "M!,​M?",
     "damage": "40,​25",
     "startup": ",i55~56",
@@ -1130,7 +1120,7 @@
     "note": ""
   },
   {
-    "input": "uf+1+3,​b",
+    "input": "uf+1+3,b",
     "hit_level": "M!,​M!",
     "damage": "40,​35",
     "startup": ",i55~56",
@@ -1140,17 +1130,7 @@
     "note": ""
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "f,​F+2",
+    "input": "f,F+2",
     "hit_level": "m",
     "damage": "15",
     "startup": "i15",
@@ -1160,7 +1140,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+2:2",
+    "input": "f,F+2:2",
     "hit_level": "m,​t",
     "damage": "15,​20",
     "startup": "i15",
@@ -1170,7 +1150,7 @@
     "note": "Transition to attack throw on standing or airborne front hit only\nCan transition to r? IND with d+3+4"
   },
   {
-    "input": "f,​F+3",
+    "input": "f,F+3",
     "hit_level": "m",
     "damage": "20",
     "startup": "i23~24",
@@ -1180,7 +1160,7 @@
     "note": "Can transition to r? KIN with 1+2"
   },
   {
-    "input": "f,​F+4",
+    "input": "f,F+4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i15~16",
@@ -1190,7 +1170,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+1+2",
+    "input": "f,F+1+2",
     "hit_level": "m",
     "damage": "22",
     "startup": "i22~24",
@@ -1200,7 +1180,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+3+4",
+    "input": "f,F+3+4",
     "hit_level": "m",
     "damage": "15",
     "startup": "i22~24",
@@ -1210,7 +1190,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+3+4,​1+2",
+    "input": "f,F+3+4,1+2",
     "hit_level": "m,​m",
     "damage": "15,​15",
     "startup": ",i12~18",
@@ -1220,7 +1200,7 @@
     "note": "Combo from 2nd CH?\nCan transition to r? IND with 3+4 on wall hit"
   },
   {
-    "input": "f,​F+3+4,​1+2,​3+4",
+    "input": "f,F+3+4,1+2,3+4",
     "hit_level": "m,​m,​m",
     "damage": "15,​15,​20",
     "startup": ",i27",
@@ -1230,7 +1210,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+1+4",
+    "input": "f,F+1+4",
     "hit_level": "m!",
     "damage": "60",
     "startup": "i45",
@@ -1240,7 +1220,7 @@
     "note": "60 self-damage\nNSS.f,F+1+4 will always cancel into Confusion"
   },
   {
-    "input": "f,​F+1+4,​N",
+    "input": "f,F+1+4,N",
     "hit_level": "m!",
     "damage": "60",
     "startup": "i45",
@@ -1250,7 +1230,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+1+4,​F",
+    "input": "f,F+1+4,F",
     "hit_level": "m!",
     "damage": "60185?",
     "startup": "i35~37",
@@ -1260,7 +1240,7 @@
     "note": "185? self-damage"
   },
   {
-    "input": "b,​B+1+4",
+    "input": "b,B+1+4",
     "hit_level": "m!",
     "damage": "50",
     "startup": "i59~61",
@@ -1270,7 +1250,7 @@
     "note": ""
   },
   {
-    "input": "b,​B+1+4,​B",
+    "input": "b,B+1+4,B",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1280,7 +1260,7 @@
     "note": ""
   },
   {
-    "input": "f,​n,​d,​df+1",
+    "input": "f,n,d,df+1",
     "hit_level": "m",
     "damage": "",
     "startup": "i17?",
@@ -1290,7 +1270,7 @@
     "note": ""
   },
   {
-    "input": "f,​n,​d,​df+2",
+    "input": "f,n,d,df+2",
     "hit_level": "m",
     "damage": "",
     "startup": "i14?",
@@ -1310,7 +1290,7 @@
     "note": "Deals chip damage on block"
   },
   {
-    "input": "f,​f,​F+3",
+    "input": "f,f,F+3",
     "hit_level": "M",
     "damage": "30",
     "startup": "i22~23",
@@ -1320,14 +1300,24 @@
     "note": "Deals chip damage on block\nIn 1SS can transition to r? DGF with U"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
+    "input": "FC df+4",
+    "hit_level": "L",
+    "damage": "18",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "+4c",
+    "counter": "",
     "note": ""
+  },
+  {
+    "input": "FC df+4",
+    "hit_level": "l!",
+    "damage": "12",
+    "startup": "i26",
+    "block": "",
+    "hit": "+70a (+54)",
+    "counter": "",
+    "note": "Alternate input: db,b+1"
   },
   {
     "input": "ws1",
@@ -1340,7 +1330,7 @@
     "note": ""
   },
   {
-    "input": "ws1,​1",
+    "input": "ws1,1",
     "hit_level": "m,​h",
     "damage": "12,​12",
     "startup": ",i18",
@@ -1350,7 +1340,7 @@
     "note": ""
   },
   {
-    "input": "ws1,​1,​1",
+    "input": "ws1,1,1",
     "hit_level": "m,​h,​h",
     "damage": "12,​12,​12",
     "startup": ",i18",
@@ -1360,7 +1350,7 @@
     "note": ""
   },
   {
-    "input": "ws1,​1,​1,​1",
+    "input": "ws1,1,1,1",
     "hit_level": "m,​h,​h,​m",
     "damage": "12,​12,​12,​21",
     "startup": ",i25~26",
@@ -1370,7 +1360,7 @@
     "note": ""
   },
   {
-    "input": "ws1,​2",
+    "input": "ws1,2",
     "hit_level": "m,​h",
     "damage": "12,​18",
     "startup": ",i25~26",
@@ -1380,7 +1370,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "ws1,​2,​1",
+    "input": "ws1,2,1",
     "hit_level": "m,​h,​M?",
     "damage": "12,​18,​21",
     "startup": ",i26~27",
@@ -1390,7 +1380,7 @@
     "note": "Combo from 2nd CH?"
   },
   {
-    "input": "ws1,​2,​db+2",
+    "input": "ws1,2,db+2",
     "hit_level": "m,​h,​m",
     "damage": "12,​18,​",
     "startup": ",i15",
@@ -1410,7 +1400,7 @@
     "note": ""
   },
   {
-    "input": "ws2,​1",
+    "input": "ws2,1",
     "hit_level": "m,​m",
     "damage": "13,​14",
     "startup": ",i27~28",
@@ -1430,7 +1420,7 @@
     "note": ""
   },
   {
-    "input": "ws3,​2",
+    "input": "ws3,2",
     "hit_level": "m,​M?",
     "damage": "12,​20",
     "startup": "i32",
@@ -1450,166 +1440,6 @@
     "note": "Can transition to r? KIN with 1+2\nCan transition to r? NSS with B"
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "FC.df+4",
-    "hit_level": "L",
-    "damage": "18",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "+4c",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "FC.df+4",
-    "hit_level": "l!",
-    "damage": "12",
-    "startup": "i26",
-    "block": "",
-    "hit": "+70a (+54)",
-    "counter": "",
-    "note": "Alternate input: db,b+1"
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "SS.1",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i17~18",
-    "block": "",
-    "hit": "+2",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "SS.2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "+30a (+20)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "FUFT.d+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "OTG.1SS.u+1",
-    "hit_level": "M",
-    "damage": "24",
-    "startup": "i27~29",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "BT.1",
-    "hit_level": "h",
-    "damage": "16",
-    "startup": "i15",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "BT.1,​2",
-    "hit_level": "h,​m",
-    "damage": "16,​18",
-    "startup": ",i25",
-    "block": "",
-    "hit": "+5",
-    "counter": "",
-    "note": "Combo from 1st CH?"
-  },
-  {
-    "input": "BT.1,​3",
-    "hit_level": "h,​h",
-    "damage": "16,​25",
-    "startup": ",i25~26",
-    "block": "",
-    "hit": "+5",
-    "counter": "",
-    "note": "Combo from 1st CH?"
-  },
-  {
-    "input": "BT.3",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i24~26",
-    "block": "",
-    "hit": "+11a",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "BT.d+1",
-    "hit_level": "L",
-    "damage": "20",
-    "startup": "i17~18",
-    "block": "",
-    "hit": "+3",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "BT.b+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "1+2",
     "hit_level": "",
     "damage": "",
@@ -1620,7 +1450,7 @@
     "note": "Can recover in r? FC with D\nParries mid or high punches or kicks"
   },
   {
-    "input": "1+2,​P",
+    "input": "1+2,P",
     "hit_level": "M,​M",
     "damage": "10,​12",
     "startup": "i15~18 i3~6",
@@ -1630,7 +1460,7 @@
     "note": ""
   },
   {
-    "input": "KIN.F",
+    "input": "KIN F",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1640,7 +1470,7 @@
     "note": ""
   },
   {
-    "input": "KIN.1",
+    "input": "KIN 1",
     "hit_level": "m",
     "damage": "10",
     "startup": "i17",
@@ -1650,7 +1480,7 @@
     "note": ""
   },
   {
-    "input": "KIN.1,​1",
+    "input": "KIN 1,1",
     "hit_level": "m,​m",
     "damage": "10,​5,​15",
     "startup": ",i23~24 i14~15",
@@ -1660,7 +1490,7 @@
     "note": "Power up during NSS or Heat (deals chip damage on block, recovers health on hit, consumes Heat)"
   },
   {
-    "input": "KIN.2",
+    "input": "KIN 2",
     "hit_level": "M?",
     "damage": "15",
     "startup": "i21~22",
@@ -1670,7 +1500,7 @@
     "note": ""
   },
   {
-    "input": "KIN.2,​1+2",
+    "input": "KIN 2,1+2",
     "hit_level": "M?,​M?",
     "damage": "15",
     "startup": "i32~34",
@@ -1680,7 +1510,7 @@
     "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
-    "input": "KIN.2,​1+2*",
+    "input": "KIN 2,1+2*",
     "hit_level": "M?,​M?",
     "damage": "15",
     "startup": "i32~34",
@@ -1690,7 +1520,7 @@
     "note": ""
   },
   {
-    "input": "KIN.3",
+    "input": "KIN 3",
     "hit_level": "L",
     "damage": "17",
     "startup": "i25~32",
@@ -1700,7 +1530,7 @@
     "note": ""
   },
   {
-    "input": "KIN.4",
+    "input": "KIN 4",
     "hit_level": "h",
     "damage": "23",
     "startup": "i16~17",
@@ -1710,7 +1540,7 @@
     "note": "Can transition to r? KIN with 1+2\nCan transition to r? MED with 3+4\nAlternate input: SS.4"
   },
   {
-    "input": "KIN.1+2",
+    "input": "KIN 1+2",
     "hit_level": "m,​m,​m,​m",
     "damage": "4,​4,​4,​24",
     "startup": "i12~13 i6~7 i7~8 i11~13",
@@ -1720,7 +1550,7 @@
     "note": "Combos from any hit"
   },
   {
-    "input": "KIN.1+4",
+    "input": "KIN 1+4",
     "hit_level": "m",
     "damage": "21",
     "startup": "i10~13",
@@ -1730,7 +1560,7 @@
     "note": "Power up during NSS or Heat (deals chip damage on block, recovers health on hit, consumes Heat)"
   },
   {
-    "input": "KIN.d+1",
+    "input": "KIN d+1",
     "hit_level": "L",
     "damage": "20",
     "startup": "i23~24",
@@ -1740,7 +1570,7 @@
     "note": ""
   },
   {
-    "input": "KIN.f+1",
+    "input": "KIN f+1",
     "hit_level": "m,​m,​m",
     "damage": "6,​6,​10",
     "startup": "i19~20 i6~7 i7~8",
@@ -1750,7 +1580,7 @@
     "note": "Input can be held\nDeals chip damage on block\nPowers up during NSS or Heat (recovers health on hit, consumes Heta)"
   },
   {
-    "input": "KIN.f+2",
+    "input": "KIN f+2",
     "hit_level": "h",
     "damage": "25",
     "startup": "i12~13",
@@ -1760,7 +1590,7 @@
     "note": ""
   },
   {
-    "input": "in heat KIN.f+2,​F",
+    "input": "in heat KIN f+2,F",
     "hit_level": "h",
     "damage": "25",
     "startup": "i12~13",
@@ -1770,7 +1600,7 @@
     "note": ""
   },
   {
-    "input": "in heat KIN.f+2,​F",
+    "input": "in heat KIN f+2,F",
     "hit_level": "h",
     "damage": "25",
     "startup": "i12~13",
@@ -1780,7 +1610,7 @@
     "note": ""
   },
   {
-    "input": "KIN.b+2",
+    "input": "KIN b+2",
     "hit_level": "m",
     "damage": "15",
     "startup": "i15~16",
@@ -1790,7 +1620,7 @@
     "note": ""
   },
   {
-    "input": "KIN.b+2,​1",
+    "input": "KIN b+2,1",
     "hit_level": "m,​M?",
     "damage": "15,​19",
     "startup": ",i23~24",
@@ -1800,7 +1630,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "KIN.b+1+2",
+    "input": "KIN b+1+2",
     "hit_level": "m!",
     "damage": "25",
     "startup": "i46",
@@ -1810,23 +1640,13 @@
     "note": ""
   },
   {
-    "input": "KIN.u+1+2",
+    "input": "KIN u+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -1840,7 +1660,7 @@
     "note": ""
   },
   {
-    "input": "MED.3",
+    "input": "MED 3",
     "hit_level": "m",
     "damage": "15",
     "startup": "i28~39",
@@ -1850,23 +1670,13 @@
     "note": ""
   },
   {
-    "input": "MED.1+2",
+    "input": "MED 1+2",
     "hit_level": "m! ?",
     "damage": "15",
     "startup": "i30~34",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -1880,7 +1690,7 @@
     "note": ""
   },
   {
-    "input": "FLE.n",
+    "input": "FLE n",
     "hit_level": "m",
     "damage": "",
     "startup": "i2~60",
@@ -1890,7 +1700,7 @@
     "note": ""
   },
   {
-    "input": "FLE.db",
+    "input": "FLE db",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1900,7 +1710,7 @@
     "note": ""
   },
   {
-    "input": "FLE.1",
+    "input": "FLE 1",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1910,7 +1720,7 @@
     "note": ""
   },
   {
-    "input": "FLE.2",
+    "input": "FLE 2",
     "hit_level": "L",
     "damage": "20",
     "startup": "i24~28",
@@ -1920,7 +1730,7 @@
     "note": ""
   },
   {
-    "input": "FLE.3",
+    "input": "FLE 3",
     "hit_level": "L",
     "damage": "",
     "startup": "i24~28",
@@ -1930,7 +1740,7 @@
     "note": ""
   },
   {
-    "input": "FLE.1+2",
+    "input": "FLE 1+2",
     "hit_level": "h",
     "damage": "20",
     "startup": "i18~19",
@@ -1940,7 +1750,7 @@
     "note": ""
   },
   {
-    "input": "FLE.3+4",
+    "input": "FLE 3+4",
     "hit_level": "m",
     "damage": "25",
     "startup": "i25~26",
@@ -1950,7 +1760,7 @@
     "note": ""
   },
   {
-    "input": "FLE.f,​​f",
+    "input": "FLE f,f",
     "hit_level": "M,​​M,​​M,​​M",
     "damage": "3,​​3,​​3,​​3",
     "startup": "i17~19,i6~8 i5~7 i6~8",
@@ -1960,7 +1770,7 @@
     "note": ""
   },
   {
-    "input": "FLE.d",
+    "input": "FLE d",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1970,7 +1780,7 @@
     "note": ""
   },
   {
-    "input": "FLE.d+3+4",
+    "input": "FLE d+3+4",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1980,7 +1790,7 @@
     "note": ""
   },
   {
-    "input": "FLE.u+1+2",
+    "input": "FLE u+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1990,7 +1800,7 @@
     "note": ""
   },
   {
-    "input": "FLE.u+1+2",
+    "input": "FLE u+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2000,7 +1810,7 @@
     "note": "Tech roll to r? FC on frames ?-?"
   },
   {
-    "input": "FLE.uf",
+    "input": "FLE uf",
     "hit_level": "m!",
     "damage": "21",
     "startup": "i30~45",
@@ -2010,7 +1820,7 @@
     "note": ""
   },
   {
-    "input": "FLE.f",
+    "input": "FLE f",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2020,7 +1830,7 @@
     "note": ""
   },
   {
-    "input": "FLE.b",
+    "input": "FLE b",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2030,7 +1840,7 @@
     "note": ""
   },
   {
-    "input": "WFL.3",
+    "input": "WFL 3",
     "hit_level": "m",
     "damage": "20,​37",
     "startup": "i17",
@@ -2040,23 +1850,13 @@
     "note": ""
   },
   {
-    "input": "WFL.4",
+    "input": "WFL 4",
     "hit_level": "L",
     "damage": "15",
     "startup": "i23~24",
     "block": "",
     "hit": "+12c",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -2070,7 +1870,7 @@
     "note": ""
   },
   {
-    "input": "d+3+4,​n",
+    "input": "d+3+4,n",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2080,7 +1880,7 @@
     "note": ""
   },
   {
-    "input": "IND.1",
+    "input": "IND 1",
     "hit_level": "",
     "damage": "15",
     "startup": "i53~55",
@@ -2090,7 +1890,7 @@
     "note": ""
   },
   {
-    "input": "IND.2",
+    "input": "IND 2",
     "hit_level": "m",
     "damage": "7",
     "startup": "i39~43",
@@ -2100,7 +1900,7 @@
     "note": ""
   },
   {
-    "input": "IND.3",
+    "input": "IND 3",
     "hit_level": "m",
     "damage": "15",
     "startup": "i12~18",
@@ -2110,7 +1910,7 @@
     "note": "Can transition to r? IND on wall hit\n"
   },
   {
-    "input": "IND.3,​3+4",
+    "input": "IND 3,3+4",
     "hit_level": "m,​m",
     "damage": "15,​20",
     "startup": ",i27",
@@ -2120,7 +1920,7 @@
     "note": ""
   },
   {
-    "input": "IND.4",
+    "input": "IND 4",
     "hit_level": "L",
     "damage": "18",
     "startup": "i47~48",
@@ -2130,7 +1930,7 @@
     "note": ""
   },
   {
-    "input": "IND.1+2",
+    "input": "IND 1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2140,7 +1940,7 @@
     "note": ""
   },
   {
-    "input": "IND.3+4",
+    "input": "IND 3+4",
     "hit_level": "m,​m",
     "damage": "6,​22",
     "startup": "i17~18 i10~11",
@@ -2150,7 +1950,7 @@
     "note": ""
   },
   {
-    "input": "IND.f",
+    "input": "IND f",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2160,7 +1960,7 @@
     "note": ""
   },
   {
-    "input": "IND.b",
+    "input": "IND b",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2170,7 +1970,7 @@
     "note": ""
   },
   {
-    "input": "IND.3+4*",
+    "input": "IND 3+4*",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2180,23 +1980,13 @@
     "note": "Allows 8-way directional movement in IND\nContinues as long as 3+4 is held"
   },
   {
-    "input": "IND.u+1+2",
+    "input": "IND u+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
-  },
-  {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
     "note": ""
   },
   {
@@ -2210,7 +2000,7 @@
     "note": ""
   },
   {
-    "input": "2,​NSS.1",
+    "input": "2,NSS 1",
     "hit_level": "h,​h",
     "damage": "10,​15",
     "startup": ",i18",
@@ -2220,17 +2010,17 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "3,​2,​NSS.1+2",
+    "input": "3,2,NSS 1+2",
     "hit_level": "m,​m,​M?",
     "damage": "12,​12,​39",
     "startup": ",i26~27",
     "block": "",
     "hit": "+20a (+10)",
     "counter": "",
-    "note": "Combo from 2nd hit\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit\nAlternate input: in heat 3,2,1+2"
+    "note": "Combo from 2nd hit\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit\nAlternate input: H.3,2,1+2"
   },
   {
-    "input": "NSS.1+4",
+    "input": "NSS 1+4",
     "hit_level": "m",
     "damage": "24",
     "startup": "i8~11",
@@ -2240,7 +2030,7 @@
     "note": "Increased damage on block\nRecovers health on hit"
   },
   {
-    "input": "NSS.d+1+4",
+    "input": "NSS d+1+4",
     "hit_level": "m",
     "damage": "",
     "startup": "i8~11",
@@ -2250,7 +2040,7 @@
     "note": ""
   },
   {
-    "input": "NSS.db+1",
+    "input": "NSS db+1",
     "hit_level": "sl",
     "damage": "5",
     "startup": "i11",
@@ -2260,7 +2050,7 @@
     "note": ""
   },
   {
-    "input": "NSS.b+1+2",
+    "input": "NSS b+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2270,17 +2060,17 @@
     "note": ""
   },
   {
-    "input": "NSS.ub+1+2",
+    "input": "NSS ub+1+2",
     "hit_level": "M?",
     "damage": "39",
     "startup": "i24~25",
     "block": "",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "Deals chip damage on block\nHas clean hit property\nRecovers health on hit, consumes Heat\nAlternate input: in heat ub+1+2)"
+    "note": "Deals chip damage on block\nHas clean hit property\nRecovers health on hit, consumes Heat\nAlternate input: H.ub+1+2)"
   },
   {
-    "input": "NSS.u+1+2",
+    "input": "NSS u+1+2",
     "hit_level": "L?",
     "damage": "18",
     "startup": "i27~29",
@@ -2290,7 +2080,7 @@
     "note": ""
   },
   {
-    "input": "NSS.uf+1+2",
+    "input": "NSS uf+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2300,7 +2090,7 @@
     "note": ""
   },
   {
-    "input": "ws2,​NSS.1",
+    "input": "ws2,NSS 1",
     "hit_level": "m,​h",
     "damage": "13,​16",
     "startup": ",i23",
@@ -2310,7 +2100,7 @@
     "note": ""
   },
   {
-    "input": "ws2,​NSS.1,​2",
+    "input": "ws2,NSS 1,2",
     "hit_level": "m,​h,​m",
     "damage": "13,​16,​18",
     "startup": ",i25",
@@ -2320,7 +2110,7 @@
     "note": ""
   },
   {
-    "input": "ws2,​NSS.1,​3",
+    "input": "ws2,NSS 1,3",
     "hit_level": "m,​h,​h",
     "damage": "13,​16,​25",
     "startup": ",i25~26",
@@ -2330,7 +2120,7 @@
     "note": "Combo from 2nd CH"
   },
   {
-    "input": "NSS.FC.df+1",
+    "input": "NSS FC df+1",
     "hit_level": "l",
     "damage": "12",
     "startup": "i25~26",
@@ -2340,7 +2130,7 @@
     "note": "Alternate input: NSS.db,b+1"
   },
   {
-    "input": "NSS.FC.df+1,​2",
+    "input": "NSS FC df+1,2",
     "hit_level": "l,​L",
     "damage": "12,​20",
     "startup": ",i25~26",
@@ -2350,7 +2140,7 @@
     "note": "Combo from 1st hit\nAlternate input: NSS.db,b+1,2"
   },
   {
-    "input": "NSS.FC.df+3",
+    "input": "NSS FC df+3",
     "hit_level": "L",
     "damage": "12",
     "startup": "i20~21",
@@ -2360,17 +2150,7 @@
     "note": ""
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
-    "input": "1SS.u+1+2",
+    "input": "1SS u+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2380,7 +2160,7 @@
     "note": ""
   },
   {
-    "input": "DGF.1",
+    "input": "DGF 1",
     "hit_level": "",
     "damage": "",
     "startup": "i30~31",
@@ -2390,7 +2170,7 @@
     "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
-    "input": "DGF.2",
+    "input": "DGF 2",
     "hit_level": "h",
     "damage": "15",
     "startup": "i16~18",
@@ -2400,7 +2180,7 @@
     "note": ""
   },
   {
-    "input": "DGF.2,​4",
+    "input": "DGF 2,4",
     "hit_level": ",​m",
     "damage": ",​21?",
     "startup": "i26~28",
@@ -2410,7 +2190,7 @@
     "note": "Combo from 1st hit\nTransition to r? NSS with B"
   },
   {
-    "input": "DGF.3",
+    "input": "DGF 3",
     "hit_level": "L?",
     "damage": "18",
     "startup": "i22~23",
@@ -2420,7 +2200,7 @@
     "note": ""
   },
   {
-    "input": "DGF.4",
+    "input": "DGF 4",
     "hit_level": "m",
     "damage": "24",
     "startup": "i18~20",
@@ -2430,7 +2210,7 @@
     "note": ""
   },
   {
-    "input": "in heat DGF.4,​F",
+    "input": "in heat DGF 4,F",
     "hit_level": "m",
     "damage": "24",
     "startup": "i18~20",
@@ -2440,7 +2220,7 @@
     "note": ""
   },
   {
-    "input": "DGF.1+2",
+    "input": "DGF 1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2450,7 +2230,7 @@
     "note": ""
   },
   {
-    "input": "DGF.3+4",
+    "input": "DGF 3+4",
     "hit_level": "h!,​t",
     "damage": "17,​18",
     "startup": "i20~21",
@@ -2460,7 +2240,7 @@
     "note": "Transitions to attack throw on front standing or airborne hit only"
   },
   {
-    "input": "DGF.f+2",
+    "input": "DGF f+2",
     "hit_level": "h",
     "damage": "23",
     "startup": "i20~21",
@@ -2470,7 +2250,7 @@
     "note": ""
   },
   {
-    "input": "DGF.f+1+2",
+    "input": "DGF f+1+2",
     "hit_level": "h",
     "damage": "10,​10,​20",
     "startup": "i16~17 i11~12 i11~12",
@@ -2480,7 +2260,7 @@
     "note": "Deals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
   },
   {
-    "input": "DGF.d+3+4",
+    "input": "DGF d+3+4",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2490,13 +2270,103 @@
     "note": ""
   },
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
+    "input": "BT 1",
+    "hit_level": "h",
+    "damage": "16",
+    "startup": "i15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT 1,2",
+    "hit_level": "h,​m",
+    "damage": "16,​18",
+    "startup": ",i25",
+    "block": "",
+    "hit": "+5",
+    "counter": "",
+    "note": "Combo from 1st CH?"
+  },
+  {
+    "input": "BT 1,3",
+    "hit_level": "h,​h",
+    "damage": "16,​25",
+    "startup": ",i25~26",
+    "block": "",
+    "hit": "+5",
+    "counter": "",
+    "note": "Combo from 1st CH?"
+  },
+  {
+    "input": "BT 3",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i24~26",
+    "block": "",
+    "hit": "+11a",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT d+1",
+    "hit_level": "L",
+    "damage": "20",
+    "startup": "i17~18",
+    "block": "",
+    "hit": "+3",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "BT b+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SS 1",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i17~18",
+    "block": "",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SS 2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "+30a (+20)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "FUFT d+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "OTG 1SS u+1",
+    "hit_level": "M",
+    "damage": "24",
+    "startup": "i27~29",
+    "block": "",
+    "hit": "",
+    "counter": "",
     "note": ""
   },
   {
@@ -2570,7 +2440,7 @@
     "note": "Throw break 1+2"
   },
   {
-    "input": "qcb,​f+2",
+    "input": "qcb,f+2",
     "hit_level": "t",
     "damage": "",
     "startup": "i15~16",

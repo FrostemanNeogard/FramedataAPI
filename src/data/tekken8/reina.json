@@ -1,15 +1,5 @@
 [
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "2+3",
     "hit_level": "m",
     "damage": "12",
@@ -27,27 +17,17 @@
     "block": "",
     "hit": "Th",
     "counter": "Th",
-    "note": "Alternate input: in heat R1"
+    "note": "Alternate input: H.R1"
   },
   {
-    "input": "in heat HRA.2+3",
+    "input": "in heat WRA 2+3",
     "hit_level": "l",
     "damage": "40",
     "startup": "i18~19",
     "block": "",
     "hit": "Th",
     "counter": "Th",
-    "note": "Alternate input: in heat HRA.R1"
-  },
-  {
-    "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
-    "startup": "i20",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Erases opponent's recoverable health on hit\nAlternate input: R2"
+    "note": "Alternate input: H.WRA.R1"
   },
   {
     "input": "1",
@@ -60,7 +40,7 @@
     "note": ""
   },
   {
-    "input": "1,​1",
+    "input": "1,1",
     "hit_level": "h,​h",
     "damage": "5,​6",
     "startup": "i10",
@@ -70,51 +50,51 @@
     "note": ""
   },
   {
-    "input": "1,​1,​2",
+    "input": "1,1,2",
     "hit_level": "h,​h,​m",
     "damage": "5,​6,​12",
-    "startup": "i10",
+    "startup": "i13",
     "block": "-17",
-    "hit": "",
+    "hit": "\n+11 SEN\n+2 (cancel)\n",
     "counter": "",
-    "note": "Transition to SEN with B\nCombo from 1st hit\nCan be delayed 11F"
+    "note": "Cancel transition with B\nCombo from 1st hit\nCan be delayed 11F"
   },
   {
-    "input": "1,​2",
+    "input": "1,2",
     "hit_level": "h,​h",
     "damage": "5,​8",
     "startup": ",i10",
-    "block": "",
+    "block": "-3",
     "hit": "+8",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​2,​2",
+    "input": "1,2,2",
     "hit_level": "h,​h,​h",
     "damage": "5,​8,​14",
     "startup": ",i17",
-    "block": "",
+    "block": "-14",
     "hit": "+0",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​2,​3",
+    "input": "1,2,3",
     "hit_level": "h,​h,​m",
     "damage": "5,​8,​10",
     "startup": ",i21",
-    "block": "",
-    "hit": "",
+    "block": "-10",
+    "hit": "+1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "1,​2,​3,​4",
+    "input": "1,2,3,4",
     "hit_level": "h,​h,​m,​h",
     "damage": "5,​8,​10,​21",
     "startup": "i22~23",
-    "block": "",
+    "block": "-4",
     "hit": "+21 (+12)",
     "counter": "",
     "note": ""
@@ -124,57 +104,57 @@
     "hit_level": "h",
     "damage": "12",
     "startup": "i12",
-    "block": "",
+    "block": "-4",
     "hit": "+7",
     "counter": "",
     "note": ""
   },
   {
-    "input": "2,​2",
+    "input": "2,2",
     "hit_level": "h,​h",
     "damage": "12,​6",
     "startup": ",i14~15",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-11",
+    "hit": "0",
+    "counter": "0",
     "note": ""
   },
   {
-    "input": "2,​2,​1",
+    "input": "2,2,1",
     "hit_level": "h,​h,​m",
     "damage": "12,​6,​20",
     "startup": ",i22~23",
-    "block": "",
+    "block": "-14",
     "hit": "KND",
     "counter": "",
     "note": ""
   },
   {
-    "input": "2,​2,​2",
+    "input": "2,2,2",
     "hit_level": "h,​h,​m",
     "damage": "12,​6,​21",
     "startup": ",i29",
-    "block": "",
-    "hit": "",
+    "block": "-4",
+    "hit": "+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "2,​2,​2,​1",
+    "input": "2,2,2,1",
     "hit_level": "h,​h,​m,​m",
     "damage": "12,​6,​21,​20",
     "startup": ",i35~37",
-    "block": "",
+    "block": "-15",
     "hit": "+30 (+20)",
     "counter": "",
     "note": ""
   },
   {
-    "input": "2,​2,​2,​2",
+    "input": "2,2,2,2",
     "hit_level": "h,​h,​m,​m",
     "damage": "12,​6,​21,​25",
     "startup": ",i31",
-    "block": "",
+    "block": "-14",
     "hit": "+21 (+0)",
     "counter": "",
     "note": "Extra damage with input qcf+2"
@@ -184,39 +164,39 @@
     "hit_level": "mm",
     "damage": "4,​18",
     "startup": "i11",
-    "block": "",
+    "block": "-14",
     "hit": "+31 (+23)",
     "counter": "",
-    "note": ""
+    "note": "Just Frame version creates a blue spark\nWith input, it comes out at i14 as the fastest"
   },
   {
     "input": "3",
     "hit_level": "h",
     "damage": "12",
     "startup": "i18~19",
-    "block": "",
-    "hit": "",
+    "block": "-11",
+    "hit": "+5",
     "counter": "",
     "note": ""
   },
   {
-    "input": "3,​2",
+    "input": "3,2",
     "hit_level": "h,​h",
     "damage": "12,​16",
-    "startup": "i18~19",
-    "block": "",
+    "startup": "i20",
+    "block": "-9",
     "hit": "+8",
     "counter": "",
     "note": ""
   },
   {
-    "input": "3,​4",
+    "input": "3,4",
     "hit_level": "h,​m",
     "damage": "12,​20",
     "startup": ",i20",
-    "block": "",
+    "block": "-14",
     "hit": "+50 (+19)",
-    "counter": "",
+    "counter": "Launch",
     "note": ""
   },
   {
@@ -224,9 +204,9 @@
     "hit_level": "h",
     "damage": "20",
     "startup": "i13~14",
-    "block": "",
+    "block": "-8",
     "hit": "+11g",
-    "counter": "",
+    "counter": "KND",
     "note": ""
   },
   {
@@ -234,7 +214,7 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i12~13",
-    "block": "",
+    "block": "-10",
     "hit": "+24 (+14)",
     "counter": "",
     "note": ""
@@ -244,19 +224,19 @@
     "hit_level": "mm",
     "damage": "15",
     "startup": "i18",
-    "block": "",
-    "hit": "",
+    "block": "-8",
+    "hit": "+3c",
     "counter": "",
     "note": ""
   },
   {
-    "input": "3+4,​4",
+    "input": "3+4,4",
     "hit_level": "mm,​m",
     "damage": "15,​20",
     "startup": ",i16",
-    "block": "",
+    "block": "-14",
     "hit": "+50 (+19)",
-    "counter": "",
+    "counter": "Launch",
     "note": ""
   },
   {
@@ -274,20 +254,20 @@
     "hit_level": "h",
     "damage": "8",
     "startup": "i13",
-    "block": "",
-    "hit": "",
+    "block": "-9",
+    "hit": "-3",
     "counter": "",
     "note": ""
   },
   {
-    "input": "f+2,​3",
+    "input": "f+2,3",
     "hit_level": "h,​m",
     "damage": "8,​16",
     "startup": "i18~19",
-    "block": "",
-    "hit": "",
+    "block": "-9",
+    "hit": "+2",
     "counter": "",
-    "note": "Transition to SEN with F\nTransition to UNS with u or d"
+    "note": "Natural on 1st hit\nTransition to SEN with F\nTransition to UNS with u or d\nOn block SEN transition is -2\nOn hit SEN transition is +9"
   },
   {
     "input": "f+3",
@@ -304,9 +284,9 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i19~20",
-    "block": "",
+    "block": "+2c",
     "hit": "+5c",
-    "counter": "",
+    "counter": "KND",
     "note": ""
   },
   {
@@ -314,69 +294,19 @@
     "hit_level": "m",
     "damage": "22",
     "startup": "i32",
-    "block": "",
+    "block": "-11",
     "hit": "+7",
     "counter": "",
     "note": "Transition to UNS with 1+2"
-  },
-  {
-    "input": "f+1+2,​3",
-    "hit_level": "m,​l",
-    "damage": "22,​26",
-    "startup": "i22",
-    "block": "",
-    "hit": "-4c",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f+1+2,​Cin heat 3",
-    "hit_level": "m,​l",
-    "damage": "22,​33,​18",
-    "startup": ",i22",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f+1+2,​uf",
-    "hit_level": "m,​sp",
-    "damage": "22",
-    "startup": ",i22",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f+1+2,​uf,​uf+3",
-    "hit_level": "m,​sp,​m",
-    "damage": "22,​22",
-    "startup": "i30~33",
-    "block": "",
-    "hit": "+32 (+24)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f+1+2,​uf+4",
-    "hit_level": "m,​h",
-    "damage": "22,​28",
-    "startup": ",i32~33",
-    "block": "",
-    "hit": "+31 (+5)",
-    "counter": "",
-    "note": "Transition to HRA with D"
   },
   {
     "input": "f+3+4",
     "hit_level": "m",
     "damage": "25",
     "startup": "i43",
-    "block": "",
+    "block": "-14",
     "hit": "+50 (+19)",
-    "counter": "",
+    "counter": "Launch",
     "note": "Alternate input: UNS.3+4\ncan be cancelled into crouch with D"
   },
   {
@@ -394,37 +324,37 @@
     "hit_level": "m",
     "damage": "8",
     "startup": "i13~14",
-    "block": "",
+    "block": "-3",
     "hit": "+4",
     "counter": "",
     "note": "Transition to SEN with F"
   },
   {
-    "input": "df+1,​1",
+    "input": "df+1,1",
     "hit_level": "m,​h",
     "damage": "8,​10",
     "startup": ",i20",
-    "block": "",
+    "block": "-4",
     "hit": "+7",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+1,​2",
+    "input": "df+1,2",
     "hit_level": "m,​m",
     "damage": "8,​20",
     "startup": ",i22~23",
-    "block": "",
-    "hit": "",
+    "block": "-14",
+    "hit": "KND",
     "counter": "",
     "note": ""
   },
   {
-    "input": "in heat df+1,​2,​F",
+    "input": "in heat df+1,2,F",
     "hit_level": "m,​m",
     "damage": "8,​20",
     "startup": "i13",
-    "block": "",
+    "block": "+5",
     "hit": "+17",
     "counter": "",
     "note": ""
@@ -434,7 +364,7 @@
     "hit_level": "m",
     "damage": "13",
     "startup": "i15~16",
-    "block": "",
+    "block": "-12",
     "hit": "+30 (+20)",
     "counter": "",
     "note": ""
@@ -454,38 +384,38 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i15",
-    "block": "",
-    "hit": "",
+    "block": "-4",
+    "hit": "+7",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+4,​2",
+    "input": "df+4,2",
     "hit_level": "m,​m",
     "damage": "14,​10",
     "startup": ",i18",
-    "block": "",
-    "hit": "",
+    "block": "-8",
+    "hit": "+6",
     "counter": "",
-    "note": "Transition to HRA with D"
+    "note": "Transition to WRA with D\nNatural on 1st hit"
   },
   {
-    "input": "df+4,​2,​3",
+    "input": "df+4,2,3",
     "hit_level": "m,​m,​h",
     "damage": "14,​10,​20",
     "startup": ",i27",
-    "block": "",
+    "block": "-8",
     "hit": "+35",
-    "counter": "",
-    "note": ""
+    "counter": "Tornado",
+    "note": "Natural on 2nd CH"
   },
   {
     "input": "df+3+4",
     "hit_level": "mh",
     "damage": "5,​10",
     "startup": "i16,i5~9",
-    "block": "",
-    "hit": "",
+    "block": "-15",
+    "hit": "+2",
     "counter": "",
     "note": ""
   },
@@ -495,22 +425,22 @@
     "damage": "6,​35",
     "startup": "i16",
     "block": "",
-    "hit": "",
+    "hit": "0",
     "counter": "",
     "note": ""
   },
   {
-    "input": "df+3+4,​4",
+    "input": "df+3+4,4",
     "hit_level": "mh,​m",
     "damage": "5,​10,​20",
     "startup": ",i20",
-    "block": "",
+    "block": "-4",
     "hit": "+50 (+19)",
-    "counter": "",
+    "counter": "Launch",
     "note": ""
   },
   {
-    "input": "df+3+4,​1",
+    "input": "df+3+4,1",
     "hit_level": "mh,​m",
     "damage": "5,​10,​14",
     "startup": ",i20",
@@ -520,7 +450,7 @@
     "note": "Chip damage when guarded"
   },
   {
-    "input": "df+3+4,​1,​2",
+    "input": "df+3+4,1,2",
     "hit_level": "mh,​m,​sm",
     "damage": "5,​10,​14,​25",
     "startup": ",i20",
@@ -584,7 +514,7 @@
     "hit_level": "l,​l",
     "damage": "10,​12",
     "startup": "i20~21,i9~10",
-    "block": "",
+    "block": "-16",
     "hit": "-3",
     "counter": "",
     "note": ""
@@ -594,59 +524,59 @@
     "hit_level": "l",
     "damage": "7",
     "startup": "i16",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "+2",
     "note": ""
   },
   {
-    "input": "db+4,​1+2",
+    "input": "db+4,1+2",
     "hit_level": "l,​m",
     "damage": "7,​20",
     "startup": ",i15",
-    "block": "",
+    "block": "-12",
     "hit": "+39 (+19)",
     "counter": "",
-    "note": ""
+    "note": "Natural on CH"
   },
   {
     "input": "b+1",
     "hit_level": "h",
     "damage": "14",
     "startup": "i18",
-    "block": "",
+    "block": "-4",
     "hit": "+6",
     "counter": "",
     "note": ""
   },
   {
-    "input": "b+1,​1",
+    "input": "b+1,1",
     "hit_level": "h,​m",
     "damage": "14,​15",
     "startup": ",i22",
-    "block": "",
+    "block": "-10",
     "hit": "-4",
     "counter": "",
     "note": ""
   },
   {
-    "input": "b+1,​1,​3",
+    "input": "b+1,1,3",
     "hit_level": "h,​m,​m",
     "damage": "14,​15,​13",
     "startup": ",i15~17",
-    "block": "",
+    "block": "-10",
     "hit": "+3",
     "counter": "",
     "note": ""
   },
   {
-    "input": "b+1,​1,​3,​3",
+    "input": "b+1,1,3,3",
     "hit_level": "h,​m,​m,​m",
     "damage": "14,​15,​13,​20",
     "startup": ",i32",
-    "block": "",
+    "block": "-16",
     "hit": "+48 (+17)",
-    "counter": "",
+    "counter": "Launch",
     "note": ""
   },
   {
@@ -654,7 +584,7 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i16~17",
-    "block": "",
+    "block": "-9",
     "hit": "+3",
     "counter": "",
     "note": ""
@@ -674,9 +604,9 @@
     "hit_level": "h",
     "damage": "20",
     "startup": "i18",
-    "block": "",
+    "block": "-8",
     "hit": "35",
-    "counter": "",
+    "counter": "Tornado",
     "note": ""
   },
   {
@@ -687,10 +617,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: b+2+4\nConverts incoming damage to recoverable health\nPartially restores Heat on successful parry\nTransition to HRA on successful parry"
+    "note": "Alternate input: b+2+4\nConverts incoming damage to recoverable health\nPartially restores Heat on successful parry\nTransition to WRA on successful parry"
   },
   {
-    "input": "SEN.1+3_2+4",
+    "input": "SEN 1+3_2+4",
     "hit_level": "th(m)",
     "damage": "12",
     "startup": "i16",
@@ -713,7 +643,7 @@
     "input": "u+3",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i64",
+    "startup": "Startup",
     "block": "",
     "hit": "",
     "counter": "",
@@ -724,27 +654,27 @@
     "hit_level": "h",
     "damage": "15",
     "startup": "i13",
-    "block": "",
+    "block": "-9",
     "hit": "+8",
-    "counter": "",
-    "note": "Alternate input: ub+1 or u+1\nTransition to HRA on hit"
+    "counter": "+17",
+    "note": "Alternate input: ub+1 or u+1\nTransition to WRA on hit"
   },
   {
     "input": "uf+3",
     "hit_level": "h",
     "damage": "10",
     "startup": "i21~22",
-    "block": "",
-    "hit": "",
+    "block": "-10",
+    "hit": "+1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "uf+3,​1",
+    "input": "uf+3,1",
     "hit_level": "h,​m",
     "damage": "10,​15",
     "startup": ",i16",
-    "block": "",
+    "block": "-5",
     "hit": "+5",
     "counter": "",
     "note": ""
@@ -754,7 +684,7 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i17~18",
-    "block": "",
+    "block": "-13",
     "hit": "+70 (+54)",
     "counter": "",
     "note": "Alternate input: ub+4 or u+4"
@@ -764,17 +694,17 @@
     "hit_level": "mm",
     "damage": "10,​10",
     "startup": "i20,i4",
-    "block": "",
-    "hit": "",
+    "block": "-10",
+    "hit": "-1",
     "counter": "",
     "note": "Alternate input: ub+3+4 or u+3+4"
   },
   {
-    "input": "uf+3+4,​1+2",
+    "input": "uf+3+4,1+2",
     "hit_level": "mm,​m",
     "damage": "10,​10,​20",
     "startup": ",i17",
-    "block": "",
+    "block": "-14",
     "hit": "-4",
     "counter": "",
     "note": ""
@@ -800,81 +730,81 @@
     "note": "Alternate input: UNS.u+1+2\nTransition to Wind God Step with DF"
   },
   {
-    "input": "f,​F+2",
+    "input": "f,F+2",
     "hit_level": "m",
     "damage": "14",
     "startup": "i12",
-    "block": "",
+    "block": "-9",
     "hit": "+1",
     "counter": "",
-    "note": "Transition to SEN with F"
+    "note": "Transition to SEN with F\nSEN transition +2 on block\nSEN transition +12 on hit"
   },
   {
-    "input": "f,​F+3",
+    "input": "f,F+3",
     "hit_level": "m",
     "damage": "20",
     "startup": "i20~22",
-    "block": "",
-    "hit": "",
+    "block": "-3",
+    "hit": "KND",
     "counter": "",
     "note": ""
   },
   {
-    "input": "in heat f,​F+3,​F",
+    "input": "in heat f,F+3,F",
     "hit_level": "m",
     "damage": "20",
     "startup": "i20~22",
-    "block": "",
+    "block": "+5",
     "hit": "+17",
-    "counter": "",
+    "counter": "+67 (+50)",
     "note": ""
   },
   {
-    "input": "f,​F+3+4",
+    "input": "f,F+3+4",
     "hit_level": "h",
     "damage": "22",
     "startup": "i16~19",
-    "block": "",
+    "block": "-2",
     "hit": "+49 (-9)",
-    "counter": "",
+    "counter": "Launch",
     "note": ""
   },
   {
-    "input": "f,​f,​F+3",
+    "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "22",
     "startup": "i24~27",
-    "block": "",
+    "block": "+6",
     "hit": "+32 (+24)",
     "counter": "",
     "note": "Chip damage when guarded"
   },
   {
-    "input": "f,​f,​F+4",
+    "input": "f,f,F+4",
     "hit_level": "h",
     "damage": "28",
     "startup": "i26~27",
-    "block": "",
+    "block": "+4",
     "hit": "+31 (+5)",
     "counter": "",
-    "note": "Transition to HRA with D"
+    "note": "Transition to WRA with D"
   },
   {
-    "input": "FC.df+3",
+    "input": "FC df+3",
     "hit_level": "m",
     "damage": "25",
     "startup": "i20",
-    "block": "",
+    "block": "-17",
     "hit": "+54",
     "counter": "",
     "note": ""
   },
   {
-    "input": "FC.df+4",
+    "input": "FC df+4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i15",
-    "block": "",
+    "block": "-14",
     "hit": "+54",
     "counter": "",
     "note": ""
@@ -884,7 +814,7 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i13",
-    "block": "",
+    "block": "-10",
     "hit": "+13",
     "counter": "",
     "note": ""
@@ -894,9 +824,9 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i18",
-    "block": "",
+    "block": "-8",
     "hit": "+9",
-    "counter": "",
+    "counter": "+14c",
     "note": ""
   },
   {
@@ -904,17 +834,17 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i15~16",
-    "block": "",
+    "block": "-10",
     "hit": "+1",
     "counter": "",
     "note": ""
   },
   {
-    "input": "ws3,​4",
+    "input": "ws3,4",
     "hit_level": "m,​h",
     "damage": "14,​21",
     "startup": ",i22~23",
-    "block": "",
+    "block": "-4",
     "hit": "+21 (+12)",
     "counter": "",
     "note": ""
@@ -924,49 +854,529 @@
     "hit_level": "m",
     "damage": "10",
     "startup": "i11~12",
-    "block": "",
-    "hit": "",
+    "block": "-6",
+    "hit": "+5",
     "counter": "",
     "note": ""
   },
   {
-    "input": "ws4,​4",
+    "input": "ws4,4",
     "hit_level": "m,​m",
     "damage": "10,​15",
     "startup": ",i17~18",
-    "block": "",
+    "block": "-17",
     "hit": "-1c",
     "counter": "",
-    "note": "Transition to HRA with D"
+    "note": "Transition to -10 (ob) +6 (oh) WRA with D"
   },
   {
     "input": "ws3+4",
     "hit_level": "m",
     "damage": "14",
     "startup": "i14~15",
-    "block": "",
+    "block": "-8",
     "hit": "+14",
+    "counter": "+13",
+    "note": ""
+  },
+  {
+    "input": "df+3",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Alternate input: f,n,d,df"
+  },
+  {
+    "input": "WGS 1",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i19~21",
+    "block": "-22",
+    "hit": "+24 (+14)",
     "counter": "",
     "note": ""
   },
   {
-    "input": "SS.4",
+    "input": "WGS 1,3",
+    "hit_level": "m,​m",
+    "damage": "20,​10",
+    "startup": "i26~30",
+    "block": "-12",
+    "hit": "+18 (-17)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "WGS 1,4",
+    "hit_level": "m,​h",
+    "damage": "20,​12",
+    "startup": "i23~27",
+    "block": "-7",
+    "hit": "+1 (+0)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "WGS 2",
+    "hit_level": "h",
+    "damage": "15",
+    "startup": "i11~12",
+    "block": "-10",
+    "hit": "+35 (+25)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f,n,d,df:2",
+    "hit_level": "h",
+    "damage": "23",
+    "startup": "i11",
+    "block": "+5",
+    "hit": "+25 (+25)",
+    "counter": "",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "WGS df+3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i15~17",
+    "block": "-13",
+    "hit": "+3",
+    "counter": "+23 (+17)",
+    "note": "Alternate input: f,n,d,DF+3\nBecomes Electric War God Kick during Heat (partially uses remaining Heat Time)"
+  },
+  {
+    "input": "f,n,d,df:3",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i15~17",
+    "block": "-9",
+    "hit": "+13 (-4)",
+    "counter": "+23 (+17)",
+    "note": "Chip damage when guarded"
+  },
+  {
+    "input": "WGS DF+4",
+    "hit_level": "l",
+    "damage": "6",
+    "startup": "i16",
+    "block": "-23",
+    "hit": "+2c",
+    "counter": "",
+    "note": "Alternate input: f,n,d,DF+4\nRecovers Crouching"
+  },
+  {
+    "input": "WGS DF+4,2",
+    "hit_level": "l,​h",
+    "damage": "6,​20",
+    "startup": ",i24",
+    "block": "-22",
+    "hit": "-1",
+    "counter": "",
+    "note": "Transition to WRA (ob) -15, +6 (oh) WRA with D"
+  },
+  {
+    "input": "WGS DF+4,4",
+    "hit_level": "l,​l",
+    "damage": "6,​16",
+    "startup": ",i17~18",
+    "block": "-23",
+    "hit": "+2",
+    "counter": "Launch",
+    "note": "Recovers Crouching"
+  },
+  {
+    "input": "WGS f+3",
+    "hit_level": ",​sp",
+    "damage": "",
+    "startup": ",i17~18",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+3",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SEN 1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i16",
+    "block": "-14",
+    "hit": "+1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SEN 1,2",
+    "hit_level": "m,​m",
+    "damage": "12,​25",
+    "startup": ",i26",
+    "block": "-16",
+    "hit": "+21 (+0)",
+    "counter": "",
+    "note": "Alternate input: qcf+2 (extra damage)"
+  },
+  {
+    "input": "SEN 2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i13",
+    "block": "-4",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SEN 3",
+    "hit_level": "h",
+    "damage": "22",
+    "startup": "i12~13",
+    "block": "+1",
+    "hit": "+7",
+    "counter": "",
+    "note": "Deals chip damage on block"
+  },
+  {
+    "input": "in heat SEN 3,F",
+    "hit_level": "h",
+    "damage": "22",
+    "startup": "i12~13",
+    "block": "+5",
+    "hit": "+17",
+    "counter": "Launch",
+    "note": "Deals chip damage on block"
+  },
+  {
+    "input": "SEN 4",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i26~27",
+    "block": "+4",
+    "hit": "+12g",
+    "counter": "+12g",
+    "note": "Deals chip damage on block"
+  },
+  {
+    "input": "SEN 1+2",
+    "hit_level": "m,​m",
+    "damage": "13,​17",
+    "startup": "i14~15,i12~13",
+    "block": "-6 SEN",
+    "hit": "+32 (+18)",
+    "counter": "+32 (+18)",
+    "note": "Transition to WRA on hit"
+  },
+  {
+    "input": "SEN 3+4",
+    "hit_level": "l,​h",
+    "damage": "10,​12",
+    "startup": "i20~21,i35~36",
+    "block": "-29, -11",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+1+2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i32",
+    "block": "-11",
+    "hit": "+7",
+    "counter": "",
+    "note": "Transition to UNS with 1+2"
+  },
+  {
+    "input": "SSin heat 3",
+    "hit_level": "l",
+    "damage": "26",
+    "startup": "i22",
+    "block": "-26",
+    "hit": "-4c",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SSin heat Cin heat 3",
+    "hit_level": "l",
+    "damage": "33,​18",
+    "startup": "i22",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SSin heat uf",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i22",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to WR"
+  },
+  {
+    "input": "SSin heat uf+3",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i30~33",
+    "block": "",
+    "hit": "+32 (+24)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "SSin heat uf+4",
+    "hit_level": "h",
+    "damage": "28",
+    "startup": "i32~33",
+    "block": "",
+    "hit": "+31 (+5)",
+    "counter": "",
+    "note": "Transition to WRA with D"
+  },
+  {
+    "input": "d+3",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Partially drains heat meter when in heat\nCan transition to SEN with f+3\nCan transition to WGS with DF"
+  },
+  {
+    "input": "UNS 4",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i18~19",
+    "block": "-8",
+    "hit": "+43 (-15)",
+    "counter": "",
+    "note": "Deals chip damage on block\nCan be cancelled into crouch with D"
+  },
+  {
+    "input": "in heat UNS 4,F",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i18~19",
+    "block": "+5",
+    "hit": "+17",
+    "counter": "+62 (+42)",
+    "note": ""
+  },
+  {
+    "input": "d+1+2",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to SEN with f+3\nTransition to WGS with DF"
+  },
+  {
+    "input": "WRA 1",
+    "hit_level": "h",
+    "damage": "12",
+    "startup": "i12",
+    "block": "-4",
+    "hit": "+8",
+    "counter": "+13",
+    "note": "Deals chip damage on block\nTransition to SEN with F"
+  },
+  {
+    "input": "WRA 1,4",
+    "hit_level": "hm",
+    "damage": "1222",
+    "startup": "i25~26",
+    "block": "-9",
+    "hit": "+9g",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "WRA 2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i15~16",
+    "block": "-9",
+    "hit": "+11 (+2)",
+    "counter": "",
+    "note": "Deals chip damage on block"
+  },
+  {
+    "input": "in heat WRA 2,F",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i15~16",
+    "block": "+5",
+    "hit": "+17",
+    "counter": "Launch",
+    "note": ""
+  },
+  {
+    "input": "WRA 3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i28",
+    "block": "-6",
+    "hit": "+22 (+12)",
+    "counter": "",
+    "note": "Deals chip damage on block"
+  },
+  {
+    "input": "WRA 3,4",
+    "hit_level": "m,​m",
+    "damage": "17,​14",
+    "startup": ",i18~19",
+    "block": "+6",
+    "hit": "+17 (+16)",
+    "counter": "",
+    "note": "Deals chip damage on block\nCan transition to WRA with D"
+  },
+  {
+    "input": "WRA 4",
+    "hit_level": "m,​m",
+    "damage": "6,​8",
+    "startup": "i17~18,i13",
+    "block": "-10",
+    "hit": "-10",
+    "counter": "+7",
+    "note": "Entire string guaranteed on CH"
+  },
+  {
+    "input": "WRA 4,2",
+    "hit_level": "m,​m,​m",
+    "damage": "6,​8,​8",
+    "startup": ",i15",
+    "block": "-18",
+    "hit": "-7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "WRA 4,2,2",
+    "hit_level": "m,​m,​m,​h",
+    "damage": "6,​8,​8,​4",
+    "startup": ",i15",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "WRA 4,2,2,1+2",
+    "hit_level": "m,​m,​m,​h,​m",
+    "damage": "6,​8,​8,​4,​22",
+    "startup": ",i24~25",
+    "block": "-20",
+    "hit": "+24 (+3)",
+    "counter": "",
+    "note": "Alternate input: qcf+1+2 (extra damage)"
+  },
+  {
+    "input": "WRA 1+2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i15~16",
+    "block": "-13",
+    "hit": "+16",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "WRA 3+4",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i18~19",
+    "block": "-5",
+    "hit": "+5",
+    "counter": "",
+    "note": "Deals chip damage on block"
+  },
+  {
+    "input": "WRA d+4",
+    "hit_level": "l",
+    "damage": "9",
+    "startup": "i16~17",
+    "block": "-15",
+    "hit": "-4",
+    "counter": "+2",
+    "note": ""
+  },
+  {
+    "input": "WRA d+4,3",
+    "hit_level": "l,​m",
+    "damage": "9,​20",
+    "startup": ",i21~22",
+    "block": "-16",
+    "hit": "+48 (+17)",
+    "counter": "Launch",
+    "note": "Guaranteed on 1st hit CH"
+  },
+  {
+    "input": "f,n",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "Startup",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transition to WGS with DF\nTransition to WGS on successful parry with +10"
+  },
+  {
+    "input": "WDS 3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i16~17",
+    "block": "-6",
+    "hit": "+4",
+    "counter": "Launch",
+    "note": ""
+  },
+  {
+    "input": "in rage df+1+2",
+    "hit_level": "m",
+    "damage": "55",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "",
+    "counter": "",
+    "note": "Erases opponent's recoverable health on hit\nAlternate input: R2"
+  },
+  {
+    "input": "SS 4",
     "hit_level": "l",
     "damage": "17",
     "startup": "i18~19",
-    "block": "",
+    "block": "-13",
     "hit": "+0",
-    "counter": "",
+    "counter": "+13",
     "note": ""
   },
   {
-    "input": "BT.4",
+    "input": "BT 4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i17",
-    "block": "",
+    "block": "-14",
     "hit": "+54",
-    "counter": "",
+    "counter": "Launch",
     "note": ""
   },
   {
@@ -990,7 +1400,7 @@
     "note": ""
   },
   {
-    "input": "OTG.d+4",
+    "input": "OTG d+4",
     "hit_level": "l",
     "damage": "11",
     "startup": "i19",
@@ -1000,422 +1410,12 @@
     "note": ""
   },
   {
-    "input": "OTG.d+4,​1",
+    "input": "OTG d+4,1",
     "hit_level": "l,​l",
     "damage": "11,​16",
     "startup": ",i20~21",
     "block": "",
     "hit": "-15 (-23)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "df+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": ",i20~21",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Alternate input: f,n,d,df"
-  },
-  {
-    "input": "WGS.1",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i19~21",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "WGS.1,​3",
-    "hit_level": "m,​m",
-    "damage": "20,​10",
-    "startup": "i26~30",
-    "block": "",
-    "hit": "+18 (-17)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "WGS.1,​4",
-    "hit_level": "m,​h",
-    "damage": "20,​12",
-    "startup": "i23~27",
-    "block": "",
-    "hit": "+1 (+0)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "WGS.2",
-    "hit_level": "h",
-    "damage": "15",
-    "startup": "i11~12",
-    "block": "",
-    "hit": "+35 (+25)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f,​n,​d,​df:2",
-    "hit_level": "h",
-    "damage": "23",
-    "startup": "i11",
-    "block": "+5",
-    "hit": "+25 (+25)",
-    "counter": "",
-    "note": "Chip damage when guarded"
-  },
-  {
-    "input": "WGS.df+3",
-    "hit_level": "m",
-    "damage": "17",
-    "startup": "i15~17",
-    "block": "",
-    "hit": "+3",
-    "counter": "",
-    "note": "Alternate input: f,n,d,DF+3\nBecomes Electric War God Kick during Heat (partially uses remaining Heat Time)"
-  },
-  {
-    "input": "f,​n,​d,​df:3",
-    "hit_level": "m",
-    "damage": "27",
-    "startup": "i15~17",
-    "block": "",
-    "hit": "+13 (-4)",
-    "counter": "",
-    "note": "Chip damage when guarded"
-  },
-  {
-    "input": "WGS.DF+4",
-    "hit_level": "l",
-    "damage": "6",
-    "startup": "i16",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Alternate input: f,n,d,DF+4"
-  },
-  {
-    "input": "WGS.DF+4,​2",
-    "hit_level": "l,​h",
-    "damage": "6,​20",
-    "startup": ",i24",
-    "block": "",
-    "hit": "-1",
-    "counter": "",
-    "note": "Transition to HRA with D"
-  },
-  {
-    "input": "WGS.DF+4,​4",
-    "hit_level": "l,​l",
-    "damage": "6,​16",
-    "startup": ",i17~18",
-    "block": "",
-    "hit": "+2",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "WGS.f+3",
-    "hit_level": ",​sp",
-    "damage": "",
-    "startup": ",i17~18",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": ",i17~18",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "SEN.1",
-    "hit_level": "m",
-    "damage": "12",
-    "startup": "i16",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "SEN.1,​2",
-    "hit_level": "m,​m",
-    "damage": "12,​25",
-    "startup": ",i26",
-    "block": "",
-    "hit": "+21 (+0)",
-    "counter": "",
-    "note": "Alternate input: qcf+2 (extra damage)"
-  },
-  {
-    "input": "SEN.2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i13",
-    "block": "",
-    "hit": "+8",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "SEN.3",
-    "hit_level": "h",
-    "damage": "22",
-    "startup": "i12~13",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Deals chip damage on block"
-  },
-  {
-    "input": "in heat SEN.3,​F",
-    "hit_level": "h",
-    "damage": "22",
-    "startup": "i12~13",
-    "block": "",
-    "hit": "+17",
-    "counter": "",
-    "note": "Deals chip damage on block"
-  },
-  {
-    "input": "SEN.4",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i26~27",
-    "block": "",
-    "hit": "+12",
-    "counter": "",
-    "note": "Deals chip damage on block"
-  },
-  {
-    "input": "SEN.1+2",
-    "hit_level": "m,​m",
-    "damage": "13,​17",
-    "startup": "i14~15,i12~13",
-    "block": "",
-    "hit": "+32 (+18)",
-    "counter": "",
-    "note": "Transition to HRA on hit"
-  },
-  {
-    "input": "SEN.3+4",
-    "hit_level": "l,​h",
-    "damage": "10,​12",
-    "startup": "i20~21,i35~36",
-    "block": "",
-    "hit": "+4",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "d+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "i20~21,i35~36",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Partially drains heat meter when in heat\nCan transition to SEN with f+3\nCan transition to WGS with DF"
-  },
-  {
-    "input": "UNS.4",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Deals chip damage on block\nCan be cancelled into crouch with D"
-  },
-  {
-    "input": "in heat UNS.4,​F",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "+17",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "d+1+2",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Transition to SEN with f+3\nTransition to WGS with DF"
-  },
-  {
-    "input": "HRA.1",
-    "hit_level": "h",
-    "damage": "12",
-    "startup": "i12",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Deals chip damage on block\nTransition to SEN with F"
-  },
-  {
-    "input": "HRA.1,​4",
-    "hit_level": "hm",
-    "damage": "1222",
-    "startup": "i25~26",
-    "block": "",
-    "hit": "+9",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "HRA.2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i15~16",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Deals chip damage on block"
-  },
-  {
-    "input": "in heat HRA.2,​F",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i15~16",
-    "block": "",
-    "hit": "+17",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "HRA.3",
-    "hit_level": "m",
-    "damage": "17",
-    "startup": "i28",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Deals chip damage on block"
-  },
-  {
-    "input": "HRA.3,​4",
-    "hit_level": "m,​m",
-    "damage": "17,​14",
-    "startup": ",i18~19",
-    "block": "",
-    "hit": "+17 (+16)",
-    "counter": "",
-    "note": "Deals chip damage on block\nCan transition to HRA with D"
-  },
-  {
-    "input": "HRA.4",
-    "hit_level": "m,​m",
-    "damage": "6,​8",
-    "startup": "i17~18,i13",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "HRA.4,​2",
-    "hit_level": "m,​m,​m",
-    "damage": "6,​8,​8",
-    "startup": ",i15",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "HRA.4,​2,​2",
-    "hit_level": "m,​m,​m,​h",
-    "damage": "6,​8,​8,​4",
-    "startup": ",i15",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "HRA.4,​2,​2,​1+2",
-    "hit_level": "m,​m,​m,​h,​m",
-    "damage": "6,​8,​8,​4,​22",
-    "startup": ",i24~25",
-    "block": "",
-    "hit": "+24 (+3)",
-    "counter": "",
-    "note": "Alternate input: qcf+1+2 (extra damage)"
-  },
-  {
-    "input": "HRA.1+2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i15~16",
-    "block": "",
-    "hit": "+16",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "HRA.3+4",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i18~19",
-    "block": "",
-    "hit": "+5",
-    "counter": "",
-    "note": "Deals chip damage on block"
-  },
-  {
-    "input": "HRA.d+4",
-    "hit_level": "l",
-    "damage": "9",
-    "startup": "i16~17",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "HRA.d+4,​3",
-    "hit_level": "l,​m",
-    "damage": "9,​20",
-    "startup": ",i21~22",
-    "block": "",
-    "hit": "+48 (+17)",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "input": "f,​n",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": ",i21~22",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Transition to WGS with DF\nTransition to WGS on successful parry with +10"
-  },
-  {
-    "input": "WDS.3",
-    "hit_level": "m",
-    "damage": "17",
-    "startup": "i16~17",
-    "block": "",
-    "hit": "+4",
     "counter": "",
     "note": ""
   },
@@ -1480,7 +1480,7 @@
     "note": "Alternate input f,F+1+2\nThrow break: 1+2"
   },
   {
-    "input": "d,​db,​b,​f+2",
+    "input": "d,db,b,f+2",
     "hit_level": "th(h)",
     "damage": "40",
     "startup": "i12",
@@ -1490,7 +1490,7 @@
     "note": "Throw break: 2\nOpponent recovery on hit: FUFT"
   },
   {
-    "input": "SEN.1+3_2+4",
+    "input": "SEN 1+3_2+4",
     "hit_level": "th(h)",
     "damage": "12",
     "startup": "i16",
@@ -1500,7 +1500,7 @@
     "note": "Throw break: none\nOpponent recovery on hit: FUFA"
   },
   {
-    "input": "HRA.1+3_2+4",
+    "input": "WRA 1+3_2+4",
     "hit_level": "th(h)",
     "damage": "20",
     "startup": "i16",

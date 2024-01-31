@@ -1,15 +1,5 @@
 [
   {
-    "input": "Input",
-    "hit_level": "Hit level",
-    "damage": "Damage",
-    "startup": "Startup",
-    "block": "Block",
-    "hit": "Hit",
-    "counter": "CH",
-    "note": ""
-  },
-  {
     "input": "2+3",
     "hit_level": "m",
     "damage": "12 (12)",
@@ -27,7 +17,7 @@
     "block": "+9",
     "hit": "-1d",
     "counter": "",
-    "note": "2nd and 3rd hit\nThrow on hit\nWall crush on block2nd and 3rd hit"
+    "note": "2nd and 3rd hit\nThrow on hit\n2nd and 3rd hit"
   },
   {
     "input": "1",
@@ -40,7 +30,7 @@
     "note": ""
   },
   {
-    "input": "1,​2",
+    "input": "1,2",
     "hit_level": "h,​h",
     "damage": "5,​8",
     "startup": ",i12",
@@ -50,7 +40,7 @@
     "note": ""
   },
   {
-    "input": "1,​2,​1",
+    "input": "1,2,1",
     "hit_level": "h,​h,​m",
     "damage": "5,​8,​18",
     "startup": ",i19",
@@ -60,7 +50,7 @@
     "note": ""
   },
   {
-    "input": "1,​2,​3",
+    "input": "1,2,3",
     "hit_level": "h,​h,​L",
     "damage": "5,​8,​15",
     "startup": ",i24",
@@ -70,7 +60,7 @@
     "note": ""
   },
   {
-    "input": "1,​2,​4",
+    "input": "1,2,4",
     "hit_level": "h,​h,​h",
     "damage": "5,​8,​24",
     "startup": ",i20",
@@ -80,7 +70,7 @@
     "note": ""
   },
   {
-    "input": "1,​4",
+    "input": "1,4",
     "hit_level": "h,​h",
     "damage": "5,​14",
     "startup": ",i15",
@@ -90,7 +80,7 @@
     "note": ""
   },
   {
-    "input": "1,​4,​2",
+    "input": "1,4,2",
     "hit_level": "h,​h,​h",
     "damage": "5,​14,​18",
     "startup": ",i24",
@@ -100,7 +90,7 @@
     "note": "Cancel last hit into 1,4,2,1 with f+1\nCancel last hit into 1,4,2,4 with f+4\nAlternate input b+2"
   },
   {
-    "input": "1,​4,​2,​1",
+    "input": "1,4,2,1",
     "hit_level": "h,​h,​h,​h",
     "damage": "5,​14,​18,​16",
     "startup": ",i19",
@@ -110,7 +100,7 @@
     "note": "Cancel last hit and transition to SS with u_d\nTransition to SLS with F\nAlternate input:\nb+2,1\nqcf+4,1b+2,1\nqcf+4,1"
   },
   {
-    "input": "1,​4,​2,​1,​2",
+    "input": "1,4,2,1,2",
     "hit_level": "h,​h,​h,​h,​h",
     "damage": "5,​14,​18,​16,​22",
     "startup": ",i24",
@@ -120,7 +110,7 @@
     "note": "Alternate input:\nb+2,1,2\nqcf+4,1,2b+2,1,2\nqcf+4,1,2"
   },
   {
-    "input": "1,​4,​2,​1,​4",
+    "input": "1,4,2,1,4",
     "hit_level": "h,​h,​h,​h,​m",
     "damage": "5,​14,​18,​16,​21",
     "startup": ",i30-31",
@@ -130,7 +120,7 @@
     "note": "Alternate input:\nb+2,1,4\nqcf+4,1,4\nSpecial? effect on airborne hit +38a (+31)b+2,1,4\nqcf+4,1,4"
   },
   {
-    "input": "1,​4,​2,​4",
+    "input": "1,4,2,4",
     "hit_level": "h,​h,​h,​m",
     "damage": "5,​14,​18,​21",
     "startup": ",i30-31",
@@ -140,7 +130,7 @@
     "note": "Alternate input b+2,4"
   },
   {
-    "input": "1,​4,​3",
+    "input": "1,4,3",
     "hit_level": "h,​h,​m",
     "damage": "5,​14,​15",
     "startup": ",i21",
@@ -150,7 +140,7 @@
     "note": ""
   },
   {
-    "input": "1,​4,​3,​3",
+    "input": "1,4,3,3",
     "hit_level": "h,​h,​m,​h",
     "damage": "5,​14,​15,​18",
     "startup": ",i23",
@@ -170,7 +160,7 @@
     "note": ""
   },
   {
-    "input": "2,​3",
+    "input": "2,3",
     "hit_level": "h,​m",
     "damage": "10,​14",
     "startup": ",i16",
@@ -190,7 +180,7 @@
     "note": ""
   },
   {
-    "input": "3,​2",
+    "input": "3,2",
     "hit_level": "m,​m",
     "damage": "14,​11",
     "startup": ",i22",
@@ -200,7 +190,7 @@
     "note": ""
   },
   {
-    "input": "3,​2,​1",
+    "input": "3,2,1",
     "hit_level": "m,​m,​m",
     "damage": "14,​11,​10",
     "startup": ",i20",
@@ -210,7 +200,7 @@
     "note": ""
   },
   {
-    "input": "3,​2,​1,​2",
+    "input": "3,2,1,2",
     "hit_level": "m,​m,​m,​m",
     "damage": "14,​11,​10,​14",
     "startup": ",i20",
@@ -220,7 +210,7 @@
     "note": ""
   },
   {
-    "input": "3,​2,​1,​4",
+    "input": "3,2,1,4",
     "hit_level": "m,​m,​m,​L",
     "damage": "14,​11,​10,​12",
     "startup": ",i22",
@@ -230,7 +220,7 @@
     "note": ""
   },
   {
-    "input": "3,​3",
+    "input": "3,3",
     "hit_level": "m,​h",
     "damage": "14,​13",
     "startup": ",i23",
@@ -240,7 +230,7 @@
     "note": ""
   },
   {
-    "input": "3,​3,​2",
+    "input": "3,3,2",
     "hit_level": "m,​h,​h",
     "damage": "14,​13,​20",
     "startup": ",i22~23",
@@ -250,7 +240,7 @@
     "note": ""
   },
   {
-    "input": "3,​3,​4",
+    "input": "3,3,4",
     "hit_level": "m,​h,​h",
     "damage": "14,​13,​25",
     "startup": ",i28",
@@ -270,7 +260,7 @@
     "note": ""
   },
   {
-    "input": "4,​3",
+    "input": "4,3",
     "hit_level": "h,​m",
     "damage": "15,​12",
     "startup": ",i24~25",
@@ -280,7 +270,7 @@
     "note": ""
   },
   {
-    "input": "4,​3,​4",
+    "input": "4,3,4",
     "hit_level": "h,​m,​m",
     "damage": "15,​12,​16",
     "startup": ",i24~25",
@@ -290,7 +280,7 @@
     "note": "Hold to power up and deal more chip damage on block"
   },
   {
-    "input": "4,​3,​f+4",
+    "input": "4,3,f+4",
     "hit_level": "h,​m,​h",
     "damage": "15,​12,​18",
     "startup": ",24~25",
@@ -310,7 +300,7 @@
     "note": ""
   },
   {
-    "input": "1+2,​1",
+    "input": "1+2,1",
     "hit_level": "m,​h",
     "damage": "15,​15",
     "startup": ",i23~24",
@@ -320,7 +310,7 @@
     "note": "Combo from 1st hit\nTransition to Sway with B +7 on hit"
   },
   {
-    "input": "1+2,​2",
+    "input": "1+2,2",
     "hit_level": "m,​m",
     "damage": "15,​20",
     "startup": ",i26~27",
@@ -350,7 +340,7 @@
     "note": ""
   },
   {
-    "input": "f+2,​1",
+    "input": "f+2,1",
     "hit_level": "m,​m",
     "damage": "10,​12",
     "startup": ",i10",
@@ -360,7 +350,7 @@
     "note": ""
   },
   {
-    "input": "f+2,​1,​4",
+    "input": "f+2,1,4",
     "hit_level": "m,​m,​m",
     "damage": "10,​12,​20",
     "startup": "i18~19",
@@ -390,7 +380,7 @@
     "note": ""
   },
   {
-    "input": "f+4,​1",
+    "input": "f+4,1",
     "hit_level": "m,​m",
     "damage": "10,​10",
     "startup": "i25~26",
@@ -420,7 +410,7 @@
     "note": "Alternate input df+1\nDF+1,1... extension available only with DF+1 input, not df+1"
   },
   {
-    "input": "DF+1,​1",
+    "input": "DF+1,1",
     "hit_level": "m,​m",
     "damage": "8,​2",
     "startup": ",i10",
@@ -430,7 +420,7 @@
     "note": ""
   },
   {
-    "input": "DF+1,​1,​1",
+    "input": "DF+1,1,1",
     "hit_level": "m,​m,​m",
     "damage": "8,​2,​2",
     "startup": ",i10",
@@ -440,7 +430,7 @@
     "note": ""
   },
   {
-    "input": "DF+1,​1,​1,​1",
+    "input": "DF+1,1,1,1",
     "hit_level": "m,​m,​m,​m",
     "damage": "8,​2,​2,​2",
     "startup": ",i10",
@@ -450,7 +440,7 @@
     "note": ""
   },
   {
-    "input": "DF+1,​2",
+    "input": "DF+1,2",
     "hit_level": "m,​m",
     "damage": "8,​20",
     "startup": ",i23",
@@ -470,7 +460,7 @@
     "note": ""
   },
   {
-    "input": "df+2,​1",
+    "input": "df+2,1",
     "hit_level": "m,​h",
     "damage": "12,​11",
     "startup": "i6",
@@ -480,7 +470,7 @@
     "note": "Combo from 1st hit\nTransition to Sway with B +8 on hit"
   },
   {
-    "input": "df+2,​3",
+    "input": "df+2,3",
     "hit_level": "m,​m",
     "damage": "12,​20",
     "startup": ",i23",
@@ -520,7 +510,7 @@
     "note": ""
   },
   {
-    "input": "d+2,​3",
+    "input": "d+2,3",
     "hit_level": "m,​m",
     "damage": "17,​21",
     "startup": "i22",
@@ -540,7 +530,7 @@
     "note": ""
   },
   {
-    "input": "d+3,​2",
+    "input": "d+3,2",
     "hit_level": "l,​h",
     "damage": "10,​22",
     "startup": "i21",
@@ -570,7 +560,7 @@
     "note": "Combo from 1st hit\nTransition to SLS with F +10g on hit\nTransition to Sway with B +8"
   },
   {
-    "input": "d+1+2,​3",
+    "input": "d+1+2,3",
     "hit_level": "m,​m,​l",
     "damage": "10,​15,​20",
     "startup": "i27~28",
@@ -600,7 +590,7 @@
     "note": ""
   },
   {
-    "input": "d+3+4,​2",
+    "input": "d+3+4,2",
     "hit_level": "l,​m",
     "damage": "16,​25",
     "startup": ",i19",
@@ -660,7 +650,7 @@
     "note": "Cancel into b+2,1 with f+1\nCancel into b+2,4 with f+4\nAlternate input 1,4,2"
   },
   {
-    "input": "b+2,​1",
+    "input": "b+2,1",
     "hit_level": "h,​h",
     "damage": "18,​16",
     "startup": "i20~21",
@@ -670,7 +660,7 @@
     "note": "Cancel last hit and transition to SS with u_d\nTransition to SLS with F\nAlternate input:\n1,4,2,1\nqcf+4,11,4,2,1\nqcf+4,1"
   },
   {
-    "input": "b+2,​1,​2",
+    "input": "b+2,1,2",
     "hit_level": "h,​h,​h",
     "damage": "18,​16,​22",
     "startup": "i20~21",
@@ -680,7 +670,7 @@
     "note": "Alternate input:\n1,4,2,1,2\nqcf+4,1,21,4,2,1,2\nqcf+4,1,2"
   },
   {
-    "input": "b+2,​4",
+    "input": "b+2,4",
     "hit_level": "h,​m",
     "damage": "18,​21",
     "startup": "i20~21",
@@ -690,7 +680,7 @@
     "note": "Alternate input 1,4,2,4"
   },
   {
-    "input": "b+2,​1,​4",
+    "input": "b+2,1,4",
     "hit_level": "h,​h,​m",
     "damage": "18,​16,​20",
     "startup": "i20~21",
@@ -710,7 +700,7 @@
     "note": ""
   },
   {
-    "input": "b+3,​2",
+    "input": "b+3,2",
     "hit_level": "m,​h",
     "damage": "12,​12",
     "startup": ",i16",
@@ -720,7 +710,7 @@
     "note": ""
   },
   {
-    "input": "b+3,​2,​1",
+    "input": "b+3,2,1",
     "hit_level": "m,​h,​m",
     "damage": "12,​12,​10",
     "startup": ",i16",
@@ -730,7 +720,7 @@
     "note": "Combo from 2nd hit\nAlternate input 3,2,1"
   },
   {
-    "input": "b+3,​2,​1,​2",
+    "input": "b+3,2,1,2",
     "hit_level": "m,​h,​m,​m",
     "damage": "12,​12,​10,​14",
     "startup": ",i16",
@@ -740,7 +730,7 @@
     "note": "Alternate input 3,2,1,2"
   },
   {
-    "input": "b+3,​2,​1,​4",
+    "input": "b+3,2,1,4",
     "hit_level": "m,​h,​m,​L",
     "damage": "12,​12,​10,​12",
     "startup": ",i16",
@@ -750,7 +740,7 @@
     "note": "Alternate input 3,2,1,4"
   },
   {
-    "input": "b+3,​1+2",
+    "input": "b+3,1+2",
     "hit_level": "m,​m",
     "damage": "12,​25",
     "startup": ",i22",
@@ -780,7 +770,7 @@
     "note": "Alternate input b+2+4"
   },
   {
-    "input": "b+1+3,​P.2",
+    "input": "b+1+3,P 2",
     "hit_level": "h",
     "damage": "30",
     "startup": "i16",
@@ -820,7 +810,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1",
+    "input": "ub+1+2,1",
     "hit_level": "m,​m,​m",
     "damage": "5,​2,​2",
     "startup": "i15",
@@ -830,7 +820,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2",
+    "input": "ub+1+2,1,2",
     "hit_level": "m,​m,​m,​m",
     "damage": "5,​2,​2,​2",
     "startup": "i15",
@@ -840,7 +830,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1",
+    "input": "ub+1+2,1,2,1",
     "hit_level": "m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2",
     "startup": "i15",
@@ -850,7 +840,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1,​2",
+    "input": "ub+1+2,1,2,1,2",
     "hit_level": "m,​m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2,​2",
     "startup": "i15",
@@ -860,7 +850,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1,​2,​1",
+    "input": "ub+1+2,1,2,1,2,1",
     "hit_level": "m,​m,​m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2,​2,​2",
     "startup": "i15",
@@ -870,7 +860,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1,​2,​1,​2",
+    "input": "ub+1+2,1,2,1,2,1,2",
     "hit_level": "m,​m,​m,​m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2,​2,​2,​2",
     "startup": "i15",
@@ -880,7 +870,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1,​2,​1,​2,​1",
+    "input": "ub+1+2,1,2,1,2,1,2,1",
     "hit_level": "m,​m,​m,​m,​m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2,​2,​2,​2,​2",
     "startup": "i15",
@@ -890,7 +880,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1,​2,​1,​2,​1,​2",
+    "input": "ub+1+2,1,2,1,2,1,2,1,2",
     "hit_level": "m,​m,​m,​m,​m,​m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2,​2,​2,​2,​2,​2",
     "startup": "i15",
@@ -900,7 +890,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1,​2,​1,​2,​1,​2,​1",
+    "input": "ub+1+2,1,2,1,2,1,2,1,2,1",
     "hit_level": "m,​m,​m,​m,​m,​m,​m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2,​2,​2,​2,​2,​2,​2",
     "startup": "i15",
@@ -910,7 +900,7 @@
     "note": "Combo from 1st hit\nChip damage on block"
   },
   {
-    "input": "ub+1+2,​1,​2,​1,​2,​1,​2,​1,​2,​1,​4",
+    "input": "ub+1+2,1,2,1,2,1,2,1,2,1,4",
     "hit_level": "m,​m,​m,​m,​m,​m,​m,​m,​m,​m,​m,​m",
     "damage": "5,​2,​2,​2,​2,​2,​2,​2,​2,​2,​2,​14",
     "startup": "i15",
@@ -930,7 +920,7 @@
     "note": ""
   },
   {
-    "input": "uf+2,​2",
+    "input": "uf+2,2",
     "hit_level": "m,​m",
     "damage": "6,​4",
     "startup": ",i10",
@@ -940,7 +930,7 @@
     "note": ""
   },
   {
-    "input": "uf+2,​2,​2",
+    "input": "uf+2,2,2",
     "hit_level": "m,​m,​m",
     "damage": "6,​4,​4",
     "startup": "i10",
@@ -950,7 +940,7 @@
     "note": ""
   },
   {
-    "input": "uf+2,​2,​2,​3",
+    "input": "uf+2,2,2,3",
     "hit_level": "m,​m,​m,​m",
     "damage": "6,​4,​4,​20",
     "startup": ",i22~23",
@@ -990,7 +980,7 @@
     "note": "Gain SE on hit"
   },
   {
-    "input": "uf,​n,​4",
+    "input": "uf,n,4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i23~25",
@@ -1000,7 +990,7 @@
     "note": ""
   },
   {
-    "input": "f,​F+2",
+    "input": "f,F+2",
     "hit_level": "h",
     "damage": "29",
     "startup": "i13",
@@ -1010,7 +1000,7 @@
     "note": "Chip damage on block"
   },
   {
-    "input": "f,​F+3",
+    "input": "f,F+3",
     "hit_level": "m",
     "damage": "25",
     "startup": "i24~25",
@@ -1020,17 +1010,17 @@
     "note": "Gain SE on hit with 1+2\nChip damage 7 (28%) on block"
   },
   {
-    "input": "f,​F+3*",
+    "input": "f,F+3*",
     "hit_level": "m",
     "damage": "33",
     "startup": "i34~35",
     "block": "+8",
     "hit": "+71a",
     "counter": "",
-    "note": "Gain SE on hit with 1+2\nChip damage 9 (27%) on block\nWall Crush on block"
+    "note": "Gain SE on hit with 1+2\nChip damage 9 (27%) on block\n"
   },
   {
-    "input": "f,​F+4",
+    "input": "f,F+4",
     "hit_level": "h",
     "damage": "32",
     "startup": "i16~19",
@@ -1040,7 +1030,7 @@
     "note": "Chip damage 9 (28%) on block"
   },
   {
-    "input": "f,​n,​b+2",
+    "input": "f,n,b+2",
     "hit_level": "h",
     "damage": "20",
     "startup": "i14~15",
@@ -1050,7 +1040,7 @@
     "note": ""
   },
   {
-    "input": "b,​df+4",
+    "input": "b,df+4",
     "hit_level": "l",
     "damage": "25",
     "startup": "i29",
@@ -1060,7 +1050,7 @@
     "note": "Cancel with B"
   },
   {
-    "input": "b,​B+4",
+    "input": "b,B+4",
     "hit_level": "M",
     "damage": "24",
     "startup": "i21~33",
@@ -1070,7 +1060,7 @@
     "note": ""
   },
   {
-    "input": "f,​f,​F+3",
+    "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "30",
     "startup": "i22~25",
@@ -1080,7 +1070,7 @@
     "note": ""
   },
   {
-    "input": "FC.df+2",
+    "input": "FC df+2",
     "hit_level": "m",
     "damage": "12",
     "startup": "i13",
@@ -1090,7 +1080,7 @@
     "note": ""
   },
   {
-    "input": "FC.df+2,​1",
+    "input": "FC df+2,1",
     "hit_level": "m,​h",
     "damage": "12,​25",
     "startup": "i22~23",
@@ -1100,7 +1090,7 @@
     "note": "Combo from 1st hit with delay\nMove can be delayed"
   },
   {
-    "input": "FC.df+4",
+    "input": "FC df+4",
     "hit_level": "m",
     "damage": "21",
     "startup": "i15~16",
@@ -1140,7 +1130,7 @@
     "note": "Alternate input qcf+3"
   },
   {
-    "input": "ws3,​4",
+    "input": "ws3,4",
     "hit_level": "m,​m",
     "damage": "17,​21",
     "startup": ",i28",
@@ -1170,37 +1160,37 @@
     "note": ""
   },
   {
-    "input": "3+4,​SE.2",
+    "input": "3+4,SNE 2",
     "hit_level": "m,​m",
     "damage": "20,​20",
     "startup": "i14~15",
     "block": "-1",
     "hit": "+35a (+9)",
     "counter": "",
-    "note": "Combo from 1st hit\nConsumes SE\nChip damage 8 (40%) on block"
+    "note": "Combo from 1st hit\nConsumes SNE\nChip damage 8 (40%) on block"
   },
   {
-    "input": "3+4,​SE.2*",
+    "input": "3+4,SNE 2*",
     "hit_level": "m,​m",
     "damage": "20,​30",
     "startup": "i55~56",
     "block": "+9",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "Consumes SE\nChip damage on block\nGuard break at the wall\nInsta Tornado launcher"
+    "note": "Consumes SNE\nChip damage on block\nInsta Tornado launcher"
   },
   {
-    "input": "f+2,​1,​SE.2",
+    "input": "f+2,1,SNE 2",
     "hit_level": "m,​m,​m",
     "damage": "10,​12,​5",
     "startup": "i14~15",
     "block": "-12",
     "hit": "+3c",
     "counter": "",
-    "note": "Combo from 1st hit\nConsumes SE\nChip damage 1 (20%) on block"
+    "note": "Combo from 1st hit\nConsumes SNE\nChip damage 1 (20%) on block"
   },
   {
-    "input": "f+2,​1,​SE.2,​3",
+    "input": "f+2,1,SNE 2,3",
     "hit_level": "m,​m,​m,​m",
     "damage": "10,​12,​5,​7",
     "startup": ",i22",
@@ -1210,7 +1200,7 @@
     "note": "Combo from 1st hit\nChip damage 2 (28%) on block"
   },
   {
-    "input": "f+2,​1,​SE.2,​3,​2",
+    "input": "f+2,1,SNE 2,3,2",
     "hit_level": "m,​m,​m,​m,​m",
     "damage": "10,​12,​5,​7,​20",
     "startup": ",i35~36",
@@ -1220,17 +1210,17 @@
     "note": "Chip damage 8 (40%) on block"
   },
   {
-    "input": "uf+2,​2,​2,​SE.2",
+    "input": "uf+2,2,2,SNE 2",
     "hit_level": "m,​m,​m,​m",
     "damage": "6,​4,​4,​?",
     "startup": "i10",
     "block": "-12",
     "hit": "+21a (+14)",
     "counter": "",
-    "note": "6 (4) damage on airborne opponent at 70% scaling - 9 damage?\nConsumes SE\nChip damage 2 (22%) on block"
+    "note": "6 (4) damage on airborne opponent at 70% scaling - 9 damage?\nConsumes SNE\nChip damage 2 (22%) on block"
   },
   {
-    "input": "uf+2,​2,​2,​SE.2,​2",
+    "input": "uf+2,2,2,SNE 2,2",
     "hit_level": "m,​m,​m,​m,​m",
     "damage": "6,​4,​4,​?,​?",
     "startup": "i10",
@@ -1240,7 +1230,7 @@
     "note": "4 (2) damage on airborne opponent at 50% (70%) scaling\nChip damage 2 (22%) on block"
   },
   {
-    "input": "uf+2,​2,​2,​SE.2,​2,​3",
+    "input": "uf+2,2,2,SNE 2,2,3",
     "hit_level": "m,​m,​m,​m,​m,​m",
     "damage": "6,​4,​4,​?,​?,​?",
     "startup": "i22~23",
@@ -1250,24 +1240,24 @@
     "note": "9 (6) damage on airborne opponent at 40% (70%) scaling\nChip damage 9 (39%) on block"
   },
   {
-    "input": "SE.f,​F+1+2",
+    "input": "SNE f,F+1+2",
     "hit_level": "h",
     "damage": "36",
     "startup": "i13",
     "block": "+5",
     "hit": "+33a (+7)",
     "counter": "",
-    "note": "Consumes SE\nChip damage 14 (38%) on block\nTransition into Immortal Payback on opponent attack absorb"
+    "note": "Consumes SNE\nChip damage 14 (38%) on block\nTransition into Immortal Payback on opponent attack absorb"
   },
   {
-    "input": "SE.f,​F+1+2 (on absorb)",
+    "input": "SNE f,F+1+2 (on absorb)",
     "hit_level": "m",
     "damage": "20",
     "startup": "i13",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Consumes SE (again?)[untested]"
+    "note": "Consumes SNE (again?)[untested]"
   },
   {
     "input": "qcf",
@@ -1280,7 +1270,7 @@
     "note": "Alternate input d,df\nTransition to FC with DF\nLapses to standing"
   },
   {
-    "input": "SLS.2",
+    "input": "SLS 2",
     "hit_level": "h",
     "damage": "16",
     "startup": "i15~16",
@@ -1290,7 +1280,7 @@
     "note": ""
   },
   {
-    "input": "SLS.2,​1",
+    "input": "SLS 2,1",
     "hit_level": "h,​m",
     "damage": "16,​23",
     "startup": "i15~16",
@@ -1300,7 +1290,7 @@
     "note": ""
   },
   {
-    "input": "SLS.2,​2",
+    "input": "SLS 2,2",
     "hit_level": "h,​m",
     "damage": "16,​25",
     "startup": "i25",
@@ -1310,7 +1300,7 @@
     "note": "Combo from 1st hit"
   },
   {
-    "input": "SLS.2,​4",
+    "input": "SLS 2,4",
     "hit_level": "h,​m",
     "damage": "16,​22",
     "startup": "i16~17",
@@ -1320,7 +1310,7 @@
     "note": "Combo from 1st hit\nGain SE on hit -12a"
   },
   {
-    "input": "SLS.4",
+    "input": "SLS 4",
     "hit_level": "m",
     "damage": "13",
     "startup": "i18",
@@ -1330,7 +1320,7 @@
     "note": ""
   },
   {
-    "input": "SLS.4,​1",
+    "input": "SLS 4,1",
     "hit_level": "m,​h",
     "damage": "13,​13",
     "startup": "i18",
@@ -1340,7 +1330,7 @@
     "note": "Combo from 1st CH\nTransition to SS with u_d\nAlternate input:\n1,4,2,1\nb+2,11,4,2,1\nb+2,1"
   },
   {
-    "input": "SLS.4,​1,​2",
+    "input": "SLS 4,1,2",
     "hit_level": "m,​h,​h",
     "damage": "13,​13,​22",
     "startup": "i18",
@@ -1350,7 +1340,7 @@
     "note": "Alternate input:\n1,4,2,1,2\nb+2,1,21,4,2,1,2\nb+2,1,2"
   },
   {
-    "input": "SLS.4,​1,​4",
+    "input": "SLS 4,1,4",
     "hit_level": "m,​h,​m",
     "damage": "13,​13,​20",
     "startup": "i18",
@@ -1360,7 +1350,7 @@
     "note": "Alternate input:\n1,4,2,1,4\nb+2,1,41,4,2,1,4\nb+2,1,4"
   },
   {
-    "input": "SLS.1+2",
+    "input": "SLS 1+2",
     "hit_level": "m",
     "damage": "28",
     "startup": "i15~16",
@@ -1380,7 +1370,7 @@
     "note": ""
   },
   {
-    "input": "qcb+1",
+    "input": "SWA 1",
     "hit_level": "h",
     "damage": "22",
     "startup": "i13~14",
@@ -1390,7 +1380,7 @@
     "note": "Insta Tornado launcher on CH\nChip damage 6 (27%) on block"
   },
   {
-    "input": "qcb+2",
+    "input": "SWA 2",
     "hit_level": "m",
     "damage": "16",
     "startup": "i15~16",
@@ -1400,7 +1390,7 @@
     "note": ""
   },
   {
-    "input": "qcb+2,​4",
+    "input": "SWA 2,4",
     "hit_level": "m,​h",
     "damage": "16,​25",
     "startup": ",i22~25",
@@ -1410,7 +1400,7 @@
     "note": "Combo from 1st hit with delay\nChip damage on block"
   },
   {
-    "input": "qcb+3",
+    "input": "SWA 3",
     "hit_level": "l",
     "damage": "23",
     "startup": "i19~20",
@@ -1420,7 +1410,7 @@
     "note": ""
   },
   {
-    "input": "qcb+4",
+    "input": "SWA 4",
     "hit_level": "M",
     "damage": "23",
     "startup": "i17~18",
@@ -1470,7 +1460,7 @@
     "note": ""
   },
   {
-    "input": "ss2,​1",
+    "input": "ss2,1",
     "hit_level": "m,​h",
     "damage": "15,​20",
     "startup": "i21~22",
@@ -1540,7 +1530,7 @@
     "note": "Throw break 1+2"
   },
   {
-    "input": "FC.db+1+2",
+    "input": "FC db+1+2",
     "hit_level": "t",
     "damage": "45",
     "startup": "i11",

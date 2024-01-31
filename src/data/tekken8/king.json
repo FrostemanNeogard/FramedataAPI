@@ -1,0 +1,72 @@
+[
+  {
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "f+2,1",
+    "hit_level": "m,​h",
+    "damage": "12,​25",
+    "startup": "i15~18",
+    "block": "+1",
+    "hit": "+2",
+    "counter": "",
+    "note": "Heat Engager"
+  },
+  {
+    "input": "f+2+3",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i20",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": "Heat Engager"
+  },
+  {
+    "input": "db+1+2,2",
+    "hit_level": "m,​m",
+    "damage": "15,​25",
+    "startup": "i15",
+    "block": "-9",
+    "hit": "+35",
+    "counter": "",
+    "note": "Heat Engager"
+  },
+  {
+    "input": "",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "input": "1",
+    "hit_level": "h",
+    "damage": "5",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": ""
+  }
+]
