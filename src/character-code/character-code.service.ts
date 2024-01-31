@@ -537,8 +537,8 @@ export class CharacterCodeService {
     this.logger.log(`Fetching character code for ${characterName}`);
     const formattedCharacterName = this.characterMap[characterName];
     if (!formattedCharacterName) {
-      this.logger.error("Couldn't format character name:", characterName);
-      throw new BadRequestException();
+      this.logger.error(`Couldn't format character name: ${characterName}.`);
+      throw new BadRequestException("Couldn't find the given character.");
     }
     return { characterCode: formattedCharacterName };
   }
