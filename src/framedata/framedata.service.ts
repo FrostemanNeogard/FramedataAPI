@@ -60,7 +60,7 @@ export class FramedataService {
     }
     if (!attackInfo[0]) {
       this.logger.error(`Couldn't find attack: ${notation}`);
-      throw new BadRequestException(`Attack not found.`);
+      throw new BadRequestException(`No data found for the given attack.`);
     }
     this.logger.log(`Found attack: ${attackInfo[0].input}`);
     return attackInfo[0];
