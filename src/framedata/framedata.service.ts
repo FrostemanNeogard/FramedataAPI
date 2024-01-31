@@ -79,11 +79,12 @@ export class FramedataService {
       .replaceAll('qcb', 'd,db,b')
       .replaceAll('hcf', 'b,db,f,df,f')
       .replaceAll('hcb', 'f,df,d,db,d')
+      .replaceAll('ewgf', 'f,n,d,df:2')
       .replaceAll('.', '')
       .replaceAll(/ *\([^)]*\) */g, '')
       .split('or')
       .pop()
-      .replace(/[\s,:/()]/g, '');
+      .replace(/[\s,/()]/g, '');
 
     if (removePlus) {
       modifiedNotation = modifiedNotation.replaceAll(/\+/g, '');
