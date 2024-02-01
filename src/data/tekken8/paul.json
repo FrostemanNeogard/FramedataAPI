@@ -936,7 +936,7 @@
   },
   {
     "name": "Thruster",
-    "input": "CS 1",
+    "input": "qcf+1",
     "hit_level": "h",
     "damage": "21",
     "startup": "i16~17",
@@ -947,7 +947,7 @@
   },
   {
     "name": "Phoenix Smasher",
-    "input": "CS 2",
+    "input": "qcf+2",
     "hit_level": "m",
     "damage": "45",
     "startup": "i13~14",
@@ -958,7 +958,7 @@
   },
   {
     "name": "Gengetsu",
-    "input": "CS 3",
+    "input": "qcf+3",
     "hit_level": "L",
     "damage": "18",
     "startup": "i18~19",
@@ -969,7 +969,7 @@
   },
   {
     "name": "Gunba",
-    "input": "CS 1+2",
+    "input": "qcf+1+2",
     "hit_level": "L",
     "damage": "20",
     "startup": "i32~33",
@@ -980,7 +980,7 @@
   },
   {
     "name": "Mountain Raze",
-    "input": "CS 3+4",
+    "input": "qcf+3+4",
     "hit_level": "m",
     "damage": "22",
     "startup": "i19~20",
@@ -1146,6 +1146,94 @@
   {
     "name": "Unseen Gust",
     "input": "SWA 1+2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i16~17",
+    "block": "-14",
+    "hit": "+37a (+27)",
+    "counter": "",
+    "note": "\n\nTornado \n"
+  },
+  {
+    "name": "God Hammer Punch",
+    "input": "qcb+1",
+    "hit_level": "M",
+    "damage": "24",
+    "startup": "i21~22",
+    "block": "0c",
+    "hit": "+21d",
+    "counter": "+53a",
+    "note": "\nChip damage\n"
+  },
+  {
+    "name": "Rubber Band Attack",
+    "input": "qcb+2",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i15",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n"
+  },
+  {
+    "name": "Rapid Fire",
+    "input": "qcb+3",
+    "hit_level": "L",
+    "damage": "14",
+    "startup": "i18~19",
+    "block": "-21c",
+    "hit": "-10g",
+    "counter": "+21a",
+    "note": ""
+  },
+  {
+    "name": "",
+    "input": "qcb+3,2",
+    "hit_level": "L,m",
+    "damage": "14,20",
+    "startup": "i27~28",
+    "block": "-10",
+    "hit": "+6",
+    "counter": "",
+    "note": "\nCombo from 1st CH\n"
+  },
+  {
+    "name": "Petal Strike",
+    "input": "qcb+3,2,1",
+    "hit_level": "L,m,h",
+    "damage": "14,20,25",
+    "startup": "i18~19",
+    "block": "-5",
+    "hit": "+21(-5)",
+    "counter": "",
+    "note": "\n\nTornado\nCombo from 1st CH\n"
+  },
+  {
+    "name": "Lightning Breaker",
+    "input": "qcb+3,2,3",
+    "hit_level": "L,m,m",
+    "damage": "14,2022",
+    "startup": "i25~26",
+    "block": "-13c",
+    "hit": "+10g",
+    "counter": "+46a",
+    "note": "\n\nSpike\nCombo from 1st CH\n"
+  },
+  {
+    "name": "Kawaragoma",
+    "input": "qcb+4",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i15~16",
+    "block": "+1",
+    "hit": "+23d (+14)",
+    "counter": "+59a",
+    "note": "\n\nHoming\nChip damage on block\n"
+  },
+  {
+    "name": "Unseen Gust",
+    "input": "qcb+1+2",
     "hit_level": "m",
     "damage": "22",
     "startup": "i16~17",
