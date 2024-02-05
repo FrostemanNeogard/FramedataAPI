@@ -57,6 +57,9 @@ export class FramedataService {
         (item) =>
           this.formatNotation(item.input, removePlus) === formattedNotation,
       );
+      if (!!attackInfo[0]) {
+        break;
+      }
     }
     if (!attackInfo[0]) {
       this.logger.error(`Couldn't find attack: ${notation}`);
