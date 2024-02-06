@@ -83,6 +83,8 @@ export class FramedataService {
       .replaceAll('hcf', 'b,db,f,df,f')
       .replaceAll('hcb', 'f,df,d,db,d')
       .replaceAll('ewgf', 'f,n,d,df:2')
+      .replaceAll('heat smash', 'in heat 2+3')
+      .replaceAll('heat burst', '2+3')
       .replaceAll('.', '')
       .replaceAll(/ *\([^)]*\) */g, '')
       .split('or')
