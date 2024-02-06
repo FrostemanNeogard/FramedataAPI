@@ -936,7 +936,7 @@
   },
   {
     "name": "Thruster",
-    "input": "qcf+1",
+    "input": "CS 1",
     "hit_level": "h",
     "damage": "21",
     "startup": "i16~17",
@@ -947,7 +947,7 @@
   },
   {
     "name": "Phoenix Smasher",
-    "input": "qcf+2",
+    "input": "CS 2",
     "hit_level": "m",
     "damage": "45",
     "startup": "i13~14",
@@ -958,7 +958,7 @@
   },
   {
     "name": "Gengetsu",
-    "input": "qcf+3",
+    "input": "CS 3",
     "hit_level": "L",
     "damage": "18",
     "startup": "i18~19",
@@ -969,7 +969,7 @@
   },
   {
     "name": "Gunba",
-    "input": "qcf+1+2",
+    "input": "CS 1+2",
     "hit_level": "L",
     "damage": "20",
     "startup": "i32~33",
@@ -980,7 +980,7 @@
   },
   {
     "name": "Mountain Raze",
-    "input": "qcf+3+4",
+    "input": "CS 3+4",
     "hit_level": "m",
     "damage": "22",
     "startup": "i19~20",
@@ -1119,7 +1119,7 @@
     "block": "-5",
     "hit": "+21(-5)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st CH\n"
+    "note": "\n\nTornado\nCombo from 1st CH\nWall Stagger on Block\n"
   },
   {
     "name": "Lightning Breaker",

@@ -61,7 +61,7 @@
     "damage": "5,8,20",
     "startup": ",i19~20",
     "block": "-14",
-    "hit": "+15c",
+    "hit": "+15gc",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\n\nBalcony Break\nCombo from 1st or 2nd CH"
   },
@@ -193,7 +193,7 @@
     "damage": "5,8,20",
     "startup": ",i19~20",
     "block": "-14",
-    "hit": "+15c",
+    "hit": "+15gc",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\n\nBalcony Break\nCombo from 1st or 2nd CH"
   },
@@ -830,8 +830,8 @@
     "hit_level": "m,m,h",
     "damage": "15,15,17",
     "startup": ",i23~24",
-    "block": "-7",
-    "hit": "+4c",
+    "block": "+1",
+    "hit": "+5",
     "counter": "+14",
     "note": "\nCombo from 1st CH\nCombo from 2nd hit with delay"
   },

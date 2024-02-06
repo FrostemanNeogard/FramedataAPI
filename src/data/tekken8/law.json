@@ -1641,8 +1641,8 @@
   {
     "name": "Blackout",
     "input": "1+2+3+4~1",
-    "hit_level": "sph",
-    "damage": "-10",
+    "hit_level": "h",
+    "damage": "10",
     "startup": "i12",
     "block": "-5",
     "hit": "+6",
@@ -1652,8 +1652,8 @@
   {
     "name": "Blackout > Muggin'",
     "input": "1+2+3+4~1,3",
-    "hit_level": "sph,l",
-    "damage": "-10,10",
+    "hit_level": "h,l",
+    "damage": "10,10",
     "startup": "i19",
     "block": "-13",
     "hit": "-1",

@@ -1718,8 +1718,8 @@
   {
     "name": "Naniwa Ultimate Tackle",
     "input": "1+2+3+4,1+2",
-    "hit_level": "sp,t(m)",
-    "damage": "-,5,5",
+    "hit_level": ",t(m)",
+    "damage": ",5,5",
     "startup": "i61",
     "block": "-6",
     "hit": "LNC",
@@ -1729,8 +1729,8 @@
   {
     "name": "Eternal Punishment",
     "input": "1+2+3+4,1+2,1,2,1,2",
-    "hit_level": "sp,t(m)",
-    "damage": "-,5,5,5,5,5,10",
+    "hit_level": ",t(m)",
+    "damage": ",5,5,5,5,5,10",
     "startup": "i61",
     "block": "",
     "hit": "",

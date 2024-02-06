@@ -2026,8 +2026,8 @@
   {
     "name": "Dead End",
     "input": "1+2+3+4,b,f,1+2",
-    "hit_level": "sp,m!",
-    "damage": "-,60",
+    "hit_level": ",m!",
+    "damage": ",60",
     "startup": ",i59~61",
     "block": "",
     "hit": "+21a (+11)",
@@ -2059,8 +2059,8 @@
   {
     "name": "Pandra Spin",
     "input": "UB,b,3+4",
-    "hit_level": "sp,M!,M!,M!",
-    "damage": "-,20,20,20",
+    "hit_level": ",M!,M!,M!",
+    "damage": ",20,20,20",
     "startup": ",i38~40 i46~49 i51~54",
     "block": "",
     "hit": "-19a",

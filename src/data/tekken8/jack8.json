@@ -85,7 +85,7 @@
     "block": "",
     "hit": "+6d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot cancel into Heat Dash\nCrouch Throw\nUnbreakable\nAlternate input GMH.2+4\n"
+    "note": "\n\nHeat Engager\n\nCannot cancel into Heat Dash\nCrouch Throw (Unbreakable)\nAlternate input GMH.2+4\n"
   },
   {
     "name": "Gamma Howl (Gamma Charge)",
@@ -1617,6 +1617,17 @@
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break\nChip damage on block\n"
   },
   {
+    "name": "Mimesis Overkill",
+    "input": "GMin heat 1+2",
+    "hit_level": "t",
+    "damage": "45 (57)",
+    "startup": "i16",
+    "block": "-6",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n57 Damage if opponent hits the wall\nThrow Break 1+2\nSwaps positions on break"
+  },
+  {
     "name": "Particle Barrier",
     "input": "GMin heat 3+4",
     "hit_level": "s",
@@ -1824,5 +1835,203 @@
     "hit": "+39d",
     "counter": "",
     "note": "\nRecovers in SIT, then stands up "
+  },
+  {
+    "name": "Rotary Catapult",
+    "input": "1+3",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12",
+    "block": "+0",
+    "hit": "+1d",
+    "counter": "",
+    "note": "\nThrow Break 1 or 2\n"
+  },
+  {
+    "name": "Piston Gun Back Breaker",
+    "input": "2+4",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12",
+    "block": "-6",
+    "hit": "-3d",
+    "counter": "",
+    "note": "\nThrow Break 1 or 2\nSide Switch"
+  },
+  {
+    "name": "Side Left Bomb",
+    "input": "Left Throw",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "+1d",
+    "counter": "",
+    "note": "\nThrow Break 1\n\nBalcony Break "
+  },
+  {
+    "name": "Father's Love",
+    "input": "Right Throw",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nThrow Break 2\nSide Swap "
+  },
+  {
+    "name": "Spinal Crush",
+    "input": "Back Throw 1+3",
+    "hit_level": "t",
+    "damage": "70",
+    "startup": "i12",
+    "block": "!",
+    "hit": "+3d",
+    "counter": "",
+    "note": "\nUnbreakable\n\nFloor Break "
+  },
+  {
+    "name": "Throw Away",
+    "input": "Back Throw 2+4",
+    "hit_level": "t",
+    "damage": "70",
+    "startup": "i12",
+    "block": "!",
+    "hit": "+17d",
+    "counter": "",
+    "note": "\nUnbreakable\n\nBalcony Break "
+  },
+  {
+    "name": "Volcano",
+    "input": "df+2+4",
+    "hit_level": "t",
+    "damage": "10",
+    "startup": "i11",
+    "block": "-2",
+    "hit": "+26a",
+    "counter": "",
+    "note": "\nThrow Break 2\n"
+  },
+  {
+    "name": "Volcano Blaster",
+    "input": "df,DF+2+4",
+    "hit_level": "t",
+    "damage": "10",
+    "startup": "i11",
+    "block": "-2",
+    "hit": "+54a",
+    "counter": "",
+    "note": "\nThrow Break 2\n"
+  },
+  {
+    "name": "Body Smash",
+    "input": "db+2+3",
+    "hit_level": "t",
+    "damage": "25",
+    "startup": "i11",
+    "block": "-2",
+    "hit": "+14c",
+    "counter": "",
+    "note": "\nThrow Break 2\n\nFloor Break "
+  },
+  {
+    "name": "Ground Zero",
+    "input": "uf+1+2",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i11",
+    "block": "-6",
+    "hit": "-10d",
+    "counter": "",
+    "note": "\nThrow Break 1+2\n\nFloor Break "
+  },
+  {
+    "name": "Lift Up Megaton hit",
+    "input": "uf+1+2,d,df+2",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i11",
+    "block": "-6",
+    "hit": "+19a (-7)",
+    "counter": "",
+    "note": "\nThrow Break 1+2\n\nBalcony Break\nWallsplats opponent"
+  },
+  {
+    "name": "Pile Driver",
+    "input": "db,n,f+1+2",
+    "hit_level": "t",
+    "damage": "50",
+    "startup": "i11",
+    "block": "-6",
+    "hit": "-1d",
+    "counter": "",
+    "note": "\nThrow Break 1+2\n\nFloor Break "
+  },
+  {
+    "name": "Pyramid Driver",
+    "input": "qcf+1",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i11",
+    "block": "-2",
+    "hit": "-2d",
+    "counter": "",
+    "note": "\nThrow Break 1\n\nFloor Break "
+  },
+  {
+    "name": "Back Breaker",
+    "input": "qcb+2",
+    "hit_level": "t",
+    "damage": "45",
+    "startup": "i11",
+    "block": "-2",
+    "hit": "+12d",
+    "counter": "",
+    "note": "\nThrow Break 2 "
+  },
+  {
+    "name": "Mimesis Overkill",
+    "input": "GMin heat 1+2",
+    "hit_level": "t",
+    "damage": "45 (57)",
+    "startup": "i16",
+    "block": "-6",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n57 Damage if opponent hits the wall\nThrow Break 1+2\nSwaps positions on break"
+  },
+  {
+    "name": "Gun Bomb",
+    "input": "d+1+3",
+    "hit_level": "t",
+    "damage": "30",
+    "startup": "i12",
+    "block": "!",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nCrouch Throw (Unbreakable)\n\nFloor Break\nAlternate input GMH.1+3"
+  },
+  {
+    "name": "Iron Gunman",
+    "input": "d+2+4",
+    "hit_level": "t",
+    "damage": "25",
+    "startup": "i12",
+    "block": "",
+    "hit": "+6d",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nCannot cancel into Heat Dash\nCrouch Throw (Unbreakable)\nAlternate input GMH.2+4\n"
+  },
+  {
+    "name": "Twin Drivers",
+    "input": "(During Enemy wall stun) 1+3",
+    "hit_level": "t",
+    "damage": "33",
+    "startup": "i12",
+    "block": "!",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nWall throw (Unbreakable)\nAlternate input 2+4 or uf+1+2 "
   }
 ]
