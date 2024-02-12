@@ -15,11 +15,253 @@
     "input": "in heat 2+3",
     "hit_level": "M,m,m,m",
     "damage": "51",
-    "startup": "i18~19 i40~41 i68~69 i78~79",
+    "startup": "i18~19",
     "block": "+4~+5",
     "hit": "-3d",
     "counter": "",
     "note": "\n\njs68~89 fs90~92 (on block/whiff)\nis1?~12? fs13~19 js20~29 fs30~32 (on cancel)\n\nHeat Smash\n\nBalcony Break\nRecovers health on hit\nTransition to r29 DGF on block with U, +10~+11\nTransition to attack throw after 1st hit\nIgnores regular power crush armor\n14 chip damage on block\nJail from 1st attack\nUnparryable\nEnds Heat"
+  },
+  {
+    "name": "Enma's Flame",
+    "input": "3,1",
+    "hit_level": "m,h",
+    "damage": "12,22",
+    "startup": ",i22~24",
+    "block": "+7~+9",
+    "hit": "+18g~+20g",
+    "counter": "",
+    "note": "\n,js26~\n\nHeat Engager\n\n\nHeat Dash +5g~7g +62a (+42)\n\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\n4 chip damage on block\nDoes not transition to DGF during Heat activation and Heat Dash\nPower up in NSS or Heat\nRecovers in 1SS"
+  },
+  {
+    "name": "Kuzuryu",
+    "input": "f+1+2",
+    "hit_level": "M",
+    "damage": "23",
+    "startup": "i20",
+    "block": "-12",
+    "hit": "+8a (-1)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +62a (+42)\n\n\nBalcony Break\n\nWeapon\n4 chip damage on block\n29 damage and extended range in NSS or Heat"
+  },
+  {
+    "name": "Oma Kugiuchi",
+    "input": "b+2,2",
+    "hit_level": "m,h",
+    "damage": "12,21",
+    "startup": ",i22~23",
+    "block": "-13",
+    "hit": "+2a",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g~+6g +36a (26)\n\n\nWeapon\nCombo from 1st with 1f delay\nCombo from 1st CH with 7f delay\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,2"
+  },
+  {
+    "name": "Ganto",
+    "input": "KIN f+2",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i12~13",
+    "block": "-1~+0",
+    "hit": "+9a (+0)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5g~+6g +34a\n\n\nHoming\n\nBalcony Break\n\nWeapon\nWall crush on block +11g minimum, 3 damage on wall hit"
+  },
+  {
+    "name": "Dragonfly Twister",
+    "input": "DGF 4",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i18~20",
+    "block": "-4~-2",
+    "hit": "+14g~+15g",
+    "counter": "",
+    "note": "\njs1~16 fs17~19\n\nHeat Engager\n\n\nHeat Dash +5g~+7g +62a (+42)\n\n\nBalcony Break"
+  },
+  {
+    "name": "Dragonfly Blade (Heat)",
+    "input": "in heat DGF 1",
+    "hit_level": "M",
+    "damage": "20",
+    "startup": "i30~31",
+    "block": "+2~+3",
+    "hit": "+46a",
+    "counter": "",
+    "note": "\njs1~27\n\nSpike\n\nWeapon\n14 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "Red Spider Lily (Heat)",
+    "input": "in heat DGF f+1+2",
+    "hit_level": "h,h,h",
+    "damage": "10,10,20",
+    "startup": "i16~17 i11~12 i11~12",
+    "block": "+4~+5",
+    "hit": "+18a (+9)",
+    "counter": "",
+    "note": "\njs1~65\n\nHoming\n\nBalcony Break\n\nWeapon\n17 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Naguri Kabuto Wari",
+    "input": "1,NSS 1",
+    "hit_level": "h,m",
+    "damage": "7,22",
+    "startup": ",i23",
+    "block": "-9",
+    "hit": "+16a",
+    "counter": "+52a",
+    "note": "\n\nBalcony Break\n11 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Enma's Flame",
+    "input": "3,NSS 1",
+    "hit_level": "m,h",
+    "damage": "12,25",
+    "startup": ",i22~24",
+    "block": "+7~+9",
+    "hit": "+18g~+20g",
+    "counter": "",
+    "note": "\n,js26~\n\nHeat Engager\n\n\nHeat Dash +5g~7g +62a (+42)\n\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\n7 chip damage on block\nRecovers health no hit\nDoes not transition to DGF during Heat Dash\nRecovers in 1SS"
+  },
+  {
+    "name": "Enma's Soul Blade",
+    "input": "3,2,NSS 1+2",
+    "hit_level": "m,m,M",
+    "damage": "12,12,30",
+    "startup": ",i26~27",
+    "block": "-14c~-13c",
+    "hit": "+20a (+10)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 2nd hit\n15 chip damage on block\nClean hit 39 damage\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Flash",
+    "input": "NSS 1+4",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i8~11",
+    "block": "-15~-12",
+    "hit": "+14 +64a",
+    "counter": "",
+    "note": "\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit\nAlternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4"
+  },
+  {
+    "name": "NSS Kuzuryu",
+    "input": "NSS f+1+2",
+    "hit_level": "M",
+    "damage": "29",
+    "startup": "i20",
+    "block": "-12",
+    "hit": "+8a (-1)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +62a (+42)\n\n\nBalcony Break\n\nWeapon\n8 chip damage on block\nExtended range"
+  },
+  {
+    "name": "Wood Chopper",
+    "input": "df+3,NSS 1",
+    "hit_level": "m,M",
+    "damage": "10,24",
+    "startup": ",i23~24",
+    "block": "-9~-8",
+    "hit": "+16a",
+    "counter": "+6a",
+    "note": "\n\nSpike\n\nWeapon\nCombo from 1st hit\nRecovers health on hit\n12 chip damage on block\nInput can be held to transition to d+1*"
+  },
+  {
+    "name": "Quick Chop",
+    "input": "NSS d+1",
+    "hit_level": "M",
+    "damage": "24",
+    "startup": "i24~25",
+    "block": "-9~-8",
+    "hit": "+16a",
+    "counter": "+6a",
+    "note": "\n\nSpike\n\nWeapon\nRecovers health on hit\n12 chip damage on block\nInput can be held to transition to d+1*"
+  },
+  {
+    "name": "Soul Blade Yoshimitsu",
+    "input": "NSS ub+1+2",
+    "hit_level": "M",
+    "damage": "30",
+    "startup": "i24~25",
+    "block": "-8c~-7c",
+    "hit": "+16a (+6)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nWeapon\n15 chip damage on block\nClean hit 39 damage\nRecovers health on hit\n-12c~-13c if blocked at tip range"
+  },
+  {
+    "name": "NSS Poison Wind Gold Strike",
+    "input": "uf+3+4,1,4,NSS 1",
+    "hit_level": "M,h,m,M",
+    "damage": "20,8,15,15",
+    "startup": ",i24~25",
+    "block": "-9~-8",
+    "hit": "+16a",
+    "counter": "+52a",
+    "note": "\n\nSpike\n\nWeapon\nCan transition to d+1*,n\n12 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "",
+    "input": "KIN 1,NSS 1",
+    "hit_level": "m,m,m",
+    "damage": "10,5,20",
+    "startup": ",i23~24 i14~15",
+    "block": "-1~+0",
+    "hit": "+37a (+29)",
+    "counter": "",
+    "note": "\n\nSpike\n\nWeapon\nCombo from 1st hit with 2f delay\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Tenshu Kuzushi",
+    "input": "KIN 2,NSS 1+2",
+    "hit_level": "m,M",
+    "damage": "15,30",
+    "startup": "i32~34",
+    "block": "-3~-1",
+    "hit": "+15a",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nSpike\n\nWeapon\n9 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Tenshu Kuzushi (Hold)",
+    "input": "KIN 2,NSS 1+2*",
+    "hit_level": "m,M",
+    "damage": "15,30",
+    "startup": ",i47~49",
+    "block": "+14~+16",
+    "hit": "+69a (+49)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nSpike\n\nWeapon\nGuard break\n12 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Kincho Flash",
+    "input": "NSS KIN 1+4",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i12~15",
+    "block": "-15~-12",
+    "hit": "+14 +64a",
+    "counter": "",
+    "note": "\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Submission Chakram",
+    "input": "NSS KIN f+1",
+    "hit_level": "M,M,M",
+    "damage": "6,6,12",
+    "startup": "i19~20 i6~7 i7~8",
+    "block": "-5~-4",
+    "hit": "+18a (+11)",
+    "counter": "",
+    "note": "\n\nWeapon\nCombos from any hit\n12 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Submission Chakram (Hold)",
+    "input": "NSS KIN f+1*",
+    "hit_level": "M,M,M,M,M,M",
+    "damage": "6,6,6,6,6,12",
+    "startup": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
+    "block": "--9~-8",
+    "hit": "+29a (+14)",
+    "counter": "",
+    "note": "\n\nWeapon\nCombos from any hit\n21 chip damage on block\nRecovers health on hit"
   },
   {
     "name": "Jab",
@@ -162,7 +404,7 @@
     "block": "-13~-12",
     "hit": "+52a (+42)",
     "counter": "",
-    "note": "\ncs4~22 fs10~50Tornado"
+    "note": "\ncs4~22 fs10~50\n\nTornado\nUnparryable by traditional parries, Asuka, Nina, etc"
   },
   {
     "name": "Magic 4",
@@ -316,7 +558,7 @@
     "block": "-6~-5",
     "hit": "+37a (+23a)",
     "counter": "",
-    "note": "\n,js12~20 fs21~23\n\nKnee\n18f delay after 1st attack\nInterrupt with i17 from 1st block"
+    "note": "\n,js30~38 fs39~41\n\nKnee\n18f delay after 1st attack\nInterrupt with i17 from 1st block"
   },
   {
     "name": "Toita Daoshi",
@@ -650,7 +892,7 @@
   },
   {
     "name": "",
-    "input": "d+1+4,B+1",
+    "input": "d+1+4,?B+1",
     "hit_level": "m!,m!",
     "damage": "60,18",
     "startup": ",i1~39",
@@ -661,7 +903,7 @@
   },
   {
     "name": "",
-    "input": "d+1+4,B+1,1",
+    "input": "d+1+4,?B+1,1",
     "hit_level": "m!,m!,m!",
     "damage": "60,18,20",
     "startup": ",i1~18",
@@ -672,7 +914,7 @@
   },
   {
     "name": "",
-    "input": "d+1+4,B+1,1,1",
+    "input": "d+1+4,?B+1,1,1",
     "hit_level": "m!,m!,m!,m!",
     "damage": "60,18,20,21",
     "startup": ",i1~18",
@@ -683,7 +925,7 @@
   },
   {
     "name": "",
-    "input": "d+1+4,B+1,1,1,1",
+    "input": "d+1+4,?B+1,1,1,1",
     "hit_level": "m!,m!,m!,m!,m!",
     "damage": "60,18,20,21,28",
     "startup": ",i1~18",
@@ -694,7 +936,7 @@
   },
   {
     "name": "Harakiri > Manji Blood Dance",
-    "input": "d+1+4,B+1,1,1,1,1",
+    "input": "d+1+4,?B+1,1,1,1,1",
     "hit_level": "m!,m!,m!,m!,m!,m!",
     "damage": "60,18,20,21,28,30",
     "startup": ",i1~35",
@@ -1268,7 +1510,7 @@
     "name": "Poison Wind Gold Strike",
     "input": "uf+3+4,1,4,1",
     "hit_level": "M,h,m,M",
-    "damage": "20,8,1515",
+    "damage": "20,8,15,15",
     "startup": ",i24~25",
     "block": "-9~-8",
     "hit": "+1c~+2c",
@@ -1322,9 +1564,9 @@
   {
     "name": "Death Copter Slice (1)",
     "input": "uf+1+3,d",
-    "hit_level": "M!,M",
-    "damage": "40,25",
-    "startup": ",i55~56",
+    "hit_level": "M",
+    "damage": "25",
+    "startup": "i55~56",
     "block": "-3~-2",
     "hit": "+34a",
     "counter": "",
@@ -1333,9 +1575,9 @@
   {
     "name": "Death Copter Slice (2)",
     "input": "uf+1+3>d",
-    "hit_level": "M!,M",
-    "damage": "40,30",
-    "startup": ",i83~84",
+    "hit_level": "M",
+    "damage": "30",
+    "startup": "i83~84",
     "block": "-1c~+0c",
     "hit": "+34a",
     "counter": "",
@@ -1344,9 +1586,9 @@
   {
     "name": "Death Copter Trick",
     "input": "uf+1+3,b",
-    "hit_level": "M!,M!",
-    "damage": "40,35",
-    "startup": ",i55~56",
+    "hit_level": "M!",
+    "damage": "35",
+    "startup": "i55~56",
     "block": "",
     "hit": "+24a",
     "counter": "",
@@ -2021,22 +2263,11 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCan be canceled into a backturned attack\nCan be cancelled into instant while standing"
+    "note": "\nCan be cancelled into a backturned attack\nCan be cancelled into instant while standing\nCloses distance with the opponent"
   },
   {
     "name": "",
-    "input": "MED b",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\nCan be canceled into a backturned move\nCan be cancelled into instant while standing"
-  },
-  {
-    "name": "",
-    "input": "MED u",
+    "input": "MED d",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2047,7 +2278,18 @@
   },
   {
     "name": "",
-    "input": "MED d",
+    "input": "MED b",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nCan be cancelled into a backturned move\nCan be cancelled into instant while standing\nCreates distance with the opponent"
+  },
+  {
+    "name": "",
+    "input": "MED u",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -2120,18 +2362,18 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs8~17 fs18~20\nAlternate input: BT.d+1+2\nUnavailable in NSS"
   },
   {
     "name": "Flea Idle",
     "input": "FLE n",
     "hit_level": "m",
-    "damage": "",
+    "damage": "7",
     "startup": "i2~60",
-    "block": "",
-    "hit": "",
+    "block": "-18~",
+    "hit": "+48a (+38a)",
     "counter": "",
-    "note": ""
+    "note": "\njs1~\n\nBalcony Break\n\nWeapon\nHitlines exist on the sword and directly behind Yoshimitsu\nCan be canceled at any time into another FLE move\nAfter hitting with this attack, FLE.n has no hitbox until another FLE action (other than FLE.d) is taken"
   },
   {
     "name": "Flea Cancel",
@@ -2142,7 +2384,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs? fs?~"
+    "note": "\njs1~12 fs13~15"
   },
   {
     "name": "Flea Roll",
@@ -2153,7 +2395,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs?~ fs?~"
+    "note": "\nfs1~25 cs26~"
   },
   {
     "name": "Flea > Sliding Headbutt",
@@ -2161,21 +2403,21 @@
     "hit_level": "L",
     "damage": "20",
     "startup": "i24~28",
-    "block": "",
+    "block": "-12~-8",
     "hit": "+30a",
     "counter": "",
-    "note": "\ncs?~"
+    "note": "\nfs1~ cs6~\nSide switches on close hit\nCan combo to ws4 on no side switch\nAlternate input: FLE.1~df+3+4"
   },
   {
     "name": "Flea Dance",
     "input": "FLE 3",
-    "hit_level": "L",
+    "hit_level": "",
     "damage": "",
-    "startup": "i24~28",
+    "startup": "",
     "block": "",
-    "hit": "+30a",
+    "hit": "",
     "counter": "",
-    "note": "\njs?~Alternate input: FLE.4"
+    "note": "\njs1~\nEvades like a sidestep\nAlternate input: FLE.4"
   },
   {
     "name": "Skull Splitter",
@@ -2183,10 +2425,10 @@
     "hit_level": "h",
     "damage": "20",
     "startup": "i18~19",
-    "block": "",
+    "block": "-8~-7",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "Tornado"
+    "note": "\ncs6~17\n\nTornado\n\nHead"
   },
   {
     "name": "Flea > Kangaroo Kick",
@@ -2194,21 +2436,21 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i25~26",
-    "block": "",
+    "block": "-13~-12",
     "hit": "+52a (+42)",
     "counter": "",
-    "note": "\ncs?~ fs?~Tornado"
+    "note": "\nfs1~26 cs6~22\n\nTornado\nUnparryable by traditional parries, Asuka, Nina, etc"
   },
   {
     "name": "Running Flea",
     "input": "FLE f,f",
-    "hit_level": "M,M,M,M",
-    "damage": "3,3,3,3",
-    "startup": "i17~19,i6~8 i5~7 i6~8",
-    "block": "",
-    "hit": "",
+    "hit_level": "M,M,M,M,M",
+    "damage": "3,3,3,3,3",
+    "startup": "i17~19,i6~8 i5~7 i6~8 i6~8",
+    "block": "-10",
+    "hit": "+1",
     "counter": "",
-    "note": "\njs?~Can transition to r? IND with 3+4 on wall hit"
+    "note": "\njs1~\nCombos from 1st\nFloor break at the wall only\nSometimes combos into FLE.n"
   },
   {
     "name": "Flea Digger",
@@ -2219,7 +2461,29 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nfs?~"
+    "note": "\njs1~4 fs5~15 js16~\nEvades jabs from frames 4-14\nEvades mids from frames 7-12\nCan be canceled into other FLE moves (except FLE.n)"
+  },
+  {
+    "name": "Flea Digger Strike",
+    "input": "FLE d",
+    "hit_level": "M",
+    "damage": "0",
+    "startup": "i10",
+    "block": "",
+    "hit": "+31a (+24)",
+    "counter": "",
+    "note": "\njs1~\n\nBalcony Break\nEvades jabs from frames 4-14\nEvades mids from frames 7-12\nCan be cancelled  into other FLE moves (except FLE.n)\nOnly accessible after hitting with FLE.n"
+  },
+  {
+    "name": "Flea to Dragonfly Slash",
+    "input": "FLE f+2",
+    "hit_level": "h",
+    "damage": "23",
+    "startup": "i20~21",
+    "block": "+7g~+8g",
+    "hit": "+19a (+10)",
+    "counter": "+64a (+44)",
+    "note": "\njs1~\n\nHoming\n\nBalcony Break"
   },
   {
     "name": "Flea > Indian Stance",
@@ -2230,7 +2494,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nfs?~"
+    "note": "\njs1~16 cs16~30 fs17~"
   },
   {
     "name": "Flea > Manji Dragonfly",
@@ -2241,18 +2505,18 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\njs1~"
   },
   {
     "name": "Flea > Dragonfly Feint",
     "input": "FLE u+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i38~40",
+    "block": "+4~+6",
+    "hit": "+21a (+12)",
     "counter": "",
-    "note": "\njs?~\n\nBalcony Break\nTech roll to r? FC on frames ?-?"
+    "note": "\njs1~37 fs38~4020\n\nBalcony Break\nTech roll to r33 FC on frames 41-42"
   },
   {
     "name": "Jumping Flea",
@@ -2263,7 +2527,7 @@
     "block": "",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\njs?~Balcony Break"
+    "note": "\njs1~\n\nBalcony Break\nAlternate inputs: FLE.u and FLE.ub"
   },
   {
     "name": "Flea Step (WFL)",
@@ -2274,7 +2538,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\njs1~\nIn WFL from frames 20-50\nCancel into FLE.f,f with f within 19 frames"
   },
   {
     "name": "Flea Step Backward (WFL)",
@@ -2285,18 +2549,29 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\njs1~In WFL from frames 20-50"
   },
   {
     "name": "Sakanobori",
     "input": "WFL 3",
     "hit_level": "m",
-    "damage": "20,37",
+    "damage": "25",
+    "startup": "i17",
+    "block": "-16",
+    "hit": "+2a (-7)",
+    "counter": "",
+    "note": "\njs1~\n\nBalcony Break\nUnparryable by traditional parries, Asuka, Nina, etc\nDoes 37 damage on Clean Hit (See next entry)"
+  },
+  {
+    "name": "Sakanobori",
+    "input": "WFL 3 (Close Hit)",
+    "hit_level": "m,t",
+    "damage": "37,20",
     "startup": "i17",
     "block": "",
     "hit": "+15a",
     "counter": "",
-    "note": "Transitions to attack throw on front hit only"
+    "note": "\njs1~\nTransition to attack throw only on front hit\nCan side switch on hit"
   },
   {
     "name": "Tsurubebi",
@@ -2304,10 +2579,10 @@
     "hit_level": "L",
     "damage": "15",
     "startup": "i23~24",
-    "block": "",
-    "hit": "+12c",
-    "counter": "",
-    "note": ""
+    "block": "-9~-8",
+    "hit": "+12c~+13c",
+    "counter": "+20a",
+    "note": "\njs1~12 cs12~ fs13~"
   },
   {
     "name": "Indian Stance",
@@ -2318,29 +2593,62 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs?~ fs~"
+    "note": "\ncs6~ fs6~Alternate input: BT.d+3+4"
   },
   {
     "name": "Indian Stance Healing",
-    "input": "d+3+4,n",
+    "input": "IND n",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nfs~Recovers health with each pulse"
+    "note": "\ncs1~ fs1~\nRestores recoverable health with each pulse\nCan be cancelled into other IND moves"
+  },
+  {
+    "name": "Indian Stance Cancel",
+    "input": "IND u",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nfs1~29\nAlternate input: IND.d\nEvasive, can go under some attacks if timed"
+  },
+  {
+    "name": "Indian Stance Vaccum Dance",
+    "input": "IND f",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\ncs1~ fs1~If closer than 1.75 units, recovers r51, 1 unit behind the opponent"
+  },
+  {
+    "name": "Indian Stance Vaccum Dance",
+    "input": "IND b",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\ncs1~ fs1~If in BT.IND closer than 1.75 units, recovers r51, 4.2 units away from the opponent"
   },
   {
     "name": "Indian Stance Storm",
     "input": "IND 1",
-    "hit_level": "",
+    "hit_level": "M!",
     "damage": "15",
     "startup": "i53~55",
     "block": "",
-    "hit": "+0",
+    "hit": "+0c~+2c",
     "counter": "",
-    "note": "\njs?~Weapon"
+    "note": "\njs30~52 fs53~55\n\nSpike\n\nWeapon\nSame animation as the ending of qcf+1\nAlternate notation: 1SS.IND.1 or IND.1SS.1"
   },
   {
     "name": "Indian Stance Stone Fists",
@@ -2348,10 +2656,10 @@
     "hit_level": "m",
     "damage": "7",
     "startup": "i39~43",
-    "block": "",
-    "hit": "",
+    "block": "-8~-5",
+    "hit": "+2~+6",
     "counter": "",
-    "note": "Links to db+2 extensions"
+    "note": "\ncs1~ fs1~\nLeads to DB+2,2 extensions\nYoshimitsu will transition to IND.u if the distance to the opponent is less than 1.00 units\nYoshimitsu will teleport if the distance to the opponent is less than 0.50 units"
   },
   {
     "name": "",
@@ -2359,10 +2667,10 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i12~18",
-    "block": "",
-    "hit": "",
+    "block": "-31~-25",
+    "hit": "-2a (-12)",
     "counter": "",
-    "note": "\njs?~\nCan transition to r? IND on wall hit\n\nBalcony Break"
+    "note": "\n,js12~34 fs35~90\n\nBalcony Break\nAutomatically recovers to r? IND on self wallsplat\nUnparryable by traditional parries, Asuka, Nina, etc\nTremendous forward travel"
   },
   {
     "name": "Indian Stance Cannon",
@@ -2370,10 +2678,10 @@
     "hit_level": "m,m",
     "damage": "15,20",
     "startup": ",i27",
-    "block": "",
-    "hit": "",
+    "block": "-13",
+    "hit": "+52a (+42)",
     "counter": "",
-    "note": "\n,fs?~Tornado"
+    "note": "\n,js1~13 fs14~54\n\nTornado\nCombo from 1st hit\nTremendous forward travel"
   },
   {
     "name": "Indian Stance Knee Cap",
@@ -2381,8 +2689,8 @@
     "hit_level": "L",
     "damage": "18",
     "startup": "i47~48",
-    "block": "",
-    "hit": "+4c",
+    "block": "-26~-25",
+    "hit": "+4c~+5c",
     "counter": "",
     "note": "\ncs1~Homing"
   },
@@ -2395,51 +2703,29 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\nfs1 js2~27 fs28~30Unavailable in NSS"
   },
   {
     "name": "Indian Tobi Ushiwaka",
     "input": "IND 3+4",
     "hit_level": "m,m",
     "damage": "6,22",
-    "startup": "i17~18 i10~11",
-    "block": "",
-    "hit": "+3",
+    "startup": "i17~18 i28~29",
+    "block": "-6~-5",
+    "hit": "+3~+4",
     "counter": "",
-    "note": "\njs?~Can transition to r? DGF with U"
-  },
-  {
-    "name": "Indian Stance Vaccum Dance",
-    "input": "IND f",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "name": "Indian Stance Vaccum Dance",
-    "input": "IND b",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
+    "note": "\njs12-37 fs38-40\nTransition to r18 DGF with 1SS.U"
   },
   {
     "name": "Indian Levitation",
-    "input": "IND 3+4*",
+    "input": "IND D+3+4*",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAllows 8-way directional movement in IND\nContinues as long as 3+4 is held"
+    "note": "\ncs1~ fs1~\nAllows 8-way directional movement in IND\nContinues as long as 3+4 is held\nHolding a directional input and pressing 1, 2 or 1+2 will play different voicelines"
   },
   {
     "name": "Indian Stance Manji Dragonfly",
@@ -2450,10 +2736,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "\njs1~Unavailable in NSS"
   },
   {
-    "name": "Mutou no Kiwami",
+    "name": "No Sword Stance",
     "input": "b+1+2",
     "hit_level": "",
     "damage": "",
@@ -2461,62 +2747,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs?~"
-  },
-  {
-    "name": "Karakuri Uzumaki",
-    "input": "2,NSS 1",
-    "hit_level": "h,h",
-    "damage": "10,15",
-    "startup": ",i18",
-    "block": "",
-    "hit": "+19a",
-    "counter": "",
-    "note": "\ncs?~\n\nBalcony Break\nCombo from 1st hit"
-  },
-  {
-    "name": "Enma's Soul Blade",
-    "input": "3,2,NSS 1+2",
-    "hit_level": "m,m,M?",
-    "damage": "12,12,39",
-    "startup": ",i26~27",
-    "block": "",
-    "hit": "+20a (+10)",
-    "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 2nd hit\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit\nAlternate input: H.3,2,1+2"
-  },
-  {
-    "name": "Soul Stealer",
-    "input": "NSS 1+4",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i8~11",
-    "block": "",
-    "hit": "+14 +64a",
-    "counter": "",
-    "note": "\n\nWeapon\n70% proration on standing hit\nIncreased damage on block\nRecovers health on hit\nAlternate input: H.1+4\n"
-  },
-  {
-    "name": "Unfinished Business",
-    "input": "NSS d+1+4",
-    "hit_level": "m",
-    "damage": "",
-    "startup": "i8~11",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "name": "Manji Shagapan",
-    "input": "NSS db+1",
-    "hit_level": "sl",
-    "damage": "5",
-    "startup": "i11",
-    "block": "",
-    "hit": "+6",
-    "counter": "",
-    "note": "\ncs?~"
+    "note": "\ncs8~50\nAlternate input: BT.b+1+2\nAlternate name: Mutou no Kiwami"
   },
   {
     "name": "Battou Kakugo",
@@ -2527,29 +2758,183 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs?~"
+    "note": "\ncs8~50"
+  },
+  {
+    "name": "NSS Naguri Kabuto Wari",
+    "input": "1,NSS 1",
+    "hit_level": "h,m",
+    "damage": "7,22",
+    "startup": ",i23",
+    "block": "-9",
+    "hit": "+16a",
+    "counter": "+52a",
+    "note": "\n\nBalcony Break\n11 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "Karakuri Uzumaki",
+    "input": "2,NSS 1",
+    "hit_level": "h,h",
+    "damage": "10,5,15",
+    "startup": ",i23~24 i18",
+    "block": "-5",
+    "hit": "+19a",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nJail from 2nd attack\nAlternate notation: NSS.2,1"
+  },
+  {
+    "name": "NSS Enma's Flame",
+    "input": "3,NSS 1",
+    "hit_level": "m,h",
+    "damage": "12,25",
+    "startup": ",i22~24",
+    "block": "+7~+9",
+    "hit": "+18g~+20g",
+    "counter": "",
+    "note": "\n,js26~\n\nHeat Engager\n\n\nHeat Dash +5g~7g +62a (+42)\n\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\n7 chip damage on block\nRecovers health no hit\nDoes not transition to DGF during Heat Dash\nRecovers in 1SS"
+  },
+  {
+    "name": "Enma's Soul Blade",
+    "input": "3,2,NSS 1+2",
+    "hit_level": "m,m,M",
+    "damage": "12,12,30",
+    "startup": ",i26~27",
+    "block": "-14c~-13c",
+    "hit": "+20a (+10)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 2nd hit\n15 chip damage on block\nClean hit 39 damage\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Flash",
+    "input": "NSS 1+4",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i8~11",
+    "block": "-15~-12",
+    "hit": "+14 +64a",
+    "counter": "",
+    "note": "\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit\nAlternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4"
+  },
+  {
+    "name": "NSS Spirit Shield",
+    "input": "NSS 1+2+3",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i22~40",
+    "block": "-18~+0",
+    "hit": "+26d (-32)",
+    "counter": "",
+    "note": "Balcony Break"
+  },
+  {
+    "name": "NSS Kuzuryu",
+    "input": "NSS f+1+2",
+    "hit_level": "M",
+    "damage": "29",
+    "startup": "i20",
+    "block": "-12",
+    "hit": "+8a (-1)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +62a (+42)\n\n\nBalcony Break\n\nWeapon\n8 chip damage on block\nExtended range"
+  },
+  {
+    "name": "NSS Kamikaze",
+    "input": "NSS f+3+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i21~25",
+    "block": "-13~-9",
+    "hit": "+20a (+11)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHead\nCancel to r55 BT with b\n+20a on left/right side hit"
+  },
+  {
+    "name": "Wood Chopper",
+    "input": "df+3,NSS 1",
+    "hit_level": "m,M",
+    "damage": "10,24",
+    "startup": ",i23~24",
+    "block": "-9~-8",
+    "hit": "+16a",
+    "counter": "+6a",
+    "note": "\n\nSpike\n\nWeapon\nCombo from 1st hit\nRecovers health on hit\n12 chip damage on block\nInput can be held to transition to d+1*"
+  },
+  {
+    "name": "Quick Chop",
+    "input": "NSS d+1",
+    "hit_level": "M",
+    "damage": "24",
+    "startup": "i24~25",
+    "block": "-9~-8",
+    "hit": "+16a",
+    "counter": "+6a",
+    "note": "\n\nSpike\n\nWeapon\nRecovers health on hit\n12 chip damage on block\nInput can be held to transition to d+1*"
+  },
+  {
+    "name": "NSS to Indian Stance",
+    "input": "NSS d+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\ncs7~ fs7~"
+  },
+  {
+    "name": "Unfinished Business",
+    "input": "NSS d+1+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Yoshimitsu is invisible on frames 50~64, but can still be attacked"
+  },
+  {
+    "name": "Manji Shagapan",
+    "input": "NSS db+1",
+    "hit_level": "sl",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "\ncs4~\nIn-game frame data incorrectly dispalys this move as i11\nTransition to r24 with f"
   },
   {
     "name": "Soul Blade Yoshimitsu",
     "input": "NSS ub+1+2",
-    "hit_level": "M?",
-    "damage": "39",
+    "hit_level": "M",
+    "damage": "30",
     "startup": "i24~25",
-    "block": "",
+    "block": "-8c~-7c",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nDeals chip damage on block\nHas clean hit property\nRecovers health on hit, consumes Heat\nAlternate input: H.ub+1+2)"
+    "note": "\n\nBalcony Break\n\nWeapon\n15 chip damage on block\nClean hit 39 damage\nRecovers health on hit\n-12c~-13c if blocked at tip range"
+  },
+  {
+    "name": "Ghost Sword - Cleansing Sword Yoshimitsu",
+    "input": "NSS u,b+1+2",
+    "hit_level": "M",
+    "damage": "25",
+    "startup": "i24~25",
+    "block": "-8c~-7c",
+    "hit": "+27a (+17)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nWeapon\n5 chip damage on block\nPower up in NSS or Heat"
   },
   {
     "name": "Ishiusu Tsubushi",
     "input": "NSS u+1+2",
-    "hit_level": "L?",
+    "hit_level": "L",
     "damage": "18",
     "startup": "i27~29",
-    "block": "",
-    "hit": "+22c",
+    "block": "+4~+6",
+    "hit": "+20c~+22c",
     "counter": "",
-    "note": "\ncs?~"
+    "note": "\njs9~24 fs25~\n\nSpike\nCan't be low parried"
   },
   {
     "name": "Safe Heron Jump",
@@ -2560,62 +2945,40 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\njs9~35 fs36~38"
+  },
+  {
+    "name": "NSS Poison Wind Gold Strike",
+    "input": "uf+3+4,1,4,NSS 1",
+    "hit_level": "M,h,m,M",
+    "damage": "20,8,15,15",
+    "startup": ",i24~25",
+    "block": "-9~-8",
+    "hit": "+16a",
+    "counter": "+52a",
+    "note": "\n\nSpike\n\nWeapon\nCan transition to d+1*,n\n12 chip damage on block\nRecovers health on hit"
   },
   {
     "name": "",
-    "input": "ws2,NSS 1",
-    "hit_level": "m,h",
-    "damage": "13,16",
-    "startup": ",i23",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "Combo from 1st hit"
-  },
-  {
-    "name": "Scowling Aratama",
-    "input": "ws2,NSS 1,2",
-    "hit_level": "m,h,m",
-    "damage": "13,16,18",
-    "startup": ",i25",
-    "block": "",
-    "hit": "+5",
-    "counter": "",
-    "note": "Combo from 2nd CH"
-  },
-  {
-    "name": "Scowling Spirit",
-    "input": "ws2,NSS 1,3",
-    "hit_level": "m,h,h",
-    "damage": "13,16,25",
-    "startup": ",i25~26",
-    "block": "",
-    "hit": "+27A (+17)",
-    "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH"
-  },
-  {
-    "name": "",
-    "input": "NSS FC df+1",
+    "input": "NSS FC DF+1",
     "hit_level": "l",
     "damage": "12",
     "startup": "i25~26",
-    "block": "",
-    "hit": "+26a",
+    "block": "-16~-15",
+    "hit": "+27a",
     "counter": "",
-    "note": "\ncs1~\nAlternate input: NSS.db,b+1"
+    "note": "\ncs1~34\nAlternate input: NSS.db,b+1"
   },
   {
     "name": "Agonbaku",
-    "input": "NSS FC df+1,2",
+    "input": "NSS FC DF+1,2",
     "hit_level": "l,L",
     "damage": "12,20",
     "startup": ",i25~26",
-    "block": "",
-    "hit": "+14",
+    "block": "-14~-13",
+    "hit": "+14~+15",
     "counter": "",
-    "note": "\ncs1~\nCombo from 1st hit\nAlternate input: NSS.db,b+1,2"
+    "note": "\n,cs1~45\nCombo from 1st hit\nAlternate input: NSS.db,b+1,2"
   },
   {
     "name": "Spinning Cleave",
@@ -2623,32 +2986,186 @@
     "hit_level": "L",
     "damage": "12",
     "startup": "i20~21",
-    "block": "",
+    "block": "-26~-25",
     "hit": "+67a (+51)",
     "counter": "",
-    "note": ""
+    "note": "\ncs1~"
+  },
+  {
+    "name": "",
+    "input": "ws2,NSS 1",
+    "hit_level": "m,h",
+    "damage": "13,16",
+    "startup": ",i23",
+    "block": "-6",
+    "hit": "+5",
+    "counter": "",
+    "note": "\n\nElbow\nCombo from 1st hit with 1f delay"
+  },
+  {
+    "name": "Scowling Aratama",
+    "input": "ws2,NSS 1,2",
+    "hit_level": "m,h,m",
+    "damage": "13,16,18",
+    "startup": ",i25",
+    "block": "-5",
+    "hit": "+5",
+    "counter": "+63a",
+    "note": "\nCombo from 2nd CH\n\nElbow"
+  },
+  {
+    "name": "Scowling Spirit",
+    "input": "ws2,NSS 1,3",
+    "hit_level": "m,h,h",
+    "damage": "13,16,25",
+    "startup": ",i25~26",
+    "block": "-7~-6",
+    "hit": "+27a (+17)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 2nd CH"
+  },
+  {
+    "name": "",
+    "input": "KIN 1,NSS 1",
+    "hit_level": "m,m,m",
+    "damage": "10,5,20",
+    "startup": ",i23~24 i14~15",
+    "block": "-1~+0",
+    "hit": "+37a (+29)",
+    "counter": "",
+    "note": "\n\nSpike\n\nWeapon\nCombo from 1st hit with 2f delay\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Tenshu Kuzushi",
+    "input": "KIN 2,NSS 1+2",
+    "hit_level": "m,M",
+    "damage": "15,30",
+    "startup": "i32~34",
+    "block": "-3~-1",
+    "hit": "+15a",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nSpike\n\nWeapon\n9 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Tenshu Kuzushi (Hold)",
+    "input": "KIN 2,NSS 1+2*",
+    "hit_level": "m,M",
+    "damage": "15,30",
+    "startup": ",i47~49",
+    "block": "+14~+16",
+    "hit": "+69a (+49)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nSpike\n\nWeapon\nGuard break\n12 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Kincho Flash",
+    "input": "NSS KIN 1+4",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i12~15",
+    "block": "-15~-12",
+    "hit": "+14 +64a",
+    "counter": "",
+    "note": "\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Submission Chakram",
+    "input": "NSS KIN f+1",
+    "hit_level": "M,M,M",
+    "damage": "6,6,12",
+    "startup": "i19~20 i6~7 i7~8",
+    "block": "-5~-4",
+    "hit": "+18a (+11)",
+    "counter": "",
+    "note": "\n\nWeapon\nCombos from any hit\n12 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Submission Chakram (Hold)",
+    "input": "NSS KIN f+1*",
+    "hit_level": "M,M,M,M,M,M",
+    "damage": "6,6,6,6,6,12",
+    "startup": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
+    "block": "--9~-8",
+    "hit": "+29a (+14)",
+    "counter": "",
+    "note": "\n\nWeapon\nCombos from any hit\n21 chip damage on block\nRecovers health on hit"
+  },
+  {
+    "name": "NSS Shisetsu Genman",
+    "input": "NSS BT d+1",
+    "hit_level": "l",
+    "damage": "15",
+    "startup": "i17~18",
+    "block": "-13~-12",
+    "hit": "+3",
+    "counter": "+38a",
+    "note": "\ncs6~"
+  },
+  {
+    "name": "Ghost Sword - Shisetsu Genman",
+    "input": "NSS BT b~db+1+2",
+    "hit_level": "L",
+    "damage": "20",
+    "startup": "i17~18",
+    "block": "-13~-12",
+    "hit": "+3",
+    "counter": "+38a",
+    "note": "\ncs6~Weapon"
   },
   {
     "name": "Manji Dragonfly",
-    "input": "1SS u+1+2",
+    "input": "u+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\njs8~\nUnavailable in 1SS\nAlternate input: BT.u+1+2"
+  },
+  {
+    "name": "Dragonfly Cancel",
+    "input": "DGF d",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\njs1~10"
+  },
+  {
+    "name": "Dragonfly Forward",
+    "input": "DGF f",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\njs1~realigns with opponent, closes distance"
+  },
+  {
+    "name": "Dragonfly Backward",
+    "input": "DGF b",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\njs1~realigns with opponent, creates distance"
   },
   {
     "name": "Dragonfly Blade",
     "input": "DGF 1",
-    "hit_level": "",
-    "damage": "",
+    "hit_level": "M",
+    "damage": "15",
     "startup": "i30~31",
-    "block": "",
+    "block": "-2c~-1c",
     "hit": "+10a",
-    "counter": "",
-    "note": "\njs?~\n\nWeapon\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "counter": "+46a",
+    "note": "\njs1~27\n\nSpike\n\nWeapon\n7 chip damage on block\nPower up in Heat"
   },
   {
     "name": "Dragonfly Fist",
@@ -2656,32 +3173,32 @@
     "hit_level": "h",
     "damage": "15",
     "startup": "i16~18",
-    "block": "+7?",
-    "hit": "?a",
+    "block": "+4~+6",
+    "hit": "+13s",
     "counter": "",
     "note": "\njs1~"
   },
   {
     "name": "Ubume",
     "input": "DGF 2,4",
-    "hit_level": ",m",
-    "damage": ",21?",
+    "hit_level": "h,M",
+    "damage": "15,22",
     "startup": "i26~28",
-    "block": "-14",
-    "hit": "+?a (+?a)",
+    "block": "-14~-12",
+    "hit": "+15a (+8)",
     "counter": "",
-    "note": "\njs?~\n\nTornado\n\nWeapon\nCombo from 1st hit\nTransition to r? NSS with B"
+    "note": "\n,js1~46 fs47~49\n\nTornado\nCombo from 1st hit\nTransition to r32 NSS with B"
   },
   {
     "name": "Dragonfly Sweep",
     "input": "DGF 3",
-    "hit_level": "L?",
+    "hit_level": "L",
     "damage": "18",
     "startup": "i22~23",
-    "block": "",
-    "hit": "+6c",
-    "counter": "",
-    "note": "\njs?~"
+    "block": "-13~-12",
+    "hit": "+6c~+7c",
+    "counter": "+27a",
+    "note": "\njs1~15 fs16~18Can't be low parried"
   },
   {
     "name": "Dragonfly Twister",
@@ -2689,21 +3206,10 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i18~20",
-    "block": "=-4?",
-    "hit": "",
+    "block": "-4~-2",
+    "hit": "+14g~+15g",
     "counter": "",
-    "note": "\njs?~\n\nHeat Engager\n\n\nBalcony Break"
-  },
-  {
-    "name": "Dragonfly Twister > Heat Dash",
-    "input": "in heat DGF 4,F",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i18~20",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\njs?~"
+    "note": "\njs1~16 fs17~19\n\nHeat Engager\n\n\nHeat Dash +5g~+7g +62a (+42)\n\n\nBalcony Break"
   },
   {
     "name": "Manji Dragonfly > Flea",
@@ -2714,7 +3220,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\njs1~27 fs28~30"
   },
   {
     "name": "Spirited Away",
@@ -2723,9 +3229,9 @@
     "damage": "17,18",
     "startup": "i20~21",
     "block": "",
-    "hit": "+0d",
+    "hit": "+0~+1",
     "counter": "",
-    "note": "\njs1\n\nSpike\nTransitions to attack throw on front standing or airborne hit only"
+    "note": "\njs1~\n\nFloor Break\nTransitions to attack throw on front hit (air hit OK)\nAttack throw recovers standing"
   },
   {
     "name": "Dragonfly Slash",
@@ -2733,21 +3239,21 @@
     "hit_level": "h",
     "damage": "23",
     "startup": "i20~21",
-    "block": "",
+    "block": "+7~+8",
     "hit": "+19a (+10)",
-    "counter": "",
-    "note": "\njs1~\n\nHoming\n\nBalcony Break"
+    "counter": "+64a (+44)",
+    "note": "\njs1~\n\nHoming\n\nBalcony Break\n\nWeapon\nAlternate input: FLE.f+2"
   },
   {
     "name": "Red Spider Lily",
     "input": "DGF f+1+2",
-    "hit_level": "h",
+    "hit_level": "h,h,h",
     "damage": "10,10,20",
     "startup": "i16~17 i11~12 i11~12",
-    "block": "",
+    "block": "-2~-1",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "\njs1~\n\nHoming\n\nBalcony Break\n\nWeapon\nDeals chip damage on block\nPower up during NSS or Heat (recovers health on hit, consumes Heat)"
+    "note": "\njs1~65\n\nHoming\n\nBalcony Break\n\nWeapon\n12 chip damage on block\nPower up in Heat"
   },
   {
     "name": "Manji Dragonfly > Indian Stance",
@@ -2758,7 +3264,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs?~"
+    "note": "\njs1~30 cs31~"
   },
   {
     "name": "",
@@ -2898,8 +3404,8 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
-    "hit": "+1",
+    "block": "-3",
+    "hit": "+1d",
     "counter": "",
     "note": "Throw break 1 or 2"
   },
@@ -2909,10 +3415,10 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
+    "block": "+0",
     "hit": "+1",
     "counter": "",
-    "note": "\n\nSpike\nThrow break 1 or 2"
+    "note": "\n\nFloor Break\nThrow break 1 or 2\nSide switch on hit"
   },
   {
     "name": "Wheels of Hell",
@@ -2920,10 +3426,10 @@
     "hit_level": "t",
     "damage": "45",
     "startup": "i12~14",
-    "block": "",
-    "hit": "+0",
+    "block": "-3",
+    "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1"
+    "note": "\nThrow break 1\nSide switch on hit"
   },
   {
     "name": "Neck Breaker",
@@ -2931,8 +3437,8 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12~14",
-    "block": "",
-    "hit": "-3",
+    "block": "-3",
+    "hit": "-3d",
     "counter": "",
     "note": "Throw break 2"
   },
@@ -2943,9 +3449,9 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "+1",
+    "hit": "+1d",
     "counter": "",
-    "note": "\n\nSpike\nUnbreakable"
+    "note": "\n\nFloor Break\nUnbreakable"
   },
   {
     "name": "Rainbow Drop",
@@ -2953,10 +3459,10 @@
     "hit_level": "t",
     "damage": "45",
     "startup": "i11",
-    "block": "",
+    "block": "+0",
     "hit": "+1",
     "counter": "",
-    "note": "\n\nSpike\nThrow break 1+2"
+    "note": "\n\nFloor Break\nThrow break 1+2\nSide switch on break"
   },
   {
     "name": "Soul Siphon",
@@ -2964,20 +3470,20 @@
     "hit_level": "t",
     "damage": "22",
     "startup": "i15~16",
-    "block": "",
+    "block": "+0",
     "hit": "+0",
     "counter": "",
-    "note": "\nThrow break 1+2"
+    "note": "\nThrow break 1+2\n35 damage as a backthrow\nYoshimitsu recovers 16 health\nOn break:\n-Opponent recovers 22 health (35 on backthrow)\n-Yoshimitsu loses 16 health"
   },
   {
     "name": "Soul Possession",
     "input": "qcb,f+2",
     "hit_level": "t",
-    "damage": "",
+    "damage": "0",
     "startup": "i15~16",
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "\nUnbreakable\nSelf-damage"
+    "note": "\nUnbreakable\nOpponent recovers 26 health\nYoshimitsu loses 35 health"
   }
 ]

@@ -6,7 +6,7 @@
     "damage": "12",
     "startup": "i16",
     "block": "+1",
-    "hit": "+2",
+    "hit": "+2c",
     "counter": "",
     "note": "\nPower Crush\n"
   },
@@ -15,9 +15,9 @@
     "input": "f+2,1",
     "hit_level": "m,h",
     "damage": "12,25",
-    "startup": "i15~18",
+    "startup": "i15~16",
     "block": "+1",
-    "hit": "+2",
+    "hit": "+17g",
     "counter": "",
     "note": "\n\nHeat Engager\n\nBalcony Break\nCombos from 1st hit.\n"
   },
@@ -28,7 +28,7 @@
     "damage": "27",
     "startup": "i20",
     "block": "-9",
-    "hit": "+17",
+    "hit": "+17g",
     "counter": "",
     "note": "\n\nHeat Engager\n\n"
   },
@@ -39,7 +39,7 @@
     "damage": "15,25",
     "startup": "i15",
     "block": "-9",
-    "hit": "+35",
+    "hit": "+35g",
     "counter": "",
     "note": "\nPower Crush\n\nHeat Engager\n\nOnly first input has armour.\n"
   },
@@ -50,7 +50,7 @@
     "damage": "45",
     "startup": "i23",
     "block": "",
-    "hit": "",
+    "hit": "+1d",
     "counter": "",
     "note": "\n\nHeat Engager\n\nCannot throw break.\nRestores some Heat Gauge in Heat.\n"
   },
@@ -61,7 +61,7 @@
     "damage": "35",
     "startup": "i12",
     "block": "",
-    "hit": "",
+    "hit": "+0d",
     "counter": "",
     "note": "\n\nHeat Engager\n\nCannot throw break.\nCrouch throw.\nRestores some Heat Gauge in Heat.\n"
   },
@@ -72,7 +72,7 @@
     "damage": "20,44",
     "startup": "i17",
     "block": "+12",
-    "hit": "",
+    "hit": "+0d",
     "counter": "",
     "note": "\nShifts to JGR on block.\n"
   },
@@ -144,7 +144,7 @@
   },
   {
     "name": "Palm Strike Uppercut > V Driver",
-    "input": "1,2,1,d+2+3",
+    "input": "1,2,1,d+2+4",
     "hit_level": "h,h,m,t",
     "damage": "5,15,10,35",
     "startup": "i10~i28",
@@ -154,7 +154,7 @@
     "note": "\nCannot throw break\nCrouch throw.\n"
   },
   {
-    "name": "",
+    "name": "Right Jab",
     "input": "2",
     "hit_level": "h",
     "damage": "10",
@@ -213,9 +213,9 @@
     "input": "f+2",
     "hit_level": "m",
     "damage": "12",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-11",
-    "hit": "",
+    "hit": "+2",
     "counter": "",
     "note": "\n"
   },
@@ -236,8 +236,8 @@
     "hit_level": "m,m",
     "damage": "12,16",
     "startup": "i15~i22",
-    "block": "-15",
-    "hit": "+27",
+    "block": "-13c",
+    "hit": "-2c",
     "counter": "",
     "note": "\n"
   },
@@ -248,7 +248,7 @@
     "damage": "12,16,16",
     "startup": "i15~i22",
     "block": "-15",
-    "hit": "+27",
+    "hit": "+27a",
     "counter": "",
     "note": "\n"
   },
@@ -276,11 +276,11 @@
   },
   {
     "name": "Rolling Sobat",
-    "input": "f+3",
+    "input": "f+4",
     "hit_level": "m",
     "damage": "25",
     "startup": "i18",
-    "block": "-8",
+    "block": "-9",
     "hit": "+12",
     "counter": "",
     "note": "\nBalcony Break\nHoming\n"
@@ -308,15 +308,26 @@
     "note": "\n"
   },
   {
+    "name": "Shoulder Tackle",
+    "input": "f+2+3",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i20",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n"
+  },
+  {
     "name": "Elbow Sting",
-    "input": "df+2+3",
+    "input": "df+1,2",
     "hit_level": "m,m",
     "damage": "15,15",
     "startup": "i14~i20",
     "block": "-10",
     "hit": "+5",
     "counter": "",
-    "note": "\nCombos from 1st hit.\n"
+    "note": "\nCombos from 1st hit if not fully delayed.\n"
   },
   {
     "name": "Double Hook Disaster",
@@ -353,7 +364,7 @@
   },
   {
     "name": "Mincer Low",
-    "input": "df+4,2,d+4",
+    "input": "df+4,3,d+4",
     "hit_level": "l,h,l",
     "damage": "10,11,20",
     "startup": "i12~i33",
@@ -419,9 +430,9 @@
   },
   {
     "name": "Stagger Kick Spinning Uppercut",
-    "input": "Stagger Kicks 2",
-    "hit_level": "m",
-    "damage": "10",
+    "input": "d+3+4,4,4,2",
+    "hit_level": "l,l,lm",
+    "damage": "14,7,710",
     "startup": "i28",
     "block": "-15",
     "hit": "+16d(+6)",
@@ -484,15 +495,48 @@
     "note": "\nPower Crush\n"
   },
   {
-    "name": "Chupacabra > Spinning Back Elbow",
+    "name": "Quick Hook",
+    "input": "b+1",
+    "hit_level": "h",
+    "damage": "13",
+    "startup": "i12",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": "Momentarily makes opponents airborne on counter hit."
+  },
+  {
+    "name": "Quick Hook > Uppercut",
+    "input": "b+1,2",
+    "hit_level": "h,h",
+    "damage": "1320",
+    "startup": "i19~20",
+    "block": "-13",
+    "hit": "+5",
+    "counter": "",
+    "note": "Tornado"
+  },
+  {
+    "name": "Quick Hook > Heel Kick",
+    "input": "b+1,4",
+    "hit_level": "h,m",
+    "damage": "1323",
+    "startup": "i26~28",
+    "block": "-11",
+    "hit": "0",
+    "counter": "",
+    "note": "Recovers in FUFT."
+  },
+  {
+    "name": "Chupacabra",
     "input": "b+2",
     "hit_level": "h",
     "damage": "16",
     "startup": "i14",
-    "block": "-9",
-    "hit": "+19d",
+    "block": "-5",
+    "hit": "+1",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": ""
   },
   {
     "name": "Chupacabra > Spinning Back Elbow",
@@ -528,6 +572,28 @@
     "note": "\n"
   },
   {
+    "name": "Toll Kick",
+    "input": "b+3",
+    "hit_level": "h",
+    "damage": "23",
+    "startup": "i16~18",
+    "block": "-10",
+    "hit": "+39d",
+    "counter": "",
+    "note": "\nPower CrushTornado"
+  },
+  {
+    "name": "Guillotine Drop",
+    "input": "b+3,1+2",
+    "hit_level": "h,t",
+    "damage": "2320",
+    "startup": "i16~18",
+    "block": "",
+    "hit": "0d",
+    "counter": "",
+    "note": "Only shifts to throw in the front on grounded hit."
+  },
+  {
     "name": "Jumping Knee Lift",
     "input": "uf+4",
     "hit_level": "m",
@@ -539,7 +605,7 @@
     "note": "\n"
   },
   {
-    "name": "Soul Crusher",
+    "name": "Sole Crusher",
     "input": "uf+3+4",
     "hit_level": "m",
     "damage": "23",

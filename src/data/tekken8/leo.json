@@ -311,7 +311,7 @@
     "name": "Shuang Huan Da",
     "input": "df+1,2",
     "hit_level": "m,h",
-    "damage": "1320",
+    "damage": "13,20",
     "startup": "i18",
     "block": "-6",
     "hit": "+9d",
@@ -360,7 +360,7 @@
     "block": "-2",
     "hit": "+5",
     "counter": "+24d",
-    "note": "\nTransition to FC with D*"
+    "note": "\nSpike\nTransition to FC with D*"
   },
   {
     "name": "Pi Zhong",
@@ -371,7 +371,7 @@
     "block": "+4c",
     "hit": "+9c",
     "counter": "+56a",
-    "note": ""
+    "note": "\nSpike"
   },
   {
     "name": "Crouch Spin Kick",
@@ -476,7 +476,7 @@
     "name": "Qian Sao Lei Wang Quan",
     "input": "db+4,1",
     "hit_level": "l,m",
-    "damage": "1127",
+    "damage": "11,27",
     "startup": "i25~i26",
     "block": "-16",
     "hit": "+8a",
@@ -498,7 +498,7 @@
     "name": "Ba Wang Zhe Jiang",
     "input": "db+1+2,1",
     "hit_level": "m,m",
-    "damage": "1720",
+    "damage": "17,20",
     "startup": "i17~i18",
     "block": "-12",
     "hit": "+22a (+17)",
@@ -531,12 +531,12 @@
     "name": "Ding Zhou Meng Po Kao",
     "input": "b+1,1+2",
     "hit_level": "m,m",
-    "damage": "1718",
+    "damage": "17,18",
     "startup": "i22~i23",
-    "block": "-9",
+    "block": "-12",
     "hit": "+9",
     "counter": "",
-    "note": "\nCombo from 1st hit\nTransition to BOK with ~D\n(-7 oB, +11 oH)"
+    "note": "\nCombo from 1st hit\nTransition to BOK with ~D\n(-10 oB, +11 oH)"
   },
   {
     "name": "",
@@ -562,7 +562,7 @@
   },
   {
     "name": "Er Lang Dan Shan",
-    "input": "b+21+2",
+    "input": "b+2,1+2",
     "hit_level": "m,m",
     "damage": "11,21",
     "startup": "i27~i28",
@@ -588,10 +588,10 @@
     "hit_level": "m,m",
     "damage": "12,13",
     "startup": "i20",
-    "block": "-7",
+    "block": "-10",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 1st hit\nTransition to BOK with ~D\n(-6 oB, +5 oH)\nTransition to KNK with ~B\n(-10 oB, +1 oH)"
+    "note": "\nSpike\nCombo from 1st hit\nTransition to BOK with ~D\n(-8 oB, +5 oH)\nTransition to KNK with ~B\n(-10 oB, +1 oH)"
   },
   {
     "name": "",
@@ -640,8 +640,8 @@
   {
     "name": "",
     "input": "b+1+2,1+2",
-    "hit_level": "mm",
-    "damage": "1513",
+    "hit_level": "m,m",
+    "damage": "15,13",
     "startup": "i21~i22",
     "block": "-14",
     "hit": "-3",
@@ -651,8 +651,8 @@
   {
     "name": "Jin Gang Hua Shan Tuo Tian Zhang",
     "input": "b+1+2,1+2,2",
-    "hit_level": "mmm",
-    "damage": "151325",
+    "hit_level": "m,m,m",
+    "damage": "15,13,25",
     "startup": "i20~i12",
     "block": "-13",
     "hit": "+17d (+12)",
@@ -820,9 +820,9 @@
     "damage": "25",
     "startup": "i14-15",
     "block": "-9",
-    "hit": "+8",
+    "hit": "+8a",
     "counter": "",
-    "note": "\n1+2 to charge LTG\n"
+    "note": "\nBalcony Break\nCharge LTG on hit with ~1+2*\n(-9a)\n"
   },
   {
     "name": "Tiao Shan Fu Ren",
@@ -855,7 +855,7 @@
     "block": "-14",
     "hit": "+20 (+11)",
     "counter": "",
-    "note": "\nJail from 1st attack\nCombo from 1st hit +28a (+21)"
+    "note": "\n\nBalcony Break\nJail from 1st attack\nCombo from 1st hit +28a (+21)"
   },
   {
     "name": "",
@@ -867,6 +867,182 @@
     "hit": "-12",
     "counter": "+30a",
     "note": "\ncs4~\nCan combo from 1st hit on wall"
+  },
+  {
+    "name": "iao Shan Jiang Jiao",
+    "input": "f,f,F+3",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i23~i26",
+    "block": "+6",
+    "hit": "+13a (+3)",
+    "counter": "",
+    "note": "\njs\nBalcony Break\nAlternate wr3 input"
+  },
+  {
+    "name": "Crouch Jab",
+    "input": "FC 1",
+    "hit_level": "s",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "\ncs"
+  },
+  {
+    "name": "Crouch Straight",
+    "input": "FC 2",
+    "hit_level": "s",
+    "damage": "8",
+    "startup": "i11",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "Crouch Spin Kick",
+    "input": "FC 3",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i16",
+    "block": "-17",
+    "hit": "-6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "Crouch Shin Kick",
+    "input": "FC 4",
+    "hit_level": "l",
+    "damage": "6",
+    "startup": "i12",
+    "block": "-15",
+    "hit": "-4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "Hou Sao Xuan",
+    "input": "FC df+3",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i21~i23",
+    "block": "-26",
+    "hit": "+37a",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
+    "input": "ws1",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i14~i15",
+    "block": "-8",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
+    "input": "ws1,4",
+    "hit_level": "m,l",
+    "damage": "13,12",
+    "startup": "i19~i20",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "note": "Combo from 1st CH"
+  },
+  {
+    "name": "Huo Da Ding Zhou",
+    "input": "ws1,4,1",
+    "hit_level": "m,l,m",
+    "damage": "13,12,24",
+    "startup": "i22",
+    "block": "-14",
+    "hit": "+12a (+3)",
+    "counter": "+44a (-3)",
+    "note": "\nBalcony Break\nCombo from 2nd CH"
+  },
+  {
+    "name": "Shang Bu Gua Shan",
+    "input": "ws2",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i15~i16",
+    "block": "-13",
+    "hit": "+28a (+18)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
+    "input": "ws3",
+    "hit_level": "m",
+    "damage": "9",
+    "startup": "i13~i14",
+    "block": "-6",
+    "hit": "+5",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
+    "input": "ws3,1",
+    "hit_level": "m,m",
+    "damage": "9,9",
+    "startup": "i21",
+    "block": "-10",
+    "hit": "+3",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nTransition into BOK with ~D\n(-10oB, +9 oH)"
+  },
+  {
+    "name": "Liang Yi Er Yui Ya Zhou",
+    "input": "ws3,1,2",
+    "hit_level": "m,m,h",
+    "damage": "9,9,20",
+    "startup": "i24~i25",
+    "block": "-9",
+    "hit": "+6d",
+    "counter": "+31d (+23)",
+    "note": "Combo from 1st CH"
+  },
+  {
+    "name": "",
+    "input": "ws4",
+    "hit_level": "m",
+    "damage": "8",
+    "startup": "i11~i12",
+    "block": "-9",
+    "hit": "+2",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "Rising Bei Zhe Kao",
+    "input": "ws4,1+2",
+    "hit_level": "m,m",
+    "damage": "8,18",
+    "startup": "i25~i27",
+    "block": "-12",
+    "hit": "+4d",
+    "counter": "",
+    "note": "\nHeat Engager\n\nCombo from 1st hit"
+  },
+  {
+    "name": "Le Kua Kao",
+    "input": "ws1+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i13~i15",
+    "block": "-15",
+    "hit": "+22",
+    "counter": "",
+    "note": "\nCharge LTG on hit with ~1+2*\n(+3oH)"
   },
   {
     "name": "Tu Bu Jin Ji Du Li",
@@ -888,18 +1064,18 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "KNK.1,D to shift to BOK"
+    "note": "\nTransition to BOK with with ~D\n(-7 oB, +4 oH)"
   },
   {
     "name": "Bai She Tui Chuang",
     "input": "KNK 1,2",
     "hit_level": "h,m",
-    "damage": "1217",
+    "damage": "12,17",
     "startup": "i18",
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": ""
+    "note": "\nHeat Engager\n"
   },
   {
     "name": "Heng Quan",
@@ -910,7 +1086,7 @@
     "block": "-9",
     "hit": "+22",
     "counter": "",
-    "note": ""
+    "note": "\nBalcony Break"
   },
   {
     "name": "Yi Qi Jiao",
@@ -927,7 +1103,7 @@
     "name": "Er Qi Jiao",
     "input": "KNK 3,4",
     "hit_level": "m,m",
-    "damage": "1318",
+    "damage": "13,18",
     "startup": "i15",
     "block": "-12",
     "hit": "+80a",
@@ -941,20 +1117,9 @@
     "damage": "18",
     "startup": "i20",
     "block": "-12",
-    "hit": "+4",
+    "hit": "+4c",
     "counter": "",
-    "note": ""
-  },
-  {
-    "name": "",
-    "input": "KNK 4,DF",
-    "hit_level": "l",
-    "damage": "18",
-    "startup": "i20",
-    "block": "-10",
-    "hit": "",
-    "counter": "",
-    "note": ""
+    "note": "\nSpike\nTransition to cd with ~DF\n(-10 oB, +6c oH, +19d CH)"
   },
   {
     "name": "Upper Rising Fist",
@@ -965,7 +1130,7 @@
     "block": "-6",
     "hit": "+21",
     "counter": "",
-    "note": "Chip Damage on Block"
+    "note": "\nTornado\nBalcony Break\nOn non-CH grounded connect\nChip Damage on Block"
   },
   {
     "name": "",
@@ -1025,8 +1190,8 @@
   {
     "name": "Ya Sui Ying Quan",
     "input": "BOK 1,2",
-    "hit_level": "mm",
-    "damage": "1420",
+    "hit_level": "m,m",
+    "damage": "14,20",
     "startup": "i17-18",
     "block": "-14",
     "hit": "+72 (+56)",
@@ -1075,7 +1240,106 @@
     "block": "-12",
     "hit": "+15",
     "counter": "",
-    "note": "\npc13~\nHeat Engager\n\nBalcony Break\nChip damage on block\n"
+    "note": "\npc13~\nHeat Engager\n\nBalcony Break\nSpike\nChip damage on block\n"
+  },
+  {
+    "name": "Jin Bu",
+    "input": "d,df,f",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "No crouching state"
+  },
+  {
+    "name": "Lei Zhang",
+    "input": "CD 1",
+    "hit_level": "l",
+    "damage": "17",
+    "startup": "i18~i19",
+    "block": "-13",
+    "hit": "-1",
+    "counter": "+11",
+    "note": "\ncs"
+  },
+  {
+    "name": "",
+    "input": "CD 2",
+    "hit_level": "m",
+    "damage": "14",
+    "startup": "i17",
+    "block": "-9",
+    "hit": "+9",
+    "counter": "",
+    "note": "\nTransition to KNK with ~B\n(Same oB and oH)"
+  },
+  {
+    "name": "Lightning Spear",
+    "input": "CD 2,1",
+    "hit_level": "m,m",
+    "damage": "14,17",
+    "startup": "i18~i19",
+    "block": "-6",
+    "hit": "+10",
+    "counter": "+30g",
+    "note": ""
+  },
+  {
+    "name": "Lightning Skypiercer",
+    "input": "CD 2,4",
+    "hit_level": "m,h",
+    "damage": "14,26",
+    "startup": "i25~i28",
+    "block": "-11",
+    "hit": "+10d (0)",
+    "counter": "",
+    "note": "\nBalcony Break"
+  },
+  {
+    "name": "Swallow Step",
+    "input": "CD 3+4",
+    "hit_level": "m,m",
+    "damage": "18,4 (22)",
+    "startup": "i18~i20",
+    "block": "-6",
+    "hit": "+13g",
+    "counter": "",
+    "note": "\njs\nHoming\nBalcony Break"
+  },
+  {
+    "name": "Tui Bu Dan Yi",
+    "input": "BT 1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i11",
+    "block": "-20",
+    "hit": "+1a (-8)",
+    "counter": "+22a (-14)",
+    "note": "\nBalcony Break"
+  },
+  {
+    "name": "Zhen Jiao",
+    "input": "OTG d+3+4",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i21~i22",
+    "block": "-13",
+    "hit": "-2d (-10)",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
+    "input": "ss 1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "i19",
+    "block": "-9",
+    "hit": "+14a (+5)",
+    "counter": "+29d",
+    "note": "\nBalcony Break"
   },
   {
     "name": "Transcendent Blow",
@@ -1087,5 +1351,71 @@
     "hit": "+0d",
     "counter": "",
     "note": "\npc\nRage Art"
+  },
+  {
+    "name": "Bao Hu Gui Shan",
+    "input": "1+3",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~i14",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": "Throw break 1 or 2"
+  },
+  {
+    "name": "Dan Yang Da",
+    "input": "2+4",
+    "hit_level": "t",
+    "damage": "9,10,16 (35)",
+    "startup": "i12~i14",
+    "block": "-6",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nThrow break 1 or 2\nSide switch on hit\nDeals 4 more damage at the wall"
+  },
+  {
+    "name": "Chou Bie Zi",
+    "input": "Left throw",
+    "hit_level": "t",
+    "damage": "14,26 (40)",
+    "startup": "i12~i14",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nThrow break 1\nSide switch on hit\nDeals 4 more damage at the wall"
+  },
+  {
+    "name": "Da Zhe Jiang",
+    "input": "Right throw",
+    "hit_level": "t",
+    "damage": "20,20 (40)",
+    "startup": "i12~i14",
+    "block": "-3",
+    "hit": "+1d",
+    "counter": "",
+    "note": "\nThrow break 2\nSide switch on hit"
+  },
+  {
+    "name": "Yang Di Tou",
+    "input": "Back throw",
+    "hit_level": "t",
+    "damage": "25,25 (50)",
+    "startup": "i12~i14",
+    "block": "",
+    "hit": "-3d",
+    "counter": "",
+    "note": "\nDeals 10 more damage at the wall"
+  },
+  {
+    "name": "Shuang Pai Shou",
+    "input": "uf+1+2",
+    "hit_level": "t",
+    "damage": "14,26 (40)",
+    "startup": "i12~i14",
+    "block": "-6",
+    "hit": "+8d",
+    "counter": "",
+    "note": "\nBalcony Break\nThrow break 1+2"
   }
 ]

@@ -137,8 +137,8 @@
     "hit_level": "h",
     "damage": "6",
     "startup": "i10",
-    "block": "+8",
-    "hit": "+1",
+    "block": "+1",
+    "hit": "+8",
     "counter": "",
     "note": " "
   },
@@ -565,9 +565,9 @@
     "input": "b+1",
     "hit_level": "m",
     "damage": "10",
-    "startup": "i12",
-    "block": "-9",
-    "hit": "+1",
+    "startup": "i8",
+    "block": "-12",
+    "hit": "-1",
     "counter": "",
     "note": "\nAutomatically transitions to BT on hit\nRecover facing forward with B+1 (+3) "
   },
@@ -754,7 +754,7 @@
     "damage": "20",
     "startup": "i23",
     "block": "-7",
-    "hit": "+5c",
+    "hit": "+4",
     "counter": "+24a",
     "note": "\njs\nTransition to FC with D (-7, +4c, +24a)\nTransition with AOP with d+1+2 (-9, +2, +22)"
   },
@@ -1098,6 +1098,28 @@
     "hit": "+20a (+13)",
     "counter": "",
     "note": "\n"
+  },
+  {
+    "name": "",
+    "input": "ws1+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i14~16",
+    "block": "-9",
+    "hit": "+5",
+    "counter": "",
+    "note": "\nAlternate input f,F+1+2 "
+  },
+  {
+    "name": "X Marks the Spot",
+    "input": "ws1+2,1+2",
+    "hit_level": "m,m",
+    "damage": "12,20",
+    "startup": "i19~20",
+    "block": "-8",
+    "hit": "+7c",
+    "counter": "+43a",
+    "note": "\nAlternate input f,F+1+2,1+2 "
   },
   {
     "name": "Phoenix",

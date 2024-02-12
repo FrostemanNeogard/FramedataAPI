@@ -320,6 +320,17 @@
   },
   {
     "name": "",
+    "input": "d/f+44",
+    "hit_level": "mmm",
+    "damage": "1026",
+    "startup": "i13~14",
+    "block": "-15",
+    "hit": "-4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
     "input": "d+1",
     "hit_level": "m",
     "damage": "25",
@@ -405,6 +416,17 @@
     "hit": "-2",
     "counter": "",
     "note": ""
+  },
+  {
+    "name": "",
+    "input": "b+23",
+    "hit_level": "hm",
+    "damage": "1134",
+    "startup": "i14~16",
+    "block": "-14",
+    "hit": "+17",
+    "counter": "",
+    "note": "Heat Engager"
   },
   {
     "name": "",
@@ -507,6 +529,17 @@
   },
   {
     "name": "",
+    "input": "ws12",
+    "hit_level": "mm",
+    "damage": "1215",
+    "startup": "i13~14",
+    "block": "-11",
+    "hit": "+6",
+    "counter": "",
+    "note": "Hold F to enter MCR"
+  },
+  {
+    "name": "",
     "input": "ws2",
     "hit_level": "m",
     "damage": "20",
@@ -540,6 +573,17 @@
   },
   {
     "name": "",
+    "input": "ws44",
+    "hit_level": "mm",
+    "damage": "1020",
+    "startup": "i11~12",
+    "block": "-16",
+    "hit": "+4",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
     "input": "ss2",
     "hit_level": "m",
     "damage": "25",
@@ -551,7 +595,7 @@
   },
   {
     "name": "Thunder God Fist",
-    "input": "f, *, d, d/f+1",
+    "input": "f,n,d,df+1",
     "hit_level": "m",
     "damage": "30",
     "startup": "i22~24",
@@ -562,7 +606,7 @@
   },
   {
     "name": "Wind God Fist",
-    "input": "f, *, d, d/f+2",
+    "input": "f,n,d,df+2",
     "hit_level": "h",
     "damage": "20",
     "startup": "i15",
@@ -573,7 +617,7 @@
   },
   {
     "name": "Electric Wind God Fist",
-    "input": "f, *, d, d/f:2",
+    "input": "f,n,d,df#2",
     "hit_level": "h",
     "damage": "23",
     "startup": "i14",
@@ -584,7 +628,7 @@
   },
   {
     "name": "Demon's Hoof",
-    "input": "f, *, d, d/f+3",
+    "input": "f,n,d,df+3",
     "hit_level": "m",
     "damage": "25",
     "startup": "i26~28",
@@ -595,7 +639,7 @@
   },
   {
     "name": "Demon's Tail",
-    "input": "f, *, d, D/F+3",
+    "input": "f,n,d,DF+3",
     "hit_level": "l",
     "damage": "24",
     "startup": "i33~34",
@@ -606,7 +650,7 @@
   },
   {
     "name": "Spinning Demon Scythe",
-    "input": "f, *, d, D/F+4",
+    "input": "f,n,d,DF+4",
     "hit_level": "l",
     "damage": "10",
     "startup": "i20",
@@ -617,7 +661,7 @@
   },
   {
     "name": "Spiral of Madness",
-    "input": "f, *, d, d/f+1+2",
+    "input": "f,n,d,df+1+2",
     "hit_level": "m",
     "damage": "25",
     "startup": "i26~27",

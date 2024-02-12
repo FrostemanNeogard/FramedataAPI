@@ -3,10 +3,10 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "",
-    "startup": "Startup",
-    "block": "",
-    "hit": "",
+    "damage": "37",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2",
     "counter": "",
     "note": "\npc8~\n\nHeat Burst"
   },
@@ -16,7 +16,7 @@
     "hit_level": "m,th",
     "damage": "12,3",
     "startup": "i16",
-    "block": "",
+    "block": "+10",
     "hit": "",
     "counter": "",
     "note": "\n\nHeat Smash\nThrow on hit"
@@ -26,9 +26,9 @@
     "input": "in rage df+1+2",
     "hit_level": "m,th",
     "damage": "10,49",
-    "startup": "Startup",
-    "block": "",
-    "hit": "",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "KND",
     "counter": "",
     "note": "\npc8~\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit"
   },
@@ -37,9 +37,9 @@
     "input": "in rage df+1+2*",
     "hit_level": "m,th",
     "damage": "",
-    "startup": "Startup",
-    "block": "",
-    "hit": "",
+    "startup": "i56",
+    "block": "+3",
+    "hit": "KND",
     "counter": "",
     "note": "\npc8~\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit"
   },
@@ -72,7 +72,7 @@
     "damage": "6,9",
     "startup": ",",
     "block": "-8",
-    "hit": "+3a",
+    "hit": "+6",
     "counter": "",
     "note": "\nCombo from 1st CH"
   },
@@ -170,7 +170,7 @@
     "hit_level": "h,h,m",
     "damage": "9,10,16",
     "startup": "i12",
-    "block": "",
+    "block": "-10",
     "hit": "KND",
     "counter": "",
     "note": "Tornado"
@@ -181,7 +181,7 @@
     "hit_level": "h,h,m",
     "damage": "9,10,23",
     "startup": "i12",
-    "block": "-10c",
+    "block": "-9",
     "hit": "+3c",
     "counter": "JG",
     "note": "\nCombo from 2nd CH"
@@ -676,7 +676,7 @@
     "hit_level": "m",
     "damage": "13",
     "startup": "i14",
-    "block": "-9",
+    "block": "-10",
     "hit": "+7",
     "counter": "",
     "note": "\ncs6~"
@@ -698,7 +698,7 @@
     "hit_level": "m,m",
     "damage": "13,25",
     "startup": "i14",
-    "block": "",
+    "block": "-15",
     "hit": "KND",
     "counter": "",
     "note": "\njsTornado"
@@ -1215,9 +1215,9 @@
     "hit_level": "m",
     "damage": "30",
     "startup": "i23",
-    "block": "+4",
-    "hit": "+?c",
-    "counter": "LNC",
+    "block": "+5",
+    "hit": "+14",
+    "counter": "",
     "note": "\n"
   },
   {

@@ -326,8 +326,8 @@
     "startup": "i18",
     "block": "-7",
     "hit": "+9",
-    "counter": "",
-    "note": ""
+    "counter": "+9",
+    "note": "Knee"
   },
   {
     "name": "Impaling Knee Twin Thrust (2)",
@@ -337,7 +337,7 @@
     "startup": "i18",
     "block": "-11",
     "hit": "+5",
-    "counter": "",
+    "counter": "+5",
     "note": "\nCombo from 1st hit\nCan be delayed 10F\nCombo can be delayed 10F from hit\n"
   },
   {
@@ -349,18 +349,18 @@
     "block": "-18",
     "hit": "KND",
     "counter": "+24",
-    "note": "\n\nTornado\nCombo from 2nd CH\nCan be delayed 16F\n"
+    "note": "\n\nTornado\nWall Splat\nCombo from 2nd CH\nCan be delayed 16F\n"
   },
   {
     "name": "Impaling Knee Twin Skewer",
     "input": "df+3,2,1*",
     "hit_level": "m,m,m",
     "damage": "13,15,25",
-    "startup": "i18",
-    "block": "",
-    "hit": "",
+    "startup": "i46",
+    "block": "+11(+18w)",
+    "hit": "+10(+1)",
     "counter": "",
-    "note": "\n\nTornado\nChip damage when guarded\n"
+    "note": "\n\nTornado\nWallsplat\nChip damage when guarded\n"
   },
   {
     "name": "Tsunami Kick (1)",
@@ -569,7 +569,7 @@
     "block": "-14",
     "hit": "KND",
     "counter": "KND",
-    "note": "\nCombo from 1st hit\nCan be delayed 14F\nCombo can be delayed 10F from hit\n"
+    "note": "\nCombo from 1st hit\nCan be delayed 14F\nCombo can be delayed 10F from hit\nWallsplat\n"
   },
   {
     "name": "Rampaging Demon (1)",
@@ -587,10 +587,10 @@
     "input": "b+2,2",
     "hit_level": "m,m",
     "damage": "12,14",
-    "startup": "i14",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "startup": "i25",
+    "block": "-10",
+    "hit": "+1",
+    "counter": "+1",
     "note": ""
   },
   {
@@ -598,8 +598,8 @@
     "input": "b+2,2,1+2",
     "hit_level": "m,m,h",
     "damage": "12,14,20",
-    "startup": "i14",
-    "block": "",
+    "startup": "i28-32",
+    "block": "-8",
     "hit": "KND",
     "counter": "",
     "note": "\nChip damage when guarded\n"
@@ -609,7 +609,7 @@
     "input": "b+2,4",
     "hit_level": "m,h",
     "damage": "12,12",
-    "startup": "i14",
+    "startup": "i28-32",
     "block": "-3",
     "hit": "+8",
     "counter": "",
@@ -620,7 +620,7 @@
     "input": "b+2,4,1",
     "hit_level": "m,h,m",
     "damage": "12,12,22",
-    "startup": "i14",
+    "startup": "i28-32",
     "block": "-14",
     "hit": "KND",
     "counter": "KND",
@@ -1040,9 +1040,9 @@
     "damage": "25",
     "startup": "i13",
     "block": "-9",
-    "hit": "+11g (+23w)",
-    "counter": "",
-    "note": "Wall Crush {{{1}}}\n"
+    "hit": "+8",
+    "counter": "+24a",
+    "note": ""
   },
   {
     "name": "Shattered Spine",

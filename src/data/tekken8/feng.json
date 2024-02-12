@@ -22,7 +22,7 @@
     "note": "\nHeat Smash\nChip damage on block\nTransitions to STC on block\n"
   },
   {
-    "name": "Yinglong Sea Splitter",
+    "name": "Jiaolong Sea Splitter",
     "input": "in heat 3+4",
     "hit_level": "ub(m)",
     "damage": "30",
@@ -33,6 +33,61 @@
     "note": "\nPartially consumes remaining Heat\nCreates an unblockable shockwave along the ground that is +10g on hit and forces the opponent to crouch. The shockwave comes out even if the kick itself whiffs, or is parried by certain parries like Jin's or Reina's. It can be absorbed by a Power Crush.\n"
   },
   {
+    "name": "Tiger's Claw",
+    "input": "f+1+2",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i19~20",
+    "block": "-9",
+    "hit": "+19d",
+    "counter": "",
+    "note": "\npc\n\nHeat Engager\n\n\nHeat Dash +5, +35d\n\n\nBalcony Break\n"
+  },
+  {
+    "name": "Iron Fortress",
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "31",
+    "startup": "i13~14",
+    "block": "-19",
+    "hit": "+18a (+13)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\n"
+  },
+  {
+    "name": "Exploding Dagger",
+    "input": "f,F+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i18~19",
+    "block": "-9",
+    "hit": "+16a (+7)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\n"
+  },
+  {
+    "name": "Fei He Zhang",
+    "input": "KNP 2",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\n"
+  },
+  {
+    "name": "Slashing Tiger",
+    "input": "BT 2",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i19~21",
+    "block": "-13",
+    "hit": "+17",
+    "counter": "",
+    "note": "\npc\n\nHeat Engager\n\nAbsorb an attack to power up and deal more damage on block\n"
+  },
+  {
     "name": "Essence of Iron Palm",
     "input": "in heat b+1",
     "hit_level": "h",
@@ -41,7 +96,18 @@
     "block": "-8",
     "hit": "+36d (+28)",
     "counter": "",
-    "note": "\nConsumes Heat\n"
+    "note": "\n\nBalcony Break\nPartially uses remaining Heat Time\n"
+  },
+  {
+    "name": "Essence of Nian Zhang Mie Ba",
+    "input": "in heat f,F+1+2*",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i39",
+    "block": "+11",
+    "hit": "+22a (+12)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nGuard Break +11\nPartially uses remaining Heat Time\n"
   },
   {
     "name": "Left Jab",
@@ -85,7 +151,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "",
-    "note": "\nCombo from 1st hit"
+    "note": "\nCombo from 1st hit\nTransition to -11 +5 BT with B"
   },
   {
     "name": "Jab Roundhouse Combo",
@@ -173,7 +239,7 @@
     "block": "-12",
     "hit": "+22d (+17)",
     "counter": "",
-    "note": "\nBalcony Break\nCombo from 1st CH\nMove can be delayed"
+    "note": "\nBalcony Break\nCombo from 1st CH\nCan be charged to power up:\nAt full charge +7 on block 14 chip damage "
   },
   {
     "name": "",
@@ -184,7 +250,7 @@
     "block": "-5",
     "hit": "+19d",
     "counter": "",
-    "note": "\nCancel to -7~-2 -+19~+24 BT with B"
+    "note": "\njs\nCancel to -7~-2 -+19~+24 BT with B"
   },
   {
     "name": "Leaping Whirlwind Combo",
@@ -198,15 +264,15 @@
     "note": "\nCombo from 1st hit"
   },
   {
-    "name": "Yinglong Sea Splitter",
+    "name": "Jiaolong Sea Splitter",
     "input": "in heat 3+4",
-    "hit_level": "m",
+    "hit_level": "ub(m)",
     "damage": "30",
     "startup": "i30~31",
-    "block": "+12c",
+    "block": "+12c g",
     "hit": "+19d",
     "counter": "",
-    "note": "\nConsumes Heat\n"
+    "note": "\nPartially consumes remaining Heat\nCreates an unblockable shockwave along the ground that is +10g on hit and forces the opponent to crouch. The shockwave comes out even if the kick itself whiffs, or is parried by certain parries like Jin's or Reina's. It can be absorbed by a Power Crush.\n"
   },
   {
     "name": "Headspring",
@@ -217,7 +283,7 @@
     "block": "-7",
     "hit": "+1c",
     "counter": "+16a",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Iron Shield",
@@ -228,7 +294,7 @@
     "block": "-13",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "\npsPunch sabaki"
   },
   {
     "name": "",
@@ -261,7 +327,7 @@
     "block": "-19",
     "hit": "+19d (+14)",
     "counter": "",
-    "note": ""
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nMove can be delayed"
   },
   {
     "name": "",
@@ -282,7 +348,7 @@
     "startup": "i21~22",
     "block": "-3",
     "hit": "+8",
-    "counter": "",
+    "counter": "+43d (+35)",
     "note": "\nCombo from 1st hit\nMove can be delayed"
   },
   {
@@ -305,7 +371,7 @@
     "block": "-9",
     "hit": "+52a",
     "counter": "",
-    "note": "\nCancel to -5 +56 BT with B"
+    "note": "\nTransition to -5 +56a BT with B"
   },
   {
     "name": "Tornado Open Palm",
@@ -336,7 +402,7 @@
     "damage": "19,11",
     "startup": "i33~33",
     "block": "-31",
-    "hit": "+20d (+13)",
+    "hit": "+27d",
     "counter": "",
     "note": "\nCombo from 1st hit\n"
   },
@@ -347,9 +413,9 @@
     "damage": "25",
     "startup": "i19~20",
     "block": "-9",
-    "hit": "+17",
+    "hit": "+19d",
     "counter": "",
-    "note": "\npc\n\nHeat Engager\n\n"
+    "note": "\npc\n\nHeat Engager\n\n\nHeat Dash +5, +35d\n\n\nBalcony Break\n"
   },
   {
     "name": "Stunning Palm",
@@ -459,7 +525,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "\ncs"
   },
   {
     "name": "",
@@ -514,7 +580,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "\nEnter -9 +7 Deceptive Step with B\nEnter STC with F\n"
+    "note": "\nTransition to -9 +7 KNP with B\nTransition to -16 +0 STC with F\n"
   },
   {
     "name": "Spear of Lu Bu",
@@ -525,7 +591,29 @@
     "block": "-11",
     "hit": "+7",
     "counter": "",
-    "note": "\nCombo from 1st hit\nMove can be delayed\n"
+    "note": "\nCombo from 1st hit\nMove can be delayed "
+  },
+  {
+    "name": "",
+    "input": "db+1,2,4",
+    "hit_level": "m,m,m",
+    "damage": "15,18,30",
+    "startup": "i31",
+    "block": "-7",
+    "hit": "-3d",
+    "counter": "",
+    "note": "\njs\n\nFloor Break "
+  },
+  {
+    "name": "Rampaging Lion",
+    "input": "db+1,2,4,3+4",
+    "hit_level": "m,m,m",
+    "damage": "15,18,30",
+    "startup": "i39",
+    "block": "",
+    "hit": "-",
+    "counter": "",
+    "note": "\njs\nFeng does a kip-up to get off the floor\n"
   },
   {
     "name": "Spinning Neck Strike",
@@ -536,7 +624,7 @@
     "block": "-2",
     "hit": "+24a (+15)",
     "counter": "",
-    "note": "\nBalcony Break\nCombo from 1st hit\nMove can be delayed\n"
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nMove can be delayed\n"
   },
   {
     "name": "",
@@ -644,9 +732,9 @@
     "damage": "15",
     "startup": "i17",
     "block": "-11",
-    "hit": "0",
+    "hit": "+0c",
     "counter": "",
-    "note": ""
+    "note": "Floor Break"
   },
   {
     "name": "",
@@ -710,9 +798,9 @@
     "damage": "31",
     "startup": "i13~14",
     "block": "-19",
-    "hit": "+17",
+    "hit": "+18a (+13)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\n"
   },
   {
     "name": "Throat Gouge",
@@ -745,7 +833,7 @@
     "block": "+2",
     "hit": "+10",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Eagle Claw",
@@ -756,7 +844,7 @@
     "block": "-5",
     "hit": "+4",
     "counter": "",
-    "note": "\nMove can also be input with uf or u\n"
+    "note": "\njs\n+12 on crouching opponent\nAlternate input with uf or u\n"
   },
   {
     "name": "Evading Palm Strike",
@@ -778,7 +866,7 @@
     "block": "-1",
     "hit": "+22d",
     "counter": "",
-    "note": "\nMove can also be input with uf or u\n"
+    "note": "\njs\nAlternate input with uf or u\n"
   },
   {
     "name": "Soaring Eagle",
@@ -789,7 +877,7 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nMove can also be input with uf or u\n"
+    "note": "\njs\nAlternate input with uf or u\n"
   },
   {
     "name": "",
@@ -800,7 +888,7 @@
     "block": "-14",
     "hit": "+25a (+18)",
     "counter": "",
-    "note": ""
+    "note": "\ncs, then js"
   },
   {
     "name": "Assassin's Bow",
@@ -822,7 +910,7 @@
     "block": "-13",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": ""
+    "note": "\njs"
   },
   {
     "name": "Exploding Dagger",
@@ -831,9 +919,9 @@
     "damage": "25",
     "startup": "i18~19",
     "block": "-9",
-    "hit": "+17",
+    "hit": "+16a (+7)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\n"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\n"
   },
   {
     "name": "Tremor Stomp",
@@ -844,7 +932,7 @@
     "block": "+8c",
     "hit": "+8c",
     "counter": "",
-    "note": "\nChip damage on block\nTransition to STC with f\n"
+    "note": "\nChip damage on block\nTransition to +4c +4c STC with f\n"
   },
   {
     "name": "",
@@ -861,12 +949,12 @@
     "name": "Spreading Wings",
     "input": "f,F+4,3",
     "hit_level": "m,m",
-    "damage": "15,14",
+    "damage": "15,21",
     "startup": "i20~21",
     "block": "-14",
     "hit": "+32a (+25)",
     "counter": "",
-    "note": "\nMove can be powered up by delaying input\n"
+    "note": "\njs\nMove can be powered up by delaying input (25 damage)\n"
   },
   {
     "name": "Nian Zhang Mie Ba",
@@ -875,9 +963,20 @@
     "damage": "25",
     "startup": "i24~25",
     "block": "-9",
-    "hit": "+16d",
+    "hit": "+16a",
     "counter": "",
     "note": "\n\nBalcony Break\nHold 1+2 to power up and deal more chip damage on block\n"
+  },
+  {
+    "name": "Nian Zhang Mie Ba (charged)",
+    "input": "f,F+1+2*",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i39",
+    "block": "+6",
+    "hit": "+22a (+12)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nWall Crush +18g\n\nBecomes  Essence of Nian Zhang Mie Ba in Heat\n"
   },
   {
     "name": "Falcon's Beak",
@@ -887,7 +986,7 @@
     "startup": "i25~26",
     "block": "-15",
     "hit": "+10d (+1)",
-    "counter": "",
+    "counter": "+44a",
     "note": ""
   },
   {
@@ -899,7 +998,7 @@
     "block": "+6",
     "hit": "+13d (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\n"
+    "note": "\njs\n\nBalcony Break\nChip damage on block\n"
   },
   {
     "name": "Lingering Shadow",
@@ -910,7 +1009,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nD,df to enter crouching state\n"
+    "note": "\ncs\nD,df to enter crouching state\n"
   },
   {
     "name": "Landslide",
@@ -918,10 +1017,10 @@
     "hit_level": "L",
     "damage": "23",
     "startup": "i22~23",
-    "block": "-14c",
+    "block": "-14",
     "hit": "+2",
     "counter": "+31a",
-    "note": ""
+    "note": "\ncsHead"
   },
   {
     "name": "Mountain Crusher",
@@ -943,7 +1042,18 @@
     "block": "0c",
     "hit": "+7c",
     "counter": "+23d",
-    "note": ""
+    "note": "Head"
+  },
+  {
+    "name": "",
+    "input": "qcf3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transitions to STC"
   },
   {
     "name": "Silent Arrow",

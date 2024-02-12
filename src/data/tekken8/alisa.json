@@ -92,9 +92,9 @@
     "input": "in heat 2+3",
     "hit_level": "m",
     "damage": "50 (28)",
-    "startup": "i15,i1,i23,i1,i23~24,i4~5",
-    "block": "",
-    "hit": "",
+    "startup": "i20~21",
+    "block": "+8",
+    "hit": "KND",
     "counter": "",
     "note": "\nAlternate input: H.DES.2+3\n\nHeat Smash\nTransition to BOT with H.2+3,3_4 or H.DES.2+3,f+3_f+4\n"
   },
@@ -1159,8 +1159,8 @@
     "input": "DES 1",
     "hit_level": "m",
     "damage": "35",
-    "startup": "i14",
-    "block": "",
+    "startup": "i13",
+    "block": "-9",
     "hit": "+23",
     "counter": "",
     "note": "\nTransition to DES\nchip damage on block\n"
@@ -1171,8 +1171,8 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i20",
-    "block": "",
-    "hit": "",
+    "block": "-8",
+    "hit": "Launch",
     "counter": "",
     "note": "\nTransition to DES\nchip damage on block\n"
   },
@@ -1215,7 +1215,7 @@
     "hit_level": "h",
     "damage": "21",
     "startup": "i11~13",
-    "block": "",
+    "block": "+3",
     "hit": "+9",
     "counter": "",
     "note": "\nTransition to DES\nchip damage on block\n"
@@ -1226,8 +1226,8 @@
     "hit_level": "m",
     "damage": "9",
     "startup": "i15",
-    "block": "",
-    "hit": "",
+    "block": "-9",
+    "hit": "0",
     "counter": "",
     "note": "\nchip damage on block\n"
   },
@@ -1237,8 +1237,8 @@
     "hit_level": "mm",
     "damage": "9",
     "startup": "i15",
-    "block": "",
-    "hit": "",
+    "block": "-12",
+    "hit": "-3",
     "counter": "",
     "note": "\nchip damage on block\n"
   },
@@ -1248,8 +1248,8 @@
     "hit_level": "mmm",
     "damage": "9",
     "startup": "i15",
-    "block": "",
-    "hit": "",
+    "block": "-13",
+    "hit": "KND",
     "counter": "",
     "note": "\n\nHeat Engager\n\nchip damage on block\n"
   },
@@ -1281,7 +1281,7 @@
     "hit_level": "l",
     "damage": "20",
     "startup": "i21",
-    "block": "",
+    "block": "-12",
     "hit": "+4",
     "counter": "",
     "note": "\nTransition to DES\nchip damage on block\n"
@@ -1292,8 +1292,8 @@
     "hit_level": "l",
     "damage": "26",
     "startup": "i22~23",
-    "block": "",
-    "hit": "+4c",
+    "block": "-14",
+    "hit": "+4",
     "counter": "",
     "note": "\n\nHoming\nchip damage on block\n"
   },
@@ -1303,9 +1303,9 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i18~20",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-12",
+    "hit": "0",
+    "counter": "Launch",
     "note": "\nchip damage on block\n"
   },
   {
@@ -1314,7 +1314,7 @@
     "hit_level": "m,m",
     "damage": "17,33",
     "startup": ",i20~21",
-    "block": "",
+    "block": "-3",
     "hit": "+5",
     "counter": "",
     "note": "\nTransition to DES\nchip damage on block\n"

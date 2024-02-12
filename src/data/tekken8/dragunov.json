@@ -1243,61 +1243,6 @@
     "note": "\npc\nAbsorb a hit to transition to Snap Knee Assault"
   },
   {
-    "name": "Cocked Hammer",
-    "input": "qcf+1",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i15~16",
-    "block": "-3",
-    "hit": "+51a",
-    "counter": "",
-    "note": ""
-  },
-  {
-    "name": "Stinger Elbow",
-    "input": "qcf+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i18~19",
-    "block": "-14",
-    "hit": "+36a (+26)",
-    "counter": "",
-    "note": "Tornado"
-  },
-  {
-    "name": "Slay Ride",
-    "input": "qcf+3",
-    "hit_level": "L,t",
-    "damage": "17,20",
-    "startup": "i17~18",
-    "block": "-16",
-    "hit": "+0",
-    "counter": "+1d",
-    "note": "\nThrow when CH from the front\nCalled \"Needle Hold\" in-game"
-  },
-  {
-    "name": "Ignition Switch",
-    "input": "qcf+4",
-    "hit_level": "M",
-    "damage": "27",
-    "startup": "i19~21",
-    "block": "+7",
-    "hit": "+18a",
-    "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nBalcony Break\n\nFloor Break\nChip damage on block"
-  },
-  {
-    "name": "Snap Knee",
-    "input": "qcf+3+4",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i17~18",
-    "block": "-13",
-    "hit": "+27g",
-    "counter": "",
-    "note": "\npc\nAbsorb a hit to transition to Snap Knee Assault"
-  },
-  {
     "name": "White Angel of Death",
     "input": "df+1+2",
     "hit_level": "m",

@@ -26,11 +26,11 @@
     "input": "4,4:4",
     "hit_level": "h,h,h",
     "damage": "14,5,12",
-    "startup": "i20",
+    "startup": ",i20~21",
     "block": "-9",
-    "hit": "+17",
-    "counter": "+29",
-    "note": "Heat Engager\n \nHeat Dash +5g +34d\n\n Does not engage heat on ch."
+    "hit": "+15a (+6)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +34d\n\nCombo from 1st hit\nCombo from 1st ch +29a (+22)\n4 chip damage"
   },
   {
     "name": "",
@@ -41,18 +41,18 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "Heat Engager\n \nHeat Dash +5g +36d\n\n Slight lowprofile"
+    "note": "Heat Engager\n \nHeat Dash +5g +36d\n Slight lowprofile"
   },
   {
     "name": "Fabulous Whip",
     "input": "df+4,4",
-    "hit_level": "m,m",
+    "hit_level": "m,h",
     "damage": "14,22",
     "startup": "i22-23",
     "block": "-9",
     "hit": "+10",
     "counter": "",
-    "note": "Heat Engager\n \nHeat Dash +5g +34d\n\n df43 instead shifts into hms."
+    "note": "Heat Engager\n \nHeat Dash +5g +34d\n df43 instead shifts into hms."
   },
   {
     "name": "",
@@ -63,7 +63,7 @@
     "block": "-7",
     "hit": "+17",
     "counter": "",
-    "note": "Heat Engager\n \nHeat Dash +5g +34d\n\n Powercrush."
+    "note": "Heat Engager\n \nHeat Dash +5g +34d\n Powercrush."
   },
   {
     "name": "",
@@ -92,50 +92,50 @@
     "input": "1,2",
     "hit_level": "h,h",
     "damage": "5,9",
-    "startup": "i12",
+    "startup": ",i12",
     "block": "-3",
     "hit": "+7",
     "counter": "",
-    "note": "Jail from 1st attack"
+    "note": "\nJail from 1st attack with max delay\nMove can be delayed 4f"
   },
   {
     "name": "",
     "input": "1,2,2",
     "hit_level": "h,h,m",
-    "damage": "5,9,16",
-    "startup": "i20~21",
+    "damage": "5,9,14",
+    "startup": ",i20~21",
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "\nMove can be delayed\nCombo from 2nd CH without delay"
   },
   {
     "name": "Left Right Mid Kick",
     "input": "1,2,4",
     "hit_level": "h,h,m",
-    "damage": "5,9,11",
-    "startup": "i18",
+    "damage": "5,9,10",
+    "startup": ",i18",
     "block": "-12",
     "hit": "-1",
-    "counter": "+58",
-    "note": "Goes into HMS by pressing 3. Crumples on ch."
+    "counter": "+58a",
+    "note": "\nJail from 1st attack\nTransition to -14 -2 HMS with 3"
   },
   {
-    "name": "Left Right Mid Kick Cardinal",
+    "name": "Left Right Mid Kick",
     "input": "1,2:4",
     "hit_level": "h,h,m",
-    "damage": "5,9,13",
-    "startup": "i18",
+    "damage": "5,9,12",
+    "startup": ",i18",
     "block": "-12",
     "hit": "+5",
-    "counter": "+58",
-    "note": "Goes into HMS by pressing 3. Crumples on ch."
+    "counter": "+58a",
+    "note": "Based on Lee-1,2,4\n4 frame window for timed input\nJail from 1st attack\nTransition to -14 +3 HMS with 3"
   },
   {
     "name": "",
     "input": "1,3",
     "hit_level": "h,h",
-    "damage": "5,6",
+    "damage": "5,5",
     "startup": "i16",
     "block": "-11",
     "hit": "+0",
@@ -146,33 +146,33 @@
     "name": "",
     "input": "1,3:3",
     "hit_level": "h,h,m",
-    "damage": "5,6,4",
-    "startup": "i9",
+    "damage": "5,5,4",
+    "startup": ",i9",
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": ""
+    "note": "Jail from 1st attack"
   },
   {
-    "name": "Acid Rain Kick Combination",
+    "name": "Acid Rain",
     "input": "1,3:3:3",
     "hit_level": "h,h,m,h",
-    "damage": "5,6,4,15",
-    "startup": "i21",
+    "damage": "5,5,4,14",
+    "startup": ",i21",
     "block": "-17",
     "hit": "+14",
     "counter": "",
-    "note": "Crumples."
+    "note": "\nCombo from 1st hit\nTimestop on hit\n5 chip damage"
   },
   {
-    "name": "Machinegun kicks",
+    "name": "Magic Four",
     "input": "4",
     "hit_level": "h",
     "damage": "14",
     "startup": "i11",
     "block": "-9",
     "hit": "+2",
-    "counter": "",
+    "counter": "+2s",
     "note": ""
   },
   {
@@ -180,33 +180,33 @@
     "input": "4,4",
     "hit_level": "h,h",
     "damage": "14,5",
-    "startup": "i10",
+    "startup": ",i10",
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": "Launches on ch"
+    "note": "\nJail from 1st attack\nCombo from 1st CH +20a (+13)"
   },
   {
-    "name": "",
+    "name": "Machinegun Kick",
     "input": "4,4,4",
     "hit_level": "h,h,h",
     "damage": "14,5,5",
-    "startup": "i10",
+    "startup": ",i10",
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "\nJail from 1st attack\nCombo from 1st CH +25a (+18)"
   },
   {
     "name": "Machinegun Kicks Cardinal",
     "input": "4,4:4",
     "hit_level": "h,h,h",
     "damage": "14,5,12",
-    "startup": "i20",
+    "startup": ",i20~21",
     "block": "-9",
-    "hit": "+17",
-    "counter": "+29",
-    "note": "Heat Engager\n \nHeat Dash +5g +34d\n\n Does not engage heat on ch."
+    "hit": "+15a (+6)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +34d\n\nCombo from 1st hit\nCombo from 1st ch +29a (+22)\n4 chip damage"
   },
   {
     "name": "",
@@ -222,12 +222,12 @@
   {
     "name": "Fabulous Whip",
     "input": "df+4,4",
-    "hit_level": "m,m",
+    "hit_level": "m,h",
     "damage": "14,22",
     "startup": "i22-23",
     "block": "-9",
     "hit": "+10",
     "counter": "",
-    "note": "Heat Engager\n \nHeat Dash +5g +34d\n\n df43 instead shifts into hms."
+    "note": "Heat Engager\n \nHeat Dash +5g +34d\n df43 instead shifts into hms."
   }
 ]
