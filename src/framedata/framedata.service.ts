@@ -85,6 +85,7 @@ export class FramedataService {
       .replaceAll('ewgf', 'f,n,d,df:2')
       .replaceAll('heatsmash', 'in heat 2+3')
       .replaceAll('heatburst', '2+3')
+      .replaceAll('#', ':')
       .replaceAll('.', '')
       .replaceAll(/ *\([^)]*\) */g, '')
       .replaceAll(/[\u200B-\u200D\uFEFF]/g, '')
