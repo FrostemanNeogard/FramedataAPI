@@ -1189,7 +1189,7 @@
   },
   {
     "name": "Electric Wind God Fist",
-    "input": "f,n,d,df:2",
+    "input": "f,n,d,df#2",
     "hit_level": "h",
     "damage": "23",
     "startup": "i11",
@@ -1260,9 +1260,9 @@
     "damage": "5,6,12,8",
     "startup": "i10",
     "block": "",
-    "hit": "Th",
+    "hit": "+5",
     "counter": "",
-    "note": "\nPartially uses remaining Heat time\n"
+    "note": "\nPartially uses remaining Heat time\nOnly on hit\n"
   },
   {
     "name": "Devil Blaster",
@@ -1270,9 +1270,9 @@
     "hit_level": "ub(m)",
     "damage": "30",
     "startup": "i64",
-    "block": "KND",
-    "hit": "KND",
-    "counter": "KND",
+    "block": "",
+    "hit": "-16(-77)",
+    "counter": "",
     "note": "\njs25~\nPartially uses remaining Heat time\n"
   },
   {
@@ -1280,9 +1280,9 @@
     "input": "DVK 1+4",
     "hit_level": "m",
     "damage": "27",
-    "startup": "i22",
-    "block": "",
-    "hit": "KND",
+    "startup": "i21-31",
+    "block": "-9",
+    "hit": "+3 KND",
     "counter": "",
     "note": "\npc\n\nTornado\nPartially uses remaining Heat time\nabsorb an attack to power up\n"
   },
@@ -1292,8 +1292,8 @@
     "hit_level": "l",
     "damage": "0",
     "startup": "i24",
-    "block": "",
-    "hit": "",
+    "block": "-19",
+    "hit": "+2",
     "counter": "",
     "note": "\nPartially uses remaining Heat time\n"
   },
@@ -1303,8 +1303,8 @@
     "hit_level": "l,sp",
     "damage": "0,0",
     "startup": "i24",
-    "block": "",
-    "hit": "",
+    "block": "-19",
+    "hit": "+11",
     "counter": "",
     "note": "\nPartially uses remaining Heat time\n"
   },
@@ -1314,9 +1314,9 @@
     "hit_level": "ub(h)",
     "damage": "40",
     "startup": "i41",
-    "block": "KND",
-    "hit": "KND",
-    "counter": "KND",
+    "block": "",
+    "hit": "+14(+44) KND",
+    "counter": "",
     "note": "\nPartially uses remaining Heat time\nJack-8 or Alisa can recovery 20 by input 1+2\n"
   },
   {
@@ -1337,9 +1337,9 @@
     "damage": "20,20",
     "startup": "i16",
     "block": "",
-    "hit": "Th",
+    "hit": "+0",
     "counter": "",
-    "note": "\nPartially uses remaining Heat time\n"
+    "note": "\nPartially uses remaining Heat time\nOnly on hit\n"
   },
   {
     "name": "Damnation",
@@ -1391,9 +1391,9 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i17",
-    "block": "-22",
-    "hit": "LNC",
-    "counter": "LNC",
+    "block": "-15",
+    "hit": "+76",
+    "counter": "+76",
     "note": "\nPartially uses remaining Heat time\n\nTornado\n"
   },
   {
@@ -1401,9 +1401,9 @@
     "input": "DVK OTG db+1+2",
     "hit_level": "l",
     "damage": "20",
-    "startup": "i24",
+    "startup": "i24-29",
     "block": "",
-    "hit": "",
+    "hit": "+13(+1)",
     "counter": "",
     "note": "\nPartially uses remaining Heat time\n"
   },

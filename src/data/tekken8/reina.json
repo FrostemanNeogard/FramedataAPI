@@ -704,6 +704,17 @@
     "note": "Balcony Break"
   },
   {
+    "name": "Kugai Dachi",
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18",
+    "block": "-13",
+    "hit": "+14",
+    "counter": "",
+    "note": "\npcPowercrush mid that knocks down opponent for a very short period. It can Wall splat."
+  },
+  {
     "name": "Unsoku Kou",
     "input": "u+3",
     "hit_level": "sp",

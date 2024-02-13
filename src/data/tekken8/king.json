@@ -17,9 +17,9 @@
     "damage": "12,25",
     "startup": "i15~16",
     "block": "+1",
-    "hit": "+17g",
+    "hit": "+17g/+16d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nBalcony Break\nCombos from 1st hit.\n"
+    "note": "\n\nHeat Engager\n\nBalcony Break\nCombo from 1st hit.\n+16F on hit during heat or after heat.\n"
   },
   {
     "name": "Shoulder Tackle",
@@ -28,9 +28,9 @@
     "damage": "27",
     "startup": "i20",
     "block": "-9",
-    "hit": "+17g",
+    "hit": "+17g/+9d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n"
+    "note": "\n\nHeat Engager\n\nBalcony Break\n+8/9F on hit during heat or after heat.\n"
   },
   {
     "name": "Muscle Armor > Emerald Elbow",
@@ -39,20 +39,20 @@
     "damage": "15,25",
     "startup": "i15",
     "block": "-9",
-    "hit": "+35g",
+    "hit": "+35g/+8g",
     "counter": "",
-    "note": "\nPower Crush\n\nHeat Engager\n\nOnly first input has armour.\n"
+    "note": "\nPower Crush\n\nHeat Engager\n\nOnly 1st input has armor, 2nd input is delayable.\n+8F on hit during heat or after heat.\nUnable to cancel into heat dash.\n"
   },
   {
     "name": "Rapid King Onslaught",
-    "input": "JGin rage 1+2",
+    "input": "JGin rage 1+3/JGin rage 2+4",
     "hit_level": "t",
     "damage": "45",
     "startup": "i23",
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break.\nRestores some Heat Gauge in Heat.\n"
+    "note": "\n\nHeat Engager\n\nNamely RKO, cannot throw break.\nRestores some Heat Gauge in Heat.\nUnable to cancel into heat dash.\n"
   },
   {
     "name": "Freedom Face Buster",
@@ -63,7 +63,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break.\nCrouch throw.\nRestores some Heat Gauge in Heat.\n"
+    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nRestores some Heat Gauge in Heat.\nUnable to cancel into heat dash.\n"
   },
   {
     "name": "Ultimo Jaguar",
@@ -96,7 +96,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\n"
+    "note": "\nCombo from 1st hit.\n"
   },
   {
     "name": "Palm Strike > Head Jammer",
@@ -105,9 +105,9 @@
     "damage": "5,15,30",
     "startup": "i10~i30",
     "block": "",
-    "hit": "+1",
+    "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 2\n"
+    "note": "\nThrow break 2.\n"
   },
   {
     "name": "Palm Strike > V Driver",
@@ -116,7 +116,7 @@
     "damage": "5,15,27",
     "startup": "i27",
     "block": "",
-    "hit": "+1",
+    "hit": "+1d",
     "counter": "",
     "note": "\nCannot throw break.\nCrouch throw.\n"
   },
@@ -129,18 +129,18 @@
     "block": "-4",
     "hit": "+5",
     "counter": "",
-    "note": "\n"
+    "note": "\nThe 3rd hit doesn't combo even on CH.\n"
   },
   {
     "name": "Palm Strike Uppercut > Suplex",
     "input": "1,2,1,2+4",
     "hit_level": "h,h,m,t",
     "damage": "5,15,10,40",
-    "startup": "i10~26",
+    "startup": "i10~i26",
     "block": "",
-    "hit": "+0",
+    "hit": "+0d",
     "counter": "",
-    "note": "\n"
+    "note": "\nThrow break 2.\n"
   },
   {
     "name": "Palm Strike Uppercut > V Driver",
@@ -149,9 +149,9 @@
     "damage": "5,15,10,35",
     "startup": "i10~i28",
     "block": "",
-    "hit": "+1",
+    "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break\nCrouch throw.\n"
+    "note": "\nCannot throw break.\nCrouch throw.\n"
   },
   {
     "name": "Right Jab",
@@ -177,14 +177,36 @@
   },
   {
     "name": "",
+    "input": "3",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i17",
+    "block": "-14",
+    "hit": "+17a",
+    "counter": "",
+    "note": "\n\nBalcony Break\n"
+  },
+  {
+    "name": "",
+    "input": "4",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i13",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "",
     "input": "1+2",
     "hit_level": ",m",
     "damage": ",17",
     "startup": "i18",
     "block": "-11",
-    "hit": "-1",
+    "hit": "-2",
     "counter": "",
-    "note": "\nShifts into backturn.\n"
+    "note": "\nShifts into backturn stance.\n"
   },
   {
     "name": "Head Spinner",
@@ -192,10 +214,10 @@
     "hit_level": ",m,m",
     "damage": ",17,21",
     "startup": "i18~i22",
-    "block": "-13",
-    "hit": "+12",
+    "block": "-13/-18",
+    "hit": "+12a/-9",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\nCombo from 1st hit.\nHold back during 2nd hit to feint.\n"
   },
   {
     "name": "Brutal Sting",
@@ -204,9 +226,9 @@
     "damage": ",17,25",
     "startup": "i18~i24",
     "block": "-3",
-    "hit": "+12",
+    "hit": "+12a",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\n"
+    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit.\n"
   },
   {
     "name": "",
@@ -319,44 +341,99 @@
     "note": "\n\nHeat Engager\n\n"
   },
   {
+    "name": "",
+    "input": "df+1",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n"
+  },
+  {
     "name": "Elbow Sting",
     "input": "df+1,2",
     "hit_level": "m,m",
     "damage": "15,15",
-    "startup": "i14~i20",
+    "startup": "i14",
     "block": "-10",
     "hit": "+5",
     "counter": "",
     "note": "\nCombos from 1st hit if not fully delayed.\n"
   },
   {
+    "name": "",
+    "input": "df+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i13",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n"
+  },
+  {
     "name": "Double Hook Disaster",
     "input": "df+2,1",
     "hit_level": "m,h",
     "damage": "12,15",
-    "startup": "i13~i20",
+    "startup": "i13",
     "block": "-4",
     "hit": "+24d",
     "counter": "",
     "note": "\n"
   },
   {
+    "name": "",
+    "input": "df+3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": ""
+  },
+  {
     "name": "Lasso Kick",
     "input": "df+3,4",
     "hit_level": "m,h",
     "damage": "17,23",
-    "startup": "i14~i30",
+    "startup": "i14",
     "block": "+0",
     "hit": "+28d",
     "counter": "",
     "note": "\nRecovers in FDFT on hit or block.\nCombos on CH.\n"
   },
   {
+    "name": "",
+    "input": "df+4",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n"
+  },
+  {
+    "name": "",
+    "input": "df+4,3",
+    "hit_level": "l,h",
+    "damage": "10,11",
+    "startup": "i14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n"
+  },
+  {
     "name": "Mincer",
     "input": "df+4,3,4",
     "hit_level": "l,h,m",
     "damage": "10,11,27",
-    "startup": "i14~i28",
+    "startup": "i14",
     "block": "-15",
     "hit": "+6d(-3)",
     "counter": "",
@@ -367,7 +444,7 @@
     "input": "df+4,3,d+4",
     "hit_level": "l,h,l",
     "damage": "10,11,20",
-    "startup": "i12~i33",
+    "startup": "i14",
     "block": "-10",
     "hit": "-8d",
     "counter": "",
@@ -484,6 +561,17 @@
     "note": "\nRecovers in FDFT on block.\nCan also been done from BT.\n"
   },
   {
+    "name": "Muscle Armor",
+    "input": "db+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nPower Crush\nAble to cancel into side step.\n"
+  },
+  {
     "name": "Muscle Armor > Jaguar Sprint",
     "input": "db+1+2,3+4",
     "hit_level": "",
@@ -492,7 +580,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPower Crush\n"
+    "note": "\nPower Crush\nRun immediately without pointing finger.\nRunning has no armor if not during heat.\nCancel window is smaller than Emerald Elbow.\n"
   },
   {
     "name": "Quick Hook",
