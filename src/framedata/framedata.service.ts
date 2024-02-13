@@ -49,7 +49,8 @@ export class FramedataService {
 
     const frameData = await this.getCharacterFrameData(character, game);
     let attackInfo: FrameDataType[] = frameData.filter(
-      (item) => item.input === notation,
+      (item) =>
+        item.input === notation.replaceAll(/[\u200B-\u200D\uFEFF]/g, ''),
     );
 
     for (let i = 0; i < 2; i++) {
