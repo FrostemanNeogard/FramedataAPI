@@ -87,6 +87,7 @@ export class FramedataService {
       .replaceAll('heatburst', '2+3')
       .replaceAll('.', '')
       .replaceAll(/ *\([^)]*\) */g, '')
+      .replaceAll(/[\u200B-\u200D\uFEFF]/g, '')
       .split('or')
       .pop()
       .replace(/[\s,/()]/g, '');
