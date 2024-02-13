@@ -990,6 +990,61 @@
     "note": "\n\nTornado\n\nBalcony Break\n"
   },
   {
+    "name": "Thruster",
+    "input": "qcf+1",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i16~17",
+    "block": "-4",
+    "hit": "+33a (+26)",
+    "counter": "",
+    "note": "\nChip damage\n"
+  },
+  {
+    "name": "Phoenix Smasher",
+    "input": "qcf+2",
+    "hit_level": "m",
+    "damage": "45",
+    "startup": "i13~14",
+    "block": "-17",
+    "hit": "+17",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n"
+  },
+  {
+    "name": "Gengetsu",
+    "input": "qcf+3",
+    "hit_level": "L",
+    "damage": "18",
+    "startup": "i18~19",
+    "block": "-14c",
+    "hit": "+0",
+    "counter": "+20a",
+    "note": "\nHas a clean hit effect\nPower up while Heat is active\n"
+  },
+  {
+    "name": "Gunba",
+    "input": "qcf+1+2",
+    "hit_level": "L",
+    "damage": "20",
+    "startup": "i32~33",
+    "block": "-12c",
+    "hit": "+71a (+55)",
+    "counter": "",
+    "note": "\nCancel to FC with B\n"
+  },
+  {
+    "name": "Mountain Raze",
+    "input": "qcf+3+4",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i19~20",
+    "block": "-9",
+    "hit": "+35d (+27)",
+    "counter": "+74a (+58)",
+    "note": "\n\nTornado\n\nBalcony Break\n"
+  },
+  {
     "name": "Deep Dive",
     "input": "CD df",
     "hit_level": "",
@@ -1047,6 +1102,61 @@
   {
     "name": "Incomplete Somersault",
     "input": "DPD 3+4",
+    "hit_level": "m",
+    "damage": "32",
+    "startup": "i18~23",
+    "block": "-49d",
+    "hit": "-9d (-24)",
+    "counter": "",
+    "note": "\nDeals recoverable damage to self\n"
+  },
+  {
+    "name": "",
+    "input": "qcf,df+2",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i15",
+    "block": "-10",
+    "hit": "+6",
+    "counter": "",
+    "note": "Tornado\nElbow"
+  },
+  {
+    "name": "Quick Petal Strike",
+    "input": "qcf,df+2,1",
+    "hit_level": "m,h",
+    "damage": "17,18",
+    "startup": "i18~19",
+    "block": "-5 (+7 at wall)",
+    "hit": "+21d (-5)",
+    "counter": "",
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n"
+  },
+  {
+    "name": "Quick Lightning Breaker",
+    "input": "qcf,df+2,3",
+    "hit_level": "m,m",
+    "damage": "1722",
+    "startup": "i25~26",
+    "block": "-13c",
+    "hit": "+10d",
+    "counter": "+46a",
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n"
+  },
+  {
+    "name": "Bigetsu",
+    "input": "qcf,df+4",
+    "hit_level": "L",
+    "damage": "12",
+    "startup": "i17",
+    "block": "-12c",
+    "hit": "0",
+    "counter": "",
+    "note": ""
+  },
+  {
+    "name": "Incomplete Somersault",
+    "input": "qcf,df+3+4",
     "hit_level": "m",
     "damage": "32",
     "startup": "i18~23",
