@@ -198,7 +198,7 @@
     "damage": "15,10,14",
     "startup": "i22~i23",
     "block": "+9",
-    "hit": "+15",
+    "hit": "+15g",
     "counter": "+19",
     "note": "Combo on 2nd attack CH",
     "alternateInputs": ["3,2,4"]
@@ -282,7 +282,7 @@
     "damage": "14",
     "startup": "i17~i18",
     "block": "+9",
-    "hit": "+15",
+    "hit": "+15g",
     "counter": "+19",
     "note": "\nTransition to cd with ~DF\n(-5 oB, +1 oH, +5 CH)",
     "alternateInputs": ["f+4"]
@@ -570,7 +570,7 @@
     "damage": "17,14",
     "startup": "i23",
     "block": "+9",
-    "hit": "+15",
+    "hit": "+15g",
     "counter": "+19",
     "note": "Combo from 1st hit",
     "alternateInputs": ["b+1,4"]
@@ -678,7 +678,7 @@
     "damage": "13,14",
     "startup": "i17~i18",
     "block": "+9",
-    "hit": "+15",
+    "hit": "+15g",
     "counter": "+19",
     "note": "\nCombo from 1st hit\nTransition to cd with ~DF\n(-5 oB, +1 oH, +5 CH)",
     "alternateInputs": ["b+4,1~4"]
@@ -1338,7 +1338,7 @@
     "damage": "14",
     "startup": "i20",
     "block": "+9",
-    "hit": "+15",
+    "hit": "+15g",
     "counter": "+19",
     "note": "\nTransition to cd with ~DF",
     "alternateInputs": ["BOK 4"]
@@ -1350,7 +1350,7 @@
     "damage": "22",
     "startup": "i0",
     "block": "-12",
-    "hit": "+15",
+    "hit": "+15d",
     "counter": "",
     "note": "\npc13~\nHeat Engager\n\nBalcony Break\nSpike\nChip damage on block\n",
     "alternateInputs": ["BOK 1+2"]

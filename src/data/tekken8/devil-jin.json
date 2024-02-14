@@ -1,15 +1,39 @@
 [
   {
-    "name": "",
-    "input": "",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
+    "name": "Heat Burst",
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "Startup",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
-    "alternateInputs": [""]
+    "note": "\n\nHeat Burst\nAlternate input: R1\n",
+    "alternateInputs": ["2+3"]
+  },
+  {
+    "name": "Vindictive Helix",
+    "input": "in heat 2+3",
+    "hit_level": "m,h,th",
+    "damage": "20,22,10",
+    "startup": "i18",
+    "block": "+11 CRO",
+    "hit": "Th",
+    "counter": "Th",
+    "note": "\n\nHeat Smash\nAlternate input: R1\n",
+    "alternateInputs": ["in heat 2+3"]
+  },
+  {
+    "name": "Inner Purgatory",
+    "input": "in heat CRO 2+3",
+    "hit_level": "ub(m)",
+    "damage": "23,16",
+    "startup": "i20",
+    "block": "Th",
+    "hit": "Th",
+    "counter": "Th",
+    "note": "\n\nHeat Smash\nAlternate input: R1\n",
+    "alternateInputs": ["in heat CRO 2+3"]
   },
   {
     "name": "",
@@ -264,7 +288,7 @@
     "alternateInputs": ["f+2"]
   },
   {
-    "name": "",
+    "name": "893P > Knee Kick",
     "input": "f+2,4",
     "hit_level": "mm",
     "damage": "1417",
@@ -301,7 +325,7 @@
   },
   {
     "name": "",
-    "input": "d/f+1",
+    "input": "df+1",
     "hit_level": "m",
     "damage": "11",
     "startup": "i13",
@@ -309,23 +333,35 @@
     "hit": "+5",
     "counter": "",
     "note": "",
-    "alternateInputs": ["d/f+1"]
+    "alternateInputs": ["df+1"]
   },
   {
-    "name": "",
-    "input": "d/f+2",
+    "name": "Dark Twin Lancer",
+    "input": "df+1,2",
+    "hit_level": "mh",
+    "damage": "1120",
+    "startup": "i17",
+    "block": "-9",
+    "hit": "+44(-16)",
+    "counter": "",
+    "note": "Wallsplat",
+    "alternateInputs": ["df+1,2"]
+  },
+  {
+    "name": "Bloody Glaive",
+    "input": "df+2",
     "hit_level": "m",
     "damage": "17",
     "startup": "i15",
     "block": "-9",
     "hit": "+6",
     "counter": "",
-    "note": "Hold F to enter MCR",
-    "alternateInputs": ["d/f+2"]
+    "note": "Hold F to enter CRO at +14",
+    "alternateInputs": ["df+2"]
   },
   {
     "name": "",
-    "input": "d/f+3",
+    "input": "df+3",
     "hit_level": "m",
     "damage": "12",
     "startup": "i16~17",
@@ -333,11 +369,35 @@
     "hit": "+2",
     "counter": "",
     "note": "",
-    "alternateInputs": ["d/f+3"]
+    "alternateInputs": ["df+3"]
   },
   {
     "name": "",
-    "input": "d/f+4",
+    "input": "df+3,2",
+    "hit_level": "mm",
+    "damage": "1210",
+    "startup": "i19",
+    "block": "-13",
+    "hit": "-7",
+    "counter": "",
+    "note": "",
+    "alternateInputs": ["df+3,2"]
+  },
+  {
+    "name": "Rengoku",
+    "input": "df+3,2,5",
+    "hit_level": "mmm",
+    "damage": "121020",
+    "startup": "i29",
+    "block": "-22",
+    "hit": "+18(+8)",
+    "counter": "",
+    "note": "On hit hold ub, u or uf to shift to FLY at +36(+26)",
+    "alternateInputs": ["df+3,2,5"]
+  },
+  {
+    "name": "",
+    "input": "df+4",
     "hit_level": "m",
     "damage": "10",
     "startup": "i13~14",
@@ -345,91 +405,91 @@
     "hit": "+2",
     "counter": "",
     "note": "",
-    "alternateInputs": ["d/f+4"]
+    "alternateInputs": ["df+4"]
   },
   {
-    "name": "",
-    "input": "d/f+44",
-    "hit_level": "mmm",
+    "name": "Tsunami Kick",
+    "input": "df+4,4",
+    "hit_level": "mm",
     "damage": "1026",
     "startup": "i13~14",
     "block": "-15",
     "hit": "-4",
     "counter": "",
     "note": "",
-    "alternateInputs": ["d/f+44"]
+    "alternateInputs": ["df+4,4"]
   },
   {
-    "name": "",
+    "name": "Corpse Thrust",
     "input": "d+1",
     "hit_level": "m",
     "damage": "25",
     "startup": "i18~19",
-    "block": "-4",
-    "hit": "+20",
+    "block": "-14",
+    "hit": "+20(+10)",
     "counter": "",
-    "note": "Power Crush",
+    "note": "\nabsorb an attack to power up\n- Add chip damage when guarded\nWallsplat\n",
     "alternateInputs": ["d+1"]
   },
   {
-    "name": "",
+    "name": "Broken Plate",
     "input": "d+3",
     "hit_level": "l",
     "damage": "12",
     "startup": "i18~19",
-    "block": "-9",
-    "hit": "-12",
-    "counter": "",
-    "note": "Forces Crouch on Block",
+    "block": "-12c",
+    "hit": "-1",
+    "counter": "+7",
+    "note": "",
     "alternateInputs": ["d+3"]
   },
   {
-    "name": "",
+    "name": "Double Lift Kicks",
     "input": "d+3+4",
-    "hit_level": "m",
+    "hit_level": "m,m",
     "damage": "5, 20",
     "startup": "i15~16",
     "block": "-15",
-    "hit": "LNC",
+    "hit": "+30(+20)",
     "counter": "",
     "note": "",
     "alternateInputs": ["d+3+4"]
   },
   {
-    "name": "",
-    "input": "d/b+2",
+    "name": "Malicious Mace",
+    "input": "db+2",
     "hit_level": "l",
     "damage": "15",
     "startup": "i21~22",
-    "block": "-13",
-    "hit": "+3",
-    "counter": "",
-    "note": "",
-    "alternateInputs": ["d/b+2"]
+    "block": "-13c",
+    "hit": "+3c",
+    "counter": "+26",
+    "note": "Chip damage on block",
+    "alternateInputs": ["db+2"]
   },
   {
-    "name": "",
-    "input": "d/b+1+2",
+    "name": "Demon's Spear",
+    "input": "db+1+2",
     "hit_level": "m",
     "damage": "15",
     "startup": "i23~25",
     "block": "-9",
     "hit": "+4",
     "counter": "",
-    "note": "Hold F during startup to feint into MCR",
-    "alternateInputs": ["d/b+1+2"]
+    "note": "Hold F during startup to feint into CRO",
+    "alternateInputs": ["db+1+2"]
   },
   {
-    "name": "",
-    "input": "d/b+1+2 (Hold)",
+    "name": "Demon's Lance",
+    "input": "db+1+2 (Hold)",
     "hit_level": "m",
     "damage": "42",
     "startup": "i61~63 (Full Charge)",
     "block": "+10",
-    "hit": "KND",
+    "hit": "+37",
     "counter": "",
-    "note": "Chip Damage, Guard Break on block, hold F during startup to feint into MCR",
-    "alternateInputs": ["d/b+1+2 (Hold)"]
+    "note": "Chip Damage, Guard Break on block, hold F during startup to feint into CRO",
+    "alternateInputs": ["db+1+2 (Hold)"]
   },
   {
     "name": "",
@@ -444,6 +504,18 @@
     "alternateInputs": ["b+1"]
   },
   {
+    "name": "Brimstone STrike",
+    "input": "b+1,2",
+    "hit_level": "hm",
+    "damage": "1010",
+    "startup": "i23",
+    "block": "-14",
+    "hit": "+23(+13)",
+    "counter": "",
+    "note": "\nWallsplat\nHold B to cancel\n",
+    "alternateInputs": ["b+1,2"]
+  },
+  {
     "name": "",
     "input": "b+2",
     "hit_level": "h",
@@ -456,27 +528,39 @@
     "alternateInputs": ["b+2"]
   },
   {
-    "name": "",
-    "input": "b+23",
+    "name": "Rakshasa's Rampage",
+    "input": "b+2,1",
     "hit_level": "hm",
-    "damage": "1134",
-    "startup": "i14~16",
-    "block": "-14",
-    "hit": "+17",
+    "damage": "1121",
+    "startup": "i30",
+    "block": "-16",
+    "hit": "+29(+19)",
     "counter": "",
-    "note": "Heat Engager",
-    "alternateInputs": ["b+23"]
+    "note": "Tornado",
+    "alternateInputs": ["b+2,1"]
   },
   {
-    "name": "",
+    "name": "Rakshasa's Fury",
+    "input": "b+2,3",
+    "hit_level": "hm",
+    "damage": "1123",
+    "startup": "i14~16",
+    "block": "-14",
+    "hit": "+8(-1)/HE",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nWallsplat\nCombo from 1st hit\n",
+    "alternateInputs": ["b+2,3"]
+  },
+  {
+    "name": "Wicked Jambu Spear",
     "input": "b+3",
     "hit_level": "m",
     "damage": "24",
     "startup": "i29~32",
     "block": "-18",
-    "hit": "+17",
+    "hit": "+10/HE",
     "counter": "",
-    "note": "Heat Engager",
+    "note": "\n\nHeat Engager\n\nWallsplat\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -487,21 +571,69 @@
     "startup": "i17~18",
     "block": "-8",
     "hit": "+6",
-    "counter": "KND",
-    "note": "Crumple Stun on CH",
+    "counter": "+30(+24)",
+    "note": "",
     "alternateInputs": ["b+4"]
   },
   {
-    "name": "",
+    "name": "Aratama Strike",
     "input": "b+1+2",
     "hit_level": "m",
     "damage": "21",
     "startup": "i20~21",
-    "block": "-1",
-    "hit": "+7",
-    "counter": "",
-    "note": "Chip Damage, Forces Crouch on hit & block",
+    "block": "-1c",
+    "hit": "+7c",
+    "counter": "+24",
+    "note": "Chip Damage",
     "alternateInputs": ["b+1+2"]
+  },
+  {
+    "name": "Lightning Screw Uppercut",
+    "input": "b+1+4",
+    "hit_level": "ub(m)",
+    "damage": "60",
+    "startup": "i63",
+    "block": "LNC",
+    "hit": "LNC",
+    "counter": "LNC",
+    "note": "",
+    "alternateInputs": ["b+1+4"]
+  },
+  {
+    "name": "Hellfire Blast",
+    "input": "ub+1+2",
+    "hit_level": "h",
+    "damage": "40",
+    "startup": "i47",
+    "block": "KND",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "\nChip damage when guarded\nWallsplat\nJack-8 or Alisa can recovery 20 by input 1+2\n",
+    "alternateInputs": ["ub+1+2"]
+  },
+  {
+    "name": "Samsara",
+    "input": "u+4",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i20",
+    "block": "-25",
+    "hit": "+15(+5)",
+    "counter": "",
+    "note": "\nAlternate input: ub+3\nOn hit hold ub, u or uf to transition to fly at +35(+25)\n",
+    "alternateInputs": ["u+4"]
+  },
+  {
+    "name": "Hellfire Cannon",
+    "input": "u+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Air laser",
+    "alternateInputs": ["u+1+2"]
   },
   {
     "name": "Demon's Paw",
@@ -571,21 +703,21 @@
     "startup": "i13~14",
     "block": "-6",
     "hit": "+5",
-    "counter": "",
+    "counter": "+9",
     "note": "",
     "alternateInputs": ["ws1"]
   },
   {
     "name": "",
-    "input": "ws12",
+    "input": "ws1,2",
     "hit_level": "mm",
     "damage": "1215",
     "startup": "i13~14",
     "block": "-11",
     "hit": "+6",
-    "counter": "",
-    "note": "Hold F to enter MCR",
-    "alternateInputs": ["ws12"]
+    "counter": "+9",
+    "note": "Hold F to enter CRO",
+    "alternateInputs": ["ws1,2"]
   },
   {
     "name": "",
@@ -607,8 +739,8 @@
     "startup": "i14",
     "block": "-11",
     "hit": "+9",
-    "counter": "",
-    "note": "Hold F on hit to enter MCR",
+    "counter": "+14",
+    "note": "Hold F on hit to enter CRO",
     "alternateInputs": ["ws3"]
   },
   {
@@ -619,13 +751,13 @@
     "startup": "i11~12",
     "block": "-3",
     "hit": "+8",
-    "counter": "",
+    "counter": "+8",
     "note": "",
     "alternateInputs": ["ws4"]
   },
   {
     "name": "",
-    "input": "ws44",
+    "input": "ws4,4",
     "hit_level": "mm",
     "damage": "1020",
     "startup": "i11~12",
@@ -633,7 +765,7 @@
     "hit": "+4",
     "counter": "",
     "note": "",
-    "alternateInputs": ["ws44"]
+    "alternateInputs": ["ws4,4"]
   },
   {
     "name": "",
@@ -673,7 +805,7 @@
   },
   {
     "name": "Electric Wind God Fist",
-    "input": "f,n,d,df:2",
+    "input": "f,n,d,df#2",
     "hit_level": "h",
     "damage": "23",
     "startup": "i14",
@@ -681,7 +813,7 @@
     "hit": "LNC",
     "counter": "LNC",
     "note": "Chip Damage, Just Frame input",
-    "alternateInputs": ["f,n,d,df:2"]
+    "alternateInputs": ["f,n,d,df#2"]
   },
   {
     "name": "Demon's Hoof",
@@ -708,7 +840,7 @@
     "alternateInputs": ["f,n,d,DF+3"]
   },
   {
-    "name": "Spinning Demon Scythe",
+    "name": "",
     "input": "f,n,d,DF+4",
     "hit_level": "l",
     "damage": "10",
@@ -718,6 +850,30 @@
     "counter": "",
     "note": "Forces Crouch on hit & block",
     "alternateInputs": ["f,n,d,DF+4"]
+  },
+  {
+    "name": "Spinning Demon Scythe",
+    "input": "f,n,d,DF+4,4",
+    "hit_level": "lm",
+    "damage": "1028",
+    "startup": "i25",
+    "block": "-16",
+    "hit": "+4c",
+    "counter": "",
+    "note": "",
+    "alternateInputs": ["f,n,d,DF+4,4"]
+  },
+  {
+    "name": "Spinning Demon Hellfire Beam",
+    "input": "f,n,d,DF+4,1+2",
+    "hit_level": "lsm",
+    "damage": "109",
+    "startup": "i29-40",
+    "block": "",
+    "hit": "+58(+42)",
+    "counter": "",
+    "note": "Only on hit",
+    "alternateInputs": ["f,n,d,DF+4,1+2"]
   },
   {
     "name": "Spiral of Madness",
@@ -732,8 +888,8 @@
     "alternateInputs": ["f,n,d,df+1+2"]
   },
   {
-    "name": "",
-    "input": "MCR+1",
+    "name": "Tiger Thrush",
+    "input": "CRO+1",
     "hit_level": "m",
     "damage": "25",
     "startup": "i22~23",
@@ -741,42 +897,78 @@
     "hit": "KND",
     "counter": "KND",
     "note": "Leaves opponent Face Down/Head Towards",
-    "alternateInputs": ["MCR+1"]
+    "alternateInputs": ["CRO+1"]
   },
   {
     "name": "",
-    "input": "MCR+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "input": "CRO+2",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "-5",
+    "counter": "",
+    "note": "Homing",
+    "alternateInputs": ["CRO+2"]
+  },
+  {
+    "name": "Dark Arachnid Twister",
+    "input": "CRO+2,2",
+    "hit_level": "mm",
+    "damage": "1220",
+    "startup": "i15",
+    "block": "-14",
+    "hit": "+2/HE",
     "counter": "",
     "note": "",
-    "alternateInputs": ["MCR+2"]
+    "alternateInputs": ["CRO+2,2"]
   },
   {
     "name": "Venomous Torment",
-    "input": "MCR+3",
+    "input": "CRO+3",
     "hit_level": "m",
     "damage": "26",
     "startup": "i22~23",
     "block": "-7",
     "hit": "KND",
     "counter": "",
-    "note": "Chip Damage, Tornado Screw, Wall Break",
-    "alternateInputs": ["MCR+3"]
+    "note": "Chip Damage, Tornado Screw",
+    "alternateInputs": ["CRO+3"]
   },
   {
     "name": "",
-    "input": "MCR+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "input": "CRO+4",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i20",
+    "block": "-29",
+    "hit": "-20",
     "counter": "",
     "note": "",
-    "alternateInputs": ["MCR+4"]
+    "alternateInputs": ["CRO+4"]
+  },
+  {
+    "name": "",
+    "input": "CRO+4,2",
+    "hit_level": "mm",
+    "damage": "1014",
+    "startup": "i22",
+    "block": "",
+    "hit": "+52(+7)",
+    "counter": "",
+    "note": "",
+    "alternateInputs": ["CRO+4,2"]
+  },
+  {
+    "name": "Devil Starstorm",
+    "input": "CRO+4,2,1+2",
+    "hit_level": "mmth",
+    "damage": "101415",
+    "startup": "i28",
+    "block": "",
+    "hit": "-6",
+    "counter": "",
+    "note": "",
+    "alternateInputs": ["CRO+4,2,1+2"]
   }
 ]

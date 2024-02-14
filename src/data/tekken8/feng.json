@@ -780,18 +780,6 @@
     "alternateInputs": ["b+1"]
   },
   {
-    "name": "Essence of Iron Palm",
-    "input": "in heat b+1",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i10~11",
-    "block": "-8",
-    "hit": "+36d (+28)",
-    "counter": "",
-    "note": "\nConsumes Heat\n",
-    "alternateInputs": ["in heat b+1"]
-  },
-  {
     "name": "",
     "input": "b+2",
     "hit_level": "m",
@@ -1304,7 +1292,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps",
+    "note": "\nps \nParries high and mid fist and feet moves (not elbows/knees/heads etc)\nIf 1 hit is parried, you can still do your STC move, if 2 hits are parried it launches",
     "alternateInputs": ["f+3+4"]
   },
   {

@@ -318,7 +318,7 @@
     "damage": "18,20",
     "startup": "i15",
     "block": "",
-    "hit": "",
+    "hit": "+1d",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["f+3,1+2"]
@@ -377,8 +377,8 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i14",
-    "block": "",
-    "hit": "",
+    "block": "-1",
+    "hit": "+3",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["df+1"]
@@ -401,8 +401,8 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i13",
-    "block": "",
-    "hit": "",
+    "block": "-6",
+    "hit": "+4",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["df+2"]
@@ -425,8 +425,8 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i14",
-    "block": "",
-    "hit": "",
+    "block": "-9",
+    "hit": "+6",
     "counter": "",
     "note": "",
     "alternateInputs": ["df+3"]
@@ -449,8 +449,8 @@
     "hit_level": "l",
     "damage": "10",
     "startup": "i14",
-    "block": "",
-    "hit": "",
+    "block": "-14",
+    "hit": "-3",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["df+4"]
@@ -461,10 +461,10 @@
     "hit_level": "l,h",
     "damage": "10,11",
     "startup": "i14",
-    "block": "",
-    "hit": "",
+    "block": "-5",
+    "hit": "+6",
     "counter": "",
-    "note": "\n",
+    "note": "\nCombos on CH\n",
     "alternateInputs": ["df+4,3"]
   },
   {
@@ -475,8 +475,8 @@
     "startup": "i14",
     "block": "-15",
     "hit": "+6d(-3)",
-    "counter": "",
-    "note": "\nBalcony Break\n",
+    "counter": "+47d(+16)",
+    "note": "\nCombos on 2nd CH\nBalcony Break\n",
     "alternateInputs": ["df+4,3,4"]
   },
   {
@@ -487,7 +487,7 @@
     "startup": "i14",
     "block": "-10",
     "hit": "-8d",
-    "counter": "",
+    "counter": "+22d",
     "note": "\nRecovers in FDFT.\n",
     "alternateInputs": ["df+4,3,d+4"]
   },
@@ -500,7 +500,7 @@
     "block": "-12~-18",
     "hit": "+18d",
     "counter": "",
-    "note": "\nThrow only when close\nRecovers in FUFT if throw failed\n",
+    "note": "\nThrow only when close\nRecovers in FUFT if throw failed\n-7 at worst on normal hit\n",
     "alternateInputs": ["df+3+4"]
   },
   {
@@ -817,7 +817,7 @@
   },
   {
     "name": "Round Trip Chop",
-    "input": "WS 2,2",
+    "input": "ws2,2",
     "hit_level": "m,m",
     "damage": "11,25",
     "startup": "i14~i15",
@@ -825,11 +825,11 @@
     "hit": "+12",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\n",
-    "alternateInputs": ["WS 2,2"]
+    "alternateInputs": ["ws2,2"]
   },
   {
     "name": "Toe Smash",
-    "input": "WS 4",
+    "input": "ws4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i11",
@@ -837,11 +837,11 @@
     "hit": "+5",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["WS 4"]
+    "alternateInputs": ["ws4"]
   },
   {
     "name": "Snap Uppercut",
-    "input": "WS1+2",
+    "input": "ws1+2",
     "hit_level": "m",
     "damage": "20",
     "startup": "i18",
@@ -849,7 +849,7 @@
     "hit": "LCH",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["WS1+2"]
+    "alternateInputs": ["ws1+2"]
   },
   {
     "name": "Jaguar Step",
