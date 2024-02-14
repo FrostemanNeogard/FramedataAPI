@@ -1017,7 +1017,7 @@
     "hit": "",
     "counter": "",
     "note": "\nD,df to enter crouching state\n",
-    "alternateInputs": ["qcf (d,df,f)"]
+    "alternateInputs": ["qcf", "d,df,f"]
   },
   {
     "name": "Thruster",
@@ -1029,7 +1029,7 @@
     "hit": "+33a (+26)",
     "counter": "",
     "note": "\nChip damage\n",
-    "alternateInputs": ["CS 1"]
+    "alternateInputs": ["CS 1", "qcf1"]
   },
   {
     "name": "Phoenix Smasher",
@@ -1041,7 +1041,7 @@
     "hit": "+17",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n",
-    "alternateInputs": ["CS 2"]
+    "alternateInputs": ["CS 2", "qcf2"]
   },
   {
     "name": "Gengetsu",
@@ -1053,7 +1053,7 @@
     "hit": "+0",
     "counter": "+20a",
     "note": "\nHas a clean hit effect\nPower up while Heat is active\n",
-    "alternateInputs": ["CS 3"]
+    "alternateInputs": ["CS 3", "qcf3"]
   },
   {
     "name": "Gunba",
@@ -1065,7 +1065,7 @@
     "hit": "+71a (+55)",
     "counter": "",
     "note": "\nCancel to FC with B\n",
-    "alternateInputs": ["CS 1+2"]
+    "alternateInputs": ["CS 1+2", "qcf1+2"]
   },
   {
     "name": "Mountain Raze",
@@ -1077,67 +1077,7 @@
     "hit": "+35d (+27)",
     "counter": "+74a (+58)",
     "note": "\n\nTornado\n\nBalcony Break\n",
-    "alternateInputs": ["CS 3+4"]
-  },
-  {
-    "name": "Thruster",
-    "input": "qcf+1",
-    "hit_level": "h",
-    "damage": "21",
-    "startup": "i16~17",
-    "block": "-4",
-    "hit": "+33a (+26)",
-    "counter": "",
-    "note": "\nChip damage\n",
-    "alternateInputs": ["qcf+1"]
-  },
-  {
-    "name": "Phoenix Smasher",
-    "input": "qcf+2",
-    "hit_level": "m",
-    "damage": "45",
-    "startup": "i13~14",
-    "block": "-17",
-    "hit": "+17",
-    "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n",
-    "alternateInputs": ["qcf+2"]
-  },
-  {
-    "name": "Gengetsu",
-    "input": "qcf+3",
-    "hit_level": "L",
-    "damage": "18",
-    "startup": "i18~19",
-    "block": "-14c",
-    "hit": "+0",
-    "counter": "+20a",
-    "note": "\nHas a clean hit effect\nPower up while Heat is active\n",
-    "alternateInputs": ["qcf+3"]
-  },
-  {
-    "name": "Gunba",
-    "input": "qcf+1+2",
-    "hit_level": "L",
-    "damage": "20",
-    "startup": "i32~33",
-    "block": "-12c",
-    "hit": "+71a (+55)",
-    "counter": "",
-    "note": "\nCancel to FC with B\n",
-    "alternateInputs": ["qcf+1+2"]
-  },
-  {
-    "name": "Mountain Raze",
-    "input": "qcf+3+4",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i19~20",
-    "block": "-9",
-    "hit": "+35d (+27)",
-    "counter": "+74a (+58)",
-    "note": "\n\nTornado\n\nBalcony Break\n",
-    "alternateInputs": ["qcf+3+4"]
+    "alternateInputs": ["CS 3+4", "qcf3+4"]
   },
   {
     "name": "Deep Dive",
@@ -1149,7 +1089,7 @@
     "hit": "",
     "counter": "",
     "note": "",
-    "alternateInputs": ["CD df"]
+    "alternateInputs": ["CD df", "d,df,d,df", "qcf,d,df"]
   },
   {
     "name": "",
@@ -1161,7 +1101,7 @@
     "hit": "+6",
     "counter": "",
     "note": "Tornado\nElbow",
-    "alternateInputs": ["DPD 2"]
+    "alternateInputs": ["DPD 2", "qcb2", "d,df,d,df2", "qcf,d,df2"]
   },
   {
     "name": "Quick Petal Strike",
@@ -1173,7 +1113,7 @@
     "hit": "+21d (-5)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
-    "alternateInputs": ["DPD 2,1"]
+    "alternateInputs": ["DPD 2,1", "qcb2,1", "d,df,d,df2,1", "qcf,d,df2,1"]
   },
   {
     "name": "Quick Lightning Breaker",
@@ -1185,7 +1125,7 @@
     "hit": "+10d",
     "counter": "+46a",
     "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
-    "alternateInputs": ["DPD 2,3"]
+    "alternateInputs": ["DPD 2,3", "qcb2,3", "d,df,d,df2,3", "qcf,d,df2,3"]
   },
   {
     "name": "Bigetsu",
@@ -1197,7 +1137,7 @@
     "hit": "0",
     "counter": "",
     "note": "",
-    "alternateInputs": ["DPD 4"]
+    "alternateInputs": ["DPD 4", "qcb4", "d,df,d,df4", "qcf,d,df4"]
   },
   {
     "name": "Incomplete Somersault",
@@ -1209,67 +1149,7 @@
     "hit": "-9d (-24)",
     "counter": "",
     "note": "\nDeals recoverable damage to self\n",
-    "alternateInputs": ["DPD 3+4"]
-  },
-  {
-    "name": "",
-    "input": "qcf,df+2",
-    "hit_level": "m",
-    "damage": "17",
-    "startup": "i15",
-    "block": "-10",
-    "hit": "+6",
-    "counter": "",
-    "note": "Tornado\nElbow",
-    "alternateInputs": ["qcf,df+2"]
-  },
-  {
-    "name": "Quick Petal Strike",
-    "input": "qcf,df+2,1",
-    "hit_level": "m,h",
-    "damage": "17,18",
-    "startup": "i18~19",
-    "block": "-5 (+7 at wall)",
-    "hit": "+21d (-5)",
-    "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
-    "alternateInputs": ["qcf,df+2,1"]
-  },
-  {
-    "name": "Quick Lightning Breaker",
-    "input": "qcf,df+2,3",
-    "hit_level": "m,m",
-    "damage": "1722",
-    "startup": "i25~26",
-    "block": "-13c",
-    "hit": "+10d",
-    "counter": "+46a",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
-    "alternateInputs": ["qcf,df+2,3"]
-  },
-  {
-    "name": "Bigetsu",
-    "input": "qcf,df+4",
-    "hit_level": "L",
-    "damage": "12",
-    "startup": "i17",
-    "block": "-12c",
-    "hit": "0",
-    "counter": "",
-    "note": "",
-    "alternateInputs": ["qcf,df+4"]
-  },
-  {
-    "name": "Incomplete Somersault",
-    "input": "qcf,df+3+4",
-    "hit_level": "m",
-    "damage": "32",
-    "startup": "i18~23",
-    "block": "-49d",
-    "hit": "-9d (-24)",
-    "counter": "",
-    "note": "\nDeals recoverable damage to self\n",
-    "alternateInputs": ["qcf,df+3+4"]
+    "alternateInputs": ["DPD 3+4", "qcb3+4", "d,df,d,df3+4", "qcf,d,df3+4"]
   },
   {
     "name": "SWA",
@@ -1281,7 +1161,7 @@
     "hit": "",
     "counter": "",
     "note": "",
-    "alternateInputs": ["qcb (d,db,b)"]
+    "alternateInputs": ["qcb", "d,db,b"]
   },
   {
     "name": "God Hammer Punch",
@@ -1293,7 +1173,7 @@
     "hit": "+21d",
     "counter": "+53a",
     "note": "\nChip damage\n",
-    "alternateInputs": ["SWA 1"]
+    "alternateInputs": ["SWA 1", "qcb1"]
   },
   {
     "name": "Rubber Band Attack",
@@ -1305,7 +1185,7 @@
     "hit": "+17",
     "counter": "",
     "note": "\n\nHeat Engager\n\nHas a clean hit effect\n",
-    "alternateInputs": ["SWA 2"]
+    "alternateInputs": ["SWA 2", "qcb2"]
   },
   {
     "name": "Rapid Fire",
@@ -1317,7 +1197,7 @@
     "hit": "-10g",
     "counter": "+21a",
     "note": "",
-    "alternateInputs": ["SWA 3"]
+    "alternateInputs": ["SWA 3", "qcb3"]
   },
   {
     "name": "",
@@ -1329,7 +1209,7 @@
     "hit": "+6",
     "counter": "",
     "note": "\nCombo from 1st CH\n",
-    "alternateInputs": ["SWA 3,2"]
+    "alternateInputs": ["SWA 3,2", "qcb3,2"]
   },
   {
     "name": "Petal Strike",
@@ -1341,7 +1221,7 @@
     "hit": "+21(-5)",
     "counter": "",
     "note": "\n\nTornado\nCombo from 1st CH\nWall Stagger on Block\n",
-    "alternateInputs": ["SWA 3,2,1"]
+    "alternateInputs": ["SWA 3,2,1", "qcb3,2,1"]
   },
   {
     "name": "Lightning Breaker",
@@ -1353,7 +1233,7 @@
     "hit": "+10g",
     "counter": "+46a",
     "note": "\n\nSpike\nCombo from 1st CH\n",
-    "alternateInputs": ["SWA 3,2,3"]
+    "alternateInputs": ["SWA 3,2,3", "qcb3,2,3"]
   },
   {
     "name": "Kawaragoma",
@@ -1365,7 +1245,7 @@
     "hit": "+23d (+14)",
     "counter": "+59a",
     "note": "\n\nHoming\nChip damage on block\n",
-    "alternateInputs": ["SWA 4"]
+    "alternateInputs": ["SWA 4", "qcb4"]
   },
   {
     "name": "Unseen Gust",
@@ -1377,103 +1257,7 @@
     "hit": "+37a (+27)",
     "counter": "",
     "note": "\n\nTornado \n",
-    "alternateInputs": ["SWA 1+2"]
-  },
-  {
-    "name": "God Hammer Punch",
-    "input": "qcb+1",
-    "hit_level": "M",
-    "damage": "24",
-    "startup": "i21~22",
-    "block": "0c",
-    "hit": "+21d",
-    "counter": "+53a",
-    "note": "\nChip damage\n",
-    "alternateInputs": ["qcb+1"]
-  },
-  {
-    "name": "Rubber Band Attack",
-    "input": "qcb+2",
-    "hit_level": "m",
-    "damage": "27",
-    "startup": "i15",
-    "block": "-9",
-    "hit": "+17",
-    "counter": "",
-    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n",
-    "alternateInputs": ["qcb+2"]
-  },
-  {
-    "name": "Rapid Fire",
-    "input": "qcb+3",
-    "hit_level": "L",
-    "damage": "14",
-    "startup": "i18~19",
-    "block": "-21c",
-    "hit": "-10g",
-    "counter": "+21a",
-    "note": "",
-    "alternateInputs": ["qcb+3"]
-  },
-  {
-    "name": "",
-    "input": "qcb+3,2",
-    "hit_level": "L,m",
-    "damage": "14,20",
-    "startup": "i27~28",
-    "block": "-10",
-    "hit": "+6",
-    "counter": "",
-    "note": "\nCombo from 1st CH\n",
-    "alternateInputs": ["qcb+3,2"]
-  },
-  {
-    "name": "Petal Strike",
-    "input": "qcb+3,2,1",
-    "hit_level": "L,m,h",
-    "damage": "14,20,25",
-    "startup": "i18~19",
-    "block": "-5",
-    "hit": "+21(-5)",
-    "counter": "",
-    "note": "\n\nTornado\nCombo from 1st CH\n",
-    "alternateInputs": ["qcb+3,2,1"]
-  },
-  {
-    "name": "Lightning Breaker",
-    "input": "qcb+3,2,3",
-    "hit_level": "L,m,m",
-    "damage": "14,2022",
-    "startup": "i25~26",
-    "block": "-13c",
-    "hit": "+10g",
-    "counter": "+46a",
-    "note": "\n\nSpike\nCombo from 1st CH\n",
-    "alternateInputs": ["qcb+3,2,3"]
-  },
-  {
-    "name": "Kawaragoma",
-    "input": "qcb+4",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i15~16",
-    "block": "+1",
-    "hit": "+23d (+14)",
-    "counter": "+59a",
-    "note": "\n\nHoming\nChip damage on block\n",
-    "alternateInputs": ["qcb+4"]
-  },
-  {
-    "name": "Unseen Gust",
-    "input": "qcb+1+2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i16~17",
-    "block": "-14",
-    "hit": "+37a (+27)",
-    "counter": "",
-    "note": "\n\nTornado \n",
-    "alternateInputs": ["qcb+1+2"]
+    "alternateInputs": ["SWA 1+2", "qcb1+2"]
   },
   {
     "name": "Over The Shoulder",
