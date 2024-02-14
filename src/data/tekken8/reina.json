@@ -1089,7 +1089,7 @@
     "hit": "+24 (+14)",
     "counter": "",
     "note": "\nHigh",
-    "alternateInputs": ["WGS 1"]
+    "alternateInputs": ["WGS 1", "f,n,d,df1"]
   },
   {
     "name": "Lightning Splits Kick",
@@ -1101,7 +1101,7 @@
     "hit": "+18 (-17)",
     "counter": "",
     "note": "\nLow CrushSpike",
-    "alternateInputs": ["WGS 1,3"]
+    "alternateInputs": ["WGS 1,3", "f,n,d,df1,3"]
   },
   {
     "name": "Lightning Wheel",
@@ -1113,7 +1113,7 @@
     "hit": "+1 (+0)",
     "counter": "",
     "note": "\nLowBalcony Break",
-    "alternateInputs": ["WGS 1,4"]
+    "alternateInputs": ["WGS 1,4", "f,n,d,df1,4"]
   },
   {
     "name": "Wind God Fist",
@@ -1125,7 +1125,7 @@
     "hit": "+35 (+25)",
     "counter": "",
     "note": "Becomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)",
-    "alternateInputs": ["WGS 2"]
+    "alternateInputs": ["WGS 2", "f,n,d,df2"]
   },
   {
     "name": "Electric Wind God Fist",
@@ -1149,7 +1149,7 @@
     "hit": "+3",
     "counter": "+23 (+17)",
     "note": "\nHigh Crush\nAlternate input: f,n,d,DF+3\nBecomes Electric War God Kick during Heat (partially uses remaining Heat Time)\n",
-    "alternateInputs": ["WGS df+3"]
+    "alternateInputs": ["WGS df+3", "f,n,d,df3"]
   },
   {
     "name": "Electric War God Kick",
@@ -1185,7 +1185,7 @@
     "hit": "-1",
     "counter": "",
     "note": "\nTransition to WRA (ob) -15, +6 (oh) WRA with D\n",
-    "alternateInputs": ["WGS DF+4,2"]
+    "alternateInputs": ["WGS DF+4,2", "f,n,d,df4,2"]
   },
   {
     "name": "Spinning Demon",
@@ -1197,7 +1197,7 @@
     "hit": "+2",
     "counter": "Launch",
     "note": "\nHigh Crush\nRecovers Crouching\n",
-    "alternateInputs": ["WGS DF+4,4"]
+    "alternateInputs": ["WGS DF+4,4", "f,n,d,df4,4"]
   },
   {
     "name": "Sentai",
@@ -1209,7 +1209,7 @@
     "hit": "",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["WGS f+3"]
+    "alternateInputs": ["WGS f+3", "f,n,d,df,f+3"]
   },
   {
     "name": "Sentai",
