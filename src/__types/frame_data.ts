@@ -8,4 +8,5 @@ export type FrameDataType = {
   counter: number;
   note: string;
   name: string;
+  alternateInputs: string[];
 };
