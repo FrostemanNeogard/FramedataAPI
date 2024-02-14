@@ -48,9 +48,10 @@ export class FramedataService {
     );
 
     const frameData = await this.getCharacterFrameData(character, game);
-    let attackInfo: FrameDataType[] = frameData.filter(
-      (item) =>
-        item.input === notation.replaceAll(/[\u200B-\u200D\uFEFF]/g, ''),
+    let attackInfo: FrameDataType[] = frameData.filter((item) =>
+      item.alternateInputs.includes(
+        notation.replaceAll(/[\u200B-\u200D\uFEFF]/g, ''),
+      ),
     );
 
     for (let i = 0; i < 2; i++) {
@@ -60,10 +61,12 @@ export class FramedataService {
       this.logger.log(`Formatting notation, iteration: ${i}`);
       const removePlus = i > 0;
       const formattedNotation = this.formatNotation(notation, removePlus);
-      attackInfo = frameData.filter(
-        (item) =>
-          this.formatNotation(item.input, removePlus) === formattedNotation,
-      );
+      attackInfo = frameData.filter((item) => {
+        const inputs = item.alternateInputs;
+        return inputs.forEach((input) => {
+          this.formatNotation(input, removePlus) === formattedNotation;
+        });
+      });
     }
     if (!attackInfo[0]) {
       this.logger.error(`Couldn't find attack: ${notation}`);
