@@ -61,12 +61,15 @@ export class FramedataService {
       this.logger.log(`Formatting notation, iteration: ${i}`);
       const removePlus = i > 0;
       const formattedNotation = this.formatNotation(notation, removePlus);
-      attackInfo = frameData.filter((item) => {
-        const inputs = item.alternateInputs;
-        return inputs.forEach((input) => {
-          this.formatNotation(input, removePlus) === formattedNotation;
+
+      for (let y = 0; y < frameData.length; y++) {
+        const moveData = frameData[y];
+        moveData.alternateInputs.forEach((input) => {
+          if (this.formatNotation(input, removePlus) === formattedNotation) {
+            attackInfo.push(moveData);
+          }
         });
-      });
+      }
     }
     if (!attackInfo[0]) {
       this.logger.error(`Couldn't find attack: ${notation}`);
