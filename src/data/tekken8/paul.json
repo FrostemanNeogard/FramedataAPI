@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc8~\nHeat Burst\nConsumes Heat\nCancel move with b,b\n"
+    "note": "\npc8~\nHeat Burst\nConsumes Heat\nCancel move with b,b\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Demolition Ball",
@@ -19,7 +22,10 @@
     "block": "-12",
     "hit": "+60a, +3a",
     "counter": "",
-    "note": "\nHeat Smash\nBalcony Break\nTransition to throw on 1st hit only\n"
+    "note": "\nHeat Smash\nBalcony Break\nTransition to throw on 1st hit only\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Half-Step Phoenix Smasher",
@@ -30,7 +36,10 @@
     "block": "-13",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\n"
+    "note": "\nBalcony Break\nConsumes Heat\n",
+    "alternateInputs": [
+      "in heat 1+2"
+    ]
   },
   {
     "name": "Half-Step Phoenix Smasher (Hold)",
@@ -41,7 +50,10 @@
     "block": "+0",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n"
+    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "alternateInputs": [
+      "in heat 1+2*"
+    ]
   },
   {
     "name": "Half-Step Phoenix Smasher (Max Hold)",
@@ -52,7 +64,10 @@
     "block": "",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n"
+    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "alternateInputs": [
+      "in heat 1+2**"
+    ]
   },
   {
     "name": "Big Bang Phoenix Smasher",
@@ -63,7 +78,10 @@
     "block": "-15",
     "hit": "0d",
     "counter": "",
-    "note": "\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health"
+    "note": "\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Left Jab",
@@ -74,7 +92,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Left Right Combo",
@@ -85,7 +106,10 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nJail from 1st attack\n"
+    "note": "\nJail from 1st attack\n",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Reverse PDK Combo",
@@ -96,7 +120,10 @@
     "block": "-11c",
     "hit": "+1c",
     "counter": "",
-    "note": "\nCH from 1st attack\n"
+    "note": "\nCH from 1st attack\n",
+    "alternateInputs": [
+      "1,4"
+    ]
   },
   {
     "name": "Right Jab",
@@ -107,7 +134,10 @@
     "block": "0",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "PK Combo",
@@ -118,7 +148,10 @@
     "block": "-9",
     "hit": "+22d (+13)",
     "counter": "+51a",
-    "note": "\nBalcony Break\nCH from 1st attack\n"
+    "note": "\nBalcony Break\nCH from 1st attack\n",
+    "alternateInputs": [
+      "2,3"
+    ]
   },
   {
     "name": "PDK Combo",
@@ -129,7 +162,10 @@
     "block": "-12c",
     "hit": "-1c",
     "counter": "",
-    "note": "\nCH from 1st attack\n"
+    "note": "\nCH from 1st attack\n",
+    "alternateInputs": [
+      "2,d+3"
+    ]
   },
   {
     "name": "Left Kick",
@@ -140,7 +176,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Piston Fire",
@@ -151,7 +190,10 @@
     "block": "-3",
     "hit": "+7",
     "counter": "+50a",
-    "note": "\nCombo from 1st attack\nTransition to +4 + 14 Sway with b\nMove can be delayed\n"
+    "note": "\nCombo from 1st attack\nTransition to +4 + 14 Sway with b\nMove can be delayed\n",
+    "alternateInputs": [
+      "3,2"
+    ]
   },
   {
     "name": "Right Kick",
@@ -162,7 +204,10 @@
     "block": "-7",
     "hit": "+7",
     "counter": "+32d",
-    "note": "\n\nBalcony Break (CH only)\n"
+    "note": "\n\nBalcony Break (CH only)\n",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Half-Step Phoenix Smasher",
@@ -173,7 +218,10 @@
     "block": "-13",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\n"
+    "note": "\nBalcony Break\nConsumes Heat\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Half-Step Phoenix Smasher (Hold)",
@@ -184,7 +232,10 @@
     "block": "0",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n"
+    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "alternateInputs": [
+      "1+2*"
+    ]
   },
   {
     "name": "Half-Step Phoenix Smasher (Max Hold)",
@@ -195,7 +246,10 @@
     "block": "",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n"
+    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "alternateInputs": [
+      "1+2**"
+    ]
   },
   {
     "name": "Phoenix Hook, Tiger Claw",
@@ -206,7 +260,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n"
+    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "",
@@ -217,7 +274,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nHoming\n"
+    "note": "\nHoming\n",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Lion's Tempest",
@@ -228,7 +288,10 @@
     "block": "-10",
     "hit": "+12d (+3)",
     "counter": "",
-    "note": "\nBalcony Break\nHoming\nCombo from 1st attack\n"
+    "note": "\nBalcony Break\nHoming\nCombo from 1st attack\n",
+    "alternateInputs": [
+      "f+3,1"
+    ]
   },
   {
     "name": "Stone Lion",
@@ -239,7 +302,10 @@
     "block": "-8",
     "hit": "+17",
     "counter": "",
-    "note": "\nHeat Engager\n\nHoming\n"
+    "note": "\nHeat Engager\n\nHoming\n",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Hammer of the Gods",
@@ -250,7 +316,10 @@
     "block": "+3c",
     "hit": "+8c",
     "counter": "+20d",
-    "note": "\n\nBalcony Break (CH only)\n"
+    "note": "\n\nBalcony Break (CH only)\n",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Shoulder Tackle",
@@ -261,7 +330,10 @@
     "block": "-14",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f+1+4"
+    ]
   },
   {
     "name": "",
@@ -272,7 +344,10 @@
     "block": "-2",
     "hit": "+4",
     "counter": "",
-    "note": "\nTransition to +3 +4 Sway with b\n"
+    "note": "\nTransition to +3 +4 Sway with b\n",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "",
@@ -283,7 +358,10 @@
     "block": "-5",
     "hit": "+5",
     "counter": "",
-    "note": "\nCombo from 1st attack\nMove can be delayed\n"
+    "note": "\nCombo from 1st attack\nMove can be delayed\n",
+    "alternateInputs": [
+      "df+1,1"
+    ]
   },
   {
     "name": "Lion's Roar",
@@ -294,7 +372,10 @@
     "block": "-9",
     "hit": "+32d (+24)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH\n"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\n",
+    "alternateInputs": [
+      "df+1,1,2"
+    ]
   },
   {
     "name": "Kurenai",
@@ -305,7 +386,10 @@
     "block": "-8",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "",
@@ -316,7 +400,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Phoenix Wings",
@@ -327,7 +414,10 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st attack\nMove can be delayed\n"
+    "note": "\nCombo from 1st attack\nMove can be delayed\n",
+    "alternateInputs": [
+      "df+3,4"
+    ]
   },
   {
     "name": "Tiger Claw",
@@ -338,7 +428,10 @@
     "block": "-2",
     "hit": "+8",
     "counter": "+14",
-    "note": "\n\nKnee\n"
+    "note": "\n\nKnee\n",
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "Hammer Punch",
@@ -349,7 +442,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "+3c",
-    "note": "\n\nSpike \nEnter crouch with D\n"
+    "note": "\n\nSpike \nEnter crouch with D\n",
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Phoenix Smasher",
@@ -360,7 +456,10 @@
     "block": "-17",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nConsumes Heat\n"
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nConsumes Heat\n",
+    "alternateInputs": [
+      "d+1,2"
+    ]
   },
   {
     "name": "Phoenix Smasher Hold",
@@ -371,7 +470,10 @@
     "block": "+9",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n"
+    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n",
+    "alternateInputs": [
+      "d+1,2"
+    ]
   },
   {
     "name": "",
@@ -382,7 +484,10 @@
     "block": "-31c",
     "hit": "-17",
     "counter": "+14a",
-    "note": "\nCombo from 1st CH\nMove can be delayed\n"
+    "note": "\nCombo from 1st CH\nMove can be delayed\n",
+    "alternateInputs": [
+      "d+1,4"
+    ]
   },
   {
     "name": "Hang Over",
@@ -393,7 +498,10 @@
     "block": "-14",
     "hit": "+3d (-6)",
     "counter": "",
-    "note": "\nBalcony Break\nElbow\n"
+    "note": "\nBalcony Break\nElbow\n",
+    "alternateInputs": [
+      "d+1,4,2"
+    ]
   },
   {
     "name": "",
@@ -404,7 +512,10 @@
     "block": "31c",
     "hit": "-17",
     "counter": "+14a",
-    "note": "\nHas a clean hit effect\n"
+    "note": "\nHas a clean hit effect\n",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Bone Breaker",
@@ -415,7 +526,10 @@
     "block": "-18",
     "hit": "-9",
     "counter": "",
-    "note": "\nCombo from 1st CH\nHas a clean hit effect\n"
+    "note": "\nCombo from 1st CH\nHas a clean hit effect\n",
+    "alternateInputs": [
+      "d+4,2"
+    ]
   },
   {
     "name": "Demolition Man",
@@ -426,7 +540,10 @@
     "block": "-17",
     "hit": "+3 (-6)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nHigher damage with perfect frame input (38 > 40)\n"
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nHigher damage with perfect frame input (38 > 40)\n",
+    "alternateInputs": [
+      "d+4,2,1+2"
+    ]
   },
   {
     "name": "Shoulder Smash",
@@ -437,7 +554,10 @@
     "block": "-16",
     "hit": "+16d (+11)",
     "counter": "",
-    "note": "\nBalcony Break\n"
+    "note": "\nBalcony Break\n",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Dickjab",
@@ -448,7 +568,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Shoot the Moon",
@@ -459,7 +582,10 @@
     "block": "-11",
     "hit": "+14d (-3)",
     "counter": "+28a (+18)",
-    "note": "\nTornado\nBalcony Break\n"
+    "note": "\nTornado\nBalcony Break\n",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "",
@@ -470,7 +596,10 @@
     "block": "-18",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "",
@@ -481,7 +610,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Chain Breaker",
@@ -492,7 +624,10 @@
     "block": "-14",
     "hit": "+30d (+22)",
     "counter": "",
-    "note": "\npc\nAbsorb an attack to power up and deal more chip damage\n"
+    "note": "\npc\nAbsorb an attack to power up and deal more chip damage\n",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "",
@@ -503,7 +638,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Double Wing",
@@ -514,7 +652,10 @@
     "block": "-14",
     "hit": "+16d (-1)",
     "counter": "",
-    "note": "\n\nTornado \n\nBalcony Break\nCombo from 1st attack\n"
+    "note": "\n\nTornado \n\nBalcony Break\nCombo from 1st attack\n",
+    "alternateInputs": [
+      "b+1,2"
+    ]
   },
   {
     "name": "Attack Reversal",
@@ -525,7 +666,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nps\nTimed with opponent attack\n"
+    "note": "\nps\nTimed with opponent attack\n",
+    "alternateInputs": [
+      "b1+3/2+4"
+    ]
   },
   {
     "name": "",
@@ -536,7 +680,10 @@
     "block": "-5c",
     "hit": "+4c",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Crushing Wind",
@@ -547,7 +694,10 @@
     "block": "-12",
     "hit": "0c",
     "counter": "+48a",
-    "note": "\nCombo from 1st CH\n"
+    "note": "\nCombo from 1st CH\n",
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "Crushing Wind Hold",
@@ -558,7 +708,10 @@
     "block": "+8",
     "hit": "+20d",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n"
+    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n",
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "Lights Out",
@@ -569,7 +722,10 @@
     "block": "-6",
     "hit": "+31a (+25)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Leg Sweep",
@@ -580,7 +736,10 @@
     "block": "-12c",
     "hit": "+4",
     "counter": "+17g",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Hassou Strike",
@@ -591,7 +750,10 @@
     "block": "-6",
     "hit": "+21d (+16)",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\nAbsorb an attack to power up and deal more damage on block\n"
+    "note": "\npc\n\nBalcony Break\nAbsorb an attack to power up and deal more damage on block\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Wrecking Ball",
@@ -602,7 +764,10 @@
     "block": "-7",
     "hit": "+14d",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "ub+2"
+    ]
   },
   {
     "name": "Moonfall",
@@ -613,7 +778,10 @@
     "block": "+5",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "",
@@ -624,7 +792,10 @@
     "block": "+18g",
     "hit": "+59a (+49)",
     "counter": "",
-    "note": "\nAlternate input u+3 and/or ub+3\n"
+    "note": "\nAlternate input u+3 and/or ub+3\n",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Shredder",
@@ -635,7 +806,10 @@
     "block": "-13",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "\nCombo from 1st attack\nAlternate input u+3,4 and/or ub+3,4\n"
+    "note": "\nCombo from 1st attack\nAlternate input u+3,4 and/or ub+3,4\n",
+    "alternateInputs": [
+      "uf+3,4"
+    ]
   },
   {
     "name": "Rising Toe Kick",
@@ -646,7 +820,10 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nAlternate input ub+4 and/or u+4\n"
+    "note": "\nAlternate input ub+4 and/or u+4\n",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -657,7 +834,10 @@
     "block": "-13",
     "hit": "+32a(+22)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf,n,4"
+    ]
   },
   {
     "name": "",
@@ -668,7 +848,10 @@
     "block": "-17",
     "hit": "-7",
     "counter": "",
-    "note": "\n\nElbow\n"
+    "note": "\n\nElbow\n",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Juggernaut",
@@ -679,7 +862,10 @@
     "block": "-12",
     "hit": "+14d",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st attack\nAlternate input FC.df+2,1\nCancel with B\n"
+    "note": "\n\nBalcony Break\nCombo from 1st attack\nAlternate input FC.df+2,1\nCancel with B\n",
+    "alternateInputs": [
+      "f,F+2,1"
+    ]
   },
   {
     "name": "Phoenix Bone Breaker",
@@ -690,7 +876,10 @@
     "block": "-4",
     "hit": "+37d (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nCombo from 1st hit\nAlternate input FC.df+2:1\n"
+    "note": "\n\nBalcony Break\nChip damage\nCombo from 1st hit\nAlternate input FC.df+2:1\n",
+    "alternateInputs": [
+      "f,F+2:1"
+    ]
   },
   {
     "name": "Bulldozer",
@@ -701,7 +890,10 @@
     "block": "-19c",
     "hit": "+27a",
     "counter": "",
-    "note": "\nAlternate input FC.df+2,2\nCancel to -18 FC with B\n"
+    "note": "\nAlternate input FC.df+2,2\nCancel to -18 FC with B\n",
+    "alternateInputs": [
+      "f,F+2,2"
+    ]
   },
   {
     "name": "",
@@ -712,7 +904,10 @@
     "block": "-17",
     "hit": "+24a (+14)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "",
@@ -723,7 +918,10 @@
     "block": "-16",
     "hit": "+27a (+20)",
     "counter": "",
-    "note": "\nCombo from 1st hit\n"
+    "note": "\nCombo from 1st hit\n",
+    "alternateInputs": [
+      "f,F+3,4"
+    ]
   },
   {
     "name": "Double Hop Kick High",
@@ -734,7 +932,10 @@
     "block": "-5",
     "hit": "+62a (+42)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f,F+3,4,4"
+    ]
   },
   {
     "name": "Triple Kick Combo",
@@ -745,7 +946,10 @@
     "block": "-14",
     "hit": "+12d (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f,F+3,4,f+4"
+    ]
   },
   {
     "name": "Double Hop Kick Low",
@@ -756,7 +960,10 @@
     "block": "-17c",
     "hit": "-6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f,F+3,4,d+4"
+    ]
   },
   {
     "name": "Neutron Bomb",
@@ -767,7 +974,10 @@
     "block": "-1~+5",
     "hit": "+18a",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "Turbulent Hammer",
@@ -778,7 +988,10 @@
     "block": "-10",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nSpike\nTransition to throw on front hit only\nAlternate input wr2\n"
+    "note": "\n\nSpike\nTransition to throw on front hit only\nAlternate input wr2\n",
+    "alternateInputs": [
+      "f,f,F+2"
+    ]
   },
   {
     "name": "Burning Spear",
@@ -789,7 +1002,10 @@
     "block": "-6",
     "hit": "+34d (+25)",
     "counter": "",
-    "note": "\n\nBalcony Break\nOften written b,f+1\n"
+    "note": "\n\nBalcony Break\nOften written b,f+1\n",
+    "alternateInputs": [
+      "b,n,f+1"
+    ]
   },
   {
     "name": "",
@@ -800,7 +1016,10 @@
     "block": "-10",
     "hit": "-7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Enfolding Dragon",
@@ -811,7 +1030,10 @@
     "block": "-11",
     "hit": "+2",
     "counter": "",
-    "note": "\nHold b to transition to Sway\nCombo from 1st CH\nMove can be delayed\n"
+    "note": "\nHold b to transition to Sway\nCombo from 1st CH\nMove can be delayed\n",
+    "alternateInputs": [
+      "ws1,2"
+    ]
   },
   {
     "name": "Thunder Palm",
@@ -822,7 +1044,10 @@
     "block": "-14",
     "hit": "+27a (+17)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "",
@@ -833,7 +1058,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Shioh",
@@ -844,7 +1072,10 @@
     "block": "-9",
     "hit": "+17d (+8)",
     "counter": "+46a",
-    "note": "\n\nBalcony Break\nCombo from 1st\nMove can be delayed\n"
+    "note": "\n\nBalcony Break\nCombo from 1st\nMove can be delayed\n",
+    "alternateInputs": [
+      "ws3,2"
+    ]
   },
   {
     "name": "Toe Smash",
@@ -855,7 +1086,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Somersault Kick Warm-Up Moves",
@@ -866,7 +1100,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC D"
+    ]
   },
   {
     "name": "Incomplete Somersault",
@@ -877,7 +1114,10 @@
     "block": "-49d",
     "hit": "-9d (-24)",
     "counter": "",
-    "note": "\nDeals recoverable damage to self\n"
+    "note": "\nDeals recoverable damage to self\n",
+    "alternateInputs": [
+      "FC D,U+4"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -888,7 +1128,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Down Strike",
@@ -899,7 +1142,10 @@
     "block": "",
     "hit": "-1d (-9)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "OTG d+2"
+    ]
   },
   {
     "name": "Turn Thruster",
@@ -910,7 +1156,10 @@
     "block": "+8",
     "hit": "+35d (+27)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\n"
+    "note": "\n\nBalcony Break\nChip damage\n",
+    "alternateInputs": [
+      "SS 1"
+    ]
   },
   {
     "name": "Pump In Pedal",
@@ -921,7 +1170,10 @@
     "block": "-12c",
     "hit": "+4",
     "counter": "+12",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS 3"
+    ]
   },
   {
     "name": "Cormorant Step",
@@ -932,7 +1184,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nD,df to enter crouching state\n"
+    "note": "\nD,df to enter crouching state\n",
+    "alternateInputs": [
+      "qcf (d,df,f)"
+    ]
   },
   {
     "name": "Thruster",
@@ -943,7 +1198,10 @@
     "block": "-4",
     "hit": "+33a (+26)",
     "counter": "",
-    "note": "\nChip damage\n"
+    "note": "\nChip damage\n",
+    "alternateInputs": [
+      "CS 1"
+    ]
   },
   {
     "name": "Phoenix Smasher",
@@ -954,7 +1212,10 @@
     "block": "-17",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n",
+    "alternateInputs": [
+      "CS 2"
+    ]
   },
   {
     "name": "Gengetsu",
@@ -965,7 +1226,10 @@
     "block": "-14c",
     "hit": "+0",
     "counter": "+20a",
-    "note": "\nHas a clean hit effect\nPower up while Heat is active\n"
+    "note": "\nHas a clean hit effect\nPower up while Heat is active\n",
+    "alternateInputs": [
+      "CS 3"
+    ]
   },
   {
     "name": "Gunba",
@@ -976,7 +1240,10 @@
     "block": "-12c",
     "hit": "+71a (+55)",
     "counter": "",
-    "note": "\nCancel to FC with B\n"
+    "note": "\nCancel to FC with B\n",
+    "alternateInputs": [
+      "CS 1+2"
+    ]
   },
   {
     "name": "Mountain Raze",
@@ -987,7 +1254,10 @@
     "block": "-9",
     "hit": "+35d (+27)",
     "counter": "+74a (+58)",
-    "note": "\n\nTornado\n\nBalcony Break\n"
+    "note": "\n\nTornado\n\nBalcony Break\n",
+    "alternateInputs": [
+      "CS 3+4"
+    ]
   },
   {
     "name": "Thruster",
@@ -998,7 +1268,10 @@
     "block": "-4",
     "hit": "+33a (+26)",
     "counter": "",
-    "note": "\nChip damage\n"
+    "note": "\nChip damage\n",
+    "alternateInputs": [
+      "qcf+1"
+    ]
   },
   {
     "name": "Phoenix Smasher",
@@ -1009,7 +1282,10 @@
     "block": "-17",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n",
+    "alternateInputs": [
+      "qcf+2"
+    ]
   },
   {
     "name": "Gengetsu",
@@ -1020,7 +1296,10 @@
     "block": "-14c",
     "hit": "+0",
     "counter": "+20a",
-    "note": "\nHas a clean hit effect\nPower up while Heat is active\n"
+    "note": "\nHas a clean hit effect\nPower up while Heat is active\n",
+    "alternateInputs": [
+      "qcf+3"
+    ]
   },
   {
     "name": "Gunba",
@@ -1031,7 +1310,10 @@
     "block": "-12c",
     "hit": "+71a (+55)",
     "counter": "",
-    "note": "\nCancel to FC with B\n"
+    "note": "\nCancel to FC with B\n",
+    "alternateInputs": [
+      "qcf+1+2"
+    ]
   },
   {
     "name": "Mountain Raze",
@@ -1042,7 +1324,10 @@
     "block": "-9",
     "hit": "+35d (+27)",
     "counter": "+74a (+58)",
-    "note": "\n\nTornado\n\nBalcony Break\n"
+    "note": "\n\nTornado\n\nBalcony Break\n",
+    "alternateInputs": [
+      "qcf+3+4"
+    ]
   },
   {
     "name": "Deep Dive",
@@ -1053,7 +1338,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "CD df"
+    ]
   },
   {
     "name": "",
@@ -1064,7 +1352,10 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "Tornado\nElbow"
+    "note": "Tornado\nElbow",
+    "alternateInputs": [
+      "DPD 2"
+    ]
   },
   {
     "name": "Quick Petal Strike",
@@ -1075,7 +1366,10 @@
     "block": "-5 (+7 at wall)",
     "hit": "+21d (-5)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
+    "alternateInputs": [
+      "DPD 2,1"
+    ]
   },
   {
     "name": "Quick Lightning Breaker",
@@ -1086,7 +1380,10 @@
     "block": "-13c",
     "hit": "+10d",
     "counter": "+46a",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
+    "alternateInputs": [
+      "DPD 2,3"
+    ]
   },
   {
     "name": "Bigetsu",
@@ -1097,7 +1394,10 @@
     "block": "-12c",
     "hit": "0",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "DPD 4"
+    ]
   },
   {
     "name": "Incomplete Somersault",
@@ -1108,7 +1408,10 @@
     "block": "-49d",
     "hit": "-9d (-24)",
     "counter": "",
-    "note": "\nDeals recoverable damage to self\n"
+    "note": "\nDeals recoverable damage to self\n",
+    "alternateInputs": [
+      "DPD 3+4"
+    ]
   },
   {
     "name": "",
@@ -1119,7 +1422,10 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "Tornado\nElbow"
+    "note": "Tornado\nElbow",
+    "alternateInputs": [
+      "qcf,df+2"
+    ]
   },
   {
     "name": "Quick Petal Strike",
@@ -1130,7 +1436,10 @@
     "block": "-5 (+7 at wall)",
     "hit": "+21d (-5)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
+    "alternateInputs": [
+      "qcf,df+2,1"
+    ]
   },
   {
     "name": "Quick Lightning Breaker",
@@ -1141,7 +1450,10 @@
     "block": "-13c",
     "hit": "+10d",
     "counter": "+46a",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n",
+    "alternateInputs": [
+      "qcf,df+2,3"
+    ]
   },
   {
     "name": "Bigetsu",
@@ -1152,7 +1464,10 @@
     "block": "-12c",
     "hit": "0",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "qcf,df+4"
+    ]
   },
   {
     "name": "Incomplete Somersault",
@@ -1163,7 +1478,10 @@
     "block": "-49d",
     "hit": "-9d (-24)",
     "counter": "",
-    "note": "\nDeals recoverable damage to self\n"
+    "note": "\nDeals recoverable damage to self\n",
+    "alternateInputs": [
+      "qcf,df+3+4"
+    ]
   },
   {
     "name": "SWA",
@@ -1174,7 +1492,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "qcb (d,db,b)"
+    ]
   },
   {
     "name": "God Hammer Punch",
@@ -1185,7 +1506,10 @@
     "block": "0c",
     "hit": "+21d",
     "counter": "+53a",
-    "note": "\nChip damage\n"
+    "note": "\nChip damage\n",
+    "alternateInputs": [
+      "SWA 1"
+    ]
   },
   {
     "name": "Rubber Band Attack",
@@ -1196,7 +1520,10 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n"
+    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n",
+    "alternateInputs": [
+      "SWA 2"
+    ]
   },
   {
     "name": "Rapid Fire",
@@ -1207,7 +1534,10 @@
     "block": "-21c",
     "hit": "-10g",
     "counter": "+21a",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SWA 3"
+    ]
   },
   {
     "name": "",
@@ -1218,7 +1548,10 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st CH\n"
+    "note": "\nCombo from 1st CH\n",
+    "alternateInputs": [
+      "SWA 3,2"
+    ]
   },
   {
     "name": "Petal Strike",
@@ -1229,7 +1562,10 @@
     "block": "-5",
     "hit": "+21(-5)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st CH\nWall Stagger on Block\n"
+    "note": "\n\nTornado\nCombo from 1st CH\nWall Stagger on Block\n",
+    "alternateInputs": [
+      "SWA 3,2,1"
+    ]
   },
   {
     "name": "Lightning Breaker",
@@ -1240,7 +1576,10 @@
     "block": "-13c",
     "hit": "+10g",
     "counter": "+46a",
-    "note": "\n\nSpike\nCombo from 1st CH\n"
+    "note": "\n\nSpike\nCombo from 1st CH\n",
+    "alternateInputs": [
+      "SWA 3,2,3"
+    ]
   },
   {
     "name": "Kawaragoma",
@@ -1251,7 +1590,10 @@
     "block": "+1",
     "hit": "+23d (+14)",
     "counter": "+59a",
-    "note": "\n\nHoming\nChip damage on block\n"
+    "note": "\n\nHoming\nChip damage on block\n",
+    "alternateInputs": [
+      "SWA 4"
+    ]
   },
   {
     "name": "Unseen Gust",
@@ -1262,7 +1604,10 @@
     "block": "-14",
     "hit": "+37a (+27)",
     "counter": "",
-    "note": "\n\nTornado \n"
+    "note": "\n\nTornado \n",
+    "alternateInputs": [
+      "SWA 1+2"
+    ]
   },
   {
     "name": "God Hammer Punch",
@@ -1273,7 +1618,10 @@
     "block": "0c",
     "hit": "+21d",
     "counter": "+53a",
-    "note": "\nChip damage\n"
+    "note": "\nChip damage\n",
+    "alternateInputs": [
+      "qcb+1"
+    ]
   },
   {
     "name": "Rubber Band Attack",
@@ -1284,7 +1632,10 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n"
+    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n",
+    "alternateInputs": [
+      "qcb+2"
+    ]
   },
   {
     "name": "Rapid Fire",
@@ -1295,7 +1646,10 @@
     "block": "-21c",
     "hit": "-10g",
     "counter": "+21a",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "qcb+3"
+    ]
   },
   {
     "name": "",
@@ -1306,7 +1660,10 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st CH\n"
+    "note": "\nCombo from 1st CH\n",
+    "alternateInputs": [
+      "qcb+3,2"
+    ]
   },
   {
     "name": "Petal Strike",
@@ -1317,7 +1674,10 @@
     "block": "-5",
     "hit": "+21(-5)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st CH\n"
+    "note": "\n\nTornado\nCombo from 1st CH\n",
+    "alternateInputs": [
+      "qcb+3,2,1"
+    ]
   },
   {
     "name": "Lightning Breaker",
@@ -1328,7 +1688,10 @@
     "block": "-13c",
     "hit": "+10g",
     "counter": "+46a",
-    "note": "\n\nSpike\nCombo from 1st CH\n"
+    "note": "\n\nSpike\nCombo from 1st CH\n",
+    "alternateInputs": [
+      "qcb+3,2,3"
+    ]
   },
   {
     "name": "Kawaragoma",
@@ -1339,7 +1702,10 @@
     "block": "+1",
     "hit": "+23d (+14)",
     "counter": "+59a",
-    "note": "\n\nHoming\nChip damage on block\n"
+    "note": "\n\nHoming\nChip damage on block\n",
+    "alternateInputs": [
+      "qcb+4"
+    ]
   },
   {
     "name": "Unseen Gust",
@@ -1350,7 +1716,10 @@
     "block": "-14",
     "hit": "+37a (+27)",
     "counter": "",
-    "note": "\n\nTornado \n"
+    "note": "\n\nTornado \n",
+    "alternateInputs": [
+      "qcb+1+2"
+    ]
   },
   {
     "name": "Over The Shoulder",
@@ -1361,7 +1730,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\n"
+    "note": "\nThrow break 1 or 2\n",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Shoulder Pop",
@@ -1372,7 +1744,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\n"
+    "note": "\nThrow break 1 or 2\n",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Chest Crusher",
@@ -1383,7 +1758,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\n"
+    "note": "\nThrow break 2\n",
+    "alternateInputs": [
+      "2+4,b"
+    ]
   },
   {
     "name": "Dragon Screw",
@@ -1394,7 +1772,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1\n"
+    "note": "\nThrow break 1\n",
+    "alternateInputs": [
+      "Left Throw"
+    ]
   },
   {
     "name": "Fall Away",
@@ -1405,7 +1786,10 @@
     "block": "",
     "hit": "-2d",
     "counter": "",
-    "note": "\nThrow break 2\n"
+    "note": "\nThrow break 2\n",
+    "alternateInputs": [
+      "Right Throw"
+    ]
   },
   {
     "name": "Reverse Neck Throw",
@@ -1416,7 +1800,10 @@
     "block": "",
     "hit": "-14d",
     "counter": "",
-    "note": "\nThrow cannot be broken\n"
+    "note": "\nThrow cannot be broken\n",
+    "alternateInputs": [
+      "Back Throw 1+3"
+    ]
   },
   {
     "name": "Piggyback Throw",
@@ -1427,7 +1814,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nSpike\nThrow cannot be broken\n"
+    "note": "\n\nSpike\nThrow cannot be broken\n",
+    "alternateInputs": [
+      "Back Throw 2+4"
+    ]
   },
   {
     "name": "Kongo Blast",
@@ -1438,7 +1828,10 @@
     "block": "",
     "hit": "+9",
     "counter": "",
-    "note": "\nThrow break 1\n"
+    "note": "\nThrow break 1\n",
+    "alternateInputs": [
+      "df+1+3"
+    ]
   },
   {
     "name": "Phoenix Smasher",
@@ -1449,7 +1842,10 @@
     "block": "",
     "hit": "+16d (-20)",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break 1\nConsumes Heat\n"
+    "note": "\n\nBalcony Break\nThrow break 1\nConsumes Heat\n",
+    "alternateInputs": [
+      "df+1+3:2"
+    ]
   },
   {
     "name": "Foot Launch",
@@ -1460,7 +1856,10 @@
     "block": "",
     "hit": "+6d",
     "counter": "",
-    "note": "\nThrow break 1\n"
+    "note": "\nThrow break 1\n",
+    "alternateInputs": [
+      "b+1+4"
+    ]
   },
   {
     "name": "Twist and Shout",
@@ -1471,7 +1870,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1+2\n\nSpike\n"
+    "note": "\nThrow break 1+2\n\nSpike\n",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Push Away",
@@ -1482,7 +1884,10 @@
     "block": "",
     "hit": "+20d",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break 1+2\n"
+    "note": "\n\nBalcony Break\nThrow break 1+2\n",
+    "alternateInputs": [
+      "ff+1+2"
+    ]
   },
   {
     "name": "Ultimate Tackle",
@@ -1493,7 +1898,10 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 1+2\nTransition to Takedown on hit\n"
+    "note": "\nThrow break 1+2\nTransition to Takedown on hit\n",
+    "alternateInputs": [
+      "FC 1+2"
+    ]
   },
   {
     "name": "Ultimate Punch",
@@ -1504,7 +1912,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nAlternate input 1,2,1,2\n"
+    "note": "\nThrow break 1 or 2\nAlternate input 1,2,1,2\n",
+    "alternateInputs": [
+      "Takedown 2,1,2,1"
+    ]
   },
   {
     "name": "Ultimate Punishment",
@@ -1515,7 +1926,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1\nTransition to Arm Breaker with 1+2 after third hit\n"
+    "note": "\nThrow break 1\nTransition to Arm Breaker with 1+2 after third hit\n",
+    "alternateInputs": [
+      "Takedown 2,d+1,1,1+2"
+    ]
   },
   {
     "name": "Arm Breaker",
@@ -1526,6 +1940,9 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1+2\n"
+    "note": "\nThrow break 1+2\n",
+    "alternateInputs": [
+      "Takedown 1+2,1+2"
+    ]
   }
 ]

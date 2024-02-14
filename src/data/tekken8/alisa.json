@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b\n"
+    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Quick Trim",
@@ -19,7 +22,10 @@
     "block": "-2",
     "hit": "+17",
     "counter": "+17",
-    "note": "\n\nBalcony Break \n\nHeat Engager\n\n\nHoming\n"
+    "note": "\n\nBalcony Break \n\nHeat Engager\n\n\nHoming\n",
+    "alternateInputs": [
+      "3,2"
+    ]
   },
   {
     "name": "Uninstall",
@@ -30,7 +36,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Dual Session",
@@ -41,7 +50,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nTransition to DES (does not transition when using Heat Dash)\nInput f+2,1+2 to shift to DES\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nTransition to DES (does not transition when using Heat Dash)\nInput f+2,1+2 to shift to DES\n",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "Image Cutter",
@@ -52,7 +64,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage on block\nAlternate input: u+2\nTransition to DES (does not transition when using Heat Dash)\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage on block\nAlternate input: u+2\nTransition to DES (does not transition when using Heat Dash)\n",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "Gigahertz Storm",
@@ -63,7 +78,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\n",
+    "alternateInputs": [
+      "DES f+2,1,2"
+    ]
   },
   {
     "name": "Emergency Dual Boot",
@@ -74,7 +92,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to DBT\npartially consumes Heat\n"
+    "note": "\nTransition to DBT\npartially consumes Heat\n",
+    "alternateInputs": [
+      "in heat 1+4"
+    ]
   },
   {
     "name": "Emergency Destructive Form",
@@ -85,7 +106,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\npc\nTransition to DES\npartially consumes Heat\n"
+    "note": "\npc\nTransition to DES\npartially consumes Heat\n",
+    "alternateInputs": [
+      "in heat d+1+2"
+    ]
   },
   {
     "name": "Quick-fix Protocol",
@@ -96,7 +120,10 @@
     "block": "+8",
     "hit": "KND",
     "counter": "",
-    "note": "\nAlternate input: H.DES.2+3\n\nHeat Smash\nTransition to BOT with H.2+3,3_4 or H.DES.2+3,f+3_f+4\n"
+    "note": "\nAlternate input: H.DES.2+3\n\nHeat Smash\nTransition to BOT with H.2+3,3_4 or H.DES.2+3,f+3_f+4\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "",
@@ -107,7 +134,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Stop Bit",
@@ -118,7 +148,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "\nTransition to DES with 1,1,1+2\n"
+    "note": "\nTransition to DES with 1,1,1+2\n",
+    "alternateInputs": [
+      "1,1"
+    ]
   },
   {
     "name": "Typing Combo",
@@ -129,7 +162,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Liftoff Combo",
@@ -140,7 +176,10 @@
     "block": "",
     "hit": "+21 (+6)",
     "counter": "",
-    "note": "\n\nTornado\nchip damage on block\n"
+    "note": "\n\nTornado\nchip damage on block\n",
+    "alternateInputs": [
+      "1,2,2"
+    ]
   },
   {
     "name": "Coil Punch Combo",
@@ -151,7 +190,10 @@
     "block": "",
     "hit": "+2",
     "counter": "",
-    "note": "\nCan be delayed\n"
+    "note": "\nCan be delayed\n",
+    "alternateInputs": [
+      "1,2,d+2"
+    ]
   },
   {
     "name": "",
@@ -162,7 +204,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Troubleshooting",
@@ -173,7 +218,10 @@
     "block": "",
     "hit": "+15 (+5)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "2,2"
+    ]
   },
   {
     "name": "",
@@ -184,7 +232,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2,3"
+    ]
   },
   {
     "name": "Down Time",
@@ -195,7 +246,10 @@
     "block": "",
     "hit": "+16 (-7)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "2,3,3"
+    ]
   },
   {
     "name": "Down Link",
@@ -206,7 +260,10 @@
     "block": "",
     "hit": "+13",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2,3,4"
+    ]
   },
   {
     "name": "",
@@ -217,7 +274,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Quick Trim",
@@ -228,7 +288,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage on block\nTransition to DES (does not transition when using Heat Dash)\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage on block\nTransition to DES (does not transition when using Heat Dash)\n",
+    "alternateInputs": [
+      "3,2"
+    ]
   },
   {
     "name": "Quick Access",
@@ -239,7 +302,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "\nchip damage on block\nTransition to DES\n"
+    "note": "\nchip damage on block\nTransition to DES\n",
+    "alternateInputs": [
+      "3,f+2"
+    ]
   },
   {
     "name": "Accelerator",
@@ -250,7 +316,10 @@
     "block": "",
     "hit": "+14g",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\n"
+    "note": "\n\nBalcony Break\n\nHoming\n",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Uninstall",
@@ -261,7 +330,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "",
@@ -272,7 +344,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Dual Session",
@@ -283,7 +358,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nTransition to DES with f+2,1+2 (does not transition when using Heat Dash)\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nTransition to DES with f+2,1+2 (does not transition when using Heat Dash)\n",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "",
@@ -294,7 +372,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+2,3"
+    ]
   },
   {
     "name": "Triple Session",
@@ -305,7 +386,10 @@
     "block": "",
     "hit": "+12 (-3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES with f+2,3,1+2\n"
+    "note": "\n\nBalcony Break\nTransition to DES with f+2,3,1+2\n",
+    "alternateInputs": [
+      "f+2,3,3"
+    ]
   },
   {
     "name": "",
@@ -316,7 +400,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Lost Access",
@@ -327,7 +414,10 @@
     "block": "",
     "hit": "+39 (+31)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "f+3,2"
+    ]
   },
   {
     "name": "Automatic Transmission",
@@ -338,7 +428,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "f+3,1+2"
+    ]
   },
   {
     "name": "",
@@ -349,7 +442,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHoming\nTransition to DES with f+4,1+2\n"
+    "note": "\n\nHoming\nTransition to DES with f+4,1+2\n",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "",
@@ -360,7 +456,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f+4,1"
+    ]
   },
   {
     "name": "Logic Bomb",
@@ -371,7 +470,10 @@
     "block": "",
     "hit": "-1 (-9)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+4,1,4"
+    ]
   },
   {
     "name": "Overflow",
@@ -382,7 +484,10 @@
     "block": "",
     "hit": "+14",
     "counter": "",
-    "note": "\nTransition to BOT with f+1+2,3_4\nTransition to DBT with f+1+2,f+3_f+4\n"
+    "note": "\nTransition to BOT with f+1+2,3_4\nTransition to DBT with f+1+2,f+3_f+4\n",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Boot",
@@ -393,7 +498,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "",
@@ -404,7 +512,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "",
@@ -415,7 +526,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+1,1"
+    ]
   },
   {
     "name": "Cyclone Mixer",
@@ -426,7 +540,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": "\nchip damage on block\nTransition to DES\n"
+    "note": "\nchip damage on block\nTransition to DES\n",
+    "alternateInputs": [
+      "df+1,1,2"
+    ]
   },
   {
     "name": "Cyclone Hacker",
@@ -437,7 +554,10 @@
     "block": "",
     "hit": "+3c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+1,4"
+    ]
   },
   {
     "name": "Pickup",
@@ -448,7 +568,10 @@
     "block": "",
     "hit": "+32 (+22)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "",
@@ -459,7 +582,10 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Double Socket",
@@ -470,7 +596,10 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+3,3"
+    ]
   },
   {
     "name": "",
@@ -481,7 +610,10 @@
     "block": "",
     "hit": "+2c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Deadlock",
@@ -492,7 +624,10 @@
     "block": "",
     "hit": "+28 (+13)",
     "counter": "",
-    "note": "\nTransition to DES with input d+2,4,1+2\n"
+    "note": "\nTransition to DES with input d+2,4,1+2\n",
+    "alternateInputs": [
+      "d+2,4"
+    ]
   },
   {
     "name": "Quick Slider",
@@ -503,7 +638,10 @@
     "block": "",
     "hit": "-1",
     "counter": "",
-    "note": "\nTransition to BKP\n"
+    "note": "\nTransition to BKP\n",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "",
@@ -514,7 +652,10 @@
     "block": "",
     "hit": "-1",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Optimizer",
@@ -525,7 +666,10 @@
     "block": "",
     "hit": "+11 (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "d+4,1+2"
+    ]
   },
   {
     "name": "Destructive Form",
@@ -536,7 +680,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCancel DES with DES.d+1+2 or DES.DB\n"
+    "note": "\nCancel DES with DES.d+1+2 or DES.DB\n",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Harpoon Sweep",
@@ -547,7 +694,10 @@
     "block": "",
     "hit": "+67 (+51)",
     "counter": "",
-    "note": "\n\nHoming\nTransition to DES with input d+3+4,1+2\n"
+    "note": "\n\nHoming\nTransition to DES with input d+3+4,1+2\n",
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "Backup",
@@ -558,7 +708,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "",
@@ -569,7 +722,10 @@
     "block": "",
     "hit": "-5",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Daisy Chain",
@@ -580,7 +736,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "\nTransition to DES with input db+2,2,1+2\n"
+    "note": "\nTransition to DES with input db+2,2,1+2\n",
+    "alternateInputs": [
+      "db+2,2"
+    ]
   },
   {
     "name": "Deep Link",
@@ -591,7 +750,10 @@
     "block": "",
     "hit": "-2",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Deep Web",
@@ -602,7 +764,10 @@
     "block": "",
     "hit": "+9",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "",
@@ -613,7 +778,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Gadget Found",
@@ -624,7 +792,10 @@
     "block": "",
     "hit": "+71",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "b+1,1+2"
+    ]
   },
   {
     "name": "",
@@ -635,7 +806,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Trance Hammer",
@@ -646,7 +820,10 @@
     "block": "",
     "hit": "+3c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "Trance Generator",
@@ -657,7 +834,10 @@
     "block": "",
     "hit": "+9 (-8)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\n"
+    "note": "\n\nBalcony Break\n\nTornado\n",
+    "alternateInputs": [
+      "b+2,3"
+    ]
   },
   {
     "name": "Trance Accelerator Kick",
@@ -668,7 +848,10 @@
     "block": "",
     "hit": "+12g",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "b+2,4"
+    ]
   },
   {
     "name": "Spinning Top",
@@ -679,7 +862,10 @@
     "block": "",
     "hit": "+5 (-4)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\n"
+    "note": "\n\nBalcony Break\n\nHoming\n",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "",
@@ -690,7 +876,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Double Threading",
@@ -701,7 +890,10 @@
     "block": "",
     "hit": "+6c",
     "counter": "",
-    "note": "\nTransition to DES with input b+4,3,1+2\n"
+    "note": "\nTransition to DES with input b+4,3,1+2\n",
+    "alternateInputs": [
+      "b+4,3"
+    ]
   },
   {
     "name": "Double Override",
@@ -712,7 +904,10 @@
     "block": "",
     "hit": "+9 (-1)",
     "counter": "",
-    "note": "\nTransition to BOT with input b+4,4,3_4\nTransition to DBT with input b+4,4,f+3_f+4\n\nTornado\n"
+    "note": "\nTransition to BOT with input b+4,4,3_4\nTransition to DBT with input b+4,4,f+3_f+4\n\nTornado\n",
+    "alternateInputs": [
+      "b+4,4"
+    ]
   },
   {
     "name": "Transmission",
@@ -723,7 +918,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\nAlternate input: DES.b+1+2\nchip damage on block\n"
+    "note": "\npc\n\nBalcony Break\nAlternate input: DES.b+1+2\nchip damage on block\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "",
@@ -734,7 +932,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Dynamic Range",
@@ -745,7 +946,10 @@
     "block": "",
     "hit": "+27 (-8)",
     "counter": "",
-    "note": "\n\nSpike\n"
+    "note": "\n\nSpike\n",
+    "alternateInputs": [
+      "b+3+4,3+4"
+    ]
   },
   {
     "name": "Hang-Up",
@@ -756,7 +960,10 @@
     "block": "+44",
     "hit": "+44",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "b+2+3"
+    ]
   },
   {
     "name": "Overload",
@@ -767,7 +974,10 @@
     "block": "",
     "hit": "+38 (-20)",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\n"
+    "note": "\npc\n\nBalcony Break\n",
+    "alternateInputs": [
+      "ub+2"
+    ]
   },
   {
     "name": "",
@@ -778,7 +988,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ub+4"
+    ]
   },
   {
     "name": "",
@@ -789,7 +1002,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ub+3+4"
+    ]
   },
   {
     "name": "Docking Bay",
@@ -800,7 +1016,10 @@
     "block": "",
     "hit": "+32 (+22)",
     "counter": "",
-    "note": "\nAlternate input: BT.3+4,1+2\n"
+    "note": "\nAlternate input: BT.3+4,1+2\n",
+    "alternateInputs": [
+      "ub+3+4,1+2"
+    ]
   },
   {
     "name": "Gigabyte Hammer",
@@ -811,7 +1030,10 @@
     "block": "",
     "hit": "+56",
     "counter": "",
-    "note": "\nAlternate input: ub+1+2\n"
+    "note": "\nAlternate input: ub+1+2\n",
+    "alternateInputs": [
+      "u+1+2"
+    ]
   },
   {
     "name": "Brute Force Attack",
@@ -822,7 +1044,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nTornado\nAlternate input: ub+1 or u+1\nTransition to BOT on hit with uf+1,3_4\nTransition to DBT on hit with uf+1,f+3_f+4\n"
+    "note": "\n\nTornado\nAlternate input: ub+1 or u+1\nTransition to BOT on hit with uf+1,3_4\nTransition to DBT on hit with uf+1,f+3_f+4\n",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Image Cutter",
@@ -833,7 +1058,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: u+2\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage on block\nTransition to DES on hit (does not transition when using Heat Dash)\n"
+    "note": "\nAlternate input: u+2\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage on block\nTransition to DES on hit (does not transition when using Heat Dash)\n",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "",
@@ -844,7 +1072,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: ub+3 or u+3\nTransition to BOT with input uf+3,3_4\nTransition to DBT with input uf+3,f+3_f+4\n"
+    "note": "\nAlternate input: ub+3 or u+3\nTransition to BOT with input uf+3,3_4\nTransition to DBT with input uf+3,f+3_f+4\n",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Cradle Star",
@@ -855,7 +1086,10 @@
     "block": "",
     "hit": "+32 (-26)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "uf+3,2"
+    ]
   },
   {
     "name": "",
@@ -866,7 +1100,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: u+4\n"
+    "note": "\nAlternate input: u+4\n",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Inbound Kick",
@@ -877,7 +1114,10 @@
     "block": "",
     "hit": "+45 (+37)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "uf+4,4"
+    ]
   },
   {
     "name": "Downstream",
@@ -888,7 +1128,10 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": "\nAlternate input: u+3+4\n"
+    "note": "\nAlternate input: u+3+4\n",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "",
@@ -899,7 +1142,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Jumper Switch",
@@ -910,7 +1156,10 @@
     "block": "",
     "hit": "+5 (+4)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f,F+2,3"
+    ]
   },
   {
     "name": "",
@@ -921,7 +1170,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "",
@@ -932,7 +1184,10 @@
     "block": "",
     "hit": "+20 (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES with input f,F+3,4,1+2\n"
+    "note": "\n\nBalcony Break\nTransition to DES with input f,F+3,4,1+2\n",
+    "alternateInputs": [
+      "f,F+3,4"
+    ]
   },
   {
     "name": "Cutover",
@@ -943,7 +1198,10 @@
     "block": "",
     "hit": "+21 (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES with input f,F+3,4,4,1+2\n"
+    "note": "\n\nBalcony Break\nTransition to DES with input f,F+3,4,4,1+2\n",
+    "alternateInputs": [
+      "f,F+3,4,4"
+    ]
   },
   {
     "name": "Sandbox",
@@ -954,7 +1212,10 @@
     "block": "",
     "hit": "+9 (+0)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to hit throw on front hit\nAlternative input: f,F+4:1 to power up\n"
+    "note": "\n\nBalcony Break\nTransition to hit throw on front hit\nAlternative input: f,F+4:1 to power up\n",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "Worm Virus",
@@ -965,7 +1226,10 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f,F+1+2"
+    ]
   },
   {
     "name": "Killer Worm Virus",
@@ -976,7 +1240,10 @@
     "block": "",
     "hit": "+13",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "CH f,F+1+2"
+    ]
   },
   {
     "name": "Double Rocket Punch",
@@ -987,7 +1254,10 @@
     "block": "",
     "hit": "+42 (-15)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "b,B+1+4"
+    ]
   },
   {
     "name": "Linear Punch",
@@ -998,7 +1268,10 @@
     "block": "",
     "hit": "+28 (+20)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\nTransition to DES with input f,f,F+2,1+2\n"
+    "note": "\n\nBalcony Break\nchip damage on block\nTransition to DES with input f,f,F+2,1+2\n",
+    "alternateInputs": [
+      "f,f,F+2"
+    ]
   },
   {
     "name": "",
@@ -1009,7 +1282,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "Linear Dropkick",
@@ -1020,7 +1296,10 @@
     "block": "",
     "hit": "+31 (+5)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f,f,F+3,4"
+    ]
   },
   {
     "name": "Thruster Double Punch",
@@ -1031,7 +1310,10 @@
     "block": "",
     "hit": "-17 (-26)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "Win rage 1+2"
+    ]
   },
   {
     "name": "Sad Hound",
@@ -1042,7 +1324,10 @@
     "block": "",
     "hit": "+5c",
     "counter": "",
-    "note": "\nTransition to DES with input FC.1+2,n,1+2\n"
+    "note": "\nTransition to DES with input FC.1+2,n,1+2\n",
+    "alternateInputs": [
+      "FC 1+2"
+    ]
   },
   {
     "name": "",
@@ -1053,7 +1338,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "",
@@ -1064,7 +1352,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to DES with input ws1,2,1+2\n"
+    "note": "\nTransition to DES with input ws1,2,1+2\n",
+    "alternateInputs": [
+      "ws1,2"
+    ]
   },
   {
     "name": "Spear Fishing",
@@ -1075,7 +1366,10 @@
     "block": "",
     "hit": "+33 (+23)",
     "counter": "",
-    "note": "\nTransition to DES with input ws1,2,3,1+2\n"
+    "note": "\nTransition to DES with input ws1,2,3,1+2\n",
+    "alternateInputs": [
+      "ws1,2,3"
+    ]
   },
   {
     "name": "Digital Lift",
@@ -1086,7 +1380,10 @@
     "block": "",
     "hit": "+33 (+23)",
     "counter": "",
-    "note": "\n\nTornado\nTransition to BOT with input ws2,3_4\nTransition to DBT with input ws2,f+3_f+4\n"
+    "note": "\n\nTornado\nTransition to BOT with input ws2,3_4\nTransition to DBT with input ws2,f+3_f+4\n",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "Clockwork",
@@ -1097,7 +1394,10 @@
     "block": "",
     "hit": "+15",
     "counter": "",
-    "note": "\nCancel with input ws3,B\n"
+    "note": "\nCancel with input ws3,B\n",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Clockwork Spring Middle",
@@ -1108,7 +1408,10 @@
     "block": "",
     "hit": "+12g",
     "counter": "",
-    "note": "\n\nBalcony Break\nPower up after 2 or more rotations\n"
+    "note": "\n\nBalcony Break\nPower up after 2 or more rotations\n",
+    "alternateInputs": [
+      "ws3,3"
+    ]
   },
   {
     "name": "Clockwork Spring Low",
@@ -1119,7 +1422,10 @@
     "block": "",
     "hit": "+73 (+57)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ws3,d+3"
+    ]
   },
   {
     "name": "Key Smash",
@@ -1130,7 +1436,10 @@
     "block": "",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nBalcony Break\nPower up after 2 or more rotations\n"
+    "note": "\n\nBalcony Break\nPower up after 2 or more rotations\n",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Cute But Deadly",
@@ -1141,7 +1450,10 @@
     "block": "",
     "hit": "+21",
     "counter": "",
-    "note": "\n\nHoming\nHold to power up\n"
+    "note": "\n\nHoming\nHold to power up\n",
+    "alternateInputs": [
+      "ws1+2"
+    ]
   },
   {
     "name": "Destructive Form",
@@ -1152,7 +1464,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCancel DES with DES.d+1+2 or DES.DB\nTransition to DBT with input DES.f+3_f+4\n"
+    "note": "\nCancel DES with DES.d+1+2 or DES.DB\nTransition to DBT with input DES.f+3_f+4\n",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Shredder",
@@ -1163,7 +1478,10 @@
     "block": "-9",
     "hit": "+23",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\n"
+    "note": "\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES 1"
+    ]
   },
   {
     "name": "Shredding Uppercut",
@@ -1174,7 +1492,10 @@
     "block": "-8",
     "hit": "Launch",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\n"
+    "note": "\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES 2"
+    ]
   },
   {
     "name": "Shredding Sky Punch",
@@ -1185,7 +1506,10 @@
     "block": "",
     "hit": "+85 (+69)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "DES 2,(on hit)1"
+    ]
   },
   {
     "name": "Idling",
@@ -1196,7 +1520,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: DES.4\nTransition to DES\n"
+    "note": "\nAlternate input: DES.4\nTransition to DES\n",
+    "alternateInputs": [
+      "DES 3"
+    ]
   },
   {
     "name": "Death Marionette",
@@ -1207,7 +1534,10 @@
     "block": "",
     "hit": "+15g",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\nTransition to DES\nchip damage on block\n"
+    "note": "\n\nBalcony Break\n\nHoming\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES 1+2"
+    ]
   },
   {
     "name": "Hertz Blade",
@@ -1218,7 +1548,10 @@
     "block": "+3",
     "hit": "+9",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\n"
+    "note": "\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES f+1"
+    ]
   },
   {
     "name": "",
@@ -1229,7 +1562,10 @@
     "block": "-9",
     "hit": "0",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "DES f+2"
+    ]
   },
   {
     "name": "",
@@ -1240,7 +1576,10 @@
     "block": "-12",
     "hit": "-3",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "DES f+2,1"
+    ]
   },
   {
     "name": "Gigaherz Storm",
@@ -1251,7 +1590,10 @@
     "block": "-13",
     "hit": "KND",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nchip damage on block\n"
+    "note": "\n\nHeat Engager\n\nchip damage on block\n",
+    "alternateInputs": [
+      "DES f+2,1,2"
+    ]
   },
   {
     "name": "",
@@ -1262,7 +1604,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "DES f+1+2"
+    ]
   },
   {
     "name": "Hertz Blade - Diablo",
@@ -1273,7 +1618,10 @@
     "block": "",
     "hit": "+41",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\n"
+    "note": "\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES f+1+2,1+2"
+    ]
   },
   {
     "name": "Hertz Blade - Scud",
@@ -1284,7 +1632,10 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\n"
+    "note": "\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES d+1"
+    ]
   },
   {
     "name": "Clock Boosting",
@@ -1295,7 +1646,10 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "\n\nHoming\nchip damage on block\n"
+    "note": "\n\nHoming\nchip damage on block\n",
+    "alternateInputs": [
+      "DES d+2"
+    ]
   },
   {
     "name": "",
@@ -1306,7 +1660,10 @@
     "block": "-12",
     "hit": "0",
     "counter": "Launch",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "DES b+2"
+    ]
   },
   {
     "name": "Hertz Blade - Tomahawk",
@@ -1317,7 +1674,10 @@
     "block": "-3",
     "hit": "+5",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\n"
+    "note": "\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES b+2,1"
+    ]
   },
   {
     "name": "Hertz Blade - Aegis",
@@ -1328,7 +1688,10 @@
     "block": "",
     "hit": "+25 (+18)",
     "counter": "",
-    "note": "\nTransition to DES\nonly hits airborne opponents\n"
+    "note": "\nTransition to DES\nonly hits airborne opponents\n",
+    "alternateInputs": [
+      "DES uf+2"
+    ]
   },
   {
     "name": "Spindle Slash",
@@ -1339,7 +1702,10 @@
     "block": "",
     "hit": "+23",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\nCancel DES with input DES.uf+1+2,1+2\n"
+    "note": "\nTransition to DES\nchip damage on block\nCancel DES with input DES.uf+1+2,1+2\n",
+    "alternateInputs": [
+      "DES uf+1+2"
+    ]
   },
   {
     "name": "Hertz Blade - Flare",
@@ -1350,7 +1716,10 @@
     "block": "",
     "hit": "+25",
     "counter": "",
-    "note": "\nAlternate input: DES.BT.2\nchip damage on block\n"
+    "note": "\nAlternate input: DES.BT.2\nchip damage on block\n",
+    "alternateInputs": [
+      "DES BT 1"
+    ]
   },
   {
     "name": "Dual Boot",
@@ -1361,7 +1730,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: DES.f+4\nCancel with input DBT.B\nTransition to Evasive Action with input DBT.U_D\n"
+    "note": "\nAlternate input: DES.f+4\nCancel with input DBT.B\nTransition to Evasive Action with input DBT.U_D\n",
+    "alternateInputs": [
+      "DES f+3"
+    ]
   },
   {
     "name": "Evasive Action",
@@ -1372,7 +1744,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: DES.d+4 or DES.u+3 or DES.u+4\nDES.d+3_4 goes to foreground, DES.u+3_4 goes to background\nTransition to DES\n"
+    "note": "\nAlternate input: DES.d+4 or DES.u+3 or DES.u+4\nDES.d+3_4 goes to foreground, DES.u+3_4 goes to background\nTransition to DES\n",
+    "alternateInputs": [
+      "DES d+3"
+    ]
   },
   {
     "name": "Evasive Slash",
@@ -1383,7 +1758,10 @@
     "block": "",
     "hit": "+14",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DES d+3,1"
+    ]
   },
   {
     "name": "Retro Rockets",
@@ -1394,7 +1772,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: DES.b+4 or DES.ub,b\nTransition to DES\n"
+    "note": "\nAlternate input: DES.b+4 or DES.ub,b\nTransition to DES\n",
+    "alternateInputs": [
+      "DES b+3"
+    ]
   },
   {
     "name": "Move Forward",
@@ -1405,7 +1786,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to DES\n"
+    "note": "\nTransition to DES\n",
+    "alternateInputs": [
+      "DES f,f"
+    ]
   },
   {
     "name": "Move Back",
@@ -1416,7 +1800,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to DES\n"
+    "note": "\nTransition to DES\n",
+    "alternateInputs": [
+      "DES b,b"
+    ]
   },
   {
     "name": "Boot",
@@ -1427,7 +1814,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to BOT\nTransition to BKP with input BOT.D or BOT.B\n"
+    "note": "\nTransition to BOT\nTransition to BKP with input BOT.D or BOT.B\n",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Abort",
@@ -1438,7 +1828,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: BOT.B\nTransition to BKP\n"
+    "note": "\nAlternate input: BOT.B\nTransition to BKP\n",
+    "alternateInputs": [
+      "BOT D"
+    ]
   },
   {
     "name": "",
@@ -1449,7 +1842,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BOT 1"
+    ]
   },
   {
     "name": "",
@@ -1460,7 +1856,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BOT 1,2"
+    ]
   },
   {
     "name": "",
@@ -1471,7 +1870,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BOT 1,2,1"
+    ]
   },
   {
     "name": "Hard Reset",
@@ -1482,7 +1884,10 @@
     "block": "",
     "hit": "+4 (-13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES with input BOT.1,2,1,3+4,1+2\n"
+    "note": "\n\nBalcony Break\nTransition to DES with input BOT.1,2,1,3+4,1+2\n",
+    "alternateInputs": [
+      "BOT 1,2,1,3+4"
+    ]
   },
   {
     "name": "Linear Elbow",
@@ -1493,7 +1898,10 @@
     "block": "",
     "hit": "+6 (-4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES with input BOT.2,1+2\n"
+    "note": "\n\nBalcony Break\nTransition to DES with input BOT.2,1+2\n",
+    "alternateInputs": [
+      "BOT 2"
+    ]
   },
   {
     "name": "Eject Slider",
@@ -1504,7 +1912,10 @@
     "block": "",
     "hit": "+4c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BOT 3"
+    ]
   },
   {
     "name": "Upstream",
@@ -1515,7 +1926,10 @@
     "block": "",
     "hit": "+68",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BOT 4"
+    ]
   },
   {
     "name": "Wire Clipper",
@@ -1526,7 +1940,10 @@
     "block": "+8",
     "hit": "+8",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES\n"
+    "note": "\n\nBalcony Break\nTransition to DES\n",
+    "alternateInputs": [
+      "BOT 1+2"
+    ]
   },
   {
     "name": "Dual Boot",
@@ -1537,7 +1954,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: DES.f+4\nCancel with input DBT.B\nTransition to Evasive Action with input DBT.U_D\n"
+    "note": "\nAlternate input: DES.f+4\nCancel with input DBT.B\nTransition to Evasive Action with input DBT.U_D\n",
+    "alternateInputs": [
+      "DES f+3"
+    ]
   },
   {
     "name": "Thruster Left",
@@ -1548,7 +1968,10 @@
     "block": "",
     "hit": "+11g",
     "counter": "",
-    "note": "\nTransition to DES\nchip damage on block\n"
+    "note": "\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DBT 1"
+    ]
   },
   {
     "name": "",
@@ -1559,7 +1982,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "DBT 2"
+    ]
   },
   {
     "name": "Thruster Right - Burst",
@@ -1570,7 +1996,10 @@
     "block": "",
     "hit": "+18 (-12)",
     "counter": "",
-    "note": "\n\nSpike\nTransition to DES\nchip damage on block\n"
+    "note": "\n\nSpike\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DBT 2,1"
+    ]
   },
   {
     "name": "Eject Slider",
@@ -1581,7 +2010,10 @@
     "block": "",
     "hit": "+4c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "DBT 3"
+    ]
   },
   {
     "name": "Upstream",
@@ -1592,7 +2024,10 @@
     "block": "",
     "hit": "+68",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "DBT 4"
+    ]
   },
   {
     "name": "Thruster Drill",
@@ -1603,7 +2038,10 @@
     "block": "",
     "hit": "+21 (+0)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n",
+    "alternateInputs": [
+      "DBT 1+2"
+    ]
   },
   {
     "name": "Heartbeat Disabler",
@@ -1614,7 +2052,10 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "\nchip damage on block\nthrow on front hit\n"
+    "note": "\nchip damage on block\nthrow on front hit\n",
+    "alternateInputs": [
+      "DBT f+1"
+    ]
   },
   {
     "name": "",
@@ -1625,7 +2066,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "DBT f+2"
+    ]
   },
   {
     "name": "Shut Down",
@@ -1636,7 +2080,10 @@
     "block": "",
     "hit": "-6 (-13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nchip damage on block\n",
+    "alternateInputs": [
+      "DBT f+2,2"
+    ]
   },
   {
     "name": "Backup",
@@ -1647,7 +2094,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Recovery Hook",
@@ -1658,7 +2108,10 @@
     "block": "",
     "hit": "+27 (+1)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nchip damage on block\n",
+    "alternateInputs": [
+      "BKP 1"
+    ]
   },
   {
     "name": "Rapid Rocket Punch",
@@ -1669,7 +2122,10 @@
     "block": "",
     "hit": "+21 (+6)",
     "counter": "",
-    "note": "\n\nTornado\nchip damage on block\n"
+    "note": "\n\nTornado\nchip damage on block\n",
+    "alternateInputs": [
+      "BKP 2"
+    ]
   },
   {
     "name": "Meteor Kick",
@@ -1680,7 +2136,10 @@
     "block": "",
     "hit": "+72",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "BKP 3"
+    ]
   },
   {
     "name": "Uplink Knee",
@@ -1691,7 +2150,10 @@
     "block": "",
     "hit": "+32 (+22)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "BKP 4"
+    ]
   },
   {
     "name": "Rocket Punch",
@@ -1702,7 +2164,10 @@
     "block": "+58",
     "hit": "+58",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BKP 1+2"
+    ]
   },
   {
     "name": "Radiant Pegasus Bomb",
@@ -1713,7 +2178,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\npc\nAlternate input: R.DES.df+1+2\nTemplate:RageArt\nErases opponent's recoverable health on hit\n"
+    "note": "\npc\nAlternate input: R.DES.df+1+2\nTemplate:RageArt\nErases opponent's recoverable health on hit\n",
+    "alternateInputs": [
+      "in heat in rage df+1+2"
+    ]
   },
   {
     "name": "Taunt 1",
@@ -1724,7 +2192,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "1+2+3"
+    ]
   },
   {
     "name": "Taunt 2",
@@ -1735,7 +2206,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "1+2+4"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -1746,7 +2220,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to DES with input 1+2+3+4,1+2\nTransition to charged state\n"
+    "note": "\nTransition to DES with input 1+2+3+4,1+2\nTransition to charged state\n",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "",
@@ -1757,7 +2234,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "SS 4"
+    ]
   },
   {
     "name": "Happy Propeller",
@@ -1768,7 +2248,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "SS 4,1+2"
+    ]
   },
   {
     "name": "Goody Two Shoes",
@@ -1779,7 +2262,10 @@
     "block": "",
     "hit": "+19 (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "BT 4"
+    ]
   },
   {
     "name": "Reboot",
@@ -1790,7 +2276,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "FUFT 1+2"
+    ]
   },
   {
     "name": "Reboot Meteor Kick",
@@ -1801,7 +2290,10 @@
     "block": "",
     "hit": "+60",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "FUFT 1+2,3"
+    ]
   },
   {
     "name": "Ground Rocket Punch",
@@ -1812,7 +2304,10 @@
     "block": "",
     "hit": "-5 (-13)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "OTG db+1+2"
+    ]
   },
   {
     "name": "Trigger Shuffle",
@@ -1823,7 +2318,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 1 or 2\nOpponent recovery on hit: FDFT\n"
+    "note": "\nThrow break: 1 or 2\nOpponent recovery on hit: FDFT\n",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Back Door",
@@ -1834,7 +2332,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 1 or 2\n\nSpike\nOpponent recovery on hit: FDFT\nSwitches sides\nTransition to DES with input 2+4,1+2\n"
+    "note": "\nThrow break: 1 or 2\n\nSpike\nOpponent recovery on hit: FDFT\nSwitches sides\nTransition to DES with input 2+4,1+2\n",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Compression",
@@ -1845,7 +2346,10 @@
     "block": "",
     "hit": "-5",
     "counter": "",
-    "note": "\nThrow break: 1\nOpponent recovery on hit: FDFA\n"
+    "note": "\nThrow break: 1\nOpponent recovery on hit: FDFA\n",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Hat Trick",
@@ -1856,7 +2360,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 2\nOpponent recovery on hit: FUFA perpendicular to Alisa\n\nSpike\n"
+    "note": "\nThrow break: 2\nOpponent recovery on hit: FUFA perpendicular to Alisa\n\nSpike\n",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Random Typing",
@@ -1867,7 +2374,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: none\nOpponent recovery on hit: FDFA\nSide switch\n\nSpike\n"
+    "note": "\nThrow break: none\nOpponent recovery on hit: FDFA\nSide switch\n\nSpike\n",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Spam Bomb",
@@ -1878,7 +2388,10 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": "\nThrow break: 1+2\nOpponent recovery on hit: FUFT\n"
+    "note": "\nThrow break: 1+2\nOpponent recovery on hit: FUFT\n",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Double Bull Shoot",
@@ -1889,7 +2402,10 @@
     "block": "",
     "hit": "-4",
     "counter": "",
-    "note": "\nThrow break: 1+2\nOpponent recovery on hit: FUFA\nSide switch\n"
+    "note": "\nThrow break: 1+2\nOpponent recovery on hit: FUFA\nSide switch\n",
+    "alternateInputs": [
+      "FC db+1+2"
+    ]
   },
   {
     "name": "Model Change",
@@ -1900,7 +2416,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps\nAlternate input: b+2+4\n"
+    "note": "\nps\nAlternate input: b+2+4\n",
+    "alternateInputs": [
+      "b+1+3"
+    ]
   },
   {
     "name": "",
@@ -1911,6 +2430,9 @@
     "block": "-5 (-14)",
     "hit": "-5 (-14)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "P b+1+3"
+    ]
   }
 ]

@@ -8,7 +8,10 @@
     "block": "",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b\n"
+    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Rapid Strikes",
@@ -19,7 +22,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "db+2,1"
+    ]
   },
   {
     "name": "Achernar",
@@ -30,7 +36,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n"
+    "note": "\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Elnath",
@@ -41,7 +50,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\n"
+    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Vega",
@@ -52,7 +64,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nduring Heat, partially restore remaining Heat time\nCancel to FC with input uf+1,D\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nduring Heat, partially restore remaining Heat time\nCancel to FC with input uf+1,D\n",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Al-Sayf",
@@ -63,7 +78,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nchip damage on block\n"
+    "note": "\n\nHeat Engager\n\nchip damage on block\n",
+    "alternateInputs": [
+      "SNK 1+2"
+    ]
   },
   {
     "name": "Al-Ghul Master",
@@ -74,7 +92,10 @@
     "block": "",
     "hit": "+63 (+47)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\n"
+    "note": "\n\nBalcony Break\n\nTornado\n",
+    "alternateInputs": [
+      "in heat D*,u+2"
+    ]
   },
   {
     "name": "Rumh al-Dawla",
@@ -85,7 +106,10 @@
     "block": "",
     "hit": "+27 (-8)",
     "counter": "",
-    "note": "\n\nSpike\n\nHeat Smash\nTransition to SNK\n"
+    "note": "\n\nSpike\n\nHeat Smash\nTransition to SNK\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Rumh al-Muzaffar",
@@ -96,7 +120,10 @@
     "block": "",
     "hit": "+24 (-14)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Smash\n"
+    "note": "\n\nBalcony Break\n\nHeat Smash\n",
+    "alternateInputs": [
+      "in heat SNK 2+3"
+    ]
   },
   {
     "name": "",
@@ -107,7 +134,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Spica",
@@ -118,7 +148,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Spica Gut Punch",
@@ -129,7 +162,10 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,2,2"
+    ]
   },
   {
     "name": "Spica Blinding Sands",
@@ -140,7 +176,10 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": "\nTransition to SNK with input DF\n"
+    "note": "\nTransition to SNK with input DF\n",
+    "alternateInputs": [
+      "1,2,3"
+    ]
   },
   {
     "name": "Spica Wheel Spin",
@@ -151,7 +190,10 @@
     "block": "",
     "hit": "+33 (+18)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "1,2,4"
+    ]
   },
   {
     "name": "",
@@ -162,7 +204,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Cut In",
@@ -173,7 +218,10 @@
     "block": "",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Porrima Blinding Sands",
@@ -184,7 +232,10 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": "\nTransition to SNK with input DF\n"
+    "note": "\nTransition to SNK with input DF\n",
+    "alternateInputs": [
+      "2,3"
+    ]
   },
   {
     "name": "Blinding Sands",
@@ -195,7 +246,10 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": "\nTransition to SNK with input DF\n"
+    "note": "\nTransition to SNK with input DF\n",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Hallux Kick",
@@ -206,7 +260,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Hallux Kick > Algenib",
@@ -217,7 +274,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4,1"
+    ]
   },
   {
     "name": "Hallux Kick > High Slashing Kick",
@@ -228,7 +288,10 @@
     "block": "",
     "hit": "+26 (+17)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "4,3"
+    ]
   },
   {
     "name": "Hallux Kick > Ra'd",
@@ -239,7 +302,10 @@
     "block": "",
     "hit": "+20",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4,4"
+    ]
   },
   {
     "name": "",
@@ -250,7 +316,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Silent Sting",
@@ -261,7 +330,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "f+2,3"
+    ]
   },
   {
     "name": "",
@@ -272,7 +344,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to SNK with input DF\n"
+    "note": "\nTransition to SNK with input DF\n",
+    "alternateInputs": [
+      "f+2,4"
+    ]
   },
   {
     "name": "Silent Flow",
@@ -283,7 +358,10 @@
     "block": "",
     "hit": "+10",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f+2,4,4"
+    ]
   },
   {
     "name": "Crescent Moon",
@@ -294,7 +372,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Piercing Talon",
@@ -305,7 +386,10 @@
     "block": "",
     "hit": "+25",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\nchip damage on block\n"
+    "note": "\n\nBalcony Break\n\nHoming\nchip damage on block\n",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Skyline",
@@ -316,7 +400,10 @@
     "block": "",
     "hit": "+11c",
     "counter": "",
-    "note": "\nchip damage on block\nTransition to SNK\n"
+    "note": "\nchip damage on block\nTransition to SNK\n",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "",
@@ -327,7 +414,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Rising Falcon",
@@ -338,7 +428,10 @@
     "block": "",
     "hit": "+34 (+24)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Whirlwind Kick",
@@ -349,7 +442,10 @@
     "block": "",
     "hit": "+9",
     "counter": "",
-    "note": "\n\nHoming\n"
+    "note": "\n\nHoming\n",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "",
@@ -360,7 +456,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "",
@@ -371,7 +470,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to SNK with DF\n"
+    "note": "\nTransition to SNK with DF\n",
+    "alternateInputs": [
+      "df+4,1"
+    ]
   },
   {
     "name": "Al-Faras",
@@ -382,7 +484,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "df+4,1,3"
+    ]
   },
   {
     "name": "Al-Fard al-Shuja",
@@ -393,7 +498,10 @@
     "block": "",
     "hit": "+23 (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "df+4,3"
+    ]
   },
   {
     "name": "Stealth Step",
@@ -404,7 +512,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to FC with SNK.db\n"
+    "note": "\nTransition to FC with SNK.db\n",
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "Gut Impact",
@@ -415,7 +526,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Silent Rigel",
@@ -426,7 +540,10 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "\nTransition to SNK with input d+3,DF\n"
+    "note": "\nTransition to SNK with input d+3,DF\n",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Vicious Stomp",
@@ -437,7 +554,10 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "",
@@ -448,7 +568,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to SNK with input db+2,DF\n"
+    "note": "\nTransition to SNK with input db+2,DF\n",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Rapid Strikes",
@@ -459,7 +582,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "db+2,1"
+    ]
   },
   {
     "name": "Snake's Bite",
@@ -470,7 +596,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Snake's Bite > Rising Scimitar",
@@ -481,7 +610,10 @@
     "block": "",
     "hit": "+68 (+52)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "db+3,4"
+    ]
   },
   {
     "name": "Rising Scimitar",
@@ -492,7 +624,10 @@
     "block": "",
     "hit": "+28 (+18)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Shaula",
@@ -503,7 +638,10 @@
     "block": "+42 (+11)",
     "hit": "+42 (+11)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Achernar",
@@ -514,7 +652,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCancel into FC with input b+1,D\n"
+    "note": "\n\nHeat Engager\n\nCancel into FC with input b+1,D\n",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Dust Storm",
@@ -525,7 +666,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to hit throw which leaves opponent FUFA\n"
+    "note": "\nTransition to hit throw which leaves opponent FUFA\n",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Heel Strike",
@@ -536,7 +680,10 @@
     "block": "",
     "hit": "+3c",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Broken Mirage",
@@ -547,7 +694,10 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Elnath",
@@ -558,7 +708,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\n"
+    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Vega",
@@ -569,7 +722,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nduring Heat, partially restore remaining Heat time\nCancel to FC with input uf+1,D\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\nduring Heat, partially restore remaining Heat time\nCancel to FC with input uf+1,D\n",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Crescent Cleaver",
@@ -580,7 +736,10 @@
     "block": "",
     "hit": "+24",
     "counter": "",
-    "note": "\nAlternate input: ub+3 or u+3\n"
+    "note": "\nAlternate input: ub+3 or u+3\n",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Altair",
@@ -591,7 +750,10 @@
     "block": "",
     "hit": "+33 (+23)",
     "counter": "",
-    "note": "\nAlternate input: ub+4 or u+4\n"
+    "note": "\nAlternate input: ub+4 or u+4\n",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -602,7 +764,10 @@
     "block": "",
     "hit": "+32 (+22)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf,n,4"
+    ]
   },
   {
     "name": "Hunting Falcon Dive",
@@ -613,7 +778,10 @@
     "block": "",
     "hit": "+63 (+48)",
     "counter": "",
-    "note": "\nAlternate input: f,f,F+3\nHit throw which side switches\n\nTornado\n"
+    "note": "\nAlternate input: f,f,F+3\nHit throw which side switches\n\nTornado\n",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Hornet",
@@ -624,7 +792,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHit throw which leaves opponent FUFA\nQuick input properties during Heat\n\nTornado\n"
+    "note": "\nHit throw which leaves opponent FUFA\nQuick input properties during Heat\n\nTornado\n",
+    "alternateInputs": [
+      "f,b+2"
+    ]
   },
   {
     "name": "Hornet",
@@ -635,7 +806,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHit throw which leaves opponent FUFA\nchip damage on block\npartially restores remaining Heat time\n\nTornado\n"
+    "note": "\nHit throw which leaves opponent FUFA\nchip damage on block\npartially restores remaining Heat time\n\nTornado\n",
+    "alternateInputs": [
+      "f:b+2"
+    ]
   },
   {
     "name": "Antares",
@@ -646,7 +820,10 @@
     "block": "",
     "hit": "+21 (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\nduring Heat, partially restores remaining Heat time\n"
+    "note": "\n\nBalcony Break\nchip damage on block\nduring Heat, partially restores remaining Heat time\n",
+    "alternateInputs": [
+      "f,f,F+2"
+    ]
   },
   {
     "name": "Al-Ghul",
@@ -657,7 +834,10 @@
     "block": "",
     "hit": "+28 (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\nAlternate input: SNK.D*,u+2\nchip damage on block\npower up during Heat\n"
+    "note": "\n\nBalcony Break\n\nTornado\nAlternate input: SNK.D*,u+2\nchip damage on block\npower up during Heat\n",
+    "alternateInputs": [
+      "D*,u+2"
+    ]
   },
   {
     "name": "Janbiya",
@@ -668,7 +848,10 @@
     "block": "",
     "hit": "+17 (+8)",
     "counter": "",
-    "note": "\n\nBalcony Break\nDuring Heat, partially restore remaining Heat time\n"
+    "note": "\n\nBalcony Break\nDuring Heat, partially restore remaining Heat time\n",
+    "alternateInputs": [
+      "FC df+2"
+    ]
   },
   {
     "name": "",
@@ -679,7 +862,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to SNK with input FC.df+4,DF\n"
+    "note": "\nTransition to SNK with input FC.df+4,DF\n",
+    "alternateInputs": [
+      "FC df+4"
+    ]
   },
   {
     "name": "Serpens",
@@ -690,7 +876,10 @@
     "block": "",
     "hit": "+24 (+15)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "FC df+4,1"
+    ]
   },
   {
     "name": "Slide Step",
@@ -701,7 +890,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC df,d,DF"
+    ]
   },
   {
     "name": "Sand Storm",
@@ -712,7 +904,10 @@
     "block": "",
     "hit": "+7",
     "counter": "",
-    "note": "\nTransition to SNK on hit\n"
+    "note": "\nTransition to SNK on hit\n",
+    "alternateInputs": [
+      "FC df,d,DF+3"
+    ]
   },
   {
     "name": "Albireo",
@@ -723,7 +918,10 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Hawk Edge",
@@ -734,7 +932,10 @@
     "block": "",
     "hit": "+57",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "",
@@ -745,7 +946,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to SNK with input ws3,DF\n"
+    "note": "\nTransition to SNK with input ws3,DF\n",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Double Scorpion",
@@ -756,7 +960,10 @@
     "block": "",
     "hit": "+11 (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\n"
+    "note": "\n\nBalcony Break\n\nTornado\n",
+    "alternateInputs": [
+      "ws3,3"
+    ]
   },
   {
     "name": "Jaw Smash",
@@ -767,7 +974,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Stealth Step",
@@ -778,7 +988,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to FC with SNK.db\n"
+    "note": "\nTransition to FC with SNK.db\n",
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "Blinding Snake",
@@ -789,7 +1002,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SNK 1"
+    ]
   },
   {
     "name": "Crimson Tempest",
@@ -800,7 +1016,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SNK 2"
+    ]
   },
   {
     "name": "Hunting Falcon Dive",
@@ -811,7 +1030,10 @@
     "block": "",
     "hit": "+63 (+48)",
     "counter": "",
-    "note": "\n\nTornado\nHit throw which side switches\n"
+    "note": "\n\nTornado\nHit throw which side switches\n",
+    "alternateInputs": [
+      "SNK 3"
+    ]
   },
   {
     "name": "Sliding Shave",
@@ -822,7 +1044,10 @@
     "block": "",
     "hit": "+3c",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SNK 4"
+    ]
   },
   {
     "name": "Al-Sayf",
@@ -833,7 +1058,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nchip damage on block\n"
+    "note": "\n\nHeat Engager\n\nchip damage on block\n",
+    "alternateInputs": [
+      "SNK 1+2"
+    ]
   },
   {
     "name": "",
@@ -844,7 +1072,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SNK df+1"
+    ]
   },
   {
     "name": "Flash Hornet",
@@ -855,7 +1086,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nTornado\nHit throw which leaves opponent in FUFA\n"
+    "note": "\n\nTornado\nHit throw which leaves opponent in FUFA\n",
+    "alternateInputs": [
+      "SNK df+1,2"
+    ]
   },
   {
     "name": "Flash Deneb",
@@ -866,7 +1100,10 @@
     "block": "",
     "hit": "+19 (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "SNK df+1,4"
+    ]
   },
   {
     "name": "Najm Alshamal",
@@ -877,7 +1114,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTemplate:RageArt\nerases opponent's recoverable health on hit\n"
+    "note": "\nTemplate:RageArt\nerases opponent's recoverable health on hit\n",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -888,7 +1128,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Nisf Kamar",
@@ -899,7 +1142,10 @@
     "block": "",
     "hit": "+0c",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS 2"
+    ]
   },
   {
     "name": "Reverse Edge",
@@ -910,7 +1156,10 @@
     "block": "",
     "hit": "+42",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT 2"
+    ]
   },
   {
     "name": "Desert Fang",
@@ -921,7 +1170,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow escape: 1 or 2\nOpponent status on hit: FUFA\n"
+    "note": "\nThrow escape: 1 or 2\nOpponent status on hit: FUFA\n",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Aldebaran",
@@ -932,7 +1184,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nSpike\nThrow escape: 1 or 2\nOpponent status on hit: FUFA\nSide switch on hit\n"
+    "note": "\n\nSpike\nThrow escape: 1 or 2\nOpponent status on hit: FUFA\nSide switch on hit\n",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Chasm Drop",
@@ -943,7 +1198,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow escape: 1\nOpponent status on hit: FUFT\nSide switch on hit\n"
+    "note": "\nThrow escape: 1\nOpponent status on hit: FUFT\nSide switch on hit\n",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Axel Spinner",
@@ -954,7 +1212,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow escape: 2\nOpponent status on hit: FUFA\n"
+    "note": "\nThrow escape: 2\nOpponent status on hit: FUFA\n",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Silent Death",
@@ -965,7 +1226,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow escape: none\nOpponent status on hit: FUFA\nSide switch on hit\n"
+    "note": "\nThrow escape: none\nOpponent status on hit: FUFA\nSide switch on hit\n",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Wezen",
@@ -976,7 +1240,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nSpike\nThrow escape: 1+2\nOpponent status on hit: FUFA\nSide switch on hit\n"
+    "note": "\n\nSpike\nThrow escape: 1+2\nOpponent status on hit: FUFA\nSide switch on hit\n",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Silent Death Trap",
@@ -987,6 +1254,9 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps\nAlternate input: b+2+4\nPunch parry\nHit throw on successful parry\nSide switch on parry\n"
+    "note": "\nps\nAlternate input: b+2+4\nPunch parry\nHit throw on successful parry\nSide switch on parry\n",
+    "alternateInputs": [
+      "b+1+3"
+    ]
   }
 ]

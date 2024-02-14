@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2",
     "counter": "",
-    "note": "\n\nHeat Burst\n"
+    "note": "\n\nHeat Burst\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Stella Cadente",
@@ -19,7 +22,10 @@
     "block": "-14",
     "hit": "th",
     "counter": "",
-    "note": "\n\nHeat Smash\n"
+    "note": "\n\nHeat Smash\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Jab",
@@ -30,7 +36,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Scattered Ashes",
@@ -41,7 +50,10 @@
     "block": "-1",
     "hit": "+6",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Absolve",
@@ -52,7 +64,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "1,3"
+    ]
   },
   {
     "name": "Right Jab",
@@ -63,7 +78,10 @@
     "block": "-3",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Circle of Judgement (2)",
@@ -74,7 +92,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Circle of Judgement",
@@ -85,7 +106,10 @@
     "block": "-13",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCombo from 2nd CH\nGrants STB on hit\n"
+    "note": "\n\nHeat Engager\n\nCombo from 2nd CH\nGrants STB on hit\n",
+    "alternateInputs": [
+      "2,1,2"
+    ]
   },
   {
     "name": "Circle of Judgement > Heat Dash",
@@ -96,7 +120,10 @@
     "block": "-13",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2,1,2"
+    ]
   },
   {
     "name": "Requiescat (1)",
@@ -107,7 +134,10 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Requiescat",
@@ -118,7 +148,10 @@
     "block": "-6",
     "hit": "+15",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nGrants STB on hit\n"
+    "note": "\n\nHeat Engager\n\nGrants STB on hit\n",
+    "alternateInputs": [
+      "3,2"
+    ]
   },
   {
     "name": "Requiescat > Heat Dash",
@@ -129,7 +162,10 @@
     "block": "+5",
     "hit": "+34",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat 3,2,F"
+    ]
   },
   {
     "name": "High Kick",
@@ -140,7 +176,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "LNC",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Battle Scars",
@@ -151,7 +190,10 @@
     "block": "+0",
     "hit": "+15Sp",
     "counter": "KND",
-    "note": "\njs\n\nHoming\nCombo from 1st hit\nCan be delayed 11F\nCombo can be delayed 5F from hit\n"
+    "note": "\njs\n\nHoming\nCombo from 1st hit\nCan be delayed 11F\nCombo can be delayed 5F from hit\n",
+    "alternateInputs": [
+      "4,3"
+    ]
   },
   {
     "name": "Crimson Delta Edge (1)",
@@ -162,7 +204,10 @@
     "block": "-14",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Crimson Delta Edge (2)",
@@ -173,7 +218,10 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "Only comes out on hit"
+    "note": "Only comes out on hit",
+    "alternateInputs": [
+      "1+2,1+2"
+    ]
   },
   {
     "name": "Crimson Delta Edge to Starburst",
@@ -184,7 +232,10 @@
     "block": "",
     "hit": "th",
     "counter": "th",
-    "note": "\nGrants STB on hit\nOnly comes out on hit\nDeals 20 damage with the input b,f+2\nFoot-side & Face-up & -5F from Not Starburst\nHead-side & Face-up & +0F during Starburst\n"
+    "note": "\nGrants STB on hit\nOnly comes out on hit\nDeals 20 damage with the input b,f+2\nFoot-side & Face-up & -5F from Not Starburst\nHead-side & Face-up & +0F during Starburst\n",
+    "alternateInputs": [
+      "1+2,1+2,2"
+    ]
   },
   {
     "name": "Rolling Strike",
@@ -195,7 +246,10 @@
     "block": "-10",
     "hit": "KND",
     "counter": "KND",
-    "note": "\njs13~"
+    "note": "\njs13~",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "Trinity of Pain (1)",
@@ -206,7 +260,10 @@
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Trinity of Pain (2)",
@@ -217,7 +274,10 @@
     "block": "-10",
     "hit": "+6c",
     "counter": "",
-    "note": "\nCombo from 1st hit\n"
+    "note": "\nCombo from 1st hit\n",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "Trinity of Pain",
@@ -228,7 +288,10 @@
     "block": "-18",
     "hit": "KND",
     "counter": "KND",
-    "note": "\nCan be delayed 14F\nCombo from 1st or 2nd CH\n"
+    "note": "\nCan be delayed 14F\nCombo from 1st or 2nd CH\n",
+    "alternateInputs": [
+      "f+2,1,1+2"
+    ]
   },
   {
     "name": "Deadly Sin",
@@ -239,7 +302,10 @@
     "block": "-27",
     "hit": "KND",
     "counter": "KND",
-    "note": "\nGrants STB on hit\nCombo from 1st hit\n"
+    "note": "\nGrants STB on hit\nCombo from 1st hit\n",
+    "alternateInputs": [
+      "f+2,2"
+    ]
   },
   {
     "name": "Sacred Edge",
@@ -250,7 +316,10 @@
     "block": "+0",
     "hit": "+15Sp",
     "counter": "KND",
-    "note": "\njs9~\n\nHoming\n"
+    "note": "\njs9~\n\nHoming\n",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Into the Abyss",
@@ -261,7 +330,10 @@
     "block": "+4c",
     "hit": "",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Cross Arm Strike",
@@ -272,7 +344,10 @@
     "block": "-18",
     "hit": "-7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Cross Arm Impact",
@@ -283,7 +358,10 @@
     "block": "-14",
     "hit": "KND",
     "counter": "KND",
-    "note": "\nCombo from 1st hit\nCan be delayed\n"
+    "note": "\nCombo from 1st hit\nCan be delayed\n",
+    "alternateInputs": [
+      "f+1+2,1+2"
+    ]
   },
   {
     "name": "Above the Storm",
@@ -294,7 +372,10 @@
     "block": "+2",
     "hit": "KND",
     "counter": "KND",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Quick Upper",
@@ -305,7 +386,10 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Sky's Arc",
@@ -316,7 +400,10 @@
     "block": "-15",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "\nCombo from 1st hit\n"
+    "note": "\nCombo from 1st hit\n",
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Chaos Fist",
@@ -327,7 +414,10 @@
     "block": "-13",
     "hit": "+5",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Dispel Magic (1)",
@@ -338,7 +428,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Dispel Magic",
@@ -349,7 +442,10 @@
     "block": "-12",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n\nTornado\nCombo from 1st hit\nCan be delayed 14F\n"
+    "note": "\n\nTornado\nCombo from 1st hit\nCan be delayed 14F\n",
+    "alternateInputs": [
+      "df+3,1"
+    ]
   },
   {
     "name": "Dispel Force",
@@ -360,7 +456,10 @@
     "block": "-2",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 1st hit\nCan be delayed 14F\n"
+    "note": "\nCombo from 1st hit\nCan be delayed 14F\n",
+    "alternateInputs": [
+      "df+3,2"
+    ]
   },
   {
     "name": "Front Kick",
@@ -371,7 +470,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "Axion",
@@ -382,7 +484,10 @@
     "block": "-8",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Mystic Ray",
@@ -393,7 +498,10 @@
     "block": "-9",
     "hit": "+31",
     "counter": "",
-    "note": "Tornado"
+    "note": "Tornado",
+    "alternateInputs": [
+      "d+1,2"
+    ]
   },
   {
     "name": "Gravity Point",
@@ -404,7 +512,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\ncs6~\n"
+    "note": "\ncs6~\n",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Gravity Hole",
@@ -415,7 +526,10 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+2,2"
+    ]
   },
   {
     "name": "Crouch Side Kick",
@@ -426,7 +540,10 @@
     "block": "-17",
     "hit": "-3",
     "counter": "",
-    "note": "\ncs4~"
+    "note": "\ncs4~",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Crouch Chin Kick",
@@ -437,7 +554,10 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": "\ncs4~"
+    "note": "\ncs4~",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Superbia",
@@ -448,7 +568,10 @@
     "block": "-18",
     "hit": "KND",
     "counter": "KND",
-    "note": "Same move as BT.1+2"
+    "note": "Same move as BT.1+2",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Crouch Jab",
@@ -459,7 +582,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs4~\nReturns to standing when input F\n"
+    "note": "\ncs4~\nReturns to standing when input F\n",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Crouch Straight",
@@ -470,7 +596,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\ncs4~"
+    "note": "\ncs4~",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Twin Claws",
@@ -481,7 +610,10 @@
     "block": "-13",
     "hit": "+3",
     "counter": "",
-    "note": "\ncs\nCombo from 1st CH\nSame move as FC.2,1\n"
+    "note": "\ncs\nCombo from 1st CH\nSame move as FC.2,1\n",
+    "alternateInputs": [
+      "db+2,1"
+    ]
   },
   {
     "name": "Acedia",
@@ -492,7 +624,10 @@
     "block": "-15",
     "hit": "+3c",
     "counter": "KND",
-    "note": "\ncs6~\n"
+    "note": "\ncs6~\n",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Lagrange Needle (1)",
@@ -503,7 +638,10 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Lagrange Needle",
@@ -514,7 +652,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "db+4,3"
+    ]
   },
   {
     "name": "Blue Moon",
@@ -525,7 +666,10 @@
     "block": "",
     "hit": "KND",
     "counter": "",
-    "note": "Tornado"
+    "note": "Tornado",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Vanishing Storm",
@@ -536,7 +680,10 @@
     "block": "-5",
     "hit": "KND",
     "counter": "KND",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Spinning Skies",
@@ -547,7 +694,10 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Burning Core",
@@ -558,7 +708,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Crescent Heel",
@@ -569,7 +722,10 @@
     "block": "-12",
     "hit": "+7c",
     "counter": "LNC",
-    "note": "\nCombo from 1st CH\nCan be delayed\n"
+    "note": "\nCombo from 1st CH\nCan be delayed\n",
+    "alternateInputs": [
+      "b+3,3"
+    ]
   },
   {
     "name": "Shining Ray (1)",
@@ -580,7 +736,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Shining Wind",
@@ -591,7 +750,10 @@
     "block": "-11",
     "hit": "+13Sp",
     "counter": "KND",
-    "note": "\n\nTornado\nGrants STB on hit\nCombo from 1st hit\nCan be delayed 12F\nCombo can be delayed 10F from CH\nChip damage when guarded\n"
+    "note": "\n\nTornado\nGrants STB on hit\nCombo from 1st hit\nCan be delayed 12F\nCombo can be delayed 10F from CH\nChip damage when guarded\n",
+    "alternateInputs": [
+      "b+4,1"
+    ]
   },
   {
     "name": "Shining Ray",
@@ -602,7 +764,10 @@
     "block": "-11",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n\nHeat Engager\n\nGrants STB on hit\nCombo from 1st hit\n"
+    "note": "\n\nHeat Engager\n\nGrants STB on hit\nCombo from 1st hit\n",
+    "alternateInputs": [
+      "b+4,2"
+    ]
   },
   {
     "name": "Shining Ray > Heat Dash",
@@ -613,7 +778,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat b+4,2,F"
+    ]
   },
   {
     "name": "Axial Ray",
@@ -624,7 +792,10 @@
     "block": "-12",
     "hit": "-4",
     "counter": "+1",
-    "note": "\n\nHoming\nCombo from 1st hit\nCan be delayed 12F\n"
+    "note": "\n\nHoming\nCombo from 1st hit\nCan be delayed 12F\n",
+    "alternateInputs": [
+      "b+4,3"
+    ]
   },
   {
     "name": "Avaritia",
@@ -635,7 +806,10 @@
     "block": "-13",
     "hit": "KND",
     "counter": "KND",
-    "note": "\njsCombo from 2nd CH"
+    "note": "\njsCombo from 2nd CH",
+    "alternateInputs": [
+      "b+4,3,2"
+    ]
   },
   {
     "name": "Lunar Ray",
@@ -646,7 +820,10 @@
     "block": "",
     "hit": "LNC",
     "counter": "",
-    "note": "Tornado"
+    "note": "Tornado",
+    "alternateInputs": [
+      "b+4,4"
+    ]
   },
   {
     "name": "Judgment Claw",
@@ -657,7 +834,10 @@
     "block": "-13",
     "hit": "KND",
     "counter": "KND",
-    "note": "\npc8~\nabsorb an attack to power up\n- Add chip damage when guarded\n"
+    "note": "\npc8~\nabsorb an attack to power up\n- Add chip damage when guarded\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Eternal Moon",
@@ -668,7 +848,10 @@
     "block": "-14",
     "hit": "KND",
     "counter": "KND",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Big Bang",
@@ -679,7 +862,10 @@
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2+3"
+    ]
   },
   {
     "name": "Meteor Storm",
@@ -690,7 +876,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs\n\nHeat Engager\n\nGrants STB on hit\nAlternate input: ub+2/uf+2\n"
+    "note": "\njs\n\nHeat Engager\n\nGrants STB on hit\nAlternate input: ub+2/uf+2\n",
+    "alternateInputs": [
+      "u+2"
+    ]
   },
   {
     "name": "Ground Slash Nova",
@@ -701,7 +890,10 @@
     "block": "+2c",
     "hit": "+7c",
     "counter": "LNC",
-    "note": "\njs9~Alternate input: ub+3, uf+3"
+    "note": "\njs9~Alternate input: ub+3, uf+3",
+    "alternateInputs": [
+      "u+3"
+    ]
   },
   {
     "name": "Sky Slash Nova",
@@ -712,7 +904,10 @@
     "block": "-13",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "\njs9~Alternate input: ub+4, u+4"
+    "note": "\njs9~Alternate input: ub+4, u+4",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Pollux",
@@ -723,7 +918,10 @@
     "block": "-11",
     "hit": "KND",
     "counter": "KND",
-    "note": "\njsJS after Start-up frame"
+    "note": "\njsJS after Start-up frame",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "Dual Guns (1)",
@@ -734,7 +932,10 @@
     "block": "-18",
     "hit": "-7",
     "counter": "",
-    "note": "\nSame move as FC.df+2\nCannot be buffered\n"
+    "note": "\nSame move as FC.df+2\nCannot be buffered\n",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Dual Guns",
@@ -745,7 +946,10 @@
     "block": "-2c",
     "hit": "",
     "counter": "KND",
-    "note": "\nCombo from 1st hit\nCan be delayed\nSame move as FC.df+2,2\n"
+    "note": "\nCombo from 1st hit\nCan be delayed\nSame move as FC.df+2,2\n",
+    "alternateInputs": [
+      "f,F+2,2"
+    ]
   },
   {
     "name": "Bringer of Justice",
@@ -756,7 +960,10 @@
     "block": "-13",
     "hit": "KND",
     "counter": "KND",
-    "note": "\nGrants STB on hit\nCan be delayed\nCombo from 1st NH\n"
+    "note": "\nGrants STB on hit\nCan be delayed\nCombo from 1st NH\n",
+    "alternateInputs": [
+      "f,F+2,1+2"
+    ]
   },
   {
     "name": "Invidia",
@@ -767,7 +974,10 @@
     "block": "-1",
     "hit": "+5",
     "counter": "+13",
-    "note": "\njs11~"
+    "note": "\njs11~",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "Ira",
@@ -778,7 +988,10 @@
     "block": "+7",
     "hit": "KND",
     "counter": "KND",
-    "note": "\njs3~\n\nHeat Engager\n\nGrants STB on hit\n\nWall Crush +21g at the wall\n\nChip damage when guarded\n"
+    "note": "\njs3~\n\nHeat Engager\n\nGrants STB on hit\n\nWall Crush +21g at the wall\n\nChip damage when guarded\n",
+    "alternateInputs": [
+      "f,f,F+2"
+    ]
   },
   {
     "name": "Ira > Heat Dash",
@@ -789,7 +1002,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs\nGrants STB on hit\n"
+    "note": "\njs\nGrants STB on hit\n",
+    "alternateInputs": [
+      "in heat f,f,F+2,F"
+    ]
   },
   {
     "name": "Dual Guns (1)",
@@ -800,7 +1016,10 @@
     "block": "-18",
     "hit": "-7",
     "counter": "",
-    "note": "\nSame move as f,F+2\n"
+    "note": "\nSame move as f,F+2\n",
+    "alternateInputs": [
+      "FC df+2"
+    ]
   },
   {
     "name": "Dual Guns",
@@ -811,7 +1030,10 @@
     "block": "-2c",
     "hit": "",
     "counter": "KND",
-    "note": "\nCombo from 1st hit\nCan be delayed\nSame move as f,F+2,2"
+    "note": "\nCombo from 1st hit\nCan be delayed\nSame move as f,F+2,2",
+    "alternateInputs": [
+      "FC df+2,2"
+    ]
   },
   {
     "name": "Noble Step (1)",
@@ -822,7 +1044,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Noble Step",
@@ -833,7 +1058,10 @@
     "block": "-12",
     "hit": "+9",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "ws1,1"
+    ]
   },
   {
     "name": "Malefic Draw",
@@ -844,7 +1072,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Tornado"
+    "note": "Tornado",
+    "alternateInputs": [
+      "ws1,2"
+    ]
   },
   {
     "name": "Sylvia",
@@ -855,7 +1086,10 @@
     "block": "-14",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "Grants STB on hit"
+    "note": "Grants STB on hit",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "Piercing Wind",
@@ -866,7 +1100,10 @@
     "block": "-8",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Holy Smash",
@@ -877,7 +1114,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Aurora Pactum",
@@ -888,7 +1128,10 @@
     "block": "-17",
     "hit": "+27(+1)",
     "counter": "",
-    "note": "\n\nTornado\nChip damage when guarded\n"
+    "note": "\n\nTornado\nChip damage when guarded\n",
+    "alternateInputs": [
+      "STB 4,2"
+    ]
   },
   {
     "name": "Cross Arm Impact Burst",
@@ -899,7 +1142,10 @@
     "block": "-9",
     "hit": "+64",
     "counter": "+64",
-    "note": "\nCombo from 1st hit\nCan be delayed\nChip damage when guarded\n"
+    "note": "\nCombo from 1st hit\nCan be delayed\nChip damage when guarded\n",
+    "alternateInputs": [
+      "STB f+1+2,1+2"
+    ]
   },
   {
     "name": "Mystic Ray Burst",
@@ -910,7 +1156,10 @@
     "block": "+6",
     "hit": "+28(+13)",
     "counter": "",
-    "note": "\n\nTornado\nChip damage when guarded\n"
+    "note": "\n\nTornado\nChip damage when guarded\n",
+    "alternateInputs": [
+      "STB d+1,2"
+    ]
   },
   {
     "name": "Gravity Zone",
@@ -921,7 +1170,10 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": "\ncsCombo from 1st CH"
+    "note": "\ncsCombo from 1st CH",
+    "alternateInputs": [
+      "STB d+2,2"
+    ]
   },
   {
     "name": "Blue Moon Burst",
@@ -932,7 +1184,10 @@
     "block": "-1",
     "hit": "Launch",
     "counter": "",
-    "note": "\n\nTornado\nChip damage when guarded\n"
+    "note": "\n\nTornado\nChip damage when guarded\n",
+    "alternateInputs": [
+      "STB db+1+2"
+    ]
   },
   {
     "name": "Avaritia Burst",
@@ -943,7 +1198,10 @@
     "block": "-1",
     "hit": "LNC",
     "counter": "LNC",
-    "note": "\njs\nCombo from 2nd CH\nChip damage when guarded\n"
+    "note": "\njs\nCombo from 2nd CH\nChip damage when guarded\n",
+    "alternateInputs": [
+      "STB b+4,3,2"
+    ]
   },
   {
     "name": "Anima",
@@ -954,7 +1212,10 @@
     "block": "+8",
     "hit": "KND",
     "counter": "",
-    "note": "\njs\nChip damage when guarded\n"
+    "note": "\njs\nChip damage when guarded\n",
+    "alternateInputs": [
+      "STB f,f,F+1+2"
+    ]
   },
   {
     "name": "Malefic Draw Burst",
@@ -965,7 +1226,10 @@
     "block": "+6",
     "hit": "KND",
     "counter": "",
-    "note": "\n\nTornado\nChip damage when guarded\n"
+    "note": "\n\nTornado\nChip damage when guarded\n",
+    "alternateInputs": [
+      "STB ws1,2"
+    ]
   },
   {
     "name": "La Luce Di Sirio",
@@ -976,7 +1240,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nRage Art\n"
+    "note": "\nRage Art\n",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Luxuria",
@@ -987,7 +1254,10 @@
     "block": "-12",
     "hit": "+6c",
     "counter": "KND",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "SS 4"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -998,7 +1268,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Wall Jumping Attack",
@@ -1009,7 +1282,10 @@
     "block": "+0c",
     "hit": "KND",
     "counter": "KND",
-    "note": "\nis8~13\nAir Status 5F\n"
+    "note": "\nis8~13\nAir Status 5F\n",
+    "alternateInputs": [
+      "(back to wall) b,b,ub"
+    ]
   },
   {
     "name": "Punishment",
@@ -1020,7 +1296,10 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\nBreak: 1 or 2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Foot-sd. Face-up"
+    "note": "\nBreak: 1 or 2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Foot-sd. Face-up",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Roche Limit",
@@ -1031,7 +1310,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nBreak: 1 or 2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Reverse Pos. Head-sd. Face-up"
+    "note": "\nBreak: 1 or 2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Reverse Pos. Head-sd. Face-up",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Avalaunche Throw",
@@ -1042,7 +1324,10 @@
     "block": "-3",
     "hit": "-3d",
     "counter": "",
-    "note": "\nBreak: 1\nOpp. Position on break:\nOpp. Position on hit: Right-sd. Face-up"
+    "note": "\nBreak: 1\nOpp. Position on break:\nOpp. Position on hit: Right-sd. Face-up",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Prayer into the Void",
@@ -1053,7 +1338,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nBreak: 2\nOpp. Position on break:\nOpp. Position on hit: Foot-sd. Face-up"
+    "note": "\nBreak: 2\nOpp. Position on break:\nOpp. Position on hit: Foot-sd. Face-up",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Sudden Shadow",
@@ -1064,7 +1352,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nBreak: none\nOpp. Position on break: -\nOpp. Position on hit: Foot-sd. Face-down"
+    "note": "\nBreak: none\nOpp. Position on break: -\nOpp. Position on hit: Foot-sd. Face-down",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Gula",
@@ -1075,6 +1366,9 @@
     "block": "-6",
     "hit": "",
     "counter": "",
-    "note": "\nBreak: 1+2\nOpp. Position on break:\nOpp. Position on hit: Reverse Pos. Head-sd. Face-up"
+    "note": "\nBreak: 1+2\nOpp. Position on break:\nOpp. Position on hit: Reverse Pos. Head-sd. Face-up",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   }
 ]

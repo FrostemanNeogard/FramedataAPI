@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\nPower Crush\n"
+    "note": "\nPower Crush\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Elbow Impact",
@@ -19,7 +22,10 @@
     "block": "+1",
     "hit": "+17g/+16d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nBalcony Break\nCombo from 1st hit.\n+16F on hit during heat or after heat.\n"
+    "note": "\n\nHeat Engager\n\nBalcony Break\nCombo from 1st hit.\n+16F on hit during heat or after heat.\n",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "Shoulder Tackle",
@@ -30,7 +36,10 @@
     "block": "-9",
     "hit": "+17g/+9d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nBalcony Break\n+8/9F on hit during heat or after heat.\n"
+    "note": "\n\nHeat Engager\n\nBalcony Break\n+8/9F on hit during heat or after heat.\n",
+    "alternateInputs": [
+      "f+2+3"
+    ]
   },
   {
     "name": "Muscle Armor > Emerald Elbow",
@@ -41,7 +50,10 @@
     "block": "-9",
     "hit": "+35g/+8g",
     "counter": "",
-    "note": "\nPower Crush\n\nHeat Engager\n\nOnly 1st input has armor, 2nd input is delayable.\n+8F on hit during heat or after heat.\nUnable to cancel into heat dash.\n"
+    "note": "\nPower Crush\n\nHeat Engager\n\nOnly 1st input has armor, 2nd input is delayable.\n+8F on hit during heat or after heat.\nUnable to cancel into heat dash.\n",
+    "alternateInputs": [
+      "db+1+2,2"
+    ]
   },
   {
     "name": "Rapid King Onslaught",
@@ -52,7 +64,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nNamely RKO, cannot throw break.\nRestores some Heat Gauge in Heat.\nUnable to cancel into heat dash.\n"
+    "note": "\n\nHeat Engager\n\nNamely RKO, cannot throw break.\nRestores some Heat Gauge in Heat.\nUnable to cancel into heat dash.\n",
+    "alternateInputs": [
+      "JGin rage 1+3/JGin rage 2+4"
+    ]
   },
   {
     "name": "Freedom Face Buster",
@@ -63,7 +78,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nRestores some Heat Gauge in Heat.\nUnable to cancel into heat dash.\n"
+    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nRestores some Heat Gauge in Heat.\nUnable to cancel into heat dash.\n",
+    "alternateInputs": [
+      "d+1+4"
+    ]
   },
   {
     "name": "Ultimo Jaguar",
@@ -74,7 +92,10 @@
     "block": "+12",
     "hit": "+0d",
     "counter": "",
-    "note": "\nShifts to JGR on block.\n"
+    "note": "\nShifts to JGR on block.\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "",
@@ -85,7 +106,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Palm Strike",
@@ -96,7 +120,10 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nCombo from 1st hit.\n"
+    "note": "\nCombo from 1st hit.\n",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Palm Strike > Head Jammer",
@@ -107,7 +134,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 2.\n"
+    "note": "\nThrow break 2.\n",
+    "alternateInputs": [
+      "1,2,2+4"
+    ]
   },
   {
     "name": "Palm Strike > V Driver",
@@ -118,7 +148,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nCrouch throw.\n"
+    "note": "\nCannot throw break.\nCrouch throw.\n",
+    "alternateInputs": [
+      "1,2,d+2+4"
+    ]
   },
   {
     "name": "Palm Strike Uppercut",
@@ -129,7 +162,10 @@
     "block": "-4",
     "hit": "+5",
     "counter": "",
-    "note": "\nThe 3rd hit doesn't combo even on CH.\n"
+    "note": "\nThe 3rd hit doesn't combo even on CH.\n",
+    "alternateInputs": [
+      "1,2,1"
+    ]
   },
   {
     "name": "Palm Strike Uppercut > Suplex",
@@ -140,7 +176,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2.\n"
+    "note": "\nThrow break 2.\n",
+    "alternateInputs": [
+      "1,2,1,2+4"
+    ]
   },
   {
     "name": "Palm Strike Uppercut > V Driver",
@@ -151,7 +190,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nCrouch throw.\n"
+    "note": "\nCannot throw break.\nCrouch throw.\n",
+    "alternateInputs": [
+      "1,2,1,d+2+4"
+    ]
   },
   {
     "name": "Right Jab",
@@ -162,7 +204,10 @@
     "block": "+1",
     "hit": "+7",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Right Jab > Uppercut",
@@ -173,7 +218,10 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nCombo from 1st hit.\n"
+    "note": "\nCombo from 1st hit.\n",
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "",
@@ -184,7 +232,10 @@
     "block": "-14",
     "hit": "+17a",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -195,7 +246,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "",
@@ -206,7 +260,10 @@
     "block": "-11",
     "hit": "-2",
     "counter": "",
-    "note": "\nShifts into backturn stance.\n"
+    "note": "\nShifts into backturn stance.\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Head Spinner",
@@ -217,7 +274,10 @@
     "block": "-13/-18",
     "hit": "+12a/-9",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit.\nHold back during 2nd hit to feint.\n"
+    "note": "\n\nBalcony Break\nCombo from 1st hit.\nHold back during 2nd hit to feint.\n",
+    "alternateInputs": [
+      "1+2,1"
+    ]
   },
   {
     "name": "Brutal Sting",
@@ -228,7 +288,10 @@
     "block": "-3",
     "hit": "+12a",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit.\n"
+    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit.\n",
+    "alternateInputs": [
+      "1+2,3"
+    ]
   },
   {
     "name": "",
@@ -239,7 +302,10 @@
     "block": "-11",
     "hit": "+2",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Elbow Impact",
@@ -250,7 +316,10 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "\nHeat Engager\n\nBalcony Break\n"
+    "note": "\nHeat Engager\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "Jaguar Smash Combo",
@@ -261,7 +330,10 @@
     "block": "-13c",
     "hit": "-2c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+2,d+1"
+    ]
   },
   {
     "name": "Jaguar Smash Combo",
@@ -272,7 +344,10 @@
     "block": "-15",
     "hit": "+27a",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+2,d+1,2"
+    ]
   },
   {
     "name": "Front Kick",
@@ -283,7 +358,10 @@
     "block": "-8",
     "hit": "+1",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Front Kick > DDT",
@@ -294,7 +372,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+3,1+2"
+    ]
   },
   {
     "name": "Rolling Sobat",
@@ -305,7 +386,10 @@
     "block": "-9",
     "hit": "+12",
     "counter": "",
-    "note": "\nBalcony Break\nHoming\n"
+    "note": "\nBalcony Break\nHoming\n",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Shadow Lariat",
@@ -316,7 +400,10 @@
     "block": "+0",
     "hit": "+10",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Body Check",
@@ -327,7 +414,10 @@
     "block": "+3",
     "hit": "+7",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+1+4"
+    ]
   },
   {
     "name": "Shoulder Tackle",
@@ -338,7 +428,10 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n"
+    "note": "\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "f+2+3"
+    ]
   },
   {
     "name": "",
@@ -349,7 +442,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Elbow Sting",
@@ -360,7 +456,10 @@
     "block": "-10",
     "hit": "+5",
     "counter": "",
-    "note": "\nCombos from 1st hit if not fully delayed.\n"
+    "note": "\nCombos from 1st hit if not fully delayed.\n",
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "",
@@ -371,7 +470,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Double Hook Disaster",
@@ -382,7 +484,10 @@
     "block": "-4",
     "hit": "+24d",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+2,1"
+    ]
   },
   {
     "name": "",
@@ -393,7 +498,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Lasso Kick",
@@ -404,7 +512,10 @@
     "block": "+0",
     "hit": "+28d",
     "counter": "",
-    "note": "\nRecovers in FDFT on hit or block.\nCombos on CH.\n"
+    "note": "\nRecovers in FDFT on hit or block.\nCombos on CH.\n",
+    "alternateInputs": [
+      "df+3,4"
+    ]
   },
   {
     "name": "",
@@ -415,7 +526,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "",
@@ -426,7 +540,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+4,3"
+    ]
   },
   {
     "name": "Mincer",
@@ -437,7 +554,10 @@
     "block": "-15",
     "hit": "+6d(-3)",
     "counter": "",
-    "note": "\nBalcony Break\n"
+    "note": "\nBalcony Break\n",
+    "alternateInputs": [
+      "df+4,3,4"
+    ]
   },
   {
     "name": "Mincer Low",
@@ -448,7 +568,10 @@
     "block": "-10",
     "hit": "-8d",
     "counter": "",
-    "note": "\nRecovers in FDFT.\n"
+    "note": "\nRecovers in FDFT.\n",
+    "alternateInputs": [
+      "df+4,3,d+4"
+    ]
   },
   {
     "name": "Frankensteiner",
@@ -459,7 +582,10 @@
     "block": "-12~-18",
     "hit": "+18d",
     "counter": "",
-    "note": "\nThrow only when close\nRecovers in FUFT if throw failed\n"
+    "note": "\nThrow only when close\nRecovers in FUFT if throw failed\n",
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "Jab > Uppercut",
@@ -470,7 +596,10 @@
     "block": "-11",
     "hit": "+5",
     "counter": "",
-    "note": "\nCombos on CH.\nCan also be done from FC.\n"
+    "note": "\nCombos on CH.\nCan also be done from FC.\n",
+    "alternateInputs": [
+      "d+1,2"
+    ]
   },
   {
     "name": "Atlas Hammer",
@@ -481,7 +610,10 @@
     "block": "-24",
     "hit": "+45a(+35)",
     "counter": "",
-    "note": "\nTornado\n"
+    "note": "\nTornado\n",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Stomp",
@@ -492,7 +624,10 @@
     "block": "-12",
     "hit": "+1",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Stagger Kicks",
@@ -503,7 +638,10 @@
     "block": "-29",
     "hit": "+7",
     "counter": "",
-    "note": "\nCan also be done from FC.df+4,4,4\nCH adds 2 more hits\n"
+    "note": "\nCan also be done from FC.df+4,4,4\nCH adds 2 more hits\n",
+    "alternateInputs": [
+      "d+3+4,4,4"
+    ]
   },
   {
     "name": "Stagger Kick Spinning Uppercut",
@@ -514,7 +652,10 @@
     "block": "-15",
     "hit": "+16d(+6)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "d+3+4,4,4,2"
+    ]
   },
   {
     "name": "Corporate Elbow",
@@ -525,7 +666,10 @@
     "block": "-8",
     "hit": "+0",
     "counter": "",
-    "note": "\nForces Crouch.\n"
+    "note": "\nForces Crouch.\n",
+    "alternateInputs": [
+      "d+2+3"
+    ]
   },
   {
     "name": "Brain Chop",
@@ -536,7 +680,10 @@
     "block": "-5",
     "hit": "+19a",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Crouching Low Kick",
@@ -547,7 +694,10 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Low Drop Kick",
@@ -558,7 +708,10 @@
     "block": "-17",
     "hit": "-3d",
     "counter": "",
-    "note": "\nRecovers in FDFT on block.\nCan also been done from BT.\n"
+    "note": "\nRecovers in FDFT on block.\nCan also been done from BT.\n",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Muscle Armor",
@@ -569,7 +722,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPower Crush\nAble to cancel into side step.\n"
+    "note": "\nPower Crush\nAble to cancel into side step.\n",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Muscle Armor > Jaguar Sprint",
@@ -580,7 +736,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPower Crush\nRun immediately without pointing finger.\nRunning has no armor if not during heat.\nCancel window is smaller than Emerald Elbow.\n"
+    "note": "\nPower Crush\nRun immediately without pointing finger.\nRunning has no armor if not during heat.\nCancel window is smaller than Emerald Elbow.\n",
+    "alternateInputs": [
+      "db+1+2,3+4"
+    ]
   },
   {
     "name": "Quick Hook",
@@ -591,7 +750,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "Momentarily makes opponents airborne on counter hit."
+    "note": "Momentarily makes opponents airborne on counter hit.",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Quick Hook > Uppercut",
@@ -602,7 +764,10 @@
     "block": "-13",
     "hit": "+5",
     "counter": "",
-    "note": "Tornado"
+    "note": "Tornado",
+    "alternateInputs": [
+      "b+1,2"
+    ]
   },
   {
     "name": "Quick Hook > Heel Kick",
@@ -613,7 +778,10 @@
     "block": "-11",
     "hit": "0",
     "counter": "",
-    "note": "Recovers in FUFT."
+    "note": "Recovers in FUFT.",
+    "alternateInputs": [
+      "b+1,4"
+    ]
   },
   {
     "name": "Chupacabra",
@@ -624,7 +792,10 @@
     "block": "-5",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Chupacabra > Spinning Back Elbow",
@@ -635,7 +806,10 @@
     "block": "-9",
     "hit": "+19d",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "Chupacabra > Olympia Slam",
@@ -646,7 +820,10 @@
     "block": "-8",
     "hit": "+0",
     "counter": "",
-    "note": "\nOnly shifts to throw on hit.\n"
+    "note": "\nOnly shifts to throw on hit.\n",
+    "alternateInputs": [
+      "b+2,4"
+    ]
   },
   {
     "name": "Chupacabra > Head Butt",
@@ -657,7 +834,10 @@
     "block": "+2",
     "hit": "+22d",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+2,1+2"
+    ]
   },
   {
     "name": "Toll Kick",
@@ -668,7 +848,10 @@
     "block": "-10",
     "hit": "+39d",
     "counter": "",
-    "note": "\nPower CrushTornado"
+    "note": "\nPower CrushTornado",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Guillotine Drop",
@@ -679,7 +862,10 @@
     "block": "",
     "hit": "0d",
     "counter": "",
-    "note": "Only shifts to throw in the front on grounded hit."
+    "note": "Only shifts to throw in the front on grounded hit.",
+    "alternateInputs": [
+      "b+3,1+2"
+    ]
   },
   {
     "name": "Jumping Knee Lift",
@@ -690,7 +876,10 @@
     "block": "-13",
     "hit": "LNC",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Sole Crusher",
@@ -701,7 +890,10 @@
     "block": "",
     "hit": "+25",
     "counter": "",
-    "note": "\nPower Crush\n\nTornado\nShifts to JGR on hit.\nHold b to cancel JGR.\n"
+    "note": "\nPower Crush\n\nTornado\nShifts to JGR on hit.\nHold b to cancel JGR.\n",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "Stomache Smash",
@@ -712,7 +904,10 @@
     "block": "-13",
     "hit": "+7",
     "counter": "t",
-    "note": "\nhigh crush\nShifts to 35 damage throw on counter hit.\n"
+    "note": "\nhigh crush\nShifts to 35 damage throw on counter hit.\n",
+    "alternateInputs": [
+      "f,f,n,2"
+    ]
   },
   {
     "name": "Lay Off",
@@ -723,7 +918,10 @@
     "block": "+0",
     "hit": "+7",
     "counter": "+18",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f,f,n,1+2"
+    ]
   },
   {
     "name": "Jaguar Hook",
@@ -734,7 +932,10 @@
     "block": "-5",
     "hit": "+14",
     "counter": "+38d",
-    "note": "\n\nHoming\n\nBalcony Break\n"
+    "note": "\n\nHoming\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f,F,1"
+    ]
   },
   {
     "name": "Leg Breaker",
@@ -745,7 +946,10 @@
     "block": "-12",
     "hit": "+73d",
     "counter": "",
-    "note": "\nHigh crush\ncan also be input from f,n,d,DF+1\n"
+    "note": "\nHigh crush\ncan also be input from f,n,d,DF+1\n",
+    "alternateInputs": [
+      "FC df+1"
+    ]
   },
   {
     "name": "Round Trip Chop",
@@ -756,7 +960,10 @@
     "block": "-12",
     "hit": "+12",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\n"
+    "note": "\n\nHoming\n\nBalcony Break\n",
+    "alternateInputs": [
+      "WS 2,2"
+    ]
   },
   {
     "name": "Toe Smash",
@@ -767,7 +974,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "WS 4"
+    ]
   },
   {
     "name": "Snap Uppercut",
@@ -778,7 +988,10 @@
     "block": "-10",
     "hit": "LCH",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "WS1+2"
+    ]
   },
   {
     "name": "Jaguar Step",
@@ -789,7 +1002,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHold to continue spinning. Strikes are powered up after 2nd spin. King gets dizzy and shifts to FUFT after 6th spin.\n"
+    "note": "\nHold to continue spinning. Strikes are powered up after 2nd spin. King gets dizzy and shifts to FUFT after 6th spin.\n",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "Backwards Jaguar Step",
@@ -800,7 +1016,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCannot be held to continue spinning.\n"
+    "note": "\nCannot be held to continue spinning.\n",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Jaguar Step > Hook",
@@ -811,7 +1030,10 @@
     "block": "-7(-1)",
     "hit": "+47",
     "counter": "",
-    "note": "\nCrumples\n"
+    "note": "\nCrumples\n",
+    "alternateInputs": [
+      "JGS 1"
+    ]
   },
   {
     "name": "Jaguar Step > Hammer",
@@ -822,7 +1044,10 @@
     "block": "-9(-2)",
     "hit": "+12",
     "counter": "",
-    "note": "\nForces Crouch\n"
+    "note": "\nForces Crouch\n",
+    "alternateInputs": [
+      "JGS 2"
+    ]
   },
   {
     "name": "Jaguar Step > Sobat",
@@ -833,7 +1058,10 @@
     "block": "-5(-1)",
     "hit": "+21",
     "counter": "",
-    "note": "\nBalcony Break\n"
+    "note": "\nBalcony Break\n",
+    "alternateInputs": [
+      "JGS 3"
+    ]
   },
   {
     "name": "Jaguar Step > Sobat & Press",
@@ -844,7 +1072,10 @@
     "block": "-16",
     "hit": "+2",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "JGS 3,2+3"
+    ]
   },
   {
     "name": "Jaguar Step > High Kick",
@@ -855,7 +1086,10 @@
     "block": "+8(+15)",
     "hit": "+5(+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block.\n\nGuard Break {{{1}}} (Powered up)\n"
+    "note": "\n\nBalcony Break\nChip damage on block.\n\nGuard Break {{{1}}} (Powered up)\n",
+    "alternateInputs": [
+      "JGS 4"
+    ]
   },
   {
     "name": "Jaguar Steep > Mid Kick",
@@ -866,7 +1100,10 @@
     "block": "-16(+9)",
     "hit": "+5",
     "counter": "",
-    "note": "\nBalcony Break\n"
+    "note": "\nBalcony Break\n",
+    "alternateInputs": [
+      "JGS df+4"
+    ]
   },
   {
     "name": "Jaguar Sprint",
@@ -877,7 +1114,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHold b to cancel. Gains armour during Heat. Partially uses remaining Heat time.\n"
+    "note": "\nHold b to cancel. Gains armour during Heat. Partially uses remaining Heat time.\n",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Running Elbow Smash",
@@ -888,7 +1128,10 @@
     "block": "-8",
     "hit": "+39",
     "counter": "",
-    "note": "\nPartially uses remaining Heat time.\n"
+    "note": "\nPartially uses remaining Heat time.\n",
+    "alternateInputs": [
+      "JGin rage 1"
+    ]
   },
   {
     "name": "Jaguar Axe",
@@ -899,7 +1142,10 @@
     "block": "+3",
     "hit": "+4",
     "counter": "",
-    "note": "\nChip damage on block.\nPartially uses remaining Heat time.\n"
+    "note": "\nChip damage on block.\nPartially uses remaining Heat time.\n",
+    "alternateInputs": [
+      "JGin rage 2"
+    ]
   },
   {
     "name": "Sprint K.",
@@ -910,7 +1156,10 @@
     "block": "-9",
     "hit": "+11",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\n"
+    "note": "\n\nBalcony Break\n\nHoming\n",
+    "alternateInputs": [
+      "JGin rage 3"
+    ]
   },
   {
     "name": "Dashing Low Drop Kick",
@@ -921,7 +1170,10 @@
     "block": "-21",
     "hit": "+0",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "JGin rage 4"
+    ]
   },
   {
     "name": "Rapid King Onslaught",
@@ -932,7 +1184,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHeat Engager\n\nPartially restores remaining Heat time during Heat.\n"
+    "note": "\nHeat Engager\n\nPartially restores remaining Heat time during Heat.\n",
+    "alternateInputs": [
+      "JGin rage 1+3"
+    ]
   },
   {
     "name": "Diving Body Press",
@@ -943,7 +1198,10 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": "\nThrow only comes out when hit from the front at close range.\n"
+    "note": "\nThrow only comes out when hit from the front at close range.\n",
+    "alternateInputs": [
+      "JGin rage 2+3"
+    ]
   },
   {
     "name": "Beast Step",
@@ -954,7 +1212,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f,n,d,df"
+    ]
   },
   {
     "name": "Knee Lift",
@@ -965,7 +1226,10 @@
     "block": "-6",
     "hit": "+49d(+18)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "CD 4"
+    ]
   },
   {
     "name": "Black Bomb",
@@ -976,7 +1240,10 @@
     "block": "-5",
     "hit": "+16d",
     "counter": "",
-    "note": "\nBalcony Break\n"
+    "note": "\nBalcony Break\n",
+    "alternateInputs": [
+      "CD 1+2"
+    ]
   },
   {
     "name": "Anger Of The Beast",
@@ -987,7 +1254,10 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "\nPower Crush\nErases opponent's recoverable health on hit\n"
+    "note": "\nPower Crush\nErases opponent's recoverable health on hit\n",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Winding Nut",
@@ -998,7 +1268,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break.\n\n"
+    "note": "\n1 or 2 throw break.\n\n",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Winding Nut",
@@ -1009,7 +1282,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break.\nHas longer range than regular Winding Nut.\n"
+    "note": "\n1 or 2 throw break.\nHas longer range than regular Winding Nut.\n",
+    "alternateInputs": [
+      "f+1+3"
+    ]
   },
   {
     "name": "Tombstone Pile Driver",
@@ -1020,7 +1296,10 @@
     "block": "",
     "hit": "=1d",
     "counter": "",
-    "note": "\nFloor Break\n2 throw break.\n\n"
+    "note": "\nFloor Break\n2 throw break.\n\n",
+    "alternateInputs": [
+      "db,n,f+2+4"
+    ]
   },
   {
     "name": "Shining Wizard",
@@ -1031,7 +1310,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1+2 throw break.\nIf done quickly with all inputs, will \"blue spark\" and deal more damage.\nPartially restores remaining Heat time.\n"
+    "note": "\n1+2 throw break.\nIf done quickly with all inputs, will \"blue spark\" and deal more damage.\nPartially restores remaining Heat time.\n",
+    "alternateInputs": [
+      "f,f,F+2+4"
+    ]
   },
   {
     "name": "Giant Swing",
@@ -1042,7 +1324,10 @@
     "block": "",
     "hit": "-22d(-50)",
     "counter": "",
-    "note": "\n1 throw break.\nIf done quickly with all inputs, will \"blue spark\" and deal more damage.\nPartially restores remaining Heat time.\n"
+    "note": "\n1 throw break.\nIf done quickly with all inputs, will \"blue spark\" and deal more damage.\nPartially restores remaining Heat time.\n",
+    "alternateInputs": [
+      "f,hcf+1"
+    ]
   },
   {
     "name": "Tijuana Twister",
@@ -1053,7 +1338,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break.\nIf done quickly with all inputs, will \"blue spark\" and deal more damage.\nPartially restores remaining Heat time.\n"
+    "note": "\n2 throw break.\nIf done quickly with all inputs, will \"blue spark\" and deal more damage.\nPartially restores remaining Heat time.\n",
+    "alternateInputs": [
+      "f,hcf+2"
+    ]
   },
   {
     "name": "Ultimate Tackle",
@@ -1064,7 +1352,10 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "FC 1+2"
+    ]
   },
   {
     "name": "Ultimate Punch",
@@ -1075,7 +1366,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "Ultimate Tackle 2,1,2,1"
+    ]
   },
   {
     "name": "Armbar",
@@ -1086,7 +1380,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1+2 throw break\nCan also shift into after 3rd hit of Ultimate Punch\n"
+    "note": "\n1+2 throw break\nCan also shift into after 3rd hit of Ultimate Punch\n",
+    "alternateInputs": [
+      "Ultimate Tackle 1+2"
+    ]
   },
   {
     "name": "Arm Twist",
@@ -1097,7 +1394,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nOpponent recovers in FUFA\n"
+    "note": "\nCannot throw break.\nOpponent recovers in FUFA\n",
+    "alternateInputs": [
+      "Armbar 1+2"
+    ]
   },
   {
     "name": "Leg Cross Hold",
@@ -1108,7 +1408,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n3+4 throw break\nCan also shift into after 3rd hit of Ultimate Punch\n"
+    "note": "\n3+4 throw break\nCan also shift into after 3rd hit of Ultimate Punch\n",
+    "alternateInputs": [
+      "Ultimate Tackle 3+4"
+    ]
   },
   {
     "name": "Stretch Combo",
@@ -1119,7 +1422,10 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\n"
+    "note": "\nCannot throw break.\n",
+    "alternateInputs": [
+      "Leg Cross Hold 1+2"
+    ]
   },
   {
     "name": "Reverse Arm Slam",
@@ -1130,6 +1436,9 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+1+3"
+    ]
   }
 ]

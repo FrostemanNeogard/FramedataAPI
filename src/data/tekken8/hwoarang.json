@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2",
     "counter": "",
-    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b\n"
+    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Ignition Barrage",
@@ -19,7 +22,10 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nChip Damage on block\nAlso possible during Right Stance\n"
+    "note": "\n\nHeat Engager\n\nChip Damage on block\nAlso possible during Right Stance\n",
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "Peacekeeper",
@@ -30,7 +36,10 @@
     "block": "-7",
     "hit": "+19",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nShift to Right Stance (does not shift when using heat dash)\nAlso possible during Right Stance\n"
+    "note": "\n\nHeat Engager\n\nShift to Right Stance (does not shift when using heat dash)\nAlso possible during Right Stance\n",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "Black Kite",
@@ -41,7 +50,10 @@
     "block": "+1",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHoming\n\nBalcony Break\nChip Damage on block\nShift to Right Stance (does not shift when using heat dash)\n"
+    "note": "\n\nHeat Engager\n\n\nHoming\n\nBalcony Break\nChip Damage on block\nShift to Right Stance (does not shift when using heat dash)\n",
+    "alternateInputs": [
+      "RFF df+3"
+    ]
   },
   {
     "name": "Flamingo Rocket",
@@ -52,7 +64,10 @@
     "block": "+4",
     "hit": "+26",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nShift to Left Flamingo (does not shift when using heat dash)\n"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nShift to Left Flamingo (does not shift when using heat dash)\n",
+    "alternateInputs": [
+      "LFS f+3"
+    ]
   },
   {
     "name": "Left Heel Lance",
@@ -63,7 +78,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n"
+    "note": "\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "RFS b+3"
+    ]
   },
   {
     "name": "Trinity Claymore",
@@ -74,7 +92,10 @@
     "block": "+11",
     "hit": "+13",
     "counter": "",
-    "note": "\n\nHeat Smash\nShift to Right Flamingo\nAlso possible during Right Stance and Left Flamingo\n"
+    "note": "\n\nHeat Smash\nShift to Right Flamingo\nAlso possible during Right Stance and Left Flamingo\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "",
@@ -85,7 +106,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "",
@@ -96,7 +120,10 @@
     "block": ",-3",
     "hit": ",+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,1"
+    ]
   },
   {
     "name": "",
@@ -107,7 +134,10 @@
     "block": ",-12",
     "hit": ",-1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,1,3"
+    ]
   },
   {
     "name": "Home Surgery",
@@ -118,7 +148,10 @@
     "block": ", -14",
     "hit": ", +4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,1,3,3"
+    ]
   },
   {
     "name": "Left Right Combo",
@@ -129,7 +162,10 @@
     "block": ",-3",
     "hit": ",+6",
     "counter": "",
-    "note": "\n1,2,3 to switch to left flamingo\n1,2,4 to switch to right flamingo\n"
+    "note": "\n1,2,3 to switch to left flamingo\n1,2,4 to switch to right flamingo\n",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Rejector",
@@ -140,7 +176,10 @@
     "block": ",-8",
     "hit": ",+9",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,2,f+3"
+    ]
   },
   {
     "name": "Rejection",
@@ -151,7 +190,10 @@
     "block": ",-8",
     "hit": ",+9",
     "counter": "",
-    "note": " \n\nBalcony Break\n"
+    "note": " \n\nBalcony Break\n",
+    "alternateInputs": [
+      "1,2,f+3"
+    ]
   },
   {
     "name": "Right Jab",
@@ -162,7 +204,10 @@
     "block": "+8",
     "hit": "+0",
     "counter": "",
-    "note": "\n2,3 to switch to left flamingo\n2,4 to switch to right flamingo\n"
+    "note": "\n2,3 to switch to left flamingo\n2,4 to switch to right flamingo\n",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Right Jab Side Kick",
@@ -173,7 +218,10 @@
     "block": ",-8",
     "hit": ",+9",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2,f+3"
+    ]
   },
   {
     "name": "Right Jab > Spinning Back Kick",
@@ -184,7 +232,10 @@
     "block": ",-2",
     "hit": ",+35",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2,f+4"
+    ]
   },
   {
     "name": "",
@@ -195,7 +246,10 @@
     "block": "-7",
     "hit": "+8",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -206,7 +260,10 @@
     "block": ",-13",
     "hit": ",-7",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "3,3"
+    ]
   },
   {
     "name": "Siege Mortar Combo",
@@ -217,7 +274,10 @@
     "block": ",-11",
     "hit": ",+1",
     "counter": "",
-    "note": "\nForces Crouch on Block\n"
+    "note": "\nForces Crouch on Block\n",
+    "alternateInputs": [
+      "3,3,2"
+    ]
   },
   {
     "name": "Left Kicks",
@@ -228,7 +288,10 @@
     "block": ",-14",
     "hit": ",+32",
     "counter": "",
-    "note": "\n\nBalcony Break\n3,3,F to Shift to Left Flamingo\n"
+    "note": "\n\nBalcony Break\n3,3,F to Shift to Left Flamingo\n",
+    "alternateInputs": [
+      "3,3,3"
+    ]
   },
   {
     "name": "Left Kicks > Right Hook Kick",
@@ -239,7 +302,10 @@
     "block": ",+8",
     "hit": ",+19",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n"
+    "note": "\nShifts to Right Flamingo\n",
+    "alternateInputs": [
+      "3,3,4"
+    ]
   },
   {
     "name": "Left Kicks > Backlash",
@@ -250,7 +316,10 @@
     "block": ",-1",
     "hit": ",+40",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "3,3,f+4"
+    ]
   },
   {
     "name": "Flying Eagle",
@@ -261,7 +330,10 @@
     "block": "-3",
     "hit": "+26",
     "counter": "",
-    "note": "\nPower up with Quick Input\n"
+    "note": "\nPower up with Quick Input\n",
+    "alternateInputs": [
+      "3~4"
+    ]
   },
   {
     "name": "",
@@ -272,7 +344,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Right Left Kick Combo",
@@ -283,7 +358,10 @@
     "block": ",-6",
     "hit": ",+5",
     "counter": "",
-    "note": "\n3,4,F to Cancel and Shift to Left Flamingo\n"
+    "note": "\n3,4,F to Cancel and Shift to Left Flamingo\n",
+    "alternateInputs": [
+      "4,3"
+    ]
   },
   {
     "name": "",
@@ -294,7 +372,10 @@
     "block": ",-1",
     "hit": ",+10",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n"
+    "note": "\nShifts to Right Flamingo\n",
+    "alternateInputs": [
+      "4,4"
+    ]
   },
   {
     "name": "Right Kicks > Chainsaw Heel",
@@ -305,7 +386,10 @@
     "block": ",-14",
     "hit": ",+14",
     "counter": "",
-    "note": "\nForces Crouch on block\nShifts to Right Stance\n"
+    "note": "\nForces Crouch on block\nShifts to Right Stance\n",
+    "alternateInputs": [
+      "4,4,3"
+    ]
   },
   {
     "name": "",
@@ -316,7 +400,10 @@
     "block": ",-2",
     "hit": ",+8",
     "counter": "",
-    "note": "\nShifts to Right Stance\n4,4,4,F to cancel and Shift to Right Flamingo\n"
+    "note": "\nShifts to Right Stance\n4,4,4,F to cancel and Shift to Right Flamingo\n",
+    "alternateInputs": [
+      "4,4,4"
+    ]
   },
   {
     "name": "Right Kicks > Raptor Combo",
@@ -327,7 +414,10 @@
     "block": ",+0",
     "hit": ",+36",
     "counter": "",
-    "note": "\nChip Damage on final hit\n"
+    "note": "\nChip Damage on final hit\n",
+    "alternateInputs": [
+      "4,4,4,4"
+    ]
   },
   {
     "name": "Motion Switch",
@@ -338,7 +428,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Right Stance\n"
+    "note": "\nShifts to Right Stance\n",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "Rusty Knife",
@@ -349,7 +442,10 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\nShifts to Right Stance\n"
+    "note": "\nShifts to Right Stance\n",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Left Flamingo Feint",
@@ -360,7 +456,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Left Flamingo\nSidesteps to the Right\n"
+    "note": "\nShifts to Left Flamingo\nSidesteps to the Right\n",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Cheap Shot Snap Kick",
@@ -371,7 +470,10 @@
     "block": "-16",
     "hit": "+7",
     "counter": "",
-    "note": "\nSidesteps to the Right\n"
+    "note": "\nSidesteps to the Right\n",
+    "alternateInputs": [
+      "f+3~3"
+    ]
   },
   {
     "name": "Right Hook Kick",
@@ -382,7 +484,10 @@
     "block": "+7~8",
     "hit": "+18",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n"
+    "note": "\nShifts to Right Flamingo\n",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Right Flamingo Feint",
@@ -393,7 +498,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\nSidesteps to the Left\n"
+    "note": "\nShifts to Right Flamingo\nSidesteps to the Left\n",
+    "alternateInputs": [
+      "f,n,4"
+    ]
   },
   {
     "name": "Push Hands",
@@ -404,7 +512,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n"
+    "note": "\nAlso possible during Right Stance\n",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "",
@@ -415,7 +526,10 @@
     "block": "-1",
     "hit": "+6",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n"
+    "note": "\nAlso possible during Right Stance\n",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "",
@@ -426,7 +540,10 @@
     "block": "-2",
     "hit": "+6",
     "counter": "",
-    "note": "\nShifts to Left Flamingo\n"
+    "note": "\nShifts to Left Flamingo\n",
+    "alternateInputs": [
+      "df+1,3"
+    ]
   },
   {
     "name": "Right Uppercut",
@@ -437,7 +554,10 @@
     "block": "-7",
     "hit": "+34",
     "counter": "",
-    "note": "\nLauncher\nAlso possible during Right Stance\n"
+    "note": "\nLauncher\nAlso possible during Right Stance\n",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "",
@@ -448,7 +568,10 @@
     "block": "-14",
     "hit": "-4",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Disrespect",
@@ -459,7 +582,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Backturn Stance\n"
+    "note": "\nShifts to Backturn Stance\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Motion Switch",
@@ -470,7 +596,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Left Stance\n"
+    "note": "\nShifts to Left Stance\n",
+    "alternateInputs": [
+      "RFF 3+4"
+    ]
   },
   {
     "name": "Motion Switch",
@@ -481,7 +610,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n"
+    "note": "\nShifts to Right Flamingo\n",
+    "alternateInputs": [
+      "LFS 3+4"
+    ]
   },
   {
     "name": "Motion Switch",
@@ -492,6 +624,9 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Left Flamingo\n"
+    "note": "\nShifts to Left Flamingo\n",
+    "alternateInputs": [
+      "RFS 3+4"
+    ]
   }
 ]

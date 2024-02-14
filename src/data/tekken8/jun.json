@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b"
+    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Yomotsu Ooyumi",
@@ -19,7 +22,10 @@
     "block": "-6~+37g",
     "hit": "+21a~+64a (-5~+38)",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nBalcony Break\nRestores recoverable health\nChip damage on block"
+    "note": "\n\nHeat Smash\n\nBalcony Break\nRestores recoverable health\nChip damage on block",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Amatsu Izanami",
@@ -30,7 +36,10 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "\npc8~\nRage Art\nRemoves opponent recoverable health on hit"
+    "note": "\npc8~\nRage Art\nRemoves opponent recoverable health on hit",
+    "alternateInputs": [
+      "df+1+2"
+    ]
   },
   {
     "name": "Jab",
@@ -41,7 +50,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Suikei > Izumo Smash",
@@ -52,7 +64,10 @@
     "block": "-9",
     "hit": "+0",
     "counter": "+5",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "1,1"
+    ]
   },
   {
     "name": "Spear Step",
@@ -63,7 +78,10 @@
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": "\nJail from 1st attack"
+    "note": "\nJail from 1st attack",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "",
@@ -74,7 +92,10 @@
     "block": "+1",
     "hit": "+10g",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,2,u_d"
+    ]
   },
   {
     "name": "Spear Step > Izumo Strike",
@@ -85,7 +106,10 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21c",
-    "note": "\n\nHoming\nCombo from 2nd CH with 5f delay\nJail from 2nd block with 1f delay"
+    "note": "\n\nHoming\nCombo from 2nd CH with 5f delay\nJail from 2nd block with 1f delay",
+    "alternateInputs": [
+      "1,2,2"
+    ]
   },
   {
     "name": "Spear Step > Spin Kick",
@@ -96,7 +120,10 @@
     "block": "-12~-11",
     "hit": "+5~+6",
     "counter": "+15a (+6)",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 3f delay\nInput can be delayed 9f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 3f delay\nInput can be delayed 9f",
+    "alternateInputs": [
+      "1,2,4"
+    ]
   },
   {
     "name": "Suiren Leg Scythe",
@@ -107,7 +134,10 @@
     "block": "-12",
     "hit": "+2",
     "counter": "+6c",
-    "note": "\nCombo from 1st CH"
+    "note": "\nCombo from 1st CH",
+    "alternateInputs": [
+      "1,3"
+    ]
   },
   {
     "name": "Right Jab",
@@ -118,7 +148,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "",
@@ -129,7 +162,10 @@
     "block": "-6",
     "hit": "+7",
     "counter": "",
-    "note": "\nCombo from 1st hit with 9f delay\nInput can be delayed 10f"
+    "note": "\nCombo from 1st hit with 9f delay\nInput can be delayed 10f",
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "",
@@ -140,7 +176,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\n\nKnee\nCombo from 1st hit"
+    "note": "\n\nKnee\nCombo from 1st hit",
+    "alternateInputs": [
+      "2,1,4"
+    ]
   },
   {
     "name": "Byakuren Tsukinuki",
@@ -151,7 +190,10 @@
     "block": "-9",
     "hit": "+10a (+1)",
     "counter": "+42a (-5)",
-    "note": "\n\nBalcony Break\nCombo from 3rd CH\nInput can be delayed 10f\nChip damage on block\nDeals recoverable self-damage when not in Heat"
+    "note": "\n\nBalcony Break\nCombo from 3rd CH\nInput can be delayed 10f\nChip damage on block\nDeals recoverable self-damage when not in Heat",
+    "alternateInputs": [
+      "2,1,4,1"
+    ]
   },
   {
     "name": "Byakuren Tamasudare",
@@ -162,7 +204,10 @@
     "block": "-9",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 3rd CH with 5f delay\nInput can be delayed 10f"
+    "note": "\n\nBalcony Break\nCombo from 3rd CH with 5f delay\nInput can be delayed 10f",
+    "alternateInputs": [
+      "2,1,4,3"
+    ]
   },
   {
     "name": "Byakuren Misogi",
@@ -173,7 +218,10 @@
     "block": "+2",
     "hit": "+48a (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 9f delay"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 9f delay",
+    "alternateInputs": [
+      "2,1,1+2"
+    ]
   },
   {
     "name": "Shion",
@@ -184,7 +232,10 @@
     "block": "-13~-12",
     "hit": "+18a (+1)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Magic Four",
@@ -195,7 +246,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "+32a",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Shunkei",
@@ -206,7 +260,10 @@
     "block": "-12",
     "hit": "+28a",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Shunkei > Heat Dash",
@@ -217,7 +274,10 @@
     "block": "+5",
     "hit": "+43a (+35)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat 1+2,F"
+    ]
   },
   {
     "name": "Ryuuntsui - Misogi",
@@ -228,7 +288,10 @@
     "block": "-6~-5",
     "hit": "+26a (+8)",
     "counter": "",
-    "note": "\njs5~33 fs34~36\n\nSpike\n3rd hit available only as combo from 2nd hit\nCan recover in r22 FC with D on whiff\nDeals recoverable self-damage when not in Heat"
+    "note": "\njs5~33 fs34~36\n\nSpike\n3rd hit available only as combo from 2nd hit\nCan recover in r22 FC with D on whiff\nDeals recoverable self-damage when not in Heat",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "",
@@ -239,7 +302,10 @@
     "block": "-3",
     "hit": "-3",
     "counter": "+4",
-    "note": "\nJail from 1st attack\nCH advantage listed is for the 2nd hit"
+    "note": "\nJail from 1st attack\nCH advantage listed is for the 2nd hit",
+    "alternateInputs": [
+      "1+4"
+    ]
   },
   {
     "name": "",
@@ -250,7 +316,10 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "Combo from 2nd CH"
+    "note": "Combo from 2nd CH",
+    "alternateInputs": [
+      "1+4,2"
+    ]
   },
   {
     "name": "White Heron Dance",
@@ -261,7 +330,10 @@
     "block": "-15",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "Combo from 3rd CH"
+    "note": "Combo from 3rd CH",
+    "alternateInputs": [
+      "1+4,2,4"
+    ]
   },
   {
     "name": "White Heron Lower Dance",
@@ -272,7 +344,10 @@
     "block": "-23~-22",
     "hit": "+27a",
     "counter": "",
-    "note": "\n,cs10~38Combo from 3rd CH"
+    "note": "\n,cs10~38Combo from 3rd CH",
+    "alternateInputs": [
+      "1+4,2,d+4"
+    ]
   },
   {
     "name": "",
@@ -283,7 +358,10 @@
     "block": "-11~-10",
     "hit": "+1~+2",
     "counter": "",
-    "note": "Combo from 2nd CH"
+    "note": "Combo from 2nd CH",
+    "alternateInputs": [
+      "1+4,3"
+    ]
   },
   {
     "name": "White Heron Sun Palm",
@@ -294,7 +372,10 @@
     "block": "-13~-12",
     "hit": "+17a (+10)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1+4,3,1"
+    ]
   },
   {
     "name": "White Heron Moon Kick",
@@ -305,7 +386,10 @@
     "block": "-13~-12",
     "hit": "+4c~+5c",
     "counter": "+26a",
-    "note": "Combo from 3rd CH"
+    "note": "Combo from 3rd CH",
+    "alternateInputs": [
+      "1+4,3,4"
+    ]
   },
   {
     "name": "Izumo Smash",
@@ -316,7 +400,10 @@
     "block": "-9",
     "hit": "+0",
     "counter": "+5",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+1"
+    ]
   },
   {
     "name": "Demon Slayer",
@@ -327,7 +414,10 @@
     "block": "-18~-17",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "Cancel to r11 FC with D"
+    "note": "Cancel to r11 FC with D",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "",
@@ -338,7 +428,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "",
@@ -349,7 +442,10 @@
     "block": "-2",
     "hit": "+14g",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3~u_d"
+    ]
   },
   {
     "name": "Kanbashira > Izumo Strike",
@@ -360,7 +456,10 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21C",
-    "note": "\n\nHoming\nCombo from 1st hit with 5f delay"
+    "note": "\n\nHoming\nCombo from 1st hit with 5f delay",
+    "alternateInputs": [
+      "f+3,2"
+    ]
   },
   {
     "name": "Double Kanbashira",
@@ -371,7 +470,10 @@
     "block": "-13~-11",
     "hit": "+28a (+13)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit with 5f delay"
+    "note": "\n\nTornado\nCombo from 1st hit with 5f delay",
+    "alternateInputs": [
+      "f+3,4"
+    ]
   },
   {
     "name": "Getsukankyaku",
@@ -382,7 +484,10 @@
     "block": "+3~+5",
     "hit": "+13~+15",
     "counter": "",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Inner Peace",
@@ -393,7 +498,10 @@
     "block": "+2",
     "hit": "+26g",
     "counter": "+23",
-    "note": "\nTransition to r20 MIA on hit only\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\nTransition to r20 MIA on hit only\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "",
@@ -404,7 +512,10 @@
     "block": "",
     "hit": "+40g",
     "counter": "",
-    "note": "\nps5~\nSabaki, parries mid or high punches or kicks"
+    "note": "\nps5~\nSabaki, parries mid or high punches or kicks",
+    "alternateInputs": [
+      "in heat f+1+2,P"
+    ]
   },
   {
     "name": "Wheel Kick",
@@ -415,7 +526,10 @@
     "block": "+0~+1",
     "hit": "+25a",
     "counter": "",
-    "note": "\nps4~15\nPunch sabaki, +51a on a successful parry"
+    "note": "\nps4~15\nPunch sabaki, +51a on a successful parry",
+    "alternateInputs": [
+      "f+2+3"
+    ]
   },
   {
     "name": "Mid Check",
@@ -426,7 +540,10 @@
     "block": "-3~-2",
     "hit": "+8~+9",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Habotan",
@@ -437,7 +554,10 @@
     "block": "-11~-10",
     "hit": "+2~+3",
     "counter": "+13g~+14g",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "df+1,1"
+    ]
   },
   {
     "name": "Bull's-Eye",
@@ -448,7 +568,10 @@
     "block": "-4~-3",
     "hit": "+6~+7",
     "counter": "+11~+12",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Mizuho",
@@ -459,7 +582,10 @@
     "block": "-12~-11",
     "hit": "+29a (+19)",
     "counter": "",
-    "note": "Launches crouching opponent"
+    "note": "Launches crouching opponent",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Ame-no-Murakumo",
@@ -470,7 +596,10 @@
     "block": "-9~-8",
     "hit": "+38a (+28)",
     "counter": "",
-    "note": "\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nAvailable only on hit or block"
+    "note": "\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nAvailable only on hit or block",
+    "alternateInputs": [
+      "df+2,1+2"
+    ]
   },
   {
     "name": "Kazakiri",
@@ -481,7 +610,10 @@
     "block": "-8",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break"
+    "note": "\n\nHoming\n\nBalcony Break",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Katabami",
@@ -492,7 +624,10 @@
     "block": "-14",
     "hit": "+48a (+17)",
     "counter": "+6 +52a",
-    "note": "\n\nTornado"
+    "note": "\n\nTornado",
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "",
@@ -503,7 +638,10 @@
     "block": "-11~-10",
     "hit": "+1~+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "Heavenly Sun Palm",
@@ -514,7 +652,10 @@
     "block": "-13~-12",
     "hit": "+17a (+10)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3+4,1"
+    ]
   },
   {
     "name": "Heavenly Moon Kick",
@@ -525,7 +666,10 @@
     "block": "-13~-12",
     "hit": "+4c~+5c",
     "counter": "+26a",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "df+3+4,4"
+    ]
   },
   {
     "name": "Narumi",
@@ -536,7 +680,10 @@
     "block": "-4c~-3c",
     "hit": "+9c~+10c",
     "counter": "+18a",
-    "note": "Spike"
+    "note": "Spike",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "",
@@ -547,7 +694,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Suminagashi",
@@ -558,7 +708,10 @@
     "block": "-9~-8",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH"
+    "note": "\n\nBalcony Break\nCombo from 1st CH",
+    "alternateInputs": [
+      "d+4,4"
+    ]
   },
   {
     "name": "Kamudo-no-Tsurugi",
@@ -569,7 +722,10 @@
     "block": "-9",
     "hit": "+72a (+56)",
     "counter": "",
-    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Double Lift Kicks",
@@ -580,7 +736,10 @@
     "block": "-6~-3",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\njs5~45, js1~27 fs28~30Combo from 1st CH"
+    "note": "\njs5~45, js1~27 fs28~30Combo from 1st CH",
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "",
@@ -591,7 +750,10 @@
     "block": "-8~-7",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "",
@@ -602,7 +764,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "db+1,1"
+    ]
   },
   {
     "name": "Hourai's Dance",
@@ -613,7 +778,10 @@
     "block": "-15",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from any hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nLast hit is unparryable"
+    "note": "\n\nBalcony Break\nCombo from any hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nLast hit is unparryable",
+    "alternateInputs": [
+      "db+1,1,1+2"
+    ]
   },
   {
     "name": "Ayame",
@@ -624,7 +792,10 @@
     "block": "-12~-11",
     "hit": "+2~+3",
     "counter": "+14g~+15g",
-    "note": "\ncs15~"
+    "note": "\ncs15~",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Leg Scythe",
@@ -635,7 +806,10 @@
     "block": "-12",
     "hit": "+2",
     "counter": "+6c",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "",
@@ -646,7 +820,10 @@
     "block": "-11~-9",
     "hit": "+0~+2",
     "counter": "+3~+5",
-    "note": "\ncs6~41Transition to r22 FC with D"
+    "note": "\ncs6~41Transition to r22 FC with D",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "",
@@ -657,7 +834,10 @@
     "block": "-7~-5",
     "hit": "+4~+6",
     "counter": "+35a",
-    "note": "\n,cs1~49\nCombo from 1st CH\nTransition to r22 FC with D"
+    "note": "\n,cs1~49\nCombo from 1st CH\nTransition to r22 FC with D",
+    "alternateInputs": [
+      "db+4,4"
+    ]
   },
   {
     "name": "Kariashi",
@@ -668,7 +848,10 @@
     "block": "-7~-5",
     "hit": "+4~+6",
     "counter": "+35a",
-    "note": "\n,cs1~49\nTransition to r22 FC with D"
+    "note": "\n,cs1~49\nTransition to r22 FC with D",
+    "alternateInputs": [
+      "db+4,4,4"
+    ]
   },
   {
     "name": "Kariashi Hakuro",
@@ -679,7 +862,10 @@
     "block": "-3",
     "hit": "-3",
     "counter": "+4",
-    "note": "\nCombo from 1st hit\nLinks to 1+4 extensions\nAlternate inputs:\ndb+4,4,1+2\ndb+4,4,4,1+2\nCH advantage listed is for the last hit"
+    "note": "\nCombo from 1st hit\nLinks to 1+4 extensions\nAlternate inputs:\ndb+4,4,1+2\ndb+4,4,4,1+2\nCH advantage listed is for the last hit",
+    "alternateInputs": [
+      "db+4,1+4"
+    ]
   },
   {
     "name": "Violet",
@@ -690,7 +876,10 @@
     "block": "-10~-9",
     "hit": "+6~+7",
     "counter": "+0d",
-    "note": "\ncs6~\nCancel to r14 FC with D\nTransition to attack throw on CH, 22 damage\nOpponent recovers FDFA on CH"
+    "note": "\ncs6~\nCancel to r14 FC with D\nTransition to attack throw on CH, 22 damage\nOpponent recovers FDFA on CH",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "",
@@ -701,7 +890,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "",
@@ -712,7 +904,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "",
-    "note": "\n\nElbow\nCombo from 1st hit with 5f? delay"
+    "note": "\n\nElbow\nCombo from 1st hit with 5f? delay",
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "",
@@ -723,7 +918,10 @@
     "block": "+0~+1",
     "hit": "+11g~+12g",
     "counter": "",
-    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws"
+    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws",
+    "alternateInputs": [
+      "b+2,1~F"
+    ]
   },
   {
     "name": "",
@@ -734,7 +932,10 @@
     "block": "+0~+1",
     "hit": "+11g~+12g",
     "counter": "",
-    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
+    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB",
+    "alternateInputs": [
+      "b+2,1~B"
+    ]
   },
   {
     "name": "Ryuen Saika Shikei",
@@ -745,7 +946,10 @@
     "block": "-13",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 4f delay\nInput can be delayed 14f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 4f delay\nInput can be delayed 14f",
+    "alternateInputs": [
+      "b+2,1,1"
+    ]
   },
   {
     "name": "Ryuen Saika Renken",
@@ -756,7 +960,10 @@
     "block": "-9",
     "hit": "+30a (+15)",
     "counter": "+69a (+53)",
-    "note": "\n\nTornado\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\n\nTornado\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "b+2,1,2"
+    ]
   },
   {
     "name": "Ryuen Saika Renshuu",
@@ -767,7 +974,10 @@
     "block": "-8~-7",
     "hit": "+42a (-16)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f",
+    "alternateInputs": [
+      "b+2,1,4"
+    ]
   },
   {
     "name": "Ryuen Magushi",
@@ -778,7 +988,10 @@
     "block": "-9~-8",
     "hit": "+3",
     "counter": "",
-    "note": "Combo from 1st hit with 5f? delay"
+    "note": "Combo from 1st hit with 5f? delay",
+    "alternateInputs": [
+      "b+2,2"
+    ]
   },
   {
     "name": "Dragon Wheel Kick",
@@ -789,7 +1002,10 @@
     "block": "-19~-18",
     "hit": "+22a (+12)",
     "counter": "",
-    "note": "\njs10~37 fs38~40"
+    "note": "\njs10~37 fs38~40",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Ryuusha Renken",
@@ -800,7 +1016,10 @@
     "block": "-9",
     "hit": "+30a (+15)",
     "counter": "+69a (+53)",
-    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "b+3,2"
+    ]
   },
   {
     "name": "Dragon Wheel Leg Cutter",
@@ -811,7 +1030,10 @@
     "block": "-11",
     "hit": "+0~+2",
     "counter": "+3",
-    "note": "\n,cs1~42\nLinks to db+4 extensions\nCan recover in r22 FC with D"
+    "note": "\n,cs1~42\nLinks to db+4 extensions\nCan recover in r22 FC with D",
+    "alternateInputs": [
+      "b+3,4"
+    ]
   },
   {
     "name": "",
@@ -822,7 +1044,10 @@
     "block": "-7~-8",
     "hit": "+5~+6",
     "counter": "",
-    "note": "Knee"
+    "note": "Knee",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Shirabyoushi",
@@ -833,7 +1058,10 @@
     "block": "-13~-12",
     "hit": "+5~+6",
     "counter": "+28a (+18)",
-    "note": "Combo from 1st hit with 8f delay"
+    "note": "Combo from 1st hit with 8f delay",
+    "alternateInputs": [
+      "b+4,2"
+    ]
   },
   {
     "name": "Omoikane",
@@ -844,7 +1072,10 @@
     "block": "-12~-11",
     "hit": "+9a (+0)",
     "counter": "",
-    "note": "\npc7~\n\nBalcony Break\nFrame advantage is -8 if an attack is absorbed"
+    "note": "\npc7~\n\nBalcony Break\nFrame advantage is -8 if an attack is absorbed",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Shinki",
@@ -855,7 +1086,10 @@
     "block": "",
     "hit": "+6~+7",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "b+2+3"
+    ]
   },
   {
     "name": "Chikura",
@@ -866,7 +1100,10 @@
     "block": "-3~-2",
     "hit": "+22a",
     "counter": "",
-    "note": "\njs8~28 fs29~31\n\nHoming\nAlternate input: ub+4"
+    "note": "\njs8~28 fs29~31\n\nHoming\nAlternate input: ub+4",
+    "alternateInputs": [
+      "u+4"
+    ]
   },
   {
     "name": "Divine Exile - Heaven",
@@ -877,7 +1114,10 @@
     "block": "-14",
     "hit": "+22a",
     "counter": "",
-    "note": "\n\nBalcony Break\nJail from 1st attack\nDeals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit"
+    "note": "\n\nBalcony Break\nJail from 1st attack\nDeals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Totsuka-no-Tsurugi",
@@ -888,7 +1128,10 @@
     "block": "-9",
     "hit": "+30a (+15)",
     "counter": "+69a (+53)",
-    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "Iwato",
@@ -899,7 +1142,10 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "+30a",
-    "note": "\njs11~27 fs28~30Alternate inputs: ub+3, u+3"
+    "note": "\njs11~27 fs28~30Alternate inputs: ub+3, u+3",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "",
@@ -910,7 +1156,10 @@
     "block": "-20~-18",
     "hit": "-9~-7",
     "counter": "",
-    "note": "\njs10~40 fs41~43"
+    "note": "\njs10~40 fs41~43",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Housenka - Misogi",
@@ -921,7 +1170,10 @@
     "block": "-12",
     "hit": "+84a (+68)",
     "counter": "",
-    "note": "\n,js1~20 fs21~23\n\nTornado\nCombo from 1st hit\nTransition to r17 MIA on hit only\n3rd hit available only as combo from 2nd hit"
+    "note": "\n,js1~20 fs21~23\n\nTornado\nCombo from 1st hit\nTransition to r17 MIA on hit only\n3rd hit available only as combo from 2nd hit",
+    "alternateInputs": [
+      "uf+4,3"
+    ]
   },
   {
     "name": "Saiuntsui",
@@ -932,7 +1184,10 @@
     "block": "-8~-4",
     "hit": "+18a",
     "counter": "",
-    "note": "\njs9~30\n\nSpike\nAlternate inputs: ub+3+4, u+3+4"
+    "note": "\njs9~30\n\nSpike\nAlternate inputs: ub+3+4, u+3+4",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "",
@@ -943,7 +1198,10 @@
     "block": "-12~-11",
     "hit": "+3~+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "",
@@ -954,7 +1212,10 @@
     "block": "+1~+2",
     "hit": "+16g~+17g",
     "counter": "",
-    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws"
+    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws",
+    "alternateInputs": [
+      "f,F+2~F"
+    ]
   },
   {
     "name": "",
@@ -965,7 +1226,10 @@
     "block": "+1~+2",
     "hit": "+16g~+17g",
     "counter": "",
-    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
+    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB",
+    "alternateInputs": [
+      "f,F+2~B"
+    ]
   },
   {
     "name": "Suiei Ura Saika",
@@ -976,7 +1240,10 @@
     "block": "-13",
     "hit": "+8a",
     "counter": "+7 +53a",
-    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay"
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay",
+    "alternateInputs": [
+      "f,F+2,2"
+    ]
   },
   {
     "name": "Suiei Kagetsu",
@@ -987,7 +1254,10 @@
     "block": "-8~-7",
     "hit": "+29a (+14)",
     "counter": "",
-    "note": "Combo from 1st hit with 8f delay"
+    "note": "Combo from 1st hit with 8f delay",
+    "alternateInputs": [
+      "f,F+2,3"
+    ]
   },
   {
     "name": "",
@@ -998,7 +1268,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Yukimiguruma",
@@ -1009,7 +1282,10 @@
     "block": "+3~+4",
     "hit": "+19a",
     "counter": "",
-    "note": "\n,fs25~39\n\nSpike\nChip damage on block\nInterrupt with i11 from 1st block"
+    "note": "\n,fs25~39\n\nSpike\nChip damage on block\nInterrupt with i11 from 1st block",
+    "alternateInputs": [
+      "f,F+3,3+4"
+    ]
   },
   {
     "name": "Tokkei - Misogi",
@@ -1020,7 +1296,10 @@
     "block": "+6",
     "hit": "+23a (+13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nDeals recoverable self-damage when not in Heat"
+    "note": "\n\nBalcony Break\nChip damage on block\nDeals recoverable self-damage when not in Heat",
+    "alternateInputs": [
+      "f,F+1+2"
+    ]
   },
   {
     "name": "Ame-no-Uzume",
@@ -1031,7 +1310,10 @@
     "block": "+3~+7",
     "hit": "+14a (+5)",
     "counter": "+46a (-1)",
-    "note": "\njs3~30 js31~33\n\nBalcony Break\nChip damage on block\nAlternate input: ub,b+3"
+    "note": "\njs3~30 js31~33\n\nBalcony Break\nChip damage on block\nAlternate input: ub,b+3",
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "",
@@ -1042,7 +1324,10 @@
     "block": "-6~-5",
     "hit": "+5c~+6c",
     "counter": "",
-    "note": "\njs5~19 fs20~22\nCan recover in r22 FC with D"
+    "note": "\njs5~19 fs20~22\nCan recover in r22 FC with D",
+    "alternateInputs": [
+      "FC 3+4"
+    ]
   },
   {
     "name": "Twin Cloud Kicks",
@@ -1053,7 +1338,10 @@
     "block": "+0~+1",
     "hit": "+15a",
     "counter": "",
-    "note": "\n,js~21~31 fs32~40\nCan recover in r22 FC with D"
+    "note": "\n,js~21~31 fs32~40\nCan recover in r22 FC with D",
+    "alternateInputs": [
+      "FC 3+4,3"
+    ]
   },
   {
     "name": "Divine Exile - Earth",
@@ -1064,7 +1352,10 @@
     "block": "-19~-18",
     "hit": "+26a (+11)",
     "counter": "",
-    "note": "\ncs1~\nDeals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit"
+    "note": "\ncs1~\nDeals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit",
+    "alternateInputs": [
+      "FC df+1"
+    ]
   },
   {
     "name": "Grace",
@@ -1075,7 +1366,10 @@
     "block": "-11~-10",
     "hit": "+0~+1",
     "counter": "+18~+19",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "FC df+2"
+    ]
   },
   {
     "name": "Kanamegaeshi",
@@ -1086,7 +1380,10 @@
     "block": "-19",
     "hit": "+0c",
     "counter": "",
-    "note": "\ncs1~\nClean hit +10a, 15 damage\nOpponent recovers FDFA on CL"
+    "note": "\ncs1~\nClean hit +10a, 15 damage\nOpponent recovers FDFA on CL",
+    "alternateInputs": [
+      "FC df+3"
+    ]
   },
   {
     "name": "",
@@ -1097,7 +1394,10 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "",
@@ -1108,7 +1408,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "",
-    "note": "\n\nElbow\nCombo from 1st hit"
+    "note": "\n\nElbow\nCombo from 1st hit",
+    "alternateInputs": [
+      "ws1,1"
+    ]
   },
   {
     "name": "",
@@ -1119,7 +1422,10 @@
     "block": "+0~+1",
     "hit": "+11g~+12g",
     "counter": "",
-    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws"
+    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws",
+    "alternateInputs": [
+      "ws1,1~F"
+    ]
   },
   {
     "name": "",
@@ -1130,7 +1436,10 @@
     "block": "+0~+1",
     "hit": "+11g~+12g",
     "counter": "",
-    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
+    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB",
+    "alternateInputs": [
+      "ws1,1~B"
+    ]
   },
   {
     "name": "Tenkan Saika Shikei",
@@ -1141,7 +1450,10 @@
     "block": "-13",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 4f delay\nInput can be delayed 14f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 4f delay\nInput can be delayed 14f",
+    "alternateInputs": [
+      "ws1,1,1"
+    ]
   },
   {
     "name": "Tenkan Saika Renken",
@@ -1152,7 +1464,10 @@
     "block": "-9",
     "hit": "+30a (+15)",
     "counter": "+69a (+53)",
-    "note": "\n\nTornado\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat"
+    "note": "\n\nTornado\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f\nChip damage on block\nDeals recoverable self-damage when not in Heat",
+    "alternateInputs": [
+      "ws1,1,2"
+    ]
   },
   {
     "name": "Tenkan Saika Renshuu",
@@ -1163,7 +1478,10 @@
     "block": "-8~-7",
     "hit": "+42a (-16)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 6f delay\nInput can be delayed 14f",
+    "alternateInputs": [
+      "ws1,1,4"
+    ]
   },
   {
     "name": "",
@@ -1174,7 +1492,10 @@
     "block": "-11~-10",
     "hit": "+0c~+1c",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f"
+    "note": "\n\nSpike\nCombo from 1st hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f",
+    "alternateInputs": [
+      "ws1,4"
+    ]
   },
   {
     "name": "Tomoezakura",
@@ -1185,7 +1506,10 @@
     "block": "-16~-14",
     "hit": "+0c~+1c",
     "counter": "+13a",
-    "note": "\n,cs17~\n\nSpike\nCombo from 2nd CH"
+    "note": "\n,cs17~\n\nSpike\nCombo from 2nd CH",
+    "alternateInputs": [
+      "ws1,4,2"
+    ]
   },
   {
     "name": "Tomoefuji",
@@ -1196,7 +1520,10 @@
     "block": "-20~-19",
     "hit": "+16a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH",
+    "alternateInputs": [
+      "ws1,4,1+2"
+    ]
   },
   {
     "name": "",
@@ -1207,7 +1534,10 @@
     "block": "-8~-7",
     "hit": "+5~+6",
     "counter": "+32a",
-    "note": "Hits grounded up-close only"
+    "note": "Hits grounded up-close only",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "Hyakkaou",
@@ -1218,7 +1548,10 @@
     "block": "-12~-11",
     "hit": "+19a (10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit",
+    "alternateInputs": [
+      "ws2,1"
+    ]
   },
   {
     "name": "Gioh",
@@ -1229,7 +1562,10 @@
     "block": "-13~-12",
     "hit": "+25a (+5)",
     "counter": "",
-    "note": "\njs17~33 fs34~36"
+    "note": "\njs17~33 fs34~36",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Ichikaku",
@@ -1240,7 +1576,10 @@
     "block": "-12~-11",
     "hit": "+18a (+11)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Sudare Nagashi",
@@ -1251,7 +1590,10 @@
     "block": "-2",
     "hit": "+5",
     "counter": "+17 +63a",
-    "note": "\n\nElbow\nCan recover in r18 FC with D"
+    "note": "\n\nElbow\nCan recover in r18 FC with D",
+    "alternateInputs": [
+      "ws1+2"
+    ]
   },
   {
     "name": "Flowing Moon Scent",
@@ -1262,7 +1604,10 @@
     "block": "-21~-20",
     "hit": "+38a (+28)",
     "counter": "",
-    "note": "\nfs15~36Tornado"
+    "note": "\nfs15~36Tornado",
+    "alternateInputs": [
+      "ws3+4"
+    ]
   },
   {
     "name": "Izumo Strike",
@@ -1273,7 +1618,10 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21c",
-    "note": "\n\nHoming\nAlternate input: ub+2"
+    "note": "\n\nHoming\nAlternate input: ub+2",
+    "alternateInputs": [
+      "u+2"
+    ]
   },
   {
     "name": "",
@@ -1284,7 +1632,10 @@
     "block": "-7~-6",
     "hit": "+4~+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "IZU 1"
+    ]
   },
   {
     "name": "Haraede Kannagi",
@@ -1295,7 +1646,10 @@
     "block": "-4~-3",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit with 6f delay\nChip damage on block\nDeals recoverable self-damage when not in Heat"
+    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit with 6f delay\nChip damage on block\nDeals recoverable self-damage when not in Heat",
+    "alternateInputs": [
+      "IZU 1,1"
+    ]
   },
   {
     "name": "Haraede Musubi",
@@ -1306,7 +1660,10 @@
     "block": "-13",
     "hit": "+6a",
     "counter": "+15a",
-    "note": "\n\nSpike\nCombo from 1st hit with 5f delay\nInput can be delayed 6f"
+    "note": "\n\nSpike\nCombo from 1st hit with 5f delay\nInput can be delayed 6f",
+    "alternateInputs": [
+      "IZU 1,2"
+    ]
   },
   {
     "name": "Setsurinbu - Misogi",
@@ -1317,7 +1674,10 @@
     "block": "-13~-11",
     "hit": "+34a (+24)",
     "counter": "",
-    "note": "\ncs6~20\n\nTornado\nChip damage on block\nDeals recoverable self-damage damage when not in Heat\nUnparryable"
+    "note": "\ncs6~20\n\nTornado\nChip damage on block\nDeals recoverable self-damage damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "IZU 2"
+    ]
   },
   {
     "name": "Zuiun Renkyaku",
@@ -1328,7 +1688,10 @@
     "block": "-6~-5",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "\njs20~53 fs54~56\n\nHeat Engager\n\n\nBalcony Break\nJail from 1st attack"
+    "note": "\njs20~53 fs54~56\n\nHeat Engager\n\n\nBalcony Break\nJail from 1st attack",
+    "alternateInputs": [
+      "IZU 3"
+    ]
   },
   {
     "name": "Zuiun Renkyaku > Heat Dash",
@@ -1339,7 +1702,10 @@
     "block": "+5~+6",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\njs20~44\nJail from 1st attack"
+    "note": "\njs20~44\nJail from 1st attack",
+    "alternateInputs": [
+      "in heat IZU 3,F"
+    ]
   },
   {
     "name": "",
@@ -1350,7 +1716,10 @@
     "block": "-37~-36",
     "hit": "-1c~+0c",
     "counter": "+23a",
-    "note": "\ncs13~"
+    "note": "\ncs13~",
+    "alternateInputs": [
+      "IZU 4"
+    ]
   },
   {
     "name": "Wakeikazuchi - Misogi",
@@ -1361,7 +1730,10 @@
     "block": "-14~-13",
     "hit": "+14a (+3)",
     "counter": "",
-    "note": "\n,js22~38 fs39~41\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat"
+    "note": "\n,js22~38 fs39~41\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat",
+    "alternateInputs": [
+      "IZU 4,1"
+    ]
   },
   {
     "name": "Mihikarioroshi",
@@ -1372,7 +1744,10 @@
     "block": "-12~-11",
     "hit": "+19a",
     "counter": "",
-    "note": "\npc8~20\n\nSpike\nFrame advantage is -6 if an attack is absorbed"
+    "note": "\npc8~20\n\nSpike\nFrame advantage is -6 if an attack is absorbed",
+    "alternateInputs": [
+      "IZU 1+2"
+    ]
   },
   {
     "name": "Dianthus Garden",
@@ -1383,7 +1758,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+23",
-    "note": "\n\nHoming\nOnly i13 or faster attacks guaranteed on CH"
+    "note": "\n\nHoming\nOnly i13 or faster attacks guaranteed on CH",
+    "alternateInputs": [
+      "IZU f+1+2"
+    ]
   },
   {
     "name": "Genjitsu",
@@ -1394,7 +1772,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws"
+    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Amaterasu",
@@ -1405,7 +1786,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nRestores recoverable health\nOpponent recovers FDFA"
+    "note": "\nRestores recoverable health\nOpponent recovers FDFA",
+    "alternateInputs": [
+      "f+3+4,P (Low)"
+    ]
   },
   {
     "name": "Throw Reversal",
@@ -1416,7 +1800,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3+4,P (Throw)"
+    ]
   },
   {
     "name": "Rurikoukai",
@@ -1427,7 +1814,10 @@
     "block": "-13~-12",
     "hit": "+3c~+4c",
     "counter": "+26a",
-    "note": "\ncs11~"
+    "note": "\ncs11~",
+    "alternateInputs": [
+      "GEN 1"
+    ]
   },
   {
     "name": "Kazama Style Spirit",
@@ -1438,7 +1828,10 @@
     "block": "-13~-12",
     "hit": "+0d",
     "counter": "",
-    "note": "\npc8~\nTransitions to attack throw on front hit only, otherwise knockdown\nDeals recoverable self-damage when not in Heat\nFrame advantage is -9 if an attack is absorbed\nChip damage on block if an attack is absorbed"
+    "note": "\npc8~\nTransitions to attack throw on front hit only, otherwise knockdown\nDeals recoverable self-damage when not in Heat\nFrame advantage is -9 if an attack is absorbed\nChip damage on block if an attack is absorbed",
+    "alternateInputs": [
+      "GEN 2"
+    ]
   },
   {
     "name": "",
@@ -1449,7 +1842,10 @@
     "block": "-4c~-1c",
     "hit": "+4c~+7c",
     "counter": "",
-    "note": "Spike"
+    "note": "Spike",
+    "alternateInputs": [
+      "GEN 3"
+    ]
   },
   {
     "name": "Getsuun Renken",
@@ -1460,7 +1856,10 @@
     "block": "-9",
     "hit": "+33a (+18)",
     "counter": "",
-    "note": "\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "GEN 3,2"
+    ]
   },
   {
     "name": "Nichiun",
@@ -1471,7 +1870,10 @@
     "block": "+4~+6",
     "hit": "+26a (+17)",
     "counter": "",
-    "note": "\njs16~33 fs34~36\n\nHoming\n\nBalcony Break"
+    "note": "\njs16~33 fs34~36\n\nHoming\n\nBalcony Break",
+    "alternateInputs": [
+      "GEN 4"
+    ]
   },
   {
     "name": "Yomotsu Mihashira",
@@ -1482,7 +1884,10 @@
     "block": "-14",
     "hit": "+33 (+5)",
     "counter": "",
-    "note": "\nEnds heat"
+    "note": "\nEnds heat",
+    "alternateInputs": [
+      "in heat GEN 2+3"
+    ]
   },
   {
     "name": "Miare",
@@ -1493,7 +1898,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB"
+    "note": "\nRestores recoverable health with each pulse\nTransition to r30 with u_d\nCancel to r15 with DB",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Ame-no-Sakahoko",
@@ -1504,7 +1912,10 @@
     "block": "-9~-8",
     "hit": "+72a (+56)",
     "counter": "",
-    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\n\nTornado\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "MIA 1"
+    ]
   },
   {
     "name": "Ame-no-Nuboko",
@@ -1515,7 +1926,10 @@
     "block": "-20",
     "hit": "+26a (+0)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": [
+      "MIA 2"
+    ]
   },
   {
     "name": "Ame-no-Nuboko > Heat Dash",
@@ -1526,7 +1940,10 @@
     "block": "+5",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\nChip damage on block\nUnparryable"
+    "note": "\nChip damage on block\nUnparryable",
+    "alternateInputs": [
+      "in heat MIA 2,F"
+    ]
   },
   {
     "name": "Izumo Strike",
@@ -1537,7 +1954,10 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21c",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "MIA 1+2"
+    ]
   },
   {
     "name": "Genjitsu",
@@ -1548,7 +1968,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws"
+    "note": "\nps1~40\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws",
+    "alternateInputs": [
+      "MIA F"
+    ]
   },
   {
     "name": "Kasanegasumi",
@@ -1559,7 +1982,10 @@
     "block": "-9",
     "hit": "+14a (+5)",
     "counter": "+34d (+26)",
-    "note": "\n\nBalcony Break\n\nTornado"
+    "note": "\n\nBalcony Break\n\nTornado",
+    "alternateInputs": [
+      "SS 2"
+    ]
   },
   {
     "name": "Kagura",
@@ -1570,7 +1996,10 @@
     "block": "+6~+8",
     "hit": "+8c~+10c",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nSpike"
+    "note": "\n\nHeat Engager\n\n\nSpike",
+    "alternateInputs": [
+      "SS 4"
+    ]
   },
   {
     "name": "Kagura > Heat Dash",
@@ -1581,7 +2010,10 @@
     "block": "+5~+7",
     "hit": "+67a (+50)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat SS 4,F"
+    ]
   },
   {
     "name": "Sankouchou",
@@ -1592,7 +2024,10 @@
     "block": "",
     "hit": "+7c~+8c",
     "counter": "",
-    "note": "\n\nHoming\n\nSpike\nJail from 1st attack\nRecovery listed is for the last hit"
+    "note": "\n\nHoming\n\nSpike\nJail from 1st attack\nRecovery listed is for the last hit",
+    "alternateInputs": [
+      "SS 1+2"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -1603,7 +2038,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCH state for 5 seconds\nCan't block for 5 seconds"
+    "note": "\nCH state for 5 seconds\nCan't block for 5 seconds",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Attack Reversal",
@@ -1614,7 +2052,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps5~12\nAlternate input: b+2+4\nParries mid or high punches or kicks"
+    "note": "\nps5~12\nAlternate input: b+2+4\nParries mid or high punches or kicks",
+    "alternateInputs": [
+      "b+1+3"
+    ]
   },
   {
     "name": "",
@@ -1625,7 +2066,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nOpponent recovers FDFT"
+    "note": "\nOpponent recovers FDFT",
+    "alternateInputs": [
+      "b+1+3,P"
+    ]
   },
   {
     "name": "Back Handspring",
@@ -1636,7 +2080,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs10~41 fs42~44"
+    "note": "\njs10~41 fs42~44",
+    "alternateInputs": [
+      "UB,b"
+    ]
   },
   {
     "name": "Wall Jump Attack",
@@ -1647,7 +2094,10 @@
     "block": "+4c~+6c",
     "hit": "+22",
     "counter": "",
-    "note": "\nfs5~13 js14~33 fs34~36"
+    "note": "\nfs5~13 js14~33 fs34~36",
+    "alternateInputs": [
+      "(Back to wall) b,b,UB"
+    ]
   },
   {
     "name": "Shiho Nage",
@@ -1658,7 +2108,10 @@
     "block": "+0",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2"
+    "note": "\nThrow break 1 or 2",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Katanuki",
@@ -1669,7 +2122,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nSide switch"
+    "note": "\nThrow break 1 or 2\nSide switch",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Cloud Taste",
@@ -1680,7 +2136,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1\nCan side switch on hit"
+    "note": "\nThrow break 1\nCan side switch on hit",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Wind Wheel",
@@ -1691,7 +2150,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\nSide switch on hit"
+    "note": "\nThrow break 2\nSide switch on hit",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Twisted Limbs",
@@ -1702,7 +2164,10 @@
     "block": "",
     "hit": "+7d",
     "counter": "",
-    "note": "\nUnbreakable\nSide switch"
+    "note": "\nUnbreakable\nSide switch",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "White Mountain",
@@ -1713,7 +2178,10 @@
     "block": "-6",
     "hit": "-6d",
     "counter": "",
-    "note": "\nThrow break 2\n\nFloor Break"
+    "note": "\nThrow break 2\n\nFloor Break",
+    "alternateInputs": [
+      "df+2+3"
+    ]
   },
   {
     "name": "Riai",
@@ -1724,7 +2192,10 @@
     "block": "-6",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1+2"
+    "note": "Throw break 1+2",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Falling Rain",
@@ -1735,7 +2206,10 @@
     "block": "-6",
     "hit": "+56a (+28)",
     "counter": "",
-    "note": "\nThrow break 1+2\nOpponent can tech roll to reduce the landing damage"
+    "note": "\nThrow break 1+2\nOpponent can tech roll to reduce the landing damage",
+    "alternateInputs": [
+      "FC db+1+2"
+    ]
   },
   {
     "name": "Tsukuyomi",
@@ -1746,6 +2220,9 @@
     "block": "-6",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1+2\nAlternate input: IZU.2+3"
+    "note": "\nThrow break 1+2\nAlternate input: IZU.2+3",
+    "alternateInputs": [
+      "IZU 1+4"
+    ]
   }
 ]

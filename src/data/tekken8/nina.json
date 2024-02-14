@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b"
+    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Bullet Assassination (Close)",
@@ -19,7 +22,10 @@
     "block": "+5~+6",
     "hit": "-2d",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nSpike\nTransition to attack throw on hit\nTransition to r30 CD on block only with F\nDeals chip damage on block\nJails"
+    "note": "\n\nHeat Smash\n\nSpike\nTransition to attack throw on hit\nTransition to r30 CD on block only with F\nDeals chip damage on block\nJails",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Bullet Assassination (Far)",
@@ -30,7 +36,10 @@
     "block": "+14",
     "hit": "+43a (+10)",
     "counter": "",
-    "note": "\n\nHeat Smash\nJails"
+    "note": "\n\nHeat Smash\nJails",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Death by Degrees",
@@ -41,7 +50,10 @@
     "block": "-15~-14",
     "hit": "+0d",
     "counter": "",
-    "note": "\npc8~\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health"
+    "note": "\npc8~\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Jab",
@@ -52,7 +64,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Left Right Combo",
@@ -63,7 +78,10 @@
     "block": "-1",
     "hit": "+5",
     "counter": "",
-    "note": "\nJail from 1st attack with 8f delay"
+    "note": "\nJail from 1st attack with 8f delay",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Left Right Combo to Sidestep",
@@ -74,7 +92,10 @@
     "block": "+0",
     "hit": "+11",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,2~D_U"
+    ]
   },
   {
     "name": "",
@@ -85,7 +106,10 @@
     "block": "-3~-2",
     "hit": "+2~+3",
     "counter": "",
-    "note": "\nCombo from 2nd CH with 4f delay\nInput can be delayed 6f"
+    "note": "\nCombo from 2nd CH with 4f delay\nInput can be delayed 6f",
+    "alternateInputs": [
+      "1,2,1"
+    ]
   },
   {
     "name": "Biting Kiss Shot",
@@ -96,7 +120,10 @@
     "block": "-19",
     "hit": "+34a (-24)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nJail from 3rd attack\nCombo from 2nd CH\nChip damage on block"
+    "note": "\n\nBalcony Break\n\nWeapon\nJail from 3rd attack\nCombo from 2nd CH\nChip damage on block",
+    "alternateInputs": [
+      "1,2,1,1+2"
+    ]
   },
   {
     "name": "Bermuda Triangle",
@@ -107,7 +134,10 @@
     "block": "-6",
     "hit": "+20a (+11)",
     "counter": "+49a",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 8f delay\nInput can be delayed 10f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 8f delay\nInput can be delayed 10f",
+    "alternateInputs": [
+      "1,2,4"
+    ]
   },
   {
     "name": "Double Explosion",
@@ -118,7 +148,10 @@
     "block": "-14",
     "hit": "+11a (+2)",
     "counter": "+10 +56a",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 7f delay\nInput can be delayed 10f"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 7f delay\nInput can be delayed 10f",
+    "alternateInputs": [
+      "1,2,1+2"
+    ]
   },
   {
     "name": "PK Combo",
@@ -129,7 +162,10 @@
     "block": "-4~-3",
     "hit": "+1~+2",
     "counter": "+50a",
-    "note": "\nCombo from 1st hit\nMove can be delayed 2f"
+    "note": "\nCombo from 1st hit\nMove can be delayed 2f",
+    "alternateInputs": [
+      "1,4"
+    ]
   },
   {
     "name": "PK Combo > Assassin's Blade",
@@ -140,7 +176,10 @@
     "block": "-11~-10",
     "hit": "+15g~+16g",
     "counter": "+67a (+47a)",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "1,4,1"
+    ]
   },
   {
     "name": "Right Jab",
@@ -151,7 +190,10 @@
     "block": "+1",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Right Jab > Spider Knee",
@@ -162,7 +204,10 @@
     "block": "-13",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nKnee\nCombo from 1st CH with 7f delay\nInput can be delayed 12f\nTransition to Triple Slaps throw automatically on standing front hit\nThrow is unbreakable"
+    "note": "\n\nKnee\nCombo from 1st CH with 7f delay\nInput can be delayed 12f\nTransition to Triple Slaps throw automatically on standing front hit\nThrow is unbreakable",
+    "alternateInputs": [
+      "2,3"
+    ]
   },
   {
     "name": "",
@@ -173,7 +218,10 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -184,7 +232,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "Jail from 1st attack"
+    "note": "Jail from 1st attack",
+    "alternateInputs": [
+      "3,3"
+    ]
   },
   {
     "name": "",
@@ -195,7 +246,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "Jail from 1st attack"
+    "note": "Jail from 1st attack",
+    "alternateInputs": [
+      "3,3,3"
+    ]
   },
   {
     "name": "Flash Kicks",
@@ -206,7 +260,10 @@
     "block": "-6",
     "hit": "+20a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 3rd CH with 6f delay\nInput can be delayed 10f"
+    "note": "\n\nBalcony Break\nCombo from 3rd CH with 6f delay\nInput can be delayed 10f",
+    "alternateInputs": [
+      "3,3,3,4"
+    ]
   },
   {
     "name": "Left High Kick > Spiral Explosion",
@@ -217,7 +274,10 @@
     "block": "-9",
     "hit": "+36a",
     "counter": "",
-    "note": "\n\nBalcony Break\nSide roll takes 42? frames\nChip damage on block\nCan recover in r38 FC with D"
+    "note": "\n\nBalcony Break\nSide roll takes 42? frames\nChip damage on block\nCan recover in r38 FC with D",
+    "alternateInputs": [
+      "3,2"
+    ]
   },
   {
     "name": "Head Ringer",
@@ -228,7 +288,10 @@
     "block": "-6",
     "hit": "+20a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay\nInput can be delayed 10f"
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay\nInput can be delayed 10f",
+    "alternateInputs": [
+      "3,4"
+    ]
   },
   {
     "name": "High Kick",
@@ -239,7 +302,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "+7s",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Right High Kick to Spiral Explosion",
@@ -250,7 +316,10 @@
     "block": "-9",
     "hit": "+36a",
     "counter": "",
-    "note": "\n\nBalcony Break\nSide roll takes 42? frames\nChip damage on block\nCan recover in r38 FC with D"
+    "note": "\n\nBalcony Break\nSide roll takes 42? frames\nChip damage on block\nCan recover in r38 FC with D",
+    "alternateInputs": [
+      "4,2"
+    ]
   },
   {
     "name": "Easy Prey Kick Combo",
@@ -261,7 +330,10 @@
     "block": "-2~-1",
     "hit": "+5c~+6c",
     "counter": "",
-    "note": "Spike"
+    "note": "Spike",
+    "alternateInputs": [
+      "4,3"
+    ]
   },
   {
     "name": "",
@@ -272,7 +344,10 @@
     "block": "-8",
     "hit": "+3~+4",
     "counter": "",
-    "note": "\n,js21~34 fs35~37Combo from 1st CH"
+    "note": "\n,js21~34 fs35~37Combo from 1st CH",
+    "alternateInputs": [
+      "4,4"
+    ]
   },
   {
     "name": "High Kick > Deadly Hunter",
@@ -283,7 +358,10 @@
     "block": "-12~-11",
     "hit": "+4c~+5c",
     "counter": "+46a",
-    "note": "\n,cs16~55Combo from 2nd CH"
+    "note": "\n,cs16~55Combo from 2nd CH",
+    "alternateInputs": [
+      "4,4,4"
+    ]
   },
   {
     "name": "High Kick > Deadly Assault",
@@ -294,7 +372,10 @@
     "block": "-6~+0",
     "hit": "+20a",
     "counter": "",
-    "note": "\n,js29~36 fs37~42\n\nSpike\nCombo from 2nd CH"
+    "note": "\n,js29~36 fs37~42\n\nSpike\nCombo from 2nd CH",
+    "alternateInputs": [
+      "4,4,3+4"
+    ]
   },
   {
     "name": "Ray Hands",
@@ -305,7 +386,10 @@
     "block": "-3~-2",
     "hit": "+9~+10",
     "counter": "",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Fatal Blow",
@@ -316,7 +400,10 @@
     "block": "-10~-9",
     "hit": "+11g~+12g",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming"
+    "note": "\n\nBalcony Break\n\nHoming",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "Fatal Blow to Ducking Step",
@@ -327,7 +414,10 @@
     "block": "-6~-5",
     "hit": "+15g~+16g",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3+4~F"
+    ]
   },
   {
     "name": "Ivory Cutter",
@@ -338,7 +428,10 @@
     "block": "-5~-4",
     "hit": "+4c~+5c",
     "counter": "+6c~+7c",
-    "note": "\n\nSpike\nSecond hit is +7c~+8c on CH if the first hit whiffs"
+    "note": "\n\nSpike\nSecond hit is +7c~+8c on CH if the first hit whiffs",
+    "alternateInputs": [
+      "1+4"
+    ]
   },
   {
     "name": "",
@@ -349,7 +442,10 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "",
@@ -360,7 +456,10 @@
     "block": "-13~-12",
     "hit": "-6s~-5s",
     "counter": "",
-    "note": "\nCombo from 1st CH with 9f delay"
+    "note": "\nCombo from 1st CH with 9f delay",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "Swallowtail",
@@ -371,7 +470,10 @@
     "block": "-15~-13",
     "hit": "+27a",
     "counter": "",
-    "note": "\n,js26~40 fs41~43\n\nTornado\nCombo from 2nd hit with 2f delay\nCombo from 1st CH\nInput can be delayed 19f\nMove can be delayed 18f"
+    "note": "\n,js26~40 fs41~43\n\nTornado\nCombo from 2nd hit with 2f delay\nCombo from 1st CH\nInput can be delayed 19f\nMove can be delayed 18f",
+    "alternateInputs": [
+      "f+2,1,3"
+    ]
   },
   {
     "name": "Mimosa Combo",
@@ -382,7 +484,10 @@
     "block": "-3~-1",
     "hit": "+23a (+14)",
     "counter": "+40a",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit with 4f delay\nCombo from 1st CH\nInput can be delayed 19f\nMove can be delayed 18f"
+    "note": "\n\nBalcony Break\nCombo from 2nd hit with 4f delay\nCombo from 1st CH\nInput can be delayed 19f\nMove can be delayed 18f",
+    "alternateInputs": [
+      "f+2,1,4"
+    ]
   },
   {
     "name": "Siren's Kiss",
@@ -393,7 +498,10 @@
     "block": "+3~+4",
     "hit": "+24a (+15)",
     "counter": "+54a",
-    "note": "\n\nBalcony Break\n2nd hit is duckable if the 1st is blocked\n2nd hit is homing"
+    "note": "\n\nBalcony Break\n2nd hit is duckable if the 1st is blocked\n2nd hit is homing",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "",
@@ -404,7 +512,10 @@
     "block": "-5~-4",
     "hit": "+5~+6",
     "counter": "",
-    "note": "\njs12~24 fs22~24"
+    "note": "\njs12~24 fs22~24",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "",
@@ -415,7 +526,10 @@
     "block": "+2~+3",
     "hit": "+12~+13",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+4~D_U"
+    ]
   },
   {
     "name": "Aconite",
@@ -426,7 +540,10 @@
     "block": "-9",
     "hit": "+39a (-19)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 1st hit"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 1st hit",
+    "alternateInputs": [
+      "f+4,2"
+    ]
   },
   {
     "name": "Aconite",
@@ -437,7 +554,10 @@
     "block": "+5",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat f+4,2"
+    ]
   },
   {
     "name": "Blonde Bomb",
@@ -448,7 +568,10 @@
     "block": "-14",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "\npc8~16\n\nHeat Engager\n\n\nBalcony Break\nAlternate input: WS.1+2\nFrame advantage is -8 if an attack is absorbed\nDeals chip damage if an attack is absorbed"
+    "note": "\npc8~16\n\nHeat Engager\n\n\nBalcony Break\nAlternate input: WS.1+2\nFrame advantage is -8 if an attack is absorbed\nDeals chip damage if an attack is absorbed",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Blonde Bomb",
@@ -459,7 +582,10 @@
     "block": "+5",
     "hit": "+43a (+35)",
     "counter": "",
-    "note": "\npc8~16\nAlternate input: WS.1+2\nFrame advantage is -8 if an attack is absorbed\nDeals chip damage if an attack is absorbed"
+    "note": "\npc8~16\nAlternate input: WS.1+2\nFrame advantage is -8 if an attack is absorbed\nDeals chip damage if an attack is absorbed",
+    "alternateInputs": [
+      "in heat f+1+2,f"
+    ]
   },
   {
     "name": "Uppercut",
@@ -470,7 +596,10 @@
     "block": "-1~+0",
     "hit": "+5~+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Uppercut > Jab",
@@ -481,7 +610,10 @@
     "block": "-3",
     "hit": "+2",
     "counter": "+9",
-    "note": "\nJail from 1st attack"
+    "note": "\nJail from 1st attack",
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Uppercut > Jab > Sidestep",
@@ -492,7 +624,10 @@
     "block": "-1",
     "hit": "+4",
     "counter": "+11",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1,2~D_U"
+    ]
   },
   {
     "name": "",
@@ -503,7 +638,10 @@
     "block": "+0",
     "hit": "+5",
     "counter": "+12g",
-    "note": "\n,cs1~"
+    "note": "\n,cs1~",
+    "alternateInputs": [
+      "df+1,2~F"
+    ]
   },
   {
     "name": "Silent Uppercut",
@@ -514,7 +652,10 @@
     "block": "-7~-6",
     "hit": "+34a (+24)",
     "counter": "",
-    "note": "\n+4s~+5s on hit against crouching opponent\nDoes not launch crouching opponent"
+    "note": "\n+4s~+5s on hit against crouching opponent\nDoes not launch crouching opponent",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "",
@@ -525,7 +666,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "",
@@ -536,7 +680,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "\nCombo from 1st CH\nInput can be delayed 10f"
+    "note": "\nCombo from 1st CH\nInput can be delayed 10f",
+    "alternateInputs": [
+      "df+3,1"
+    ]
   },
   {
     "name": "",
@@ -547,7 +694,10 @@
     "block": "-19",
     "hit": "-8",
     "counter": "-7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3,1~D_U"
+    ]
   },
   {
     "name": "Dead Drop Combo",
@@ -558,7 +708,10 @@
     "block": "-12~-11",
     "hit": "+16a",
     "counter": "+16a",
-    "note": "\n\nBalcony Break\n\nSpike\nCombo from 2nd hit\nCombo from 1st CH\nOpponent is closer on CH"
+    "note": "\n\nBalcony Break\n\nSpike\nCombo from 2nd hit\nCombo from 1st CH\nOpponent is closer on CH",
+    "alternateInputs": [
+      "df+3,1,2"
+    ]
   },
   {
     "name": "",
@@ -569,7 +722,10 @@
     "block": "+1",
     "hit": "+5",
     "counter": "+12",
-    "note": "Combo from 1st hit with 10f delay"
+    "note": "Combo from 1st hit with 10f delay",
+    "alternateInputs": [
+      "df+3,2"
+    ]
   },
   {
     "name": "",
@@ -580,7 +736,10 @@
     "block": "+0",
     "hit": "+4",
     "counter": "+11",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3,2~u_d"
+    ]
   },
   {
     "name": "Creeping Step",
@@ -591,7 +750,10 @@
     "block": "-1",
     "hit": "+3",
     "counter": "+10",
-    "note": "\n,cs1~"
+    "note": "\n,cs1~",
+    "alternateInputs": [
+      "df+3,2~F"
+    ]
   },
   {
     "name": "",
@@ -602,7 +764,10 @@
     "block": "+8",
     "hit": "+12",
     "counter": "+19",
-    "note": "\n,cs1~"
+    "note": "\n,cs1~",
+    "alternateInputs": [
+      "df+3,2~B"
+    ]
   },
   {
     "name": "",
@@ -613,7 +778,10 @@
     "block": "-3",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 2nd CH with 9f delay\nJail from 2nd block with 3f delay"
+    "note": "\nCombo from 2nd CH with 9f delay\nJail from 2nd block with 3f delay",
+    "alternateInputs": [
+      "df+3,2,1"
+    ]
   },
   {
     "name": "Creeping Snake",
@@ -624,7 +792,10 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": "\n,cs10~Combo from 3rd CH with 2f delay"
+    "note": "\n,cs10~Combo from 3rd CH with 2f delay",
+    "alternateInputs": [
+      "df+3,2,1,4"
+    ]
   },
   {
     "name": "Creeping Snake > Geyser Cannon",
@@ -635,7 +806,10 @@
     "block": "-17~-16",
     "hit": "+36a(+26)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 2nd CH with 10f delay"
+    "note": "\n\nTornado\nCombo from 2nd CH with 10f delay",
+    "alternateInputs": [
+      "df+3,2,3"
+    ]
   },
   {
     "name": "Creeping Snake to Right High Kick",
@@ -646,7 +820,10 @@
     "block": "-6",
     "hit": "+20a",
     "counter": "+49a",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH with 8f delay"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH with 8f delay",
+    "alternateInputs": [
+      "df+3,2,4"
+    ]
   },
   {
     "name": "Bisection Combo",
@@ -657,7 +834,10 @@
     "block": "-10",
     "hit": "+2c",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st hit with 1f delay\nInput can be delayed 10f"
+    "note": "\n\nSpike\nCombo from 1st hit with 1f delay\nInput can be delayed 10f",
+    "alternateInputs": [
+      "df+3,3"
+    ]
   },
   {
     "name": "Wipe the Floor",
@@ -668,7 +848,10 @@
     "block": "-37",
     "hit": "+14a",
     "counter": "+27a",
-    "note": "\ncs1~\nAlternate input: FC.df+4\nPowered up input: d,DF+4"
+    "note": "\ncs1~\nAlternate input: FC.df+4\nPowered up input: d,DF+4",
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "Low Jab",
@@ -679,7 +862,10 @@
     "block": "-5",
     "hit": "+5",
     "counter": "",
-    "note": "\ncs4~\nTransition to r? with f"
+    "note": "\ncs4~\nTransition to r? with f",
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Low Jab > Mid Kick",
@@ -690,7 +876,10 @@
     "block": "-11~-10",
     "hit": "+0~+1",
     "counter": "",
-    "note": "\nCombo from 1st CH\nAlternate input: FC.1,4"
+    "note": "\nCombo from 1st CH\nAlternate input: FC.1,4",
+    "alternateInputs": [
+      "d+1,4"
+    ]
   },
   {
     "name": "",
@@ -701,7 +890,10 @@
     "block": "-12",
     "hit": "+0",
     "counter": "+5",
-    "note": "\ncs6~"
+    "note": "\ncs6~",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Vertical Slitter",
@@ -712,7 +904,10 @@
     "block": "-12~-11",
     "hit": "+17a (+0)",
     "counter": "+71a (+55)",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st CH"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st CH",
+    "alternateInputs": [
+      "d+2,2"
+    ]
   },
   {
     "name": "Left Spin Low Kick",
@@ -723,7 +918,10 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\ncs4~Alternate inputs: FC.3 or uf,n,D+3"
+    "note": "\ncs4~Alternate inputs: FC.3 or uf,n,D+3",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Left Spin Low Kick > Right Upper",
@@ -734,7 +932,10 @@
     "block": "-11~-9",
     "hit": "+12~+14",
     "counter": "",
-    "note": "\nCombo from 1st CH\nAlternate inputs: FC.3,2 or uf,n,D+3,2"
+    "note": "\nCombo from 1st CH\nAlternate inputs: FC.3,2 or uf,n,D+3,2",
+    "alternateInputs": [
+      "d+3,2"
+    ]
   },
   {
     "name": "",
@@ -745,7 +946,10 @@
     "block": "-8",
     "hit": "+1",
     "counter": "",
-    "note": "\nCombo from 1st CH\nAlternate inputs: FC.3,4 or uf,n,D+3,4"
+    "note": "\nCombo from 1st CH\nAlternate inputs: FC.3,4 or uf,n,D+3,4",
+    "alternateInputs": [
+      "d+3,4"
+    ]
   },
   {
     "name": "Easy Prey",
@@ -756,7 +960,10 @@
     "block": "-7~-6",
     "hit": "+22a",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nSpike\nCombo from 2nd hit\nAlternate inputs: FC.3,4,3 or uf,n,D+3,4,3"
+    "note": "\n\nBalcony Break\n\nSpike\nCombo from 2nd hit\nAlternate inputs: FC.3,4,3 or uf,n,D+3,4,3",
+    "alternateInputs": [
+      "d+3,4,3"
+    ]
   },
   {
     "name": "Right Low Kick",
@@ -767,7 +974,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\ncs4~"
+    "note": "\ncs4~",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Right Low Kick > Back Spin Chop",
@@ -778,7 +988,10 @@
     "block": "+0",
     "hit": "+6",
     "counter": "+11",
-    "note": "\nCombo from 1st CH with 6f delay\nInput can be delayed 9f\nAlternate inputs: FC.4,1"
+    "note": "\nCombo from 1st CH with 6f delay\nInput can be delayed 9f\nAlternate inputs: FC.4,1",
+    "alternateInputs": [
+      "d+4,1"
+    ]
   },
   {
     "name": "",
@@ -789,7 +1002,10 @@
     "block": "-21?",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4,1~D_U"
+    ]
   },
   {
     "name": "Right Backhand Body Blow",
@@ -800,7 +1016,10 @@
     "block": "-5~-4",
     "hit": "+8~+9",
     "counter": "+11~+12",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Stiletto Heel",
@@ -811,7 +1030,10 @@
     "block": "-13",
     "hit": "+4c",
     "counter": "+13a",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Slicer",
@@ -822,7 +1044,10 @@
     "block": "-9a",
     "hit": "+2",
     "counter": "",
-    "note": "\ncs6~16"
+    "note": "\ncs6~16",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Geyser Cannon Combo",
@@ -833,7 +1058,10 @@
     "block": "-13~-12",
     "hit": "+71a (+55)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st CH"
+    "note": "\n\nTornado\nCombo from 1st CH",
+    "alternateInputs": [
+      "db+4,3"
+    ]
   },
   {
     "name": "Reverberation Palm Bomb",
@@ -844,7 +1072,10 @@
     "block": "-14",
     "hit": "+10a (+1)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Reverberation Palm Bomb > Heat Dash",
@@ -855,7 +1086,10 @@
     "block": "+5",
     "hit": "+43a (+35)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat db+1+2,F"
+    ]
   },
   {
     "name": "Geyser Cannon",
@@ -866,7 +1100,10 @@
     "block": "-17~-16",
     "hit": "+36 (+26)",
     "counter": "",
-    "note": "\n\nTornado\nAlternate input: WS.3+4"
+    "note": "\n\nTornado\nAlternate input: WS.3+4",
+    "alternateInputs": [
+      "db+3+4"
+    ]
   },
   {
     "name": "Throat Slasher",
@@ -877,7 +1114,10 @@
     "block": "-7~-6",
     "hit": "+4~-5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Throat Slasher > Glass Jaw",
@@ -888,7 +1128,10 @@
     "block": "-12~-11",
     "hit": "+7~+8",
     "counter": "+71a (+55)",
-    "note": "\n\nTornado\nCombo from 1st hit\nGrounded hit can be inconsistent"
+    "note": "\n\nTornado\nCombo from 1st hit\nGrounded hit can be inconsistent",
+    "alternateInputs": [
+      "b+1,4"
+    ]
   },
   {
     "name": "",
@@ -899,7 +1142,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "\n\nHoming\nFemale characters can slap back with 2"
+    "note": "\n\nHoming\nFemale characters can slap back with 2",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "",
@@ -910,7 +1156,10 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "b+2,2"
+    ]
   },
   {
     "name": "Backhand Combo",
@@ -921,7 +1170,10 @@
     "block": "-9~-8",
     "hit": "+9g~+10g",
     "counter": "+45a",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nCombo from 2nd CH with 5f delay\nInput can be delayed 13f"
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nCombo from 2nd CH with 5f delay\nInput can be delayed 13f",
+    "alternateInputs": [
+      "b+2,2,2"
+    ]
   },
   {
     "name": "Backhand Combo > Sidestep",
@@ -932,7 +1184,10 @@
     "block": "-15~?",
     "hit": "+1~+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2,2,2~D_U"
+    ]
   },
   {
     "name": "",
@@ -943,7 +1198,10 @@
     "block": "-6",
     "hit": "+6c",
     "counter": "",
-    "note": "Spike"
+    "note": "Spike",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Stinger Heel Kick Combo",
@@ -954,7 +1212,10 @@
     "block": "-8~-7",
     "hit": "+19a",
     "counter": "+45a",
-    "note": "\nCombo from 1st hit with 16f delay\nInput can be delayed 17f"
+    "note": "\nCombo from 1st hit with 16f delay\nInput can be delayed 17f",
+    "alternateInputs": [
+      "b+3,4"
+    ]
   },
   {
     "name": "Spear Kick",
@@ -965,7 +1226,10 @@
     "block": "-9",
     "hit": "+9",
     "counter": "+12",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Shockwave Palm",
@@ -976,7 +1240,10 @@
     "block": "-7",
     "hit": "+5a",
     "counter": "",
-    "note": "\nCombo from 1st hit only if the second hit connects on i8\n2nd hit available only as combo from 1st\nIf the second hit connects on i9~10, frame advantage on hit will be -16~-15\nErases opponent recoverable health on hit"
+    "note": "\nCombo from 1st hit only if the second hit connects on i8\n2nd hit available only as combo from 1st\nIf the second hit connects on i9~10, frame advantage on hit will be -16~-15\nErases opponent recoverable health on hit",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Shockwave Palm > Kiss Shot Penetrator",
@@ -987,7 +1254,10 @@
     "block": "+2",
     "hit": "+33a (+7)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit only if the second hit connects on i8\n2nd hit available only as combo from 1st\nIf the second hit connects on i9~10, frame advantage on hit will be -16~-15\nErases opponent recoverable health on hit\nPartially uses remaining Heat time"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit only if the second hit connects on i8\n2nd hit available only as combo from 1st\nIf the second hit connects on i9~10, frame advantage on hit will be -16~-15\nErases opponent recoverable health on hit\nPartially uses remaining Heat time",
+    "alternateInputs": [
+      "in heat b+1+2"
+    ]
   },
   {
     "name": "Out of Sight",
@@ -998,7 +1268,10 @@
     "block": "-9~-8",
     "hit": "+6~+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Out of Sight > Assassin Somersault Kick",
@@ -1009,7 +1282,10 @@
     "block": "-15~-14",
     "hit": "+27a",
     "counter": "",
-    "note": "\n,js31~43 fs44~46Tornado"
+    "note": "\n,js31~43 fs44~46Tornado",
+    "alternateInputs": [
+      "b+3+4,3"
+    ]
   },
   {
     "name": "Out of Sight > Kiss Shot",
@@ -1020,7 +1296,10 @@
     "block": "-9",
     "hit": "+34a (-24)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPower up during Heat"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPower up during Heat",
+    "alternateInputs": [
+      "b+3+4,1+2"
+    ]
   },
   {
     "name": "Out of Sight > Kiss Shot",
@@ -1031,7 +1310,10 @@
     "block": "-2",
     "hit": "+29a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time",
+    "alternateInputs": [
+      "in heat b+3+4,1+2"
+    ]
   },
   {
     "name": "Reverse Ivory Cutter",
@@ -1042,7 +1324,10 @@
     "block": "-15~-14",
     "hit": "+34a (+24)",
     "counter": "",
-    "note": "Tornado"
+    "note": "Tornado",
+    "alternateInputs": [
+      "b+1+4"
+    ]
   },
   {
     "name": "Power Charge",
@@ -1053,7 +1338,10 @@
     "block": "",
     "hit": "+25a",
     "counter": "",
-    "note": "Cancel to r25 with b,b"
+    "note": "Cancel to r25 with b,b",
+    "alternateInputs": [
+      "b+2+3"
+    ]
   },
   {
     "name": "Left Backhand Body Blow",
@@ -1064,7 +1352,10 @@
     "block": "-16~-15",
     "hit": "+20a",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ub+1"
+    ]
   },
   {
     "name": "",
@@ -1075,7 +1366,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\njs6~26 fs27~29"
+    "note": "\njs6~26 fs27~29",
+    "alternateInputs": [
+      "ub+3"
+    ]
   },
   {
     "name": "",
@@ -1086,7 +1380,10 @@
     "block": "-15",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "\njs6~26 fs27~29Balcony Break"
+    "note": "\njs6~26 fs27~29Balcony Break",
+    "alternateInputs": [
+      "u+3"
+    ]
   },
   {
     "name": "Leaping Axe Kick",
@@ -1097,7 +1394,10 @@
     "block": "+0c~+5c",
     "hit": "+5c~+10c",
     "counter": "+22a",
-    "note": "\njs7~30 fs31~33\n\nSpike\nAlternate input: ub+4"
+    "note": "\njs7~30 fs31~33\n\nSpike\nAlternate input: ub+4",
+    "alternateInputs": [
+      "u+4"
+    ]
   },
   {
     "name": "Skull Splitter",
@@ -1108,7 +1408,10 @@
     "block": "-5",
     "hit": "+26a",
     "counter": "",
-    "note": "\njs10~25Spike"
+    "note": "\njs10~25Spike",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "",
@@ -1119,7 +1422,10 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "Binding Whip",
@@ -1130,7 +1436,10 @@
     "block": "-13",
     "hit": "+49a (+40)",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st hit with 9f delay\nInput can be delayed 9f\nMove can be delayed 7f"
+    "note": "\n\nSpike\nCombo from 1st hit with 9f delay\nInput can be delayed 9f\nMove can be delayed 7f",
+    "alternateInputs": [
+      "uf+2,1"
+    ]
   },
   {
     "name": "Catapult Kick",
@@ -1141,7 +1450,10 @@
     "block": "-10",
     "hit": "+21 (+11)",
     "counter": "",
-    "note": "\njs6~26 fs27~29Balcony Break"
+    "note": "\njs6~26 fs27~29Balcony Break",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "",
@@ -1152,7 +1464,10 @@
     "block": "-9",
     "hit": "-1",
     "counter": "",
-    "note": "\njs9~30 fs31~33"
+    "note": "\njs9~30 fs31~33",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "",
@@ -1163,7 +1478,10 @@
     "block": "-19",
     "hit": "-8",
     "counter": "",
-    "note": "\n,cs17~46Combo from 1st CH"
+    "note": "\n,cs17~46Combo from 1st CH",
+    "alternateInputs": [
+      "uf+4,3"
+    ]
   },
   {
     "name": "Can Opener",
@@ -1174,7 +1492,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "Combo from 2nd hit"
+    "note": "Combo from 2nd hit",
+    "alternateInputs": [
+      "uf+4,3,4"
+    ]
   },
   {
     "name": "",
@@ -1185,7 +1506,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+4,3,4~D_U"
+    ]
   },
   {
     "name": "Running Jump Kick",
@@ -1196,7 +1520,10 @@
     "block": "-23a~-16a",
     "hit": "+9a (-1)",
     "counter": "",
-    "note": "\njs3~\n\nBalcony Break\nTransition to throw on close range front hit"
+    "note": "\njs3~\n\nBalcony Break\nTransition to throw on close range front hit",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "",
@@ -1207,7 +1534,10 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\njs9~ cs34~"
+    "note": "\njs9~ cs34~",
+    "alternateInputs": [
+      "uf,n,D+3"
+    ]
   },
   {
     "name": "Hopping Low Kick to Right Uppercut",
@@ -1218,7 +1548,10 @@
     "block": "-11~-9",
     "hit": "+12~+14",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "uf,n,D+3,2"
+    ]
   },
   {
     "name": "",
@@ -1229,7 +1562,10 @@
     "block": "-8",
     "hit": "+1",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "uf,n,D+3,4"
+    ]
   },
   {
     "name": "Hopping Low Kick to Easy Prey",
@@ -1240,7 +1576,10 @@
     "block": "-7~-6",
     "hit": "+22a",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nSpike\nCombo from 2nd hit"
+    "note": "\n\nBalcony Break\n\nSpike\nCombo from 2nd hit",
+    "alternateInputs": [
+      "uf,n,D+3,4,3"
+    ]
   },
   {
     "name": "Sunset Strike",
@@ -1251,7 +1590,10 @@
     "block": "-4",
     "hit": "+32a (+24)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Bad Habit",
@@ -1262,7 +1604,10 @@
     "block": "-14",
     "hit": "+8",
     "counter": "+52a",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Kneel Kick",
@@ -1273,7 +1618,10 @@
     "block": "-10~-6",
     "hit": "+9c~+13c",
     "counter": "+21a",
-    "note": "\njs4~\nTech roll to r32 FC on frames 29~34\n5 recoverable self-damage on whiff without tech roll\nClean hit on block +16g~+20g, 30 damage"
+    "note": "\njs4~\nTech roll to r32 FC on frames 29~34\n5 recoverable self-damage on whiff without tech roll\nClean hit on block +16g~+20g, 30 damage",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "Bombshell Blast",
@@ -1284,7 +1632,10 @@
     "block": "-5~-4",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "Chip damage on block"
+    "note": "Chip damage on block",
+    "alternateInputs": [
+      "f,F+1+2"
+    ]
   },
   {
     "name": "Bombshell Blast",
@@ -1295,7 +1646,10 @@
     "block": "+11g~+12g",
     "hit": "+19a (+9)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "f,F+1+2*"
+    ]
   },
   {
     "name": "Wipe the Floor",
@@ -1306,7 +1660,10 @@
     "block": "-37",
     "hit": "+14a",
     "counter": "+27a",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "d,DF+4"
+    ]
   },
   {
     "name": "Evil Mist",
@@ -1317,7 +1674,10 @@
     "block": "",
     "hit": "+36g~+50g",
     "counter": "",
-    "note": "\ncs1~37Alternate input: qcf+2+3"
+    "note": "\ncs1~37Alternate input: qcf+2+3",
+    "alternateInputs": [
+      "db,qcf,n,DB+2+3"
+    ]
   },
   {
     "name": "",
@@ -1328,7 +1688,10 @@
     "block": "-13~-12",
     "hit": "-2~-1",
     "counter": "",
-    "note": "\njs4~18 fs19~21"
+    "note": "\njs4~18 fs19~21",
+    "alternateInputs": [
+      "Win rage 3"
+    ]
   },
   {
     "name": "Electric Ray",
@@ -1339,7 +1702,10 @@
     "block": "-4~-1",
     "hit": "+17a",
     "counter": "",
-    "note": "\n,js19~34 fs35~37\n\nSpike\nCombo from 1st hit"
+    "note": "\n,js19~34 fs35~37\n\nSpike\nCombo from 1st hit",
+    "alternateInputs": [
+      "Win rage 3,3"
+    ]
   },
   {
     "name": "Stingray",
@@ -1350,7 +1716,10 @@
     "block": "-13~-12",
     "hit": "+34a (+19)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit"
+    "note": "\n\nTornado\nCombo from 1st hit",
+    "alternateInputs": [
+      "Win rage 3,4"
+    ]
   },
   {
     "name": "Spiral Bombshell Blast",
@@ -1361,7 +1730,10 @@
     "block": "+4~+5",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "\njs5~14 fs15~17\n\nHeat Engager\n\n\nBalcony Break\nChip damage on block"
+    "note": "\njs5~14 fs15~17\n\nHeat Engager\n\n\nBalcony Break\nChip damage on block",
+    "alternateInputs": [
+      "Win rage 1+2"
+    ]
   },
   {
     "name": "Spiral Bombshell Blast",
@@ -1372,7 +1744,10 @@
     "block": "+5",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\njs5~14 fs15~17"
+    "note": "\njs5~14 fs15~17",
+    "alternateInputs": [
+      "Win rage 1+2"
+    ]
   },
   {
     "name": "",
@@ -1383,7 +1758,10 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS 1"
+    ]
   },
   {
     "name": "Diving Hornet",
@@ -1394,7 +1772,10 @@
     "block": "-3c~-2c",
     "hit": "+17a",
     "counter": "",
-    "note": "\n\nSpike\nMove can be delayed 3f"
+    "note": "\n\nSpike\nMove can be delayed 3f",
+    "alternateInputs": [
+      "WS 1,4"
+    ]
   },
   {
     "name": "Fluttering Kiss Shot",
@@ -1405,7 +1786,10 @@
     "block": "-9",
     "hit": "+34a (-24)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPower up during Heat"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPower up during Heat",
+    "alternateInputs": [
+      "WS 1,1+2"
+    ]
   },
   {
     "name": "Fluttering Kiss Shot",
@@ -1416,7 +1800,10 @@
     "block": "-2",
     "hit": "+29a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time",
+    "alternateInputs": [
+      "in heat WS 1,1+2"
+    ]
   },
   {
     "name": "Palm Uppercut",
@@ -1427,7 +1814,10 @@
     "block": "-13~-12",
     "hit": "+28a (+18)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS 2"
+    ]
   },
   {
     "name": "Spider Knee",
@@ -1438,7 +1828,10 @@
     "block": "-13",
     "hit": "+2",
     "counter": "",
-    "note": "\n\nKnee\nTransition to Triple Slaps throw automatically on standing front hit"
+    "note": "\n\nKnee\nTransition to Triple Slaps throw automatically on standing front hit",
+    "alternateInputs": [
+      "WS 3"
+    ]
   },
   {
     "name": "Toe Smash",
@@ -1449,7 +1842,10 @@
     "block": "-4~-3",
     "hit": "+7~+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS 4"
+    ]
   },
   {
     "name": "Toe Smash > Spiral Explosion",
@@ -1460,7 +1856,10 @@
     "block": "-9",
     "hit": "+36a",
     "counter": "",
-    "note": "\n\nBalcony Break\nSide roll takes 42? frames\nChip damage on block\nCan recover in r38 FC with D"
+    "note": "\n\nBalcony Break\nSide roll takes 42? frames\nChip damage on block\nCan recover in r38 FC with D",
+    "alternateInputs": [
+      "WS 4,2"
+    ]
   },
   {
     "name": "Flashing Escape",
@@ -1471,7 +1870,10 @@
     "block": "-10",
     "hit": "+14a (+5)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH"
+    "note": "\n\nBalcony Break\nCombo from 1st CH",
+    "alternateInputs": [
+      "WS 4,3"
+    ]
   },
   {
     "name": "Haematopus Kiss Shot",
@@ -1482,7 +1884,10 @@
     "block": "-9",
     "hit": "+34a (-24)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nChip damage on block\nPower up during Heat"
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nChip damage on block\nPower up during Heat",
+    "alternateInputs": [
+      "WS 4,1+2"
+    ]
   },
   {
     "name": "Haematopus Kiss Shot",
@@ -1493,7 +1898,10 @@
     "block": "-2",
     "hit": "+29a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nChip damage on block\nPartially uses remaining Heat time"
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nChip damage on block\nPartially uses remaining Heat time",
+    "alternateInputs": [
+      "in heat WS 4,3,1+2"
+    ]
   },
   {
     "name": "Geyser Cannon",
@@ -1504,7 +1912,10 @@
     "block": "-17~-16",
     "hit": "+36 (+26)",
     "counter": "",
-    "note": "\n\nTornado\nAlternate input: db+3+4"
+    "note": "\n\nTornado\nAlternate input: db+3+4",
+    "alternateInputs": [
+      "WS 3+4"
+    ]
   },
   {
     "name": "",
@@ -1515,7 +1926,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs1~Transition to r24 with f"
+    "note": "\ncs1~Transition to r24 with f",
+    "alternateInputs": [
+      "FC 1"
+    ]
   },
   {
     "name": "",
@@ -1526,7 +1940,10 @@
     "block": "-11~-10",
     "hit": "+0~+1",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "FC 1,4"
+    ]
   },
   {
     "name": "",
@@ -1537,7 +1954,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "FC 2"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -1548,7 +1968,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCH state for 5 seconds\nCan't block for 5 seconds"
+    "note": "\nCH state for 5 seconds\nCan't block for 5 seconds",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Snakeshot",
@@ -1559,7 +1982,10 @@
     "block": "-10~-9",
     "hit": "+3~+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS 1"
+    ]
   },
   {
     "name": "Snakeshot > Ducking Step",
@@ -1570,7 +1996,10 @@
     "block": "+10g~+11",
     "hit": "+23g~+24g",
     "counter": "",
-    "note": "\n,cs1~20"
+    "note": "\n,cs1~20",
+    "alternateInputs": [
+      "SS 1,F"
+    ]
   },
   {
     "name": "Snakeshot > Sway",
@@ -1581,7 +2010,10 @@
     "block": "+10g~+11",
     "hit": "+23g~+24g",
     "counter": "",
-    "note": "\n,cs1~20"
+    "note": "\n,cs1~20",
+    "alternateInputs": [
+      "SS 1,B"
+    ]
   },
   {
     "name": "Double Shot",
@@ -1592,7 +2024,10 @@
     "block": "-3~-1",
     "hit": "+3~+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS 1,2"
+    ]
   },
   {
     "name": "Lift Shot",
@@ -1603,7 +2038,10 @@
     "block": "-14~-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS 2"
+    ]
   },
   {
     "name": "Heel Slicer",
@@ -1614,7 +2052,10 @@
     "block": "-14",
     "hit": "+6c",
     "counter": "",
-    "note": "\ncs6~39Sidestep adds minimum 9 frames, total startup is i29"
+    "note": "\ncs6~39Sidestep adds minimum 9 frames, total startup is i29",
+    "alternateInputs": [
+      "SS 4"
+    ]
   },
   {
     "name": "Tranquilizer",
@@ -1625,7 +2066,10 @@
     "block": "-7",
     "hit": "+37a (-21)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH"
+    "note": "\n\nBalcony Break\nCombo from 1st CH",
+    "alternateInputs": [
+      "SS 4,2"
+    ]
   },
   {
     "name": "Spiral Explosion",
@@ -1636,7 +2080,10 @@
     "block": "-9",
     "hit": "+36a",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "SS 1+2"
+    ]
   },
   {
     "name": "Twist Jab",
@@ -1647,7 +2094,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "Links to 1 jab extensions"
+    "note": "Links to 1 jab extensions",
+    "alternateInputs": [
+      "BT+1"
+    ]
   },
   {
     "name": "Twisted Mind",
@@ -1658,7 +2108,10 @@
     "block": "-17~-16",
     "hit": "-7d",
     "counter": "",
-    "note": "Spike"
+    "note": "Spike",
+    "alternateInputs": [
+      "OTG d+3+4"
+    ]
   },
   {
     "name": "Crouch Dash",
@@ -1669,7 +2122,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs1~20\nRecovers in FC with qcf,n\nInput sometimes written as d,df,F"
+    "note": "\ncs1~20\nRecovers in FC with qcf,n\nInput sometimes written as d,df,F",
+    "alternateInputs": [
+      "qcf"
+    ]
   },
   {
     "name": "Hellbringer",
@@ -1680,7 +2136,10 @@
     "block": "+1~+3",
     "hit": "+3~+5",
     "counter": "+47a (+37)",
-    "note": "Chip damage on block"
+    "note": "Chip damage on block",
+    "alternateInputs": [
+      "qcf+1"
+    ]
   },
   {
     "name": "Shut Up",
@@ -1691,7 +2150,10 @@
     "block": "-8~-7",
     "hit": "+32a (+17)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break",
+    "alternateInputs": [
+      "qcf+2"
+    ]
   },
   {
     "name": "Shut Up",
@@ -1702,7 +2164,10 @@
     "block": "+5",
     "hit": "+42a (+27)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat qcf+2,F"
+    ]
   },
   {
     "name": "Sideslip",
@@ -1713,7 +2178,10 @@
     "block": "-20~-11",
     "hit": "+0~+9",
     "counter": "+21a",
-    "note": "\ncs10~49"
+    "note": "\ncs10~49",
+    "alternateInputs": [
+      "qcf+3"
+    ]
   },
   {
     "name": "",
@@ -1724,7 +2192,10 @@
     "block": "-8",
     "hit": "+6s",
     "counter": "",
-    "note": "Knee"
+    "note": "Knee",
+    "alternateInputs": [
+      "qcf+4"
+    ]
   },
   {
     "name": "",
@@ -1735,7 +2206,10 @@
     "block": "-10",
     "hit": "+14a (+5)",
     "counter": "",
-    "note": "Combo from 1st hit with 4f delay"
+    "note": "Combo from 1st hit with 4f delay",
+    "alternateInputs": [
+      "qcf+4,3"
+    ]
   },
   {
     "name": "Lapwing Kiss Shot",
@@ -1746,7 +2220,10 @@
     "block": "-9",
     "hit": "+24a (-9)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 2nd hit\nChip damage on block"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 2nd hit\nChip damage on block",
+    "alternateInputs": [
+      "qcf+4,3,1+2"
+    ]
   },
   {
     "name": "Lapwing Kiss Shot",
@@ -1757,7 +2234,10 @@
     "block": "-2",
     "hit": "+13a (+12)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time"
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time",
+    "alternateInputs": [
+      "in heat qcf+4,3,1+2"
+    ]
   },
   {
     "name": "Evil Mist",
@@ -1768,7 +2248,10 @@
     "block": "",
     "hit": "+36g~+50g",
     "counter": "",
-    "note": "\ncs1~37Alternate input: db,qcf,n,DB+2+3"
+    "note": "\ncs1~37Alternate input: db,qcf,n,DB+2+3",
+    "alternateInputs": [
+      "qcf+2+3"
+    ]
   },
   {
     "name": "Sway",
@@ -1779,7 +2262,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs1~20\nCancel to SS with u\nBuffer to SS with d\nRecovers in FC for 5 frames (21~25)"
+    "note": "\ncs1~20\nCancel to SS with u\nBuffer to SS with d\nRecovers in FC for 5 frames (21~25)",
+    "alternateInputs": [
+      "qcb"
+    ]
   },
   {
     "name": "Ice Pick",
@@ -1790,7 +2276,10 @@
     "block": "-12~-11",
     "hit": "+68a (+52)",
     "counter": "",
-    "note": "\n\nTornado\nSway adds minimum 10 frames, total startup is i29~30"
+    "note": "\n\nTornado\nSway adds minimum 10 frames, total startup is i29~30",
+    "alternateInputs": [
+      "qcb,B+4"
+    ]
   },
   {
     "name": "Arm Grab Flip",
@@ -1801,7 +2290,10 @@
     "block": "-6",
     "hit": "-2",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nOpponent recovers FUFA"
+    "note": "\nThrow break 1 or 2\nOpponent recovers FUFA",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Over the Back Toss",
@@ -1812,7 +2304,10 @@
     "block": "+0",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nSide switch\nNina recovers BT"
+    "note": "\nThrow break 1 or 2\nSide switch\nNina recovers BT",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Shoulder Through Buster (STB)",
@@ -1823,7 +2318,10 @@
     "block": "+0",
     "hit": "-5d",
     "counter": "",
-    "note": "\nUnbreakable\nSide switch"
+    "note": "\nUnbreakable\nSide switch",
+    "alternateInputs": [
+      "2+4,2"
+    ]
   },
   {
     "name": "Shoulder Through Arm Breaker",
@@ -1834,7 +2332,10 @@
     "block": "+0",
     "hit": "-6d",
     "counter": "",
-    "note": "\nUnbreakable\nSide switch\nErases opponent's recoverable health on hit\nPowered up input: STB.1,2,3"
+    "note": "\nUnbreakable\nSide switch\nErases opponent's recoverable health on hit\nPowered up input: STB.1,2,3",
+    "alternateInputs": [
+      "STB 2"
+    ]
   },
   {
     "name": "Kneebar",
@@ -1845,7 +2346,10 @@
     "block": "-3",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nCan side switch on hit"
+    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nCan side switch on hit",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Hammer Throw",
@@ -1856,7 +2360,10 @@
     "block": "-3",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 2"
+    "note": "Throw break 2",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Leaping Triangle Hold",
@@ -1867,7 +2374,10 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "\nUnbreakable\nErases opponent's recoverable health on hit\nCan side switch on hit"
+    "note": "\nUnbreakable\nErases opponent's recoverable health on hit\nCan side switch on hit",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Elbow > Arm Grab Flip",
@@ -1878,7 +2388,10 @@
     "block": "-2",
     "hit": "+1d",
     "counter": "",
-    "note": "Throw break 1"
+    "note": "Throw break 1",
+    "alternateInputs": [
+      "df+1+3"
+    ]
   },
   {
     "name": "Reverse Neck Breaker",
@@ -1889,7 +2402,10 @@
     "block": "-2",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nSide switch on hit"
+    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nSide switch on hit",
+    "alternateInputs": [
+      "df+2+4"
+    ]
   },
   {
     "name": "Jumping Flip",
@@ -1900,7 +2416,10 @@
     "block": "+0",
     "hit": "+29a (-32)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Elbow Smash",
@@ -1911,7 +2430,10 @@
     "block": "-6",
     "hit": "-2d",
     "counter": "",
-    "note": "\n\nFloor Break\nThrow break 1+2"
+    "note": "\n\nFloor Break\nThrow break 1+2",
+    "alternateInputs": [
+      "df,df+1"
+    ]
   },
   {
     "name": "Attack Reversal",
@@ -1922,7 +2444,10 @@
     "block": "-6",
     "hit": "",
     "counter": "",
-    "note": "\nps3~8\nDamage is 25 + 50% of the opponent's attack\nParries mid or high punches or kicks"
+    "note": "\nps3~8\nDamage is 25 + 50% of the opponent's attack\nParries mid or high punches or kicks",
+    "alternateInputs": [
+      "b+1+3_b+2+4"
+    ]
   },
   {
     "name": "Backhand Slap (BHS)",
@@ -1933,7 +2458,10 @@
     "block": "-2",
     "hit": "+0",
     "counter": "",
-    "note": "\nThrow break 2\nAlternate input: qcf+2+4"
+    "note": "\nThrow break 2\nAlternate input: qcf+2+4",
+    "alternateInputs": [
+      "f+2+3"
+    ]
   },
   {
     "name": "Arm Break (ABK)",
@@ -1944,7 +2472,10 @@
     "block": "-3",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 1\nPowered up input: BHS.1,3,1\nAlternate input: BTR.1"
+    "note": "\nThrow break 1\nPowered up input: BHS.1,3,1\nAlternate input: BTR.1",
+    "alternateInputs": [
+      "BHS 1"
+    ]
   },
   {
     "name": "Double Arm Break",
@@ -1955,7 +2486,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: ABK.3,1,1+2"
+    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: ABK.3,1,1+2",
+    "alternateInputs": [
+      "ABK 1"
+    ]
   },
   {
     "name": "Falling Arm Break",
@@ -1966,7 +2500,10 @@
     "block": "-3",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: ABK.2,1,3,4,1+2"
+    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: ABK.2,1,3,4,1+2",
+    "alternateInputs": [
+      "ABK 2"
+    ]
   },
   {
     "name": "Triple Slaps (TSS)",
@@ -1977,7 +2514,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\nPowered up input: BHS.2,3,4,2\nRefered to as Stomach Lock in-game"
+    "note": "\nThrow break 2\nPowered up input: BHS.2,3,4,2\nRefered to as Stomach Lock in-game",
+    "alternateInputs": [
+      "BHS 2"
+    ]
   },
   {
     "name": "Neck Crusher",
@@ -1988,7 +2528,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: TSS.1,1,2,1+2"
+    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: TSS.1,1,2,1+2",
+    "alternateInputs": [
+      "TSS 1"
+    ]
   },
   {
     "name": "Leg Stretch Arm Lock",
@@ -1999,7 +2542,10 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: TSS.1,2,4,3,1+3"
+    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: TSS.1,2,4,3,1+3",
+    "alternateInputs": [
+      "TSS 2"
+    ]
   },
   {
     "name": "Seoi Gyaku Juji-gatame",
@@ -2010,7 +2556,10 @@
     "block": "-3",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 1+2\nCan side switch on hit\nErases opponent's recoverable health on hit\nPowered up input: BHS.3,4,3,1+2"
+    "note": "\nThrow break 1+2\nCan side switch on hit\nErases opponent's recoverable health on hit\nPowered up input: BHS.3,4,3,1+2",
+    "alternateInputs": [
+      "BHS 1+2"
+    ]
   },
   {
     "name": "Crab Hold (CHD)",
@@ -2021,7 +2570,10 @@
     "block": "-2",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1\nAlternate input: qcf+3+4"
+    "note": "\nThrow break 1\nAlternate input: qcf+3+4",
+    "alternateInputs": [
+      "f+1+3"
+    ]
   },
   {
     "name": "Commando Arm Lock",
@@ -2032,7 +2584,10 @@
     "block": "+0d",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: CHD.3,4,1+2"
+    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: CHD.3,4,1+2",
+    "alternateInputs": [
+      "CHD 1"
+    ]
   },
   {
     "name": "Heel Hold (HHD)",
@@ -2043,7 +2598,10 @@
     "block": "+0d",
     "hit": "+7",
     "counter": "",
-    "note": "\nThrow break 2\nPowered up input: CHD.3,2,1+2"
+    "note": "\nThrow break 2\nPowered up input: CHD.3,2,1+2",
+    "alternateInputs": [
+      "CHD 2"
+    ]
   },
   {
     "name": "Kneebar",
@@ -2054,7 +2612,10 @@
     "block": "-9",
     "hit": "+3",
     "counter": "",
-    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: HHD.3,4,2+4\nAlternate name: Double Snap"
+    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: HHD.3,4,2+4\nAlternate name: Double Snap",
+    "alternateInputs": [
+      "HHD 1"
+    ]
   },
   {
     "name": "Double Heel Hold",
@@ -2065,7 +2626,10 @@
     "block": "-9",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: HHD.1,3,2+4,1+2"
+    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: HHD.1,3,2+4,1+2",
+    "alternateInputs": [
+      "HHD 2"
+    ]
   },
   {
     "name": "Betrayer (BTR)",
@@ -2076,7 +2640,10 @@
     "block": "",
     "hit": "+6c",
     "counter": "",
-    "note": "\nUnbreakable\nqcb,B+2+4"
+    "note": "\nUnbreakable\nqcb,B+2+4",
+    "alternateInputs": [
+      "qcb,B+1+4"
+    ]
   },
   {
     "name": "Twisted Nightmare (NTM)",
@@ -2087,7 +2654,10 @@
     "block": "-3",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 2\nPowered up input: BTR.2,1,1+2"
+    "note": "\nThrow break 2\nPowered up input: BTR.2,1,1+2",
+    "alternateInputs": [
+      "BTin rage 2"
+    ]
   },
   {
     "name": "Neck Crusher",
@@ -2098,7 +2668,10 @@
     "block": "-3",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: NTM.1,1,2,1+2"
+    "note": "\nThrow break 1\nErases opponent's recoverable health on hit\nPowered up input: NTM.1,1,2,1+2",
+    "alternateInputs": [
+      "NTM 1"
+    ]
   },
   {
     "name": "Leg Stretch Arm Lock",
@@ -2109,7 +2682,10 @@
     "block": "-3",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: NTM.1,2,4,3,1+3"
+    "note": "\nThrow break 2\nErases opponent's recoverable health on hit\nPowered up input: NTM.1,2,4,3,1+3",
+    "alternateInputs": [
+      "NTM 2"
+    ]
   },
   {
     "name": "Leaping Heel Hold (HHD)",
@@ -2120,6 +2696,9 @@
     "block": "-23a~-16a",
     "hit": "+9a (-1)",
     "counter": "",
-    "note": "\njs3~\nTransitions to throw on front hit\nThrow break 2"
+    "note": "\njs3~\nTransitions to throw on front hit\nThrow break 2",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   }
 ]

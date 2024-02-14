@@ -8,7 +8,10 @@
     "block": "",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc\n\nHeat Burst\n"
+    "note": "\npc\n\nHeat Burst\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Demon Bear Breath",
@@ -19,7 +22,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Bear Slash",
@@ -30,7 +36,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\nTransition to HBS with input D or 3+4 (does not shift when using Heat Dash)\n"
+    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\nTransition to HBS with input D or 3+4 (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Bear X",
@@ -41,7 +50,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Rabid Bear",
@@ -52,7 +64,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "f,f,F+1+2"
+    ]
   },
   {
     "name": "Frolicking Bear",
@@ -63,7 +78,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nTransition to HBS (does not shift when using Heat Dash)\n"
+    "note": "\n\nHeat Engager\n\nTransition to HBS (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "HBS d+1+2"
+    ]
   },
   {
     "name": "Wind Bear Fist",
@@ -74,7 +92,10 @@
     "block": "",
     "hit": "+39 (+29)",
     "counter": "",
-    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2 to power up\n"
+    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2 to power up\n",
+    "alternateInputs": [
+      "in heat df+2+3"
+    ]
   },
   {
     "name": "Fresh Wind Bear Fist",
@@ -85,7 +106,10 @@
     "block": "",
     "hit": "+45 (+35)",
     "counter": "",
-    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2* to power up\nCannot absorb with power crush\n"
+    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2* to power up\nCannot absorb with power crush\n",
+    "alternateInputs": [
+      "in heat df+2+3*"
+    ]
   },
   {
     "name": "Salmon Fishing Cast",
@@ -96,7 +120,10 @@
     "block": "",
     "hit": "+33 (+23)",
     "counter": "",
-    "note": "\n\nHeat Smash\n"
+    "note": "\n\nHeat Smash\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "",
@@ -107,7 +134,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "",
@@ -118,7 +148,10 @@
     "block": "",
     "hit": "-4c",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1,1"
+    ]
   },
   {
     "name": "G-Clef Cannon",
@@ -129,7 +162,10 @@
     "block": "",
     "hit": "+69 (+23)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "1,1,1"
+    ]
   },
   {
     "name": "Angry Lumberjack",
@@ -140,7 +176,10 @@
     "block": "",
     "hit": "+11 (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nchip damage on block\n",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "",
@@ -151,7 +190,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "",
@@ -162,7 +204,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Bear Combo Middle",
@@ -173,7 +218,10 @@
     "block": "",
     "hit": "+31 (+21)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2,1,2"
+    ]
   },
   {
     "name": "Bear Combo Low",
@@ -184,7 +232,10 @@
     "block": "",
     "hit": "-2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2,1,3"
+    ]
   },
   {
     "name": "Demon Bear Breath",
@@ -195,7 +246,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Hunting",
@@ -206,7 +260,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: FDFA.3+4\nTransition to HBS\n"
+    "note": "\nAlternate input: FDFA.3+4\nTransition to HBS\n",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "",
@@ -217,7 +274,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Wild Lumberjack",
@@ -228,7 +288,10 @@
     "block": "",
     "hit": "+36 (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "",
@@ -239,7 +302,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Bear Claw Cross",
@@ -250,7 +316,10 @@
     "block": "",
     "hit": "+65 (+49)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "f+1+2,1+2"
+    ]
   },
   {
     "name": "Shape-Up Kick",
@@ -261,7 +330,10 @@
     "block": "",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Shape-Up Hip",
@@ -272,7 +344,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3+4,3+4"
+    ]
   },
   {
     "name": "",
@@ -283,7 +358,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "",
@@ -294,7 +372,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Grizzly Rampage",
@@ -305,7 +386,10 @@
     "block": "",
     "hit": "+17",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1,2,1+2"
+    ]
   },
   {
     "name": "",
@@ -316,7 +400,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Kuma Musou",
@@ -327,7 +414,10 @@
     "block": "",
     "hit": "+35 (+25)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+2,1"
+    ]
   },
   {
     "name": "",
@@ -338,7 +428,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Honey Trap",
@@ -349,7 +442,10 @@
     "block": "",
     "hit": "+22",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "df+3,2"
+    ]
   },
   {
     "name": "Hip Smash",
@@ -360,7 +456,10 @@
     "block": "",
     "hit": "+20 (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Bear Sit",
@@ -371,7 +470,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternative input: db+3+4\nTransition to ROL with input SIT.F\nTransition to California Roll with input SIT.B\n"
+    "note": "\nAlternative input: db+3+4\nTransition to ROL with input SIT.F\nTransition to California Roll with input SIT.B\n",
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "",
@@ -382,7 +484,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Double Wild Slap",
@@ -393,7 +498,10 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": "\nCan hold\nTransition to HBS with input D or 3+4\n"
+    "note": "\nCan hold\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "db+1,2"
+    ]
   },
   {
     "name": "Double Wild Slap",
@@ -404,7 +512,10 @@
     "block": "",
     "hit": "+13",
     "counter": "",
-    "note": "\nchip damage on block\nTransition to HBS with input D or 3+4\n"
+    "note": "\nchip damage on block\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "db+1,2*"
+    ]
   },
   {
     "name": "Fresh Wild Slap",
@@ -415,7 +526,10 @@
     "block": "",
     "hit": "+42",
     "counter": "",
-    "note": "\nchip damage on block\nCannot absorb with power crush\nshortened hold during Heat (consumes remaining time)\nTransition to HBS with input D or 3+4\n"
+    "note": "\nchip damage on block\nCannot absorb with power crush\nshortened hold during Heat (consumes remaining time)\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "db+1,2**"
+    ]
   },
   {
     "name": "Bear Lariat",
@@ -426,7 +540,10 @@
     "block": "",
     "hit": "-1",
     "counter": "",
-    "note": "\nTransition to HBS with input D or 3+4\n"
+    "note": "\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Bear Pump in Pedal",
@@ -437,7 +554,10 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Spinning Kuma",
@@ -448,7 +568,10 @@
     "block": "",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "",
@@ -459,7 +582,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "",
@@ -470,7 +596,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+1+2,1+2"
+    ]
   },
   {
     "name": "Drum Roll",
@@ -481,7 +610,10 @@
     "block": "",
     "hit": "+22 (+12)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+1+2,1+2,2"
+    ]
   },
   {
     "name": "Salmon Hunter",
@@ -492,7 +624,10 @@
     "block": "",
     "hit": "+39",
     "counter": "",
-    "note": "\nHold to power up and deal more chip damage on block\n"
+    "note": "\nHold to power up and deal more chip damage on block\n",
+    "alternateInputs": [
+      "db+2+3"
+    ]
   },
   {
     "name": "Salmon Hunter",
@@ -503,7 +638,10 @@
     "block": "",
     "hit": "+39",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "db+2+3*"
+    ]
   },
   {
     "name": "Fresh Salmon Hunter",
@@ -514,7 +652,10 @@
     "block": "",
     "hit": "+43",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "db+2+3**"
+    ]
   },
   {
     "name": "Bear Slash",
@@ -525,7 +666,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\nTransition to HBS with input D or 3+4 (does not shift when using Heat Dash)\n"
+    "note": "\npc\n\nBalcony Break\n\nHeat Engager\n\nTransition to HBS with input D or 3+4 (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "",
@@ -536,7 +680,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "",
@@ -547,7 +694,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to HBS with input D or 3+4\nTransition to ROL with input F\n"
+    "note": "\nTransition to HBS with input D or 3+4\nTransition to ROL with input F\n",
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "Howling Bear",
@@ -558,7 +708,10 @@
     "block": "",
     "hit": "+15 (+6)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "b+2,1,1+2"
+    ]
   },
   {
     "name": "",
@@ -569,7 +722,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2,2"
+    ]
   },
   {
     "name": "Salmon Massacre",
@@ -580,7 +736,10 @@
     "block": "",
     "hit": "+25 (+15)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "b+2,2,1"
+    ]
   },
   {
     "name": "Bear X",
@@ -591,7 +750,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHoming\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "High Jinks",
@@ -602,7 +764,10 @@
     "block": "",
     "hit": "+61",
     "counter": "",
-    "note": "\nAlternate input: ws3+4\n\nTornado\n"
+    "note": "\nAlternate input: ws3+4\n\nTornado\n",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Deadly Claw",
@@ -613,7 +778,10 @@
     "block": "",
     "hit": "+60",
     "counter": "",
-    "note": "\nTransition to HBS with input D or 3+4\n"
+    "note": "\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "b+1+4"
+    ]
   },
   {
     "name": "Rolling Bear",
@@ -624,7 +792,10 @@
     "block": "",
     "hit": "+42",
     "counter": "",
-    "note": "\nInput b+1+4,f,F to extend\n"
+    "note": "\nInput b+1+4,f,F to extend\n",
+    "alternateInputs": [
+      "b+1+4,f,f"
+    ]
   },
   {
     "name": "Bear Skip",
@@ -635,7 +806,10 @@
     "block": "",
     "hit": "+12",
     "counter": "",
-    "note": "\nCancel into HBS with input D or 3+4\n"
+    "note": "\nCancel into HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "ub+1+2"
+    ]
   },
   {
     "name": "Big Bear Attack",
@@ -646,7 +820,10 @@
     "block": "",
     "hit": "+3",
     "counter": "",
-    "note": "\nTransition to HBS with input D or 3+4\n"
+    "note": "\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "u+1+2"
+    ]
   },
   {
     "name": "Pancake Press",
@@ -657,7 +834,10 @@
     "block": "",
     "hit": "+20",
     "counter": "",
-    "note": "\nTransition to SIT\n"
+    "note": "\nTransition to SIT\n",
+    "alternateInputs": [
+      "u+3+4"
+    ]
   },
   {
     "name": "Hornet Sweep",
@@ -668,7 +848,10 @@
     "block": "",
     "hit": "+22",
     "counter": "",
-    "note": "\nAlternate input: ub+1 or u+1\nchip damage on block\n"
+    "note": "\nAlternate input: ub+1 or u+1\nchip damage on block\n",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Ultra Kuma",
@@ -679,7 +862,10 @@
     "block": "",
     "hit": "+30",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\nAlternate input: ub+2 or u+2\n"
+    "note": "\n\nBalcony Break\n\nHoming\nAlternate input: ub+2 or u+2\n",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "",
@@ -690,7 +876,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "",
@@ -701,7 +890,10 @@
     "block": "",
     "hit": "+21",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+3,4"
+    ]
   },
   {
     "name": "Bear Double Hop Kick Combo",
@@ -712,7 +904,10 @@
     "block": "",
     "hit": "-2",
     "counter": "",
-    "note": "\n\nSpike\nTransition to HBS with input D or 3+4\n"
+    "note": "\n\nSpike\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "uf+3,4,1+2"
+    ]
   },
   {
     "name": "",
@@ -723,7 +918,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Hell Axle",
@@ -734,7 +932,10 @@
     "block": "",
     "hit": "+21 (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "uf+4,3"
+    ]
   },
   {
     "name": "Demon Uppercut",
@@ -745,7 +946,10 @@
     "block": "",
     "hit": "+45 (+35)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Falling Bear",
@@ -756,7 +960,10 @@
     "block": "",
     "hit": "+52",
     "counter": "",
-    "note": "\nchip damage\nTransition to HBS\nTransition to ROL with input F\n"
+    "note": "\nchip damage\nTransition to HBS\nTransition to ROL with input F\n",
+    "alternateInputs": [
+      "f,F+1+2"
+    ]
   },
   {
     "name": "Anger Hook",
@@ -767,7 +974,10 @@
     "block": "",
     "hit": "+17 (+8)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nchip damage on block\n",
+    "alternateInputs": [
+      "b,f+2"
+    ]
   },
   {
     "name": "",
@@ -778,7 +988,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d,df,f+2"
+    ]
   },
   {
     "name": "Grizzly Claws",
@@ -789,7 +1002,10 @@
     "block": "",
     "hit": "+29 (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "d,df,f+2,1"
+    ]
   },
   {
     "name": "Grizzly Claw Smash",
@@ -800,7 +1016,10 @@
     "block": "",
     "hit": "+40",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "d,df,f+2,2"
+    ]
   },
   {
     "name": "Leaping Side Kick",
@@ -811,7 +1030,10 @@
     "block": "",
     "hit": "+13 (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\n"
+    "note": "\n\nBalcony Break\nchip damage on block\n",
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "Rabid Bear",
@@ -822,7 +1044,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n"
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage\nTransition to HBS with  input D or 3+4 (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "f,f,F+1+2"
+    ]
   },
   {
     "name": "Watch Your Feet",
@@ -833,7 +1058,10 @@
     "block": "",
     "hit": "+2c",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC 1"
+    ]
   },
   {
     "name": "Bear Roll",
@@ -844,7 +1072,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to ROL\nbecomes special mid attack during Heat (partially uses remaining Heat time)\n"
+    "note": "\nTransition to ROL\nbecomes special mid attack during Heat (partially uses remaining Heat time)\n",
+    "alternateInputs": [
+      "FC 1+2"
+    ]
   },
   {
     "name": "",
@@ -855,7 +1086,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Killing Claws",
@@ -866,7 +1100,10 @@
     "block": "",
     "hit": "+6",
     "counter": "",
-    "note": "\nCan hold\nTransition to HBS with input D or 3+4\n\nTornado\n"
+    "note": "\nCan hold\nTransition to HBS with input D or 3+4\n\nTornado\n",
+    "alternateInputs": [
+      "ws1,2"
+    ]
   },
   {
     "name": "Killing Claws",
@@ -877,7 +1114,10 @@
     "block": "",
     "hit": "+18c",
     "counter": "",
-    "note": "\nCan hold\nTransition to HBS with input D or 3+4\n\nBalcony Break\n\nTornado\n"
+    "note": "\nCan hold\nTransition to HBS with input D or 3+4\n\nBalcony Break\n\nTornado\n",
+    "alternateInputs": [
+      "ws1,2*"
+    ]
   },
   {
     "name": "Fresh Killing Claws",
@@ -888,7 +1128,10 @@
     "block": "",
     "hit": "+27 (-9)",
     "counter": "",
-    "note": "\nTransition to HBS with input D or 3+4\n\nBalcony Break\n\nTornado\nchip damage on block\nCannot absorb with power crush\nshortened hold during Heat (consumes remaining time)\n"
+    "note": "\nTransition to HBS with input D or 3+4\n\nBalcony Break\n\nTornado\nchip damage on block\nCannot absorb with power crush\nshortened hold during Heat (consumes remaining time)\n",
+    "alternateInputs": [
+      "ws1,2**"
+    ]
   },
   {
     "name": "Mad Angler",
@@ -899,7 +1142,10 @@
     "block": "",
     "hit": "+29 (+19)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "Spinning Bear Kick",
@@ -910,7 +1156,10 @@
     "block": "",
     "hit": "+18 (+8)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\n"
+    "note": "\n\nBalcony Break\n\nHoming\n",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Paw Smash",
@@ -921,7 +1170,10 @@
     "block": "",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Hunting",
@@ -932,7 +1184,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: FDFA.3+4\nCan low parry in HBS with HBS.F\nTransition to HBS\nTransition to standing with input ub or u or uf\n"
+    "note": "\nAlternate input: FDFA.3+4\nCan low parry in HBS with HBS.F\nTransition to HBS\nTransition to standing with input ub or u or uf\n",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "",
@@ -943,7 +1198,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HBS 1"
+    ]
   },
   {
     "name": "Honeycomb Spike",
@@ -954,7 +1212,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncan hold at last step\n"
+    "note": "\ncan hold at last step\n",
+    "alternateInputs": [
+      "HBS 1,2"
+    ]
   },
   {
     "name": "Honeycomb Spike",
@@ -965,7 +1226,10 @@
     "block": "",
     "hit": "+13c",
     "counter": "",
-    "note": "\nchip damage on block\n"
+    "note": "\nchip damage on block\n",
+    "alternateInputs": [
+      "HBS 1,2*"
+    ]
   },
   {
     "name": "Fresh Honeycomb Spike",
@@ -976,7 +1240,10 @@
     "block": "",
     "hit": "+49",
     "counter": "",
-    "note": "\nchip damage on block\ncannot absorb with power crush\nshortened hold during Heat (consumes remaining Heat time)\n"
+    "note": "\nchip damage on block\ncannot absorb with power crush\nshortened hold during Heat (consumes remaining Heat time)\n",
+    "alternateInputs": [
+      "HBS 1,2**"
+    ]
   },
   {
     "name": "Bear Claw",
@@ -987,7 +1254,10 @@
     "block": "",
     "hit": "+21",
     "counter": "",
-    "note": "\nTransition to HBS\n"
+    "note": "\nTransition to HBS\n",
+    "alternateInputs": [
+      "HBS 2"
+    ]
   },
   {
     "name": "Bear Fling",
@@ -998,7 +1268,10 @@
     "block": "",
     "hit": "+79",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "HBS 1+2"
+    ]
   },
   {
     "name": "Bear Tackle",
@@ -1009,7 +1282,10 @@
     "block": "",
     "hit": "-2 (-11)",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\n"
+    "note": "\npc\n\nBalcony Break\n",
+    "alternateInputs": [
+      "HBS 3+4"
+    ]
   },
   {
     "name": "Hunting Hip Smash",
@@ -1020,7 +1296,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: HBS.b+3+4\nTransition to SIT\n"
+    "note": "\nAlternate input: HBS.b+3+4\nTransition to SIT\n",
+    "alternateInputs": [
+      "HBS f+3+4"
+    ]
   },
   {
     "name": "Big Tree",
@@ -1031,7 +1310,10 @@
     "block": "",
     "hit": "+35 (+25)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "HBS df+2"
+    ]
   },
   {
     "name": "Frolicking Bear",
@@ -1042,7 +1324,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nTransition to HBS (does not shift when using Heat Dash)\n"
+    "note": "\n\nHeat Engager\n\nTransition to HBS (does not shift when using Heat Dash)\n",
+    "alternateInputs": [
+      "HBS d+1+2"
+    ]
   },
   {
     "name": "",
@@ -1053,7 +1338,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to HBS with input D or 3+4\n"
+    "note": "\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "HBS b+1+2"
+    ]
   },
   {
     "name": "Break'n",
@@ -1064,7 +1352,10 @@
     "block": "",
     "hit": "-3 (-10)",
     "counter": "",
-    "note": "\n\nBalcony Break\n"
+    "note": "\n\nBalcony Break\n",
+    "alternateInputs": [
+      "HBS b+1+2,1+2"
+    ]
   },
   {
     "name": "Hunting to Roll Over",
@@ -1075,7 +1366,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to FUFA\nAlternative input: HBS.4 (HBS.3 is into background, HBS.4 is into foreground)\n"
+    "note": "\nTransition to FUFA\nAlternative input: HBS.4 (HBS.3 is into background, HBS.4 is into foreground)\n",
+    "alternateInputs": [
+      "HBS 3"
+    ]
   },
   {
     "name": "Hunting to Play Dead",
@@ -1086,7 +1380,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to FDFA\n"
+    "note": "\nTransition to FDFA\n",
+    "alternateInputs": [
+      "HBS d+3+4"
+    ]
   },
   {
     "name": "Bear Roll",
@@ -1097,7 +1394,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to ROL\nBecomes special mid attack during heat\n"
+    "note": "\nTransition to ROL\nBecomes special mid attack during heat\n",
+    "alternateInputs": [
+      "HBS f,f"
+    ]
   },
   {
     "name": "Backward Roll",
@@ -1108,7 +1408,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: SIT.B\nTransition to HBS with input D or 3+4\n"
+    "note": "\nAlternate input: SIT.B\nTransition to HBS with input D or 3+4\n",
+    "alternateInputs": [
+      "HBS b,b"
+    ]
   },
   {
     "name": "Bear Toss",
@@ -1119,7 +1422,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: none\n\nSpike\nOpponent status on hit:\n"
+    "note": "\nThrow break: none\n\nSpike\nOpponent status on hit:\n",
+    "alternateInputs": [
+      "HBS f+1+2"
+    ]
   },
   {
     "name": "Bear Sit",
@@ -1130,7 +1436,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to SIT\nTransition to ROL with input F\n"
+    "note": "\nTransition to SIT\nTransition to ROL with input F\n",
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "",
@@ -1141,7 +1450,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SIT 1"
+    ]
   },
   {
     "name": "Double Trout Sweep",
@@ -1152,7 +1464,10 @@
     "block": "",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SIT 1,2"
+    ]
   },
   {
     "name": "Trout Smash",
@@ -1163,7 +1478,10 @@
     "block": "",
     "hit": "+73 (+57)",
     "counter": "",
-    "note": "\n\nTornado\n"
+    "note": "\n\nTornado\n",
+    "alternateInputs": [
+      "SIT 2"
+    ]
   },
   {
     "name": "Rebound",
@@ -1174,7 +1492,10 @@
     "block": "",
     "hit": "-4",
     "counter": "",
-    "note": "\nTransition to ROL with input SIT.F\n"
+    "note": "\nTransition to ROL with input SIT.F\n",
+    "alternateInputs": [
+      "SIT 3+4"
+    ]
   },
   {
     "name": "Bear Roll",
@@ -1185,7 +1506,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternative input: FC.3+4 or FDFA.F\nTransition to ROL\nTransition to HBS with input ROL.D or ROL.3+4\nbecomes special mid attack during Heat (partially uses remaining Heat time)\n"
+    "note": "\nAlternative input: FC.3+4 or FDFA.F\nTransition to ROL\nTransition to HBS with input ROL.D or ROL.3+4\nbecomes special mid attack during Heat (partially uses remaining Heat time)\n",
+    "alternateInputs": [
+      "SIT F"
+    ]
   },
   {
     "name": "Bear Shove",
@@ -1196,7 +1520,10 @@
     "block": "",
     "hit": "+35 (+27)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\nPower up during Heat (partially uses remaining Heat time)\n"
+    "note": "\n\nBalcony Break\n\nTornado\nPower up during Heat (partially uses remaining Heat time)\n",
+    "alternateInputs": [
+      "ROL 1"
+    ]
   },
   {
     "name": "Bear Backhand",
@@ -1207,7 +1534,10 @@
     "block": "",
     "hit": "+28 (+18)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ROL 2"
+    ]
   },
   {
     "name": "Bear Slide",
@@ -1218,7 +1548,10 @@
     "block": "",
     "hit": "+33",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ROL 3"
+    ]
   },
   {
     "name": "Bear Rolling Kick",
@@ -1229,7 +1562,10 @@
     "block": "",
     "hit": "+26",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ROL 4"
+    ]
   },
   {
     "name": "Giant Roll",
@@ -1240,7 +1576,10 @@
     "block": "+45",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ROL 1+2"
+    ]
   },
   {
     "name": "Type 38 Eradication Weapon: Aramaki",
@@ -1251,7 +1590,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTemplate:RageArt\nErase opponent's recoverable health on hit\n"
+    "note": "\nTemplate:RageArt\nErase opponent's recoverable health on hit\n",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "You're Welcome",
@@ -1262,7 +1604,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1+3+4"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -1273,7 +1618,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Salmon Swipe",
@@ -1284,7 +1632,10 @@
     "block": "",
     "hit": "+11",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS 1+2"
+    ]
   },
   {
     "name": "Bear Backstroke",
@@ -1295,7 +1646,10 @@
     "block": "+6 (+6)",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to HBS\n"
+    "note": "\nTransition to HBS\n",
+    "alternateInputs": [
+      "FUFA 1+2"
+    ]
   },
   {
     "name": "Get Up Punch",
@@ -1306,7 +1660,10 @@
     "block": "+38",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to SIT\n"
+    "note": "\nTransition to SIT\n",
+    "alternateInputs": [
+      "FUFT d+1+2"
+    ]
   },
   {
     "name": "Bear Butterfly",
@@ -1317,7 +1674,10 @@
     "block": "+6",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to HBS\n"
+    "note": "\nTransition to HBS\n",
+    "alternateInputs": [
+      "FDFA 1+2"
+    ]
   },
   {
     "name": "Dance With Me",
@@ -1328,7 +1688,10 @@
     "block": "",
     "hit": "+8",
     "counter": "",
-    "note": "\nCancel into BT with input OTG.d+1+4,3+4\n"
+    "note": "\nCancel into BT with input OTG.d+1+4,3+4\n",
+    "alternateInputs": [
+      "OTG d+1+4"
+    ]
   },
   {
     "name": "Bear's Bite",
@@ -1339,7 +1702,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 1 or 2\nOpponent status on hit: FUFT\n"
+    "note": "\nThrow break: 1 or 2\nOpponent status on hit: FUFT\n",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Bear Hug",
@@ -1350,7 +1716,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 1 or 2\nOpponent status on hit: FUFT\nSide switch on hit\n"
+    "note": "\nThrow break: 1 or 2\nOpponent status on hit: FUFT\nSide switch on hit\n",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Bear Slam",
@@ -1361,7 +1730,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 1\n\nSpike\nOpponent status on hit: FUFT\n"
+    "note": "\nThrow break: 1\n\nSpike\nOpponent status on hit: FUFT\n",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Choke Slam",
@@ -1372,7 +1744,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 2\nOpponent status on hit: FUFT perpendicular\n"
+    "note": "\nThrow break: 2\nOpponent status on hit: FUFT perpendicular\n",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Swing Swung",
@@ -1383,7 +1758,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: none\nOpponent status on hit: FUFA\n"
+    "note": "\nThrow break: none\nOpponent status on hit: FUFA\n",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Headbutt",
@@ -1394,7 +1772,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 1+2\n\nBalcony Break\nOpponent status on hit: FUFT\n"
+    "note": "\nThrow break: 1+2\n\nBalcony Break\nOpponent status on hit: FUFT\n",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Rock'n Roll Circus",
@@ -1405,6 +1786,9 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break: 1+2\nOpponent status on hit: FUFA\nSide switch on hit\n"
+    "note": "\nThrow break: 1+2\nOpponent status on hit: FUFA\nSide switch on hit\n",
+    "alternateInputs": [
+      "f,df,d,db,b,f+1+2"
+    ]
   }
 ]

@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc\n\nHeat Burst"
+    "note": "\npc\n\nHeat Burst",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Divine Shooting Star",
@@ -19,7 +22,10 @@
     "block": "+9",
     "hit": "+0d",
     "counter": "",
-    "note": "\njs\n\nHeat Smash\n\nBalcony Break\nRecovers in BT\nRecover facing forward with F (+5) "
+    "note": "\njs\n\nHeat Smash\n\nBalcony Break\nRecovers in BT\nRecover facing forward with F (+5) ",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Innumerable Moons",
@@ -30,7 +36,10 @@
     "block": "+19",
     "hit": "+16d",
     "counter": "",
-    "note": "\n\nHeat Smash\nRecovers in HYP\nRecover facing forward with F (+4) "
+    "note": "\n\nHeat Smash\nRecovers in HYP\nRecover facing forward with F (+4) ",
+    "alternateInputs": [
+      "in heat BT 2+3"
+    ]
   },
   {
     "name": "Bai Yang Yan Di Po",
@@ -41,7 +50,10 @@
     "block": "+6c",
     "hit": "+23d",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\nPartially uses remaining Heat time\nCombos from 1st hit\nRecovers in BT\nRecover facing forward with F (+4, +21d)"
+    "note": "\njs\n\nBalcony Break\nPartially uses remaining Heat time\nCombos from 1st hit\nRecovers in BT\nRecover facing forward with F (+4, +21d)",
+    "alternateInputs": [
+      "in heat f+2,1,2"
+    ]
   },
   {
     "name": "Bai Lian Yan Di Po",
@@ -52,7 +64,10 @@
     "block": "+6c",
     "hit": "+24d",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\nPartially uses remaining Heat time\nCombos from 1st hit\nRecovers in BT\nRecover facing forward with F (+4, +22d)"
+    "note": "\njs\n\nBalcony Break\nPartially uses remaining Heat time\nCombos from 1st hit\nRecovers in BT\nRecover facing forward with F (+4, +22d)",
+    "alternateInputs": [
+      "in heat f,F+1,2"
+    ]
   },
   {
     "name": "Storming Flower",
@@ -63,7 +78,10 @@
     "block": "-9",
     "hit": "+14a (+5)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nHas Clean hit effect"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nHas Clean hit effect",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Moonhare Palm",
@@ -74,7 +92,10 @@
     "block": "-14",
     "hit": "+40d (-18)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\nCombos from 1st hit\n\nBalcony Break "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\nCombos from 1st hit\n\nBalcony Break ",
+    "alternateInputs": [
+      "b+4,1"
+    ]
   },
   {
     "name": "Battering Storm",
@@ -85,7 +106,10 @@
     "block": "+3",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\n\nBalcony Break\nCombos from 1st hit\nChip on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\n\nBalcony Break\nCombos from 1st hit\nChip on block",
+    "alternateInputs": [
+      "BT 1+2,4"
+    ]
   },
   {
     "name": "Spin Sticker",
@@ -96,7 +120,10 @@
     "block": "-4",
     "hit": "+22 (-13)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nPowered UpBased on the number of steps taken in HYP:HYP.2 damage increases and becomes plus on block. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time\nChip on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nPowered UpBased on the number of steps taken in HYP:HYP.2 damage increases and becomes plus on block. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time\nChip on block",
+    "alternateInputs": [
+      "HYP 2"
+    ]
   },
   {
     "name": "Phoenix Double Palm",
@@ -107,7 +134,10 @@
     "block": "-12",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\nCombos from 1st hit\nCancel 2nd hit into BT with B\n(-14, -3) "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\nCombos from 1st hit\nCancel 2nd hit into BT with B\n(-14, -3) ",
+    "alternateInputs": [
+      "AOP 2,1"
+    ]
   },
   {
     "name": "Blue Luan Sweep",
@@ -118,7 +148,10 @@
     "block": "-12",
     "hit": "+7c",
     "counter": "",
-    "note": "\n\nHoming\nPowered UpBased on the number of steps taken in HYP:HYP.3 damage increases and becomes more plus on hit. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time"
+    "note": "\n\nHoming\nPowered UpBased on the number of steps taken in HYP:HYP.3 damage increases and becomes more plus on hit. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time",
+    "alternateInputs": [
+      "HYP 3"
+    ]
   },
   {
     "name": "Wang's Celestial Epic",
@@ -129,7 +162,10 @@
     "block": "-15",
     "hit": "+0",
     "counter": "",
-    "note": "\npc8~\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit\nAlternate input AOP.df+1+2"
+    "note": "\npc8~\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit\nAlternate input AOP.df+1+2",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "",
@@ -140,7 +176,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": " "
+    "note": " ",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Bayonet",
@@ -151,7 +190,10 @@
     "block": "-3",
     "hit": "+7",
     "counter": "",
-    "note": " "
+    "note": " ",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Bayonet Thruster",
@@ -162,7 +204,10 @@
     "block": "-9",
     "hit": "+14a (+5)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 2nd hit CH"
+    "note": "\n\nBalcony Break\nCombos from 2nd hit CH",
+    "alternateInputs": [
+      "1,2,1"
+    ]
   },
   {
     "name": "Fan Dance",
@@ -173,7 +218,10 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nRecover facing forward with 1,D+2 (-4, +7)\nRecover in HYP with 1,d+2~B (-2, +9)"
+    "note": "\nRecover facing forward with 1,D+2 (-4, +7)\nRecover in HYP with 1,d+2~B (-2, +9)",
+    "alternateInputs": [
+      "1,d+2"
+    ]
   },
   {
     "name": "Fan Dance > Birds Flock",
@@ -184,7 +232,10 @@
     "block": "-12",
     "hit": "+17a",
     "counter": "",
-    "note": "\nCombos from 2nd hit CH"
+    "note": "\nCombos from 2nd hit CH",
+    "alternateInputs": [
+      "1,d+2,1+2"
+    ]
   },
   {
     "name": "",
@@ -195,7 +246,10 @@
     "block": "-2",
     "hit": "+6",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "April Showers",
@@ -206,7 +260,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\nCombos from 1st hit CH\nRecover facing forward with 2,DF+2 (-4, +7)"
+    "note": "\nCombos from 1st hit CH\nRecover facing forward with 2,DF+2 (-4, +7)",
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Cloud Kick",
@@ -217,7 +274,10 @@
     "block": "-11",
     "hit": "+22a",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -228,7 +288,10 @@
     "block": "-9",
     "hit": "+8",
     "counter": "+33a",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Birds Flock",
@@ -239,7 +302,10 @@
     "block": "-7",
     "hit": "+20a",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Crescent Moon Kick",
@@ -250,7 +316,10 @@
     "block": "-1c",
     "hit": "+3c",
     "counter": "+19a",
-    "note": "\njs\nTransition to AOP with D (0, +4, +20a)"
+    "note": "\njs\nTransition to AOP with D (0, +4, +20a)",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "",
@@ -261,7 +330,10 @@
     "block": "-5",
     "hit": "+4",
     "counter": "",
-    "note": " "
+    "note": " ",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "",
@@ -272,7 +344,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "+7",
-    "note": "\nTransition to HYP with B (+0, +11)"
+    "note": "\nTransition to HYP with B (+0, +11)",
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "Bai Yang Zhuan Wu",
@@ -283,7 +358,10 @@
     "block": "-13",
     "hit": "+17a (+8)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 2nd hit CH "
+    "note": "\n\nBalcony Break\nCombos from 2nd hit CH ",
+    "alternateInputs": [
+      "f+2,1,4"
+    ]
   },
   {
     "name": "",
@@ -294,7 +372,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n\nKnee "
+    "note": "\n\nKnee ",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "",
@@ -305,7 +386,10 @@
     "block": "-9",
     "hit": "+8",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f+3,1"
+    ]
   },
   {
     "name": "Talons of Fury",
@@ -316,7 +400,10 @@
     "block": "-22",
     "hit": "+62a (+46)",
     "counter": "",
-    "note": "\n\nTornado\nInstant Tornado\nCombos from 2nd hit CH "
+    "note": "\n\nTornado\nInstant Tornado\nCombos from 2nd hit CH ",
+    "alternateInputs": [
+      "f+3,1,4"
+    ]
   },
   {
     "name": "Wings of Fury",
@@ -327,7 +414,10 @@
     "block": "-12",
     "hit": "+7c",
     "counter": "",
-    "note": "\nCombos from 2nd hit CH"
+    "note": "\nCombos from 2nd hit CH",
+    "alternateInputs": [
+      "f+3,1,1+2"
+    ]
   },
   {
     "name": "Swivel Kick",
@@ -338,7 +428,10 @@
     "block": "+1",
     "hit": "+13",
     "counter": "",
-    "note": "\n\nHoming\nChip on block [4]"
+    "note": "\n\nHoming\nChip on block [4]",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Clouded Peak",
@@ -349,7 +442,10 @@
     "block": "-16",
     "hit": "+15d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break "
+    "note": "\n\nBalcony Break ",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Forward Roll",
@@ -360,7 +456,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs\nTransition to AOP with D"
+    "note": "\njs\nTransition to AOP with D",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Forward Roll > Phoenix Talon",
@@ -371,7 +470,10 @@
     "block": "+8",
     "hit": "+2d",
     "counter": "",
-    "note": "\njs\n"
+    "note": "\njs\n",
+    "alternateInputs": [
+      "f+3+4,3+4"
+    ]
   },
   {
     "name": "Belly Chop",
@@ -382,7 +484,10 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\nRecover facing forward with F (-4, +7)"
+    "note": "\nRecover facing forward with F (-4, +7)",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "",
@@ -393,7 +498,10 @@
     "block": "-6",
     "hit": "+7",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Moon Swallow",
@@ -404,7 +512,10 @@
     "block": "-1",
     "hit": "+35a (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break "
+    "note": "\n\nBalcony Break ",
+    "alternateInputs": [
+      "df+2,3"
+    ]
   },
   {
     "name": "Phoenix Tail",
@@ -415,7 +526,10 @@
     "block": "-23",
     "hit": "+71a (+55)",
     "counter": "",
-    "note": "\n\nHoming\n\nTornado\nCancel into BT with B\nOn hit, transition to AOP with D\nSnake Edge"
+    "note": "\n\nHoming\n\nTornado\nCancel into BT with B\nOn hit, transition to AOP with D\nSnake Edge",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "",
@@ -426,7 +540,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "Sunset Fan",
@@ -437,7 +554,10 @@
     "block": "-6",
     "hit": "+8c",
     "counter": "+9c",
-    "note": "\nRecover in AOP with D+1 (-10, +4c, +5c)"
+    "note": "\nRecover in AOP with D+1 (-10, +4c, +5c)",
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "",
@@ -448,7 +568,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\nAlternate input FC.2 "
+    "note": "\nAlternate input FC.2 ",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "",
@@ -459,7 +582,10 @@
     "block": "-12",
     "hit": "+3",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Giant Slayer",
@@ -470,7 +596,10 @@
     "block": "+0",
     "hit": "+26a (+17)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 1st hit CH "
+    "note": "\n\nBalcony Break\nCombos from 1st hit CH ",
+    "alternateInputs": [
+      "d+3,4"
+    ]
   },
   {
     "name": "",
@@ -481,7 +610,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\nAlternate input FC.4 "
+    "note": "\nAlternate input FC.4 ",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Phoenix",
@@ -492,7 +624,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs\nTransitions to AOP\nAlternate input BT.d+1+2"
+    "note": "\ncs\nTransitions to AOP\nAlternate input BT.d+1+2",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Spinner",
@@ -503,7 +638,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input u+3+4"
+    "note": "\nAlternate input u+3+4",
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "Storming Flower",
@@ -514,7 +652,10 @@
     "block": "-9",
     "hit": "+14a (+5)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nHas Clean hit effect"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nHas Clean hit effect",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Feathered Fan",
@@ -525,7 +666,10 @@
     "block": "-8",
     "hit": "+5c",
     "counter": "+18g",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Knee Cracker",
@@ -536,7 +680,10 @@
     "block": "-8",
     "hit": "+2c",
     "counter": "+14",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Nut Cracker",
@@ -547,7 +694,10 @@
     "block": "-12",
     "hit": "+4c",
     "counter": "+14",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Hypnotist",
@@ -558,7 +708,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps\nTransitions to HYP\nPunch parry (+9 HYP, opponent BT)\nSuccessful parry partially restores remaining Heat time\nAlternate input ub+1+2"
+    "note": "\nps\nTransitions to HYP\nPunch parry (+9 HYP, opponent BT)\nSuccessful parry partially restores remaining Heat time\nAlternate input ub+1+2",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Great Wall Left",
@@ -569,7 +722,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\nAutomatically transitions to BT on hit\nRecover facing forward with B+1 (+3) "
+    "note": "\nAutomatically transitions to BT on hit\nRecover facing forward with B+1 (+3) ",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "",
@@ -580,7 +736,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n\nHoming "
+    "note": "\n\nHoming ",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Seven Star Fist",
@@ -591,7 +750,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+2,2"
+    ]
   },
   {
     "name": "Peacock Kick",
@@ -602,7 +764,10 @@
     "block": "+3",
     "hit": "+8c",
     "counter": "+32d",
-    "note": "\nChip on block [6] "
+    "note": "\nChip on block [6] ",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "",
@@ -613,7 +778,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Moonhare Palm",
@@ -624,7 +792,10 @@
     "block": "-14",
     "hit": "+40d (-18)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\nCombos from 1st hit\n\nBalcony Break "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43a (+35)\n\nCombos from 1st hit\n\nBalcony Break ",
+    "alternateInputs": [
+      "b+4,1"
+    ]
   },
   {
     "name": "Cross Lifting Palms",
@@ -635,7 +806,10 @@
     "block": "-13",
     "hit": "+29a (+19)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "High Mid Parry",
@@ -646,7 +820,10 @@
     "block": "",
     "hit": "+6",
     "counter": "",
-    "note": "\nps\nAutomatically transitions to BT\nAlternate input b+2+4\nAlso possible during HYP and BT"
+    "note": "\nps\nAutomatically transitions to BT\nAlternate input b+2+4\nAlso possible during HYP and BT",
+    "alternateInputs": [
+      "b+1+3"
+    ]
   },
   {
     "name": "Rain Dance",
@@ -657,7 +834,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to BT\nAlternate input BT.b+3+4, AOP.b+3+4"
+    "note": "\nTransitions to BT\nAlternate input BT.b+3+4, AOP.b+3+4",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "From the Ashes",
@@ -668,7 +848,10 @@
     "block": "-13",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\njs\n\nTornado\nTransitions to AOP on hit or block "
+    "note": "\njs\n\nTornado\nTransitions to AOP on hit or block ",
+    "alternateInputs": [
+      "ub+3"
+    ]
   },
   {
     "name": "Born of Fire",
@@ -679,7 +862,10 @@
     "block": "-13",
     "hit": "+13d (-4)",
     "counter": "",
-    "note": "\npc\n\nTornado\n\nBalcony Break"
+    "note": "\npc\n\nTornado\n\nBalcony Break",
+    "alternateInputs": [
+      "ub+4"
+    ]
   },
   {
     "name": "",
@@ -690,7 +876,10 @@
     "block": "-11",
     "hit": "+0c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "u+1+2"
+    ]
   },
   {
     "name": "",
@@ -701,7 +890,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "u+1+2,2"
+    ]
   },
   {
     "name": "Fortune Cookie",
@@ -712,7 +904,10 @@
     "block": "-12",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 2nd hit\nCancel into BT with B"
+    "note": "\n\nBalcony Break\nCombos from 2nd hit\nCancel into BT with B",
+    "alternateInputs": [
+      "u+1+2,2,1"
+    ]
   },
   {
     "name": "Silver Needle",
@@ -723,7 +918,10 @@
     "block": "-7",
     "hit": "+10g c",
     "counter": "",
-    "note": "\njs\nAutomatically transitions to AOP on hit or block\nCancel into FC with D\nAlternate input ub+1, u+1"
+    "note": "\njs\nAutomatically transitions to AOP on hit or block\nCancel into FC with D\nAlternate input ub+1, u+1",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Phoenix Flight",
@@ -734,7 +932,10 @@
     "block": "+6c",
     "hit": "+7c",
     "counter": "+49a",
-    "note": "\njs\nRecover facing forward with F (+4c, +5c, +47a)\nAlternate input u+2\nChip on block [6]"
+    "note": "\njs\nRecover facing forward with F (+4c, +5c, +47a)\nAlternate input u+2\nChip on block [6]",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "Bolting Rabbit",
@@ -745,7 +946,10 @@
     "block": "-13",
     "hit": "+29a (+19)",
     "counter": "",
-    "note": "\njs\nAlternate input u+3 "
+    "note": "\njs\nAlternate input u+3 ",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Flare Kick",
@@ -756,7 +960,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "+24a",
-    "note": "\njs\nTransition to FC with D (-7, +4c, +24a)\nTransition with AOP with d+1+2 (-9, +2, +22)"
+    "note": "\njs\nTransition to FC with D (-7, +4c, +24a)\nTransition with AOP with d+1+2 (-9, +2, +22)",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Shooting Star",
@@ -767,7 +974,10 @@
     "block": "-1",
     "hit": "+4d",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\n\nFloor Break on airborne opponent\nTransitions to BT on hit or block "
+    "note": "\njs\n\nBalcony Break\n\nFloor Break on airborne opponent\nTransitions to BT on hit or block ",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -778,7 +988,10 @@
     "block": "-18",
     "hit": "+27a (+17)",
     "counter": "",
-    "note": "\njs\n"
+    "note": "\njs\n",
+    "alternateInputs": [
+      "uf,n,4"
+    ]
   },
   {
     "name": "",
@@ -789,7 +1002,10 @@
     "block": "-11",
     "hit": "+7c",
     "counter": "",
-    "note": "\nTransition to AOP with D (-5, +13)"
+    "note": "\nTransition to AOP with D (-5, +13)",
+    "alternateInputs": [
+      "f,F+1"
+    ]
   },
   {
     "name": "Poison Flower",
@@ -800,7 +1016,10 @@
     "block": "-1",
     "hit": "+20a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 1st hit"
+    "note": "\n\nBalcony Break\nCombos from 1st hit",
+    "alternateInputs": [
+      "f,F+1,3"
+    ]
   },
   {
     "name": "Eclipsing Moon",
@@ -811,7 +1030,10 @@
     "block": "-12",
     "hit": "+22d",
     "counter": "",
-    "note": "\nCombos from 1st hit CH "
+    "note": "\nCombos from 1st hit CH ",
+    "alternateInputs": [
+      "f,F+1,4"
+    ]
   },
   {
     "name": "",
@@ -822,7 +1044,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Fortune",
@@ -833,7 +1058,10 @@
     "block": "-12",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 1st hit\nCancel into BT with B (-8)"
+    "note": "\n\nBalcony Break\nCombos from 1st hit\nCancel into BT with B (-8)",
+    "alternateInputs": [
+      "f,F+2,1"
+    ]
   },
   {
     "name": "Raccoon Swing",
@@ -844,7 +1072,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+12",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Soaring Blaze",
@@ -855,7 +1086,10 @@
     "block": "+9",
     "hit": "+13g c",
     "counter": "+58a (+38)",
-    "note": "\n\nBalcony Break\nAutomatically transitions to HYP on hit or block\nChip on block [6]"
+    "note": "\n\nBalcony Break\nAutomatically transitions to HYP on hit or block\nChip on block [6]",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "",
@@ -866,7 +1100,10 @@
     "block": "-9",
     "hit": "+5",
     "counter": "+58a (+38)",
-    "note": "\nAlternate input ws1+2"
+    "note": "\nAlternate input ws1+2",
+    "alternateInputs": [
+      "f,F+1+2"
+    ]
   },
   {
     "name": "X Marks the Spot",
@@ -877,7 +1114,10 @@
     "block": "-8",
     "hit": "+7c",
     "counter": "+43a",
-    "note": "\nAlternate input ws1+2,1+2"
+    "note": "\nAlternate input ws1+2,1+2",
+    "alternateInputs": [
+      "f,F+1+2,1+2"
+    ]
   },
   {
     "name": "Front Layout",
@@ -888,7 +1128,10 @@
     "block": "-3",
     "hit": "+39d",
     "counter": "",
-    "note": "\njs\nChip on block [9]"
+    "note": "\njs\nChip on block [9]",
+    "alternateInputs": [
+      "f,F+3+4"
+    ]
   },
   {
     "name": "Diving Falcon",
@@ -899,7 +1142,10 @@
     "block": "+7",
     "hit": "+29a (+19)",
     "counter": "",
-    "note": "\njs\nAutomatically transitions to AOP on hit or block\nChip on block [9]\nAlternate input wr3"
+    "note": "\njs\nAutomatically transitions to AOP on hit or block\nChip on block [9]\nAlternate input wr3",
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "",
@@ -910,7 +1156,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs "
+    "note": "\ncs ",
+    "alternateInputs": [
+      "FC 1"
+    ]
   },
   {
     "name": "",
@@ -921,7 +1170,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\ncs "
+    "note": "\ncs ",
+    "alternateInputs": [
+      "FC 2"
+    ]
   },
   {
     "name": "",
@@ -932,7 +1184,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\ncs "
+    "note": "\ncs ",
+    "alternateInputs": [
+      "FC 3"
+    ]
   },
   {
     "name": "",
@@ -943,7 +1198,10 @@
     "block": "+0",
     "hit": "+7",
     "counter": "",
-    "note": "\nCombos from 1st hit CH"
+    "note": "\nCombos from 1st hit CH",
+    "alternateInputs": [
+      "FC 3,2"
+    ]
   },
   {
     "name": "",
@@ -954,7 +1212,10 @@
     "block": "-1",
     "hit": "+6",
     "counter": "+10g",
-    "note": "\nTransition to HYP with B (-2, +5)\nCombos from 2nd hit\nJails from 2nd hit"
+    "note": "\nTransition to HYP with B (-2, +5)\nCombos from 2nd hit\nJails from 2nd hit",
+    "alternateInputs": [
+      "FC 3,2,1"
+    ]
   },
   {
     "name": "Fire Dancer",
@@ -965,7 +1226,10 @@
     "block": "-18",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nCombos from 3rd hit CH "
+    "note": "\nCombos from 3rd hit CH ",
+    "alternateInputs": [
+      "FC 3,2,1,4"
+    ]
   },
   {
     "name": "",
@@ -976,7 +1240,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\ncs\n"
+    "note": "\ncs\n",
+    "alternateInputs": [
+      "FC 4"
+    ]
   },
   {
     "name": "",
@@ -987,7 +1254,10 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\ncs\nRecover in BT with FC.DF+2 (-8, +3)"
+    "note": "\ncs\nRecover in BT with FC.DF+2 (-8, +3)",
+    "alternateInputs": [
+      "FC df+2"
+    ]
   },
   {
     "name": "Lotus Twist",
@@ -998,7 +1268,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "\ncs\nRecover in BT with DF (-, +3)"
+    "note": "\ncs\nRecover in BT with DF (-, +3)",
+    "alternateInputs": [
+      "FC df+2,1"
+    ]
   },
   {
     "name": "",
@@ -1009,7 +1282,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\ncs\nAutomatically transitions to AOP on hit or block\nAlternate input AOP.f+4"
+    "note": "\ncs\nAutomatically transitions to AOP on hit or block\nAlternate input AOP.f+4",
+    "alternateInputs": [
+      "FC df+4"
+    ]
   },
   {
     "name": "Flower Garden",
@@ -1020,7 +1296,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\ncs\nCombos from 1st hit CH\nAlternate input AOP.f+4,4"
+    "note": "\ncs\nCombos from 1st hit CH\nAlternate input AOP.f+4,4",
+    "alternateInputs": [
+      "FC df+4,4"
+    ]
   },
   {
     "name": "Low Back Turn",
@@ -1031,7 +1310,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs\nTransitions to BT"
+    "note": "\ncs\nTransitions to BT",
+    "alternateInputs": [
+      "db+3+4"
+    ]
   },
   {
     "name": "",
@@ -1042,7 +1324,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Whirlwind Cross Kick",
@@ -1053,7 +1338,10 @@
     "block": "-10",
     "hit": "+12g",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ws1,4"
+    ]
   },
   {
     "name": "Sunflower",
@@ -1064,7 +1352,10 @@
     "block": "-3",
     "hit": "+7",
     "counter": "+38a (+28)",
-    "note": "\nRecover facing forward with F (-5, +5, +36a (+26))"
+    "note": "\nRecover facing forward with F (-5, +5, +36a (+26))",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "Jasmine Blossom",
@@ -1075,7 +1366,10 @@
     "block": "-3",
     "hit": "+38a (+28)",
     "counter": "",
-    "note": "\nRecover facing forward with F (-5, +36a (+26))"
+    "note": "\nRecover facing forward with F (-5, +36a (+26))",
+    "alternateInputs": [
+      "ws2*"
+    ]
   },
   {
     "name": "Rising Axe Kick",
@@ -1086,7 +1380,10 @@
     "block": "+3c",
     "hit": "+6c",
     "counter": "+51a",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Skyscraper Kick",
@@ -1097,7 +1394,10 @@
     "block": "-10",
     "hit": "+20a (+13)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "",
@@ -1108,7 +1408,10 @@
     "block": "-9",
     "hit": "+5",
     "counter": "",
-    "note": "\nAlternate input f,F+1+2 "
+    "note": "\nAlternate input f,F+1+2 ",
+    "alternateInputs": [
+      "ws1+2"
+    ]
   },
   {
     "name": "X Marks the Spot",
@@ -1119,7 +1422,10 @@
     "block": "-8",
     "hit": "+7c",
     "counter": "+43a",
-    "note": "\nAlternate input f,F+1+2,1+2 "
+    "note": "\nAlternate input f,F+1+2,1+2 ",
+    "alternateInputs": [
+      "ws1+2,1+2"
+    ]
   },
   {
     "name": "Phoenix",
@@ -1130,7 +1436,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs\nTransitions to AOP\nAlternate input BT.d+1+2"
+    "note": "\ncs\nTransitions to AOP\nAlternate input BT.d+1+2",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "",
@@ -1141,7 +1450,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\nTransition to HYP with B (-2, +9)"
+    "note": "\nTransition to HYP with B (-2, +9)",
+    "alternateInputs": [
+      "AOP 1"
+    ]
   },
   {
     "name": "Double Serving",
@@ -1152,7 +1464,10 @@
     "block": "-6",
     "hit": "+30g",
     "counter": "",
-    "note": "\nCombos from 1st hit"
+    "note": "\nCombos from 1st hit",
+    "alternateInputs": [
+      "AOP 1,2"
+    ]
   },
   {
     "name": "Twin Mandarin Blows",
@@ -1163,7 +1478,10 @@
     "block": "-9",
     "hit": "+15d (-2)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit"
+    "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit",
+    "alternateInputs": [
+      "AOP 1,4"
+    ]
   },
   {
     "name": "",
@@ -1174,7 +1492,10 @@
     "block": "-10",
     "hit": "+0",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "AOP 2"
+    ]
   },
   {
     "name": "Phoenix Double Palm",
@@ -1185,7 +1506,10 @@
     "block": "-12",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\nCombos from 1st hit\nCancel 2nd hit into BT with B\n(-14, -3) "
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\nCombos from 1st hit\nCancel 2nd hit into BT with B\n(-14, -3) ",
+    "alternateInputs": [
+      "AOP 2,1"
+    ]
   },
   {
     "name": "Piercing Spear Kick",
@@ -1196,7 +1520,10 @@
     "block": "-16",
     "hit": "+0",
     "counter": "+27a",
-    "note": "\ncs\n"
+    "note": "\ncs\n",
+    "alternateInputs": [
+      "AOP 3"
+    ]
   },
   {
     "name": "Rising Front Kick",
@@ -1207,7 +1534,10 @@
     "block": "-10",
     "hit": "+8",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "AOP 4"
+    ]
   },
   {
     "name": "Phoenix Cannon",
@@ -1218,7 +1548,10 @@
     "block": "-1",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break "
+    "note": "\n\nTornado\n\nBalcony Break ",
+    "alternateInputs": [
+      "AOP 1+2"
+    ]
   },
   {
     "name": "Sliding Firecracker",
@@ -1229,7 +1562,10 @@
     "block": "-33",
     "hit": "+1d",
     "counter": "",
-    "note": "\nRecovers in FUFT when blocked "
+    "note": "\nRecovers in FUFT when blocked ",
+    "alternateInputs": [
+      "AOP 3+4"
+    ]
   },
   {
     "name": "",
@@ -1240,7 +1576,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\ncs\nAutomatically transitions to AOP on hit or block\nAlternate input FC.df+4"
+    "note": "\ncs\nAutomatically transitions to AOP on hit or block\nAlternate input FC.df+4",
+    "alternateInputs": [
+      "AOP f+4"
+    ]
   },
   {
     "name": "Flower Garden",
@@ -1251,7 +1590,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\ncs\nCombos from 1st hit CH\nAlternate input FC.df+4,4"
+    "note": "\ncs\nCombos from 1st hit CH\nAlternate input FC.df+4,4",
+    "alternateInputs": [
+      "AOP f+4,4"
+    ]
   },
   {
     "name": "Roll Ball",
@@ -1262,7 +1604,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs\nTransition to AOP with D"
+    "note": "\ncs\nTransition to AOP with D",
+    "alternateInputs": [
+      "AOP f+3+4"
+    ]
   },
   {
     "name": "Butterfly",
@@ -1273,7 +1618,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs\nXiaoyu ducks lower"
+    "note": "\ncs\nXiaoyu ducks lower",
+    "alternateInputs": [
+      "AOP d"
+    ]
   },
   {
     "name": "Phoenix Swipe",
@@ -1284,7 +1632,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "+0",
-    "note": "\ncs\n"
+    "note": "\ncs\n",
+    "alternateInputs": [
+      "AOP d+1"
+    ]
   },
   {
     "name": "Return to the Nest",
@@ -1295,7 +1646,10 @@
     "block": "-12",
     "hit": "+0",
     "counter": "",
-    "note": "\ncs\n\nFloor Break\nAttack throw on CH"
+    "note": "\ncs\n\nFloor Break\nAttack throw on CH",
+    "alternateInputs": [
+      "CH AOP d+1"
+    ]
   },
   {
     "name": "Wave Crest",
@@ -1306,7 +1660,10 @@
     "block": "-8",
     "hit": "+42a (+32)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "AOP d+1+2"
+    ]
   },
   {
     "name": "",
@@ -1317,7 +1674,10 @@
     "block": "-17",
     "hit": "+27a (+17)",
     "counter": "",
-    "note": "\njs\nAlternate input AOP.ub+3, AOP.u+3"
+    "note": "\njs\nAlternate input AOP.ub+3, AOP.u+3",
+    "alternateInputs": [
+      "AOP uf+3"
+    ]
   },
   {
     "name": "Alley-Oop",
@@ -1328,7 +1688,10 @@
     "block": "-4",
     "hit": "+8c",
     "counter": "",
-    "note": "\nAlternate input AOP.ub+3,1 AOP.u+3,1\n\nFloor Break on airborne opponent"
+    "note": "\nAlternate input AOP.ub+3,1 AOP.u+3,1\n\nFloor Break on airborne opponent",
+    "alternateInputs": [
+      "AOP uf+3,1"
+    ]
   },
   {
     "name": "Double Scissor Kick",
@@ -1339,7 +1702,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "+22g",
-    "note": "\nAlternate input AOP.ub+3,4 AOP.u+3,4 "
+    "note": "\nAlternate input AOP.ub+3,4 AOP.u+3,4 ",
+    "alternateInputs": [
+      "AOP uf+3,4"
+    ]
   },
   {
     "name": "",
@@ -1350,7 +1716,10 @@
     "block": "-10",
     "hit": "+1",
     "counter": "FC",
-    "note": "\njs\nTransition to AOP with D (-12, +0)\nTransition to BT with B (-15, -3)\nAlternate input AOP.u+4 "
+    "note": "\njs\nTransition to AOP with D (-12, +0)\nTransition to BT with B (-15, -3)\nAlternate input AOP.u+4 ",
+    "alternateInputs": [
+      "AOP uf+4"
+    ]
   },
   {
     "name": "Flower Power",
@@ -1361,7 +1730,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\njs\nAlternate input AOP.u+4,4 "
+    "note": "\njs\nAlternate input AOP.u+4,4 ",
+    "alternateInputs": [
+      "AOP uf+4,4"
+    ]
   },
   {
     "name": "Jumping",
@@ -1372,7 +1744,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs\nAlternate input AOP.ub AOP.u "
+    "note": "\njs\nAlternate input AOP.ub AOP.u ",
+    "alternateInputs": [
+      "AOP uf"
+    ]
   },
   {
     "name": "Jumping Pirouette",
@@ -1383,7 +1758,10 @@
     "block": "-2",
     "hit": "+29d",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\nTransition to AOP with D (-3, +28) "
+    "note": "\njs\n\nBalcony Break\nTransition to AOP with D (-3, +28) ",
+    "alternateInputs": [
+      "While in the air 3"
+    ]
   },
   {
     "name": "Crane Kick",
@@ -1394,7 +1772,10 @@
     "block": "-8",
     "hit": "+23a (+13)",
     "counter": "",
-    "note": "\njs\n\nBalcony Break "
+    "note": "\njs\n\nBalcony Break ",
+    "alternateInputs": [
+      "While landing 4"
+    ]
   },
   {
     "name": "Sky Kick",
@@ -1405,7 +1786,10 @@
     "block": "-18",
     "hit": "+27a",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "While landing 3"
+    ]
   },
   {
     "name": "Rain Dance",
@@ -1416,7 +1800,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to BT\nAlternate input BT.b+3+4, AOP.b+3+4"
+    "note": "\nTransitions to BT\nAlternate input BT.b+3+4, AOP.b+3+4",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "",
@@ -1427,7 +1814,10 @@
     "block": "-5",
     "hit": "+4",
     "counter": "+64cs",
-    "note": "\n\nElbow "
+    "note": "\n\nElbow ",
+    "alternateInputs": [
+      "BT 1"
+    ]
   },
   {
     "name": "Waking Prominence",
@@ -1438,7 +1828,10 @@
     "block": "-13",
     "hit": "+17a",
     "counter": "",
-    "note": "\njs\n\nTornado\n\nBalcony Break "
+    "note": "\njs\n\nTornado\n\nBalcony Break ",
+    "alternateInputs": [
+      "BT 1,2"
+    ]
   },
   {
     "name": "",
@@ -1449,7 +1842,10 @@
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BT 2"
+    ]
   },
   {
     "name": "",
@@ -1460,7 +1856,10 @@
     "block": "-1",
     "hit": "+6",
     "counter": "+10",
-    "note": "\nTransition to HYP with B (-2, +5)\nCombos from 1st hit "
+    "note": "\nTransition to HYP with B (-2, +5)\nCombos from 1st hit ",
+    "alternateInputs": [
+      "BT 2,1"
+    ]
   },
   {
     "name": "Dark & Stormy",
@@ -1471,7 +1870,10 @@
     "block": "-18",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BT 2,1,4"
+    ]
   },
   {
     "name": "",
@@ -1482,7 +1884,10 @@
     "block": "-7",
     "hit": "+5",
     "counter": "",
-    "note": "\nCombos from 1st hit "
+    "note": "\nCombos from 1st hit ",
+    "alternateInputs": [
+      "BT 2,2"
+    ]
   },
   {
     "name": "Turn of Fortune",
@@ -1493,7 +1898,10 @@
     "block": "-11",
     "hit": "+5c",
     "counter": "",
-    "note": "\nTransition to AOP with D (-10, +5)\nCombos from 2nd hit"
+    "note": "\nTransition to AOP with D (-10, +5)\nCombos from 2nd hit",
+    "alternateInputs": [
+      "BT 2,2,1"
+    ]
   },
   {
     "name": "Peg Leg",
@@ -1504,7 +1912,10 @@
     "block": "-5",
     "hit": "+7",
     "counter": "+41d (+33)",
-    "note": "\njs\nOn CH:\nBalcony Break "
+    "note": "\njs\nOn CH:\nBalcony Break ",
+    "alternateInputs": [
+      "BT 3"
+    ]
   },
   {
     "name": "Mistrust",
@@ -1515,7 +1926,10 @@
     "block": "-18",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BT 4"
+    ]
   },
   {
     "name": "",
@@ -1526,7 +1940,10 @@
     "block": "-6",
     "hit": "+8",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BT 1+2"
+    ]
   },
   {
     "name": "Battering Storm",
@@ -1537,7 +1954,10 @@
     "block": "+3",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\n\nBalcony Break\nCombos from 1st hit\nChip on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\n\nBalcony Break\nCombos from 1st hit\nChip on block",
+    "alternateInputs": [
+      "BT 1+2,4"
+    ]
   },
   {
     "name": "Battering Winds",
@@ -1548,7 +1968,10 @@
     "block": "-13",
     "hit": "+8d",
     "counter": "",
-    "note": "\nCombos from 1st hit "
+    "note": "\nCombos from 1st hit ",
+    "alternateInputs": [
+      "BT 1+2,1+2"
+    ]
   },
   {
     "name": "Monkey Kick",
@@ -1559,7 +1982,10 @@
     "block": "-16",
     "hit": "+10a (+1)",
     "counter": "",
-    "note": "\njs\n\nBalcony Break "
+    "note": "\njs\n\nBalcony Break ",
+    "alternateInputs": [
+      "BT 3+4"
+    ]
   },
   {
     "name": "Spinning Push Hands",
@@ -1570,7 +1996,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "+5",
-    "note": "\nps\nPunch parry\n50 damage, +20d, transitions to BT"
+    "note": "\nps\nPunch parry\n50 damage, +20d, transitions to BT",
+    "alternateInputs": [
+      "BT f+1+2"
+    ]
   },
   {
     "name": "",
@@ -1581,7 +2010,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs\n\"Cali Roll\""
+    "note": "\ncs\n\"Cali Roll\"",
+    "alternateInputs": [
+      "BT f+3+4"
+    ]
   },
   {
     "name": "Cyclone Left",
@@ -1592,7 +2024,10 @@
     "block": "-11",
     "hit": "+40a (+30)",
     "counter": "",
-    "note": "\ncs\n\"Cali Roll\""
+    "note": "\ncs\n\"Cali Roll\"",
+    "alternateInputs": [
+      "BT f+3+4,3+4"
+    ]
   },
   {
     "name": "",
@@ -1603,7 +2038,10 @@
     "block": "-12",
     "hit": "+7c",
     "counter": "",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "BT d+3"
+    ]
   },
   {
     "name": "Spinning Crane",
@@ -1614,7 +2052,10 @@
     "block": "-5",
     "hit": "+20a (+11)",
     "counter": "+37a",
-    "note": "\n\nBalcony Break\nCombos from 1st hit CH"
+    "note": "\n\nBalcony Break\nCombos from 1st hit CH",
+    "alternateInputs": [
+      "BT d+3,4"
+    ]
   },
   {
     "name": "Hou Sao Tui",
@@ -1625,7 +2066,10 @@
     "block": "-26",
     "hit": "+73a (+57)",
     "counter": "+",
-    "note": "\ncs\nInstant Tornado\nHas clean hit effect"
+    "note": "\ncs\nInstant Tornado\nHas clean hit effect",
+    "alternateInputs": [
+      "BT d+4"
+    ]
   },
   {
     "name": "Reverse Low Parry",
@@ -1636,7 +2080,10 @@
     "block": "",
     "hit": "+51a (+35)",
     "counter": "",
-    "note": "\nps\nLow Parry from BT\nAlternate input BT.d+2+4"
+    "note": "\nps\nLow Parry from BT\nAlternate input BT.d+2+4",
+    "alternateInputs": [
+      "BT d+1+3"
+    ]
   },
   {
     "name": "Spin Tornado",
@@ -1647,7 +2094,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nXiaoyu spins and steps to the right\nAlternate input BT.u+3+4 (steps to the left)"
+    "note": "\nXiaoyu spins and steps to the right\nAlternate input BT.u+3+4 (steps to the left)",
+    "alternateInputs": [
+      "BT d+3+4"
+    ]
   },
   {
     "name": "Reverse Knee Cracker",
@@ -1658,7 +2108,10 @@
     "block": "+2",
     "hit": "+2",
     "counter": "+14",
-    "note": "\nAlternate input BT.df+4"
+    "note": "\nAlternate input BT.df+4",
+    "alternateInputs": [
+      "BT db+4"
+    ]
   },
   {
     "name": "Silver Needle",
@@ -1669,7 +2122,10 @@
     "block": "-7",
     "hit": "+12g c",
     "counter": "",
-    "note": "\njs\nAutomatically transitions to AOP on hit or block\nCancel into FC with D\nAlternate input BT.u+1"
+    "note": "\njs\nAutomatically transitions to AOP on hit or block\nCancel into FC with D\nAlternate input BT.u+1",
+    "alternateInputs": [
+      "BT uf+1"
+    ]
   },
   {
     "name": "Back Layout",
@@ -1680,7 +2136,10 @@
     "block": "+4",
     "hit": "+39d",
     "counter": "",
-    "note": "\njs\nUnbreakable throw when connecting at close range\nChip on block [9] "
+    "note": "\njs\nUnbreakable throw when connecting at close range\nChip on block [9] ",
+    "alternateInputs": [
+      "BT f,F+3+4"
+    ]
   },
   {
     "name": "Hypnotist",
@@ -1691,7 +2150,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to HYP\nDuring Heat, taking 3 or more steps partially restores remaining Heat time\nAlternate input ub+1+2"
+    "note": "\nTransitions to HYP\nDuring Heat, taking 3 or more steps partially restores remaining Heat time\nAlternate input ub+1+2",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Spin Sticker",
@@ -1702,7 +2164,10 @@
     "block": "-4",
     "hit": "+22 (-13)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nPowered UpBased on the number of steps taken in HYP:HYP.2 damage increases and becomes plus on block. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time\nChip on block"
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nPowered UpBased on the number of steps taken in HYP:HYP.2 damage increases and becomes plus on block. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time\nChip on block",
+    "alternateInputs": [
+      "HYP 2"
+    ]
   },
   {
     "name": "Blue Luan Sweep",
@@ -1713,7 +2178,10 @@
     "block": "-12",
     "hit": "+7c",
     "counter": "",
-    "note": "\n\nHoming\nPowered UpBased on the number of steps taken in HYP:HYP.3 damage increases and becomes more plus on hit. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time"
+    "note": "\n\nHoming\nPowered UpBased on the number of steps taken in HYP:HYP.3 damage increases and becomes more plus on hit. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.\nPartially uses remaining Heat time",
+    "alternateInputs": [
+      "HYP 3"
+    ]
   },
   {
     "name": "Falling Tiger Kick",
@@ -1724,7 +2192,10 @@
     "block": "-2",
     "hit": "+26d",
     "counter": "+50cs",
-    "note": "\n\nBalcony Break "
+    "note": "\n\nBalcony Break ",
+    "alternateInputs": [
+      "HYP 4"
+    ]
   },
   {
     "name": "Hypnotist",
@@ -1735,7 +2206,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps\nStarts taking steps in the opposite direction"
+    "note": "\nps\nStarts taking steps in the opposite direction",
+    "alternateInputs": [
+      "HYP 1+2"
+    ]
   },
   {
     "name": "Deadly Orchid",
@@ -1746,7 +2220,10 @@
     "block": "-2",
     "hit": "+30a",
     "counter": "",
-    "note": "\njs\nCancel into BT with B\nChip on block [8]"
+    "note": "\njs\nCancel into BT with B\nChip on block [8]",
+    "alternateInputs": [
+      "HYP 3+4"
+    ]
   },
   {
     "name": "Deadly Orchid",
@@ -1757,7 +2234,10 @@
     "block": "",
     "hit": "+10d",
     "counter": "",
-    "note": "\nUnblockable\nCancel into BT with BB"
+    "note": "\nUnblockable\nCancel into BT with BB",
+    "alternateInputs": [
+      "HYP 2+3"
+    ]
   },
   {
     "name": "Street Sweeper",
@@ -1768,7 +2248,10 @@
     "block": "-13",
     "hit": "-2",
     "counter": "+29a",
-    "note": "\n"
+    "note": "\n",
+    "alternateInputs": [
+      "ss4"
+    ]
   },
   {
     "name": "Jade",
@@ -1779,7 +2262,10 @@
     "block": "-6",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1 or 2"
+    "note": "\nThrow break 1 or 2",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Ruby",
@@ -1790,7 +2276,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nSide swap"
+    "note": "\nThrow break 1 or 2\nSide swap",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Arm Flip",
@@ -1801,7 +2290,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1"
+    "note": "\nThrow break 1",
+    "alternateInputs": [
+      "Left Throw"
+    ]
   },
   {
     "name": "Dump the Bucket",
@@ -1812,7 +2304,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2"
+    "note": "\nThrow break 2",
+    "alternateInputs": [
+      "Right Throw"
+    ]
   },
   {
     "name": "Crank up",
@@ -1823,7 +2318,10 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nUnbreakable"
+    "note": "\nUnbreakable",
+    "alternateInputs": [
+      "Back Throw"
+    ]
   },
   {
     "name": "Wang's Waning Moon",
@@ -1834,7 +2332,10 @@
     "block": "-2",
     "hit": "+20cs",
     "counter": "",
-    "note": "\nThrow Break 1+2\n\nBalcony Break\nAlternate input BT.f+2+3\nSide Swap"
+    "note": "\nThrow Break 1+2\n\nBalcony Break\nAlternate input BT.f+2+3\nSide Swap",
+    "alternateInputs": [
+      "f+2+3"
+    ]
   },
   {
     "name": "Dragon Fall",
@@ -1845,7 +2346,10 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow Break 1\n\nFloor Break\nSide Swap "
+    "note": "\nThrow Break 1\n\nFloor Break\nSide Swap ",
+    "alternateInputs": [
+      "df+2+4"
+    ]
   },
   {
     "name": "Dislocator",
@@ -1856,7 +2360,10 @@
     "block": "+0",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow Break 1+2\nSide swap"
+    "note": "\nThrow Break 1+2\nSide swap",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Bei Shen Zhuan Wu",
@@ -1867,7 +2374,10 @@
     "block": "-6",
     "hit": "+1d",
     "counter": "",
-    "note": "\njs\nThrow Break 1\nAlternate input BT.f+2+4 (Throw Break 2)\nCancel into FC with D "
+    "note": "\njs\nThrow Break 1\nAlternate input BT.f+2+4 (Throw Break 2)\nCancel into FC with D ",
+    "alternateInputs": [
+      "BT f+1+3"
+    ]
   },
   {
     "name": "Wang's Waning Moon (BT)",
@@ -1878,7 +2388,10 @@
     "block": "-2",
     "hit": "+20cs",
     "counter": "",
-    "note": "\njs\nThrow Break 1+2\n\nBalcony Break\nCancel into FC with D "
+    "note": "\njs\nThrow Break 1+2\n\nBalcony Break\nCancel into FC with D ",
+    "alternateInputs": [
+      "BT f+2+3"
+    ]
   },
   {
     "name": "Feng Huang Zhuan Wu",
@@ -1889,6 +2402,9 @@
     "block": "-6",
     "hit": "+1d",
     "counter": "",
-    "note": "\ncs\nThrow Break 1\nAlternate input AOP.2+4 (Throw Break 2)\nXiaoyu rolls to her left then throws\nCancel into FC with D "
+    "note": "\ncs\nThrow Break 1\nAlternate input AOP.2+4 (Throw Break 2)\nXiaoyu rolls to her left then throws\nCancel into FC with D ",
+    "alternateInputs": [
+      "AOP 1+3"
+    ]
   }
 ]

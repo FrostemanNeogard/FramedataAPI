@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b"
+    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Pandemonium",
@@ -19,7 +22,10 @@
     "block": "+14g",
     "hit": "+3a",
     "counter": "",
-    "note": "\n\nHeat Smash\nTransition to r20 SZN on block"
+    "note": "\n\nHeat Smash\nTransition to r20 SZN on block",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Wild Hunt X-ecutor",
@@ -30,7 +36,10 @@
     "block": "-15",
     "hit": "+0",
     "counter": "",
-    "note": "\npc8~\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit"
+    "note": "\npc8~\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Jab",
@@ -41,7 +50,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Left Right Combo",
@@ -52,10 +64,13 @@
     "block": "-3",
     "hit": "+7",
     "counter": "",
-    "note": "\nJail from 1st attack with 2f delay"
+    "note": "\nJail from 1st attack with 2f delay",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
-    "name": "Left Right Combo ＞ Black Hole",
+    "name": "Left Right Combo \u00ef\u00bc\u017e Black Hole",
     "input": "1,2,4",
     "hit_level": "h,h,m",
     "damage": "5,12,20",
@@ -63,7 +78,10 @@
     "block": "-14~-12",
     "hit": "+15a (-2)",
     "counter": "",
-    "note": "\n,js23~42 fs43~45\n\nTornado\n\nBalcony Break\nCombo from 1st CH"
+    "note": "\n,js23~42 fs43~45\n\nTornado\n\nBalcony Break\nCombo from 1st CH",
+    "alternateInputs": [
+      "1,2,4"
+    ]
   },
   {
     "name": "",
@@ -74,7 +92,10 @@
     "block": "-4",
     "hit": "+6",
     "counter": "",
-    "note": "Alternate input: 1,2~D"
+    "note": "Alternate input: 1,2~D",
+    "alternateInputs": [
+      "1,2,3+4"
+    ]
   },
   {
     "name": "Right Jab",
@@ -85,7 +106,10 @@
     "block": "-1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "PDK Combo",
@@ -96,7 +120,10 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": "\n,cs6~Combo from 1st hit"
+    "note": "\n,cs6~Combo from 1st hit",
+    "alternateInputs": [
+      "2,3"
+    ]
   },
   {
     "name": "PK Combo",
@@ -107,7 +134,10 @@
     "block": "-8~-7",
     "hit": "+8~+9",
     "counter": "",
-    "note": "\nCombo from 1st hit\nCancel to r31 with B"
+    "note": "\nCombo from 1st hit\nCancel to r31 with B",
+    "alternateInputs": [
+      "2,4"
+    ]
   },
   {
     "name": "",
@@ -118,7 +148,10 @@
     "block": "-8~-7",
     "hit": "+3~+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -129,7 +162,10 @@
     "block": "-8~-7",
     "hit": "+5~+6",
     "counter": "",
-    "note": "\nJail from 1st attack"
+    "note": "\nJail from 1st attack",
+    "alternateInputs": [
+      "3,3"
+    ]
   },
   {
     "name": "Valkyrie Lance Combo",
@@ -140,7 +176,10 @@
     "block": "-9",
     "hit": "+39a (-19)",
     "counter": "+66a (+50)",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH",
+    "alternateInputs": [
+      "3,3,4"
+    ]
   },
   {
     "name": "",
@@ -151,7 +190,10 @@
     "block": "-16~-15",
     "hit": "-3~-2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3,3,4~B"
+    ]
   },
   {
     "name": "High Kick",
@@ -162,7 +204,10 @@
     "block": "-7~-6",
     "hit": "+3~+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Brocken Connect",
@@ -173,7 +218,10 @@
     "block": "-3~-2",
     "hit": "+7~+8",
     "counter": "",
-    "note": "\nJail from 1st attack"
+    "note": "\nJail from 1st attack",
+    "alternateInputs": [
+      "4,1"
+    ]
   },
   {
     "name": "Chariot",
@@ -184,7 +232,10 @@
     "block": "-9~-4",
     "hit": "+19a",
     "counter": "",
-    "note": "Spike"
+    "note": "Spike",
+    "alternateInputs": [
+      "3~4"
+    ]
   },
   {
     "name": "Chariot to Blind Roll",
@@ -195,7 +246,10 @@
     "block": "-39~-36",
     "hit": "-8",
     "counter": "",
-    "note": "\n,js13~41 fs42~44Will phase through opponent up-close"
+    "note": "\n,js13~41 fs42~44Will phase through opponent up-close",
+    "alternateInputs": [
+      "3~4,F"
+    ]
   },
   {
     "name": "Hydra Bite",
@@ -206,7 +260,10 @@
     "block": "-16~-15",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\njs14~27 fs28~30Recovery listed is for the second hit"
+    "note": "\njs14~27 fs28~30Recovery listed is for the second hit",
+    "alternateInputs": [
+      "4~3"
+    ]
   },
   {
     "name": "Hydra Bite Low",
@@ -217,7 +274,10 @@
     "block": "-13~-2",
     "hit": "+4~+5",
     "counter": "",
-    "note": "\n,cs1~Can be delayed"
+    "note": "\n,cs1~Can be delayed",
+    "alternateInputs": [
+      "4~3,1"
+    ]
   },
   {
     "name": "Hydra Bite High",
@@ -228,7 +288,10 @@
     "block": "-3~+0",
     "hit": "+14a",
     "counter": "",
-    "note": "\n\nBalcony Break\nCan be delayed"
+    "note": "\n\nBalcony Break\nCan be delayed",
+    "alternateInputs": [
+      "4~3,3"
+    ]
   },
   {
     "name": "Hydra Bite Mid",
@@ -239,7 +302,10 @@
     "block": "-14~-13",
     "hit": "+15a",
     "counter": "",
-    "note": "\n\nBalcony Break\nCan be delayed"
+    "note": "\n\nBalcony Break\nCan be delayed",
+    "alternateInputs": [
+      "4~3,4"
+    ]
   },
   {
     "name": "Crusader",
@@ -250,7 +316,10 @@
     "block": "-9",
     "hit": "+15a",
     "counter": "",
-    "note": "Heat Engager\n"
+    "note": "Heat Engager\n",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Crusader > Heat Dash",
@@ -261,7 +330,10 @@
     "block": "+5",
     "hit": "+45a (+35)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat 1+2,F"
+    ]
   },
   {
     "name": "",
@@ -272,7 +344,10 @@
     "block": "-12~-11",
     "hit": "-1~+0",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Tartaros",
@@ -283,7 +358,10 @@
     "block": "-9~-8",
     "hit": "+6c~+7c",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st hit\nCan be delayed"
+    "note": "\n\nSpike\nCombo from 1st hit\nCan be delayed",
+    "alternateInputs": [
+      "f+2,3"
+    ]
   },
   {
     "name": "",
@@ -294,7 +372,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAlternate input: f+2,3~D"
+    "note": "\nAlternate input: f+2,3~D",
+    "alternateInputs": [
+      "f+2,3,3+4"
+    ]
   },
   {
     "name": "",
@@ -305,7 +386,10 @@
     "block": "-9",
     "hit": "+3",
     "counter": "",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "",
@@ -316,7 +400,10 @@
     "block": "-6",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3~B"
+    ]
   },
   {
     "name": "Circling Winds",
@@ -327,7 +414,10 @@
     "block": "-14",
     "hit": "+10a (+1)",
     "counter": "+30a (+22)",
-    "note": "\n\nBalcony Break\nCombo from 1st hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit",
+    "alternateInputs": [
+      "f+3,2"
+    ]
   },
   {
     "name": "Lance Kick",
@@ -338,7 +428,10 @@
     "block": "-9~-8",
     "hit": "+31a (+23)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Minos Typhoon",
@@ -349,7 +442,10 @@
     "block": "-14",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "\npc7~\n\nHeat Engager\n\n\nBalcony Break\nFrame advantage is -9 if an attack is absorbed"
+    "note": "\npc7~\n\nHeat Engager\n\n\nBalcony Break\nFrame advantage is -9 if an attack is absorbed",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Minos Typhoon > Heat Dash",
@@ -360,7 +456,10 @@
     "block": "+5",
     "hit": "+34a",
     "counter": "",
-    "note": "\npc7~"
+    "note": "\npc7~",
+    "alternateInputs": [
+      "in heat f+1+2,F"
+    ]
   },
   {
     "name": "Body Blow",
@@ -371,7 +470,10 @@
     "block": "-2~-1",
     "hit": "+8~+9",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Body Blow > Phantom Mace",
@@ -382,7 +484,10 @@
     "block": "-14~-5",
     "hit": "+32a (-26)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\nAvailable only on hit or block"
+    "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\nAvailable only on hit or block",
+    "alternateInputs": [
+      "df+1,4"
+    ]
   },
   {
     "name": "Body Blow > Phantom Mace",
@@ -393,7 +498,10 @@
     "block": "-3~-2",
     "hit": "+32a (-26)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat df+1,4"
+    ]
   },
   {
     "name": "Uppercut",
@@ -404,7 +512,10 @@
     "block": "-13~-11",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\nLaunches crouching opponent"
+    "note": "\nLaunches crouching opponent",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Meat Hook",
@@ -415,7 +526,10 @@
     "block": "-8~-7",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "df+2,3"
+    ]
   },
   {
     "name": "Bolt Stunner",
@@ -426,7 +540,10 @@
     "block": "-15~-14",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "df+2,4"
+    ]
   },
   {
     "name": "Shadow Snap Kick",
@@ -437,7 +554,10 @@
     "block": "-9~-8",
     "hit": "+12a",
     "counter": "+46a (+36)",
-    "note": "\ncs6~17"
+    "note": "\ncs6~17",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "",
@@ -448,7 +568,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "Pendulum Kick",
@@ -459,7 +582,10 @@
     "block": "-14~-13",
     "hit": "+6a",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit with 7f delay\nInput can be delayed 9f\nMove can be delayed 8f"
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 7f delay\nInput can be delayed 9f\nMove can be delayed 8f",
+    "alternateInputs": [
+      "df+4,4"
+    ]
   },
   {
     "name": "Pendulum Shadow",
@@ -470,7 +596,10 @@
     "block": "-6~-3",
     "hit": "+18a",
     "counter": "",
-    "note": "\n,js1~27 fs28~30"
+    "note": "\n,js1~27 fs28~30",
+    "alternateInputs": [
+      "df+4,4,3"
+    ]
   },
   {
     "name": "Crouch Jab",
@@ -481,7 +610,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs4~\nCan recover standing with f"
+    "note": "\ncs4~\nCan recover standing with f",
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Crouch Straight",
@@ -492,7 +624,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\ncs4~"
+    "note": "\ncs4~",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Stinging Low",
@@ -503,7 +638,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Basilisk Fang",
@@ -514,7 +652,10 @@
     "block": "-13",
     "hit": "-2",
     "counter": "+13g",
-    "note": "\ncs6~"
+    "note": "\ncs6~",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Assassin's Sting",
@@ -525,7 +666,10 @@
     "block": "-4~-3",
     "hit": "+5~+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Assassin's Sting Combo",
@@ -536,7 +680,10 @@
     "block": "-1~+0",
     "hit": "+8~+9",
     "counter": "",
-    "note": "\nCombo from 1st hit"
+    "note": "\nCombo from 1st hit",
+    "alternateInputs": [
+      "db+2,1"
+    ]
   },
   {
     "name": "Assassin's Sting > Phantom Javelin",
@@ -547,7 +694,10 @@
     "block": "-14~-13",
     "hit": "+2a (-7)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH\nAvailable only on hit or block"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\nAvailable only on hit or block",
+    "alternateInputs": [
+      "db+2,1,1"
+    ]
   },
   {
     "name": "Assassin's Sting > Phantom Javelin",
@@ -558,7 +708,10 @@
     "block": "-3~+5",
     "hit": "+2a (-7)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat db+2,1,1"
+    ]
   },
   {
     "name": "",
@@ -569,7 +722,10 @@
     "block": "-4",
     "hit": "+5",
     "counter": "",
-    "note": "Alternate input: db+2,1~D"
+    "note": "Alternate input: db+2,1~D",
+    "alternateInputs": [
+      "db+2,1,3+4"
+    ]
   },
   {
     "name": "Killer Bee",
@@ -580,7 +736,10 @@
     "block": "-12~-11",
     "hit": "+5~+6",
     "counter": "+39d",
-    "note": "\njs8~24 fs25~27 cs28~"
+    "note": "\njs8~24 fs25~27 cs28~",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Shinobi Cyclone",
@@ -591,7 +750,10 @@
     "block": "-14~-13",
     "hit": "+4c~+5c",
     "counter": "+37a",
-    "note": "\ncs6~49"
+    "note": "\ncs6~49",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Elbow Strike",
@@ -602,7 +764,10 @@
     "block": "+7c~+8c",
     "hit": "+10c~+11c",
     "counter": "",
-    "note": "\n\nSpike\n\nElbow\nDeals chip damage on block\nTransitions to r26 SZN on hit or block only"
+    "note": "\n\nSpike\n\nElbow\nDeals chip damage on block\nTransitions to r26 SZN on hit or block only",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "",
@@ -613,7 +778,10 @@
     "block": "-14~-12",
     "hit": "-3~-1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "",
@@ -624,7 +792,10 @@
     "block": "-3",
     "hit": "+6",
     "counter": "+8",
-    "note": "\n\nElbow\nCombo from 1st hit\nInput can be delayed 13f"
+    "note": "\n\nElbow\nCombo from 1st hit\nInput can be delayed 13f",
+    "alternateInputs": [
+      "b+2,2"
+    ]
   },
   {
     "name": "Unicorn's Tail",
@@ -635,7 +806,10 @@
     "block": "-19~-18",
     "hit": "+12a (-5)",
     "counter": "+26a (+16)",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH\nGrounded hit can be inconsistent"
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\nGrounded hit can be inconsistent",
+    "alternateInputs": [
+      "b+2,2,3"
+    ]
   },
   {
     "name": "Deadly Talon",
@@ -646,7 +820,10 @@
     "block": "-30~-29",
     "hit": "+3d",
     "counter": "",
-    "note": "\n,cs18~29\nCombo from 2nd CH"
+    "note": "\n,cs18~29\nCombo from 2nd CH",
+    "alternateInputs": [
+      "b+2,2,1+2"
+    ]
   },
   {
     "name": "Missing Worm",
@@ -657,7 +834,10 @@
     "block": "-7~-6",
     "hit": "+4~+5",
     "counter": "",
-    "note": "\nCombo from 1st hit with 4f delay\nInput can be delayed 13f"
+    "note": "\nCombo from 1st hit with 4f delay\nInput can be delayed 13f",
+    "alternateInputs": [
+      "b+2,4"
+    ]
   },
   {
     "name": "Missing Worm > Phantom Halberd",
@@ -668,7 +848,10 @@
     "block": "-14~-13",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block"
+    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block",
+    "alternateInputs": [
+      "b+2,4,2"
+    ]
   },
   {
     "name": "Missing Worm > Phantom Halberd",
@@ -679,7 +862,10 @@
     "block": "-3~-1",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat b+2,4,2"
+    ]
   },
   {
     "name": "Hades Heel",
@@ -690,7 +876,10 @@
     "block": "+4~+6",
     "hit": "+15a",
     "counter": "",
-    "note": "\n\nSpike\nChip damage on block"
+    "note": "\n\nSpike\nChip damage on block",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "",
@@ -701,7 +890,10 @@
     "block": "-9~-8",
     "hit": "-1~+0",
     "counter": "",
-    "note": "Knee"
+    "note": "Knee",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Skull Smasher",
@@ -712,7 +904,10 @@
     "block": "-8~-6",
     "hit": "+6c~+8c",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st hit"
+    "note": "\n\nSpike\nCombo from 1st hit",
+    "alternateInputs": [
+      "b+4,4"
+    ]
   },
   {
     "name": "Skull Smasher Feint",
@@ -723,7 +918,10 @@
     "block": "+1c~+6c",
     "hit": "+2c~+7c",
     "counter": "+12a",
-    "note": "Spike"
+    "note": "Spike",
+    "alternateInputs": [
+      "b+4,B+4"
+    ]
   },
   {
     "name": "Skull Smasher Feint Low",
@@ -734,7 +932,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "\n,cs12~37"
+    "note": "\n,cs12~37",
+    "alternateInputs": [
+      "b+4,B+4~3"
+    ]
   },
   {
     "name": "Skull Spin",
@@ -745,7 +946,10 @@
     "block": "-25~-21",
     "hit": "+6a",
     "counter": "",
-    "note": "\nCombo from 2nd hit with 4f delay\nInput can be delayed 7f"
+    "note": "\nCombo from 2nd hit with 4f delay\nInput can be delayed 7f",
+    "alternateInputs": [
+      "b+4,B+4~3,3+4"
+    ]
   },
   {
     "name": "Alternating Smash",
@@ -756,7 +960,10 @@
     "block": "-15~-13",
     "hit": "+20a (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nBackswing blow"
+    "note": "\n\nBalcony Break\nBackswing blow",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "",
@@ -767,7 +974,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ub+1"
+    ]
   },
   {
     "name": "Gate Keeper",
@@ -778,7 +988,10 @@
     "block": "-13~-12",
     "hit": "-2c~-1c",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st hit with 7f delay"
+    "note": "\n\nSpike\nCombo from 1st hit with 7f delay",
+    "alternateInputs": [
+      "ub+1,2"
+    ]
   },
   {
     "name": "Deathbringer",
@@ -789,7 +1002,10 @@
     "block": "+2",
     "hit": "+6~+7",
     "counter": "",
-    "note": "\njs9~30 fs31~33\nChip damage on block\nAlternate input: ub+3"
+    "note": "\njs9~30 fs31~33\nChip damage on block\nAlternate input: ub+3",
+    "alternateInputs": [
+      "u+3"
+    ]
   },
   {
     "name": "Deathbringer Low",
@@ -800,7 +1016,10 @@
     "block": "-16~-15",
     "hit": "+16a",
     "counter": "",
-    "note": "\n,cs14~39\nTransitions to r76 Ki Charge on hit only\nAlternate input: ub+3,3"
+    "note": "\n,cs14~39\nTransitions to r76 Ki Charge on hit only\nAlternate input: ub+3,3",
+    "alternateInputs": [
+      "u+3,3"
+    ]
   },
   {
     "name": "Deathbringer Low > Shadow",
@@ -811,7 +1030,10 @@
     "block": "-6~-4",
     "hit": "+18a",
     "counter": "",
-    "note": "\n,js1~27 fs28~30Alternate input: ub+3,3,3"
+    "note": "\n,js1~27 fs28~30Alternate input: ub+3,3,3",
+    "alternateInputs": [
+      "u+3,3,3"
+    ]
   },
   {
     "name": "",
@@ -822,7 +1044,10 @@
     "block": "-9~-8",
     "hit": "+22a (+12)",
     "counter": "",
-    "note": "\njs8~27 fs28~30\n\nBalcony Break\nAlternate input: ub+4"
+    "note": "\njs8~27 fs28~30\n\nBalcony Break\nAlternate input: ub+4",
+    "alternateInputs": [
+      "u+4"
+    ]
   },
   {
     "name": "Shadow Scythe",
@@ -833,7 +1058,10 @@
     "block": "-9",
     "hit": "+20a",
     "counter": "",
-    "note": "\njs9~30Spike"
+    "note": "\njs9~30Spike",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "",
@@ -844,7 +1072,10 @@
     "block": "-9~-8",
     "hit": "+22a (+12)",
     "counter": "",
-    "note": "\njs8~27 fs28~30Balcony Break"
+    "note": "\njs8~27 fs28~30Balcony Break",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Stormbringer",
@@ -855,7 +1086,10 @@
     "block": "-15",
     "hit": "+9g~12g",
     "counter": "+21a",
-    "note": "\n\nBalcony Break\nAlternate input: ub+4,4 or u+4,4"
+    "note": "\n\nBalcony Break\nAlternate input: ub+4,4 or u+4,4",
+    "alternateInputs": [
+      "uf+4,4"
+    ]
   },
   {
     "name": "",
@@ -866,7 +1100,10 @@
     "block": "-16~-15",
     "hit": "+15a (+5)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+4,4~B"
+    ]
   },
   {
     "name": "",
@@ -877,7 +1114,10 @@
     "block": "-16~-14",
     "hit": "+14a",
     "counter": "",
-    "note": "\njs8~26Spike"
+    "note": "\njs8~26Spike",
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "",
@@ -888,7 +1128,10 @@
     "block": "-11~-10",
     "hit": "+0~+1",
     "counter": "",
-    "note": "\ncs1~41"
+    "note": "\ncs1~41",
+    "alternateInputs": [
+      "uf+3+4,4"
+    ]
   },
   {
     "name": "Chakram",
@@ -899,7 +1142,10 @@
     "block": "-13",
     "hit": "+10a",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+3+4,4,2"
+    ]
   },
   {
     "name": "Spinning Chakram",
@@ -910,7 +1156,10 @@
     "block": "-25~-21",
     "hit": "+6a",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+3+4,3+4"
+    ]
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -921,7 +1170,10 @@
     "block": "-13~-11",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "\njs9~30 fs31~33"
+    "note": "\njs9~30 fs31~33",
+    "alternateInputs": [
+      "uf,n,4"
+    ]
   },
   {
     "name": "Shadow Spear",
@@ -932,7 +1184,10 @@
     "block": "-12~-11",
     "hit": "+15a (+5)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Sudden Strike",
@@ -943,7 +1198,10 @@
     "block": "-14~-11",
     "hit": "+43a (+29)",
     "counter": "",
-    "note": "\njs7~23 fs24~26Balcony Break"
+    "note": "\njs7~23 fs24~26Balcony Break",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Iron Maul",
@@ -954,7 +1212,10 @@
     "block": "-10~-8",
     "hit": "+21a (+4)",
     "counter": "",
-    "note": "Balcony Break"
+    "note": "Balcony Break",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "Typhon Fang",
@@ -965,7 +1226,10 @@
     "block": "+4~+6",
     "hit": "+6a",
     "counter": "",
-    "note": "\njs14~34 fs35~37Chip damage on block"
+    "note": "\njs14~34 fs35~37Chip damage on block",
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "Typhon Fang Phantom",
@@ -976,7 +1240,10 @@
     "block": "+7~+8",
     "hit": "+72a (+56)",
     "counter": "",
-    "note": "\n\nTornado\nPartially uses remaining Heat time\nAvailable only on hit or block"
+    "note": "\n\nTornado\nPartially uses remaining Heat time\nAvailable only on hit or block",
+    "alternateInputs": [
+      "in heat f,f,F+3,4"
+    ]
   },
   {
     "name": "War Hound",
@@ -987,7 +1254,10 @@
     "block": "-10~-9",
     "hit": "+5~+6",
     "counter": "",
-    "note": "\nps1?~\n\nBalcony Break\nJail from 1st attack\nParries high or low punches or kicks"
+    "note": "\nps1?~\n\nBalcony Break\nJail from 1st attack\nParries high or low punches or kicks",
+    "alternateInputs": [
+      "b,B+2"
+    ]
   },
   {
     "name": "Blind Ghost",
@@ -998,7 +1268,10 @@
     "block": "-8~+2",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b,B+2,P"
+    ]
   },
   {
     "name": "Crouch Jab",
@@ -1009,7 +1282,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs1~Can recover standing with f"
+    "note": "\ncs1~Can recover standing with f",
+    "alternateInputs": [
+      "FC 1"
+    ]
   },
   {
     "name": "Crouch Straight",
@@ -1020,7 +1296,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "FC 2"
+    ]
   },
   {
     "name": "Crouch Spin Kick",
@@ -1031,7 +1310,10 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "FC 3"
+    ]
   },
   {
     "name": "Crouch Chin Kick",
@@ -1042,7 +1324,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "FC 4"
+    ]
   },
   {
     "name": "Aqua Spider",
@@ -1053,7 +1338,10 @@
     "block": "-9~-7",
     "hit": "+2~+4",
     "counter": "+30d",
-    "note": "\ncs1~35"
+    "note": "\ncs1~35",
+    "alternateInputs": [
+      "FC df+3"
+    ]
   },
   {
     "name": "Tornado Destruction",
@@ -1064,7 +1352,10 @@
     "block": "-23~-21",
     "hit": "-5a",
     "counter": "",
-    "note": "\ncs1~17\n\nSpike\nTransition to r20 SZN on hit only\nSecond hit available on hit only\nPower up during Heat"
+    "note": "\ncs1~17\n\nSpike\nTransition to r20 SZN on hit only\nSecond hit available on hit only\nPower up during Heat",
+    "alternateInputs": [
+      "FC df+3+4"
+    ]
   },
   {
     "name": "Tornado Destruction",
@@ -1075,7 +1366,10 @@
     "block": "-23~-21",
     "hit": "-5",
     "counter": "",
-    "note": "\ncs1~17\n\nSpike\nTransition to r20 SZN on hit only\nSecond hit available on hit only\nRecover Heat on hit"
+    "note": "\ncs1~17\n\nSpike\nTransition to r20 SZN on hit only\nSecond hit available on hit only\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat FC df+3+4"
+    ]
   },
   {
     "name": "Crouch Step",
@@ -1086,7 +1380,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs1~30"
+    "note": "\ncs1~30",
+    "alternateInputs": [
+      "FC df,d,DF"
+    ]
   },
   {
     "name": "Crouch Step to Shadow Sprint",
@@ -1097,7 +1394,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC df,d,DF,f"
+    ]
   },
   {
     "name": "Rising Uppercut",
@@ -1108,7 +1408,10 @@
     "block": "-14~-13",
     "hit": "+35a (+25)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Jackknife Elbow",
@@ -1119,7 +1422,10 @@
     "block": "-8~-7",
     "hit": "+8~+9",
     "counter": "+37a (+27)",
-    "note": "Elbow"
+    "note": "Elbow",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "Trident Kick",
@@ -1130,7 +1436,10 @@
     "block": "-8~-7",
     "hit": "+0s",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Trident Kick > Phantom Halberd",
@@ -1141,7 +1450,10 @@
     "block": "-14~-13",
     "hit": "+65a (+49)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block"
+    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block",
+    "alternateInputs": [
+      "ws3,2"
+    ]
   },
   {
     "name": "Trident Kick > Phantom Halberd",
@@ -1152,7 +1464,10 @@
     "block": "-3~-1",
     "hit": "+65a (+49)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat ws3,2"
+    ]
   },
   {
     "name": "Shadow Snap Kick",
@@ -1163,7 +1478,10 @@
     "block": "-6~-5",
     "hit": "+7~+8",
     "counter": "+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Spinning Middle Kick",
@@ -1174,7 +1492,10 @@
     "block": "-12~-10",
     "hit": "+7~+9",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHoming\n\nBalcony Break\nAlternate input: qcf+3+4"
+    "note": "\n\nHeat Engager\n\n\nHoming\n\nBalcony Break\nAlternate input: qcf+3+4",
+    "alternateInputs": [
+      "ws3+4"
+    ]
   },
   {
     "name": "Spinning Middle Kick",
@@ -1185,7 +1506,10 @@
     "block": "+5",
     "hit": "+62a (+42)",
     "counter": "",
-    "note": "\n\nHoming\nAlternate input: H.qcf+3+4,F"
+    "note": "\n\nHoming\nAlternate input: H.qcf+3+4,F",
+    "alternateInputs": [
+      "in heat ws3+4,F"
+    ]
   },
   {
     "name": "",
@@ -1196,7 +1520,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: qcf+3+4~B"
+    "note": "Alternate input: qcf+3+4~B",
+    "alternateInputs": [
+      "ws3+4~B"
+    ]
   },
   {
     "name": "Shadow Sprint",
@@ -1207,7 +1534,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "qcf"
+    ]
   },
   {
     "name": "Shadow Sprint Cancel to FC",
@@ -1218,7 +1548,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "qcf,d,DF"
+    ]
   },
   {
     "name": "Fatal Elbow",
@@ -1229,7 +1562,10 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+15a",
-    "note": "Elbow"
+    "note": "Elbow",
+    "alternateInputs": [
+      "qcf+1"
+    ]
   },
   {
     "name": "Fatal Elbow > Phantom Halberd",
@@ -1240,7 +1576,10 @@
     "block": "-14~-13",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block"
+    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block",
+    "alternateInputs": [
+      "qcf+1,2"
+    ]
   },
   {
     "name": "Fatal Elbow > Phantom Halberd",
@@ -1251,7 +1590,10 @@
     "block": "-3~-1",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat qcf+1,2"
+    ]
   },
   {
     "name": "Fatal Elbow to SZ",
@@ -1262,7 +1604,10 @@
     "block": "+0",
     "hit": "+13",
     "counter": "+24a",
-    "note": "Alternate input: qcf+1~D"
+    "note": "Alternate input: qcf+1~D",
+    "alternateInputs": [
+      "qcf+1,3+4"
+    ]
   },
   {
     "name": "Buzzsaw",
@@ -1273,7 +1618,10 @@
     "block": "-12~-11",
     "hit": "+5~+6",
     "counter": "+14~+15",
-    "note": "\ncs10~45Cancel to r45 BT with B"
+    "note": "\ncs10~45Cancel to r45 BT with B",
+    "alternateInputs": [
+      "qcf+2"
+    ]
   },
   {
     "name": "Laevateinn",
@@ -1284,7 +1632,10 @@
     "block": "-9~-8",
     "hit": "+24a (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nActual startup is i40~41"
+    "note": "\n\nBalcony Break\nChip damage on block\nActual startup is i40~41",
+    "alternateInputs": [
+      "qcf+2~1"
+    ]
   },
   {
     "name": "Poison Needle > Nightmare",
@@ -1295,7 +1646,10 @@
     "block": "-7~-6",
     "hit": "-4d",
     "counter": "",
-    "note": "\n\nSpike\nTransitions to attack throw on front hit only, otherwise launch +33a (+23)\nPower up during Heat"
+    "note": "\n\nSpike\nTransitions to attack throw on front hit only, otherwise launch +33a (+23)\nPower up during Heat",
+    "alternateInputs": [
+      "qcf+3"
+    ]
   },
   {
     "name": "Poison Needle > Nightmare",
@@ -1306,7 +1660,10 @@
     "block": "-7~-6",
     "hit": "-4d",
     "counter": "",
-    "note": "\n\nSpike\nTransitions to attack throw on front hit only, otherwise launch +33a (+23)\n"
+    "note": "\n\nSpike\nTransitions to attack throw on front hit only, otherwise launch +33a (+23)\n",
+    "alternateInputs": [
+      "in heat qcf+3"
+    ]
   },
   {
     "name": "Black Hole",
@@ -1317,7 +1674,10 @@
     "block": "-14~-12",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "\nfs20~32Tornado"
+    "note": "\nfs20~32Tornado",
+    "alternateInputs": [
+      "qcf+4"
+    ]
   },
   {
     "name": "Hellhound",
@@ -1328,7 +1688,10 @@
     "block": "-9",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "\nps1~5 cs19~\n\nBalcony Break\nAttack reversal\nParries high or mid punches or kicks"
+    "note": "\nps1~5 cs19~\n\nBalcony Break\nAttack reversal\nParries high or mid punches or kicks",
+    "alternateInputs": [
+      "qcf+1+2"
+    ]
   },
   {
     "name": "Blind Ghost",
@@ -1339,7 +1702,10 @@
     "block": "-8~+2",
     "hit": "+0d",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "qcf+1+2,P"
+    ]
   },
   {
     "name": "Soulzone",
@@ -1350,7 +1716,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: d+3+4 or FC.3+4"
+    "note": "Alternate input: d+3+4 or FC.3+4",
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "Swift Blade",
@@ -1361,7 +1730,10 @@
     "block": "-3~-2",
     "hit": "+8~+9",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SZN 1"
+    ]
   },
   {
     "name": "Swift Blade > Phantom Mace",
@@ -1372,7 +1744,10 @@
     "block": "-14~-5",
     "hit": "+32a (-26)",
     "counter": "",
-    "note": "\n\nSpike\n\nBalcony Break\nCombo from 1st hit\nAvailable only on hit or block"
+    "note": "\n\nSpike\n\nBalcony Break\nCombo from 1st hit\nAvailable only on hit or block",
+    "alternateInputs": [
+      "SZN 1,4"
+    ]
   },
   {
     "name": "Swift Blade > Phantom Mace",
@@ -1383,7 +1758,10 @@
     "block": "-3~-2",
     "hit": "+32a (-26)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat SZN 1,4"
+    ]
   },
   {
     "name": "Swift Blade to Shadow Sprint",
@@ -1394,7 +1772,10 @@
     "block": "+1~+2",
     "hit": "+12~+13",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SZN 1~F"
+    ]
   },
   {
     "name": "Dual Thanatos",
@@ -1405,7 +1786,10 @@
     "block": "-9",
     "hit": "+7a (-2)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nPower up during Heat"
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nPower up during Heat",
+    "alternateInputs": [
+      "SZN 2"
+    ]
   },
   {
     "name": "Dual Thanatos > Heat Dash",
@@ -1416,7 +1800,10 @@
     "block": "+5",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "in heat SZN 2,F"
+    ]
   },
   {
     "name": "Radius Flail",
@@ -1427,7 +1814,10 @@
     "block": "-4~-3",
     "hit": "+5~+6",
     "counter": "",
-    "note": "\njs9~17"
+    "note": "\njs9~17",
+    "alternateInputs": [
+      "SZN 3"
+    ]
   },
   {
     "name": "Radius Flail > Phantom Halberd",
@@ -1438,7 +1828,10 @@
     "block": "-14~-13",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nPower up during Heat"
+    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nPower up during Heat",
+    "alternateInputs": [
+      "SZN 3,2"
+    ]
   },
   {
     "name": "Radius Flail > Phantom Halberd",
@@ -1449,7 +1842,10 @@
     "block": "-3~-1",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nTornado\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat SZN 3,2"
+    ]
   },
   {
     "name": "Cocytus Glide",
@@ -1460,7 +1856,10 @@
     "block": "-16~-9",
     "hit": "+2~+9",
     "counter": "+26a",
-    "note": "\ncs6~"
+    "note": "\ncs6~",
+    "alternateInputs": [
+      "SZN 4"
+    ]
   },
   {
     "name": "Oceanus Fissure",
@@ -1471,7 +1870,10 @@
     "block": "+0~+1",
     "hit": "+23a",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\nChip damage on block"
+    "note": "\n\nHoming\n\nBalcony Break\nChip damage on block",
+    "alternateInputs": [
+      "SZN 1+2"
+    ]
   },
   {
     "name": "Blind Fall",
@@ -1482,7 +1884,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs1~17 fs15~17"
+    "note": "\njs1~17 fs15~17",
+    "alternateInputs": [
+      "SZN U"
+    ]
   },
   {
     "name": "Blind Fall to Crouching State",
@@ -1493,7 +1898,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs1~17 fs15~17"
+    "note": "\njs1~17 fs15~17",
+    "alternateInputs": [
+      "SZN D"
+    ]
   },
   {
     "name": "Blind Labyrinth",
@@ -1504,7 +1912,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs1~17 fs15~17"
+    "note": "\njs1~17 fs15~17",
+    "alternateInputs": [
+      "SZN B"
+    ]
   },
   {
     "name": "Labyrinth",
@@ -1515,7 +1926,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Labyrinth to Front",
@@ -1526,7 +1940,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Can block mid or high attacks after 6f"
+    "note": "Can block mid or high attacks after 6f",
+    "alternateInputs": [
+      "BT b+3+4"
+    ]
   },
   {
     "name": "Blind Axe",
@@ -1537,7 +1954,10 @@
     "block": "-1~+0",
     "hit": "+5~+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT 1"
+    ]
   },
   {
     "name": "Blind Lance",
@@ -1548,7 +1968,10 @@
     "block": "-8~-7",
     "hit": "+40a (-18)",
     "counter": "+67a (+51)",
-    "note": "\n\nBalcony Break\nCombo from 1st hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit",
+    "alternateInputs": [
+      "BT 1,4"
+    ]
   },
   {
     "name": "Backfist",
@@ -1559,7 +1982,10 @@
     "block": "+0",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT 2"
+    ]
   },
   {
     "name": "Backfist > Straight",
@@ -1570,7 +1996,10 @@
     "block": "-3",
     "hit": "+3",
     "counter": "",
-    "note": "\nCombo from 1st hit\nCan transition to r36 BT with B"
+    "note": "\nCombo from 1st hit\nCan transition to r36 BT with B",
+    "alternateInputs": [
+      "BT 2,1"
+    ]
   },
   {
     "name": "Backfist > Straight to Shadow Sprint",
@@ -1581,7 +2010,10 @@
     "block": "+1",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT 2,1~F"
+    ]
   },
   {
     "name": "Blinding Knife",
@@ -1592,10 +2024,13 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "BT 2,2"
+    ]
   },
   {
-    "name": "Blinding Knife ＞ Phantom Javelin",
+    "name": "Blinding Knife \u00ef\u00bc\u017e Phantom Javelin",
     "input": "BT 2,2,1",
     "hit_level": "h,m,sm",
     "damage": "13,15,21",
@@ -1603,10 +2038,13 @@
     "block": "-14~-13",
     "hit": "+2a (-7)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nPower up during Heat"
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nPower up during Heat",
+    "alternateInputs": [
+      "BT 2,2,1"
+    ]
   },
   {
-    "name": "Blinding Knife ＞ Phantom Javelin",
+    "name": "Blinding Knife \u00ef\u00bc\u017e Phantom Javelin",
     "input": "in heat BT 2,2,1",
     "hit_level": "h,m,sm,sm",
     "damage": "9,12,21,30",
@@ -1614,7 +2052,10 @@
     "block": "-3",
     "hit": "+2a (-7)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat BT 2,2,1"
+    ]
   },
   {
     "name": "",
@@ -1625,7 +2066,10 @@
     "block": "-7~-6",
     "hit": "+8~+9",
     "counter": "",
-    "note": "Alternate input: BT.2,2~D"
+    "note": "Alternate input: BT.2,2~D",
+    "alternateInputs": [
+      "BT 2,2,3+4"
+    ]
   },
   {
     "name": "",
@@ -1636,7 +2080,10 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT 3"
+    ]
   },
   {
     "name": "",
@@ -1647,7 +2094,10 @@
     "block": "+0~+2",
     "hit": "+1~+3",
     "counter": "+11g~+13g",
-    "note": "\nCombo from 1st hit with 2f delay\nInput can be delayed 6f\nMove can be delayed 5f\nForces crouch on CH"
+    "note": "\nCombo from 1st hit with 2f delay\nInput can be delayed 6f\nMove can be delayed 5f\nForces crouch on CH",
+    "alternateInputs": [
+      "BT 3,4"
+    ]
   },
   {
     "name": "Crescent Mirage",
@@ -1658,7 +2108,10 @@
     "block": "-6~-3",
     "hit": "+18a",
     "counter": "",
-    "note": "\n,js1~27 fs28~30Same move as df+(4,4),3"
+    "note": "\n,js1~27 fs28~30Same move as df+(4,4),3",
+    "alternateInputs": [
+      "BT 3,4,3"
+    ]
   },
   {
     "name": "Fafnir",
@@ -1669,7 +2122,10 @@
     "block": "-9~-8",
     "hit": "+5a",
     "counter": "",
-    "note": "\n,js12~31 fs32~34\n\nSpike\nCombo from 2nd CH"
+    "note": "\n,js12~31 fs32~34\n\nSpike\nCombo from 2nd CH",
+    "alternateInputs": [
+      "BT 3,4,4"
+    ]
   },
   {
     "name": "Fafnir to Blind Roll",
@@ -1680,7 +2136,10 @@
     "block": "-36",
     "hit": "",
     "counter": "",
-    "note": "\n,js18~49 fs50~52Will phase through opponent up-close"
+    "note": "\n,js18~49 fs50~52Will phase through opponent up-close",
+    "alternateInputs": [
+      "BT 3,4,4,F"
+    ]
   },
   {
     "name": "Chronos Lathe",
@@ -1691,7 +2150,10 @@
     "block": "-5~-4",
     "hit": "+44a (-14)",
     "counter": "",
-    "note": "\njs6~19\n\nHeat Engager\n\n\nBalcony Break"
+    "note": "\njs6~19\n\nHeat Engager\n\n\nBalcony Break",
+    "alternateInputs": [
+      "BT 4"
+    ]
   },
   {
     "name": "Chronos Lathe > Heat Dash",
@@ -1702,7 +2164,10 @@
     "block": "-5~-4",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\njs6~19"
+    "note": "\njs6~19",
+    "alternateInputs": [
+      "in heat BT 4,F"
+    ]
   },
   {
     "name": "Crusader",
@@ -1713,7 +2178,10 @@
     "block": "-13",
     "hit": "+30a (+22)",
     "counter": "",
-    "note": "\npc9~\n\nBalcony Break\nFrame advantage is -7 if an attack is absorbed\nChip damage on block if an attack is absorbed"
+    "note": "\npc9~\n\nBalcony Break\nFrame advantage is -7 if an attack is absorbed\nChip damage on block if an attack is absorbed",
+    "alternateInputs": [
+      "BT 1+2"
+    ]
   },
   {
     "name": "Spiral Cannon",
@@ -1724,7 +2192,10 @@
     "block": "-20~-19",
     "hit": "+43a (+39)",
     "counter": "",
-    "note": "\njs13~31 fs32~34Second kick's frame advantage on hit: +34a (+24)"
+    "note": "\njs13~31 fs32~34Second kick's frame advantage on hit: +34a (+24)",
+    "alternateInputs": [
+      "BT 3+4"
+    ]
   },
   {
     "name": "Soul Steal",
@@ -1735,7 +2206,10 @@
     "block": "-8",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransitions to throw on hit only\nOpponent recovers BT on hit"
+    "note": "\n\nBalcony Break\nTransitions to throw on hit only\nOpponent recovers BT on hit",
+    "alternateInputs": [
+      "BT f+1"
+    ]
   },
   {
     "name": "",
@@ -1746,7 +2220,10 @@
     "block": "-5~-4",
     "hit": "+6~+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT f+2"
+    ]
   },
   {
     "name": "Cold Massacre",
@@ -1757,7 +2234,10 @@
     "block": "-7~-6",
     "hit": "+14~+15",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st CH with 5f delay\nInput can be delayed 12f\nForces crouch on CH"
+    "note": "\n\nSpike\nCombo from 1st CH with 5f delay\nInput can be delayed 12f\nForces crouch on CH",
+    "alternateInputs": [
+      "BT f+2,3"
+    ]
   },
   {
     "name": "Cold Worm",
@@ -1768,7 +2248,10 @@
     "block": "-7~-6",
     "hit": "+4~+5",
     "counter": "",
-    "note": "\nCombo from 1st hit with 1f delay\nInput can be delayed 12f\nPower up during Heat"
+    "note": "\nCombo from 1st hit with 1f delay\nInput can be delayed 12f\nPower up during Heat",
+    "alternateInputs": [
+      "BT f+2,4"
+    ]
   },
   {
     "name": "Cold Worm > Phantom Halberd",
@@ -1779,7 +2262,10 @@
     "block": "-14~-13",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block"
+    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block",
+    "alternateInputs": [
+      "BT f+2,4,2"
+    ]
   },
   {
     "name": "Cold Worm > Phantom Halberd",
@@ -1790,7 +2276,10 @@
     "block": "-3~-1",
     "hit": "+24a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit"
+    "note": "\n\nTornado\nCombo from 2nd CH\nAvailable only on hit or block\nRecover Heat on hit",
+    "alternateInputs": [
+      "in heat BT f+2,4,2"
+    ]
   },
   {
     "name": "Demon Knee",
@@ -1801,7 +2290,10 @@
     "block": "-5~-4",
     "hit": "+3~+4",
     "counter": "+38a (+30)",
-    "note": "Knee"
+    "note": "Knee",
+    "alternateInputs": [
+      "BT f+3"
+    ]
   },
   {
     "name": "",
@@ -1812,7 +2304,10 @@
     "block": "-8",
     "hit": "+0",
     "counter": "+35a (+27)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT f+3~B"
+    ]
   },
   {
     "name": "Kama Kick",
@@ -1823,7 +2318,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT f+4"
+    ]
   },
   {
     "name": "Trick Bang",
@@ -1834,7 +2332,10 @@
     "block": "-9~-8",
     "hit": "+5~+6",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit"
+    "note": "\n\nTornado\nCombo from 1st hit",
+    "alternateInputs": [
+      "BT f+4,1"
+    ]
   },
   {
     "name": "",
@@ -1845,7 +2346,10 @@
     "block": "-6~-5",
     "hit": "+8~+9",
     "counter": "",
-    "note": "Alternate input: BT.f+4,1~D"
+    "note": "Alternate input: BT.f+4,1~D",
+    "alternateInputs": [
+      "BT f+4,1,3+4"
+    ]
   },
   {
     "name": "Reverse Chakram",
@@ -1856,7 +2360,10 @@
     "block": "-9~-7",
     "hit": "+5a",
     "counter": "",
-    "note": "\njs5~24 fs25~27 cs28~51Spike"
+    "note": "\njs5~24 fs25~27 cs28~51Spike",
+    "alternateInputs": [
+      "BT f+3+4"
+    ]
   },
   {
     "name": "Reverse Chakram to Blind Roll",
@@ -1867,7 +2374,10 @@
     "block": "-36",
     "hit": "-22",
     "counter": "",
-    "note": "\n,js18~49 fs50~52Will phase through opponent up-close"
+    "note": "\n,js18~49 fs50~52Will phase through opponent up-close",
+    "alternateInputs": [
+      "BT f+3+4,F"
+    ]
   },
   {
     "name": "Crouch Spin Knuckle",
@@ -1878,7 +2388,10 @@
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs1~Alternate input: BT.d+2"
+    "note": "\ncs1~Alternate input: BT.d+2",
+    "alternateInputs": [
+      "BT d+1"
+    ]
   },
   {
     "name": "Shinobi Cyclone (clean)",
@@ -1889,7 +2402,10 @@
     "block": "-26",
     "hit": "KDN",
     "counter": "KDN",
-    "note": "\nTC,5FTC from 4F to 5F"
+    "note": "\nTC,5FTC from 4F to 5F",
+    "alternateInputs": [
+      "BT d+3"
+    ]
   },
   {
     "name": "Shinobi Cyclone",
@@ -1900,7 +2416,10 @@
     "block": "-26~-24",
     "hit": "+0~+2",
     "counter": "",
-    "note": "\ncs4~48Clean hit +74a (+58), 20 damage"
+    "note": "\ncs4~48Clean hit +74a (+58), 20 damage",
+    "alternateInputs": [
+      "BT d+3"
+    ]
   },
   {
     "name": "Crouch Spin Kick",
@@ -1911,7 +2430,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\ncs1~"
+    "note": "\ncs1~",
+    "alternateInputs": [
+      "BT d+4"
+    ]
   },
   {
     "name": "",
@@ -1922,7 +2444,10 @@
     "block": "-2~-1",
     "hit": "+6~+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT b+2"
+    ]
   },
   {
     "name": "Abyss Cannon",
@@ -1933,7 +2458,10 @@
     "block": "-20~-19",
     "hit": "+42a (+38)",
     "counter": "",
-    "note": "\n,js18~36 fs37~39\nCombo from 1st CH\nSecond kick's frame advantage on hit: +34a (+24)"
+    "note": "\n,js18~36 fs37~39\nCombo from 1st CH\nSecond kick's frame advantage on hit: +34a (+24)",
+    "alternateInputs": [
+      "BT b+2,3"
+    ]
   },
   {
     "name": "Abyss Spear",
@@ -1944,7 +2472,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "",
-    "note": "Jail from 1st attack with 3f delay"
+    "note": "Jail from 1st attack with 3f delay",
+    "alternateInputs": [
+      "BT b+2,4"
+    ]
   },
   {
     "name": "Cannon Tail",
@@ -1955,7 +2486,10 @@
     "block": "+4~+5",
     "hit": "+41a",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\nChip damage on block"
+    "note": "\n\nHoming\n\nBalcony Break\nChip damage on block",
+    "alternateInputs": [
+      "BT b+3"
+    ]
   },
   {
     "name": "Gremlin Smasher",
@@ -1966,7 +2500,10 @@
     "block": "-9~-8",
     "hit": "+8a",
     "counter": "",
-    "note": "\ncs4~22"
+    "note": "\ncs4~22",
+    "alternateInputs": [
+      "BT f,F+3"
+    ]
   },
   {
     "name": "Vermillion",
@@ -1977,7 +2514,10 @@
     "block": "-18~-11",
     "hit": "+24a",
     "counter": "",
-    "note": "\nfs13~21 cs18~49"
+    "note": "\nfs13~21 cs18~49",
+    "alternateInputs": [
+      "BT f,F+3+4"
+    ]
   },
   {
     "name": "Blind Roll",
@@ -1988,7 +2528,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs10~41 fs42~44Will phase through opponent up-close"
+    "note": "\njs10~41 fs42~44Will phase through opponent up-close",
+    "alternateInputs": [
+      "BT f,f,f"
+    ]
   },
   {
     "name": "Sixth Sense",
@@ -1999,7 +2542,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps1~8Parries mid or high punches or kicks"
+    "note": "\nps1~8Parries mid or high punches or kicks",
+    "alternateInputs": [
+      "BT f+1+2"
+    ]
   },
   {
     "name": "",
@@ -2010,7 +2556,10 @@
     "block": "",
     "hit": "+5d",
     "counter": "",
-    "note": "Opponent recovers FUFA"
+    "note": "Opponent recovers FUFA",
+    "alternateInputs": [
+      "BT f+1+2,P"
+    ]
   },
   {
     "name": "Summon Force",
@@ -2021,7 +2570,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCH state for 5 seconds\nCan't block for 5 seconds"
+    "note": "\nCH state for 5 seconds\nCan't block for 5 seconds",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Dead End",
@@ -2032,7 +2584,10 @@
     "block": "",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": "\n,cs12~42Balcony Break"
+    "note": "\n,cs12~42Balcony Break",
+    "alternateInputs": [
+      "1+2+3+4,b,f,1+2"
+    ]
   },
   {
     "name": "Wall Jump Attack",
@@ -2043,7 +2598,10 @@
     "block": "+6~+9",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "\nis8~13 js?~? fs?~?Balcony Break"
+    "note": "\nis8~13 js?~? fs?~?Balcony Break",
+    "alternateInputs": [
+      "(Back to wall) b,b,UB"
+    ]
   },
   {
     "name": "Back Handspring",
@@ -2054,7 +2612,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs10~41 fs42~44"
+    "note": "\njs10~41 fs42~44",
+    "alternateInputs": [
+      "UB,b"
+    ]
   },
   {
     "name": "Pandra Spin",
@@ -2065,7 +2626,10 @@
     "block": "",
     "hit": "-19a",
     "counter": "",
-    "note": "\n,js21~56Spike"
+    "note": "\n,js21~56Spike",
+    "alternateInputs": [
+      "UB,b,3+4"
+    ]
   },
   {
     "name": "Utsusemi Escape",
@@ -2076,7 +2640,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nps1~10\nParries all attacks\nAlternate input: b+2+4"
+    "note": "\nps1~10\nParries all attacks\nAlternate input: b+2+4",
+    "alternateInputs": [
+      "b+1+3"
+    ]
   },
   {
     "name": "Utsusemi Escape",
@@ -2087,7 +2654,10 @@
     "block": "",
     "hit": "-31",
     "counter": "",
-    "note": "\njs1~32 cs33~\nDeals recoverable self-damage on a successful parry\nRaven will teleport back a safe distance\nAlternate input: BT.b+1+3 or BT.b+2+4"
+    "note": "\njs1~32 cs33~\nDeals recoverable self-damage on a successful parry\nRaven will teleport back a safe distance\nAlternate input: BT.b+1+3 or BT.b+2+4",
+    "alternateInputs": [
+      "b+1+3,P"
+    ]
   },
   {
     "name": "Grave Digger",
@@ -2098,7 +2668,10 @@
     "block": "-6",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1 or 2"
+    "note": "Throw break 1 or 2",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Salamander",
@@ -2109,7 +2682,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nSide switch"
+    "note": "\nThrow break 1 or 2\nSide switch",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Neck Ringer",
@@ -2120,7 +2696,10 @@
     "block": "-3",
     "hit": "-3d",
     "counter": "",
-    "note": "\n\nFloor Break\nThrow break 1\nSide switch on hit"
+    "note": "\n\nFloor Break\nThrow break 1\nSide switch on hit",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Swift Assassin",
@@ -2131,7 +2710,10 @@
     "block": "-3",
     "hit": "-4d",
     "counter": "",
-    "note": "\n\nFloor Break\nThrow break 2"
+    "note": "\n\nFloor Break\nThrow break 2",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Dark Matter",
@@ -2142,7 +2724,10 @@
     "block": "",
     "hit": "-4d",
     "counter": "",
-    "note": "\n\nFloor Break\nUnbreakable"
+    "note": "\n\nFloor Break\nUnbreakable",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Orbiting Moon",
@@ -2153,7 +2738,10 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nFloor Break\nThrow break 1\nAlternate input: qcf,df+1+4"
+    "note": "\n\nFloor Break\nThrow break 1\nAlternate input: qcf,df+1+4",
+    "alternateInputs": [
+      "df+1+4"
+    ]
   },
   {
     "name": "Undertaker",
@@ -2164,6 +2752,9 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1+2\nCan side switch on hit"
+    "note": "\nThrow break 1+2\nCan side switch on hit",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   }
 ]

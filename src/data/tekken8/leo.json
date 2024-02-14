@@ -8,7 +8,10 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc\n\nHeat Burst\n"
+    "note": "\npc\n\nHeat Burst\n",
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Ultimate Feng Huo Lun Kick",
@@ -19,7 +22,10 @@
     "block": "+8",
     "hit": "+5a",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nBalcony Break\nTransition to cd on block with DF\n(+16 oB)"
+    "note": "\n\nHeat Smash\n\nBalcony Break\nTransition to cd on block with DF\n(+16 oB)",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Ultimate Huo Jian Qiang Fist",
@@ -30,7 +36,10 @@
     "block": "-13",
     "hit": "+31a (+13)",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nBalcony Break\n"
+    "note": "\n\nHeat Smash\n\nBalcony Break\n",
+    "alternateInputs": [
+      "in heat KNK 2+3"
+    ]
   },
   {
     "name": "Jab",
@@ -41,7 +50,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "He Zi Shou",
@@ -52,7 +64,10 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nJail from 1st attack\nCombo from 1st Hit\nTransition to KNK with ~B\n(-9 oB, +2 oH)"
+    "note": "\nJail from 1st attack\nCombo from 1st Hit\nTransition to KNK with ~B\n(-9 oB, +2 oH)",
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "",
@@ -63,7 +78,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+9",
-    "note": "Combo from 2nd CH"
+    "note": "Combo from 2nd CH",
+    "alternateInputs": [
+      "1,2,1"
+    ]
   },
   {
     "name": "Liang Yi Zhou",
@@ -74,7 +92,10 @@
     "block": "-13",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 3rd Hit"
+    "note": "\n\nBalcony Break\nCombo from 3rd Hit",
+    "alternateInputs": [
+      "1,2,1,1"
+    ]
   },
   {
     "name": "Wai Bai Tui",
@@ -85,7 +106,10 @@
     "block": "-6",
     "hit": "+32a (+6)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 3rd Hit"
+    "note": "\n\nBalcony Break\nCombo from 3rd Hit",
+    "alternateInputs": [
+      "1,2,1,4"
+    ]
   },
   {
     "name": "Ye Chui",
@@ -96,7 +120,10 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+8d",
-    "note": "Combo from 2nd CH"
+    "note": "Combo from 2nd CH",
+    "alternateInputs": [
+      "1,2,4"
+    ]
   },
   {
     "name": "Lan Tan Jin Ji Du Li",
@@ -107,7 +134,10 @@
     "block": "-5",
     "hit": "+11",
     "counter": "",
-    "note": "\nJail from 1st attack\nTransition to KNK"
+    "note": "\nJail from 1st attack\nTransition to KNK",
+    "alternateInputs": [
+      "1,4"
+    ]
   },
   {
     "name": "Right Jab",
@@ -118,7 +148,10 @@
     "block": "-1",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Xiang Long Shi Chong Tian Zhang",
@@ -129,7 +162,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "Jail from 1st attack\nCombo from 1st hit"
+    "note": "Jail from 1st attack\nCombo from 1st hit",
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Xiang Long Shi Ling Zhou",
@@ -140,7 +176,10 @@
     "block": "-12",
     "hit": "+6",
     "counter": "",
-    "note": "Combo from 1st Hit"
+    "note": "Combo from 1st Hit",
+    "alternateInputs": [
+      "2,2"
+    ]
   },
   {
     "name": "",
@@ -151,7 +190,10 @@
     "block": "-8",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -162,7 +204,10 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\nCombo from 1st hit\nTransition to BOK with ~D\n(-6 oB, +5 oH)"
+    "note": "\nCombo from 1st hit\nTransition to BOK with ~D\n(-6 oB, +5 oH)",
+    "alternateInputs": [
+      "3,2"
+    ]
   },
   {
     "name": "Wu Dang Xuan Feng Jiao",
@@ -173,7 +218,10 @@
     "block": "-7",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo on 2nd attack CH\nCancel with ~B\n(-15 oB, -4 oH)"
+    "note": "\n\nTornado\n\nBalcony Break\nCombo on 2nd attack CH\nCancel with ~B\n(-15 oB, -4 oH)",
+    "alternateInputs": [
+      "3,2,3"
+    ]
   },
   {
     "name": "Wu Dang Jin Ji Du Li",
@@ -184,7 +232,10 @@
     "block": "+9",
     "hit": "+15",
     "counter": "+19",
-    "note": "Combo on 2nd attack CH"
+    "note": "Combo on 2nd attack CH",
+    "alternateInputs": [
+      "3,2,4"
+    ]
   },
   {
     "name": "Magic 4",
@@ -195,7 +246,10 @@
     "block": "-7",
     "hit": "+6",
     "counter": "+31a",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Dual Thunder Fists",
@@ -206,7 +260,10 @@
     "block": "-12",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "\npc13~\n\nBalcony Break\nChip damage on block"
+    "note": "\npc13~\n\nBalcony Break\nChip damage on block",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "",
@@ -217,7 +274,10 @@
     "block": "0",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Heng Da Er Lang Dan Shan",
@@ -228,7 +288,10 @@
     "block": "-12",
     "hit": "+8",
     "counter": "+25d",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "f+2,2"
+    ]
   },
   {
     "name": "Heng Da Bai Tui",
@@ -239,7 +302,10 @@
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": "\nJail from 1st attack\nCombo from 1st hit\nTransition to cd with ~DF\n(Same oB and oH)"
+    "note": "\nJail from 1st attack\nCombo from 1st hit\nTransition to cd with ~DF\n(Same oB and oH)",
+    "alternateInputs": [
+      "f+2,4"
+    ]
   },
   {
     "name": "Bai Tui",
@@ -250,7 +316,10 @@
     "block": "0",
     "hit": "+4",
     "counter": "+27g",
-    "note": "\nTransition to BOK with ~D\n(+2 oB, +6 oH, +29d CH)"
+    "note": "\nTransition to BOK with ~D\n(+2 oB, +6 oH, +29d CH)",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Jin Ji Du Li",
@@ -261,7 +330,10 @@
     "block": "+9",
     "hit": "+15",
     "counter": "+19",
-    "note": "\nTransition to cd with ~DF\n(-5 oB, +1 oH, +5 CH)"
+    "note": "\nTransition to cd with ~DF\n(-5 oB, +1 oH, +5 CH)",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Bei Zhe Kao",
@@ -272,7 +344,10 @@
     "block": "-14",
     "hit": "+10a (+1)",
     "counter": "+56d",
-    "note": "\n\nBalcony Break"
+    "note": "\n\nBalcony Break",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Yellow Crane",
@@ -283,7 +358,10 @@
     "block": "0",
     "hit": "+8",
     "counter": "+71a (+55)",
-    "note": "\n\nTornado\n\nBalcony Break\nChip damage on block"
+    "note": "\n\nTornado\n\nBalcony Break\nChip damage on block",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Xiang Chui",
@@ -294,7 +372,10 @@
     "block": "-9",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break"
+    "note": "\n\nBalcony Break",
+    "alternateInputs": [
+      "f+2+3"
+    ]
   },
   {
     "name": "Quick Upper",
@@ -305,7 +386,10 @@
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Shuang Huan Da",
@@ -316,7 +400,10 @@
     "block": "-6",
     "hit": "+9d",
     "counter": "+34d (+26)",
-    "note": "\n\nTornado\n\nBalcony Break"
+    "note": "\n\nTornado\n\nBalcony Break",
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Sheng Pao",
@@ -327,7 +414,10 @@
     "block": "-13",
     "hit": "+28a (+18)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Chuan Pao",
@@ -338,7 +428,10 @@
     "block": "-9",
     "hit": "+6a (-3)",
     "counter": "+27a (-9)",
-    "note": "\n\nHoming\n\nBalcony Break"
+    "note": "\n\nHoming\n\nBalcony Break",
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Gui Xi",
@@ -349,7 +442,10 @@
     "block": "-12",
     "hit": "+5",
     "counter": "+21d",
-    "note": "\ncs6~"
+    "note": "\ncs6~",
+    "alternateInputs": [
+      "df+2+3"
+    ]
   },
   {
     "name": "Fu Hu",
@@ -360,7 +456,10 @@
     "block": "-2",
     "hit": "+5",
     "counter": "+24d",
-    "note": "\nSpike\nTransition to FC with D*"
+    "note": "\nSpike\nTransition to FC with D*",
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Pi Zhong",
@@ -371,7 +470,10 @@
     "block": "+4c",
     "hit": "+9c",
     "counter": "+56a",
-    "note": "\nSpike"
+    "note": "\nSpike",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Crouch Spin Kick",
@@ -382,7 +484,10 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\ncs5~"
+    "note": "\ncs5~",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Sao Tang Ti",
@@ -393,7 +498,10 @@
     "block": "-11",
     "hit": "0",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Shang Bu Zhuang Zhang",
@@ -404,7 +512,10 @@
     "block": "-5",
     "hit": "-7d",
     "counter": "+3d",
-    "note": "\nCharge LTG on hit with ~1+2*\n(-11d oH, -1d CH)"
+    "note": "\nCharge LTG on hit with ~1+2*\n(-11d oH, -1d CH)",
+    "alternateInputs": [
+      "d+4,2"
+    ]
   },
   {
     "name": "Crouch Shin Kick",
@@ -415,7 +526,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\ncs5~"
+    "note": "\ncs5~",
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "Crouch Jab",
@@ -426,7 +540,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs5~"
+    "note": "\ncs5~",
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "",
@@ -437,7 +554,10 @@
     "block": "-9",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Bei Zhan Juan Long Jiao",
@@ -448,7 +568,10 @@
     "block": "-9",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "\njs<=10~\n\nHeat Engager\n\n\nHeat Dash +5g, +64a (+42)\n\n\nBalcony Break\nCombo from 1st hit"
+    "note": "\njs<=10~\n\nHeat Engager\n\n\nHeat Dash +5g, +64a (+42)\n\n\nBalcony Break\nCombo from 1st hit",
+    "alternateInputs": [
+      "db+2,4"
+    ]
   },
   {
     "name": "Lie Huo Fan Jiao",
@@ -459,7 +582,10 @@
     "block": "-8",
     "hit": "+38a (+28)",
     "counter": "",
-    "note": "No crouching state"
+    "note": "No crouching state",
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "",
@@ -470,7 +596,10 @@
     "block": "-31",
     "hit": "+2",
     "counter": "+33a",
-    "note": "\ncs10~\nCan clean hit\nStaggers on block\n\nCauses float on hit if db+4,1 is input"
+    "note": "\ncs10~\nCan clean hit\nStaggers on block\n\nCauses float on hit if db+4,1 is input",
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Qian Sao Lei Wang Quan",
@@ -481,7 +610,10 @@
     "block": "-16",
     "hit": "+8a",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\n(+14a (+7))"
+    "note": "\n\nBalcony Break\nCombo from 1st hit\n(+14a (+7))",
+    "alternateInputs": [
+      "db+4,1"
+    ]
   },
   {
     "name": "",
@@ -492,7 +624,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "",
-    "note": "\nTransition to BOK with ~D\n(-12 oB, +4 oH)"
+    "note": "\nTransition to BOK with ~D\n(-12 oB, +4 oH)",
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Ba Wang Zhe Jiang",
@@ -503,7 +638,10 @@
     "block": "-12",
     "hit": "+22a (+17)",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "db+1+2,1"
+    ]
   },
   {
     "name": "",
@@ -514,7 +652,10 @@
     "block": "-12",
     "hit": "+1",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Ding Zhou Jin Ji Du Li",
@@ -525,7 +666,10 @@
     "block": "+9",
     "hit": "+15",
     "counter": "+19",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "b+1,4"
+    ]
   },
   {
     "name": "Ding Zhou Meng Po Kao",
@@ -536,7 +680,10 @@
     "block": "-12",
     "hit": "+9",
     "counter": "",
-    "note": "\nCombo from 1st hit\nTransition to BOK with ~D\n(-10 oB, +11 oH)"
+    "note": "\nCombo from 1st hit\nTransition to BOK with ~D\n(-10 oB, +11 oH)",
+    "alternateInputs": [
+      "b+1,1+2"
+    ]
   },
   {
     "name": "",
@@ -547,7 +694,10 @@
     "block": "-11",
     "hit": "0",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Wu Hu Chu Dong",
@@ -558,7 +708,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "Er Lang Dan Shan",
@@ -569,7 +722,10 @@
     "block": "-11",
     "hit": "+8",
     "counter": "",
-    "note": "\nHeat Engager\n\nCombo from 1st hit"
+    "note": "\nHeat Engager\n\nCombo from 1st hit",
+    "alternateInputs": [
+      "b+2,1+2"
+    ]
   },
   {
     "name": "",
@@ -580,7 +736,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Ying Mian Tui",
@@ -591,7 +750,10 @@
     "block": "-10",
     "hit": "+4",
     "counter": "",
-    "note": "\nSpike\nCombo from 1st hit\nTransition to BOK with ~D\n(-8 oB, +5 oH)\nTransition to KNK with ~B\n(-10 oB, +1 oH)"
+    "note": "\nSpike\nCombo from 1st hit\nTransition to BOK with ~D\n(-8 oB, +5 oH)\nTransition to KNK with ~B\n(-10 oB, +1 oH)",
+    "alternateInputs": [
+      "b+3,1"
+    ]
   },
   {
     "name": "",
@@ -602,7 +764,10 @@
     "block": "-8",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Dragon's Impact",
@@ -613,7 +778,10 @@
     "block": "-12",
     "hit": "+15a (+6)",
     "counter": "",
-    "note": "\nBalcony Break\nCombo from 1st hit\nCancel to FC with ~D\n(-16 oB, -3 oH)"
+    "note": "\nBalcony Break\nCombo from 1st hit\nCancel to FC with ~D\n(-16 oB, -3 oH)",
+    "alternateInputs": [
+      "b+4,1"
+    ]
   },
   {
     "name": "Dragon's Impact > Jin Ji Du Li",
@@ -624,7 +792,10 @@
     "block": "+9",
     "hit": "+15",
     "counter": "+19",
-    "note": "\nCombo from 1st hit\nTransition to cd with ~DF\n(-5 oB, +1 oH, +5 CH)"
+    "note": "\nCombo from 1st hit\nTransition to cd with ~DF\n(-5 oB, +1 oH, +5 CH)",
+    "alternateInputs": [
+      "b+4,1~4"
+    ]
   },
   {
     "name": "",
@@ -635,7 +806,10 @@
     "block": "-24",
     "hit": "-11",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "",
@@ -646,7 +820,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "+7",
-    "note": "Combo from 1st hit"
+    "note": "Combo from 1st hit",
+    "alternateInputs": [
+      "b+1+2,1+2"
+    ]
   },
   {
     "name": "Jin Gang Hua Shan Tuo Tian Zhang",
@@ -657,7 +834,10 @@
     "block": "-13",
     "hit": "+17d (+12)",
     "counter": "",
-    "note": "\nCombo from 2nd CH\nChip damage on block\nInput qcf+2 instead for 30 damage"
+    "note": "\nCombo from 2nd CH\nChip damage on block\nInput qcf+2 instead for 30 damage",
+    "alternateInputs": [
+      "b+1+2,1+2,2"
+    ]
   },
   {
     "name": "Cuo Zhang",
@@ -668,7 +848,10 @@
     "block": "-12",
     "hit": "+3",
     "counter": "+14",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1+4"
+    ]
   },
   {
     "name": "Ye Kua",
@@ -679,7 +862,10 @@
     "block": "-8",
     "hit": "+23d",
     "counter": "+28d",
-    "note": "\nps2~7\nParries high and mid punches\nHit after parry is the same as on CH"
+    "note": "\nps2~7\nParries high and mid punches\nHit after parry is the same as on CH",
+    "alternateInputs": [
+      "b+2+3"
+    ]
   },
   {
     "name": "Sky Vibration",
@@ -690,7 +876,10 @@
     "block": "0c",
     "hit": "+6c",
     "counter": "+53a",
-    "note": "\njs9~"
+    "note": "\njs9~",
+    "alternateInputs": [
+      "ub+3"
+    ]
   },
   {
     "name": "XZiao Jia Er Lu Liang Yi Zhou",
@@ -701,7 +890,10 @@
     "block": "",
     "hit": "+26a (-21)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ub+1+2"
+    ]
   },
   {
     "name": "Xiang Quan",
@@ -712,7 +904,10 @@
     "block": "-6",
     "hit": "+2",
     "counter": "+22a (+5)",
-    "note": "\nTornado\nBalcony Break\non CH\nDoesn't Balcony Break on airborne"
+    "note": "\nTornado\nBalcony Break\non CH\nDoesn't Balcony Break on airborne",
+    "alternateInputs": [
+      "u+1"
+    ]
   },
   {
     "name": "",
@@ -723,7 +918,10 @@
     "block": "-1",
     "hit": "+6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Li Xiang Quan",
@@ -734,7 +932,10 @@
     "block": "-6",
     "hit": "+2",
     "counter": "+22a (+5)",
-    "note": "\nTornado\nBalcony Break\non CH\nDoesn't Balcony Break on airborne"
+    "note": "\nTornado\nBalcony Break\non CH\nDoesn't Balcony Break on airborne",
+    "alternateInputs": [
+      "uf+1,1"
+    ]
   },
   {
     "name": "Chuan Chong Quan",
@@ -745,7 +946,10 @@
     "block": "-14",
     "hit": "+37g (-21)",
     "counter": "",
-    "note": "\nBalcony Break\nCombo from 1st hit\nCharge LTG on hit with ~1+2*\n(+22g (-36))"
+    "note": "\nBalcony Break\nCombo from 1st hit\nCharge LTG on hit with ~1+2*\n(+22g (-36))",
+    "alternateInputs": [
+      "uf+1,2"
+    ]
   },
   {
     "name": "",
@@ -756,7 +960,10 @@
     "block": "-14",
     "hit": "+18a (+11)",
     "counter": "",
-    "note": "\nTransition to BOK with ~D\n(-11 oB, +21a (+14) oH)"
+    "note": "\nTransition to BOK with ~D\n(-11 oB, +21a (+14) oH)",
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "Yue Bu Si Quan",
@@ -767,7 +974,10 @@
     "block": "-8",
     "hit": "+4",
     "counter": "+32g",
-    "note": "\nCombo from 1st hit\n(+23a (+16))"
+    "note": "\nCombo from 1st hit\n(+23a (+16))",
+    "alternateInputs": [
+      "uf+2,1"
+    ]
   },
   {
     "name": "Yi Qi Jiao",
@@ -778,7 +988,10 @@
     "block": "-9",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\njs9~\nBalcony Break\nCan input with u+3\nLess forward movement and deals 20 damage"
+    "note": "\njs9~\nBalcony Break\nCan input with u+3\nLess forward movement and deals 20 damage",
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Yue Bu San Jing Ti",
@@ -789,7 +1002,10 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\njs9~\nCan input with u+4\nLess forward movement"
+    "note": "\njs9~\nCan input with u+4\nLess forward movement",
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Yue Bu San Jing Ti",
@@ -800,7 +1016,10 @@
     "block": "-13",
     "hit": "+19a (+9)",
     "counter": "+33a (+23)",
-    "note": "\njs9~\nBalcony Break"
+    "note": "\njs9~\nBalcony Break",
+    "alternateInputs": [
+      "ub+4"
+    ]
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -811,7 +1030,10 @@
     "block": "-13",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "\njs9~"
+    "note": "\njs9~",
+    "alternateInputs": [
+      "uf,n,4"
+    ]
   },
   {
     "name": "Shang Bu Zhuang Quan",
@@ -822,7 +1044,10 @@
     "block": "-9",
     "hit": "+8a",
     "counter": "",
-    "note": "\nBalcony Break\nCharge LTG on hit with ~1+2*\n(-9a)\n"
+    "note": "\nBalcony Break\nCharge LTG on hit with ~1+2*\n(-9a)\n",
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Tiao Shan Fu Ren",
@@ -833,7 +1058,10 @@
     "block": "-7c",
     "hit": "+3d",
     "counter": "",
-    "note": "\nTransition to BOK with ~D\n(+0 oB, +10d oH)"
+    "note": "\nTransition to BOK with ~D\n(+0 oB, +10d oH)",
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "",
@@ -844,7 +1072,10 @@
     "block": "-13",
     "hit": "+28 (+18)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "",
@@ -855,7 +1086,10 @@
     "block": "-14",
     "hit": "+20 (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nJail from 1st attack\nCombo from 1st hit +28a (+21)"
+    "note": "\n\nBalcony Break\nJail from 1st attack\nCombo from 1st hit +28a (+21)",
+    "alternateInputs": [
+      "f,F+4,3"
+    ]
   },
   {
     "name": "",
@@ -866,7 +1100,10 @@
     "block": "-14",
     "hit": "-12",
     "counter": "+30a",
-    "note": "\ncs4~\nCan combo from 1st hit on wall"
+    "note": "\ncs4~\nCan combo from 1st hit on wall",
+    "alternateInputs": [
+      "f,F+4,3,4"
+    ]
   },
   {
     "name": "iao Shan Jiang Jiao",
@@ -877,7 +1114,10 @@
     "block": "+6",
     "hit": "+13a (+3)",
     "counter": "",
-    "note": "\njs\nBalcony Break\nAlternate wr3 input"
+    "note": "\njs\nBalcony Break\nAlternate wr3 input",
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "Crouch Jab",
@@ -888,7 +1128,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs"
+    "note": "\ncs",
+    "alternateInputs": [
+      "FC 1"
+    ]
   },
   {
     "name": "Crouch Straight",
@@ -899,7 +1142,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC 2"
+    ]
   },
   {
     "name": "Crouch Spin Kick",
@@ -910,7 +1156,10 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC 3"
+    ]
   },
   {
     "name": "Crouch Shin Kick",
@@ -921,7 +1170,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC 4"
+    ]
   },
   {
     "name": "Hou Sao Xuan",
@@ -932,7 +1184,10 @@
     "block": "-26",
     "hit": "+37a",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC df+3"
+    ]
   },
   {
     "name": "",
@@ -943,7 +1198,10 @@
     "block": "-8",
     "hit": "+4",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "",
@@ -954,7 +1212,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "ws1,4"
+    ]
   },
   {
     "name": "Huo Da Ding Zhou",
@@ -965,7 +1226,10 @@
     "block": "-14",
     "hit": "+12a (+3)",
     "counter": "+44a (-3)",
-    "note": "\nBalcony Break\nCombo from 2nd CH"
+    "note": "\nBalcony Break\nCombo from 2nd CH",
+    "alternateInputs": [
+      "ws1,4,1"
+    ]
   },
   {
     "name": "Shang Bu Gua Shan",
@@ -976,7 +1240,10 @@
     "block": "-13",
     "hit": "+28a (+18)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "",
@@ -987,7 +1254,10 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "",
@@ -998,7 +1268,10 @@
     "block": "-10",
     "hit": "+3",
     "counter": "",
-    "note": "\nCombo from 1st hit\nTransition into BOK with ~D\n(-10oB, +9 oH)"
+    "note": "\nCombo from 1st hit\nTransition into BOK with ~D\n(-10oB, +9 oH)",
+    "alternateInputs": [
+      "ws3,1"
+    ]
   },
   {
     "name": "Liang Yi Er Yui Ya Zhou",
@@ -1009,7 +1282,10 @@
     "block": "-9",
     "hit": "+6d",
     "counter": "+31d (+23)",
-    "note": "Combo from 1st CH"
+    "note": "Combo from 1st CH",
+    "alternateInputs": [
+      "ws3,1,2"
+    ]
   },
   {
     "name": "",
@@ -1020,7 +1296,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Rising Bei Zhe Kao",
@@ -1031,7 +1310,10 @@
     "block": "-12",
     "hit": "+4d",
     "counter": "",
-    "note": "\nHeat Engager\n\nCombo from 1st hit"
+    "note": "\nHeat Engager\n\nCombo from 1st hit",
+    "alternateInputs": [
+      "ws4,1+2"
+    ]
   },
   {
     "name": "Le Kua Kao",
@@ -1042,7 +1324,10 @@
     "block": "-15",
     "hit": "+22",
     "counter": "",
-    "note": "\nCharge LTG on hit with ~1+2*\n(+3oH)"
+    "note": "\nCharge LTG on hit with ~1+2*\n(+3oH)",
+    "alternateInputs": [
+      "ws1+2"
+    ]
   },
   {
     "name": "Tu Bu Jin Ji Du Li",
@@ -1053,7 +1338,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "",
@@ -1064,7 +1352,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nTransition to BOK with with ~D\n(-7 oB, +4 oH)"
+    "note": "\nTransition to BOK with with ~D\n(-7 oB, +4 oH)",
+    "alternateInputs": [
+      "KNK 1"
+    ]
   },
   {
     "name": "Bai She Tui Chuang",
@@ -1075,7 +1366,10 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "\nHeat Engager\n"
+    "note": "\nHeat Engager\n",
+    "alternateInputs": [
+      "KNK 1,2"
+    ]
   },
   {
     "name": "Heng Quan",
@@ -1086,7 +1380,10 @@
     "block": "-9",
     "hit": "+22",
     "counter": "",
-    "note": "\nBalcony Break"
+    "note": "\nBalcony Break",
+    "alternateInputs": [
+      "KNK 2"
+    ]
   },
   {
     "name": "Yi Qi Jiao",
@@ -1097,7 +1394,10 @@
     "block": "-13",
     "hit": "a",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "KNK 3"
+    ]
   },
   {
     "name": "Er Qi Jiao",
@@ -1108,7 +1408,10 @@
     "block": "-12",
     "hit": "+80a",
     "counter": "",
-    "note": "Tornado"
+    "note": "Tornado",
+    "alternateInputs": [
+      "KNK 3,4"
+    ]
   },
   {
     "name": "Cuo Ti Fu Ren",
@@ -1119,7 +1422,10 @@
     "block": "-12",
     "hit": "+4c",
     "counter": "",
-    "note": "\nSpike\nTransition to cd with ~DF\n(-10 oB, +6c oH, +19d CH)"
+    "note": "\nSpike\nTransition to cd with ~DF\n(-10 oB, +6c oH, +19d CH)",
+    "alternateInputs": [
+      "KNK 4"
+    ]
   },
   {
     "name": "Upper Rising Fist",
@@ -1130,7 +1436,10 @@
     "block": "-6",
     "hit": "+21",
     "counter": "",
-    "note": "\nTornado\nBalcony Break\nOn non-CH grounded connect\nChip Damage on Block"
+    "note": "\nTornado\nBalcony Break\nOn non-CH grounded connect\nChip Damage on Block",
+    "alternateInputs": [
+      "KNK 1+2"
+    ]
   },
   {
     "name": "",
@@ -1141,7 +1450,10 @@
     "block": "-26",
     "hit": "+19",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "KNK 3+4"
+    ]
   },
   {
     "name": "Jin Bu",
@@ -1152,7 +1464,10 @@
     "block": "-5",
     "hit": "+1",
     "counter": "",
-    "note": "\nFrames calculated from f4 KNK.DF\n"
+    "note": "\nFrames calculated from f4 KNK.DF\n",
+    "alternateInputs": [
+      "KNK DF"
+    ]
   },
   {
     "name": "Fo Bu",
@@ -1163,7 +1478,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs"
+    "note": "\ncs",
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Fo Bu (Elapsed)",
@@ -1174,7 +1492,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\ncs"
+    "note": "\ncs",
+    "alternateInputs": [
+      "BOK n"
+    ]
   },
   {
     "name": "",
@@ -1185,7 +1506,10 @@
     "block": "-4",
     "hit": "+9",
     "counter": "",
-    "note": "\ncs"
+    "note": "\ncs",
+    "alternateInputs": [
+      "BOK 1"
+    ]
   },
   {
     "name": "Ya Sui Ying Quan",
@@ -1196,7 +1520,10 @@
     "block": "-14",
     "hit": "+72 (+56)",
     "counter": "",
-    "note": "\nTornado\n"
+    "note": "\nTornado\n",
+    "alternateInputs": [
+      "BOK 1,2"
+    ]
   },
   {
     "name": "Fan Lan Chui",
@@ -1207,7 +1534,10 @@
     "block": "-9",
     "hit": "+41 (+31)",
     "counter": "",
-    "note": "\ncs"
+    "note": "\ncs",
+    "alternateInputs": [
+      "BOK 2"
+    ]
   },
   {
     "name": "Startled Crane",
@@ -1218,7 +1548,10 @@
     "block": "+5",
     "hit": "+15d",
     "counter": "",
-    "note": "\nHoming\nBalcony Break\nChip damage on block\n"
+    "note": "\nHoming\nBalcony Break\nChip damage on block\n",
+    "alternateInputs": [
+      "BOK 3"
+    ]
   },
   {
     "name": "Jin Ji Du Li",
@@ -1229,7 +1562,10 @@
     "block": "+9",
     "hit": "+15",
     "counter": "+19",
-    "note": "\nTransition to cd with ~DF"
+    "note": "\nTransition to cd with ~DF",
+    "alternateInputs": [
+      "BOK 4"
+    ]
   },
   {
     "name": "Lao Pao Ba",
@@ -1240,7 +1576,10 @@
     "block": "-12",
     "hit": "+15",
     "counter": "",
-    "note": "\npc13~\nHeat Engager\n\nBalcony Break\nSpike\nChip damage on block\n"
+    "note": "\npc13~\nHeat Engager\n\nBalcony Break\nSpike\nChip damage on block\n",
+    "alternateInputs": [
+      "BOK 1+2"
+    ]
   },
   {
     "name": "Jin Bu",
@@ -1251,7 +1590,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "No crouching state"
+    "note": "No crouching state",
+    "alternateInputs": [
+      "d,df,f"
+    ]
   },
   {
     "name": "Lei Zhang",
@@ -1262,7 +1604,10 @@
     "block": "-13",
     "hit": "-1",
     "counter": "+11",
-    "note": "\ncs"
+    "note": "\ncs",
+    "alternateInputs": [
+      "CD 1"
+    ]
   },
   {
     "name": "",
@@ -1273,7 +1618,10 @@
     "block": "-9",
     "hit": "+9",
     "counter": "",
-    "note": "\nTransition to KNK with ~B\n(Same oB and oH)"
+    "note": "\nTransition to KNK with ~B\n(Same oB and oH)",
+    "alternateInputs": [
+      "CD 2"
+    ]
   },
   {
     "name": "Lightning Spear",
@@ -1284,7 +1632,10 @@
     "block": "-6",
     "hit": "+10",
     "counter": "+30g",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "CD 2,1"
+    ]
   },
   {
     "name": "Lightning Skypiercer",
@@ -1295,7 +1646,10 @@
     "block": "-11",
     "hit": "+10d (0)",
     "counter": "",
-    "note": "\nBalcony Break"
+    "note": "\nBalcony Break",
+    "alternateInputs": [
+      "CD 2,4"
+    ]
   },
   {
     "name": "Swallow Step",
@@ -1306,7 +1660,10 @@
     "block": "-6",
     "hit": "+13g",
     "counter": "",
-    "note": "\njs\nHoming\nBalcony Break"
+    "note": "\njs\nHoming\nBalcony Break",
+    "alternateInputs": [
+      "CD 3+4"
+    ]
   },
   {
     "name": "Tui Bu Dan Yi",
@@ -1317,7 +1674,10 @@
     "block": "-20",
     "hit": "+1a (-8)",
     "counter": "+22a (-14)",
-    "note": "\nBalcony Break"
+    "note": "\nBalcony Break",
+    "alternateInputs": [
+      "BT 1+2"
+    ]
   },
   {
     "name": "Zhen Jiao",
@@ -1328,7 +1688,10 @@
     "block": "-13",
     "hit": "-2d (-10)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "OTG d+3+4"
+    ]
   },
   {
     "name": "",
@@ -1339,7 +1702,10 @@
     "block": "-9",
     "hit": "+14a (+5)",
     "counter": "+29d",
-    "note": "\nBalcony Break"
+    "note": "\nBalcony Break",
+    "alternateInputs": [
+      "ss 1+2"
+    ]
   },
   {
     "name": "Transcendent Blow",
@@ -1350,7 +1716,10 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "\npc\nRage Art"
+    "note": "\npc\nRage Art",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Bao Hu Gui Shan",
@@ -1361,7 +1730,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1 or 2"
+    "note": "Throw break 1 or 2",
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Dan Yang Da",
@@ -1372,7 +1744,10 @@
     "block": "-6",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nSide switch on hit\nDeals 4 more damage at the wall"
+    "note": "\nThrow break 1 or 2\nSide switch on hit\nDeals 4 more damage at the wall",
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Chou Bie Zi",
@@ -1383,7 +1758,10 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1\nSide switch on hit\nDeals 4 more damage at the wall"
+    "note": "\nThrow break 1\nSide switch on hit\nDeals 4 more damage at the wall",
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Da Zhe Jiang",
@@ -1394,7 +1772,10 @@
     "block": "-3",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 2\nSide switch on hit"
+    "note": "\nThrow break 2\nSide switch on hit",
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Yang Di Tou",
@@ -1405,7 +1786,10 @@
     "block": "",
     "hit": "-3d",
     "counter": "",
-    "note": "\nDeals 10 more damage at the wall"
+    "note": "\nDeals 10 more damage at the wall",
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Shuang Pai Shou",
@@ -1416,6 +1800,9 @@
     "block": "-6",
     "hit": "+8d",
     "counter": "",
-    "note": "\nBalcony Break\nThrow break 1+2"
+    "note": "\nBalcony Break\nThrow break 1+2",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   }
 ]
