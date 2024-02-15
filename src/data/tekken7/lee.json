@@ -7,7 +7,10 @@
     "block": "-22",
     "hit": "KND",
     "counter": "KND",
-    "note": "Rage art"
+    "note": "Rage art",
+    "alternateInputs": [
+      "in rage d+1+2 in rage HMS d+1+2"
+    ]
   },
   {
     "input": "in rage d/f+3+4",
@@ -17,7 +20,10 @@
     "block": "-1~0",
     "hit": "Tail spin",
     "counter": "Tail spin",
-    "note": "Rage drive, Tail spin"
+    "note": "Rage drive, Tail spin",
+    "alternateInputs": [
+      "in rage d/f+3+4"
+    ]
   },
   {
     "input": "in rage d/f+3+4, f, N",
@@ -27,7 +33,10 @@
     "block": "+2~+3",
     "hit": "Tail spin",
     "counter": "Tail spin",
-    "note": "Rage drive, Tail spin"
+    "note": "Rage drive, Tail spin",
+    "alternateInputs": [
+      "in rage d/f+3+4, f, N"
+    ]
   },
   {
     "input": "1",
@@ -37,7 +46,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "+8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "input": "1, 2",
@@ -47,7 +59,10 @@
     "block": "-1",
     "hit": "+5",
     "counter": "+5",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 2"
+    ]
   },
   {
     "input": "1, 2, 2",
@@ -57,7 +72,10 @@
     "block": "-13~-12",
     "hit": "-2~-1",
     "counter": "-2~-1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 2, 2"
+    ]
   },
   {
     "input": "1, 2, 2, 3",
@@ -67,7 +85,10 @@
     "block": "-3~-1",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "1, 2, 2, 3"
+    ]
   },
   {
     "input": "1, 2, 2, 3, 4",
@@ -77,7 +98,10 @@
     "block": "-9~-7",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "1, 2, 2, 3, 4"
+    ]
   },
   {
     "input": "1, 2, 4",
@@ -87,7 +111,10 @@
     "block": "-12",
     "hit": "-1",
     "counter": "CS",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 2, 4"
+    ]
   },
   {
     "input": "1, 2, 4, 3",
@@ -97,7 +124,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "CS",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 2, 4, 3"
+    ]
   },
   {
     "input": "1, 2, 4 (Hold long as possible)",
@@ -107,7 +137,10 @@
     "block": "-7",
     "hit": "0",
     "counter": "CS",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 2, 4 (Hold long as possible)"
+    ]
   },
   {
     "input": "1, 2, f, n",
@@ -117,7 +150,10 @@
     "block": "-2",
     "hit": "+4",
     "counter": "+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 2, f, n"
+    ]
   },
   {
     "input": "1, 3",
@@ -127,7 +163,10 @@
     "block": "-11",
     "hit": "0",
     "counter": "0",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 3"
+    ]
   },
   {
     "input": "1, 3:3",
@@ -137,7 +176,10 @@
     "block": "-11",
     "hit": "0",
     "counter": "0",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 3:3"
+    ]
   },
   {
     "input": "1, 3:3:3",
@@ -147,7 +189,10 @@
     "block": "-18",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1, 3:3:3"
+    ]
   },
   {
     "input": "2",
@@ -157,7 +202,10 @@
     "block": "+1",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "input": "2, 1",
@@ -167,7 +215,10 @@
     "block": "-5~-3",
     "hit": "+6~+8",
     "counter": "+6~+8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2, 1"
+    ]
   },
   {
     "input": "2, 1, 3+4",
@@ -177,7 +228,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2, 1, 3+4"
+    ]
   },
   {
     "input": "2, 1, 1",
@@ -187,7 +241,10 @@
     "block": "-12~-11",
     "hit": "+3~+4",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2, 1, 1"
+    ]
   },
   {
     "input": "2, 1, 3",
@@ -197,7 +254,10 @@
     "block": "-4~-2",
     "hit": "KND",
     "counter": "Tail spin (3rd hit)",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "2, 1, 3"
+    ]
   },
   {
     "input": "2, 1, 4",
@@ -207,7 +267,10 @@
     "block": "-16~-14",
     "hit": "0~+2",
     "counter": "+10~+12",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2, 1, 4"
+    ]
   },
   {
     "input": "2, 2",
@@ -217,7 +280,10 @@
     "block": "-13~-12",
     "hit": "-2~-1",
     "counter": "-2~-1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2, 2"
+    ]
   },
   {
     "input": "2, 2, 3",
@@ -227,7 +293,10 @@
     "block": "-3~-1",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "2, 2, 3"
+    ]
   },
   {
     "input": "2, 2, 3, 4",
@@ -237,7 +306,10 @@
     "block": "-9~-7",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "2, 2, 3, 4"
+    ]
   },
   {
     "input": "3",
@@ -247,7 +319,10 @@
     "block": "-8",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "input": "3, 4",
@@ -257,7 +332,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3, 4"
+    ]
   },
   {
     "input": "3, 3",
@@ -267,7 +345,10 @@
     "block": "-10",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3, 3"
+    ]
   },
   {
     "input": "3~3",
@@ -277,7 +358,10 @@
     "block": "-10",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3~3"
+    ]
   },
   {
     "input": "3~3 hit or guard 4",
@@ -287,7 +371,10 @@
     "block": "Throw(KND)",
     "hit": "Throw(KND)",
     "counter": "Throw(KND)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3~3 hit or guard 4"
+    ]
   },
   {
     "input": "4",
@@ -297,7 +384,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "input": "4, 3",
@@ -307,7 +397,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "+2",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4, 3"
+    ]
   },
   {
     "input": "4, 3, 3",
@@ -317,7 +410,10 @@
     "block": "-13~-11",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4, 3, 3"
+    ]
   },
   {
     "input": "4, 3, 4",
@@ -327,7 +423,10 @@
     "block": "-9~-7",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4, 3, 4"
+    ]
   },
   {
     "input": "4, 4",
@@ -337,7 +436,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4, 4"
+    ]
   },
   {
     "input": "4, 4, 4",
@@ -347,7 +449,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4, 4, 4"
+    ]
   },
   {
     "input": "4, u or u/f+3",
@@ -357,7 +462,10 @@
     "block": "-1~+1",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4, u or u/f+3"
+    ]
   },
   {
     "input": "4, u or u/f+3, f",
@@ -367,7 +475,10 @@
     "block": "-27",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4, u or u/f+3, f"
+    ]
   },
   {
     "input": "1+2",
@@ -377,7 +488,10 @@
     "block": "-4~-3",
     "hit": "+3~+4",
     "counter": "KND",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "input": "1+2, 3+4",
@@ -387,7 +501,10 @@
     "block": "-4~-3",
     "hit": "+3~+4",
     "counter": "KND",
-    "note": "Homing"
+    "note": "Homing",
+    "alternateInputs": [
+      "1+2, 3+4"
+    ]
   },
   {
     "input": "f+2",
@@ -397,7 +514,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "input": "f+2, 1",
@@ -407,7 +527,10 @@
     "block": "-10~-9",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2, 1"
+    ]
   },
   {
     "input": "f+3",
@@ -417,7 +540,10 @@
     "block": "-18",
     "hit": "-7",
     "counter": "-7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "input": "f+3, 3",
@@ -427,7 +553,10 @@
     "block": "-18",
     "hit": "-7",
     "counter": "-7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3, 3"
+    ]
   },
   {
     "input": "f+3, 3, 3",
@@ -437,7 +566,10 @@
     "block": "-18~-17",
     "hit": "-7~-6",
     "counter": "-7~-6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3, 3, 3"
+    ]
   },
   {
     "input": "f+3, 3, 3, 3",
@@ -447,7 +579,10 @@
     "block": "-18~-17",
     "hit": "-7~-6",
     "counter": "-7~-6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3, 3, 3, 3"
+    ]
   },
   {
     "input": "f+3, 3, 3, 3, 3",
@@ -457,7 +592,10 @@
     "block": "-18~-17",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3, 3, 3, 3, 3"
+    ]
   },
   {
     "input": "f+3, 3, 3, 3, 3, 4",
@@ -467,7 +605,10 @@
     "block": "-4~-3",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "f+3, 3, 3, 3, 3, 4"
+    ]
   },
   {
     "input": "f+3, 3, 3, 3, 3, 4, 3",
@@ -477,7 +618,10 @@
     "block": "-7~-6",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "f+3, 3, 3, 3, 3, 4, 3"
+    ]
   },
   {
     "input": "f+4",
@@ -487,7 +631,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "input": "f+4, 1",
@@ -497,7 +644,10 @@
     "block": "-2",
     "hit": "+13",
     "counter": "+13",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+4, 1"
+    ]
   },
   {
     "input": "f+4, 3",
@@ -507,7 +657,10 @@
     "block": "-8~-6",
     "hit": "+6~+8s",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+4, 3"
+    ]
   },
   {
     "input": "f+4, 3, 4",
@@ -517,7 +670,10 @@
     "block": "-4~-2",
     "hit": "+10~+12s",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+4, 3, 4"
+    ]
   },
   {
     "input": "f+1+2",
@@ -527,7 +683,10 @@
     "block": "-13~-12",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "input": "f+3+4",
@@ -537,7 +696,10 @@
     "block": "+4~+6s",
     "hit": "+8~+10s",
     "counter": "+8~+10s",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "input": "f+3+4 (Second hit miss)",
@@ -547,7 +709,10 @@
     "block": "-14~-12s",
     "hit": "-3~-1s",
     "counter": "-3~-1s",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3+4 (Second hit miss)"
+    ]
   },
   {
     "input": "d/f+1",
@@ -557,7 +722,10 @@
     "block": "-1~0",
     "hit": "+5~+6",
     "counter": "+5~+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+1"
+    ]
   },
   {
     "input": "d/f+2",
@@ -567,7 +735,10 @@
     "block": "-7~-6",
     "hit": "Launch (JG?)(+4a)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+2"
+    ]
   },
   {
     "input": "d/f+3",
@@ -577,7 +748,10 @@
     "block": "-8~-7",
     "hit": "+3~+4",
     "counter": "+3~+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+3"
+    ]
   },
   {
     "input": "d/f+3, 2",
@@ -587,7 +761,10 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "+5~+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+3, 2"
+    ]
   },
   {
     "input": "d/f+3, 2, 3",
@@ -597,7 +774,10 @@
     "block": "-14",
     "hit": "Launch",
     "counter": "Launch",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+3, 2, 3"
+    ]
   },
   {
     "input": "d/f+4",
@@ -607,7 +787,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+4"
+    ]
   },
   {
     "input": "d/f+4, 3",
@@ -617,7 +800,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+4, 3"
+    ]
   },
   {
     "input": "d/f+1+2",
@@ -627,7 +813,10 @@
     "block": "-9~-8",
     "hit": "-2~-1",
     "counter": "-2~-1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+1+2"
+    ]
   },
   {
     "input": "d/f+1+2, 3",
@@ -637,7 +826,10 @@
     "block": "-3~-1",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "d/f+1+2, 3"
+    ]
   },
   {
     "input": "d/f+1+2, 3, 4",
@@ -647,7 +839,10 @@
     "block": "-9~-7",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "d/f+1+2, 3, 4"
+    ]
   },
   {
     "input": "d+2",
@@ -657,7 +852,10 @@
     "block": "-6~-5",
     "hit": "+8~+9",
     "counter": "KND(JG)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "input": "d+3",
@@ -667,7 +865,10 @@
     "block": "-17",
     "hit": "-3",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "input": "d+3, 4",
@@ -677,7 +878,10 @@
     "block": "-15",
     "hit": "-1",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+3, 4"
+    ]
   },
   {
     "input": "d+4",
@@ -687,7 +891,10 @@
     "block": "-13",
     "hit": "-14",
     "counter": "-2",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "input": "d+4, n+4",
@@ -697,7 +904,10 @@
     "block": "-9",
     "hit": "+2",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4, n+4"
+    ]
   },
   {
     "input": "d+4, n+4~3j",
@@ -707,7 +917,10 @@
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4, n+4~3j"
+    ]
   },
   {
     "input": "D+4, 4",
@@ -717,7 +930,10 @@
     "block": "-15",
     "hit": "-16",
     "counter": "-4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "D+4, 4"
+    ]
   },
   {
     "input": "D+4, 4, 4",
@@ -727,7 +943,10 @@
     "block": "-15",
     "hit": "-16",
     "counter": "-4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "D+4, 4, 4"
+    ]
   },
   {
     "input": "D+4, 4, 4, 4",
@@ -737,7 +956,10 @@
     "block": "-20~-19",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "D+4, 4, 4, 4"
+    ]
   },
   {
     "input": "D+4, 4, 4, 4, 3",
@@ -747,7 +969,10 @@
     "block": "-11~-10",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "D+4, 4, 4, 4, 3"
+    ]
   },
   {
     "input": "D+4, 4, 4, 4, 3, d/b (Cancel)",
@@ -757,7 +982,10 @@
     "block": "-8",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "D+4, 4, 4, 4, 3, d/b (Cancel)"
+    ]
   },
   {
     "input": "d+3+4",
@@ -767,7 +995,10 @@
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "input": "d+3+4, 3+4 (Cancel)",
@@ -777,7 +1008,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+3+4, 3+4 (Cancel)"
+    ]
   },
   {
     "input": "d/b+3",
@@ -787,7 +1021,10 @@
     "block": "-12~-11",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b+3"
+    ]
   },
   {
     "input": "d/b+1+2",
@@ -797,7 +1034,10 @@
     "block": "CS",
     "hit": "CS",
     "counter": "CS",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b+1+2"
+    ]
   },
   {
     "input": "d/b+3+4",
@@ -807,7 +1047,10 @@
     "block": "-13~-11",
     "hit": "+4~+6",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b+3+4"
+    ]
   },
   {
     "input": "b+1",
@@ -817,7 +1060,10 @@
     "block": "0",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "input": "b+1, 1",
@@ -827,7 +1073,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1, 1"
+    ]
   },
   {
     "input": "b+1, 1, 2",
@@ -837,7 +1086,10 @@
     "block": "-11",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1, 1, 2"
+    ]
   },
   {
     "input": "b+1, 1, 3+4",
@@ -847,7 +1099,10 @@
     "block": "-1",
     "hit": "+10",
     "counter": "+10",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1, 1, 3+4"
+    ]
   },
   {
     "input": "b+1, 1~f, n (Cancel)",
@@ -857,7 +1112,10 @@
     "block": "-5",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1, 1~f, n (Cancel)"
+    ]
   },
   {
     "input": "b+1:1",
@@ -867,7 +1125,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1:1"
+    ]
   },
   {
     "input": "b+1:1, 2",
@@ -877,7 +1138,10 @@
     "block": "-6",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1:1, 2"
+    ]
   },
   {
     "input": "b+1:1, 3+4",
@@ -887,7 +1151,10 @@
     "block": "-1",
     "hit": "+10",
     "counter": "+10",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1:1, 3+4"
+    ]
   },
   {
     "input": "b+1:1~f, n (Cancel)",
@@ -897,7 +1164,10 @@
     "block": "-5",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1:1~f, n (Cancel)"
+    ]
   },
   {
     "input": "b+2",
@@ -907,7 +1177,10 @@
     "block": "-5",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "input": "b+2, f, n",
@@ -917,7 +1190,10 @@
     "block": "-1",
     "hit": "+5",
     "counter": "+5",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2, f, n"
+    ]
   },
   {
     "input": "b+2, 4",
@@ -927,7 +1203,10 @@
     "block": "-8~-7",
     "hit": "-6~-5",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2, 4"
+    ]
   },
   {
     "input": "b+2, 4, 3+4",
@@ -937,7 +1216,10 @@
     "block": "-10~-9",
     "hit": "-8~-7",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2, 4, 3+4"
+    ]
   },
   {
     "input": "b+2, 4, 3",
@@ -947,7 +1229,10 @@
     "block": "-3",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "b+2, 4, 3"
+    ]
   },
   {
     "input": "b+3",
@@ -957,7 +1242,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "-3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "input": "b+3, 3",
@@ -967,7 +1255,10 @@
     "block": "-12",
     "hit": "-3",
     "counter": "-3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3, 3"
+    ]
   },
   {
     "input": "b+3, 3, f",
@@ -977,7 +1268,10 @@
     "block": "-7",
     "hit": "+2",
     "counter": "+2",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3, 3, f"
+    ]
   },
   {
     "input": "b+4",
@@ -987,7 +1281,10 @@
     "block": "-3~-1",
     "hit": "+7~+9s (KND)",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "input": "b+4, 3",
@@ -997,7 +1294,10 @@
     "block": "-2~0",
     "hit": "+8~+10s (KND)",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4, 3"
+    ]
   },
   {
     "input": "b+1+2",
@@ -1007,7 +1307,10 @@
     "block": "",
     "hit": "+7b",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "input": "b+1+2(when done) 4(When parry successful)",
@@ -1017,7 +1320,10 @@
     "block": "",
     "hit": "KND",
     "counter": "Tail spin",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1+2(when done) 4(When parry successful)"
+    ]
   },
   {
     "input": "b+3+4",
@@ -1027,7 +1333,10 @@
     "block": "-15",
     "hit": "KND",
     "counter": "KND",
-    "note": "Power crush, Wall bounce"
+    "note": "Power crush, Wall bounce",
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "input": "u/b, b",
@@ -1037,7 +1346,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/b, b"
+    ]
   },
   {
     "input": "u/b+3",
@@ -1047,7 +1359,10 @@
     "block": "-13~-9",
     "hit": "KND",
     "counter": "Launch",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/b+3"
+    ]
   },
   {
     "input": "u+3",
@@ -1057,7 +1372,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u+3"
+    ]
   },
   {
     "input": "u+3, D",
@@ -1067,7 +1385,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u+3, D"
+    ]
   },
   {
     "input": "u+3, 3+4",
@@ -1077,7 +1398,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u+3, 3+4"
+    ]
   },
   {
     "input": "u/f+3",
@@ -1087,7 +1411,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f+3"
+    ]
   },
   {
     "input": "u/f+3, 1",
@@ -1097,7 +1424,10 @@
     "block": "-12~-11",
     "hit": "+3~+4",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f+3, 1"
+    ]
   },
   {
     "input": "u/f+3, 4",
@@ -1107,7 +1437,10 @@
     "block": "-3~-1",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "u/f+3, 4"
+    ]
   },
   {
     "input": "u/f+4",
@@ -1117,7 +1450,10 @@
     "block": "-13~-12",
     "hit": "Launch (JG?)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f+4"
+    ]
   },
   {
     "input": "u/f+3+4",
@@ -1127,7 +1463,10 @@
     "block": "+5~+7",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f+3+4"
+    ]
   },
   {
     "input": "u/f+3+4, 3+4",
@@ -1137,7 +1476,10 @@
     "block": "+8~+10",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f+3+4, 3+4"
+    ]
   },
   {
     "input": "f, F+3",
@@ -1147,7 +1489,10 @@
     "block": "-11~-10",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f, F+3"
+    ]
   },
   {
     "input": "f, F+4",
@@ -1157,7 +1502,10 @@
     "block": "-5~-4",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f, F+4"
+    ]
   },
   {
     "input": "d, D/B+4",
@@ -1167,7 +1515,10 @@
     "block": "-17~-15",
     "hit": "Launch(JG?)",
     "counter": "Launch(JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d, D/B+4"
+    ]
   },
   {
     "input": "b, B+4",
@@ -1177,7 +1528,10 @@
     "block": "+2~+5",
     "hit": "KND",
     "counter": "KND",
-    "note": "Homing, Tail spin"
+    "note": "Homing, Tail spin",
+    "alternateInputs": [
+      "b, B+4"
+    ]
   },
   {
     "input": "b, B+4, 3",
@@ -1187,7 +1541,10 @@
     "block": "0~+3",
     "hit": "KND",
     "counter": "KND",
-    "note": "Homing, Tail spin"
+    "note": "Homing, Tail spin",
+    "alternateInputs": [
+      "b, B+4, 3"
+    ]
   },
   {
     "input": "f, f, f+3 or WR+3",
@@ -1197,7 +1554,10 @@
     "block": "-9~-8",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f, f, f+3 or WR+3"
+    ]
   },
   {
     "input": "f, f, f+3, 4",
@@ -1207,7 +1567,10 @@
     "block": "+3~+5",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f, f, f+3, 4"
+    ]
   },
   {
     "input": "f, f, f+3, 4, 3+4",
@@ -1217,7 +1580,10 @@
     "block": "+4~+6",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f, f, f+3, 4, 3+4"
+    ]
   },
   {
     "input": "WS+1",
@@ -1227,7 +1593,10 @@
     "block": "-2",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+1"
+    ]
   },
   {
     "input": "WS+1,4",
@@ -1237,7 +1606,10 @@
     "block": "-5",
     "hit": "+4",
     "counter": "+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+1,4"
+    ]
   },
   {
     "input": "WS+1,4,3(HMS)",
@@ -1247,7 +1619,10 @@
     "block": "-8",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+1,4,3(HMS)"
+    ]
   },
   {
     "input": "WS+2",
@@ -1257,7 +1632,10 @@
     "block": "-8~-6",
     "hit": "+3~+5",
     "counter": "+3~+5",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+2"
+    ]
   },
   {
     "input": "WS+2, 3",
@@ -1267,7 +1645,10 @@
     "block": "-13~-12",
     "hit": "Launch",
     "counter": "Launch",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+2, 3"
+    ]
   },
   {
     "input": "WS+2, 4",
@@ -1277,7 +1658,10 @@
     "block": "-6~-5",
     "hit": "+16~+17kg",
     "counter": "+16~+17kg",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "WS+2, 4"
+    ]
   },
   {
     "input": "WS+3",
@@ -1287,7 +1671,10 @@
     "block": "-21~-19",
     "hit": "-10~-8",
     "counter": "-10~-8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3"
+    ]
   },
   {
     "input": "WS+3, 3",
@@ -1297,7 +1684,10 @@
     "block": "-15~-13",
     "hit": "-4~-2s",
     "counter": "-4~-2s",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3"
+    ]
   },
   {
     "input": "WS+3, 3, 4",
@@ -1307,7 +1697,10 @@
     "block": "-15~-13",
     "hit": "-4~-2s",
     "counter": "-4~-2s",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3, 4"
+    ]
   },
   {
     "input": "WS+3, 3, D+3",
@@ -1317,7 +1710,10 @@
     "block": "-19",
     "hit": "-8",
     "counter": "-8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3, D+3"
+    ]
   },
   {
     "input": "WS+3, 3, D+3, n+3",
@@ -1327,7 +1723,10 @@
     "block": "-19",
     "hit": "-8",
     "counter": "-8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3, D+3, n+3"
+    ]
   },
   {
     "input": "WS+3, 3, D+3, n+3, 3",
@@ -1337,7 +1736,10 @@
     "block": "-16",
     "hit": "-5",
     "counter": "-5",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3, D+3, n+3, 3"
+    ]
   },
   {
     "input": "WS+3, 3, D/F+3",
@@ -1347,7 +1749,10 @@
     "block": "-19",
     "hit": "-8",
     "counter": "-8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3, D/F+3"
+    ]
   },
   {
     "input": "WS+3, 3, D/F+3, n+3",
@@ -1357,7 +1762,10 @@
     "block": "-16",
     "hit": "-5",
     "counter": "-5",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3, D/F+3, n+3"
+    ]
   },
   {
     "input": "WS+3, 3, D/F+3, n+3, 3",
@@ -1367,7 +1775,10 @@
     "block": "-19",
     "hit": "-8",
     "counter": "-8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3, 3, D/F+3, n+3, 3"
+    ]
   },
   {
     "input": "In+f-Kick D+3, ,,",
@@ -1377,7 +1788,10 @@
     "block": "-19",
     "hit": "-8",
     "counter": "-8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "In+f-Kick D+3, ,,"
+    ]
   },
   {
     "input": "In+f-Kick U+3, ,,",
@@ -1387,7 +1801,10 @@
     "block": "-19",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "In+f-Kick U+3, ,,"
+    ]
   },
   {
     "input": "WS+4",
@@ -1397,7 +1814,10 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "+5~+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+4"
+    ]
   },
   {
     "input": "WS+4, 3",
@@ -1407,7 +1827,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+4, 3"
+    ]
   },
   {
     "input": "FC+d/f+4",
@@ -1417,7 +1840,10 @@
     "block": "-14~-13",
     "hit": "-3s~-2s",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+d/f+4"
+    ]
   },
   {
     "input": "FC+d/f+4, 3",
@@ -1427,7 +1853,10 @@
     "block": "-12~-11",
     "hit": "-1s~0s",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+d/f+4, 3"
+    ]
   },
   {
     "input": "FC+u/b+4",
@@ -1437,7 +1866,10 @@
     "block": "-17~-7",
     "hit": "-6~+4",
     "counter": "-6~+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u/b+4"
+    ]
   },
   {
     "input": "FC+u+4",
@@ -1447,7 +1879,10 @@
     "block": "-17~-7",
     "hit": "Launch (JG?)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u+4"
+    ]
   },
   {
     "input": "FC+u/f+4",
@@ -1457,7 +1892,10 @@
     "block": "-17~-7",
     "hit": "Launch (JG?)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u/f+4"
+    ]
   },
   {
     "input": "FC+u/b or u or u/f+4, 3",
@@ -1467,7 +1905,10 @@
     "block": "-17~-7",
     "hit": "Launch (JG?) (-6~+4)",
     "counter": "Launch (JG?) (-6~+4)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u/b or u or u/f+4, 3"
+    ]
   },
   {
     "input": "FC+U/B+4",
@@ -1477,7 +1918,10 @@
     "block": "-31~-28",
     "hit": "-20~-17",
     "counter": "-20~-17",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+U/B+4"
+    ]
   },
   {
     "input": "FC+u or U/F+4",
@@ -1487,7 +1931,10 @@
     "block": "-31~-28",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u or U/F+4"
+    ]
   },
   {
     "input": "FC+u/b or u or U/F+4, d",
@@ -1497,7 +1944,10 @@
     "block": "-31~-28",
     "hit": "KND (-20~-17)",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u/b or u or U/F+4, d"
+    ]
   },
   {
     "input": "FC+u/b or u or U/F+3+4",
@@ -1507,7 +1957,10 @@
     "block": "-4~-2",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u/b or u or U/F+3+4"
+    ]
   },
   {
     "input": "FC+u/b or u or U/F+3+4 (First hit only)",
@@ -1517,7 +1970,10 @@
     "block": "-24~-21",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+u/b or u or U/F+3+4 (First hit only)"
+    ]
   },
   {
     "input": "FC+d/f, d, D/F+3",
@@ -1527,7 +1983,10 @@
     "block": "-23~-19",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+d/f, d, D/F+3"
+    ]
   },
   {
     "input": "SSR+3+4",
@@ -1537,7 +1996,10 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "SSR+3+4"
+    ]
   },
   {
     "input": "SSR+3+4, 4",
@@ -1547,7 +2009,10 @@
     "block": "-12",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "SSR+3+4, 4"
+    ]
   },
   {
     "input": "SSL+3+4",
@@ -1557,7 +2022,10 @@
     "block": "-2~+1",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "SSL+3+4"
+    ]
   },
   {
     "input": "SSL+3+4, 3",
@@ -1567,7 +2035,10 @@
     "block": "-5~-2",
     "hit": "KND",
     "counter": "KND",
-    "note": "Tail spin"
+    "note": "Tail spin",
+    "alternateInputs": [
+      "SSL+3+4, 3"
+    ]
   },
   {
     "input": "3+4 or From certain moves (to HMS)",
@@ -1577,7 +2048,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3+4 or From certain moves (to HMS)"
+    ]
   },
   {
     "input": "HMS d or u",
@@ -1587,7 +2061,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS d or u"
+    ]
   },
   {
     "input": "HMS f",
@@ -1597,7 +2074,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS f"
+    ]
   },
   {
     "input": "HMS d/b or D (Cancel)",
@@ -1607,7 +2087,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS d/b or D (Cancel)"
+    ]
   },
   {
     "input": "HMS b (Cancel)",
@@ -1617,7 +2100,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS b (Cancel)"
+    ]
   },
   {
     "input": "HMS 1",
@@ -1627,27 +2113,36 @@
     "block": "0",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 1"
+    ]
   },
   {
-    "input": "HMS 1, 1, …",
+    "input": "HMS 1, 1, \u00e2\u20ac\u00a6",
     "hit_level": "h, h HMS)",
-    "damage": "10,10, …",
+    "damage": "10,10, \u00e2\u20ac\u00a6",
     "startup": "12",
     "block": "-1",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 1, 1, \u00e2\u20ac\u00a6"
+    ]
   },
   {
-    "input": "HMS 1, 1, …, f, n (Cancel)",
+    "input": "HMS 1, 1, \u00e2\u20ac\u00a6, f, n (Cancel)",
     "hit_level": "(MS)",
     "damage": "10,",
     "startup": "12s",
     "block": "-3",
     "hit": "+4",
     "counter": "+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 1, 1, \u00e2\u20ac\u00a6, f, n (Cancel)"
+    ]
   },
   {
     "input": "HMS 1, 4",
@@ -1657,7 +2152,10 @@
     "block": "-8",
     "hit": "+2",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 1, 4"
+    ]
   },
   {
     "input": "HMS 1, 4, 3",
@@ -1667,7 +2165,10 @@
     "block": "-8",
     "hit": "+2",
     "counter": "+2",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 1, 4, 3"
+    ]
   },
   {
     "input": "HMS 2",
@@ -1677,7 +2178,10 @@
     "block": "-13~-12",
     "hit": "Launch",
     "counter": "Launch",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 2"
+    ]
   },
   {
     "input": "HMS 3",
@@ -1687,7 +2191,10 @@
     "block": "-4~-2",
     "hit": "KND",
     "counter": "KND",
-    "note": "Homing, Power crush, Tail spin"
+    "note": "Homing, Power crush, Tail spin",
+    "alternateInputs": [
+      "HMS 3"
+    ]
   },
   {
     "input": "HMS 3 Hit when close ",
@@ -1697,7 +2204,10 @@
     "block": "",
     "hit": "Throw(KND)",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 3 Hit when close "
+    ]
   },
   {
     "input": "HMS 4",
@@ -1707,7 +2217,10 @@
     "block": "-26",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS 4"
+    ]
   },
   {
     "input": "HMS 1+2",
@@ -1717,7 +2230,10 @@
     "block": "-7~-6",
     "hit": "+14~+15 (+26~+27 wc)",
     "counter": "+14~+15 (+26~+27 wc)",
-    "note": " Wall Crush"
+    "note": " Wall Crush",
+    "alternateInputs": [
+      "HMS 1+2"
+    ]
   },
   {
     "input": "HMS u/f+3",
@@ -1727,7 +2243,10 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND",
-    "note": "Wall bounce"
+    "note": "Wall bounce",
+    "alternateInputs": [
+      "HMS u/f+3"
+    ]
   },
   {
     "input": "HMS u/f+3, D",
@@ -1737,7 +2256,10 @@
     "block": "-9",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS u/f+3, D"
+    ]
   },
   {
     "input": "HMS u/f+4",
@@ -1747,7 +2269,10 @@
     "block": "-8~-4s",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "HMS u/f+4"
+    ]
   },
   {
     "input": "f, n or HMS f (to MS)",
@@ -1757,7 +2282,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f, n or HMS f (to MS)"
+    ]
   },
   {
     "input": "MS 3",
@@ -1767,7 +2295,10 @@
     "block": "-12~-11",
     "hit": "-1~0",
     "counter": "-1~0",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "MS 3"
+    ]
   },
   {
     "input": "MS 3, 4",
@@ -1777,7 +2308,10 @@
     "block": "-13~-12",
     "hit": "Launch (JG?)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "MS 3, 4"
+    ]
   },
   {
     "input": "MS 3+4",
@@ -1787,7 +2321,10 @@
     "block": "-35~-31",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "MS 3+4"
+    ]
   },
   {
     "input": "MS etc, ,",
@@ -1797,7 +2334,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "MS etc, ,"
+    ]
   },
   {
     "input": "MS b, n",
@@ -1807,7 +2347,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "MS b, n"
+    ]
   },
   {
     "input": "Sway 4",
@@ -1817,7 +2360,10 @@
     "block": "-13~-12",
     "hit": "+3~+4",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "Sway 4"
+    ]
   },
   {
     "input": "Sway n command",
@@ -1827,7 +2373,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "Sway n command"
+    ]
   },
   {
     "input": "1",
@@ -1837,7 +2386,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "+8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "input": "2",
@@ -1847,7 +2399,10 @@
     "block": "+1",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "input": "3",
@@ -1857,7 +2412,10 @@
     "block": "-8",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "input": "4",
@@ -1867,7 +2425,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "input": "f+1",
@@ -1877,7 +2438,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "+8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+1"
+    ]
   },
   {
     "input": "f+2",
@@ -1887,7 +2451,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "input": "f+3",
@@ -1897,7 +2464,10 @@
     "block": "-18",
     "hit": "-7",
     "counter": "-7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "input": "f+4",
@@ -1907,7 +2477,10 @@
     "block": "-7",
     "hit": "+4",
     "counter": "+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "input": "d/f+1",
@@ -1917,7 +2490,10 @@
     "block": "-1~0",
     "hit": "+5~+6",
     "counter": "+5~+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+1"
+    ]
   },
   {
     "input": "d/f+2",
@@ -1927,7 +2503,10 @@
     "block": "-7~-6",
     "hit": "Launch (JG?)(+4a)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+2"
+    ]
   },
   {
     "input": "d/f+3",
@@ -1937,7 +2516,10 @@
     "block": "-8~-7",
     "hit": "+3~+4",
     "counter": "+3~+4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+3"
+    ]
   },
   {
     "input": "d/f+4",
@@ -1947,7 +2529,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/f+4"
+    ]
   },
   {
     "input": "d/b or d+1",
@@ -1957,7 +2542,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b or d+1"
+    ]
   },
   {
     "input": "d+2",
@@ -1967,7 +2555,10 @@
     "block": "-6~-5",
     "hit": "+8~+9",
     "counter": "+8~+9",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "input": "d+3",
@@ -1977,7 +2568,10 @@
     "block": "-17",
     "hit": "-3",
     "counter": "KND",
-    "note": "Rage art"
+    "note": "Rage art",
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "input": "d+4",
@@ -1987,7 +2581,10 @@
     "block": "-13",
     "hit": "-14",
     "counter": "-2",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "input": "d/b or d+1 ",
@@ -1997,7 +2594,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b or d+1 "
+    ]
   },
   {
     "input": "d/b+2",
@@ -2007,7 +2607,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b+2"
+    ]
   },
   {
     "input": "d/b+3",
@@ -2017,7 +2620,10 @@
     "block": "-12~-11",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b+3"
+    ]
   },
   {
     "input": "d/b+4",
@@ -2027,7 +2633,10 @@
     "block": "-13",
     "hit": "-2",
     "counter": "-2",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "d/b+4"
+    ]
   },
   {
     "input": "b+1",
@@ -2037,7 +2646,10 @@
     "block": "0",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "input": "b+2",
@@ -2047,7 +2659,10 @@
     "block": "-5",
     "hit": "+1",
     "counter": "+1",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "input": "b+3",
@@ -2057,7 +2672,10 @@
     "block": "-14",
     "hit": "-3",
     "counter": "-3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "input": "b+4",
@@ -2067,7 +2685,10 @@
     "block": "-3~-1",
     "hit": "+7~+9s (KND)",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "input": "u/b or u or u/f+1",
@@ -2077,7 +2698,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/b or u or u/f+1"
+    ]
   },
   {
     "input": "u/b or u or u/f+2",
@@ -2087,7 +2711,10 @@
     "block": "-12~-11",
     "hit": "+9~+10g",
     "counter": "+9~+10g",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/b or u or u/f+2"
+    ]
   },
   {
     "input": "u/b+3",
@@ -2097,7 +2724,10 @@
     "block": "-13~-9",
     "hit": "KND",
     "counter": "Launch",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/b+3"
+    ]
   },
   {
     "input": "u+3",
@@ -2107,7 +2737,10 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u+3"
+    ]
   },
   {
     "input": "u/f+3",
@@ -2117,7 +2750,10 @@
     "block": "-9~-8",
     "hit": "+2~+3",
     "counter": "+2~+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f+3"
+    ]
   },
   {
     "input": "u/b+4",
@@ -2127,7 +2763,10 @@
     "block": "-19~-17",
     "hit": "-8~-6",
     "counter": "-8~-6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/b+4"
+    ]
   },
   {
     "input": "u+4",
@@ -2137,7 +2776,10 @@
     "block": "-13~-11",
     "hit": "KND",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u+4"
+    ]
   },
   {
     "input": "u/f+4",
@@ -2147,7 +2789,10 @@
     "block": "-13~-12",
     "hit": "Launch (JG?)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f+4"
+    ]
   },
   {
     "input": "u/b or u+3+4",
@@ -2157,7 +2802,10 @@
     "block": "-17",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/b or u+3+4"
+    ]
   },
   {
     "input": "u/f, n+4",
@@ -2167,7 +2815,10 @@
     "block": "-11(-13)",
     "hit": "Launch (JG?)",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "u/f, n+4"
+    ]
   },
   {
     "input": "WS+1",
@@ -2177,7 +2828,10 @@
     "block": "-2~-1",
     "hit": "+9~+10",
     "counter": "+9~+10",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+1"
+    ]
   },
   {
     "input": "WS+2",
@@ -2187,7 +2841,10 @@
     "block": "-8~-6",
     "hit": "+3~+5",
     "counter": "+3~+5",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+2"
+    ]
   },
   {
     "input": "WS+3",
@@ -2197,7 +2854,10 @@
     "block": "-21~-19",
     "hit": "-10~-8",
     "counter": "-10~-8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+3"
+    ]
   },
   {
     "input": "WS+4",
@@ -2207,7 +2867,10 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "+5~+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "WS+4"
+    ]
   },
   {
     "input": "FC+1",
@@ -2217,7 +2880,10 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+6",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+1"
+    ]
   },
   {
     "input": "FC+2",
@@ -2227,7 +2893,10 @@
     "block": "-4",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+2"
+    ]
   },
   {
     "input": "FC+d/b or d+3",
@@ -2237,7 +2906,10 @@
     "block": "-17",
     "hit": "-3",
     "counter": "-3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+d/b or d+3"
+    ]
   },
   {
     "input": "FC+d/f+3",
@@ -2247,7 +2919,10 @@
     "block": "-17",
     "hit": "-3",
     "counter": "-3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+d/f+3"
+    ]
   },
   {
     "input": "FC+d/b or d+4",
@@ -2257,7 +2932,10 @@
     "block": "-15",
     "hit": "-4",
     "counter": "-4",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "FC+d/b or d+4"
+    ]
   },
   {
     "input": "SS+1",
@@ -2267,7 +2945,10 @@
     "block": "+1",
     "hit": "+8",
     "counter": "+8",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS+1"
+    ]
   },
   {
     "input": "SS+2",
@@ -2277,7 +2958,10 @@
     "block": "+1",
     "hit": "+7",
     "counter": "+7",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS+2"
+    ]
   },
   {
     "input": "SS+3",
@@ -2287,7 +2971,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS+3"
+    ]
   },
   {
     "input": "SS+4",
@@ -2297,7 +2984,10 @@
     "block": "-9",
     "hit": "+7",
     "counter": "Launch (JG?)",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "SS+4"
+    ]
   },
   {
     "input": "BT 1 or 2",
@@ -2307,7 +2997,10 @@
     "block": "-8",
     "hit": "+3",
     "counter": "+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT 1 or 2"
+    ]
   },
   {
     "input": "BT 3 or 4",
@@ -2317,7 +3010,10 @@
     "block": "-8",
     "hit": "KND",
     "counter": "KND",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT 3 or 4"
+    ]
   },
   {
     "input": "BT d+1 or 2",
@@ -2327,7 +3023,10 @@
     "block": "-2",
     "hit": "+9",
     "counter": "+9",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT d+1 or 2"
+    ]
   },
   {
     "input": "BT d+3 or 4",
@@ -2337,6 +3036,9 @@
     "block": "-11",
     "hit": "+3",
     "counter": "+3",
-    "note": ""
+    "note": "",
+    "alternateInputs": [
+      "BT d+3 or 4"
+    ]
   }
 ]
