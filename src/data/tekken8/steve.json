@@ -697,7 +697,7 @@
   },
   {
     "name": "",
-    "input": "FC d/f+1",
+    "input": "FC df+1",
     "hit_level": "l",
     "damage": "11",
     "startup": "i15",
@@ -705,19 +705,19 @@
     "hit": "+2",
     "counter": "",
     "note": "\nTransition to PAB\n",
-    "alternateInputs": ["FC d/f+1"]
+    "alternateInputs": ["FC df+1"]
   },
   {
     "name": "",
-    "input": "FC d/f+2",
+    "input": "FC df+2",
     "hit_level": "m",
     "damage": "20",
-    "startup": "i8",
+    "startup": "i18",
     "block": "-15",
     "hit": "Launch",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["FC d/f+2"]
+    "alternateInputs": ["FC df+2"]
   },
   {
     "name": "",
@@ -1489,7 +1489,7 @@
   },
   {
     "name": "",
-    "input": "PAB u/f+2",
+    "input": "PAB uf+2",
     "hit_level": "m",
     "damage": "23",
     "startup": "i17",
@@ -1497,7 +1497,7 @@
     "hit": "Launch",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["PAB u/f+2"]
+    "alternateInputs": ["PAB uf+2"]
   },
   {
     "name": "",

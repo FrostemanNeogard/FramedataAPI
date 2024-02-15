@@ -41,7 +41,7 @@
     "hit_level": "h,h",
     "damage": "5,12",
     "startup": "i10",
-    "block": "-1",
+    "block": "-3",
     "hit": "+6",
     "counter": "",
     "note": "Combo from 1st hit",
@@ -641,10 +641,10 @@
     "hit_level": "m,h",
     "damage": "10,18",
     "startup": "i17",
-    "block": "-11",
+    "block": "+1",
     "hit": "+13Sp",
     "counter": "KND",
-    "note": "\n\nTornado\nGrants STB on hit\nCombo from 1st hit\nCan be delayed 12F\nCombo can be delayed 10F from CH\nChip damage when guarded\n",
+    "note": "\n\nTornado\nCombo from 1st hit\nCan be delayed 12F\nCombo can be delayed 10F from CH\nChip damage when guarded\n",
     "alternateInputs": ["b+4,1"]
   },
   {

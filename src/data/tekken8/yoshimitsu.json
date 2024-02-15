@@ -56,7 +56,7 @@
     "block": "-13",
     "hit": "+2a",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g~+6g +36a (26)\n\n\nWeapon\nCombo from 1st with 1f delay\nCombo from 1st CH with 7f delay\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,2",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g~+6g +36a (+26)\n\n\nWeapon\nCombo from 1st with 1f delay\nCombo from 1st CH with 7f delay\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,2",
     "alternateInputs": ["b+2,2"]
   },
   {
@@ -1398,7 +1398,7 @@
     "damage": "12,20",
     "startup": ",i27~28",
     "block": "-17~-16",
-    "hit": "+28a (+18a)",
+    "hit": "+28a (+18)",
     "counter": "",
     "note": "\njs28~49 fs50~52\n\nWeapon\nCombos from CH 1st with 2f delay\nTransition to r30 KIN with 1+2\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,1",
     "alternateInputs": ["b+2,1"]
@@ -1412,7 +1412,7 @@
     "block": "-13",
     "hit": "+2a",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g~+6g +36a (26)\n\n\nWeapon\nCombo from 1st with 1f delay\nCombo from 1st CH with 7f delay\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,2",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g~+6g +36a (+26)\n\n\nWeapon\nCombo from 1st with 1f delay\nCombo from 1st CH with 7f delay\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,2",
     "alternateInputs": ["b+2,2"]
   },
   {
@@ -1488,6 +1488,18 @@
     "alternateInputs": ["b+3,3,3,3,3,3"]
   },
   {
+    "name": "",
+    "input": "ub+1",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i24~25",
+    "block": "-6~-5",
+    "hit": "+3c~+4c",
+    "counter": "",
+    "note": "\njs9~27 fs28~30\n\nSpike\n\nWeapon\nAlternate notation: 1SS.ub+1",
+    "alternateInputs": ["ub+1"]
+  },
+  {
     "name": "Avoiding the Puddle",
     "input": "ub+4",
     "hit_level": "m",
@@ -1520,7 +1532,7 @@
     "block": "",
     "hit": "-24",
     "counter": "",
-    "note": "\n\nWeapon\nPunishable on close hit with FUFT.3\nAlternate notation: 1SS.ub+1+2",
+    "note": "\n\nWeapon\nPunishable on close hit with FUFT.3\nAlternate notation: 1SS.ub+1+3",
     "alternateInputs": ["ub+1+3"]
   },
   {
@@ -1532,7 +1544,7 @@
     "block": "",
     "hit": "+1~+2",
     "counter": "+45a",
-    "note": "\n\nWeapon\nAlternate notation: 1SS.ub+1+2,1+2",
+    "note": "\n\nWeapon\nAlternate notation: 1SS.ub+1+3,1+2",
     "alternateInputs": ["ub+1+3,1+2"]
   },
   {
@@ -1544,8 +1556,20 @@
     "block": "",
     "hit": "-57a",
     "counter": "",
-    "note": "\n\nWeapon\nCancel early to r21 with B (earliest cancel -12a)\nPossible to double-hit\nAlternate notation: 1SS.ub+1+2,n+1",
+    "note": "\n\nWeapon\nCancel early to r21 with B (earliest cancel -12a)\nPossible to double-hit\nAlternate notation: 1SS.ub+1+3,n+1",
     "alternateInputs": ["ub+1+3,n+1"]
+  },
+  {
+    "name": "",
+    "input": "u+1",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i24~25",
+    "block": "-5~-4",
+    "hit": "+4c~+5c",
+    "counter": "",
+    "note": "\njs9~27 fs28~30\n\nSpike\n\nWeapon\nAlternate notation: 1SS.u+1",
+    "alternateInputs": ["u+1"]
   },
   {
     "name": "Guillotine Crow Kick",
@@ -1565,10 +1589,10 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i24~25",
-    "block": "-4~-5",
+    "block": "-4~-3",
     "hit": "+5c~+6c",
     "counter": "+50a",
-    "note": "\njs9~27 fs28~30\n\nSpike\n\nWeapon\nAlternate inputs: ub+1, u+1\nAlternate notation: 1SS.uf+1",
+    "note": "\njs9~27 fs28~30\n\nSpike\n\nWeapon\nAlternate notation: 1SS.uf+1",
     "alternateInputs": ["uf+1"]
   },
   {
@@ -3060,6 +3084,30 @@
     "alternateInputs": ["3,2,NSS 1+2"]
   },
   {
+    "name": "",
+    "input": "4,4,2,2,NSS 1",
+    "hit_level": "h,h,m,h,m",
+    "damage": "12,12,5,6,30",
+    "startup": ",i67",
+    "block": "-54",
+    "hit": "-17a",
+    "counter": "",
+    "note": "",
+    "alternateInputs": ["4,4,2,2,NSS 1"]
+  },
+  {
+    "name": "",
+    "input": "4,4,2,2,NSS 1~1",
+    "hit_level": "h,h,m,h,m,h!",
+    "damage": "12,12,5,6,30,40",
+    "startup": ",i20~105",
+    "block": "",
+    "hit": "-49a (-75)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCancel early to r30 with B",
+    "alternateInputs": ["4,4,2,2,NSS 1~1"]
+  },
+  {
     "name": "NSS Flash",
     "input": "NSS 1+4",
     "hit_level": "m",
@@ -3082,6 +3130,18 @@
     "counter": "",
     "note": "Balcony Break",
     "alternateInputs": ["NSS 1+2+3"]
+  },
+  {
+    "name": "Manji Backfist Swipe",
+    "input": "f+2,NSS 1",
+    "hit_level": "h,m",
+    "damage": "18,21",
+    "startup": ",i26~27",
+    "block": "-12~-11",
+    "hit": "+17a (+10)",
+    "counter": "",
+    "note": "\n\nTornado\nCombo from 1st CH\nAlternate input: BT.2,NSS.1",
+    "alternateInputs": ["f+2,NSS 1"]
   },
   {
     "name": "NSS Kuzuryu",
@@ -3108,6 +3168,18 @@
     "alternateInputs": ["NSS f+3+4"]
   },
   {
+    "name": "Tsuka Atemi Swipe",
+    "input": "df+1,2,NSS 1",
+    "hit_level": "m,h,m",
+    "damage": "14,16,19",
+    "startup": ",i26~27",
+    "block": "-12~-11",
+    "hit": "+17a (+10)",
+    "counter": "",
+    "note": "\n\nTornado\nCombo from 2nd CH",
+    "alternateInputs": ["df+1,2,NSS 1"]
+  },
+  {
     "name": "Wood Chopper",
     "input": "df+3,NSS 1",
     "hit_level": "m,M",
@@ -3120,6 +3192,18 @@
     "alternateInputs": ["df+3,NSS 1"]
   },
   {
+    "name": "",
+    "input": "NSS df+1+4",
+    "hit_level": "m",
+    "damage": "19",
+    "startup": "i20~21",
+    "block": "-17~-16",
+    "hit": "+35a (+25)",
+    "counter": "",
+    "note": "\njs20~42 fs43~45\nCan be buffered\nTransition to r37 KIN with 1+2\nCan be performed in FC\nPower up input: NSS.f,n,d,df+1",
+    "alternateInputs": ["NSS df+1+4"]
+  },
+  {
     "name": "Quick Chop",
     "input": "NSS d+1",
     "hit_level": "M",
@@ -3130,6 +3214,42 @@
     "counter": "+6a",
     "note": "\n\nSpike\n\nWeapon\nRecovers health on hit\n12 chip damage on block\nInput can be held to transition to d+1*",
     "alternateInputs": ["NSS d+1"]
+  },
+  {
+    "name": "Heshikirigari",
+    "input": "d+2,NSS 1",
+    "hit_level": "M,h",
+    "damage": "12,18",
+    "startup": ",i27~28",
+    "block": "-9~-8",
+    "hit": "+10g~+11g",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay\nInput can be delayed 16f\nMove can be delayed 10f",
+    "alternateInputs": ["d+2,NSS 1"]
+  },
+  {
+    "name": "Heshikiribarai",
+    "input": "d+2,2,NSS 1",
+    "hit_level": "M,m,h",
+    "damage": "12,17,20",
+    "startup": ",i19~20",
+    "block": "-9~-8",
+    "hit": "+8a (-1)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nInput can be delayed 10f\nMove can be delayed 9f",
+    "alternateInputs": ["d+2,2,NSS 1"]
+  },
+  {
+    "name": "Heshikirinagi",
+    "input": "d+2,2,NSS d+1",
+    "hit_level": "M,m,m",
+    "damage": "12,17,17",
+    "startup": ",i29~30",
+    "block": "-12~-11",
+    "hit": "+2c~+3c",
+    "counter": "+42a",
+    "note": "\n\nSpike\nInput can be delayed 10f\nMove can be delayed 9f",
+    "alternateInputs": ["d+2,2,NSS d+1"]
   },
   {
     "name": "NSS to Indian Stance",
@@ -3168,6 +3288,42 @@
     "alternateInputs": ["NSS db+1"]
   },
   {
+    "name": "Oma Gehosen",
+    "input": "b+2,NSS 1",
+    "hit_level": "m,m",
+    "damage": "12,17",
+    "startup": ",i27~28",
+    "block": "-17~-16",
+    "hit": "+28a (+18)",
+    "counter": "",
+    "note": "\njs28~49 fs50~52\nCombos from CH 1st with 2f delay\nTransition to r30 KIN with 1+2\nInput can be delayed 14f",
+    "alternateInputs": ["b+2,NSS 1"]
+  },
+  {
+    "name": "Oma Kugiuchi",
+    "input": "b+2,NSS 2",
+    "hit_level": "m,h",
+    "damage": "12,18",
+    "startup": ",i22~23",
+    "block": "-10~-9",
+    "hit": "+0~+1",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5g~+6g +36a (+26)\n\nCombo from 1st with 1f delay\nCombo from 1st CH with 7f delay\nInput can be delayed 14f",
+    "alternateInputs": ["b+2,NSS 2"]
+  },
+  {
+    "name": "",
+    "input": "NSS ub+1",
+    "hit_level": "m",
+    "damage": "19",
+    "startup": "i25~26",
+    "block": "-6~-5",
+    "hit": "+3c~+4c",
+    "counter": "",
+    "note": "\njs9~27 fs28~30Spike",
+    "alternateInputs": ["NSS ub+1"]
+  },
+  {
     "name": "Soul Blade Yoshimitsu",
     "input": "NSS ub+1+2",
     "hit_level": "M",
@@ -3192,6 +3348,54 @@
     "alternateInputs": ["NSS u,b+1+2"]
   },
   {
+    "name": "Spinning Finger Stab",
+    "input": "NSS ub+1+3",
+    "hit_level": "m!",
+    "damage": "50",
+    "startup": "i51~65",
+    "block": "",
+    "hit": "-23",
+    "counter": "",
+    "note": "\nPunishable on close hit with FUFT.3",
+    "alternateInputs": ["NSS ub+1+3"]
+  },
+  {
+    "name": "Face Slapper",
+    "input": "NSS ub+1+3,1+2",
+    "hit_level": "m!h",
+    "damage": "50,15",
+    "startup": ",i18~19",
+    "block": "-15~-4",
+    "hit": "-4~-3",
+    "counter": "+45a",
+    "note": "",
+    "alternateInputs": ["NSS ub+1+3,1+2"]
+  },
+  {
+    "name": "Index Poke Windmill",
+    "input": "NSS ub+1+3,n+1",
+    "hit_level": "m!,h!",
+    "damage": "50,40",
+    "startup": ",i20~105",
+    "block": "",
+    "hit": "-49a (-75)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCancel early to r21 with B",
+    "alternateInputs": ["NSS ub+1+3,n+1"]
+  },
+  {
+    "name": "",
+    "input": "NSS u+1",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i25~26",
+    "block": "-5~-4",
+    "hit": "+4c~+5c",
+    "counter": "",
+    "note": "\njs9~27 fs28~30Spike",
+    "alternateInputs": ["NSS u+1"]
+  },
+  {
     "name": "Ishiusu Tsubushi",
     "input": "NSS u+1+2",
     "hit_level": "L",
@@ -3202,6 +3406,18 @@
     "counter": "",
     "note": "\njs9~24 fs25~\n\nSpike\nCan't be low parried",
     "alternateInputs": ["NSS u+1+2"]
+  },
+  {
+    "name": "",
+    "input": "NSS uf+1",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i25~26",
+    "block": "-4~-3",
+    "hit": "+5c~+6c",
+    "counter": "+15a",
+    "note": "\njs9~27 fs28~30Spike",
+    "alternateInputs": ["NSS uf+1"]
   },
   {
     "name": "Safe Heron Jump",
@@ -3226,6 +3442,54 @@
     "counter": "+52a",
     "note": "\n\nSpike\n\nWeapon\nCan transition to d+1*,n\n12 chip damage on block\nRecovers health on hit",
     "alternateInputs": ["uf+3+4,1,4,NSS 1"]
+  },
+  {
+    "name": "Thunder Palm Strike",
+    "input": "NSS b,B+1+4",
+    "hit_level": "m!",
+    "damage": "40",
+    "startup": "i65~70",
+    "block": "",
+    "hit": "-3a (-12)",
+    "counter": "+29a (-18)",
+    "note": "Balcony Break",
+    "alternateInputs": ["NSS b,B+1+4"]
+  },
+  {
+    "name": "Thunder Palm Strike Feint to Soul Stealer",
+    "input": "NSS b,B+1+4,B",
+    "hit_level": ",m",
+    "damage": ",24",
+    "startup": ",i22~25",
+    "block": "-15~-12",
+    "hit": "+14 +64a",
+    "counter": "",
+    "note": "\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit",
+    "alternateInputs": ["NSS b,B+1+4,B"]
+  },
+  {
+    "name": "",
+    "input": "NSS f,n,d,df+1",
+    "hit_level": "m",
+    "damage": "19",
+    "startup": "i17~18",
+    "block": "-17~-16",
+    "hit": "+35a (+25a)",
+    "counter": "",
+    "note": "\njs17~39 fs40~42\nCan be buffered\nCan transition to r37 KIN with 1+2\nCan be performed in FC",
+    "alternateInputs": ["NSS f,n,d,df+1"]
+  },
+  {
+    "name": "Moonsault",
+    "input": "NSS qcf+1",
+    "hit_level": "M",
+    "damage": "30",
+    "startup": "i53~56",
+    "block": "-8c~-5c",
+    "hit": "+5a",
+    "counter": "",
+    "note": "\njs10~55 fs56~58\n\nSpike\nCan be buffered\nCan be performed in FC",
+    "alternateInputs": ["NSS qcf+1"]
   },
   {
     "name": "",
