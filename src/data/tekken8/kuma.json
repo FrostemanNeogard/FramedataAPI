@@ -12,6 +12,42 @@
     "alternateInputs": ["2+3"]
   },
   {
+    "name": "Salmon Fishing Cast",
+    "input": "in heat 2+3",
+    "hit_level": "m",
+    "damage": "51",
+    "startup": "i13~15",
+    "block": "",
+    "hit": "+33 (+23)",
+    "counter": "",
+    "note": "\n\nHeat Smash\n",
+    "alternateInputs": ["in heat 2+3"]
+  },
+  {
+    "name": "Wind Bear Fist",
+    "input": "in heat df+2+3",
+    "hit_level": "sm",
+    "damage": "20",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "+39 (+29)",
+    "counter": "",
+    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2 to power up\n",
+    "alternateInputs": ["in heat df+2+3"]
+  },
+  {
+    "name": "Fresh Wind Bear Fist",
+    "input": "in heat df+2+3*",
+    "hit_level": "sm",
+    "damage": "26",
+    "startup": "i25~26",
+    "block": "",
+    "hit": "+45 (+35)",
+    "counter": "",
+    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2* to power up\nCannot absorb with power crush\n",
+    "alternateInputs": ["in heat df+2+3*"]
+  },
+  {
     "name": "Demon Bear Breath",
     "input": "1+2",
     "hit_level": "m",
@@ -72,42 +108,6 @@
     "alternateInputs": ["HBS d+1+2"]
   },
   {
-    "name": "Wind Bear Fist",
-    "input": "in heat df+2+3",
-    "hit_level": "sm",
-    "damage": "20",
-    "startup": "i15~16",
-    "block": "",
-    "hit": "+39 (+29)",
-    "counter": "",
-    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2 to power up\n",
-    "alternateInputs": ["in heat df+2+3"]
-  },
-  {
-    "name": "Fresh Wind Bear Fist",
-    "input": "in heat df+2+3*",
-    "hit_level": "sm",
-    "damage": "26",
-    "startup": "i25~26",
-    "block": "",
-    "hit": "+45 (+35)",
-    "counter": "",
-    "note": "\nPartially uses remaining heat time\nH.f,n,d,df+2* to power up\nCannot absorb with power crush\n",
-    "alternateInputs": ["in heat df+2+3*"]
-  },
-  {
-    "name": "Salmon Fishing Cast",
-    "input": "in heat 2+3",
-    "hit_level": "m",
-    "damage": "51",
-    "startup": "i13~15",
-    "block": "",
-    "hit": "+33 (+23)",
-    "counter": "",
-    "note": "\n\nHeat Smash\n",
-    "alternateInputs": ["in heat 2+3"]
-  },
-  {
     "name": "",
     "input": "1",
     "hit_level": "h",
@@ -140,7 +140,7 @@
     "block": "",
     "hit": "+69 (+23)",
     "counter": "",
-    "note": "\n\nTornado\n",
+    "note": "\n\nTornado\nCombo from 2nd hit\nCombo from 1st CH\n",
     "alternateInputs": ["1,1,1"]
   },
   {
@@ -152,7 +152,7 @@
     "block": "",
     "hit": "+11 (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break\nchip damage on block\n",
+    "note": "\n\nBalcony Break\nchip damage on block\nCombo from 1st CH\n",
     "alternateInputs": ["1,2"]
   },
   {
@@ -176,7 +176,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\nCombo from 1st hit\n",
     "alternateInputs": ["2,1"]
   },
   {
@@ -200,7 +200,7 @@
     "block": "",
     "hit": "-2",
     "counter": "",
-    "note": "",
+    "note": "\nCombo from 1st CH\n",
     "alternateInputs": ["2,1,3"]
   },
   {
@@ -248,7 +248,7 @@
     "block": "",
     "hit": "+36 (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\nNatural on 1st hit\n",
     "alternateInputs": ["f+2,1"]
   },
   {
@@ -272,7 +272,7 @@
     "block": "",
     "hit": "+65 (+49)",
     "counter": "",
-    "note": "\n\nTornado\n",
+    "note": "\n\nTornado\nCombo from 1st hit\n",
     "alternateInputs": ["f+1+2,1+2"]
   },
   {
@@ -317,10 +317,10 @@
     "hit_level": "m,m",
     "damage": "6,9",
     "startup": ",i22~23",
-    "block": "",
+    "block": "-11",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\nCombo from 1st CH\n",
     "alternateInputs": ["df+1,2"]
   },
   {
@@ -329,10 +329,10 @@
     "hit_level": "m,m,m",
     "damage": "6,9,20",
     "startup": ",i25~26",
-    "block": "",
+    "block": "-14c",
     "hit": "+17",
     "counter": "",
-    "note": "",
+    "note": "\nCombo from 2nd hit\nCombo from 1st CH\nCan be delayed 10F\nCombo can be delayed 10F from hit\n",
     "alternateInputs": ["df+1,2,1+2"]
   },
   {
@@ -356,7 +356,7 @@
     "block": "",
     "hit": "+35 (+25)",
     "counter": "",
-    "note": "",
+    "note": "\nCombo from 1st hit\n",
     "alternateInputs": ["df+2,1"]
   },
   {
@@ -380,7 +380,7 @@
     "block": "",
     "hit": "+22",
     "counter": "",
-    "note": "\nchip damage on block\n",
+    "note": "\nCombo from 1st hit\nchip damage on block\n",
     "alternateInputs": ["df+3,2"]
   },
   {
@@ -428,7 +428,7 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": "\nCan hold\nTransition to HBS with input D or 3+4\n",
+    "note": "\nCombo from 1st hit\nCan hold\nTransition to HBS with input D or 3+4\n",
     "alternateInputs": ["db+1,2"]
   },
   {

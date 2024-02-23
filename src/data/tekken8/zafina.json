@@ -25,6 +25,66 @@
   },
   {
     "name": "",
+    "input": "f+1+2",
+    "hit_level": "m,m",
+    "damage": "16,22",
+    "startup": "i19~20 i13~14",
+    "block": "-9",
+    "hit": "+5d(-5)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\n\nBalcony Break\nAzazel's Power\nZafina receives recoverable health damage\nSecond hit only comes out on hit or block\n8 chip damage on block\n",
+    "alternateInputs": ["f+1+2"]
+  },
+  {
+    "name": "",
+    "input": "df+4,1",
+    "hit_level": "m,m",
+    "damage": "14,22",
+    "startup": "i31",
+    "block": "-12",
+    "hit": "+3d",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +17d\n\n\nBalcony Break\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nDeals 8 chip damage on block\nCan be cancelled before hit by holding D (recovers crouching -18/-2)\n",
+    "alternateInputs": ["df+4,1"]
+  },
+  {
+    "name": "",
+    "input": "SCin rage 2,1",
+    "hit_level": "m,m",
+    "damage": "1725",
+    "startup": "i21",
+    "block": "-6",
+    "hit": "+30d(+20)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n",
+    "alternateInputs": ["SCin rage 2,1"]
+  },
+  {
+    "name": "",
+    "input": "TRT df+1",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i19~20",
+    "block": "-7",
+    "hit": "+30a(+15)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +35d\n\nAzazel's Power\nZafina receives recoverable health damage\n12 chip damage on block\nGains Power Crush frames during heat\n",
+    "alternateInputs": ["TRT df+1"]
+  },
+  {
+    "name": "Vicious Claw",
+    "input": "MNT df+1",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i24~25",
+    "block": "+6",
+    "hit": "+7d",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50\n\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n9 chip damage on block\n",
+    "alternateInputs": ["MNT df+1"]
+  },
+  {
+    "name": "",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -121,7 +181,7 @@
   },
   {
     "name": "",
-    "input": "2,1",
+    "input": "2,2",
     "hit_level": "h,m",
     "damage": "8,12",
     "startup": "i19-20",
@@ -129,11 +189,11 @@
     "hit": "+2",
     "counter": "+7",
     "note": "",
-    "alternateInputs": ["2,1"]
+    "alternateInputs": ["2,2"]
   },
   {
     "name": "",
-    "input": "2,1,1+2",
+    "input": "2,2,1+2",
     "hit_level": "h,m,m,m,m",
     "damage": "8,12,7,11,14",
     "startup": "i25~26 i10~11 i4~5",
@@ -141,7 +201,7 @@
     "hit": "+19d(-16)",
     "counter": "",
     "note": "",
-    "alternateInputs": ["2,1,1+2"]
+    "alternateInputs": ["2,2,1+2"]
   },
   {
     "name": "",
@@ -1097,7 +1157,7 @@
     "hit_level": "m,m",
     "damage": "10,20",
     "startup": "i18 i17~19",
-    "block": "-9",
+    "block": "-6",
     "hit": "+33a(+18)",
     "counter": "",
     "note": "\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n8 chip damage on block\n",
@@ -1400,7 +1460,7 @@
     "block": "-19",
     "hit": "-3",
     "counter": "+7",
-    "note": "\n",
+    "note": "\nHold D to transition to TRT\n",
     "alternateInputs": ["MNT 4"]
   },
   {

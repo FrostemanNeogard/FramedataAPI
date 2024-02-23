@@ -24,6 +24,66 @@
     "alternateInputs": ["in heat 2+3"]
   },
   {
+    "name": "Circle of Judgement",
+    "input": "2,1,2",
+    "hit_level": "h,m,m",
+    "damage": "10,13,25",
+    "startup": "i12",
+    "block": "-13",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nCombo from 2nd CH\nGrants STB on hit\n",
+    "alternateInputs": ["2,1,2"]
+  },
+  {
+    "name": "Requiescat",
+    "input": "3,2",
+    "hit_level": "m,h",
+    "damage": "14,22",
+    "startup": "i12",
+    "block": "-6",
+    "hit": "+15",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nGrants STB on hit\n",
+    "alternateInputs": ["3,2"]
+  },
+  {
+    "name": "Shining Ray",
+    "input": "b+4,2",
+    "hit_level": "m,m",
+    "damage": "10,20",
+    "startup": "i12",
+    "block": "-11",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "\n\nHeat Engager\n\nGrants STB on hit\nCombo from 1st hit\n",
+    "alternateInputs": ["b+4,2"]
+  },
+  {
+    "name": "Meteor Storm",
+    "input": "u+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i21",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\njs\n\nHeat Engager\n\nGrants STB on hit\nAlternate input: ub+2/uf+2\n",
+    "alternateInputs": ["u+2"]
+  },
+  {
+    "name": "Ira",
+    "input": "f,f,F+2",
+    "hit_level": "h",
+    "damage": "40",
+    "startup": "i13~16",
+    "block": "+7",
+    "hit": "KND",
+    "counter": "KND",
+    "note": "\njs3~\n\nHeat Engager\n\nGrants STB on hit\n\nWall Crush +21g at the wall\n\nChip damage when guarded\n",
+    "alternateInputs": ["f,f,F+2"]
+  },
+  {
     "name": "Jab",
     "input": "1",
     "hit_level": "h",
@@ -72,7 +132,7 @@
     "alternateInputs": ["2"]
   },
   {
-    "name": "Circle of Judgement (2)",
+    "name": "",
     "input": "2,1",
     "hit_level": "h,m",
     "damage": "10,13",
@@ -96,19 +156,7 @@
     "alternateInputs": ["2,1,2"]
   },
   {
-    "name": "Circle of Judgement > Heat Dash",
-    "input": "2,1,2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "-13",
-    "hit": "",
-    "counter": "",
-    "note": "\n",
-    "alternateInputs": ["2,1,2"]
-  },
-  {
-    "name": "Requiescat (1)",
+    "name": "",
     "input": "3",
     "hit_level": "m",
     "damage": "14",
@@ -130,18 +178,6 @@
     "counter": "",
     "note": "\n\nHeat Engager\n\nGrants STB on hit\n",
     "alternateInputs": ["3,2"]
-  },
-  {
-    "name": "Requiescat > Heat Dash",
-    "input": "in heat 3,2,F",
-    "hit_level": "m,h",
-    "damage": "14,22",
-    "startup": "i14",
-    "block": "+5",
-    "hit": "+34",
-    "counter": "",
-    "note": "",
-    "alternateInputs": ["in heat 3,2,F"]
   },
   {
     "name": "High Kick",
@@ -168,7 +204,7 @@
     "alternateInputs": ["4,3"]
   },
   {
-    "name": "Crimson Delta Edge (1)",
+    "name": "",
     "input": "1+2",
     "hit_level": "m",
     "damage": "20",
@@ -180,7 +216,7 @@
     "alternateInputs": ["1+2"]
   },
   {
-    "name": "Crimson Delta Edge (2)",
+    "name": "",
     "input": "1+2,1+2",
     "hit_level": "m,th",
     "damage": "20,10",
@@ -216,7 +252,7 @@
     "alternateInputs": ["3+4"]
   },
   {
-    "name": "Trinity of Pain (1)",
+    "name": "",
     "input": "f+2",
     "hit_level": "h",
     "damage": "9",
@@ -228,7 +264,7 @@
     "alternateInputs": ["f+2"]
   },
   {
-    "name": "Trinity of Pain (2)",
+    "name": "",
     "input": "f+2,1",
     "hit_level": "h,m",
     "damage": "9,12",
@@ -360,7 +396,7 @@
     "alternateInputs": ["df+2"]
   },
   {
-    "name": "Dispel Magic (1)",
+    "name": "",
     "input": "df+3",
     "hit_level": "m",
     "damage": "12",
@@ -540,7 +576,7 @@
     "alternateInputs": ["db+3"]
   },
   {
-    "name": "Lagrange Needle (1)",
+    "name": "",
     "input": "db+4",
     "hit_level": "l",
     "damage": "7",
@@ -619,12 +655,12 @@
     "startup": "i13",
     "block": "-12",
     "hit": "+7c",
-    "counter": "LNC",
+    "counter": "KND",
     "note": "\nCombo from 1st CH\nCan be delayed\n",
     "alternateInputs": ["b+3,3"]
   },
   {
-    "name": "Shining Ray (1)",
+    "name": "",
     "input": "b+4",
     "hit_level": "m",
     "damage": "10",
@@ -658,18 +694,6 @@
     "counter": "KND",
     "note": "\n\nHeat Engager\n\nGrants STB on hit\nCombo from 1st hit\n",
     "alternateInputs": ["b+4,2"]
-  },
-  {
-    "name": "Shining Ray > Heat Dash",
-    "input": "in heat b+4,2,F",
-    "hit_level": "m,m",
-    "damage": "10,20",
-    "startup": "i17",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "",
-    "alternateInputs": ["in heat b+4,2,F"]
   },
   {
     "name": "Axial Ray",
@@ -792,7 +816,7 @@
     "alternateInputs": ["uf+3+4"]
   },
   {
-    "name": "Dual Guns (1)",
+    "name": "",
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "14",
@@ -852,19 +876,7 @@
     "alternateInputs": ["f,f,F+2"]
   },
   {
-    "name": "Ira > Heat Dash",
-    "input": "in heat f,f,F+2,F",
-    "hit_level": "h",
-    "damage": "40",
-    "startup": "i13",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "note": "\njs\nGrants STB on hit\n",
-    "alternateInputs": ["in heat f,f,F+2,F"]
-  },
-  {
-    "name": "Dual Guns (1)",
+    "name": "",
     "input": "FC df+2",
     "hit_level": "m",
     "damage": "14",
@@ -888,7 +900,7 @@
     "alternateInputs": ["FC df+2,2"]
   },
   {
-    "name": "Noble Step (1)",
+    "name": "",
     "input": "ws1",
     "hit_level": "m",
     "damage": "12",

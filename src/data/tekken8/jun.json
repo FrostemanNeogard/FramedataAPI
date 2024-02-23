@@ -24,6 +24,54 @@
     "alternateInputs": ["in heat 2+3"]
   },
   {
+    "name": "Shunkei",
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i13",
+    "block": "-12",
+    "hit": "+28a",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n",
+    "alternateInputs": ["1+2"]
+  },
+  {
+    "name": "Zuiun Renkyaku",
+    "input": "IZU 3",
+    "hit_level": "m,h",
+    "damage": "10,16",
+    "startup": "i16~15 i14~15",
+    "block": "-6~-5",
+    "hit": "+12a (+3)",
+    "counter": "",
+    "note": "\njs20~53 fs54~56\n\nHeat Engager\n\n\nBalcony Break\nJail from 1st attack",
+    "alternateInputs": ["IZU 3"]
+  },
+  {
+    "name": "Ame-no-Nuboko",
+    "input": "MIA 2",
+    "hit_level": "sm",
+    "damage": "30",
+    "startup": "i16",
+    "block": "-20",
+    "hit": "+26a (+0)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nChip damage on block\nDeals recoverable self-damage when not in Heat\nUnparryable",
+    "alternateInputs": ["MIA 2"]
+  },
+  {
+    "name": "Kagura",
+    "input": "SS 4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18~20",
+    "block": "+6~+8",
+    "hit": "+8c~+10c",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nSpike",
+    "alternateInputs": ["SS 4"]
+  },
+  {
     "name": "Amatsu Izanami",
     "input": "df+1+2",
     "hit_level": "m",

@@ -12,6 +12,42 @@
     "alternateInputs": ["2+3"]
   },
   {
+    "name": "Quick-fix Protocol",
+    "input": "in heat 2+3",
+    "hit_level": "m",
+    "damage": "50 (28)",
+    "startup": "i20~21",
+    "block": "+8",
+    "hit": "KND",
+    "counter": "",
+    "note": "\nAlternate input: H.DES.2+3\n\nHeat Smash\nTransition to BOT with H.2+3,3_4 or H.DES.2+3,f+3_f+4\n",
+    "alternateInputs": ["in heat 2+3"]
+  },
+  {
+    "name": "Emergency Dual Boot",
+    "input": "in heat 1+4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i20~21",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nTransition to DBT\npartially consumes Heat\n",
+    "alternateInputs": ["in heat 1+4"]
+  },
+  {
+    "name": "Emergency Destructive Form",
+    "input": "in heat d+1+2",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i20~21",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\npc\nTransition to DES\npartially consumes Heat\n",
+    "alternateInputs": ["in heat d+1+2"]
+  },
+  {
     "name": "Quick Trim",
     "input": "3,2",
     "hit_level": "m,h",

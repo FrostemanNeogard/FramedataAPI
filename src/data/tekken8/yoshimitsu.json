@@ -2912,7 +2912,7 @@
     "block": "",
     "hit": "+0c~+2c",
     "counter": "",
-    "note": "\njs30~52 fs53~55\n\nSpike\n\nWeapon\nSame animation as the ending of qcf+1\nAlternate notation: 1SS.IND.1 or IND.1SS.1",
+    "note": "\njs30~52 fs53~55\n\nSpike\n\nWeapon\nSame animation as the ending of qcf+1\nAlternate notation: 1SS.IND.1",
     "alternateInputs": ["IND 1"]
   },
   {
@@ -3634,6 +3634,18 @@
     "counter": "",
     "note": "\n\nWeapon\nCombos from any hit\n21 chip damage on block\nRecovers health on hit",
     "alternateInputs": ["NSS KIN f+1*"]
+  },
+  {
+    "name": "",
+    "input": "NSS IND 1",
+    "hit_level": "M",
+    "damage": "15",
+    "startup": "i48~51",
+    "block": "-8c~-5c",
+    "hit": "+5a",
+    "counter": "",
+    "note": "\njs30~52 fs53~55\n\nSpike\nSame animation as the ending of NSS.qcf+1",
+    "alternateInputs": ["NSS IND 1"]
   },
   {
     "name": "NSS Shisetsu Genman",

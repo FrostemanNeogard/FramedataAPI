@@ -24,6 +24,66 @@
     "alternateInputs": ["in heat 2+3"]
   },
   {
+    "name": "One Two Neck Breaker",
+    "input": "1,2,4",
+    "hit_level": "h,h,h",
+    "damage": "5,8,24",
+    "startup": ",i20",
+    "block": "-5",
+    "hit": "+20a (+11)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n",
+    "alternateInputs": ["1,2,4"]
+  },
+  {
+    "name": "Crash Impact",
+    "input": "db+1+2",
+    "hit_level": "m,h",
+    "damage": "8,16",
+    "startup": "i15",
+    "block": "-9",
+    "hit": "+4",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nHeat Dash +43a (+35)",
+    "alternateInputs": ["db+1+2"]
+  },
+  {
+    "name": "Mach Breaker",
+    "input": "f,F+2",
+    "hit_level": "h",
+    "damage": "29",
+    "startup": "i13",
+    "block": "-9",
+    "hit": "+41d (-17)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nChip damage on block",
+    "alternateInputs": ["f,F+2"]
+  },
+  {
+    "name": "Requiem",
+    "input": "SLS 1+2",
+    "hit_level": "m",
+    "damage": "28",
+    "startup": "i15~16",
+    "block": "-9",
+    "hit": "+23a (+13)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nChip damage 8 (28%) on block",
+    "alternateInputs": ["SLS 1+2"]
+  },
+  {
+    "name": "",
+    "input": "ss2,1",
+    "hit_level": "m,h",
+    "damage": "15,20",
+    "startup": "i21~22",
+    "block": "-5",
+    "hit": "+43d (-15)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 1st hit with delay\nMove can be delayed",
+    "alternateInputs": ["ss2,1"]
+  },
+  {
     "name": "Jab",
     "input": "1",
     "hit_level": "h",
@@ -428,7 +488,7 @@
     "block": "-13",
     "hit": "+3a",
     "counter": "",
-    "note": "\nCombo from 1st hit\nGain SE on hit with 1+2",
+    "note": "\nCombo from 1st hit\nGain SNE on hit with 1+2",
     "alternateInputs": ["f+2,1,4"]
   },
   {
@@ -644,7 +704,7 @@
     "block": "-7",
     "hit": "+35a (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break\nGain SE on hit with 1+2",
+    "note": "\n\nBalcony Break\nGain SNE on hit with 1+2",
     "alternateInputs": ["d+3,2"]
   },
   {
@@ -932,7 +992,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\nGain SE on hit\nChip damage on block",
+    "note": "\n\nBalcony Break\nGain SNE on hit\nChip damage on block",
     "alternateInputs": ["b+1+3,P 2"]
   },
   {
@@ -1172,7 +1232,7 @@
     "block": "-7",
     "hit": "+8a",
     "counter": "",
-    "note": "\njs\n\nTornado\n\nKnee\nGain SE on hit",
+    "note": "\njs\n\nTornado\n\nKnee\nGain SNE on hit",
     "alternateInputs": ["uf+3+4"]
   },
   {
@@ -1208,7 +1268,7 @@
     "block": "-13",
     "hit": "+28a (-8)",
     "counter": "+39a (-8)",
-    "note": "\n\nBalcony Break\nGain SE on hit with 1+2\nChip damage 7 (28%) on block",
+    "note": "\n\nBalcony Break\nGain SNE on hit with 1+2\nChip damage 7 (28%) on block",
     "alternateInputs": ["f,F+3"]
   },
   {
@@ -1220,7 +1280,7 @@
     "block": "+8",
     "hit": "+71a",
     "counter": "",
-    "note": "\n\nBalcony Break\nGain SE on hit with 1+2\nChip damage 9 (27%) on block\n\nWall Crush on block\n\n ",
+    "note": "\n\nBalcony Break\nGain SNE on hit with 1+2\nChip damage 9 (27%) on block\n\nWall Crush on block\n\n ",
     "alternateInputs": ["f,F+3*"]
   },
   {
@@ -1568,7 +1628,7 @@
     "block": "",
     "hit": "+5a",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nGain SE on hit -12a",
+    "note": "\n\nTornado\nCombo from 1st hit\nGain SNE on hit -12a",
     "alternateInputs": ["SLS 2,4", "qcf2,4"]
   },
   {

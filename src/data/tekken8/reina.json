@@ -5,7 +5,7 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i16",
-    "block": "",
+    "block": "+1",
     "hit": "",
     "counter": "",
     "note": "\npc\n\nHeat Burst\nAlternate input: R1\n",
@@ -17,7 +17,7 @@
     "hit_level": "m",
     "damage": "50",
     "startup": "i21",
-    "block": "",
+    "block": "+8",
     "hit": "Th",
     "counter": "Th",
     "note": "\n\nHeat Smash\nAlternate input: H.R1\n",
@@ -29,11 +29,71 @@
     "hit_level": "l",
     "damage": "40",
     "startup": "i18~19",
-    "block": "",
+    "block": "-17",
     "hit": "Th",
     "counter": "Th",
     "note": "\n\nHeat Smash\nAlternate input: H.WRA.R1\n",
     "alternateInputs": ["in heat WRA 2+3"]
+  },
+  {
+    "name": "Muso Basara",
+    "input": "df+1,2",
+    "hit_level": "m,m",
+    "damage": "8,20",
+    "startup": ",i22~23",
+    "block": "-14",
+    "hit": "KND",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n",
+    "alternateInputs": ["df+1,2"]
+  },
+  {
+    "name": "Trailokya Splits Kick",
+    "input": "f,F+3",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i20~22",
+    "block": "-3",
+    "hit": "KND",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
+    "alternateInputs": ["f,F+3"]
+  },
+  {
+    "name": "Sen Kaijo-geri",
+    "input": "SEN 3",
+    "hit_level": "h",
+    "damage": "22",
+    "startup": "i12~13",
+    "block": "+1",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n\nHoming\n\nHeat Engager\n\nDeals chip damage on block\n",
+    "alternateInputs": ["SEN 3"]
+  },
+  {
+    "name": "Unpu Tobi-Manji",
+    "input": "UNS 4",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i18~19",
+    "block": "-8",
+    "hit": "+43 (-15)",
+    "counter": "",
+    "note": "\nHigh Crush\n\nBalcony Break\n\nHeat Engager\n\nDeals chip damage on block\nCan be cancelled into crouch with D\n",
+    "alternateInputs": ["UNS 4"]
+  },
+  {
+    "name": "Iron Hand",
+    "input": "WRA 2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i15~16",
+    "block": "-9",
+    "hit": "+11 (+2)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nDeals chip damage on block\n",
+    "alternateInputs": ["WRA 2"]
   },
   {
     "name": "Jab",
@@ -48,7 +108,7 @@
     "alternateInputs": ["1"]
   },
   {
-    "name": "Flash Punch Combo (2)",
+    "name": "",
     "input": "1,1",
     "hit_level": "h,h",
     "damage": "5,6",
@@ -96,7 +156,7 @@
     "alternateInputs": ["1,2,2"]
   },
   {
-    "name": "Sting the Works (1)",
+    "name": "",
     "input": "1,2,3",
     "hit_level": "h,h,m",
     "damage": "5,8,10",
@@ -132,7 +192,7 @@
     "alternateInputs": ["2"]
   },
   {
-    "name": "Ganzan Basara (1)",
+    "name": "",
     "input": "2,2",
     "hit_level": "h,h",
     "damage": "12,6",
@@ -156,7 +216,7 @@
     "alternateInputs": ["2,2,1"]
   },
   {
-    "name": "Bishamon Massacre (1)",
+    "name": "",
     "input": "2,2,2",
     "hit_level": "h,h,m",
     "damage": "12,6,21",
@@ -264,7 +324,7 @@
     "alternateInputs": ["1+2"]
   },
   {
-    "name": "Aerial Manji-geri (1)",
+    "name": "",
     "input": "3+4",
     "hit_level": "mm",
     "damage": "15",
@@ -300,7 +360,7 @@
     "alternateInputs": ["1+4"]
   },
   {
-    "name": "Sousoku Rengeki (1)",
+    "name": "",
     "input": "f+2",
     "hit_level": "h",
     "damage": "8",
@@ -377,14 +437,14 @@
     "hit_level": "m",
     "damage": "30",
     "startup": "i67",
-    "block": "",
-    "hit": "+50",
+    "block": "+10",
+    "hit": "+52",
     "counter": "",
     "note": "\nHigh Crush\ncan be cancelled into crouch with D\n",
     "alternateInputs": ["f+3+4*"]
   },
   {
-    "name": "Muso Tensho (1)",
+    "name": "",
     "input": "df+1",
     "hit_level": "m",
     "damage": "8",
@@ -420,18 +480,6 @@
     "alternateInputs": ["df+1,2"]
   },
   {
-    "name": "Muso Basara > Heat Dash",
-    "input": "in heat df+1,2,F",
-    "hit_level": "m,m",
-    "damage": "8,20",
-    "startup": "i13",
-    "block": "+5",
-    "hit": "+17",
-    "counter": "",
-    "note": "\n",
-    "alternateInputs": ["in heat df+1,2,F"]
-  },
-  {
     "name": "Queen Bee Stinger",
     "input": "df+2",
     "hit_level": "m",
@@ -440,7 +488,7 @@
     "block": "-12",
     "hit": "+30 (+20)",
     "counter": "",
-    "note": "\n",
+    "note": "",
     "alternateInputs": ["df+2"]
   },
   {
@@ -456,7 +504,7 @@
     "alternateInputs": ["df+3"]
   },
   {
-    "name": "Gekirosatsu (1)",
+    "name": "",
     "input": "df+4",
     "hit_level": "m",
     "damage": "14",
@@ -468,7 +516,7 @@
     "alternateInputs": ["df+4"]
   },
   {
-    "name": "Gekirosatsu (2)",
+    "name": "",
     "input": "df+4,2",
     "hit_level": "m,m",
     "damage": "14,10",
@@ -492,7 +540,7 @@
     "alternateInputs": ["df+4,2,3"]
   },
   {
-    "name": "Kasho Maki-manji (1)",
+    "name": "",
     "input": "df+3+4",
     "hit_level": "mh",
     "damage": "5,10",
@@ -528,7 +576,7 @@
     "alternateInputs": ["df+3+4,4"]
   },
   {
-    "name": "Kyogeki Goutsuiken (1)",
+    "name": "",
     "input": "df+3+4,1",
     "hit_level": "mh,m",
     "damage": "5,10,14",
@@ -624,7 +672,7 @@
     "alternateInputs": ["db+2"]
   },
   {
-    "name": "Un Oshi-kuzushi (1)",
+    "name": "",
     "input": "db+4",
     "hit_level": "l",
     "damage": "7",
@@ -648,7 +696,7 @@
     "alternateInputs": ["db+4,1+2"]
   },
   {
-    "name": "Hen-in 4 Hit Combo (1)",
+    "name": "",
     "input": "b+1",
     "hit_level": "h",
     "damage": "14",
@@ -660,7 +708,7 @@
     "alternateInputs": ["b+1"]
   },
   {
-    "name": "Hen-in 4 Hit Combo (2)",
+    "name": "",
     "input": "b+1,1",
     "hit_level": "h,m",
     "damage": "14,15",
@@ -672,7 +720,7 @@
     "alternateInputs": ["b+1,1"]
   },
   {
-    "name": "Hen-in 4 Hit Combo (3)",
+    "name": "",
     "input": "b+1,1,3",
     "hit_level": "h,m,m",
     "damage": "14,15,13",
@@ -804,7 +852,7 @@
     "alternateInputs": ["uf+1"]
   },
   {
-    "name": "Tobisenzuki (1)",
+    "name": "",
     "input": "uf+3",
     "hit_level": "h",
     "damage": "10",
@@ -840,7 +888,7 @@
     "alternateInputs": ["uf+4"]
   },
   {
-    "name": "Un Hiensatsu (1)",
+    "name": "",
     "input": "uf+3+4",
     "hit_level": "mm",
     "damage": "10,10",
@@ -910,18 +958,6 @@
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
     "alternateInputs": ["f,F+3"]
-  },
-  {
-    "name": "Trailokya Splits Kick > Heat Dash",
-    "input": "in heat f,F+3,F",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i20~22",
-    "block": "+5",
-    "hit": "+17",
-    "counter": "+67 (+50)",
-    "note": "\n",
-    "alternateInputs": ["in heat f,F+3,F"]
   },
   {
     "name": "Un Hien-geri",
@@ -1008,7 +1044,7 @@
     "alternateInputs": ["ws2"]
   },
   {
-    "name": "Twin Stingers (1)",
+    "name": "",
     "input": "ws3",
     "hit_level": "m",
     "damage": "14",
@@ -1032,7 +1068,7 @@
     "alternateInputs": ["ws3,4"]
   },
   {
-    "name": "Seven Seas Splits Kick (1)",
+    "name": "",
     "input": "ws4",
     "hit_level": "m",
     "damage": "10",
@@ -1164,7 +1200,7 @@
     "alternateInputs": ["f,n,d,df:3"]
   },
   {
-    "name": "Ruthless Demon (1)",
+    "name": "",
     "input": "WGS DF+4",
     "hit_level": "l",
     "damage": "6",
@@ -1185,7 +1221,7 @@
     "hit": "-1",
     "counter": "",
     "note": "\nTransition to WRA (ob) -15, +6 (oh) WRA with D\n",
-    "alternateInputs": ["WGS DF+4,2", "f,n,d,df4,2"]
+    "alternateInputs": ["WGS DF+4,2", "f,n,d,DF4,2"]
   },
   {
     "name": "Spinning Demon",
@@ -1197,7 +1233,7 @@
     "hit": "+2",
     "counter": "Launch",
     "note": "\nHigh Crush\nRecovers Crouching\n",
-    "alternateInputs": ["WGS DF+4,4", "f,n,d,df4,4"]
+    "alternateInputs": ["WGS DF+4,4", "f,n,d,DF4,4"]
   },
   {
     "name": "Sentai",
@@ -1224,7 +1260,7 @@
     "alternateInputs": ["f+3"]
   },
   {
-    "name": "Furin Kazan (1)",
+    "name": "",
     "input": "SEN 1",
     "hit_level": "m",
     "damage": "12",
@@ -1272,18 +1308,6 @@
     "alternateInputs": ["SEN 3"]
   },
   {
-    "name": "Sen Kaijo-geri > Heat Dash",
-    "input": "in heat SEN 3,F",
-    "hit_level": "h",
-    "damage": "22",
-    "startup": "i12~13",
-    "block": "+5",
-    "hit": "+17",
-    "counter": "Launch",
-    "note": "\n\nHoming\nDeals chip damage on block\n",
-    "alternateInputs": ["in heat SEN 3,F"]
-  },
-  {
     "name": "Kandachi-geri",
     "input": "SEN 4",
     "hit_level": "m",
@@ -1304,7 +1328,7 @@
     "block": "-6 SEN",
     "hit": "+32 (+18)",
     "counter": "+32 (+18)",
-    "note": "\n\nTornado\n\nBalcony Break\nTransition to WRA on hit\n",
+    "note": "\n\nTornado\n\nBalcony Break\nTransitions to WRA after recovery\n",
     "alternateInputs": ["SEN 1+2"]
   },
   {
@@ -1416,18 +1440,6 @@
     "alternateInputs": ["UNS 4"]
   },
   {
-    "name": "Unpu Tobi-Manji > Heat Dash",
-    "input": "in heat UNS 4,F",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i18~19",
-    "block": "+5",
-    "hit": "+17",
-    "counter": "+62 (+42)",
-    "note": "\nHigh Crush\n",
-    "alternateInputs": ["in heat UNS 4,F"]
-  },
-  {
     "name": "Heaven's Wrath",
     "input": "d+1+2",
     "hit_level": "sp",
@@ -1440,7 +1452,7 @@
     "alternateInputs": ["d+1+2"]
   },
   {
-    "name": "Funkei Goma (1)",
+    "name": "",
     "input": "WRA 1",
     "hit_level": "h",
     "damage": "12",
@@ -1454,9 +1466,9 @@
   {
     "name": "Funkei Goma",
     "input": "WRA 1,4",
-    "hit_level": "hm",
-    "damage": "1222",
-    "startup": "i25~26",
+    "hit_level": "h,m",
+    "damage": "12,22",
+    "startup": ",i25~26",
     "block": "-9",
     "hit": "+9g",
     "counter": "",
@@ -1476,19 +1488,7 @@
     "alternateInputs": ["WRA 2"]
   },
   {
-    "name": "Iron Hand > Heat Dash",
-    "input": "in heat WRA 2,F",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i15~16",
-    "block": "+5",
-    "hit": "+17",
-    "counter": "Launch",
-    "note": "\n",
-    "alternateInputs": ["in heat WRA 2,F"]
-  },
-  {
-    "name": "Hell Axle (1)",
+    "name": "",
     "input": "WRA 3",
     "hit_level": "m",
     "damage": "17",
@@ -1512,7 +1512,7 @@
     "alternateInputs": ["WRA 3,4"]
   },
   {
-    "name": "Kongo Gekimetsujin (1)",
+    "name": "",
     "input": "WRA 4",
     "hit_level": "m,m",
     "damage": "6,8",
@@ -1524,7 +1524,7 @@
     "alternateInputs": ["WRA 4"]
   },
   {
-    "name": "Kongo Gekimetsujin (2)",
+    "name": "",
     "input": "WRA 4,2",
     "hit_level": "m,m,m",
     "damage": "6,8,8",
@@ -1536,7 +1536,7 @@
     "alternateInputs": ["WRA 4,2"]
   },
   {
-    "name": "Kongo Gekimetsujin (3)",
+    "name": "",
     "input": "WRA 4,2,2",
     "hit_level": "m,m,m,h",
     "damage": "6,8,8,4",
@@ -1584,7 +1584,7 @@
     "alternateInputs": ["WRA 3+4"]
   },
   {
-    "name": "Harai Kuzushi-manji (1)",
+    "name": "",
     "input": "WRA d+4",
     "hit_level": "l",
     "damage": "9",
@@ -1651,7 +1651,7 @@
     "startup": "i18~19",
     "block": "-13",
     "hit": "+0",
-    "counter": "+13",
+    "counter": "+13g",
     "note": "",
     "alternateInputs": ["SS 4"]
   },
@@ -1676,7 +1676,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "Input D to get Heihachi's secret taunt",
     "alternateInputs": ["2+3+4"]
   },
   {
@@ -1688,11 +1688,11 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Input D to get Heihachi's secret taunt",
+    "note": "",
     "alternateInputs": ["1+2+3+4"]
   },
   {
-    "name": "Totetsu Jyurin (1)",
+    "name": "",
     "input": "OTG d+4",
     "hit_level": "l",
     "damage": "11",
@@ -1801,7 +1801,7 @@
   },
   {
     "name": "Haburi-kaze",
-    "input": "SEN 1+3",
+    "input": "SEN 1+3_2+4",
     "hit_level": "th(h)",
     "damage": "12",
     "startup": "i16",
@@ -1809,19 +1809,7 @@
     "hit": "-3",
     "counter": "",
     "note": "\nThrow break: none\nOpponent recovery on hit: FUFA\n",
-    "alternateInputs": ["SEN 1+3"]
-  },
-  {
-    "name": "Haburi-kaze",
-    "input": "SEN 2+4",
-    "hit_level": "th(h)",
-    "damage": "12",
-    "startup": "i16",
-    "block": "",
-    "hit": "-3",
-    "counter": "",
-    "note": "\nThrow break: none\nOpponent recovery on hit: FUFA\n",
-    "alternateInputs": ["SEN 2+4"]
+    "alternateInputs": ["SEN 1+3_2+4"]
   },
   {
     "name": "Heaven's Roar",

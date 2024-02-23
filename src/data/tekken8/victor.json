@@ -24,6 +24,66 @@
     "alternateInputs": ["in heat 2+3"]
   },
   {
+    "name": "Carving Cameo",
+    "input": "f+4,1",
+    "hit_level": "m,h",
+    "damage": "15,21",
+    "startup": ",i23~24",
+    "block": "-4",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nHit Confirmable\n",
+    "alternateInputs": ["f+4,1"]
+  },
+  {
+    "name": "Durandal",
+    "input": "f+1+2",
+    "hit_level": "m",
+    "damage": "35",
+    "startup": "i24~25",
+    "block": "-9",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nDeals chip damage on block\nPartially restores Heat on hit\n",
+    "alternateInputs": ["f+1+2"]
+  },
+  {
+    "name": "Llawfrodedd",
+    "input": "d+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i18",
+    "block": "0",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nDeals chip damage on block\n",
+    "alternateInputs": ["d+2"]
+  },
+  {
+    "name": "Failnaught",
+    "input": "b+1+2",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i15~16",
+    "block": "-9",
+    "hit": "",
+    "counter": "",
+    "note": "\npc\n\nHeat Engager\n\n\nBalcony Break\nDeals chip damage on block\n",
+    "alternateInputs": ["b+1+2"]
+  },
+  {
+    "name": "Flying Gentleman",
+    "input": "PRF 3",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i15~17",
+    "block": "-8",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nKnee\n",
+    "alternateInputs": ["PRF 3"]
+  },
+  {
     "name": "Jab",
     "input": "1",
     "hit_level": "h",
@@ -211,7 +271,7 @@
     "startup": "i15",
     "block": "-8",
     "hit": "+2",
-    "counter": "",
+    "counter": "+46a",
     "note": "\n",
     "alternateInputs": ["1+2"]
   },

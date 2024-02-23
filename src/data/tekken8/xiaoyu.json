@@ -164,7 +164,7 @@
     "block": "-3",
     "hit": "+7",
     "counter": "",
-    "note": " ",
+    "note": " \nCombos from 1st hit",
     "alternateInputs": ["1,2"]
   },
   {
@@ -188,7 +188,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nRecover facing forward with 1,D+2 (-4, +7)\nRecover in HYP with 1,d+2~B (-2, +9)",
+    "note": "\nCombos from 1st hit\nRecover facing forward with 1,D+2 (-4, +7)\nRecover in HYP with 1,d+2~B (-2, +9)",
     "alternateInputs": ["1,d+2"]
   },
   {
@@ -296,7 +296,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "+7",
-    "note": "\nTransition to HYP with B (+0, +11)",
+    "note": "\nCombos from 1st hit\nTransition to HYP with B (+0, +11)",
     "alternateInputs": ["f+2,1"]
   },
   {
@@ -332,7 +332,7 @@
     "block": "-9",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
+    "note": "\nCombos from 1st hit ",
     "alternateInputs": ["f+3,1"]
   },
   {
@@ -411,7 +411,7 @@
     "name": "Belly Chop",
     "input": "df+1",
     "hit_level": "m",
-    "damage": "",
+    "damage": "13",
     "startup": "i14",
     "block": "-2",
     "hit": "+9",
@@ -1136,7 +1136,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
+    "note": "\nCombos from 1st hit ",
     "alternateInputs": ["ws1"]
   },
   {
@@ -1220,7 +1220,7 @@
     "block": "-8",
     "hit": "+7c",
     "counter": "+43a",
-    "note": "\nAlternate input f,F+1+2,1+2 ",
+    "note": "\nCombos from 1st hit\nAlternate input f,F+1+2,1+2 ",
     "alternateInputs": ["ws1+2,1+2"]
   },
   {
