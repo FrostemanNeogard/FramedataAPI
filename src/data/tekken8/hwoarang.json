@@ -12,6 +12,18 @@
     "alternateInputs": ["2+3"]
   },
   {
+    "name": "Trinity Claymore",
+    "input": "in heat 2+3",
+    "hit_level": "m,m,h",
+    "damage": "13,14,24(51)",
+    "startup": "i17~18, i18~19, i29",
+    "block": "+11",
+    "hit": "+13",
+    "counter": "",
+    "note": "\n\nHeat Smash\nAlso possible during Right Stance and Left Flamingo\nShifts to Right Flamingo\n",
+    "alternateInputs": ["in heat 2+3"]
+  },
+  {
     "name": "Ignition Barrage",
     "input": "df+3+4",
     "hit_level": "m,h,m",
@@ -20,7 +32,7 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nChip damage on block\nAlso possible during Right Stance\n",
+    "note": "\n\nHeat Engager\n\nDeals chip damage on block\nAlso possible during Right Stance\n",
     "alternateInputs": ["df+3+4"]
   },
   {
@@ -1044,6 +1056,18 @@
     "alternateInputs": ["RFF 3+4"]
   },
   {
+    "name": "",
+    "input": "RFF 2",
+    "hit_level": "",
+    "damage": "6",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFF 2"]
+  },
+  {
     "name": "Motion Switch",
     "input": "LFS 3+4",
     "hit_level": "",
@@ -1056,6 +1080,18 @@
     "alternateInputs": ["LFS 3+4"]
   },
   {
+    "name": "",
+    "input": "LFS 1",
+    "hit_level": "",
+    "damage": "6",
+    "startup": "i13",
+    "block": "+5",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["LFS 1"]
+  },
+  {
     "name": "Motion Switch",
     "input": "RFS 3+4",
     "hit_level": "",
@@ -1066,6 +1102,18 @@
     "counter": "",
     "note": "\nShifts to Left Flamingo\n",
     "alternateInputs": ["RFS 3+4"]
+  },
+  {
+    "name": "",
+    "input": "RFS 2",
+    "hit_level": "",
+    "damage": "6",
+    "startup": "i13",
+    "block": "+5",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFS 2"]
   },
   {
     "name": "Sky Burial",

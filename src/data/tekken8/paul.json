@@ -60,6 +60,66 @@
     "alternateInputs": ["in heat 1+2**"]
   },
   {
+    "name": "Phoenix Hook, Tiger Claw",
+    "input": "f+2",
+    "hit_level": "h",
+    "damage": "40",
+    "startup": "i14",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n",
+    "alternateInputs": ["f+2"]
+  },
+  {
+    "name": "Stone Lion",
+    "input": "f+4",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i22",
+    "block": "-8",
+    "hit": "+17",
+    "counter": "",
+    "note": "\nHeat Engager\n\nHoming\n",
+    "alternateInputs": ["f+4"]
+  },
+  {
+    "name": "Moonfall",
+    "input": "uf+2",
+    "hit_level": "h",
+    "damage": "22",
+    "startup": "i22~23",
+    "block": "+5",
+    "hit": "+17",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n",
+    "alternateInputs": ["uf+2"]
+  },
+  {
+    "name": "Phoenix Smasher",
+    "input": "CS 2",
+    "hit_level": "m",
+    "damage": "45",
+    "startup": "i13~14",
+    "block": "-17",
+    "hit": "+17",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n",
+    "alternateInputs": ["CS 2"]
+  },
+  {
+    "name": "Rubber Band Attack",
+    "input": "SWA 2",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i15",
+    "block": "-9",
+    "hit": "+17",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n",
+    "alternateInputs": ["SWA 2"]
+  },
+  {
     "name": "Big Bang Phoenix Smasher",
     "input": "in rage df+1+2",
     "hit_level": "m,t",

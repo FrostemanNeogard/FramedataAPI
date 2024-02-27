@@ -1201,15 +1201,15 @@
   },
   {
     "name": "Manji Spin Low Kicks Front Kick",
-    "input": "DB+3,3,3,3,3,3,4",
-    "hit_level": "l,l,l,l,l,l,m",
-    "damage": "8,7,7,5,5,5,15",
+    "input": "DB+3,3,3,3,3,4",
+    "hit_level": "l,l,l,l,l,m",
+    "damage": "8,7,7,5,5,15",
     "startup": ",i12~13",
     "block": "-8~-7",
     "hit": "+23a (+13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to r21 KIN with 1+2 (-6~-5 on block)\nTransition to r24 NSS with B\nSame animation as ws4\nAlternate inputs:\nDB+3,3,4\nDB+3,3,3,4\nDB+3,3,3,3,4\nDB+3,3,3,3,3,4",
-    "alternateInputs": ["DB+3,3,3,3,3,3,4"]
+    "note": "\n\nBalcony Break\nTransition to r21 KIN with 1+2 (-6~-5 on block)\nTransition to r24 NSS with B\nSame animation as ws4\nAlternate inputs:\nDB+3,3,4\nDB+3,3,3,4\nDB+3,3,3,3,4",
+    "alternateInputs": ["DB+3,3,3,3,3,4"]
   },
   {
     "name": "Nozuchi Fumi",
@@ -1400,7 +1400,7 @@
     "block": "-17~-16",
     "hit": "+28a (+18)",
     "counter": "",
-    "note": "\njs28~49 fs50~52\n\nWeapon\nCombos from CH 1st with 2f delay\nTransition to r30 KIN with 1+2\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,1",
+    "note": "\njs28~49 fs50~52\n\nWeapon\nCombo from 1st CH with 2f delay\nTransition to r30 KIN with 1+2\nInput can be delayed 14f\nAlternate notation: 1SS.b+2,1",
     "alternateInputs": ["b+2,1"]
   },
   {
@@ -3296,7 +3296,7 @@
     "block": "-17~-16",
     "hit": "+28a (+18)",
     "counter": "",
-    "note": "\njs28~49 fs50~52\nCombos from CH 1st with 2f delay\nTransition to r30 KIN with 1+2\nInput can be delayed 14f",
+    "note": "\njs28~49 fs50~52\nCombo from 1st CH with 2f delay\nTransition to r30 KIN with 1+2\nInput can be delayed 14f",
     "alternateInputs": ["b+2,NSS 1"]
   },
   {

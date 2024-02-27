@@ -104,7 +104,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nchip damage on block\n",
+    "note": "\n\nHeat Engager\n\nchip damage on block\n",
     "alternateInputs": ["DES f+2,1,2"]
   },
   {
@@ -509,9 +509,9 @@
     "hit_level": "m,m",
     "damage": "10,17",
     "startup": ",i26~27",
-    "block": "",
+    "block": "-11",
     "hit": "+3c",
-    "counter": "",
+    "counter": "+13c",
     "note": "\n",
     "alternateInputs": ["df+1,4"]
   },
@@ -1781,7 +1781,7 @@
     "hit_level": "m",
     "damage": "35",
     "startup": "i12",
-    "block": "",
+    "block": "0",
     "hit": "+21 (+0)",
     "counter": "",
     "note": "\n\nBalcony Break\nTransition to DES\nchip damage on block\n",

@@ -20,7 +20,7 @@
     "block": "+1",
     "hit": "+17g/+16d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n",
     "alternateInputs": ["f+2,1"]
   },
   {
@@ -32,7 +32,7 @@
     "block": "-9",
     "hit": "+17g/+9d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block\n\n+9 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\n+9 on hit during heat or after heat.\n",
     "alternateInputs": ["f+2+3"]
   },
   {
@@ -44,7 +44,7 @@
     "block": "-9/-5",
     "hit": "+35g/+8g",
     "counter": "",
-    "note": "\nPower Crush\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n",
+    "note": "\nPower Crush\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block.\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n",
     "alternateInputs": ["db+1+2,2"]
   },
   {
@@ -56,7 +56,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break.\nRestores some Heat Gauge in Heat.\nCannot heat dash.\n",
+    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n",
     "alternateInputs": ["JGin rage 1+3_2+4"]
   },
   {
@@ -68,7 +68,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.\nOpponent recovers in FDFA.\n",
+    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.Opponent recovers in FDFA.\n",
     "alternateInputs": ["d+1+4"]
   },
   {
@@ -272,7 +272,7 @@
     "block": "+1",
     "hit": "+17g/+16d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n",
     "alternateInputs": ["f+2,1"]
   },
   {
@@ -368,7 +368,7 @@
     "block": "-9",
     "hit": "+17g/+9d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block\n\n+9 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\n+9 on hit during heat or after heat.\n",
     "alternateInputs": ["f+2+3"]
   },
   {
@@ -494,13 +494,13 @@
   {
     "name": "Frankensteiner",
     "input": "df+3+4",
-    "hit_level": "s",
-    "damage": "15,30",
+    "hit_level": "t/s",
+    "damage": "30/15",
     "startup": "i28~35",
     "block": "-12~-18",
     "hit": "+18d/-7~0",
     "counter": "",
-    "note": "\nThrow only when opponent standing close.\nCannot throw break.\nRecovers in FUFT if throw failed.\n",
+    "note": "\nLow Crush\nThrow only when opponent standing close.\nCannot throw break.\nRecovers in BT/FUFT on throw success/failed.\n",
     "alternateInputs": ["df+3+4"]
   },
   {
@@ -704,7 +704,7 @@
     "block": "-9/-5",
     "hit": "+35g/+8g",
     "counter": "",
-    "note": "\nPower Crush\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n",
+    "note": "\nPower Crush\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block.\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n",
     "alternateInputs": ["db+1+2,2"]
   },
   {
@@ -1220,7 +1220,7 @@
     "block": "-14",
     "hit": "-2d",
     "counter": "+28d",
-    "note": "\nRecovers in FDFT on block and whiff.\nAlso can be done in backturn crouch.\n",
+    "note": "\nLow Crush\nRecovers in FDFT on block and whiff.\nAlso can be done in backturn crouch.\n",
     "alternateInputs": ["BT d+4"]
   },
   {
@@ -1412,7 +1412,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break.\nRestores some Heat Gauge in Heat.\nCannot heat dash.\n",
+    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n",
     "alternateInputs": ["JGin rage 1+3_2+4"]
   },
   {
@@ -1952,7 +1952,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.\nOpponent recovers in FDFA.\n",
+    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.Opponent recovers in FDFA.\n",
     "alternateInputs": ["d+1+4"]
   },
   {

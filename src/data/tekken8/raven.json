@@ -24,6 +24,66 @@
     "alternateInputs": ["in heat 2+3"]
   },
   {
+    "name": "Crusader",
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i14",
+    "block": "-9",
+    "hit": "+15a",
+    "counter": "",
+    "note": "Heat Engager\n",
+    "alternateInputs": ["1+2"]
+  },
+  {
+    "name": "Minos Typhoon",
+    "input": "f+1+2",
+    "hit_level": "m",
+    "damage": "10,20",
+    "startup": "i18~19 i26",
+    "block": "-14",
+    "hit": "+30a (+4)",
+    "counter": "",
+    "note": "\npc7~\n\nHeat Engager\n\n\nBalcony Break\nFrame advantage is -9 if an attack is absorbed",
+    "alternateInputs": ["f+1+2"]
+  },
+  {
+    "name": "Spinning Middle Kick",
+    "input": "ws3+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i16~18",
+    "block": "-12~-10",
+    "hit": "+7~+9",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHoming\n\nBalcony Break\nAlternate input: qcf+3+4",
+    "alternateInputs": ["ws3+4"]
+  },
+  {
+    "name": "Dual Thanatos",
+    "input": "SZN 2",
+    "hit_level": "m,sm",
+    "damage": "20,10",
+    "startup": "i18 23~24",
+    "block": "-9",
+    "hit": "+7a (-2)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nPower up during Heat",
+    "alternateInputs": ["SZN 2"]
+  },
+  {
+    "name": "Chronos Lathe",
+    "input": "BT 4",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i19~20",
+    "block": "-5~-4",
+    "hit": "+44a (-14)",
+    "counter": "",
+    "note": "\njs6~19\n\nHeat Engager\n\n\nBalcony Break",
+    "alternateInputs": ["BT 4"]
+  },
+  {
     "name": "Wild Hunt X-ecutor",
     "input": "in rage df+1+2",
     "hit_level": "m,t",

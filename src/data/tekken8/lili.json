@@ -60,18 +60,6 @@
     "alternateInputs": ["3+4"]
   },
   {
-    "name": "Nocturne",
-    "input": "DEW 2,1",
-    "hit_level": "m,m",
-    "damage": "13,20",
-    "startup": "i22",
-    "block": "-13",
-    "hit": "+17d",
-    "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +67a (+50)\n\n\nBalcony Break\nCombos from 1st hit",
-    "alternateInputs": ["DEW 2,1"]
-  },
-  {
     "name": "Scorpio's Sting",
     "input": "BT 1,4",
     "hit_level": "h,h",
@@ -82,18 +70,6 @@
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +34d\n \n\nBalcony Break\nCombos from 1st hit",
     "alternateInputs": ["BT 1,4"]
-  },
-  {
-    "name": "Rabbit Song",
-    "input": "RAB 2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i20",
-    "block": "-9",
-    "hit": "+39d (-19)",
-    "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26) \n\n\nBalcony Break\nPowered up during Heat: 24 damage\nPartially consumes remaining Heat Time",
-    "alternateInputs": ["RAB 2"]
   },
   {
     "name": "Rabbit Dance (Heat)",
@@ -757,7 +733,7 @@
   },
   {
     "name": "Feisty Rabbit",
-    "input": "b+3",
+    "input": "b+3_4",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -765,7 +741,7 @@
     "hit": "",
     "counter": "",
     "note": "\njs\nTransitions to RAB\nTransition to DEW with F\nAlternate input b+4 ",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": ["b+3_4"]
   },
   {
     "name": "Dendobrium",
@@ -937,7 +913,7 @@
   },
   {
     "name": "Angel Knee > Front Kick",
-    "input": "uf+3+4,4",
+    "input": "uf+3+4,3",
     "hit_level": "m,h",
     "damage": "15,18",
     "startup": "i13",
@@ -945,7 +921,7 @@
     "hit": "+14g (+18g w)",
     "counter": "+20a (+10)",
     "note": "\nOn CH:\nBalcony Break\nCombos from 1st hit  ",
-    "alternateInputs": ["uf+3+4,4"]
+    "alternateInputs": ["uf+3+4,3"]
   },
   {
     "name": "Angel Knee Ascension",
@@ -1333,7 +1309,7 @@
   },
   {
     "name": "Feisty Rabbit",
-    "input": "b+3",
+    "input": "b+3_4",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1341,7 +1317,7 @@
     "hit": "",
     "counter": "",
     "note": "\njs\nTransitions to RAB\nTransition to DEW with F\nAlternate input b+4 ",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": ["b+3", "b+4"]
   },
   {
     "name": "Rabbit Song",

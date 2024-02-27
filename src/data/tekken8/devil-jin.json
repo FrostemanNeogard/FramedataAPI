@@ -84,6 +84,66 @@
     "alternateInputs": ["f,n,d,df+1+2,1+2"]
   },
   {
+    "name": "Rakshasa's Fury",
+    "input": "b+2,3",
+    "hit_level": "h,m",
+    "damage": "11,23",
+    "startup": "i14~16",
+    "block": "-14",
+    "hit": "+8(-1)/HE",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 1st hit\n",
+    "alternateInputs": ["b+2,3"]
+  },
+  {
+    "name": "Wicked Jambu Spear",
+    "input": "b+3",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i29~32",
+    "block": "-18",
+    "hit": "+10/HE",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\n",
+    "alternateInputs": ["b+3"]
+  },
+  {
+    "name": "Wraith Kick",
+    "input": "uf+4",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i18",
+    "block": "-8",
+    "hit": "+11/HE",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +62a(+42)\n\n\nBalcony Break\n",
+    "alternateInputs": ["uf+4"]
+  },
+  {
+    "name": "Demon's Paw",
+    "input": "f,F+2",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i15~16",
+    "block": "-8",
+    "hit": "+15a(+6)/HE",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5 +36a(+26)\n\n\nBalcony Break\nChip damage on block\n",
+    "alternateInputs": ["f,F+2"]
+  },
+  {
+    "name": "Dark Arachnid Twister",
+    "input": "MCin rage 2,2",
+    "hit_level": "m,m",
+    "damage": "12,20",
+    "startup": "i15",
+    "block": "-14c",
+    "hit": "+2/HE",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50)\n\n",
+    "alternateInputs": ["MCin rage 2,2"]
+  },
+  {
     "name": "",
     "input": "1",
     "hit_level": "h",
@@ -528,16 +588,28 @@
     "alternateInputs": ["db+1+2"]
   },
   {
+    "name": "Demon's Spear",
+    "input": "db+1+2*",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i23~25",
+    "block": "+17g(+24w)",
+    "hit": "+7",
+    "counter": "",
+    "note": "Hold F during startup to feint into MCR",
+    "alternateInputs": ["db+1+2*"]
+  },
+  {
     "name": "Demon's Lance",
-    "input": "db+1+2 (Hold)",
+    "input": "db+1+2**",
     "hit_level": "m",
     "damage": "42",
     "startup": "i61~63 (Full Charge)",
     "block": "+10",
     "hit": "+37",
     "counter": "",
-    "note": "Chip Damage, Guard Break on block, hold F during startup to feint into MCR",
-    "alternateInputs": ["db+1+2 (Hold)"]
+    "note": "\nChip Damage on block (16)\n\nGuard Break +10\nhold F during startup to feint into MCR\n",
+    "alternateInputs": ["db+1+2**"]
   },
   {
     "name": "",
