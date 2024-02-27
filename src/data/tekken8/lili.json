@@ -1245,7 +1245,7 @@
     "hit": "-4",
     "counter": "+2",
     "note": "\n",
-    "alternateInputs": ["DEW 1"]
+    "alternateInputs": ["DEW 1", "qcf1"]
   },
   {
     "name": "Rose Pique",
@@ -1257,7 +1257,7 @@
     "hit": "+20a (+10)",
     "counter": "+54a",
     "note": "\n\nBalcony Break\nCombos from 1st hit\nCancel and transition to -14, -12, -3 BT with B ",
-    "alternateInputs": ["DEW 1,2"]
+    "alternateInputs": ["DEW 1,2", "qcf1,2"]
   },
   {
     "name": "Rose Piercing Thorn",
@@ -1269,7 +1269,7 @@
     "hit": "+2a (-7)",
     "counter": "",
     "note": "\njs\n\nBalcony Break\nCombos from 1st hit CH\nChip damage on block [9]\nPartially consumes remaining Heat time",
-    "alternateInputs": ["DEW 1,4"]
+    "alternateInputs": ["DEW 1,4", "qcf1,4"]
   },
   {
     "name": "",
@@ -1281,7 +1281,7 @@
     "hit": "+0",
     "counter": "",
     "note": "\n\nHoming ",
-    "alternateInputs": ["DEW 2"]
+    "alternateInputs": ["DEW 2", "qcf2"]
   },
   {
     "name": "Nocturne",
@@ -1293,7 +1293,7 @@
     "hit": "+17d",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +67a (+50)\n\n\nBalcony Break\nCombos from 1st hit",
-    "alternateInputs": ["DEW 2,1"]
+    "alternateInputs": ["DEW 2,1", "qcf2,1"]
   },
   {
     "name": "Platinum Grace",
@@ -1305,7 +1305,7 @@
     "hit": "+20a (+3)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break ",
-    "alternateInputs": ["DEW 3"]
+    "alternateInputs": ["DEW 3", "qcf3"]
   },
   {
     "name": "Angel Heart",
@@ -1317,7 +1317,7 @@
     "hit": "+17cg",
     "counter": "",
     "note": "\npc\n\nTornado\n\nBalcony Break ",
-    "alternateInputs": ["DEW 1+2"]
+    "alternateInputs": ["DEW 1+2", "qcf1+2"]
   },
   {
     "name": "Cloisonne",
@@ -1329,7 +1329,7 @@
     "hit": "+17g",
     "counter": "",
     "note": "\n\nBalcony Break\nTransition to +0, +11 RAB with b+3 or b+4",
-    "alternateInputs": ["DEW 3+4"]
+    "alternateInputs": ["DEW 3+4", "qcf3+4"]
   },
   {
     "name": "Feisty Rabbit",
@@ -1353,7 +1353,7 @@
     "hit": "+39d (-19)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26) \n\n\nBalcony Break\nPowered up during Heat: 24 damage\nPartially consumes remaining Heat Time",
-    "alternateInputs": ["RAB 2"]
+    "alternateInputs": ["RAB 2", "b+3,2", "b+4,2"]
   },
   {
     "name": "Rabbit Dance",
@@ -1365,7 +1365,7 @@
     "hit": "+3c",
     "counter": "+70a (+54)",
     "note": "\ncs\n\nHoming\nPowered up during Heat ",
-    "alternateInputs": ["RAB 3"]
+    "alternateInputs": ["RAB 3", "b+3,3", "b+4,3"]
   },
   {
     "name": "Rabbit Piercing Thorn",
@@ -1377,7 +1377,7 @@
     "hit": "+4a (-5)",
     "counter": "",
     "note": "\njs\n\nBalcony Break\nPowered up during Heat",
-    "alternateInputs": ["RAB 4"]
+    "alternateInputs": ["RAB 4", "b+3,4", "b+4,4"]
   },
   {
     "name": "Feisty Rabbit Deuxiéme",
@@ -1389,7 +1389,7 @@
     "hit": "",
     "counter": "",
     "note": "\njs\nTransitions to Feisty Rabbit Deuxiéme\nAll RAB moves are available\nPartially restores remaining Heat Time\nTransition to DEW with F ",
-    "alternateInputs": ["RAB B+3"]
+    "alternateInputs": ["RAB B+3", "b+3,B+3", "b+4,B+3"]
   },
   {
     "name": "Stunning Toe Kick",
