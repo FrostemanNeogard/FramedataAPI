@@ -8,7 +8,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Burst\nAlternate input: R1\n",
+    "note": "\n\nHeat Burst\nAlternate input: R1\n\n",
     "alternateInputs": ["2+3"]
   },
   {
@@ -20,7 +20,7 @@
     "block": "+3",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Smash\nAlternate input: R1\nTransitions to Breaking Step on block\n",
+    "note": "\n\nHeat Smash\nAlternate input: R1\nTransitions to Breaking Step on block\n\n",
     "alternateInputs": ["in heat 2+3"]
   },
   {
@@ -32,7 +32,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["in heat 2+3,B"]
   },
   {
@@ -44,7 +44,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Smash\n",
+    "note": "\n\nHeat Smash\n\n",
     "alternateInputs": ["in heat 2+3,4"]
   },
   {
@@ -56,79 +56,79 @@
     "block": "+4",
     "hit": "+23",
     "counter": "",
-    "note": "\npc\nPartially uses remaining Heat time\nTransitions to Awakened Breaking Step on hit or block\n",
+    "note": "\nPartially uses remaining Heat time\nTransitions to Awakened Breaking Step on hit or block\n\n",
     "alternateInputs": ["in heat db+1+2"]
   },
   {
     "name": "Awakened Thunder God Fist",
     "input": "in heat db+1+2,1",
     "hit_level": "m,m",
-    "damage": "025",
+    "damage": "0,25",
     "startup": "i20~22",
     "block": "-13",
     "hit": "+72a (56)",
     "counter": "",
-    "note": "\n\nTornado\n",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["in heat db+1+2,1"]
   },
   {
     "name": "Awakened Wind God Fist",
     "input": "in heat db+1+2,2",
     "hit_level": "m,s",
-    "damage": "023",
+    "damage": "0,23",
     "startup": "i11~12",
     "block": "+4",
     "hit": "+38a (28)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["in heat db+1+2,2"]
   },
   {
     "name": "Awakened Demon's Hoof",
     "input": "in heat db+1+2,3",
     "hit_level": "m,m",
-    "damage": "025",
+    "damage": "0,25",
     "startup": "i26~28",
     "block": "+2",
     "hit": "+22a",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["in heat db+1+2,3"]
   },
   {
     "name": "Awakened Demon's Tail",
     "input": "in heat db+1+2,DF+3",
     "hit_level": "m,l",
-    "damage": "024",
+    "damage": "0,24",
     "startup": "i33~34",
     "block": "-23",
     "hit": "-2d",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["in heat db+1+2,DF+3"]
   },
   {
     "name": "Awakened Spinning Demon (1)",
     "input": "in heat db+1+2,4",
     "hit_level": "m,l",
-    "damage": "010",
+    "damage": "0,10",
     "startup": "i16",
     "block": "-23",
     "hit": "+22a",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["in heat db+1+2,4"]
   },
   {
     "name": "Awakened Spinning Demon",
     "input": "in heat db+1+2,4,4",
     "hit_level": "m,l,m",
-    "damage": "010,19",
+    "damage": "0,10,19",
     "startup": "i25~26",
     "block": "-23",
     "hit": "+20d (-15)",
     "counter": "",
-    "note": "\n\nFloor Break\n",
+    "note": "\n\nFloor Break\n\n",
     "alternateInputs": ["in heat db+1+2,4,4"]
   },
   {
@@ -140,7 +140,7 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "Based on Generic-1",
+    "note": "\n",
     "alternateInputs": ["1"]
   },
   {
@@ -152,7 +152,7 @@
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": "Combo from 1st hit",
+    "note": "Combo from 1st hit\n",
     "alternateInputs": ["1,2"]
   },
   {
@@ -164,7 +164,7 @@
     "block": "-16",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["1,2,1"]
   },
   {
@@ -176,7 +176,7 @@
     "block": "0",
     "hit": "+31d",
     "counter": "",
-    "note": "Interruptable by i10 from 2nd on block",
+    "note": "Interruptable by i10 from 2nd on block\n",
     "alternateInputs": ["1,2,3"]
   },
   {
@@ -188,7 +188,7 @@
     "block": "-4",
     "hit": "+23a (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["1,2,4"]
   },
   {
@@ -200,7 +200,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combo from 1st hit",
+    "note": "Combo from 1st hit\n",
     "alternateInputs": ["1,3"]
   },
   {
@@ -212,7 +212,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+28a",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1,3,4"]
   },
   {
@@ -224,43 +224,43 @@
     "block": "0",
     "hit": "+9",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2"]
   },
   {
     "name": "Double Thrust",
     "input": "2,1",
     "hit_level": "h,m",
-    "damage": "99",
+    "damage": "9,9",
     "startup": "i16~17",
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2,1"]
   },
   {
     "name": "Double Thrust > Roundhouse",
     "input": "2,1,4",
     "hit_level": "h,m,m",
-    "damage": "99,18",
+    "damage": "9,9,18",
     "startup": "i18~20",
     "block": "-9",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH",
+    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH\n",
     "alternateInputs": ["2,1,4"]
   },
   {
     "name": "Double Thrust > Low Trick Kick",
     "input": "2,14~4",
-    "hit_level": "h,ml",
-    "damage": "9920",
+    "hit_level": "h,m,l",
+    "damage": "9,9,20",
     "startup": "i20~21",
     "block": "-31",
     "hit": "+16d",
     "counter": "",
-    "note": "Interruptable by i16 after 2nd on block",
+    "note": "Interruptable by i16 after 2nd on block\n",
     "alternateInputs": ["2,14~4"]
   },
   {
@@ -272,7 +272,7 @@
     "block": "-9",
     "hit": "+11",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\nCan cancel into ZEN",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nCan cancel into ZEN\n",
     "alternateInputs": ["2,4"]
   },
   {
@@ -284,7 +284,7 @@
     "block": "-6",
     "hit": "+14",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2,4,F"]
   },
   {
@@ -296,7 +296,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["3"]
   },
   {
@@ -308,7 +308,7 @@
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": "Combo from 1st hit",
+    "note": "Combo from 1st hit\n",
     "alternateInputs": ["3,1"]
   },
   {
@@ -320,7 +320,7 @@
     "block": "+4",
     "hit": "+12",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["3,1,F"]
   },
   {
@@ -332,7 +332,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+28d",
-    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH",
+    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH\n",
     "alternateInputs": ["3,1,4"]
   },
   {
@@ -344,7 +344,7 @@
     "block": "-9",
     "hit": "+10",
     "counter": "+13c",
-    "note": "\n\nHoming\n\nBalcony Break",
+    "note": "\n\nHoming\n\nBalcony Break\n",
     "alternateInputs": ["4"]
   },
   {
@@ -356,7 +356,7 @@
     "block": "-14~-4",
     "hit": "-4a",
     "counter": "",
-    "note": "\njs12~\n\nFloor Break\nAlternate input:\nws4~3\nCD.df+4,3+4",
+    "note": "\n\nFloor Break\nAlternate input:\nws4~3\nCD.df+4,3+4\n",
     "alternateInputs": ["4~3"]
   },
   {
@@ -368,7 +368,7 @@
     "block": "-14",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
     "alternateInputs": ["1+2"]
   },
   {
@@ -380,7 +380,7 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+3"]
   },
   {
@@ -392,7 +392,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "Heat Engager\n",
+    "note": "Heat Engager\n\n",
     "alternateInputs": ["f+3,1"]
   },
   {
@@ -404,7 +404,7 @@
     "block": "-8",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+3,3"]
   },
   {
@@ -416,7 +416,7 @@
     "block": "-7",
     "hit": "+9",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+3,3,F"]
   },
   {
@@ -428,7 +428,7 @@
     "block": "-8",
     "hit": "+4",
     "counter": "+42",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -440,7 +440,7 @@
     "block": "-1",
     "hit": "+11",
     "counter": "+49",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+4,F"]
   },
   {
@@ -452,7 +452,7 @@
     "block": "-6",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
     "alternateInputs": ["f+1+2"]
   },
   {
@@ -464,31 +464,31 @@
     "block": "-3",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+1"]
   },
   {
     "name": "Mid Left Punch > High Roundhouse Kick",
     "input": "df+1,4",
     "hit_level": "mh",
-    "damage": "1018",
+    "damage": "10,18",
     "startup": "i18",
     "block": "-9",
     "hit": "+10",
     "counter": "",
-    "note": "Combo from 1st hit",
+    "note": "Combo from 1st hit\n",
     "alternateInputs": ["df+1,4"]
   },
   {
     "name": "Mid Left Punch > Mid Sidekick",
     "input": "df+1,4~4",
     "hit_level": "mm",
-    "damage": "1024",
+    "damage": "10,24",
     "startup": "i20",
     "block": "-12",
     "hit": "+10(+1)",
     "counter": "",
-    "note": "Combo from 1st hit",
+    "note": "Combo from 1st hit\n",
     "alternateInputs": ["df+1,4~4"]
   },
   {
@@ -500,7 +500,7 @@
     "block": "-9",
     "hit": "+6",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -512,7 +512,7 @@
     "block": "-2",
     "hit": "+13",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+2~df"]
   },
   {
@@ -524,7 +524,7 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+3"]
   },
   {
@@ -536,7 +536,7 @@
     "block": "+6c",
     "hit": "+13c",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+3~3"]
   },
   {
@@ -548,7 +548,7 @@
     "block": "+2c",
     "hit": "+9c",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+3~3~df"]
   },
   {
@@ -560,7 +560,7 @@
     "block": "+0",
     "hit": "+8c/HE",
     "counter": "",
-    "note": "Heat Engager\n",
+    "note": "Heat Engager\n\n",
     "alternateInputs": ["df+4"]
   },
   {
@@ -572,7 +572,7 @@
     "block": "-13",
     "hit": "+0",
     "counter": "",
-    "note": "\nps8~\nAbsorb an attack to power up\nAdd chip damage when guarded\n",
+    "note": "\nAbsorb an attack to power up\nAdd chip damage when guarded\n\n",
     "alternateInputs": ["d+1"]
   },
   {
@@ -584,7 +584,7 @@
     "block": "-14",
     "hit": "+4",
     "counter": "+71(+55)",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["d+2"]
   },
   {
@@ -596,43 +596,43 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["d+3"]
   },
   {
     "name": "",
     "input": "d+3,4",
-    "hit_level": "lh",
-    "damage": "710",
+    "hit_level": "l,h",
+    "damage": "7,10",
     "startup": "i20",
     "block": "-11",
     "hit": "-3",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["d+3,4"]
   },
   {
     "name": "Kazama Style Three-Quarter Kick",
     "input": "d+3,4,3",
-    "hit_level": "lhm",
-    "damage": "71021",
+    "hit_level": "l,h,m",
+    "damage": "7,10,21",
     "startup": "i24",
     "block": "-12",
     "hit": "+31(+23)",
     "counter": "",
-    "note": "\n\nTornado\nWallSplat\n",
+    "note": "\n\nTornado\nWallSplat\n\n",
     "alternateInputs": ["d+3,4,3"]
   },
   {
     "name": "Knee Popper > Mid Sidekick",
     "input": "d+3,4~4",
-    "hit_level": "lm",
-    "damage": "724",
+    "hit_level": "l,m",
+    "damage": "7,24",
     "startup": "i20",
     "block": "-12",
     "hit": "+10(+1)",
     "counter": "",
-    "note": "Wallsplat",
+    "note": "Wallsplat\n",
     "alternateInputs": ["d+3,4~4"]
   },
   {
@@ -644,7 +644,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["d+4"]
   },
   {
@@ -656,115 +656,115 @@
     "block": "-19",
     "hit": "+32+(+22)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["d+3+4"]
   },
   {
     "name": "",
     "input": "db+2",
     "hit_level": "m",
-    "damage": "",
-    "startup": "16",
+    "damage": "12",
+    "startup": "i16",
     "block": "-10",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+2"]
   },
   {
     "name": "",
     "input": "db+2,2",
     "hit_level": "m,h",
-    "damage": "",
-    "startup": "16",
+    "damage": "12,11",
+    "startup": "i8",
     "block": "-12",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+2,2"]
   },
   {
     "name": "Savage Sword",
     "input": "db+2,2,3",
     "hit_level": "m,h,m",
-    "damage": "",
-    "startup": "16",
+    "damage": "12,11,21",
+    "startup": "i35",
     "block": "-9",
-    "hit": "",
+    "hit": "+20",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+2,2,3"]
   },
   {
     "name": "Punch > Cascade Kick",
     "input": "db+2,3",
     "hit_level": "m,m",
-    "damage": "",
-    "startup": "16",
+    "damage": "12,23",
+    "startup": "i27",
     "block": "-8",
-    "hit": "",
+    "hit": "+7",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+2,3"]
   },
   {
     "name": "Left Spinning Back Kick",
     "input": "db+3",
     "hit_level": "h",
-    "damage": "",
-    "startup": "20",
+    "damage": "28",
+    "startup": "i20",
     "block": "-10",
-    "hit": "",
+    "hit": "+17",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+3"]
   },
   {
     "name": "Right Low Roundhouse",
     "input": "db+4",
     "hit_level": "l",
-    "damage": "",
-    "startup": "20",
+    "damage": "18",
+    "startup": "i20",
     "block": "-13",
-    "hit": "",
-    "counter": "",
-    "note": "",
+    "hit": "+3",
+    "counter": "+13",
+    "note": "\n",
     "alternateInputs": ["db+4"]
   },
   {
     "name": "Power Stance",
     "input": "db+1+2",
     "hit_level": "m",
-    "damage": "",
+    "damage": "0",
     "startup": "19",
     "block": "-11",
-    "hit": "",
+    "hit": "+17",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+1+2"]
   },
   {
     "name": "",
     "input": "b+1",
     "hit_level": "h",
-    "damage": "",
+    "damage": "11",
     "startup": "i12",
     "block": "-9",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+1"]
   },
   {
     "name": "Shun Maten",
     "input": "b+1,2",
     "hit_level": "h,h",
-    "damage": "31",
+    "damage": "11,20",
     "startup": "i12",
     "block": "-10",
     "hit": "KND",
     "counter": "",
-    "note": "",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["b+1,2"]
   },
   {
@@ -776,7 +776,7 @@
     "block": "-11",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+2"]
   },
   {
@@ -788,7 +788,7 @@
     "block": "-9",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+2,1"]
   },
   {
@@ -800,7 +800,7 @@
     "block": "-6",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -812,7 +812,7 @@
     "block": "-2",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+3,F"]
   },
   {
@@ -824,7 +824,7 @@
     "block": "-9",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+3,2"]
   },
   {
@@ -836,7 +836,7 @@
     "block": "-7",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -848,7 +848,7 @@
     "block": "-12",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+1+2"]
   },
   {
@@ -860,7 +860,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+3+4"]
   },
   {
@@ -872,7 +872,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ub+1+2"]
   },
   {
@@ -884,7 +884,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ub+1+2,b,b"]
   },
   {
@@ -896,7 +896,7 @@
     "block": "-7",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -908,7 +908,7 @@
     "block": "-9",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["uf+3"]
   },
   {
@@ -920,7 +920,7 @@
     "block": "-13",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -932,7 +932,7 @@
     "block": "-13",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["uf,n+4"]
   },
   {
@@ -944,7 +944,7 @@
     "block": "-8",
     "hit": "",
     "counter": "",
-    "note": "Heat Engager. Chip damage on block",
+    "note": "\n\nHeat Engager\n\nChip damage on block\n\n",
     "alternateInputs": ["f,F+2"]
   },
   {
@@ -956,7 +956,7 @@
     "block": "-4",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,F+3"]
   },
   {
@@ -968,7 +968,7 @@
     "block": "1",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,F+3,1"]
   },
   {
@@ -980,7 +980,7 @@
     "block": "-7",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,F+4"]
   },
   {
@@ -992,7 +992,7 @@
     "block": "-7",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b,f+2"]
   },
   {
@@ -1004,7 +1004,7 @@
     "block": "-5",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b,f+2,1"]
   },
   {
@@ -1016,7 +1016,7 @@
     "block": "-5",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b,f+2,1,2"]
   },
   {
@@ -1028,7 +1028,7 @@
     "block": "-14",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["b,f+2,1,df,2"]
   },
   {
@@ -1040,7 +1040,7 @@
     "block": "-9",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b,f+2,3"]
   },
   {
@@ -1052,7 +1052,7 @@
     "block": "2",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b,f+2,3,F"]
   },
   {
@@ -1064,7 +1064,7 @@
     "block": "-7",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,f,F+3"]
   },
   {
@@ -1076,7 +1076,7 @@
     "block": "-26",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["FC df+4"]
   },
   {
@@ -1088,7 +1088,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1"]
   },
   {
@@ -1100,7 +1100,7 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "\nTransition to -9 (ob) +2 (oh) ZEN with F\n",
+    "note": "\nTransition to -9 (ob) +2 (oh) ZEN with F\n\n",
     "alternateInputs": ["ws1,2"]
   },
   {
@@ -1112,7 +1112,7 @@
     "block": "-6",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1,3"]
   },
   {
@@ -1124,7 +1124,7 @@
     "block": "-11",
     "hit": "-6",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1,3,2"]
   },
   {
@@ -1136,7 +1136,7 @@
     "block": "-11",
     "hit": "+3",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1,3,2,1"]
   },
   {
@@ -1148,7 +1148,7 @@
     "block": "-31",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1,3,2,1,4"]
   },
   {
@@ -1160,7 +1160,7 @@
     "block": "-16",
     "hit": "-8",
     "counter": "",
-    "note": "\n\nFloor Break\n",
+    "note": "\n\nFloor Break\n\n",
     "alternateInputs": ["ws1,3,2,1,4,2"]
   },
   {
@@ -1172,7 +1172,7 @@
     "block": "+6",
     "hit": "+13",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1,3~3"]
   },
   {
@@ -1184,7 +1184,7 @@
     "block": "-12",
     "hit": "LNC",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws2"]
   },
   {
@@ -1196,7 +1196,7 @@
     "block": "-9",
     "hit": "+10",
     "counter": "KND",
-    "note": "",
+    "note": "\n\nHoming\n\n",
     "alternateInputs": ["ws3"]
   },
   {
@@ -1208,7 +1208,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws4"]
   },
   {
@@ -1220,7 +1220,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws4,4"]
   },
   {
@@ -1232,20 +1232,20 @@
     "block": "-13",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["CD df+1"]
   },
   {
     "name": "Electric Thrusting Uppercut",
-    "input": "CD df#1",
+    "input": "CD df:1",
     "hit_level": "m",
     "damage": "",
     "startup": "i16",
     "block": "-13",
     "hit": "",
     "counter": "",
-    "note": "",
-    "alternateInputs": ["CD df#1"]
+    "note": "\n\nTornado\n\n",
+    "alternateInputs": ["CD df:1"]
   },
   {
     "name": "Wind Hook Fist",
@@ -1256,20 +1256,20 @@
     "block": "-10",
     "hit": "+74(+58)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["CD df+2"]
   },
   {
     "name": "Electric Wind Hook Fist",
-    "input": "CD df#2",
+    "input": "CD df:2",
     "hit_level": "h",
     "damage": "25",
     "startup": "i11",
     "block": "+5",
     "hit": "+76(+60)",
     "counter": "",
-    "note": "",
-    "alternateInputs": ["CD df#2"]
+    "note": "\n",
+    "alternateInputs": ["CD df:2"]
   },
   {
     "name": "",
@@ -1280,7 +1280,7 @@
     "block": "-31",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n\nFloor Break\n",
     "alternateInputs": ["CD DF+4,2"]
   },
   {
@@ -1292,7 +1292,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+3+4"]
   },
   {
@@ -1302,9 +1302,9 @@
     "damage": "",
     "startup": "i16",
     "block": "-3",
-    "hit": "",
+    "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ZEN 1"]
   },
   {
@@ -1316,7 +1316,7 @@
     "block": "-14",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ZEN 1,2"]
   },
   {
@@ -1328,7 +1328,7 @@
     "block": "-9",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ZEN 1,3"]
   },
   {
@@ -1340,7 +1340,7 @@
     "block": "-5",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n\nHoming\n\n",
     "alternateInputs": ["ZEN 2"]
   },
   {
@@ -1350,9 +1350,9 @@
     "damage": "",
     "startup": "i17",
     "block": "-9",
-    "hit": "",
+    "hit": "+10",
     "counter": "",
-    "note": "",
+    "note": "\n\nHoming\n\nHeat Engager\n\n",
     "alternateInputs": ["ZEN 3"]
   },
   {
@@ -1364,7 +1364,7 @@
     "block": "2",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ZEN 4"]
   },
   {
@@ -1376,7 +1376,7 @@
     "block": "-14",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ZEN 1+2"]
   },
   {
@@ -1388,7 +1388,7 @@
     "block": "9",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ZEN 3+4"]
   },
   {
@@ -1400,7 +1400,7 @@
     "block": "-16",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["ZEN u+1"]
   },
   {
@@ -1412,7 +1412,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+1+3-b+2+4"]
   },
   {
@@ -1424,7 +1424,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nErases opponent's recoverable health on hit\nAlternate input: R2\n",
+    "note": "\nErases opponent's recoverable health on hit\nAlternate input: R2\n\n",
     "alternateInputs": ["in rage df+1+2"]
   },
   {
@@ -1436,7 +1436,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1+3"]
   },
   {
@@ -1448,7 +1448,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2+4"]
   },
   {
@@ -1460,7 +1460,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["Left Throw"]
   },
   {
@@ -1472,7 +1472,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["Right Throw"]
   },
   {
@@ -1484,7 +1484,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["Back Throw"]
   },
   {
@@ -1496,7 +1496,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+2+3"]
   },
   {
@@ -1508,7 +1508,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["uf+1+2"]
   },
   {
@@ -1520,7 +1520,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["qcb+1+3"]
   }
 ]

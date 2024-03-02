@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\nPower Crush\n\nHeat Burst\nBeats all Power Crush armor.\n",
+    "note": "\n\nHeat Burst\nBeats all Power Crush armor.\n\n",
     "alternateInputs": ["2+3"]
   },
   {
@@ -20,7 +20,7 @@
     "block": "+1",
     "hit": "+17g/+16d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n\n",
     "alternateInputs": ["f+2,1"]
   },
   {
@@ -32,7 +32,7 @@
     "block": "-9",
     "hit": "+17g/+9d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\n+9 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\n+9 on hit during heat or after heat.\n\n",
     "alternateInputs": ["f+2+3"]
   },
   {
@@ -44,7 +44,7 @@
     "block": "-9/-5",
     "hit": "+35g/+8g",
     "counter": "",
-    "note": "\nPower Crush\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block.\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block.\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n\n",
     "alternateInputs": ["db+1+2,2"]
   },
   {
@@ -56,11 +56,11 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n",
+    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["JGin rage 1+3_2+4"]
   },
   {
-    "name": "Freedom Face Buster",
+    "name": "Freedom Face Buster (Pedigree)",
     "input": "d+1+4",
     "hit_level": "t(c)",
     "damage": "35",
@@ -68,7 +68,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.Opponent recovers in FDFA.\n",
+    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.Opponent recovers in FDFA.\n\n",
     "alternateInputs": ["d+1+4"]
   },
   {
@@ -80,7 +80,7 @@
     "block": "+12",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nFloor Break\nShifts to JGR on block (without heat).\nBeats all Power Crush armor, hits OTG.\n",
+    "note": "\n\nHeat Smash\n\nFloor Break\nShifts to JGR on block (without heat).\nHold b to cancel shift, becomes +7 on block.\nBeats all Power Crush armor, hits OTG.\n\n",
     "alternateInputs": ["in heat 2+3"]
   },
   {
@@ -92,7 +92,7 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1"]
   },
   {
@@ -104,7 +104,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nCombo from 1st hit.\n",
+    "note": "\nCombo from 1st hit.\n\n",
     "alternateInputs": ["1,2"]
   },
   {
@@ -116,7 +116,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 2.\n",
+    "note": "\nThrow break 2.\n\n",
     "alternateInputs": ["1,2,2+4"]
   },
   {
@@ -128,7 +128,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nFloor Break\nCrouch throw, cannot throw break.\nOpponent recovers in FDFA.\n",
+    "note": "\n\nFloor Break\nCrouch throw, cannot throw break.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["1,2,d+2+4"]
   },
   {
@@ -140,7 +140,7 @@
     "block": "-4",
     "hit": "+5s",
     "counter": "+10s",
-    "note": "\nForces standing on hit.\nThe 3rd hit doesn't combo even 2nd on CH.\nStarter of 10 Strings, 3rd~5th hits are combo.\n",
+    "note": "\nForces standing on hit.\nThe 3rd hit doesn't combo even 2nd on CH.\nStarter of 10 Strings, 3rd~5th hits are combo.\n\n",
     "alternateInputs": ["1,2,1"]
   },
   {
@@ -152,7 +152,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2.\n",
+    "note": "\nThrow break 2.\n\n",
     "alternateInputs": ["1,2,1,2+4"]
   },
   {
@@ -164,7 +164,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nFloor Break\nCrouch throw, cannot throw break.\nOpponent recovers in FDFA.\n",
+    "note": "\n\nFloor Break\nCrouch throw, cannot throw break.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["1,2,1,d+2+4"]
   },
   {
@@ -176,7 +176,7 @@
     "block": "+1",
     "hit": "+7",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["2"]
   },
   {
@@ -188,7 +188,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nForces standing on hit.\nCombo from 1st hit.\n",
+    "note": "\nForces standing on hit.\nCombo from 1st hit.\n\n",
     "alternateInputs": ["2,1"]
   },
   {
@@ -200,7 +200,7 @@
     "block": "-14",
     "hit": "+17a",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["3"]
   },
   {
@@ -212,7 +212,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+31d",
-    "note": "\nKnocks down on CH for dash OTG throw.\n",
+    "note": "\nKnocks down on CH for dash OTG throw.\n\n",
     "alternateInputs": ["4"]
   },
   {
@@ -224,7 +224,7 @@
     "block": "-11",
     "hit": "-2s",
     "counter": "+0s",
-    "note": "\nForces standing on hit.\nShifts into backturn stance.\n",
+    "note": "\nForces standing on hit.\nShifts into backturn stance.\n\n",
     "alternateInputs": ["1+2"]
   },
   {
@@ -236,7 +236,7 @@
     "block": "-13/-18",
     "hit": "+12a(+3)/-9",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit.\nHold back during 2nd hit to feint.\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit.\nHold back during 2nd hit to feint.\n\n",
     "alternateInputs": ["1+2,1"]
   },
   {
@@ -248,7 +248,7 @@
     "block": "-3",
     "hit": "+12a(+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit.\n",
+    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit.\n\n",
     "alternateInputs": ["1+2,3"]
   },
   {
@@ -260,7 +260,7 @@
     "block": "-11",
     "hit": "+2s",
     "counter": "",
-    "note": "\nForces standing on hit.\n",
+    "note": "\nForces standing on hit.\n\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -272,7 +272,7 @@
     "block": "+1",
     "hit": "+17g/+16d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n\n",
     "alternateInputs": ["f+2,1"]
   },
   {
@@ -284,7 +284,7 @@
     "block": "-13c",
     "hit": "+2c",
     "counter": "",
-    "note": "\nForces crouching on block and hit.\nNot combo even on CH, only combo from hitting behind.\n",
+    "note": "\nForces crouching on block and hit.\nNot combo even on CH, only combo from hitting behind.\n\n",
     "alternateInputs": ["f+2,d+1"]
   },
   {
@@ -296,7 +296,7 @@
     "block": "-15",
     "hit": "+27a(+17)",
     "counter": "",
-    "note": "\nCombo from 2nd to 3rd hit.\n3rd hit is delayable and also combos.\n",
+    "note": "\nCombo from 2nd to 3rd hit.\n3rd hit is delayable and also combos.\n\n",
     "alternateInputs": ["f+2,d+1,2"]
   },
   {
@@ -308,7 +308,7 @@
     "block": "-8",
     "hit": "+1",
     "counter": "+9s",
-    "note": "\nOnly forces standing on CH.\n",
+    "note": "\nOnly forces standing on CH.\n\n",
     "alternateInputs": ["f+3"]
   },
   {
@@ -320,7 +320,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nInput during f+3 hit stun.\nShifts to throw on front grounded hit.\n",
+    "note": "\nInput during f+3 hit stun.\nShifts to throw on front grounded hit.\n\n",
     "alternateInputs": ["f+3:1+2"]
   },
   {
@@ -332,7 +332,7 @@
     "block": "-9",
     "hit": "+12a(+3)",
     "counter": "",
-    "note": "\nBalcony Break\nHoming\n",
+    "note": "\nBalcony Break\nHoming\n\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -344,7 +344,7 @@
     "block": "+0",
     "hit": "+10d",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["f+1+2"]
   },
   {
@@ -356,7 +356,7 @@
     "block": "+3",
     "hit": "+7s",
     "counter": "",
-    "note": "\nForces standing on hit.\n",
+    "note": "\nForces standing on hit.\n\n",
     "alternateInputs": ["f+1+4"]
   },
   {
@@ -368,7 +368,7 @@
     "block": "-9",
     "hit": "+17g/+9d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\n+9 on hit during heat or after heat.\n",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\n+9 on hit during heat or after heat.\n\n",
     "alternateInputs": ["f+2+3"]
   },
   {
@@ -380,7 +380,7 @@
     "block": "-1",
     "hit": "+3s",
     "counter": "",
-    "note": "\nForces standing on hit.\n",
+    "note": "\nForces standing on hit.\n\n",
     "alternateInputs": ["df+1"]
   },
   {
@@ -392,7 +392,7 @@
     "block": "-10",
     "hit": "+5s",
     "counter": "",
-    "note": "\nCombo from 1st hit if not fully delayed.\n",
+    "note": "\nCombo from 1st hit if not fully delayed.\n\n",
     "alternateInputs": ["df+1,2"]
   },
   {
@@ -404,7 +404,7 @@
     "block": "-6",
     "hit": "+4s",
     "counter": "",
-    "note": "\nForces standing on hit.\n",
+    "note": "\nForces standing on hit.\n\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -416,7 +416,7 @@
     "block": "-4",
     "hit": "+24d",
     "counter": "",
-    "note": "\nCombos on CH, otherwise opponent can duck.\nDelay hit confirmable.\nSpecial down state that allows low juggle.\n",
+    "note": "\nCombos on CH, otherwise opponent can duck.\nDelay hit confirmable.\nSpecial down state that allows low juggle.\n\n",
     "alternateInputs": ["df+2,1"]
   },
   {
@@ -428,7 +428,7 @@
     "block": "-9",
     "hit": "+6s",
     "counter": "",
-    "note": "\nForces standing on hit.\n",
+    "note": "\nForces standing on hit.\n\n",
     "alternateInputs": ["df+3"]
   },
   {
@@ -440,7 +440,7 @@
     "block": "+0",
     "hit": "+28d",
     "counter": "",
-    "note": "\nCombos on CH, otherwise opponent can duck.\nNot available if df+3 whiffs.\nRecovers in FDFT.\n",
+    "note": "\nCombos on CH, otherwise opponent can duck.\nNot available if df+3 whiffs.\nRecovers in FDFT.\n\n",
     "alternateInputs": ["df+3,4"]
   },
   {
@@ -452,7 +452,7 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "\nKing's fastest low attack.\n",
+    "note": "\nKing's fastest low attack.\n\n",
     "alternateInputs": ["df+4"]
   },
   {
@@ -464,7 +464,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombos on CH even opponent is crouching.\n",
+    "note": "\nCombos on CH even opponent is crouching.\n\n",
     "alternateInputs": ["df+4,3"]
   },
   {
@@ -476,7 +476,7 @@
     "block": "-15/-8",
     "hit": "+6a/+13a",
     "counter": "+47a(+16)",
-    "note": "\nBalcony Break\nWall combo tool.\nCombos on 2nd CH. Crumple on 3rd CH.\nHold back to shift to backturn stance.\nShift to backturn is 14F punishable.\n",
+    "note": "\nBalcony Break\nWall combo tool.\nCombos on 2nd CH. Crumple on 3rd CH.\nHold back to shift to backturn stance.\nShift to backturn is 14F punishable.\n\n",
     "alternateInputs": ["df+4,3,4"]
   },
   {
@@ -488,7 +488,7 @@
     "block": "-10",
     "hit": "-8d",
     "counter": "+22d",
-    "note": "\nRecovers in crouch on hit.\nOtherwise recovers in FDFT.\n",
+    "note": "\nRecovers in crouch on hit.\nOtherwise recovers in FDFT.\n\n",
     "alternateInputs": ["df+4,3,d+4"]
   },
   {
@@ -500,7 +500,7 @@
     "block": "-12~-18",
     "hit": "+18d/-7~0",
     "counter": "",
-    "note": "\nLow Crush\nThrow only when opponent standing close.\nCannot throw break.\nRecovers in BT/FUFT on throw success/failed.\n",
+    "note": "\nThrow only when opponent standing close.\nCannot throw break.\nRecovers in BT/FUFT on throw success/failed.\n\n",
     "alternateInputs": ["df+3+4"]
   },
   {
@@ -512,7 +512,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\nCan also be done by db+1/FC.d+1/FC.db+1.\n",
+    "note": "\nCan also be done by db+1/FC.d+1/FC.db+1.\n\n",
     "alternateInputs": ["d+1"]
   },
   {
@@ -524,7 +524,7 @@
     "block": "-11",
     "hit": "+5s",
     "counter": "",
-    "note": "\nCombos on CH.\nForces standing on hit.\n",
+    "note": "\nCombos on CH.\nForces standing on hit.\n\n",
     "alternateInputs": ["d+1,2"]
   },
   {
@@ -536,7 +536,7 @@
     "block": "-24",
     "hit": "+45a(+35)",
     "counter": "",
-    "note": "\n\nTornado\nDuck high and launch, very punishable.\n",
+    "note": "\n\nTornado\nDuck high and launch, very punishable.\n\n",
     "alternateInputs": ["d+1+2"]
   },
   {
@@ -548,7 +548,7 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\nCan also be done by FC.d+2/FC.db+2.\n",
+    "note": "\nCan also be done by FC.d+2/FC.db+2.\n\n",
     "alternateInputs": ["d+2"]
   },
   {
@@ -560,7 +560,7 @@
     "block": "-12",
     "hit": "+1",
     "counter": "",
-    "note": "\nHits OTG.\n",
+    "note": "\nHits OTG.\n\n",
     "alternateInputs": ["d+3"]
   },
   {
@@ -572,7 +572,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\nFast low but very punishable.\nCan also be done by FC.d+4/FC.db+4.\n",
+    "note": "\nFast low but very punishable.\nCan also be done by FC.d+4/FC.db+4.\n\n",
     "alternateInputs": ["d+4"]
   },
   {
@@ -584,7 +584,7 @@
     "block": "-25",
     "hit": "+7",
     "counter": "",
-    "note": "\na.k.a Ali Kick, long reach and hits OTG.\nCH enable 2 more Ali Kicks.\nCan also be done by FC.df+4/FC.(db/d/df)+3+4.\n",
+    "note": "\nCH enable 2 more Ali Kicks.\nCan also be done by FC.df+4/FC.(db/d/df)+3+4.\n\n",
     "alternateInputs": ["d+3+4"]
   },
   {
@@ -596,11 +596,11 @@
     "block": "-25",
     "hit": "-9",
     "counter": "",
-    "note": "\nCombo from 1st hit on CH.\nCan also be done by FC.df+4,4.\n",
+    "note": "\nCombo from 1st hit on CH.\nCan also be done by FC.df+4,4.\n\n",
     "alternateInputs": ["d+3+4,4"]
   },
   {
-    "name": "Stagger Kicks (Ali Kick)",
+    "name": "Stagger Kicks",
     "input": "d+3+4,4,4",
     "hit_level": "l,l,l",
     "damage": "14,7,7",
@@ -608,7 +608,7 @@
     "block": "-29",
     "hit": "+7",
     "counter": "",
-    "note": "\nCombo from 2nd hit on CH.\nCan also be done by FC.df+4,4,4.\n",
+    "note": "\nCombo from 2nd hit on CH.\nCan also be done by FC.df+4,4,4.\nSometimes written Ali Kicks/Alley Kicks\n",
     "alternateInputs": ["d+3+4,4,4"]
   },
   {
@@ -620,7 +620,7 @@
     "block": "-15",
     "hit": "+16d(+6)",
     "counter": "",
-    "note": "\n\nBalcony Break\nSame property for d+3+4,2 / d+3+4,4,2\nOnly combo if 2nd/previous kick on CH.\n",
+    "note": "\n\nBalcony Break\nSame property for d+3+4,2 / d+3+4,4,2\nOnly combo if 2nd/previous kick on CH.\n\n",
     "alternateInputs": ["d+3+4,4,4,2"]
   },
   {
@@ -632,7 +632,7 @@
     "block": "-26",
     "hit": "+15",
     "counter": "",
-    "note": "\nOnly available if 1st hit on CH.\nLast 3 kicks are combo.\n5 kicks combo is impossible.\n",
+    "note": "\nOnly available if 1st hit on CH.\nLast 3 kicks are combo.\n5 kicks combo is impossible.\n\n",
     "alternateInputs": ["d+3+4,4,4,4"]
   },
   {
@@ -644,7 +644,7 @@
     "block": "-8",
     "hit": "+0c",
     "counter": "",
-    "note": "\nHits OTG.\nForces Crouching on hit.\n",
+    "note": "\nHits OTG.\nForces Crouching on hit.\nSometimes written People's Elbow\n",
     "alternateInputs": ["d+2+3"]
   },
   {
@@ -656,7 +656,7 @@
     "block": "-5c",
     "hit": "+19a",
     "counter": "",
-    "note": "\nForces Crouching on block.\n",
+    "note": "\nForces Crouching on block.\n\n",
     "alternateInputs": ["db+2"]
   },
   {
@@ -668,7 +668,7 @@
     "block": "-14",
     "hit": "+4c",
     "counter": "+25d",
-    "note": "\nForces Crouching on normal hit.\n",
+    "note": "\nForces Crouching on normal hit.\n\n",
     "alternateInputs": ["db+3"]
   },
   {
@@ -680,7 +680,7 @@
     "block": "-17",
     "hit": "-3d",
     "counter": "+27d",
-    "note": "\nHits OTG.\nRecovers in crouch on hit.\nOtherwise recovers in FDFT.\n",
+    "note": "\nHits OTG.\nRecovers in crouch on hit.\nOtherwise recovers in FDFT.\n\n",
     "alternateInputs": ["db+4"]
   },
   {
@@ -692,7 +692,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPower Crush\nAble to tank 10 frame jab if King is -4 or less (1 frame earlier than other Power Crush)\nArmor duration is  24 frames if you let it end normally\nArmor move is cancelable into anything at frame 17\nCan be cancel into anything after chest out.\n",
+    "note": "\nAble to tank 10 frame jab if King is -4 or less (1 frame earlier than other Power Crush)\nArmor duration is  24 frames if you let it end normally\nArmor move is cancelable into anything at frame 17\nCan be cancel into anything after chest out.\n\n",
     "alternateInputs": ["db+1+2"]
   },
   {
@@ -704,7 +704,7 @@
     "block": "-9/-5",
     "hit": "+35g/+8g",
     "counter": "",
-    "note": "\nPower Crush\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block.\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 on block, +18 on wall block.\n\nElbow has no armor, and input is delayable.\nShifts to throw on front grounded hit.\n+8 on hit during heat or after heat.\nIf attack absorbed,chip damage & -5 on block.\n\n",
     "alternateInputs": ["db+1+2,2"]
   },
   {
@@ -716,7 +716,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPower Crush\nRun immediately without pointing finger.\nRun much longer to action than regular run.\nRunning has no armor if not during heat.\nCancel window is smaller than Emerald Elbow.\n",
+    "note": "\nRun immediately without pointing finger.\nRun much longer to action than regular run.\nRunning has no armor if not during heat.\nCancel window is smaller than Emerald Elbow.\n\n",
     "alternateInputs": ["db+1+2,3+4"]
   },
   {
@@ -728,7 +728,7 @@
     "block": "-8",
     "hit": "+3",
     "counter": "+3a",
-    "note": "Momentarily makes opponent airborne on CH, thus b+1,2 launches.",
+    "note": "Momentarily makes opponent airborne on CH, thus b+1,2 launches.\n",
     "alternateInputs": ["b+1"]
   },
   {
@@ -740,7 +740,7 @@
     "block": "-13",
     "hit": "+5",
     "counter": "+70a(+54)*",
-    "note": "\n\nTornado\nLaunches opponent if b+1 on CH.\n",
+    "note": "\n\nTornado\nLaunches opponent if b+1 on CH.\n\n",
     "alternateInputs": ["b+1,2"]
   },
   {
@@ -752,7 +752,7 @@
     "block": "-11",
     "hit": "+1d",
     "counter": "+18(-17)*",
-    "note": "\nCombo from 1st hit on CH.\nRecovers in FUFT.\n",
+    "note": "\nCombo from 1st hit on CH.\nRecovers in FUFT.\n\n",
     "alternateInputs": ["b+1,4"]
   },
   {
@@ -764,7 +764,7 @@
     "block": "-5",
     "hit": "+1",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+2"]
   },
   {
@@ -776,7 +776,7 @@
     "block": "-9",
     "hit": "+19a(+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit.\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit.\n\n",
     "alternateInputs": ["b+2,1"]
   },
   {
@@ -788,7 +788,7 @@
     "block": "-8",
     "hit": "+10s/+0",
     "counter": "",
-    "note": "\nShifts to throw on front grounded hit.\n",
+    "note": "\nShifts to throw on front grounded hit.\n\n",
     "alternateInputs": ["b+2,4"]
   },
   {
@@ -800,7 +800,7 @@
     "block": "+2c",
     "hit": "+22d",
     "counter": "",
-    "note": "\nForces crouching on block.\n",
+    "note": "\nForces crouching on block.\n\n",
     "alternateInputs": ["b+2,1+2"]
   },
   {
@@ -812,7 +812,7 @@
     "block": "-10/-5",
     "hit": "+39d",
     "counter": "",
-    "note": "\nPower Crush\n\nTornado \nBalcony Break\nBecomes -5 on block with chip damage if attack absorbed.\n",
+    "note": "\n\nTornado \nBalcony Break\nBecomes -5 on block with chip damage if attack absorbed.\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -824,7 +824,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nShifts to throw on front grounded hit.\nInput 1+2 before b+3 hits.\n",
+    "note": "\nShifts to throw on front grounded hit.\nInput 1+2 before b+3 hits.\n\n",
     "alternateInputs": ["b+3:1+2"]
   },
   {
@@ -836,7 +836,7 @@
     "block": "+2",
     "hit": "+14g",
     "counter": "",
-    "note": "\nBalcony Break\nShifts into backturn stance.\n",
+    "note": "\nBalcony Break\nShifts into backturn stance.\n\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -848,7 +848,7 @@
     "block": "+2c",
     "hit": "+22d",
     "counter": "",
-    "note": "\nTap 1+2 otherwise it becomes u+1+2(hold).\nForces Crouching on block.\nCan also be done by ub+1+2.\n",
+    "note": "\nTap 1+2 otherwise it becomes u+1+2(hold).\nForces Crouching on block.\nCan also be done by ub+1+2.\n\n",
     "alternateInputs": ["u+1+2"]
   },
   {
@@ -860,7 +860,7 @@
     "block": "",
     "hit": "+11d",
     "counter": "",
-    "note": "\nUnblockable mid.\nAuto switch side if fly over opponent.\nCan also be done by ub+1+2*.\n",
+    "note": "\nUnblockable mid.\nAuto switch side if fly over opponent.\nCan also be done by ub+1+2*.\n\n",
     "alternateInputs": ["u+1+2*"]
   },
   {
@@ -872,7 +872,7 @@
     "block": "-3",
     "hit": "+36a(+27)",
     "counter": "",
-    "note": "\nHoming\nBalcony Break\nCan also be done by ub+1/u+1.\n",
+    "note": "\nHoming\nBalcony Break\nCan also be done by ub+1/u+1.\n\n",
     "alternateInputs": ["uf+1"]
   },
   {
@@ -884,7 +884,7 @@
     "block": "-17c",
     "hit": "-7d/-4c",
     "counter": "",
-    "note": "\nHits OTG.\nu+2 to jump vertical, ub+2 to jump back.\nForce Crouching on block. (ub+2 also on hit)\n",
+    "note": "\nHits OTG.\nu+2 to jump vertical, ub+2 to jump back.\nForce Crouching on block. (ub+2 also on hit)\n\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -896,7 +896,7 @@
     "block": "-10",
     "hit": "-1d",
     "counter": "",
-    "note": "\nCan also be done by ub+3/u+3.\n",
+    "note": "\nCan also be done by ub+3/u+3.\n\n",
     "alternateInputs": ["uf+3"]
   },
   {
@@ -908,7 +908,7 @@
     "block": "-13",
     "hit": "+33a(+23)",
     "counter": "",
-    "note": "\nCan also be done by u+4.\n",
+    "note": "\nCan also be done by u+4.\n\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -920,7 +920,7 @@
     "block": "-13",
     "hit": "+32a(+22)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["uf,n,4"]
   },
   {
@@ -932,7 +932,7 @@
     "block": "-13",
     "hit": "+19a(+9)",
     "counter": "+33a(+23)",
-    "note": "\nJump straight up knee, very short range.\n",
+    "note": "\nJump straight up knee, very short range.\n\n",
     "alternateInputs": ["ub+4"]
   },
   {
@@ -944,7 +944,7 @@
     "block": "-12/-7",
     "hit": "+25g",
     "counter": "",
-    "note": "\nPower Crush\n\nTornado\nBecomes -7 on block with chip damage if attack absorbed.\nShifts to JGR on hit (Hold b to cancel shift).\n",
+    "note": "\n\nTornado\nIf absorbs attack, -7 on block & chip damage.\nShifts to JGR on hit (Hold b to cancel shift).\n\n",
     "alternateInputs": ["uf+3+4"]
   },
   {
@@ -956,7 +956,7 @@
     "block": "-13",
     "hit": "+7s/(0d)",
     "counter": "",
-    "note": "\nhigh crush\nShifts to throw on front grounded CH.\nHits OTG.\n",
+    "note": "\nShifts to throw on front grounded CH.\nHits OTG.\n\n",
     "alternateInputs": ["f,f,n,2"]
   },
   {
@@ -968,7 +968,7 @@
     "block": "+0",
     "hit": "+7s",
     "counter": "+18s",
-    "note": "\nForces Standing on hit.\nAllows follow up on CH.\n",
+    "note": "\nForces Standing on hit.\nAllows follow up on CH.\n\n",
     "alternateInputs": ["f,f,n,1+2"]
   },
   {
@@ -980,7 +980,7 @@
     "block": "-5",
     "hit": "+14g",
     "counter": "+38d",
-    "note": "\n\nHoming\n\nBalcony Break\n",
+    "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": ["f,F,1"]
   },
   {
@@ -992,7 +992,7 @@
     "block": "0c",
     "hit": "+12c",
     "counter": "",
-    "note": "\nForces crouching on block and hit.\nAllow crouching throw on hit.\nChip damage on block.\n",
+    "note": "\nForces crouching on block and hit.\nAllow crouching throw on hit.\nChip damage on block.\n\n",
     "alternateInputs": ["f,F,2"]
   },
   {
@@ -1004,7 +1004,7 @@
     "block": "-15",
     "hit": "+14a(+4)",
     "counter": "+1d",
-    "note": "\n\nTornado\n\nBalcony Break\nShifts to throw on front grounded CH.\n",
+    "note": "\n\nTornado\n\nBalcony Break\nShifts to throw on front grounded CH.\n\n",
     "alternateInputs": ["f,F,4"]
   },
   {
@@ -1016,7 +1016,7 @@
     "block": "0/+2c",
     "hit": "+24d(-34)",
     "counter": "",
-    "note": "\nBalcony Break\nChip damage on block. (extra near wall)\nForces Crouching on block when near wall.\nRecovers FUFT on whiff.\n",
+    "note": "\nBalcony Break\nChip damage on block. (extra near wall)\nForces Crouching on block when near wall.\nRecovers FUFT on whiff.\n\n",
     "alternateInputs": ["f,F,3+4"]
   },
   {
@@ -1028,7 +1028,7 @@
     "block": "-16c~+2c",
     "hit": "-19c~+3c/-5d",
     "counter": "",
-    "note": "\nForces crouching on block and hit.\nThrow when hit standing in front close range.\n",
+    "note": "\nForces crouching on block and hit.\nThrow when hit standing in front close range.\n\n",
     "alternateInputs": ["f,F,2+3"]
   },
   {
@@ -1040,7 +1040,7 @@
     "block": "+3",
     "hit": "+30(+22)",
     "counter": "",
-    "note": "\nBalcony Break\nChip damage on block.\n",
+    "note": "\nBalcony Break\nChip damage on block.\n\n",
     "alternateInputs": ["f,f,F,3 / wr3"]
   },
   {
@@ -1052,7 +1052,7 @@
     "block": "+17",
     "hit": "+32d(-26)",
     "counter": "",
-    "note": "\nBalcony Break\n",
+    "note": "\nBalcony Break\n\n",
     "alternateInputs": ["f,f,F,3+4 / wr3+4"]
   },
   {
@@ -1064,7 +1064,7 @@
     "block": "-12",
     "hit": "+73a(+57)",
     "counter": "",
-    "note": "\nHigh Crush\nCan also be done by f,n,d,DF+1/CD.1.\nTornado on grounded hit.\n",
+    "note": "\nCan also be done by f,n,d,DF+1/CD.1.\nTornado on grounded hit.\n\n",
     "alternateInputs": ["FC df+1/CD 1"]
   },
   {
@@ -1076,7 +1076,7 @@
     "block": "-14",
     "hit": "+56d",
     "counter": "",
-    "note": "\nCrumple on hit.\n",
+    "note": "\nCrumple on hit.\n\n",
     "alternateInputs": ["FC df+2"]
   },
   {
@@ -1088,7 +1088,7 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\nHits OTG.\nCan also be done by FC.db+3.\nGet extra range by FC.df+3/CD.3.\n",
+    "note": "\nHits OTG.\nCan also be done by FC.db+3.\nGet extra range by FC.df+3/CD.3.\n\n",
     "alternateInputs": ["FC d+3"]
   },
   {
@@ -1100,7 +1100,7 @@
     "block": "-3",
     "hit": "+4s",
     "counter": "",
-    "note": "\nActs like 11 frame attack.\nForces Standing on hit.\n",
+    "note": "\nActs like 11 frame attack.\nForces Standing on hit.\n\n",
     "alternateInputs": ["ws1"]
   },
   {
@@ -1112,7 +1112,7 @@
     "block": "-9",
     "hit": "+1s",
     "counter": "",
-    "note": "\n\nHoming\nForces Standing on hit.\n",
+    "note": "\n\nHoming\nForces Standing on hit.\n\n",
     "alternateInputs": ["ws2"]
   },
   {
@@ -1124,7 +1124,7 @@
     "block": "-12",
     "hit": "+12g",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\nCombo from 1st hit.\n",
+    "note": "\n\nHoming\n\nBalcony Break\nCombo from 1st hit.\n\n",
     "alternateInputs": ["ws2,2"]
   },
   {
@@ -1136,7 +1136,7 @@
     "block": "0",
     "hit": "+22a(+12)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["ws3"]
   },
   {
@@ -1148,7 +1148,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["ws4"]
   },
   {
@@ -1160,7 +1160,7 @@
     "block": "-10",
     "hit": "+35a(+25)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["ws1+2"]
   },
   {
@@ -1172,7 +1172,7 @@
     "block": "-13",
     "hit": "+9s",
     "counter": "+50d",
-    "note": "\nHits OTG.\nForces standing on normal hit.\nCrumple on CH for full combo.\n",
+    "note": "\nHits OTG.\nForces standing on normal hit.\nCrumple on CH for full combo.\n\n",
     "alternateInputs": ["BT 3"]
   },
   {
@@ -1184,7 +1184,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nFloor Break\nThrow when hit standing in front close range.\nJust frame input.\n",
+    "note": "\n\nFloor Break\nThrow when hit standing in front close range.\nJust frame input.\n\n",
     "alternateInputs": ["BT 3:1+2"]
   },
   {
@@ -1196,7 +1196,7 @@
     "block": "",
     "hit": "+2d",
     "counter": "",
-    "note": "\nUnblockable high attack.\n",
+    "note": "\nUnblockable high attack.\n\n",
     "alternateInputs": ["BT 1+2"]
   },
   {
@@ -1208,7 +1208,7 @@
     "block": "",
     "hit": "+6d",
     "counter": "",
-    "note": "\nUnblockable mid attack.\n",
+    "note": "\nUnblockable mid attack.\n\n",
     "alternateInputs": ["BT 1+4"]
   },
   {
@@ -1220,7 +1220,7 @@
     "block": "-14",
     "hit": "-2d",
     "counter": "+28d",
-    "note": "\nLow Crush\nRecovers in FDFT on block and whiff.\nAlso can be done in backturn crouch.\n",
+    "note": "\nRecovers in FDFT on block and whiff.\nAlso can be done in backturn crouch.\n\n",
     "alternateInputs": ["BT d+4"]
   },
   {
@@ -1232,7 +1232,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nJaguar Step away from the oppponent while keeping backturn stance on recovery.\nCan cancel into BT.1+2 / BT.1+4 unblockable.\nCan hold 3+4 to keep spinning.\nCannot Reverse Jaguar Step.\n",
+    "note": "\nJaguar Step away from the oppponent while keeping backturn stance on recovery.\nCan cancel into BT.1+2 / BT.1+4 unblockable.\nCan hold 3+4 to keep spinning.\nCannot Reverse Jaguar Step.\n\n",
     "alternateInputs": ["BT 3+4"]
   },
   {
@@ -1244,7 +1244,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHop over low attacks.\nHold to continue spinning and power up strikes, but King doesn't change direction.\nKing gets dizzy and falls after 6th spin.\n",
+    "note": "\nHop over low attacks.\nHold to continue spinning and power up strikes, but King doesn't change direction.\nKing gets dizzy and falls after 6th spin.\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -1256,7 +1256,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHop over low attacks.\nCannot be held to continue spinning.\n",
+    "note": "\nHop over low attacks.\nCannot be held to continue spinning.\n\n",
     "alternateInputs": ["b+3+4"]
   },
   {
@@ -1268,7 +1268,7 @@
     "block": "-7/-1",
     "hit": "+47d/+53d",
     "counter": "",
-    "note": "\nCrumple on hit.\nOn block / hit / startup increases up to 2nd spin.\nDamage increase up to 3rd spin.\n",
+    "note": "\nCrumple on hit.\nOn block / hit / startup increases up to 2nd spin.\nDamage increase up to 3rd spin.\n\n",
     "alternateInputs": ["JGS 1"]
   },
   {
@@ -1280,7 +1280,7 @@
     "block": "-9/-2/0c",
     "hit": "+12c",
     "counter": "",
-    "note": "\nForces Crouching on hit.\nForces Crouching on block from 3rd spin on.\nDamage increase up to 3rd spin.\n",
+    "note": "\nForces Crouching on hit.\nForces Crouching on block from 3rd spin on.\nDamage increase up to 3rd spin.\n\n",
     "alternateInputs": ["JGS 2"]
   },
   {
@@ -1292,7 +1292,7 @@
     "block": "-5/-1",
     "hit": "+21a(+12)/+25a(+16)",
     "counter": "",
-    "note": "\nBalcony Break\nOn block / hit increases up to 2nd spin.\nDamage increase up to 3rd spin.\n",
+    "note": "\nBalcony Break\nOn block / hit increases up to 2nd spin.\nDamage increase up to 3rd spin.\n\n",
     "alternateInputs": ["JGS 3"]
   },
   {
@@ -1304,7 +1304,7 @@
     "block": "-16c~+2c",
     "hit": "-19c~+3c/-5d",
     "counter": "",
-    "note": "\nThrow when hit standing in front close range.\nDoesn't combo from JGS.3, but trades with 10 frame jab.\nProperties not changed with extra spins.\n",
+    "note": "\nThrow when hit standing in front close range.\nDoesn't combo from JGS.3, but trades with 10 frame jab.\nProperties not changed with extra spins.\n\n",
     "alternateInputs": ["JGS 3,2+3"]
   },
   {
@@ -1316,7 +1316,7 @@
     "block": "+8/+15",
     "hit": "+5a(-4)/+10a(+1)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block.\n\nGuard Break (From 2nd spin on)\nOn block / hit increases up to 2nd spin.\nDamage increase up to 3rd spin.\n",
+    "note": "\n\nBalcony Break\nChip damage on block.\n\nGuard Break (From 2nd spin on)\nOn block / hit increases up to 2nd spin.\nDamage increase up to 3rd spin.\n\n",
     "alternateInputs": ["JGS 4"]
   },
   {
@@ -1328,7 +1328,7 @@
     "block": "-16/+8",
     "hit": "+5a(-4)",
     "counter": "",
-    "note": "\nBalcony Break\nOn block increases up to 2nd spin.\nDamage increase up to 3rd spin.\n",
+    "note": "\nBalcony Break\nOn block increases up to 2nd spin.\nDamage increase up to 3rd spin.\n\n",
     "alternateInputs": ["JGS df+4"]
   },
   {
@@ -1340,7 +1340,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHold b to stop. Gains armor during Heat.\nPartially uses remaining Heat time (same for uf+3+4 / db+1+2,3+4 / b+1+2 ).\n",
+    "note": "\nHold b to stop running, able to block high.\nGains armor during Heat.\nPartially uses remaining Heat time (same for uf+3+4 / db+1+2,3+4 / b+1+2 ).\n\n",
     "alternateInputs": ["f+3+4"]
   },
   {
@@ -1352,7 +1352,7 @@
     "block": "-8",
     "hit": "+39d/+75a(+59)",
     "counter": "",
-    "note": "\nIn heat it becomes Tornado on grounded hit.\nPartially uses remaining Heat time.\n",
+    "note": "\nIn heat it becomes Tornado on grounded hit.\nPartially uses remaining Heat time.\n\n",
     "alternateInputs": ["JGin rage 1"]
   },
   {
@@ -1364,7 +1364,7 @@
     "block": "+3/+6/+18c",
     "hit": "+4d",
     "counter": "",
-    "note": "\nChip damage on block.\nIn heat it becomes +6 on block, and forces crouching +18 near wall.\nPartially uses remaining Heat time.\n",
+    "note": "\nChip damage on block.\nIn heat it becomes +6 on block, and forces crouching +18 near wall.\nPartially uses remaining Heat time.\n\n",
     "alternateInputs": ["JGin rage 2"]
   },
   {
@@ -1376,7 +1376,7 @@
     "block": "-9",
     "hit": "+11d(+1)",
     "counter": "",
-    "note": "\nLow Crush\n\nBalcony Break\n\nHoming\n",
+    "note": "\n\nBalcony Break\n\nHoming\n\n",
     "alternateInputs": ["JGin rage 3"]
   },
   {
@@ -1388,7 +1388,7 @@
     "block": "-21",
     "hit": "+0c",
     "counter": "",
-    "note": "\nLow Crush\nForces Crouching on hit.\n",
+    "note": "\nForces Crouching on hit.\n\n",
     "alternateInputs": ["JGin rage 4"]
   },
   {
@@ -1400,7 +1400,7 @@
     "block": "-16c~+2c",
     "hit": "-19c~+3c/-5d",
     "counter": "",
-    "note": "\nThrow when hit standing in front close range.\n",
+    "note": "\nThrow when hit standing in front close range.\n\n",
     "alternateInputs": ["JGin rage 2+3"]
   },
   {
@@ -1412,7 +1412,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n",
+    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["JGin rage 1+3_2+4"]
   },
   {
@@ -1424,7 +1424,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nDuck high while moving forward.\nInput f,n,d,df,f+(button) for instant ws moves.\n1st f cannot be held more than 10 frames.\n",
+    "note": "\nDuck high while moving forward.\nInput f,n,d,df,f+(button) for instant ws moves.\n1st f cannot be held more than 10 frames.\n\n",
     "alternateInputs": ["f,n,d,df"]
   },
   {
@@ -1436,7 +1436,7 @@
     "block": "-12",
     "hit": "+73a(+57)",
     "counter": "",
-    "note": "\nHigh Crush\nCan also be done by f,n,d,DF+1/CD.1.\nTornado on grounded hit.\n",
+    "note": "\nCan also be done by f,n,d,DF+1/CD.1.\nTornado on grounded hit.\n\n",
     "alternateInputs": ["FC df+1/CD 1"]
   },
   {
@@ -1448,7 +1448,7 @@
     "block": "-9",
     "hit": "+49a(+18)",
     "counter": "+53d",
-    "note": "\nSpecial down state that allows low juggle (on normal hit).\nCrumple on CH for full combo.\n",
+    "note": "\nSpecial down state that allows low juggle (on normal hit).\nCrumple on CH for full combo.\n\n",
     "alternateInputs": ["f,n,d,DF+4/CD 4"]
   },
   {
@@ -1460,7 +1460,7 @@
     "block": "-5",
     "hit": "+16d",
     "counter": "+52d",
-    "note": "\nBalcony Break\nHits OTG.\nBounce off ground on CH for full combo.\n",
+    "note": "\nBalcony Break\nHits OTG.\nBounce off ground on CH for full combo.\n\n",
     "alternateInputs": ["f,n,d,DF+1+2 / CD 1+2"]
   },
   {
@@ -1472,7 +1472,7 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "\nArmor all attacks and ignore throws.\nBeat all armor including Rage Art.\nErases opponent's recoverable health on hit.\nDamage distribution are 10,3,25,10,7, only adds 2 damage on CH.\n",
+    "note": "\nArmor all attacks and ignore throws.\nBeat all armor including Rage Art.\nErases opponent's recoverable health on hit.\nDamage distribution are 10,3,25,10,7, only adds 2 damage on CH.\n\n",
     "alternateInputs": ["in rage df+1+2"]
   },
   {
@@ -1484,7 +1484,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTakes some time to charge and can cancel into anything.\nAfter charged next hit by either side becomes counter hit.\n",
+    "note": "\nTakes some time to charge and can cancel into anything.\nAfter charged next hit by either side becomes counter hit.\n\n",
     "alternateInputs": ["1+2+3+4"]
   },
   {
@@ -1496,7 +1496,7 @@
     "block": "-8",
     "hit": "+2 / +15",
     "counter": "",
-    "note": "\nAirborne from 5F, invincibility from 8 to 13F.\nUnbreakable throw near wall, becomes air attack if throw not connected.\nSide switch. Opponent recovers in FUFA.\n",
+    "note": "\nAirborne from 5F, invincibility from 8 to 13F.\nUnbreakable throw near wall, becomes air attack if throw not connected.\nSide switch. Opponent recovers in FUFA.\n\n",
     "alternateInputs": ["WallBack b,b,ub"]
   },
   {
@@ -1508,7 +1508,7 @@
     "block": "",
     "hit": "+51a(+35)",
     "counter": "",
-    "note": "\nGeneric low parry.\nTornado affect on success.\n",
+    "note": "\nGeneric low parry.\nTornado affect on success.\n\n",
     "alternateInputs": ["DF"]
   },
   {
@@ -1520,7 +1520,7 @@
     "block": "",
     "hit": "+2d",
     "counter": "",
-    "note": "\nFloor Break\nParry opponent's right punch.\nSide Switch. Opponent recovers in FUFR.\n",
+    "note": "\nFloor Break\nParry opponent's right punch.\nSide Switch. Opponent recovers in FUFR.\n\n",
     "alternateInputs": ["b+1+3"]
   },
   {
@@ -1532,7 +1532,7 @@
     "block": "",
     "hit": "+24d",
     "counter": "",
-    "note": "\nParry opponent's left kick.\nSide Switch. Opponent recovers in FUFL.\n",
+    "note": "\nParry opponent's left kick.\nSide Switch. Opponent recovers in FUFL.\n\n",
     "alternateInputs": ["b+2+4"]
   },
   {
@@ -1544,7 +1544,7 @@
     "block": "",
     "hit": "+27d(+1d)",
     "counter": "",
-    "note": "\nParry opponent's right kick.\nJust frame input right before camera returns to normal position to deal extra damage.\nOpponent recovers in FUFT.\n",
+    "note": "\nParry opponent's right kick.\nJust frame input right before camera returns to normal position to deal extra damage.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["b+2+4:3+4"]
   },
   {
@@ -1556,7 +1556,7 @@
     "block": "-5",
     "hit": "+18a(+9)",
     "counter": "",
-    "note": "\nBalcony Break\n",
+    "note": "\nBalcony Break\n\n",
     "alternateInputs": ["ss2"]
   },
   {
@@ -1568,7 +1568,7 @@
     "block": "0",
     "hit": "+0d",
     "counter": "",
-    "note": "\nDeals a lot of chip damage on block.\nTracks side steps.\nSide Step Left is 6 frames faster than SS Right.\n",
+    "note": "\nDeals a lot of chip damage on block.\nTracks side steps.\nSide Step Left is 6 frames faster than SS Right.\n\n",
     "alternateInputs": ["ss3+4"]
   },
   {
@@ -1580,7 +1580,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nSide Step that ducks high and covers long distance quickly, recovers in crouch.\nInput by u/d,n,n+2+4,b/db.\n",
+    "note": "\nSide Step that ducks high and covers long distance quickly, recovers in crouch.\nInput by u/d,n,n+2+4,b/db.\n\n",
     "alternateInputs": ["ss2+4,b/db"]
   },
   {
@@ -1592,7 +1592,7 @@
     "block": "-25",
     "hit": "+4a(-6)",
     "counter": "",
-    "note": "\nBalcony Break\nFaster than normal spring kick and knocks down.\n",
+    "note": "\nBalcony Break\nFaster than normal spring kick and knocks down.\n\n",
     "alternateInputs": ["FUFT b+3+4"]
   },
   {
@@ -1604,7 +1604,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break.\nInput f+1+3 to increase throw range, but its startup is 3 frames slower.\nOpponent recovers in FUFA.\n",
+    "note": "\n1 or 2 throw break.\nInput f+1+3 to increase throw range, but its startup is 3 frames slower.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["1+3 / f+1+3"]
   },
   {
@@ -1616,7 +1616,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break.\nInput f+2+4 to increase throw range, but its startup is 3 frames slower.\nSide switch. Opponent recovers in FUFA.\n",
+    "note": "\n1 or 2 throw break.\nInput f+2+4 to increase throw range, but its startup is 3 frames slower.\nSide switch. Opponent recovers in FUFA.\n\n",
     "alternateInputs": ["2+4 / f+2+4"]
   },
   {
@@ -1628,7 +1628,7 @@
     "block": "",
     "hit": "+19d(-7) / +17d(-13)",
     "counter": "",
-    "note": "\n1+2 throw break.\nHold b to throw backwards.\nDamage becomes 15 on wall splat.\nOpponent recovers in FUFT.\n",
+    "note": "\n1+2 throw break.\nHold b to throw backwards.\nDamage becomes 15 on wall splat.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["uf+1+2 / uf+1+2,B"]
   },
   {
@@ -1640,7 +1640,7 @@
     "block": "",
     "hit": "+36d",
     "counter": "",
-    "note": "\n1 throw break.\nAny throw on standing opponent's left side.\nSide switch. Opponent recovers in FUFR.\n",
+    "note": "\n1 throw break.\nAny throw on standing opponent's left side.\nSide switch. Opponent recovers in FUFR.\n\n",
     "alternateInputs": ["(Left side throw)"]
   },
   {
@@ -1652,7 +1652,7 @@
     "block": "",
     "hit": "+21d",
     "counter": "",
-    "note": "\n2 throw break.\nAny throw on standing opponent's right side.\nOpponent recovers in FUFT.\n",
+    "note": "\n2 throw break.\nAny throw on standing opponent's right side.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["(Right side throw)"]
   },
   {
@@ -1664,7 +1664,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nCannot throw break.\nAny 1/1+2 break throw behind opponent's back, as well as RKO and chain throws.\nSide switch. Opponent recovers in FDFL.\n",
+    "note": "\nCannot throw break.\nAny 1/1+2 break throw behind opponent's back, as well as RKO and chain throws.\nSide switch. Opponent recovers in FDFL.\n\n",
     "alternateInputs": ["(Behind 1 throw)"]
   },
   {
@@ -1676,7 +1676,7 @@
     "block": "",
     "hit": "-1d",
     "counter": "",
-    "note": "\nCannot throw break.\nAny 2 break throw behind opponent's back except chain throws.\nSide switch? Opponent recovers in FDFL.\n",
+    "note": "\nCannot throw break.\nAny 2 break throw behind opponent's back except chain throws.\nSide switch? Opponent recovers in FDFL.\n\n",
     "alternateInputs": ["(Behind 2 throw)"]
   },
   {
@@ -1688,7 +1688,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n2 throw break.\nOpponent recovers in FUFT.\n",
+    "note": "\n2 throw break.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["df+2+3"]
   },
   {
@@ -1700,7 +1700,7 @@
     "block": "",
     "hit": "+1d / 0d",
     "counter": "",
-    "note": "\n1+2 throw break.\nJust frame input 3+4 when the last hit connects, reverse 26 damage back to King.\nOpponent recovers in FUFT / FDFT.\n",
+    "note": "\n1+2 throw break.\nJust frame input 3+4 when the last hit connects, reverse 26 damage back to King.\nOpponent recovers in FUFT / FDFT.\n\n",
     "alternateInputs": ["db+2+3"]
   },
   {
@@ -1712,7 +1712,7 @@
     "block": "",
     "hit": "+14g / -2",
     "counter": "",
-    "note": "\n1+2 throw break. Side switch.\nDamage becomes 15 on wall splat.\nShifts to JGR, input f,F / b,B to cancel shift.\n",
+    "note": "\n1+2 throw break. Side switch.\nDamage becomes 15 on wall splat.\nShifts to JGR, input f,F / b,B to cancel shift.\n\n",
     "alternateInputs": ["b+1+2(,f,F)"]
   },
   {
@@ -1724,7 +1724,7 @@
     "block": "",
     "hit": "+11g / -6",
     "counter": "",
-    "note": "\n1+2 throw break.\nDamage becomes 15 on wall splat.\nShifts to JGR, input f,F / b,B to cancel shift.\n",
+    "note": "\n1+2 throw break.\nDamage becomes 15 on wall splat.\nShifts to JGR, input f,F / b,B to cancel shift.\n\n",
     "alternateInputs": ["b+1+2,1+2(,f,F)"]
   },
   {
@@ -1736,7 +1736,7 @@
     "block": "",
     "hit": "-1d",
     "counter": "",
-    "note": "\nFloor Break\n2 throw break.\nCan also be done by qcb,n,f+2+4 / b,db,d,n,f+2+4.\nOpponent recovers in FUFA.\n",
+    "note": "\nFloor Break\n2 throw break. Can also be done by qcb,n,f+2+4 / b,db,d,n,f+2+4.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["db,n,f+2+4"]
   },
   {
@@ -1748,20 +1748,20 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nFloor Break\n1+2 throw break. Side switch.\nKing recovers in backturn stance.\nPartially restores remaining Heat time.\nOpponent recovers in FUFA.\n",
+    "note": "\nFloor Break\n1+2 throw break. Side switch.\nKing recovers in backturn stance.\nPartially restores remaining Heat time.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["qcb+1+2"]
   },
   {
     "name": "Tomahawk (Shining Wizard)",
-    "input": "f,f,F+2+4",
+    "input": "f,f,F+2",
     "hit_level": "t",
     "damage": "40(45)",
     "startup": "i10",
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1+2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFL.\n",
-    "alternateInputs": ["f,f,F+2+4"]
+    "note": "\n1+2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFL.\n\n",
+    "alternateInputs": ["f,f,F+2"]
   },
   {
     "name": "Giant Swing",
@@ -1772,7 +1772,7 @@
     "block": "",
     "hit": "-22d(-50)",
     "counter": "",
-    "note": "\n1 throw break. Side switch.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nMash 1/2/3/4 to roll in midscreen to reduce 20 damage, on wall splat damage is 70.\nOpponent recovers in FUFT if fails to roll.\n",
+    "note": "\n1 throw break. Side switch.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nMash 1/2/3/4 to roll in midscreen to reduce 20 damage, on wall splat damage is 70.\nOpponent recovers in FUFT if fails to roll.\n\n",
     "alternateInputs": ["f,hcf+1"]
   },
   {
@@ -1784,7 +1784,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nf,b,d,f are required, so it can be done by f,b,db,d(,n),f+2. (same for Giant Swing)\nOpponent recovers in FUFL.\n",
+    "note": "\n2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nf,b,d,f are required, so it can be done by f,b,db,d(,n),f+2. (same for Giant Swing)\nOpponent recovers in FUFL.\n\n",
     "alternateInputs": ["f,hcf+2"]
   },
   {
@@ -1796,11 +1796,11 @@
     "block": "",
     "hit": "+8d",
     "counter": "",
-    "note": "\n1 throw break.\nOpponent recovers in FUFT.\n",
+    "note": "\n1 throw break.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["qcf+1"]
   },
   {
-    "name": "Doulbe Arm Face Buster (from PD)",
+    "name": "Double Arm Face Buster (from PD)",
     "input": "PD 1+2,1+2",
     "hit_level": "t",
     "damage": "35",
@@ -1808,7 +1808,7 @@
     "block": "",
     "hit": "-14d",
     "counter": "",
-    "note": "\nFloor Break\n2 throw break. (when legs lifted to the top)\nOpponent recovers in FDFA.\n",
+    "note": "\nFloor Break\n2 throw break. (when legs lifted to the top)\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["PD 1+2,1+2"]
   },
   {
@@ -1820,11 +1820,11 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1+2 throw break. (when legs lifted to the top)\nCould use ki charge button for 1+2 input.\nOpponent recovers in FDFL.\n",
+    "note": "\n1+2 throw break. (when legs lifted to the top)\nCould use ki charge button for 1+2 input.\nOpponent recovers in FDFL.\n\n",
     "alternateInputs": ["PD 1+2,3,4,1+2"]
   },
   {
-    "name": "Clothesline Press",
+    "name": "Clothesline Press (Rock Bottom)",
     "input": "FC db,d,db+1+2",
     "hit_level": "t",
     "damage": "45",
@@ -1832,7 +1832,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nFloor Break\n1+2 throw break.\nOpponent recovers in FUFR.\n",
+    "note": "\nFloor Break\n1+2 throw break.\nOpponent recovers in FUFR.\n\n",
     "alternateInputs": ["FC db,d,db+1+2"]
   },
   {
@@ -1844,7 +1844,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nFloor Break\nCannot throw break.\nOpponent recovers FUFR.\n",
+    "note": "\nFloor Break\nCannot throw break.\nOpponent recovers FUFR.\n\n",
     "alternateInputs": ["Behind b,f+1+2"]
   },
   {
@@ -1856,7 +1856,7 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "\n1+2 throw break (except from behind).\nCatches standing and crouching opponent from all directions.\n",
+    "note": "\n1+2 throw break (except from behind).\nCatches standing and crouching opponent from all directions.\n\n",
     "alternateInputs": ["FC 1+2"]
   },
   {
@@ -1868,7 +1868,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nCould be any 1/2 combination (e.g. 1,1,1,1 / 1,2,2,1)\nThrow break the 1st/4th hit by input the opposite to King's 1st/4th button.\n",
+    "note": "\nCould be any 1/2 combination (e.g. 1,1,1,1 / 1,2,2,1)\nThrow break the 1st/4th hit by input the opposite to King's 1st/4th button.\n\n",
     "alternateInputs": ["UT,2,1,2,1"]
   },
   {
@@ -1880,7 +1880,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1+2 throw break.\nCan also input at 3rd hit of Ultimate Punch.\nOpponent recovers in FUFR.\n",
+    "note": "\n1+2 throw break.\nCan also input at 3rd hit of Ultimate Punch.\nOpponent recovers in FUFR.\n\n",
     "alternateInputs": ["UT,1+2"]
   },
   {
@@ -1892,7 +1892,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nOpponent recovers in FUFA.\n",
+    "note": "\nCannot throw break.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["UT,1+2,1+2"]
   },
   {
@@ -1904,7 +1904,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n3+4 throw break.\nCan also input at 3rd hit of Ultimate Punch.\nOpponent recovers in FUFR.\n",
+    "note": "\n3+4 throw break.\nCan also input at 3rd hit of Ultimate Punch.\nOpponent recovers in FUFR.\n\n",
     "alternateInputs": ["UT,3+4"]
   },
   {
@@ -1916,7 +1916,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nJust frame input.\nCannot throw break.\nOpponent recovers in FDFL.\n",
+    "note": "\nJust frame input.\nCannot throw break.\nOpponent recovers in FDFL.\n\n",
     "alternateInputs": ["UT,3+4:1+2"]
   },
   {
@@ -1928,7 +1928,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nFloor Break\nCrouch throw, cannot throw break.\nCan also be done by db+1+3 and in FC too.\nOpponent recovers in FDFA.\n",
+    "note": "\nFloor Break\nCrouch throw, cannot throw break.\nCan also be done by db+1+3 and in FC too.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["d+1+3"]
   },
   {
@@ -1940,11 +1940,11 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nFloor Break\nCrouch throw, cannot throw break.\nCan also be done by db+2+4 and in FC too.\nOpponent recovers in FUFA.\n",
+    "note": "\nFloor Break\nCrouch throw, cannot throw break.\nCan also be done by db+2+4 and in FC too.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["d+2+4"]
   },
   {
-    "name": "Freedom Face Buster",
+    "name": "Freedom Face Buster (Pedigree)",
     "input": "d+1+4",
     "hit_level": "t(c)",
     "damage": "35",
@@ -1952,7 +1952,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.Opponent recovers in FDFA.\n",
+    "note": "\n\nHeat Engager\n\nCrouch throw, cannot throw break.\nCan also be done by db+1+4 and in FC too.\nRestores some Heat Gauge in Heat.\nCannot heat dash.Opponent recovers in FDFA.\n\n",
     "alternateInputs": ["d+1+4"]
   },
   {
@@ -1964,7 +1964,7 @@
     "block": "",
     "hit": "+1d(-40)",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nMash 1/2/3/4 to roll in midscreen to reduce 10 damage, on wall splat damage is 35.\nOpponent recovers in FUFT if fails to roll.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nMash 1/2/3/4 to roll in midscreen to reduce 10 damage, on wall splat damage is 35.\nOpponent recovers in FUFT if fails to roll.\n\n",
     "alternateInputs": ["FUFT db+1+3_2+4"]
   },
   {
@@ -1976,7 +1976,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nFloor Break\n1 throw break.\nOpponent recovers in FUFT.\n",
+    "note": "\nFloor Break\n1 throw break.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["FUFT DB+1+3"]
   },
   {
@@ -1988,7 +1988,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break.\nOpponent recovers in FUFT.\n",
+    "note": "\n2 throw break.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["FUFT DB+2+4"]
   },
   {
@@ -2000,7 +2000,7 @@
     "block": "",
     "hit": "+22d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nSide Switch.\nOpponent recovers in FDFL.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nSide Switch.\nOpponent recovers in FDFL.\n\n",
     "alternateInputs": ["FDFT db+1+3_2+4"]
   },
   {
@@ -2012,7 +2012,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FUFR.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FUFR.\n\n",
     "alternateInputs": ["FUFA db+1+3_2+4"]
   },
   {
@@ -2024,7 +2024,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFA.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["FDFA db+1+3_2+4"]
   },
   {
@@ -2036,7 +2036,7 @@
     "block": "",
     "hit": "+25d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFL/FDFR.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFL/FDFR.\n\n",
     "alternateInputs": ["FUFL db+1+3_2+4/ FUFin rage db+1+3_2+4"]
   },
   {
@@ -2048,7 +2048,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nSide Switch.\nOpponent recovers in FDFL.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nSide Switch.\nOpponent recovers in FDFL.\n\n",
     "alternateInputs": ["FDFin rage db+1+3_2+4"]
   },
   {
@@ -2060,7 +2060,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFL.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFL.\n\n",
     "alternateInputs": ["FDFL db+1+3_2+4"]
   },
   {
@@ -2072,7 +2072,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nCannot throw break.\nInput f+1+3 to increase throw range, but its startup is 3 frames slower.\nOpponent recovers in FDFT.\n",
+    "note": "\nCannot throw break.\nInput f+1+3 to increase throw range, but its startup is 3 frames slower.\nOpponent recovers in FDFT.\n\n",
     "alternateInputs": ["AIin rage 1+3 / AIin rage f+1+3"]
   },
   {
@@ -2084,7 +2084,7 @@
     "block": "",
     "hit": "+40d(+35)",
     "counter": "",
-    "note": "\nTornado\nCannot throw break.\nInput f+2+4 to increase throw range, but its startup is 3 frames slower.\nOpponent recovers in FUFT.\n",
+    "note": "\nTornado\nCannot throw break.\nInput f+2+4 to increase throw range, but its startup is 3 frames slower.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["AIin rage 2+4 / AIin rage f+2+4"]
   },
   {
@@ -2096,7 +2096,7 @@
     "block": "",
     "hit": "-5d",
     "counter": "",
-    "note": "\nCannot throw break.\nOpponent recovers in FDFL.\n",
+    "note": "\nCannot throw break.\nOpponent recovers in FDFL.\n\n",
     "alternateInputs": ["AIin rage d+1+3_2+4"]
   },
   {
@@ -2108,7 +2108,7 @@
     "block": "",
     "hit": "-3d",
     "counter": "",
-    "note": "\n1 throw break.\nOpponent recovers in FDFT.\n",
+    "note": "\n1 throw break.\nOpponent recovers in FDFT.\n\n",
     "alternateInputs": ["DHin heat 1+2,1+2"]
   },
   {
@@ -2120,7 +2120,7 @@
     "block": "",
     "hit": "-7d(-40)",
     "counter": "",
-    "note": "\n2 throw break.\nMash 1/2/3/4 to roll in midscreen to reduce damage, on wall splat damage is 32.\nOpponent recovers in FUFT if fails to roll.\n",
+    "note": "\n2 throw break.\nMash 1/2/3/4 to roll in midscreen to reduce damage, on wall splat damage is 32.\nOpponent recovers in FUFT if fails to roll.\n\n",
     "alternateInputs": ["DHin heat 2,1,3,4"]
   },
   {
@@ -2132,7 +2132,7 @@
     "block": "",
     "hit": "+4d",
     "counter": "",
-    "note": "\nFloor Break\nCannot throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFT.\n",
+    "note": "\nFloor Break\nCannot throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["AIin rage f,f,F+2+4"]
   },
   {
@@ -2144,7 +2144,7 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "\nFloor Break\nCannot throw break.\nAlso by JGR.1+3 against airborne opponent.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFT.\n",
+    "note": "\nFloor Break\nCannot throw break.\nAlso by JGR.1+3 against airborne opponent.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["AIin rage f,hcf+1_2"]
   },
   {
@@ -2156,7 +2156,7 @@
     "block": "",
     "hit": "-5d",
     "counter": "",
-    "note": "\nCannot throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFR.\n",
+    "note": "\nCannot throw break. Also converts from RKO.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFR.\n\n",
     "alternateInputs": ["WALL f,hcf+1 / WALL f,f,F+2+4"]
   },
   {
@@ -2168,7 +2168,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1 throw break. Side Switch.\nVery slow crouch dash then grab.\nOpponent recovers in FUFA.\n",
+    "note": "\n1 throw break. Side Switch.\nVery slow crouch dash then grab.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["df+1+3"]
   },
   {
@@ -2180,7 +2180,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nCannot throw break.\nInput with 2,1,1+2 for more damage.\nOpponent recovers in FUFR.\n",
+    "note": "\nCannot throw break.\nInput with 2,1,1+2 for more damage.\nOpponent recovers in FUFR.\n\n",
     "alternateInputs": ["RAS1 1_2"]
   },
   {
@@ -2192,7 +2192,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nInput with 3+4,1 or 3+4,2 for more damage.\nOpponent recovers in FUFR.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nInput with 3+4,1 or 3+4,2 for more damage.\nOpponent recovers in FUFR.\n\n",
     "alternateInputs": ["RAS2 1_2"]
   },
   {
@@ -2204,7 +2204,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nInput with 1,2,3+4 for more damage.\nOpponent recovers in FUFT.\n",
+    "note": "\nCannot throw break.\nInput with 1,2,3+4 for more damage.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["RAS3 1_2"]
   },
   {
@@ -2216,7 +2216,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1 throw break. Side Switch.\nInput with 2,1,3,4 for more damage.\nOn wall splat damage is 31.\nOpponent recovers in FUFT. Max damage 97.\n",
+    "note": "\n1 throw break. Side Switch.\nInput with 2,1,3,4 for more damage.\nOn wall splat damage is 31.\nOpponent recovers in FUFT. Max damage 97.\n\n",
     "alternateInputs": ["RAS4 1"]
   },
   {
@@ -2228,7 +2228,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break. Side Switch.\nInput with 3,1,2,3+4,1+2 for more damage.\nKing recovers in backturn stance.\nOpponent recovers in FUFA. Max damage 91.\n",
+    "note": "\n2 throw break. Side Switch.\nInput with 3,1,2,3+4,1+2 for more damage.\nKing recovers in backturn stance.\nOpponent recovers in FUFA. Max damage 91.\n\n",
     "alternateInputs": ["RAS4 2"]
   },
   {
@@ -2240,7 +2240,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break. Side Switch.\nVery slow crouch dash then grab.\nOpponent recovers in FUFT.\n",
+    "note": "\n2 throw break. Side Switch.\nVery slow crouch dash then grab.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["df+2+4"]
   },
   {
@@ -2252,7 +2252,7 @@
     "block": "",
     "hit": "+0d / +1d",
     "counter": "",
-    "note": "\n2 throw break (except from behind).\nRSSB2 from side/behind, RSSB1 from front, doesn't change to left/right/behind throw.\nOpponent recovers in FUFT.\nThrow can be canceled by input b/db.\n",
+    "note": "\n2 throw break (except from behind).\nRSSB2 from side/behind, RSSB1 from front, doesn't change to left/right/behind throw.\nOpponent recovers in FUFT.\nThrow can be canceled by input b/db.\n\n",
     "alternateInputs": ["ss2+4"]
   },
   {
@@ -2264,7 +2264,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nInput with 2,2,1+2 for more damage.\nOpponent recovers in FUFT.\n",
+    "note": "\nCannot throw break.\nInput with 2,2,1+2 for more damage.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["RSSB1 1_2"]
   },
   {
@@ -2276,7 +2276,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nInput with 3+4,1 or 3+4,2 for more damage.\nOpponent recovers in FDFA.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nInput with 3+4,1 or 3+4,2 for more damage.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["RSSB2 1_2"]
   },
   {
@@ -2288,7 +2288,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nInput with 1,2,3+4,1+2 for more damage.\nOpponent recovers in FUFT.\n",
+    "note": "\nCannot throw break.\nInput with 1,2,3+4,1+2 for more damage.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["RSSB3 1_2"]
   },
   {
@@ -2300,7 +2300,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1 throw break. Side Switch.\nInput with 2,1,3,4 for more damage.\nOpponent recovers in FUFT. Max damage 94.\n",
+    "note": "\n1 throw break. Side Switch.\nInput with 2,1,3,4 for more damage.\nOpponent recovers in FUFT. Max damage 94.\n\n",
     "alternateInputs": ["RSSB4 1"]
   },
   {
@@ -2312,7 +2312,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break.\nInput with 3,1,2,3+4,1+2 for more damage.\nKing recovers in backturn stance.\nOpponent recovers in FUFA. Max damage 88.\n",
+    "note": "\n2 throw break.\nInput with 3,1,2,3+4,1+2 for more damage.\nKing recovers in backturn stance.\nOpponent recovers in FUFA. Max damage 88.\n\n",
     "alternateInputs": ["RSSB4 2"]
   },
   {
@@ -2324,7 +2324,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n2 throw break.\nOpponent recovers in FDFR.\n",
+    "note": "\n2 throw break.\nOpponent recovers in FDFR.\n\n",
     "alternateInputs": ["CD 2+3"]
   },
   {
@@ -2336,7 +2336,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 throw break. Side Switch.\nOpponent recovers in FDFR. Max damage 50.\n",
+    "note": "\n1 throw break. Side Switch.\nOpponent recovers in FDFR. Max damage 50.\n\n",
     "alternateInputs": ["SHH1 1,2,1+2"]
   },
   {
@@ -2348,7 +2348,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n2 throw break.\nOpponent recovers in FDFR. Max damage 55.\n",
+    "note": "\n2 throw break.\nOpponent recovers in FDFR. Max damage 55.\n\n",
     "alternateInputs": ["SHH1 2,1,1+3"]
   },
   {
@@ -2360,7 +2360,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1+2 throw break.\nOpponent recovers in FDFL.\n",
+    "note": "\n1+2 throw break.\nOpponent recovers in FDFL.\n\n",
     "alternateInputs": ["SHH1 1+2,1,3"]
   },
   {
@@ -2372,7 +2372,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nCannot throw break.\nOpponent recovers in FDFT. Max Damage 85.\n",
+    "note": "\nCannot throw break.\nOpponent recovers in FDFT. Max Damage 85.\n\n",
     "alternateInputs": ["SHH2c 3,4,1+2,3+4"]
   },
   {
@@ -2384,7 +2384,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1 Throw break.\nOpponent recovers in FUFT.\n",
+    "note": "\n1 Throw break.\nOpponent recovers in FUFT.\n\n",
     "alternateInputs": ["CD 1+4"]
   },
   {
@@ -2396,7 +2396,7 @@
     "block": "",
     "hit": "+2d",
     "counter": "",
-    "note": "\n1 throw break.\nOpponent recovers in FUFT. Max damage 50.\n",
+    "note": "\n1 throw break.\nOpponent recovers in FUFT. Max damage 50.\n\n",
     "alternateInputs": ["AB1 1,1+2"]
   },
   {
@@ -2408,7 +2408,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break.\nOpponent recovers in FUFL.\n",
+    "note": "\n2 throw break.\nOpponent recovers in FUFL.\n\n",
     "alternateInputs": ["AB1 2,4,2+4"]
   },
   {
@@ -2420,7 +2420,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nOpponent recovers in FUFR. Max Damage 60.\n",
+    "note": "\nCannot throw break.\nOpponent recovers in FUFR. Max Damage 60.\n\n",
     "alternateInputs": ["AB2b 3,4,3+4,1+2"]
   },
   {
@@ -2432,7 +2432,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1+2 throw break.\nOpponent recovers in FDFT.\n",
+    "note": "\n1+2 throw break.\nOpponent recovers in FDFT.\n\n",
     "alternateInputs": ["AB1 2,1,1+3"]
   },
   {
@@ -2444,7 +2444,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1 throw break.\nOpponent recovers in FUFA. Max damage 65.\n",
+    "note": "\n1 throw break.\nOpponent recovers in FUFA. Max damage 65.\n\n",
     "alternateInputs": ["AB2c 2,1,3,1+2"]
   },
   {
@@ -2456,7 +2456,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break.\nOpponent recovers in FUFL. Max damage 100.\n",
+    "note": "\n2 throw break.\nOpponent recovers in FUFL. Max damage 100.\n\n",
     "alternateInputs": ["AB2c 1,3,4,2,1+2"]
   },
   {
@@ -2468,7 +2468,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFT.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFT.\nBecomes f,hcf+1 / 2+4 on air grab / wall splat.\n\n",
     "alternateInputs": ["JGS 1+4_2+3"]
   },
   {
@@ -2480,7 +2480,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nCannot throw break.\nOpponent recovers in FUFL.\n",
+    "note": "\nCannot throw break.\nOpponent recovers in FUFL.\n\n",
     "alternateInputs": ["MMD1 1,4,2,3"]
   },
   {
@@ -2492,7 +2492,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFA.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["MMD2 1,1+3/ MMD2 2,2+4"]
   },
   {
@@ -2504,7 +2504,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FUFA.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FUFA.\n\n",
     "alternateInputs": ["MMD3 1+2,1,1+3/ MMD3 1+2,2,2+4"]
   },
   {
@@ -2516,7 +2516,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n1+2 Throw break.\nOpponent recovers in FDFR. Max Damage 69.\n",
+    "note": "\n1+2 Throw break.\nOpponent recovers in FDFR. Max Damage 69.\n\n",
     "alternateInputs": ["MMD3 2,3,1,1+2"]
   },
   {
@@ -2528,7 +2528,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nCannot throw break.\nOpponent recovers in FDFA.\n",
+    "note": "\nCannot throw break.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["MMD4 3+4,1+2"]
   },
   {
@@ -2540,7 +2540,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1+2 throw break.\nOpponent recovers in FDFL. Max Damage 93.\n",
+    "note": "\n1+2 throw break.\nOpponent recovers in FDFL. Max Damage 93.\n\n",
     "alternateInputs": ["MMD5 1+2,4,2,1+2"]
   },
   {
@@ -2552,7 +2552,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFA.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FDFA.\n\n",
     "alternateInputs": ["MMD5 1+2,3,1+3/ MMD5 1+2,4,2+4"]
   },
   {
@@ -2564,7 +2564,7 @@
     "block": "",
     "hit": "-10d",
     "counter": "",
-    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FUFA. Max Damage 116.\n",
+    "note": "\n1 or 2 throw break, depending on King's input.\nOpponent recovers in FUFA. Max Damage 116.\n\n",
     "alternateInputs": ["MMD6 2,4,1,1+3/ MMD6 2,4,1,2+4"]
   }
 ]

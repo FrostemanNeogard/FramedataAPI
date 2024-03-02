@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc8~\nHeat Burst\nConsumes Heat\nCancel move with b,b\n",
+    "note": "\nHeat Burst\nConsumes Heat\nCancel move with b,b\n\n",
     "alternateInputs": ["2+3"]
   },
   {
@@ -20,7 +20,7 @@
     "block": "-12",
     "hit": "+60a, +3a",
     "counter": "",
-    "note": "\nHeat Smash\nBalcony Break\nTransition to throw on 1st hit only\n",
+    "note": "\nHeat Smash\nBalcony Break\nTransition to throw on 1st hit only\n\n",
     "alternateInputs": ["in heat 2+3"]
   },
   {
@@ -32,7 +32,7 @@
     "block": "-13",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\n",
+    "note": "\nBalcony Break\nConsumes Heat\n\n",
     "alternateInputs": ["in heat 1+2"]
   },
   {
@@ -44,7 +44,7 @@
     "block": "+0",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
     "alternateInputs": ["in heat 1+2*"]
   },
   {
@@ -56,7 +56,7 @@
     "block": "",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
     "alternateInputs": ["in heat 1+2**"]
   },
   {
@@ -68,7 +68,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n",
+    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -80,7 +80,7 @@
     "block": "-8",
     "hit": "+17",
     "counter": "",
-    "note": "\nHeat Engager\n\nHoming\n",
+    "note": "\nHeat Engager\n\nHoming\n\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -92,7 +92,7 @@
     "block": "+5",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -104,7 +104,7 @@
     "block": "-17",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\nSometimes written df,deathfist,qcf+2,\"death fist\"\n",
     "alternateInputs": ["CS 2"]
   },
   {
@@ -116,7 +116,7 @@
     "block": "-9",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n",
+    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n\n",
     "alternateInputs": ["SWA 2"]
   },
   {
@@ -128,7 +128,7 @@
     "block": "-15",
     "hit": "0d",
     "counter": "",
-    "note": "\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health",
+    "note": "\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health\n",
     "alternateInputs": ["in rage df+1+2"]
   },
   {
@@ -140,7 +140,7 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1"]
   },
   {
@@ -152,7 +152,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nJail from 1st attack\n",
+    "note": "\nJail from 1st attack\n\n",
     "alternateInputs": ["1,2"]
   },
   {
@@ -164,7 +164,7 @@
     "block": "-11c",
     "hit": "+1c",
     "counter": "",
-    "note": "\nCH from 1st attack\n",
+    "note": "\nCH from 1st attack\n\n",
     "alternateInputs": ["1,4"]
   },
   {
@@ -176,7 +176,7 @@
     "block": "0",
     "hit": "+6",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2"]
   },
   {
@@ -188,7 +188,7 @@
     "block": "-9",
     "hit": "+22d (+13)",
     "counter": "+51a",
-    "note": "\nBalcony Break\nCH from 1st attack\n",
+    "note": "\nBalcony Break\nCH from 1st attack\n\n",
     "alternateInputs": ["2,3"]
   },
   {
@@ -200,7 +200,7 @@
     "block": "-12c",
     "hit": "-1c",
     "counter": "",
-    "note": "\nCH from 1st attack\n",
+    "note": "\nCH from 1st attack\n\n",
     "alternateInputs": ["2,d+3"]
   },
   {
@@ -212,7 +212,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["3"]
   },
   {
@@ -224,7 +224,7 @@
     "block": "-3",
     "hit": "+7",
     "counter": "+50a",
-    "note": "\nCombo from 1st attack\nTransition to +4 + 14 Sway with b\nMove can be delayed\n",
+    "note": "\nCombo from 1st attack\nTransition to +4 + 14 Sway with b\nMove can be delayed\n\n",
     "alternateInputs": ["3,2"]
   },
   {
@@ -236,7 +236,7 @@
     "block": "-7",
     "hit": "+7",
     "counter": "+32d",
-    "note": "\n\nBalcony Break (CH only)\n",
+    "note": "\n\nBalcony Break (CH only)\n\n",
     "alternateInputs": ["4"]
   },
   {
@@ -248,7 +248,7 @@
     "block": "-13",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\n",
+    "note": "\nBalcony Break\nConsumes Heat\n\n",
     "alternateInputs": ["1+2"]
   },
   {
@@ -260,7 +260,7 @@
     "block": "0",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
     "alternateInputs": ["1+2*"]
   },
   {
@@ -272,7 +272,7 @@
     "block": "",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n",
+    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
     "alternateInputs": ["1+2**"]
   },
   {
@@ -284,7 +284,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n",
+    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -296,7 +296,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nHoming\n",
+    "note": "\nHoming\n\n",
     "alternateInputs": ["f+3"]
   },
   {
@@ -308,7 +308,7 @@
     "block": "-10",
     "hit": "+12d (+3)",
     "counter": "",
-    "note": "\nBalcony Break\nHoming\nCombo from 1st attack\n",
+    "note": "\nBalcony Break\nHoming\nCombo from 1st attack\n\n",
     "alternateInputs": ["f+3,1"]
   },
   {
@@ -320,7 +320,7 @@
     "block": "-8",
     "hit": "+17",
     "counter": "",
-    "note": "\nHeat Engager\n\nHoming\n",
+    "note": "\nHeat Engager\n\nHoming\n\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -332,7 +332,7 @@
     "block": "+3c",
     "hit": "+8c",
     "counter": "+20d",
-    "note": "\n\nBalcony Break (CH only)\n",
+    "note": "\n\nBalcony Break (CH only)\n\n",
     "alternateInputs": ["f+1+2"]
   },
   {
@@ -344,7 +344,7 @@
     "block": "-14",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["f+1+4"]
   },
   {
@@ -356,7 +356,7 @@
     "block": "-2",
     "hit": "+4",
     "counter": "",
-    "note": "\nTransition to +3 +4 Sway with b\n",
+    "note": "\nTransition to +3 +4 Sway with b\n\n",
     "alternateInputs": ["df+1"]
   },
   {
@@ -368,7 +368,7 @@
     "block": "-5",
     "hit": "+5",
     "counter": "",
-    "note": "\nCombo from 1st attack\nMove can be delayed\n",
+    "note": "\nCombo from 1st attack\nMove can be delayed\n\n",
     "alternateInputs": ["df+1,1"]
   },
   {
@@ -380,7 +380,7 @@
     "block": "-9",
     "hit": "+32d (+24)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd CH\n",
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\n\n",
     "alternateInputs": ["df+1,1,2"]
   },
   {
@@ -392,7 +392,7 @@
     "block": "-8",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -404,7 +404,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+3"]
   },
   {
@@ -416,7 +416,7 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st attack\nMove can be delayed\n",
+    "note": "\nCombo from 1st attack\nMove can be delayed\n\n",
     "alternateInputs": ["df+3,4"]
   },
   {
@@ -428,7 +428,7 @@
     "block": "-2",
     "hit": "+8",
     "counter": "+14",
-    "note": "\n\nKnee\n",
+    "note": "\n\nKnee\n\n",
     "alternateInputs": ["df+4"]
   },
   {
@@ -440,7 +440,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "+3c",
-    "note": "\n\nSpike \nEnter crouch with D\n",
+    "note": "\n\nSpike \nEnter crouch with D\n\n",
     "alternateInputs": ["d+1"]
   },
   {
@@ -452,7 +452,7 @@
     "block": "-17",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nConsumes Heat\n",
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nConsumes Heat\n\n",
     "alternateInputs": ["d+1,2"]
   },
   {
@@ -464,7 +464,7 @@
     "block": "+9",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n",
+    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n\n",
     "alternateInputs": ["d+1,2"]
   },
   {
@@ -476,7 +476,7 @@
     "block": "-31c",
     "hit": "-17",
     "counter": "+14a",
-    "note": "\nCombo from 1st CH\nMove can be delayed\n",
+    "note": "\nCombo from 1st CH\nMove can be delayed\n\n",
     "alternateInputs": ["d+1,4"]
   },
   {
@@ -488,7 +488,7 @@
     "block": "-14",
     "hit": "+3d (-6)",
     "counter": "",
-    "note": "\nBalcony Break\nElbow\n",
+    "note": "\nBalcony Break\nElbow\n\n",
     "alternateInputs": ["d+1,4,2"]
   },
   {
@@ -500,7 +500,7 @@
     "block": "31c",
     "hit": "-17",
     "counter": "+14a",
-    "note": "\nHas a clean hit effect\n",
+    "note": "\nHas a clean hit effect\n\n",
     "alternateInputs": ["d+4"]
   },
   {
@@ -512,7 +512,7 @@
     "block": "-18",
     "hit": "-9",
     "counter": "",
-    "note": "\nCombo from 1st CH\nHas a clean hit effect\n",
+    "note": "\nCombo from 1st CH\nHas a clean hit effect\n\n",
     "alternateInputs": ["d+4,2"]
   },
   {
@@ -524,7 +524,7 @@
     "block": "-17",
     "hit": "+3 (-6)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nHigher damage with perfect frame input (38 > 40)\n",
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nHigher damage with perfect frame input (38 > 40)\n\n",
     "alternateInputs": ["d+4,2,1+2"]
   },
   {
@@ -536,7 +536,7 @@
     "block": "-16",
     "hit": "+16d (+11)",
     "counter": "",
-    "note": "\nBalcony Break\n",
+    "note": "\nBalcony Break\n\n",
     "alternateInputs": ["d+1+2"]
   },
   {
@@ -548,7 +548,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["db+1"]
   },
   {
@@ -560,7 +560,7 @@
     "block": "-11",
     "hit": "+14d (-3)",
     "counter": "+28a (+18)",
-    "note": "\nTornado\nBalcony Break\n",
+    "note": "\nTornado\nBalcony Break\n\n",
     "alternateInputs": ["db+2"]
   },
   {
@@ -572,7 +572,7 @@
     "block": "-18",
     "hit": "-4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+3"]
   },
   {
@@ -584,7 +584,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["db+4"]
   },
   {
@@ -596,7 +596,7 @@
     "block": "-14",
     "hit": "+30d (+22)",
     "counter": "",
-    "note": "\npc\nAbsorb an attack to power up and deal more chip damage\n",
+    "note": "\nAbsorb an attack to power up and deal more chip damage\n\n",
     "alternateInputs": ["db+1+2"]
   },
   {
@@ -608,7 +608,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+1"]
   },
   {
@@ -620,7 +620,7 @@
     "block": "-14",
     "hit": "+16d (-1)",
     "counter": "",
-    "note": "\n\nTornado \n\nBalcony Break\nCombo from 1st attack\n",
+    "note": "\n\nTornado \n\nBalcony Break\nCombo from 1st attack\n\n",
     "alternateInputs": ["b+1,2"]
   },
   {
@@ -632,7 +632,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nps\nTimed with opponent attack\n",
+    "note": "\nTimed with opponent attack\n\n",
     "alternateInputs": ["b1+3/2+4"]
   },
   {
@@ -644,7 +644,7 @@
     "block": "-5c",
     "hit": "+4c",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+2"]
   },
   {
@@ -656,7 +656,7 @@
     "block": "-12",
     "hit": "0c",
     "counter": "+48a",
-    "note": "\nCombo from 1st CH\n",
+    "note": "\nCombo from 1st CH\n\n",
     "alternateInputs": ["b+2,1"]
   },
   {
@@ -668,7 +668,7 @@
     "block": "+8",
     "hit": "+20d",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n",
+    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n\n",
     "alternateInputs": ["b+2,1"]
   },
   {
@@ -680,7 +680,7 @@
     "block": "-6",
     "hit": "+31a (+25)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -692,7 +692,7 @@
     "block": "-12c",
     "hit": "+4",
     "counter": "+17g",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -704,7 +704,7 @@
     "block": "-6",
     "hit": "+21d (+16)",
     "counter": "",
-    "note": "\npc\n\nBalcony Break\nAbsorb an attack to power up and deal more damage on block\n",
+    "note": "\n\nBalcony Break\nAbsorb an attack to power up and deal more damage on block\n\n",
     "alternateInputs": ["b+1+2"]
   },
   {
@@ -716,7 +716,7 @@
     "block": "-7",
     "hit": "+14d",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["ub+2"]
   },
   {
@@ -728,7 +728,7 @@
     "block": "+5",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n",
+    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -737,10 +737,10 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i15~16",
-    "block": "+18g",
+    "block": "-16",
     "hit": "+59a (+49)",
     "counter": "",
-    "note": "\nAlternate input u+3 and/or ub+3\n",
+    "note": "\nAlternate input u+3 and/or ub+3\n\n",
     "alternateInputs": ["uf+3"]
   },
   {
@@ -752,7 +752,7 @@
     "block": "-13",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "\nCombo from 1st attack\nAlternate input u+3,4 and/or ub+3,4\n",
+    "note": "\nCombo from 1st attack\nAlternate input u+3,4 and/or ub+3,4\n\n",
     "alternateInputs": ["uf+3,4"]
   },
   {
@@ -764,7 +764,7 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nAlternate input ub+4 and/or u+4\n",
+    "note": "\nAlternate input ub+4 and/or u+4\n\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -776,7 +776,7 @@
     "block": "-13",
     "hit": "+32a(+22)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["uf,n,4"]
   },
   {
@@ -788,7 +788,7 @@
     "block": "-17",
     "hit": "-7",
     "counter": "",
-    "note": "\n\nElbow\n",
+    "note": "\n\nElbow\n\n",
     "alternateInputs": ["f,F+2"]
   },
   {
@@ -800,7 +800,7 @@
     "block": "-12",
     "hit": "+14d",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st attack\nAlternate input FC.df+2,1\nCancel with B\n",
+    "note": "\n\nBalcony Break\nCombo from 1st attack\nAlternate input FC.df+2,1\nCancel with B\n\n",
     "alternateInputs": ["f,F+2,1"]
   },
   {
@@ -812,7 +812,7 @@
     "block": "-4",
     "hit": "+37d (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nCombo from 1st hit\nAlternate input FC.df+2:1\n",
+    "note": "\n\nBalcony Break\nChip damage\nCombo from 1st hit\nAlternate input FC.df+2:1\n\n",
     "alternateInputs": ["f,F+2:1"]
   },
   {
@@ -824,7 +824,7 @@
     "block": "-19c",
     "hit": "+27a",
     "counter": "",
-    "note": "\nAlternate input FC.df+2,2\nCancel to -18 FC with B\n",
+    "note": "\nAlternate input FC.df+2,2\nCancel to -18 FC with B\n\n",
     "alternateInputs": ["f,F+2,2"]
   },
   {
@@ -836,7 +836,7 @@
     "block": "-17",
     "hit": "+24a (+14)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,F+3"]
   },
   {
@@ -848,7 +848,7 @@
     "block": "-16",
     "hit": "+27a (+20)",
     "counter": "",
-    "note": "\nCombo from 1st hit\n",
+    "note": "\nCombo from 1st hit\n\n",
     "alternateInputs": ["f,F+3,4"]
   },
   {
@@ -860,7 +860,7 @@
     "block": "-5",
     "hit": "+62a (+42)",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["f,F+3,4,4"]
   },
   {
@@ -872,7 +872,7 @@
     "block": "-14",
     "hit": "+12d (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["f,F+3,4,f+4"]
   },
   {
@@ -884,7 +884,7 @@
     "block": "-17c",
     "hit": "-6",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,F+3,4,d+4"]
   },
   {
@@ -896,7 +896,7 @@
     "block": "-1~+5",
     "hit": "+18a",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,F+4"]
   },
   {
@@ -908,7 +908,7 @@
     "block": "-10",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nSpike\nTransition to throw on front hit only\nAlternate input wr2\n",
+    "note": "\n\nSpike\nTransition to throw on front hit only\nAlternate input wr2\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -920,7 +920,7 @@
     "block": "-6",
     "hit": "+34d (+25)",
     "counter": "",
-    "note": "\n\nBalcony Break\nOften written b,f+1\n",
+    "note": "\n\nBalcony Break\nOften written b,f+1\n\n",
     "alternateInputs": ["b,n,f+1"]
   },
   {
@@ -932,7 +932,7 @@
     "block": "-10",
     "hit": "-7",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1"]
   },
   {
@@ -944,7 +944,7 @@
     "block": "-11",
     "hit": "+2",
     "counter": "",
-    "note": "\nHold b to transition to Sway\nCombo from 1st CH\nMove can be delayed\n",
+    "note": "\nHold b to transition to Sway\nCombo from 1st CH\nMove can be delayed\n\n",
     "alternateInputs": ["ws1,2"]
   },
   {
@@ -956,7 +956,7 @@
     "block": "-14",
     "hit": "+27a (+17)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws2"]
   },
   {
@@ -968,7 +968,7 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws3"]
   },
   {
@@ -980,7 +980,7 @@
     "block": "-9",
     "hit": "+17d (+8)",
     "counter": "+46a",
-    "note": "\n\nBalcony Break\nCombo from 1st\nMove can be delayed\n",
+    "note": "\n\nBalcony Break\nCombo from 1st\nMove can be delayed\n\n",
     "alternateInputs": ["ws3,2"]
   },
   {
@@ -992,7 +992,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws4"]
   },
   {
@@ -1004,7 +1004,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["FC D"]
   },
   {
@@ -1016,7 +1016,7 @@
     "block": "-49d",
     "hit": "-9d (-24)",
     "counter": "",
-    "note": "\nDeals recoverable damage to self\n",
+    "note": "\nDeals recoverable damage to self\n\n",
     "alternateInputs": ["FC D,U+4"]
   },
   {
@@ -1028,7 +1028,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1+2+3+4"]
   },
   {
@@ -1040,7 +1040,7 @@
     "block": "",
     "hit": "-1d (-9)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["OTG d+2"]
   },
   {
@@ -1052,7 +1052,7 @@
     "block": "+8",
     "hit": "+35d (+27)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\n",
+    "note": "\n\nBalcony Break\nChip damage\n\n",
     "alternateInputs": ["SS 1"]
   },
   {
@@ -1064,7 +1064,7 @@
     "block": "-12c",
     "hit": "+4",
     "counter": "+12",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["SS 3"]
   },
   {
@@ -1328,7 +1328,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\n",
+    "note": "\nThrow break 1 or 2\n\n",
     "alternateInputs": ["1+3"]
   },
   {
@@ -1340,7 +1340,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\n",
+    "note": "\nThrow break 1 or 2\n\n",
     "alternateInputs": ["2+4"]
   },
   {
@@ -1352,7 +1352,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\n",
+    "note": "\nThrow break 2\n\n",
     "alternateInputs": ["2+4,b"]
   },
   {
@@ -1364,7 +1364,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1\n",
+    "note": "\nThrow break 1\n\n",
     "alternateInputs": ["Left Throw"]
   },
   {
@@ -1376,7 +1376,7 @@
     "block": "",
     "hit": "-2d",
     "counter": "",
-    "note": "\nThrow break 2\n",
+    "note": "\nThrow break 2\n\n",
     "alternateInputs": ["Right Throw"]
   },
   {
@@ -1388,7 +1388,7 @@
     "block": "",
     "hit": "-14d",
     "counter": "",
-    "note": "\nThrow cannot be broken\n",
+    "note": "\nThrow cannot be broken\n\n",
     "alternateInputs": ["Back Throw 1+3"]
   },
   {
@@ -1400,7 +1400,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nSpike\nThrow cannot be broken\n",
+    "note": "\n\nSpike\nThrow cannot be broken\n\n",
     "alternateInputs": ["Back Throw 2+4"]
   },
   {
@@ -1412,7 +1412,7 @@
     "block": "",
     "hit": "+9",
     "counter": "",
-    "note": "\nThrow break 1\n",
+    "note": "\nThrow break 1\n\n",
     "alternateInputs": ["df+1+3"]
   },
   {
@@ -1424,7 +1424,7 @@
     "block": "",
     "hit": "+16d (-20)",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break 1\nConsumes Heat\n",
+    "note": "\n\nBalcony Break\nThrow break 1\nConsumes Heat\n\n",
     "alternateInputs": ["df+1+3:2"]
   },
   {
@@ -1436,7 +1436,7 @@
     "block": "",
     "hit": "+6d",
     "counter": "",
-    "note": "\nThrow break 1\n",
+    "note": "\nThrow break 1\n\n",
     "alternateInputs": ["b+1+4"]
   },
   {
@@ -1448,7 +1448,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1+2\n\nSpike\n",
+    "note": "\nThrow break 1+2\n\nSpike\n\n",
     "alternateInputs": ["uf+1+2"]
   },
   {
@@ -1460,7 +1460,7 @@
     "block": "",
     "hit": "+20d",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break 1+2\n",
+    "note": "\n\nBalcony Break\nThrow break 1+2\n\n",
     "alternateInputs": ["ff+1+2"]
   },
   {
@@ -1472,7 +1472,7 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "\nThrow break 1+2\nTransition to Takedown on hit\n",
+    "note": "\nThrow break 1+2\nTransition to Takedown on hit\n\n",
     "alternateInputs": ["FC 1+2"]
   },
   {
@@ -1484,7 +1484,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nAlternate input 1,2,1,2\n",
+    "note": "\nThrow break 1 or 2\nAlternate input 1,2,1,2\n\n",
     "alternateInputs": ["Takedown 2,1,2,1"]
   },
   {
@@ -1496,7 +1496,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1\nTransition to Arm Breaker with 1+2 after third hit\n",
+    "note": "\nThrow break 1\nTransition to Arm Breaker with 1+2 after third hit\n\n",
     "alternateInputs": ["Takedown 2,d+1,1,1+2"]
   },
   {
@@ -1508,7 +1508,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\nThrow break 1+2\n",
+    "note": "\nThrow break 1+2\n\n",
     "alternateInputs": ["Takedown 1+2,1+2"]
   }
 ]

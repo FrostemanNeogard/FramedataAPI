@@ -8,7 +8,7 @@
     "block": "+1",
     "hit": "+2",
     "counter": "",
-    "note": "\npc8~\n\nHeat Burst\nCancel to r45 with b,b\n",
+    "note": "\n\nHeat Burst\nCancel to r45 with b,b\n\n",
     "alternateInputs": ["2+3"]
   },
   {
@@ -20,7 +20,7 @@
     "block": "+11",
     "hit": "+13",
     "counter": "",
-    "note": "\n\nHeat Smash\nAlso possible during Right Stance and Left Flamingo\nShifts to Right Flamingo\n",
+    "note": "\n\nHeat Smash\nAlso possible during Right Stance and Left Flamingo\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["in heat 2+3"]
   },
   {
@@ -32,7 +32,7 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nDeals chip damage on block\nAlso possible during Right Stance\n",
+    "note": "\n\nHeat Engager\n\nDeals chip damage on block\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["df+3+4"]
   },
   {
@@ -44,7 +44,7 @@
     "block": "-7",
     "hit": "+19 (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nAlso possible during Right Stance\nShifts to Right Stance (does not shift when using heat dash)\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nAlso possible during Right Stance\nShifts to Right Stance (does not shift when using heat dash)\n\n",
     "alternateInputs": ["f,F+4"]
   },
   {
@@ -56,7 +56,7 @@
     "block": "+1",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHoming\n\nHeat Engager\n\nChip damage on block\nShifts to Right Stance (does not shift when using heat dash)\n",
+    "note": "\n\nHoming\n\nHeat Engager\n\nDeals chip damage on block\nRemains in Right Stance\n\n",
     "alternateInputs": ["RFF df+3"]
   },
   {
@@ -68,7 +68,7 @@
     "block": "+4",
     "hit": "+26",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nShifts to Left Flamingo (does not shift when using heat dash)\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nRemains in Left Flamingo\n\n",
     "alternateInputs": ["LFS f+3"]
   },
   {
@@ -80,20 +80,8 @@
     "block": "-9",
     "hit": "+7",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n",
+    "note": "\n\nHeat Engager\n\n\n",
     "alternateInputs": ["RFS b+3"]
-  },
-  {
-    "name": "Trinity Claymore",
-    "input": "in heat 2+3",
-    "hit_level": "m,m,h",
-    "damage": "13,14,24(51)",
-    "startup": "i17~18, i18~19, i29",
-    "block": "+11",
-    "hit": "+13",
-    "counter": "",
-    "note": "\n\nHeat Smash\nAlso possible during Right Stance and Left Flamingo\nShifts to Right Flamingo\n",
-    "alternateInputs": ["in heat 2+3"]
   },
   {
     "name": "",
@@ -104,7 +92,7 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1"]
   },
   {
@@ -116,7 +104,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1,1"]
   },
   {
@@ -128,7 +116,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1,1,3"]
   },
   {
@@ -140,7 +128,7 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1,1,3,3"]
   },
   {
@@ -152,7 +140,7 @@
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": "\n1,2,3 to shift to Left Flamingo\n1,2,4 to shift to Right Flamingo\n",
+    "note": "\n1,2,3 to shift to Left Flamingo\n1,2,4 to shift to Right Flamingo\n\n",
     "alternateInputs": ["1,2"]
   },
   {
@@ -164,7 +152,7 @@
     "block": "-8",
     "hit": "+9",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1,2,f+3"]
   },
   {
@@ -176,7 +164,7 @@
     "block": "-8",
     "hit": "+9",
     "counter": "",
-    "note": "\njs \n\nBalcony Break\n",
+    "note": " \n\nBalcony Break\n\n",
     "alternateInputs": ["1,2,f+4"]
   },
   {
@@ -188,7 +176,7 @@
     "block": "+8",
     "hit": "+0",
     "counter": "",
-    "note": "\n2,3 to shift to Left Flamingo\n2,4 to shift to Right Flamingo\n",
+    "note": "\n2,3 to shift to Left Flamingo\n2,4 to shift to Right Flamingo\n\n",
     "alternateInputs": ["2"]
   },
   {
@@ -200,7 +188,7 @@
     "block": "-8",
     "hit": "+9",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2,f+3"]
   },
   {
@@ -212,7 +200,7 @@
     "block": "-2",
     "hit": "+35",
     "counter": "",
-    "note": "\njs \n\nBalcony Break\n",
+    "note": " \n\nBalcony Break\n\n",
     "alternateInputs": ["2,f+4"]
   },
   {
@@ -224,7 +212,7 @@
     "block": "-7",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["3"]
   },
   {
@@ -236,7 +224,7 @@
     "block": "-13",
     "hit": "-7",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["3,3"]
   },
   {
@@ -246,9 +234,9 @@
     "damage": "15,12,12",
     "startup": "i21~22",
     "block": "-11",
-    "hit": "+1",
+    "hit": "+1c",
     "counter": "",
-    "note": "\nForces crouch on block\n",
+    "note": "\n",
     "alternateInputs": ["3,3,2"]
   },
   {
@@ -260,7 +248,7 @@
     "block": "-14",
     "hit": "+32",
     "counter": "",
-    "note": "\n\nBalcony Break\n3,3,F to shift to Left Flamingo\n",
+    "note": "\n\nBalcony Break\n3,3,F to shift to Left Flamingo\n\n",
     "alternateInputs": ["3,3,3"]
   },
   {
@@ -272,7 +260,7 @@
     "block": "+8",
     "hit": "+19",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n",
+    "note": "\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["3,3,4"]
   },
   {
@@ -284,7 +272,7 @@
     "block": "-1",
     "hit": "+40 (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["3,3,f+4"]
   },
   {
@@ -296,7 +284,7 @@
     "block": "-3",
     "hit": "+26 (+16)",
     "counter": "",
-    "note": "\nPower up with quick input\n",
+    "note": "\nPower up with quick input\n\n",
     "alternateInputs": ["3~4"]
   },
   {
@@ -308,7 +296,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["4"]
   },
   {
@@ -320,7 +308,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n3,4,F to cancel and shift to Left Flamingo\n",
+    "note": "\n3,4,F to cancel and shift to Left Flamingo\n\n",
     "alternateInputs": ["4,3"]
   },
   {
@@ -332,7 +320,7 @@
     "block": "-1",
     "hit": "+10",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n",
+    "note": "\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["4,4"]
   },
   {
@@ -341,10 +329,10 @@
     "hit_level": "h,h,m",
     "damage": "14,13,20",
     "startup": "i25~31",
-    "block": "-14",
+    "block": "-14c",
     "hit": "+14",
     "counter": "",
-    "note": "\nForces crouch on block\nShifts to Right Stance\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["4,4,3"]
   },
   {
@@ -356,7 +344,7 @@
     "block": "-2",
     "hit": "+8",
     "counter": "",
-    "note": "\njs\nShifts to Right Stance\n4,4,4,F to cancel and shift to Right Flamingo\n",
+    "note": "\nShifts to Right Stance\n4,4,4,F to cancel and shift to Right Flamingo\n\n",
     "alternateInputs": ["4,4,4"]
   },
   {
@@ -368,8 +356,20 @@
     "block": "+0",
     "hit": "+36 (-22)",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\n\nTornado\nChip damage on final hit\n",
+    "note": "\n\nTornado\nDeals chip damage on hit\n\n",
     "alternateInputs": ["4,4,4,4"]
+  },
+  {
+    "name": "Disrespect",
+    "input": "1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nShifts to Backturn Stance\n\n",
+    "alternateInputs": ["1+2"]
   },
   {
     "name": "Motion Switch",
@@ -380,7 +380,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Right Stance\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -392,7 +392,7 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\nShifts to Right Stance\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -404,7 +404,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Left Flamingo\nSidesteps to the right\n",
+    "note": "\nShifts to Left Flamingo\nSidesteps to the right\n\n",
     "alternateInputs": ["f+3"]
   },
   {
@@ -416,7 +416,7 @@
     "block": "-16",
     "hit": "+7 (-2)",
     "counter": "",
-    "note": "\nSidesteps to the right\n",
+    "note": "\nSidesteps to the right\n\n",
     "alternateInputs": ["f+3~3"]
   },
   {
@@ -428,7 +428,7 @@
     "block": "+7~8",
     "hit": "+18",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n",
+    "note": "\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -440,7 +440,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\nSidesteps to the left\n",
+    "note": "\nShifts to Right Flamingo\nSidesteps to the left\n\n",
     "alternateInputs": ["f,n,4"]
   },
   {
@@ -452,7 +452,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["f+1+2"]
   },
   {
@@ -464,7 +464,7 @@
     "block": "-1",
     "hit": "+6",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["df+1"]
   },
   {
@@ -476,7 +476,7 @@
     "block": "-2",
     "hit": "+6",
     "counter": "",
-    "note": "\nShifts to Left Flamingo\n",
+    "note": "\nShifts to Left Flamingo\n\n",
     "alternateInputs": ["df+1,3"]
   },
   {
@@ -488,7 +488,7 @@
     "block": "-7",
     "hit": "+34 (+24)",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -500,7 +500,7 @@
     "block": "-14",
     "hit": "-4",
     "counter": "",
-    "note": "\npc\ndf+3,F/U/D to cancel and shift to Left Flamingo\n",
+    "note": "\ndf+3,F/U/D to cancel and shift to Left Flamingo\n\n",
     "alternateInputs": ["df+3"]
   },
   {
@@ -512,7 +512,7 @@
     "block": "-12",
     "hit": "+7",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+3,4"]
   },
   {
@@ -524,7 +524,7 @@
     "block": "-8",
     "hit": "+8",
     "counter": "",
-    "note": "\n\nHoming\nShift to Right Stance\n",
+    "note": "\n\nHoming\nShift to Right Stance\n\n",
     "alternateInputs": ["df+4"]
   },
   {
@@ -536,7 +536,7 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nDeals chip damage on block\nAlso possible during Right Stance\n",
+    "note": "\n\nHeat Engager\n\nDeals chip damage on block\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["df+3+4"]
   },
   {
@@ -548,7 +548,7 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["d+3"]
   },
   {
@@ -560,7 +560,7 @@
     "block": "+8",
     "hit": "+14",
     "counter": "",
-    "note": "\nShift to Right Flamingo\n",
+    "note": "\nShift to Right Flamingo\n\n",
     "alternateInputs": ["d+3,4"]
   },
   {
@@ -572,7 +572,7 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["d+4"]
   },
   {
@@ -584,7 +584,7 @@
     "block": "-13",
     "hit": "+69 (+53)",
     "counter": "",
-    "note": "\n\nTornado\nAlso possible during Right Stance\n",
+    "note": "\n\nTornado\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["d+4,4"]
   },
   {
@@ -596,7 +596,7 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["db+3"]
   },
   {
@@ -608,7 +608,7 @@
     "block": "-12",
     "hit": "-8",
     "counter": "",
-    "note": "\ndb+4,F to shift to Right Flamingo\n",
+    "note": "\ndb+4,F to shift to Right Flamingo\n\n",
     "alternateInputs": ["db+4"]
   },
   {
@@ -620,7 +620,7 @@
     "block": "-28",
     "hit": "+24",
     "counter": "",
-    "note": "\nNatural on CH\n",
+    "note": "\nNatural on CH\n\n",
     "alternateInputs": ["db+4,4"]
   },
   {
@@ -632,7 +632,7 @@
     "block": "+17",
     "hit": "+17",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\ndb+3+4,b,b to cancel and shift to Left Flamingo\n",
+    "note": "\nAlso possible during Right Stance\ndb+3+4,b,b to cancel and shift to Left Flamingo\n\n",
     "alternateInputs": ["db+3+4"]
   },
   {
@@ -644,7 +644,7 @@
     "block": "-14",
     "hit": "-1",
     "counter": "",
-    "note": "\nSidesteps to the right\n",
+    "note": "\nSidesteps to the right\n\n",
     "alternateInputs": ["b+1"]
   },
   {
@@ -656,7 +656,7 @@
     "block": "-19",
     "hit": "+35 (+25)",
     "counter": "",
-    "note": "\n\nTornado\n",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -668,7 +668,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": "\nShifts to Right Stance\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -680,7 +680,7 @@
     "block": "-9",
     "hit": "+15",
     "counter": "",
-    "note": "\n\nHoming\nAlternate input: b+2\nAlso possible during Right Stance\nSidesteps to the left\n",
+    "note": "\n\nHoming\nAlternate input: b+2\nAlso possible during Right Stance\nSidesteps to the left\n\n",
     "alternateInputs": ["ub+2"]
   },
   {
@@ -692,7 +692,7 @@
     "block": "-8",
     "hit": "+10",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["ub+4"]
   },
   {
@@ -704,7 +704,7 @@
     "block": "+5",
     "hit": "+44 (+38)",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\nShifts to Left Flamingo\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Left Flamingo\n\n",
     "alternateInputs": ["u+3"]
   },
   {
@@ -716,7 +716,7 @@
     "block": "+3",
     "hit": "+11",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\nShifts to Right Flamingo\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["u+4"]
   },
   {
@@ -728,7 +728,7 @@
     "block": "-7",
     "hit": "+24",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["u+3+4"]
   },
   {
@@ -737,10 +737,10 @@
     "hit_level": "m",
     "damage": "22",
     "startup": "i26",
-    "block": "+5",
-    "hit": "+6",
+    "block": "+5c",
+    "hit": "+6c",
     "counter": "",
-    "note": "\njs\nForces crouch on block\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -752,7 +752,7 @@
     "block": "-6",
     "hit": "-7",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["uf+3"]
   },
   {
@@ -764,7 +764,7 @@
     "block": "+2",
     "hit": "+13",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\nShifts to Right Flamingo\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["uf+3,4"]
   },
   {
@@ -773,10 +773,10 @@
     "hit_level": "m,m,m",
     "damage": "11,12,20",
     "startup": "i27~28",
-    "block": "-14",
-    "hit": "0",
+    "block": "-14c",
+    "hit": "0c",
     "counter": "",
-    "note": "\njs\nForces crouch on block\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["uf+3,4,3"]
   },
   {
@@ -788,7 +788,7 @@
     "block": "-2",
     "hit": "+4",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\nShifts to Right Flamingo\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -800,7 +800,7 @@
     "block": "0",
     "hit": "+6",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\nShifts to Right Flamingo\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["uf+4,4"]
   },
   {
@@ -812,7 +812,7 @@
     "block": "+1",
     "hit": "+7",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\nShifts to Right Flamingo\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["uf+4,4,4"]
   },
   {
@@ -824,7 +824,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\nShifts to Right Stance\nuf+3+4,F to shift to Left Flamingo\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Right Stance\nuf+3+4,F to shift to Left Flamingo\n\n",
     "alternateInputs": ["uf+3+4"]
   },
   {
@@ -836,7 +836,7 @@
     "block": "-10",
     "hit": "+7",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\nShifts to Right Stance\n",
+    "note": "\nAlso possible during Right Stance\nShifts to Right Stance\n\n",
     "alternateInputs": ["uf+3+4,4"]
   },
   {
@@ -848,7 +848,7 @@
     "block": "-13",
     "hit": "+32 (+22)",
     "counter": "",
-    "note": "\njs\nAlso possible during Right Stance\n",
+    "note": "\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["uf,n,4"]
   },
   {
@@ -857,10 +857,10 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i20~24",
-    "block": "+6",
-    "hit": "+6",
+    "block": "+6c",
+    "hit": "+6c",
     "counter": "",
-    "note": "\nForces crouch on block\nShifts to Right Stance\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["f,F+3"]
   },
   {
@@ -872,7 +872,7 @@
     "block": "-7",
     "hit": "+19 (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nAlso possible during Right Stance\nShifts to Right Stance (does not shift when using heat dash)\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nAlso possible during Right Stance\nShifts to Right Stance (does not shift when using heat dash)\n\n",
     "alternateInputs": ["f,F+4"]
   },
   {
@@ -884,7 +884,7 @@
     "block": "+6",
     "hit": "+23",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\nChip damage on block\nAlso possible during Right Stance\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["f,f,F+3"]
   },
   {
@@ -896,7 +896,7 @@
     "block": "+5",
     "hit": "+8",
     "counter": "",
-    "note": "\njs\nChip damage on block\nAlso possible during Right Stance\nSideswaps and leaves opponent backturned on hit\n",
+    "note": "\nChip damage on block\nAlso possible during Right Stance\nSideswaps and leaves opponent backturned on hit\nShifts to Backturn Stance on block\n\n",
     "alternateInputs": ["f,f,F+4"]
   },
   {
@@ -908,7 +908,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws 2"]
   },
   {
@@ -920,7 +920,7 @@
     "block": "+3",
     "hit": "+72 (+56)",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\n\nTornado\nShifts to Left Flamingo\n",
+    "note": "\n\nTornado\nShifts to Left Flamingo\n\n",
     "alternateInputs": ["ws 2,3"]
   },
   {
@@ -932,7 +932,7 @@
     "block": "-12",
     "hit": "+22",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws 3"]
   },
   {
@@ -944,7 +944,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws 4"]
   },
   {
@@ -954,9 +954,9 @@
     "damage": "12,16",
     "startup": "i15~19",
     "block": "-5",
-    "hit": "+4",
+    "hit": "+4c",
     "counter": "",
-    "note": "\nForces crouch on hit\nShifts to Right Stance\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["ws 4,4"]
   },
   {
@@ -968,7 +968,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nAlternate input: f,n,d,df+3+4 (CD.3+4)\nShifts to Backturn Stance\n",
+    "note": "\nAlternate input: f,n,d,df+3+4 (CD.3+4)\nShifts to Backturn Stance\n\n",
     "alternateInputs": ["ws 3+4"]
   },
   {
@@ -978,9 +978,9 @@
     "damage": "16,20",
     "startup": "i21~26",
     "block": "-6",
-    "hit": "+5",
+    "hit": "+5c",
     "counter": "",
-    "note": "\nForces crouch on hit\n",
+    "note": "\n",
     "alternateInputs": ["ws 3+4,3"]
   },
   {
@@ -992,7 +992,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f,n,d,df"]
   },
   {
@@ -1004,7 +1004,7 @@
     "block": "+4",
     "hit": "+25 (+16)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nAlso possible during Right Stance\nShifts to Left Flamingo\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nAlso possible during Right Stance\nShifts to Left Flamingo\n\n",
     "alternateInputs": ["CD 3"]
   },
   {
@@ -1016,20 +1016,20 @@
     "block": "-18",
     "hit": "+53 (+43)",
     "counter": "",
-    "note": "\n\nTornado\nAlso possible during Right Stance\n",
+    "note": "\n\nTornado\nAlso possible during Right Stance\n\n",
     "alternateInputs": ["CD 4"]
   },
   {
     "name": "Lethal Sky Rocket",
-    "input": "f,n,df#4",
+    "input": "f,n,df:4",
     "hit_level": "m",
     "damage": "18",
     "startup": "i16",
     "block": "-8",
     "hit": "+59 (+49)",
     "counter": "",
-    "note": "\n\nTornado\nChip damage on block\nAlso possible during Right Stance\n",
-    "alternateInputs": ["f,n,df#4"]
+    "note": "\n\nTornado\nChip damage on block\nAlso possible during Right Stance\n\n",
+    "alternateInputs": ["f,n,df:4"]
   },
   {
     "name": "Disrespect",
@@ -1040,8 +1040,44 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Backturn Stance\n",
+    "note": "\nShifts to Backturn Stance\n\n",
     "alternateInputs": ["1+2"]
+  },
+  {
+    "name": "Left Plasma Blade",
+    "input": "BT 3",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i14~16",
+    "block": "-13",
+    "hit": "+38 (+28)",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["BT 3"]
+  },
+  {
+    "name": "Plasma Blade",
+    "input": "BT 4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "i14~16",
+    "block": "-13",
+    "hit": "+40 (+30)",
+    "counter": "",
+    "note": "\nShifts to Right Stance\n\n",
+    "alternateInputs": ["BT 4"]
+  },
+  {
+    "name": "Spinning Low Kick",
+    "input": "BT d+3",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i18~19",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["BT d+3"]
   },
   {
     "name": "Motion Switch",
@@ -1052,23 +1088,395 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Left Stance\n",
+    "note": "\nShifts to Left Stance\n\n",
     "alternateInputs": ["RFF 3+4"]
   },
   {
     "name": "",
+    "input": "RFF 1",
+    "hit_level": "h",
+    "damage": "10",
+    "startup": "i10",
+    "block": "+0",
+    "hit": "+6",
+    "counter": "",
+    "note": "\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF 1"]
+  },
+  {
+    "name": "Migraine",
+    "input": "RFF 1,1",
+    "hit_level": "h,m",
+    "damage": "10,12",
+    "startup": "i19",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFF 1,1"]
+  },
+  {
+    "name": "",
     "input": "RFF 2",
-    "hit_level": "",
+    "hit_level": "h",
     "damage": "6",
     "startup": "i10",
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
+    "note": "\nRemains in Right Stance\n\n",
     "alternateInputs": ["RFF 2"]
   },
   {
-    "name": "Motion Switch",
+    "name": "",
+    "input": "RFF 2,1",
+    "hit_level": "h,h",
+    "damage": "6,10",
+    "startup": "i10",
+    "block": "+0",
+    "hit": "+6",
+    "counter": "",
+    "note": "\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF 2,1"]
+  },
+  {
+    "name": "Big Fists",
+    "input": "RFF 2,1,1",
+    "hit_level": "h,h,m",
+    "damage": "6,10,12",
+    "startup": "i19",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFF 2,1,1"]
+  },
+  {
+    "name": "Hawk Strike",
+    "input": "RFF 2,3",
+    "hit_level": "h,h",
+    "damage": "6,24",
+    "startup": "i19~20",
+    "block": "-9",
+    "hit": "+20",
+    "counter": "",
+    "note": "\n\nTornado\n\n",
+    "alternateInputs": ["RFF 2,3"]
+  },
+  {
+    "name": "",
+    "input": "RFF 2,4",
+    "hit_level": "h,h",
+    "damage": "6,9",
+    "startup": "i12",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": "\nRemains in Right Stance\nHold any direction to shift to Right Flamingo\n\n",
+    "alternateInputs": ["RFF 2,4"]
+  },
+  {
+    "name": "Chainsaw Kick Combo",
+    "input": "RFF 2,4,3",
+    "hit_level": "h,h,m",
+    "damage": "6,9,20",
+    "startup": "i25~31",
+    "block": "-14c",
+    "hit": "+14",
+    "counter": "",
+    "note": "\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF 2,4,3"]
+  },
+  {
+    "name": "Right Reverse Kick Combo",
+    "input": "RFF 2,4,4",
+    "hit_level": "h,h,h",
+    "damage": "6,9,23",
+    "startup": "i18~19",
+    "block": "-5",
+    "hit": "+41",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["RFF 2,4,4"]
+  },
+  {
+    "name": "",
+    "input": "RFF 3",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i16",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFF 3"]
+  },
+  {
+    "name": "Volcannon",
+    "input": "RFF 3,4",
+    "hit_level": "m,h",
+    "damage": "13,16",
+    "startup": "i27~28",
+    "block": "+10",
+    "hit": "+21",
+    "counter": "",
+    "note": "\nShifts to Right Flamingo\nRFF.3,4,F to cancel and shift to Right Flamingo\n\n",
+    "alternateInputs": ["RFF 3,4"]
+  },
+  {
+    "name": "Backlash",
+    "input": "RFF 3~4",
+    "hit_level": "h",
+    "damage": "27",
+    "startup": "i27~30",
+    "block": "+5",
+    "hit": "+47",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHoming\nClean hit\nChip damage on block\n\n",
+    "alternateInputs": ["RFF 3~4"]
+  },
+  {
+    "name": "",
+    "input": "RFF 4",
+    "hit_level": "h",
+    "damage": "9",
+    "startup": "i12",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "note": "\nRemains in Right Stance\nHold any direction to shift to Right Flamingo\n\n",
+    "alternateInputs": ["RFF 4"]
+  },
+  {
+    "name": "Chainsaw Kick",
+    "input": "RFF 4,3",
+    "hit_level": "h,m",
+    "damage": "9,20",
+    "startup": "i25~31",
+    "block": "-14c",
+    "hit": "+14",
+    "counter": "",
+    "note": "\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF 4,3"]
+  },
+  {
+    "name": "Right Reverse Kick",
+    "input": "RFF 4,4",
+    "hit_level": "h,h",
+    "damage": "9,23",
+    "startup": "i18~19",
+    "block": "-5",
+    "hit": "+41",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["RFF 4,4"]
+  },
+  {
+    "name": "",
+    "input": "RFF f+1",
+    "hit_level": "h",
+    "damage": "5",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFF f+1"]
+  },
+  {
+    "name": "Left Right Combo",
+    "input": "RFF f+1,2",
+    "hit_level": "h,h",
+    "damage": "5,10",
+    "startup": "i10",
+    "block": "-3",
+    "hit": "+6",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFF f+1,2"]
+  },
+  {
+    "name": "Cheap Shot",
+    "input": "RFF f+3",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i14~17",
+    "block": "+6",
+    "hit": "+17",
+    "counter": "",
+    "note": "\nShifts to Left Flamingo\nRFF.f+3,B to shift to Backturn Stance\n\n",
+    "alternateInputs": ["RFF f+3"]
+  },
+  {
+    "name": "Right Flamingo Feint",
+    "input": "RFF f+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nShifts to Right Flamingo\n\n",
+    "alternateInputs": ["RFF f+4"]
+  },
+  {
+    "name": "Plasma Blade",
+    "input": "RFF f+4~4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18~20",
+    "block": "-13",
+    "hit": "+41 (+31)",
+    "counter": "",
+    "note": "\n\nTornado\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF f+4~4"]
+  },
+  {
+    "name": "Black Kite",
+    "input": "RFF df+3",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i22~24",
+    "block": "+1",
+    "hit": "+6",
+    "counter": "",
+    "note": "\n\nHoming\n\nHeat Engager\n\nDeals chip damage on block\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF df+3"]
+  },
+  {
+    "name": "Right Sidekick",
+    "input": "RFF df+4",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i13",
+    "block": "-7",
+    "hit": "+1",
+    "counter": "",
+    "note": "\nRemains in Right Stance\nHold any direction to shift to Right Flamingo\n\n",
+    "alternateInputs": ["RFF df+4"]
+  },
+  {
+    "name": "",
+    "input": "RFF df+2+3",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i22~23",
+    "block": "-14",
+    "hit": "-4",
+    "counter": "",
+    "note": "\nDeals chip damage on block if an attack is absorbed\nRFF.df+2+3,F/U/D to cancel and shift to Left Flamingo\n\n",
+    "alternateInputs": ["RFF df+2+3"]
+  },
+  {
+    "name": "Double Claymore",
+    "input": "RFF df+2+3,4",
+    "hit_level": "m,m",
+    "damage": "12,20",
+    "startup": "i24~25",
+    "block": "-12",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nDeals chip damage on block if an attack is absorbed\n\n",
+    "alternateInputs": ["RFF df+2+3,4"]
+  },
+  {
+    "name": "",
+    "input": "RFF d+3",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i18",
+    "block": "-11",
+    "hit": "0",
+    "counter": "",
+    "note": "\nShifts to Backturn Stance\n\n",
+    "alternateInputs": ["RFF d+3"]
+  },
+  {
+    "name": "Triumph Low Right",
+    "input": "RFF d+3,4",
+    "hit_level": "l,h",
+    "damage": "10,10",
+    "startup": "i21~23",
+    "block": "+8",
+    "hit": "+14",
+    "counter": "",
+    "note": "\nShifts to Right Flamingo\n\n",
+    "alternateInputs": ["RFF d+3,4"]
+  },
+  {
+    "name": "Heel Screw",
+    "input": "RFF d+3+4",
+    "hit_level": "l",
+    "damage": "19",
+    "startup": "i19",
+    "block": "-11",
+    "hit": "+5",
+    "counter": "",
+    "note": "\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF d+3+4"]
+  },
+  {
+    "name": "Blast Fist",
+    "input": "RFF b+2",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i16~17",
+    "block": "+4",
+    "hit": "+6c",
+    "counter": "",
+    "note": "\nRemains in Right Stance\n\n",
+    "alternateInputs": ["RFF b+2"]
+  },
+  {
+    "name": "Nose Bleeder",
+    "input": "RFF b+3",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i13~14",
+    "block": "-10",
+    "hit": "+1",
+    "counter": "",
+    "note": "\nSidesteps to the right\n\n",
+    "alternateInputs": ["RFF b+3"]
+  },
+  {
+    "name": "Spin Kick",
+    "input": "RFF b+4",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i18~19",
+    "block": "-9",
+    "hit": "+12",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["RFF b+4"]
+  },
+  {
+    "name": "Hunting Heel",
+    "input": "RFF f,F+3",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i22~25",
+    "block": "-7",
+    "hit": "+19",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFF f,F+3"]
+  },
+  {
+    "name": "Left Flamingo Feint",
+    "input": "f+3",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nShifts to Left Flamingo\nSidesteps to the right\n\n",
+    "alternateInputs": ["f+3"]
+  },
+  {
+    "name": "Flamingo Switch > Right Flamingo",
     "input": "LFS 3+4",
     "hit_level": "",
     "damage": "",
@@ -1076,11 +1484,11 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Right Flamingo\n",
+    "note": "\nShifts to Right Flamingo\n\n",
     "alternateInputs": ["LFS 3+4"]
   },
   {
-    "name": "",
+    "name": "Left Flamingo > Back Hand",
     "input": "LFS 1",
     "hit_level": "",
     "damage": "6",
@@ -1092,7 +1500,331 @@
     "alternateInputs": ["LFS 1"]
   },
   {
-    "name": "Motion Switch",
+    "name": "Right Backhand",
+    "input": "LFS 2",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i16",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "note": "\nShifts to Right Stance\n\n",
+    "alternateInputs": ["LFS 2"]
+  },
+  {
+    "name": "",
+    "input": "LFS 3",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i14",
+    "block": "-13",
+    "hit": "-7",
+    "counter": "",
+    "note": "\nLFS.3,F to remain in Left Flamingo\n\n",
+    "alternateInputs": ["LFS 3"]
+  },
+  {
+    "name": "Flamingo Siege Combo",
+    "input": "LFS 3,2",
+    "hit_level": "m,m",
+    "damage": "10,20",
+    "startup": "i21~22",
+    "block": "-11",
+    "hit": "+1c",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["LFS 3,2"]
+  },
+  {
+    "name": "Flamingo Kick Combo Middle",
+    "input": "LFS 3,3",
+    "hit_level": "m,m",
+    "damage": "10,15",
+    "startup": "i21",
+    "block": "-14",
+    "hit": "+32 (+24)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["LFS 3,3"]
+  },
+  {
+    "name": "Flamingo Side Kick > Right Hook Kick",
+    "input": "LFS 3,4",
+    "hit_level": "m,h",
+    "damage": "10,15",
+    "startup": "i21~23",
+    "block": "+8",
+    "hit": "+19",
+    "counter": "",
+    "note": "\nShifts to Right Flamingo\n\n",
+    "alternateInputs": ["LFS 3,4"]
+  },
+  {
+    "name": "Flamingo Side Kick > Backlash",
+    "input": "LFS 3,f+4",
+    "hit_level": "m,h",
+    "damage": "10,20",
+    "startup": "i21~27",
+    "block": "-1",
+    "hit": "+40 (+14)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["LFS 3,f+4"]
+  },
+  {
+    "name": "Right Step Kick",
+    "input": "LFS 4",
+    "hit_level": "h",
+    "damage": "24",
+    "startup": "i14~16",
+    "block": "+4",
+    "hit": "+27 (+18)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nShifts to Right Flamingo\n\n",
+    "alternateInputs": ["LFS 4"]
+  },
+  {
+    "name": "Lightning Halberd",
+    "input": "LFS 4~3",
+    "hit_level": "h,h",
+    "damage": "17,26",
+    "startup": "i15~16",
+    "block": "-2",
+    "hit": "+24 (+14)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["LFS 4~3"]
+  },
+  {
+    "name": "Power Blast",
+    "input": "LFS 1+4",
+    "hit_level": "ub(m)",
+    "damage": "80",
+    "startup": "i66~69",
+    "block": "-1",
+    "hit": "-1",
+    "counter": "",
+    "note": "\nLFS.1+4,b,b to cancel\n\n",
+    "alternateInputs": ["LFS 1+4"]
+  },
+  {
+    "name": "Flamingo Rocket",
+    "input": "LFS f+3",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i19~20",
+    "block": "+4",
+    "hit": "+26",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\nRemains in Left Flamingo\n\n",
+    "alternateInputs": ["LFS f+3"]
+  },
+  {
+    "name": "Spinning Hook Kick",
+    "input": "LFS f+4",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i17~18",
+    "block": "-10",
+    "hit": "+6",
+    "counter": "",
+    "note": "\n\nHoming\n\n",
+    "alternateInputs": ["LFS f+4"]
+  },
+  {
+    "name": "",
+    "input": "LFS df+3",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i22~23",
+    "block": "-14",
+    "hit": "-4",
+    "counter": "",
+    "note": "\nDeals chip damage on block if an attack is absorbed\nLFS.df+3,F/U/D to cancel and remain in Left Flamingo\n\n",
+    "alternateInputs": ["LFS df+3"]
+  },
+  {
+    "name": "Flamingo Double Claymore",
+    "input": "LFS df+3,4",
+    "hit_level": "m,m",
+    "damage": "12,20",
+    "startup": "i24~25",
+    "block": "-12",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nDeals chip damage on block if an attack is absorbed\n\n",
+    "alternateInputs": ["LFS df+3,4"]
+  },
+  {
+    "name": "",
+    "input": "LFS d+3",
+    "hit_level": "l",
+    "damage": "7",
+    "startup": "i16",
+    "block": "-17",
+    "hit": "-6",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": ["LFS d+3"]
+  },
+  {
+    "name": "Flamingo Low Right",
+    "input": "LFS d+3,4",
+    "hit_level": "l,h",
+    "damage": "7,10",
+    "startup": "i21~23",
+    "block": "+8",
+    "hit": "+14",
+    "counter": "",
+    "note": "\nShifts to Right Flamingo\n\n",
+    "alternateInputs": ["LFS d+3,4"]
+  },
+  {
+    "name": "Combat Low",
+    "input": "LFS d+4",
+    "hit_level": "l",
+    "damage": "17",
+    "startup": "i20~21",
+    "block": "-12",
+    "hit": "+4",
+    "counter": "",
+    "note": "\nAlternate input: LFS.db+4\nShifts to Right Stance\n\n",
+    "alternateInputs": ["LFS d+4"]
+  },
+  {
+    "name": "Stealth Needle",
+    "input": "LFS b+1",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i15",
+    "block": "-14",
+    "hit": "-1",
+    "counter": "",
+    "note": "\nSidesteps to the right\n\n",
+    "alternateInputs": ["LFS b+1"]
+  },
+  {
+    "name": "Left Thunderbolt",
+    "input": "LFS b+3",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i20~22",
+    "block": "-12",
+    "hit": "+14",
+    "counter": "",
+    "note": "\n\nBalcony Break\nDeals chip damage on block if an attack is absorbed\nShifts to Right Stance\n\n",
+    "alternateInputs": ["LFS b+3"]
+  },
+  {
+    "name": "",
+    "input": "LFS b+4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i16~17",
+    "block": "-8",
+    "hit": "0",
+    "counter": "",
+    "note": "\nShifts to Right Stance\n\n",
+    "alternateInputs": ["LFS b+4"]
+  },
+  {
+    "name": "Flamingo Screw Kick",
+    "input": "LFS b+4,3",
+    "hit_level": "m,h",
+    "damage": "15,20",
+    "startup": "i16~19",
+    "block": "0",
+    "hit": "+20 (+11)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nDeals chip damage on block\nShifts to Right Stance\n\n",
+    "alternateInputs": ["LFS b+4,3"]
+  },
+  {
+    "name": "",
+    "input": "LFS uf+3",
+    "hit_level": "m",
+    "damage": "11",
+    "startup": "i28~29",
+    "block": "-6",
+    "hit": "-7",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["LFS uf+3"]
+  },
+  {
+    "name": "",
+    "input": "LFS uf+3,4",
+    "hit_level": "m,m",
+    "damage": "11,12",
+    "startup": "i20~21",
+    "block": "+2",
+    "hit": "+13",
+    "counter": "",
+    "note": "\nShifts to Right Flamingo\n\n",
+    "alternateInputs": ["LFS uf+3,4"]
+  },
+  {
+    "name": "Flamingo Hunting Hawk",
+    "input": "LFS uf+3,4,3",
+    "hit_level": "m,m,m",
+    "damage": "11,12,20",
+    "startup": "i27~28",
+    "block": "-14",
+    "hit": "+0c",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["LFS uf+3,4,3"]
+  },
+  {
+    "name": "Switch Plasma Blade",
+    "input": "LFS uf+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i19~20",
+    "block": "-14",
+    "hit": "+32 (+22)",
+    "counter": "",
+    "note": "\n\nTornado\n\n",
+    "alternateInputs": ["LFS uf+4"]
+  },
+  {
+    "name": "",
+    "input": "LFS uf+3+4",
+    "hit_level": "m,h",
+    "damage": "10,8",
+    "startup": "i14",
+    "block": "-10",
+    "hit": "+1",
+    "counter": "",
+    "note": "\nLFS.uf+3+4,F to remain in Left Flamingo\n\n",
+    "alternateInputs": ["LFS uf+3+4"]
+  },
+  {
+    "name": "Flamingo Flashing Trident",
+    "input": "LFS uf+3+4,4",
+    "hit_level": "m,h,m",
+    "damage": "10,8,13",
+    "startup": "i14~15",
+    "block": "-10",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nShifts to Right Stance\n\n",
+    "alternateInputs": ["LFS uf+3+4,4"]
+  },
+  {
+    "name": "Right Flamingo Feint",
+    "input": "f,n,4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nShifts to Right Flamingo\nSidesteps to the left\n\n",
+    "alternateInputs": ["f,n,4"]
+  },
+  {
+    "name": "Flamingo Switch > Left Flamingo",
     "input": "RFS 3+4",
     "hit_level": "",
     "damage": "",
@@ -1100,20 +1832,236 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nShifts to Left Flamingo\n",
+    "note": "\nShifts to Left Flamingo\n\n",
     "alternateInputs": ["RFS 3+4"]
   },
   {
-    "name": "",
+    "name": "Left Punch",
+    "input": "RFS 1",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i16",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": ["RFS 1"]
+  },
+  {
+    "name": "Right Flamingo > Back Hand",
     "input": "RFS 2",
-    "hit_level": "",
+    "hit_level": "h",
     "damage": "6",
     "startup": "i13",
     "block": "+5",
     "hit": "+7",
     "counter": "",
-    "note": "\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["RFS 2"]
+  },
+  {
+    "name": "Left Step Kick",
+    "input": "RFS 3",
+    "hit_level": "h",
+    "damage": "24",
+    "startup": "i14~16",
+    "block": "+4",
+    "hit": "+27 (+18)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nShifts to Left Flamingo\nSidesteps to the left\n\n",
+    "alternateInputs": ["RFS 3"]
+  },
+  {
+    "name": "Right Kick",
+    "input": "RFS 4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i14",
+    "block": "-13",
+    "hit": "+21 (+11)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nShifts to Right Stance\n\n",
+    "alternateInputs": ["RFS 4"]
+  },
+  {
+    "name": "Screw Kick",
+    "input": "RFS f+3",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i20~21",
+    "block": "-10",
+    "hit": "+5",
+    "counter": "",
+    "note": "\n\nHoming\n\n",
+    "alternateInputs": ["RFS f+3"]
+  },
+  {
+    "name": "",
+    "input": "RFS f+4",
+    "hit_level": "h,h",
+    "damage": "8,8",
+    "startup": "i8",
+    "block": "+0",
+    "hit": "+2",
+    "counter": "",
+    "note": "\nRemains in Right Flamingo\n\n",
+    "alternateInputs": ["RFS f+4"]
+  },
+  {
+    "name": "Right Viper Combo > Right Sword",
+    "input": "RFS f+4,4",
+    "hit_level": "h,h,h",
+    "damage": "8,8,9",
+    "startup": "i23",
+    "block": "-6",
+    "hit": "+75 (+59)",
+    "counter": "",
+    "note": "\n\nTornado\nShifts to Right Stance\n\n",
+    "alternateInputs": ["RFS f+4,4"]
+  },
+  {
+    "name": "Snap Kick",
+    "input": "RFS df+4",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i17~19",
+    "block": "+1",
+    "hit": "+8c",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFS df+4"]
+  },
+  {
+    "name": "",
+    "input": "RFS d+3",
+    "hit_level": "l",
+    "damage": "13",
+    "startup": "i15",
+    "block": "-13",
+    "hit": "-5",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFS d+3"]
+  },
+  {
+    "name": "Teaser",
+    "input": "RFS d+3,3",
+    "hit_level": "l,h",
+    "damage": "13,28",
+    "startup": "i25~27",
+    "block": "-2",
+    "hit": "+34 (+8)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
+    "alternateInputs": ["RFS d+3,3"]
+  },
+  {
+    "name": "",
+    "input": "RFS d+4",
+    "hit_level": "l",
+    "damage": "15",
+    "startup": "i20~21",
+    "block": "-23",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nShifts to Right Stance\n\n",
+    "alternateInputs": ["RFS d+4"]
+  },
+  {
+    "name": "",
+    "input": "RFS d+4,3",
+    "hit_level": "l,h",
+    "damage": "15,12",
+    "startup": "i25",
+    "block": "-9",
+    "hit": "-1",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["RFS d+4,3"]
+  },
+  {
+    "name": "Predator Bardiche",
+    "input": "RFS d+4,3,4",
+    "hit_level": "l,h,h",
+    "damage": "15,12,20",
+    "startup": "i27~28",
+    "block": "-9",
+    "hit": "+28 (+2)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["RFS d+4,3,4"]
+  },
+  {
+    "name": "Left Heel Lance",
+    "input": "RFS b+3",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i16~17",
+    "block": "-9",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\n",
+    "alternateInputs": ["RFS b+3"]
+  },
+  {
+    "name": "Right Thunderbolt",
+    "input": "RFS b+4",
+    "hit_level": "m",
+    "damage": "23",
+    "startup": "i20~22",
+    "block": "-12",
+    "hit": "+14",
+    "counter": "",
+    "note": "\n\nBalcony Break\nDeals chip damage on block if an attack is absorbed\n\n",
+    "alternateInputs": ["RFS b+4"]
+  },
+  {
+    "name": "Raptor Claw",
+    "input": "RFS u+4",
+    "hit_level": "h",
+    "damage": "17",
+    "startup": "i25~26",
+    "block": "-2",
+    "hit": "+8",
+    "counter": "",
+    "note": "\n\nHoming\nShifts to Right Stance\n\n",
+    "alternateInputs": ["RFS u+4"]
+  },
+  {
+    "name": "Flamingo Hunting Heel",
+    "input": "RFS uf+3",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i24~27",
+    "block": "-7",
+    "hit": "+19",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": ["RFS uf+3"]
+  },
+  {
+    "name": "Air Blade",
+    "input": "RFS uf+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i17~18",
+    "block": "",
+    "hit": "+30 (+20)",
+    "counter": "",
+    "note": "\n\nTornado\nShifts to Right Stance\n\n",
+    "alternateInputs": ["RFS uf+4"]
+  },
+  {
+    "name": "Flying Eagle",
+    "input": "RFS 3~4",
+    "hit_level": "m,m",
+    "damage": "11,21",
+    "startup": "i16",
+    "block": "-3",
+    "hit": "+26 (+16)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": ["RFS 3~4"]
   },
   {
     "name": "Sky Burial",
@@ -1124,7 +2072,7 @@
     "block": "-15",
     "hit": "",
     "counter": "",
-    "note": "\npc\nRage Art\nErases opponent's recoverable health on hit\nPossible during all stances except Backturn Stance\n",
+    "note": "\nRage Art\nErases opponent's recoverable health on hit\nPossible during all stances except Backturn Stance\n\n",
     "alternateInputs": ["in rage df+1+2"]
   },
   {
@@ -1136,7 +2084,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["SS 3"]
   },
   {
@@ -1148,7 +2096,7 @@
     "block": "+3",
     "hit": "+14",
     "counter": "",
-    "note": "\nShifts to Left Flamingo\n",
+    "note": "\nShifts to Left Flamingo\n\n",
     "alternateInputs": ["SS 3,3"]
   },
   {
@@ -1158,9 +2106,9 @@
     "damage": "18",
     "startup": "i19~20",
     "block": "-13",
-    "hit": "+5",
+    "hit": "+5c",
     "counter": "",
-    "note": "\nForces crouch on hit\nShifts to Right Stance\n",
+    "note": "\nShifts to Right Stance\n\n",
     "alternateInputs": ["SS 4"]
   },
   {
@@ -1172,7 +2120,139 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1+2+3+4"]
+  },
+  {
+    "name": "Pickpocket",
+    "input": "1+3",
+    "hit_level": "th(h)",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: 1 or 2\nOpponent recovery on hit: FDFT\nSideswap on break\n\n\n",
+    "alternateInputs": ["1+3"]
+  },
+  {
+    "name": "Falcon Dice Kick",
+    "input": "2+4",
+    "hit_level": "th(h)",
+    "damage": "25",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nSpike\nBreak: 1 or 2\nOpponent recovery on hit: FDFT off-axis to the left, sideswap\n\n",
+    "alternateInputs": ["2+4"]
+  },
+  {
+    "name": "Bring It On",
+    "input": "Left throw",
+    "hit_level": "th(h)",
+    "damage": "45",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: 1\nOpponent recovery on hit: FUFT off-axis to the left\nAlso possible during Right Stance\n\n",
+    "alternateInputs": ["Left throw"]
+  },
+  {
+    "name": "Dead-End",
+    "input": "Right throw",
+    "hit_level": "th(h)",
+    "damage": "44",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: 2\nOpponent recovery on hit: FDFT off-axis to the right\nAlso possible during Right Stance\n\n",
+    "alternateInputs": ["Right throw"]
+  },
+  {
+    "name": "Slaughterhouse",
+    "input": "Back throw",
+    "hit_level": "th(h)",
+    "damage": "60",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: none\nOpponent recovery on hit: FUFA\nAlso possible during Right Stance\n\n",
+    "alternateInputs": ["Back throw"]
+  },
+  {
+    "name": "Roll and Choke",
+    "input": "2+4,B",
+    "hit_level": "th(h)",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: 2\nOpponent recovery on hit: FUFA, sideswap\nShifts to Backturn Stance\n\n",
+    "alternateInputs": ["2+4,B"]
+  },
+  {
+    "name": "Human Cannonball",
+    "input": "f+2+3",
+    "hit_level": "th(h)",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: 1+2\nOpponent recovery on hit: FUFA, sideswap\nPossible in all stances except Backturn Stance\n\n",
+    "alternateInputs": ["f+2+3"]
+  },
+  {
+    "name": "Leg Hook Throw",
+    "input": "uf+1+2",
+    "hit_level": "th(h)",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: 1+2\nOpponent recovery on hit: FUFA\nAlso possible during Right Stance\n\n",
+    "alternateInputs": ["uf+1+2"]
+  },
+  {
+    "name": "Door Mat",
+    "input": "d,db,b+3",
+    "hit_level": "th(h)",
+    "damage": "45",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nSpike\nBreak: 1\nOpponent recovery on hit: FUFA, sideswap\nSometimes written qcb+3\n",
+    "alternateInputs": ["d,db,b+3"]
+  },
+  {
+    "name": "Overhead Kick",
+    "input": "AIin rage ub+3",
+    "hit_level": "th(m)",
+    "damage": "26",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: none\nOpponent recovery on hit: FUFA, sideswap\nAlso possible during Right Stance\n\n",
+    "alternateInputs": ["AIin rage ub+3"]
+  },
+  {
+    "name": "Jackknife",
+    "input": "RFF 1+3",
+    "hit_level": "th(h)",
+    "damage": "45",
+    "startup": "i12",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nBreak: 1+2\nOpponent recovery on hit: FUFA, sideswap\nAlso possible during Right Stance\n\n",
+    "alternateInputs": ["RFF 1+3"]
   }
 ]

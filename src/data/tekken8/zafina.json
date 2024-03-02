@@ -8,23 +8,35 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\npc7~\n\nHeat Burst\nCancel with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor",
+    "note": "\n\nHeat Burst\nCancel with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor\n",
     "alternateInputs": ["2+3"]
   },
   {
-    "name": "Heat Smash",
+    "name": "Curse of Azazel",
     "input": "in heat 2+3",
     "hit_level": "h,sm",
-    "damage": "15,10,15,15,15,18",
+    "damage": "15,4,5,5,4,18",
     "startup": "i12~13 i47~53 i1~7 i1~7 i1~6 i1~2",
     "block": "+3",
     "hit": "knd",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nBalcony Break\nHit throw on the first hit\nDamage 15,4,5,5,4,18 (total 51)\nUnparryable\nIgnores regular power crush armor\nJails\nEnds Heat",
+    "note": "\n\nHeat Smash\n\nBalcony Break\nHit throw on the first hit\nUnparryable\nIgnores regular power crush armor\nJails\n",
     "alternateInputs": ["in heat 2+3"]
   },
   {
-    "name": "",
+    "name": "Malice of Azazel",
+    "input": "in heat SCin rage 2+3",
+    "hit_level": "l,m",
+    "damage": "10,20",
+    "startup": "i19",
+    "block": "-14",
+    "hit": "+44d (+25)",
+    "counter": "",
+    "note": "\n\nHeat Smash\n\nBalcony Break \n",
+    "alternateInputs": ["in heat SCin rage 2+3"]
+  },
+  {
+    "name": "Malicious Nail",
     "input": "f+1+2",
     "hit_level": "m,m",
     "damage": "16,22",
@@ -32,7 +44,7 @@
     "block": "-9",
     "hit": "+5d(-5)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\n\nBalcony Break\nAzazel's Power\nZafina receives recoverable health damage\nSecond hit only comes out on hit or block\n8 chip damage on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\n\nBalcony Break\nAzazel's Power\nZafina receives recoverable health damage\nSecond hit only comes out on hit or block\n8 chip damage on block\n\n",
     "alternateInputs": ["f+1+2"]
   },
   {
@@ -44,7 +56,7 @@
     "block": "-12",
     "hit": "+3d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +17d\n\n\nBalcony Break\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nDeals 8 chip damage on block\nCan be cancelled before hit by holding D (recovers crouching -18/-2)\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +17d\n\n\nBalcony Break\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nDeals 8 chip damage on block\nCan be cancelled before hit by holding D (recovers crouching -18/-2)\n\n",
     "alternateInputs": ["df+4,1"]
   },
   {
@@ -56,7 +68,7 @@
     "block": "-6",
     "hit": "+30d(+20)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n\n",
     "alternateInputs": ["SCin rage 2,1"]
   },
   {
@@ -68,7 +80,7 @@
     "block": "-7",
     "hit": "+30a(+15)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +35d\n\nAzazel's Power\nZafina receives recoverable health damage\n12 chip damage on block\nGains Power Crush frames during heat\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +35d\n\nAzazel's Power\nZafina receives recoverable health damage\n12 chip damage on block\nGains Power Crush frames during heat\n\n",
     "alternateInputs": ["TRT df+1"]
   },
   {
@@ -80,8 +92,20 @@
     "block": "+6",
     "hit": "+7d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50\n\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n9 chip damage on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50\n\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n9 chip damage on block\n\n",
     "alternateInputs": ["MNT df+1"]
+  },
+  {
+    "name": "",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit\n",
+    "alternateInputs": ["in rage df+1+2"]
   },
   {
     "name": "",
@@ -92,11 +116,11 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1"]
   },
   {
-    "name": "",
+    "name": "Left Right Combo",
     "input": "1,2",
     "hit_level": "h,h",
     "damage": "5,9",
@@ -104,11 +128,11 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1,2"]
   },
   {
-    "name": "",
+    "name": "Left Right Scarecrow",
     "input": "1,2,3",
     "hit_level": "h,h,h",
     "damage": "5,9,12",
@@ -116,11 +140,11 @@
     "block": "0",
     "hit": "+9",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -9/0)\nCan be delayed\n",
+    "note": "\nCancel SCR transition -9, +0 with B\nCan be delayed\n\n",
     "alternateInputs": ["1,2,3"]
   },
   {
-    "name": "",
+    "name": "Anzu",
     "input": "1,3",
     "hit_level": "h,h",
     "damage": "5,14",
@@ -128,19 +152,19 @@
     "block": "-2",
     "hit": "+7",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n",
+    "note": "\nCancel SCR transition -8, +1 with B\n\n",
     "alternateInputs": ["1,3"]
   },
   {
-    "name": "",
+    "name": "Ecdysis",
     "input": "1,4",
     "hit_level": "h,m",
     "damage": "5,17",
     "startup": "i19",
     "block": "-5",
     "hit": "+2",
-    "counter": "",
-    "note": "",
+    "counter": "+53a",
+    "note": "\n",
     "alternateInputs": ["1,4"]
   },
   {
@@ -152,7 +176,7 @@
     "block": "-7",
     "hit": "-1",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2"]
   },
   {
@@ -164,11 +188,11 @@
     "block": "-6",
     "hit": "+2",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2,1"]
   },
   {
-    "name": "",
+    "name": "Kapara",
     "input": "2,1,3",
     "hit_level": "h,m,l",
     "damage": "8,9,11",
@@ -176,7 +200,7 @@
     "block": "-17",
     "hit": "+4d",
     "counter": "",
-    "note": "\nCan be cancelled into MNT before hit by holding D (becomes -9/-17)\nCan be delayed\n",
+    "note": "\nCancel and transition to -9, -17 MNT with D\nCan be delayed\n\n",
     "alternateInputs": ["2,1,3"]
   },
   {
@@ -188,11 +212,11 @@
     "block": "-9",
     "hit": "+2",
     "counter": "+7",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2,2"]
   },
   {
-    "name": "",
+    "name": "Anamalech",
     "input": "2,2,1+2",
     "hit_level": "h,m,m,m,m",
     "damage": "8,12,7,11,14",
@@ -200,11 +224,11 @@
     "block": "-9",
     "hit": "+19d(-16)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["2,2,1+2"]
   },
   {
-    "name": "",
+    "name": "Sharur",
     "input": "3",
     "hit_level": "h",
     "damage": "17",
@@ -212,7 +236,7 @@
     "block": "0",
     "hit": "+9",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n",
+    "note": "\nCancel SCR transition -8, +1 with B\n\n",
     "alternateInputs": ["3"]
   },
   {
@@ -224,7 +248,7 @@
     "block": "-6",
     "hit": "-1",
     "counter": "+19a(+10)",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["4"]
   },
   {
@@ -236,7 +260,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "+24a",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1+2"]
   },
   {
@@ -248,11 +272,11 @@
     "block": "-10",
     "hit": "+1",
     "counter": "+6",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["1+2,4"]
   },
   {
-    "name": "",
+    "name": "Manticore",
     "input": "1+2,4,4",
     "hit_level": "m,m,m",
     "damage": "17,10,12",
@@ -260,11 +284,11 @@
     "block": "-11",
     "hit": "+19d",
     "counter": "",
-    "note": "\nCan pick up from the ground with db+3 for a juggle\n",
+    "note": "\nCan pick up from the ground with db+3 for a juggle\n\n",
     "alternateInputs": ["1+2,4,4"]
   },
   {
-    "name": "",
+    "name": "Scarecrow Stance",
     "input": "3+4",
     "hit_level": "",
     "damage": "",
@@ -272,7 +296,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\nTransitions to SCR\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -284,7 +308,7 @@
     "block": "-18",
     "hit": "-9",
     "counter": "+52a",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -296,11 +320,11 @@
     "block": "0",
     "hit": "+9",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -9/0)\nCan be delayed\n",
+    "note": "\nCancel SCR transition -9, +0 with B\\\nCan be delayed\n\n",
     "alternateInputs": ["f+2,3"]
   },
   {
-    "name": "",
+    "name": "Ettimu",
     "input": "f+2,3,4",
     "hit_level": ",m,h,m",
     "damage": "17,12,25",
@@ -308,11 +332,11 @@
     "block": "-18",
     "hit": "+18d(8)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+2,3,4"]
   },
   {
-    "name": "",
+    "name": "Scarecrow Side Kick",
     "input": "f+3",
     "hit_level": "h",
     "damage": "28",
@@ -320,11 +344,11 @@
     "block": "+3",
     "hit": "+68a(48)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCancel SCR transition by holding B (becomes -1/+64a)\n",
+    "note": "\n\nBalcony Break\nCancel SCR transition -1, +64a with B\\\n\n",
     "alternateInputs": ["f+3"]
   },
   {
-    "name": "",
+    "name": "Aqrabuamelu",
     "input": "f+4",
     "hit_level": "h",
     "damage": "13",
@@ -332,11 +356,11 @@
     "block": "-6",
     "hit": "+22d",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["f+4"]
   },
   {
-    "name": "",
+    "name": "Malicious Nail",
     "input": "f+1+2",
     "hit_level": "m,m",
     "damage": "16,22",
@@ -344,7 +368,7 @@
     "block": "-9",
     "hit": "+5d(-5)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\n\nBalcony Break\nAzazel's Power\nZafina receives recoverable health damage\nSecond hit only comes out on hit or block\n8 chip damage on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\n\nBalcony Break\nAzazel's Power\nZafina receives recoverable health damage\nSecond hit only comes out on hit or block\n8 chip damage on block\n\n",
     "alternateInputs": ["f+1+2"]
   },
   {
@@ -356,7 +380,7 @@
     "block": "-5",
     "hit": "+7",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+1"]
   },
   {
@@ -368,7 +392,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+1,2"]
   },
   {
@@ -380,7 +404,7 @@
     "block": "-13",
     "hit": "+23d(13)",
     "counter": "",
-    "note": "\nCan be delayed\n",
+    "note": "\nCan be delayed\n\n",
     "alternateInputs": ["df+1,2,1"]
   },
   {
@@ -392,7 +416,7 @@
     "block": "-6",
     "hit": "+12g",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["df+1,4"]
   },
   {
@@ -402,9 +426,9 @@
     "damage": "13",
     "startup": "i16~17",
     "block": "-12",
-    "hit": "+32a(22)",
+    "hit": "+32a (+22)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -416,7 +440,7 @@
     "block": "-5",
     "hit": "+4",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -10/-1)\n",
+    "note": "\nCancel SCR transition by holding B (becomes -10/-1)\n\n",
     "alternateInputs": ["df+3"]
   },
   {
@@ -428,7 +452,7 @@
     "block": "-6",
     "hit": "+22d",
     "counter": "+55a",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+3,4"]
   },
   {
@@ -440,7 +464,7 @@
     "block": "-14",
     "hit": "+1c",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+3,d+4"]
   },
   {
@@ -452,7 +476,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+4"]
   },
   {
@@ -464,7 +488,7 @@
     "block": "-12",
     "hit": "+3d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +17d\n\n\nBalcony Break\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nDeals 8 chip damage on block\nCan be cancelled before hit by holding D (recovers crouching -18/-2)\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +17d\n\n\nBalcony Break\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nDeals 8 chip damage on block\nCan be cancelled before hit by holding D (recovers crouching -18/-2)\n\n",
     "alternateInputs": ["df+4,1"]
   },
   {
@@ -476,7 +500,7 @@
     "block": "-13",
     "hit": "+24a(+9)",
     "counter": "",
-    "note": "* \nTornado",
+    "note": "* \nTornado\n",
     "alternateInputs": ["df+4,2"]
   },
   {
@@ -488,7 +512,7 @@
     "block": "-9",
     "hit": "+60a",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["df+2+3"]
   },
   {
@@ -500,7 +524,7 @@
     "block": "-16",
     "hit": "-8",
     "counter": "-3c",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["d+1"]
   },
   {
@@ -512,7 +536,7 @@
     "block": "-12",
     "hit": "+19a(+12)",
     "counter": "+28a(+22)",
-    "note": "\nDelayable",
+    "note": "\nDelayable\n",
     "alternateInputs": ["d+1,1"]
   },
   {
@@ -524,7 +548,7 @@
     "block": "-16c",
     "hit": "-3c",
     "counter": "+17d",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["d+2"]
   },
   {
@@ -536,7 +560,7 @@
     "block": "-22",
     "hit": "-4b",
     "counter": "-4c",
-    "note": "\nCan hold D to transition to TRT instead of MNT\n",
+    "note": "\nCan hold D to transition to TRT instead of MNT\n\n",
     "alternateInputs": ["d+2,4"]
   },
   {
@@ -548,7 +572,7 @@
     "block": "-12",
     "hit": "+18a",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["d+2,4,3"]
   },
   {
@@ -560,7 +584,7 @@
     "block": "-15",
     "hit": "+2",
     "counter": "+20a",
-    "note": "\nEvasive (can go under some mids)\nHold D to transition to MNT (becomes -13/+4)\n",
+    "note": "\nEvasive (can go under some mids)\nHold D to transition to MNT (becomes -13/+4)\n\n",
     "alternateInputs": ["d+3"]
   },
   {
@@ -572,7 +596,7 @@
     "block": "-19",
     "hit": "-3",
     "counter": "+7",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["d+4"]
   },
   {
@@ -584,7 +608,7 @@
     "block": "-6",
     "hit": "+36a(+26)",
     "counter": "",
-    "note": "\nDelayable\n",
+    "note": "\nDelayable\n\n",
     "alternateInputs": ["d+4,3"]
   },
   {
@@ -596,7 +620,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["d+1+2"]
   },
   {
@@ -608,7 +632,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["d+3+4"]
   },
   {
@@ -620,7 +644,7 @@
     "block": "-9",
     "hit": "+3",
     "counter": "+16d",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["db+2"]
   },
   {
@@ -632,7 +656,7 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -11/0)\n",
+    "note": "\nCancel SCR transition by holding B (becomes -11/0)\n\n",
     "alternateInputs": ["db+3"]
   },
   {
@@ -644,7 +668,7 @@
     "block": "-12",
     "hit": "-3",
     "counter": "+3",
-    "note": "\nHold D to transition to MNT (becomes -13/4)\n",
+    "note": "\nHold D to transition to MNT (becomes -13/4)\n\n",
     "alternateInputs": ["db+4"]
   },
   {
@@ -656,7 +680,7 @@
     "block": "-13",
     "hit": "+68a(+52)",
     "counter": "",
-    "note": "\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n",
+    "note": "\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n\n",
     "alternateInputs": ["db+4,2"]
   },
   {
@@ -668,7 +692,7 @@
     "block": "-16",
     "hit": "+15a",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["db+1+2"]
   },
   {
@@ -680,7 +704,7 @@
     "block": "-16",
     "hit": "+5a(-4)",
     "counter": "+37a(-10)",
-    "note": "\n\nTornado\n",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["db+1+2,1+2"]
   },
   {
@@ -692,7 +716,7 @@
     "block": "-14",
     "hit": "+2",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["b+1"]
   },
   {
@@ -704,7 +728,7 @@
     "block": "",
     "hit": "d",
     "counter": "",
-    "note": "\nHit Throw\nAzazel's Power\nZafina receives recoverable health damage\nSwitches sides\n",
+    "note": "\nHit Throw\nAzazel's Power\nZafina receives recoverable health damage\nSwitches sides\n\n",
     "alternateInputs": ["b+1:1+2"]
   },
   {
@@ -716,7 +740,7 @@
     "block": "-5",
     "hit": "+12",
     "counter": "",
-    "note": "\n\nHoming\n",
+    "note": "\n\nHoming\n\n",
     "alternateInputs": ["b+2"]
   },
   {
@@ -728,7 +752,7 @@
     "block": "-14",
     "hit": "+12d",
     "counter": "",
-    "note": "\npc?~\n",
+    "note": "\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -740,7 +764,7 @@
     "block": "-9",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -752,7 +776,7 @@
     "block": "-14",
     "hit": "+9a(0)",
     "counter": "",
-    "note": "\n\nBalcony Break\nDelayable\nHit-confirmable\n",
+    "note": "\n\nBalcony Break\nDelayable\nHit-confirmable\n\n",
     "alternateInputs": ["b+4,4"]
   },
   {
@@ -764,7 +788,7 @@
     "block": "",
     "hit": "+41a(+10)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["b+2+3"]
   },
   {
@@ -776,7 +800,7 @@
     "block": "+4",
     "hit": "+9",
     "counter": "",
-    "note": "\nAlternate inputs:\nub+1\nu+1\n",
+    "note": "\nAlternate inputs:\nub+1\nu+1\n\n",
     "alternateInputs": ["uf+1"]
   },
   {
@@ -788,7 +812,7 @@
     "block": "-8",
     "hit": "+17d",
     "counter": "",
-    "note": "\njs?~\nAlternate inputs:\nub+3\nu+3\n",
+    "note": "\nAlternate inputs:\nub+3\nu+3\n\n",
     "alternateInputs": ["uf+3"]
   },
   {
@@ -800,7 +824,7 @@
     "block": "-13",
     "hit": "+29a(19)",
     "counter": "",
-    "note": "\njs?~\nAlternate inputs:\nub+4\nu+4\n",
+    "note": "\nAlternate inputs:\nub+4\nu+4\n\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -812,7 +836,7 @@
     "block": "+1",
     "hit": "+21a(12)",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\n6 chip damage on block\n",
+    "note": "\n\nHoming\n\nBalcony Break\n6 chip damage on block\n\n",
     "alternateInputs": ["f,f+2"]
   },
   {
@@ -824,7 +848,7 @@
     "block": "+4",
     "hit": "+9",
     "counter": "+14",
-    "note": "\nCancel SCR transition by holding B (remains +4/+9)\n",
+    "note": "\nCancel SCR transition by holding B (remains +4/+9)\n\n",
     "alternateInputs": ["f,f+3"]
   },
   {
@@ -836,7 +860,7 @@
     "block": "-16",
     "hit": "+5d",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["f,f+3,1"]
   },
   {
@@ -848,7 +872,7 @@
     "block": "-8",
     "hit": "+18a(+9)",
     "counter": "",
-    "note": "\njs?~\n\nHoming\n\nBalcony Break\n",
+    "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": ["f,f+4"]
   },
   {
@@ -860,7 +884,7 @@
     "block": "-11",
     "hit": "+15a(+6)",
     "counter": "",
-    "note": "\nHold D to transition to MNT (becomes -12/+14a)\n",
+    "note": "\nHold D to transition to MNT (becomes -12/+14a)\n\n",
     "alternateInputs": ["f,f+3+4"]
   },
   {
@@ -872,7 +896,7 @@
     "block": "+7",
     "hit": "+19a(9)",
     "counter": "",
-    "note": "\njs?~\n\nBalcony Break\nCancel SCR transition by holding B (becomes +3/+15a)\n9 chip damage on block\n",
+    "note": "\n\nBalcony Break\nCancel SCR transition by holding B (becomes +3/+15a)\n9 chip damage on block\n\n",
     "alternateInputs": ["f,f,F+3"]
   },
   {
@@ -884,7 +908,7 @@
     "block": "+7",
     "hit": "+32a",
     "counter": "",
-    "note": "\njs?~\n8 chip damage on block\n",
+    "note": "\n8 chip damage on block\n\n",
     "alternateInputs": ["f,f,F+1+2"]
   },
   {
@@ -896,7 +920,7 @@
     "block": "-52",
     "hit": "+?",
     "counter": "",
-    "note": "\nHold D to transition to TRT (becomes -7 on hit)\nOn block, transitions to BT TRT (usually a disadvantageous position)\n",
+    "note": "\nHold D to transition to TRT (becomes -7 on hit)\nOn block, transitions to BT TRT (usually a disadvantageous position)\n\n",
     "alternateInputs": ["wr4"]
   },
   {
@@ -908,7 +932,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\ncs1~\nAlternate inputs:\nFC.db+1\nFC.df+1\nTransition to r24 with f\nTransition input can be delayed 16f",
+    "note": "\nAlternate inputs:\nFC.db+1\nFC.df+1\nTransition to r24 with f\nTransition input can be delayed 16f\n",
     "alternateInputs": ["FC d+1"]
   },
   {
@@ -920,7 +944,7 @@
     "block": "-4",
     "hit": "+5",
     "counter": "",
-    "note": "\ncs1~\nAlternate inputs:\nFC.db+2\nFC.df+2",
+    "note": "\nAlternate inputs:\nFC.db+2\nFC.df+2\n",
     "alternateInputs": ["FC d+2"]
   },
   {
@@ -932,7 +956,7 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\ncs1~\nAlternate input:\nFC.db+3",
+    "note": "\nAlternate input:\nFC.db+3\n",
     "alternateInputs": ["FC d+3"]
   },
   {
@@ -944,7 +968,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\ncs1~\nAlternate inputs:\nFC.db+4\nFC.df+4",
+    "note": "\nAlternate inputs:\nFC.db+4\nFC.df+4\n",
     "alternateInputs": ["FC d+4"]
   },
   {
@@ -956,7 +980,7 @@
     "block": "-26",
     "hit": "+14d",
     "counter": "",
-    "note": "\ncs1~\nOn hit or whiff, hold D to transition to MNT (becomes +13d)",
+    "note": "\nOn hit or whiff, hold D to transition to MNT (becomes +13d)\n",
     "alternateInputs": ["FC df+3"]
   },
   {
@@ -968,7 +992,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1"]
   },
   {
@@ -978,9 +1002,9 @@
     "damage": "9,18",
     "startup": "i20~21",
     "block": "-13",
-    "hit": "+36a(26)",
+    "hit": "+36a (+26)",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws1,2"]
   },
   {
@@ -990,9 +1014,9 @@
     "damage": "20",
     "startup": "i18~19",
     "block": "-14",
-    "hit": "+28a(18)",
+    "hit": "+28a (+18)",
     "counter": "",
-    "note": "\n\nTornado\nCan transition to MNT by holding D (becomes -40/+2)\n",
+    "note": "\n\nTornado\nCan transition to MNT by holding D (becomes -40/+2)\n\n",
     "alternateInputs": ["ws2"]
   },
   {
@@ -1004,7 +1028,7 @@
     "block": "0",
     "hit": "+9",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n",
+    "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n\n",
     "alternateInputs": ["ws3"]
   },
   {
@@ -1016,7 +1040,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["ws4"]
   },
   {
@@ -1028,7 +1052,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage db"]
   },
   {
@@ -1040,7 +1064,7 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage 1"]
   },
   {
@@ -1052,7 +1076,7 @@
     "block": "+7",
     "hit": "-6",
     "counter": "+32d",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage 1,4"]
   },
   {
@@ -1064,7 +1088,7 @@
     "block": "-7",
     "hit": "+7",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage 2"]
   },
   {
@@ -1076,7 +1100,7 @@
     "block": "-6",
     "hit": "+30d(+20)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n\n",
     "alternateInputs": ["SCin rage 2,1"]
   },
   {
@@ -1088,7 +1112,7 @@
     "block": "-10",
     "hit": "+8c",
     "counter": "+8d",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage 2,2"]
   },
   {
@@ -1100,7 +1124,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage 3"]
   },
   {
@@ -1112,7 +1136,7 @@
     "block": "0",
     "hit": "+25a(+15)",
     "counter": "",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["SCin rage 3,3"]
   },
   {
@@ -1124,7 +1148,7 @@
     "block": "-18",
     "hit": "+58a(+42)",
     "counter": "",
-    "note": "\npc?~\n\nTornado\n",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["SCin rage 4"]
   },
   {
@@ -1136,7 +1160,7 @@
     "block": "+6",
     "hit": "+17d",
     "counter": "",
-    "note": "\nHold D to transition to TRT (remains +6/+17d)\n",
+    "note": "\nHold D to transition to TRT (remains +6/+17d)\n\n",
     "alternateInputs": ["SCin rage 1+2"]
   },
   {
@@ -1148,7 +1172,7 @@
     "block": "-12",
     "hit": "+8",
     "counter": "",
-    "note": "\njs?~\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["SCin rage 3+4"]
   },
   {
@@ -1160,7 +1184,7 @@
     "block": "-6",
     "hit": "+33a(+18)",
     "counter": "",
-    "note": "\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n8 chip damage on block\n",
+    "note": "\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n8 chip damage on block\n\n",
     "alternateInputs": ["SCin rage df+1"]
   },
   {
@@ -1172,7 +1196,7 @@
     "block": "-23",
     "hit": "-10c",
     "counter": "",
-    "note": "\n\nHoming\n",
+    "note": "\n\nHoming\n\n",
     "alternateInputs": ["SCin rage df+3"]
   },
   {
@@ -1184,7 +1208,7 @@
     "block": "-23",
     "hit": "+54a(+38)",
     "counter": "",
-    "note": "\n\nHoming\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n",
+    "note": "\n\nHoming\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n\n",
     "alternateInputs": ["SCin rage df+3,3"]
   },
   {
@@ -1196,7 +1220,7 @@
     "block": "-14",
     "hit": "+7c",
     "counter": "+37a",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage df+4"]
   },
   {
@@ -1208,7 +1232,7 @@
     "block": "-6",
     "hit": "-3",
     "counter": "+9c",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage d+3"]
   },
   {
@@ -1220,7 +1244,7 @@
     "block": "+3",
     "hit": "+77a(+61)",
     "counter": "",
-    "note": "\nCan hold B to exit SCR (becomes -1/\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n",
+    "note": "\nCan hold B to exit SCR (becomes -1/\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n\n",
     "alternateInputs": ["SCin rage d+3,3"]
   },
   {
@@ -1232,7 +1256,7 @@
     "block": "-25",
     "hit": "-4d",
     "counter": "",
-    "note": "\nCan hold D to transition to MNT (remains -25/-4d)\n",
+    "note": "\nCan hold D to transition to MNT (remains -25/-4d)\n\n",
     "alternateInputs": ["SCin rage d+4"]
   },
   {
@@ -1244,7 +1268,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["SCin rage d+3+4"]
   },
   {
@@ -1256,7 +1280,7 @@
     "block": "-17",
     "hit": "+3",
     "counter": "+12d",
-    "note": "\nEvasive (can go below some mids)\n",
+    "note": "\nEvasive (can go below some mids)\n\n",
     "alternateInputs": ["SCin rage b+1+2"]
   },
   {
@@ -1268,7 +1292,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["TRT db"]
   },
   {
@@ -1280,7 +1304,7 @@
     "block": "-11",
     "hit": "+5",
     "counter": "+15d",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["TRT 1"]
   },
   {
@@ -1292,7 +1316,7 @@
     "block": "-9",
     "hit": "=+40a(+30)",
     "counter": "",
-    "note": "\n\nTornado\n",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["TRT 2"]
   },
   {
@@ -1304,7 +1328,7 @@
     "block": "-17",
     "hit": "+15d",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["TRT 3"]
   },
   {
@@ -1316,7 +1340,7 @@
     "block": "-22",
     "hit": "-4b",
     "counter": "-4c",
-    "note": "\nCan hold D to transition to TRT instead of MNT\n",
+    "note": "\nCan hold D to transition to TRT instead of MNT\n\n",
     "alternateInputs": ["TRT 4"]
   },
   {
@@ -1328,7 +1352,7 @@
     "block": "-12",
     "hit": "+18a",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["TRT 4,3"]
   },
   {
@@ -1340,7 +1364,7 @@
     "block": "-12",
     "hit": "+14a",
     "counter": "",
-    "note": "\njs?~\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["TRT 1+2"]
   },
   {
@@ -1352,7 +1376,7 @@
     "block": "-7",
     "hit": "+30a(+15)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +35d\n\nAzazel's Power\nZafina receives recoverable health damage\n12 chip damage on block\nGains Power Crush frames during heat\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +35d\n\nAzazel's Power\nZafina receives recoverable health damage\n12 chip damage on block\nGains Power Crush frames during heat\n\n",
     "alternateInputs": ["TRT df+1"]
   },
   {
@@ -1364,7 +1388,7 @@
     "block": "-21",
     "hit": "+10d",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["TRT d+1+2"]
   },
   {
@@ -1376,7 +1400,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 1"]
   },
   {
@@ -1388,7 +1412,7 @@
     "block": "0",
     "hit": "+9",
     "counter": "",
-    "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n",
+    "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n\n",
     "alternateInputs": ["MNT 1,3"]
   },
   {
@@ -1400,7 +1424,7 @@
     "block": "-14",
     "hit": "-3",
     "counter": "+57a",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 2"]
   },
   {
@@ -1412,7 +1436,7 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 2,1"]
   },
   {
@@ -1424,7 +1448,7 @@
     "block": "-13",
     "hit": "+13a(+4)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 2,1,4"]
   },
   {
@@ -1436,7 +1460,7 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 3"]
   },
   {
@@ -1448,7 +1472,7 @@
     "block": "-9",
     "hit": "+22a(+15)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 3,1"]
   },
   {
@@ -1460,7 +1484,7 @@
     "block": "-19",
     "hit": "-3",
     "counter": "+7",
-    "note": "\nHold D to transition to TRT\n",
+    "note": "\nHold D to transition to TRT\n\n",
     "alternateInputs": ["MNT 4"]
   },
   {
@@ -1472,7 +1496,7 @@
     "block": "-30",
     "hit": "+32a(+22)",
     "counter": "",
-    "note": "\n\nTornado\n",
+    "note": "\n\nTornado\n\n",
     "alternateInputs": ["MNT 4,3"]
   },
   {
@@ -1484,7 +1508,7 @@
     "block": "-12",
     "hit": "+18d",
     "counter": "",
-    "note": "\npc?~\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 1+2"]
   },
   {
@@ -1496,7 +1520,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT 2+3"]
   },
   {
@@ -1508,7 +1532,7 @@
     "block": "+6",
     "hit": "+7d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50\n\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n9 chip damage on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50\n\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n9 chip damage on block\n\n",
     "alternateInputs": ["MNT df+1"]
   },
   {
@@ -1520,7 +1544,7 @@
     "block": "-9",
     "hit": "+32a(22)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT df+2"]
   },
   {
@@ -1532,7 +1556,7 @@
     "block": "-17",
     "hit": "+19cg",
     "counter": "",
-    "note": "\njs?~\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT df+3"]
   },
   {
@@ -1544,7 +1568,7 @@
     "block": "-5",
     "hit": "+13g",
     "counter": "",
-    "note": "\n\nHoming\n",
+    "note": "\n\nHoming\n\n",
     "alternateInputs": ["MNT df+4"]
   },
   {
@@ -1556,7 +1580,7 @@
     "block": "-11",
     "hit": "0",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT d+1"]
   },
   {
@@ -1568,7 +1592,7 @@
     "block": "-16",
     "hit": "+15(+6)",
     "counter": "+60a(+40)",
-    "note": "\n\nBalcony Break\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["MNT d+1,4"]
   },
   {
@@ -1580,7 +1604,7 @@
     "block": "-22~-15",
     "hit": "+4c~+11c",
     "counter": "+19a~+26a",
-    "note": "\nhigh crush\nEvasive (can go under mids)\n",
+    "note": "\nEvasive (can go under mids)\n\n",
     "alternateInputs": ["MNT d+4"]
   },
   {
@@ -1592,20 +1616,8 @@
     "block": "-9",
     "hit": "+11d",
     "counter": "",
-    "note": "\njs?~\n",
+    "note": "\n\n",
     "alternateInputs": ["MNT uf+3"]
-  },
-  {
-    "name": "",
-    "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
-    "startup": "i20",
-    "block": "+15",
-    "hit": "d",
-    "counter": "",
-    "note": "\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit",
-    "alternateInputs": ["in rage df+1+2"]
   },
   {
     "name": "Ki Charge",
@@ -1616,7 +1628,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCan't block for 5 seconds\nCH state for 5 seconds",
+    "note": "\nCan't block for 5 seconds\nCH state for 5 seconds\n",
     "alternateInputs": ["1+2+3+4"]
   },
   {
@@ -1628,7 +1640,7 @@
     "block": "-2c",
     "hit": "+8c",
     "counter": "+28d",
-    "note": "",
+    "note": "\n",
     "alternateInputs": ["SS 1+2"]
   },
   {
@@ -1640,7 +1652,7 @@
     "block": "",
     "hit": "0",
     "counter": "",
-    "note": "Throw break 1 or 2",
+    "note": "Throw break 1 or 2\n",
     "alternateInputs": ["1+3"]
   },
   {
@@ -1652,7 +1664,7 @@
     "block": "",
     "hit": "0",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nTransitions to MNT",
+    "note": "\nThrow break 1 or 2\nTransitions to MNT\n",
     "alternateInputs": ["2+4"]
   },
   {
@@ -1664,7 +1676,7 @@
     "block": "",
     "hit": "0",
     "counter": "",
-    "note": "Throw break 1",
+    "note": "Throw break 1\n",
     "alternateInputs": ["Left Throw"]
   },
   {
@@ -1676,7 +1688,7 @@
     "block": "",
     "hit": "+7",
     "counter": "",
-    "note": "Throw break 2",
+    "note": "Throw break 2\n",
     "alternateInputs": ["Right Throw"]
   },
   {
@@ -1688,7 +1700,7 @@
     "block": "",
     "hit": "0",
     "counter": "",
-    "note": "\nUnbreakable",
+    "note": "\nUnbreakable\n",
     "alternateInputs": ["Back Throw"]
   },
   {
@@ -1700,7 +1712,7 @@
     "block": "",
     "hit": "0",
     "counter": "",
-    "note": "\nThrow break 1+2",
+    "note": "\nThrow break 1+2\n",
     "alternateInputs": ["uf+1+2"]
   }
 ]
