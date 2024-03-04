@@ -21,7 +21,7 @@ export class FramedataService {
       throw new BadRequestException(`Invalid game name.`);
     }
 
-    const filePath = `src/data/${game}/${characterCode}.json`;
+    const filePath = `src/__data/${game}/${characterCode}.json`;
 
     try {
       const readFileAsync = promisify(fs.readFile);
