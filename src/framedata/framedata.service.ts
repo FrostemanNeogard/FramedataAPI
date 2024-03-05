@@ -54,6 +54,7 @@ export class FramedataService {
       ),
     );
 
+    const similarityMap: { move: FrameDataType; similarity: number }[] = [];
     for (let i = 0; i < 2; i++) {
       if (!!attackInfo[0]) {
         break;
@@ -68,15 +69,44 @@ export class FramedataService {
           if (this.formatNotation(input, removePlus) === formattedNotation) {
             attackInfo.push(moveData);
           }
+          const similarity = this.calculateSimilarity(input, notation);
+          similarityMap.push({ move: moveData, similarity });
         });
       }
     }
     if (!attackInfo[0]) {
-      this.logger.error(`Couldn't find attack: ${notation}`);
-      throw new BadRequestException(`No data found for the given attack.`);
+      for (let i = 0; i < frameData.length; i++) {
+        const moveData = frameData[i];
+        moveData.alternateInputs.forEach((input) => {});
+      }
+
+      similarityMap.sort((a, b) => b.similarity - a.similarity);
+      const top5Moves = similarityMap.slice(0, 5).map((entry) => entry.move);
+      const uniqueSimilarMoves = top5Moves.filter(this.onlyUnique);
+
+      if (uniqueSimilarMoves.length === 0) {
+        throw new BadRequestException(`No data found for the given attack.`);
+      }
+
+      this.logger.error(
+        `Couldn't find attack: ${notation}. Returning 5 most zsimilar ones.`,
+      );
+      return uniqueSimilarMoves;
     }
     this.logger.log(`Found attack: ${attackInfo[0].input}`);
     return attackInfo[0];
+  }
+
+  private onlyUnique(value, index, array) {
+    return array.indexOf(value) === index;
+  }
+
+  private calculateSimilarity(input1: string, input2: string): number {
+    const set1 = new Set(input1.split(''));
+    const set2 = new Set(input2.split(''));
+    const intersection = new Set([...set1].filter((x) => set2.has(x)));
+    const union = new Set([...set1, ...set2]);
+    return intersection.size / union.size;
   }
 
   private formatNotation(inputNotation: string, removePlus: boolean): string {
