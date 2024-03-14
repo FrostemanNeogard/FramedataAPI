@@ -89,7 +89,7 @@ export class FramedataService {
       }
 
       this.logger.error(
-        `Couldn't find attack: ${notation}. Returning 5 most zsimilar ones.`,
+        `Couldn't find attack: ${notation}. Returning 5 most similar ones.`,
       );
       return uniqueSimilarMoves;
     }
