@@ -114,7 +114,6 @@ export class FramedataService {
       .toLowerCase()
 
       // TODO: This is kinda stupid, maybe move the input shortcuts to a different function
-      .replaceAll('cd', 'f,n,d,df')
       .replaceAll('debug', 'b,db,d,df')
       .replaceAll('gs', 'f,n,b,db,d,df,f')
       .replaceAll('wr', 'f,f,f')
