@@ -24,6 +24,30 @@
     "alternateInputs": ["in heat 2+3"]
   },
   {
+    "name": "Yomotsu Mihashira",
+    "input": "in heat GEN 2+3",
+    "hit_level": "l,m",
+    "damage": "14,28",
+    "startup": "i20 i26",
+    "block": "-14",
+    "hit": "+33 (+5)",
+    "counter": "",
+    "note": "\nHeat Smash\nEnds heat\n",
+    "alternateInputs": ["in heat GEN 2+3"]
+  },
+  {
+    "name": "",
+    "input": "in heat f+1+2,P",
+    "hit_level": "h",
+    "damage": "0",
+    "startup": "i12",
+    "block": "",
+    "hit": "+40g",
+    "counter": "",
+    "note": "\nSabaki, parries mid or high punches or kicks\n",
+    "alternateInputs": ["in heat f+1+2,P"]
+  },
+  {
     "name": "Shunkei",
     "input": "1+2",
     "hit_level": "m",
@@ -34,6 +58,18 @@
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
     "alternateInputs": ["1+2"]
+  },
+  {
+    "name": "Ame-no-Habakiri",
+    "input": "f+2,1+2",
+    "hit_level": "M,M",
+    "damage": "20,20",
+    "startup": "i29~32",
+    "block": "-9~-8",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nAvailable only on hit or block\n",
+    "alternateInputs": ["f+2,1+2"]
   },
   {
     "name": "Zuiun Renkyaku",
@@ -103,8 +139,8 @@
     "startup": ",i25",
     "block": "-1",
     "hit": "+8",
-    "counter": "",
-    "note": "\n\n",
+    "counter": "+13",
+    "note": "\nShifts to IZU\n\n",
     "alternateInputs": ["1,1"]
   },
   {
@@ -218,7 +254,7 @@
   {
     "name": "Byakuren Tamasudare",
     "input": "2,1,4,3",
-    "hit_level": "h,m,m,m",
+    "hit_level": "h,m,m,h",
     "damage": "7,9,12,21",
     "startup": ",i25",
     "block": "-9",
@@ -408,6 +444,18 @@
     "alternateInputs": ["f+2"]
   },
   {
+    "name": "Ame-no-Habakiri",
+    "input": "f+2,1+2",
+    "hit_level": "M,M",
+    "damage": "20,20",
+    "startup": "i29~32",
+    "block": "-9~-8",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nAvailable only on hit or block\n",
+    "alternateInputs": ["f+2,1+2"]
+  },
+  {
     "name": "",
     "input": "f+3",
     "hit_level": "m",
@@ -556,7 +604,7 @@
     "input": "df+2,1+2",
     "hit_level": "m,M",
     "damage": "14,14",
-    "startup": ",i25~26",
+    "startup": "i25~26",
     "block": "-9~-8",
     "hit": "+38a (+28)",
     "counter": "",
@@ -677,10 +725,10 @@
     "hit_level": "l,h",
     "damage": "5,20",
     "startup": "i14 i24~27",
-    "block": "-6~-3",
-    "hit": "+30a (+20)",
-    "counter": "",
-    "note": "Combo from 1st CH\n",
+    "block": "-25",
+    "hit": "-6 (high blocked)",
+    "counter": "+30a (+20)",
+    "note": "Combo from 1st CHSometimes written Can Cans\n",
     "alternateInputs": ["d+3+4"]
   },
   {
@@ -1576,7 +1624,7 @@
     "input": "f+3+4,P (Low)",
     "hit_level": "t",
     "damage": "4,2,2,2,2,2,2,2,2",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "+0d",
     "counter": "",
@@ -1588,7 +1636,7 @@
     "input": "f+3+4,P (Throw)",
     "hit_level": "t",
     "damage": "40",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "+0d",
     "counter": "",
@@ -1664,7 +1712,7 @@
     "block": "-14",
     "hit": "+33 (+5)",
     "counter": "",
-    "note": "\nEnds heat\n",
+    "note": "\nHeat Smash\nEnds heat\n",
     "alternateInputs": ["in heat GEN 2+3"]
   },
   {
@@ -1781,10 +1829,10 @@
     "hit_level": "h,h,m",
     "damage": "7,9,18",
     "startup": "i16 i17 i15~16",
-    "block": "",
+    "block": "-4",
     "hit": "+7c~+8c",
     "counter": "",
-    "note": "\n\nHoming\n\nSpike\nJail from 1st attack\nRecovery listed is for the last hit\n",
+    "note": "\n\nHoming\n\nSpike\nJail from 1st attack\nCombo from 1st hit\nRecovery listed is for the last hit\n",
     "alternateInputs": ["SS 1+2"]
   },
   {

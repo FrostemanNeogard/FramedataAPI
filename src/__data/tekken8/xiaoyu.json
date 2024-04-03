@@ -329,7 +329,7 @@
     "hit_level": "m,m",
     "damage": "14,8",
     "startup": "i22",
-    "block": "-9",
+    "block": "-3",
     "hit": "+8",
     "counter": "",
     "note": "\nCombos from 1st hit \n",
@@ -656,7 +656,7 @@
     "block": "+3",
     "hit": "+8c",
     "counter": "+32d",
-    "note": "\nChip on block [6] \n",
+    "note": "\nChip on block [6]\nAutomatically transitions to BT\n\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -1508,7 +1508,7 @@
     "block": "-2",
     "hit": "+29d",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to AOP with D (-3, +28) \n",
+    "note": "\n\nBalcony Break\nCauses Strong Aerial Tailspin\nTransition to AOP with D (-3, +28) \n",
     "alternateInputs": ["While in the air 3"]
   },
   {
@@ -1904,7 +1904,7 @@
     "block": "-2",
     "hit": "+30a",
     "counter": "",
-    "note": "\nCancel into BT with B\nChip on block [8]\n",
+    "note": "\nCauses Strong Aerial Tailspin\nCancel into BT with B\nChip on block [8]\n",
     "alternateInputs": ["HYP 3+4"]
   },
   {

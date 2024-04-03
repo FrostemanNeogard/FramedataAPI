@@ -3,12 +3,12 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "15",
-    "startup": "Startup",
-    "block": "",
-    "hit": "",
+    "damage": "[12;12]",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2c",
     "counter": "",
-    "note": "\n\nHeat Burst\nAlternate input: R1\n\n",
+    "note": "\nOnly does recoverable damage(?)\n\nHeat Burst\nAlternate input: R1\n3 chip damage on block\n\n",
     "alternateInputs": ["2+3"]
   },
   {
@@ -25,7 +25,7 @@
   },
   {
     "name": "Inner Purgatory",
-    "input": "in heat MCin rage 2+3",
+    "input": "in heat MCR 2+3",
     "hit_level": "ub(m)",
     "damage": "23,16",
     "startup": "i20",
@@ -33,7 +33,7 @@
     "hit": "Th",
     "counter": "Th",
     "note": "\n\nHeat Smash\nAlternate input: R1\n\n",
-    "alternateInputs": ["in heat MCin rage 2+3"]
+    "alternateInputs": ["in heat MCR 2+3"]
   },
   {
     "name": "Wheel of Pain > Annihilation Beam",
@@ -44,7 +44,7 @@
     "block": "+2",
     "hit": "+58a(+42)",
     "counter": "",
-    "note": "\nChip damage on block (4)\n\nTornado\n\n",
+    "note": "\n\nTornado\nChip damage on block (4)\n\n",
     "alternateInputs": ["4~3,in heat 1+2"]
   },
   {
@@ -68,7 +68,7 @@
     "block": "+2",
     "hit": "+59a(+43)",
     "counter": "",
-    "note": "\nChip damage on block (4)\n\nBalcony Break\n\nTornado\n\n",
+    "note": "\n\nBalcony Break\n\nTornado\nChip damage on block (4)\n\n",
     "alternateInputs": ["b,f+2,1,4,in heat 1+2"]
   },
   {
@@ -80,7 +80,7 @@
     "block": "+2",
     "hit": "+60a(+44)",
     "counter": "",
-    "note": "\nChip damage on block (6)\n\nTornado\n\n",
+    "note": "\n\nTornado\nChip damage on block (6)\n\n",
     "alternateInputs": ["f,n,d,df+1+2,in heat 1+2"]
   },
   {
@@ -88,11 +88,11 @@
     "input": "b+2,3",
     "hit_level": "h,m",
     "damage": "11,23",
-    "startup": "i14~16",
+    "startup": "i25~127",
     "block": "-14",
     "hit": "+8(-1)/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 1st hit\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +62a(+42) on hit\n\nBalcony Break\nCombo from 1st hit\n\n",
     "alternateInputs": ["b+2,3"]
   },
   {
@@ -104,7 +104,7 @@
     "block": "-18",
     "hit": "+10/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +17d on hit\n\nBalcony Break\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -116,7 +116,7 @@
     "block": "-8",
     "hit": "+11/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +62a(+42)\n\n\nBalcony Break\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +62a(+42) on hit\n\nBalcony Break\n\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -128,20 +128,20 @@
     "block": "-8",
     "hit": "+15a(+6)/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5 +36a(+26)\n\n\nBalcony Break\nChip damage on block\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +36a(+26) on hit\n\nBalcony Break\n7 Chip damage on block\n\n",
     "alternateInputs": ["f,F+2"]
   },
   {
     "name": "Dark Arachnid Twister",
-    "input": "MCin rage 2,2",
+    "input": "MCR 2,2",
     "hit_level": "m,m",
     "damage": "12,20",
     "startup": "i15",
     "block": "-14c",
     "hit": "+2/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50)\n\n\n",
-    "alternateInputs": ["MCin rage 2,2"]
+    "note": "\n\nHeat Engager\n\nHeat Dash +67a(+50) on hit\n\nSpike\n\n",
+    "alternateInputs": ["MCR 2,2"]
   },
   {
     "name": "",
@@ -164,7 +164,7 @@
     "block": "-1",
     "hit": "+8",
     "counter": "",
-    "note": "Combo from 1st hit\n",
+    "note": "Jails\nCombo from 1st hit\n\n",
     "alternateInputs": ["1,1"]
   },
   {
@@ -188,7 +188,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "Combo from 1st hit\n",
+    "note": "Jails\nCombo from 1st hit\n\n",
     "alternateInputs": ["1,2"]
   },
   {
@@ -200,7 +200,7 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "Combo from 1st hit\n",
+    "note": "Jails\nCombo from 1st hit\n\n",
     "alternateInputs": ["1,2,2"]
   },
   {
@@ -212,7 +212,7 @@
     "block": "+4",
     "hit": "+24a",
     "counter": "",
-    "note": "\n",
+    "note": "Spike\n",
     "alternateInputs": ["1,2,3"]
   },
   {
@@ -260,7 +260,7 @@
     "block": "-13",
     "hit": "-2",
     "counter": "",
-    "note": "Combo from 1st hit\n",
+    "note": "Jails\nCombo from 1st hit\n\n",
     "alternateInputs": ["2,2"]
   },
   {
@@ -296,7 +296,7 @@
     "block": "-11",
     "hit": "+72(+56)",
     "counter": "",
-    "note": "\n",
+    "note": "Tornado\n",
     "alternateInputs": ["3,1,2"]
   },
   {
@@ -308,7 +308,7 @@
     "block": "-9",
     "hit": "+15(+6)",
     "counter": "+59a",
-    "note": "\n",
+    "note": "Balcony Break\n",
     "alternateInputs": ["3,1,4"]
   },
   {
@@ -332,7 +332,7 @@
     "block": "-5",
     "hit": "+10",
     "counter": "",
-    "note": "\n",
+    "note": "\n\nBalcony Break\n\nHoming\n\n",
     "alternateInputs": ["4"]
   },
   {
@@ -344,7 +344,7 @@
     "block": "-7",
     "hit": "+14",
     "counter": "",
-    "note": "\n",
+    "note": "Spike\n",
     "alternateInputs": ["4~3"]
   },
   {
@@ -356,7 +356,7 @@
     "block": "-12",
     "hit": "+7",
     "counter": "",
-    "note": "\n",
+    "note": "\n1st hit\nHoming\n2nd hit\nBalcony Break\n\n",
     "alternateInputs": ["1+2"]
   },
   {
@@ -368,7 +368,7 @@
     "block": "-3",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
+    "note": "Jails\n",
     "alternateInputs": ["4+1"]
   },
   {
@@ -392,7 +392,7 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "\n",
+    "note": "Spike\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -450,9 +450,9 @@
     "damage": "11,20",
     "startup": "i17",
     "block": "-9",
-    "hit": "+44(-14)",
+    "hit": "+44d(-14)",
     "counter": "",
-    "note": "\n",
+    "note": "Balcony Break\n",
     "alternateInputs": ["df+1,2"]
   },
   {
@@ -493,15 +493,15 @@
   },
   {
     "name": "Rengoku",
-    "input": "df+3,2,5",
+    "input": "df+3,2,4",
     "hit_level": "m,m,m",
     "damage": "12,10,20",
     "startup": "i29",
     "block": "-22",
     "hit": "+18(+8)",
     "counter": "",
-    "note": "On hit hold ub, u or uf to shift to FLY at +36(+26)\n",
-    "alternateInputs": ["df+3,2,5"]
+    "note": "\nOn hit hold ub, u or uf to shift to FLY at +36(+26)\n\nTornado\n\n",
+    "alternateInputs": ["df+3,2,4"]
   },
   {
     "name": "",
@@ -524,7 +524,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\n",
+    "note": "Spike\n",
     "alternateInputs": ["df+4,4"]
   },
   {
@@ -536,7 +536,7 @@
     "block": "-14",
     "hit": "+20(+10)",
     "counter": "",
-    "note": "\nabsorb an attack to power up\n- Add chip damage when guarded\nWallsplat\n\n",
+    "note": "\n\nBalcony Break\nAbsorb an attack to power up\nAdd chip damage when guarded\n\n",
     "alternateInputs": ["d+1"]
   },
   {
@@ -584,7 +584,7 @@
     "block": "-9",
     "hit": "+4",
     "counter": "",
-    "note": "Hold F during startup to feint into MCR\n",
+    "note": "\nHold F during startup to feint into MCR\n\nBalcony Break on air hit\n\n",
     "alternateInputs": ["db+1+2"]
   },
   {
@@ -593,10 +593,10 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i23~25",
-    "block": "+17g(+24w)",
+    "block": "+17g +24w",
     "hit": "+7",
     "counter": "",
-    "note": "Hold F during startup to feint into MCR\n",
+    "note": "\nHold F during startup to feint into MCR\n\nBalcony Break on air hit\n\n",
     "alternateInputs": ["db+1+2*"]
   },
   {
@@ -608,7 +608,7 @@
     "block": "+10",
     "hit": "+37",
     "counter": "",
-    "note": "\nChip Damage on block (16)\n\nGuard Break +10\nhold F during startup to feint into MCR\n\n",
+    "note": "\n\nBalcony Break\n\nGuard Break\nChip Damage on block (16)\nhold F during startup to feint into MCR\n\n",
     "alternateInputs": ["db+1+2**"]
   },
   {
@@ -630,7 +630,7 @@
     "damage": "10,10",
     "startup": "i23",
     "block": "-14",
-    "hit": "+23(+13)",
+    "hit": "+23a(+13)",
     "counter": "",
     "note": "\n\nBalcony Break\nHold B to cancel\n\n",
     "alternateInputs": ["b+1,2"]
@@ -664,11 +664,11 @@
     "input": "b+2,3",
     "hit_level": "h,m",
     "damage": "11,23",
-    "startup": "i14~16",
+    "startup": "i25~127",
     "block": "-14",
     "hit": "+8(-1)/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 1st hit\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +62a(+42) on hit\n\nBalcony Break\nCombo from 1st hit\n\n",
     "alternateInputs": ["b+2,3"]
   },
   {
@@ -680,7 +680,7 @@
     "block": "-18",
     "hit": "+10/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +17d on hit\n\nBalcony Break\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -704,7 +704,7 @@
     "block": "-1c",
     "hit": "+7c",
     "counter": "+24d",
-    "note": "Chip Damage on block (6)\n",
+    "note": "\nChip Damage on block (6)\n\nSpike\n\n",
     "alternateInputs": ["b+1+2"]
   },
   {
@@ -728,7 +728,7 @@
     "block": "KND",
     "hit": "KND",
     "counter": "KND",
-    "note": "\nChip damage when guarded\nWallsplat\nJack-8 or Alisa can recovery 20 by input 1+2\n\n",
+    "note": "\nChip damage when guarded\n\nBalcony Break\nJack-8 or Alisa can recovery 20 by input 1+2\n\n",
     "alternateInputs": ["ub+1+2"]
   },
   {
@@ -740,7 +740,7 @@
     "block": "-25",
     "hit": "+15(+5)",
     "counter": "",
-    "note": "\nAlternate input: ub+4\nOn hit hold ub, u or uf to transition to fly at +35(+25)\n\n",
+    "note": "\nAlternate input: ub+4\n\nTornado\nOn hit hold ub, u or uf to transition to fly at +35(+25)\n\n",
     "alternateInputs": ["u+4"]
   },
   {
@@ -764,7 +764,7 @@
     "block": "+11",
     "hit": "+16",
     "counter": "",
-    "note": "\nAlternate inputs:\nu+1\nub+1\nShifts to MCR on hit or block\nChip damage on block\n\n",
+    "note": "\nAlternate inputs:\nu+1\nub+1\nShifts to MCR on hit or block\n2 Chip damage on block\n\nBalcony Break on air hit\n\nWeapon\n\n",
     "alternateInputs": ["uf+1"]
   },
   {
@@ -788,7 +788,7 @@
     "block": "+3c",
     "hit": "+7c",
     "counter": "+19a",
-    "note": "\nAlternate inputs:\nu+3\nub+3\n\n",
+    "note": "\nAlternate inputs:\nu+3\nub+3\nSpike\n\n",
     "alternateInputs": ["uf+3"]
   },
   {
@@ -800,7 +800,7 @@
     "block": "-8",
     "hit": "+11/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +62a(+42)\n\n\nBalcony Break\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +62a(+42) on hit\n\nBalcony Break\n\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -824,7 +824,7 @@
     "block": "-8",
     "hit": "+15a(+6)/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5 +36a(+26)\n\n\nBalcony Break\nChip damage on block\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +36a(+26) on hit\n\nBalcony Break\n7 Chip damage on block\n\n",
     "alternateInputs": ["f,F+2"]
   },
   {
@@ -835,7 +835,7 @@
     "startup": "i20~21",
     "block": "-6",
     "hit": "+16c",
-    "counter": "",
+    "counter": "+55a",
     "note": "Balcony Break\n",
     "alternateInputs": ["f,F+4"]
   },
@@ -860,7 +860,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": "\n",
+    "note": "Combos from first hit\n",
     "alternateInputs": ["b,f+2,1"]
   },
   {
@@ -884,7 +884,7 @@
     "block": "-13",
     "hit": "+25a(+8)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\n\n",
+    "note": "\n\nBalcony Break on grounded hit only\n\nTornado\n\n",
     "alternateInputs": ["b,f+2,1,df+2"]
   },
   {
@@ -893,7 +893,7 @@
     "hit_level": "m,m,m",
     "damage": "12,12,21",
     "startup": "i26-29",
-    "block": "-8c",
+    "block": "-7c",
     "hit": "+14a",
     "counter": "",
     "note": "\n",
@@ -908,7 +908,7 @@
     "block": "-9",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
+    "note": "Combos from first hit\n",
     "alternateInputs": ["b,f+2,3"]
   },
   {
@@ -932,7 +932,7 @@
     "block": "-31",
     "hit": "-5(-12)",
     "counter": "",
-    "note": "\n",
+    "note": "Combos from first hit\n",
     "alternateInputs": ["b,f+1+2,2"]
   },
   {
@@ -943,7 +943,7 @@
     "startup": "i22~25",
     "block": "+6",
     "hit": "+13a(+3)",
-    "counter": "KND",
+    "counter": "",
     "note": "\n\nBalcony Break\nChip damage on block (9)\nAlternate Input:\nf,n,d,df,UF+3\n\n",
     "alternateInputs": ["f,f,F+3"]
   },
@@ -968,7 +968,7 @@
     "block": "+11 MCR",
     "hit": "+16 MCR",
     "counter": "",
-    "note": "\nCombo on 1st CH\nShifts to MCR on hit or block\nChip damage on block (2)\n\n",
+    "note": "\nCombo on 1st CH\nShifts to MCR on hit or block\nChip damage on block (2)\n\nBalcony Break On air hit\n\nWeapon\n\n",
     "alternateInputs": ["ws1,1"]
   },
   {
@@ -980,7 +980,7 @@
     "block": "-11",
     "hit": "+6",
     "counter": "+9",
-    "note": "Hold F to enter MCR on hit at +14 or +17 on CH\n",
+    "note": "\nHold F to enter MCR on hit at +14 or +17 on CH\nCombos from first hit\n\n",
     "alternateInputs": ["ws1,2"]
   },
   {
@@ -1028,7 +1028,7 @@
     "block": "-16",
     "hit": "+4c",
     "counter": "",
-    "note": "\n",
+    "note": "Spike\n",
     "alternateInputs": ["ws4,4"]
   },
   {
@@ -1100,7 +1100,7 @@
     "block": "-8c",
     "hit": "+16a",
     "counter": "",
-    "note": "Chip Damage on block (7)\n",
+    "note": "\nChip Damage on block (7)\n\nSpike\n\n",
     "alternateInputs": ["f,n,d,df+3"]
   },
   {
@@ -1121,10 +1121,10 @@
     "hit_level": "l",
     "damage": "7",
     "startup": "i16",
-    "block": "-2c",
+    "block": "-23c",
     "hit": "-5c",
     "counter": "",
-    "note": "\n",
+    "note": "Sometimes written hellsweep\n",
     "alternateInputs": ["f,n,d,DF+4"]
   },
   {
@@ -1136,7 +1136,7 @@
     "block": "-16",
     "hit": "+4c",
     "counter": "",
-    "note": "Sometimes written hellsweep\n",
+    "note": "SpikeSometimes written hellsweep\n",
     "alternateInputs": ["f,n,d,DF+4,4"]
   },
   {
@@ -1148,7 +1148,7 @@
     "block": "",
     "hit": "+58(+42)",
     "counter": "",
-    "note": "Only on hitSometimes written hellsweep\n",
+    "note": "\nOnly on hit\n\nTornado\nSometimes written hellsweep\n",
     "alternateInputs": ["f,n,d,DF+4,1+2"]
   },
   {
@@ -1196,7 +1196,7 @@
     "block": "-14",
     "hit": "+35d(-24)",
     "counter": "",
-    "note": "Balcony Break\n",
+    "note": "\n\nBalcony Break\n\nSpike\n\n",
     "alternateInputs": ["FLY 3"]
   },
   {
@@ -1261,19 +1261,19 @@
   },
   {
     "name": "Tiger Thrush",
-    "input": "MCin rage 1",
+    "input": "MCR 1",
     "hit_level": "m",
     "damage": "20",
     "startup": "i22~23",
     "block": "+8",
     "hit": "+20d",
     "counter": "",
-    "note": "Leaves opponent Face Down/Head Towards\n",
-    "alternateInputs": ["MCin rage 1"]
+    "note": "\nLeaves opponent Face Down/Head Towards\n\nSpike\n\n",
+    "alternateInputs": ["MCR 1"]
   },
   {
     "name": "",
-    "input": "MCin rage 2",
+    "input": "MCR 2",
     "hit_level": "m",
     "damage": "12",
     "startup": "i15",
@@ -1281,23 +1281,23 @@
     "hit": "-5",
     "counter": "",
     "note": "Homing\n",
-    "alternateInputs": ["MCin rage 2"]
+    "alternateInputs": ["MCR 2"]
   },
   {
     "name": "Dark Arachnid Twister",
-    "input": "MCin rage 2,2",
+    "input": "MCR 2,2",
     "hit_level": "m,m",
     "damage": "12,20",
     "startup": "i15",
     "block": "-14c",
     "hit": "+2/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50)\n\n\n",
-    "alternateInputs": ["MCin rage 2,2"]
+    "note": "\n\nHeat Engager\n\nHeat Dash +67a(+50) on hit\n\nSpike\n\n",
+    "alternateInputs": ["MCR 2,2"]
   },
   {
     "name": "Venomous Torment",
-    "input": "MCin rage 3",
+    "input": "MCR 3",
     "hit_level": "sm",
     "damage": "26",
     "startup": "i23",
@@ -1305,11 +1305,11 @@
     "hit": "+16a(-1)",
     "counter": "+70a(+54)",
     "note": "\nChip damage on block (7)\n\nTornado\n\nBalcony Break\n\n",
-    "alternateInputs": ["MCin rage 3"]
+    "alternateInputs": ["MCR 3"]
   },
   {
     "name": "",
-    "input": "MCin rage 4",
+    "input": "MCR 4",
     "hit_level": "m",
     "damage": "10",
     "startup": "i20",
@@ -1317,11 +1317,11 @@
     "hit": "-20",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["MCin rage 4"]
+    "alternateInputs": ["MCR 4"]
   },
   {
     "name": "",
-    "input": "MCin rage 4,2",
+    "input": "MCR 4,2",
     "hit_level": "m,m",
     "damage": "10,14",
     "startup": "i22",
@@ -1329,11 +1329,11 @@
     "hit": "+52(+7)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["MCin rage 4,2"]
+    "alternateInputs": ["MCR 4,2"]
   },
   {
     "name": "Devil Starstorm",
-    "input": "MCin rage 4,2,1+2",
+    "input": "MCR 4,2,1+2",
     "hit_level": "m,m,th",
     "damage": "10,14,15",
     "startup": "i28",
@@ -1341,7 +1341,7 @@
     "hit": "-6",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["MCin rage 4,2,1+2"]
+    "alternateInputs": ["MCR 4,2,1+2"]
   },
   {
     "name": "Yomigaeri",

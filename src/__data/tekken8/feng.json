@@ -116,7 +116,7 @@
     "block": "+11",
     "hit": "+22a (+12)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nGuard Break +11\nPartially uses remaining Heat Time\n\n",
+    "note": "\n\nBalcony Break\n\nGuard Break\nPartially uses remaining Heat Time\n\n",
     "alternateInputs": ["in heat f,F+1+2*"]
   },
   {
@@ -137,7 +137,7 @@
     "hit_level": "h,m",
     "damage": "5,21",
     "startup": "i25~26",
-    "block": "-11",
+    "block": "-11l",
     "hit": "+2",
     "counter": "+61a",
     "note": "\nMove can be delayed\n",
@@ -164,7 +164,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "",
-    "note": "\nCombo from 1st hit\nTransition to -11 +5 BT with B\n",
+    "note": "\nCombo from 2nd hit\nTransition to -11 +5 BT with B\n",
     "alternateInputs": ["1,2,2"]
   },
   {
@@ -218,7 +218,7 @@
   {
     "name": "",
     "input": "3",
-    "hit_level": "h",
+    "hit_level": "m",
     "damage": "15",
     "startup": "i16",
     "block": "-11",
@@ -230,7 +230,7 @@
   {
     "name": "",
     "input": "3,3",
-    "hit_level": "h,h",
+    "hit_level": "m,h",
     "damage": "15,18",
     "startup": "i17",
     "block": "-9",
@@ -242,25 +242,25 @@
   {
     "name": "Peacock Sweep",
     "input": "3,3,4",
-    "hit_level": "h,h,l",
+    "hit_level": "m,h,l",
     "damage": "15,18,23",
     "startup": "i25~26",
     "block": "-12",
-    "hit": "+17d",
-    "counter": "",
+    "hit": "+7c",
+    "counter": "+17d",
     "note": "\nCombo from 2nd CH\nMove can be delayed\nCancel to -13 -2 BT with B\n",
     "alternateInputs": ["3,3,4"]
   },
   {
     "name": "Peacock Strike",
     "input": "3,1+2",
-    "hit_level": "h,m",
+    "hit_level": "m,m",
     "damage": "15,30",
     "startup": "i28~29",
     "block": "-12",
     "hit": "+22d (+17)",
     "counter": "",
-    "note": "\nBalcony Break\nCombo from 1st CH\nCan be charged to power up:\nAt full charge +7 on block 14 chip damage \n",
+    "note": "\nBalcony Break\nCombo from 1st hit\nCan be charged to power up:\nAt full charge +7 on block 14 chip damage \n",
     "alternateInputs": ["3,1+2"]
   },
   {
@@ -278,7 +278,7 @@
   {
     "name": "Leaping Whirlwind Combo",
     "input": "3~4,3",
-    "hit_level": "m,L",
+    "hit_level": "m,l",
     "damage": "27,11",
     "startup": "i18~20",
     "block": "-26",
@@ -302,7 +302,7 @@
   {
     "name": "Headspring",
     "input": "4~3",
-    "hit_level": "M",
+    "hit_level": "m",
     "damage": "25",
     "startup": "i28~i34",
     "block": "-7",
@@ -356,7 +356,7 @@
     "block": "-19",
     "hit": "+19d (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nMove can be delayed\n",
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nMove can be delayed\n",
     "alternateInputs": ["f+2,1,2"]
   },
   {
@@ -620,7 +620,7 @@
     "block": "-12",
     "hit": "+18a (+11)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st CH\nMove can be delayed\n\n",
+    "note": "\n\nTornado\nCombo from 1st hit\nMove can be delayed\n\n",
     "alternateInputs": ["d+1+2,1"]
   },
   {
@@ -642,7 +642,7 @@
     "damage": "15,18",
     "startup": "i23~24",
     "block": "-11",
-    "hit": "+7",
+    "hit": "+3",
     "counter": "",
     "note": "\nCombo from 1st hit\nMove can be delayed \n",
     "alternateInputs": ["db+1,2"]
@@ -656,7 +656,7 @@
     "block": "-7",
     "hit": "-3d",
     "counter": "",
-    "note": "\n\nFloor Break \n",
+    "note": "\n\nFloor Break\nCombo from 2nd CH \n",
     "alternateInputs": ["db+1,2,4"]
   },
   {
@@ -716,7 +716,7 @@
     "block": "-8",
     "hit": "+13d",
     "counter": "",
-    "note": "\nSpike\nCombo from 1st CH\n\n",
+    "note": "\n\nSpike\nCombo from 2nd hit\n\n",
     "alternateInputs": ["db+2,2,2"]
   },
   {
@@ -800,7 +800,7 @@
     "block": "-11",
     "hit": "0",
     "counter": "",
-    "note": "\nCombo from 1st CH\nMove can be delayed\n\n",
+    "note": "\nCombo from 1st hit\nMove can be delayed\n\n",
     "alternateInputs": ["b+2,3"]
   },
   {
@@ -812,7 +812,7 @@
     "block": "-12",
     "hit": "+19a (+12)",
     "counter": "",
-    "note": "\nCombo from 2nd hit\n\n",
+    "note": "\nCombo from 2nd CH\n\n",
     "alternateInputs": ["b+2,3,4"]
   },
   {
@@ -1093,19 +1093,19 @@
   },
   {
     "name": "Landslide",
-    "input": "qcf1",
-    "hit_level": "L",
+    "input": "qcf+1",
+    "hit_level": "l",
     "damage": "23",
     "startup": "i22~23",
     "block": "-14",
     "hit": "+2",
     "counter": "+31a",
     "note": "Head\n",
-    "alternateInputs": ["qcf1"]
+    "alternateInputs": ["qcf+1"]
   },
   {
     "name": "Mountain Crusher",
-    "input": "qcf2",
+    "input": "qcf+2",
     "hit_level": "m",
     "damage": "25",
     "startup": "i22~23",
@@ -1113,11 +1113,11 @@
     "hit": "+35a (+25)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["qcf2"]
+    "alternateInputs": ["qcf+2"]
   },
   {
     "name": "Yan Wang's Wrath",
-    "input": "qcf1+2",
+    "input": "qcf+1+2",
     "hit_level": "m",
     "damage": "21",
     "startup": "i16~17",
@@ -1125,11 +1125,11 @@
     "hit": "+7c",
     "counter": "+23d",
     "note": "Head\n",
-    "alternateInputs": ["qcf1+2"]
+    "alternateInputs": ["qcf+1+2"]
   },
   {
     "name": "",
-    "input": "qcf3+4",
+    "input": "qcf+3+4",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1137,12 +1137,12 @@
     "hit": "",
     "counter": "",
     "note": "Transitions to STC\n",
-    "alternateInputs": ["qcf3+4"]
+    "alternateInputs": ["qcf+3+4"]
   },
   {
     "name": "Silent Arrow",
     "input": "FC df+1",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "19",
     "startup": "i21~22",
     "block": "-13c",
@@ -1166,7 +1166,7 @@
   {
     "name": "",
     "input": "FC df+4",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "10",
     "startup": "i19~20",
     "block": "-8c",
@@ -1178,7 +1178,7 @@
   {
     "name": "Xuan Jiao Xian Yan Shou",
     "input": "FC df+4,1",
-    "hit_level": "L,h",
+    "hit_level": "l,h",
     "damage": "10,15",
     "startup": "i20~21",
     "block": "-2",
@@ -1193,8 +1193,8 @@
     "hit_level": "m",
     "damage": "13",
     "startup": "i13",
-    "block": "-1",
-    "hit": "+5",
+    "block": "-3",
+    "hit": "+3",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["ws1"]
@@ -1205,8 +1205,8 @@
     "hit_level": "m,m",
     "damage": "13,16",
     "startup": ",i9",
-    "block": "-10",
-    "hit": "+1",
+    "block": "-12",
+    "hit": "-1",
     "counter": "",
     "note": "\nJail from 1st attack\n\n",
     "alternateInputs": ["ws1,2"]
@@ -1217,10 +1217,10 @@
     "hit_level": "m,m,m",
     "damage": "13,16,20",
     "startup": "i17~18",
-    "block": "-12",
+    "block": "-14",
     "hit": "+12d (+3)",
     "counter": "+32d (+24)",
-    "note": "\n\nBalcony Break\nMove can be delayed\n\n",
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\nMove can be delayed\n\n",
     "alternateInputs": ["ws1,2,1"]
   },
   {
@@ -1232,7 +1232,7 @@
     "block": "-6",
     "hit": "+4c",
     "counter": "+20d",
-    "note": "\nCombo from 1st CH\nMove can be delayed\n\n",
+    "note": "\nCombo from 1st hit\nMove can be delayed\n\n",
     "alternateInputs": ["ws1,3"]
   },
   {
@@ -1292,7 +1292,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\nParries high and mid fist and feet moves (not elbows/knees/heads etc)\nIf 1 hit is parried, you can still do your STC move, if 2 hits are parried it launches\n\n",
     "alternateInputs": ["f+3+4"]
   },
   {
@@ -1334,7 +1334,7 @@
   {
     "name": "Jin Bu Zhen",
     "input": "STC 4",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "20",
     "startup": "i20",
     "block": "-13",
@@ -1382,7 +1382,7 @@
   {
     "name": "Fractured Diamond",
     "input": "KNP 1",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "20",
     "startup": "i20~21",
     "block": "-13c",
@@ -1418,7 +1418,7 @@
   {
     "name": "",
     "input": "KNP 4",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "10",
     "startup": "i18",
     "block": "-31c",
@@ -1430,7 +1430,7 @@
   {
     "name": "Xuan Tui Strike",
     "input": "KNP 4,1+2",
-    "hit_level": "L,h",
+    "hit_level": "l,h",
     "damage": "10,24",
     "startup": "i28",
     "block": "-6",
@@ -1442,7 +1442,7 @@
   {
     "name": "",
     "input": "KNP 3+4",
-    "hit_level": "M",
+    "hit_level": "m",
     "damage": "30",
     "startup": "i31~34",
     "block": "-7",
@@ -1454,7 +1454,7 @@
   {
     "name": "Leaping Lion",
     "input": "KNP 3+4,3+4",
-    "hit_level": "M,m",
+    "hit_level": "m,m",
     "damage": "30",
     "startup": "i39~42",
     "block": "",
@@ -1524,12 +1524,24 @@
     "alternateInputs": ["BT 1+2"]
   },
   {
+    "name": "Reverse Fractured Diamond",
+    "input": "BT d+1",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i20~21",
+    "block": "-13c",
+    "hit": "+4",
+    "counter": "+16d",
+    "note": "\n",
+    "alternateInputs": ["BT d+1"]
+  },
+  {
     "name": "Reverse Mighty Sweep Kick",
     "input": "BT d+3",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "20",
     "startup": "i18~20",
-    "block": "=26c",
+    "block": "-26c",
     "hit": "-3",
     "counter": "+70a (+54)",
     "note": "\nHas clean hit effect\n\n",
@@ -1584,9 +1596,9 @@
     "alternateInputs": ["SS 2"]
   },
   {
-    "name": "swift Sweep Kick",
+    "name": "Swift Sweep Kick",
     "input": "SS 4",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "19",
     "startup": "i21~22",
     "block": "-31c",
@@ -1622,7 +1634,7 @@
   {
     "name": "Thunder Stomp",
     "input": "OTG d+3+4",
-    "hit_level": "L",
+    "hit_level": "l",
     "damage": "19",
     "startup": "i24~25",
     "block": "",
@@ -1636,7 +1648,7 @@
     "input": "1+3",
     "hit_level": "h",
     "damage": "35",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "-3",
     "counter": "",
@@ -1648,7 +1660,7 @@
     "input": "2+4",
     "hit_level": "h",
     "damage": "35",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "0",
     "counter": "",
@@ -1660,7 +1672,7 @@
     "input": "Left Throw",
     "hit_level": "h",
     "damage": "40",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "-6",
     "counter": "",
@@ -1672,7 +1684,7 @@
     "input": "Right Throw",
     "hit_level": "h",
     "damage": "40",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "-4",
     "counter": "",
@@ -1684,7 +1696,7 @@
     "input": "Back Throw",
     "hit_level": "h",
     "damage": "50",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "-4",
     "counter": "",
@@ -1696,7 +1708,7 @@
     "input": "uf+1+2",
     "hit_level": "h",
     "damage": "40",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "0",
     "counter": "",
@@ -1708,7 +1720,7 @@
     "input": "BT 1+4_2+3",
     "hit_level": "h",
     "damage": "45",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "-5",
     "counter": "",

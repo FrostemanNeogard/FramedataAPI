@@ -12,12 +12,24 @@
     "alternateInputs": ["2+3"]
   },
   {
+    "name": "Ultimo Jaguar",
+    "input": "in heat 2+3",
+    "hit_level": "m,t",
+    "damage": "20,44",
+    "startup": "i17",
+    "block": "+12",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nHeat Smash\n\nFloor Break\nShifts to JGR on block (without heat).\nHold b to cancel shift, becomes +7 on block.\nBeats all Power Crush armor, hits OTG.\n\n",
+    "alternateInputs": ["in heat 2+3"]
+  },
+  {
     "name": "Elbow Impact",
     "input": "f+2,1",
     "hit_level": "m,h",
     "damage": "12,25",
     "startup": "i15~16",
-    "block": "+1",
+    "block": "-9",
     "hit": "+17g/+16d",
     "counter": "",
     "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n\n",
@@ -72,18 +84,6 @@
     "alternateInputs": ["d+1+4"]
   },
   {
-    "name": "Ultimo Jaguar",
-    "input": "in heat 2+3",
-    "hit_level": "m,t",
-    "damage": "20,44",
-    "startup": "i17",
-    "block": "+12",
-    "hit": "+0d",
-    "counter": "",
-    "note": "\n\nHeat Smash\n\nFloor Break\nShifts to JGR on block (without heat).\nHold b to cancel shift, becomes +7 on block.\nBeats all Power Crush armor, hits OTG.\n\n",
-    "alternateInputs": ["in heat 2+3"]
-  },
-  {
     "name": "Left Jab",
     "input": "1",
     "hit_level": "h",
@@ -104,7 +104,7 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nCombo from 1st hit.\n\n",
+    "note": "\nJails\nCombo from 1st hit\n\n",
     "alternateInputs": ["1,2"]
   },
   {
@@ -200,7 +200,7 @@
     "block": "-14",
     "hit": "+17a",
     "counter": "",
-    "note": "\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nTracks left side but unsafe.\n\n",
     "alternateInputs": ["3"]
   },
   {
@@ -269,7 +269,7 @@
     "hit_level": "m,h",
     "damage": "12,25",
     "startup": "i15~16",
-    "block": "+1",
+    "block": "-9",
     "hit": "+17g/+16d",
     "counter": "",
     "note": "\n\nHeat Engager\n\nBalcony Break\n\nHeat Dash +5 on block, +18 on wall block.\n\nCombo from 1st hit.\n+16 on hit during heat or after heat.\n\n",
@@ -284,7 +284,7 @@
     "block": "-13c",
     "hit": "+2c",
     "counter": "",
-    "note": "\nForces crouching on block and hit.\nNot combo even on CH, only combo from hitting behind.\n\n",
+    "note": "\n\nFloor Break\nForces crouching on block and hit.\nNot combo even on CH, only combo from hitting behind.\n\n",
     "alternateInputs": ["f+2,d+1"]
   },
   {
@@ -428,7 +428,7 @@
     "block": "-9",
     "hit": "+6s",
     "counter": "",
-    "note": "\nForces standing on hit.\n\n",
+    "note": "\nForces standing on hit.\nTracks left side. (one of the few for King)\n\n",
     "alternateInputs": ["df+3"]
   },
   {
@@ -644,7 +644,7 @@
     "block": "-8",
     "hit": "+0c",
     "counter": "",
-    "note": "\nHits OTG.\nForces Crouching on hit.\nSometimes written People's Elbow\n",
+    "note": "\n\nFloor Break\nHits OTG.\nForces Crouching on hit.\nSometimes written People's Elbow\n",
     "alternateInputs": ["d+2+3"]
   },
   {
@@ -668,7 +668,7 @@
     "block": "-14",
     "hit": "+4c",
     "counter": "+25d",
-    "note": "\nForces Crouching on normal hit.\n\n",
+    "note": "\nForces Crouching on normal hit.\nTracks left side. (one of the few for King)\n\n",
     "alternateInputs": ["db+3"]
   },
   {
@@ -735,7 +735,7 @@
     "name": "Quick Hook > Uppercut",
     "input": "b+1,2",
     "hit_level": "h,h",
-    "damage": "13,20",
+    "damage": "1320",
     "startup": "i19~20",
     "block": "-13",
     "hit": "+5",
@@ -747,7 +747,7 @@
     "name": "Quick Hook > Heel Kick",
     "input": "b+1,4",
     "hit_level": "h,m",
-    "damage": "13,23",
+    "damage": "1323",
     "startup": "i26~28",
     "block": "-11",
     "hit": "+1d",
@@ -812,14 +812,14 @@
     "block": "-10/-5",
     "hit": "+39d",
     "counter": "",
-    "note": "\n\nTornado \nBalcony Break\nBecomes -5 on block with chip damage if attack absorbed.\n\n",
+    "note": "\n\nTornado\n\nBalcony Break\nBecomes -5 on block with chip damage if attack absorbed.\n\n",
     "alternateInputs": ["b+3"]
   },
   {
     "name": "Guillotine Drop",
     "input": "b+3:1+2",
     "hit_level": "h,t",
-    "damage": "23,20",
+    "damage": "2320",
     "startup": "i16~18",
     "block": "",
     "hit": "+0d",
@@ -836,7 +836,7 @@
     "block": "+2",
     "hit": "+14g",
     "counter": "",
-    "note": "\nBalcony Break\nShifts into backturn stance.\n\n",
+    "note": "\n\nBalcony Break\nShifts into BT stance.\n\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -1033,31 +1033,31 @@
   },
   {
     "name": "Strong Knee",
-    "input": "f,f,F,3 / wr3",
+    "input": "f,f,F,3",
     "hit_level": "m",
     "damage": "25",
     "startup": "i20~25",
     "block": "+3",
     "hit": "+30(+22)",
     "counter": "",
-    "note": "\nBalcony Break\nChip damage on block.\n\n",
-    "alternateInputs": ["f,f,F,3 / wr3"]
+    "note": "\nBalcony Break\nChip damage on block.\nSometimes written wr3\n",
+    "alternateInputs": ["f,f,F,3"]
   },
   {
     "name": "Running Exploder",
-    "input": "f,f,F,3+4 / wr3+4",
+    "input": "f,f,F,3+4",
     "hit_level": "m",
     "damage": "40",
     "startup": "i28~34",
     "block": "+17",
     "hit": "+32d(-26)",
     "counter": "",
-    "note": "\nBalcony Break\n\n",
-    "alternateInputs": ["f,f,F,3+4 / wr3+4"]
+    "note": "\nBalcony Break\nSometimes written wr3+4\n",
+    "alternateInputs": ["f,f,F,3+4"]
   },
   {
     "name": "Leg Breaker",
-    "input": "FC df+1/CD 1",
+    "input": "FC df+1",
     "hit_level": "l",
     "damage": "20",
     "startup": "i32~34",
@@ -1065,7 +1065,7 @@
     "hit": "+73a(+57)",
     "counter": "",
     "note": "\nCan also be done by f,n,d,DF+1/CD.1.\nTornado on grounded hit.\n\n",
-    "alternateInputs": ["FC df+1/CD 1"]
+    "alternateInputs": ["FC df+1"]
   },
   {
     "name": "Body Blow",
@@ -1172,7 +1172,7 @@
     "block": "-13",
     "hit": "+9s",
     "counter": "+50d",
-    "note": "\nHits OTG.\nForces standing on normal hit.\nCrumple on CH for full combo.\n\n",
+    "note": "\n\nTornado\nHits OTG. Forces standing on normal hit.\nCrumple on CH for full combo.\n\n",
     "alternateInputs": ["BT 3"]
   },
   {
@@ -1220,7 +1220,7 @@
     "block": "-14",
     "hit": "-2d",
     "counter": "+28d",
-    "note": "\nRecovers in FDFT on block and whiff.\nAlso can be done in backturn crouch.\n\n",
+    "note": "\nRecovers in FDFT on block and whiff.\nAlso can be done in backturn crouching.\n\n",
     "alternateInputs": ["BT d+4"]
   },
   {
@@ -1232,7 +1232,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nJaguar Step away from the oppponent while keeping backturn stance on recovery.\nCan cancel into BT.1+2 / BT.1+4 unblockable.\nCan hold 3+4 to keep spinning.\nCannot Reverse Jaguar Step.\n\n",
+    "note": "\nJaguar Step away from the oppponent while keeping backturn stance on recovery.\nCan cancel into BT.1+2 / BT.1+4 unblockable.\nCan hold 3+4 to keep spinning.\nCannot Reverse Jaguar Step in BT stance.\n\n",
     "alternateInputs": ["BT 3+4"]
   },
   {
@@ -1244,7 +1244,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHop over low attacks.\nHold to continue spinning and power up strikes, but King doesn't change direction.\nKing gets dizzy and falls after 6th spin.\n\n",
+    "note": "\nHold to continue spinning and power up strikes, but King doesn't change direction.\nKing gets dizzy and falls after 6th spin.\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -1256,7 +1256,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHop over low attacks.\nCannot be held to continue spinning.\n\n",
+    "note": "\nCannot be held to continue spinning.\n\n",
     "alternateInputs": ["b+3+4"]
   },
   {
@@ -1316,11 +1316,11 @@
     "block": "+8/+15",
     "hit": "+5a(-4)/+10a(+1)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block.\n\nGuard Break (From 2nd spin on)\nOn block / hit increases up to 2nd spin.\nDamage increase up to 3rd spin.\n\n",
+    "note": "\n\nBalcony Break\n\nGuard Break\nChip damage on block.\nOn block / hit increases up to 2nd spin.\nDamage increase up to 3rd spin.\n\n",
     "alternateInputs": ["JGS 4"]
   },
   {
-    "name": "Jaguar Steep > Mid Kick",
+    "name": "Jaguar Step > Mid Kick",
     "input": "JGS df+4",
     "hit_level": "m",
     "damage": "30/36/45",
@@ -1340,7 +1340,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHold b to stop running, able to block high.\nGains armor during Heat.\nPartially uses remaining Heat time (same for uf+3+4 / db+1+2,3+4 / b+1+2 ).\n\n",
+    "note": "\nCancel to r25 with b on frame 34~ at the earliest, able to block high.\nGains armor during Heat.\nPartially uses remaining Heat time (same for uf+3+4 / db+1+2,3+4 / b+1+2 ).\n\n",
     "alternateInputs": ["f+3+4"]
   },
   {
@@ -1374,7 +1374,7 @@
     "damage": "30",
     "startup": "i22~23",
     "block": "-9",
-    "hit": "+11d(+1)",
+    "hit": "+11d (+1)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHoming\n\n",
     "alternateInputs": ["JGin rage 3"]
@@ -1382,25 +1382,25 @@
   {
     "name": "Dashing Low Drop Kick",
     "input": "JGin rage 4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "20",
     "startup": "i20~24",
     "block": "-21",
     "hit": "+0c",
     "counter": "",
-    "note": "\nForces Crouching on hit.\n\n",
+    "note": "\n\n",
     "alternateInputs": ["JGin rage 4"]
   },
   {
     "name": "Diving Body Press",
     "input": "JGin rage 2+3",
-    "hit_level": "m,t",
+    "hit_level": "M,t",
     "damage": "20,15",
     "startup": "i21~43",
     "block": "-16c~+2c",
     "hit": "-19c~+3c/-5d",
     "counter": "",
-    "note": "\nThrow when hit standing in front close range.\n\n",
+    "note": "\nThrow when hit standing in front close range.\nKing recovers off axis\n\n",
     "alternateInputs": ["JGin rage 2+3"]
   },
   {
@@ -1429,7 +1429,7 @@
   },
   {
     "name": "Leg Breaker",
-    "input": "FC df+1/CD 1",
+    "input": "FC df+1",
     "hit_level": "l",
     "damage": "20",
     "startup": "i32~34",
@@ -1437,7 +1437,7 @@
     "hit": "+73a(+57)",
     "counter": "",
     "note": "\nCan also be done by f,n,d,DF+1/CD.1.\nTornado on grounded hit.\n\n",
-    "alternateInputs": ["FC df+1/CD 1"]
+    "alternateInputs": ["FC df+1"]
   },
   {
     "name": "Knee Lift",
@@ -1752,16 +1752,16 @@
     "alternateInputs": ["qcb+1+2"]
   },
   {
-    "name": "Tomahawk (Shining Wizard)",
-    "input": "f,f,F+2",
+    "name": "Tomahawk",
+    "input": "f,f,F+2+4",
     "hit_level": "t",
     "damage": "40(45)",
     "startup": "i10",
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n1+2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFL.\n\n",
-    "alternateInputs": ["f,f,F+2"]
+    "note": "\n1+2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nOpponent recovers in FUFL.\nSometimes written Shining Wizard\n",
+    "alternateInputs": ["f,f,F+2+4"]
   },
   {
     "name": "Giant Swing",

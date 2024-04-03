@@ -308,7 +308,7 @@
     "block": "-7",
     "hit": "+10",
     "counter": "+62a (+42)",
-    "note": "\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nCauses Strong Aerial Tailspin\n\n",
     "alternateInputs": ["f+2,4,4"]
   },
   {
@@ -728,7 +728,7 @@
     "block": "-9",
     "hit": "+17 (+8)",
     "counter": "",
-    "note": "\n\nBalcony Break\nDuring Heat, partially restore remaining Heat time\n\n",
+    "note": "\n\nBalcony Break\nDuring Heat, partially restore remaining Heat time\nCauses Strong Aerial Tailspin\n\n",
     "alternateInputs": ["FC df+2"]
   },
   {
@@ -844,7 +844,7 @@
     "input": "df+3+4",
     "hit_level": "sp",
     "damage": "",
-    "startup": "Startup",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",

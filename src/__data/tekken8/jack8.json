@@ -109,7 +109,7 @@
   },
   {
     "name": "Jaguar Hook - Gamma",
-    "input": "GMH 1",
+    "input": "GMC 1",
     "hit_level": "m",
     "damage": "22",
     "startup": "i22",
@@ -117,19 +117,19 @@
     "hit": "+73a (+57)",
     "counter": "",
     "note": "\n\nHoming\n\nPartially uses remaining Heat time\nChip damage on block \n",
-    "alternateInputs": ["GMH 1"]
+    "alternateInputs": ["GMC 1"]
   },
   {
     "name": "Exaton Blast - Gamma",
-    "input": "GMH 2",
+    "input": "GMC 2",
     "hit_level": "h",
     "damage": "22",
     "startup": "i20",
     "block": "+11",
     "hit": "+31a (+5)",
     "counter": "",
-    "note": "\n\nTornado\n\nGuard Break +11\n\nBalcony Break\nPartially uses remaining Heat time\nChip damage on block \n",
-    "alternateInputs": ["GMH 2"]
+    "note": "\n\nTornado\n\nGuard Break\n\nBalcony Break\nPartially uses remaining Heat time\nChip damage on block \n",
+    "alternateInputs": ["GMC 2"]
   },
   {
     "name": "Terraforming Cannon",
@@ -224,7 +224,7 @@
     "block": "-4",
     "hit": "+13d",
     "counter": "",
-    "note": "\n",
+    "note": "Jails\n",
     "alternateInputs": ["2,1,1+2"]
   },
   {
@@ -519,31 +519,31 @@
     "name": "",
     "input": "df+1,2",
     "hit_level": "m,h",
-    "damage": "12,10",
+    "damage": "1210",
     "startup": "i29",
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\nCombos from 1st hit CH\nDelayable\n",
+    "note": "\nJails\nCombos from 1st hit CH\nDelayable\n",
     "alternateInputs": ["df+1,2"]
   },
   {
     "name": "",
     "input": "df+1,2,1",
     "hit_level": "m,h,h",
-    "damage": "12,10,2",
+    "damage": "1210,2",
     "startup": "i15",
     "block": "-10",
     "hit": "-2",
     "counter": "",
-    "note": "\nOn air hit +22a (+15)\nCombos from 2nd hit\nCombos from 1st hit CH \n",
+    "note": "\nJails\nOn air hit +22a (+15)\nCombos from 2nd hit\nCombos from 1st hit CH \n",
     "alternateInputs": ["df+1,2,1"]
   },
   {
     "name": "Overdrive",
     "input": "df+1,2,1,2",
     "hit_level": "m,h,h,h",
-    "damage": "12,10,2,20",
+    "damage": "1210,2,20",
     "startup": "i9",
     "block": "-18",
     "hit": "+35d (-23)",
@@ -603,7 +603,7 @@
     "name": "Combine Harvester",
     "input": "df+3,2",
     "hit_level": "m,h",
-    "damage": "16,20",
+    "damage": "1620",
     "startup": "i20",
     "block": "-9",
     "hit": "+25d",
@@ -987,7 +987,7 @@
     "name": "",
     "input": "b+3,2",
     "hit_level": "m,h",
-    "damage": "14,13",
+    "damage": "1413",
     "startup": "i22",
     "block": "-4",
     "hit": "+1",
@@ -999,7 +999,7 @@
     "name": "Mad Dozer",
     "input": "b+3,2,2",
     "hit_level": "m,h,h",
-    "damage": "14,13,20",
+    "damage": "141320",
     "startup": "i25",
     "block": "-9",
     "hit": "+44d (-14)",
@@ -1011,7 +1011,7 @@
     "name": "Mad Dozer (charged)",
     "input": "b+3,2,2*",
     "hit_level": "m,h,m",
-    "damage": "14,1340",
+    "damage": "141340",
     "startup": "i67",
     "block": "-9",
     "hit": "+13d (+5)",
@@ -1035,7 +1035,7 @@
     "name": "Sherman Stomp",
     "input": "b+4,4",
     "hit_level": "m,m",
-    "damage": "16,21",
+    "damage": "1621",
     "startup": "i30",
     "block": "-4",
     "hit": "-8d",
@@ -1371,7 +1371,7 @@
     "name": "Low Cross Combo",
     "input": "FC 1+2,1+2",
     "hit_level": "l,m",
-    "damage": "21,23",
+    "damage": "2123",
     "startup": "i40",
     "block": "-18",
     "hit": "+42a (+32)",
@@ -1424,7 +1424,7 @@
     "block": "+15",
     "hit": "+13BT",
     "counter": "",
-    "note": "\n\nGuard Break +15 \n",
+    "note": "\n\nGuard Break \n",
     "alternateInputs": ["FC df+1,2,1,1"]
   },
   {
@@ -1717,7 +1717,7 @@
   },
   {
     "name": "Juggernaut Hook",
-    "input": "GMH in heat 1",
+    "input": "GMH 1",
     "hit_level": "m",
     "damage": "20",
     "startup": "i22",
@@ -1725,11 +1725,11 @@
     "hit": "+25d",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break \n",
-    "alternateInputs": ["GMH in heat 1"]
+    "alternateInputs": ["GMH 1"]
   },
   {
     "name": "Exaton Blast",
-    "input": "GMH in heat 2",
+    "input": "GMH 2",
     "hit_level": "h",
     "damage": "40",
     "startup": "i20",
@@ -1737,11 +1737,11 @@
     "hit": "+21d (+11)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nTornado \n",
-    "alternateInputs": ["GMH in heat 2"]
+    "alternateInputs": ["GMH 2"]
   },
   {
     "name": "Granite Stomp",
-    "input": "GMH in heat 3",
+    "input": "GMH 3",
     "hit_level": "m",
     "damage": "28",
     "startup": "i24",
@@ -1749,11 +1749,11 @@
     "hit": "+9c",
     "counter": "+22a",
     "note": "\nTransition to FC with D\n(+7 oH) \n",
-    "alternateInputs": ["GMH in heat 3"]
+    "alternateInputs": ["GMH 3"]
   },
   {
     "name": "Full Metal Deathblow",
-    "input": "GMH in heat 4",
+    "input": "GMH 4",
     "hit_level": "h",
     "damage": "30",
     "startup": "i14",
@@ -1761,11 +1761,11 @@
     "hit": "+21d (+11)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break\nChip damage on block\n\n",
-    "alternateInputs": ["GMH in heat 4"]
+    "alternateInputs": ["GMH 4"]
   },
   {
     "name": "Mimesis Overkill",
-    "input": "GMH in heat 1+2",
+    "input": "GMH 1+2",
     "hit_level": "t",
     "damage": "45 (57)",
     "startup": "i16",
@@ -1773,11 +1773,11 @@
     "hit": "+0d",
     "counter": "",
     "note": "\n57 Damage if opponent hits the wall\nThrow Break 1+2\nSwaps positions on break\n",
-    "alternateInputs": ["GMH in heat 1+2"]
+    "alternateInputs": ["GMH 1+2"]
   },
   {
     "name": "Particle Barrier",
-    "input": "GMH in heat 3+4",
+    "input": "GMH 3+4",
     "hit_level": "s",
     "damage": "20",
     "startup": "i20",
@@ -1785,11 +1785,11 @@
     "hit": "+40d (-18)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\nChip damage on block when absorbing an attack\n\n",
-    "alternateInputs": ["GMH in heat 3+4"]
+    "alternateInputs": ["GMH 3+4"]
   },
   {
     "name": "Prime Windup Uppercut",
-    "input": "GMH in heat f+1",
+    "input": "GMH f+1",
     "hit_level": "m",
     "damage": "26",
     "startup": "i20",
@@ -1797,11 +1797,11 @@
     "hit": "+66a (+50)",
     "counter": "",
     "note": "\n\nTornado\nInstant Tornado\n",
-    "alternateInputs": ["GMH in heat f+1"]
+    "alternateInputs": ["GMH f+1"]
   },
   {
     "name": "Megalodriller",
-    "input": "GMH in heat f+2",
+    "input": "GMH f+2",
     "hit_level": "m",
     "damage": "34",
     "startup": "i29",
@@ -1809,11 +1809,11 @@
     "hit": "+30a (+4)",
     "counter": "",
     "note": "\n\nBalcony Break \n",
-    "alternateInputs": ["GMH in heat f+2"]
+    "alternateInputs": ["GMH f+2"]
   },
   {
     "name": "Breakout Fortress",
-    "input": "GMH in heat ub",
+    "input": "GMH ub",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1821,11 +1821,11 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["GMH in heat ub"]
+    "alternateInputs": ["GMH ub"]
   },
   {
     "name": "Flying Fortress",
-    "input": "GMH in heat uf",
+    "input": "GMH uf",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1833,11 +1833,11 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["GMH in heat uf"]
+    "alternateInputs": ["GMH uf"]
   },
   {
     "name": "Jaguar Hook - Gamma",
-    "input": "GMH 1",
+    "input": "in heat GMH 1",
     "hit_level": "m",
     "damage": "22",
     "startup": "i22",
@@ -1845,19 +1845,19 @@
     "hit": "+73a (+57)",
     "counter": "",
     "note": "\n\nHoming\n\nPartially uses remaining Heat time\nChip damage on block \n",
-    "alternateInputs": ["GMH 1"]
+    "alternateInputs": ["in heat GMH 1"]
   },
   {
     "name": "Exaton Blast - Gamma",
-    "input": "GMH 2",
+    "input": "in heat GMH 2",
     "hit_level": "h",
     "damage": "22",
     "startup": "i20",
     "block": "+11",
     "hit": "+31a (+5)",
     "counter": "",
-    "note": "\n\nTornado\n\nGuard Break +11\n\nBalcony Break\nPartially uses remaining Heat time\nChip damage on block \n",
-    "alternateInputs": ["GMH 2"]
+    "note": "\n\nTornado\n\nGuard Break\n\nBalcony Break\nPartially uses remaining Heat time\nChip damage on block \n",
+    "alternateInputs": ["in heat GMH 2"]
   },
   {
     "name": "Sit Down",
@@ -1887,7 +1887,7 @@
     "name": "",
     "input": "SIT 1,2",
     "hit_level": "l,l",
-    "damage": "10,10",
+    "damage": "1010",
     "startup": "i15",
     "block": "-47",
     "hit": "-36",
@@ -1899,7 +1899,7 @@
     "name": "",
     "input": "SIT 1,2,1",
     "hit_level": "l,l,l",
-    "damage": "10,10,10",
+    "damage": "101010",
     "startup": "i15",
     "block": "-47",
     "hit": "-36",
@@ -1911,7 +1911,7 @@
     "name": "Sit Punches",
     "input": "SIT 1,2,1,2",
     "hit_level": "l,l,l,l",
-    "damage": "10,10,10,10",
+    "damage": "10101010",
     "startup": "i15",
     "block": "-47",
     "hit": "-36",

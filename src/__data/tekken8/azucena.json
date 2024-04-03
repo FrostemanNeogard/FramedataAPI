@@ -54,7 +54,7 @@
     "damage": "25",
     "startup": "i16~17",
     "block": "-8~-7",
-    "hit": "+41a (-17)",
+    "hit": "+41a (+17)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nFrame advantage is +0 if an attack is absorbed\n",
     "alternateInputs": ["f+1+2"]
@@ -164,7 +164,7 @@
     "block": "-3~-2",
     "hit": "+7~+8",
     "counter": "",
-    "note": "Combo from 1st hit with 4f delay\n",
+    "note": "Combo from 1st hit with 4f delay\nJails from 1st hit\n\n",
     "alternateInputs": ["2,1"]
   },
   {
@@ -426,7 +426,7 @@
     "damage": "25",
     "startup": "i16~17",
     "block": "-8~-7",
-    "hit": "+41a (-17)",
+    "hit": "+41a (+17)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nFrame advantage is +0 if an attack is absorbed\n",
     "alternateInputs": ["f+1+2"]
@@ -697,15 +697,15 @@
   },
   {
     "name": "Borrasca Kick Combo",
-    "input": "db+34",
-    "hit_level": "Lh",
+    "input": "db+3,4",
+    "hit_level": "L,h",
     "damage": "12,20",
     "startup": "i24~25",
     "block": "-13~-12",
     "hit": "+66a (+50)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st CH\n",
-    "alternateInputs": ["db+34"]
+    "alternateInputs": ["db+3,4"]
   },
   {
     "name": "Bitter Low Kick",
