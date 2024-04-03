@@ -110,7 +110,11 @@ export class FramedataService {
   }
 
   private formatNotation(inputNotation: string, removePlus: boolean): string {
-    let modifiedNotation = inputNotation
+    let modifiedNotation = inputNotation;
+    if (!modifiedNotation.includes('fc')) {
+      modifiedNotation = modifiedNotation.replaceAll('cd', 'f,n,d,df');
+    }
+    modifiedNotation = modifiedNotation
       .toLowerCase()
 
       // TODO: This is kinda stupid, maybe move the input shortcuts to a different function
