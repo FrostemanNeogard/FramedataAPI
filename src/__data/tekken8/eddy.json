@@ -108,20 +108,6 @@
     "alternateInputs": ["d+1+3"]
   },
   {
-    "name": "NameThe name of the move in the English localization.Most often directly from the in-game movelist, but can also be a community name.",
-    "input": "InputThe input to perform the move, written in notation  This is often used as the move's name For strings, the input of the previous moves in the string is shown but washed out ",
-    "hit_level": "Hit levelThe hit level of the move.Capital letters mean it hits grounded.For strings, the hit level of the previous moves in the string is shown but washed out.",
-    "damage": "DamageHow much damage the move does without any modifiers.For strings, the damage of the previous moves in the string is shown but washed out.",
-    "startup": "StartupThe active frames of the attack. The \"i\" stands for \"impact\", i.e. impact frame.If there is more than one hit, a comma indicates that frame 1 is now the frame after the last active frame of the previous hit.For strings, therefore, this usually has a leading comma.",
-    "block": "BlockThe frame advantage on block.Blank if the move can't be blocked (e.g., an unblockable or an aerial attack).For breakable throws, this is the frame advantage when the throw is broken.",
-    "hit": "HitThe frame advantage on hit.Blank if the move is not an attack, e.g. is a stance transition only.For throws, this is the frame advantage after the throw.",
-    "counter": "CHThe frame advantage on counter hit.Blank if this is the same as on normal hit, i.e. there is no special behavior on counter hit.",
-    "note": "NotesAnything that doesn't fit elsewhere.Many common move properties, such as whether a string can be delayed, go here.See Movelist#Notes for standard wording of common properties.\n",
-    "alternateInputs": [
-      "InputThe input to perform the move, written in notation  This is often used as the move's name For strings, the input of the previous moves in the string is shown but washed out "
-    ]
-  },
-  {
     "name": "",
     "input": "1",
     "hit_level": "h",
@@ -300,20 +286,6 @@
     "counter": "+13c",
     "note": "\n\nSpike\n\nElbow\n\n",
     "alternateInputs": ["1+2"]
-  },
-  {
-    "name": "NameThe name of the move in the English localization.Most often directly from the in-game movelist, but can also be a community name.",
-    "input": "InputThe input to perform the move, written in notation  This is often used as the move's name For strings, the input of the previous moves in the string is shown but washed out ",
-    "hit_level": "Hit levelThe hit level of the move.Capital letters mean it hits grounded.For strings, the hit level of the previous moves in the string is shown but washed out.",
-    "damage": "DamageHow much damage the move does without any modifiers.For strings, the damage of the previous moves in the string is shown but washed out.",
-    "startup": "StartupThe active frames of the attack. The \"i\" stands for \"impact\", i.e. impact frame.If there is more than one hit, a comma indicates that frame 1 is now the frame after the last active frame of the previous hit.For strings, therefore, this usually has a leading comma.",
-    "block": "BlockThe frame advantage on block.Blank if the move can't be blocked (e.g., an unblockable or an aerial attack).For breakable throws, this is the frame advantage when the throw is broken.",
-    "hit": "HitThe frame advantage on hit.Blank if the move is not an attack, e.g. is a stance transition only.For throws, this is the frame advantage after the throw.",
-    "counter": "CHThe frame advantage on counter hit.Blank if this is the same as on normal hit, i.e. there is no special behavior on counter hit.",
-    "note": "NotesAnything that doesn't fit elsewhere.Many common move properties, such as whether a string can be delayed, go here.See Movelist#Notes for standard wording of common properties.\n",
-    "alternateInputs": [
-      "InputThe input to perform the move, written in notation  This is often used as the move's name For strings, the input of the previous moves in the string is shown but washed out "
-    ]
   },
   {
     "name": "",
