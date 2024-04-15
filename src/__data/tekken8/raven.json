@@ -176,7 +176,7 @@
     "block": "-8~-7",
     "hit": "+8~+9",
     "counter": "",
-    "note": "\nCombo from 1st hit\nCancel to r31 with B\n",
+    "note": "\nCombo from 1st hit\nCancel to r31 with B\nWall crush on hit (+16)\n",
     "alternateInputs": ["2,4"]
   },
   {
@@ -344,7 +344,7 @@
     "block": "+5",
     "hit": "+45a (+35)",
     "counter": "",
-    "note": "\n",
+    "note": "Wall crush on block (+18)\n",
     "alternateInputs": ["in heat 1+2,F"]
   },
   {
@@ -377,8 +377,8 @@
     "hit_level": "m,M",
     "damage": "10,13",
     "startup": ",i21~22",
-    "block": "",
-    "hit": "",
+    "block": "-9~-8",
+    "hit": "+6c~+7c",
     "counter": "",
     "note": "\nAlternate input: f+2,3~D\n",
     "alternateInputs": ["f+2,3,3+4"]
@@ -452,7 +452,7 @@
     "block": "+5",
     "hit": "+34a",
     "counter": "",
-    "note": "\n",
+    "note": "Wall crush on block (+18)\n",
     "alternateInputs": ["in heat f+1+2,F"]
   },
   {
@@ -1352,7 +1352,7 @@
     "block": "+5",
     "hit": "+62a (+42)",
     "counter": "",
-    "note": "\n\nHoming\nAlternate input: H.qcf+3+4,F\n",
+    "note": "\n\nHoming\nAlternate input: H.qcf+3+4,F\nWall crush on block (+18)\n",
     "alternateInputs": ["in heat ws3+4,F"]
   },
   {
@@ -1604,7 +1604,7 @@
     "block": "+5",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\n",
+    "note": "Wall crush on block (+18)\n",
     "alternateInputs": ["in heat SZN 2,F"]
   },
   {
@@ -1916,7 +1916,7 @@
     "block": "-5~-4",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\n",
+    "note": "Wall crush on block (+18)\n",
     "alternateInputs": ["in heat BT 4,F"]
   },
   {

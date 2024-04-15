@@ -6,33 +6,33 @@
     "damage": "12",
     "startup": "i16",
     "block": "+1",
-    "hit": "+2",
+    "hit": "+2c",
     "counter": "",
-    "note": "\n\nHeat Burst\nAlternate input: R1\n\n",
+    "note": "\n\nHeat Burst\nAlternate input: R1\nCancel to r45 with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor\n\n",
     "alternateInputs": ["2+3"]
   },
   {
     "name": "Divine Dominance of Annihilation",
     "input": "in heat 2+3",
-    "hit_level": "m(th),m",
-    "damage": "20(30), 25",
+    "hit_level": "m,m",
+    "damage": "20,25",
     "startup": "i21",
-    "block": "+8 WRA",
+    "block": "+8",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Smash\nAlternate input: H.R1\nJails from 1st block\nTransitions to attack throw on 1st hit for a total of 50 dmg\nTransitions to WRA on 2nd block, whiff or hit\n+19d WRA if only second hit connects (25 dmg)\n\n",
+    "note": "\n\nHeat Smash\n\nBalcony Break\nAlternate input: H.R1\nJails from 1st block\nTransitions to attack throw on 1st hit for a total of 50 dmg\nTransitions to r53 WRA on 2nd block, whiff or hit\n+19d WRA if only second hit connects (25 dmg)\n\n",
     "alternateInputs": ["in heat 2+3"]
   },
   {
     "name": "Divine Wrath of Annihilation",
     "input": "in heat WRA 2+3",
-    "hit_level": "l(th),mm,m",
-    "damage": "12(28),6,6,20",
+    "hit_level": "l,m,m,m",
+    "damage": "12,6,6,20",
     "startup": "i18~19",
     "block": "-17",
     "hit": "+0",
     "counter": "",
-    "note": "\n\nHeat Smash\nAlternate input: H.WRA.R1\nJails if any hit is blocked\nTransitions to attack throw on 1st hit for a total of 40 dmg\n+4a (-5) if any hit after the 1st connects\n\n",
+    "note": "\n\nHeat Smash\n\nSpike\nAlternate input: H.WRA.R1\nJails if any hit is blocked\nTransitions to attack throw on 1st hit for a total of 40 dmg\n+4a (-5) if any hit after the 1st connects\n\n",
     "alternateInputs": ["in heat WRA 2+3"]
   },
   {
@@ -42,7 +42,7 @@
     "damage": "12,20,28",
     "startup": ",i27",
     "block": "-8",
-    "hit": "+23a (+3) / -2a (-3)",
+    "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 2nd hit\n\n",
     "alternateInputs": ["3,4,in heat 4"]
@@ -54,7 +54,7 @@
     "damage": "5,10,20,28",
     "startup": ",i27",
     "block": "-8",
-    "hit": "+23a (+3) / -2a (-3)",
+    "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 2nd hit\n\n",
     "alternateInputs": ["3+4,4,in heat 4"]
@@ -66,7 +66,7 @@
     "damage": "25,28",
     "startup": ",i27",
     "block": "-8",
-    "hit": "+23a (+3) / -2a (-3)",
+    "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
     "alternateInputs": ["f+3+4,in heat 4"]
@@ -78,7 +78,7 @@
     "damage": "30,28",
     "startup": ",i27",
     "block": "-8",
-    "hit": "+23a (+3) / -2a (-3)",
+    "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st block\n\n",
     "alternateInputs": ["f+3+4*,in heat 4"]
@@ -140,7 +140,7 @@
     "block": "-8",
     "hit": "+43 (-15)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with D\n\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with DB/D/DF\n\n",
     "alternateInputs": ["UNS 4"]
   },
   {
@@ -440,7 +440,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nJails from 1st hit without delay\nCombo from 1st hit without delay\nCan transition to SEN (+2/+9/+9) with input F\nCannot block up to i12 on empty transition on block\nCan be delayed\n\n",
+    "note": "\nJails from 1st hit without delay\nCombo from 1st hit without delay\nCan transition to SEN (-2/+9/+9) with input F\nCannot block up to i12 on empty transition on block\nCan be delayed\n\n",
     "alternateInputs": ["f+2,3"]
   },
   {
@@ -478,18 +478,6 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": ["f+1+2"]
-  },
-  {
-    "name": "Senshin-Karami-ate",
-    "input": "f+1+2,3",
-    "hit_level": "m,L",
-    "damage": "22,26",
-    "startup": ",i32",
-    "block": "-26",
-    "hit": "-4",
-    "counter": "",
-    "note": "\n\n",
-    "alternateInputs": ["f+1+2,3"]
   },
   {
     "name": "Ouhen Manji-geri",
@@ -680,17 +668,17 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
     "alternateInputs": ["d+3"]
   },
   {
     "name": "Crouch Chin Kick",
     "input": "d+4",
     "hit_level": "l",
-    "damage": "7",
+    "damage": "6",
     "startup": "i12",
-    "block": "-13",
-    "hit": "-2",
+    "block": "-15",
+    "hit": "-4",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["d+4"]
@@ -806,13 +794,13 @@
   {
     "name": "Unsoku Gen",
     "input": "b+3",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i16~17",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\nSee also Unsoku Cancel\n\n",
+    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\nSee also Unsoku Cancel\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -872,7 +860,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, u)\nCan ttansition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
     "alternateInputs": ["u+3"]
   },
   {
@@ -1045,7 +1033,7 @@
   },
   {
     "name": "",
-    "input": "hFC d+3",
+    "input": "FC d+3",
     "hit_level": "l",
     "damage": "10",
     "startup": "i16",
@@ -1053,7 +1041,7 @@
     "hit": "-6",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["hFC d+3"]
+    "alternateInputs": ["FC d+3"]
   },
   {
     "name": "Nen Hangetsu-ate",
@@ -1191,8 +1179,8 @@
     "name": "Lightning Splits Kick",
     "input": "WGS 1,3",
     "hit_level": "m,m",
-    "damage": "20,10",
-    "startup": "i26~30",
+    "damage": "20,15(10)",
+    "startup": ",i26~30",
     "block": "-12",
     "hit": "+18 (-17)",
     "counter": "",
@@ -1203,7 +1191,7 @@
     "name": "Lightning Wheel",
     "input": "WGS 1,4",
     "hit_level": "m,h",
-    "damage": "20,12",
+    "damage": "20,18(12)",
     "startup": ",i23~27",
     "block": "-7",
     "hit": "+1 (+0)",
@@ -1228,7 +1216,7 @@
     "input": "f,n,d,df:2",
     "hit_level": "h",
     "damage": "23",
-    "startup": "i11",
+    "startup": "i11~12 (~i13)",
     "block": "+5",
     "hit": "+25 (+25)",
     "counter": "",
@@ -1238,7 +1226,7 @@
   {
     "name": "War God Kick",
     "input": "WGS df+3",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "17",
     "startup": "i15~17",
     "block": "-13",
@@ -1490,13 +1478,13 @@
   {
     "name": "Unsoku Gen",
     "input": "b+3",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\nSee also Unsoku Cancel\n\n",
+    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\nSee also Unsoku Cancel\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -1508,7 +1496,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
     "alternateInputs": ["d+3"]
   },
   {
@@ -1520,7 +1508,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, u)\nCan ttansition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
     "alternateInputs": ["u+3"]
   },
   {
@@ -1532,19 +1520,19 @@
     "block": "-8",
     "hit": "+43 (-15)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with D\n\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with DB/D/DF\n\n",
     "alternateInputs": ["UNS 4"]
   },
   {
     "name": "Heaven's Wrath",
     "input": "d+1+2",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\n\n",
+    "note": "\nCan transition to r14 SEN with input f+3\nCan transition to r2 WGS with input DF\n\n",
     "alternateInputs": ["d+1+2"]
   },
   {
@@ -1562,13 +1550,13 @@
   {
     "name": "Funkei Goma",
     "input": "WRA 1,4",
-    "hit_level": "h,m",
+    "hit_level": "h,M",
     "damage": "12,22",
     "startup": ",i25~26",
     "block": "-9",
     "hit": "+9g",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
+    "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\n\n",
     "alternateInputs": ["WRA 1,4"]
   },
   {
@@ -1604,7 +1592,7 @@
     "block": "+6",
     "hit": "+17 (+16)",
     "counter": "",
-    "note": "\n\nBalcony Break\nDeals chip damage on block\nCan transition to WRA (+8/+19 (+18)/-) with input D\nJails from 1st block\nCombo from 1st hit\n\n",
+    "note": "\n\nBalcony Break\nDeals chip damage on block\nCan transition to WRA (+8/+19 (+18)/-) with input D\nJails from 1st block\nCombo from 1st hit\nSometimes written Hunting Hawk\n",
     "alternateInputs": ["WRA 3,4"]
   },
   {
@@ -1616,7 +1604,7 @@
     "block": "-10",
     "hit": "-10",
     "counter": "+7",
-    "note": "\n2nd hit of move is ncc only\nBoth hits jail on block\n\n",
+    "note": "\n\nSpike\non 2nd hit\nCombo from 1st CH\nBoth hits jail on block\n\n",
     "alternateInputs": ["WRA 4"]
   },
   {
@@ -1652,7 +1640,7 @@
     "block": "-20",
     "hit": "+24 (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nBlue spark with input qcf+1+2 for 6 extra damage\nCan be delayed\n\n",
+    "note": "\n\nBalcony Break\nBlue spark with input qcf+1+2 for 6 extra damage\nCombo from 4th hit without delay\nCan be delayed\n\n",
     "alternateInputs": ["WRA 4,2,2,1+2"]
   },
   {
@@ -1676,19 +1664,19 @@
     "block": "-5",
     "hit": "+5d",
     "counter": "",
-    "note": "\nDeals chip damage on block\nOpponent is FDFA on normal hit\n\n",
+    "note": "\n\nSpike\nDeals chip damage on block\nOpponent is FDFA on normal hit\n\n",
     "alternateInputs": ["WRA 3+4"]
   },
   {
     "name": "Heaven's Roar",
     "input": "WRA 1+3",
-    "hit_level": "th(h)",
+    "hit_level": "t (h)",
     "damage": "20",
     "startup": "i16",
     "block": "",
     "hit": "+10d",
     "counter": "",
-    "note": "\nThrow break: none\nOpponent recovery on hit: FUFT\n\n",
+    "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\n\n",
     "alternateInputs": ["WRA 1+3"]
   },
   {
@@ -1700,7 +1688,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "+2",
-    "note": "\n\n",
+    "note": "\n",
     "alternateInputs": ["WRA d+4"]
   },
   {
@@ -1712,19 +1700,19 @@
     "block": "-16",
     "hit": "+48 (+17)",
     "counter": "+53",
-    "note": "\nCombo from 1st CH without max delay\nCan be delayed\nCH-confirmable\n\n",
+    "note": "\nCombo from 1st CH with 14f delay\nInput can be delayed 15f\nMove can be delayed 13f\nCH-confirmable\n\n",
     "alternateInputs": ["WRA d+4,3"]
   },
   {
     "name": "Wind Step",
     "input": "f,n",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCan transition to WGS with input DF\nTransitions to WGS on successful parry with +10\n\n",
+    "note": "\nCan transition to WGS with input DF\nPunch parry, transitions to WGS on successful parry with +10\n\n",
     "alternateInputs": ["f,n"]
   },
   {
@@ -1841,7 +1829,7 @@
     "hit_level": "th(h)",
     "damage": "35",
     "startup": "i12~14",
-    "block": "+0",
+    "block": "-3",
     "hit": "+0",
     "counter": "",
     "note": "\nThrow break 1 or 2\n\nSpike\nOpponent recovery on hit: FUFA off-axis to the left\n\n",
@@ -1853,10 +1841,10 @@
     "hit_level": "th(h)",
     "damage": "35",
     "startup": "i12~14",
-    "block": "+0",
+    "block": "-6",
     "hit": "+0",
     "counter": "",
-    "note": "\nThrow break: 1 or 2\nOpponent recovery on hit: FUFA\n\n",
+    "note": "\nThrow break: 1 or 2\nOpponent recovery on hit: FUFA\nSide switch on Hit or Throw break\n\n",
     "alternateInputs": ["2+4"]
   },
   {
@@ -1901,10 +1889,10 @@
     "hit_level": "th(h)",
     "damage": "35",
     "startup": "i12",
-    "block": "+0",
+    "block": "-6",
     "hit": "+25 (+8)",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break: 1+2\n\n",
+    "note": "\n\nBalcony Break\nThrow break: 1+2\nSide switch on Throw break\n\n",
     "alternateInputs": ["uf+1+2"]
   },
   {
@@ -1913,10 +1901,10 @@
     "hit_level": "th(h)",
     "damage": "40",
     "startup": "i12",
-    "block": "+0",
+    "block": "-3",
     "hit": "+0",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break: 2\nOpponent recovery on hit: FUFT\nSometimes written qcb,f+2\n",
+    "note": "\n\nBalcony Break\nThrow break: 2\nOpponent recovery on hit: FUFT\n\n",
     "alternateInputs": ["d,db,b,f+2"]
   },
   {
@@ -1934,13 +1922,13 @@
   {
     "name": "Heaven's Roar",
     "input": "WRA 1+3",
-    "hit_level": "th(h)",
+    "hit_level": "t (h)",
     "damage": "20",
     "startup": "i16",
     "block": "",
     "hit": "+10d",
     "counter": "",
-    "note": "\nThrow break: none\nOpponent recovery on hit: FUFT\n\n",
+    "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\n\n",
     "alternateInputs": ["WRA 1+3"]
   }
 ]

@@ -524,7 +524,7 @@
     "block": "-17",
     "hit": "+3 (-6)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nHigher damage with perfect frame input (38 > 40)\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nCombo from Clean Hit\nHigher damage with perfect frame input (38 > 40)\nSometimes written Demoman\n",
     "alternateInputs": ["d+4,2,1+2"]
   },
   {
@@ -764,7 +764,7 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nAlternate input ub+4 and/or u+4\n\n",
+    "note": "\nAlternate input ub+4 and/or u+4\nSometimes written Hopkick\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -944,7 +944,7 @@
     "block": "-11",
     "hit": "+2",
     "counter": "",
-    "note": "\nHold b to transition to Sway\nCombo from 1st CH\nMove can be delayed\n\n",
+    "note": "\nHold b to transition to Sway (+1/+14g/+14)\nCombo from 1st CH\nMove can be delayed\n\n",
     "alternateInputs": ["ws1,2"]
   },
   {
@@ -1417,15 +1417,15 @@
   },
   {
     "name": "Phoenix Smasher",
-    "input": "df+1+3:2",
+    "input": "df+1+3:qcf+2",
     "hit_level": "t,m",
     "damage": "22,20",
     "startup": "i13~14",
     "block": "",
     "hit": "+16d (-20)",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break 1\nConsumes Heat\n\n",
-    "alternateInputs": ["df+1+3:2"]
+    "note": "\n\nBalcony Break\nThrow break 1\nbluespark with frame perfect input, or in heat (+6 dmg)\npartially uses remaining Heat\n\n",
+    "alternateInputs": ["df+1+3:qcf+2"]
   },
   {
     "name": "Foot Launch",

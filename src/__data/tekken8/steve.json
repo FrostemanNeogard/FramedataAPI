@@ -17,46 +17,70 @@
     "hit_level": "m,th",
     "damage": "10,3,3,3,3,3,20",
     "startup": "i16",
-    "block": "+8",
+    "block": "+8 LNH",
+    "hit": "0",
+    "counter": "",
+    "note": "\n\nHeat Smash\nChip damage on block\nOn block, transitions to LNH\nAlternate input: H.FLK.2+3 or H.PKA.2+3\n\n",
+    "alternateInputs": ["in heat 2+3"]
+  },
+  {
+    "name": "",
+    "input": "in heat df+3+4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i16",
+    "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Smash\nChip damage on block\n",
-    "alternateInputs": ["in heat 2+3"]
+    "note": "\nTransitions to EXD\nPartially uses remaining heat time\n\n",
+    "alternateInputs": ["in heat df+3+4"]
   },
   {
     "name": "Two-Faced (TFA)",
     "input": "in heat EXD 1+3",
-    "hit_level": "h",
-    "damage": "",
+    "hit_level": "h (th)",
+    "damage": "0",
     "startup": "i18",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nUnbreakable\n\n",
+    "note": "\nUnbreakable\nTransitions to TFA\n\n",
     "alternateInputs": ["in heat EXD 1+3"]
+  },
+  {
+    "name": "Two-Faced",
+    "input": "in heat LNH",
+    "hit_level": "sp, m, h (th)",
+    "damage": "15",
+    "startup": "i18",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nParries mid attacks\nTransitions to TFA after successful parry\n\n",
+    "alternateInputs": ["in heat LNH"]
   },
   {
     "name": "Dominion Rush",
     "input": "TFA 1",
-    "hit_level": "throw",
+    "hit_level": "th",
     "damage": "15",
     "startup": "i18",
-    "block": "",
+    "block": "0",
     "hit": "+14",
     "counter": "",
-    "note": "\nPress 1 for throw break\n\n",
+    "note": "\nPress 1 for throw break\nPartially uses remaining heat time\n\n",
     "alternateInputs": ["TFA 1"]
   },
   {
     "name": "Debutante Ball",
     "input": "TFA 2",
-    "hit_level": "throw",
-    "damage": "40",
+    "hit_level": "th",
+    "damage": "50",
     "startup": "i18",
-    "block": "",
+    "block": "0",
     "hit": "+0d",
     "counter": "",
-    "note": "\nPress 2 for throw break\n\n",
+    "note": "\nPress 2 for throw break\nPartially uses remaining heat time\n\n",
     "alternateInputs": ["TFA 2"]
   },
   {
@@ -368,7 +392,7 @@
     "block": "-2",
     "hit": "+4",
     "counter": "",
-    "note": "\nInput 3 to LWV\nInput 4 to RWV\nInput b+3_4 to SWY\nInput f+3_4 to DCK (-5/+2/+2)\n\n",
+    "note": "\nInput 3 to LWV (-7/0/0)\nInput 4 to RWV (-7/0/0)\nInput b+3_4 to SWY (-7/0/0)\nInput f+3_4 to DCK (-5/+2/+2)\n\n",
     "alternateInputs": ["df+1"]
   },
   {
@@ -824,7 +848,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\nInput 3 to LWV\nInput 4 to RWV\nInput b+3_4 to SWY\nInput f+3_4 to DCK (-5/+6/+6)\n\n",
+    "note": "\nInput 3 to LWV (-7/+4/+4)\nInput 4 to RWV (-7/+4/+4)\nInput b+3_4 to SWY (-7/+4/+4)\nInput f+3_4 to DCK (-5/+6/+6)\n\n",
     "alternateInputs": ["WS 2"]
   },
   {
@@ -896,7 +920,7 @@
     "block": "+3",
     "hit": "+7",
     "counter": "+68a",
-    "note": "\n\n",
+    "note": "\nInput b to FLK (+4/+3/+68a)\n\n",
     "alternateInputs": ["LWV 1,f+1,1"]
   },
   {
@@ -1046,23 +1070,23 @@
   {
     "name": "Position Change",
     "input": "SWY 1+2",
-    "hit_level": "throw",
+    "hit_level": "th",
     "damage": "",
     "startup": "i10",
-    "block": "",
-    "hit": "+10",
+    "block": "-2",
+    "hit": "+1 / +10wc",
     "counter": "",
-    "note": "\n+10 when opponent hits the wall if the throw is successful\nThrow break 1+2\n\n",
+    "note": "\n+10 when opponent hits the wall, if the throw is successful\nThrow break 1+2\n\n",
     "alternateInputs": ["SWY 1+2"]
   },
   {
     "name": "",
     "input": "SWY 1+2~b_u_d",
-    "hit_level": "throw",
+    "hit_level": "th",
     "damage": "",
     "startup": "i10",
-    "block": "",
-    "hit": "+10",
+    "block": "-2",
+    "hit": "+1 / +13~17wc",
     "counter": "",
     "note": "\n+13 when opponent hits the wall after being rotated by < 90 degrees\n+17 when opponent hits the wall after being rotated by > 90 degrees\nThrow break 1+2\n\n",
     "alternateInputs": ["SWY 1+2~b_u_d"]
@@ -1148,7 +1172,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to DCK\nInput 3 to LWV\nInput 4 to RWV\nInput f+3_4 to DCK\n\n",
+    "note": "\nTransition to DCK\nInput u+3_4 to LWV\nInput d+3_4 to RWV\nInput b+3_4 to SWY\nInput f+3_4 to DCK\nInput db to FC\n\n",
     "alternateInputs": ["f+3_4"]
   },
   {
@@ -1184,7 +1208,7 @@
     "block": "-3",
     "hit": "+9d",
     "counter": "+49a",
-    "note": "\nInput 3 to LWV (+3/+19d/+59a)\nInput 4 to RWV (+3/+19d/+59a)\nInput f+3_4 to DCK (+3/+19d/+59a)\n\n",
+    "note": "\nInput 3 to LWV (+1/+17d/+57a)\nInput 4 to RWV (+1/+17d/+57a)\nInput b+3_4 to SWY (+1/+17d/+57a)\nInput f+3_4 to DCK (+3/+19d/+59a)\n\n",
     "alternateInputs": ["DCK f+2"]
   },
   {
@@ -1277,7 +1301,7 @@
     "hit_level": "h",
     "damage": "28",
     "startup": "i15",
-    "block": "-+2",
+    "block": "+2",
     "hit": "+49a",
     "counter": "",
     "note": "\nInput 3 to LWV (+10/+59a/-)\nInput 4 to RWV (+10/+59a/-)\nInput b+3_4 to SWY (+10/+57a/-)\nInput f+3_4 to DCK (+12/+59a/-)\n\n",
@@ -1304,7 +1328,7 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB 1"]
   },
   {
@@ -1316,7 +1340,7 @@
     "block": "+0",
     "hit": "+8",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB 1,2"]
   },
   {
@@ -1328,7 +1352,7 @@
     "block": "-13",
     "hit": "+8",
     "counter": "+44a",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB 1,2,1"]
   },
   {
@@ -1340,16 +1364,16 @@
     "block": "-3",
     "hit": "+2",
     "counter": "+58a",
-    "note": "\nHoming\n\n",
+    "note": "\nRemains in PAB\nPunch parry\n\nHoming\n\n",
     "alternateInputs": ["PAB 2"]
   },
   {
     "name": "Ten Count",
     "input": "PAB 1+2",
-    "hit_level": "",
+    "hit_level": "th",
     "damage": "45",
     "startup": "i11",
-    "block": "",
+    "block": "0",
     "hit": "+0d",
     "counter": "",
     "note": "\n1+2 for throw break\n\n",
@@ -1364,7 +1388,7 @@
     "block": "-13",
     "hit": "+31a (+16)",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB f+2"]
   },
   {
@@ -1400,7 +1424,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB df+1"]
   },
   {
@@ -1412,7 +1436,7 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB df+1,1"]
   },
   {
@@ -1424,7 +1448,7 @@
     "block": "-11",
     "hit": "-3",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB df+1,1,2"]
   },
   {
@@ -1460,7 +1484,7 @@
     "block": "-10",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\n\n",
     "alternateInputs": ["PAB df+2"]
   },
   {
@@ -1472,7 +1496,7 @@
     "block": "-12",
     "hit": "+2",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nRemains in PAB\nAlternate input: FC df1\n\n",
     "alternateInputs": ["PAB d+1"]
   },
   {
@@ -1484,7 +1508,7 @@
     "block": "-12",
     "hit": "+7",
     "counter": "+32a",
-    "note": "\n\n",
+    "note": "\nHold D to FC\n\n",
     "alternateInputs": ["PAB d+2"]
   },
   {
@@ -1544,7 +1568,7 @@
     "block": "-13",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nBackswing Blow\n\n",
     "alternateInputs": ["PAB b+2"]
   },
   {
@@ -1580,20 +1604,8 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\nInput b to stay in FLK (-1/+10/+10)\n\n",
+    "note": "\nInput b to stay in FLK (-1/+10/+10)\nInput 3+4 to ALB (+17g/+28g/+28)\n\n",
     "alternateInputs": ["FLK 1"]
-  },
-  {
-    "name": "",
-    "input": "FLK 1,3+4",
-    "hit_level": "h,sp",
-    "damage": "14,14",
-    "startup": "i12",
-    "block": "+17g",
-    "hit": "+28g",
-    "counter": "+28",
-    "note": "\nTrue +28 on CH\nALB 2 guaranteed\n\n",
-    "alternateInputs": ["FLK 1,3+4"]
   },
   {
     "name": "",
@@ -1604,20 +1616,8 @@
     "block": "-9",
     "hit": "+0",
     "counter": "",
-    "note": "\nInput b to stay in FLK (-4/+5/+5)\n\n",
+    "note": "\nInput b to stay in FLK (-4/+5/+5)\nInput 3+4 to ALB (+17g/+28g/+28)\n\n",
     "alternateInputs": ["FLK 1,1"]
-  },
-  {
-    "name": "",
-    "input": "FLK 1,1,3+4",
-    "hit_level": "h,h,sp",
-    "damage": "14,8",
-    "startup": "i12",
-    "block": "+14g",
-    "hit": "+23g",
-    "counter": "",
-    "note": "\n\n",
-    "alternateInputs": ["FLK 1,1,3+4"]
   },
   {
     "name": "",
@@ -1628,7 +1628,7 @@
     "block": "-9",
     "hit": "+0",
     "counter": "",
-    "note": "\nInput b to stay in FLK (-4/+5/+5)\n\n",
+    "note": "\nInput b to stay in FLK (-4/+5/+5)\nInput 3+4 to ALB (+17g/+28g/+28)\n\n",
     "alternateInputs": ["FLK 1,1,1"]
   },
   {
@@ -1639,21 +1639,45 @@
     "startup": "i12",
     "block": "-5",
     "hit": "+0",
-    "counter": "",
-    "note": "\n\n",
+    "counter": "+10d",
+    "note": "\nSame hit as (FLK.1),f+1\n\n",
     "alternateInputs": ["FLK 1,1,f+1"]
   },
   {
     "name": "",
-    "input": "FLK 1,1,1,3+4",
-    "hit_level": "h,h,h,sp",
-    "damage": "14,8,8",
+    "input": "FLK 1,1,d+1",
+    "hit_level": "h,h,h",
+    "damage": "14,8,23",
     "startup": "i12",
-    "block": "+14g",
-    "hit": "+23g",
-    "counter": "+23",
-    "note": "\nTrue +28 on CH\nALB 2 guaranteed\n\n",
-    "alternateInputs": ["FLK 1,1,1,3+4"]
+    "block": "+0",
+    "hit": "+18g",
+    "counter": "+42a",
+    "note": "\nSame hit as (FLK.1),d+1\n\n",
+    "alternateInputs": ["FLK 1,1,d+1"]
+  },
+  {
+    "name": "",
+    "input": "FLK 1,2",
+    "hit_level": "h,m",
+    "damage": "14,22",
+    "startup": "i12",
+    "block": "-12",
+    "hit": "+17a (+0)",
+    "counter": "",
+    "note": "\nSame hit as (FLK.1,1,1),2\n\n",
+    "alternateInputs": ["FLK 1,2"]
+  },
+  {
+    "name": "",
+    "input": "FLK 1,1,2",
+    "hit_level": "h,h,m",
+    "damage": "14,8,22",
+    "startup": "i12",
+    "block": "-12",
+    "hit": "+17a (+0)",
+    "counter": "",
+    "note": "\nSame hit as (FLK.1,1,1),2\n\n",
+    "alternateInputs": ["FLK 1,1,2"]
   },
   {
     "name": "Spiteful Combination",
@@ -1664,7 +1688,7 @@
     "block": "-12",
     "hit": "+17a (+0)",
     "counter": "",
-    "note": "\nTrue +28 on CH\nALB.2 guaranteed\n\n",
+    "note": "\n\n",
     "alternateInputs": ["FLK 1,1,1,2"]
   },
   {
@@ -1675,14 +1699,14 @@
     "startup": "i12",
     "block": "-5",
     "hit": "+0",
-    "counter": "",
+    "counter": "+10d",
     "note": "\n\n",
     "alternateInputs": ["FLK 1,f+1"]
   },
   {
     "name": "Power Hook Combo",
     "input": "FLK 1,d+1",
-    "hit_level": "h,m",
+    "hit_level": "h,h",
     "damage": "14,23",
     "startup": "i12",
     "block": "+0",
@@ -1690,18 +1714,6 @@
     "counter": "+42a",
     "note": "\n\n",
     "alternateInputs": ["FLK 1,d+1"]
-  },
-  {
-    "name": "",
-    "input": "FLK 1,2",
-    "hit_level": "h,m",
-    "damage": "14,22",
-    "startup": "i12",
-    "block": "-13",
-    "hit": "+17a (+0)",
-    "counter": "",
-    "note": "\n\n",
-    "alternateInputs": ["FLK 1,2"]
   },
   {
     "name": "Fly Swatter",
@@ -1720,20 +1732,20 @@
     "input": "FLK b+2",
     "hit_level": "h",
     "damage": "21",
-    "startup": "i4",
+    "startup": "i14",
     "block": "-9",
     "hit": "+35d (+27)",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nTornado\n\nBalcony Break\n\n",
     "alternateInputs": ["FLK b+2"]
   },
   {
     "name": "Griffin Throw",
     "input": "FLK 1+2",
-    "hit_level": "throw",
+    "hit_level": "th",
     "damage": "40",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+0d",
     "counter": "",
     "note": "\n1+2 for throw break\n\n",
@@ -1788,6 +1800,18 @@
     "alternateInputs": ["LNin heat 1+2"]
   },
   {
+    "name": "Two-Faced",
+    "input": "in heat LNH",
+    "hit_level": "sp, m, h (th)",
+    "damage": "15",
+    "startup": "i20-21",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nParries mid attacks\nTransitions to TFA after successful parry\n\n",
+    "alternateInputs": ["in heat LNH"]
+  },
+  {
     "name": "Dear Land of Hope",
     "input": "in rage df+1+2",
     "hit_level": "m",
@@ -1805,9 +1829,9 @@
     "hit_level": "l",
     "damage": "14",
     "startup": "i17",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-11c",
+    "hit": "+2",
+    "counter": "+2",
     "note": "\nRecovers in crouch\n\n",
     "alternateInputs": ["OTG d+1+2"]
   },

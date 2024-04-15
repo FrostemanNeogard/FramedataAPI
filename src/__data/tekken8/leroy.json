@@ -26,11 +26,11 @@
   {
     "name": "Chain Punch: Stem",
     "input": "1+2,1+2,1",
-    "hit_level": "h,h,m",
+    "hit_level": "h,h,h,h,h,h,m",
     "damage": "9,9,20",
     "startup": ",i17~18",
     "block": "-17",
-    "hit": "",
+    "hit": "+7a (-2) / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\n",
     "alternateInputs": ["1+2,1+2,1"]
@@ -42,7 +42,7 @@
     "damage": "14,24",
     "startup": ",i28~30",
     "block": "-6",
-    "hit": "",
+    "hit": "+20a (+11) / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\n",
     "alternateInputs": ["f+4,4"]
@@ -54,7 +54,7 @@
     "damage": "21",
     "startup": "i17~18",
     "block": "-4",
-    "hit": "",
+    "hit": "+6c / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\n",
     "alternateInputs": ["d+1+2"]
@@ -66,7 +66,7 @@
     "damage": "25",
     "startup": "i32~33",
     "block": "-11",
-    "hit": "",
+    "hit": "+36d (+15)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nSabaki (partially restores remaining Heat time when successful during Heat)\nchip damage on block\n\n",
     "alternateInputs": ["db+1+2"]
@@ -259,7 +259,7 @@
     "startup": ",i18",
     "block": "-14",
     "hit": "+2",
-    "counter": "",
+    "counter": "+15",
     "note": "\n",
     "alternateInputs": ["3,3"]
   },
@@ -290,11 +290,11 @@
   {
     "name": "",
     "input": "1+2",
-    "hit_level": "h",
+    "hit_level": "h,h,h",
     "damage": "9",
     "startup": "i14",
     "block": "-4",
-    "hit": "",
+    "hit": "0",
     "counter": "",
     "note": "\nPower up during Heat (partially uses remaining Heat time\n\n",
     "alternateInputs": ["1+2"]
@@ -302,11 +302,11 @@
   {
     "name": "",
     "input": "1+2,1+2",
-    "hit_level": "h,h",
+    "hit_level": "h,h,h,h,h,h",
     "damage": "9,9",
     "startup": "i9",
     "block": "-9",
-    "hit": "",
+    "hit": "0",
     "counter": "",
     "note": "\nPower up during Heat (partially uses remaining Heat time\n\n",
     "alternateInputs": ["1+2,1+2"]
@@ -314,11 +314,11 @@
   {
     "name": "Chain Punch: Stem",
     "input": "1+2,1+2,1",
-    "hit_level": "h,h,m",
+    "hit_level": "h,h,h,h,h,h,m",
     "damage": "9,9,20",
     "startup": ",i17~18",
     "block": "-17",
-    "hit": "",
+    "hit": "+7a (-2) / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\n",
     "alternateInputs": ["1+2,1+2,1"]
@@ -354,7 +354,7 @@
     "damage": "1515",
     "startup": ",i18",
     "block": "-10",
-    "hit": "",
+    "hit": "+2",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["f+2,3"]
@@ -367,7 +367,7 @@
     "startup": ",i21~22",
     "block": "-9",
     "hit": "+8",
-    "counter": "",
+    "counter": "+38d (+30)",
     "note": "\nTransition to HRM\n\n",
     "alternateInputs": ["f+2,3,4"]
   },
@@ -390,7 +390,7 @@
     "damage": "1415",
     "startup": "i14~15",
     "block": "-12",
-    "hit": "",
+    "hit": "-6",
     "counter": "",
     "note": "power up during Heat (partially uses remaining Heat time)\n",
     "alternateInputs": ["f+3,1+2"]
@@ -402,7 +402,7 @@
     "damage": "1415,20",
     "startup": ",i20~21",
     "block": "-16",
-    "hit": "+13 (+6)",
+    "hit": "+13a (+6)",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["f+3,1+2,4"]
@@ -426,7 +426,7 @@
     "damage": "14,24",
     "startup": ",i28~30",
     "block": "-6",
-    "hit": "",
+    "hit": "+20a (+11) / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\n",
     "alternateInputs": ["f+4,4"]
@@ -438,7 +438,7 @@
     "damage": "20",
     "startup": "i17~18",
     "block": "-13",
-    "hit": "+20 (+15)",
+    "hit": "+20a (+15)",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["f+1+2"]
@@ -571,7 +571,7 @@
     "startup": ",i20~21",
     "block": "-9",
     "hit": "+7",
-    "counter": "",
+    "counter": "+37(+29)",
     "note": "\n",
     "alternateInputs": ["df+4,3"]
   },
@@ -702,7 +702,7 @@
     "damage": "21",
     "startup": "i17~18",
     "block": "-4",
-    "hit": "",
+    "hit": "+6c / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\n",
     "alternateInputs": ["d+1+2"]
@@ -739,7 +739,7 @@
     "startup": ",i18~19",
     "block": "0",
     "hit": "+8",
-    "counter": "",
+    "counter": "+31d",
     "note": "\n",
     "alternateInputs": ["db+1,3"]
   },
@@ -751,7 +751,7 @@
     "startup": ",i21~22",
     "block": "-10",
     "hit": "+23 (+18)",
-    "counter": "",
+    "counter": "+41",
     "note": "Balcony Break\n",
     "alternateInputs": ["db+1,1+2"]
   },
@@ -786,7 +786,7 @@
     "damage": "25",
     "startup": "i32~33",
     "block": "-11",
-    "hit": "",
+    "hit": "+36d (+15)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nSabaki (partially restores remaining Heat time when successful during Heat)\nchip damage on block\n\n",
     "alternateInputs": ["db+1+2"]
@@ -834,7 +834,7 @@
     "damage": "30",
     "startup": "i13",
     "block": "",
-    "hit": "",
+    "hit": "+6",
     "counter": "",
     "note": "\nAlternate input: P.b+2,2\npower up during Heat (partially uses remaining Heat time)\n\n",
     "alternateInputs": ["P b+2,1"]
@@ -858,7 +858,7 @@
     "damage": "35",
     "startup": "i13",
     "block": "",
-    "hit": "",
+    "hit": "+2a",
     "counter": "",
     "note": "\nAlternate input: P:b+2,2\npower up during Heat (partially uses remaining Heat time)\n\n",
     "alternateInputs": ["P:b+2,1"]
@@ -871,7 +871,7 @@
     "startup": "i22~23",
     "block": "+8",
     "hit": "+13g",
-    "counter": "",
+    "counter": "+16",
     "note": "\n\nBalcony Break\n\nHoming\nTransition to HRM\nCancel into HRM with input b+3,3+4\nchip damage on block\n\n",
     "alternateInputs": ["b+3"]
   },
@@ -895,7 +895,7 @@
     "startup": "i12",
     "block": "-10",
     "hit": "+2",
-    "counter": "",
+    "counter": "+60",
     "note": "\n",
     "alternateInputs": ["b+1+2"]
   },
@@ -919,7 +919,7 @@
     "startup": "i20",
     "block": "-10",
     "hit": "+3",
-    "counter": "",
+    "counter": "+33(+25)",
     "note": "Has punch parry effect (partially restores remaining Heat time when successful during Heat)\n",
     "alternateInputs": ["ub+2"]
   },
@@ -1229,7 +1229,7 @@
     "hit_level": "l",
     "damage": "8",
     "startup": "i16",
-    "block": "",
+    "block": "-13",
     "hit": "-2",
     "counter": "",
     "note": "\n",
@@ -1327,7 +1327,7 @@
     "startup": "i20~22",
     "block": "+4",
     "hit": "+7c",
-    "counter": "",
+    "counter": "+52",
     "note": "chip damage on block\n",
     "alternateInputs": ["HRM b+1"]
   },
@@ -1338,7 +1338,7 @@
     "damage": "12",
     "startup": "i20~21",
     "block": "-31",
-    "hit": "",
+    "hit": "-9",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["HRM b+3"]
@@ -1363,7 +1363,7 @@
     "startup": "i20~21",
     "block": "-13",
     "hit": "+4c",
-    "counter": "",
+    "counter": "+28",
     "note": "Homing\n",
     "alternateInputs": ["HRM b+4"]
   },
@@ -1386,7 +1386,7 @@
     "damage": "26",
     "startup": "i14",
     "block": "+7",
-    "hit": "+30",
+    "hit": "+30g",
     "counter": "",
     "note": "\nchip damage on block\npower up during Heat (partially uses remaining Heat time)\n\n",
     "alternateInputs": ["HRM SS 1+2"]
@@ -1409,7 +1409,7 @@
     "hit_level": "l",
     "damage": "16",
     "startup": "i100~279",
-    "block": "",
+    "block": "-26",
     "hit": "+24",
     "counter": "",
     "note": "Power up during Heat (partially uses remaining Heat time)\n",
@@ -1445,9 +1445,9 @@
     "hit_level": "l",
     "damage": "17",
     "startup": "i18~19",
-    "block": "",
+    "block": "-12",
     "hit": "+4",
-    "counter": "",
+    "counter": "+12",
     "note": "\n",
     "alternateInputs": ["SS 4"]
   },
@@ -1457,8 +1457,8 @@
     "hit_level": "m",
     "damage": "35",
     "startup": "i22~23",
-    "block": "",
-    "hit": "+73",
+    "block": "-7",
+    "hit": "+73a",
     "counter": "",
     "note": "\nOnly once per match\nchip damage on block\n\n",
     "alternateInputs": ["f+2+3"]
@@ -1469,8 +1469,8 @@
     "hit_level": "lm",
     "damage": "10,14 (9)",
     "startup": "i20~21",
-    "block": "",
-    "hit": "+67 (+51)",
+    "block": "-14",
+    "hit": "+67a (+51)",
     "counter": "",
     "note": "\nOnly once per match\n\nTornado\nchip damage on block\n\n",
     "alternateInputs": ["db+2+3"]
@@ -1481,8 +1481,8 @@
     "hit_level": "l",
     "damage": "",
     "startup": "i17~18",
-    "block": "",
-    "hit": "",
+    "block": "-16",
+    "hit": "-5",
     "counter": "",
     "note": "Power up during Heat (partially uses remaining Heat time)\n",
     "alternateInputs": ["OTG db+2"]
@@ -1493,8 +1493,8 @@
     "hit_level": "l,l",
     "damage": "",
     "startup": "i17~18",
-    "block": "",
-    "hit": "",
+    "block": "-13",
+    "hit": "-2",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["OTG db+2,1+2"]

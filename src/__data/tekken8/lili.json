@@ -1304,8 +1304,8 @@
     "block": "-9",
     "hit": "+20a (+3)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break ",
-    "alternateInputs": ["DEW 3", "qcf3"]
+    "note": "\n\nTornado\n\nBalcony Break \n",
+    "alternateInputs": ["DEW 3"]
   },
   {
     "name": "Angel Heart",
@@ -1316,8 +1316,8 @@
     "block": "-11",
     "hit": "+17cg",
     "counter": "",
-    "note": "\npc\n\nTornado\n\nBalcony Break ",
-    "alternateInputs": ["DEW 1+2", "qcf1+2"]
+    "note": "\n\nTornado\n\nBalcony Break \n",
+    "alternateInputs": ["DEW 1+2"]
   },
   {
     "name": "Cloisonne",
@@ -1328,8 +1328,8 @@
     "block": "+6",
     "hit": "+17g",
     "counter": "",
-    "note": "\n\nBalcony Break\nTransition to +0, +11 RAB with b+3 or b+4",
-    "alternateInputs": ["DEW 3+4", "qcf3+4"]
+    "note": "\n\nBalcony Break\nTransition to +0, +11 RAB with b+3 or b+4\n",
+    "alternateInputs": ["DEW 3+4"]
   },
   {
     "name": "Feisty Rabbit",
@@ -1340,8 +1340,8 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs\nTransitions to RAB\nTransition to DEW with F\nAlternate input b+4 ",
-    "alternateInputs": ["b+3", "b+4"]
+    "note": "\nTransitions to RAB\nTransition to DEW with F\nAlternate input b+4 \n",
+    "alternateInputs": ["b+3_4"]
   },
   {
     "name": "Rabbit Song",
@@ -1352,8 +1352,8 @@
     "block": "-9",
     "hit": "+39d (-19)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26) \n\n\nBalcony Break\nPowered up during Heat: 24 damage\nPartially consumes remaining Heat Time",
-    "alternateInputs": ["RAB 2", "b+3,2", "b+4,2"]
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26) \n\n\nBalcony Break\nPowered up during Heat: 24 damage\nPartially consumes remaining Heat Time\n",
+    "alternateInputs": ["RAB 2"]
   },
   {
     "name": "Rabbit Dance",
@@ -1364,8 +1364,8 @@
     "block": "-13",
     "hit": "+3c",
     "counter": "+70a (+54)",
-    "note": "\ncs\n\nHoming\nPowered up during Heat ",
-    "alternateInputs": ["RAB 3", "b+3,3", "b+4,3"]
+    "note": "\n\nHoming\nPowered up during Heat \n",
+    "alternateInputs": ["RAB 3"]
   },
   {
     "name": "Rabbit Piercing Thorn",
@@ -1376,8 +1376,8 @@
     "block": "-2",
     "hit": "+4a (-5)",
     "counter": "",
-    "note": "\njs\n\nBalcony Break\nPowered up during Heat",
-    "alternateInputs": ["RAB 4", "b+3,4", "b+4,4"]
+    "note": "\n\nBalcony Break\nPowered up during Heat\n",
+    "alternateInputs": ["RAB 4"]
   },
   {
     "name": "Feisty Rabbit Deuxiéme",
@@ -1388,8 +1388,8 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\njs\nTransitions to Feisty Rabbit Deuxiéme\nAll RAB moves are available\nPartially restores remaining Heat Time\nTransition to DEW with F ",
-    "alternateInputs": ["RAB B+3", "b+3,B+3", "b+4,B+3"]
+    "note": "\nTransitions to Feisty Rabbit Deuxiéme\nAll RAB moves are available\nPartially restores remaining Heat Time\nTransition to DEW with F \n",
+    "alternateInputs": ["in heat b+3*"]
   },
   {
     "name": "Stunning Toe Kick",

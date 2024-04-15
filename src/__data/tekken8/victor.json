@@ -14,7 +14,7 @@
   {
     "name": "Élimination Samouraï",
     "input": "in heat 2+3",
-    "hit_level": "l",
+    "hit_level": "l,m",
     "damage": "39",
     "startup": "i20",
     "block": "-15",
@@ -22,6 +22,18 @@
     "counter": "th",
     "note": "\n\nHeat Smash\nAlternate input: H.R1\n\n",
     "alternateInputs": ["in heat 2+3"]
+  },
+  {
+    "name": "Monsieur Samurai",
+    "input": "in heat db+1+2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i28~29",
+    "block": "+6",
+    "hit": "+6a (-4)",
+    "counter": "",
+    "note": "\nTransitions to IAI\nPartially uses remaining Heat time\n\n",
+    "alternateInputs": ["in heat db+1+2"]
   },
   {
     "name": "Carving Cameo",
