@@ -1225,7 +1225,7 @@
   },
   {
     "name": "Dragon Dagger",
-    "input": "f,F+2,4",
+    "input": "f,F+2,3",
     "hit_level": "m,h",
     "damage": "12,20",
     "startup": "i16",
@@ -1233,7 +1233,7 @@
     "hit": "+37a (-21)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit\nDelayable\n",
-    "alternateInputs": ["f,F+2,4"]
+    "alternateInputs": ["f,F+2,3"]
   },
   {
     "name": "Dragon's Poke > Poison Arrow",
@@ -1757,7 +1757,7 @@
     "hit_level": "m,h,m",
     "damage": "8,8,8",
     "startup": "i17",
-    "block": "+4",
+    "block": "-4",
     "hit": "+7",
     "counter": "",
     "note": "Automatically transitions to DSS on hit and block\n",
@@ -1765,7 +1765,7 @@
   },
   {
     "name": "Dragon Judgment",
-    "input": "ss1+2,2",
+    "input": "ss1+2,1",
     "hit_level": "m,h,m,m",
     "damage": "8,8,8,25",
     "startup": "i22",
@@ -1773,7 +1773,7 @@
     "hit": "+16d (+6)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ss1+2,2"]
+    "alternateInputs": ["ss1+2,1"]
   },
   {
     "name": "Double Dragon",

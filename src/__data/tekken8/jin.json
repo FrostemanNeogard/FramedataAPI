@@ -1057,15 +1057,15 @@
   },
   {
     "name": "Leaping Side Kick",
-    "input": "Win rage 3",
+    "input": "f,f,F+3",
     "hit_level": "m",
     "damage": "30",
     "startup": "i22~i23",
     "block": "+6~+7",
     "hit": "+13a~+14a (+3~+4)",
     "counter": "",
-    "note": "\nAlternate input: f,n,d,df,UF+3\n\n",
-    "alternateInputs": ["Win rage 3"]
+    "note": "\nAlternate input: WR.3 or f,n,d,df,UF+3\n\n",
+    "alternateInputs": ["f,f,F+3"]
   },
   {
     "name": "Right Sweep (2)",
@@ -1448,7 +1448,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Parry active on frames 3-9\n",
+    "note": "Startup 1f-2f, parry 3f-9f, recovery 10f-31f.\n",
     "alternateInputs": ["b+1+3-b+2+4"]
   },
   {

@@ -439,7 +439,7 @@
     "startup": "i14~15",
     "block": "-5",
     "hit": "+6",
-    "counter": "",
+    "counter": "+21a(+4)",
     "note": "\n",
     "alternateInputs": ["df+2"]
   },
@@ -473,10 +473,10 @@
     "hit_level": "m,m",
     "damage": "10,11",
     "startup": "i18~19",
-    "block": "-3",
-    "hit": "+1",
+    "block": "-3 -2",
+    "hit": "+1a +23a",
     "counter": "",
-    "note": "Spike\n",
+    "note": "\n\nSpike\nIf only the second attack hits it launches\n\n",
     "alternateInputs": ["df+3+4"]
   },
   {
@@ -535,7 +535,7 @@
     "startup": "i21~22",
     "block": "-13c",
     "hit": "+12c",
-    "counter": "",
+    "counter": "Launch",
     "note": "\n",
     "alternateInputs": ["d+4,3"]
   },
@@ -572,7 +572,7 @@
     "block": "-18",
     "hit": "+64(+49)",
     "counter": "",
-    "note": "Tornado\n",
+    "note": "\n\nTornado\nCombos from 1st CH\n\n",
     "alternateInputs": ["db+2,3"]
   },
   {
@@ -788,7 +788,7 @@
     "block": "-14",
     "hit": "+33a(+23)",
     "counter": "",
-    "note": "Shift to RLX\n",
+    "note": "\nShift to RLX\nCombos on 1st CH\n\n",
     "alternateInputs": ["b+3,3"]
   },
   {
@@ -979,7 +979,7 @@
     "startup": "i24~25",
     "block": "-14c",
     "hit": "+7",
-    "counter": "",
+    "counter": "+73a(+57)",
     "note": "\n",
     "alternateInputs": ["uf+3,4"]
   },
@@ -1279,7 +1279,7 @@
     "startup": "i23~25",
     "block": "+5",
     "hit": "+8c",
-    "counter": "",
+    "counter": "+19d",
     "note": "\nShift to RLX\n6 Chip damage on block\n",
     "alternateInputs": ["HSP 1"]
   },
@@ -1360,7 +1360,7 @@
     "input": "HSP 4,2",
     "hit_level": "m,m",
     "damage": "10,21",
-    "startup": ",23~24",
+    "startup": ",i23~24",
     "block": "-13",
     "hit": "+12a(+3)",
     "counter": "",
@@ -1372,7 +1372,7 @@
     "input": "HSP 4,2~3",
     "hit_level": "m,m",
     "damage": "10,20",
-    "startup": ",28~30",
+    "startup": ",i28~30",
     "block": "+4c",
     "hit": "+14d",
     "counter": "",
@@ -1411,7 +1411,7 @@
     "startup": "i36~37",
     "block": "-12",
     "hit": "+13a",
-    "counter": "",
+    "counter": "+58a",
     "note": "Balcony Break\n",
     "alternateInputs": ["HSP b+3"]
   },
@@ -1469,7 +1469,7 @@
     "hit_level": "L,m",
     "damage": "7,17",
     "startup": ",i25~26",
-    "block": "-14",
+    "block": "-14c",
     "hit": "+5c",
     "counter": "+42a",
     "note": "\nShifts to RLX\nCombos on 1st CH\n\n",
@@ -1574,11 +1574,11 @@
   {
     "name": "Troca e Ataque",
     "input": "RLX 3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i17~18",
+    "block": "-18",
+    "hit": "+29a(+19)",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["RLX 3+4"]

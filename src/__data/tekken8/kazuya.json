@@ -56,7 +56,7 @@
     "block": "-5",
     "hit": "+16g",
     "counter": "",
-    "note": "\n\nHoming\n\nHeat Engager\n\nHeat Dash +62a (+42) on hit\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +62a (+42) on hit\n\nHoming\n\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -68,7 +68,7 @@
     "block": "-8",
     "hit": "+5",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nHeat Dash +36a (+26) on hit\nChip damage when guarded\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +36a (+26) on hit\nChip damage when guarded\n\n",
     "alternateInputs": ["b+1+2"]
   },
   {
@@ -100,7 +100,7 @@
     "input": "1,1",
     "hit_level": "h,h",
     "damage": "5,6",
-    "startup": "i10",
+    "startup": ",i15",
     "block": "-1",
     "hit": "+8",
     "counter": "",
@@ -112,7 +112,7 @@
     "input": "1,1,2",
     "hit_level": "h,h,m",
     "damage": "5,6,12",
-    "startup": "i10",
+    "startup": ",i13",
     "block": "-17",
     "hit": "+20a(+15)",
     "counter": "",
@@ -124,7 +124,7 @@
     "input": "1,2",
     "hit_level": "h,h",
     "damage": "5,8",
-    "startup": "i10",
+    "startup": ",i10",
     "block": "-1",
     "hit": "+8",
     "counter": "",
@@ -136,7 +136,7 @@
     "input": "1,2,2",
     "hit_level": "h,h,h",
     "damage": "5,8,12",
-    "startup": "i10",
+    "startup": ",i17",
     "block": "-12",
     "hit": "+4",
     "counter": "",
@@ -160,7 +160,7 @@
     "input": "1,2,4",
     "hit_level": "h,h,l",
     "damage": "5,8,18",
-    "startup": "i23",
+    "startup": ",i23~24",
     "block": "-14c",
     "hit": "-3",
     "counter": "+0c",
@@ -172,11 +172,11 @@
     "input": "1,2,4,3",
     "hit_level": "h,h,l,m",
     "damage": "5,8,18,25",
-    "startup": "i23",
+    "startup": ",i32",
     "block": "-2",
     "hit": "+24a(+15)",
     "counter": "+69a)",
-    "note": "\nCombo from 3rd CH\nCan be delayed\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nCombo from 3rd CH\nCan be delayed\n\n",
     "alternateInputs": ["1,2,4,3"]
   },
   {
@@ -196,7 +196,7 @@
     "input": "2,2",
     "hit_level": "h,m",
     "damage": "12,24",
-    "startup": "24-25",
+    "startup": "i24~25",
     "block": "-8",
     "hit": "+7",
     "counter": "+50a",
@@ -220,7 +220,7 @@
     "input": "3,1",
     "hit_level": "h,h",
     "damage": "12,10",
-    "startup": "i19",
+    "startup": ",i19",
     "block": "-1",
     "hit": "+7",
     "counter": "",
@@ -232,7 +232,7 @@
     "input": "3,1,4",
     "hit_level": "h,h,m",
     "damage": "12,10,17",
-    "startup": "i19",
+    "startup": ",i21~22",
     "block": "-6",
     "hit": "+8",
     "counter": "+40a(+32)",
@@ -284,7 +284,7 @@
     "block": "-12",
     "hit": "+13a(+4)",
     "counter": "",
-    "note": "\nAbsorb an attack to power up\nAdd chip damage when guarded\n\nTornado\n\nBalcony Break\n\n",
+    "note": "\n\nTornado\n\nBalcony Break\nAbsorb an attack to power up\nAdd chip damage when guarded\n\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -320,7 +320,7 @@
     "block": "-9",
     "hit": "+11a(+2)",
     "counter": "",
-    "note": "\nParries high and mid punches\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nParries high and mid punches\n\n",
     "alternateInputs": ["f+1+2"]
   },
   {
@@ -368,7 +368,7 @@
     "block": "-3",
     "hit": "+18Sp",
     "counter": "",
-    "note": "\nCombo from 1st hit\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
     "alternateInputs": ["df+1,4"]
   },
   {
@@ -380,7 +380,7 @@
     "block": "-12",
     "hit": "+5",
     "counter": "+59a",
-    "note": "\n\nHoming\nCrumple stun +13F after CH\n\nBalcony Break on air hit\n\n",
+    "note": "\n\nHoming\n\nBalcony Break on air hit\nCrumple stun +13F after CH\n\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -488,7 +488,7 @@
     "block": "-19",
     "hit": "+7 (-10)",
     "counter": "",
-    "note": "\nChip damage when guarded\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": ["df+3+4,1,2"]
   },
   {
@@ -676,7 +676,7 @@
     "input": "b+2,2,1+2",
     "hit_level": "m,m,h",
     "damage": "12,14,20",
-    "startup": "i28-32",
+    "startup": "i28~32",
     "block": "-8",
     "hit": "+38d (-20)",
     "counter": "",
@@ -688,7 +688,7 @@
     "input": "b+2,4",
     "hit_level": "m,h",
     "damage": "12,12",
-    "startup": "i22",
+    "startup": ",i22",
     "block": "-3",
     "hit": "+8",
     "counter": "",
@@ -700,11 +700,11 @@
     "input": "b+2,4,1",
     "hit_level": "m,h,m",
     "damage": "12,12,22",
-    "startup": "i19",
+    "startup": ",i19",
     "block": "-14",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "\nCombo from 2nd CH\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nCombo from 2nd CH\n\n",
     "alternateInputs": ["b+2,4,1"]
   },
   {
@@ -724,11 +724,11 @@
     "input": "b+3,1",
     "hit_level": "h,h",
     "damage": "15,10",
-    "startup": "i12",
+    "startup": ",i12",
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": "Jails\nCombo from 1st hit\n\n",
+    "note": "\nJails\nCombo from 1st hit\n\n",
     "alternateInputs": ["b+3,1"]
   },
   {
@@ -736,7 +736,7 @@
     "input": "b+3,1,4",
     "hit_level": "h,h,l",
     "damage": "15,10,10",
-    "startup": "i16",
+    "startup": ",i16",
     "block": "-10c",
     "hit": "+7",
     "counter": "",
@@ -748,7 +748,7 @@
     "input": "b+3,1,4,1",
     "hit_level": "h,h,l,m",
     "damage": "15,10,10,15",
-    "startup": "i15",
+    "startup": ",i15",
     "block": "-14",
     "hit": "+15a (+6)",
     "counter": "",
@@ -760,7 +760,7 @@
     "input": "b+3,1,4,3",
     "hit_level": "h,h,l,l",
     "damage": "15,10,10,12",
-    "startup": "i20",
+    "startup": ",i20",
     "block": "-13c",
     "hit": "+1",
     "counter": "",
@@ -776,7 +776,7 @@
     "block": "-5",
     "hit": "+16g",
     "counter": "",
-    "note": "\n\nHoming\n\nHeat Engager\n\nHeat Dash +62a (+42) on hit\n\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +62a (+42) on hit\n\nHoming\n\n",
     "alternateInputs": ["b+4"]
   },
   {
@@ -788,7 +788,7 @@
     "block": "-8",
     "hit": "+5",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nHeat Dash +36a (+26) on hit\nChip damage when guarded\n",
+    "note": "\n\nHeat Engager\n\nHeat Dash +36a (+26) on hit\nChip damage when guarded\n\n",
     "alternateInputs": ["b+1+2"]
   },
   {
@@ -956,7 +956,7 @@
     "block": "+9",
     "hit": "+13a(+3)",
     "counter": "",
-    "note": "\nChip damage when guarded\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": ["f,f,F+3"]
   },
   {
@@ -996,7 +996,7 @@
     "alternateInputs": ["FC 3"]
   },
   {
-    "name": "Crouch Chin Kick",
+    "name": "Crouch Shin Kick",
     "input": "FC 4",
     "hit_level": "l",
     "damage": "6",
@@ -1036,11 +1036,11 @@
     "input": "ws1,2",
     "hit_level": "m,m",
     "damage": "10,12",
-    "startup": "i22",
+    "startup": ",i22",
     "block": "-12",
     "hit": "+73a(+57)",
     "counter": "",
-    "note": "\nCombo from 1st hit\n\nTornado\n\n",
+    "note": "\n\nTornado\nCombo from 1st hit\n\n",
     "alternateInputs": ["ws1,2"]
   },
   {
@@ -1121,7 +1121,7 @@
     "hit_level": "h",
     "damage": "25",
     "startup": "i19",
-    "block": "+5",
+    "block": "-9",
     "hit": "+11a",
     "counter": "",
     "note": "\n\n",
@@ -1268,7 +1268,7 @@
     "block": "+5",
     "hit": "+39a(+29)",
     "counter": "",
-    "note": "\nChip damage when guarded\nTotal 36F on block or hit\nSometimes written ewgf\n",
+    "note": "\nChip damage when guarded\nSometimes written ewgf\n",
     "alternateInputs": ["f,n,d,df:2"]
   },
   {
@@ -1304,7 +1304,7 @@
     "block": "-16",
     "hit": "+17a(+10",
     "counter": "",
-    "note": "\nCombo from first hit\n\nBalcony Break\nSometimes written hellsweep\n",
+    "note": "\n\nBalcony Break\nCombo from first hit\nSometimes written hellsweep\n",
     "alternateInputs": ["f,n,d,df+4,1"]
   },
   {
@@ -1316,7 +1316,7 @@
     "block": "-14",
     "hit": "+5a(+4)",
     "counter": "",
-    "note": "\nCombo from first hit\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nCombo from first hit\n\n",
     "alternateInputs": ["f,n,d,df+4,4"]
   },
   {
@@ -1337,7 +1337,7 @@
     "hit_level": "h,h,m,th",
     "damage": "5,6,12,8",
     "startup": "i10",
-    "block": "",
+    "block": "-17",
     "hit": "+5",
     "counter": "",
     "note": "\nJails\nPartially uses remaining Heat time\nOnly on hit\n\n",
@@ -1360,7 +1360,7 @@
     "input": "DVK 1+4",
     "hit_level": "m",
     "damage": "27",
-    "startup": "i21-31",
+    "startup": "i21~31",
     "block": "-9",
     "hit": "+3a",
     "counter": "",
@@ -1412,7 +1412,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Alternate input: DVK.u+1+2\n",
+    "note": "\n",
     "alternateInputs": ["DVK uf+1+2"]
   },
   {
@@ -1421,7 +1421,7 @@
     "hit_level": "m,th",
     "damage": "20,20",
     "startup": "i16",
-    "block": "",
+    "block": "-9",
     "hit": "+0",
     "counter": "",
     "note": "\nPartially uses remaining Heat time\nOnly on hit\n\n",
@@ -1433,7 +1433,7 @@
     "hit_level": "m,th",
     "damage": "23,15",
     "startup": "i20",
-    "block": "",
+    "block": "-16",
     "hit": "Th",
     "counter": "",
     "note": "\nPartially uses remaining Heat time\nOn hit, does not shift to throw with n\n\n",
@@ -1445,7 +1445,7 @@
     "hit_level": "h,th",
     "damage": "30,15",
     "startup": "i20",
-    "block": "",
+    "block": "+4",
     "hit": "Th",
     "counter": "",
     "note": "\n",
@@ -1457,8 +1457,8 @@
     "hit_level": "l,m,m,th",
     "damage": "15,23,16,15",
     "startup": "i16",
-    "block": "",
-    "hit": "Th",
+    "block": "-19",
+    "hit": "0",
     "counter": "",
     "note": "\nPartially uses remaining Heat time\n\n",
     "alternateInputs": ["DVK f,n,d,df+4,1,1"]
@@ -1484,7 +1484,7 @@
     "block": "-15",
     "hit": "+76",
     "counter": "",
-    "note": "\nPartially uses remaining Heat time\n\nTornado\n\n",
+    "note": "\n\nTornado\nPartially uses remaining Heat time\n\n",
     "alternateInputs": ["DVK SS 2"]
   },
   {
@@ -1492,8 +1492,8 @@
     "input": "DVK OTG db+1+2",
     "hit_level": "l",
     "damage": "20",
-    "startup": "i24-29",
-    "block": "",
+    "startup": "i24~29",
+    "block": "-13",
     "hit": "+13(+1)",
     "counter": "",
     "note": "\nPartially uses remaining Heat time\n\n",
@@ -1505,7 +1505,7 @@
     "hit_level": "m,th",
     "damage": "10,45",
     "startup": "",
-    "block": "",
+    "block": "-15",
     "hit": "",
     "counter": "",
     "note": "\nErases opponent's recoverable health on hit\n\n",
@@ -1556,7 +1556,7 @@
     "block": "+0",
     "hit": "+2d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nRecovers BT on break\n",
+    "note": "\nThrow break: 1 or 2\nRecovers BT on break\n",
     "alternateInputs": ["1+3"]
   },
   {
@@ -1568,7 +1568,7 @@
     "block": "+0",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1 or 2\n",
+    "note": "Throw break: 1 or 2\n",
     "alternateInputs": ["2+4"]
   },
   {
@@ -1580,7 +1580,7 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1\n\nFloor Break\n\n",
+    "note": "\nThrow break: 1\n\nFloor Break\n\n",
     "alternateInputs": ["Left throw"]
   },
   {
@@ -1592,7 +1592,7 @@
     "block": "-3",
     "hit": "-4d",
     "counter": "",
-    "note": "Throw break 2\n",
+    "note": "Throw break: 2\n",
     "alternateInputs": ["Right throw"]
   },
   {
@@ -1604,31 +1604,31 @@
     "block": "",
     "hit": "+3d",
     "counter": "",
-    "note": "\nBreak: none\n",
+    "note": "\nThrow Break: none\n",
     "alternateInputs": ["Back throw"]
   },
   {
     "name": "Stonehead",
     "input": "uf+1+2",
-    "hit_level": "t",
+    "hit_level": "th(h)",
     "damage": "35",
-    "startup": "i12",
+    "startup": "i12~14",
     "block": "+0",
     "hit": "+26d (+8)",
     "counter": "",
-    "note": "\nThrow break 1+2\n\nBalcony Break\nSide switch on break\n15 additional damage on wall hit\n\n",
+    "note": "\nThrow break: 1+2\n\nBalcony Break\nSide switch on break\n15 additional damage on wall hit\n\n",
     "alternateInputs": ["uf+1+2"]
   },
   {
     "name": "Gates of Hell",
     "input": "FC db+1+2",
-    "hit_level": "t",
+    "hit_level": "th(h)",
     "damage": "40",
-    "startup": "i12",
+    "startup": "i12~14",
     "block": "-6",
     "hit": "-3d",
     "counter": "",
-    "note": "Throw break 1+2\n",
+    "note": "Throw break: 1+2\n",
     "alternateInputs": ["FC db+1+2"]
   }
 ]

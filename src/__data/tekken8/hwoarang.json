@@ -85,6 +85,66 @@
   },
   {
     "name": "",
+    "input": "in heat RFS f+4",
+    "hit_level": "h,h",
+    "damage": "8,10",
+    "startup": "i8,i10",
+    "block": "+0",
+    "hit": "+5",
+    "counter": "",
+    "note": "\nRemains in Right Flamingo\n\n",
+    "alternateInputs": ["in heat RFS f+4"]
+  },
+  {
+    "name": "Right Viper Combo > Right Sword",
+    "input": "in heat RFS f+4,4",
+    "hit_level": "h,h,h",
+    "damage": "8,10,9",
+    "startup": "i23",
+    "block": "-6",
+    "hit": "+75 (+59)",
+    "counter": "",
+    "note": "\n\nTornado\nInstant Tornado on standing hit\nShifts to Right Stance\nCombo from 1st hit\nPartially uses remaining Heat time\n\n",
+    "alternateInputs": ["in heat RFS f+4,4"]
+  },
+  {
+    "name": "",
+    "input": "in heat RFS d+4",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i20~21",
+    "block": "-23",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nShifts to Right Stance\nPartially uses remaining Heat time\n\n",
+    "alternateInputs": ["in heat RFS d+4"]
+  },
+  {
+    "name": "",
+    "input": "in heat RFS d+4,3",
+    "hit_level": "l,h",
+    "damage": "20,12",
+    "startup": "i25",
+    "block": "-9",
+    "hit": "-1",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["in heat RFS d+4,3"]
+  },
+  {
+    "name": "Predator Bardiche",
+    "input": "in heat RFS d+4,3,4",
+    "hit_level": "l,h,h",
+    "damage": "20,12,30",
+    "startup": "i27~28",
+    "block": "-9",
+    "hit": "+28a (+2)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st or 2nd hit\n\n",
+    "alternateInputs": ["in heat RFS d+4,3,4"]
+  },
+  {
+    "name": "",
     "input": "1",
     "hit_level": "h",
     "damage": "5",
@@ -356,7 +416,7 @@
     "block": "+0",
     "hit": "+36 (-22)",
     "counter": "",
-    "note": "\n\nTornado\nDeals chip damage on hit\n\n",
+    "note": "\n\nTornado\nDeals chip damage on hit\nAlternate input:(RFS.u+4),4\n\n",
     "alternateInputs": ["4,4,4,4"]
   },
   {
@@ -617,7 +677,7 @@
     "hit_level": "l,h",
     "damage": "14,21",
     "startup": "i17~19",
-    "block": "-28",
+    "block": "0",
     "hit": "+24",
     "counter": "",
     "note": "\nNatural on CH\n\n",
@@ -629,7 +689,7 @@
     "hit_level": "ub(m)",
     "damage": "40",
     "startup": "i61~63",
-    "block": "+17",
+    "block": "",
     "hit": "+17",
     "counter": "",
     "note": "\nAlso possible during Right Stance\ndb+3+4,b,b to cancel and shift to Left Flamingo\n\n",
@@ -1029,7 +1089,7 @@
     "hit": "+59 (+49)",
     "counter": "",
     "note": "\n\nTornado\nChip damage on block\nAlso possible during Right Stance\nSometimes written jfsr\n",
-    "alternateInputs": ["f,n,df:4"]
+    "alternateInputs": ["f,n,df:4", "JFSR"]
   },
   {
     "name": "Disrespect",
@@ -2024,7 +2084,7 @@
     "block": "-2",
     "hit": "+8",
     "counter": "",
-    "note": "\n\nHoming\nShifts to Right Stance\n\n",
+    "note": "\n\nHoming\nShifts to Right Stance\nCan link attack to last hit of Right Kicks > Raptor Combo, 4,4,4,4\n\n",
     "alternateInputs": ["RFS u+4"]
   },
   {
@@ -2062,6 +2122,66 @@
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["RFS 3~4"]
+  },
+  {
+    "name": "",
+    "input": "in heat RFS f+4",
+    "hit_level": "h,h",
+    "damage": "8,10",
+    "startup": "i8,i10",
+    "block": "+0",
+    "hit": "+5",
+    "counter": "",
+    "note": "\nRemains in Right Flamingo\n\n",
+    "alternateInputs": ["in heat RFS f+4"]
+  },
+  {
+    "name": "Right Viper Combo > Right Sword",
+    "input": "in heat RFS f+4,4",
+    "hit_level": "h,h,h",
+    "damage": "8,10,9",
+    "startup": "i23",
+    "block": "-6",
+    "hit": "+75 (+59)",
+    "counter": "",
+    "note": "\n\nTornado\nInstant Tornado on standing hit\nShifts to Right Stance\nCombo from 1st hit\nPartially uses remaining Heat time\n\n",
+    "alternateInputs": ["in heat RFS f+4,4"]
+  },
+  {
+    "name": "",
+    "input": "in heat RFS d+4",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i20~21",
+    "block": "-23",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nShifts to Right Stance\nPartially uses remaining Heat time\n\n",
+    "alternateInputs": ["in heat RFS d+4"]
+  },
+  {
+    "name": "",
+    "input": "in heat RFS d+4,3",
+    "hit_level": "l,h",
+    "damage": "20,12",
+    "startup": "i25",
+    "block": "-9",
+    "hit": "-1",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["in heat RFS d+4,3"]
+  },
+  {
+    "name": "Predator Bardiche",
+    "input": "in heat RFS d+4,3,4",
+    "hit_level": "l,h,h",
+    "damage": "20,12,30",
+    "startup": "i27~28",
+    "block": "-9",
+    "hit": "+28a (+2)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st or 2nd hit\n\n",
+    "alternateInputs": ["in heat RFS d+4,3,4"]
   },
   {
     "name": "Sky Burial",

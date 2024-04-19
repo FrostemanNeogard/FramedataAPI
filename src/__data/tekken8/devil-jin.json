@@ -40,7 +40,7 @@
     "input": "4~3,in heat 1+2",
     "hit_level": "m,sm",
     "damage": "21,15",
-    "startup": "i24-35",
+    "startup": "i24~35",
     "block": "+2",
     "hit": "+58a(+42)",
     "counter": "",
@@ -52,7 +52,7 @@
     "input": "uf+3+4,in heat 1+2",
     "hit_level": "m,m,sm",
     "damage": "8,20,20",
-    "startup": "i25-50",
+    "startup": "i25~50",
     "block": "-15",
     "hit": "+0",
     "counter": "",
@@ -361,7 +361,7 @@
   },
   {
     "name": "",
-    "input": "4+1",
+    "input": "1+4",
     "hit_level": "sl,h",
     "damage": "5,5",
     "startup": ",i16",
@@ -369,11 +369,11 @@
     "hit": "+4",
     "counter": "",
     "note": "Jails\n",
-    "alternateInputs": ["4+1"]
+    "alternateInputs": ["1+4"]
   },
   {
     "name": "Three Ring Alaya",
-    "input": "4+1,2",
+    "input": "1+4,2",
     "hit_level": "sl,h,m",
     "damage": "5,5,20",
     "startup": ",i24~25",
@@ -381,7 +381,7 @@
     "hit": "+72(+56)",
     "counter": "",
     "note": "Tornado\n",
-    "alternateInputs": ["4+1,2"]
+    "alternateInputs": ["1+4,2"]
   },
   {
     "name": "",
@@ -1081,7 +1081,7 @@
   },
   {
     "name": "Electric Wind God Fist",
-    "input": "f,n,d,df#2",
+    "input": "f,n,d,df:2",
     "hit_level": "h",
     "damage": "23",
     "startup": "i14",
@@ -1089,7 +1089,7 @@
     "hit": "+39a(+29)",
     "counter": "",
     "note": "Chip Damage on block (4)Sometimes written ewgf\n",
-    "alternateInputs": ["f,n,d,df#2"]
+    "alternateInputs": ["f,n,d,df:2"]
   },
   {
     "name": "Demon's Hoof",
@@ -1162,6 +1162,18 @@
     "counter": "+33a",
     "note": "\n\nHoming\n\nBalcony Break\nChip Damage on block (7)\nLeaves opponent Face Up/Head Towards on CH\n\n",
     "alternateInputs": ["f,n,d,df+1+2"]
+  },
+  {
+    "name": "Fly (FLY)",
+    "input": "3+4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transitions to FLY\n",
+    "alternateInputs": ["3+4"]
   },
   {
     "name": "Near Death",
@@ -1258,6 +1270,18 @@
     "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": ["FLY f+1+2"]
+  },
+  {
+    "name": "Mourning Crow (MCR)",
+    "input": "f+3",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "Transitions to MCR\n",
+    "alternateInputs": ["f+3"]
   },
   {
     "name": "Tiger Thrush",

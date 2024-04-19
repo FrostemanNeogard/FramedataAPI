@@ -137,7 +137,7 @@
     "hit_level": "h,m",
     "damage": "5,21",
     "startup": "i25~26",
-    "block": "-11l",
+    "block": "-11",
     "hit": "+2",
     "counter": "+61a",
     "note": "\nMove can be delayed\n",
@@ -317,10 +317,10 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i21~22",
-    "block": "-13",
+    "block": "-13 / +20wc",
     "hit": "+8",
     "counter": "",
-    "note": "Punch sabaki\n",
+    "note": "\nPunch sabaki\n\nWall Crush  +20g on hit\n\n\n",
     "alternateInputs": ["1+2"]
   },
   {
@@ -556,7 +556,7 @@
     "input": "df+3+4",
     "hit_level": "m",
     "damage": "23",
-    "startup": "i24 (23~27)",
+    "startup": "i23~27",
     "block": "-7",
     "hit": "+22d",
     "counter": "",
@@ -662,13 +662,13 @@
   {
     "name": "Rampaging Lion",
     "input": "db+1,2,4,3+4",
-    "hit_level": "m,m,m",
-    "damage": "15,18,30",
-    "startup": "i39",
-    "block": "",
-    "hit": "-",
+    "hit_level": "m,m,mm",
+    "damage": "15,18,3020",
+    "startup": "i39~42",
+    "block": "-3~0",
+    "hit": "+31a (+21)",
     "counter": "",
-    "note": "\nFeng does a kip-up to get off the floor\n\n",
+    "note": "\n\nBalcony Break\nSame attack as Spring Up (FUFT.b+3+4)\n\n",
     "alternateInputs": ["db+1,2,4,3+4"]
   },
   {
@@ -1172,7 +1172,7 @@
     "block": "-8c",
     "hit": "+3b",
     "counter": "",
-    "note": "\nCan be input with D,df+4\n\n",
+    "note": "\nCan be input with D,df+4\nRecovers in BT\n\n",
     "alternateInputs": ["FC df+4"]
   },
   {
@@ -1364,7 +1364,7 @@
     "block": "",
     "hit": "+53a",
     "counter": "",
-    "note": "\nAbsorbs two attacks for a follow up attack\n\n",
+    "note": "\nOnly occurs during STC after absorbing 2 attacks\n\n",
     "alternateInputs": ["STC F+3+4"]
   },
   {
@@ -1386,8 +1386,8 @@
     "damage": "20",
     "startup": "i20~21",
     "block": "-13c",
-    "hit": "+8",
-    "counter": "+38d",
+    "hit": "+4",
+    "counter": "+16d",
     "note": "\n",
     "alternateInputs": ["KNP 1"]
   },
@@ -1455,12 +1455,12 @@
     "name": "Leaping Lion",
     "input": "KNP 3+4,3+4",
     "hit_level": "m,m",
-    "damage": "30",
+    "damage": "30,20",
     "startup": "i39~42",
-    "block": "",
-    "hit": "",
+    "block": "-3~0",
+    "hit": "+31a (+21)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\nBalcony Break\nSame attack as Spring Up (FUFT.b+3+4)\n\n",
     "alternateInputs": ["KNP 3+4,3+4"]
   },
   {
@@ -1472,7 +1472,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nEnter STC with F\n\n",
+    "note": "\nTransitions to BT\nEnter STC with F\n\n",
     "alternateInputs": ["b+3~4"]
   },
   {
@@ -1592,7 +1592,7 @@
     "block": "+3",
     "hit": "+9b",
     "counter": "+31d",
-    "note": "\n\nHoming\n\n",
+    "note": "\n\nHoming\nRecovers in BT\n\n",
     "alternateInputs": ["SS 2"]
   },
   {
@@ -1621,15 +1621,15 @@
   },
   {
     "name": "Spring Up",
-    "input": "Grounded Face Up B+3+4",
+    "input": "FUFT b+3+4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i30~33",
-    "block": "",
+    "block": "-3~0",
     "hit": "+28d (+18)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["Grounded Face Up B+3+4"]
+    "alternateInputs": ["FUFT b+3+4"]
   },
   {
     "name": "Thunder Stomp",
@@ -1637,7 +1637,7 @@
     "hit_level": "l",
     "damage": "19",
     "startup": "i24~25",
-    "block": "",
+    "block": "-13",
     "hit": "-2 (-10)",
     "counter": "",
     "note": "\n",

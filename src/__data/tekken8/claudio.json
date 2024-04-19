@@ -14,7 +14,7 @@
   {
     "name": "Stella Cadente",
     "input": "in heat 2+3",
-    "hit_level": "l,th",
+    "hit_level": "l (th), m",
     "damage": "12,40",
     "startup": "i18",
     "block": "-14",
@@ -30,7 +30,7 @@
     "damage": "10,13,25",
     "startup": ",i16~18",
     "block": "-13",
-    "hit": "",
+    "hit": "+10a (+1) / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 2nd CH\nGrants STB on hit\n\n",
     "alternateInputs": ["2,1,2"]
@@ -65,8 +65,8 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i21",
-    "block": "",
-    "hit": "",
+    "block": "-8",
+    "hit": "0d / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nGrants STB on hit\nAlternate input: ub+2/uf+2\n\n",
     "alternateInputs": ["u+2"]
@@ -77,10 +77,10 @@
     "hit_level": "h",
     "damage": "40",
     "startup": "i13~16",
-    "block": "+7",
+    "block": "+6",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n\nHeat Engager\n\nGrants STB on hit\n\nWall Crush +21g at the wall\n\n\nBalcony Break\nChip damage when guarded\n\n",
+    "note": "\n\nHeat Engager\n\nGrants STB on hit\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -150,7 +150,7 @@
     "damage": "10,13,25",
     "startup": ",i16~18",
     "block": "-13",
-    "hit": "",
+    "hit": "+10a (+1) / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nCombo from 2nd CH\nGrants STB on hit\n\n",
     "alternateInputs": ["2,1,2"]
@@ -293,7 +293,7 @@
     "hit_level": "h,m",
     "damage": "9,20",
     "startup": ",i14",
-    "block": "-27",
+    "block": "-26",
     "hit": "KND",
     "counter": "KND",
     "note": "\nGrants STB on hit\nCombo from 1st hit\n\n",
@@ -353,7 +353,7 @@
     "hit_level": "h",
     "damage": "18",
     "startup": "i17",
-    "block": "+2",
+    "block": "-8",
     "hit": "KND",
     "counter": "KND",
     "note": "Homing\n",
@@ -468,13 +468,13 @@
     "alternateInputs": ["d+1,2"]
   },
   {
-    "name": "Gravity Point",
+    "name": "",
     "input": "d+2",
     "hit_level": "l",
     "damage": "6",
     "startup": "i20",
     "block": "-12",
-    "hit": "-1",
+    "hit": "0",
     "counter": "",
     "note": "\n\n",
     "alternateInputs": ["d+2"]
@@ -488,7 +488,7 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": "\n",
+    "note": "Combo from first hit\n",
     "alternateInputs": ["d+2,2"]
   },
   {
@@ -605,7 +605,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i17",
-    "block": "",
+    "block": "-12",
     "hit": "KND",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\n\n",
@@ -649,7 +649,7 @@
   },
   {
     "name": "Crescent Heel",
-    "input": "b+3,3",
+    "input": "b+3,n,3",
     "hit_level": "m,m",
     "damage": "14,21",
     "startup": ",i24~25",
@@ -657,7 +657,7 @@
     "hit": "+7c",
     "counter": "KND",
     "note": "\nCombo from 1st CH\nCan be delayed\n\n",
-    "alternateInputs": ["b+3,3"]
+    "alternateInputs": ["b+3,n,3"]
   },
   {
     "name": "",
@@ -725,7 +725,7 @@
     "hit_level": "m,m",
     "damage": "10,16",
     "startup": ",i28~29",
-    "block": "",
+    "block": "-13",
     "hit": "LNC",
     "counter": "",
     "note": "Tornado\n",
@@ -773,8 +773,8 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i21",
-    "block": "",
-    "hit": "",
+    "block": "-8",
+    "hit": "0d / HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nGrants STB on hit\nAlternate input: ub+2/uf+2\n\n",
     "alternateInputs": ["u+2"]
@@ -834,7 +834,7 @@
     "damage": "14,20",
     "startup": ",i14~15",
     "block": "-2c",
-    "hit": "",
+    "hit": "+6c",
     "counter": "KND",
     "note": "\nCombo from 1st hit\nCan be delayed\nSame move as FC.df+2,2\n\n",
     "alternateInputs": ["f,F+2,2"]
@@ -848,7 +848,7 @@
     "block": "-13",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n\nBalcony Break\nGrants STB on hit\nCan be delayed\nCombo from 1st NH\n\n",
+    "note": "\n\nBalcony Break\nGrants STB on hit\nCan be delayed\nCombo from 1st NH\nAlternate input: FC.df+2,1+2\n\n",
     "alternateInputs": ["f,F+2,1+2"]
   },
   {
@@ -869,10 +869,10 @@
     "hit_level": "h",
     "damage": "40",
     "startup": "i13~16",
-    "block": "+7",
+    "block": "+6",
     "hit": "KND",
     "counter": "KND",
-    "note": "\n\nHeat Engager\n\nGrants STB on hit\n\nWall Crush +21g at the wall\n\n\nBalcony Break\nChip damage when guarded\n\n",
+    "note": "\n\nHeat Engager\n\nGrants STB on hit\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -894,7 +894,7 @@
     "damage": "14,20",
     "startup": ",i14~15",
     "block": "-2c",
-    "hit": "",
+    "hit": "+6c",
     "counter": "KND",
     "note": "\nCombo from 1st hit\nCan be delayed\nSame move as f,F+2,2\n",
     "alternateInputs": ["FC df+2,2"]
@@ -976,7 +976,7 @@
     "input": "STB 4,2",
     "hit_level": "h,sm",
     "damage": "13,32",
-    "startup": "i28-36",
+    "startup": "i12,i28-36",
     "block": "-17",
     "hit": "+27(+1)",
     "counter": "",
@@ -1000,24 +1000,12 @@
     "input": "STB d+1,2",
     "hit_level": "m,m",
     "damage": "16,23",
-    "startup": "i28",
+    "startup": "i17, i28",
     "block": "+6",
     "hit": "+28(+13)",
     "counter": "",
     "note": "\n\nTornado\nChip damage when guarded\n\n",
     "alternateInputs": ["STB d+1,2"]
-  },
-  {
-    "name": "Gravity Zone",
-    "input": "STB d+2,2",
-    "hit_level": "l,l",
-    "damage": "7,8",
-    "startup": "i20",
-    "block": "-13",
-    "hit": "-1",
-    "counter": "",
-    "note": "Combo from 1st CH\n",
-    "alternateInputs": ["STB d+2,2"]
   },
   {
     "name": "Blue Moon Burst",
@@ -1052,7 +1040,7 @@
     "block": "+8",
     "hit": "KND",
     "counter": "",
-    "note": "\nChip damage when guarded\n\n",
+    "note": "\nChip damage when guarded\n\nWall Crush  +8g on block\n\n\n",
     "alternateInputs": ["STB f,f,F+1+2"]
   },
   {

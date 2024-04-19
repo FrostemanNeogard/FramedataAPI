@@ -60,16 +60,16 @@
     "alternateInputs": ["db+1+2,2"]
   },
   {
-    "name": "Rapid King Onslaught (RKO)",
-    "input": "JGin rage 1+3_2+4",
+    "name": "Rapid King Onslaught",
+    "input": "JGR 1+3_2+4",
     "hit_level": "t",
     "damage": "45",
     "startup": "i23",
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n\n",
-    "alternateInputs": ["JGin rage 1+3_2+4"]
+    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\nSometimes written RKO\n",
+    "alternateInputs": ["JGR 1+3_2+4"]
   },
   {
     "name": "Freedom Face Buster (Pedigree)",
@@ -212,7 +212,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+31d",
-    "note": "\nKnocks down on CH for dash OTG throw.\n\n",
+    "note": "\nKnocks down on CH for dash OTG throw.\nSometimes written Magic 4\n",
     "alternateInputs": ["4"]
   },
   {
@@ -528,7 +528,7 @@
     "alternateInputs": ["d+1,2"]
   },
   {
-    "name": "Atlas' Hammer",
+    "name": "Atlas Hammer",
     "input": "d+1+2",
     "hit_level": "m",
     "damage": "21",
@@ -572,7 +572,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\nFast low but very punishable.\nCan also be done by FC.d+4/FC.db+4.\n\n",
+    "note": "\nFast low but very punishable.\n\n",
     "alternateInputs": ["d+4"]
   },
   {
@@ -584,7 +584,7 @@
     "block": "-25",
     "hit": "+7",
     "counter": "",
-    "note": "\nCH enable 2 more Ali Kicks.\nCan also be done by FC.df+4/FC.(db/d/df)+3+4.\n\n",
+    "note": "\nCH enable 2 more Ali Kicks.\n\n",
     "alternateInputs": ["d+3+4"]
   },
   {
@@ -596,7 +596,7 @@
     "block": "-25",
     "hit": "-9",
     "counter": "",
-    "note": "\nCombo from 1st hit on CH.\nCan also be done by FC.df+4,4.\n\n",
+    "note": "\nCombo from 1st hit on CH.\n\n",
     "alternateInputs": ["d+3+4,4"]
   },
   {
@@ -608,7 +608,7 @@
     "block": "-29",
     "hit": "+7",
     "counter": "",
-    "note": "\nCombo from 2nd hit on CH.\nCan also be done by FC.df+4,4,4.\nSometimes written Ali Kicks/Alley Kicks\n",
+    "note": "\nCombo from 2nd hit on CH.\nSometimes written Ali Kicks\n",
     "alternateInputs": ["d+3+4,4,4"]
   },
   {
@@ -668,7 +668,7 @@
     "block": "-14",
     "hit": "+4c",
     "counter": "+25d",
-    "note": "\nForces Crouching on normal hit.\nTracks left side. (one of the few for King)\n\n",
+    "note": "\nTracks left side. (one of the few for King)\n\n",
     "alternateInputs": ["db+3"]
   },
   {
@@ -908,7 +908,7 @@
     "block": "-13",
     "hit": "+33a(+23)",
     "counter": "",
-    "note": "\nCan also be done by u+4.\n\n",
+    "note": "\nCan also be done by u+4.\nSometimes written Hopkick\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -1345,7 +1345,7 @@
   },
   {
     "name": "Running Elbow Smash",
-    "input": "JGin rage 1",
+    "input": "JGR 1",
     "hit_level": "m",
     "damage": "21",
     "startup": "i16~17",
@@ -1353,11 +1353,11 @@
     "hit": "+39d/+75a(+59)",
     "counter": "",
     "note": "\nIn heat it becomes Tornado on grounded hit.\nPartially uses remaining Heat time.\n\n",
-    "alternateInputs": ["JGin rage 1"]
+    "alternateInputs": ["JGR 1"]
   },
   {
     "name": "Jaguar Axe",
-    "input": "JGin rage 2",
+    "input": "JGR 2",
     "hit_level": "h",
     "damage": "26",
     "startup": "i18~19",
@@ -1365,11 +1365,11 @@
     "hit": "+4d",
     "counter": "",
     "note": "\nChip damage on block.\nIn heat it becomes +6 on block, and forces crouching +18 near wall.\nPartially uses remaining Heat time.\n\n",
-    "alternateInputs": ["JGin rage 2"]
+    "alternateInputs": ["JGR 2"]
   },
   {
     "name": "Sprint K.",
-    "input": "JGin rage 3",
+    "input": "JGR 3",
     "hit_level": "m",
     "damage": "30",
     "startup": "i22~23",
@@ -1377,11 +1377,11 @@
     "hit": "+11d (+1)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHoming\n\n",
-    "alternateInputs": ["JGin rage 3"]
+    "alternateInputs": ["JGR 3"]
   },
   {
     "name": "Dashing Low Drop Kick",
-    "input": "JGin rage 4",
+    "input": "JGR 4",
     "hit_level": "L",
     "damage": "20",
     "startup": "i20~24",
@@ -1389,11 +1389,11 @@
     "hit": "+0c",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["JGin rage 4"]
+    "alternateInputs": ["JGR 4"]
   },
   {
     "name": "Diving Body Press",
-    "input": "JGin rage 2+3",
+    "input": "JGR 2+3",
     "hit_level": "M,t",
     "damage": "20,15",
     "startup": "i21~43",
@@ -1401,19 +1401,19 @@
     "hit": "-19c~+3c/-5d",
     "counter": "",
     "note": "\nThrow when hit standing in front close range.\nKing recovers off axis\n\n",
-    "alternateInputs": ["JGin rage 2+3"]
+    "alternateInputs": ["JGR 2+3"]
   },
   {
-    "name": "Rapid King Onslaught (RKO)",
-    "input": "JGin rage 1+3_2+4",
+    "name": "Rapid King Onslaught",
+    "input": "JGR 1+3_2+4",
     "hit_level": "t",
     "damage": "45",
     "startup": "i23",
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\n\n",
-    "alternateInputs": ["JGin rage 1+3_2+4"]
+    "note": "\n\nHeat Engager\n\nCannot throw break. Cannot heat dash.\nRestores some Heat Gauge in Heat.\nOpponent recovers in FUFA.\nSometimes written RKO\n",
+    "alternateInputs": ["JGR 1+3_2+4"]
   },
   {
     "name": "Beast Step",
@@ -1772,7 +1772,7 @@
     "block": "",
     "hit": "-22d(-50)",
     "counter": "",
-    "note": "\n1 throw break. Side switch.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nMash 1/2/3/4 to roll in midscreen to reduce 20 damage, on wall splat damage is 70.\nOpponent recovers in FUFT if fails to roll.\n\n",
+    "note": "\n1 throw break. Side switch.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nMash 1/2/3/4 to roll in midscreen to reduce 20 damage, on wall splat damage is 70.\nOpponent recovers in FUFT if fails to roll.\nSometimes written GS\n",
     "alternateInputs": ["f,hcf+1"]
   },
   {
@@ -1784,7 +1784,7 @@
     "block": "",
     "hit": "+1d",
     "counter": "",
-    "note": "\n2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nf,b,d,f are required, so it can be done by f,b,db,d(,n),f+2. (same for Giant Swing)\nOpponent recovers in FUFL.\n\n",
+    "note": "\n2 throw break.\nInput quickly to \"blue spark\" (+5 damage).\nPartially restores remaining Heat time.\nf,b,d,f are required, so it can be done by f,b,db,d(,n),f+2. (same for Giant Swing)\nOpponent recovers in FUFL.\nSometimes written TT\n",
     "alternateInputs": ["f,hcf+2"]
   },
   {

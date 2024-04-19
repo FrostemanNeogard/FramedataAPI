@@ -61,7 +61,7 @@
   },
   {
     "name": "Full Metal Deathblow",
-    "input": "GMH in heat 4",
+    "input": "GMH 4",
     "hit_level": "h",
     "damage": "30",
     "startup": "i14",
@@ -69,19 +69,19 @@
     "hit": "+21d (+11)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\n\nBalcony Break\nChip damage on block\n\n",
-    "alternateInputs": ["GMH in heat 4"]
+    "alternateInputs": ["GMH 4"]
   },
   {
     "name": "Particle Barrier",
-    "input": "GMH in heat 3+4",
-    "hit_level": "s",
+    "input": "GMH 3+4",
+    "hit_level": "sm",
     "damage": "20",
     "startup": "i20",
     "block": "-13",
     "hit": "+40d (-18)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a(+26)\n\nChip damage on block when absorbing an attack\n\n",
-    "alternateInputs": ["GMH in heat 3+4"]
+    "alternateInputs": ["GMH 3+4"]
   },
   {
     "name": "Iron Gunman",
@@ -104,7 +104,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\n\nGamma Charge is always in effect during Heat\nAlternate input ws3+4\n",
+    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -260,7 +260,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\n\nGamma Charge is always in effect during Heat\nAlternate input ws3+4\n",
+    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -626,8 +626,8 @@
   {
     "name": "Dump Truck",
     "input": "df+3+4",
-    "hit_level": "28",
-    "damage": "17",
+    "hit_level": "m",
+    "damage": "28",
     "startup": "i13",
     "block": "-23",
     "hit": "+10a (+1)",
@@ -889,15 +889,15 @@
   },
   {
     "name": "Cossack Smash",
-    "input": "db+3,4,     1+2",
-    "hit_level": "l,l,m",
-    "damage": "15,12,21",
+    "input": "db+3,1+2",
+    "hit_level": "l,h",
+    "damage": "15,21",
     "startup": "i34",
     "block": "+14g",
     "hit": "+43a (-15)",
     "counter": "",
     "note": "\n\nBalcony Break \n",
-    "alternateInputs": ["db+3,4,     1+2"]
+    "alternateInputs": ["db+3,1+2"]
   },
   {
     "name": "Big Boot",
@@ -1044,6 +1044,18 @@
     "alternateInputs": ["b+4,4"]
   },
   {
+    "name": "Tyulpan Blast",
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "28",
+    "startup": "i14",
+    "block": "-19",
+    "hit": "-1d (-10)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d(+35)\n\n\nBalcony Break\n\n",
+    "alternateInputs": ["b+1+2"]
+  },
+  {
     "name": "Barrel Jacket Hammer",
     "input": "ub+1+2",
     "hit_level": "h",
@@ -1181,7 +1193,7 @@
     "hit_level": "m",
     "damage": "35",
     "startup": "34",
-    "block": "-16",
+    "block": "-15",
     "hit": "+61a",
     "counter": "",
     "note": "\n\nTornado\nChip damage on block \n",
@@ -1712,7 +1724,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\n\nGamma Charge is always in effect during Heat\nAlternate input ws3+4\n",
+    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -1766,7 +1778,7 @@
   {
     "name": "Mimesis Overkill",
     "input": "GMH 1+2",
-    "hit_level": "t",
+    "hit_level": "th",
     "damage": "45 (57)",
     "startup": "i16",
     "block": "-6",
@@ -1778,7 +1790,7 @@
   {
     "name": "Particle Barrier",
     "input": "GMH 3+4",
-    "hit_level": "s",
+    "hit_level": "sm",
     "damage": "20",
     "startup": "i20",
     "block": "-13",
@@ -2173,15 +2185,15 @@
   },
   {
     "name": "Mimesis Overkill",
-    "input": "GMH in heat 1+2",
-    "hit_level": "t",
+    "input": "GMH 1+2",
+    "hit_level": "th",
     "damage": "45 (57)",
     "startup": "i16",
     "block": "-6",
     "hit": "+0d",
     "counter": "",
     "note": "\n57 Damage if opponent hits the wall\nThrow Break 1+2\nSwaps positions on break\n",
-    "alternateInputs": ["GMH in heat 1+2"]
+    "alternateInputs": ["GMH 1+2"]
   },
   {
     "name": "Gun Bomb",
@@ -2206,6 +2218,18 @@
     "counter": "",
     "note": "\n\nHeat Engager\n\nCannot cancel into Heat Dash\nCrouch Throw (Unbreakable)\nAlternate input GMH.2+4\n\n",
     "alternateInputs": ["d+2+4"]
+  },
+  {
+    "name": "Cossack Compactor",
+    "input": "db+3,d+1+2",
+    "hit_level": "l,m (th)",
+    "damage": "15,4,5,5,5,5,21",
+    "startup": "i34",
+    "block": "",
+    "hit": "0",
+    "counter": "",
+    "note": "\nCrouch throw (Unbreakable)\nCan be executed after any hit of Cossack Kicks (DB+3,4,3...)\n\n",
+    "alternateInputs": ["db+3,d+1+2"]
   },
   {
     "name": "Twin Drivers",
