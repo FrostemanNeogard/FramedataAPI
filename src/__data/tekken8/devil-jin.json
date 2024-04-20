@@ -25,7 +25,7 @@
   },
   {
     "name": "Inner Purgatory",
-    "input": "in heat MCin rage 2+3",
+    "input": "in heat MCR 2+3",
     "hit_level": "ub(m)",
     "damage": "23,16",
     "startup": "i20",
@@ -33,7 +33,7 @@
     "hit": "Th",
     "counter": "Th",
     "note": "\n\nHeat Smash\nAlternate input: R1\n\n",
-    "alternateInputs": ["in heat MCin rage 2+3"]
+    "alternateInputs": ["in heat MCR 2+3"]
   },
   {
     "name": "Wheel of Pain > Annihilation Beam",
@@ -133,7 +133,7 @@
   },
   {
     "name": "Dark Arachnid Twister",
-    "input": "MCin rage 2,2",
+    "input": "MCR 2,2",
     "hit_level": "m,m",
     "damage": "12,20",
     "startup": ",i15",
@@ -141,7 +141,7 @@
     "hit": "+2/HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\nHeat Dash +67a(+50) on hit\n\nSpike\n\n",
-    "alternateInputs": ["MCin rage 2,2"]
+    "alternateInputs": ["MCR 2,2"]
   },
   {
     "name": "",
@@ -1285,7 +1285,7 @@
   },
   {
     "name": "Tiger Thrush",
-    "input": "MCin rage 1",
+    "input": "MCR 1",
     "hit_level": "m",
     "damage": "20",
     "startup": "i22~23",
@@ -1293,11 +1293,11 @@
     "hit": "+20d",
     "counter": "",
     "note": "\n\nSpike\nLeaves opponent Face Down/Head Towards\n\n",
-    "alternateInputs": ["MCin rage 1"]
+    "alternateInputs": ["MCR 1"]
   },
   {
     "name": "",
-    "input": "MCin rage 2",
+    "input": "MCR 2",
     "hit_level": "m",
     "damage": "12",
     "startup": "i15",
@@ -1305,11 +1305,11 @@
     "hit": "-5",
     "counter": "",
     "note": "Homing\n",
-    "alternateInputs": ["MCin rage 2"]
+    "alternateInputs": ["MCR 2"]
   },
   {
     "name": "Dark Arachnid Twister",
-    "input": "MCin rage 2,2",
+    "input": "MCR 2,2",
     "hit_level": "m,m",
     "damage": "12,20",
     "startup": ",i15",
@@ -1317,11 +1317,11 @@
     "hit": "+2/HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\nHeat Dash +67a(+50) on hit\n\nSpike\n\n",
-    "alternateInputs": ["MCin rage 2,2"]
+    "alternateInputs": ["MCR 2,2"]
   },
   {
     "name": "Venomous Torment",
-    "input": "MCin rage 3",
+    "input": "MCR 3",
     "hit_level": "sm",
     "damage": "26",
     "startup": "i23",
@@ -1329,11 +1329,11 @@
     "hit": "+16a(-1)",
     "counter": "+70a(+54)",
     "note": "\n\nTornado\n\nBalcony Break\nChip damage on block (7)\n\n",
-    "alternateInputs": ["MCin rage 3"]
+    "alternateInputs": ["MCR 3"]
   },
   {
     "name": "",
-    "input": "MCin rage 4",
+    "input": "MCR 4",
     "hit_level": "m",
     "damage": "10",
     "startup": "i20",
@@ -1341,11 +1341,11 @@
     "hit": "-20",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["MCin rage 4"]
+    "alternateInputs": ["MCR 4"]
   },
   {
     "name": "",
-    "input": "MCin rage 4,2",
+    "input": "MCR 4,2",
     "hit_level": "m,m",
     "damage": "10,14",
     "startup": ",i22",
@@ -1353,11 +1353,11 @@
     "hit": "+52(+7)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["MCin rage 4,2"]
+    "alternateInputs": ["MCR 4,2"]
   },
   {
     "name": "Devil Starstorm",
-    "input": "MCin rage 4,2,1+2",
+    "input": "MCR 4,2,1+2",
     "hit_level": "m,m,th",
     "damage": "10,14,15",
     "startup": ",i28",
@@ -1365,7 +1365,7 @@
     "hit": "-6",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["MCin rage 4,2,1+2"]
+    "alternateInputs": ["MCR 4,2,1+2"]
   },
   {
     "name": "Yomigaeri",
