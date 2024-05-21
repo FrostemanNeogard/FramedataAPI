@@ -25,7 +25,7 @@
   },
   {
     "name": "Inner Purgatory",
-    "input": "in heat MCR 2+3",
+    "input": "in heat MCin rage 2+3",
     "hit_level": "ub(m)",
     "damage": "23,16",
     "startup": "i20",
@@ -33,7 +33,7 @@
     "hit": "Th",
     "counter": "Th",
     "note": "\n\nHeat Smash\nAlternate input: R1\n\n",
-    "alternateInputs": ["in heat MCR 2+3"]
+    "alternateInputs": ["in heat MCin rage 2+3"]
   },
   {
     "name": "Wheel of Pain > Annihilation Beam",
@@ -133,7 +133,7 @@
   },
   {
     "name": "Dark Arachnid Twister",
-    "input": "MCR 2,2",
+    "input": "MCin rage 2,2",
     "hit_level": "m,m",
     "damage": "12,20",
     "startup": ",i15",
@@ -141,7 +141,7 @@
     "hit": "+2/HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\nHeat Dash +67a(+50) on hit\n\nSpike\n\n",
-    "alternateInputs": ["MCR 2,2"]
+    "alternateInputs": ["MCin rage 2,2"]
   },
   {
     "name": "",
@@ -1040,8 +1040,20 @@
     "block": "-22",
     "hit": "+72a",
     "counter": "",
-    "note": "Hold U on hit for 69 damage combo\n",
+    "note": "Transition to Hell's Gate on hit by holding U\n",
     "alternateInputs": ["SS 2"]
+  },
+  {
+    "name": "Hell's Gate",
+    "input": "SS 2,U",
+    "hit_level": "th (ub)",
+    "damage": "37,27",
+    "startup": "i37~38,i22~60",
+    "block": "",
+    "hit": "-5a",
+    "counter": "",
+    "note": "Only available after 1st attack hits\n",
+    "alternateInputs": ["SS 2,U"]
   },
   {
     "name": "Thunder God Fist",
@@ -1276,7 +1288,7 @@
     "input": "f+3",
     "hit_level": "sp",
     "damage": "",
-    "startup": "",
+    "startup": "i20",
     "block": "",
     "hit": "",
     "counter": "",

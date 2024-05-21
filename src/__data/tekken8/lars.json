@@ -15,7 +15,7 @@
     "name": "Thunderbird Descent",
     "input": "in heat 2+3",
     "hit_level": "m",
-    "damage": "50",
+    "damage": "55",
     "startup": "i18~19",
     "block": "+8 (+10 DEN)",
     "hit": "+0",
@@ -156,7 +156,7 @@
     "alternateInputs": ["1,2"]
   },
   {
-    "name": "",
+    "name": "Legionnaire's Spin",
     "input": "1,4",
     "hit_level": "h,l",
     "damage": "5,10",
@@ -581,7 +581,7 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i15~17",
-    "block": "-6",
+    "block": "-9",
     "hit": "+4",
     "counter": "",
     "note": "\n\nHoming\n\n",

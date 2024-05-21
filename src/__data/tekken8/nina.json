@@ -104,7 +104,7 @@
     "block": "+2",
     "hit": "+33a (+7)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit only if the second hit connects on i8\n2nd hit available only as combo from 1st\nIf the second hit connects on i9~10, frame advantage on hit will be -16~-15\nErases opponent recoverable health on hit\nPartially uses remaining Heat time\n",
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit only if the second hit connects on i8\n2nd hit available only as combo from 1st\nIf the second hit connects on i9~10, frame advantage on hit will be -16~-15\nErases opponent recoverable health on hit\nJails\nPartially uses remaining Heat time\n",
     "alternateInputs": ["in heat b+1+2"]
   },
   {
@@ -116,7 +116,7 @@
     "block": "-2",
     "hit": "+29a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time\n",
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nJails from 2nd hit\nChip damage on block\nPartially uses remaining Heat time\n",
     "alternateInputs": ["in heat b+3+4,1+2"]
   },
   {
@@ -128,7 +128,7 @@
     "block": "-2",
     "hit": "+29a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat time\n",
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nJails from 2nd hit\nChip damage on block\nPartially uses remaining Heat time\n",
     "alternateInputs": ["in heat ws1,1+2"]
   },
   {
@@ -140,7 +140,7 @@
     "block": "-2",
     "hit": "+29a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nChip damage on block\nPartially uses remaining Heat time\n",
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nJails from 3rd hit\nChip damage on block\nPartially uses remaining Heat time\n",
     "alternateInputs": ["in heat ws4,3,1+2"]
   },
   {
@@ -152,7 +152,7 @@
     "block": "-2",
     "hit": "+13a (+12)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPartially uses remaining Heat timeSometimes written qcf+4,3,1+2\n",
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nJails from 3rd hit\nChip damage on block\nPartially uses remaining Heat timeSometimes written qcf+4,3,1+2\n",
     "alternateInputs": ["in heat CD 4,3,1+2"]
   },
   {
@@ -197,7 +197,7 @@
     "hit_level": "h,h,h,h,h,h",
     "damage": "5,10,17,6,6,6",
     "startup": ",i25 i32 i39",
-    "block": "-19",
+    "block": "-9",
     "hit": "+34a (-24)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nWeapon\nJail from 3rd attack\nCombo from 2nd CH\nChip damage on block\n",
@@ -694,6 +694,18 @@
     "counter": "",
     "note": "\n\nSpike\nCombo from 1st hit with 1f delay\nInput can be delayed 10f\n",
     "alternateInputs": ["df+3,3"]
+  },
+  {
+    "name": "",
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i12",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n",
+    "alternateInputs": ["df+4"]
   },
   {
     "name": "Wipe the Floor",
@@ -1472,7 +1484,7 @@
     "block": "-9",
     "hit": "+34a (-24)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nPowered up in heat\n",
+    "note": "\n\nBalcony Break\n\nWeapon\nCombo from 1st hit\nChip damage on block\nJails\nPowered up in heat\n",
     "alternateInputs": ["ws1,1+2"]
   },
   {
@@ -1537,15 +1549,15 @@
   },
   {
     "name": "Haematopus Kiss Shot",
-    "input": "ws4,1+2",
-    "hit_level": "m,h,h,h",
-    "damage": "15,6,6,6",
-    "startup": ",i28 i35 i42",
+    "input": "ws4,3,1+2",
+    "hit_level": "m,h,h,h,h",
+    "damage": "15,24,6,6,6",
+    "startup": ",i28,i35,i42",
     "block": "-9",
     "hit": "+34a (-24)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nChip damage on block\nPowered up in heat\n",
-    "alternateInputs": ["ws4,1+2"]
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nCombo from 1st CH\nJails\nChip damage on block\nPowered up in heat\n",
+    "alternateInputs": ["ws4,3,1+2"]
   },
   {
     "name": "Blonde Bomb",
@@ -2004,7 +2016,7 @@
     "alternateInputs": ["ABK 2"]
   },
   {
-    "name": "Triple Slaps (TSS)",
+    "name": "Stomach Lock (TSS)",
     "input": "BHS 2",
     "hit_level": "t",
     "damage": "9,6",
@@ -2012,7 +2024,7 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\nPowered up input: BHS.2,3,4,2\nRefered to as Stomach Lock in-game\n",
+    "note": "\nThrow break 2\nPowered up input: BHS.2,3,4,2\nListed in previous games as Triple Slaps\n",
     "alternateInputs": ["BHS 2"]
   },
   {

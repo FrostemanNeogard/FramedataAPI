@@ -804,7 +804,7 @@
     "alternateInputs": ["b+3"]
   },
   {
-    "name": "(Left Knee to Breaking Step)",
+    "name": "(Left Knee to Zenshin)",
     "input": "b+3,F",
     "hit_level": "m",
     "damage": "17,17",
@@ -1316,8 +1316,20 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "\nSteps forward\nCan transition to Breaking Step with input DF\n\n",
     "alternateInputs": ["f+3+4"]
+  },
+  {
+    "name": "Zanshin",
+    "input": "b+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nSteps backward\nCan transition to dash with input F\nCan transition to Breaking Step with input DF\n\n",
+    "alternateInputs": ["b+3+4"]
   },
   {
     "name": "Brimstone Bite (1)",

@@ -462,7 +462,7 @@
     "damage": "14,15",
     "startup": ",i28~29",
     "block": "-9",
-    "hit": "+31",
+    "hit": "+4",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["d+1,2"]
@@ -498,7 +498,7 @@
     "damage": "12",
     "startup": "i16",
     "block": "-17",
-    "hit": "-3",
+    "hit": "-6",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["d+3"]
@@ -509,8 +509,8 @@
     "hit_level": "l",
     "damage": "7",
     "startup": "i12",
-    "block": "-13",
-    "hit": "-2",
+    "block": "-15",
+    "hit": "-4",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["d+4"]
@@ -749,7 +749,7 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i29",
-    "block": "-14",
+    "block": "-15",
     "hit": "KND",
     "counter": "KND",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
@@ -898,6 +898,18 @@
     "counter": "KND",
     "note": "\nCombo from 1st hit\nCan be delayed\nSame move as f,F+2,2\n",
     "alternateInputs": ["FC df+2,2"]
+  },
+  {
+    "name": "Bringer of Justice",
+    "input": "FC df+2,1+2",
+    "hit_level": "m,m",
+    "damage": "14,20",
+    "startup": "i14~16",
+    "block": "-13",
+    "hit": "KND",
+    "counter": "",
+    "note": "\nSame move as f,F+2,1+2\n",
+    "alternateInputs": ["FC df+2,1+2"]
   },
   {
     "name": "",

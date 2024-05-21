@@ -15,12 +15,12 @@
     "name": "Bretwalda",
     "input": "in heat 2+3",
     "hit_level": "m,th",
-    "damage": "10,3,3,3,3,3,20",
+    "damage": "10,4,2,3,3,3,25",
     "startup": "i16",
     "block": "+8 LNH",
     "hit": "0",
     "counter": "",
-    "note": "\n\nHeat Smash\nChip damage on block\nOn block, transitions to LNH\nAlternate input: H.FLK.2+3 or H.PKA.2+3\n\n",
+    "note": "\n\nHeat Smash\n\nFloor Break\n\nSpike\nChip damage on block\nOn block, transitions to LNH\nAlternate input: H.FLK.2+3 or H.PAB.2+3\n\n",
     "alternateInputs": ["in heat 2+3"]
   },
   {
@@ -104,7 +104,7 @@
     "block": "-10",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\nInput B to FLK (-3/+23a (+14)/-)\n\n",
+    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\nInput B to FLK (-3/+23a (+14)/-)\n\n",
     "alternateInputs": ["qcf+1"]
   },
   {
@@ -116,7 +116,7 @@
     "block": "+6",
     "hit": "+17",
     "counter": "",
-    "note": "\nHeat Engager\n\nHeat Dash (+5/+67a (+50)/-)\n\nChip Damage On block\n\n",
+    "note": "\nHeat Engager\n\nHeat Dash (+5/+67a (+50)/-)\n\n\nBalcony Break\n\nSpike\nChip Damage On block\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -128,7 +128,7 @@
     "block": "-3",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\n",
+    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\n\n",
     "alternateInputs": ["ALB 2"]
   },
   {
@@ -224,7 +224,7 @@
     "block": "-10",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\nInput f+3_4 to DCK (-4/+22a (+13)/-)\n\n",
+    "note": "\n\nBalcony Break\nInput f+3_4 to DCK (-4/+22a (+13)/-)\n\n",
     "alternateInputs": ["1,2,1,2"]
   },
   {
@@ -236,7 +236,7 @@
     "block": "-12",
     "hit": "+1c",
     "counter": "+14d",
-    "note": "\nRecover in crouch\n\n",
+    "note": "\n\n",
     "alternateInputs": ["1,2,1,d+2"]
   },
   {
@@ -272,7 +272,7 @@
     "block": "-11",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\nInput f to PAB (+2/+13g/+13)\nInput b to FLK (+3/+14g/+14)\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["2,1,2"]
   },
   {
@@ -284,7 +284,7 @@
     "block": "-14",
     "hit": "+6",
     "counter": "",
-    "note": "\nInput f to PAB (+2/+13g/+13)\nInput b to FLK (+3/+14g/+14)\n\n",
+    "note": "\n\n",
     "alternateInputs": ["2,2"]
   },
   {
@@ -332,7 +332,7 @@
     "block": "-10",
     "hit": "+36d (+28)",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["f+2,1~2"]
   },
   {
@@ -356,7 +356,7 @@
     "block": "-12",
     "hit": "+5",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["f+2,2,1+2"]
   },
   {
@@ -428,7 +428,7 @@
     "block": "-10",
     "hit": "+36d (+28)",
     "counter": "",
-    "note": "\nInput b to FLK (+0/+4/+36d (+28))\n\n",
+    "note": "\n\nBalcony Break\nInput b to FLK (+0/+4/+36d (+28))\n\n",
     "alternateInputs": ["df+1,2~2"]
   },
   {
@@ -500,7 +500,7 @@
     "block": "-2",
     "hit": "+27a (+18)",
     "counter": "+56a",
-    "note": "\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["d+2,1,2"]
   },
   {
@@ -546,7 +546,7 @@
     "damage": "10,10",
     "startup": "i16",
     "block": "-6",
-    "hit": "+7",
+    "hit": "+8",
     "counter": "",
     "note": "\nTransition to LNH\n\n",
     "alternateInputs": ["db+3,2"]
@@ -582,7 +582,7 @@
     "damage": "10,17",
     "startup": "i13",
     "block": "+3",
-    "hit": "+7",
+    "hit": "+8",
     "counter": "",
     "note": "\n\nHoming\nTransitions to LNH\n\n",
     "alternateInputs": ["b+1,2"]
@@ -644,7 +644,7 @@
     "block": "+3",
     "hit": "+14",
     "counter": "",
-    "note": "\n\nHoming\nTransition into LNH\nInput b to cancel LNH\n\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nHoming\nCauses Strong Aerial Tailspin\nTransition into LNH\nInput b to cancel LNH\n\n",
     "alternateInputs": ["ub+2"]
   },
   {
@@ -668,7 +668,7 @@
     "block": "+12a (+1)",
     "hit": "+12a (+1)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["ub+1+2"]
   },
   {
@@ -680,7 +680,7 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["uf+1"]
   },
   {
@@ -692,7 +692,7 @@
     "block": "-14",
     "hit": "+52a",
     "counter": "",
-    "note": "\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -714,7 +714,7 @@
     "damage": "20,10",
     "startup": "i36",
     "block": "-6",
-    "hit": "+7",
+    "hit": "+8",
     "counter": "",
     "note": "\nTransition to LNH\n\n",
     "alternateInputs": ["uf+3,2"]
@@ -725,7 +725,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i23",
-    "block": "-14",
+    "block": "-9",
     "hit": "+22a (+5)",
     "counter": "+36a (+26)",
     "note": "\n\n",
@@ -740,7 +740,7 @@
     "block": "-13c",
     "hit": "+12d",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["f,F+2"]
   },
   {
@@ -752,7 +752,7 @@
     "block": "-10",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\nInput B to FLK (-3/+23a (+14)/-)\n\n",
+    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\nInput B to FLK (-3/+23a (+14)/-)\n\n",
     "alternateInputs": ["qcf+1"]
   },
   {
@@ -776,7 +776,7 @@
     "block": "+6",
     "hit": "+17",
     "counter": "",
-    "note": "\nHeat Engager\n\nHeat Dash (+5/+67a (+50)/-)\n\nChip Damage On block\n\n",
+    "note": "\nHeat Engager\n\nHeat Dash (+5/+67a (+50)/-)\n\n\nBalcony Break\n\nSpike\nChip Damage On block\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -836,7 +836,7 @@
     "block": "-13",
     "hit": "+3c",
     "counter": "+23d",
-    "note": "\n\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["WS 1,2"]
   },
   {
@@ -854,7 +854,7 @@
   {
     "name": "Nighthawk Combination",
     "input": "WS 2,2",
-    "hit_level": "mm",
+    "hit_level": "m,m",
     "damage": "17,15",
     "startup": "i13",
     "block": "-6",
@@ -891,19 +891,19 @@
     "name": "Double Stinger",
     "input": "LWV 1,1",
     "hit_level": "m,m",
-    "damage": "1422",
+    "damage": "14,22",
     "startup": "i15",
     "block": "-13",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["LWV 1,1"]
   },
   {
     "name": "",
     "input": "LWV 1,f+1",
     "hit_level": "m,m",
-    "damage": "149",
+    "damage": "14,9",
     "startup": "i15",
     "block": "-3",
     "hit": "+3",
@@ -915,7 +915,7 @@
     "name": "Centurion Rush",
     "input": "LWV 1,f+1,1",
     "hit_level": "m,m,h",
-    "damage": "1498",
+    "damage": "14,9,8",
     "startup": "i15",
     "block": "+3",
     "hit": "+7",
@@ -927,19 +927,19 @@
     "name": "Bee Sting Combo",
     "input": "LWV 1,2",
     "hit_level": "m,h",
-    "damage": "1414",
+    "damage": "14,14",
     "startup": "i15",
     "block": "+3",
-    "hit": "+7",
+    "hit": "+8",
     "counter": "",
-    "note": "\n\nHoming\nTransition to LNH\nCauses Strong Aerial Tailspin\n\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition to LNH\n\n",
     "alternateInputs": ["LWV 1,2"]
   },
   {
     "name": "Swindler",
     "input": "LWV 1,2~1",
     "hit_level": "m,m",
-    "damage": "1417",
+    "damage": "14,17",
     "startup": "i15",
     "block": "-8",
     "hit": "+4",
@@ -962,13 +962,13 @@
   {
     "name": "Right Shoulder Rush > Billy Club",
     "input": "LWV 2,1",
-    "hit_level": "mm",
-    "damage": "1321",
+    "hit_level": "m,m",
+    "damage": "13,21",
     "startup": "i14~16",
     "block": "-8",
     "hit": "+4c",
     "counter": "+7d",
-    "note": "\nInput f into PAB (-1/+8/+8)\n\n",
+    "note": "\n\nSpike\nInput f into PAB (-1/+8/+8)\n\n",
     "alternateInputs": ["LWV 2,1"]
   },
   {
@@ -1002,9 +1002,9 @@
     "damage": "13,17",
     "startup": "i14~16",
     "block": "+3",
-    "hit": "+7",
+    "hit": "+8",
     "counter": "",
-    "note": "\n\nHoming\nTransition into LNH\n\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition into LNH\n\n",
     "alternateInputs": ["RWV 1,2"]
   },
   {
@@ -1112,7 +1112,7 @@
     "block": "-3",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\n",
+    "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\n\n",
     "alternateInputs": ["ALB 2"]
   },
   {
@@ -1160,7 +1160,7 @@
     "block": "-12",
     "hit": "+14d",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["ALB d_u,d+1"]
   },
   {
@@ -1352,7 +1352,7 @@
     "block": "-13",
     "hit": "+8",
     "counter": "+44a",
-    "note": "\nRemains in PAB\n\n",
+    "note": "\n\nSpike\nRemains in PAB\n\n",
     "alternateInputs": ["PAB 1,2,1"]
   },
   {
@@ -1400,7 +1400,7 @@
     "block": "+1",
     "hit": "+24a (+14)",
     "counter": "",
-    "note": "\nInterruptible by i13 move\n\n",
+    "note": "\n\nBalcony Break\nInterruptible by i13 move\n\n",
     "alternateInputs": ["PAB f+2,1"]
   },
   {
@@ -1412,7 +1412,7 @@
     "block": "-5",
     "hit": "+24a (+15)",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["PAB f+1+2"]
   },
   {
@@ -1460,7 +1460,7 @@
     "block": "-13",
     "hit": "+17d",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["PAB df+1,1,2,1"]
   },
   {
@@ -1484,7 +1484,7 @@
     "block": "-10",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\nRemains in PAB\n\n",
+    "note": "\n\nElbow\nRemains in PAB\n\n",
     "alternateInputs": ["PAB df+2"]
   },
   {
@@ -1556,7 +1556,7 @@
     "block": "-10",
     "hit": "+16a (+7)",
     "counter": "",
-    "note": "\nInput b to FLK (-3/+23a (+14)/-)\n\n",
+    "note": "\n\nBalcony Break\nInput b to FLK (-3/+23a (+14)/-)\n\n",
     "alternateInputs": ["PAB b+1,1,2,1"]
   },
   {
@@ -1568,7 +1568,7 @@
     "block": "-13",
     "hit": "+11a (+2)",
     "counter": "",
-    "note": "\nBackswing Blow\n\n",
+    "note": "\n\nBalcony Break\nBackswing Blow\n\n",
     "alternateInputs": ["PAB b+2"]
   },
   {
@@ -1640,7 +1640,7 @@
     "block": "-5",
     "hit": "+0",
     "counter": "+10d",
-    "note": "\nSame hit as (FLK.1),f+1\n\n",
+    "note": "\n\nSpike\nSame hit as (FLK.1),f+1\n\n",
     "alternateInputs": ["FLK 1,1,f+1"]
   },
   {
@@ -1700,7 +1700,7 @@
     "block": "-5",
     "hit": "+0",
     "counter": "+10d",
-    "note": "\n\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["FLK 1,f+1"]
   },
   {
@@ -1724,7 +1724,7 @@
     "block": "-5c",
     "hit": "+7d",
     "counter": "+42a",
-    "note": "\n\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["FLK 2"]
   },
   {
@@ -1792,7 +1792,7 @@
     "input": "LNin heat 1+2",
     "hit_level": "h",
     "damage": "24",
-    "startup": "i20-21",
+    "startup": "i18-19",
     "block": "+12",
     "hit": "+6a(-3)",
     "counter": "",
@@ -1804,7 +1804,7 @@
     "input": "in heat LNH",
     "hit_level": "sp, m, h (th)",
     "damage": "15",
-    "startup": "i20-21",
+    "startup": "i18-19",
     "block": "",
     "hit": "",
     "counter": "",
@@ -1868,7 +1868,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nThrow break 1 or 2\n",
+    "note": "\n\nFloor Break\nThrow break 1 or 2\n",
     "alternateInputs": ["2+4"]
   },
   {

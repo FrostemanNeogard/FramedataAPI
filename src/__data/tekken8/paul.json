@@ -8,67 +8,31 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\nHeat Burst\nConsumes Heat\nCancel move with b,b\n\n",
+    "note": "\n\nHeat Burst\nConsumes Heat\nCancel with b,b\n\n",
     "alternateInputs": ["2+3"]
   },
   {
     "name": "Demolition Ball",
     "input": "in heat 2+3",
     "hit_level": "L,m,t",
-    "damage": "9,16,15",
-    "startup": "i18,21",
+    "damage": "9,23,25",
+    "startup": "i18,i21,i38",
     "block": "-12",
-    "hit": "+60a, +3a",
+    "hit": "+3d",
     "counter": "",
-    "note": "\nHeat Smash\nBalcony Break\nTransition to throw on 1st hit only\n\n",
+    "note": "\n\nHeat Smash\n\nBalcony Break\nFully consumes Heat\nChip damage (2,6,7)\nTransition to throw on 1st hit only\n40 damage on full hit\n53 damage on 2nd + 3rd hit\n\n",
     "alternateInputs": ["in heat 2+3"]
-  },
-  {
-    "name": "Half-Step Phoenix Smasher",
-    "input": "in heat 1+2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i28",
-    "block": "-13",
-    "hit": "+20d (+10)",
-    "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\n\n",
-    "alternateInputs": ["in heat 1+2"]
-  },
-  {
-    "name": "Half-Step Phoenix Smasher (Hold)",
-    "input": "in heat 1+2*",
-    "hit_level": "m",
-    "damage": "35",
-    "startup": "i55",
-    "block": "+0",
-    "hit": "+20d (+10)",
-    "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
-    "alternateInputs": ["in heat 1+2*"]
-  },
-  {
-    "name": "Half-Step Phoenix Smasher (Max Hold)",
-    "input": "in heat 1+2**",
-    "hit_level": "m!",
-    "damage": "40",
-    "startup": "i71",
-    "block": "",
-    "hit": "+20d (+10)",
-    "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
-    "alternateInputs": ["in heat 1+2**"]
   },
   {
     "name": "Phoenix Hook, Tiger Claw",
     "input": "f+2",
-    "hit_level": "h",
-    "damage": "40",
+    "hit_level": "h,t",
+    "damage": "14,26",
     "startup": "i14",
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n\n",
+    "note": "\n\nHeat Engager +6\n\nHeat Dash +5 (+18w), +62a (+42)\n\nTransition to throw on front hit\n+32d without throw transition\n\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -78,9 +42,9 @@
     "damage": "21",
     "startup": "i22",
     "block": "-8",
-    "hit": "+17",
+    "hit": "+6",
     "counter": "",
-    "note": "\nHeat Engager\n\nHoming\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 (+18w), +22a\n\n\nHoming\n\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -90,9 +54,9 @@
     "damage": "22",
     "startup": "i22~23",
     "block": "+5",
-    "hit": "+17",
+    "hit": "+17d FDFA",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 (+18w), +67a (+50)\n\n\nBalcony Break\n\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -102,9 +66,9 @@
     "damage": "45",
     "startup": "i13~14",
     "block": "-17",
-    "hit": "+17",
+    "hit": "+26d (-10) FDFA",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\nSometimes written Deathfist\n",
+    "note": "\nHeat Engager\n\nHeat Dash +5 (+18w), +36a (+26)\n\nBalcony Break\nPowers up in Heat\nClean Hit range 2.3\nHeat Dash disables Clean Hit\n30 damage without Clean Hit\nSometimes written \nDeathfist\nqcf+2\n\n",
     "alternateInputs": ["CS 2"]
   },
   {
@@ -114,22 +78,118 @@
     "damage": "27",
     "startup": "i15",
     "block": "-9",
-    "hit": "+17",
+    "hit": "+39d (-19)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 (+18w), +36a (+26)\n\nClean Hit range 2.45\nHeat Dash disables Clean Hit\n21 damage without Clean Hit\nSometimes written qcb+2\n",
     "alternateInputs": ["SWA 2"]
   },
   {
-    "name": "Big Bang Phoenix Smasher",
-    "input": "in rage df+1+2",
-    "hit_level": "m,t",
-    "damage": "55",
-    "startup": "i20",
-    "block": "-15",
-    "hit": "0d",
+    "name": "Phoenix Smasher",
+    "input": "in heat CS 2",
+    "hit_level": "m",
+    "damage": "51",
+    "startup": "i13~14",
+    "block": "-13",
+    "hit": "+26d (-10) FDFA",
     "counter": "",
-    "note": "\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health\n",
-    "alternateInputs": ["in rage df+1+2"]
+    "note": "\n\nBalcony Break\nConsumes Heat\nChip damage (11)\nClean Hit range 2.3\n34 damage without Clean Hit\nSometimes written \nHeat Deathfist\nH.qcf+2\n\n",
+    "alternateInputs": ["in heat CS 2"]
+  },
+  {
+    "name": "Half-Step Phoenix Smasher",
+    "input": "in heat 1+2",
+    "hit_level": "m",
+    "damage": "35",
+    "startup": "i28",
+    "block": "-9",
+    "hit": "+30d (-6) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\nConsumes Heat unless canceled\nChip damage (10)\nCan be charged to i39 (27f)\nDelayed startup after 16f\nCancel to CS after 16f with f\nCancel to SWA after 16f with b\n\n",
+    "alternateInputs": ["in heat 1+2"]
+  },
+  {
+    "name": "Half-Step Phoenix Smasher (Hold)",
+    "input": "in heat 1+2*",
+    "hit_level": "m",
+    "damage": "40",
+    "startup": "i46",
+    "block": "+10 (+17w)",
+    "hit": "+30d (-6) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\nConsumes Heat unless canceled\nChip damage (16)\nRequires 28f charge\nCan be charged to i67 (55f charge)\nDelayed startup after 34f\nCancel to CS until 34f with f\nCancel to SWA until 34f with b\n\n",
+    "alternateInputs": ["in heat 1+2*"]
+  },
+  {
+    "name": "Burning Fist",
+    "input": "in heat 1+2**",
+    "hit_level": "m!",
+    "damage": "50",
+    "startup": "i71",
+    "block": "!",
+    "hit": "+30d (-6) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\nConsumes Heat\nRequires 56f charge\n\n",
+    "alternateInputs": ["in heat 1+2**"]
+  },
+  {
+    "name": "Phoenix Smasher",
+    "input": "in heat d+1,2",
+    "hit_level": "M,m",
+    "damage": "16,32",
+    "startup": "i29",
+    "block": "-13",
+    "hit": "+29d (-7) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\nConsumes Heat\nCombo from 1st CH\nCan be charged to i42\n\n",
+    "alternateInputs": ["in heat d+1,2"]
+  },
+  {
+    "name": "Phoenix Smasher (Hold)",
+    "input": "in heat d+1,2*",
+    "hit_level": "M,m",
+    "damage": "16,45",
+    "startup": "i43",
+    "block": "+12",
+    "hit": "+30d (-6) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nGuard Break\nConsumes Heat\nChip damage (13)\n\n",
+    "alternateInputs": ["in heat d+1,2*"]
+  },
+  {
+    "name": "Crushing Wind (Hold)",
+    "input": "in heat b+2,1*",
+    "hit_level": "m,m",
+    "damage": "22,35",
+    "startup": "i60~61",
+    "block": "+12",
+    "hit": "+56a",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nGuard Break\nConsumes Heat\nChip damage (13)\n\n",
+    "alternateInputs": ["in heat b+2,1*"]
+  },
+  {
+    "name": "Kongo Blast > Phoenix Smasher",
+    "input": "in heat df+1+3,qcf+2",
+    "hit_level": "t,m",
+    "damage": "22,21",
+    "startup": "i13~14",
+    "block": "",
+    "hit": "+16d (-20) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\nConsumes Heat\nThrow break 1\nStrict qcf input required (d,f does not work)\n\n",
+    "alternateInputs": ["in heat df+1+3,qcf+2"]
+  },
+  {
+    "name": "Kongo Blast > Phoenix Smasher (Perfect Input)",
+    "input": "in heat df+1+3:qcf+2",
+    "hit_level": "t,m",
+    "damage": "22,26",
+    "startup": "i13~14",
+    "block": "",
+    "hit": "+16d (-20) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\nConsumes Heat\nThrow break 1\nStrict qcf input required (d,f does not work)\nPerfect input window 54f after throw input\nPerfect input increases damage, wall carry\n\n",
+    "alternateInputs": ["in heat df+1+3:qcf+2"]
   },
   {
     "name": "Left Jab",
@@ -152,8 +212,20 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\nJail from 1st attack\n\n",
+    "note": "\nCombo from 1st hit\nJail from 1st hit\n\n",
     "alternateInputs": ["1,2"]
+  },
+  {
+    "name": "",
+    "input": "1,2,3",
+    "hit_level": "h,h,m",
+    "damage": "5,12,7",
+    "startup": "i16~17",
+    "block": "-25",
+    "hit": "-14",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nJail from 1st hit\nCancel to 10 strings\n\n",
+    "alternateInputs": ["1,2,3"]
   },
   {
     "name": "Reverse PDK Combo",
@@ -162,9 +234,9 @@
     "damage": "5,8",
     "startup": "i23",
     "block": "-11c",
-    "hit": "+1c",
+    "hit": "+1",
     "counter": "",
-    "note": "\nCH from 1st attack\n\n",
+    "note": "\nCombo from 1st CH\n\n",
     "alternateInputs": ["1,4"]
   },
   {
@@ -188,7 +260,7 @@
     "block": "-9",
     "hit": "+22d (+13)",
     "counter": "+51a",
-    "note": "\nBalcony Break\nCH from 1st attack\n\n",
+    "note": "\nBalcony Break\nCombo from 1st CH\n\n",
     "alternateInputs": ["2,3"]
   },
   {
@@ -198,9 +270,9 @@
     "damage": "10,11",
     "startup": "i22",
     "block": "-12c",
-    "hit": "-1c",
+    "hit": "-1",
     "counter": "",
-    "note": "\nCH from 1st attack\n\n",
+    "note": "\nCombo from 1st CH\n\n",
     "alternateInputs": ["2,d+3"]
   },
   {
@@ -224,8 +296,20 @@
     "block": "-3",
     "hit": "+7",
     "counter": "+50a",
-    "note": "\nCombo from 1st attack\nTransition to +4 + 14 Sway with b\nMove can be delayed\n\n",
+    "note": "\nCombo from 1st hit\nCan be delayed\nTransition to r19 SWA +4 +14 +57a with b\n\n",
     "alternateInputs": ["3,2"]
+  },
+  {
+    "name": "",
+    "input": "3,2~b",
+    "hit_level": "m,h",
+    "damage": "14,17",
+    "startup": "i23",
+    "block": "+4",
+    "hit": "+14",
+    "counter": "+57a",
+    "note": "\nSidestep u can be buffered during recovery\nSWA attacks can be buffered during recovery\n\n",
+    "alternateInputs": ["3,2~b"]
   },
   {
     "name": "Right Kick",
@@ -236,7 +320,7 @@
     "block": "-7",
     "hit": "+7",
     "counter": "+32d",
-    "note": "\n\nBalcony Break (CH only)\n\n",
+    "note": "\n\nBalcony Break (CH only)\nSometimes written Magic 4\n",
     "alternateInputs": ["4"]
   },
   {
@@ -248,7 +332,7 @@
     "block": "-13",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\n\n",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nCan be charged to i39 (27f)\nDelayed startup after 16f charge\nCancel to CS after 16f with f\nCancel to SWA after 16f with b\n\n",
     "alternateInputs": ["1+2"]
   },
   {
@@ -256,35 +340,35 @@
     "input": "1+2*",
     "hit_level": "m",
     "damage": "35",
-    "startup": "i55",
+    "startup": "i46",
     "block": "0",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nChip damage\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nChip damage (10)\nRequires 28f charge\nCan be charged to i67 (55f)\nDelayed startup after 34f charge\nCancel to CS until 34f with f\nCancel to SWA until 34f with b\n\n",
     "alternateInputs": ["1+2*"]
   },
   {
-    "name": "Half-Step Phoenix Smasher (Max Hold)",
+    "name": "Burning Fist",
     "input": "1+2**",
     "hit_level": "m!",
     "damage": "40",
     "startup": "i71",
-    "block": "",
+    "block": "!",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\nBalcony Break\nConsumes Heat\nTransition to Cormorant Step with f\nTransition to Sway with b\n\n",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nRequires 56f charge\n\n",
     "alternateInputs": ["1+2**"]
   },
   {
     "name": "Phoenix Hook, Tiger Claw",
     "input": "f+2",
-    "hit_level": "h",
-    "damage": "40",
+    "hit_level": "h,t",
+    "damage": "14,26",
     "startup": "i14",
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nTransition to throw on hit\n\n",
+    "note": "\n\nHeat Engager +6\n\nHeat Dash +5 (+18w), +62a (+42)\n\nTransition to throw on front hit\n+32d without throw transition\n\n",
     "alternateInputs": ["f+2"]
   },
   {
@@ -296,7 +380,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nHoming\n\n",
+    "note": "\n\nHoming\n\n",
     "alternateInputs": ["f+3"]
   },
   {
@@ -308,7 +392,7 @@
     "block": "-10",
     "hit": "+12d (+3)",
     "counter": "",
-    "note": "\nBalcony Break\nHoming\nCombo from 1st attack\n\n",
+    "note": "\n\nHoming\n\nBalcony Break\nCombo from 1st hit\n\n",
     "alternateInputs": ["f+3,1"]
   },
   {
@@ -318,9 +402,9 @@
     "damage": "21",
     "startup": "i22",
     "block": "-8",
-    "hit": "+17",
+    "hit": "+6",
     "counter": "",
-    "note": "\nHeat Engager\n\nHoming\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 (+18w), +22a\n\n\nHoming\n\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -331,7 +415,7 @@
     "startup": "i20~21",
     "block": "+3c",
     "hit": "+8c",
-    "counter": "+20d",
+    "counter": "+20d FDFA",
     "note": "\n\nBalcony Break (CH only)\n\n",
     "alternateInputs": ["f+1+2"]
   },
@@ -344,7 +428,7 @@
     "block": "-14",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\nSharp leftward movement on startup\n\n",
     "alternateInputs": ["f+1+4"]
   },
   {
@@ -356,8 +440,20 @@
     "block": "-2",
     "hit": "+4",
     "counter": "",
-    "note": "\nTransition to +3 +4 Sway with b\n\n",
+    "note": "\nTransition to r15 SWA +3 +9 with b\n\n",
     "alternateInputs": ["df+1"]
+  },
+  {
+    "name": "",
+    "input": "df+1~b",
+    "hit_level": "m",
+    "damage": "11",
+    "startup": "i14",
+    "block": "+3",
+    "hit": "+9",
+    "counter": "",
+    "note": "\nSidestep u can be buffered during recovery\nSWA attacks can be buffered during recovery\n\n",
+    "alternateInputs": ["df+1~b"]
   },
   {
     "name": "",
@@ -367,8 +463,8 @@
     "startup": "i20~21",
     "block": "-5",
     "hit": "+5",
-    "counter": "",
-    "note": "\nCombo from 1st attack\nMove can be delayed\n\n",
+    "counter": "+8",
+    "note": "\nCombo from 1st hit with 4f delay\nMove can be delayed 10f\n\n",
     "alternateInputs": ["df+1,1"]
   },
   {
@@ -392,7 +488,7 @@
     "block": "-8",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\n",
+    "note": "\nHigh evasion on startup\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -415,8 +511,8 @@
     "startup": "i21~22",
     "block": "-10",
     "hit": "+6",
-    "counter": "",
-    "note": "\nCombo from 1st attack\nMove can be delayed\n\n",
+    "counter": "+59a",
+    "note": "\nCombo from 1st hit with 10f delay\nMove can be delayed 14f\n\n",
     "alternateInputs": ["df+3,4"]
   },
   {
@@ -440,7 +536,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "+3c",
-    "note": "\n\nSpike \nEnter crouch with D\n\n",
+    "note": "\n\nSpike \nTransition to r27 FC with d\n\n",
     "alternateInputs": ["d+1"]
   },
   {
@@ -452,20 +548,20 @@
     "block": "-17",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nConsumes Heat\n\n",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nCombo from 1st CH\nCan be charged to i43\n\n",
     "alternateInputs": ["d+1,2"]
   },
   {
-    "name": "Phoenix Smasher Hold",
-    "input": "d+1,2",
-    "hit_level": "M,m",
-    "damage": "16,26,39",
+    "name": "Phoenix Smasher (Hold)",
+    "input": "d+1,2*",
+    "hit_level": "M",
+    "damage": "16,39",
     "startup": "i43",
-    "block": "+9",
+    "block": "+9 (+16w)",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n\n",
-    "alternateInputs": ["d+1,2"]
+    "note": "\n\nBalcony Break\nPowers up in Heat\nChip damage (11)\n\n",
+    "alternateInputs": ["d+1,2*"]
   },
   {
     "name": "",
@@ -475,8 +571,8 @@
     "startup": "i19",
     "block": "-31c",
     "hit": "-17",
-    "counter": "+14a",
-    "note": "\nCombo from 1st CH\nMove can be delayed\n\n",
+    "counter": "+14a FUFA",
+    "note": "\nCombo from 1st CH\nCan be delayed\n\n",
     "alternateInputs": ["d+1,4"]
   },
   {
@@ -487,45 +583,57 @@
     "startup": "i21",
     "block": "-14",
     "hit": "+3d (-6)",
-    "counter": "",
-    "note": "\nBalcony Break\nElbow\n\n",
+    "counter": "+35a (-12)",
+    "note": "\n\nBalcony Break\n\nElbow\nCombo from 2nd CH +11d (+4)\n\n",
     "alternateInputs": ["d+1,4,2"]
   },
   {
     "name": "",
     "input": "d+4",
     "hit_level": "L",
-    "damage": "8",
+    "damage": "9",
     "startup": "i15",
-    "block": "31c",
-    "hit": "-17",
+    "block": "-31c",
+    "hit": "+14a FUFA",
     "counter": "+14a",
-    "note": "\nHas a clean hit effect\n\n",
+    "note": "\nClean Hit range 1.59\n8 damage, -17 on hit without Clean Hit\nStagger state on block\n\n",
     "alternateInputs": ["d+4"]
   },
   {
     "name": "Bone Breaker",
     "input": "d+4,2",
     "hit_level": "L,m",
-    "damage": "8,23",
+    "damage": "9,23",
     "startup": "i21",
     "block": "-18",
     "hit": "-9",
     "counter": "",
-    "note": "\nCombo from 1st CH\nHas a clean hit effect\n\n",
+    "note": "\nCombo from 1st CL +5d (-2)\nCombo from 1st CH +5d (-2)\nCan be delayed 3f\n\n",
     "alternateInputs": ["d+4,2"]
   },
   {
     "name": "Demolition Man",
     "input": "d+4,2,1+2",
     "hit_level": "L,m,m",
-    "damage": "8,23,13",
+    "damage": "9,23,26",
     "startup": "i26~27",
     "block": "-17",
-    "hit": "+3 (-6)",
-    "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nCombo from Clean Hit\nHigher damage with perfect frame input (38 > 40)\nSometimes written Demoman\n",
+    "hit": "+3d (-6)",
+    "counter": "+35a (-12)",
+    "note": "\n\nBalcony Break\nCombo from 1st CL +13d (+6)\nCombo from 1st CH +13d (+6)\nCan be delayed 4f\nSometimes written Demoman\n",
     "alternateInputs": ["d+4,2,1+2"]
+  },
+  {
+    "name": "Demolition Man (Perfect Input)",
+    "input": "d+4,2:1+2",
+    "hit_level": "L,m,m",
+    "damage": "9,23,31",
+    "startup": "i26~27",
+    "block": "-17",
+    "hit": "+3d (-6)",
+    "counter": "+35a (-12)",
+    "note": "\n\nBalcony Break\nCombo from 1st CL +13d (+6)\nCombo from 1st CH +13d (+6)\nCan be delayed 1f\nPerfect input window 0-1f after 2 impact\nPerfect input increases damage, wall carry\nSometimes written Perfect Demoman\n",
+    "alternateInputs": ["d+4,2:1+2"]
   },
   {
     "name": "Shoulder Smash",
@@ -536,7 +644,7 @@
     "block": "-16",
     "hit": "+16d (+11)",
     "counter": "",
-    "note": "\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["d+1+2"]
   },
   {
@@ -548,7 +656,7 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nTransition to r25 standing with f\n",
     "alternateInputs": ["db+1"]
   },
   {
@@ -558,9 +666,9 @@
     "damage": "21",
     "startup": "i19~20",
     "block": "-11",
-    "hit": "+14d (-3)",
+    "hit": "+14d (-3) FDFA",
     "counter": "+28a (+18)",
-    "note": "\nTornado\nBalcony Break\n\n",
+    "note": "\n\nTornado\n\nBalcony Break\n",
     "alternateInputs": ["db+2"]
   },
   {
@@ -568,11 +676,11 @@
     "input": "db+3",
     "hit_level": "L",
     "damage": "12",
-    "startup": "i15 (15-17)",
+    "startup": "i15~i17",
     "block": "-18",
     "hit": "-4",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["db+3"]
   },
   {
@@ -584,7 +692,7 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["db+4"]
   },
   {
@@ -596,7 +704,7 @@
     "block": "-14",
     "hit": "+30d (+22)",
     "counter": "",
-    "note": "\nAbsorb an attack to power up and deal more chip damage\n\n",
+    "note": "\nChip damage (11) if attack is absorbed\n",
     "alternateInputs": ["db+1+2"]
   },
   {
@@ -618,9 +726,9 @@
     "damage": "12,21",
     "startup": "i20~21",
     "block": "-14",
-    "hit": "+16d (-1)",
+    "hit": "+16d (-1) FDFA",
     "counter": "",
-    "note": "\n\nTornado \n\nBalcony Break\nCombo from 1st attack\n\n",
+    "note": "\n\nTornado \n\nBalcony Break\nCombo from 1st hit\n\n",
     "alternateInputs": ["b+1,2"]
   },
   {
@@ -630,9 +738,9 @@
     "damage": "25",
     "startup": "",
     "block": "",
-    "hit": "+1d",
+    "hit": "+1d FUFA",
     "counter": "",
-    "note": "\nTimed with opponent attack\n\n",
+    "note": "\nParry\n\n",
     "alternateInputs": ["b1+3/2+4"]
   },
   {
@@ -644,7 +752,7 @@
     "block": "-5c",
     "hit": "+4c",
     "counter": "",
-    "note": "\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["b+2"]
   },
   {
@@ -656,20 +764,20 @@
     "block": "-12",
     "hit": "0c",
     "counter": "+48a",
-    "note": "\nCombo from 1st CH\n\n",
+    "note": "\nCombo from 1st CH\nCan be charged to i56\n\n",
     "alternateInputs": ["b+2,1"]
   },
   {
-    "name": "Crushing Wind Hold",
-    "input": "b+2,1",
-    "hit_level": "m,m,m",
-    "damage": "22,22,35",
+    "name": "Crushing Wind (Hold)",
+    "input": "b+2,1*",
+    "hit_level": "m,m",
+    "damage": "22,35",
     "startup": "i60~61",
     "block": "+8",
     "hit": "+20d",
-    "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nConsumes Heat\n\n",
-    "alternateInputs": ["b+2,1"]
+    "counter": "+56a",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nChip damage (7)\n\n",
+    "alternateInputs": ["b+2,1*"]
   },
   {
     "name": "Lights Out",
@@ -704,7 +812,7 @@
     "block": "-6",
     "hit": "+21d (+16)",
     "counter": "",
-    "note": "\n\nBalcony Break\nAbsorb an attack to power up and deal more damage on block\n\n",
+    "note": "\n\nBalcony Break\nChip damage (11) if attack is absorbed\n\n",
     "alternateInputs": ["b+1+2"]
   },
   {
@@ -726,9 +834,9 @@
     "damage": "22",
     "startup": "i22~23",
     "block": "+5",
-    "hit": "+17",
+    "hit": "+17d FDFA",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAlternate input u+2\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 (+18w), +67a (+50)\n\n\nBalcony Break\n\n",
     "alternateInputs": ["uf+2"]
   },
   {
@@ -738,9 +846,9 @@
     "damage": "15",
     "startup": "i15~16",
     "block": "-16",
-    "hit": "+59a (+49)",
+    "hit": "+25a (+15)",
     "counter": "",
-    "note": "\nAlternate input u+3 and/or ub+3\n\n",
+    "note": "\n\n",
     "alternateInputs": ["uf+3"]
   },
   {
@@ -752,7 +860,7 @@
     "block": "-13",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "\nCombo from 1st attack\nAlternate input u+3,4 and/or ub+3,4\n\n",
+    "note": "\nCombo from 1st hit +28a (+21)\n\n",
     "alternateInputs": ["uf+3,4"]
   },
   {
@@ -764,7 +872,7 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nAlternate input ub+4 and/or u+4\nSometimes written Hopkick\n",
+    "note": "\nSometimes written Hopkick\n",
     "alternateInputs": ["uf+4"]
   },
   {
@@ -774,9 +882,9 @@
     "damage": "20",
     "startup": "i23~25",
     "block": "-13",
-    "hit": "+32a(+22)",
+    "hit": "+32a (+22)",
     "counter": "",
-    "note": "\n",
+    "note": "\nCan be delayed 12f after jump\n\n",
     "alternateInputs": ["uf,n,4"]
   },
   {
@@ -800,7 +908,7 @@
     "block": "-12",
     "hit": "+14d",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st attack\nAlternate input FC.df+2,1\nCancel with B\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nCancel to -21 -11 standing with B\nAlternate input FC.df+2,1\n\n",
     "alternateInputs": ["f,F+2,1"]
   },
   {
@@ -808,11 +916,11 @@
     "input": "f,F+2:1",
     "hit_level": "m,h",
     "damage": "14,24",
-    "startup": ",i15",
+    "startup": "i15",
     "block": "-4",
     "hit": "+37d (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\nCombo from 1st hit\nAlternate input FC.df+2:1\n\n",
+    "note": "\n\nBalcony Break\nChip damage (7)\nCombo from 1st hit\nAlternate input FC.df+2:1\n\n",
     "alternateInputs": ["f,F+2:1"]
   },
   {
@@ -824,7 +932,7 @@
     "block": "-19c",
     "hit": "+27a",
     "counter": "",
-    "note": "\nAlternate input FC.df+2,2\nCancel to -18 FC with B\n\n",
+    "note": "\nCancel to -28 -18 FC with B\nAlternate input FC.df+2,2\n\n",
     "alternateInputs": ["f,F+2,2"]
   },
   {
@@ -846,9 +954,9 @@
     "damage": "17,10",
     "startup": "i13~14",
     "block": "-16",
-    "hit": "+27a (+20)",
+    "hit": "+30a (+20)",
     "counter": "",
-    "note": "\nCombo from 1st hit\n\n",
+    "note": "\nCombo from 1st hit +27a (+10)\n\n",
     "alternateInputs": ["f,F+3,4"]
   },
   {
@@ -906,9 +1014,9 @@
     "damage": "21,34",
     "startup": "i18~19",
     "block": "-10",
-    "hit": "+0d",
+    "hit": "+0d FDFA",
     "counter": "",
-    "note": "\n\nSpike\nTransition to throw on front hit only\nAlternate input wr2\n\n",
+    "note": "\n\nSpike on 2nd hit\nTransition to throw on front hit only\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -920,7 +1028,7 @@
     "block": "-6",
     "hit": "+34d (+25)",
     "counter": "",
-    "note": "\n\nBalcony Break\nOften written b,f+1\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["b,n,f+1"]
   },
   {
@@ -931,7 +1039,7 @@
     "startup": "i15~16",
     "block": "-10",
     "hit": "-7",
-    "counter": "",
+    "counter": "+1",
     "note": "\n",
     "alternateInputs": ["ws1"]
   },
@@ -943,9 +1051,21 @@
     "startup": "i20",
     "block": "-11",
     "hit": "+2",
-    "counter": "",
-    "note": "\nHold b to transition to Sway (+1/+14g/+14)\nCombo from 1st CH\nMove can be delayed\n\n",
+    "counter": "+3",
+    "note": "\nCombo from 1st CH with 10f delay\nCan be delayed 10f\nTransition to r17 SWA +1 +14g +15 with b\n\n",
     "alternateInputs": ["ws1,2"]
+  },
+  {
+    "name": "",
+    "input": "ws1,2~b",
+    "hit_level": "m,m",
+    "damage": "16,17",
+    "startup": "i20",
+    "block": "+1",
+    "hit": "+14g",
+    "counter": "+15",
+    "note": "\nSidestep u can be buffered during recovery\nSWA attacks can be buffered during recovery\n\n",
+    "alternateInputs": ["ws1,2~b"]
   },
   {
     "name": "Thunder Palm",
@@ -976,11 +1096,11 @@
     "input": "ws3,2",
     "hit_level": "M,h",
     "damage": "16,21",
-    "startup": "i13~14",
+    "startup": "i21~22",
     "block": "-9",
     "hit": "+17d (+8)",
     "counter": "+46a",
-    "note": "\n\nBalcony Break\nCombo from 1st\nMove can be delayed\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay\nMove can be delayed 12f\nInput can be delayed 25f\n\n",
     "alternateInputs": ["ws3,2"]
   },
   {
@@ -988,11 +1108,11 @@
     "input": "ws4",
     "hit_level": "m",
     "damage": "18",
-    "startup": "i11 (11~12)",
+    "startup": "i11~12",
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n",
+    "note": "\n\n",
     "alternateInputs": ["ws4"]
   },
   {
@@ -1020,6 +1140,18 @@
     "alternateInputs": ["FC D,U+4"]
   },
   {
+    "name": "Big Bang Phoenix Smasher",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "0d",
+    "counter": "",
+    "note": "\nRage Art\nErases opponent's recoverable health on hit\nDamage increases with lower health\n",
+    "alternateInputs": ["in rage df+1+2"]
+  },
+  {
     "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "",
@@ -1037,10 +1169,10 @@
     "hit_level": "L",
     "damage": "16",
     "startup": "i18",
-    "block": "",
+    "block": "-12c",
     "hit": "-1d (-9)",
     "counter": "",
-    "note": "\n",
+    "note": "\n\nFloor Break on grounded opponent\n+4 on hit against standing opponent\n\n",
     "alternateInputs": ["OTG d+2"]
   },
   {
@@ -1052,7 +1184,7 @@
     "block": "+8",
     "hit": "+35d (+27)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage\n\n",
+    "note": "\n\nBalcony Break\nChip damage (6)\n\n",
     "alternateInputs": ["SS 1"]
   },
   {
@@ -1063,21 +1195,33 @@
     "startup": "i19",
     "block": "-12c",
     "hit": "+4",
-    "counter": "+12",
+    "counter": "+12c",
     "note": "\n",
     "alternateInputs": ["SS 3"]
   },
   {
-    "name": "Cormorant Step",
-    "input": "qcf (d,df,f)",
+    "name": "Crouch Dash",
+    "input": "d,df",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nD,df to enter crouching state\n\n",
-    "alternateInputs": ["qcf", "d,df,f"]
+    "note": "\nCannot be buffered\nAdvances 1.1 toward opponent\nTransition to CS with f\nTransition to r10 DPD with df\nSometimes written CD\n",
+    "alternateInputs": ["d,df"]
+  },
+  {
+    "name": "Cormorant Step",
+    "input": "d,df,f",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nCannot be buffered\nContinues forward momentum from CD\nAdditional distance if qcf input is completed within 10f\nCrouching state until 10f after CD\nNo crouching state from 1+2 transition\nLess forward movement from 1+2 transition\nTransition to r10 DPD with df\nSometimes written \nCS\nqcf\n\n",
+    "alternateInputs": ["d,df,f"]
   },
   {
     "name": "Thruster",
@@ -1088,7 +1232,7 @@
     "block": "-4",
     "hit": "+33a (+26)",
     "counter": "",
-    "note": "\nChip damage\n\n",
+    "note": "\nChip damage (4)\nSometimes written qcf+1\n",
     "alternateInputs": ["CS 1", "qcf1"]
   },
   {
@@ -1098,10 +1242,10 @@
     "damage": "45",
     "startup": "i13~14",
     "block": "-17",
-    "hit": "+17",
+    "hit": "+26d (-10) FDFA",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nHas a clean hit effect\nPower up while Heat is active\n",
-    "alternateInputs": ["CS 2", "qcf2"]
+    "note": "\nHeat Engager\n\nHeat Dash +5 (+18w), +36a (+26)\n\nBalcony Break\nPowers up in Heat\nClean Hit range 2.3\nHeat Dash disables Clean Hit\n30 damage without Clean Hit\nSometimes written \nDeathfist\nqcf+2\n\n",
+    "alternateInputs": ["CS 2"]
   },
   {
     "name": "Gengetsu",
@@ -1111,8 +1255,8 @@
     "startup": "i18~19",
     "block": "-14c",
     "hit": "+0",
-    "counter": "+20a",
-    "note": "\nHas a clean hit effect\nPower up while Heat is active\n\n",
+    "counter": "+20a FUFA",
+    "note": "\nClean hit range 2.0\n17 damage on hit, +7 on CH without Clean Hit\nSometimes written qcf+3\n",
     "alternateInputs": ["CS 3", "qcf3"]
   },
   {
@@ -1122,9 +1266,9 @@
     "damage": "20",
     "startup": "i32~33",
     "block": "-12c",
-    "hit": "+71a (+55)",
+    "hit": "+71a (+55) T!",
     "counter": "",
-    "note": "\nCancel to FC with B\n\n",
+    "note": "\nInstant Tornado on hit\nCancel to FC with B\nSometimes written qcf+1+2\n",
     "alternateInputs": ["CS 1+2", "qcf1+2"]
   },
   {
@@ -1135,8 +1279,8 @@
     "startup": "i19~20",
     "block": "-9",
     "hit": "+35d (+27)",
-    "counter": "+74a (+58)",
-    "note": "\n\nTornado\n\nBalcony Break\n\n",
+    "counter": "+74a (+58) T!",
+    "note": "\n\nTornado\n\nBalcony Break\nSometimes written qcf+3+4\n",
     "alternateInputs": ["CS 3+4", "qcf3+4"]
   },
   {
@@ -1148,7 +1292,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "1-10f startup delay/input lockout immediately after use - see [Deep Dive Startup Delay]\n",
+    "note": "\nSidestep u can be buffered\nDPD attacks can be buffered\nSometimes written \nDPD\nDD\n\n",
     "alternateInputs": ["CD df", "d,df,d,df", "qcf,d,df"]
   },
   {
@@ -1160,7 +1304,7 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "Tornado\nElbow\n",
+    "note": "\n\nBalcony Break\n\nElbow\nSometimes written DD.2\n",
     "alternateInputs": ["DPD 2", "qcb2", "d,df,d,df2", "qcf,d,df2"]
   },
   {
@@ -1169,22 +1313,22 @@
     "hit_level": "m,h",
     "damage": "17,18",
     "startup": "i18~19",
-    "block": "-5 (+7 at wall)",
+    "block": "-5 (+7w)",
     "hit": "+21d (-5)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n\n",
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st hit\nCan be delayed\nSometimes written DD.2,1\n",
     "alternateInputs": ["DPD 2,1", "qcb2,1", "d,df,d,df2,1", "qcf,d,df2,1"]
   },
   {
     "name": "Quick Lightning Breaker",
     "input": "DPD 2,3",
     "hit_level": "m,m",
-    "damage": "17,22",
+    "damage": "1722",
     "startup": "i25~26",
     "block": "-13c",
-    "hit": "+10d",
+    "hit": "+10d FDFA",
     "counter": "+46a",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 1st attack\nMove can be delayed\n\n",
+    "note": "\n\nSpike\nCombo from 1st hit\nCan be delayed\nSometimes written DD.2,3\n",
     "alternateInputs": ["DPD 2,3", "qcb2,3", "d,df,d,df2,3", "qcf,d,df2,3"]
   },
   {
@@ -1196,7 +1340,7 @@
     "block": "-12c",
     "hit": "0",
     "counter": "",
-    "note": "\n",
+    "note": "Sometimes written DD.4\n",
     "alternateInputs": ["DPD 4", "qcb4", "d,df,d,df4", "qcf,d,df4"]
   },
   {
@@ -1208,20 +1352,20 @@
     "block": "-49d",
     "hit": "-9d (-24)",
     "counter": "",
-    "note": "\nDeals recoverable damage to self\n\n",
+    "note": "\nDeals recoverable damage to self\nSometimes written DD.3+4\n",
     "alternateInputs": ["DPD 3+4", "qcb3+4", "d,df,d,df3+4", "qcf,d,df3+4"]
   },
   {
-    "name": "SWA",
-    "input": "qcb",
+    "name": "Sway",
+    "input": "d,db,b",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "",
-    "alternateInputs": ["qcb", "d,db,b"]
+    "note": "\nCannot be buffered\nMoves backward up to 1.04\nLess movement from attack transition\nNo crouching state from attack transition\nSometimes written \nSWA\nqcb\n\n",
+    "alternateInputs": ["d,db,b"]
   },
   {
     "name": "God Hammer Punch",
@@ -1230,9 +1374,9 @@
     "damage": "24",
     "startup": "i21~22",
     "block": "0c",
-    "hit": "+21d",
+    "hit": "+21d FDFA",
     "counter": "+53a",
-    "note": "\nChip damage\n\n",
+    "note": "\nChip damage (7)\nSometimes written qcb+1\n",
     "alternateInputs": ["SWA 1", "qcb1"]
   },
   {
@@ -1242,10 +1386,10 @@
     "damage": "27",
     "startup": "i15",
     "block": "-9",
-    "hit": "+17",
+    "hit": "+39d (-19)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nHas a clean hit effect\n",
-    "alternateInputs": ["SWA 2", "qcb2"]
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +5 (+18w), +36a (+26)\n\nClean Hit range 2.45\nHeat Dash disables Clean Hit\n21 damage without Clean Hit\nSometimes written qcb+2\n",
+    "alternateInputs": ["SWA 2"]
   },
   {
     "name": "Rapid Fire",
@@ -1256,7 +1400,7 @@
     "block": "-21c",
     "hit": "-10g",
     "counter": "+21a",
-    "note": "\n",
+    "note": "Sometimes written qcb+3\n",
     "alternateInputs": ["SWA 3", "qcb3"]
   },
   {
@@ -1268,7 +1412,7 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st CH\n\n",
+    "note": "\nCombo from 1st CH +20d (+13)\nSometimes written qcb+3,2\n",
     "alternateInputs": ["SWA 3,2", "qcb3,2"]
   },
   {
@@ -1277,22 +1421,22 @@
     "hit_level": "L,m,h",
     "damage": "14,20,25",
     "startup": "i18~19",
-    "block": "-5",
-    "hit": "+21(-5)",
-    "counter": "",
-    "note": "\n\nTornado\nCombo from 1st CH\nWall Stagger on Block\n\n",
+    "block": "-5 (+7w)",
+    "hit": "+21d (-5)",
+    "counter": "+61a (+47)",
+    "note": "\n\nTornado\nCombo from 1st CH +63a (+47)\nSometimes written qcb+3,2,1\n",
     "alternateInputs": ["SWA 3,2,1", "qcb3,2,1"]
   },
   {
     "name": "Lightning Breaker",
     "input": "SWA 3,2,3",
     "hit_level": "L,m,m",
-    "damage": "14,2022",
+    "damage": "14,20,22",
     "startup": "i25~26",
     "block": "-13c",
     "hit": "+10g",
     "counter": "+46a",
-    "note": "\n\nSpike\nCombo from 1st CH\n\n",
+    "note": "\n\nSpike\nCombo from 1st CH +15d (-20) FDFA\nCan be delayed\nSometimes written qcb+3,2,3\n",
     "alternateInputs": ["SWA 3,2,3", "qcb3,2,3"]
   },
   {
@@ -1304,7 +1448,7 @@
     "block": "+1",
     "hit": "+23d (+14)",
     "counter": "+59a",
-    "note": "\n\nHoming\nChip damage on block\n\n",
+    "note": "\n\nHoming\nChip damage (6)\nSometimes written qcb+4\n",
     "alternateInputs": ["SWA 4", "qcb4"]
   },
   {
@@ -1316,7 +1460,7 @@
     "block": "-14",
     "hit": "+37a (+27)",
     "counter": "",
-    "note": "\n\nTornado \n\n",
+    "note": "\n\nTornado\nSometimes written qcb+1+2\n",
     "alternateInputs": ["SWA 1+2", "qcb1+2"]
   },
   {
@@ -1326,9 +1470,9 @@
     "damage": "35",
     "startup": "i12~14",
     "block": "",
-    "hit": "+1d",
+    "hit": "+1d FUFA",
     "counter": "",
-    "note": "\nThrow break 1 or 2\n\n",
+    "note": "\nThrow break 1 or 2\nSide switch\n\n",
     "alternateInputs": ["1+3"]
   },
   {
@@ -1338,9 +1482,9 @@
     "damage": "35",
     "startup": "i12~14",
     "block": "",
-    "hit": "+1d",
+    "hit": "+1d FUFA",
     "counter": "",
-    "note": "\nThrow break 1 or 2\n\n",
+    "note": "\nThrow break 1 or 2\nSide switch\n\n",
     "alternateInputs": ["2+4"]
   },
   {
@@ -1362,7 +1506,7 @@
     "damage": "45",
     "startup": "i12~14",
     "block": "",
-    "hit": "+1d",
+    "hit": "+1d FUFA",
     "counter": "",
     "note": "\nThrow break 1\n\n",
     "alternateInputs": ["Left Throw"]
@@ -1374,9 +1518,9 @@
     "damage": "40",
     "startup": "i12~14",
     "block": "",
-    "hit": "-2d",
+    "hit": "-2d FUFA",
     "counter": "",
-    "note": "\nThrow break 2\n\n",
+    "note": "\nThrow break 2\nSide switch\n\n",
     "alternateInputs": ["Right Throw"]
   },
   {
@@ -1386,7 +1530,7 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "-14d",
+    "hit": "-14d FUFA",
     "counter": "",
     "note": "\nThrow cannot be broken\n\n",
     "alternateInputs": ["Back Throw 1+3"]
@@ -1398,7 +1542,7 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "+1d",
+    "hit": "+1d FDFA",
     "counter": "",
     "note": "\n\nSpike\nThrow cannot be broken\n\n",
     "alternateInputs": ["Back Throw 2+4"]
@@ -1417,14 +1561,26 @@
   },
   {
     "name": "Phoenix Smasher",
+    "input": "df+1+3,qcf+2",
+    "hit_level": "t,m",
+    "damage": "22,15",
+    "startup": "i13~14",
+    "block": "",
+    "hit": "+16d (-20) FDFA",
+    "counter": "",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nStrict qcf input required (d,f does not work)\nPerfect input window 54f after throw input\nPerfect input increases damage, wall carry\n\n",
+    "alternateInputs": ["df+1+3,qcf+2"]
+  },
+  {
+    "name": "Phoenix Smasher (Perfect Input)",
     "input": "df+1+3:qcf+2",
     "hit_level": "t,m",
     "damage": "22,20",
     "startup": "i13~14",
     "block": "",
-    "hit": "+16d (-20)",
+    "hit": "+16d (-20) FDFA",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break 1\nbluespark with frame perfect input, or in heat (+6 dmg)\npartially uses remaining Heat\n\n",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nStrict qcf input required (d,f does not work)\nPerfect input window 54f after throw input\nPerfect input increases damage, wall carry\n\n",
     "alternateInputs": ["df+1+3:qcf+2"]
   },
   {
@@ -1434,9 +1590,9 @@
     "damage": "40",
     "startup": "i11",
     "block": "",
-    "hit": "+6d",
+    "hit": "+6d FUFA",
     "counter": "",
-    "note": "\nThrow break 1\n\n",
+    "note": "\nThrow break 1\nSide switch\n\n",
     "alternateInputs": ["b+1+4"]
   },
   {
@@ -1448,7 +1604,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1+2\n\nSpike\n\n",
+    "note": "\n\nSpike\nThrow break 1+2\n\n",
     "alternateInputs": ["uf+1+2"]
   },
   {
@@ -1460,7 +1616,7 @@
     "block": "",
     "hit": "+20d",
     "counter": "",
-    "note": "\n\nBalcony Break\nThrow break 1+2\n\n",
+    "note": "\n\nBalcony Break\nThrow break 1+2\nBT recovery if broken\nFUFA recovery if broken at wall\n\n",
     "alternateInputs": ["ff+1+2"]
   },
   {
@@ -1494,7 +1650,7 @@
     "damage": "50",
     "startup": "i26",
     "block": "",
-    "hit": "+0d",
+    "hit": "+0d FDFA",
     "counter": "",
     "note": "\nThrow break 1\nTransition to Arm Breaker with 1+2 after third hit\n\n",
     "alternateInputs": ["Takedown 2,d+1,1,1+2"]

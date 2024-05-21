@@ -1145,8 +1145,8 @@
     "hit_level": "h",
     "damage": "42",
     "startup": "i17",
-    "block": "+6",
-    "hit": "KND",
+    "block": "+11",
+    "hit": "Launch",
     "counter": "",
     "note": "\n\nBalcony Break\nChip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n\nHoming\n\n",
     "alternateInputs": ["NWG f,f,F+1+2"]
@@ -1378,6 +1378,18 @@
     "counter": "",
     "note": "\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
     "alternateInputs": ["in rage df+1+2"]
+  },
+  {
+    "name": "Naniwa Peacemaker Knuckle",
+    "input": "in rage df+1+2**",
+    "hit_level": "m,th",
+    "damage": "60",
+    "startup": "i56",
+    "block": "+3",
+    "hit": "KND",
+    "counter": "",
+    "note": "\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
+    "alternateInputs": ["in rage df+1+2**"]
   },
   {
     "name": "Ki Charge",

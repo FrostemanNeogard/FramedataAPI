@@ -15,7 +15,7 @@
     "name": "Notorious Monster",
     "input": "in heat 2+3",
     "hit_level": "m,m,t",
-    "damage": "20,20,20",
+    "damage": "20,20,35",
     "startup": "i16",
     "block": "+9 / +17wc",
     "hit": "-1d",
@@ -896,7 +896,7 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "f to enter SLS (+1/+12g/+12)\n",
+    "note": "f to enter SLS (+1/+12g/+12g)\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -1472,7 +1472,7 @@
     "block": "+9",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nConsumes SNE\nChip damage on block (12)\nCauses a wall splat on block\nInstant Tornado launcher\n",
+    "note": "\n\nTornado\n\nBalcony Break\nConsumes SNE\nChip damage on block (12)\nCauses a wall splat on block\nCannot be absorbed by Power Crush\nInstant Tornado launcher\n",
     "alternateInputs": ["3+4,SNE 2*"]
   },
   {
@@ -1481,8 +1481,8 @@
     "hit_level": "m,m,m",
     "damage": "10,12,5",
     "startup": "i14~15",
-    "block": "-12",
-    "hit": "+3c",
+    "block": "-2",
+    "hit": "+9c",
     "counter": "",
     "note": "\n\nElbow\nCombo from 1st hit\nConsumes SNE\nChip damage on block (1)\n\n",
     "alternateInputs": ["f+2,1,SNE 2"]
@@ -1493,8 +1493,8 @@
     "hit_level": "m,m,m,m",
     "damage": "10,12,5,7",
     "startup": ",i22",
-    "block": "-15",
-    "hit": "+14a (+7)",
+    "block": "-3",
+    "hit": "+18a (+11)",
     "counter": "",
     "note": "\n\nKnee\nCombo from 1st hit\nChip damage on block (2)\n\n",
     "alternateInputs": ["f+2,1,SNE 2,3"]

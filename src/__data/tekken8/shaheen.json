@@ -68,7 +68,7 @@
     "block": "0",
     "hit": "+6c",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCancel into FC with input b+1,D\nLauncher with heat dash\n\n",
+    "note": "\n\nHeat Engager\n\nTransition FC with input b+1,D\nLauncher with heat dash\n\n",
     "alternateInputs": ["b+1"]
   },
   {
@@ -282,9 +282,9 @@
     "damage": "10,23",
     "startup": ",i18",
     "block": "-12",
-    "hit": "+5 (+13)",
+    "hit": "+5 (+13wc)",
     "counter": "",
-    "note": "\n\nTornado\nWall Crush\n\n",
+    "note": "\n\nTornado\n\nWall Crush +13g on hit\n\nCan be delayed\n\n",
     "alternateInputs": ["f+2,3"]
   },
   {
@@ -378,9 +378,9 @@
     "damage": "20",
     "startup": "i17",
     "block": "-9",
-    "hit": "+9 (+21)",
+    "hit": "+9 (+21wc)",
     "counter": "",
-    "note": "\n\nHoming\nWall crush\n\n",
+    "note": "\n\nHoming\n\nWall Crush +21g on hit\n\n\n",
     "alternateInputs": ["df+3"]
   },
   {
@@ -560,7 +560,7 @@
     "block": "0",
     "hit": "+6c",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCancel into FC with input b+1,D\nLauncher with heat dash\n\n",
+    "note": "\n\nHeat Engager\n\nTransition FC with input b+1,D\nLauncher with heat dash\n\n",
     "alternateInputs": ["b+1"]
   },
   {

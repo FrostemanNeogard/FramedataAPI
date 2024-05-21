@@ -488,7 +488,7 @@
     "block": "-11",
     "hit": "+9c",
     "counter": "",
-    "note": "\nHeadbutt\nTransition to GMH with D\n(-3 oB, +15g oB)\n",
+    "note": "\nHeadbutt\nTransition to GMH with D\n(-3 oB, +15g oH)\n",
     "alternateInputs": ["f+3+4"]
   },
   {
@@ -2005,7 +2005,7 @@
   },
   {
     "name": "Get Up Punch",
-    "input": "1+2",
+    "input": "d+1+2",
     "hit_level": "m",
     "damage": "18",
     "startup": "i28",
@@ -2013,7 +2013,7 @@
     "hit": "+39d",
     "counter": "",
     "note": "\nRecovers in SIT, then stands up \n",
-    "alternateInputs": ["1+2"]
+    "alternateInputs": ["d+1+2"]
   },
   {
     "name": "Rotary Catapult",

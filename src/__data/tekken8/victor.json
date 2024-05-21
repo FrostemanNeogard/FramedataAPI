@@ -7,7 +7,7 @@
     "startup": "i16",
     "block": "+1",
     "hit": "+2",
-    "counter": "",
+    "counter": "+2",
     "note": "\n\nHeat Burst\nAlternate input: R1\nCan be cancelled with input b,b\n\n",
     "alternateInputs": ["2+3"]
   },
@@ -31,7 +31,7 @@
     "startup": "i28~29",
     "block": "+6",
     "hit": "+6a (-4)",
-    "counter": "",
+    "counter": "+6a (-4)",
     "note": "\nTransitions to IAI\nPartially uses remaining Heat time\n\n",
     "alternateInputs": ["in heat db+1+2"]
   },
@@ -43,8 +43,8 @@
     "startup": ",i23~24",
     "block": "-4",
     "hit": "+18a (+9) / HE",
-    "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nHit Confirmable\n\n",
+    "counter": "+18a (+9) / HE",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\n",
     "alternateInputs": ["f+4,1"]
   },
   {
@@ -54,8 +54,8 @@
     "damage": "35",
     "startup": "i24~25",
     "block": "-9",
-    "hit": "-1 / HE",
-    "counter": "",
+    "hit": "KND / HE",
+    "counter": "KND / HE",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\nDeals chip damage on block\nPartially restores Heat on hit\n\n",
     "alternateInputs": ["f+1+2"]
   },
@@ -67,7 +67,7 @@
     "startup": "i18",
     "block": "0",
     "hit": "+4 / HE",
-    "counter": "",
+    "counter": "+4",
     "note": "\n\nHeat Engager\n\nDeals chip damage on block\n\n",
     "alternateInputs": ["d+2"]
   },
@@ -79,7 +79,7 @@
     "startup": "i15~16",
     "block": "-9",
     "hit": "+42 (-16) / HE",
-    "counter": "",
+    "counter": "+42 (-16) / HE",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nDeals chip damage on block\n\n",
     "alternateInputs": ["b+1+2"]
   },
@@ -91,7 +91,7 @@
     "startup": "i15~17",
     "block": "-8",
     "hit": "+41 (-17)",
-    "counter": "",
+    "counter": "+41 (-17)",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nKnee\n\n",
     "alternateInputs": ["PRF 3"]
   },
@@ -103,7 +103,7 @@
     "startup": "i10",
     "block": "+1",
     "hit": "+8",
-    "counter": "",
+    "counter": "+8",
     "note": "\n\n",
     "alternateInputs": ["1"]
   },
@@ -111,11 +111,11 @@
     "name": "",
     "input": "1,1",
     "hit_level": "h,h",
-    "damage": "5,1",
-    "startup": ",i16",
+    "damage": "5,7",
+    "startup": "i16",
     "block": "-3",
     "hit": "+8",
-    "counter": "",
+    "counter": "+8",
     "note": "\n\n",
     "alternateInputs": ["1,1"]
   },
@@ -124,10 +124,10 @@
     "input": "1,1,2",
     "hit_level": "h,h,hh",
     "damage": "5,7,5,10",
-    "startup": ",i17~18,i9~10",
+    "startup": "i17~18,i9~10",
     "block": "-12",
     "hit": "+3",
-    "counter": "",
+    "counter": "+3",
     "note": "\n\n",
     "alternateInputs": ["1,1,2"]
   },
@@ -136,10 +136,10 @@
     "input": "1,2",
     "hit_level": "h,h",
     "damage": "5,12",
-    "startup": ",i10",
+    "startup": "i10",
     "block": "-3",
     "hit": "+8",
-    "counter": "",
+    "counter": "+8",
     "note": "\n\n",
     "alternateInputs": ["1,2"]
   },
@@ -148,10 +148,10 @@
     "input": "1,2,1",
     "hit_level": "h,h,m",
     "damage": "5,12,20",
-    "startup": ",i26~27",
+    "startup": "i26~27",
     "block": "-12",
     "hit": "+18a (+1)",
-    "counter": "+72a (+56)",
+    "counter": "Launch T!",
     "note": "\n\nTornado\n\nBalcony Break\n\n",
     "alternateInputs": ["1,2,1"]
   },
@@ -160,7 +160,7 @@
     "input": "1,3",
     "hit_level": "h,l",
     "damage": "5,11",
-    "startup": ",i21~22",
+    "startup": "i21~22",
     "block": "-12",
     "hit": "-1",
     "counter": "-1",
@@ -175,7 +175,7 @@
     "startup": "i12~13",
     "block": "-12",
     "hit": "-2",
-    "counter": "",
+    "counter": "-2",
     "note": "\n\n",
     "alternateInputs": ["2"]
   },
@@ -184,10 +184,10 @@
     "input": "2,1",
     "hit_level": "h,h",
     "damage": "10,12",
-    "startup": ",i16",
+    "startup": "i16",
     "block": "-6 / -4 PRF",
     "hit": "+5 / +7 PRF",
-    "counter": "",
+    "counter": "+5 / +7 PRF",
     "note": "\nTransition to PRF with F\n\n",
     "alternateInputs": ["2,1"]
   },
@@ -196,10 +196,10 @@
     "input": "2,2",
     "hit_level": "h,mm",
     "damage": "10,10,5",
-    "startup": ",i17~18,i7",
+    "startup": "i17~18,i7",
     "block": "-12",
     "hit": "-2",
-    "counter": "",
+    "counter": "-2",
     "note": "\n-10 if last hit whiffs\n\n",
     "alternateInputs": ["2,2"]
   },
@@ -208,11 +208,11 @@
     "input": "2,2,2",
     "hit_level": "h,mm,h",
     "damage": "10,10,5,12",
-    "startup": ",i22",
+    "startup": "i22",
     "block": "-3",
-    "hit": "+4",
-    "counter": "",
-    "note": "\nChip damage on block\nTransitions to IAI on hit or block\n\n",
+    "hit": "+4 (W! +12)",
+    "counter": "+4 (W! +12)",
+    "note": "\nChip damage on block\nTransitions to IAI on hit or block\nCauses Wall Stun\n\n",
     "alternateInputs": ["2,2,2"]
   },
   {
@@ -220,10 +220,10 @@
     "input": "3",
     "hit_level": "h",
     "damage": "11",
-    "startup": ",i12~13",
+    "startup": "i12~13",
     "block": "-9",
     "hit": "+2",
-    "counter": "",
+    "counter": "+2",
     "note": "\n\n",
     "alternateInputs": ["3"]
   },
@@ -232,10 +232,10 @@
     "input": "3,1+2",
     "hit_level": "h,hh",
     "damage": "11,9,10",
-    "startup": ",i19~20,i8~9",
+    "startup": "i19~20,i8~9",
     "block": "-9",
     "hit": "+5",
-    "counter": "",
+    "counter": "+5",
     "note": "\nHit confirmable\n\n",
     "alternateInputs": ["3,1+2"]
   },
@@ -247,7 +247,7 @@
     "startup": "i13~14",
     "block": "-9",
     "hit": "+1",
-    "counter": "",
+    "counter": "+1",
     "note": "\n\n",
     "alternateInputs": ["4"]
   },
@@ -256,10 +256,10 @@
     "input": "4,3",
     "hit_level": "h,m",
     "damage": "15,17",
-    "startup": ",i23~24",
+    "startup": "i23~24",
     "block": "-10",
     "hit": "+5",
-    "counter": "",
+    "counter": "+5",
     "note": "\n\n",
     "alternateInputs": ["4,3"]
   },
@@ -268,10 +268,10 @@
     "input": "4,3,2",
     "hit_level": "h,m,m",
     "damage": "15,17,25",
-    "startup": ",i25~26",
+    "startup": "i25~26",
     "block": "-13",
     "hit": "+34d (+13)",
-    "counter": "",
+    "counter": "+34d (+13)",
     "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
     "alternateInputs": ["4,3,2"]
   },
@@ -283,7 +283,7 @@
     "startup": "i15",
     "block": "-8",
     "hit": "+2",
-    "counter": "+46a",
+    "counter": "Launch (+46)",
     "note": "\n\n",
     "alternateInputs": ["1+2"]
   },
@@ -292,7 +292,7 @@
     "input": "3+4",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i15",
+    "startup": "i30",
     "block": "",
     "hit": "",
     "counter": "",
@@ -307,7 +307,7 @@
     "startup": "i13~14",
     "block": "-11",
     "hit": "+5",
-    "counter": "",
+    "counter": "+5",
     "note": "\n\n",
     "alternateInputs": ["f+2"]
   },
@@ -319,7 +319,7 @@
     "startup": ",i11",
     "block": "-15",
     "hit": "-4",
-    "counter": "",
+    "counter": "-4",
     "note": "\n\n",
     "alternateInputs": ["f+2,2"]
   },
@@ -331,7 +331,7 @@
     "startup": ",i13~14",
     "block": "-11",
     "hit": "0",
-    "counter": "",
+    "counter": "0",
     "note": "\n\n",
     "alternateInputs": ["f+2,2,1"]
   },
@@ -343,7 +343,7 @@
     "startup": ",i20~21",
     "block": "-15",
     "hit": "+20 (+15)",
-    "counter": "",
+    "counter": "+20 (+15)",
     "note": "\n\nBalcony Break\nHit confirmable if (f22)1 is ch\n\n",
     "alternateInputs": ["f+2,2,1,1"]
   },
@@ -355,7 +355,7 @@
     "startup": ",i14,i12~13,i7~8",
     "block": "-13",
     "hit": "+20a",
-    "counter": "",
+    "counter": "+20a",
     "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["f+2,2,2"]
   },
@@ -364,7 +364,7 @@
     "input": "f+3",
     "hit_level": "sp",
     "damage": "",
-    "startup": ",i14,i12~13,i7~8",
+    "startup": "i20",
     "block": "",
     "hit": "",
     "counter": "",
@@ -379,7 +379,7 @@
     "startup": "i14",
     "block": "-10",
     "hit": "0",
-    "counter": "",
+    "counter": "0",
     "note": "\n\n",
     "alternateInputs": ["f+4"]
   },
@@ -391,8 +391,8 @@
     "startup": ",i23~24",
     "block": "-4",
     "hit": "+18a (+9) / HE",
-    "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\nHit Confirmable\n\n",
+    "counter": "+18a (+9) / HE",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\n",
     "alternateInputs": ["f+4,1"]
   },
   {
@@ -404,7 +404,7 @@
     "block": "-12",
     "hit": "+5",
     "counter": "+7a / +5",
-    "note": "\nHit Confirmable\nCH on last hit causes knockdown\n\n",
+    "note": "\nCH on last hit causes knockdown\n\n",
     "alternateInputs": ["f+4,2"]
   },
   {
@@ -414,8 +414,8 @@
     "damage": "35",
     "startup": "i24~25",
     "block": "-9",
-    "hit": "-1 / HE",
-    "counter": "",
+    "hit": "KND / HE",
+    "counter": "KND / HE",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\nDeals chip damage on block\nPartially restores Heat on hit\n\n",
     "alternateInputs": ["f+1+2"]
   },
@@ -427,7 +427,7 @@
     "startup": "i13~14",
     "block": "-2",
     "hit": "+4",
-    "counter": "",
+    "counter": "+4",
     "note": "\n\n",
     "alternateInputs": ["df+1"]
   },
@@ -436,10 +436,10 @@
     "input": "df+1,1",
     "hit_level": "m,hh",
     "damage": "10,7,7",
-    "startup": ",i20",
+    "startup": "i20",
     "block": "-4",
     "hit": "+7",
-    "counter": "",
+    "counter": "+7",
     "note": "\n\n",
     "alternateInputs": ["df+1,1"]
   },
@@ -451,7 +451,7 @@
     "startup": "i15~16",
     "block": "-14",
     "hit": "+31a (+21)",
-    "counter": "",
+    "counter": "+31a (+21)",
     "note": "\n\n",
     "alternateInputs": ["df+2"]
   },
@@ -463,7 +463,7 @@
     "startup": "i16",
     "block": "-9",
     "hit": "+2",
-    "counter": "",
+    "counter": "+2",
     "note": "\n\n",
     "alternateInputs": ["df+3"]
   },
@@ -472,10 +472,10 @@
     "input": "df+3,4",
     "hit_level": "m,m",
     "damage": "10,14",
-    "startup": ",i21",
+    "startup": "i21",
     "block": "-9",
     "hit": "+2",
-    "counter": "",
+    "counter": "+2",
     "note": "\n\nKnee\n\n",
     "alternateInputs": ["df+3,4"]
   },
@@ -484,10 +484,10 @@
     "input": "df+3,4,2",
     "hit_level": "m,m,sm",
     "damage": "10,14,23",
-    "startup": ",i32~34",
+    "startup": "i32~34",
     "block": "-9",
     "hit": "+17a (+10)",
-    "counter": "",
+    "counter": "+35a",
     "note": "\n\nTornado\nDeals chip damage on block\n\n",
     "alternateInputs": ["df+3,4,2"]
   },
@@ -499,7 +499,7 @@
     "startup": "i13~14",
     "block": "-9",
     "hit": "+5",
-    "counter": "",
+    "counter": "+5",
     "note": "\n\nKnee\n\n",
     "alternateInputs": ["df+4"]
   },
@@ -508,11 +508,11 @@
     "input": "df+4,2",
     "hit_level": "m,h",
     "damage": "15,16",
-    "startup": ",i22",
+    "startup": "i22",
     "block": "-3",
-    "hit": "+4",
-    "counter": "",
-    "note": "\nOnly occurs on hit or block\nDeals chip damage on block\nTransitions to IAI (cannot cancel)\n\n",
+    "hit": "+4 (W! +12)",
+    "counter": "+4 (W! +12)",
+    "note": "\nOnly occurs on hit or block\nCauses Wall Stun\nDeals chip damage on block\nTransitions to IAI (cannot cancel)\n\n",
     "alternateInputs": ["df+4,2"]
   },
   {
@@ -523,7 +523,7 @@
     "startup": "i14~15",
     "block": "-17",
     "hit": "+16 (+11)",
-    "counter": "",
+    "counter": "+16 (+11)",
     "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["df+3+4"]
   },
@@ -535,7 +535,7 @@
     "startup": "i16",
     "block": "-17",
     "hit": "-6",
-    "counter": "",
+    "counter": "-6",
     "note": "\n\n",
     "alternateInputs": ["d+1"]
   },
@@ -547,7 +547,7 @@
     "startup": ",i18",
     "block": "-7",
     "hit": "+6",
-    "counter": "",
+    "counter": "+6",
     "note": "\n\n",
     "alternateInputs": ["d+1,1"]
   },
@@ -559,7 +559,7 @@
     "startup": "i18",
     "block": "0",
     "hit": "+4 / HE",
-    "counter": "",
+    "counter": "+4",
     "note": "\n\nHeat Engager\n\nDeals chip damage on block\n\n",
     "alternateInputs": ["d+2"]
   },
@@ -571,7 +571,7 @@
     "startup": "i18~19",
     "block": "-13",
     "hit": "-2",
-    "counter": "",
+    "counter": "-2",
     "note": "\n\n",
     "alternateInputs": ["d+3"]
   },
@@ -619,7 +619,7 @@
     "startup": "i14~15",
     "block": "-9",
     "hit": "-2",
-    "counter": "",
+    "counter": "-2",
     "note": "\n\n",
     "alternateInputs": ["db+1"]
   },
@@ -631,9 +631,21 @@
     "startup": ",i21~22",
     "block": "-7 / -5 PRF",
     "hit": "+2 / +4 PRF",
-    "counter": "",
+    "counter": "+2 / +4 PRF",
     "note": "\nTransition to PRF with F\n\n",
     "alternateInputs": ["db+1,1"]
+  },
+  {
+    "name": "Crouch Straight",
+    "input": "db+2",
+    "hit_level": "s.l",
+    "damage": "8",
+    "startup": "i11",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "+7",
+    "note": "\n",
+    "alternateInputs": ["db+2"]
   },
   {
     "name": "Polite Greetings",
@@ -642,8 +654,8 @@
     "damage": "20",
     "startup": "i19~20",
     "block": "-8",
-    "hit": "+40a (-18)",
-    "counter": "",
+    "hit": "KND (-18)",
+    "counter": "Launch T!",
     "note": "\n\nTornado\n\nBalcony Break\n\n",
     "alternateInputs": ["db+3"]
   },
@@ -679,7 +691,7 @@
     "startup": "i14",
     "block": "-13 / -5 PRF",
     "hit": "-3 / +5 PRF",
-    "counter": "",
+    "counter": "-3 / +5 PRF",
     "note": "\nTransition to PRF with F\n\n",
     "alternateInputs": ["b+1"]
   },
@@ -691,7 +703,7 @@
     "startup": ",i20",
     "block": "-8",
     "hit": "+0",
-    "counter": "",
+    "counter": "+0",
     "note": "\nSide switch after attack throw connects\nHit Confirmable on counter hit\n\n",
     "alternateInputs": ["b+1,2"]
   },
@@ -715,7 +727,7 @@
     "startup": "i17",
     "block": "-9",
     "hit": "+4",
-    "counter": "",
+    "counter": "+4",
     "note": "\n\n",
     "alternateInputs": ["b+3"]
   },
@@ -727,7 +739,7 @@
     "startup": ",i25~26",
     "block": "-13",
     "hit": "+21a (+16)",
-    "counter": "",
+    "counter": "+21a (+16)",
     "note": "\nHit Confirmable\n\nBalcony Break\n\n",
     "alternateInputs": ["b+3,1"]
   },
@@ -751,7 +763,7 @@
     "startup": "i15~16",
     "block": "-9",
     "hit": "+42 (-16) / HE",
-    "counter": "",
+    "counter": "+42 (-16) / HE",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nDeals chip damage on block\n\n",
     "alternateInputs": ["b+1+2"]
   },
@@ -763,7 +775,7 @@
     "startup": "i26~27",
     "block": "-21",
     "hit": "+37 (+6)",
-    "counter": "",
+    "counter": "+37 (+6)",
     "note": "\n\n",
     "alternateInputs": ["b+1+4"]
   },
@@ -775,7 +787,7 @@
     "startup": "i31~32",
     "block": "-20",
     "hit": "+1a",
-    "counter": "",
+    "counter": "+1a",
     "note": "\nDeals chip damage on block\n\n",
     "alternateInputs": ["u+1+2"]
   },
@@ -787,7 +799,7 @@
     "startup": "i31~32",
     "block": "-4",
     "hit": "0a (-1)",
-    "counter": "",
+    "counter": "0a (-1)",
     "note": "\nAlternate input: H.ub+1+2\n\nBalcony Break\n\n",
     "alternateInputs": ["in heat u+1+2"]
   },
@@ -799,7 +811,7 @@
     "startup": "i13",
     "block": "-9",
     "hit": "+4",
-    "counter": "",
+    "counter": "+4",
     "note": "\nAlternate input: ub+1 or u+1\n\n",
     "alternateInputs": ["uf+1"]
   },
@@ -811,7 +823,7 @@
     "startup": ",i25~26",
     "block": "-14 / -10 IAI",
     "hit": "+15 / +3 IAI",
-    "counter": "",
+    "counter": "+15 / +3 IAI",
     "note": "\n\nTornado\n\nBalcony Break\nHit confirmable\nCancel the second hit with down or 3+4 to go into IAI\n\n",
     "alternateInputs": ["uf+1,1"]
   },
@@ -823,7 +835,7 @@
     "startup": "i19~20",
     "block": "-9",
     "hit": "+7",
-    "counter": "",
+    "counter": "+7",
     "note": "\n\nHoming\n\n",
     "alternateInputs": ["uf+2"]
   },
@@ -847,7 +859,7 @@
     "startup": "i15~17",
     "block": "-19",
     "hit": "+73 (+57)",
-    "counter": "",
+    "counter": "+73 (+57)",
     "note": "\n\nTornado\nAlternate input: ub+4 or u+4\n\n",
     "alternateInputs": ["uf+4"]
   },
@@ -859,7 +871,7 @@
     "startup": "i18~20",
     "block": "-16",
     "hit": "+33 (+23)",
-    "counter": "",
+    "counter": "+33 (+23)",
     "note": "\n\nTornado\nDeals chip damage on block\n\n",
     "alternateInputs": ["f,F+2"]
   },
@@ -871,7 +883,7 @@
     "startup": "i16~17",
     "block": "+5",
     "hit": "+16 (+6)",
-    "counter": "Launch",
+    "counter": "Launch T!",
     "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
@@ -883,8 +895,8 @@
     "startup": "i22",
     "block": "-3",
     "hit": "+4",
-    "counter": "",
-    "note": "\nTransition to IAI\nDeals chip damage on block\n\n",
+    "counter": "+4 (W! +12)",
+    "note": "\nTransition to IAI\nDeals chip damage on block\nCauses Wall stun\n\n",
     "alternateInputs": ["d,df,f+2"]
   },
   {
@@ -893,9 +905,9 @@
     "hit_level": "ub(m)",
     "damage": "50",
     "startup": "i65~66",
-    "block": "+2 (-8)",
+    "block": "N/A",
     "hit": "+2 (-8)",
-    "counter": "",
+    "counter": "+2 (-8)",
     "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["b,B+2+3"]
   },
@@ -906,8 +918,8 @@
     "damage": "20",
     "startup": "i15~16",
     "block": "-16",
-    "hit": "+53",
-    "counter": "",
+    "hit": "+53a",
+    "counter": "+53a",
     "note": "\nLauncher\n\n",
     "alternateInputs": ["ws1"]
   },
@@ -931,7 +943,7 @@
     "startup": "i15~16",
     "block": "-14",
     "hit": "+6",
-    "counter": "",
+    "counter": "+6",
     "note": "\n\n",
     "alternateInputs": ["ws3"]
   },
@@ -943,7 +955,7 @@
     "startup": ",i30~32",
     "block": "-9",
     "hit": "+17 (+10)",
-    "counter": "",
+    "counter": "(+35)",
     "note": "\n\nTornado\nDeals chip damage on block\n\n",
     "alternateInputs": ["ws3,2"]
   },
@@ -955,7 +967,7 @@
     "startup": "i11~12",
     "block": "-6",
     "hit": "+5",
-    "counter": "",
+    "counter": "+5",
     "note": "\n\n",
     "alternateInputs": ["ws4"]
   },
@@ -965,9 +977,9 @@
     "hit_level": "mm",
     "damage": "10,17",
     "startup": "i13~14,i9~10",
-    "block": "-8",
-    "hit": "+8",
-    "counter": "",
+    "block": "-8 / -8 PRF",
+    "hit": "+8 / +8 PRF",
+    "counter": "+8 / +8 PRF",
     "note": "\nTransition to PRF with F\n\n",
     "alternateInputs": ["ws1+2"]
   },
@@ -976,7 +988,7 @@
     "input": "3+4",
     "hit_level": "sp",
     "damage": "",
-    "startup": "",
+    "startup": "i30",
     "block": "",
     "hit": "",
     "counter": "",
@@ -991,7 +1003,7 @@
     "startup": "i13~14",
     "block": "-12",
     "hit": "+1",
-    "counter": "",
+    "counter": "+1",
     "note": "\n\n",
     "alternateInputs": ["IAI 1"]
   },
@@ -1002,8 +1014,8 @@
     "damage": "9,21",
     "startup": ",i25~26",
     "block": "-14 / -11 IAI",
-    "hit": "+15 / +2 IAI",
-    "counter": "",
+    "hit": "+15g / +2 IAI",
+    "counter": "+15g / +2 IAI",
     "note": "\n\nTornado\n\nBalcony Break\nCan cancel the second hit by holding down or pressing 3+4. Will transition to IAI\nHit confirmable\n\n",
     "alternateInputs": ["IAI 1,1"]
   },
@@ -1015,7 +1027,7 @@
     "startup": ",i22~24",
     "block": "-19",
     "hit": "+25a (+10)",
-    "counter": "",
+    "counter": "+25a (+10)",
     "note": "\nHit Confirmable\n\n",
     "alternateInputs": ["IAI 1,2"]
   },
@@ -1027,7 +1039,7 @@
     "startup": ",i23~24",
     "block": "-18",
     "hit": "+8a (-27)",
-    "counter": "",
+    "counter": "+8a (-27)",
     "note": "\n\nSpike\nDeals chip damage on block\n\n",
     "alternateInputs": ["IAI 1,2,2"]
   },
@@ -1039,7 +1051,7 @@
     "startup": ",i20~21",
     "block": "+3",
     "hit": "+20a (-6)",
-    "counter": "",
+    "counter": "+20a (-6)",
     "note": "\nDeals chip damage on block\n\n",
     "alternateInputs": ["IAI 1,1+2"]
   },
@@ -1051,7 +1063,7 @@
     "startup": "i16~17",
     "block": "-7",
     "hit": "+15 (+5)",
-    "counter": "",
+    "counter": "+15 (+5)",
     "note": "\n\nBalcony Break\n\nTornado\n\n",
     "alternateInputs": ["IAI 2"]
   },
@@ -1063,7 +1075,7 @@
     "startup": "i17",
     "block": "-14",
     "hit": "+25 (+10)",
-    "counter": "",
+    "counter": "+25 (+10)",
     "note": "\n\nKnee\n\n",
     "alternateInputs": ["IAI 3"]
   },
@@ -1087,7 +1099,7 @@
     "startup": ",i26~27",
     "block": "-5",
     "hit": "+26 (+0)",
-    "counter": "+55a (+35)",
+    "counter": "Launch T!",
     "note": "\n\nBalcony Break\n\nTailspin\n\n",
     "alternateInputs": ["IAI 4,2"]
   },
@@ -1099,7 +1111,7 @@
     "startup": "i20~21",
     "block": "+3",
     "hit": "+20 (-6)",
-    "counter": "",
+    "counter": "+20 (-6)",
     "note": "\nDeals chip damage on block\n\n",
     "alternateInputs": ["IAI 1+2"]
   },
@@ -1111,7 +1123,7 @@
     "startup": "i23~24",
     "block": "+1",
     "hit": "-1 (-8)",
-    "counter": "",
+    "counter": "-1 (-8)",
     "note": "\nTransition to IAI\nDeals chip damage on block\n\n",
     "alternateInputs": ["IAI d+2"]
   },
@@ -1123,7 +1135,7 @@
     "startup": "i23~24",
     "block": "+8",
     "hit": "+20 (+2)",
-    "counter": "",
+    "counter": "+20 (+2)",
     "note": "\nTransition to IAI on hit\n\n",
     "alternateInputs": ["in heat IAI d+2"]
   },
@@ -1135,7 +1147,7 @@
     "startup": "i20~21,i14~15",
     "block": "-29",
     "hit": "-3",
-    "counter": "",
+    "counter": "-3",
     "note": "\n\n",
     "alternateInputs": ["IAI d+1+2"]
   },
@@ -1169,7 +1181,7 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i16~17",
-    "block": "",
+    "block": "N/A",
     "hit": "+60 (+44)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nTornado\n\n",
@@ -1192,7 +1204,7 @@
     "input": "f+3",
     "hit_level": "sp",
     "damage": "",
-    "startup": "",
+    "startup": "i20",
     "block": "",
     "hit": "",
     "counter": "",
@@ -1207,7 +1219,7 @@
     "startup": "i19~20",
     "block": "-13",
     "hit": "+4",
-    "counter": "",
+    "counter": "+13g",
     "note": "\n\n",
     "alternateInputs": ["PRF 1"]
   },
@@ -1219,7 +1231,7 @@
     "startup": "i12~13",
     "block": "-8",
     "hit": "+1",
-    "counter": "",
+    "counter": "+1",
     "note": "\n\n",
     "alternateInputs": ["PRF 2"]
   },
@@ -1231,7 +1243,7 @@
     "startup": ",i13~14",
     "block": "-4 IAI",
     "hit": "+5 IAI",
-    "counter": "",
+    "counter": "+5 IAI",
     "note": "\nTransition to IAI (Cannot cancel)\n\n",
     "alternateInputs": ["PRF 2,2"]
   },
@@ -1255,7 +1267,7 @@
     "startup": ",i12",
     "block": "-13",
     "hit": "+7d",
-    "counter": "",
+    "counter": "+7d",
     "note": "\n\n",
     "alternateInputs": ["PRF 2,2,1+2"]
   },
@@ -1267,7 +1279,7 @@
     "startup": "i15~17",
     "block": "-8",
     "hit": "+41 (-17)",
-    "counter": "",
+    "counter": "+41 (-17)",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nKnee\n\n",
     "alternateInputs": ["PRF 3"]
   },
@@ -1279,7 +1291,7 @@
     "startup": "i18~19",
     "block": "-6",
     "hit": "+13g",
-    "counter": "",
+    "counter": "+14c",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": ["PRF 4"]
   },
@@ -1291,7 +1303,7 @@
     "startup": "i25~27",
     "block": "+4",
     "hit": "+14a",
-    "counter": "",
+    "counter": "+14a",
     "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
     "alternateInputs": ["PRF 1+2"]
   },
@@ -1300,7 +1312,7 @@
     "input": "PRF df",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i25~27",
+    "startup": "i21",
     "block": "",
     "hit": "",
     "counter": "",
@@ -1327,7 +1339,7 @@
     "startup": "i16,i10~11",
     "block": "-23, -13",
     "hit": "+0",
-    "counter": "",
+    "counter": "+0",
     "note": "\n\n",
     "alternateInputs": ["FC 1+2"]
   },
@@ -1339,7 +1351,7 @@
     "startup": "i18~19",
     "block": "-9",
     "hit": "+15 (+5)",
-    "counter": "",
+    "counter": "+15 (+5)",
     "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["SS 1+2"]
   },

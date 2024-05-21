@@ -144,7 +144,7 @@
     "alternateInputs": ["3,2,NSS 1+2"]
   },
   {
-    "name": "NSS Flash",
+    "name": "Soul Stealer",
     "input": "NSS 1+4",
     "hit_level": "m",
     "damage": "20",
@@ -152,7 +152,7 @@
     "block": "-15~-12",
     "hit": "+14 +64a",
     "counter": "",
-    "note": "\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit\nCauses Strong Aerial Tailspin\nAlternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit\nAlternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\n",
     "alternateInputs": ["NSS 1+4"]
   },
   {
@@ -380,7 +380,7 @@
     "block": "-9~-8",
     "hit": "+5~+6",
     "counter": "",
-    "note": "\n",
+    "note": "Sometimes written Enma\n",
     "alternateInputs": ["3"]
   },
   {
@@ -3108,7 +3108,7 @@
     "alternateInputs": ["4,4,2,2,NSS 1~1"]
   },
   {
-    "name": "NSS Flash",
+    "name": "Soul Stealer",
     "input": "NSS 1+4",
     "hit_level": "m",
     "damage": "20",
@@ -3116,7 +3116,7 @@
     "block": "-15~-12",
     "hit": "+14 +64a",
     "counter": "",
-    "note": "\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit\nAlternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nWeapon\nKnockdown against BT opponent, +19a (+9)\n4 chip damage on block\nRecovers health on hit\nAlternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4\n",
     "alternateInputs": ["NSS 1+4"]
   },
   {
@@ -3701,10 +3701,10 @@
     "hit_level": "M",
     "damage": "15",
     "startup": "i30~31",
-    "block": "-2c~-1c",
-    "hit": "+10a",
+    "block": "-2c~-1c / +2",
+    "hit": "+10a / +46a",
     "counter": "+46a",
-    "note": "\n\nSpike\n\nWeapon\n7 chip damage on block\nPower up in Heat\n",
+    "note": "\n\nSpike\n\nWeapon\n7 chip damage on block\nPower up in Heat: +2 ob, 14 chip dmg, launch on normal hit, 20 dmg, recovers health on hit\nPartially uses remaining Heat time\n\n",
     "alternateInputs": ["DGF 1"]
   },
   {
@@ -3797,10 +3797,10 @@
     "hit_level": "h,h,h",
     "damage": "10,10,20",
     "startup": "i16~17 i11~12 i11~12",
-    "block": "-2~-1",
+    "block": "-2~-1 / +4",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\n\nWeapon\n12 chip damage on block\nPower up in Heat\n",
+    "note": "\n\nHoming\n\nBalcony Break\n\nWeapon\n12 chip damage on block\nPower up in Heat: +4 ob, 17 (4,4,9) chip dmg, recovers health on hit\nPartially uses remaining Heat time\n\n",
     "alternateInputs": ["DGF f+1+2"]
   },
   {
