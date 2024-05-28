@@ -901,7 +901,7 @@
   },
   {
     "name": "Cossack Smash",
-    "input": "db+3,1+2",
+    "input": "db+3, 1+2",
     "hit_level": "l,h",
     "damage": "15,21",
     "startup": "i34",
@@ -909,7 +909,7 @@
     "hit": "+43a (-15)",
     "counter": "",
     "note": "\n\nBalcony Break \n",
-    "alternateInputs": ["db+3,1+2"]
+    "alternateInputs": ["db+3, 1+2"]
   },
   {
     "name": "Big Boot",
@@ -2233,7 +2233,7 @@
   },
   {
     "name": "Cossack Compactor",
-    "input": "db+3,d+1+2",
+    "input": "db+3, d+1+2",
     "hit_level": "l,m (th)",
     "damage": "15,4,5,5,5,5,21",
     "startup": "i34",
@@ -2241,7 +2241,7 @@
     "hit": "0",
     "counter": "",
     "note": "\nCrouch throw (Unbreakable)\nCan be executed after any hit of Cossack Kicks (DB+3,4,3...)\n\n",
-    "alternateInputs": ["db+3,d+1+2"]
+    "alternateInputs": ["db+3, d+1+2"]
   },
   {
     "name": "Twin Drivers",
