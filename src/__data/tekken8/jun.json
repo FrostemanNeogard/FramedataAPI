@@ -576,7 +576,7 @@
     "alternateInputs": ["df+1,1"]
   },
   {
-    "name": "Bull's-Eye",
+    "name": "Aya Stitch",
     "input": "df+1,2",
     "hit_level": "m,h",
     "damage": "10,12",
@@ -1628,7 +1628,7 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nRestores recoverable health\nOpponent recovers FDFA\n",
+    "note": "\nRestores up to 37 recoverable health\nOpponent recovers FDFA\n",
     "alternateInputs": ["f+3+4,P (Low)"]
   },
   {
@@ -1664,7 +1664,7 @@
     "block": "-13~-12",
     "hit": "+0d",
     "counter": "",
-    "note": "\nTransitions to attack throw on front hit only, otherwise knockdown\nDeals recoverable self-damage when not in Heat\nFrame advantage is -9 if an attack is absorbed\nChip damage on block if an attack is absorbed\n",
+    "note": "\nTransitions to attack throw on front hit only, otherwise knockdown\nDeals recoverable self-damage (less in Heat)\nFrame advantage is -9 if an attack is absorbed\nChip damage on block if an attack is absorbed\n",
     "alternateInputs": ["GEN 2"]
   },
   {

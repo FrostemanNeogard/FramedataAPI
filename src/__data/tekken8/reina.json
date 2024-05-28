@@ -924,6 +924,18 @@
     "alternateInputs": ["uf+4"]
   },
   {
+    "name": "Silver Gleam",
+    "input": "ub+4",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i17~18",
+    "block": "-13",
+    "hit": "+16a (-1)",
+    "counter": "",
+    "note": "\n\nTornado\n\nBalcony Break\nSometimes written hopkick\n",
+    "alternateInputs": ["ub+4"]
+  },
+  {
     "name": "",
     "input": "uf+3+4",
     "hit_level": "mm",
@@ -1350,7 +1362,7 @@
     "damage": "24",
     "startup": "i26~27",
     "block": "+4",
-    "hit": "+12g",
+    "hit": "+12d",
     "counter": "",
     "note": "\nDeals chip damage on block\n\n",
     "alternateInputs": ["SEN 4"]
@@ -1664,7 +1676,7 @@
     "block": "",
     "hit": "+10d",
     "counter": "",
-    "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\nSometimes written \nHW.1+3\nHW.2+4\n\n",
+    "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\nDoes 35 damage on wall hit\nSometimes written \nHW.1+3\nHW.2+4\n\n",
     "alternateInputs": ["WRA 1+3"]
   },
   {
@@ -1736,7 +1748,7 @@
     "block": "-13",
     "hit": "+0",
     "counter": "+13g",
-    "note": "\n",
+    "note": "Sometimes written sidestep 4\n",
     "alternateInputs": ["SS 4"]
   },
   {
@@ -1748,7 +1760,7 @@
     "block": "-14",
     "hit": "+54",
     "counter": "",
-    "note": "crumple stun on normal hit\n",
+    "note": "Strong Aerial TailspinSometimes written \nback facing 4\nback turned 4\n\n",
     "alternateInputs": ["BT 4"]
   },
   {
@@ -1916,7 +1928,7 @@
     "block": "",
     "hit": "+10d",
     "counter": "",
-    "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\nSometimes written \nHW.1+3\nHW.2+4\n\n",
+    "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\nDoes 35 damage on wall hit\nSometimes written \nHW.1+3\nHW.2+4\n\n",
     "alternateInputs": ["WRA 1+3"]
   }
 ]

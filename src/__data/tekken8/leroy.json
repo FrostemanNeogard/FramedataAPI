@@ -392,7 +392,7 @@
     "block": "-8",
     "hit": "-6",
     "counter": "",
-    "note": "power up during Heat (partially uses remaining Heat time)\n",
+    "note": "\njail from 1st hit\npower up during Heat (partially uses remaining Heat time) \n",
     "alternateInputs": ["f+3,1+2"]
   },
   {
@@ -834,9 +834,9 @@
     "damage": "35",
     "startup": "i13",
     "block": "",
-    "hit": "+6",
+    "hit": "+21g",
     "counter": "",
-    "note": "\nAlternate input: P.b+2,2\npower up during Heat (partially uses remaining Heat time)\n\n",
+    "note": "\nAlternate input: P.b+2,2\npower up during Heat (partially uses remaining Heat time)\n\nWall Crush on hit\n\n\n",
     "alternateInputs": ["P b+2,1"]
   },
   {

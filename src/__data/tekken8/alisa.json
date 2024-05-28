@@ -1059,25 +1059,13 @@
     "name": "Worm Virus",
     "input": "f,F+1+2",
     "hit_level": "mm",
-    "damage": "5,10",
+    "damage": "5,10 (28)",
     "startup": "i17~18,i12~13",
     "block": "-9",
     "hit": "+4",
-    "counter": "",
+    "counter": "+13",
     "note": "\n\n",
     "alternateInputs": ["f,F+1+2"]
-  },
-  {
-    "name": "Killer Worm Virus",
-    "input": "CH f,F+1+2",
-    "hit_level": "m",
-    "damage": "28",
-    "startup": "i17~18",
-    "block": "",
-    "hit": "+13",
-    "counter": "",
-    "note": "\n\n",
-    "alternateInputs": ["CH f,F+1+2"]
   },
   {
     "name": "Double Rocket Punch",

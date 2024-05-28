@@ -104,7 +104,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
+    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nRecover Heat and recoverable health when absorbing an attack\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -260,7 +260,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
+    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nRecover Heat and recoverable health when absorbing an attack\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -634,6 +634,18 @@
     "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": ["df+3+4"]
+  },
+  {
+    "name": "Body Press",
+    "input": "df+1+3",
+    "hit_level": "sm",
+    "damage": "20",
+    "startup": "i30~49",
+    "block": "-11",
+    "hit": "+0d~+19d",
+    "counter": "",
+    "note": "{{}}\n",
+    "alternateInputs": ["df+1+3"]
   },
   {
     "name": "Debugger",
@@ -1274,7 +1286,7 @@
   {
     "name": "Cemaho Chop",
     "input": "f,f,F+2",
-    "hit_level": "h",
+    "hit_level": "m",
     "damage": "25",
     "startup": "i22",
     "block": "+10",
@@ -1724,7 +1736,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
+    "note": "\nWhen timed with opponent attack, or absorbing an attack, shift to Gamma Charge\nRecover Heat and recoverable health when absorbing an attack\nGamma Charge is always\nin effect during Heat\n\nAlternate input: ws3+4\n\n",
     "alternateInputs": ["3+4"]
   },
   {
@@ -1733,7 +1745,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i22",
-    "block": "-10",
+    "block": "-9",
     "hit": "+25d",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break \n",
@@ -1849,7 +1861,7 @@
   },
   {
     "name": "Jaguar Hook - Gamma",
-    "input": "in heat GMH 1",
+    "input": "GMC 1",
     "hit_level": "m",
     "damage": "22",
     "startup": "i22",
@@ -1857,11 +1869,11 @@
     "hit": "+73a (+57)",
     "counter": "",
     "note": "\n\nHoming\n\nPartially uses remaining Heat time\nChip damage on block \n",
-    "alternateInputs": ["in heat GMH 1"]
+    "alternateInputs": ["GMC 1"]
   },
   {
     "name": "Exaton Blast - Gamma",
-    "input": "in heat GMH 2",
+    "input": "GMC 2",
     "hit_level": "h",
     "damage": "22",
     "startup": "i20",
@@ -1869,7 +1881,7 @@
     "hit": "+31a (+5)",
     "counter": "",
     "note": "\n\nTornado\n\nGuard Break\n\nBalcony Break\nPartially uses remaining Heat time\nChip damage on block \n",
-    "alternateInputs": ["in heat GMH 2"]
+    "alternateInputs": ["GMC 2"]
   },
   {
     "name": "Sit Down",
