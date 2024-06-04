@@ -25,7 +25,7 @@
   },
   {
     "name": "Malice of Azazel",
-    "input": "in heat SCin rage 2+3",
+    "input": "in heat SCR 2+3",
     "hit_level": "l,m",
     "damage": "10,20",
     "startup": "i19",
@@ -33,7 +33,7 @@
     "hit": "+44d (+25)",
     "counter": "",
     "note": "\n\nHeat Smash\n\nBalcony Break \n",
-    "alternateInputs": ["in heat SCin rage 2+3"]
+    "alternateInputs": ["in heat SCR 2+3"]
   },
   {
     "name": "Malicious Nail",
@@ -61,7 +61,7 @@
   },
   {
     "name": "",
-    "input": "SCin rage 2,1",
+    "input": "SCR 2,1",
     "hit_level": "m,m",
     "damage": "17,25",
     "startup": "i21",
@@ -69,7 +69,7 @@
     "hit": "+30d(+20)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n\n",
-    "alternateInputs": ["SCin rage 2,1"]
+    "alternateInputs": ["SCR 2,1"]
   },
   {
     "name": "",
@@ -1045,7 +1045,7 @@
   },
   {
     "name": "",
-    "input": "SCin rage db",
+    "input": "SCR db",
     "hit_level": "",
     "damage": "",
     "startup": "19",
@@ -1053,11 +1053,11 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage db"]
+    "alternateInputs": ["SCR db"]
   },
   {
     "name": "",
-    "input": "SCin rage 1",
+    "input": "SCR 1",
     "hit_level": "h",
     "damage": "12",
     "startup": "i10~11",
@@ -1065,11 +1065,11 @@
     "hit": "+9",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage 1"]
+    "alternateInputs": ["SCR 1"]
   },
   {
     "name": "",
-    "input": "SCin rage 1,4",
+    "input": "SCR 1,4",
     "hit_level": "h,m",
     "damage": "12,18",
     "startup": "i22",
@@ -1077,11 +1077,11 @@
     "hit": "+7",
     "counter": "+32d",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage 1,4"]
+    "alternateInputs": ["SCR 1,4"]
   },
   {
     "name": "",
-    "input": "SCin rage 2",
+    "input": "SCR 2",
     "hit_level": "m",
     "damage": "17",
     "startup": "i14",
@@ -1089,11 +1089,11 @@
     "hit": "+7",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage 2"]
+    "alternateInputs": ["SCR 2"]
   },
   {
     "name": "",
-    "input": "SCin rage 2,1",
+    "input": "SCR 2,1",
     "hit_level": "m,m",
     "damage": "17,25",
     "startup": "i21",
@@ -1101,11 +1101,11 @@
     "hit": "+30d(+20)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n\n",
-    "alternateInputs": ["SCin rage 2,1"]
+    "alternateInputs": ["SCR 2,1"]
   },
   {
     "name": "",
-    "input": "SCin rage 2,2",
+    "input": "SCR 2,2",
     "hit_level": "m,m",
     "damage": "17,17",
     "startup": "i22",
@@ -1113,11 +1113,11 @@
     "hit": "+8c",
     "counter": "+8d",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage 2,2"]
+    "alternateInputs": ["SCR 2,2"]
   },
   {
     "name": "",
-    "input": "SCin rage 3",
+    "input": "SCR 3",
     "hit_level": "m",
     "damage": "15",
     "startup": "i13",
@@ -1125,11 +1125,11 @@
     "hit": "+5",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage 3"]
+    "alternateInputs": ["SCR 3"]
   },
   {
     "name": "",
-    "input": "SCin rage 3,3",
+    "input": "SCR 3,3",
     "hit_level": "m,h",
     "damage": "15,20",
     "startup": "i16",
@@ -1137,11 +1137,11 @@
     "hit": "+25a(+15)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["SCin rage 3,3"]
+    "alternateInputs": ["SCR 3,3"]
   },
   {
     "name": "",
-    "input": "SCin rage 4",
+    "input": "SCR 4",
     "hit_level": "m",
     "damage": "20",
     "startup": "i15~16",
@@ -1149,11 +1149,11 @@
     "hit": "+58a(+42)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["SCin rage 4"]
+    "alternateInputs": ["SCR 4"]
   },
   {
     "name": "",
-    "input": "SCin rage 1+2",
+    "input": "SCR 1+2",
     "hit_level": "m",
     "damage": "20",
     "startup": "i17~19",
@@ -1161,11 +1161,11 @@
     "hit": "+17d",
     "counter": "",
     "note": "\nHold D to transition to TRT (remains +6/+17d)\n\n",
-    "alternateInputs": ["SCin rage 1+2"]
+    "alternateInputs": ["SCR 1+2"]
   },
   {
     "name": "",
-    "input": "SCin rage 3+4",
+    "input": "SCR 3+4",
     "hit_level": "m,m",
     "damage": "10,20",
     "startup": "i18~19 i6~8",
@@ -1173,11 +1173,11 @@
     "hit": "+8",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["SCin rage 3+4"]
+    "alternateInputs": ["SCR 3+4"]
   },
   {
     "name": "",
-    "input": "SCin rage df+1",
+    "input": "SCR df+1",
     "hit_level": "m,m",
     "damage": "10,20",
     "startup": "i18 i17~19",
@@ -1185,11 +1185,11 @@
     "hit": "+33a(+18)",
     "counter": "",
     "note": "\n\nTornado\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n8 chip damage on block\n\n",
-    "alternateInputs": ["SCin rage df+1"]
+    "alternateInputs": ["SCR df+1"]
   },
   {
     "name": "",
-    "input": "SCin rage df+3",
+    "input": "SCR df+3",
     "hit_level": "l",
     "damage": "10",
     "startup": "i28~30",
@@ -1197,11 +1197,11 @@
     "hit": "-10c",
     "counter": "",
     "note": "\n\nHoming\n\n",
-    "alternateInputs": ["SCin rage df+3"]
+    "alternateInputs": ["SCR df+3"]
   },
   {
     "name": "",
-    "input": "SCin rage df+3,3",
+    "input": "SCR df+3,3",
     "hit_level": "l,l",
     "damage": "10,10",
     "startup": "i29~31",
@@ -1209,11 +1209,11 @@
     "hit": "+54a(+38)",
     "counter": "",
     "note": "\n\nHoming\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n\n",
-    "alternateInputs": ["SCin rage df+3,3"]
+    "alternateInputs": ["SCR df+3,3"]
   },
   {
     "name": "",
-    "input": "SCin rage df+4",
+    "input": "SCR df+4",
     "hit_level": "l",
     "damage": "17",
     "startup": "i19~20",
@@ -1221,11 +1221,11 @@
     "hit": "+7c",
     "counter": "+37a",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage df+4"]
+    "alternateInputs": ["SCR df+4"]
   },
   {
     "name": "",
-    "input": "SCin rage d+3",
+    "input": "SCR d+3",
     "hit_level": "l",
     "damage": "10",
     "startup": "i18",
@@ -1233,11 +1233,11 @@
     "hit": "-3",
     "counter": "+9c",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage d+3"]
+    "alternateInputs": ["SCR d+3"]
   },
   {
     "name": "",
-    "input": "SCin rage d+3,3",
+    "input": "SCR d+3,3",
     "hit_level": "l,h",
     "damage": "10,28",
     "startup": "i24",
@@ -1245,11 +1245,11 @@
     "hit": "+77a(+61)",
     "counter": "",
     "note": "\nCan hold B to exit SCR (becomes -1/\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n\n",
-    "alternateInputs": ["SCin rage d+3,3"]
+    "alternateInputs": ["SCR d+3,3"]
   },
   {
     "name": "",
-    "input": "SCin rage d+4",
+    "input": "SCR d+4",
     "hit_level": "l",
     "damage": "20",
     "startup": "i24~30",
@@ -1257,11 +1257,11 @@
     "hit": "-4d",
     "counter": "",
     "note": "\nCan hold D to transition to MNT (remains -25/-4d)\n\n",
-    "alternateInputs": ["SCin rage d+4"]
+    "alternateInputs": ["SCR d+4"]
   },
   {
     "name": "",
-    "input": "SCin rage d+3+4",
+    "input": "SCR d+3+4",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1269,11 +1269,11 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCin rage d+3+4"]
+    "alternateInputs": ["SCR d+3+4"]
   },
   {
     "name": "",
-    "input": "SCin rage b+1+2",
+    "input": "SCR b+1+2",
     "hit_level": "l",
     "damage": "16",
     "startup": "i16",
@@ -1281,7 +1281,7 @@
     "hit": "+3",
     "counter": "+12d",
     "note": "\nEvasive (can go below some mids)\n\n",
-    "alternateInputs": ["SCin rage b+1+2"]
+    "alternateInputs": ["SCR b+1+2"]
   },
   {
     "name": "",
