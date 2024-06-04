@@ -613,7 +613,7 @@
   },
   {
     "name": "Nen Dougarami",
-    "input": "Cin heat df+3+4",
+    "input": "CH df+3+4",
     "hit_level": "m,th",
     "damage": "6,35",
     "startup": "i16",
@@ -621,7 +621,7 @@
     "hit": "+0",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["Cin heat df+3+4"]
+    "alternateInputs": ["CH df+3+4"]
   },
   {
     "name": "Kasho Maki-manji",
@@ -1417,7 +1417,7 @@
   },
   {
     "name": "Senshin Karami-ate",
-    "input": "SSin heat 3",
+    "input": "SSH 3",
     "hit_level": "L",
     "damage": "26",
     "startup": "i32",
@@ -1425,11 +1425,11 @@
     "hit": "-4c",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SSin heat 3"]
+    "alternateInputs": ["SSH 3"]
   },
   {
     "name": "Nen Ashigarami",
-    "input": "SSin heat Cin heat 3",
+    "input": "SSH CH 3",
     "hit_level": "l",
     "damage": "33,18",
     "startup": "i22",
@@ -1437,11 +1437,11 @@
     "hit": "+0",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SSin heat Cin heat 3"]
+    "alternateInputs": ["SSH CH 3"]
   },
   {
     "name": "Senshin Hiei",
-    "input": "SSin heat uf",
+    "input": "SSH uf",
     "hit_level": "sp",
     "damage": "",
     "startup": "i22",
@@ -1449,11 +1449,11 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SSin heat uf"]
+    "alternateInputs": ["SSH uf"]
   },
   {
     "name": "Senshin Chuten-geri",
-    "input": "SSin heat uf+3",
+    "input": "SSH uf+3",
     "hit_level": "m",
     "damage": "22",
     "startup": "i30~33",
@@ -1461,11 +1461,11 @@
     "hit": "+32a (+24)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["SSin heat uf+3"]
+    "alternateInputs": ["SSH uf+3"]
   },
   {
     "name": "Senshin Tobi Kaijo-geri",
-    "input": "SSin heat uf+4",
+    "input": "SSH uf+4",
     "hit_level": "h",
     "damage": "28",
     "startup": "i32~33",
@@ -1473,7 +1473,7 @@
     "hit": "+31a (+5)",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\nCan transition to WRA (+8/+35a (+9)/-) with input D\n\n",
-    "alternateInputs": ["SSin heat uf+4"]
+    "alternateInputs": ["SSH uf+4"]
   },
   {
     "name": "Unsoku Gen",
