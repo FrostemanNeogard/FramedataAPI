@@ -18,7 +18,7 @@
     "damage": "50 (28)",
     "startup": "i20~21",
     "block": "+8",
-    "hit": "KND",
+    "hit": "-15d",
     "counter": "",
     "note": "\nAlternate input: H.DES.2+3\n\nHeat Smash\nTransition to SBT with H.2+3,3_4 or H.DES.2+3,f+3_f+4\n\n",
     "alternateInputs": ["in heat 2+3"]
@@ -96,13 +96,13 @@
     "alternateInputs": ["uf+2"]
   },
   {
-    "name": "Gigaherz Storm",
+    "name": "Gigahertz Storm",
     "input": "DES f+2,1,2",
     "hit_level": "mmm",
     "damage": "9",
     "startup": "i16~17",
     "block": "-13",
-    "hit": "KND",
+    "hit": "+30d",
     "counter": "",
     "note": "\n\nHeat Engager\n\nchip damage on block\n\n",
     "alternateInputs": ["DES f+2,1,2"]
@@ -763,7 +763,7 @@
     "startup": "i15~16",
     "block": "-13",
     "hit": "-4",
-    "counter": "Launch",
+    "counter": "+54",
     "note": "\n\n",
     "alternateInputs": ["b+4"]
   },
@@ -870,7 +870,7 @@
     "damage": "25",
     "startup": "i37~39",
     "block": "+2c",
-    "hit": "+25 KND",
+    "hit": "+25",
     "counter": "",
     "note": "\n\n",
     "alternateInputs": ["ub+3+4"]
@@ -1278,7 +1278,7 @@
     "damage": "15",
     "startup": "i20",
     "block": "-8",
-    "hit": "Launch",
+    "hit": "+37 (+27)",
     "counter": "",
     "note": "\nTransition to DES\nchip damage on block\n\n",
     "alternateInputs": ["DES 2"]
@@ -1356,13 +1356,13 @@
     "alternateInputs": ["DES f+2,1"]
   },
   {
-    "name": "Gigaherz Storm",
+    "name": "Gigahertz Storm",
     "input": "DES f+2,1,2",
     "hit_level": "mmm",
     "damage": "9",
     "startup": "i15",
     "block": "-13",
-    "hit": "KND",
+    "hit": "+30d",
     "counter": "",
     "note": "\n\nHeat Engager\n\nchip damage on block\n\n",
     "alternateInputs": ["DES f+2,1,2"]
@@ -1459,7 +1459,7 @@
     "startup": "i18~20",
     "block": "-12",
     "hit": "0",
-    "counter": "Launch",
+    "counter": "+18a",
     "note": "\nchip damage on block\n\n",
     "alternateInputs": ["DES b+2"]
   },
@@ -1639,7 +1639,7 @@
     "startup": "i16~20",
     "block": "-14c",
     "hit": "+4c",
-    "counter": "Launch",
+    "counter": "+28a",
     "note": "\n\n",
     "alternateInputs": ["SBT 3"]
   },
@@ -1723,7 +1723,7 @@
     "startup": "i6~20",
     "block": "-14c",
     "hit": "+4c",
-    "counter": "+28 KND",
+    "counter": "+28a",
     "note": "\n\n",
     "alternateInputs": ["DBT 3"]
   },
@@ -1758,7 +1758,7 @@
     "damage": "49",
     "startup": "i19~21",
     "block": "-11",
-    "hit": "+0 KND",
+    "hit": "+0d",
     "counter": "",
     "note": "\nchip damage on block\nthrow on front hit\n\n",
     "alternateInputs": ["DBT f+1"]

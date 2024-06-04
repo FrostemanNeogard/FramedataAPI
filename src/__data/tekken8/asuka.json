@@ -43,7 +43,7 @@
     "startup": "i18",
     "block": "-4c",
     "hit": "+9c",
-    "counter": "KND",
+    "counter": "",
     "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": ["d+2"]
   },
@@ -54,8 +54,8 @@
     "damage": "13,20",
     "startup": "i26~27",
     "block": "-9",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+22a (+13)",
+    "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nGain Naniwa Gusto on Heat activation\nCombo from 1st hit\nCan be delayed 9F\nCombo can be delayed 9F from hit\n\n",
     "alternateInputs": ["db+1,2"]
   },
@@ -66,8 +66,8 @@
     "damage": "23",
     "startup": "i13",
     "block": "-13",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+13a (+4)",
+    "counter": "",
     "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": ["SS 2"]
   },
@@ -138,7 +138,7 @@
     "damage": "6,9,24",
     "startup": "i31~33",
     "block": "-2",
-    "hit": "KND",
+    "hit": "+29a (+20)",
     "counter": "",
     "note": "\nChip on block\nLink to f+4\nCan interrupt with up to i15 if previous hit is blocked\nCancel with input 1,2,3,B\nLast input can be held to power up\n",
     "alternateInputs": ["1,2,3"]
@@ -150,7 +150,7 @@
     "damage": "6,9,20",
     "startup": "i18~19",
     "block": "-12",
-    "hit": "KND",
+    "hit": "+12a",
     "counter": "",
     "note": "Combo from 2nd CH\n",
     "alternateInputs": ["1,2,4"]
@@ -198,7 +198,7 @@
     "damage": "9,10,16",
     "startup": "i26~27",
     "block": "-10",
-    "hit": "KND",
+    "hit": "+16a (-1)",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["2,1,2"]
@@ -211,7 +211,7 @@
     "startup": "i28~30",
     "block": "-9",
     "hit": "+3c",
-    "counter": "JG",
+    "counter": "+38a",
     "note": "\nCombo from 2nd CH\nCancel to standing with input 2,1,d+1+2,B\nCancel to FC with input 2,1,d+1+2,D\n",
     "alternateInputs": ["2,1,d+1+2"]
   },
@@ -222,7 +222,7 @@
     "damage": "9,16",
     "startup": "i22~23",
     "block": "-19",
-    "hit": "KND",
+    "hit": "+14gc",
     "counter": "",
     "note": "Combo from 1st hit\n",
     "alternateInputs": ["2,3"]
@@ -247,7 +247,7 @@
     "startup": "i18~19",
     "block": "-11",
     "hit": "+8",
-    "counter": "KND",
+    "counter": "+35a (+27)",
     "note": "\nCombo from 1st hit\nCan be delayed 14f\nCombo can be delayed 14f from hit\n\n",
     "alternateInputs": ["3,1"]
   },
@@ -259,7 +259,7 @@
     "startup": "i11",
     "block": "-7",
     "hit": "+7",
-    "counter": "JG",
+    "counter": "+32a",
     "note": "\n",
     "alternateInputs": ["4"]
   },
@@ -270,8 +270,8 @@
     "damage": "21",
     "startup": "i16~17",
     "block": "-9",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+27a",
+    "counter": "",
     "note": "\n",
     "alternateInputs": ["1+2"]
   },
@@ -282,7 +282,7 @@
     "damage": "10,21",
     "startup": "i23",
     "block": "-6",
-    "hit": "KND",
+    "hit": "+25d",
     "counter": "",
     "note": "\nSpecial effect when hitting grounded opponents\nCancel to FC with input 3+4,D\n\n",
     "alternateInputs": ["3+4"]
@@ -319,7 +319,7 @@
     "startup": "i24",
     "block": "-9",
     "hit": "+4",
-    "counter": "KND",
+    "counter": "+17a (+8)",
     "note": "\nCombo from 3rd CH\n\n",
     "alternateInputs": ["1+4,2,4"]
   },
@@ -330,7 +330,7 @@
     "damage": "5,8,10,15",
     "startup": "i24~25",
     "block": "-23",
-    "hit": "KND",
+    "hit": "+27d",
     "counter": "",
     "note": "\nCombo from 3rd CH\n\n",
     "alternateInputs": ["1+4,2,d+4"]
@@ -342,7 +342,7 @@
     "damage": "5,8,25",
     "startup": "i31~33",
     "block": "-2",
-    "hit": "KND",
+    "hit": "+29a (+20)",
     "counter": "",
     "note": "\nChip on block\nLink to attack from Spinning Heel Drop (f+3)\nCan be cancelled with input B\nLast input can be held to power up\n\n",
     "alternateInputs": ["1+4,3"]
@@ -390,7 +390,7 @@
     "damage": "20",
     "startup": "i17",
     "block": "-18",
-    "hit": "JG",
+    "hit": "+33a (+23)",
     "counter": "",
     "note": "\nCan be cancelled with input f+2,D\nGain NWG on hit with input f+2,1\nSometimes written Tooth Fairy\n",
     "alternateInputs": ["f+2"]
@@ -402,8 +402,8 @@
     "damage": "24",
     "startup": "i31~i33",
     "block": "-2~+0",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+29a (+20)",
+    "counter": "",
     "note": "\nChip damage when guarded\nCan be cancelled with input B\n\n",
     "alternateInputs": ["f+3"]
   },
@@ -414,8 +414,8 @@
     "damage": "26",
     "startup": "i52~i53",
     "block": "+6~+7",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+28a (+19)",
+    "counter": "",
     "note": "\nChip damage when guarded\nCan be cancelled with input B\n\n",
     "alternateInputs": ["f+3*n"]
   },
@@ -425,9 +425,9 @@
     "hit_level": "ub(m)",
     "damage": "28",
     "startup": "i70",
-    "block": "KND",
-    "hit": "KND",
-    "counter": "KND",
+    "block": "+28a (+19)",
+    "hit": "+28a (+19)",
+    "counter": "",
     "note": "\n\nBalcony Break\nCan be cancelled with input B\n\n",
     "alternateInputs": ["f+3*"]
   },
@@ -439,7 +439,7 @@
     "startup": "i19",
     "block": "+3",
     "hit": "+28",
-    "counter": "KND",
+    "counter": "+28d",
     "note": "\n\nHoming\n",
     "alternateInputs": ["f+4"]
   },
@@ -474,8 +474,8 @@
     "damage": "21",
     "startup": "i23",
     "block": "+0",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+25d",
+    "counter": "",
     "note": "\n\nBalcony Break\nSabaki\nAbsorbs Punch (H/M) during 4 to 15F\nStun on success punch parry\n\n",
     "alternateInputs": ["f+2+3"]
   },
@@ -510,8 +510,8 @@
     "damage": "10,22",
     "startup": "i13",
     "block": "-12",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+22a (+17)",
+    "counter": "+59a",
     "note": "\n\nBalcony Break\nCombo from 1st CH\nCan be delayed 7F\n\n",
     "alternateInputs": ["df+1,4"]
   },
@@ -522,8 +522,8 @@
     "damage": "14",
     "startup": "i15",
     "block": "-6",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+35a (+25)",
+    "counter": "",
     "note": "+5 upon crouch hit\n",
     "alternateInputs": ["df+2"]
   },
@@ -534,8 +534,8 @@
     "damage": "23",
     "startup": "i20",
     "block": "-8",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+12d",
+    "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": ["df+3"]
   },
@@ -558,8 +558,8 @@
     "damage": "22",
     "startup": "i28",
     "block": "-26",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+70a (+54)",
+    "counter": "",
     "note": "\n\nHoming\nAlternate input: 3~4\nCancel to FC with input df+3+4,DB\n\n",
     "alternateInputs": ["df+3+4"]
   },
@@ -571,7 +571,7 @@
     "startup": "i18",
     "block": "-4c",
     "hit": "+9c",
-    "counter": "KND",
+    "counter": "",
     "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": ["d+2"]
   },
@@ -582,8 +582,8 @@
     "damage": "20",
     "startup": "i20",
     "block": "-18",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+11d",
+    "counter": "",
     "note": "Same move as FC.1+2\n",
     "alternateInputs": ["d+1+2"]
   },
@@ -594,8 +594,8 @@
     "damage": "5,20",
     "startup": "i14",
     "block": "-25",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+30a (+20)",
+    "counter": "",
     "note": "\nBlock frame is blocked 1st attack\n-6F upon 2nd block\nSometimes written Can Cans\n",
     "alternateInputs": ["d+3+4"]
   },
@@ -618,8 +618,8 @@
     "damage": "13,20",
     "startup": "i26~27",
     "block": "-9",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+22a (+13)",
+    "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nGain Naniwa Gusto on Heat activation\nCombo from 1st hit\nCan be delayed 9F\nCombo can be delayed 9F from hit\n\n",
     "alternateInputs": ["db+1,2"]
   },
@@ -630,7 +630,7 @@
     "damage": "13,25",
     "startup": "i28~29",
     "block": "-15",
-    "hit": "KND",
+    "hit": "+16a (+9)",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["db+1,4"]
@@ -642,8 +642,8 @@
     "damage": "22",
     "startup": "i20",
     "block": "-11",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+32a (+22)",
+    "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["db+2"]
   },
@@ -679,7 +679,7 @@
     "startup": "i31~33",
     "block": "-7",
     "hit": "+4",
-    "counter": "KND",
+    "counter": "+35d",
     "note": "Cancel to FC with input D\n",
     "alternateInputs": ["db+4,4"]
   },
@@ -691,7 +691,7 @@
     "startup": "i31~33",
     "block": "-7",
     "hit": "+4",
-    "counter": "KND",
+    "counter": "+35d",
     "note": "Cancel to FC with input D\n",
     "alternateInputs": ["db+4,4,4"]
   },
@@ -702,8 +702,8 @@
     "damage": "21",
     "startup": "i17",
     "block": "-3",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+39a (+29)",
+    "counter": "",
     "note": "CH combo from Leg Cutter\n",
     "alternateInputs": ["(During Leg Cutter),3"]
   },
@@ -726,7 +726,7 @@
     "damage": "10,20",
     "startup": "i42,i3",
     "block": "+10",
-    "hit": "KND",
+    "hit": "+18a (+9)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nWall Crush  +25g on block \n\nParries lows\n\n",
     "alternateInputs": ["db+1+2"]
@@ -798,8 +798,8 @@
     "damage": "12,7,20",
     "startup": "i36",
     "block": "-13",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+18a (+9)",
+    "counter": "",
     "note": "\nCombo from 2nd CH\n\n",
     "alternateInputs": ["b+2,1+2,4"]
   },
@@ -810,8 +810,8 @@
     "damage": "15",
     "startup": "i16",
     "block": "-19",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+22a (+12)",
+    "counter": "",
     "note": "Sometimes written Backflip\n",
     "alternateInputs": ["b+3"]
   },
@@ -822,8 +822,8 @@
     "damage": "15,20",
     "startup": "i16",
     "block": "-20",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+33a (+23)",
+    "counter": "",
     "note": "\nInterruption 23F after 1st block\nCan be cancelled with input D\non hit, gain NWG with input 1\n\n",
     "alternateInputs": ["b+3,2"]
   },
@@ -847,7 +847,7 @@
     "startup": "i15",
     "block": "-7",
     "hit": "+8",
-    "counter": "KND",
+    "counter": "+56a",
     "note": "\n",
     "alternateInputs": ["b+4"]
   },
@@ -870,8 +870,8 @@
     "damage": "17,12,21",
     "startup": "i15",
     "block": "-16",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+15a (-2)",
+    "counter": "",
     "note": "\nCombo from 2nd hit\nCan be delayed 10F\nCombo can be delayed 10F from hit\non hit, can gain NWG with input 1\n\n",
     "alternateInputs": ["b+4,2,3"]
   },
@@ -919,7 +919,7 @@
     "startup": "i12",
     "block": "-13",
     "hit": "-2",
-    "counter": "KND",
+    "counter": "+16d",
     "note": "Combo from 2nd CH\n",
     "alternateInputs": ["b+1+4,3"]
   },
@@ -954,7 +954,7 @@
     "damage": "20",
     "startup": "i31~i32",
     "block": "-13~-12",
-    "hit": "KND",
+    "hit": "+19d",
     "counter": "",
     "note": "\nChip damage when guarded\n\n",
     "alternateInputs": ["u+1+2"]
@@ -991,7 +991,7 @@
     "startup": "i20~21",
     "block": "-3",
     "hit": "+8",
-    "counter": "KND",
+    "counter": "+33a",
     "note": "\n",
     "alternateInputs": ["uf+3"]
   },
@@ -1002,8 +1002,8 @@
     "damage": "25",
     "startup": "i20",
     "block": "-13",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+31a (+21)",
+    "counter": "",
     "note": "\n",
     "alternateInputs": ["uf+4"]
   },
@@ -1038,8 +1038,8 @@
     "damage": "16,21",
     "startup": "i15",
     "block": "-5",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+45a (-13)",
+    "counter": "",
     "note": "\nCombo from 1st hit\nCan be delayed 13F\nCombo can be delayed 8F from hit\nCombo can be delayed 11F from CH\n\n",
     "alternateInputs": ["f,F+2,1"]
   },
@@ -1050,8 +1050,8 @@
     "damage": "16,22",
     "startup": "i15",
     "block": "-8",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+15d",
+    "counter": "",
     "note": "\nCombo from 1st CH\nCan be delayed 13F\nCombo can be delayed 5F from CH\n\n",
     "alternateInputs": ["f,F+2,3"]
   },
@@ -1062,9 +1062,9 @@
     "damage": "16,25",
     "startup": "i15",
     "block": "-13",
-    "hit": "KND",
+    "hit": "+23a (+13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nGain Naniwa Gusto on hit\n\n",
+    "note": "\n\nBalcony Break\nGain Naniwa Gusto on hit, adv. changes to +0 (-10)\n\n",
     "alternateInputs": ["f,F+2,1+2"]
   },
   {
@@ -1075,7 +1075,7 @@
     "startup": "i20",
     "block": "-9",
     "hit": "+11g",
-    "counter": "KND",
+    "counter": "+35a",
     "note": "\n\nBalcony Break\n\nHoming\n\n",
     "alternateInputs": ["f,F+3"]
   },
@@ -1086,8 +1086,8 @@
     "damage": "28",
     "startup": "i20",
     "block": "-3",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+66a (+46)",
+    "counter": "",
     "note": "\n\nBalcony Break\nCauses Strong Aerial Tailspin\n\n",
     "alternateInputs": ["f,F+4"]
   },
@@ -1098,8 +1098,8 @@
     "damage": "20",
     "startup": "i19",
     "block": "-6",
-    "hit": "KND",
-    "counter": "",
+    "hit": "+29a (+14)",
+    "counter": "+68a (+52)",
     "note": "\nChip damage when guarded\n\nTornado\n\n",
     "alternateInputs": ["f,F+1+2"]
   },
@@ -1110,7 +1110,7 @@
     "damage": "24",
     "startup": "i19",
     "block": "+2",
-    "hit": "KND",
+    "hit": "+67a (+51)",
     "counter": "",
     "note": "\nChip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n\nTornado\n\n",
     "alternateInputs": ["NWG f,F+1+2"]
@@ -1122,8 +1122,8 @@
     "damage": "32",
     "startup": "i24~28",
     "block": "+3~+7",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+16a (+7)",
+    "counter": "",
     "note": "\nChip damage when guarded\nAlternate input: ub,b+3\n\n",
     "alternateInputs": ["f,f,F+3"]
   },
@@ -1218,8 +1218,8 @@
     "damage": "10,10,10,10",
     "startup": "i21",
     "block": "+0c",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+15d",
+    "counter": "",
     "note": "\nInterruption 11F after 2nd block\nCancel into FC with input D\n\n",
     "alternateInputs": ["FC 3+4,3"]
   },
@@ -1242,8 +1242,8 @@
     "damage": "20",
     "startup": "i17",
     "block": "-9",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+34a (+26)",
+    "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": ["FC df+3"]
   },
@@ -1266,8 +1266,8 @@
     "damage": "12,20",
     "startup": "i14",
     "block": "-8",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+37a (+29)",
+    "counter": "",
     "note": "\nCombo from 1st hit\nCan be delayed 7F\n\n",
     "alternateInputs": ["ws1,4"]
   },
@@ -1314,8 +1314,8 @@
     "damage": "20",
     "startup": "i18",
     "block": "-16",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "Asuka_combos#Staples+35a (+25)",
+    "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["ws3"]
   },
@@ -1339,7 +1339,7 @@
     "startup": "i21",
     "block": "-2",
     "hit": "+13g",
-    "counter": "KND",
+    "counter": "+63a",
     "note": "\n\nWall Crush  +25g on hit\n\nCrumple state 17F upon CH\nCancel into FC with input D\n",
     "alternateInputs": ["ws1+2"]
   },
@@ -1350,8 +1350,8 @@
     "damage": "23",
     "startup": "i13",
     "block": "-13",
-    "hit": "KND",
-    "counter": "KND*",
+    "hit": "+13a (+4)",
+    "counter": "",
     "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": ["SS 2"]
   },
@@ -1363,7 +1363,7 @@
     "startup": "i17",
     "block": "-6",
     "hit": "+7",
-    "counter": "KND",
+    "counter": "+30a",
     "note": "Meaty 2F\n",
     "alternateInputs": ["SS 4"]
   },
@@ -1374,7 +1374,7 @@
     "damage": "10,49",
     "startup": "i20",
     "block": "-15",
-    "hit": "KND",
+    "hit": "+0d",
     "counter": "",
     "note": "\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
     "alternateInputs": ["in rage df+1+2"]
@@ -1386,7 +1386,7 @@
     "damage": "60",
     "startup": "i56",
     "block": "+3",
-    "hit": "KND",
+    "hit": "+0d",
     "counter": "",
     "note": "\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
     "alternateInputs": ["in rage df+1+2**"]
@@ -1410,7 +1410,7 @@
     "damage": "21",
     "startup": "i39",
     "block": "+4c",
-    "hit": "KND",
+    "hit": "+22a",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["(Back to wall) b,b,UB"]
@@ -1542,7 +1542,7 @@
     "damage": "15,15,15",
     "startup": "i11",
     "block": "-6",
-    "hit": "LNC",
+    "hit": "+56a (+28)",
     "counter": "",
     "note": "\nBreak: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Reverse Pos. Foot sd. FD\n2nd dmg is on landing\n3rd dmg is non-ukemi bonus\n",
     "alternateInputs": ["FC db+1+2"]
@@ -1554,7 +1554,7 @@
     "damage": ",5,5",
     "startup": "i61",
     "block": "-6",
-    "hit": "LNC",
+    "hit": "",
     "counter": "",
     "note": "\nBreak: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Foot sd. FU\nLeft slap is auto-attack\nThrow breaks 16f later (1f)\n",
     "alternateInputs": ["1+2+3+4,1+2"]

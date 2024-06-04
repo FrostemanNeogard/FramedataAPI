@@ -54,8 +54,8 @@
     "damage": "10,20",
     "startup": ",i20",
     "block": "-11",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+29a (+3)",
+    "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nGrants STB on hit\nCombo from 1st hit\n\n",
     "alternateInputs": ["b+4,2"]
   },
@@ -78,9 +78,9 @@
     "damage": "40",
     "startup": "i13~16",
     "block": "+6",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n\nHeat Engager\n\nGrants STB on hit\n\nBalcony Break\nChip damage when guarded\n\n",
+    "hit": "+24a (+19)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nGrants STB on hit, adv. changes to +1a (-4)\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -187,7 +187,7 @@
     "startup": "i12",
     "block": "-11",
     "hit": "+5",
-    "counter": "LNC",
+    "counter": "+9a",
     "note": "\n",
     "alternateInputs": ["4"]
   },
@@ -199,7 +199,7 @@
     "startup": ",i25~26",
     "block": "+0",
     "hit": "+15Sp",
-    "counter": "KND",
+    "counter": "+22a (+15)",
     "note": "\n\nHoming\n\nBalcony Break\nCombo from 1st hit\nCan be delayed 11F\nCombo can be delayed 5F from hit\n\n",
     "alternateInputs": ["4,3"]
   },
@@ -246,8 +246,8 @@
     "damage": "20",
     "startup": "i24~26",
     "block": "-10",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+9a",
+    "counter": "",
     "note": "\n",
     "alternateInputs": ["3+4"]
   },
@@ -282,8 +282,8 @@
     "damage": "9,12,25",
     "startup": ",i21~22",
     "block": "-18",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+7a (-2)",
+    "counter": "",
     "note": "\n\nBalcony Break\nCan be delayed 14F\nCombo from 1st or 2nd CH\n\n",
     "alternateInputs": ["f+2,1,1+2"]
   },
@@ -294,8 +294,8 @@
     "damage": "9,20",
     "startup": ",i14",
     "block": "-26",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+18a (-13)",
+    "counter": "",
     "note": "\nGrants STB on hit\nCombo from 1st hit\n\n",
     "alternateInputs": ["f+2,2"]
   },
@@ -307,7 +307,7 @@
     "startup": "i18",
     "block": "+0",
     "hit": "+15Sp",
-    "counter": "KND",
+    "counter": "+14",
     "note": "\n\nHoming\n\nBalcony Break on air hit\n\n",
     "alternateInputs": ["f+3"]
   },
@@ -318,8 +318,8 @@
     "damage": "23",
     "startup": "i22~23",
     "block": "+4c",
-    "hit": "",
-    "counter": "KND",
+    "hit": "+4c",
+    "counter": "+28d",
     "note": "\n",
     "alternateInputs": ["f+4"]
   },
@@ -342,8 +342,8 @@
     "damage": "8,16",
     "startup": ",i18",
     "block": "-14",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+64a",
+    "counter": "",
     "note": "\nCombo from 1st hit\nCan be delayed\n\n",
     "alternateInputs": ["f+1+2,1+2"]
   },
@@ -354,8 +354,8 @@
     "damage": "18",
     "startup": "i17",
     "block": "-8",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+19a",
+    "counter": "",
     "note": "Homing\n",
     "alternateInputs": ["f+3+4"]
   },
@@ -378,8 +378,8 @@
     "damage": "10,15",
     "startup": ",i23~24",
     "block": "-15",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+31a (+21)",
+    "counter": "",
     "note": "\nCombo from 1st hit\n\n",
     "alternateInputs": ["df+1,2"]
   },
@@ -391,7 +391,7 @@
     "startup": "i14",
     "block": "-13",
     "hit": "+5",
-    "counter": "KND",
+    "counter": "+58a",
     "note": "\n",
     "alternateInputs": ["df+2"]
   },
@@ -414,8 +414,8 @@
     "damage": "12,18",
     "startup": ",i17~19",
     "block": "-12",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+29a (+14)",
+    "counter": "",
     "note": "\n\nTornado\nCombo from 1st hit\nCan be delayed 14F\n\n",
     "alternateInputs": ["df+3,1"]
   },
@@ -522,8 +522,8 @@
     "damage": "28",
     "startup": "i13~14",
     "block": "-18",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+7a (-2)",
+    "counter": "",
     "note": "\n\nBalcony Break\nSame move as BT.1+2\n\n",
     "alternateInputs": ["d+1+2"]
   },
@@ -571,7 +571,7 @@
     "startup": "i24~25",
     "block": "-15",
     "hit": "+3c",
-    "counter": "KND",
+    "counter": "+27a",
     "note": "\n\n",
     "alternateInputs": ["db+3"]
   },
@@ -606,7 +606,7 @@
     "damage": "20",
     "startup": "i17",
     "block": "-12",
-    "hit": "KND",
+    "hit": "+8a (-9)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\n\n",
     "alternateInputs": ["db+1+2"]
@@ -618,8 +618,8 @@
     "damage": "25",
     "startup": "i18~19",
     "block": "-5",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+12a",
+    "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": ["b+1"]
   },
@@ -630,8 +630,8 @@
     "damage": "25",
     "startup": "i14",
     "block": "-9",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+9a",
+    "counter": "",
     "note": "\n\nTornado\n\n",
     "alternateInputs": ["b+2"]
   },
@@ -649,15 +649,15 @@
   },
   {
     "name": "Crescent Heel",
-    "input": "b+3,n,3",
+    "input": "b+3,3",
     "hit_level": "m,m",
     "damage": "14,21",
     "startup": ",i24~25",
     "block": "-12",
     "hit": "+7c",
-    "counter": "KND",
+    "counter": "+22d",
     "note": "\nCombo from 1st CH\nCan be delayed\n\n",
-    "alternateInputs": ["b+3,n,3"]
+    "alternateInputs": ["b+3,3"]
   },
   {
     "name": "",
@@ -678,8 +678,8 @@
     "damage": "10,18",
     "startup": ",i20~21",
     "block": "+1",
-    "hit": "+13Sp",
-    "counter": "KND",
+    "hit": "+4",
+    "counter": "",
     "note": "\n\nTornado\nCombo from 1st hit\nCan be delayed 12F\nCombo can be delayed 10F from CH\nChip damage when guarded\n\n",
     "alternateInputs": ["b+4,1"]
   },
@@ -690,8 +690,8 @@
     "damage": "10,20",
     "startup": ",i20",
     "block": "-11",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+29a (+3)",
+    "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nGrants STB on hit\nCombo from 1st hit\n\n",
     "alternateInputs": ["b+4,2"]
   },
@@ -714,8 +714,8 @@
     "damage": "10,14,20",
     "startup": ",i31~32",
     "block": "-13",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+16a",
+    "counter": "",
     "note": "Combo from 2nd CH\n",
     "alternateInputs": ["b+4,3,2"]
   },
@@ -726,7 +726,7 @@
     "damage": "10,16",
     "startup": ",i28~29",
     "block": "-13",
-    "hit": "LNC",
+    "hit": "+30a (+20)",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["b+4,4"]
@@ -738,8 +738,8 @@
     "damage": "25",
     "startup": "i22",
     "block": "-13",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+15a",
+    "counter": "",
     "note": "\n\nBalcony Break\nabsorb an attack to power up\n- Add chip damage when guarded\n\n",
     "alternateInputs": ["b+1+2"]
   },
@@ -750,8 +750,8 @@
     "damage": "24",
     "startup": "i29",
     "block": "-15",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+9a (+0)",
+    "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": ["b+3+4"]
   },
@@ -761,9 +761,9 @@
     "hit_level": "ub(m)",
     "damage": "60",
     "startup": "i72",
-    "block": "KND",
-    "hit": "KND",
-    "counter": "KND",
+    "block": "+15a (-11)",
+    "hit": "+15a (-11)",
+    "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": ["b+2+3"]
   },
@@ -787,7 +787,7 @@
     "startup": "i23~25",
     "block": "+2c",
     "hit": "+7c",
-    "counter": "LNC",
+    "counter": "",
     "note": "Alternate input: ub+3, uf+3\n",
     "alternateInputs": ["u+3"]
   },
@@ -798,8 +798,8 @@
     "damage": "13",
     "startup": "i15",
     "block": "-13",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "+33a (+23)",
+    "counter": "",
     "note": "Alternate input: ub+4, u+4\n",
     "alternateInputs": ["uf+4"]
   },
@@ -810,8 +810,8 @@
     "damage": "10,14",
     "startup": "i20",
     "block": "-11",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+14a (+5)",
+    "counter": "",
     "note": "\n\nBalcony Break\nJS after Start-up frame\n\n",
     "alternateInputs": ["uf+3+4"]
   },
@@ -835,7 +835,7 @@
     "startup": ",i14~15",
     "block": "-2c",
     "hit": "+6c",
-    "counter": "KND",
+    "counter": "",
     "note": "\nCombo from 1st hit\nCan be delayed\nSame move as FC.df+2,2\n\n",
     "alternateInputs": ["f,F+2,2"]
   },
@@ -846,8 +846,8 @@
     "damage": "14,20",
     "startup": ",i18~19",
     "block": "-13",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "-14a (-23)",
+    "counter": "",
     "note": "\n\nBalcony Break\nGrants STB on hit\nCan be delayed\nCombo from 1st NH\nAlternate input: FC.df+2,1+2\n\n",
     "alternateInputs": ["f,F+2,1+2"]
   },
@@ -870,9 +870,9 @@
     "damage": "40",
     "startup": "i13~16",
     "block": "+6",
-    "hit": "KND",
-    "counter": "KND",
-    "note": "\n\nHeat Engager\n\nGrants STB on hit\n\nBalcony Break\nChip damage when guarded\n\n",
+    "hit": "+24a (+19)",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\nGrants STB on hit, adv. changes to +1a (-4)\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": ["f,f,F+2"]
   },
   {
@@ -895,7 +895,7 @@
     "startup": ",i14~15",
     "block": "-2c",
     "hit": "+6c",
-    "counter": "KND",
+    "counter": "",
     "note": "\nCombo from 1st hit\nCan be delayed\nSame move as f,F+2,2\n",
     "alternateInputs": ["FC df+2,2"]
   },
@@ -906,7 +906,7 @@
     "damage": "14,20",
     "startup": "i14~16",
     "block": "-13",
-    "hit": "KND",
+    "hit": "+10a (+1)",
     "counter": "",
     "note": "\nSame move as f,F+2,1+2\n",
     "alternateInputs": ["FC df+2,1+2"]
@@ -954,9 +954,9 @@
     "damage": "20",
     "startup": "i15~16",
     "block": "-14",
-    "hit": "LNC",
-    "counter": "LNC",
-    "note": "Grants STB on hit\n",
+    "hit": "+26a (+16)",
+    "counter": "",
+    "note": "Grants STB on hit, adv. changes to +24a (+14)\n",
     "alternateInputs": ["ws2"]
   },
   {
@@ -966,8 +966,8 @@
     "damage": "20",
     "startup": "i16",
     "block": "-8",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+15a (+6)",
+    "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": ["ws3"]
   },
@@ -1038,8 +1038,8 @@
     "damage": "10,14,38",
     "startup": "i17",
     "block": "-1",
-    "hit": "LNC",
-    "counter": "LNC",
+    "hit": "43a (+33)",
+    "counter": "",
     "note": "\nCombo from 2nd CH\nChip damage when guarded\n\n",
     "alternateInputs": ["STB b+4,3,2"]
   },
@@ -1050,7 +1050,7 @@
     "damage": "45",
     "startup": "i13",
     "block": "+8",
-    "hit": "KND",
+    "hit": "+29a (+19)",
     "counter": "",
     "note": "\nChip damage when guarded\n\nWall Crush  +8g on block\n\n\n",
     "alternateInputs": ["STB f,f,F+1+2"]
@@ -1062,7 +1062,7 @@
     "damage": "12,23",
     "startup": "i12",
     "block": "+6",
-    "hit": "KND",
+    "hit": "+28a (+13)",
     "counter": "",
     "note": "\n\nTornado\nChip damage when guarded\n\n",
     "alternateInputs": ["STB ws1,2"]
@@ -1087,7 +1087,7 @@
     "startup": "i20",
     "block": "-12",
     "hit": "+6c",
-    "counter": "KND",
+    "counter": "+27d",
     "note": "\n\n",
     "alternateInputs": ["SS 4"]
   },
@@ -1110,8 +1110,8 @@
     "damage": "21",
     "startup": "i36",
     "block": "+0c",
-    "hit": "KND",
-    "counter": "KND",
+    "hit": "+8d",
+    "counter": "",
     "note": "\nAir Status 5F\n\n",
     "alternateInputs": ["(back to wall) b,b,ub"]
   },

@@ -92,7 +92,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nParries all mids and highs\nDeals 40 damage on successful parry\n\n",
+    "note": "\nAutomatically parries limb-based, non-airborne mids and highs\nDeals 40 damage on successful parry\n\n",
     "alternateInputs": ["in heat d+1+2"]
   },
   {
@@ -104,7 +104,7 @@
     "block": "-14",
     "hit": "+12d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17d\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
     "alternateInputs": ["df+1,2"]
   },
   {
@@ -116,7 +116,7 @@
     "block": "-3",
     "hit": "+20d",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nSpike\n\n",
     "alternateInputs": ["f,F+3"]
   },
   {
@@ -236,7 +236,7 @@
     "block": "-4",
     "hit": "+21a (+12)",
     "counter": "",
-    "note": "\nCombo from 3rd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f\nInterrupt with i5 from 3rd block\n\n",
+    "note": "\nCombo from 3rd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f\nInterrupt with i5 from 3rd block\nCH-confirmable from 2nd or 3rd CH\n\n",
     "alternateInputs": ["1,2,3,4"]
   },
   {
@@ -464,7 +464,7 @@
     "block": "+2c",
     "hit": "+5c",
     "counter": "+29d",
-    "note": "\n+13c on crouching hit\nOpponent is FDFA on CH\n\n",
+    "note": "\n+13c on crouching hit\nOpponent is FDFA on CH\n\nSpike\n\n",
     "alternateInputs": ["f+4"]
   },
   {
@@ -536,7 +536,7 @@
     "block": "-14",
     "hit": "+12d",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17d\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
     "alternateInputs": ["df+1,2"]
   },
   {
@@ -656,7 +656,7 @@
     "block": "+0c",
     "hit": "+3c",
     "counter": "+27d",
-    "note": "\n",
+    "note": "Spike\n",
     "alternateInputs": ["d+2"]
   },
   {
@@ -860,7 +860,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS (Kou, u)\nCan ttansition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, u)\nCan transition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
     "alternateInputs": ["u+3"]
   },
   {
@@ -1004,7 +1004,7 @@
     "block": "-3",
     "hit": "+20d",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\n",
+    "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nSpike\n\n",
     "alternateInputs": ["f,F+3"]
   },
   {
@@ -1364,7 +1364,7 @@
     "block": "+4",
     "hit": "+12d",
     "counter": "",
-    "note": "\nDeals chip damage on block\n\n",
+    "note": "\nDeals chip damage on block\n\nSpike\n\n",
     "alternateInputs": ["SEN 4"]
   },
   {
@@ -1508,7 +1508,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS (Kou, u)\nCan ttansition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, u)\nCan transition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
     "alternateInputs": ["u+3"]
   },
   {
