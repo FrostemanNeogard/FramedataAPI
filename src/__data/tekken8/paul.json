@@ -164,7 +164,7 @@
     "block": "-13",
     "hit": "\n+29d (-7)\nFDFA\n",
     "counter": "",
-    "note": "\n\nBalcony Break\nConsumes Heat\nCombo from 1st CH with 0~5f charge\nCan be charged 24f to i42 (H.d+1,2* at 25f)\nCharge begins on frame 17\nSometimes written H.d+1,2\n",
+    "note": "\n\nBalcony Break\nConsumes Heat\nCombo from 1st CH with 0~5f charge\nCan be charged to i42 (24f charge)\nCharge begins on frame 17\nH.d+1,2* at 25f charge\nSometimes written H.d+1,2\n",
     "alternateInputs": ["d+1,in heat 2"]
   },
   {
@@ -176,7 +176,7 @@
     "block": "+12",
     "hit": "\n+30d (-6)\nFDFA\n",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nGuard Break\nConsumes Heat\nChip damage (13)\nRequires 25f charge\nCharge begins on frame 17\nSometimes written H.d+1,2*\n",
+    "note": "\n\nBalcony Break\n\nGuard Break\nConsumes Heat\nChip damage (13)\nRequires 25f charge\nSometimes written H.d+1,2*\n",
     "alternateInputs": ["d+1,in heat 2*"]
   },
   {
@@ -548,7 +548,7 @@
     "block": "-17",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nPowers up in Heat\nCombo from 1st CH with 0~5f charge\nCan be charged 25f to i43 (d+1,2* at 26f)\nCharge begins on frame 17\n\n",
+    "note": "\n\nBalcony Break\nPowers up in Heat\nCombo from 1st CH with 0~5f charge\nCan be charged to i43 (25f charge)\nCharge begins on frame 17\nd+1,2* at 26f charge\n\n",
     "alternateInputs": ["d+1,2"]
   },
   {
@@ -560,7 +560,7 @@
     "block": "+9",
     "hit": "+20d (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWall Crush +16g\n\nPowers up in Heat\nChip damage (11)\nRequires 26f charge\nCharge begins on frame 17\n\n",
+    "note": "\n\nBalcony Break\n\nWall Crush +16g\n\nPowers up in Heat\nChip damage (11)\nRequires 26f charge\n\n",
     "alternateInputs": ["d+1,2*"]
   },
   {
