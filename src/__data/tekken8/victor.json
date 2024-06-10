@@ -470,7 +470,7 @@
     "block": "-12",
     "hit": "+5",
     "counter": "+7a / +5",
-    "note": "\nCH on last hit causes knockdown\n\n",
+    "note": "\nCH on last hit causes knockdown\n\nCan transition to IAI with f+4,2,3+4 or f+4,2~D",
     "alternateInputs": [
       "f+4,2"
     ]
@@ -834,7 +834,7 @@
     "block": "-9",
     "hit": "+2",
     "counter": "+14",
-    "note": "\n\n",
+    "note": "\n\nDeals 5 recoverable damage on hit.\nCannot cause KO\n\nApplies 90% combo scaling on counter hit",
     "alternateInputs": [
       "b+2"
     ]
@@ -871,12 +871,12 @@
     "name": "Cordial Circuit",
     "input": "b+4",
     "hit_level": "h",
-    "damage": "17",
+    "damage": "20",
     "startup": "i18~19",
-    "block": "-6",
+    "block": "-2",
     "hit": "+13g",
     "counter": "+14c",
-    "note": "\n\nHoming\n\nBalcony Break\n\n",
+    "note": "\n\nHoming\n\nBalcony Break\n\nDeals chip damage on block",
     "alternateInputs": [
       "b+4"
     ]
@@ -886,7 +886,7 @@
     "input": "b+1+2",
     "hit_level": "h",
     "damage": "25",
-    "startup": "i15~16",
+    "startup": "i19~20",
     "block": "-9",
     "hit": "+42 (-16) / HE",
     "counter": "+42 (-16) / HE",
@@ -913,7 +913,7 @@
     "name": "Caliburnus",
     "input": "u+1+2",
     "hit_level": "m",
-    "damage": "40",
+    "damage": "37",
     "startup": "i31~32",
     "block": "-20",
     "hit": "+1a",
@@ -927,7 +927,7 @@
     "name": "Excalibur",
     "input": "in heat u+1+2",
     "hit_level": "m",
-    "damage": "54",
+    "damage": "37, 14",
     "startup": "i31~32",
     "block": "-4",
     "hit": "0a (-1)",
@@ -1025,12 +1025,12 @@
     "name": "Asterism of Virtue",
     "input": "f,f,F+2",
     "hit_level": "m",
-    "damage": "30",
-    "startup": "i16~17",
-    "block": "+5",
+    "damage": "21",
+    "startup": "i18~19",
+    "block": "+2",
     "hit": "+16 (+6)",
     "counter": "Launch T!",
-    "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
+    "note": "\n\nBalcony Break\nDeals chip damage on block\n\nCan transition to IAI with f,f,F+2,3+4 or f,f,F+2~D",
     "alternateInputs": [
       "f,f,F+2"
     ]
@@ -1277,12 +1277,12 @@
     "name": "Murgleys",
     "input": "IAI 4,2",
     "hit_level": "l,h",
-    "damage": "17,25",
+    "damage": "17,20",
     "startup": ",i26~27",
     "block": "-5",
     "hit": "+26 (+0)",
     "counter": "Launch T!",
-    "note": "\n\nBalcony Break\n\nTailspin\n\n",
+    "note": "\n\nBalcony Break\n\nTailspin\n\nStrong aerial tailspin",
     "alternateInputs": [
       "IAI 4,2"
     ]
@@ -1307,7 +1307,7 @@
     "hit_level": "m",
     "damage": "31",
     "startup": "i23~24",
-    "block": "+1",
+    "block": "+4",
     "hit": "-1 (-8)",
     "counter": "-1 (-8)",
     "note": "\nTransition to IAI\nDeals chip damage on block\n\n",
@@ -1408,7 +1408,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCan cancel into FC with df\n\n",
+    "note": "\nCan cancel into FC with df\n\nPunch parry effect from frames 5~10",
     "alternateInputs": [
       "f+3"
     ]
@@ -1417,12 +1417,12 @@
     "name": "Maceration",
     "input": "PRF 1",
     "hit_level": "l",
-    "damage": "17",
+    "damage": "20",
     "startup": "i19~20",
-    "block": "-13",
+    "block": "-12",
     "hit": "+4",
-    "counter": "+13g",
-    "note": "\n\n",
+    "counter": "+14g",
+    "note": "\n\nDeals chip damage on block",
     "alternateInputs": [
       "PRF 1"
     ]
@@ -1501,12 +1501,12 @@
     "name": "Cordial Circuit",
     "input": "PRF 4",
     "hit_level": "h",
-    "damage": "17",
+    "damage": "20",
     "startup": "i18~19",
-    "block": "-6",
+    "block": "-2",
     "hit": "+13g",
     "counter": "+14c",
-    "note": "\n\nHoming\n\nBalcony Break\n\n",
+    "note": "\n\nHoming\n\nBalcony Break\n\nDeals chip damage on block",
     "alternateInputs": [
       "PRF 4"
     ]
@@ -1517,7 +1517,7 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i25~27",
-    "block": "+4",
+    "block": "+6",
     "hit": "+14a",
     "counter": "+14a",
     "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
@@ -1537,6 +1537,20 @@
     "note": "\n\n",
     "alternateInputs": [
       "PRF df"
+    ]
+  },
+  {
+    "name": "",
+    "input": "PRF u",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "",
+    "alternateInputs": [
+      "PRF u"
     ]
   },
   {
