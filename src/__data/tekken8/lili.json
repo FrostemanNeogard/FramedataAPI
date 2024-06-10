@@ -244,9 +244,9 @@
     "damage": "5,12,20",
     "startup": "i29",
     "block": "-9 / +2 H +7wc",
-    "hit": "+2a (-7)",
+    "hit": "+5a (-4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip on block [6]\nPowers up in Heat: 30 damage, +2 ob, Wall Crush +7g, 13 Chip, +18a (-8) oh\nPartially consumes remaining Heat time\n\n",
+    "note": "\n\nBalcony Break\nChip on block [6]\nPowers up in Heat: 30 damage, +2 ob, 13 Chip, +18a (-8) oh\nPartially consumes remaining Heat time\n\n",
     "alternateInputs": [
       "1,2,4"
     ]
@@ -703,7 +703,7 @@
     "name": "Thorn Whip",
     "input": "d+3",
     "hit_level": "L",
-    "damage": "17",
+    "damage": "14",
     "startup": "i19",
     "block": "-12",
     "hit": "+1",
@@ -1238,9 +1238,9 @@
     "damage": "30",
     "startup": "i19",
     "block": "-2 / +4 H +7wc",
-    "hit": "+4a (-5)",
+    "hit": "+7 (-2)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block [9]\nPowers up in Heat: 36 damage, +4 ob, Wall Crush +7g, 16 Chip, +18a (-8) oh\nPartially consumes remaining Heat time\n\n",
+    "note": "\n\nBalcony Break\nChip damage on block [9]\nPowers up in Heat: 36 damage, +4 ob, 16 Chip, +18a (-8) oh\nPartially consumes remaining Heat time\n\n",
     "alternateInputs": [
       "f,F+3+4"
     ]
@@ -1563,7 +1563,7 @@
     "hit_level": "M",
     "damage": "28",
     "startup": "i17",
-    "block": "-9",
+    "block": "-11",
     "hit": "+20a (+3)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break \n",
@@ -1648,9 +1648,9 @@
     "damage": "24 (36)",
     "startup": "i23",
     "block": "-2 / +4 H +9wc",
-    "hit": "+4a (-5)",
+    "hit": "+7a (-2)",
     "counter": "",
-    "note": "\n\nBalcony Break\nPowered up during Heat:\n36 damage, +4 ob, Wall Crush +9g\n\nPartially consumes remaining Heat Time\n",
+    "note": "\n\nBalcony Break\nPowered up during Heat:\n36 damage, +4 ob\n\nPartially consumes remaining Heat Time\n",
     "alternateInputs": [
       "RAB 4"
     ]
