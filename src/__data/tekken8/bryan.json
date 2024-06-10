@@ -350,7 +350,7 @@
   {
     "name": "Anaconda Rage",
     "input": "3,3,4",
-    "hit_level": "m,h,h",
+    "hit_level": "m,h,m",
     "damage": "14,13,25",
     "startup": ",i28",
     "block": "-12",
@@ -799,7 +799,7 @@
     "startup": "i16~17",
     "block": "-12",
     "hit": "-1",
-    "counter": "",
+    "counter": "+4",
     "note": "\n",
     "alternateInputs": ["db+3"]
   },

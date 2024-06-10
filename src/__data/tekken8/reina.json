@@ -92,7 +92,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nAutomatically parries limb-based, non-airborne mids and highs\nDeals 40 damage on successful parry\n\n",
+    "note": "\nAutomatically parries limb-based, non-airborne mids and highs\nDeals 40 damage on successful parry\n+1d on successful parry\n\n",
     "alternateInputs": ["in heat d+1+2"]
   },
   {
@@ -102,7 +102,7 @@
     "damage": "8,20",
     "startup": ",i22~23",
     "block": "-14",
-    "hit": "+12d",
+    "hit": "+12a",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17d\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
     "alternateInputs": ["df+1,2"]
@@ -114,7 +114,7 @@
     "damage": "20",
     "startup": "i20~22",
     "block": "-3",
-    "hit": "+20d",
+    "hit": "+20a",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nSpike\n\n",
     "alternateInputs": ["f,F+3"]
@@ -138,7 +138,7 @@
     "damage": "30",
     "startup": "i18~19",
     "block": "-8",
-    "hit": "+43 (-15)",
+    "hit": "+43a (-15)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with DB/D/DF\n\n",
     "alternateInputs": ["UNS 4"]
@@ -150,7 +150,7 @@
     "damage": "30",
     "startup": "i15~16",
     "block": "-9",
-    "hit": "+11 (+2)",
+    "hit": "+11a (+2)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nDeals chip damage on block\nSometimes written HW.2\n",
     "alternateInputs": ["WRA 2"]
@@ -188,7 +188,7 @@
     "block": "-17",
     "hit": "\n+11 SEN\n+2 (cancel)\n",
     "counter": "",
-    "note": "\nCancel transition with input B\nCombo from 1st hit with 11f delay\nWall crush on hit, +23g minimum\n\n",
+    "note": "\nCancel transition with input B\nHit-confirmable from 1st hit\nCombo from 1st hit with 11f delay\nWall crush on hit, +23g minimum\n\n",
     "alternateInputs": ["1,1,2"]
   },
   {
@@ -236,7 +236,7 @@
     "block": "-4",
     "hit": "+21a (+12)",
     "counter": "",
-    "note": "\nCombo from 3rd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f\nInterrupt with i5 from 3rd block\nCH-confirmable from 2nd or 3rd CH\n\n",
+    "note": "\nCH-confirmable from 2nd CH\nCombo from 3rd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f\nInterrupt with i5 from 3rd block\n\n",
     "alternateInputs": ["1,2,3,4"]
   },
   {
@@ -270,9 +270,9 @@
     "damage": "6,6,20",
     "startup": ",i22~23",
     "block": "-14",
-    "hit": "+12d",
+    "hit": "+12a",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nSpike\n\nHead\nCombo from 2nd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 9f\n\n",
+    "note": "\n\nBalcony Break\n\nSpike\n\nHead\nHit-confirmable from 1st hit\nCombo from 2nd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 9f\n\n",
     "alternateInputs": ["2,2,1"]
   },
   {
@@ -294,7 +294,7 @@
     "damage": "6,6,21,20",
     "startup": ",i35~37",
     "block": "-15~13",
-    "hit": "+30 (+20)",
+    "hit": "+30a (+20)",
     "counter": "",
     "note": "\n\nTornado\nCombo from 3rd hit with 1f delay\nInput can be delayed 4f\nMove can be delayed 3f\nEvasive, can go under jabs\n\n",
     "alternateInputs": ["2,2,2,1"]
@@ -306,7 +306,7 @@
     "damage": "6,6,21,25",
     "startup": ",i31",
     "block": "-14",
-    "hit": "+21 (+0)",
+    "hit": "+21a (+0)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 3rd hit with 4f delay\nMove can be delayed 3f\nBlue spark with input qcf+2 for 5 more damage\n\n",
     "alternateInputs": ["2,2,2,2"]
@@ -318,7 +318,7 @@
     "damage": "4,18",
     "startup": "i11(~14)",
     "block": "-14",
-    "hit": "+31 (+23)",
+    "hit": "+31d (+23)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nSpike\nJust frame if 2 is held for exactly one frame and then 1 on the next frame. Hits for 26 damage.\n5f input window\n\n",
     "alternateInputs": ["2~1"]
@@ -355,7 +355,7 @@
     "startup": ",i20",
     "block": "-14",
     "hit": "+50 (+19)",
-    "counter": "+54",
+    "counter": "+54a",
     "note": "Combo from 1st hit\n",
     "alternateInputs": ["3,4"]
   },
@@ -367,7 +367,7 @@
     "startup": "i13~14",
     "block": "-8",
     "hit": "+11g",
-    "counter": "+35d",
+    "counter": "+35a",
     "note": "\n\nBalcony Break\nOpponent is FUFA on CH\n\n",
     "alternateInputs": ["4"]
   },
@@ -403,7 +403,7 @@
     "startup": ",i16",
     "block": "-14",
     "hit": "+50 (+19)",
-    "counter": "+54",
+    "counter": "+54a",
     "note": "Combo from 1st hit with 4f delay\n",
     "alternateInputs": ["3+4,4"]
   },
@@ -416,7 +416,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCan transition to WGS with DF after 14 frames\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n\n",
+    "note": "\nCan transition to WGS with DF after 14 frames\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n\n",
     "alternateInputs": ["1+4"]
   },
   {
@@ -487,7 +487,7 @@
     "startup": "i43",
     "block": "-14",
     "hit": "+50 (+19)",
-    "counter": "+55",
+    "counter": "+55a",
     "note": "\ncan be cancelled into crouch with input DB/D/DF\n\n",
     "alternateInputs": ["f+3+4"]
   },
@@ -498,9 +498,9 @@
     "damage": "30",
     "startup": "i67",
     "block": "+10",
-    "hit": "+52",
+    "hit": "+52a",
     "counter": "",
-    "note": "\ncan be cancelled into crouch with input DB/D/DF\ncrumple stun on normal hit\n\n",
+    "note": "\ncan be cancelled into crouch with input DB/D/DF\n\n",
     "alternateInputs": ["f+3+4*"]
   },
   {
@@ -534,7 +534,7 @@
     "damage": "8,20",
     "startup": ",i22~23",
     "block": "-14",
-    "hit": "+12d",
+    "hit": "+12a",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17d\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
     "alternateInputs": ["df+1,2"]
@@ -546,9 +546,9 @@
     "damage": "13",
     "startup": "i15~16",
     "block": "-12",
-    "hit": "+30 (+20)",
+    "hit": "+30a (+20)",
     "counter": "",
-    "note": "\n+2 on hit on crouching opp.\n+30 (+20) on CH on crouching opp.\n\n",
+    "note": "\n+2 on hit on crouching opp.\n+30a (+20) on CH on crouching opp.\n\n",
     "alternateInputs": ["df+2"]
   },
   {
@@ -594,7 +594,7 @@
     "damage": "14,10,20",
     "startup": ",i27",
     "block": "-8",
-    "hit": "+35",
+    "hit": "+35a",
     "counter": "+71a (+55)",
     "note": "\n\nTornado\nCombo from 2nd CH\nCan be delayed\n\n",
     "alternateInputs": ["df+4,2,3"]
@@ -620,7 +620,7 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "\n",
+    "note": "Spike\n",
     "alternateInputs": ["CH df+3+4"]
   },
   {
@@ -631,7 +631,7 @@
     "startup": ",i20",
     "block": "-14",
     "hit": "+50 (+19)",
-    "counter": "+54",
+    "counter": "+54a",
     "note": "Combo from 1st hit\n",
     "alternateInputs": ["df+3+4,4"]
   },
@@ -668,7 +668,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n",
     "alternateInputs": ["d+3"]
   },
   {
@@ -726,9 +726,9 @@
     "damage": "7,20",
     "startup": ",i15",
     "block": "-12",
-    "hit": "+39 (+19)",
+    "hit": "+39d (-19)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH even with delay\nCan be delayed\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st CH even with delay\nCan be delayed\nCH-confirmable from 1st CH\n\n",
     "alternateInputs": ["db+4,1+2"]
   },
   {
@@ -775,7 +775,7 @@
     "startup": ",i32",
     "block": "-16",
     "hit": "+48 (+17)",
-    "counter": "+53",
+    "counter": "+53a",
     "note": "\n",
     "alternateInputs": ["b+1,1,3,3"]
   },
@@ -800,7 +800,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\nSee also Unsoku Cancel\n\n",
+    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\nSee also Unsoku Cancel\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -810,8 +810,8 @@
     "damage": "20",
     "startup": "i18",
     "block": "-8",
-    "hit": "+35",
-    "counter": "+71 (+55)",
+    "hit": "+35a",
+    "counter": "+71a (+55)",
     "note": "\n\nTornado\n\n",
     "alternateInputs": ["b+4"]
   },
@@ -833,8 +833,8 @@
     "hit_level": "ub(m)",
     "damage": "50",
     "startup": "i64",
-    "block": "+20 (-1)",
-    "hit": "+20 (-1)",
+    "block": "+20d (-1)",
+    "hit": "+20d (-1)",
     "counter": "",
     "note": "\n\nBalcony Break\nCan cancel with input b,b\n",
     "alternateInputs": ["b+1+4"]
@@ -846,7 +846,7 @@
     "damage": "20",
     "startup": "i18",
     "block": "-13",
-    "hit": "+14d",
+    "hit": "+14g",
     "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": ["b+1+2"]
@@ -918,7 +918,7 @@
     "damage": "15",
     "startup": "i17~18",
     "block": "-13",
-    "hit": "+70 (+54)",
+    "hit": "+70a (+54)",
     "counter": "",
     "note": "\n\nTornado\nSometimes written hopkick\n",
     "alternateInputs": ["uf+4"]
@@ -968,7 +968,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCan transition to Wind God Step with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n\n",
+    "note": "\nCan transition to Wind God Step with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n\n",
     "alternateInputs": ["ub+1+2"]
   },
   {
@@ -1002,7 +1002,7 @@
     "damage": "20",
     "startup": "i20~22",
     "block": "-3",
-    "hit": "+20d",
+    "hit": "+20a",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nSpike\n\n",
     "alternateInputs": ["f,F+3"]
@@ -1014,8 +1014,8 @@
     "damage": "22",
     "startup": "i16~19",
     "block": "-2",
-    "hit": "+49 (-9)",
-    "counter": "+49",
+    "hit": "+49d (-9)",
+    "counter": "+49a",
     "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["f,F+3+4"]
   },
@@ -1026,7 +1026,7 @@
     "damage": "22",
     "startup": "i24~27",
     "block": "+6",
-    "hit": "+32 (+24)",
+    "hit": "+32a (+24)",
     "counter": "",
     "note": "\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": ["f,f,F+3"]
@@ -1038,7 +1038,7 @@
     "damage": "28",
     "startup": "i26~27",
     "block": "+4",
-    "hit": "+31 (+5)",
+    "hit": "+31a (+5)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHoming\nCan transition to WRA (+8/+35a (+9)/-) with input D\n\n",
     "alternateInputs": ["f,f,F+4"]
@@ -1062,7 +1062,7 @@
     "damage": "25",
     "startup": "i20",
     "block": "-17",
-    "hit": "+54 (+34)",
+    "hit": "+54a (+34)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["FC df+3"]
@@ -1074,9 +1074,9 @@
     "damage": "20",
     "startup": "i15",
     "block": "-14",
-    "hit": "+54",
+    "hit": "+54a",
     "counter": "",
-    "note": "\n\nBalcony Break\ncrumple stun on normal hit\n\n",
+    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": ["FC df+4"]
   },
   {
@@ -1122,7 +1122,7 @@
     "damage": "14,21",
     "startup": ",i22~23",
     "block": "-4",
-    "hit": "+21 (+12)",
+    "hit": "+21a (+12)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit without delay\nCan be delayed\n\n",
     "alternateInputs": ["ws3,4"]
@@ -1179,36 +1179,36 @@
     "name": "Thunder God Fist",
     "input": "WGS 1",
     "hit_level": "m",
-    "damage": "20",
+    "damage": "24",
     "startup": "i19~21",
     "block": "-22",
-    "hit": "+24 (+14)",
+    "hit": "+24a (+14)",
     "counter": "",
-    "note": "\n24dmg with df+3\n26dmg if manual cdSometimes written otgf\n",
+    "note": "\n26 dmg if manual CDSometimes written otgf\n",
     "alternateInputs": ["WGS 1", "f,n,d,df1"]
   },
   {
     "name": "Lightning Splits Kick",
     "input": "WGS 1,3",
     "hit_level": "m,m",
-    "damage": "20,15(10)",
+    "damage": "24,22",
     "startup": ",i26~30",
     "block": "-12",
-    "hit": "+18 (-17)",
+    "hit": "+18d (-17)",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 1st hit\n1st hit 22dmg if manual cd\n",
+    "note": "\n\nSpike\nCombo from 1st hit\n",
     "alternateInputs": ["WGS 1,3", "f,n,d,df1,3"]
   },
   {
     "name": "Lightning Wheel",
     "input": "WGS 1,4",
     "hit_level": "m,h",
-    "damage": "20,18(12)",
+    "damage": "24,26",
     "startup": ",i23~27",
     "block": "-7",
     "hit": "+1 (+0)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\n1st hit 22dmg if manual cd\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\n",
     "alternateInputs": ["WGS 1,4", "f,n,d,df1,4"]
   },
   {
@@ -1218,9 +1218,9 @@
     "damage": "15",
     "startup": "i11~12",
     "block": "-10",
-    "hit": "+35 (+25)",
+    "hit": "+35a (+25)",
     "counter": "",
-    "note": "\nBecomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)\n20dmg if manual crouch dashSometimes written wgf\n",
+    "note": "\nBecomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)\n20dmg if manual CDSometimes written wgf\n",
     "alternateInputs": ["WGS 2", "f,n,d,df2"]
   },
   {
@@ -1230,7 +1230,7 @@
     "damage": "23",
     "startup": "i11~12 (~i13)",
     "block": "+5",
-    "hit": "+25 (+25)",
+    "hit": "+25a (+25)",
     "counter": "",
     "note": "\nChip damage when guarded\nSometimes written ewgf\n",
     "alternateInputs": ["f,n,d,df:2"]
@@ -1243,8 +1243,8 @@
     "startup": "i15~17",
     "block": "-13",
     "hit": "+3",
-    "counter": "+23 (+17)",
-    "note": "\nBecomes Electric War God Kick during Heat (partially uses remaining Heat Time\n21dmg if manual cd)\n\n",
+    "counter": "+23a (+17)",
+    "note": "\nBecomes Electric War God Kick during Heat (partially uses remaining Heat Time\n21dmg if manual CD)\n\n",
     "alternateInputs": ["WGS df+3", "f,n,d,df3"]
   },
   {
@@ -1254,8 +1254,8 @@
     "damage": "27",
     "startup": "i15~17",
     "block": "-9",
-    "hit": "+13 (-4)",
-    "counter": "+23 (+17)",
+    "hit": "+13a (-4)",
+    "counter": "+23a (+17)",
     "note": "\n\nBalcony Break\nChip damage when guarded\nSometimes written ewgk\n",
     "alternateInputs": ["f,n,d,df:3"]
   },
@@ -1268,7 +1268,7 @@
     "block": "-23",
     "hit": "+2c",
     "counter": "",
-    "note": "\n8dmg if manual crouch dash\n\n",
+    "note": "\n8 dmg if manual CD\n\n",
     "alternateInputs": ["WGS DF+4", "f,n,d,DF+4"]
   },
   {
@@ -1280,7 +1280,7 @@
     "block": "-22",
     "hit": "-1",
     "counter": "",
-    "note": "\nCan transition to WRA (-15/+6/+6) with input D\nCombo from 1st hit\n1st hit 8dmg if manual cd\nSometimes written hellsweep\n",
+    "note": "\nCan transition to WRA (-15/+6/+6) with input D\nCombo from 1st hit\nSometimes written hellsweep\n",
     "alternateInputs": ["WGS DF+4,2", "f,n,d,DF4,2"]
   },
   {
@@ -1292,7 +1292,7 @@
     "block": "-23",
     "hit": "+2",
     "counter": "+23a",
-    "note": "\nCombo from 1st hit\n1st hit 8dmg if manual cd\nSometimes written hellsweep\n",
+    "note": "\nCombo from 1st hit\nSometimes written hellsweep\n",
     "alternateInputs": ["WGS DF+4,4", "f,n,d,DF4,4"]
   },
   {
@@ -1326,9 +1326,9 @@
     "damage": "12,25",
     "startup": ",i26",
     "block": "-16",
-    "hit": "+21 (+0)",
+    "hit": "+21a (+0)",
     "counter": "",
-    "note": "\n\nBalcony Break\nBlue spark with input qcf+2 for 5 extra damage\nCombo from 1st hit even with delay\nCan be delayed\nBecomes -9 on block if 1st hit absorbed an attack\n\n",
+    "note": "\n\nBalcony Break\nBlue spark with input qcf+2 for 5 extra damage\nHit-confirmable from 1st hit or if attack was absorbed\nCombo from 1st hit even with delay\nCan be delayed\nBecomes -9 on block if 1st hit absorbed an attack\n\n",
     "alternateInputs": ["SEN 1,2"]
   },
   {
@@ -1374,7 +1374,7 @@
     "damage": "13,17",
     "startup": "i14~15,i12~13",
     "block": "-6 WRA",
-    "hit": "+32 (+18)",
+    "hit": "+32a (+18)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nTransitions to WRA after recovery\n\n",
     "alternateInputs": ["SEN 1+2"]
@@ -1436,7 +1436,7 @@
     "block": "",
     "hit": "+0",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nSpike\n\n",
     "alternateInputs": ["SSH CH 3"]
   },
   {
@@ -1484,7 +1484,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\nSee also Unsoku Cancel\n\n",
+    "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\nSee also Unsoku Cancel\n\n",
     "alternateInputs": ["b+3"]
   },
   {
@@ -1496,7 +1496,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
+    "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n",
     "alternateInputs": ["d+3"]
   },
   {
@@ -1518,7 +1518,7 @@
     "damage": "30",
     "startup": "i18~19",
     "block": "-8",
-    "hit": "+43 (-15)",
+    "hit": "+43a (-15)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with DB/D/DF\n\n",
     "alternateInputs": ["UNS 4"]
@@ -1566,7 +1566,7 @@
     "damage": "30",
     "startup": "i15~16",
     "block": "-9",
-    "hit": "+11 (+2)",
+    "hit": "+11a (+2)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nDeals chip damage on block\nSometimes written HW.2\n",
     "alternateInputs": ["WRA 2"]
@@ -1578,7 +1578,7 @@
     "damage": "17",
     "startup": "i28",
     "block": "-6",
-    "hit": "+22 (+12)",
+    "hit": "+22a (+12)",
     "counter": "",
     "note": "\n\nBalcony Break\nDeals chip damage on block\nSometimes written HW.3\n",
     "alternateInputs": ["WRA 3"]
@@ -1587,12 +1587,12 @@
     "name": "Hell Axle",
     "input": "WRA 3,4",
     "hit_level": "m,m",
-    "damage": "17,14",
+    "damage": "17,20",
     "startup": ",i18~19",
     "block": "+6",
-    "hit": "+17 (+16)",
+    "hit": "+17a (+16)",
     "counter": "",
-    "note": "\n\nBalcony Break\nDeals chip damage on block\nCan transition to WRA (+8/+19 (+18)/-) with input D\nJails from 1st block\nCombo from 1st hit\nSometimes written \nHunting Hawk\nHW.3,4\n\n",
+    "note": "\n\nBalcony Break\nDeals chip damage on block\nCan transition to WRA (+8/+19a (+18)/-) with input D\nJails from 1st block\nCombo from 1st hit\nSometimes written \nHunting Hawk\nHW.3,4\n\n",
     "alternateInputs": ["WRA 3,4"]
   },
   {
@@ -1616,7 +1616,7 @@
     "block": "-18",
     "hit": "-7",
     "counter": "",
-    "note": "\nJails from 2nd block\nCombo from 1st CH\nCombo from 2nd hit\nCan be delayed\nSometimes written HW.4,2\n",
+    "note": "\nJails from 2nd block\nHit-confirmable from 2nd hit\nCombo from 1st CH\nCombo from 2nd hit\nCan be delayed\nSometimes written HW.4,2\n",
     "alternateInputs": ["WRA 4,2"]
   },
   {
@@ -1699,7 +1699,7 @@
     "startup": ",i21~22",
     "block": "-16",
     "hit": "+48 (+17)",
-    "counter": "+53",
+    "counter": "+53a",
     "note": "\nCombo from 1st CH with 14f delay\nInput can be delayed 15f\nMove can be delayed 13f\nCH-confirmable\nSometimes written HW.d+4,3\n",
     "alternateInputs": ["WRA d+4,3"]
   },
@@ -1723,8 +1723,8 @@
     "startup": "i16~17",
     "block": "-6",
     "hit": "+4",
-    "counter": "+58",
-    "note": "\ncrumple stun on CH\n\n",
+    "counter": "+58a",
+    "note": "\n\n",
     "alternateInputs": ["WDS 3"]
   },
   {
@@ -1734,9 +1734,9 @@
     "damage": "55",
     "startup": "i20",
     "block": "-15",
-    "hit": "",
+    "hit": "+0d",
     "counter": "",
-    "note": "\nErases opponent's recoverable health on hit\nAlternate input: R2\n150% Scaling at 1HP- 82dmg\n\n",
+    "note": "\nErases opponent's recoverable health on hit\nAlternate input: R2\n150% Scaling at 1HP - 82dmg\n\n",
     "alternateInputs": ["in rage df+1+2"]
   },
   {
@@ -1758,7 +1758,7 @@
     "damage": "20",
     "startup": "i17",
     "block": "-14",
-    "hit": "+54",
+    "hit": "+54a",
     "counter": "",
     "note": "Strong Aerial TailspinSometimes written \nback facing 4\nback turned 4\n\n",
     "alternateInputs": ["BT 4"]
@@ -1794,7 +1794,7 @@
     "damage": "11",
     "startup": "i19",
     "block": "-19",
-    "hit": "-8 / -8a (16)",
+    "hit": "-8 / -8a (-16)",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["OTG d+4"]
@@ -1818,7 +1818,7 @@
     "damage": "21",
     "startup": "i39-41",
     "block": "+4c",
-    "hit": "+22d",
+    "hit": "+22a",
     "counter": "",
     "note": "Requires back close to wall to execute\n",
     "alternateInputs": ["b,b,UB"]

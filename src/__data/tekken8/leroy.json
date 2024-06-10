@@ -1105,7 +1105,7 @@
   },
   {
     "name": "",
-    "input": "FC 4",
+    "input": "FC df+4",
     "hit_level": "l",
     "damage": "14",
     "startup": "i15~16",
@@ -1113,19 +1113,19 @@
     "hit": "-4",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["FC 4"]
+    "alternateInputs": ["FC df+4"]
   },
   {
     "name": "Reverse Cross Kick",
-    "input": "FC 4,1",
+    "input": "FC df+4,1",
     "hit_level": "l,m",
     "damage": "14,15",
     "startup": ",i20~21",
     "block": "-13",
-    "hit": "Launch",
+    "hit": "+31a (+21)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["FC 4,1"]
+    "alternateInputs": ["FC df+4,1"]
   },
   {
     "name": "",
@@ -1158,7 +1158,7 @@
     "damage": "21",
     "startup": "i15~16",
     "block": "-14",
-    "hit": "Launch",
+    "hit": "+51a",
     "counter": "",
     "note": "\n",
     "alternateInputs": ["ws2"]
@@ -1194,7 +1194,7 @@
     "damage": "17",
     "startup": "i24~25",
     "block": "-10",
-    "hit": "0",
+    "hit": "+0",
     "counter": "",
     "note": "\nParry\nPartially restores remaining Heat time upon successful parry during Heat\n\n",
     "alternateInputs": ["HRM 1"]
@@ -1218,7 +1218,7 @@
     "damage": "14,23",
     "startup": ",i24~25",
     "block": "-9",
-    "hit": "+16 (+9)",
+    "hit": "+16a (+9)",
     "counter": "",
     "note": "\n\nTornado\nchip damage on block\n\n",
     "alternateInputs": ["HRM 2,3"]
@@ -1266,7 +1266,7 @@
     "damage": "13,25",
     "startup": ",i24~25",
     "block": "-14",
-    "hit": "+27 (+12)",
+    "hit": "+27a (+12)",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": ["HRM 4,1+2"]
@@ -1278,7 +1278,7 @@
     "damage": "12,x,x,x",
     "startup": "i14",
     "block": "-2",
-    "hit": "5",
+    "hit": "+5",
     "counter": "",
     "note": "Power up during Heat (partially uses remaining Heat time)\n",
     "alternateInputs": ["HRM 1+2"]
@@ -1301,7 +1301,7 @@
     "hit_level": "h",
     "damage": "17",
     "startup": "i14~15",
-    "block": "0",
+    "block": "+0",
     "hit": "+15g",
     "counter": "",
     "note": "Balcony Break\n",
@@ -1313,8 +1313,8 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i26~29",
-    "block": "0",
-    "hit": "Launch",
+    "block": "+0",
+    "hit": "+40a",
     "counter": "",
     "note": "chip damage on block\n",
     "alternateInputs": ["HRM f+4"]
@@ -1327,7 +1327,7 @@
     "startup": "i20~22",
     "block": "+4",
     "hit": "+7c",
-    "counter": "+52",
+    "counter": "+52a",
     "note": "chip damage on block\n",
     "alternateInputs": ["HRM b+1"]
   },
@@ -1350,7 +1350,7 @@
     "damage": "12,27",
     "startup": "i31~32",
     "block": "-16",
-    "hit": "KND",
+    "hit": "+0a (-1)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit\nCombo deals [30; 12] damage\n",
     "alternateInputs": ["HRM b+3,1+2"]
@@ -1363,7 +1363,7 @@
     "startup": "i20~21",
     "block": "-13",
     "hit": "+4c",
-    "counter": "+28",
+    "counter": "+28a",
     "note": "Homing\n",
     "alternateInputs": ["HRM b+4"]
   },
