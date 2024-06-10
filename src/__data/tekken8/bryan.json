@@ -22,7 +22,7 @@
     "block": "+9 / +17wc",
     "hit": "-1d",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nFloor Break\n2nd and 3rd hit\nThrow on hit\n\nWall Crush +17g on block\n\n \n",
+    "note": "\n\nHeat Smash\n\nFirst hit deals 24 damage when comboed from Taunt.\nFloor Break\n2nd and 3rd hit\nThrow on hit\n\nWall Crush +17g on block\n\n \n",
     "alternateInputs": [
       "in heat 2+3"
     ]
@@ -621,7 +621,7 @@
     "hit_level": "h",
     "damage": "22",
     "startup": "i20~21",
-    "block": "-6",
+    "block": "-9",
     "hit": "+44d (-14)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nElbow\nAbsorb an attack to power up and deal more chip damage on block\n",
