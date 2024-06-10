@@ -9,7 +9,9 @@
     "hit": "+2c",
     "counter": "",
     "note": "\n\nHeat Burst\nCancel to r45 with b,b\n",
-    "alternateInputs": ["2+3"]
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Bretwalda",
@@ -21,7 +23,9 @@
     "hit": "0",
     "counter": "",
     "note": "\n\nHeat Smash\n\nFloor Break\n\nSpike\nChip damage on block\nOn block, transitions to LNH\nAlternate input: H.FLK.2+3 or H.PAB.2+3\n\n",
-    "alternateInputs": ["in heat 2+3"]
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "",
@@ -33,7 +37,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransitions to EXD\nPartially uses remaining heat time\n\n",
-    "alternateInputs": ["in heat df+3+4"]
+    "alternateInputs": [
+      "in heat df+3+4"
+    ]
   },
   {
     "name": "Two-Faced (TFA)",
@@ -45,7 +51,9 @@
     "hit": "",
     "counter": "",
     "note": "\nUnbreakable\nTransitions to TFA\n\n",
-    "alternateInputs": ["in heat EXD 1+3"]
+    "alternateInputs": [
+      "in heat EXD 1+3"
+    ]
   },
   {
     "name": "Two-Faced",
@@ -57,7 +65,9 @@
     "hit": "",
     "counter": "",
     "note": "\nParries mid attacks\nTransitions to TFA after successful parry\n\n",
-    "alternateInputs": ["in heat LNH"]
+    "alternateInputs": [
+      "in heat LNH"
+    ]
   },
   {
     "name": "Dominion Rush",
@@ -69,7 +79,9 @@
     "hit": "+14",
     "counter": "",
     "note": "\nPress 1 for throw break\nPartially uses remaining heat time\n\n",
-    "alternateInputs": ["TFA 1"]
+    "alternateInputs": [
+      "TFA 1"
+    ]
   },
   {
     "name": "Debutante Ball",
@@ -81,7 +93,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\nPress 2 for throw break\nPartially uses remaining heat time\n\n",
-    "alternateInputs": ["TFA 2"]
+    "alternateInputs": [
+      "TFA 2"
+    ]
   },
   {
     "name": "Sonic Fang",
@@ -93,7 +107,9 @@
     "hit": "+18a (+11)",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash  (+5/+35d/-)\n\n\n",
-    "alternateInputs": ["1+2"]
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Rocket Launcher",
@@ -105,7 +121,9 @@
     "hit": "+16a (+7)",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\nInput B to FLK (-3/+23a (+14)/-)\n\n",
-    "alternateInputs": ["qcf+1"]
+    "alternateInputs": [
+      "qcf+1"
+    ]
   },
   {
     "name": "Eraser",
@@ -117,7 +135,9 @@
     "hit": "+17",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash (+5/+67a (+50)/-)\n\n\nBalcony Break\n\nSpike\nChip Damage On block\n\n",
-    "alternateInputs": ["f,f,F+2"]
+    "alternateInputs": [
+      "f,f,F+2"
+    ]
   },
   {
     "name": "Cyclone Punch",
@@ -129,7 +149,9 @@
     "hit": "+16a (+7)",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\n\n",
-    "alternateInputs": ["ALB 2"]
+    "alternateInputs": [
+      "ALB 2"
+    ]
   },
   {
     "name": "",
@@ -141,7 +163,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["1"]
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Double Jab",
@@ -153,7 +177,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\nCombo from 1st hit\nTransition to LWV with 3 (-6/+0/+0)\nTransition to RWV with 4 (-6/+0/+0)\nTransition to SWY with b+3_4 (-6/+0/+0)\nTransition to DCK with f+3_4 (-2/+4/+4)\n\n",
-    "alternateInputs": ["1,1"]
+    "alternateInputs": [
+      "1,1"
+    ]
   },
   {
     "name": "Jab > Body Blow",
@@ -165,7 +191,9 @@
     "hit": "+0",
     "counter": "+5",
     "note": "\nTransition to FLK with b (+0/+6/+11)\n\n",
-    "alternateInputs": ["1,d+1"]
+    "alternateInputs": [
+      "1,d+1"
+    ]
   },
   {
     "name": "Double Jab > Body Blow",
@@ -177,7 +205,9 @@
     "hit": "+0",
     "counter": "+5",
     "note": "\nTransition to FLK with b (+0/+6/+11)\n\n",
-    "alternateInputs": ["1,1,d+1"]
+    "alternateInputs": [
+      "1,1,d+1"
+    ]
   },
   {
     "name": "Lightning Combo",
@@ -189,7 +219,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\nNC from first hit\nInput 3 to LWV (-5/+6/+6)\nInput 4 to RWV (-5/+6/+6)\nInput b+3_4 SWY (-5/+6/+6)\nInput f+3_4 DCK (-3/+8/+8)\n\n",
-    "alternateInputs": ["1,1,2"]
+    "alternateInputs": [
+      "1,1,2"
+    ]
   },
   {
     "name": "Left Right",
@@ -201,7 +233,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\nInput 3 to LWV (-4/+7/+7)\nInput 4 to RWV (-4/+7/+7)\nInput b+3_4 to SWY (-4/+7/+7)\n\n",
-    "alternateInputs": ["1,2"]
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "",
@@ -213,7 +247,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\nInput f to PAB (-2/+4/+4)\nInput b to FLK (-1/+5/+5)\n\n",
-    "alternateInputs": ["1,2,1"]
+    "alternateInputs": [
+      "1,2,1"
+    ]
   },
   {
     "name": "British Edge Combo",
@@ -225,7 +261,9 @@
     "hit": "+16a (+7)",
     "counter": "",
     "note": "\n\nBalcony Break\nInput f+3_4 to DCK (-4/+22a (+13)/-)\n\n",
-    "alternateInputs": ["1,2,1,2"]
+    "alternateInputs": [
+      "1,2,1,2"
+    ]
   },
   {
     "name": "British Edge Combo 2",
@@ -237,7 +275,9 @@
     "hit": "+1c",
     "counter": "+14d",
     "note": "\n\n",
-    "alternateInputs": ["1,2,1,d+2"]
+    "alternateInputs": [
+      "1,2,1,d+2"
+    ]
   },
   {
     "name": "",
@@ -249,7 +289,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["2"]
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "",
@@ -261,7 +303,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\nInput f to PAB (+2/+13g/+13)\nInput b to FLK (+3/+14g/+14)\n\n",
-    "alternateInputs": ["2,1"]
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Vanguard Rush",
@@ -273,7 +317,9 @@
     "hit": "+13a (+4)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["2,1,2"]
+    "alternateInputs": [
+      "2,1,2"
+    ]
   },
   {
     "name": "Cromwell Combination",
@@ -285,7 +331,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["2,2"]
+    "alternateInputs": [
+      "2,2"
+    ]
   },
   {
     "name": "Sonic Fang",
@@ -297,7 +345,9 @@
     "hit": "+18a (+11)",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash  (+5/+35d/-)\n\n\n",
-    "alternateInputs": ["1+2"]
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "",
@@ -309,7 +359,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["f+2"]
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Ducking Body Blow > Left Hook",
@@ -321,7 +373,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\nInput f to PAB (+0/+4/+4)\nInput b to FLK (+1/+5/+5)\n\n",
-    "alternateInputs": ["f+2,1"]
+    "alternateInputs": [
+      "f+2,1"
+    ]
   },
   {
     "name": "Ducking Psyche-out Body",
@@ -333,7 +387,9 @@
     "hit": "+36d (+28)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["f+2,1~2"]
+    "alternateInputs": [
+      "f+2,1~2"
+    ]
   },
   {
     "name": "",
@@ -345,7 +401,9 @@
     "hit": "+11",
     "counter": "",
     "note": "\nTransistion to LNH\n\n",
-    "alternateInputs": ["f+2,2"]
+    "alternateInputs": [
+      "f+2,2"
+    ]
   },
   {
     "name": "Conqueror Combination",
@@ -357,7 +415,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["f+2,2,1+2"]
+    "alternateInputs": [
+      "f+2,2,1+2"
+    ]
   },
   {
     "name": "",
@@ -369,7 +429,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Shotgun Combination",
@@ -381,7 +443,9 @@
     "hit": "+3d",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["f+1+2,2"]
+    "alternateInputs": [
+      "f+1+2,2"
+    ]
   },
   {
     "name": "Left Uppercut",
@@ -393,7 +457,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\nInput 3 to LWV (-7/0/0)\nInput 4 to RWV (-7/0/0)\nInput b+3_4 to SWY (-7/0/0)\nInput f+3_4 to DCK (-5/+2/+2)\n\n",
-    "alternateInputs": ["df+1"]
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Uppercut Cross Combo",
@@ -405,7 +471,9 @@
     "hit": "+3",
     "counter": "+5",
     "note": "\nInput 3 to LWV (-16/-9/-9)\nInput 4 to RWV (-16/-9/-9)\nInput b+3_4 to SWY (-16/-9/-9)\nInput f+3_4 to DCK (-14/-7/-7)\n\n",
-    "alternateInputs": ["df+1,2"]
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Uppercut Psyche-out Hook",
@@ -417,7 +485,9 @@
     "hit": "+2",
     "counter": "+61a",
     "note": "\nInput b to FLK (+0/+4/+63a)\n",
-    "alternateInputs": ["df+1,2~1"]
+    "alternateInputs": [
+      "df+1,2~1"
+    ]
   },
   {
     "name": "Uppercut Psyche-out Body",
@@ -429,7 +499,9 @@
     "hit": "+36d (+28)",
     "counter": "",
     "note": "\n\nBalcony Break\nInput b to FLK (+0/+4/+36d (+28))\n\n",
-    "alternateInputs": ["df+1,2~2"]
+    "alternateInputs": [
+      "df+1,2~2"
+    ]
   },
   {
     "name": "Uppercut Psyche-out Left Right Combo",
@@ -441,7 +513,9 @@
     "hit": "+0",
     "counter": "+61a",
     "note": "\nInput b to FLK (+0/+4/+63a)\n\n",
-    "alternateInputs": ["df+1,2~f+1+2"]
+    "alternateInputs": [
+      "df+1,2~f+1+2"
+    ]
   },
   {
     "name": "Crescent Hook",
@@ -453,7 +527,9 @@
     "hit": "+6",
     "counter": "+8c",
     "note": "\nInput 3 to LWV (-7/+10/+12)\nInput 4 to RWV (-7/+10/+12)\nInput b+3_4 to SWY (-7/+10/+12)\nInput f+3_4 to DCK (-2/+15g/+17)\n\n",
-    "alternateInputs": ["df+2"]
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Knee Blaster",
@@ -465,7 +541,9 @@
     "hit": "-2",
     "counter": "",
     "note": "\nRecover in crouch\n\n",
-    "alternateInputs": ["d+1"]
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "",
@@ -477,7 +555,9 @@
     "hit": "-5",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["d+2"]
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "",
@@ -489,7 +569,9 @@
     "hit": "-5",
     "counter": "+0",
     "note": "\nInput 3 to LWV (-6/+0/+0)\nInput 4 to RWV (-6/+0/+0)\nInput b+3_4 to SWY (-6/+0/+0)\nInput f+3_4 to DCK (-4/+2/+7)\n\n",
-    "alternateInputs": ["d+2,1"]
+    "alternateInputs": [
+      "d+2,1"
+    ]
   },
   {
     "name": "Wildman Combo",
@@ -501,7 +583,9 @@
     "hit": "+27a (+18)",
     "counter": "+56a",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["d+2,1,2"]
+    "alternateInputs": [
+      "d+2,1,2"
+    ]
   },
   {
     "name": "",
@@ -513,7 +597,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["db+1"]
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Knee Clipper",
@@ -525,7 +611,9 @@
     "hit": "+1c",
     "counter": "+14d",
     "note": "\nd or db to recover in crouch\n\n",
-    "alternateInputs": ["db+2"]
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "",
@@ -537,7 +625,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["db+3"]
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Foot Stomp Right Hook",
@@ -549,7 +639,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\nTransition to LNH\n\n",
-    "alternateInputs": ["db+3,2"]
+    "alternateInputs": [
+      "db+3,2"
+    ]
   },
   {
     "name": "Stun Gun",
@@ -561,7 +653,9 @@
     "hit": "+14",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["db+1+2"]
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Quick Hook",
@@ -573,7 +667,9 @@
     "hit": "+2",
     "counter": "+61a",
     "note": "\nInput B to FLK (-1/+10/+69)\n\n",
-    "alternateInputs": ["b+1"]
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Quick Draw",
@@ -585,7 +681,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n\nHoming\nTransitions to LNH\n\n",
-    "alternateInputs": ["b+1,2"]
+    "alternateInputs": [
+      "b+1,2"
+    ]
   },
   {
     "name": "Swindler",
@@ -597,7 +695,9 @@
     "hit": "+4",
     "counter": "+63a",
     "note": "\n\n",
-    "alternateInputs": ["b+1,2~1"]
+    "alternateInputs": [
+      "b+1,2~1"
+    ]
   },
   {
     "name": "",
@@ -609,7 +709,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nInput F to PAB (-9/+2/+2)\n\n",
-    "alternateInputs": ["b+1,d+2"]
+    "alternateInputs": [
+      "b+1,d+2"
+    ]
   },
   {
     "name": "Frigate Combo",
@@ -621,7 +723,9 @@
     "hit": "+35",
     "counter": "",
     "note": "\nTornado\n\n",
-    "alternateInputs": ["b+1,d+2,1"]
+    "alternateInputs": [
+      "b+1,d+2,1"
+    ]
   },
   {
     "name": "Body Bomb",
@@ -633,7 +737,9 @@
     "hit": "+14",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["b+2"]
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Bounty Hunter",
@@ -645,7 +751,9 @@
     "hit": "+14",
     "counter": "",
     "note": "\n\nStrong Aerial Tailspin\n\nHoming\nCauses Strong Aerial Tailspin\nTransition into LNH\nInput b to cancel LNH\n\n",
-    "alternateInputs": ["ub+2"]
+    "alternateInputs": [
+      "ub+2"
+    ]
   },
   {
     "name": "Swindler",
@@ -657,7 +765,9 @@
     "hit": "+4",
     "counter": "+63a",
     "note": "\n",
-    "alternateInputs": ["ub+2~1"]
+    "alternateInputs": [
+      "ub+2~1"
+    ]
   },
   {
     "name": "Hellfire",
@@ -669,7 +779,9 @@
     "hit": "+12a (+1)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["ub+1+2"]
+    "alternateInputs": [
+      "ub+1+2"
+    ]
   },
   {
     "name": "Over the Top",
@@ -681,7 +793,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["uf+1"]
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Burst Hammer",
@@ -693,7 +807,9 @@
     "hit": "+52a",
     "counter": "",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["uf+2"]
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "",
@@ -705,7 +821,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["uf+3"]
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Jump-in Foot Stomp Right Hook",
@@ -717,7 +835,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\nTransition to LNH\n\n",
-    "alternateInputs": ["uf+3,2"]
+    "alternateInputs": [
+      "uf+3,2"
+    ]
   },
   {
     "name": "Jumping Duck Kick",
@@ -729,7 +849,9 @@
     "hit": "+22a (+5)",
     "counter": "+36a (+26)",
     "note": "\n\n",
-    "alternateInputs": ["uf+4"]
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Beat Down",
@@ -741,7 +863,9 @@
     "hit": "+12d",
     "counter": "",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["f,F+2"]
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Rocket Launcher",
@@ -753,7 +877,9 @@
     "hit": "+16a (+7)",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\nInput B to FLK (-3/+23a (+14)/-)\n\n",
-    "alternateInputs": ["qcf+1"]
+    "alternateInputs": [
+      "qcf+1"
+    ]
   },
   {
     "name": "Low Cross Blaster",
@@ -765,7 +891,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\nInput F transitions to PAB\n\n",
-    "alternateInputs": ["qcf+2"]
+    "alternateInputs": [
+      "qcf+2"
+    ]
   },
   {
     "name": "Eraser",
@@ -777,7 +905,9 @@
     "hit": "+17",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash (+5/+67a (+50)/-)\n\n\nBalcony Break\n\nSpike\nChip Damage On block\n\n",
-    "alternateInputs": ["f,f,F+2"]
+    "alternateInputs": [
+      "f,f,F+2"
+    ]
   },
   {
     "name": "Sliding Low Punch",
@@ -789,7 +919,9 @@
     "hit": "+17d",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["after_2steps+1"]
+    "alternateInputs": [
+      "after_2steps+1"
+    ]
   },
   {
     "name": "Finishing Blow",
@@ -801,7 +933,9 @@
     "hit": "+34a (+24)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["FC df+2"]
+    "alternateInputs": [
+      "FC df+2"
+    ]
   },
   {
     "name": "",
@@ -813,7 +947,9 @@
     "hit": "+3",
     "counter": "+8",
     "note": "\n\n",
-    "alternateInputs": ["WS 1"]
+    "alternateInputs": [
+      "WS 1"
+    ]
   },
   {
     "name": "Eagle Jab",
@@ -825,7 +961,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\nInput 3 to LWV (-6/+0/+0)\nInput 4 to RWV (-6/+0/+0)\nInput b+3_4 to SWY (-6/+0/+0)\nInput f+3_4 to DCK (-2/+4/+4)\n\n",
-    "alternateInputs": ["WS 1,1"]
+    "alternateInputs": [
+      "WS 1,1"
+    ]
   },
   {
     "name": "Wildman",
@@ -837,7 +975,9 @@
     "hit": "+3c",
     "counter": "+23d",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["WS 1,2"]
+    "alternateInputs": [
+      "WS 1,2"
+    ]
   },
   {
     "name": "",
@@ -849,7 +989,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\nInput 3 to LWV (-7/+4/+4)\nInput 4 to RWV (-7/+4/+4)\nInput b+3_4 to SWY (-7/+4/+4)\nInput f+3_4 to DCK (-5/+6/+6)\n\n",
-    "alternateInputs": ["WS 2"]
+    "alternateInputs": [
+      "WS 2"
+    ]
   },
   {
     "name": "Nighthawk Combination",
@@ -861,7 +1003,9 @@
     "hit": "+11",
     "counter": "",
     "note": "\nTransition to LNH\n\n",
-    "alternateInputs": ["WS 2,2"]
+    "alternateInputs": [
+      "WS 2,2"
+    ]
   },
   {
     "name": "Ducking Left",
@@ -873,7 +1017,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["3"]
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -885,7 +1031,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\nInput b to FLK (-3/+8/+8)\n\n",
-    "alternateInputs": ["LWV 1"]
+    "alternateInputs": [
+      "LWV 1"
+    ]
   },
   {
     "name": "Double Stinger",
@@ -897,7 +1045,9 @@
     "hit": "+28a (+19)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["LWV 1,1"]
+    "alternateInputs": [
+      "LWV 1,1"
+    ]
   },
   {
     "name": "",
@@ -909,7 +1059,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["LWV 1,f+1"]
+    "alternateInputs": [
+      "LWV 1,f+1"
+    ]
   },
   {
     "name": "Centurion Rush",
@@ -921,7 +1073,9 @@
     "hit": "+7",
     "counter": "+68a",
     "note": "\nInput b to FLK (+4/+3/+68a)\n\n",
-    "alternateInputs": ["LWV 1,f+1,1"]
+    "alternateInputs": [
+      "LWV 1,f+1,1"
+    ]
   },
   {
     "name": "Bee Sting Combo",
@@ -933,7 +1087,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition to LNH\n\n",
-    "alternateInputs": ["LWV 1,2"]
+    "alternateInputs": [
+      "LWV 1,2"
+    ]
   },
   {
     "name": "Swindler",
@@ -945,7 +1101,9 @@
     "hit": "+4",
     "counter": "+63a",
     "note": "\n\n",
-    "alternateInputs": ["LWV 1,2~1"]
+    "alternateInputs": [
+      "LWV 1,2~1"
+    ]
   },
   {
     "name": "",
@@ -957,7 +1115,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\nInput f to PAB (-1/+8/+8)\n\n",
-    "alternateInputs": ["LWV 2"]
+    "alternateInputs": [
+      "LWV 2"
+    ]
   },
   {
     "name": "Right Shoulder Rush > Billy Club",
@@ -969,7 +1129,9 @@
     "hit": "+4c",
     "counter": "+7d",
     "note": "\n\nSpike\nInput f into PAB (-1/+8/+8)\n\n",
-    "alternateInputs": ["LWV 2,1"]
+    "alternateInputs": [
+      "LWV 2,1"
+    ]
   },
   {
     "name": "Ducking Right",
@@ -981,7 +1143,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["4"]
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "",
@@ -993,7 +1157,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\nInput f into PAB (-1/+8/+8)\n\n",
-    "alternateInputs": ["RWV 1"]
+    "alternateInputs": [
+      "RWV 1"
+    ]
   },
   {
     "name": "Hawk Swoop Combo",
@@ -1005,7 +1171,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition into LNH\n\n",
-    "alternateInputs": ["RWV 1,2"]
+    "alternateInputs": [
+      "RWV 1,2"
+    ]
   },
   {
     "name": "Swindler",
@@ -1017,7 +1185,9 @@
     "hit": "+4",
     "counter": "+63a",
     "note": "\n\n",
-    "alternateInputs": ["RWV 1,2~1"]
+    "alternateInputs": [
+      "RWV 1,2~1"
+    ]
   },
   {
     "name": "Gut Drill",
@@ -1029,7 +1199,9 @@
     "hit": "+10a (+1)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["RWV 2"]
+    "alternateInputs": [
+      "RWV 2"
+    ]
   },
   {
     "name": "Swaying",
@@ -1041,7 +1213,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransition to SWY\nInput 3 to LWV\nInput 4 to RWV\nInput f+3_4 to DCK\n\n",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Billy Club",
@@ -1053,7 +1227,9 @@
     "hit": "+14",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SWY 1"]
+    "alternateInputs": [
+      "SWY 1"
+    ]
   },
   {
     "name": "Snake Charmer",
@@ -1065,7 +1241,9 @@
     "hit": "+36a",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SWY 2"]
+    "alternateInputs": [
+      "SWY 2"
+    ]
   },
   {
     "name": "Position Change",
@@ -1077,7 +1255,9 @@
     "hit": "+1 / +10wc",
     "counter": "",
     "note": "\n+10 when opponent hits the wall, if the throw is successful\nThrow break 1+2\n\n",
-    "alternateInputs": ["SWY 1+2"]
+    "alternateInputs": [
+      "SWY 1+2"
+    ]
   },
   {
     "name": "",
@@ -1089,7 +1269,9 @@
     "hit": "+1 / +13~17wc",
     "counter": "",
     "note": "\n+13 when opponent hits the wall after being rotated by < 90 degrees\n+17 when opponent hits the wall after being rotated by > 90 degrees\nThrow break 1+2\n\n",
-    "alternateInputs": ["SWY 1+2~b_u_d"]
+    "alternateInputs": [
+      "SWY 1+2~b_u_d"
+    ]
   },
   {
     "name": "Quick Spin",
@@ -1101,7 +1283,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransition into ALB\nInput f into PAB\n\n",
-    "alternateInputs": ["3+4"]
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "Cyclone Punch",
@@ -1113,7 +1297,9 @@
     "hit": "+16a (+7)",
     "counter": "",
     "note": "\nHeat Engager\n\nHeat Dash (+5/+36a (+26)/-)\n\n\nBalcony Break\n\n",
-    "alternateInputs": ["ALB 2"]
+    "alternateInputs": [
+      "ALB 2"
+    ]
   },
   {
     "name": "Cyclone Knee Clip",
@@ -1125,7 +1311,9 @@
     "hit": "+1c",
     "counter": "+14d",
     "note": "\n\n",
-    "alternateInputs": ["ALB d+2"]
+    "alternateInputs": [
+      "ALB d+2"
+    ]
   },
   {
     "name": "Cyclone Left (Right)",
@@ -1137,7 +1325,9 @@
     "hit": "",
     "counter": "",
     "note": "\nInput F to transition PAB\n\n",
-    "alternateInputs": ["ALB d_u"]
+    "alternateInputs": [
+      "ALB d_u"
+    ]
   },
   {
     "name": "Double Cyclone Punch",
@@ -1149,7 +1339,9 @@
     "hit": "+16a (+7)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["ALB d_u,1"]
+    "alternateInputs": [
+      "ALB d_u,1"
+    ]
   },
   {
     "name": "Double Cyclone Knee Punch",
@@ -1161,7 +1353,9 @@
     "hit": "+14d",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["ALB d_u,d+1"]
+    "alternateInputs": [
+      "ALB d_u,d+1"
+    ]
   },
   {
     "name": "Ducking",
@@ -1173,7 +1367,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransition to DCK\nInput u+3_4 to LWV\nInput d+3_4 to RWV\nInput b+3_4 to SWY\nInput f+3_4 to DCK\nInput db to FC\n\n",
-    "alternateInputs": ["f+3_4"]
+    "alternateInputs": [
+      "f+3_4"
+    ]
   },
   {
     "name": "Fox Hunt",
@@ -1185,7 +1381,9 @@
     "hit": "+58a (+27)",
     "counter": "+34a (+24)",
     "note": "\n\n",
-    "alternateInputs": ["DCK 1"]
+    "alternateInputs": [
+      "DCK 1"
+    ]
   },
   {
     "name": "Skyscraper",
@@ -1197,7 +1395,9 @@
     "hit": "+35a (+25)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["DCK 2"]
+    "alternateInputs": [
+      "DCK 2"
+    ]
   },
   {
     "name": "Punisher",
@@ -1209,7 +1409,9 @@
     "hit": "+9d",
     "counter": "+49a",
     "note": "\nInput 3 to LWV (+1/+17d/+57a)\nInput 4 to RWV (+1/+17d/+57a)\nInput b+3_4 to SWY (+1/+17d/+57a)\nInput f+3_4 to DCK (+3/+19d/+59a)\n\n",
-    "alternateInputs": ["DCK f+2"]
+    "alternateInputs": [
+      "DCK f+2"
+    ]
   },
   {
     "name": "",
@@ -1221,7 +1423,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["DCK 1+2"]
+    "alternateInputs": [
+      "DCK 1+2"
+    ]
   },
   {
     "name": "",
@@ -1233,7 +1437,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["DCK 1+2,1+2"]
+    "alternateInputs": [
+      "DCK 1+2,1+2"
+    ]
   },
   {
     "name": "",
@@ -1245,7 +1451,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["DCK 1+2,1+2,1+2"]
+    "alternateInputs": [
+      "DCK 1+2,1+2,1+2"
+    ]
   },
   {
     "name": "Gatling Gun",
@@ -1257,7 +1465,9 @@
     "hit": "+32a (+22)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["DCK 1+2,1+2,1+2,1+2"]
+    "alternateInputs": [
+      "DCK 1+2,1+2,1+2,1+2"
+    ]
   },
   {
     "name": "Ducking In",
@@ -1269,7 +1479,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransition to EXTDCK\n\n",
-    "alternateInputs": ["DCK f+3_4"]
+    "alternateInputs": [
+      "DCK f+3_4"
+    ]
   },
   {
     "name": "Power Fox Hunt",
@@ -1281,7 +1493,9 @@
     "hit": "+44d (+36)",
     "counter": "+41a (+31)",
     "note": "\n\n",
-    "alternateInputs": ["EXD 1"]
+    "alternateInputs": [
+      "EXD 1"
+    ]
   },
   {
     "name": "Power Skyscraper",
@@ -1293,7 +1507,9 @@
     "hit": "+61a (+51)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["EXD 2"]
+    "alternateInputs": [
+      "EXD 2"
+    ]
   },
   {
     "name": "Power Punisher",
@@ -1305,7 +1521,9 @@
     "hit": "+49a",
     "counter": "",
     "note": "\nInput 3 to LWV (+10/+59a/-)\nInput 4 to RWV (+10/+59a/-)\nInput b+3_4 to SWY (+10/+57a/-)\nInput f+3_4 to DCK (+12/+59a/-)\n\n",
-    "alternateInputs": ["EXD f+2"]
+    "alternateInputs": [
+      "EXD f+2"
+    ]
   },
   {
     "name": "Peekaboo",
@@ -1317,7 +1535,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransition to PAB\nAuto blocks high and mid\n\n",
-    "alternateInputs": ["f+3+4"]
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "",
@@ -1329,7 +1549,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB 1"]
+    "alternateInputs": [
+      "PAB 1"
+    ]
   },
   {
     "name": "",
@@ -1341,7 +1563,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB 1,2"]
+    "alternateInputs": [
+      "PAB 1,2"
+    ]
   },
   {
     "name": "Albion Combination",
@@ -1353,7 +1577,9 @@
     "hit": "+8",
     "counter": "+44a",
     "note": "\n\nSpike\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB 1,2,1"]
+    "alternateInputs": [
+      "PAB 1,2,1"
+    ]
   },
   {
     "name": "Spite Hook",
@@ -1365,7 +1591,9 @@
     "hit": "+2",
     "counter": "+58a",
     "note": "\nRemains in PAB\nPunch parry\n\nHoming\n\n",
-    "alternateInputs": ["PAB 2"]
+    "alternateInputs": [
+      "PAB 2"
+    ]
   },
   {
     "name": "Ten Count",
@@ -1377,7 +1605,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\n1+2 for throw break\n\n",
-    "alternateInputs": ["PAB 1+2"]
+    "alternateInputs": [
+      "PAB 1+2"
+    ]
   },
   {
     "name": "",
@@ -1389,7 +1619,9 @@
     "hit": "+31a (+16)",
     "counter": "",
     "note": "\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB f+2"]
+    "alternateInputs": [
+      "PAB f+2"
+    ]
   },
   {
     "name": "Straight Punch Combination",
@@ -1401,7 +1633,9 @@
     "hit": "+24a (+14)",
     "counter": "",
     "note": "\n\nBalcony Break\nInterruptible by i13 move\n\n",
-    "alternateInputs": ["PAB f+2,1"]
+    "alternateInputs": [
+      "PAB f+2,1"
+    ]
   },
   {
     "name": "Nimrod Combination",
@@ -1413,7 +1647,9 @@
     "hit": "+24a (+15)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["PAB f+1+2"]
+    "alternateInputs": [
+      "PAB f+1+2"
+    ]
   },
   {
     "name": "",
@@ -1425,7 +1661,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB df+1"]
+    "alternateInputs": [
+      "PAB df+1"
+    ]
   },
   {
     "name": "",
@@ -1437,7 +1675,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB df+1,1"]
+    "alternateInputs": [
+      "PAB df+1,1"
+    ]
   },
   {
     "name": "",
@@ -1449,7 +1689,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB df+1,1,2"]
+    "alternateInputs": [
+      "PAB df+1,1,2"
+    ]
   },
   {
     "name": "Argos Rush",
@@ -1461,7 +1703,9 @@
     "hit": "+17d",
     "counter": "",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["PAB df+1,1,2,1"]
+    "alternateInputs": [
+      "PAB df+1,1,2,1"
+    ]
   },
   {
     "name": "Cross Cut",
@@ -1473,7 +1717,9 @@
     "hit": "+10",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["PAB df+1,2"]
+    "alternateInputs": [
+      "PAB df+1,2"
+    ]
   },
   {
     "name": "Cutting Elbow",
@@ -1485,7 +1731,9 @@
     "hit": "+31a (+21)",
     "counter": "",
     "note": "\n\nElbow\nRemains in PAB\n\n",
-    "alternateInputs": ["PAB df+2"]
+    "alternateInputs": [
+      "PAB df+2"
+    ]
   },
   {
     "name": "Patella Smash",
@@ -1497,7 +1745,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\nRemains in PAB\nAlternate input: FC df1\n\n",
-    "alternateInputs": ["PAB d+1"]
+    "alternateInputs": [
+      "PAB d+1"
+    ]
   },
   {
     "name": "Knuckle Plow",
@@ -1509,7 +1759,9 @@
     "hit": "+7",
     "counter": "+32a",
     "note": "\nHold D to FC\n\n",
-    "alternateInputs": ["PAB d+2"]
+    "alternateInputs": [
+      "PAB d+2"
+    ]
   },
   {
     "name": "",
@@ -1521,7 +1773,9 @@
     "hit": "-6",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["PAB b+1"]
+    "alternateInputs": [
+      "PAB b+1"
+    ]
   },
   {
     "name": "",
@@ -1533,7 +1787,9 @@
     "hit": "-1",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["PAB b+1,1"]
+    "alternateInputs": [
+      "PAB b+1,1"
+    ]
   },
   {
     "name": "",
@@ -1545,7 +1801,9 @@
     "hit": "-5",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["PAB b+1,1,2"]
+    "alternateInputs": [
+      "PAB b+1,1,2"
+    ]
   },
   {
     "name": "Lancaster Combination",
@@ -1557,7 +1815,9 @@
     "hit": "+16a (+7)",
     "counter": "",
     "note": "\n\nBalcony Break\nInput b to FLK (-3/+23a (+14)/-)\n\n",
-    "alternateInputs": ["PAB b+1,1,2,1"]
+    "alternateInputs": [
+      "PAB b+1,1,2,1"
+    ]
   },
   {
     "name": "Swaying Hook",
@@ -1569,7 +1829,9 @@
     "hit": "+11a (+2)",
     "counter": "",
     "note": "\n\nBalcony Break\nBackswing Blow\n\n",
-    "alternateInputs": ["PAB b+2"]
+    "alternateInputs": [
+      "PAB b+2"
+    ]
   },
   {
     "name": "Dreadnought Uppercut",
@@ -1581,7 +1843,9 @@
     "hit": "+34a (+24)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["PAB uf+2"]
+    "alternateInputs": [
+      "PAB uf+2"
+    ]
   },
   {
     "name": "Flicker Stance",
@@ -1593,7 +1857,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransition to FLK\nAuto blocks high and mid\n\n",
-    "alternateInputs": ["b+3_4"]
+    "alternateInputs": [
+      "b+3_4"
+    ]
   },
   {
     "name": "",
@@ -1605,7 +1871,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\nInput b to stay in FLK (-1/+10/+10)\nInput 3+4 to ALB (+17g/+28g/+28)\n\n",
-    "alternateInputs": ["FLK 1"]
+    "alternateInputs": [
+      "FLK 1"
+    ]
   },
   {
     "name": "",
@@ -1617,7 +1885,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nInput b to stay in FLK (-4/+5/+5)\nInput 3+4 to ALB (+17g/+28g/+28)\n\n",
-    "alternateInputs": ["FLK 1,1"]
+    "alternateInputs": [
+      "FLK 1,1"
+    ]
   },
   {
     "name": "",
@@ -1629,7 +1899,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nInput b to stay in FLK (-4/+5/+5)\nInput 3+4 to ALB (+17g/+28g/+28)\n\n",
-    "alternateInputs": ["FLK 1,1,1"]
+    "alternateInputs": [
+      "FLK 1,1,1"
+    ]
   },
   {
     "name": "",
@@ -1641,7 +1913,9 @@
     "hit": "+0",
     "counter": "+10d",
     "note": "\n\nSpike\nSame hit as (FLK.1),f+1\n\n",
-    "alternateInputs": ["FLK 1,1,f+1"]
+    "alternateInputs": [
+      "FLK 1,1,f+1"
+    ]
   },
   {
     "name": "",
@@ -1653,7 +1927,9 @@
     "hit": "+18g",
     "counter": "+42a",
     "note": "\nSame hit as (FLK.1),d+1\n\n",
-    "alternateInputs": ["FLK 1,1,d+1"]
+    "alternateInputs": [
+      "FLK 1,1,d+1"
+    ]
   },
   {
     "name": "",
@@ -1665,7 +1941,9 @@
     "hit": "+17a (+0)",
     "counter": "",
     "note": "\nSame hit as (FLK.1,1,1),2\n\n",
-    "alternateInputs": ["FLK 1,2"]
+    "alternateInputs": [
+      "FLK 1,2"
+    ]
   },
   {
     "name": "",
@@ -1677,7 +1955,9 @@
     "hit": "+17a (+0)",
     "counter": "",
     "note": "\nSame hit as (FLK.1,1,1),2\n\n",
-    "alternateInputs": ["FLK 1,1,2"]
+    "alternateInputs": [
+      "FLK 1,1,2"
+    ]
   },
   {
     "name": "Spiteful Combination",
@@ -1689,7 +1969,9 @@
     "hit": "+17a (+0)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["FLK 1,1,1,2"]
+    "alternateInputs": [
+      "FLK 1,1,1,2"
+    ]
   },
   {
     "name": "Tempest Combo",
@@ -1701,7 +1983,9 @@
     "hit": "+0",
     "counter": "+10d",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["FLK 1,f+1"]
+    "alternateInputs": [
+      "FLK 1,f+1"
+    ]
   },
   {
     "name": "Power Hook Combo",
@@ -1713,7 +1997,9 @@
     "hit": "+18g",
     "counter": "+42a",
     "note": "\n\n",
-    "alternateInputs": ["FLK 1,d+1"]
+    "alternateInputs": [
+      "FLK 1,d+1"
+    ]
   },
   {
     "name": "Fly Swatter",
@@ -1725,7 +2011,9 @@
     "hit": "+7d",
     "counter": "+42a",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["FLK 2"]
+    "alternateInputs": [
+      "FLK 2"
+    ]
   },
   {
     "name": "British Lancer",
@@ -1737,7 +2025,9 @@
     "hit": "+35d (+27)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\n\n",
-    "alternateInputs": ["FLK b+2"]
+    "alternateInputs": [
+      "FLK b+2"
+    ]
   },
   {
     "name": "Griffin Throw",
@@ -1749,7 +2039,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\n1+2 for throw break\n\n",
-    "alternateInputs": ["FLK 1+2"]
+    "alternateInputs": [
+      "FLK 1+2"
+    ]
   },
   {
     "name": "Lion Heart",
@@ -1761,7 +2053,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransition to LNH\nInput 3 to LWV\nInput 4 to RWV\nInput b+3_4 to SWY\nInput f+3_4 to DCK\nSometimes written Outfox\n",
-    "alternateInputs": ["ub+3"]
+    "alternateInputs": [
+      "ub+3"
+    ]
   },
   {
     "name": "Vigilant Blow",
@@ -1773,7 +2067,9 @@
     "hit": "+9/HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +43a(+35)\n\n\nHoming\n\n",
-    "alternateInputs": ["LNin heat 1"]
+    "alternateInputs": [
+      "LNin heat 1"
+    ]
   },
   {
     "name": "Bloodhound",
@@ -1785,7 +2081,9 @@
     "hit": "+61a (+51)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["LNin heat 2"]
+    "alternateInputs": [
+      "LNin heat 2"
+    ]
   },
   {
     "name": "Swingfire Advance",
@@ -1797,7 +2095,9 @@
     "hit": "+6a(-3)",
     "counter": "",
     "note": "\n\nGuard Break\n\nBalcony Break\n\n",
-    "alternateInputs": ["LNin heat 1+2"]
+    "alternateInputs": [
+      "LNin heat 1+2"
+    ]
   },
   {
     "name": "Two-Faced",
@@ -1809,7 +2109,9 @@
     "hit": "",
     "counter": "",
     "note": "\nParries mid attacks\nTransitions to TFA after successful parry\n\n",
-    "alternateInputs": ["in heat LNH"]
+    "alternateInputs": [
+      "in heat LNH"
+    ]
   },
   {
     "name": "Dear Land of Hope",
@@ -1821,7 +2123,9 @@
     "hit": "",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["in rage df+1+2"]
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Cheapshot",
@@ -1833,7 +2137,9 @@
     "hit": "+2",
     "counter": "+2",
     "note": "\nRecovers in crouch\n\n",
-    "alternateInputs": ["OTG d+1+2"]
+    "alternateInputs": [
+      "OTG d+1+2"
+    ]
   },
   {
     "name": "Parry",
@@ -1845,7 +2151,9 @@
     "hit": "",
     "counter": "",
     "note": "\nParry h and m punches\nSuccessful parry i14,30dmg (-12/+24a (+18)/+26a (+16))\n\n",
-    "alternateInputs": ["b+1+3_b+2+4"]
+    "alternateInputs": [
+      "b+1+3_b+2+4"
+    ]
   },
   {
     "name": "Gut Wrencher",
@@ -1857,7 +2165,9 @@
     "hit": "",
     "counter": "",
     "note": "\nThrow break 1 or 2\n",
-    "alternateInputs": ["1+3"]
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Brain Pulverizer",
@@ -1869,7 +2179,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\nFloor Break\nThrow break 1 or 2\n",
-    "alternateInputs": ["2+4"]
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Choke Slam",
@@ -1881,7 +2193,9 @@
     "hit": "",
     "counter": "",
     "note": "\nThrow break 1\n\n",
-    "alternateInputs": ["Left throw"]
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Throw Down",
@@ -1893,7 +2207,9 @@
     "hit": "",
     "counter": "",
     "note": "\nThrow break 2\n\n",
-    "alternateInputs": ["Right throw"]
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Schoolyard Bully",
@@ -1905,7 +2221,9 @@
     "hit": "",
     "counter": "",
     "note": "\nUnbreakable\n\n",
-    "alternateInputs": ["Back throw"]
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Armlock Throw",
@@ -1917,7 +2235,9 @@
     "hit": "",
     "counter": "",
     "note": "\n1+2 Throw break\n\n",
-    "alternateInputs": ["uf+1+2"]
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Spinning Elbow Drop",
@@ -1929,6 +2249,8 @@
     "hit": "",
     "counter": "",
     "note": "\n2 Throw break\n\n",
-    "alternateInputs": ["qcb+2+4"]
+    "alternateInputs": [
+      "qcb+2+4"
+    ]
   }
 ]

@@ -9,7 +9,9 @@
     "hit": "+2c",
     "counter": "",
     "note": "\n\nHeat Burst\nCancel with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor\n",
-    "alternateInputs": ["2+3"]
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Curse of Azazel",
@@ -21,7 +23,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\n\nHeat Smash\n\nBalcony Break\nHit throw on the first hit\nUnparryable\nIgnores regular power crush armor\nJails\n",
-    "alternateInputs": ["in heat 2+3"]
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Malice of Azazel",
@@ -33,7 +37,9 @@
     "hit": "+44d (+25)",
     "counter": "",
     "note": "\n\nHeat Smash\n\nBalcony Break \n",
-    "alternateInputs": ["in heat SCR 2+3"]
+    "alternateInputs": [
+      "in heat SCR 2+3"
+    ]
   },
   {
     "name": "Malicious Nail",
@@ -45,7 +51,9 @@
     "hit": "+5d(-5)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a (+26)\n\n\nBalcony Break\nAzazel's Power\nZafina receives recoverable health damage\nSecond hit only comes out on hit or block\n8 chip damage on block\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Miasma Bearer",
@@ -57,7 +65,9 @@
     "hit": "+3d",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +17d\n\n\nBalcony Break\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nDeals 8 chip damage on block\nCancel and transition to -18, -2 FC with D\nCombos from 1st hit\n\n",
-    "alternateInputs": ["df+4,1"]
+    "alternateInputs": [
+      "df+4,1"
+    ]
   },
   {
     "name": "",
@@ -69,7 +79,9 @@
     "hit": "+30d(+20)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n\n",
-    "alternateInputs": ["SCR 2,1"]
+    "alternateInputs": [
+      "SCR 2,1"
+    ]
   },
   {
     "name": "",
@@ -81,7 +93,9 @@
     "hit": "+30a(+15)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +35d\n\nAzazel's Power\nZafina receives recoverable health damage\n12 chip damage on block\nGains Power Crush frames during heat\n\n",
-    "alternateInputs": ["TRT df+1"]
+    "alternateInputs": [
+      "TRT df+1"
+    ]
   },
   {
     "name": "Vicious Claw",
@@ -93,7 +107,9 @@
     "hit": "+7d",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50\n\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n9 chip damage on block\n\n",
-    "alternateInputs": ["MNT df+1"]
+    "alternateInputs": [
+      "MNT df+1"
+    ]
   },
   {
     "name": "",
@@ -105,7 +121,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit\n",
-    "alternateInputs": ["in rage df+1+2"]
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "",
@@ -117,7 +135,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["1"]
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Left Right Combo",
@@ -129,7 +149,9 @@
     "hit": "+8",
     "counter": "",
     "note": "Combos from 1st hit\n",
-    "alternateInputs": ["1,2"]
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Left Right Scarecrow",
@@ -141,7 +163,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\nCancel SCR transition -9, +0 with B\nCombos from 2nd hit CH\nCan be delayed\n\n",
-    "alternateInputs": ["1,2,3"]
+    "alternateInputs": [
+      "1,2,3"
+    ]
   },
   {
     "name": "Anzu",
@@ -153,7 +177,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\nCancel SCR transition -8, +1 with B\nCombos from 1st hit\n\n",
-    "alternateInputs": ["1,3"]
+    "alternateInputs": [
+      "1,3"
+    ]
   },
   {
     "name": "Ecdysis",
@@ -165,7 +191,9 @@
     "hit": "+22",
     "counter": "+53a",
     "note": "\n\nTornado\nCombos from 1st hit \n",
-    "alternateInputs": ["1,4"]
+    "alternateInputs": [
+      "1,4"
+    ]
   },
   {
     "name": "",
@@ -177,7 +205,9 @@
     "hit": "-1",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["2"]
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "",
@@ -189,7 +219,9 @@
     "hit": "+2",
     "counter": "",
     "note": "Combos from 1st hit CH\n",
-    "alternateInputs": ["2,1"]
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Kapara",
@@ -201,7 +233,9 @@
     "hit": "+4d",
     "counter": "",
     "note": "\nCancel and transition to -9, -17 MNT with D\nCombos from 2nd hit CH\nCan be delayed\n\n",
-    "alternateInputs": ["2,1,3"]
+    "alternateInputs": [
+      "2,1,3"
+    ]
   },
   {
     "name": "",
@@ -213,7 +247,9 @@
     "hit": "+2",
     "counter": "+7",
     "note": "\nCombos from 1st hit CH\nCan be delayed \n",
-    "alternateInputs": ["2,2"]
+    "alternateInputs": [
+      "2,2"
+    ]
   },
   {
     "name": "Anamalech",
@@ -225,7 +261,9 @@
     "hit": "+19d(-16)",
     "counter": "",
     "note": "\n\nFloor Break\nCombos from 2nd hit CH\nCan be delayed \n",
-    "alternateInputs": ["2,2,1+2"]
+    "alternateInputs": [
+      "2,2,1+2"
+    ]
   },
   {
     "name": "Sharur",
@@ -237,7 +275,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\nCancel SCR transition -8, +1 with B\n\n",
-    "alternateInputs": ["3"]
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "",
@@ -249,7 +289,9 @@
     "hit": "-1",
     "counter": "+19a(+10)",
     "note": "\n",
-    "alternateInputs": ["4"]
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "",
@@ -261,7 +303,9 @@
     "hit": "+4",
     "counter": "+24a",
     "note": "\n",
-    "alternateInputs": ["1+2"]
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "",
@@ -273,7 +317,9 @@
     "hit": "+1",
     "counter": "+6",
     "note": "Combos from 1st hit\n",
-    "alternateInputs": ["1+2,4"]
+    "alternateInputs": [
+      "1+2,4"
+    ]
   },
   {
     "name": "Manticore",
@@ -285,7 +331,9 @@
     "hit": "+19d",
     "counter": "",
     "note": "\nCombos from 2nd hit CH\nCan pick up from the ground with db+3 for a juggle\n\n",
-    "alternateInputs": ["1+2,4,4"]
+    "alternateInputs": [
+      "1+2,4,4"
+    ]
   },
   {
     "name": "Scarecrow Stance",
@@ -297,7 +345,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransitions to SCR\n\n",
-    "alternateInputs": ["3+4"]
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "",
@@ -309,7 +359,9 @@
     "hit": "-9",
     "counter": "+52a",
     "note": "\n",
-    "alternateInputs": ["f+2"]
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "",
@@ -321,7 +373,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\nCancel SCR transition -9, +0 with B\nCombos from 1st hit\nCan be delayed\n\n",
-    "alternateInputs": ["f+2,3"]
+    "alternateInputs": [
+      "f+2,3"
+    ]
   },
   {
     "name": "Ettimu",
@@ -333,7 +387,9 @@
     "hit": "+18d(8)",
     "counter": "",
     "note": "Balcony Break\n",
-    "alternateInputs": ["f+2,3,4"]
+    "alternateInputs": [
+      "f+2,3,4"
+    ]
   },
   {
     "name": "Scarecrow Side Kick",
@@ -345,7 +401,9 @@
     "hit": "+68a(48)",
     "counter": "",
     "note": "\n\nBalcony Break\nCancel SCR transition -1, +64a with B\n\n",
-    "alternateInputs": ["f+3"]
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Aqrabuamelu",
@@ -357,7 +415,9 @@
     "hit": "+22a",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["f+4"]
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Malicious Nail",
@@ -369,7 +429,9 @@
     "hit": "+5d(-5)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a (+26)\n\n\nBalcony Break\nAzazel's Power\nZafina receives recoverable health damage\nSecond hit only comes out on hit or block\n8 chip damage on block\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "",
@@ -381,7 +443,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["df+1"]
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "",
@@ -393,7 +457,9 @@
     "hit": "+3",
     "counter": "",
     "note": "Combos from 1st hit\n",
-    "alternateInputs": ["df+1,2"]
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Bloody Saif - Execution",
@@ -405,7 +471,9 @@
     "hit": "+23d(13)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombos from 2nd hit CH\nCan be delayed\n\n",
-    "alternateInputs": ["df+1,2,1"]
+    "alternateInputs": [
+      "df+1,2,1"
+    ]
   },
   {
     "name": "Sharp Shamshir",
@@ -417,7 +485,9 @@
     "hit": "+12g",
     "counter": "",
     "note": "\n\nBalcony Break\nCombos from 1st hit\n\n",
-    "alternateInputs": ["df+1,4"]
+    "alternateInputs": [
+      "df+1,4"
+    ]
   },
   {
     "name": "Lamashtu Claw",
@@ -429,7 +499,9 @@
     "hit": "+32a (+22)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["df+2"]
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "",
@@ -441,7 +513,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\nCancel SCR transition -10, -1 with B\n\n",
-    "alternateInputs": ["df+3"]
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Dueling Scimitars",
@@ -453,7 +527,9 @@
     "hit": "+22a",
     "counter": "+55a",
     "note": "Combos from 1st hit\n",
-    "alternateInputs": ["df+3,4"]
+    "alternateInputs": [
+      "df+3,4"
+    ]
   },
   {
     "name": "Pukku",
@@ -465,7 +541,9 @@
     "hit": "+1c",
     "counter": "",
     "note": "Combos from 1st hit\n",
-    "alternateInputs": ["df+3,d+4"]
+    "alternateInputs": [
+      "df+3,d+4"
+    ]
   },
   {
     "name": "",
@@ -477,7 +555,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["df+4"]
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "Miasma Bearer",
@@ -489,7 +569,9 @@
     "hit": "+3d",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +17d\n\n\nBalcony Break\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nDeals 8 chip damage on block\nCancel and transition to -18, -2 FC with D\nCombos from 1st hit\n\n",
-    "alternateInputs": ["df+4,1"]
+    "alternateInputs": [
+      "df+4,1"
+    ]
   },
   {
     "name": "Cerberus Strike",
@@ -501,7 +583,9 @@
     "hit": "+24a(+9)",
     "counter": "",
     "note": "\n\nTornado\nCombos from 1st hit \n",
-    "alternateInputs": ["df+4,2"]
+    "alternateInputs": [
+      "df+4,2"
+    ]
   },
   {
     "name": "Kur",
@@ -513,7 +597,9 @@
     "hit": "+60a",
     "counter": "",
     "note": "\nHoming \n",
-    "alternateInputs": ["df+2+3"]
+    "alternateInputs": [
+      "df+2+3"
+    ]
   },
   {
     "name": "",
@@ -525,7 +611,9 @@
     "hit": "-8",
     "counter": "-3c",
     "note": "\n\n",
-    "alternateInputs": ["d+1"]
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Ningishzida",
@@ -537,7 +625,9 @@
     "hit": "+19a(+12)",
     "counter": "+28a(+22)",
     "note": "\nCombos from 1st hit CH\nDelayable\n",
-    "alternateInputs": ["d+1,1"]
+    "alternateInputs": [
+      "d+1,1"
+    ]
   },
   {
     "name": "",
@@ -549,7 +639,9 @@
     "hit": "-3c",
     "counter": "+17d",
     "note": "\n\n",
-    "alternateInputs": ["d+2"]
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "",
@@ -561,7 +653,9 @@
     "hit": "-4",
     "counter": "-4c",
     "note": "\n\nFloor Break\nTransition to -22, -4 TRT with D\n\n",
-    "alternateInputs": ["d+2,4"]
+    "alternateInputs": [
+      "d+2,4"
+    ]
   },
   {
     "name": "Poison Rosette",
@@ -573,7 +667,9 @@
     "hit": "+18a",
     "counter": "",
     "note": "\nCombos from 2nd hit CH\n\n",
-    "alternateInputs": ["d+2,4,3"]
+    "alternateInputs": [
+      "d+2,4,3"
+    ]
   },
   {
     "name": "Earwig Pincer",
@@ -585,7 +681,9 @@
     "hit": "+5c",
     "counter": "+20a",
     "note": "\nTransition to -13, +7c MNT with D\nEvasive (can go under some mids)\n\n",
-    "alternateInputs": ["d+3"]
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "",
@@ -597,7 +695,9 @@
     "hit": "-3",
     "counter": "+7",
     "note": "\n\n",
-    "alternateInputs": ["d+4"]
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Iskur",
@@ -609,7 +709,9 @@
     "hit": "+36a(+26)",
     "counter": "",
     "note": "\nCombos from 1st hit CH\nDelayable\n\n",
-    "alternateInputs": ["d+4,3"]
+    "alternateInputs": [
+      "d+4,3"
+    ]
   },
   {
     "name": "Tarantula Stance",
@@ -621,7 +723,9 @@
     "hit": "",
     "counter": "",
     "note": " Transitions to TRT\n\n",
-    "alternateInputs": ["d+1+2"]
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Mantis Stance",
@@ -633,7 +737,9 @@
     "hit": "",
     "counter": "",
     "note": "Transitions to MNT\n\n",
-    "alternateInputs": ["d+3+4"]
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "Backhand Thrust",
@@ -645,7 +751,9 @@
     "hit": "+3",
     "counter": "+16a",
     "note": "\n\n",
-    "alternateInputs": ["db+2"]
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Acinaces",
@@ -657,7 +765,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\nCancel SCR transition -11, +0 with B\n\n",
-    "alternateInputs": ["db+3"]
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "",
@@ -669,7 +779,9 @@
     "hit": "-3",
     "counter": "+3",
     "note": "\nTransition to -13, -4 MNT with D\nAlternate input FC.db+4\n\n",
-    "alternateInputs": ["db+4"]
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Euphrates Cannon",
@@ -681,7 +793,9 @@
     "hit": "+68a(+52)",
     "counter": "",
     "note": "\nInstant Tornado\nDoes not apply Tornado mid-combo\nCombos from 1st hit CH\nAlternate input FC.db+4,2\n\n",
-    "alternateInputs": ["db+4,2"]
+    "alternateInputs": [
+      "db+4,2"
+    ]
   },
   {
     "name": "",
@@ -693,7 +807,9 @@
     "hit": "+15a",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["db+1+2"]
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Sirrush",
@@ -705,7 +821,9 @@
     "hit": "+5a(-4)",
     "counter": "+37a(-10)",
     "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit\n\n",
-    "alternateInputs": ["db+1+2,1+2"]
+    "alternateInputs": [
+      "db+1+2,1+2"
+    ]
   },
   {
     "name": "Cursed Crow",
@@ -717,7 +835,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["b+1"]
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Cursed Claw",
@@ -729,7 +849,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\nHit Throw\nAzazel's Power\nZafina receives recoverable health damage\nSwitches sides\n\n",
-    "alternateInputs": ["b+1:1+2"]
+    "alternateInputs": [
+      "b+1:1+2"
+    ]
   },
   {
     "name": "Brisingamen Backfist",
@@ -741,7 +863,9 @@
     "hit": "+12",
     "counter": "",
     "note": "\n\nHoming\n\n",
-    "alternateInputs": ["b+2"]
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Ereshkigal Stomp",
@@ -753,7 +877,9 @@
     "hit": "+12d",
     "counter": "",
     "note": "Powercrush\n\n",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "",
@@ -765,7 +891,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["b+4"]
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Tiamat's Tail",
@@ -777,7 +905,9 @@
     "hit": "+9a(0)",
     "counter": "",
     "note": "\n\nBalcony Break\nDelayable\nHit-confirmable\nCombos from 1st hit\n\n",
-    "alternateInputs": ["b+4,4"]
+    "alternateInputs": [
+      "b+4,4"
+    ]
   },
   {
     "name": "Spear of Alu",
@@ -789,7 +919,9 @@
     "hit": "+41a(+10)",
     "counter": "",
     "note": "Unblockable\n\n",
-    "alternateInputs": ["b+2+3"]
+    "alternateInputs": [
+      "b+2+3"
+    ]
   },
   {
     "name": "Lapis Dagger",
@@ -801,7 +933,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\nAlternate inputs:\nub+1\nu+1\n\n",
-    "alternateInputs": ["uf+1"]
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Arali",
@@ -813,7 +947,9 @@
     "hit": "+17d",
     "counter": "",
     "note": "\nAlternate inputs:\nub+3\nu+3\n\n",
-    "alternateInputs": ["uf+3"]
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Rahab",
@@ -825,7 +961,9 @@
     "hit": "+29a(19)",
     "counter": "",
     "note": "\nAlternate inputs:\nub+4\nu+4\n\n",
-    "alternateInputs": ["uf+4"]
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Gilgamesh Blast",
@@ -837,7 +975,9 @@
     "hit": "+21a(12)",
     "counter": "+38a",
     "note": "\n\nHoming\n\nBalcony Break\n6 chip damage on block\n\n",
-    "alternateInputs": ["f,F+2"]
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "",
@@ -849,7 +989,9 @@
     "hit": "+9c",
     "counter": "+14c",
     "note": "\nCancel SCR transition +4, +9c with B\n\n",
-    "alternateInputs": ["f,F+3"]
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Sagaris Smash",
@@ -861,7 +1003,9 @@
     "hit": "+5d",
     "counter": "",
     "note": "\n\nBalcony Break\nCombos from 1st hit CH\nCan be delayed\n\n",
-    "alternateInputs": ["f,F+3,1"]
+    "alternateInputs": [
+      "f,F+3,1"
+    ]
   },
   {
     "name": "Roundhouse Kick",
@@ -873,7 +1017,9 @@
     "hit": "+18a(+9)",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
-    "alternateInputs": ["f,F+4"]
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "Gallu",
@@ -885,7 +1031,9 @@
     "hit": "+15a(+6)",
     "counter": "",
     "note": "\nTransition to -12, +14a MNT with D\n\n",
-    "alternateInputs": ["f,F+3+4"]
+    "alternateInputs": [
+      "f,F+3+4"
+    ]
   },
   {
     "name": "Leaping Side Kick",
@@ -897,7 +1045,9 @@
     "hit": "+19a(9)",
     "counter": "",
     "note": "\n\nBalcony Break\nCancel SCR transition +3, +15a with B\n9 chip damage on block\n\n",
-    "alternateInputs": ["f,f,F+3"]
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "Tiamat",
@@ -909,7 +1059,9 @@
     "hit": "+32a",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\n8 chip damage on block\n\n",
-    "alternateInputs": ["f,f,F+1+2"]
+    "alternateInputs": [
+      "f,f,F+1+2"
+    ]
   },
   {
     "name": "Tarantula Dive",
@@ -921,7 +1073,9 @@
     "hit": "-7d",
     "counter": "",
     "note": "\nTransition to -52, -7BT with U\nTransition to -52, -7 TRT with D\n\n",
-    "alternateInputs": ["wr4"]
+    "alternateInputs": [
+      "wr4"
+    ]
   },
   {
     "name": "",
@@ -933,7 +1087,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\nAlternate inputs:\nFC.db+1\nFC.df+1\nTransition to r24 with f\nTransition input can be delayed 16f\n",
-    "alternateInputs": ["FC d+1"]
+    "alternateInputs": [
+      "FC d+1"
+    ]
   },
   {
     "name": "",
@@ -945,7 +1101,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\nAlternate inputs:\nFC.db+2\nFC.df+2\n",
-    "alternateInputs": ["FC d+2"]
+    "alternateInputs": [
+      "FC d+2"
+    ]
   },
   {
     "name": "",
@@ -957,7 +1115,9 @@
     "hit": "-6",
     "counter": "",
     "note": "\nAlternate input:\nFC.db+3\n",
-    "alternateInputs": ["FC d+3"]
+    "alternateInputs": [
+      "FC d+3"
+    ]
   },
   {
     "name": "",
@@ -969,7 +1129,9 @@
     "hit": "-4",
     "counter": "",
     "note": "\nAlternate inputs:\nFC.db+4\nFC.df+4\n",
-    "alternateInputs": ["FC d+4"]
+    "alternateInputs": [
+      "FC d+4"
+    ]
   },
   {
     "name": "",
@@ -981,7 +1143,9 @@
     "hit": "+14d",
     "counter": "",
     "note": "\nOn hit or whiff, hold D to transition to MNT (becomes +13d)\n",
-    "alternateInputs": ["FC df+3"]
+    "alternateInputs": [
+      "FC df+3"
+    ]
   },
   {
     "name": "",
@@ -993,7 +1157,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1"]
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "",
@@ -1005,7 +1171,9 @@
     "hit": "+36a (+26)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1,2"]
+    "alternateInputs": [
+      "ws1,2"
+    ]
   },
   {
     "name": "",
@@ -1017,7 +1185,9 @@
     "hit": "+28a (+18)",
     "counter": "",
     "note": "\n\nTornado\nCan transition to MNT by holding D (becomes -40/+2)\n\n",
-    "alternateInputs": ["ws2"]
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "",
@@ -1029,7 +1199,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n\n",
-    "alternateInputs": ["ws3"]
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "",
@@ -1041,7 +1213,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws4"]
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "",
@@ -1053,7 +1227,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCR db"]
+    "alternateInputs": [
+      "SCR db"
+    ]
   },
   {
     "name": "",
@@ -1065,7 +1241,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCR 1"]
+    "alternateInputs": [
+      "SCR 1"
+    ]
   },
   {
     "name": "",
@@ -1077,7 +1255,9 @@
     "hit": "+7",
     "counter": "+32d",
     "note": "\n\n",
-    "alternateInputs": ["SCR 1,4"]
+    "alternateInputs": [
+      "SCR 1,4"
+    ]
   },
   {
     "name": "",
@@ -1089,7 +1269,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCR 2"]
+    "alternateInputs": [
+      "SCR 2"
+    ]
   },
   {
     "name": "",
@@ -1101,7 +1283,9 @@
     "hit": "+30d(+20)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +36a(+26)\n\nAzazel's Power\nZafina receives recoverable damage\n10 chip damage on block\n\n",
-    "alternateInputs": ["SCR 2,1"]
+    "alternateInputs": [
+      "SCR 2,1"
+    ]
   },
   {
     "name": "",
@@ -1113,7 +1297,9 @@
     "hit": "+8c",
     "counter": "+8d",
     "note": "\n\n",
-    "alternateInputs": ["SCR 2,2"]
+    "alternateInputs": [
+      "SCR 2,2"
+    ]
   },
   {
     "name": "",
@@ -1125,7 +1311,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCR 3"]
+    "alternateInputs": [
+      "SCR 3"
+    ]
   },
   {
     "name": "",
@@ -1137,7 +1325,9 @@
     "hit": "+25a(+15)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["SCR 3,3"]
+    "alternateInputs": [
+      "SCR 3,3"
+    ]
   },
   {
     "name": "",
@@ -1149,7 +1339,9 @@
     "hit": "+58a(+42)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["SCR 4"]
+    "alternateInputs": [
+      "SCR 4"
+    ]
   },
   {
     "name": "",
@@ -1161,7 +1353,9 @@
     "hit": "+17d",
     "counter": "",
     "note": "\nHold D to transition to TRT (remains +6/+17d)\n\n",
-    "alternateInputs": ["SCR 1+2"]
+    "alternateInputs": [
+      "SCR 1+2"
+    ]
   },
   {
     "name": "",
@@ -1173,7 +1367,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["SCR 3+4"]
+    "alternateInputs": [
+      "SCR 3+4"
+    ]
   },
   {
     "name": "",
@@ -1185,7 +1381,9 @@
     "hit": "+33a(+18)",
     "counter": "",
     "note": "\n\nTornado\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n8 chip damage on block\n\n",
-    "alternateInputs": ["SCR df+1"]
+    "alternateInputs": [
+      "SCR df+1"
+    ]
   },
   {
     "name": "",
@@ -1197,7 +1395,9 @@
     "hit": "-10c",
     "counter": "",
     "note": "\n\nHoming\n\n",
-    "alternateInputs": ["SCR df+3"]
+    "alternateInputs": [
+      "SCR df+3"
+    ]
   },
   {
     "name": "",
@@ -1209,7 +1409,9 @@
     "hit": "+54a(+38)",
     "counter": "",
     "note": "\n\nHoming\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n\n",
-    "alternateInputs": ["SCR df+3,3"]
+    "alternateInputs": [
+      "SCR df+3,3"
+    ]
   },
   {
     "name": "",
@@ -1221,7 +1423,9 @@
     "hit": "+7c",
     "counter": "+37a",
     "note": "\n\n",
-    "alternateInputs": ["SCR df+4"]
+    "alternateInputs": [
+      "SCR df+4"
+    ]
   },
   {
     "name": "",
@@ -1233,7 +1437,9 @@
     "hit": "-3",
     "counter": "+9c",
     "note": "\n\n",
-    "alternateInputs": ["SCR d+3"]
+    "alternateInputs": [
+      "SCR d+3"
+    ]
   },
   {
     "name": "",
@@ -1245,7 +1451,9 @@
     "hit": "+77a(+61)",
     "counter": "",
     "note": "\nCan hold B to exit SCR (becomes -1/\nLaunches into Tornado\nDoes not apply Tornado mid-combo\n\n",
-    "alternateInputs": ["SCR d+3,3"]
+    "alternateInputs": [
+      "SCR d+3,3"
+    ]
   },
   {
     "name": "",
@@ -1257,7 +1465,9 @@
     "hit": "-4d",
     "counter": "",
     "note": "\nCan hold D to transition to MNT (remains -25/-4d)\n\n",
-    "alternateInputs": ["SCR d+4"]
+    "alternateInputs": [
+      "SCR d+4"
+    ]
   },
   {
     "name": "",
@@ -1269,7 +1479,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SCR d+3+4"]
+    "alternateInputs": [
+      "SCR d+3+4"
+    ]
   },
   {
     "name": "",
@@ -1281,7 +1493,9 @@
     "hit": "+3",
     "counter": "+12d",
     "note": "\nEvasive (can go below some mids)\n\n",
-    "alternateInputs": ["SCR b+1+2"]
+    "alternateInputs": [
+      "SCR b+1+2"
+    ]
   },
   {
     "name": "",
@@ -1293,7 +1507,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["TRT db"]
+    "alternateInputs": [
+      "TRT db"
+    ]
   },
   {
     "name": "",
@@ -1305,7 +1521,9 @@
     "hit": "+5",
     "counter": "+15d",
     "note": "\n\n",
-    "alternateInputs": ["TRT 1"]
+    "alternateInputs": [
+      "TRT 1"
+    ]
   },
   {
     "name": "",
@@ -1317,7 +1535,9 @@
     "hit": "=+40a(+30)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["TRT 2"]
+    "alternateInputs": [
+      "TRT 2"
+    ]
   },
   {
     "name": "Death Stalker",
@@ -1329,7 +1549,9 @@
     "hit": "+15d",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["TRT 3"]
+    "alternateInputs": [
+      "TRT 3"
+    ]
   },
   {
     "name": "",
@@ -1341,7 +1563,9 @@
     "hit": "-4b",
     "counter": "-4c",
     "note": "\nCan hold D to transition to TRT instead of MNT\n\n",
-    "alternateInputs": ["TRT 4"]
+    "alternateInputs": [
+      "TRT 4"
+    ]
   },
   {
     "name": "",
@@ -1353,7 +1577,9 @@
     "hit": "+18a",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["TRT 4,3"]
+    "alternateInputs": [
+      "TRT 4,3"
+    ]
   },
   {
     "name": "",
@@ -1365,7 +1591,9 @@
     "hit": "+14a",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["TRT 1+2"]
+    "alternateInputs": [
+      "TRT 1+2"
+    ]
   },
   {
     "name": "",
@@ -1377,7 +1605,9 @@
     "hit": "+30a(+15)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +35d\n\nAzazel's Power\nZafina receives recoverable health damage\n12 chip damage on block\nGains Power Crush frames during heat\n\n",
-    "alternateInputs": ["TRT df+1"]
+    "alternateInputs": [
+      "TRT df+1"
+    ]
   },
   {
     "name": "",
@@ -1389,7 +1619,9 @@
     "hit": "+10d",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["TRT d+1+2"]
+    "alternateInputs": [
+      "TRT d+1+2"
+    ]
   },
   {
     "name": "",
@@ -1401,7 +1633,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT 1"]
+    "alternateInputs": [
+      "MNT 1"
+    ]
   },
   {
     "name": "Butterfly Capture Combo",
@@ -1413,7 +1647,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\nCancel SCR transition by holding B (becomes -8/+1)\n\n",
-    "alternateInputs": ["MNT 1,3"]
+    "alternateInputs": [
+      "MNT 1,3"
+    ]
   },
   {
     "name": "",
@@ -1425,7 +1661,9 @@
     "hit": "-3",
     "counter": "+57a",
     "note": "\n\n",
-    "alternateInputs": ["MNT 2"]
+    "alternateInputs": [
+      "MNT 2"
+    ]
   },
   {
     "name": "",
@@ -1437,7 +1675,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT 2,1"]
+    "alternateInputs": [
+      "MNT 2,1"
+    ]
   },
   {
     "name": "Mantis Sting",
@@ -1449,7 +1689,9 @@
     "hit": "+13a(+4)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT 2,1,4"]
+    "alternateInputs": [
+      "MNT 2,1,4"
+    ]
   },
   {
     "name": "",
@@ -1461,7 +1703,9 @@
     "hit": "-1",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT 3"]
+    "alternateInputs": [
+      "MNT 3"
+    ]
   },
   {
     "name": "Sweeping Claw",
@@ -1473,7 +1717,9 @@
     "hit": "+22a(+15)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT 3,1"]
+    "alternateInputs": [
+      "MNT 3,1"
+    ]
   },
   {
     "name": "",
@@ -1485,7 +1731,9 @@
     "hit": "-3",
     "counter": "+7",
     "note": "\nHold D to transition to TRT\n\n",
-    "alternateInputs": ["MNT 4"]
+    "alternateInputs": [
+      "MNT 4"
+    ]
   },
   {
     "name": "Neti",
@@ -1497,7 +1745,9 @@
     "hit": "+32a(+22)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["MNT 4,3"]
+    "alternateInputs": [
+      "MNT 4,3"
+    ]
   },
   {
     "name": "Scarecrow Strike",
@@ -1509,7 +1759,9 @@
     "hit": "+18d",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT 1+2"]
+    "alternateInputs": [
+      "MNT 1+2"
+    ]
   },
   {
     "name": "Paradox",
@@ -1521,7 +1773,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT 2+3"]
+    "alternateInputs": [
+      "MNT 2+3"
+    ]
   },
   {
     "name": "Vicious Claw",
@@ -1533,7 +1787,9 @@
     "hit": "+7d",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5 +67a(+50\n\n\nSpike\nAzazel's Power\nZafina receives recoverable health damage\nGains Power Crush frames during Heat\n9 chip damage on block\n\n",
-    "alternateInputs": ["MNT df+1"]
+    "alternateInputs": [
+      "MNT df+1"
+    ]
   },
   {
     "name": "Enlil",
@@ -1545,7 +1801,9 @@
     "hit": "+32a(22)",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT df+2"]
+    "alternateInputs": [
+      "MNT df+2"
+    ]
   },
   {
     "name": "Negal Lance",
@@ -1557,7 +1815,9 @@
     "hit": "+19cg",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT df+3"]
+    "alternateInputs": [
+      "MNT df+3"
+    ]
   },
   {
     "name": "Mantis Slash",
@@ -1569,7 +1829,9 @@
     "hit": "+13g",
     "counter": "",
     "note": "\n\nHoming\n\n",
-    "alternateInputs": ["MNT df+4"]
+    "alternateInputs": [
+      "MNT df+4"
+    ]
   },
   {
     "name": "",
@@ -1581,7 +1843,9 @@
     "hit": "0",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT d+1"]
+    "alternateInputs": [
+      "MNT d+1"
+    ]
   },
   {
     "name": "Mantis Sickle",
@@ -1593,7 +1857,9 @@
     "hit": "+15(+6)",
     "counter": "+60a(+40)",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["MNT d+1,4"]
+    "alternateInputs": [
+      "MNT d+1,4"
+    ]
   },
   {
     "name": "Mantis Slide",
@@ -1605,7 +1871,9 @@
     "hit": "+4c~+11c",
     "counter": "+19a~+26a",
     "note": "\nEvasive (can go under mids)\n\n",
-    "alternateInputs": ["MNT d+4"]
+    "alternateInputs": [
+      "MNT d+4"
+    ]
   },
   {
     "name": "Enki",
@@ -1617,7 +1885,9 @@
     "hit": "+11d",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["MNT uf+3"]
+    "alternateInputs": [
+      "MNT uf+3"
+    ]
   },
   {
     "name": "Adramelech",
@@ -1629,7 +1899,9 @@
     "hit": "+8c",
     "counter": "+28a",
     "note": "\n\n",
-    "alternateInputs": ["SS 1+2"]
+    "alternateInputs": [
+      "SS 1+2"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -1641,7 +1913,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan't block for 5 seconds\nCH state for 5 seconds\n",
-    "alternateInputs": ["1+2+3+4"]
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Revenge Hand",
@@ -1653,7 +1927,9 @@
     "hit": "+12d",
     "counter": "",
     "note": "\nParry\nAlternate input: b+2+4\n",
-    "alternateInputs": ["b+1+3"]
+    "alternateInputs": [
+      "b+1+3"
+    ]
   },
   {
     "name": "",
@@ -1665,7 +1941,9 @@
     "hit": "0",
     "counter": "",
     "note": "Throw break 1 or 2\n",
-    "alternateInputs": ["1+3"]
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "",
@@ -1677,7 +1955,9 @@
     "hit": "0",
     "counter": "",
     "note": "\nThrow break 1 or 2\nTransitions to MNT\n",
-    "alternateInputs": ["2+4"]
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "",
@@ -1689,7 +1969,9 @@
     "hit": "0",
     "counter": "",
     "note": "Throw break 1\n",
-    "alternateInputs": ["Left Throw"]
+    "alternateInputs": [
+      "Left Throw"
+    ]
   },
   {
     "name": "",
@@ -1701,7 +1983,9 @@
     "hit": "+7",
     "counter": "",
     "note": "Throw break 2\n",
-    "alternateInputs": ["Right Throw"]
+    "alternateInputs": [
+      "Right Throw"
+    ]
   },
   {
     "name": "",
@@ -1713,7 +1997,9 @@
     "hit": "0",
     "counter": "",
     "note": "\nUnbreakable\n",
-    "alternateInputs": ["Back Throw"]
+    "alternateInputs": [
+      "Back Throw"
+    ]
   },
   {
     "name": "",
@@ -1725,6 +2011,8 @@
     "hit": "0",
     "counter": "",
     "note": "\nThrow break 1+2\n",
-    "alternateInputs": ["uf+1+2"]
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   }
 ]

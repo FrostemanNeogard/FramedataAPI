@@ -9,7 +9,9 @@
     "hit": "+2c",
     "counter": "+2c",
     "note": "\n\nHeat Burst\nPress b,b to cancel attack\n\n",
-    "alternateInputs": ["2+3"]
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Hellfire Trespass Slayer",
@@ -21,7 +23,9 @@
     "hit": "+0",
     "counter": "+0",
     "note": "\n\nHeat Smash\nTransitions to Breaking Step on block\n\n",
-    "alternateInputs": ["in heat 2+3"]
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Hellfire Trespass Slayer (Cancelled Breaking Step)",
@@ -33,7 +37,9 @@
     "hit": "N/A",
     "counter": "N/A",
     "note": "\n\nHeat Smash\nOnly possible on block\n\n",
-    "alternateInputs": ["in heat 2+3,B"]
+    "alternateInputs": [
+      "in heat 2+3,B"
+    ]
   },
   {
     "name": "Hellfire Darkside Slayer",
@@ -45,7 +51,9 @@
     "hit": "+32a (-4)",
     "counter": "+32a (-4)",
     "note": "\n\nHeat Smash\n+21 if blocked at the Wall\nCauses WallSplat on hit\n\n",
-    "alternateInputs": ["in heat 2+3,4"]
+    "alternateInputs": [
+      "in heat 2+3,4"
+    ]
   },
   {
     "name": "Awakened Power Stance",
@@ -57,7 +65,9 @@
     "hit": "+23c",
     "counter": "+23c",
     "note": "\n\nBalcony Break\nPartially uses remaining Heat time\nTransitions to Awakened Breaking Step on hit or block\nCauses Strong Aerial Tailspin\nCauses WallSplat on hit\n\n",
-    "alternateInputs": ["in heat db+1+2"]
+    "alternateInputs": [
+      "in heat db+1+2"
+    ]
   },
   {
     "name": "Awakened Thunder God Fist",
@@ -69,7 +79,9 @@
     "hit": "+72a (56)",
     "counter": "+72a (56)",
     "note": "\n\nTornado\nUses Tornado on launch\n10 Recoverable Damage on block\n\n",
-    "alternateInputs": ["in heat db+1+2,1"]
+    "alternateInputs": [
+      "in heat db+1+2,1"
+    ]
   },
   {
     "name": "Awakened Wind God Fist",
@@ -81,7 +93,9 @@
     "hit": "+38a (28)",
     "counter": "+38a (28)",
     "note": "\n9 Recoverable Damage on block\n\n",
-    "alternateInputs": ["in heat db+1+2,2"]
+    "alternateInputs": [
+      "in heat db+1+2,2"
+    ]
   },
   {
     "name": "Awakened Demon's Hoof",
@@ -93,7 +107,9 @@
     "hit": "+22a",
     "counter": "+22a",
     "note": "\n10 Recoverable Damage on block\n\n",
-    "alternateInputs": ["in heat db+1+2,3"]
+    "alternateInputs": [
+      "in heat db+1+2,3"
+    ]
   },
   {
     "name": "Awakened Demon's Tail",
@@ -105,7 +121,9 @@
     "hit": "-2d",
     "counter": "-2d",
     "note": "\n10 Recoverable Damage on block\n\n",
-    "alternateInputs": ["in heat db+1+2,DF+3"]
+    "alternateInputs": [
+      "in heat db+1+2,DF+3"
+    ]
   },
   {
     "name": "Awakened Spinning Demon (1)",
@@ -117,7 +135,9 @@
     "hit": "+22a",
     "counter": "+22a",
     "note": "\n4 Recoverable Damage on block\n\n",
-    "alternateInputs": ["in heat db+1+2,4"]
+    "alternateInputs": [
+      "in heat db+1+2,4"
+    ]
   },
   {
     "name": "Awakened Spinning Demon",
@@ -129,7 +149,9 @@
     "hit": "+20d (-15)",
     "counter": "+20d (-15)",
     "note": "\n\nFloor Break\n\n",
-    "alternateInputs": ["in heat db+1+2,4,4"]
+    "alternateInputs": [
+      "in heat db+1+2,4,4"
+    ]
   },
   {
     "name": "Left Jab",
@@ -141,7 +163,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["1"]
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "Left Right Combo",
@@ -153,7 +177,9 @@
     "hit": "+6",
     "counter": "",
     "note": "Jails\nCombo from 1st hit\n\n",
-    "alternateInputs": ["1,2"]
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Left Right > Black Wing Rondo",
@@ -165,7 +191,9 @@
     "hit": "+31a (+21)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["1,2,1"]
+    "alternateInputs": [
+      "1,2,1"
+    ]
   },
   {
     "name": "Left Right > Axe Kick",
@@ -177,7 +205,9 @@
     "hit": "+31d",
     "counter": "",
     "note": "\n\nFloor Break\nInterruptible by i10 from 2nd on block\n\n",
-    "alternateInputs": ["1,2,3"]
+    "alternateInputs": [
+      "1,2,3"
+    ]
   },
   {
     "name": "Left Right > Spinning Hook Kick",
@@ -189,7 +219,9 @@
     "hit": "+23a (+14)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["1,2,4"]
+    "alternateInputs": [
+      "1,2,4"
+    ]
   },
   {
     "name": "Left Jab > Double Low (1)",
@@ -201,7 +233,9 @@
     "hit": "-1",
     "counter": "",
     "note": "Combo from 1st hit\n",
-    "alternateInputs": ["1,3"]
+    "alternateInputs": [
+      "1,3"
+    ]
   },
   {
     "name": "Left Jab > Double Low",
@@ -213,7 +247,9 @@
     "hit": "+3",
     "counter": "+28a",
     "note": "Combo from 2nd CH\n",
-    "alternateInputs": ["1,3,4"]
+    "alternateInputs": [
+      "1,3,4"
+    ]
   },
   {
     "name": "Right Jab",
@@ -225,7 +261,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["2"]
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Double Thrust",
@@ -237,7 +275,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["2,1"]
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "Double Thrust > Roundhouse",
@@ -249,7 +289,9 @@
     "hit": "+4",
     "counter": "+27a",
     "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH\n",
-    "alternateInputs": ["2,1,4"]
+    "alternateInputs": [
+      "2,1,4"
+    ]
   },
   {
     "name": "Double Thrust > Low Trick Kick",
@@ -261,7 +303,9 @@
     "hit": "+16d",
     "counter": "",
     "note": "Interruptable by i16 after 2nd on block\n",
-    "alternateInputs": ["2,1,4~4"]
+    "alternateInputs": [
+      "2,1,4~4"
+    ]
   },
   {
     "name": "Switchblade",
@@ -273,7 +317,9 @@
     "hit": "+11",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit\nCan cancel into ZEN\n",
-    "alternateInputs": ["2,4"]
+    "alternateInputs": [
+      "2,4"
+    ]
   },
   {
     "name": "(Switchblade to Zenshin)",
@@ -285,7 +331,9 @@
     "hit": "+14",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["2,4,F"]
+    "alternateInputs": [
+      "2,4,F"
+    ]
   },
   {
     "name": "Kishin Rekko (1)",
@@ -297,7 +345,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["3"]
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Kishin Rekko (2)",
@@ -309,7 +359,9 @@
     "hit": "+7",
     "counter": "",
     "note": "Combo from 1st hit\n",
-    "alternateInputs": ["3,1"]
+    "alternateInputs": [
+      "3,1"
+    ]
   },
   {
     "name": "(Kishin Rekko (2) to Zenshin)",
@@ -321,7 +373,9 @@
     "hit": "+12",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["3,1,F"]
+    "alternateInputs": [
+      "3,1,F"
+    ]
   },
   {
     "name": "Kishin Rekko",
@@ -333,7 +387,9 @@
     "hit": "+3",
     "counter": "+28d",
     "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH\n",
-    "alternateInputs": ["3,1,4"]
+    "alternateInputs": [
+      "3,1,4"
+    ]
   },
   {
     "name": "High Right Roundhouse",
@@ -345,7 +401,9 @@
     "hit": "+10",
     "counter": "+13c",
     "note": "\n\nHoming\n\nBalcony Break\n",
-    "alternateInputs": ["4"]
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Spinning Flare Kick",
@@ -357,7 +415,9 @@
     "hit": "+2a~+12a",
     "counter": "+2a~+12a?",
     "note": "\n\nFloor Break\nAlternate input:\nws4~3\nCD.df+4,3+4\n",
-    "alternateInputs": ["4~3"]
+    "alternateInputs": [
+      "4~3"
+    ]
   },
   {
     "name": "Median Line Destruction",
@@ -369,7 +429,9 @@
     "hit": "+12a (+3)/HE",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
-    "alternateInputs": ["1+2"]
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Left Sidekick",
@@ -381,7 +443,9 @@
     "hit": "-5",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["f+3"]
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Tanden Nidan-uchi",
@@ -393,7 +457,9 @@
     "hit": "+4",
     "counter": "",
     "note": "Heat Engager\n\n",
-    "alternateInputs": ["f+3,1"]
+    "alternateInputs": [
+      "f+3,1"
+    ]
   },
   {
     "name": "Left Sidekick > Stinger",
@@ -405,7 +471,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\nB to shift to special back step (no stance / unique moves)\n\n",
-    "alternateInputs": ["f+3,3"]
+    "alternateInputs": [
+      "f+3,3"
+    ]
   },
   {
     "name": "(Stinger to Zenshin)",
@@ -417,7 +485,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["f+3,3,F"]
+    "alternateInputs": [
+      "f+3,3,F"
+    ]
   },
   {
     "name": "Front Thrust Kick",
@@ -429,7 +499,9 @@
     "hit": "+4",
     "counter": "+42",
     "note": "\n",
-    "alternateInputs": ["f+4"]
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "(Front Thrust Kick to Zenshin)",
@@ -441,7 +513,9 @@
     "hit": "+11",
     "counter": "+49",
     "note": "\n",
-    "alternateInputs": ["f+4,F"]
+    "alternateInputs": [
+      "f+4,F"
+    ]
   },
   {
     "name": "Double Chamber Punch",
@@ -453,7 +527,9 @@
     "hit": "+21a (+11)",
     "counter": "",
     "note": " \n\nBalcony Break\nJails\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Mid Left Punch",
@@ -465,7 +541,9 @@
     "hit": "+4",
     "counter": "+6",
     "note": "\n",
-    "alternateInputs": ["df+1"]
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Mid Left Punch > High Roundhouse Kick",
@@ -477,7 +555,9 @@
     "hit": "+10",
     "counter": "+17a (+8)",
     "note": "Combo from 1st hit\n\n\nBalcony Break\n\n",
-    "alternateInputs": ["df+1,4"]
+    "alternateInputs": [
+      "df+1,4"
+    ]
   },
   {
     "name": "Mid Left Punch > Mid Sidekick",
@@ -489,7 +569,9 @@
     "hit": "+10a (+1)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["df+1,4~4"]
+    "alternateInputs": [
+      "df+1,4~4"
+    ]
   },
   {
     "name": "Fiendish Rend",
@@ -501,7 +583,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["df+2"]
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "(Fiendish Rend to Breaking Step)",
@@ -513,7 +597,9 @@
     "hit": "+13",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["df+2~df"]
+    "alternateInputs": [
+      "df+2~df"
+    ]
   },
   {
     "name": "Left Roundhouse",
@@ -525,7 +611,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["df+3"]
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Brazilian Kick",
@@ -537,7 +625,9 @@
     "hit": "+13c~+14c",
     "counter": "",
     "note": "\n\nFloor Break\n\n",
-    "alternateInputs": ["df+3~3"]
+    "alternateInputs": [
+      "df+3~3"
+    ]
   },
   {
     "name": "Breaking Step",
@@ -549,7 +639,9 @@
     "hit": "+9c~+10c",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["df+3~3~df"]
+    "alternateInputs": [
+      "df+3~3~df"
+    ]
   },
   {
     "name": "Right Spinning Axe Kick",
@@ -561,7 +653,9 @@
     "hit": "+8c~+9c/HE",
     "counter": "",
     "note": "\n\nFloor Break\n\nHeat Engager\n\n\n",
-    "alternateInputs": ["df+4"]
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "Corpse Thrust > Black Wing Flash",
@@ -573,7 +667,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nAbsorb an attack to power up, which adds 8 chip damage when guarded\n\nBalcony Break\n\n",
-    "alternateInputs": ["d+1"]
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Scourge",
@@ -585,7 +681,9 @@
     "hit": "+4",
     "counter": "+71a (+55)",
     "note": "\n\nTornado on CH\n\n",
-    "alternateInputs": ["d+2"]
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "",
@@ -597,7 +695,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["d+3"]
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "",
@@ -609,7 +709,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["d+3,4"]
+    "alternateInputs": [
+      "d+3,4"
+    ]
   },
   {
     "name": "Kazama Style Three-Quarter Kick",
@@ -621,7 +723,9 @@
     "hit": "+31(+23)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nWallSplat\n\n",
-    "alternateInputs": ["d+3,4,3"]
+    "alternateInputs": [
+      "d+3,4,3"
+    ]
   },
   {
     "name": "Knee Popper > Mid Sidekick",
@@ -633,7 +737,9 @@
     "hit": "+10a (+1)",
     "counter": "",
     "note": "\n\nBalcony Break\nWallsplat\n\n",
-    "alternateInputs": ["d+3,4~4"]
+    "alternateInputs": [
+      "d+3,4~4"
+    ]
   },
   {
     "name": "Right Sweep",
@@ -645,7 +751,9 @@
     "hit": "-1",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["d+4"]
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Double Lift Kick",
@@ -657,7 +765,9 @@
     "hit": "+32a (+22)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["d+3+4"]
+    "alternateInputs": [
+      "d+3+4"
+    ]
   },
   {
     "name": "",
@@ -669,7 +779,9 @@
     "hit": "+4",
     "counter": "+4",
     "note": "\n",
-    "alternateInputs": ["db+2"]
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "",
@@ -681,7 +793,9 @@
     "hit": "+7",
     "counter": "+43a",
     "note": "Jails\n",
-    "alternateInputs": ["db+2,2"]
+    "alternateInputs": [
+      "db+2,2"
+    ]
   },
   {
     "name": "Savage Sword",
@@ -693,7 +807,9 @@
     "hit": "+20a~+21a",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["db+2,2,3"]
+    "alternateInputs": [
+      "db+2,2,3"
+    ]
   },
   {
     "name": "Punch > Cascade Kick",
@@ -705,7 +821,9 @@
     "hit": "+7a~+9a",
     "counter": "",
     "note": "\n\nFloor Break\n\n",
-    "alternateInputs": ["db+2,3"]
+    "alternateInputs": [
+      "db+2,3"
+    ]
   },
   {
     "name": "Left Spinning Back Kick",
@@ -717,7 +835,9 @@
     "hit": "+17a~+19a",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["db+3"]
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Right Low Roundhouse",
@@ -729,7 +849,9 @@
     "hit": "+3",
     "counter": "+13",
     "note": "\n",
-    "alternateInputs": ["db+4"]
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Power Stance",
@@ -741,7 +863,9 @@
     "hit": "+17",
     "counter": "",
     "note": "\n\nBalcony Break\nWallsplat\n\n",
-    "alternateInputs": ["db+1+2"]
+    "alternateInputs": [
+      "db+1+2"
+    ]
   },
   {
     "name": "Shun Maten (1)",
@@ -753,7 +877,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b+1"]
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Shun Maten",
@@ -765,7 +891,9 @@
     "hit": "+32a (+17)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["b+1,2"]
+    "alternateInputs": [
+      "b+1,2"
+    ]
   },
   {
     "name": "Shun Masatsu (1)",
@@ -777,7 +905,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b+2"]
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Shun Masatsu",
@@ -789,7 +919,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b+2,1"]
+    "alternateInputs": [
+      "b+2,1"
+    ]
   },
   {
     "name": "(Left Knee)",
@@ -801,7 +933,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "(Left Knee to Zenshin)",
@@ -813,7 +947,9 @@
     "hit": "+9",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b+3,F"]
+    "alternateInputs": [
+      "b+3,F"
+    ]
   },
   {
     "name": "Left Knee > Right Thrust",
@@ -825,7 +961,9 @@
     "hit": "+9~+10",
     "counter": "",
     "note": "\n\nWall Crush  +21g on hit\n\n\n",
-    "alternateInputs": ["b+3,2"]
+    "alternateInputs": [
+      "b+3,2"
+    ]
   },
   {
     "name": "Spinning Sidekick",
@@ -837,7 +975,9 @@
     "hit": "+15a",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b+4"]
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Suigetsu Strike",
@@ -849,7 +989,9 @@
     "hit": "+6",
     "counter": "",
     "note": "Sabaki Parry: absorbs punches, causing +34ad (+26) KND on hit\n",
-    "alternateInputs": ["b+1+2"]
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Zanshin",
@@ -861,7 +1003,9 @@
     "hit": "",
     "counter": "",
     "note": "\nHigh Crush evasion, can perform all attacks from ZEN Stance; f to shift to WR, df to shift to CD\n\n",
-    "alternateInputs": ["b+3+4"]
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Konshin Seikenzuki",
@@ -873,7 +1017,9 @@
     "hit": "+9a (0)",
     "counter": "",
     "note": "\nUnblockable\n\n\n",
-    "alternateInputs": ["ub+1+2"]
+    "alternateInputs": [
+      "ub+1+2"
+    ]
   },
   {
     "name": "Konshin Seikenzuki (Cancelled)",
@@ -885,7 +1031,9 @@
     "hit": "",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ub+1+2,b,b"]
+    "alternateInputs": [
+      "ub+1+2,b,b"
+    ]
   },
   {
     "name": "Evading Middle Strike",
@@ -897,7 +1045,9 @@
     "hit": "+6~+7",
     "counter": "+19a (+10)",
     "note": "\n",
-    "alternateInputs": ["uf+2"]
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "Left Spinning Jump Kick",
@@ -909,7 +1059,9 @@
     "hit": "+6",
     "counter": "+59a",
     "note": "\n",
-    "alternateInputs": ["uf+3"]
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Front Jump Kick",
@@ -921,7 +1073,9 @@
     "hit": "+33a (+23a)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["uf+4"]
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Delayed Rising Toe Kick",
@@ -933,7 +1087,9 @@
     "hit": "+32a~+34a (+22a~+24a)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["uf,n+4"]
+    "alternateInputs": [
+      "uf,n+4"
+    ]
   },
   {
     "name": "Demon's Paw",
@@ -945,7 +1101,9 @@
     "hit": "+15a (+6)/HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n6 Recoverable Damage on block\n\n",
-    "alternateInputs": ["f,F+2"]
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Left Axe Kick",
@@ -957,7 +1115,9 @@
     "hit": "+24a~+26a",
     "counter": "",
     "note": "\n\nFloor Break\n\n",
-    "alternateInputs": ["f,F+3"]
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Left Axe Kick > Left Jab",
@@ -969,7 +1129,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\nCan follow-up with any strings that start with 1 (e.g. f,F+3, 1, 2, 4)\n\n",
-    "alternateInputs": ["f,F+3,1"]
+    "alternateInputs": [
+      "f,F+3,1"
+    ]
   },
   {
     "name": "Battery Sidekick",
@@ -981,7 +1143,9 @@
     "hit": "+22a (+12)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["f,F+4"]
+    "alternateInputs": [
+      "f,F+4"
+    ]
   },
   {
     "name": "",
@@ -993,7 +1157,9 @@
     "hit": "+4~+5",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b,f+2"]
+    "alternateInputs": [
+      "b,f+2"
+    ]
   },
   {
     "name": "",
@@ -1005,7 +1171,9 @@
     "hit": "+6",
     "counter": "+5/+9",
     "note": "\n",
-    "alternateInputs": ["b,f+2,1"]
+    "alternateInputs": [
+      "b,f+2,1"
+    ]
   },
   {
     "name": "Evil Intent",
@@ -1017,7 +1185,9 @@
     "hit": "+18a (+9)",
     "counter": "+50a roll (+3)",
     "note": "\n",
-    "alternateInputs": ["b,f+2,1,2"]
+    "alternateInputs": [
+      "b,f+2,1,2"
+    ]
   },
   {
     "name": "Geyser",
@@ -1029,7 +1199,9 @@
     "hit": "+37a (+27)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["b,f+2,1,df+2"]
+    "alternateInputs": [
+      "b,f+2,1,df+2"
+    ]
   },
   {
     "name": "Keito",
@@ -1041,7 +1213,9 @@
     "hit": "+6",
     "counter": "+59a",
     "note": "\n",
-    "alternateInputs": ["b,f+2,3"]
+    "alternateInputs": [
+      "b,f+2,3"
+    ]
   },
   {
     "name": "(Keito to Zenshin)",
@@ -1053,7 +1227,9 @@
     "hit": "+17",
     "counter": "+71a",
     "note": "\n",
-    "alternateInputs": ["b,f+2,3~F"]
+    "alternateInputs": [
+      "b,f+2,3~F"
+    ]
   },
   {
     "name": "Leaping Side Kick",
@@ -1065,7 +1241,9 @@
     "hit": "+13a~+14a (+3~+4)",
     "counter": "",
     "note": "\nAlternate input: WR.3 or f,n,d,df,UF+3\n\n",
-    "alternateInputs": ["f,f,F+3"]
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "Right Sweep (2)",
@@ -1077,7 +1255,9 @@
     "hit": "+22a~+23a",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["FC df+4"]
+    "alternateInputs": [
+      "FC df+4"
+    ]
   },
   {
     "name": "Twin Lancer (1)",
@@ -1089,7 +1269,9 @@
     "hit": "+5~+6",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1"]
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Twin Lancer",
@@ -1101,7 +1283,9 @@
     "hit": "+3~+4",
     "counter": "",
     "note": "\nTransition to -9 (ob) +2 (oh) ZEN with F\n\nFloor Break\n\n",
-    "alternateInputs": ["ws1,2"]
+    "alternateInputs": [
+      "ws1,2"
+    ]
   },
   {
     "name": "Kazama Style 6 Hit Combo Redux (2)",
@@ -1113,7 +1297,9 @@
     "hit": "+4",
     "counter": "",
     "note": "Jails\n",
-    "alternateInputs": ["ws1,3"]
+    "alternateInputs": [
+      "ws1,3"
+    ]
   },
   {
     "name": "Kazama Style 6 Hit Combo Redux (3)",
@@ -1125,7 +1311,9 @@
     "hit": "-6",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1,3,2"]
+    "alternateInputs": [
+      "ws1,3,2"
+    ]
   },
   {
     "name": "Kazama Style 6 Hit Combo Redux (4)",
@@ -1137,7 +1325,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1,3,2,1"]
+    "alternateInputs": [
+      "ws1,3,2,1"
+    ]
   },
   {
     "name": "Kazama Style 6 Hit Combo Redux (5)",
@@ -1149,7 +1339,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1,3,2,1,4"]
+    "alternateInputs": [
+      "ws1,3,2,1,4"
+    ]
   },
   {
     "name": "Kazama Style 6 Hit Combo Redux",
@@ -1161,7 +1353,9 @@
     "hit": "-8",
     "counter": "",
     "note": "\n\nFloor Break\n\n",
-    "alternateInputs": ["ws1,3,2,1,4,2"]
+    "alternateInputs": [
+      "ws1,3,2,1,4,2"
+    ]
   },
   {
     "name": "Solar Plexus Strike > Brazilian Kick",
@@ -1173,7 +1367,9 @@
     "hit": "+13c~+14c",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1,3~3"]
+    "alternateInputs": [
+      "ws1,3~3"
+    ]
   },
   {
     "name": "(Brazilian Kick to Breaking Step)",
@@ -1185,7 +1381,9 @@
     "hit": "+9c~+10",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws1,3~3,~df"]
+    "alternateInputs": [
+      "ws1,3~3,~df"
+    ]
   },
   {
     "name": "Crouching Uppercut",
@@ -1197,7 +1395,9 @@
     "hit": "+39a~+40a (+29~+30a)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws2"]
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "Bamboo Splitter",
@@ -1209,7 +1409,9 @@
     "hit": "+10-~+12",
     "counter": "+22a",
     "note": "\n\nHoming\n\n",
-    "alternateInputs": ["ws3"]
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Double Cross Kicks (1)",
@@ -1221,7 +1423,9 @@
     "hit": "+8~+9",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws4"]
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Double Cross Kicks",
@@ -1233,7 +1437,9 @@
     "hit": "+4~+5",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws4,4"]
+    "alternateInputs": [
+      "ws4,4"
+    ]
   },
   {
     "name": "Thrusting Uppercut",
@@ -1245,7 +1451,9 @@
     "hit": "+32a~+33a (+22~+23)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["CD df+1"]
+    "alternateInputs": [
+      "CD df+1"
+    ]
   },
   {
     "name": "Electric Thrusting Uppercut",
@@ -1257,7 +1465,9 @@
     "hit": "+36a~+37a (+26~+27)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["CD df:1"]
+    "alternateInputs": [
+      "CD df:1"
+    ]
   },
   {
     "name": "Wind Hook Fist",
@@ -1269,7 +1479,9 @@
     "hit": "+74a~75a (+58~+59)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["CD df+2"]
+    "alternateInputs": [
+      "CD df+2"
+    ]
   },
   {
     "name": "Electric Wind Hook Fist",
@@ -1281,7 +1493,9 @@
     "hit": "+76a~+77a (+60~+61)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["CD df:2"]
+    "alternateInputs": [
+      "CD df:2"
+    ]
   },
   {
     "name": "",
@@ -1293,7 +1507,9 @@
     "hit": "+8~+9",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["CD DF+4"]
+    "alternateInputs": [
+      "CD DF+4"
+    ]
   },
   {
     "name": "Depraved Savagery",
@@ -1305,7 +1521,9 @@
     "hit": "+21a~+22a",
     "counter": "",
     "note": "\n\nFloor Break\n\n",
-    "alternateInputs": ["CD DF+4,2"]
+    "alternateInputs": [
+      "CD DF+4,2"
+    ]
   },
   {
     "name": "Zenshin",
@@ -1317,7 +1535,9 @@
     "hit": "",
     "counter": "",
     "note": "\nSteps forward\nCan transition to Breaking Step with input DF\n\n",
-    "alternateInputs": ["f+3+4"]
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Zanshin",
@@ -1329,7 +1549,9 @@
     "hit": "",
     "counter": "",
     "note": "\nSteps backward\nCan transition to dash with input F\nCan transition to Breaking Step with input DF\n\n",
-    "alternateInputs": ["b+3+4"]
+    "alternateInputs": [
+      "b+3+4"
+    ]
   },
   {
     "name": "Brimstone Bite (1)",
@@ -1341,7 +1563,9 @@
     "hit": "+8~+9",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ZEN 1"]
+    "alternateInputs": [
+      "ZEN 1"
+    ]
   },
   {
     "name": "Brimstone Bite",
@@ -1353,7 +1577,9 @@
     "hit": "+32a~+33a (+6~+7)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ZEN 1,2"]
+    "alternateInputs": [
+      "ZEN 1,2"
+    ]
   },
   {
     "name": "Kazama Style Leg Strike Flurry",
@@ -1365,7 +1591,9 @@
     "hit": "0",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ZEN 1,3"]
+    "alternateInputs": [
+      "ZEN 1,3"
+    ]
   },
   {
     "name": "Fiendish Claw",
@@ -1377,7 +1605,9 @@
     "hit": "+17a~+18a (+8~+9)/HE",
     "counter": "",
     "note": "\n\nHoming\n\nHeat Engager\n\n\n",
-    "alternateInputs": ["ZEN 2"]
+    "alternateInputs": [
+      "ZEN 2"
+    ]
   },
   {
     "name": "Halberd Heel",
@@ -1389,7 +1619,9 @@
     "hit": "+10~+11",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\n",
-    "alternateInputs": ["ZEN 3"]
+    "alternateInputs": [
+      "ZEN 3"
+    ]
   },
   {
     "name": "Corpse Crusher",
@@ -1401,7 +1633,9 @@
     "hit": "+17d~+23d",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ZEN 4"]
+    "alternateInputs": [
+      "ZEN 4"
+    ]
   },
   {
     "name": "Low Chop > Karmic Epicenter",
@@ -1413,7 +1647,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ZEN 1+2"]
+    "alternateInputs": [
+      "ZEN 1+2"
+    ]
   },
   {
     "name": "Black Wing Bolt",
@@ -1425,7 +1661,9 @@
     "hit": "+19~ (+9~)",
     "counter": "",
     "note": "\n\nWall Crush  +15g~+21g on block\n\n\nBalcony Break\n\n",
-    "alternateInputs": ["ZEN 3+4"]
+    "alternateInputs": [
+      "ZEN 3+4"
+    ]
   },
   {
     "name": "Black Wing Bolt to Breaking Step",
@@ -1437,7 +1675,9 @@
     "hit": "",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ZEN 3+4~DF"]
+    "alternateInputs": [
+      "ZEN 3+4~DF"
+    ]
   },
   {
     "name": "Black Wing Rondo",
@@ -1449,7 +1689,9 @@
     "hit": "+31a~+29a (+21~+19)",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["ZEN u+1"]
+    "alternateInputs": [
+      "ZEN u+1"
+    ]
   },
   {
     "name": "Parry",
@@ -1461,7 +1703,9 @@
     "hit": "",
     "counter": "",
     "note": "Startup 1f-2f, parry 3f-9f, recovery 10f-31f.\n",
-    "alternateInputs": ["b+1+3-b+2+4"]
+    "alternateInputs": [
+      "b+1+3-b+2+4"
+    ]
   },
   {
     "name": "Polar Demon Gouge",
@@ -1473,7 +1717,9 @@
     "hit": "",
     "counter": "",
     "note": "\nErases opponent's recoverable health on hit\n\n",
-    "alternateInputs": ["in rage df+1+2"]
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Double Face Kick",
@@ -1485,7 +1731,9 @@
     "hit": "+2",
     "counter": "",
     "note": "Throw break: 1 or 2; LT when broken\n",
-    "alternateInputs": ["1+3"]
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Over the Shoulder Reverse",
@@ -1497,7 +1745,9 @@
     "hit": "+0",
     "counter": "",
     "note": "Throw break: 1 or 2\n",
-    "alternateInputs": ["2+4"]
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Shoulder Flip",
@@ -1509,7 +1759,9 @@
     "hit": "+0",
     "counter": "",
     "note": "Throw break: 1\n",
-    "alternateInputs": ["Left Throw"]
+    "alternateInputs": [
+      "Left Throw"
+    ]
   },
   {
     "name": "Over the Limit",
@@ -1521,7 +1773,9 @@
     "hit": "+0",
     "counter": "",
     "note": "Throw break: 2\n",
-    "alternateInputs": ["Right Throw"]
+    "alternateInputs": [
+      "Right Throw"
+    ]
   },
   {
     "name": "Pivoting Hip Throw",
@@ -1533,7 +1787,9 @@
     "hit": "+1",
     "counter": "",
     "note": "Throw break: None\n",
-    "alternateInputs": ["Back Throw"]
+    "alternateInputs": [
+      "Back Throw"
+    ]
   },
   {
     "name": "Shun Ren Dan",
@@ -1545,7 +1801,9 @@
     "hit": "-4",
     "counter": "",
     "note": "\nThrow break: 2\nAlternate input: ZEN 2+3\n\n",
-    "alternateInputs": ["df+2+3"]
+    "alternateInputs": [
+      "df+2+3"
+    ]
   },
   {
     "name": "Tidal Wave",
@@ -1557,7 +1815,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\n\nFloor Break\nThrow break: 1+2\n\n",
-    "alternateInputs": ["uf+1+2"]
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Complicated Wire",
@@ -1569,6 +1829,8 @@
     "hit": "0",
     "counter": "",
     "note": "Throw break: 1\n",
-    "alternateInputs": ["qcb+1+3"]
+    "alternateInputs": [
+      "qcb+1+3"
+    ]
   }
 ]

@@ -9,7 +9,9 @@
     "hit": "+2",
     "counter": "+2",
     "note": "\n\nHeat Burst\nAlternate input: R1\nCan be cancelled with input b,b\n\n",
-    "alternateInputs": ["2+3"]
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Élimination Samouraï",
@@ -21,7 +23,9 @@
     "hit": "th",
     "counter": "th",
     "note": "\n\nHeat Smash\nAlternate input: H.R1\n\n",
-    "alternateInputs": ["in heat 2+3"]
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Monsieur Samurai",
@@ -33,7 +37,9 @@
     "hit": "+6a (-4)",
     "counter": "+6a (-4)",
     "note": "\nTransitions to IAI\nPartially uses remaining Heat time\n\n",
-    "alternateInputs": ["in heat db+1+2"]
+    "alternateInputs": [
+      "in heat db+1+2"
+    ]
   },
   {
     "name": "Carving Cameo",
@@ -45,7 +51,9 @@
     "hit": "+18a (+9) / HE",
     "counter": "+18a (+9) / HE",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\n",
-    "alternateInputs": ["f+4,1"]
+    "alternateInputs": [
+      "f+4,1"
+    ]
   },
   {
     "name": "Durandal",
@@ -57,7 +65,9 @@
     "hit": "KND / HE",
     "counter": "KND / HE",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\nDeals chip damage on block\nPartially restores Heat on hit\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Llawfrodedd",
@@ -69,7 +79,9 @@
     "hit": "+4 / HE",
     "counter": "+4",
     "note": "\n\nHeat Engager\n\nDeals chip damage on block\n\n",
-    "alternateInputs": ["d+2"]
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Failnaught",
@@ -81,7 +93,9 @@
     "hit": "+42 (-16) / HE",
     "counter": "+42 (-16) / HE",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nDeals chip damage on block\n\n",
-    "alternateInputs": ["b+1+2"]
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Flying Gentleman",
@@ -93,7 +107,9 @@
     "hit": "+41 (-17)",
     "counter": "+41 (-17)",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nKnee\n\n",
-    "alternateInputs": ["PRF 3"]
+    "alternateInputs": [
+      "PRF 3"
+    ]
   },
   {
     "name": "Jab",
@@ -105,7 +121,9 @@
     "hit": "+8",
     "counter": "+8",
     "note": "\n\n",
-    "alternateInputs": ["1"]
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "",
@@ -117,7 +135,9 @@
     "hit": "+8",
     "counter": "+8",
     "note": "\n\n",
-    "alternateInputs": ["1,1"]
+    "alternateInputs": [
+      "1,1"
+    ]
   },
   {
     "name": "Double Cabochon Cut",
@@ -129,7 +149,9 @@
     "hit": "+3",
     "counter": "+3",
     "note": "\n\n",
-    "alternateInputs": ["1,1,2"]
+    "alternateInputs": [
+      "1,1,2"
+    ]
   },
   {
     "name": "Basic Etiquette",
@@ -141,7 +163,9 @@
     "hit": "+8",
     "counter": "+8",
     "note": "\n\n",
-    "alternateInputs": ["1,2"]
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Briolette Cut",
@@ -153,7 +177,9 @@
     "hit": "+18a (+1)",
     "counter": "Launch T!",
     "note": "\n\nTornado\n\nBalcony Break\n\n",
-    "alternateInputs": ["1,2,1"]
+    "alternateInputs": [
+      "1,2,1"
+    ]
   },
   {
     "name": "Basic Manners",
@@ -165,7 +191,9 @@
     "hit": "-1",
     "counter": "-1",
     "note": "\n\n",
-    "alternateInputs": ["1,3"]
+    "alternateInputs": [
+      "1,3"
+    ]
   },
   {
     "name": "Right Jab",
@@ -177,7 +205,9 @@
     "hit": "-2",
     "counter": "-2",
     "note": "\n\n",
-    "alternateInputs": ["2"]
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "Cutlery Etiquette",
@@ -189,7 +219,9 @@
     "hit": "+5 / +7 PRF",
     "counter": "+5 / +7 PRF",
     "note": "\nTransition to PRF with F\n\n",
-    "alternateInputs": ["2,1"]
+    "alternateInputs": [
+      "2,1"
+    ]
   },
   {
     "name": "",
@@ -201,7 +233,9 @@
     "hit": "-2",
     "counter": "-2",
     "note": "\n-10 if last hit whiffs\n\n",
-    "alternateInputs": ["2,2"]
+    "alternateInputs": [
+      "2,2"
+    ]
   },
   {
     "name": "Crybaby Sophia",
@@ -213,7 +247,9 @@
     "hit": "+4 (W! +12)",
     "counter": "+4 (W! +12)",
     "note": "\nChip damage on block\nTransitions to IAI on hit or block\nCauses Wall Stun\n\n",
-    "alternateInputs": ["2,2,2"]
+    "alternateInputs": [
+      "2,2,2"
+    ]
   },
   {
     "name": "",
@@ -225,7 +261,9 @@
     "hit": "+2",
     "counter": "+2",
     "note": "\n\n",
-    "alternateInputs": ["3"]
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Good Communication",
@@ -237,7 +275,9 @@
     "hit": "+5",
     "counter": "+5",
     "note": "\nHit confirmable\n\n",
-    "alternateInputs": ["3,1+2"]
+    "alternateInputs": [
+      "3,1+2"
+    ]
   },
   {
     "name": "",
@@ -249,7 +289,9 @@
     "hit": "+1",
     "counter": "+1",
     "note": "\n\n",
-    "alternateInputs": ["4"]
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "",
@@ -261,7 +303,9 @@
     "hit": "+5",
     "counter": "+5",
     "note": "\n\n",
-    "alternateInputs": ["4,3"]
+    "alternateInputs": [
+      "4,3"
+    ]
   },
   {
     "name": "Asterism of Benevolence",
@@ -273,7 +317,9 @@
     "hit": "+34d (+13)",
     "counter": "+34d (+13)",
     "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
-    "alternateInputs": ["4,3,2"]
+    "alternateInputs": [
+      "4,3,2"
+    ]
   },
   {
     "name": "Eden",
@@ -285,7 +331,9 @@
     "hit": "+2",
     "counter": "Launch (+46)",
     "note": "\n\n",
-    "alternateInputs": ["1+2"]
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "Iai Stance",
@@ -297,7 +345,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCancel stance with db\n\n",
-    "alternateInputs": ["3+4"]
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "",
@@ -309,7 +359,9 @@
     "hit": "+5",
     "counter": "+5",
     "note": "\n\n",
-    "alternateInputs": ["f+2"]
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "",
@@ -321,7 +373,9 @@
     "hit": "-4",
     "counter": "-4",
     "note": "\n\n",
-    "alternateInputs": ["f+2,2"]
+    "alternateInputs": [
+      "f+2,2"
+    ]
   },
   {
     "name": "",
@@ -333,7 +387,9 @@
     "hit": "0",
     "counter": "0",
     "note": "\n\n",
-    "alternateInputs": ["f+2,2,1"]
+    "alternateInputs": [
+      "f+2,2,1"
+    ]
   },
   {
     "name": "Gorlagon",
@@ -345,7 +401,9 @@
     "hit": "+20 (+15)",
     "counter": "+20 (+15)",
     "note": "\n\nBalcony Break\nHit confirmable if (f22)1 is ch\n\n",
-    "alternateInputs": ["f+2,2,1,1"]
+    "alternateInputs": [
+      "f+2,2,1,1"
+    ]
   },
   {
     "name": "Radiant Cut",
@@ -357,7 +415,9 @@
     "hit": "+20a",
     "counter": "+20a",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["f+2,2,2"]
+    "alternateInputs": [
+      "f+2,2,2"
+    ]
   },
   {
     "name": "Perfumer",
@@ -369,7 +429,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to FC with df\n\n",
-    "alternateInputs": ["f+3"]
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "",
@@ -381,7 +443,9 @@
     "hit": "0",
     "counter": "0",
     "note": "\n\n",
-    "alternateInputs": ["f+4"]
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Carving Cameo",
@@ -393,7 +457,9 @@
     "hit": "+18a (+9) / HE",
     "counter": "+18a (+9) / HE",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\n",
-    "alternateInputs": ["f+4,1"]
+    "alternateInputs": [
+      "f+4,1"
+    ]
   },
   {
     "name": "Carving Intaglio",
@@ -405,7 +471,9 @@
     "hit": "+5",
     "counter": "+7a / +5",
     "note": "\nCH on last hit causes knockdown\n\n",
-    "alternateInputs": ["f+4,2"]
+    "alternateInputs": [
+      "f+4,2"
+    ]
   },
   {
     "name": "Durandal",
@@ -417,7 +485,9 @@
     "hit": "KND / HE",
     "counter": "KND / HE",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\nDeals chip damage on block\nPartially restores Heat on hit\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "",
@@ -429,7 +499,9 @@
     "hit": "+4",
     "counter": "+4",
     "note": "\n\n",
-    "alternateInputs": ["df+1"]
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Trilliant Cut",
@@ -441,7 +513,9 @@
     "hit": "+7",
     "counter": "+7",
     "note": "\n\n",
-    "alternateInputs": ["df+1,1"]
+    "alternateInputs": [
+      "df+1,1"
+    ]
   },
   {
     "name": "Arcadia",
@@ -453,7 +527,9 @@
     "hit": "+31a (+21)",
     "counter": "+31a (+21)",
     "note": "\n\n",
-    "alternateInputs": ["df+2"]
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "",
@@ -465,7 +541,9 @@
     "hit": "+2",
     "counter": "+2",
     "note": "\n\n",
-    "alternateInputs": ["df+3"]
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "",
@@ -477,7 +555,9 @@
     "hit": "+2",
     "counter": "+2",
     "note": "\n\nKnee\n\n",
-    "alternateInputs": ["df+3,4"]
+    "alternateInputs": [
+      "df+3,4"
+    ]
   },
   {
     "name": "Iridescence of Loyalty",
@@ -489,7 +569,9 @@
     "hit": "+17a (+10)",
     "counter": "+35a",
     "note": "\n\nTornado\nDeals chip damage on block\n\n",
-    "alternateInputs": ["df+3,4,2"]
+    "alternateInputs": [
+      "df+3,4,2"
+    ]
   },
   {
     "name": "",
@@ -501,7 +583,9 @@
     "hit": "+5",
     "counter": "+5",
     "note": "\n\nKnee\n\n",
-    "alternateInputs": ["df+4"]
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "Selfish Miranda",
@@ -513,7 +597,9 @@
     "hit": "+4 (W! +12)",
     "counter": "+4 (W! +12)",
     "note": "\nOnly occurs on hit or block\nCauses Wall Stun\nDeals chip damage on block\nTransitions to IAI (cannot cancel)\n\n",
-    "alternateInputs": ["df+4,2"]
+    "alternateInputs": [
+      "df+4,2"
+    ]
   },
   {
     "name": "Llamrei",
@@ -525,7 +611,9 @@
     "hit": "+16 (+11)",
     "counter": "+16 (+11)",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["df+3+4"]
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "",
@@ -537,7 +625,9 @@
     "hit": "-6",
     "counter": "-6",
     "note": "\n\n",
-    "alternateInputs": ["d+1"]
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Concave Cut",
@@ -549,7 +639,9 @@
     "hit": "+6",
     "counter": "+6",
     "note": "\n\n",
-    "alternateInputs": ["d+1,1"]
+    "alternateInputs": [
+      "d+1,1"
+    ]
   },
   {
     "name": "Llawfrodedd",
@@ -561,7 +653,9 @@
     "hit": "+4 / HE",
     "counter": "+4",
     "note": "\n\nHeat Engager\n\nDeals chip damage on block\n\n",
-    "alternateInputs": ["d+2"]
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Good Manners",
@@ -573,7 +667,9 @@
     "hit": "-2",
     "counter": "-2",
     "note": "\n\n",
-    "alternateInputs": ["d+3"]
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Final Salute",
@@ -585,7 +681,9 @@
     "hit": "-3",
     "counter": "+0 (th)",
     "note": "\n\n",
-    "alternateInputs": ["d+4"]
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Guilty Mariko",
@@ -597,7 +695,9 @@
     "hit": "-3",
     "counter": "0",
     "note": "\n\n",
-    "alternateInputs": ["CH d+4"]
+    "alternateInputs": [
+      "CH d+4"
+    ]
   },
   {
     "name": "Iridescence of Prowess",
@@ -609,7 +709,9 @@
     "hit": "+17 (+10)",
     "counter": "+35a",
     "note": "\n\nTornado\nDeals chip damage on block\n\n",
-    "alternateInputs": ["d+1+2"]
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "",
@@ -621,7 +723,9 @@
     "hit": "-2",
     "counter": "-2",
     "note": "\n\n",
-    "alternateInputs": ["db+1"]
+    "alternateInputs": [
+      "db+1"
+    ]
   },
   {
     "name": "Emerald Cut",
@@ -633,7 +737,9 @@
     "hit": "+2 / +4 PRF",
     "counter": "+2 / +4 PRF",
     "note": "\nTransition to PRF with F\n\n",
-    "alternateInputs": ["db+1,1"]
+    "alternateInputs": [
+      "db+1,1"
+    ]
   },
   {
     "name": "Crouch Straight",
@@ -645,7 +751,9 @@
     "hit": "+7",
     "counter": "+7",
     "note": "\n",
-    "alternateInputs": ["db+2"]
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "Polite Greetings",
@@ -657,7 +765,9 @@
     "hit": "KND (-18)",
     "counter": "Launch T!",
     "note": "\n\nTornado\n\nBalcony Break\n\n",
-    "alternateInputs": ["db+3"]
+    "alternateInputs": [
+      "db+3"
+    ]
   },
   {
     "name": "Welcome Sweep",
@@ -669,7 +779,9 @@
     "hit": "+4c",
     "counter": "+49a",
     "note": "\n\n",
-    "alternateInputs": ["db+4"]
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Musk Scented Natasha",
@@ -681,7 +793,9 @@
     "hit": "+49a",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["CH db+4"]
+    "alternateInputs": [
+      "CH db+4"
+    ]
   },
   {
     "name": "",
@@ -693,7 +807,9 @@
     "hit": "-3 / +5 PRF",
     "counter": "-3 / +5 PRF",
     "note": "\nTransition to PRF with F\n\n",
-    "alternateInputs": ["b+1"]
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "Vanity Love",
@@ -705,7 +821,9 @@
     "hit": "+0",
     "counter": "+0",
     "note": "\nSide switch after attack throw connects\nHit Confirmable on counter hit\n\n",
-    "alternateInputs": ["b+1,2"]
+    "alternateInputs": [
+      "b+1,2"
+    ]
   },
   {
     "name": "Strobing Memories",
@@ -717,7 +835,9 @@
     "hit": "+2",
     "counter": "+14",
     "note": "\n\n",
-    "alternateInputs": ["b+2"]
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "",
@@ -729,7 +849,9 @@
     "hit": "+4",
     "counter": "+4",
     "note": "\n\n",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Caval",
@@ -741,7 +863,9 @@
     "hit": "+21a (+16)",
     "counter": "+21a (+16)",
     "note": "\nHit Confirmable\n\nBalcony Break\n\n",
-    "alternateInputs": ["b+3,1"]
+    "alternateInputs": [
+      "b+3,1"
+    ]
   },
   {
     "name": "Cordial Circuit",
@@ -753,7 +877,9 @@
     "hit": "+13g",
     "counter": "+14c",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
-    "alternateInputs": ["b+4"]
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Failnaught",
@@ -765,7 +891,9 @@
     "hit": "+42 (-16) / HE",
     "counter": "+42 (-16) / HE",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nDeals chip damage on block\n\n",
-    "alternateInputs": ["b+1+2"]
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Dun Stallion",
@@ -777,7 +905,9 @@
     "hit": "+37 (+6)",
     "counter": "+37 (+6)",
     "note": "\n\n",
-    "alternateInputs": ["b+1+4"]
+    "alternateInputs": [
+      "b+1+4"
+    ]
   },
   {
     "name": "Caliburnus",
@@ -789,7 +919,9 @@
     "hit": "+1a",
     "counter": "+1a",
     "note": "\nDeals chip damage on block\n\n",
-    "alternateInputs": ["u+1+2"]
+    "alternateInputs": [
+      "u+1+2"
+    ]
   },
   {
     "name": "Excalibur",
@@ -801,7 +933,9 @@
     "hit": "0a (-1)",
     "counter": "0a (-1)",
     "note": "\nAlternate input: H.ub+1+2\n\nBalcony Break\n\n",
-    "alternateInputs": ["in heat u+1+2"]
+    "alternateInputs": [
+      "in heat u+1+2"
+    ]
   },
   {
     "name": "",
@@ -813,7 +947,9 @@
     "hit": "+4",
     "counter": "+4",
     "note": "\nAlternate input: ub+1 or u+1\n\n",
-    "alternateInputs": ["uf+1"]
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "Gringolet",
@@ -825,7 +961,9 @@
     "hit": "+15 / +3 IAI",
     "counter": "+15 / +3 IAI",
     "note": "\n\nTornado\n\nBalcony Break\nHit confirmable\nCancel the second hit with down or 3+4 to go into IAI\n\n",
-    "alternateInputs": ["uf+1,1"]
+    "alternateInputs": [
+      "uf+1,1"
+    ]
   },
   {
     "name": "Marquis Cut",
@@ -837,7 +975,9 @@
     "hit": "+7",
     "counter": "+7",
     "note": "\n\nHoming\n\n",
-    "alternateInputs": ["uf+2"]
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "Peaceful Shoes",
@@ -849,7 +989,9 @@
     "hit": "+3",
     "counter": "+36d",
     "note": "\nAlternate input: ub+3 or u+3\n\n",
-    "alternateInputs": ["uf+3"]
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Chatoyant Courage",
@@ -861,7 +1003,9 @@
     "hit": "+73 (+57)",
     "counter": "+73 (+57)",
     "note": "\n\nTornado\nAlternate input: ub+4 or u+4\n\n",
-    "alternateInputs": ["uf+4"]
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Carnwennan",
@@ -873,7 +1017,9 @@
     "hit": "+33 (+23)",
     "counter": "+33 (+23)",
     "note": "\n\nTornado\nDeals chip damage on block\n\n",
-    "alternateInputs": ["f,F+2"]
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Asterism of Virtue",
@@ -885,7 +1031,9 @@
     "hit": "+16 (+6)",
     "counter": "Launch T!",
     "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
-    "alternateInputs": ["f,f,F+2"]
+    "alternateInputs": [
+      "f,f,F+2"
+    ]
   },
   {
     "name": "Amour Shaft",
@@ -897,7 +1045,9 @@
     "hit": "+4",
     "counter": "+4 (W! +12)",
     "note": "\nTransition to IAI\nDeals chip damage on block\nCauses Wall stun\n\n",
-    "alternateInputs": ["d,df,f+2"]
+    "alternateInputs": [
+      "d,df,f+2"
+    ]
   },
   {
     "name": "Montjoie Takemikazuchi",
@@ -909,7 +1059,9 @@
     "hit": "+2 (-8)",
     "counter": "+2 (-8)",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["b,B+2+3"]
+    "alternateInputs": [
+      "b,B+2+3"
+    ]
   },
   {
     "name": "Oval Cut",
@@ -921,7 +1073,9 @@
     "hit": "+53a",
     "counter": "+53a",
     "note": "\nLauncher\n\n",
-    "alternateInputs": ["ws1"]
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Baguette Cut",
@@ -933,7 +1087,9 @@
     "hit": "+6",
     "counter": "+35a (+25)",
     "note": "\n\n",
-    "alternateInputs": ["ws2"]
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "",
@@ -945,7 +1101,9 @@
     "hit": "+6",
     "counter": "+6",
     "note": "\n\n",
-    "alternateInputs": ["ws3"]
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Iridescence of Faith",
@@ -957,7 +1115,9 @@
     "hit": "+17 (+10)",
     "counter": "(+35)",
     "note": "\n\nTornado\nDeals chip damage on block\n\n",
-    "alternateInputs": ["ws3,2"]
+    "alternateInputs": [
+      "ws3,2"
+    ]
   },
   {
     "name": "Praise Smash",
@@ -969,7 +1129,9 @@
     "hit": "+5",
     "counter": "+5",
     "note": "\n\n",
-    "alternateInputs": ["ws4"]
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Pearly Gates",
@@ -981,7 +1143,9 @@
     "hit": "+8 / +8 PRF",
     "counter": "+8 / +8 PRF",
     "note": "\nTransition to PRF with F\n\n",
-    "alternateInputs": ["ws1+2"]
+    "alternateInputs": [
+      "ws1+2"
+    ]
   },
   {
     "name": "Iai Stance",
@@ -993,7 +1157,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan cancel into FC with db\n\n",
-    "alternateInputs": ["3+4"]
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "",
@@ -1005,7 +1171,9 @@
     "hit": "+1",
     "counter": "+1",
     "note": "\n\n",
-    "alternateInputs": ["IAI 1"]
+    "alternateInputs": [
+      "IAI 1"
+    ]
   },
   {
     "name": "Spumador",
@@ -1017,7 +1185,9 @@
     "hit": "+15g / +2 IAI",
     "counter": "+15g / +2 IAI",
     "note": "\n\nTornado\n\nBalcony Break\nCan cancel the second hit by holding down or pressing 3+4. Will transition to IAI\nHit confirmable\n\n",
-    "alternateInputs": ["IAI 1,1"]
+    "alternateInputs": [
+      "IAI 1,1"
+    ]
   },
   {
     "name": "",
@@ -1029,7 +1199,9 @@
     "hit": "+25a (+10)",
     "counter": "+25a (+10)",
     "note": "\nHit Confirmable\n\n",
-    "alternateInputs": ["IAI 1,2"]
+    "alternateInputs": [
+      "IAI 1,2"
+    ]
   },
   {
     "name": "Clarent",
@@ -1041,7 +1213,9 @@
     "hit": "+8a (-27)",
     "counter": "+8a (-27)",
     "note": "\n\nSpike\nDeals chip damage on block\n\n",
-    "alternateInputs": ["IAI 1,2,2"]
+    "alternateInputs": [
+      "IAI 1,2,2"
+    ]
   },
   {
     "name": "Chastiefol",
@@ -1053,7 +1227,9 @@
     "hit": "+20a (-6)",
     "counter": "+20a (-6)",
     "note": "\nDeals chip damage on block\n\n",
-    "alternateInputs": ["IAI 1,1+2"]
+    "alternateInputs": [
+      "IAI 1,1+2"
+    ]
   },
   {
     "name": "Almace",
@@ -1065,7 +1241,9 @@
     "hit": "+15 (+5)",
     "counter": "+15 (+5)",
     "note": "\n\nBalcony Break\n\nTornado\n\n",
-    "alternateInputs": ["IAI 2"]
+    "alternateInputs": [
+      "IAI 2"
+    ]
   },
   {
     "name": "Sequence",
@@ -1077,7 +1255,9 @@
     "hit": "+25 (+10)",
     "counter": "+25 (+10)",
     "note": "\n\nKnee\n\n",
-    "alternateInputs": ["IAI 3"]
+    "alternateInputs": [
+      "IAI 3"
+    ]
   },
   {
     "name": "",
@@ -1089,7 +1269,9 @@
     "hit": "+3",
     "counter": "+8",
     "note": "\n\n",
-    "alternateInputs": ["IAI 4"]
+    "alternateInputs": [
+      "IAI 4"
+    ]
   },
   {
     "name": "Murgleys",
@@ -1101,7 +1283,9 @@
     "hit": "+26 (+0)",
     "counter": "Launch T!",
     "note": "\n\nBalcony Break\n\nTailspin\n\n",
-    "alternateInputs": ["IAI 4,2"]
+    "alternateInputs": [
+      "IAI 4,2"
+    ]
   },
   {
     "name": "Hauteclaire",
@@ -1113,7 +1297,9 @@
     "hit": "+20 (-6)",
     "counter": "+20 (-6)",
     "note": "\nDeals chip damage on block\n\n",
-    "alternateInputs": ["IAI 1+2"]
+    "alternateInputs": [
+      "IAI 1+2"
+    ]
   },
   {
     "name": "Rhongomyniad",
@@ -1125,7 +1311,9 @@
     "hit": "-1 (-8)",
     "counter": "-1 (-8)",
     "note": "\nTransition to IAI\nDeals chip damage on block\n\n",
-    "alternateInputs": ["IAI d+2"]
+    "alternateInputs": [
+      "IAI d+2"
+    ]
   },
   {
     "name": "Longinus",
@@ -1137,7 +1325,9 @@
     "hit": "+20 (+2)",
     "counter": "+20 (+2)",
     "note": "\nTransition to IAI on hit\n\n",
-    "alternateInputs": ["in heat IAI d+2"]
+    "alternateInputs": [
+      "in heat IAI d+2"
+    ]
   },
   {
     "name": "Espee Aventureuse",
@@ -1149,7 +1339,9 @@
     "hit": "-3",
     "counter": "-3",
     "note": "\n\n",
-    "alternateInputs": ["IAI d+1+2"]
+    "alternateInputs": [
+      "IAI d+1+2"
+    ]
   },
   {
     "name": "Take a Bow",
@@ -1161,7 +1353,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["IAI d"]
+    "alternateInputs": [
+      "IAI d"
+    ]
   },
   {
     "name": "Move Forward",
@@ -1173,7 +1367,9 @@
     "hit": "",
     "counter": "",
     "note": "\nParries low attacks\n\n",
-    "alternateInputs": ["IAI f"]
+    "alternateInputs": [
+      "IAI f"
+    ]
   },
   {
     "name": "Gwen",
@@ -1185,7 +1381,9 @@
     "hit": "+60 (+44)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nTornado\n\n",
-    "alternateInputs": ["IAI P f"]
+    "alternateInputs": [
+      "IAI P f"
+    ]
   },
   {
     "name": "Move Backward",
@@ -1197,7 +1395,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["IAI b"]
+    "alternateInputs": [
+      "IAI b"
+    ]
   },
   {
     "name": "Perfumer",
@@ -1209,7 +1409,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan cancel into FC with df\n\n",
-    "alternateInputs": ["f+3"]
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Maceration",
@@ -1221,7 +1423,9 @@
     "hit": "+4",
     "counter": "+13g",
     "note": "\n\n",
-    "alternateInputs": ["PRF 1"]
+    "alternateInputs": [
+      "PRF 1"
+    ]
   },
   {
     "name": "",
@@ -1233,7 +1437,9 @@
     "hit": "+1",
     "counter": "+1",
     "note": "\n\n",
-    "alternateInputs": ["PRF 2"]
+    "alternateInputs": [
+      "PRF 2"
+    ]
   },
   {
     "name": "",
@@ -1245,7 +1451,9 @@
     "hit": "+5 IAI",
     "counter": "+5 IAI",
     "note": "\nTransition to IAI (Cannot cancel)\n\n",
-    "alternateInputs": ["PRF 2,2"]
+    "alternateInputs": [
+      "PRF 2,2"
+    ]
   },
   {
     "name": "Top Note",
@@ -1257,7 +1465,9 @@
     "hit": "+12",
     "counter": "+55a",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["PRF 2,2,1"]
+    "alternateInputs": [
+      "PRF 2,2,1"
+    ]
   },
   {
     "name": "Last Note",
@@ -1269,7 +1479,9 @@
     "hit": "+7d",
     "counter": "+7d",
     "note": "\n\n",
-    "alternateInputs": ["PRF 2,2,1+2"]
+    "alternateInputs": [
+      "PRF 2,2,1+2"
+    ]
   },
   {
     "name": "Flying Gentleman",
@@ -1281,7 +1493,9 @@
     "hit": "+41 (-17)",
     "counter": "+41 (-17)",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\n\nKnee\n\n",
-    "alternateInputs": ["PRF 3"]
+    "alternateInputs": [
+      "PRF 3"
+    ]
   },
   {
     "name": "Cordial Circuit",
@@ -1293,7 +1507,9 @@
     "hit": "+13g",
     "counter": "+14c",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
-    "alternateInputs": ["PRF 4"]
+    "alternateInputs": [
+      "PRF 4"
+    ]
   },
   {
     "name": "Hengroen",
@@ -1305,7 +1521,9 @@
     "hit": "+14a",
     "counter": "+14a",
     "note": "\n\nBalcony Break\nDeals chip damage on block\n\n",
-    "alternateInputs": ["PRF 1+2"]
+    "alternateInputs": [
+      "PRF 1+2"
+    ]
   },
   {
     "name": "Sillage",
@@ -1317,7 +1535,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["PRF df"]
+    "alternateInputs": [
+      "PRF df"
+    ]
   },
   {
     "name": "Coup de Chevalier",
@@ -1329,7 +1549,9 @@
     "hit": "th",
     "counter": "th",
     "note": "\nRage Art\nRemoves recoverable health on hit\nAlternate input: R.R2\n\n",
-    "alternateInputs": ["in rage df+1+2"]
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Shangri-La",
@@ -1341,7 +1563,9 @@
     "hit": "+0",
     "counter": "+0",
     "note": "\n\n",
-    "alternateInputs": ["FC 1+2"]
+    "alternateInputs": [
+      "FC 1+2"
+    ]
   },
   {
     "name": "Dandy Blow",
@@ -1353,7 +1577,9 @@
     "hit": "+15 (+5)",
     "counter": "+15 (+5)",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["SS 1+2"]
+    "alternateInputs": [
+      "SS 1+2"
+    ]
   },
   {
     "name": "Taunt",
@@ -1365,7 +1591,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["2+3+4"]
+    "alternateInputs": [
+      "2+3+4"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -1377,7 +1605,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["1+2+3+4"]
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "Le Blanc",
@@ -1389,7 +1619,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["ub,b"]
+    "alternateInputs": [
+      "ub,b"
+    ]
   },
   {
     "name": "One Night Miracle",
@@ -1401,7 +1633,9 @@
     "hit": "-2",
     "counter": "",
     "note": "\nThrow break: 1 or 2\nOpponent recovery on hit: FDFT\n\n",
-    "alternateInputs": ["1+3"]
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Je Te Veux",
@@ -1413,7 +1647,9 @@
     "hit": "-4",
     "counter": "",
     "note": "\nThrow break: 1 or 2\nOpponent recovery on hit: opp. side FDFT off-axis to the right\n\n",
-    "alternateInputs": ["2+4"]
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "One Night Miracle",
@@ -1425,7 +1661,9 @@
     "hit": "-2",
     "counter": "",
     "note": "\nThrow break: 1\nOpponent recovery on hit: FDFT\n\n",
-    "alternateInputs": ["Left throw"]
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Je Te Veux",
@@ -1437,7 +1675,9 @@
     "hit": "-4",
     "counter": "",
     "note": "\nThrow break: 2\nOpponent recovery on hit: opp. side FDFT off-axis to the right\n\n",
-    "alternateInputs": ["Right throw"]
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Farewell in Taj Mahal",
@@ -1449,7 +1689,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\nThrow break: none\nOpponent recovery on hit: FUFA\n\n",
-    "alternateInputs": ["Back throw"]
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Romancing Chaser",
@@ -1461,6 +1703,8 @@
     "hit": "-4",
     "counter": "",
     "note": "\n\nSpike\nThrow break: 1+2\nOpponent recovery on hit: FUFA\n\n",
-    "alternateInputs": ["uf+1+2"]
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   }
 ]

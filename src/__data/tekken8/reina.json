@@ -9,7 +9,9 @@
     "hit": "+2c",
     "counter": "",
     "note": "\n\nHeat Burst\nAlternate input: R1\nCancel to r45 with b,b\n3 chip damage on block\nPartially uses Heat\nUnparryable\nIgnores regular power crush armor\n\n",
-    "alternateInputs": ["2+3"]
+    "alternateInputs": [
+      "2+3"
+    ]
   },
   {
     "name": "Divine Dominance of Annihilation",
@@ -21,7 +23,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\n\nHeat Smash\n\nBalcony Break\nAlternate input: H.R1\nJails from 1st block\nTransitions to attack throw on 1st hit for a total of 50 dmg\nTransitions to r53 WRA on 2nd block, whiff or hit\n+19d WRA if only second hit connects (25 dmg)\n\n",
-    "alternateInputs": ["in heat 2+3"]
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
   },
   {
     "name": "Divine Wrath of Annihilation",
@@ -33,7 +37,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\n\nHeat Smash\n\nSpike\nAlternate input: H.WRA.R1\nJails if any hit is blocked\nTransitions to attack throw on 1st hit for a total of 40 dmg\n+4a (-5) if any hit after the 1st connects\n\n",
-    "alternateInputs": ["in heat WRA 2+3"]
+    "alternateInputs": [
+      "in heat WRA 2+3"
+    ]
   },
   {
     "name": "Senjomanji Lethal Fury",
@@ -45,7 +51,9 @@
     "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 2nd hit\n\n",
-    "alternateInputs": ["3,4,in heat 4"]
+    "alternateInputs": [
+      "3,4,in heat 4"
+    ]
   },
   {
     "name": "Aerial Manji Lethal Fury",
@@ -57,7 +65,9 @@
     "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 2nd hit\n\n",
-    "alternateInputs": ["3+4,4,in heat 4"]
+    "alternateInputs": [
+      "3+4,4,in heat 4"
+    ]
   },
   {
     "name": "Ouhen Manji Lethal Fury",
@@ -69,7 +79,9 @@
     "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
-    "alternateInputs": ["f+3+4,in heat 4"]
+    "alternateInputs": [
+      "f+3+4,in heat 4"
+    ]
   },
   {
     "name": "",
@@ -81,7 +93,9 @@
     "hit": "+23a (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st block\n\n",
-    "alternateInputs": ["f+3+4*,in heat 4"]
+    "alternateInputs": [
+      "f+3+4*,in heat 4"
+    ]
   },
   {
     "name": "Charging Hard",
@@ -93,7 +107,9 @@
     "hit": "",
     "counter": "",
     "note": "\nAutomatically parries limb-based, non-airborne mids and highs\nDeals 40 damage on successful parry\n+1d on successful parry\n\n",
-    "alternateInputs": ["in heat d+1+2"]
+    "alternateInputs": [
+      "in heat d+1+2"
+    ]
   },
   {
     "name": "Muso Basara",
@@ -105,7 +121,9 @@
     "hit": "+12a",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17d\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
-    "alternateInputs": ["df+1,2"]
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Trailokya Splits Kick",
@@ -117,7 +135,9 @@
     "hit": "+20a",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nSpike\n\n",
-    "alternateInputs": ["f,F+3"]
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Sen Kaijo-geri",
@@ -129,7 +149,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\n\nHoming\n\nHeat Engager\n\n\nHeat Dash +5, +34d\n\nDeals chip damage on block\n\n",
-    "alternateInputs": ["SEN 3"]
+    "alternateInputs": [
+      "SEN 3"
+    ]
   },
   {
     "name": "Unpu Tobi-Manji",
@@ -141,7 +163,9 @@
     "hit": "+43a (-15)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with DB/D/DF\n\n",
-    "alternateInputs": ["UNS 4"]
+    "alternateInputs": [
+      "UNS 4"
+    ]
   },
   {
     "name": "Iron Hand",
@@ -153,7 +177,9 @@
     "hit": "+11a (+2)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nDeals chip damage on block\nSometimes written HW.2\n",
-    "alternateInputs": ["WRA 2"]
+    "alternateInputs": [
+      "WRA 2"
+    ]
   },
   {
     "name": "",
@@ -165,7 +191,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["1"]
+    "alternateInputs": [
+      "1"
+    ]
   },
   {
     "name": "",
@@ -177,7 +205,9 @@
     "hit": "+8",
     "counter": "",
     "note": "Jail from 1st attack with 2f delay\n",
-    "alternateInputs": ["1,1"]
+    "alternateInputs": [
+      "1,1"
+    ]
   },
   {
     "name": "Flash Punch Combo",
@@ -189,7 +219,9 @@
     "hit": "\n+11 SEN\n+2 (cancel)\n",
     "counter": "",
     "note": "\nCancel transition with input B\nHit-confirmable from 1st hit\nCombo from 1st hit with 11f delay\nWall crush on hit, +23g minimum\n\n",
-    "alternateInputs": ["1,1,2"]
+    "alternateInputs": [
+      "1,1,2"
+    ]
   },
   {
     "name": "One Two Strike",
@@ -201,7 +233,9 @@
     "hit": "+8",
     "counter": "",
     "note": "Jail from 1st attack with 4f delay\n",
-    "alternateInputs": ["1,2"]
+    "alternateInputs": [
+      "1,2"
+    ]
   },
   {
     "name": "Back Fist Combo",
@@ -213,7 +247,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nJail from 2nd attack with 2f delay\nInput can be delayed 3f\nMove can be delayed 2f\n\n",
-    "alternateInputs": ["1,2,2"]
+    "alternateInputs": [
+      "1,2,2"
+    ]
   },
   {
     "name": "",
@@ -225,7 +261,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\n\nKnee\nCombo from 2nd CH with 3f delay\nInput can be delayed 3f\nMove can be delayed 2f\n\n",
-    "alternateInputs": ["1,2,3"]
+    "alternateInputs": [
+      "1,2,3"
+    ]
   },
   {
     "name": "Sting the Works",
@@ -237,7 +275,9 @@
     "hit": "+21a (+12)",
     "counter": "",
     "note": "\nCH-confirmable from 2nd CH\nCombo from 3rd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 8f\nInterrupt with i5 from 3rd block\n\n",
-    "alternateInputs": ["1,2,3,4"]
+    "alternateInputs": [
+      "1,2,3,4"
+    ]
   },
   {
     "name": "",
@@ -249,7 +289,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["2"]
+    "alternateInputs": [
+      "2"
+    ]
   },
   {
     "name": "",
@@ -261,7 +303,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nJail from 1st attack with 1f delay\n\n",
-    "alternateInputs": ["2,2"]
+    "alternateInputs": [
+      "2,2"
+    ]
   },
   {
     "name": "Ganzan Basara",
@@ -273,7 +317,9 @@
     "hit": "+12a",
     "counter": "",
     "note": "\n\nBalcony Break\n\nSpike\n\nHead\nHit-confirmable from 1st hit\nCombo from 2nd hit with 5f delay\nInput can be delayed 10f\nMove can be delayed 9f\n\n",
-    "alternateInputs": ["2,2,1"]
+    "alternateInputs": [
+      "2,2,1"
+    ]
   },
   {
     "name": "",
@@ -285,7 +331,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\nCombo from 2nd hit only if the 2nd hit connects on i15, otherwise no combo\nInput can be delayed 10f\nMove can be delayed 9f\nInterrupt with i11 from 2nd block\n\n",
-    "alternateInputs": ["2,2,2"]
+    "alternateInputs": [
+      "2,2,2"
+    ]
   },
   {
     "name": "Bishamon Massacre",
@@ -297,7 +345,9 @@
     "hit": "+30a (+20)",
     "counter": "",
     "note": "\n\nTornado\nCombo from 3rd hit with 1f delay\nInput can be delayed 4f\nMove can be delayed 3f\nEvasive, can go under jabs\n\n",
-    "alternateInputs": ["2,2,2,1"]
+    "alternateInputs": [
+      "2,2,2,1"
+    ]
   },
   {
     "name": "Raging Bishamon",
@@ -309,7 +359,9 @@
     "hit": "+21a (+0)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 3rd hit with 4f delay\nMove can be delayed 3f\nBlue spark with input qcf+2 for 5 more damage\n\n",
-    "alternateInputs": ["2,2,2,2"]
+    "alternateInputs": [
+      "2,2,2,2"
+    ]
   },
   {
     "name": "Ondeko",
@@ -321,7 +373,9 @@
     "hit": "+31d (+23)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nSpike\nJust frame if 2 is held for exactly one frame and then 1 on the next frame. Hits for 26 damage.\n5f input window\n\n",
-    "alternateInputs": ["2~1"]
+    "alternateInputs": [
+      "2~1"
+    ]
   },
   {
     "name": "",
@@ -333,7 +387,9 @@
     "hit": "+5",
     "counter": "",
     "note": "Homing\n",
-    "alternateInputs": ["3"]
+    "alternateInputs": [
+      "3"
+    ]
   },
   {
     "name": "Senjo Zuki",
@@ -345,7 +401,9 @@
     "hit": "+8",
     "counter": "+66a (+50)",
     "note": "\n\nTornado\nCombo from 1st hit\n\n",
-    "alternateInputs": ["3,2"]
+    "alternateInputs": [
+      "3,2"
+    ]
   },
   {
     "name": "Senjo-manji",
@@ -357,7 +415,9 @@
     "hit": "+50 (+19)",
     "counter": "+54a",
     "note": "Combo from 1st hit\n",
-    "alternateInputs": ["3,4"]
+    "alternateInputs": [
+      "3,4"
+    ]
   },
   {
     "name": "Nobility Hunter",
@@ -369,7 +429,9 @@
     "hit": "+11g",
     "counter": "+35a",
     "note": "\n\nBalcony Break\nOpponent is FUFA on CH\n\n",
-    "alternateInputs": ["4"]
+    "alternateInputs": [
+      "4"
+    ]
   },
   {
     "name": "Demon Breath",
@@ -381,7 +443,9 @@
     "hit": "+24a (+14)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["1+2"]
+    "alternateInputs": [
+      "1+2"
+    ]
   },
   {
     "name": "",
@@ -393,7 +457,9 @@
     "hit": "+3c",
     "counter": "",
     "note": "Spike\n",
-    "alternateInputs": ["3+4"]
+    "alternateInputs": [
+      "3+4"
+    ]
   },
   {
     "name": "Aerial Manji-geri",
@@ -405,7 +471,9 @@
     "hit": "+50 (+19)",
     "counter": "+54a",
     "note": "Combo from 1st hit with 4f delay\n",
-    "alternateInputs": ["3+4,4"]
+    "alternateInputs": [
+      "3+4,4"
+    ]
   },
   {
     "name": "Fukuteki",
@@ -417,7 +485,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to WGS with DF after 14 frames\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n\n",
-    "alternateInputs": ["1+4"]
+    "alternateInputs": [
+      "1+4"
+    ]
   },
   {
     "name": "",
@@ -429,7 +499,9 @@
     "hit": "-3",
     "counter": "",
     "note": "Can transition to UNS (+0/+6/+6) with input u or d\n",
-    "alternateInputs": ["f+2"]
+    "alternateInputs": [
+      "f+2"
+    ]
   },
   {
     "name": "Sousoku Rengeki",
@@ -441,7 +513,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\nJails from 1st hit without delay\nCombo from 1st hit without delay\nCan transition to SEN (-2/+9/+9) with input F\nCannot block up to i12 on empty transition on block\nCan be delayed\n\n",
-    "alternateInputs": ["f+2,3"]
+    "alternateInputs": [
+      "f+2,3"
+    ]
   },
   {
     "name": "Sentai",
@@ -453,7 +527,9 @@
     "hit": "",
     "counter": "",
     "note": "Actionable from r28\n",
-    "alternateInputs": ["f+3"]
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "Kamadhatu Splits Kick",
@@ -465,7 +541,9 @@
     "hit": "+5c",
     "counter": "+29d",
     "note": "\n+13c on crouching hit\nOpponent is FDFA on CH\n\nSpike\n\n",
-    "alternateInputs": ["f+4"]
+    "alternateInputs": [
+      "f+4"
+    ]
   },
   {
     "name": "Senshin-zuki",
@@ -477,7 +555,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\nWall crush on hit, +19g\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Ouhen Manji-geri",
@@ -489,7 +569,9 @@
     "hit": "+50 (+19)",
     "counter": "+55a",
     "note": "\ncan be cancelled into crouch with input DB/D/DF\n\n",
-    "alternateInputs": ["f+3+4"]
+    "alternateInputs": [
+      "f+3+4"
+    ]
   },
   {
     "name": "Ouhen Fubi Manji-geri",
@@ -501,7 +583,9 @@
     "hit": "+52a",
     "counter": "",
     "note": "\ncan be cancelled into crouch with input DB/D/DF\n\n",
-    "alternateInputs": ["f+3+4*"]
+    "alternateInputs": [
+      "f+3+4*"
+    ]
   },
   {
     "name": "",
@@ -513,7 +597,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\nCan transition to SEN (-3/+4/+4) with input F\nCannot block up to i15 on empty transition on block\n\n",
-    "alternateInputs": ["df+1"]
+    "alternateInputs": [
+      "df+1"
+    ]
   },
   {
     "name": "Muso Tensho",
@@ -525,7 +611,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\nCombo from 1st hit without delay\nCan be delayed\n\n",
-    "alternateInputs": ["df+1,1"]
+    "alternateInputs": [
+      "df+1,1"
+    ]
   },
   {
     "name": "Muso Basara",
@@ -537,7 +625,9 @@
     "hit": "+12a",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +18g, +17d\n\nCombo from 1st hit without delay\nCan be delayed\n\n",
-    "alternateInputs": ["df+1,2"]
+    "alternateInputs": [
+      "df+1,2"
+    ]
   },
   {
     "name": "Queen Bee Stinger",
@@ -549,7 +639,9 @@
     "hit": "+30a (+20)",
     "counter": "",
     "note": "\n+2 on hit on crouching opp.\n+30a (+20) on CH on crouching opp.\n\n",
-    "alternateInputs": ["df+2"]
+    "alternateInputs": [
+      "df+2"
+    ]
   },
   {
     "name": "Wind God Step",
@@ -561,7 +653,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to SEN with input WGS.f+3\n\n",
-    "alternateInputs": ["df+3"]
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "",
@@ -573,7 +667,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["df+4"]
+    "alternateInputs": [
+      "df+4"
+    ]
   },
   {
     "name": "",
@@ -585,7 +681,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\nCan transition to WRA (-6/+8/+8) with input D\nCombo from 1st hit\n\n",
-    "alternateInputs": ["df+4,2"]
+    "alternateInputs": [
+      "df+4,2"
+    ]
   },
   {
     "name": "Gekirosatsu",
@@ -597,7 +695,9 @@
     "hit": "+35a",
     "counter": "+71a (+55)",
     "note": "\n\nTornado\nCombo from 2nd CH\nCan be delayed\n\n",
-    "alternateInputs": ["df+4,2,3"]
+    "alternateInputs": [
+      "df+4,2,3"
+    ]
   },
   {
     "name": "",
@@ -609,7 +709,9 @@
     "hit": "+2",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["df+3+4"]
+    "alternateInputs": [
+      "df+3+4"
+    ]
   },
   {
     "name": "Nen Dougarami",
@@ -621,7 +723,9 @@
     "hit": "+0",
     "counter": "",
     "note": "Spike\n",
-    "alternateInputs": ["CH df+3+4"]
+    "alternateInputs": [
+      "CH df+3+4"
+    ]
   },
   {
     "name": "Kasho Maki-manji",
@@ -633,7 +737,9 @@
     "hit": "+50 (+19)",
     "counter": "+54a",
     "note": "Combo from 1st hit\n",
-    "alternateInputs": ["df+3+4,4"]
+    "alternateInputs": [
+      "df+3+4,4"
+    ]
   },
   {
     "name": "Crouch Jab",
@@ -645,7 +751,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\nReturns to standing when input F\n\n",
-    "alternateInputs": ["d+1"]
+    "alternateInputs": [
+      "d+1"
+    ]
   },
   {
     "name": "Tecchuu-ate",
@@ -657,7 +765,9 @@
     "hit": "+3c",
     "counter": "+27d",
     "note": "Spike\n",
-    "alternateInputs": ["d+2"]
+    "alternateInputs": [
+      "d+2"
+    ]
   },
   {
     "name": "Unsoku Kou",
@@ -669,7 +779,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n",
-    "alternateInputs": ["d+3"]
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Crouch Chin Kick",
@@ -681,7 +793,9 @@
     "hit": "-4",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["d+4"]
+    "alternateInputs": [
+      "d+4"
+    ]
   },
   {
     "name": "Heaven's Wrath",
@@ -693,7 +807,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["d+1+2"]
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "Eisaimon",
@@ -705,7 +821,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["db+2"]
+    "alternateInputs": [
+      "db+2"
+    ]
   },
   {
     "name": "",
@@ -717,7 +835,9 @@
     "hit": "-2",
     "counter": "+2",
     "note": "\n",
-    "alternateInputs": ["db+4"]
+    "alternateInputs": [
+      "db+4"
+    ]
   },
   {
     "name": "Un Oshi-kuzushi",
@@ -729,7 +849,9 @@
     "hit": "+39d (-19)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st CH even with delay\nCan be delayed\nCH-confirmable from 1st CH\n\n",
-    "alternateInputs": ["db+4,1+2"]
+    "alternateInputs": [
+      "db+4,1+2"
+    ]
   },
   {
     "name": "",
@@ -741,7 +863,9 @@
     "hit": "+6",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["b+1"]
+    "alternateInputs": [
+      "b+1"
+    ]
   },
   {
     "name": "",
@@ -753,7 +877,9 @@
     "hit": "-4",
     "counter": "",
     "note": "\nCombo from 1st hit without delay\nCan be delayed\n",
-    "alternateInputs": ["b+1,1"]
+    "alternateInputs": [
+      "b+1,1"
+    ]
   },
   {
     "name": "",
@@ -765,7 +891,9 @@
     "hit": "+3",
     "counter": "",
     "note": "\nCan transition to SEN (+0/+13/+13) with input F\nCannot block up to i14 on empty transition on block\nCombo from 2nd CH\nJails from 2nd block\n",
-    "alternateInputs": ["b+1,1,3"]
+    "alternateInputs": [
+      "b+1,1,3"
+    ]
   },
   {
     "name": "Hen-in 4 Hit Combo",
@@ -777,7 +905,9 @@
     "hit": "+48 (+17)",
     "counter": "+53a",
     "note": "\n",
-    "alternateInputs": ["b+1,1,3,3"]
+    "alternateInputs": [
+      "b+1,1,3,3"
+    ]
   },
   {
     "name": "Sin Smiter",
@@ -789,7 +919,9 @@
     "hit": "+3",
     "counter": "",
     "note": "Homing\n",
-    "alternateInputs": ["b+2"]
+    "alternateInputs": [
+      "b+2"
+    ]
   },
   {
     "name": "Unsoku Gen",
@@ -801,7 +933,9 @@
     "hit": "",
     "counter": "",
     "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\nSee also Unsoku Cancel\n\n",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Ebi-geri",
@@ -813,7 +947,9 @@
     "hit": "+35a",
     "counter": "+71a (+55)",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["b+4"]
+    "alternateInputs": [
+      "b+4"
+    ]
   },
   {
     "name": "Tatenashi",
@@ -825,7 +961,9 @@
     "hit": "",
     "counter": "",
     "note": "\nParry mids and highs\nConverts incoming damage to recoverable health\nPartially restores Heat on successful parry\nTransitions to WRA on successful parry with +(recv - 17) where recv is the recovery of the parried move\n\n",
-    "alternateInputs": ["b+1+3"]
+    "alternateInputs": [
+      "b+1+3"
+    ]
   },
   {
     "name": "Clairvoyant Fatal Violet",
@@ -837,7 +975,9 @@
     "hit": "+20d (-1)",
     "counter": "",
     "note": "\n\nBalcony Break\nCan cancel with input b,b\n",
-    "alternateInputs": ["b+1+4"]
+    "alternateInputs": [
+      "b+1+4"
+    ]
   },
   {
     "name": "Kugai Dachi",
@@ -849,7 +989,9 @@
     "hit": "+14g",
     "counter": "",
     "note": "Balcony Break\n",
-    "alternateInputs": ["b+1+2"]
+    "alternateInputs": [
+      "b+1+2"
+    ]
   },
   {
     "name": "Unsoku Kou",
@@ -861,7 +1003,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransitions to UNS (Kou, u)\nCan transition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
-    "alternateInputs": ["u+3"]
+    "alternateInputs": [
+      "u+3"
+    ]
   },
   {
     "name": "Seigan Ugachi",
@@ -873,7 +1017,9 @@
     "hit": "+8",
     "counter": "+17",
     "note": "\nTransitions to WRA (-/+8/+17) on hit\n\n",
-    "alternateInputs": ["uf+1"]
+    "alternateInputs": [
+      "uf+1"
+    ]
   },
   {
     "name": "",
@@ -885,7 +1031,9 @@
     "hit": "+9",
     "counter": "",
     "note": " \nNormal hit offsets opponent slightly to the left of the axis and rotates them.\nCounter hit pushes the opponent on axis like most moves and does not rotate the opponent.\n\n",
-    "alternateInputs": ["uf+2"]
+    "alternateInputs": [
+      "uf+2"
+    ]
   },
   {
     "name": "",
@@ -897,7 +1045,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["uf+3"]
+    "alternateInputs": [
+      "uf+3"
+    ]
   },
   {
     "name": "Tobisenzuki",
@@ -909,7 +1059,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n+13c on crouching hit\nJails on 1st block\nCombo from 1st hit\n\n",
-    "alternateInputs": ["uf+3,1"]
+    "alternateInputs": [
+      "uf+3,1"
+    ]
   },
   {
     "name": "Silver Gleam",
@@ -921,7 +1073,9 @@
     "hit": "+70a (+54)",
     "counter": "",
     "note": "\n\nTornado\nSometimes written hopkick\n",
-    "alternateInputs": ["uf+4"]
+    "alternateInputs": [
+      "uf+4"
+    ]
   },
   {
     "name": "Silver Gleam",
@@ -933,7 +1087,9 @@
     "hit": "+16a (-1)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nSometimes written hopkick\n",
-    "alternateInputs": ["ub+4"]
+    "alternateInputs": [
+      "ub+4"
+    ]
   },
   {
     "name": "",
@@ -945,7 +1101,9 @@
     "hit": "-1",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["uf+3+4"]
+    "alternateInputs": [
+      "uf+3+4"
+    ]
   },
   {
     "name": "Un Hiensatsu",
@@ -957,7 +1115,9 @@
     "hit": "-4",
     "counter": "",
     "note": "\nCombo from 1st hit\n\n",
-    "alternateInputs": ["uf+3+4,1+2"]
+    "alternateInputs": [
+      "uf+3+4,1+2"
+    ]
   },
   {
     "name": "Fading Shadow",
@@ -969,7 +1129,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to Wind God Step with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n\n",
-    "alternateInputs": ["ub+1+2"]
+    "alternateInputs": [
+      "ub+1+2"
+    ]
   },
   {
     "name": "Swift Shadow",
@@ -981,7 +1143,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to Wind God Step with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n\n",
-    "alternateInputs": ["u+1+2"]
+    "alternateInputs": [
+      "u+1+2"
+    ]
   },
   {
     "name": "Raiden",
@@ -993,7 +1157,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\nCan transition to SEN (+2/+12/+12) with input F\nCannot block up to i12 on empty transition on block\n\n",
-    "alternateInputs": ["f,F+2"]
+    "alternateInputs": [
+      "f,F+2"
+    ]
   },
   {
     "name": "Trailokya Splits Kick",
@@ -1005,7 +1171,9 @@
     "hit": "+20a",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +67a (+50)\n\n\nSpike\n\n",
-    "alternateInputs": ["f,F+3"]
+    "alternateInputs": [
+      "f,F+3"
+    ]
   },
   {
     "name": "Un Hien-geri",
@@ -1017,7 +1185,9 @@
     "hit": "+49d (-9)",
     "counter": "+49a",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["f,F+3+4"]
+    "alternateInputs": [
+      "f,F+3+4"
+    ]
   },
   {
     "name": "Ten Chuten-geri",
@@ -1029,7 +1199,9 @@
     "hit": "+32a (+24)",
     "counter": "",
     "note": "\n\nBalcony Break\nChip damage when guarded\n\n",
-    "alternateInputs": ["f,f,F+3"]
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   },
   {
     "name": "Un Tobi Kaijo-geri",
@@ -1041,7 +1213,9 @@
     "hit": "+31a (+5)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHoming\nCan transition to WRA (+8/+35a (+9)/-) with input D\n\n",
-    "alternateInputs": ["f,f,F+4"]
+    "alternateInputs": [
+      "f,f,F+4"
+    ]
   },
   {
     "name": "",
@@ -1053,7 +1227,9 @@
     "hit": "-6",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["FC d+3"]
+    "alternateInputs": [
+      "FC d+3"
+    ]
   },
   {
     "name": "Nen Hangetsu-ate",
@@ -1065,7 +1241,9 @@
     "hit": "+54a (+34)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["FC df+3"]
+    "alternateInputs": [
+      "FC df+3"
+    ]
   },
   {
     "name": "Manji-geri",
@@ -1077,7 +1255,9 @@
     "hit": "+54a",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["FC df+4"]
+    "alternateInputs": [
+      "FC df+4"
+    ]
   },
   {
     "name": "Jewel Snatcher",
@@ -1089,7 +1269,9 @@
     "hit": "+13 SEN",
     "counter": "",
     "note": "Transitions to SEN on hit\n",
-    "alternateInputs": ["ws1"]
+    "alternateInputs": [
+      "ws1"
+    ]
   },
   {
     "name": "Benten Thrust",
@@ -1101,7 +1283,9 @@
     "hit": "+9",
     "counter": "+14c",
     "note": "Balcony Break\n",
-    "alternateInputs": ["ws2"]
+    "alternateInputs": [
+      "ws2"
+    ]
   },
   {
     "name": "",
@@ -1113,7 +1297,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["ws3"]
+    "alternateInputs": [
+      "ws3"
+    ]
   },
   {
     "name": "Twin Stingers",
@@ -1125,7 +1311,9 @@
     "hit": "+21a (+12)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit without delay\nCan be delayed\n\n",
-    "alternateInputs": ["ws3,4"]
+    "alternateInputs": [
+      "ws3,4"
+    ]
   },
   {
     "name": "",
@@ -1137,7 +1325,9 @@
     "hit": "+5",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["ws4"]
+    "alternateInputs": [
+      "ws4"
+    ]
   },
   {
     "name": "Seven Seas Splits Kick",
@@ -1149,7 +1339,9 @@
     "hit": "-1c",
     "counter": "",
     "note": "\nCan transition to WRA (-10/+6/+6) with input D\nCombo from 1st hit\nJails from 1st block\n\n",
-    "alternateInputs": ["ws4,4"]
+    "alternateInputs": [
+      "ws4,4"
+    ]
   },
   {
     "name": "Hen Gyakujo-geri",
@@ -1161,7 +1353,9 @@
     "hit": "+14",
     "counter": "+14",
     "note": "\n",
-    "alternateInputs": ["ws3+4"]
+    "alternateInputs": [
+      "ws3+4"
+    ]
   },
   {
     "name": "Wind God Step",
@@ -1173,7 +1367,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to SEN with input WGS.f+3\n\n",
-    "alternateInputs": ["df+3"]
+    "alternateInputs": [
+      "df+3"
+    ]
   },
   {
     "name": "Thunder God Fist",
@@ -1185,7 +1381,10 @@
     "hit": "+24a (+14)",
     "counter": "",
     "note": "\n26 dmg if manual CDSometimes written otgf\n",
-    "alternateInputs": ["WGS 1", "f,n,d,df1"]
+    "alternateInputs": [
+      "WGS 1",
+      "f,n,d,df1"
+    ]
   },
   {
     "name": "Lightning Splits Kick",
@@ -1197,7 +1396,10 @@
     "hit": "+18d (-17)",
     "counter": "",
     "note": "\n\nSpike\nCombo from 1st hit\n",
-    "alternateInputs": ["WGS 1,3", "f,n,d,df1,3"]
+    "alternateInputs": [
+      "WGS 1,3",
+      "f,n,d,df1,3"
+    ]
   },
   {
     "name": "Lightning Wheel",
@@ -1209,7 +1411,10 @@
     "hit": "+1 (+0)",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit\n",
-    "alternateInputs": ["WGS 1,4", "f,n,d,df1,4"]
+    "alternateInputs": [
+      "WGS 1,4",
+      "f,n,d,df1,4"
+    ]
   },
   {
     "name": "Wind God Fist",
@@ -1221,7 +1426,10 @@
     "hit": "+35a (+25)",
     "counter": "",
     "note": "\nBecomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)\n20dmg if manual CDSometimes written wgf\n",
-    "alternateInputs": ["WGS 2", "f,n,d,df2"]
+    "alternateInputs": [
+      "WGS 2",
+      "f,n,d,df2"
+    ]
   },
   {
     "name": "Electric Wind God Fist",
@@ -1233,7 +1441,9 @@
     "hit": "+25a (+25)",
     "counter": "",
     "note": "\nChip damage when guarded\nSometimes written ewgf\n",
-    "alternateInputs": ["f,n,d,df:2"]
+    "alternateInputs": [
+      "f,n,d,df:2"
+    ]
   },
   {
     "name": "War God Kick",
@@ -1245,7 +1455,10 @@
     "hit": "+3",
     "counter": "+23a (+17)",
     "note": "\nBecomes Electric War God Kick during Heat (partially uses remaining Heat Time\n21dmg if manual CD)\n\n",
-    "alternateInputs": ["WGS df+3", "f,n,d,df3"]
+    "alternateInputs": [
+      "WGS df+3",
+      "f,n,d,df3"
+    ]
   },
   {
     "name": "Electric War God Kick",
@@ -1257,7 +1470,9 @@
     "hit": "+13a (-4)",
     "counter": "+23a (+17)",
     "note": "\n\nBalcony Break\nChip damage when guarded\nSometimes written ewgk\n",
-    "alternateInputs": ["f,n,d,df:3"]
+    "alternateInputs": [
+      "f,n,d,df:3"
+    ]
   },
   {
     "name": "",
@@ -1269,7 +1484,10 @@
     "hit": "+2c",
     "counter": "",
     "note": "\n8 dmg if manual CD\n\n",
-    "alternateInputs": ["WGS DF+4", "f,n,d,DF+4"]
+    "alternateInputs": [
+      "WGS DF+4",
+      "f,n,d,DF+4"
+    ]
   },
   {
     "name": "Ruthless Demon",
@@ -1281,7 +1499,10 @@
     "hit": "-1",
     "counter": "",
     "note": "\nCan transition to WRA (-15/+6/+6) with input D\nCombo from 1st hit\nSometimes written hellsweep\n",
-    "alternateInputs": ["WGS DF+4,2", "f,n,d,DF4,2"]
+    "alternateInputs": [
+      "WGS DF+4,2",
+      "f,n,d,DF4,2"
+    ]
   },
   {
     "name": "Spinning Demon",
@@ -1293,7 +1514,10 @@
     "hit": "+2",
     "counter": "+23a",
     "note": "\nCombo from 1st hit\nSometimes written hellsweep\n",
-    "alternateInputs": ["WGS DF+4,4", "f,n,d,DF4,4"]
+    "alternateInputs": [
+      "WGS DF+4,4",
+      "f,n,d,DF4,4"
+    ]
   },
   {
     "name": "Sentai",
@@ -1305,7 +1529,9 @@
     "hit": "",
     "counter": "",
     "note": "Actionable from r28\n",
-    "alternateInputs": ["f+3"]
+    "alternateInputs": [
+      "f+3"
+    ]
   },
   {
     "name": "",
@@ -1317,7 +1543,9 @@
     "hit": "+1",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SEN 1"]
+    "alternateInputs": [
+      "SEN 1"
+    ]
   },
   {
     "name": "Furin Kazan",
@@ -1329,7 +1557,9 @@
     "hit": "+21a (+0)",
     "counter": "",
     "note": "\n\nBalcony Break\nBlue spark with input qcf+2 for 5 extra damage\nHit-confirmable from 1st hit or if attack was absorbed\nCombo from 1st hit even with delay\nCan be delayed\nBecomes -9 on block if 1st hit absorbed an attack\n\n",
-    "alternateInputs": ["SEN 1,2"]
+    "alternateInputs": [
+      "SEN 1,2"
+    ]
   },
   {
     "name": "Rashomon",
@@ -1341,7 +1571,9 @@
     "hit": "+8",
     "counter": "",
     "note": "\n\nTornado\n\n",
-    "alternateInputs": ["SEN 2"]
+    "alternateInputs": [
+      "SEN 2"
+    ]
   },
   {
     "name": "Sen Kaijo-geri",
@@ -1353,7 +1585,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\n\nHoming\n\nHeat Engager\n\n\nHeat Dash +5, +34d\n\nDeals chip damage on block\n\n",
-    "alternateInputs": ["SEN 3"]
+    "alternateInputs": [
+      "SEN 3"
+    ]
   },
   {
     "name": "Kandachi-geri",
@@ -1365,7 +1599,9 @@
     "hit": "+12d",
     "counter": "",
     "note": "\nDeals chip damage on block\n\nSpike\n\n",
-    "alternateInputs": ["SEN 4"]
+    "alternateInputs": [
+      "SEN 4"
+    ]
   },
   {
     "name": "Inverse Deva Laser",
@@ -1377,7 +1613,9 @@
     "hit": "+32a (+18)",
     "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nTransitions to WRA after recovery\n\n",
-    "alternateInputs": ["SEN 1+2"]
+    "alternateInputs": [
+      "SEN 1+2"
+    ]
   },
   {
     "name": "Yaksha Sweep",
@@ -1389,7 +1627,9 @@
     "hit": "+4",
     "counter": "",
     "note": "\n\nHoming\n\n",
-    "alternateInputs": ["SEN 3+4"]
+    "alternateInputs": [
+      "SEN 3+4"
+    ]
   },
   {
     "name": "Haburi-kaze",
@@ -1401,7 +1641,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\nThrow break: none\nOpponent recovery on hit: FUFA\n\n",
-    "alternateInputs": ["SEN 1+3"]
+    "alternateInputs": [
+      "SEN 1+3"
+    ]
   },
   {
     "name": "Senshin-zuki",
@@ -1413,7 +1655,9 @@
     "hit": "+7",
     "counter": "",
     "note": "\nWall crush on hit, +19g\n\n",
-    "alternateInputs": ["f+1+2"]
+    "alternateInputs": [
+      "f+1+2"
+    ]
   },
   {
     "name": "Senshin Karami-ate",
@@ -1425,7 +1669,9 @@
     "hit": "-4c",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SSH 3"]
+    "alternateInputs": [
+      "SSH 3"
+    ]
   },
   {
     "name": "Nen Ashigarami",
@@ -1437,7 +1683,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\n\nSpike\n\n",
-    "alternateInputs": ["SSH CH 3"]
+    "alternateInputs": [
+      "SSH CH 3"
+    ]
   },
   {
     "name": "Senshin Hiei",
@@ -1449,7 +1697,9 @@
     "hit": "",
     "counter": "",
     "note": "\n\n",
-    "alternateInputs": ["SSH uf"]
+    "alternateInputs": [
+      "SSH uf"
+    ]
   },
   {
     "name": "Senshin Chuten-geri",
@@ -1461,7 +1711,9 @@
     "hit": "+32a (+24)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
-    "alternateInputs": ["SSH uf+3"]
+    "alternateInputs": [
+      "SSH uf+3"
+    ]
   },
   {
     "name": "Senshin Tobi Kaijo-geri",
@@ -1473,7 +1725,9 @@
     "hit": "+31a (+5)",
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\nCan transition to WRA (+8/+35a (+9)/-) with input D\n\n",
-    "alternateInputs": ["SSH uf+4"]
+    "alternateInputs": [
+      "SSH uf+4"
+    ]
   },
   {
     "name": "Unsoku Gen",
@@ -1485,7 +1739,9 @@
     "hit": "",
     "counter": "",
     "note": "\nPartially drains heat meter when in heat\nTransitions to UNS (Gen)\nCan transition to UNS (Kou, u/d) with input u+3 or d+3\nCan transition to SEN with input f+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\nSee also Unsoku Cancel\n\n",
-    "alternateInputs": ["b+3"]
+    "alternateInputs": [
+      "b+3"
+    ]
   },
   {
     "name": "Unsoku Kou",
@@ -1497,7 +1753,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransitions to UNS (Kou, d)\nCan transition to UNS (Kou, u) with input u+3\nCan transition to UNS (Gen) with input b+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF\n",
-    "alternateInputs": ["d+3"]
+    "alternateInputs": [
+      "d+3"
+    ]
   },
   {
     "name": "Unsoku Kou",
@@ -1509,7 +1767,9 @@
     "hit": "",
     "counter": "",
     "note": "\nTransitions to UNS (Kou, u)\nCan transition to UNS (Kou, d) with input d+3\nCan transition to WGS with input DF\nCan execute EWGF or EWGK by inputting 2/3 exactly one frame after DF\n",
-    "alternateInputs": ["u+3"]
+    "alternateInputs": [
+      "u+3"
+    ]
   },
   {
     "name": "Unpu Tobi-Manji",
@@ -1521,7 +1781,9 @@
     "hit": "+43a (-15)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +62a (+42)\n\nDeals chip damage on block\nCan be cancelled into crouch with DB/D/DF\n\n",
-    "alternateInputs": ["UNS 4"]
+    "alternateInputs": [
+      "UNS 4"
+    ]
   },
   {
     "name": "Heaven's Wrath",
@@ -1533,7 +1795,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to r14 SEN with input f+3\nCan transition to r2 WGS with input DF\nSometimes written \nWRA\nHW\n\n",
-    "alternateInputs": ["d+1+2"]
+    "alternateInputs": [
+      "d+1+2"
+    ]
   },
   {
     "name": "",
@@ -1545,7 +1809,9 @@
     "hit": "+8",
     "counter": "+13",
     "note": "\n\nHoming\nDeals chip damage on block\nCan transition to SEN (+0/+13/+17) with input F\nCannot block up to i14 on empty transition on block\nSometimes written HW.1\n",
-    "alternateInputs": ["WRA 1"]
+    "alternateInputs": [
+      "WRA 1"
+    ]
   },
   {
     "name": "Funkei Goma",
@@ -1557,7 +1823,9 @@
     "hit": "+9g",
     "counter": "",
     "note": "\n\nBalcony Break\n\nSpike\nCombo from 1st hit\nSometimes written HW.1,4\n",
-    "alternateInputs": ["WRA 1,4"]
+    "alternateInputs": [
+      "WRA 1,4"
+    ]
   },
   {
     "name": "Iron Hand",
@@ -1569,7 +1837,9 @@
     "hit": "+11a (+2)",
     "counter": "",
     "note": "\n\nBalcony Break\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nDeals chip damage on block\nSometimes written HW.2\n",
-    "alternateInputs": ["WRA 2"]
+    "alternateInputs": [
+      "WRA 2"
+    ]
   },
   {
     "name": "",
@@ -1581,7 +1851,9 @@
     "hit": "+22a (+12)",
     "counter": "",
     "note": "\n\nBalcony Break\nDeals chip damage on block\nSometimes written HW.3\n",
-    "alternateInputs": ["WRA 3"]
+    "alternateInputs": [
+      "WRA 3"
+    ]
   },
   {
     "name": "Hell Axle",
@@ -1593,7 +1865,9 @@
     "hit": "+17a (+16)",
     "counter": "",
     "note": "\n\nBalcony Break\nDeals chip damage on block\nCan transition to WRA (+8/+19a (+18)/-) with input D\nJails from 1st block\nCombo from 1st hit\nSometimes written \nHunting Hawk\nHW.3,4\n\n",
-    "alternateInputs": ["WRA 3,4"]
+    "alternateInputs": [
+      "WRA 3,4"
+    ]
   },
   {
     "name": "",
@@ -1605,7 +1879,9 @@
     "hit": "-10",
     "counter": "+7",
     "note": "\n\nSpike\non 2nd hit\nCombo from 1st CH\nBoth hits jail on block\nSometimes written HW.4\n",
-    "alternateInputs": ["WRA 4"]
+    "alternateInputs": [
+      "WRA 4"
+    ]
   },
   {
     "name": "",
@@ -1617,7 +1893,9 @@
     "hit": "-7",
     "counter": "",
     "note": "\nJails from 2nd block\nHit-confirmable from 2nd hit\nCombo from 1st CH\nCombo from 2nd hit\nCan be delayed\nSometimes written HW.4,2\n",
-    "alternateInputs": ["WRA 4,2"]
+    "alternateInputs": [
+      "WRA 4,2"
+    ]
   },
   {
     "name": "",
@@ -1629,7 +1907,9 @@
     "hit": "-1",
     "counter": "",
     "note": "\nJails from 3rd block\nCombo from 3rd hit\nCan be delayed\nSometimes written HW.4,2,2\n",
-    "alternateInputs": ["WRA 4,2,2"]
+    "alternateInputs": [
+      "WRA 4,2,2"
+    ]
   },
   {
     "name": "Kongo Gekimetsujin",
@@ -1641,7 +1921,9 @@
     "hit": "+24 (+3)",
     "counter": "",
     "note": "\n\nBalcony Break\nBlue spark with input qcf+1+2 for 6 extra damage\nCombo from 4th hit without delay\nCan be delayed\nSometimes written HW.4,2,2,1+2\n",
-    "alternateInputs": ["WRA 4,2,2,1+2"]
+    "alternateInputs": [
+      "WRA 4,2,2,1+2"
+    ]
   },
   {
     "name": "Demon Bolt",
@@ -1653,7 +1935,9 @@
     "hit": "+16d",
     "counter": "",
     "note": "\n\nBalcony Break\nSometimes written HW.1+2\n",
-    "alternateInputs": ["WRA 1+2"]
+    "alternateInputs": [
+      "WRA 1+2"
+    ]
   },
   {
     "name": "Goma Sai",
@@ -1665,7 +1949,9 @@
     "hit": "+5d",
     "counter": "",
     "note": "\n\nSpike\nDeals chip damage on block\nOpponent is FDFA on normal hit\nSometimes written HW.3+4\n",
-    "alternateInputs": ["WRA 3+4"]
+    "alternateInputs": [
+      "WRA 3+4"
+    ]
   },
   {
     "name": "Heaven's Roar",
@@ -1677,7 +1963,9 @@
     "hit": "+10d",
     "counter": "",
     "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\nDoes 35 damage on wall hit\nSometimes written \nHW.1+3\nHW.2+4\n\n",
-    "alternateInputs": ["WRA 1+3"]
+    "alternateInputs": [
+      "WRA 1+3"
+    ]
   },
   {
     "name": "",
@@ -1689,7 +1977,9 @@
     "hit": "-4",
     "counter": "+2",
     "note": "Sometimes written HW.d+4\n",
-    "alternateInputs": ["WRA d+4"]
+    "alternateInputs": [
+      "WRA d+4"
+    ]
   },
   {
     "name": "Harai Kuzushi-manji",
@@ -1701,7 +1991,9 @@
     "hit": "+48 (+17)",
     "counter": "+53a",
     "note": "\nCombo from 1st CH with 14f delay\nInput can be delayed 15f\nMove can be delayed 13f\nCH-confirmable\nSometimes written HW.d+4,3\n",
-    "alternateInputs": ["WRA d+4,3"]
+    "alternateInputs": [
+      "WRA d+4,3"
+    ]
   },
   {
     "name": "Wind Step",
@@ -1713,7 +2005,9 @@
     "hit": "",
     "counter": "",
     "note": "\nCan transition to WGS with input DF\nPunch parry, transitions to WGS on successful parry with +10\n\n",
-    "alternateInputs": ["f,n"]
+    "alternateInputs": [
+      "f,n"
+    ]
   },
   {
     "name": "Fusenkyaku",
@@ -1725,7 +2019,9 @@
     "hit": "+4",
     "counter": "+58a",
     "note": "\n\n",
-    "alternateInputs": ["WDS 3"]
+    "alternateInputs": [
+      "WDS 3"
+    ]
   },
   {
     "name": "Sacred Dismantle Spark",
@@ -1737,7 +2033,9 @@
     "hit": "+0d",
     "counter": "",
     "note": "\nErases opponent's recoverable health on hit\nAlternate input: R2\n150% Scaling at 1HP - 82dmg\n\n",
-    "alternateInputs": ["in rage df+1+2"]
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
   },
   {
     "name": "Jirin Sweep",
@@ -1749,7 +2047,9 @@
     "hit": "+0",
     "counter": "+13g",
     "note": "Sometimes written sidestep 4\n",
-    "alternateInputs": ["SS 4"]
+    "alternateInputs": [
+      "SS 4"
+    ]
   },
   {
     "name": "Rear Manji-geri",
@@ -1761,7 +2061,9 @@
     "hit": "+54a",
     "counter": "",
     "note": "Strong Aerial TailspinSometimes written \nback facing 4\nback turned 4\n\n",
-    "alternateInputs": ["BT 4"]
+    "alternateInputs": [
+      "BT 4"
+    ]
   },
   {
     "name": "Taunt",
@@ -1773,7 +2075,9 @@
     "hit": "",
     "counter": "",
     "note": "Input d+2+3+4 to get Heihachi's secret taunt\n",
-    "alternateInputs": ["2+3+4"]
+    "alternateInputs": [
+      "2+3+4"
+    ]
   },
   {
     "name": "Ki Charge",
@@ -1785,7 +2089,9 @@
     "hit": "",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["1+2+3+4"]
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
   },
   {
     "name": "",
@@ -1797,7 +2103,9 @@
     "hit": "-8 / -8a (-16)",
     "counter": "",
     "note": "\n",
-    "alternateInputs": ["OTG d+4"]
+    "alternateInputs": [
+      "OTG d+4"
+    ]
   },
   {
     "name": "Totetsu Jyurin",
@@ -1809,7 +2117,9 @@
     "hit": "-10 / -15a (-23)",
     "counter": "",
     "note": "\nBlue spark with input OTG.d+4:1 for 3 extra damage\nJails from 1st block\nCombo from 1st hit\n",
-    "alternateInputs": ["OTG d+4,1"]
+    "alternateInputs": [
+      "OTG d+4,1"
+    ]
   },
   {
     "name": "Wall Jump",
@@ -1821,7 +2131,9 @@
     "hit": "+22a",
     "counter": "",
     "note": "Requires back close to wall to execute\n",
-    "alternateInputs": ["b,b,UB"]
+    "alternateInputs": [
+      "b,b,UB"
+    ]
   },
   {
     "name": "Gekka Hyojin",
@@ -1833,7 +2145,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nThrow break 1 or 2\n\nSpike\nOpponent recovery on hit: FUFA off-axis to the left\n\n",
-    "alternateInputs": ["1+3"]
+    "alternateInputs": [
+      "1+3"
+    ]
   },
   {
     "name": "Saijin Ikkoku",
@@ -1845,7 +2159,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nThrow break: 1 or 2\nOpponent recovery on hit: FUFA\nSide switch on Hit or Throw break\n\n",
-    "alternateInputs": ["2+4"]
+    "alternateInputs": [
+      "2+4"
+    ]
   },
   {
     "name": "Gekka Hyojin",
@@ -1857,7 +2173,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nThrow break: 1\nOpponent recovery on hit: FUFA off-axis to the left\n\n",
-    "alternateInputs": ["Left throw"]
+    "alternateInputs": [
+      "Left throw"
+    ]
   },
   {
     "name": "Saijin Ikkoku",
@@ -1869,7 +2187,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nThrow break 2\nOpponent recovery on hit: FUFA\n\n",
-    "alternateInputs": ["Right throw"]
+    "alternateInputs": [
+      "Right throw"
+    ]
   },
   {
     "name": "Trailokyavijaya",
@@ -1881,7 +2201,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\nBreak: none\nOpponent recovery on hit: FDFA\n\n",
-    "alternateInputs": ["Back throw"]
+    "alternateInputs": [
+      "Back throw"
+    ]
   },
   {
     "name": "Stonehead",
@@ -1893,7 +2215,9 @@
     "hit": "+25 (+8)",
     "counter": "",
     "note": "\n\nBalcony Break\nThrow break: 1+2\nSide switch on Throw break\n\n",
-    "alternateInputs": ["uf+1+2"]
+    "alternateInputs": [
+      "uf+1+2"
+    ]
   },
   {
     "name": "Raidou Hitsumetsu",
@@ -1905,7 +2229,9 @@
     "hit": "+0",
     "counter": "",
     "note": "\n\nBalcony Break\nThrow break: 2\nOpponent recovery on hit: FUFT\n\n",
-    "alternateInputs": ["d,db,b,f+2"]
+    "alternateInputs": [
+      "d,db,b,f+2"
+    ]
   },
   {
     "name": "Haburi-kaze",
@@ -1917,7 +2243,9 @@
     "hit": "-3",
     "counter": "",
     "note": "\nThrow break: none\nOpponent recovery on hit: FUFA\n\n",
-    "alternateInputs": ["SEN 1+3"]
+    "alternateInputs": [
+      "SEN 1+3"
+    ]
   },
   {
     "name": "Heaven's Roar",
@@ -1929,6 +2257,8 @@
     "hit": "+10d",
     "counter": "",
     "note": "\nUnbreakable\nOpponent recovery on hit: FUFT\nDoes 35 damage on wall hit\nSometimes written \nHW.1+3\nHW.2+4\n\n",
-    "alternateInputs": ["WRA 1+3"]
+    "alternateInputs": [
+      "WRA 1+3"
+    ]
   }
 ]
