@@ -88,7 +88,7 @@
     "input": "f+2,1",
     "hit_level": "m,m",
     "damage": "12,20",
-    "startup": ",i24~25",
+    "startup": ",i24",
     "block": "-10",
     "hit": "+14",
     "counter": "",
@@ -983,12 +983,12 @@
     "name": "Overload",
     "input": "ub+2",
     "hit_level": "h",
-    "damage": "26",
+    "damage": "23",
     "startup": "i16~24",
-    "block": "-8",
+    "block": "-9",
     "hit": "+38 (-20)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\n",
+    "note": "\n\nBalcony Break\n\njs20~30",
     "alternateInputs": [
       "ub+2"
     ]
