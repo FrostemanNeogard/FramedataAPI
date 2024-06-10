@@ -33,7 +33,7 @@
     "hit_level": "l,m",
     "damage": "14,28",
     "startup": "i20 i26",
-    "block": "-14",
+    "block": "-12",
     "hit": "+33 (+5)",
     "counter": "",
     "note": "\nHeat Smash\nEnds heat\n",
@@ -78,7 +78,7 @@
     "block": "-9~-8",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nCombo from 1st hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nAvailable only on hit or block\n",
+    "note": "\n\nHeat Engager\n\nCombo from 1st hit\nChip damage on block\nDeals 6/3 self-damage and 12/8 recoverable gauge\nAvailable only on hit or block\n",
     "alternateInputs": [
       "f+2,1+2"
     ]
@@ -162,7 +162,7 @@
     "block": "-1",
     "hit": "+8",
     "counter": "+13",
-    "note": "\nShifts to IZU\n\n",
+    "note": "\nShifts to IZU\n\nRecover 2 health and 2 recoverable gauge on hit",
     "alternateInputs": [
       "1,1"
     ]
@@ -204,7 +204,7 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21c",
-    "note": "\n\nHoming\nCombo from 2nd CH with 5f delay\nJail from 2nd block with 1f delay\n",
+    "note": "\n\nHoming\nCombo from 2nd CH with 5f delay\nJail from 2nd block with 1f delay\nRestore 2 health on hit",
     "alternateInputs": [
       "1,2,2"
     ]
@@ -498,7 +498,7 @@
     "block": "0",
     "hit": "+9",
     "counter": "+5",
-    "note": "\n",
+    "note": "\nRecover 2 health and 2 recoverable gauge on hit",
     "alternateInputs": [
       "f+1"
     ]
@@ -568,7 +568,7 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21C",
-    "note": "\n\nHoming\nCombo from 1st hit with 5f delay\n",
+    "note": "\n\nHoming\nCombo from 1st hit with 5f delay\nRestore 2 health on hit",
     "alternateInputs": [
       "f+3,2"
     ]
@@ -703,7 +703,7 @@
     "name": "Ame-no-Murakumo",
     "input": "df+2,1+2",
     "hit_level": "m,M",
-    "damage": "14,14",
+    "damage": "14,12",
     "startup": "i25~26",
     "block": "-9~-8",
     "hit": "+38a (+28)",
@@ -890,7 +890,7 @@
     "block": "-15",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from any hit\nChip damage on block\nDeals recoverable self-damage when not in Heat\nLast hit is unparryable\n",
+    "note": "\n\nBalcony Break\nCombo from any hit\nRestore 4 health and 4 recoverable gauge on hit\nLast hit is unparryable\n",
     "alternateInputs": [
       "db+1,1,1+2"
     ]
@@ -1226,7 +1226,7 @@
     "block": "-14",
     "hit": "+22a",
     "counter": "",
-    "note": "\n\nBalcony Break\nJail from 1st attack\nDeals recoverable self-damage when not in Heat\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit\n",
+    "note": "\n\nBalcony Break\nJail from 1st attack\nDeals 4/2 self-damage and 8/4 recoverable gauge\n2nd hit available only on hit or block\nRecovery listed is for the 1st hit\n",
     "alternateInputs": [
       "uf+1"
     ]
@@ -1282,7 +1282,7 @@
     "block": "-12",
     "hit": "+84a (+68)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nTransition to r17 MIA on hit only\n3rd hit available only as combo from 2nd hit\n",
+    "note": "\n\nTornado\nCombo from 1st hit\nDeals 6/3 self-damage and 12/6 recoverable gauge\nTransition to r17 MIA on hit only\n3rd hit available only as combo from 2nd hit\n",
     "alternateInputs": [
       "uf+4,3"
     ]
@@ -1352,7 +1352,7 @@
     "block": "-13",
     "hit": "+8a",
     "counter": "+7 +53a",
-    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 8f delay\nTornado",
     "alternateInputs": [
       "f,F+2,2"
     ]
@@ -1403,7 +1403,7 @@
     "name": "Tokkei - Misogi",
     "input": "f,F+1+2",
     "hit_level": "m",
-    "damage": "30",
+    "damage": "32",
     "startup": "i22",
     "block": "+6",
     "hit": "+23a (+13)",
@@ -1417,7 +1417,7 @@
     "name": "Ame-no-Uzume",
     "input": "f,f,F+3",
     "hit_level": "m",
-    "damage": "32",
+    "damage": "28",
     "startup": "i24~28",
     "block": "+3~+7",
     "hit": "+14a (+5)",
@@ -1478,7 +1478,7 @@
     "block": "-11~-10",
     "hit": "+0~+1",
     "counter": "+18~+19",
-    "note": "\n",
+    "note": "\nApplies 70% combo scaling on counter hit",
     "alternateInputs": [
       "FC df+2"
     ]
@@ -1730,7 +1730,7 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21c",
-    "note": "\n\nHoming\nAlternate input: ub+2\n",
+    "note": "\n\nHoming\nAlternate input: ub+2\nRestore 2 health on hit",
     "alternateInputs": [
       "u+2"
     ]
@@ -1758,7 +1758,7 @@
     "block": "-4~-3",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit with 6f delay\nChip damage on block\nDeals recoverable self-damage when not in Heat\n",
+    "note": "\n\nBalcony Break\n\nTornado\nCombo from 1st hit with 6f delay\nRestore 1 health and 1 recoverable gauge on hit\n",
     "alternateInputs": [
       "IZU 1,1"
     ]
@@ -1884,7 +1884,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws\n",
+    "note": "\nCancel to r18 FC with D\nParries low punches or kicks\nParries throws\nRestore 8 health and 8 recoverable gauge on successful throw parry\nRestore 14 health and 14 recoverable gauge on successful low parry",
     "alternateInputs": [
       "f+3+4"
     ]
@@ -1923,7 +1923,7 @@
     "hit_level": "L",
     "damage": "22",
     "startup": "i20~21",
-    "block": "-13~-12",
+    "block": "-12~-11",
     "hit": "+3c~+4c",
     "counter": "+26a",
     "note": "\n",
@@ -1954,7 +1954,7 @@
     "block": "-4c~-1c",
     "hit": "+4c~+7c",
     "counter": "",
-    "note": "Spike\n",
+    "note": "Spike\nTransition to crouching with GEN 3~D",
     "alternateInputs": [
       "GEN 3"
     ]
@@ -1963,7 +1963,7 @@
     "name": "Getsuun Renken",
     "input": "GEN 3,2",
     "hit_level": "M,M",
-    "damage": "14,20",
+    "damage": "14,16",
     "startup": ",i24",
     "block": "-9",
     "hit": "+33a (+18)",
@@ -1993,7 +1993,7 @@
     "hit_level": "l,m",
     "damage": "14,28",
     "startup": "i20 i26",
-    "block": "-14",
+    "block": "-12",
     "hit": "+33 (+5)",
     "counter": "",
     "note": "\nHeat Smash\nEnds heat\n",
@@ -2066,7 +2066,7 @@
     "block": "+6~+7",
     "hit": "+11~+12",
     "counter": "+20c~+21c",
-    "note": "Homing\n",
+    "note": "Homing\nRestore 2 health on hit",
     "alternateInputs": [
       "MIA 1+2"
     ]
@@ -2094,7 +2094,7 @@
     "block": "-9",
     "hit": "+14a (+5)",
     "counter": "+34d (+26)",
-    "note": "\n\nBalcony Break\n\nTornado\n",
+    "note": "\n\nBalcony Break\n\nTornado\nRestore 3 health and 3 recoverable gauge\n",
     "alternateInputs": [
       "SS 2"
     ]
