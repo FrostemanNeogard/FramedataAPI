@@ -87,7 +87,7 @@
     "name": "Golpe Cappuccino",
     "input": "LIB 2",
     "hit_level": "m",
-    "damage": "18",
+    "damage": "14",
     "startup": "i14~15",
     "block": "-8~-7",
     "hit": "+11g~+12g",
@@ -148,7 +148,7 @@
     "block": "-10",
     "hit": "+8",
     "counter": "",
-    "note": "\nCombo from 1st hit\nTransition to LIB on hit only\n",
+    "note": "\nCombo from 1st hit\nTransition to LIB on hit only\nCan be delayed",
     "alternateInputs": [
       "1,1"
     ]
@@ -297,7 +297,7 @@
     "name": "Guapuño",
     "input": "4,1",
     "hit_level": "h,h",
-    "damage": "15,11",
+    "damage": "15,14",
     "startup": ",i21~22",
     "block": "-2~-1",
     "hit": "+4~+5",
@@ -325,7 +325,7 @@
     "name": "Boomerang Scythe",
     "input": "1+2",
     "hit_level": "h",
-    "damage": "20",
+    "damage": "17",
     "startup": "i15",
     "block": "-8",
     "hit": "+13g",
@@ -495,7 +495,7 @@
     "hit_level": "h",
     "damage": "25",
     "startup": "i16~17",
-    "block": "-8~-7",
+    "block": "-9~-8",
     "hit": "+41a (+17)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nFrame advantage is +0 if an attack is absorbed\n",
@@ -540,7 +540,7 @@
     "block": "-7~-6",
     "hit": "+4~+5",
     "counter": "",
-    "note": "\nCombo from 1st hit with 8f delay\nJail from 1st block with 1f delay\n",
+    "note": "\nCombo from 1st hit with 8f delay\nJail from 1st block with 1f delay\nTransition to BT with df+1,4~B",
     "alternateInputs": [
       "df+1,4"
     ]
@@ -662,7 +662,7 @@
     "input": "d+2",
     "hit_level": "m",
     "damage": "15",
-    "startup": "i18~19",
+    "startup": "i17~18",
     "block": "-9~-8",
     "hit": "+5~+6",
     "counter": "",
@@ -750,7 +750,7 @@
     "block": "-1~+0",
     "hit": "+3~+4",
     "counter": "",
-    "note": "\nCombo from 1st CH with 2f delay\nInput can be delayed 10f\n",
+    "note": "\nCombo from 1st CH with 2f delay\nInput can be delayed 10f\nCan transition into Libertador with d+4,1~F",
     "alternateInputs": [
       "d+4,1"
     ]
@@ -1380,7 +1380,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nParries all high/low attacks\nCancel to r20 with DB\n",
+    "note": "\nParries all high/low attacks\nCancel to r20 with DB\nPossible to perform from crouching",
     "alternateInputs": [
       "f+3+4"
     ]
@@ -1478,7 +1478,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
+    "note": "Possible to perform from crouching\n",
     "alternateInputs": [
       "LIB b+3+4"
     ]
@@ -1912,7 +1912,7 @@
     "block": "-7~-6",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit with 2f delay\nCombo from 1st CH with 4f delay\nInput can be delayed 10f\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 2f delay\nCombo from 1st CH with 4f delay\nInput can be delayed 10f\nChip damage on block",
     "alternateInputs": [
       "BT 1,2"
     ]
@@ -1982,7 +1982,7 @@
     "block": "-13",
     "hit": "+4~+5",
     "counter": "+14c~+16c",
-    "note": "\n",
+    "note": "Strong aerial tailspin\n",
     "alternateInputs": [
       "BT 3"
     ]
