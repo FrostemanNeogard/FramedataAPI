@@ -663,7 +663,7 @@
     "hit_level": "m,m",
     "damage": "12,20",
     "startup": "i24~25",
-    "block": "-12",
+    "block": "-14",
     "hit": "+7",
     "counter": "",
     "note": "\n",
@@ -717,12 +717,12 @@
     "name": "Smash Low Right",
     "input": "d+3,4",
     "hit_level": "l,h",
-    "damage": "7,10",
+    "damage": "7,13",
     "startup": "i21~23",
     "block": "+8",
     "hit": "+14",
     "counter": "",
-    "note": "\nShift to Right Flamingo\n\n",
+    "note": "\nShift to Right Flamingo\n\nJails on block",
     "alternateInputs": [
       "d+3,4"
     ]
@@ -1151,7 +1151,7 @@
     "name": "Iron Heel",
     "input": "ws3",
     "hit_level": "m",
-    "damage": "20",
+    "damage": "22",
     "startup": "i14~18",
     "block": "-12",
     "hit": "+22",
