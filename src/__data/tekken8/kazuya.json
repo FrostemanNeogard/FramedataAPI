@@ -17,7 +17,7 @@
     "name": "Omega Crash",
     "input": "in heat 2+3",
     "hit_level": "l,m,th",
-    "damage": "12,20,34",
+    "damage": "9,20,34",
     "startup": "i18",
     "block": "-14",
     "hit": "Th",
@@ -425,7 +425,7 @@
     "hit_level": "m,h",
     "damage": "11,20",
     "startup": "i16",
-    "block": "-3",
+    "block": "-11",
     "hit": "+18Sp",
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
@@ -1488,11 +1488,11 @@
     "input": "f,n,d,df+3",
     "hit_level": "h",
     "damage": "30",
-    "startup": "i20~29",
+    "startup": "i18~27",
     "block": "-9",
     "hit": "+12a(+2)",
     "counter": "",
-    "note": "Balcony Break\n",
+    "note": "Balcony Break\nChip damage on block",
     "alternateInputs": [
       "f,n,d,df+3"
     ]
@@ -1543,11 +1543,11 @@
     "name": "Patricide Fist",
     "input": "f,n,d,df+1+2",
     "hit_level": "m",
-    "damage": "25",
+    "damage": "33",
     "startup": "i24",
-    "block": "-6",
+    "block": "+5",
     "hit": "+25a(+15)",
-    "counter": "+59a",
+    "counter": "",
     "note": "\n\nTornado\n\nBalcony Break\nChip damage when guarded\n\n",
     "alternateInputs": [
       "f,n,d,df+1+2"
@@ -1590,7 +1590,7 @@
     "block": "-9",
     "hit": "+3a",
     "counter": "",
-    "note": "\n\nTornado\nPartially uses remaining Heat time\nabsorb an attack to power up\n\n",
+    "note": "\n\nTornado\nPartially uses remaining Heat time\nabsorb an attack to power up\n\nCan be executed from while standing state",
     "alternateInputs": [
       "DVK 1+4"
     ]
@@ -1660,7 +1660,7 @@
     "block": "-9",
     "hit": "+0",
     "counter": "",
-    "note": "\nPartially uses remaining Heat time\nOnly on hit\n\n",
+    "note": "\nPartially uses remaining Heat time\nOnly on hit\n\nCancel throw transition with f,F+2~B",
     "alternateInputs": [
       "DVK f,F+2"
     ]
@@ -1683,12 +1683,12 @@
     "name": "Tempest Blaster",
     "input": "DVK f,n,d,df+3",
     "hit_level": "h,th",
-    "damage": "30,15",
-    "startup": "i20",
+    "damage": "30,20",
+    "startup": "i18",
     "block": "+4",
     "hit": "Th",
     "counter": "",
-    "note": "\n",
+    "note": "\nChip damage on block\nCancel throw transition with f,F+2~B",
     "alternateInputs": [
       "DVK f,n,d,df+3"
     ]
