@@ -778,7 +778,7 @@
     "block": "-14",
     "hit": "+4c",
     "counter": "+25d",
-    "note": "\nTracks left side. (one of the few for King)\n\n",
+    "note": "\nTracks left side. (one of the few for King)\n\ncs6~",
     "alternateInputs": [
       "db+3"
     ]
@@ -955,7 +955,7 @@
     "name": "Guillotine Drop",
     "input": "b+3:1+2",
     "hit_level": "h,t",
-    "damage": "2320",
+    "damage": "23, 15",
     "startup": "i16~18",
     "block": "",
     "hit": "+0d",
@@ -1109,10 +1109,10 @@
     "name": "Stomache Smash / Jaguar Hammer",
     "input": "f,f,n,2",
     "hit_level": "l/(l,t)",
-    "damage": "17/(20,35)",
+    "damage": "17/(20,30)",
     "startup": "i18",
     "block": "-13",
-    "hit": "+7s/(0d)",
+    "hit": "+5s/(0d)",
     "counter": "",
     "note": "\nShifts to throw on front grounded CH.\nHits OTG.\n\n",
     "alternateInputs": [
@@ -1153,7 +1153,7 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i31~32",
-    "block": "0c",
+    "block": "+7",
     "hit": "+12c",
     "counter": "",
     "note": "\nForces crouching on block and hit.\nAllow crouching throw on hit.\nChip damage on block.\n\n",
@@ -1660,7 +1660,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nDuck high while moving forward.\nInput f,n,d,df,f+(button) for instant ws moves.\n1st f cannot be held more than 10 frames.\n\n",
+    "note": "\nDuck high while moving forward.\nInput f,n,d,df,f+(button) for instant ws moves.\n1st f cannot be held more than 10 frames.\nCan be performed from a dash",
     "alternateInputs": [
       "f,n,d,df"
     ]
