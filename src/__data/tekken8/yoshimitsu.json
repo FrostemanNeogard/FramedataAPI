@@ -2374,7 +2374,7 @@
     "block": "-26~-25",
     "hit": "+4c~+5c",
     "counter": "+31a",
-    "note": "\n\nHoming\nCan be done from Crouch Level 2\n",
+    "note": "\n\nHoming\nCan be done from Crouch Level 2\nCan transition to IND with FC df+4,d+3+4",
     "alternateInputs": [
       "FC df+4"
     ]
@@ -2766,7 +2766,7 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+38a",
-    "note": "\n\nWeapon\nAlternate notation: 1SS.KIN.d+1\n",
+    "note": "\n\nWeapon\nAlternate notation: 1SS.KIN.d+1\nTransition to crouching with KIN d+1~DB",
     "alternateInputs": [
       "KIN d+1"
     ]
@@ -3452,7 +3452,7 @@
     "block": "-26~-25",
     "hit": "+4c~+5c",
     "counter": "",
-    "note": "Homing\n",
+    "note": "Homing\nCan transition to IND with IND 4,d+3+4",
     "alternateInputs": [
       "IND 4"
     ]
@@ -3480,7 +3480,7 @@
     "block": "-6~-5",
     "hit": "+3~+4",
     "counter": "",
-    "note": "\nTransition to r18 DGF with 1SS.U\n",
+    "note": "\nTransition to r18 DGF with 1SS.U\nHoming",
     "alternateInputs": [
       "IND 3+4"
     ]
@@ -4315,12 +4315,12 @@
     "name": "Dragonfly Blade",
     "input": "DGF 1",
     "hit_level": "M",
-    "damage": "15",
+    "damage": "22",
     "startup": "i30~31",
     "block": "-2c~-1c / +2",
     "hit": "+10a / +46a",
     "counter": "+46a",
-    "note": "\n\nSpike\n\nWeapon\n7 chip damage on block\nPower up in Heat: +2 ob, 14 chip dmg, launch on normal hit, 20 dmg, recovers health on hit\nPartially uses remaining Heat time\n\n",
+    "note": "\n\nSpike\n\nWeapon\n7 chip damage on block\nPower up in Heat: +2 ob, 14 chip dmg, launch on normal hit, 26 dmg, recovers health on hit\nPartially uses remaining Heat time\n\n",
     "alternateInputs": [
       "DGF 1"
     ]
