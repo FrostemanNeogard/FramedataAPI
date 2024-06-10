@@ -22,7 +22,7 @@
     "block": "+8 LNH",
     "hit": "0",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nFloor Break\n\nSpike\nChip damage on block\nOn block, transitions to LNH\nAlternate input: H.FLK.2+3 or H.PAB.2+3\n\n",
+    "note": "\n\nHeat Smash\n\nFloor Break\n\nSpike\nChip damage on block\nOn block, transitions to LNH\nAlternate input: H.FLK.2+3 or H.PAB.2+3\n\nCan cancel LNH tansition with in heat 2+3~B",
     "alternateInputs": [
       "in heat 2+3"
     ]
@@ -106,7 +106,7 @@
     "block": "-12",
     "hit": "+18a (+11)",
     "counter": "",
-    "note": "\nHeat Engager\n\nHeat Dash  (+5/+35d/-)\n\n\n",
+    "note": "\nHeat Engager\n\nHeat Dash  (+5/+35d/-)\n\n\nCan be performed from while standing state",
     "alternateInputs": [
       "1+2"
     ]
@@ -400,7 +400,7 @@
     "block": "-6",
     "hit": "+11",
     "counter": "",
-    "note": "\nTransistion to LNH\n\n",
+    "note": "\nTransistion to LNH\n\nCan cancel LNH tansition with in heat f+2,2~B",
     "alternateInputs": [
       "f+2,2"
     ]
@@ -638,7 +638,7 @@
     "block": "-6",
     "hit": "+8",
     "counter": "",
-    "note": "\nTransition to LNH\n\n",
+    "note": "\nTransition to LNH\n\nCan cancel LNH tansition with db+3,2~B",
     "alternateInputs": [
       "db+3,2"
     ]
@@ -680,7 +680,7 @@
     "block": "+3",
     "hit": "+8",
     "counter": "",
-    "note": "\n\nHoming\nTransitions to LNH\n\n",
+    "note": "\n\nHoming\nTransitions to LNH\n\nCan cancel LNH tansition with b+1,2~B",
     "alternateInputs": [
       "b+1,2"
     ]
@@ -834,7 +834,7 @@
     "block": "-6",
     "hit": "+8",
     "counter": "",
-    "note": "\nTransition to LNH\n\n",
+    "note": "\nTransition to LNH\n\nCan cancel LNH tansition with uf+3,2~B",
     "alternateInputs": [
       "uf+3,2"
     ]
@@ -928,7 +928,7 @@
     "input": "FC df+2",
     "hit_level": "m",
     "damage": "20",
-    "startup": "i18",
+    "startup": "i16~17",
     "block": "-15",
     "hit": "+34a (+24)",
     "counter": "",
@@ -1002,7 +1002,7 @@
     "block": "-6",
     "hit": "+11",
     "counter": "",
-    "note": "\nTransition to LNH\n\n",
+    "note": "\nTransition to LNH\n\nCan cancel LNH tansition with WS 2,2~B",
     "alternateInputs": [
       "WS 2,2"
     ]
@@ -1086,7 +1086,7 @@
     "block": "+3",
     "hit": "+8",
     "counter": "",
-    "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition to LNH\n\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition to LNH\n\nCan cancel LNH tansition with LWV 1,2~B",
     "alternateInputs": [
       "LWV 1,2"
     ]
@@ -1170,7 +1170,7 @@
     "block": "+3",
     "hit": "+8",
     "counter": "",
-    "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition into LNH\n\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nHoming\nTransition into LNH\n\nCan cancel LNH tansition with RWV 1,2~B",
     "alternateInputs": [
       "RWV 1,2"
     ]
@@ -2063,7 +2063,7 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i14-15",
-    "block": "-9",
+    "block": "-4",
     "hit": "+9/HE",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nHeat Dash +5g +43a(+35)\n\n\nHoming\n\n",
@@ -2094,7 +2094,7 @@
     "block": "+12",
     "hit": "+6a(-3)",
     "counter": "",
-    "note": "\n\nGuard Break\n\nBalcony Break\n\n",
+    "note": "\n\nGuard Break\n\nBalcony Break\n\nChip damage on block\n\nReversal break",
     "alternateInputs": [
       "LNin heat 1+2"
     ]
