@@ -101,7 +101,7 @@
     "name": "Lao Pao Ba",
     "input": "BOK 1+2",
     "hit_level": "M",
-    "damage": "22",
+    "damage": "21",
     "startup": "i20~21",
     "block": "-12~-11",
     "hit": "+15d",
@@ -535,12 +535,12 @@
     "name": "Fu Hu",
     "input": "d+1",
     "hit_level": "m",
-    "damage": "18",
+    "damage": "19",
     "startup": "i18~19",
     "block": "-2~-1",
     "hit": "+5",
-    "counter": "+24d",
-    "note": "\n\nSpike\nEnter FC with d\n",
+    "counter": "+13",
+    "note": "\n\nSpike\nEnter FC with d\nTransition to crouching with d+1~D\nApplies 70% combo scaling on counter hit",
     "alternateInputs": [
       "d+1"
     ]
@@ -988,7 +988,7 @@
     "block": "-8~-7",
     "hit": "+23g",
     "counter": "+28a",
-    "note": "\nParries high and mid punches\nHit after parry is the same as on CH\n",
+    "note": "\nParries high and mid punches\nHit after parry is the same as on CH\nParry active frames 5~9",
     "alternateInputs": [
       "b+2+3"
     ]
@@ -1375,7 +1375,7 @@
     "name": "Huo Da Ding Zhou",
     "input": "ws1,4,1",
     "hit_level": "m,L,m",
-    "damage": "13,12,24",
+    "damage": "13,12,21",
     "startup": "i22",
     "block": "-14",
     "hit": "+12a (+3)",
@@ -1475,7 +1475,7 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i13~15",
-    "block": "-15~-13",
+    "block": "-14~-12",
     "hit": "+22g",
     "counter": "",
     "note": "\nGain LTG +3 on hit with 1+2\nAlternate input CD.1+2\n",
@@ -1613,7 +1613,7 @@
     "name": "Er Qi Jiao",
     "input": "KNK 3,4",
     "hit_level": "m,m",
-    "damage": "13,18",
+    "damage": "13,23",
     "startup": "i15",
     "block": "-12",
     "hit": "+80a",
@@ -1856,7 +1856,7 @@
     "block": "-6~-5",
     "hit": "+10",
     "counter": "+30d",
-    "note": "\n\nWall Crush on hit +22g\n\nCombo from 1st hitSometimes written qcf+2,1\n",
+    "note": "\n\nWall Crush on hit +22g\n\nCombo from 1st hitSometimes written qcf+2,1\nCan be delayed",
     "alternateInputs": [
       "CD 2,1"
     ]
@@ -1867,10 +1867,10 @@
     "hit_level": "m,h",
     "damage": "14,26",
     "startup": "i25~28",
-    "block": "-11~-8",
+    "block": "-4~-1",
     "hit": "+10d (+0)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hitSometimes written qcf+2,4\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hitSometimes written qcf+2,4\nCan be delayed\nChip damage on block",
     "alternateInputs": [
       "CD 2,4"
     ]
@@ -1907,7 +1907,7 @@
     "name": "Zhen Jiao",
     "input": "OTG d+3+4",
     "hit_level": "L",
-    "damage": "20",
+    "damage": "21",
     "startup": "i21~22",
     "block": "-13~-12",
     "hit": "+3",
