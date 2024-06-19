@@ -48,7 +48,7 @@ export class FramedataService {
     );
 
     const frameData = await this.getCharacterFrameData(character, game);
-    let attackInfo: FrameDataType[] = frameData.filter((item) =>
+    const attackInfo: FrameDataType[] = frameData.filter((item) =>
       item.alternateInputs.includes(
         notation.replaceAll(/[\u200B-\u200D\uFEFF]/g, ''),
       ),
@@ -75,11 +75,6 @@ export class FramedataService {
       }
     }
     if (!attackInfo[0]) {
-      for (let i = 0; i < frameData.length; i++) {
-        const moveData = frameData[i];
-        moveData.alternateInputs.forEach((input) => {});
-      }
-
       similarityMap.sort((a, b) => b.similarity - a.similarity);
       const top5Moves = similarityMap.slice(0, 5).map((entry) => entry.move);
       const uniqueSimilarMoves = top5Moves.filter(this.onlyUnique);
