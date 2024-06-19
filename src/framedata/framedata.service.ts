@@ -57,6 +57,7 @@ export class FramedataService {
     const similarityMap: { move: FrameDataType; similarity: number }[] = [];
     for (let i = 0; i < 2; i++) {
       if (!!attackInfo[0]) {
+        attackInfo[0].note = this.formatNotes(attackInfo[0].note);
         break;
       }
       this.logger.log(`Formatting notation, iteration: ${i}`);
@@ -65,6 +66,7 @@ export class FramedataService {
 
       for (let y = 0; y < frameData.length; y++) {
         const moveData = frameData[y];
+        moveData.note = this.formatNotes(moveData.note);
         moveData.alternateInputs.forEach((input) => {
           if (this.formatNotation(input, removePlus) === formattedNotation) {
             attackInfo.push(moveData);
@@ -102,6 +104,20 @@ export class FramedataService {
     const intersection = new Set([...set1].filter((x) => set2.has(x)));
     const union = new Set([...set1, ...set2]);
     return intersection.size / union.size;
+  }
+
+  private formatNotes(input: string) {
+    let output: string = input;
+    while (output.includes('\n\n')) {
+      output = output.replaceAll('\n\n', '\n');
+    }
+    if (output.startsWith('\n')) {
+      output = output.slice(1);
+    }
+    if (output.endsWith('\n')) {
+      output = output.slice(0, -1);
+    }
+    return output;
   }
 
   private formatNotation(inputNotation: string, removePlus: boolean): string {
