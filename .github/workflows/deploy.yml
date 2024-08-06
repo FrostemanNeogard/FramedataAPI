@@ -26,3 +26,9 @@ jobs:
           docker compose -f docker-compose.yml down &&
           docker compose -f docker-compose.yml up --build -d
         "
+
+    - name: Debug SSH Command
+      run: |
+        echo "SSH_HOST: ${{ secrets.SSH_HOST }}"
+        echo "SSH_USERNAME: ${{ secrets.SSH_USERNAME }}"
+        ssh -o StrictHostKeyChecking=no -p 2222 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "hostname"
