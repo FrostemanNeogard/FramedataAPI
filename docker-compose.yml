@@ -1,10 +1,16 @@
 version: "3.8"
 
 services:
-  node-app:
+  api:
     build: .
     volumes:
       - /usr/src/app
     ports:
       - "3000:3000"
     command: npm run start:dev
+    networks:
+      - framedata_network
+
+networks:
+  framedata_network:
+    external: true
