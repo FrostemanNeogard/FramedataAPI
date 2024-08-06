@@ -18,17 +18,19 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Deploy API
-      run: |
-        ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
-          cd /Desktop/Repos/TekkenFramedataAPI &&
-          git pull &&
-          docker compose -f docker-compose.yml down &&
-          docker compose -f docker-compose.yml up --build -d
-        "
-
     - name: Debug SSH Command
       run: |
         echo "SSH_HOST: ${{ secrets.SSH_HOST }}"
         echo "SSH_USERNAME: ${{ secrets.SSH_USERNAME }}"
         ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "hostname"
+
+    - name: Deploy API
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
+          cd ~/Desktop/Repos/TekkenFramedataAPI &&
+          git pull &&
+          docker compose -f sudo docker-compose.yml down &&
+          docker compose -f sudo docker-compose.yml up --build -d
+        "
+
+
