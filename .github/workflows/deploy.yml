@@ -21,7 +21,7 @@ jobs:
       - name: Deploy API
         run: |
           ssh -o StrictHostKeyChecking=no -p 2222 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
-            cd ~/projects/TekkenFramedataAPI &&
+            cd ~/projects/FramedataAPI &&
             git pull &&
             docker compose -f sudo docker-compose.yml down &&
             docker compose -f sudo docker-compose.yml up --build -d
