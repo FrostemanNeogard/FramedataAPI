@@ -23,6 +23,6 @@ jobs:
           ssh -o StrictHostKeyChecking=no -p 2222 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
             cd ~/projects/FramedataAPI &&
             git pull &&
-            docker compose -f sudo docker-compose.yml down &&
-            docker compose -f sudo docker-compose.yml up --build -d
+            sudo docker-compose -f docker-compose.yml down &&
+            sudo docker-compose -f docker-compose.yml up --build -d
           "
