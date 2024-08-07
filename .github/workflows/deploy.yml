@@ -10,21 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Set up SSH
-      uses: webfactory/ssh-agent@v0.5.3
-      with:
-        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Deploy API
-      run: |
-        ssh -o StrictHostKeyChecking=no -p 2222 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
-          cd ~/Desktop/Repos/TekkenFramedataAPI &&
-          git pull &&
-          docker compose -f sudo docker-compose.yml down &&
-          docker compose -f sudo docker-compose.yml up --build -d
-        "
-
-
+      - name: Deploy API
+        run: |
+          ssh -o StrictHostKeyChecking=no -p 2222 ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "
+            cd ~/projects/TekkenFramedataAPI &&
+            git pull &&
+            docker compose -f sudo docker-compose.yml down &&
+            docker compose -f sudo docker-compose.yml up --build -d
+          "
