@@ -656,5 +656,299 @@
     "alternateInputs": [
       "db+3"
     ]
+  },
+  {
+    "name": "",
+    "input": "b+1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i14~15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "b+1"
+    ]
+  },
+  {
+    "name": "Oni Yarai",
+    "input": "b+1,4",
+    "hit_level": "m,m",
+    "damage": "12,24",
+    "startup": "i22~23",
+    "block": "",
+    "hit": "+7a",
+    "counter": "",
+    "note": "\n\nTornado\n\nKnee\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "b+1,4"
+    ]
+  },
+  {
+    "name": "Rashomon",
+    "input": "b+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i22~23",
+    "block": "",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nChip damage on block\n\n",
+    "alternateInputs": [
+      "b+2"
+    ]
+  },
+  {
+    "name": "True Rashomon",
+    "input": "b+2*",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i39~40",
+    "block": "",
+    "hit": "+29a (+21)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\nGuard Break?\nEnter Wind God's Kamae with F\n\n",
+    "alternateInputs": [
+      "b+2*"
+    ]
+  },
+  {
+    "name": "Zenith Rashomon",
+    "input": "b:2*",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i39~40",
+    "block": "",
+    "hit": "+29a (+21)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nRestores recoverable health on hit or block\nChip damage on block\nGuard Break?\n\n",
+    "alternateInputs": [
+      "b:2*"
+    ]
+  },
+  {
+    "name": "",
+    "input": "b+3",
+    "hit_level": "h",
+    "damage": "14",
+    "startup": "i14~15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHoming\n\n",
+    "alternateInputs": [
+      "b+3"
+    ]
+  },
+  {
+    "name": "Hooking Crescent Thrust",
+    "input": "b+3,2",
+    "hit_level": "h,h",
+    "damage": "14,20",
+    "startup": ",i20",
+    "block": "",
+    "hit": "+8",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "b+3,2"
+    ]
+  },
+  {
+    "name": "Hooking Crescent Kick",
+    "input": "b+3,3",
+    "hit_level": "h,m",
+    "damage": "14,25",
+    "startup": ",i22~26",
+    "block": "",
+    "hit": "+3d?",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "b+3,3"
+    ]
+  },
+  {
+    "name": "Heaven's Merciless Wrath",
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i42",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases ? level by 1\n\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
+  },
+  {
+    "name": "Skull Rupture",
+    "input": "ub+2",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "+40d (-18)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": [
+      "ub+2"
+    ]
+  },
+  {
+    "name": "Demon's Wings",
+    "input": "uf+1",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i24~25",
+    "block": "",
+    "hit": "+14a (+5)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n-? on block after absorbing an attack\nChip damage on block after absorbing an attack\n\n",
+    "alternateInputs": [
+      "uf+1"
+    ]
+  },
+  {
+    "name": "",
+    "input": "uf+2",
+    "hit_level": "m",
+    "damage": "16",
+    "startup": "i19",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "uf+2"
+    ]
+  },
+  {
+    "name": "Kidney Crush Combo",
+    "input": "uf+2,1",
+    "hit_level": "m,m",
+    "damage": "16,20",
+    "startup": ",i27~28",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nIncreases ? level by 1\n\n",
+    "alternateInputs": [
+      "uf+2,1"
+    ]
+  },
+  {
+    "name": "",
+    "input": "uf+3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i28~29",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "uf+3"
+    ]
+  },
+  {
+    "name": "Hell Axle",
+    "input": "uf+3,4",
+    "hit_level": "m,h",
+    "damage": "17,20?",
+    "startup": ",i20~21",
+    "block": "",
+    "hit": "+30a (+23)",
+    "counter": "",
+    "note": "\n\nStrong Aerial Tailspin\n\nBalcony Break\nUnavailable on whiff\n\n",
+    "alternateInputs": [
+      "uf+3,4"
+    ]
+  },
+  {
+    "name": "Wind Slicer",
+    "input": "uf+4",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i24~26",
+    "block": "",
+    "hit": "+43a",
+    "counter": "",
+    "note": "\n\nHoming\n\nBalcony Break\n\n",
+    "alternateInputs": [
+      "uf+4"
+    ]
+  },
+  {
+    "name": "Demon God Fist",
+    "input": "f,F+2",
+    "hit_level": "M?",
+    "damage": "22",
+    "startup": "i19~21",
+    "block": "",
+    "hit": "+37a (+27)",
+    "counter": "",
+    "note": "\n\nTornado\n\n",
+    "alternateInputs": [
+      "f,F+2"
+    ]
+  },
+  {
+    "name": "Left Splits Kick",
+    "input": "f,F+3",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i20~22",
+    "block": "",
+    "hit": "+56a",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,F+3"
+    ]
+  },
+  {
+    "name": "Raoh Thrust",
+    "input": "f,F+1+2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i13",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nChip damage on block\nIncreases ? level by 1\n\n",
+    "alternateInputs": [
+      "f,F+1+2"
+    ]
+  },
+  {
+    "name": "Iron Hand",
+    "input": "qcf+2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i14~15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nIncreases ? level by 1\nSometimes written d,df,f+2\n",
+    "alternateInputs": [
+      "qcf+2"
+    ]
+  },
+  {
+    "name": "Leaping Side Kick",
+    "input": "f,f,F+3",
+    "hit_level": "m",
+    "damage": "28",
+    "startup": "i22~25",
+    "block": "",
+    "hit": "+13a (+3)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\nSometimes written wr3\n",
+    "alternateInputs": [
+      "f,f,F+3"
+    ]
   }
 ]

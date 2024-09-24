@@ -87,9 +87,9 @@
     "name": "Lunging Brush Fire",
     "input": "b+3+4",
     "hit_level": "h",
-    "damage": "25",
+    "damage": "28",
     "startup": "i20~21",
-    "block": "-9",
+    "block": "-7",
     "hit": "+21a(+11)",
     "counter": "",
     "note": "\n\nHeat Engager\n\n\nBalcony Break\nHeat Dash: +43a(+35) on hit\nAbsorb an attack to power up\nAdd chip damage when guarded\n\n",
@@ -537,7 +537,7 @@
     "hit_level": "L",
     "damage": "14",
     "startup": "i18",
-    "block": "-12c",
+    "block": "-13c",
     "hit": "+0",
     "counter": "",
     "note": "\n",
@@ -582,7 +582,7 @@
     "block": "-4c",
     "hit": "+5c",
     "counter": "",
-    "note": "Shift to RLX\n",
+    "note": "\nCombos from 1st CH\nShift to RLX\n\n",
     "alternateInputs": [
       "d+2,3"
     ]
@@ -1307,7 +1307,7 @@
     "hit_level": "h,m",
     "damage": "6,14",
     "startup": ",i19~21",
-    "block": "-15",
+    "block": "-14",
     "hit": "+38a(+20)",
     "counter": "",
     "note": "\nShift to RLX\nCombos from 1st hit\n\n",
