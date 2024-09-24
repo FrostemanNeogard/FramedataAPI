@@ -1,0 +1,660 @@
+[
+  {
+    "name": "",
+    "input": "",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      ""
+    ]
+  },
+  {
+    "name": "Jab",
+    "input": "1",
+    "hit_level": "h",
+    "damage": "5",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "note": "Recovers 2f faster on hit or block (t27 r17)\n",
+    "alternateInputs": [
+      "1"
+    ]
+  },
+  {
+    "name": "",
+    "input": "1,1",
+    "hit_level": "h,h",
+    "damage": "5,6",
+    "startup": ",i10",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nJail from 1st attack\n\n",
+    "alternateInputs": [
+      "1,1"
+    ]
+  },
+  {
+    "name": "Flash Punch Combo",
+    "input": "1,1,2",
+    "hit_level": "h,h,m",
+    "damage": "5,6,16",
+    "startup": ",i18",
+    "block": "",
+    "hit": "+19a (+9)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "1,1,2"
+    ]
+  },
+  {
+    "name": "One Two Strike",
+    "input": "1,2",
+    "hit_level": "h,h",
+    "damage": "5,8",
+    "startup": ",i10",
+    "block": "",
+    "hit": "+8",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "1,2"
+    ]
+  },
+  {
+    "name": "Back Fist Combo",
+    "input": "1,2,2",
+    "hit_level": "h,h,h",
+    "damage": "5,8,12",
+    "startup": ",i17",
+    "block": "",
+    "hit": "+4",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "1,2,2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "1,2,2~1",
+    "hit_level": "h,h,m",
+    "damage": "5,8,20",
+    "startup": ",i13",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nCancel to SS with D_U\n\n",
+    "alternateInputs": [
+      "1,2,2~1"
+    ]
+  },
+  {
+    "name": "Demon Executioner Volley",
+    "input": "1,2,2~1,1+2",
+    "hit_level": "h,h,m,m",
+    "damage": "5,8,20,24",
+    "startup": ",i26",
+    "block": "",
+    "hit": "+11a (+2)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 3rd hit\n\n",
+    "alternateInputs": [
+      "1,2,2~1,1+2"
+    ]
+  },
+  {
+    "name": "Wailing Demon Otoko Geri",
+    "input": "1,2,4",
+    "hit_level": "h,h,h",
+    "damage": "5,8,21",
+    "startup": ",i22~23",
+    "block": "",
+    "hit": "+16c",
+    "counter": "",
+    "note": "\n\nTornado\n\n",
+    "alternateInputs": [
+      "1,2,4"
+    ]
+  },
+  {
+    "name": "",
+    "input": "1,b+2",
+    "hit_level": "h,m",
+    "damage": "5,17",
+    "startup": ",i22",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "1,b+2"
+    ]
+  },
+  {
+    "name": "Demon Massacre",
+    "input": "1,b+2,1",
+    "hit_level": "h,m,M?",
+    "damage": "5,17,20",
+    "startup": ",i35~39",
+    "block": "",
+    "hit": "+30a (+20)",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "1,b+2,1"
+    ]
+  },
+  {
+    "name": "Demon Basara",
+    "input": "1,b+2,2",
+    "hit_level": "h,m,m",
+    "damage": "5,17,17",
+    "startup": ",i25~26",
+    "block": "",
+    "hit": "+6c",
+    "counter": "",
+    "note": "\n\nHead\nCombo from 2nd hit\n\n",
+    "alternateInputs": [
+      "1,b+2,2"
+    ]
+  },
+  {
+    "name": "Demon Lair",
+    "input": "1,b+2,4",
+    "hit_level": "h,m,m",
+    "damage": "5,17,30",
+    "startup": ",i39",
+    "block": "",
+    "hit": "+30a (+9)",
+    "counter": "",
+    "note": "\nChip damage on block\n\n",
+    "alternateInputs": [
+      "1,b+2,4"
+    ]
+  },
+  {
+    "name": "",
+    "input": "2",
+    "hit_level": "h",
+    "damage": "10",
+    "startup": "i11",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "2"
+    ]
+  },
+  {
+    "name": "Dogenkotsu",
+    "input": "2,2",
+    "hit_level": "h,m",
+    "damage": "10,13",
+    "startup": "i22",
+    "block": "",
+    "hit": "+3c",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "2,2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "3",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "3"
+    ]
+  },
+  {
+    "name": "Byakko Gekishin",
+    "input": "3,2",
+    "hit_level": "m,m",
+    "damage": "10,10",
+    "startup": ",i22~23",
+    "block": "",
+    "hit": "-2",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "3,2"
+    ]
+  },
+  {
+    "name": "Otoko Geri",
+    "input": "4",
+    "hit_level": "h",
+    "damage": "21",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "+16c",
+    "counter": "",
+    "note": "\n\nTornado\n\nBalcony Break\n\n",
+    "alternateInputs": [
+      "4"
+    ]
+  },
+  {
+    "name": "Demon Scissors",
+    "input": "4~3",
+    "hit_level": "M?",
+    "damage": "25",
+    "startup": "i35~37",
+    "block": "",
+    "hit": "+20a",
+    "counter": "",
+    "note": "\n\nSpike\n\n",
+    "alternateInputs": [
+      "4~3"
+    ]
+  },
+  {
+    "name": "Demon Breath",
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i12",
+    "block": "",
+    "hit": "+24a (+14)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": [
+      "1+2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2",
+    "hit_level": "h",
+    "damage": "13",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "+2",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f+2"
+    ]
+  },
+  {
+    "name": "Tensu Gekishin",
+    "input": "f+2,2",
+    "hit_level": "h,m",
+    "damage": "13,10",
+    "startup": "i22~23",
+    "block": "",
+    "hit": "-2",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "f+2,2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2~1",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i13",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f+2~1"
+    ]
+  },
+  {
+    "name": "Demon Shout Volley",
+    "input": "f+2~1,1+2",
+    "hit_level": "m,m",
+    "damage": "20,24",
+    "startup": ",i26",
+    "block": "",
+    "hit": "+11a (+2)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nCancel to SS with D_U\n\n",
+    "alternateInputs": [
+      "f+2~1,1+2"
+    ]
+  },
+  {
+    "name": "Lightning Crush",
+    "input": "f+3",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i18~20",
+    "block": "",
+    "hit": "+9",
+    "counter": "",
+    "note": "\n\nKnee\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "f+3"
+    ]
+  },
+  {
+    "name": "Right Splits Kick",
+    "input": "f+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i19~20",
+    "block": "",
+    "hit": "+7c",
+    "counter": "",
+    "note": "\n\nSpike\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "f+4"
+    ]
+  },
+  {
+    "name": "Chrome Dome",
+    "input": "f+1+2",
+    "hit_level": "h",
+    "damage": "15",
+    "startup": "i12",
+    "block": "",
+    "hit": "+14",
+    "counter": "",
+    "note": "\n\nSpike\n\nHead\n\n",
+    "alternateInputs": [
+      "f+1+2"
+    ]
+  },
+  {
+    "name": "Thunder God's Kamae",
+    "input": "f+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f+3+4"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+1",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i13~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "df+1"
+    ]
+  },
+  {
+    "name": "Muso Palm Strike",
+    "input": "df+1,1",
+    "hit_level": "m,h",
+    "damage": "10,8",
+    "startup": ",i15",
+    "block": "",
+    "hit": "+4",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "df+1,1"
+    ]
+  },
+  {
+    "name": "Muso Tekken",
+    "input": "df+1,2",
+    "hit_level": "m,m",
+    "damage": "10,20",
+    "startup": ",i21",
+    "block": "",
+    "hit": "+3",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "df+1,2"
+    ]
+  },
+  {
+    "name": "True Muso Tekken",
+    "input": "df+1,2*",
+    "hit_level": "m,m",
+    "damage": "10,28",
+    "startup": ",i38~39",
+    "block": "",
+    "hit": "+32a (+11)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\nGuard Break?\n\n",
+    "alternateInputs": [
+      "df+1,2*"
+    ]
+  },
+  {
+    "name": "Zenith Muso Tekken",
+    "input": "df+1:2*",
+    "hit_level": "m,m",
+    "damage": "10,23",
+    "startup": ",i28~29",
+    "block": "",
+    "hit": "+19a (+14)",
+    "counter": "",
+    "note": "\n\nTornado\nCombo from 1st hit\nRestores recoverable health on hit or block\nChip damage on block\nGuard Break?\n\n",
+    "alternateInputs": [
+      "df+1:2*"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+2",
+    "hit_level": "m",
+    "damage": "8",
+    "startup": "i13~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "df+2"
+    ]
+  },
+  {
+    "name": "Reverse Muso Renken",
+    "input": "df+2,1",
+    "hit_level": "m,m",
+    "damage": "8,20",
+    "startup": "i20~21",
+    "block": "",
+    "hit": "+12a (+5)",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "df+2,1"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+3",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nKnee\n\n",
+    "alternateInputs": [
+      "df+3"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+3,1+2",
+    "hit_level": "m,h,m,m",
+    "damage": "10,3,3,3",
+    "startup": ",i14 i9 i8",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "df+3,1+2"
+    ]
+  },
+  {
+    "name": "Gokotai Rampage",
+    "input": "df+3,1+2,1",
+    "hit_level": "m,h,m,m,m",
+    "damage": "10,3,3,3,25",
+    "startup": ",i22~23",
+    "block": "",
+    "hit": "+20a (+15)",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nPowered up input: df+3,1+2,qcf+1\n\n",
+    "alternateInputs": [
+      "df+3,1+2,1"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i13~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "df+4"
+    ]
+  },
+  {
+    "name": "Rapid Crush Combo",
+    "input": "df+4,2",
+    "hit_level": "m,m",
+    "damage": "10,23",
+    "startup": ",i20",
+    "block": "",
+    "hit": "+9a (+0)",
+    "counter": "",
+    "note": "\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "df+4,2"
+    ]
+  },
+  {
+    "name": "Hammer Punch",
+    "input": "d+1",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i16",
+    "block": "",
+    "hit": "+2",
+    "counter": "",
+    "note": "\nEnter FC with D\n\n",
+    "alternateInputs": [
+      "d+1"
+    ]
+  },
+  {
+    "name": "Hammer Beating",
+    "input": "d+1,2",
+    "hit_level": "m,m",
+    "damage": "12,14",
+    "startup": ",i27~28",
+    "block": "",
+    "hit": "+9",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nEnter Thunder God's Kamae with F\n\n",
+    "alternateInputs": [
+      "d+1,2"
+    ]
+  },
+  {
+    "name": "Jichinsai",
+    "input": "d+3",
+    "hit_level": "M?",
+    "damage": "25",
+    "startup": "i22~23",
+    "block": "",
+    "hit": "+3a",
+    "counter": "",
+    "note": "\nChip damage on block\n\n",
+    "alternateInputs": [
+      "d+3"
+    ]
+  },
+  {
+    "name": "Wind God's Kamae",
+    "input": "d+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "d+1+2"
+    ]
+  },
+  {
+    "name": "Lightning Hammer",
+    "input": "d+1+4",
+    "hit_level": "m!",
+    "damage": "50",
+    "startup": "i60",
+    "block": "",
+    "hit": "+18d?",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "d+1+4"
+    ]
+  },
+  {
+    "name": "Eishomon",
+    "input": "db+2",
+    "hit_level": "L?",
+    "damage": "25",
+    "startup": "i23~25",
+    "block": "",
+    "hit": "+6c",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "db+2"
+    ]
+  },
+  {
+    "name": "Sacred Tree Fell",
+    "input": "db+3",
+    "hit_level": "l",
+    "damage": "10",
+    "startup": "i16",
+    "block": "",
+    "hit": "-2",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "db+3"
+    ]
+  }
+]
