@@ -950,5 +950,775 @@
     "alternateInputs": [
       "f,f,F+3"
     ]
+  },
+  {
+    "name": "Ascension Upper",
+    "input": "FC df+2",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i15",
+    "block": "",
+    "hit": "+37a (+27)",
+    "counter": "",
+    "note": "\n\nTornado\n\n",
+    "alternateInputs": [
+      "FC df+2"
+    ]
+  },
+  {
+    "name": "Crouching Dragon Kick",
+    "input": "FC df+4",
+    "hit_level": "L?",
+    "damage": "20",
+    "startup": "i19~21",
+    "block": "",
+    "hit": "+17a",
+    "counter": "",
+    "note": "\nClean hit\n\n",
+    "alternateInputs": [
+      "FC df+4"
+    ]
+  },
+  {
+    "name": "Quick Iron Fist",
+    "input": "ws1",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i13~14",
+    "block": "",
+    "hit": "+35a (+27)",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\n",
+    "alternateInputs": [
+      "ws1"
+    ]
+  },
+  {
+    "name": "Dark Thrust",
+    "input": "ws2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i18",
+    "block": "",
+    "hit": "+8",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "ws2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws3",
+    "hit_level": "m",
+    "damage": "10",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "ws3"
+    ]
+  },
+  {
+    "name": "Holy Demon Cross",
+    "input": "ws3,1+2",
+    "hit_level": "m,m",
+    "damage": "10,20",
+    "startup": ",i22",
+    "block": "",
+    "hit": "+13a (+4)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "ws3,1+2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws4",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i11~12",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "ws4"
+    ]
+  },
+  {
+    "name": "Tsunami Kick",
+    "input": "ws4,4",
+    "hit_level": "m,m",
+    "damage": "13,16",
+    "startup": ",i15",
+    "block": "",
+    "hit": "+0c",
+    "counter": "",
+    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "ws4,4"
+    ]
+  },
+  {
+    "name": "Wind God Step",
+    "input": "f,n,d,df",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,df"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,n,d,df,uf",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,df,uf"
+    ]
+  },
+  {
+    "name": "Thunder God Fist",
+    "input": "f,n,d,df+1",
+    "hit_level": "M?",
+    "damage": "30",
+    "startup": "i19~21",
+    "block": "",
+    "hit": "+30a (+20)",
+    "counter": "",
+    "note": "\nBecomes Electric Thunder God Fist (f,n,d,df#1) during Heat, partially uses remaining Heat Time\nSometimes written tgf\n",
+    "alternateInputs": [
+      "f,n,d,df+1"
+    ]
+  },
+  {
+    "name": "Electric Thunder God Fist",
+    "input": "f,n,d,df:1",
+    "hit_level": "M?",
+    "damage": "33",
+    "startup": "i19~21",
+    "block": "",
+    "hit": "+26a (+16)",
+    "counter": "",
+    "note": "\nChip damage on block\nSometimes written etgf\n",
+    "alternateInputs": [
+      "f,n,d,df:1"
+    ]
+  },
+  {
+    "name": "Wind God Fist",
+    "input": "f,n,d,df+2",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i11~12",
+    "block": "",
+    "hit": "+39a (+29)",
+    "counter": "",
+    "note": "\nBecomes Electric Wind God Fist (f,n,d,df#2) during Heat, partially uses remaining Heat Time\nSometimes written wgf\n",
+    "alternateInputs": [
+      "f,n,d,df+2"
+    ]
+  },
+  {
+    "name": "Electric Wind God Fist",
+    "input": "f,n,d,df:2",
+    "hit_level": "h",
+    "damage": "23",
+    "startup": "i11~12",
+    "block": "",
+    "hit": "+39a (+29)",
+    "counter": "",
+    "note": "\nChip damage on block\nSometimes written ewgf\n",
+    "alternateInputs": [
+      "f,n,d,df:2"
+    ]
+  },
+  {
+    "name": "Bone Splinter Kick",
+    "input": "f,n,d,df+3",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i27~28",
+    "block": "",
+    "hit": "+31a (+10)",
+    "counter": "",
+    "note": "\n\nTornado\n\nBalcony Break\nChip damage on block\n\n",
+    "alternateInputs": [
+      "f,n,d,df+3"
+    ]
+  },
+  {
+    "name": "Earth Scraper Kick",
+    "input": "f,n,d,DF+3",
+    "hit_level": "L",
+    "damage": "24",
+    "startup": "i33~34",
+    "block": "",
+    "hit": "+28a",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+3"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,n,d,DF+4",
+    "hit_level": "L",
+    "damage": "15",
+    "startup": "i16~17",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,n,d,DF+4,4",
+    "hit_level": "L,L",
+    "damage": "15,10",
+    "startup": ",i24",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4"
+    ]
+  },
+  {
+    "name": "Spinning Demon",
+    "input": "f,n,d,DF+4,4,4",
+    "hit_level": "L,L,L",
+    "damage": "15,10,10?",
+    "startup": ",i24",
+    "block": "",
+    "hit": "+15a?",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,4"
+    ]
+  },
+  {
+    "name": "Spinning Demon Thunder God Fist",
+    "input": "f,n,d,DF+4,4,4,1",
+    "hit_level": "L,L,L,M?",
+    "damage": "15,10,10?,20?",
+    "startup": ",i23~24",
+    "block": "",
+    "hit": "+25a (+18)?",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,4,1"
+    ]
+  },
+  {
+    "name": "Spinning Demon Bell-Ringer",
+    "input": "f,n,d,DF+4,4,4,3",
+    "hit_level": "L,L,L,h",
+    "damage": "15,10,10?,24?",
+    "startup": ",i25~28",
+    "block": "",
+    "hit": "+17a (-3)?",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,4,3"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,n,d,DF+4,4,4,n,4",
+    "hit_level": "L,L,L,m",
+    "damage": "15,10,10?,10?",
+    "startup": ",i24~25",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,4,n,4"
+    ]
+  },
+  {
+    "name": "Spinning Demon Tsunami Kick",
+    "input": "f,n,d,DF+4,4,4,n,4,4",
+    "hit_level": "L,L,L,m,m",
+    "damage": "15,10,10?,10?,20?",
+    "startup": ",i15",
+    "block": "",
+    "hit": "-5a",
+    "counter": "",
+    "note": "\n\nSpike\nCombo from 4th? hit\nEnter Wind God's Kamae with D\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,4,n,4,4"
+    ]
+  },
+  {
+    "name": "Thunder God's Kamae",
+    "input": "f+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "f+3+4"
+    ]
+  },
+  {
+    "name": "Hidden Thunder God Fist",
+    "input": "TGK 1",
+    "hit_level": "M?",
+    "damage": "38",
+    "startup": "i17~18",
+    "block": "",
+    "hit": "+12a (+2)",
+    "counter": "",
+    "note": "\nGuard Break?\n\n",
+    "alternateInputs": [
+      "TGK 1"
+    ]
+  },
+  {
+    "name": "Thunder Cutter",
+    "input": "TGK 2",
+    "hit_level": "h",
+    "damage": "25",
+    "startup": "i17~18",
+    "block": "",
+    "hit": "+51a",
+    "counter": "",
+    "note": "\n\nHoming\nChip damage on block\n\n",
+    "alternateInputs": [
+      "TGK 2"
+    ]
+  },
+  {
+    "name": "Jichinsai",
+    "input": "TGK 3",
+    "hit_level": "M?",
+    "damage": "30",
+    "startup": "i22~23",
+    "block": "",
+    "hit": "+3d?",
+    "counter": "",
+    "note": "\nChip damage on block\n\n",
+    "alternateInputs": [
+      "TGK 3"
+    ]
+  },
+  {
+    "name": "",
+    "input": "TGK 4",
+    "hit_level": "L",
+    "damage": "15",
+    "startup": "i19~20",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "TGK 4"
+    ]
+  },
+  {
+    "name": "",
+    "input": "TGK 4,DF+4",
+    "hit_level": "L,L",
+    "damage": "15,10",
+    "startup": ",i24",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "TGK 4,DF+4"
+    ]
+  },
+  {
+    "name": "Spinning Demon",
+    "input": "TGK 4,DF+4,4",
+    "hit_level": "L,L,L",
+    "damage": "15,10,10?",
+    "startup": ",i24",
+    "block": "",
+    "hit": "+15a",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "TGK 4,DF+4,4"
+    ]
+  },
+  {
+    "name": "Thunder Broken Toy",
+    "input": "TGK 1+3",
+    "hit_level": "t",
+    "damage": "30",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nUnbreakable\n\n",
+    "alternateInputs": [
+      "TGK 1+3"
+    ]
+  },
+  {
+    "name": "Wind God's Kamae",
+    "input": "d+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "d+1+2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "WGK 1",
+    "hit_level": "h",
+    "damage": "13",
+    "startup": "i12~13",
+    "block": "",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "WGK 1"
+    ]
+  },
+  {
+    "name": "Wind God Hasai Rengeki",
+    "input": "WGK 1,1",
+    "hit_level": "h,h",
+    "damage": "13,20",
+    "startup": ",i17~18",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases ? level by 1\n\n",
+    "alternateInputs": [
+      "WGK 1,1"
+    ]
+  },
+  {
+    "name": "Wind God Tettsui",
+    "input": "WGK 1,2",
+    "hit_level": "h,m",
+    "damage": "13,24",
+    "startup": ",i21~22",
+    "block": "",
+    "hit": "+13a",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
+    "alternateInputs": [
+      "WGK 1,2"
+    ]
+  },
+  {
+    "name": "Hidden Wind God Fist",
+    "input": "WGK 2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "+75a (+59)",
+    "counter": "",
+    "note": "\n\nTornado\nChip damage on block\n\n",
+    "alternateInputs": [
+      "WGK 2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "WGK 3",
+    "hit_level": "m",
+    "damage": "17",
+    "startup": "i28~29",
+    "block": "",
+    "hit": "+75a (+59)",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "WGK 3"
+    ]
+  },
+  {
+    "name": "Wind God Hell Axle",
+    "input": "WGK 3,4",
+    "hit_level": "m,m",
+    "damage": "17,20?",
+    "startup": ",i20~21",
+    "block": "",
+    "hit": "+30a (+23)",
+    "counter": "",
+    "note": "\n\nStrong Aerial Tailspin\n\nBalcony Break\nChip damage on block\n\n",
+    "alternateInputs": [
+      "WGK 3,4"
+    ]
+  },
+  {
+    "name": "Wind God Geta Stomp",
+    "input": "WGK 4",
+    "hit_level": "L",
+    "damage": "20",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "-4",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "WGK 4"
+    ]
+  },
+  {
+    "name": "Tengu's Wings",
+    "input": "WGK 1+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i18~19",
+    "block": "",
+    "hit": "+6a (-3)",
+    "counter": "",
+    "note": "\n\nHoming\n\nBalcony Break\n\n",
+    "alternateInputs": [
+      "WGK 1+2"
+    ]
+  },
+  {
+    "name": "Fire Starter",
+    "input": "WGK 1+3",
+    "hit_level": "t",
+    "damage": "15",
+    "startup": "i18",
+    "block": "",
+    "hit": "+7",
+    "counter": "",
+    "note": "\n\nHoming\nUnbreakable\n\n",
+    "alternateInputs": [
+      "WGK 1+3"
+    ]
+  },
+  {
+    "name": "Wind God Step",
+    "input": "WGK DF",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "WGK DF"
+    ]
+  },
+  {
+    "name": "Ultimate Flash Punch Combo",
+    "input": "1,1,WIN 2",
+    "hit_level": "h,h,m",
+    "damage": "5,6,20",
+    "startup": ",i10",
+    "block": "",
+    "hit": "28a (+2)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nSometimes written WIN.1,1,2\n",
+    "alternateInputs": [
+      "1,1,WIN 2"
+    ]
+  },
+  {
+    "name": "Ultimate Demon Basara",
+    "input": "1,b+2,WIN 2",
+    "hit_level": "h,m,m",
+    "damage": "5,17,22",
+    "startup": ",i25~26",
+    "block": "",
+    "hit": "23a (+13)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nChip damage on block\nRemoves opponent's recoverable health on hit\nSometimes written WIN.1,b+2,2\n",
+    "alternateInputs": [
+      "1,b+2,WIN 2"
+    ]
+  },
+  {
+    "name": "Ultimate Demon Breath",
+    "input": "WIN 1+2",
+    "hit_level": "m",
+    "damage": "34",
+    "startup": "i12",
+    "block": "",
+    "hit": "+32a (+24)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip Damage on block\n\n",
+    "alternateInputs": [
+      "WIN 1+2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "WIN 1+4",
+    "hit_level": "sm?",
+    "damage": "[10;10]",
+    "startup": "i17",
+    "block": "",
+    "hit": "+21c",
+    "counter": "",
+    "note": "\n\nBalcony Break\nPower up with higher levels?\n\n",
+    "alternateInputs": [
+      "WIN 1+4"
+    ]
+  },
+  {
+    "name": "Ultimate Muso Renken",
+    "input": "df+2,WIN 1",
+    "hit_level": "m,m",
+    "damage": "8,20",
+    "startup": ",i20~21",
+    "block": "",
+    "hit": "+66a (+50)",
+    "counter": "",
+    "note": "\n\nTornado\nCombo from 1st hit\nChip Damage on block\nSometimes written WIN.df+2,1\n",
+    "alternateInputs": [
+      "df+2,WIN 1"
+    ]
+  },
+  {
+    "name": "Ultimate Demon God Fist",
+    "input": "WIN f,F+2",
+    "hit_level": "M?",
+    "damage": "30",
+    "startup": "i19~21",
+    "block": "",
+    "hit": "+37a (+27)",
+    "counter": "",
+    "note": "\n\nTornado\nChip Damage on block\n\n",
+    "alternateInputs": [
+      "WIN f,F+2"
+    ]
+  },
+  {
+    "name": "Ultimate Demon God Fist",
+    "input": "WIN f,F+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i20~22",
+    "block": "",
+    "hit": "+56a",
+    "counter": "",
+    "note": "\n\nTornado\nChip Damage on block\n\n",
+    "alternateInputs": [
+      "WIN f,F+2"
+    ]
+  },
+  {
+    "name": "Ultimate Spinning Demon",
+    "input": "WIN f,n,d,DF+4",
+    "hit_level": "L",
+    "damage": "17",
+    "startup": "i16~17",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "WIN f,n,d,DF+4"
+    ]
+  },
+  {
+    "name": "Ultimate Hidden Thunder God Fist",
+    "input": "WIN TGK 1",
+    "hit_level": "M?",
+    "damage": "42",
+    "startup": "i17~19",
+    "block": "",
+    "hit": "+12a (+2)",
+    "counter": "",
+    "note": "\nChip damage on block\n\n",
+    "alternateInputs": [
+      "WIN TGK 1"
+    ]
+  },
+  {
+    "name": "Ultimate Hidden Wind God Fist",
+    "input": "WIN TWK 1",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "+75a (+59)",
+    "counter": "",
+    "note": "\n\nTornado\nChip damage on block\n\n",
+    "alternateInputs": [
+      "WIN TWK 1"
+    ]
+  },
+  {
+    "name": "Mishima Style Ultimate Technique - Tempest Dragon God Fist",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nRage Art\n\nReversal Break\nEreases opponent's recoverable health on hit\nDamage increases with lower health, maximum 80\nTransition to attack throw on hit\nConsumes Rage\n",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
+  },
+  {
+    "name": "\nKi Charge\nSupercharger\n",
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\nCan't block for 5 seconds\nCH state for 5 seconds\n",
+    "alternateInputs": [
+      "1+2+3+4"
+    ]
+  },
+  {
+    "name": "Nail Beating",
+    "input": "SS 2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i23~24",
+    "block": "",
+    "hit": "+9",
+    "counter": "",
+    "note": "\nEnter Thunder God's Kamae with F\n\n",
+    "alternateInputs": [
+      "SS 2"
+    ]
   }
 ]
