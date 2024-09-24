@@ -6,9 +6,9 @@
     "damage": "37",
     "startup": "i16",
     "block": "+1",
-    "hit": "+2",
+    "hit": "+2c",
     "counter": "",
-    "note": "\n\nHeat Burst\n",
+    "note": "\n\nHeat Burst\nCancel to r45 with b,b\n3 chip damage on block\n12 chip damage on hit\nOnly deals recoverable damage\nCannot cause a K.O.\n\n",
     "alternateInputs": [
       "2+3"
     ]
@@ -16,13 +16,13 @@
   {
     "name": "Triple Ascension Kicks",
     "input": "in heat 2+3",
-    "hit_level": "m,th",
-    "damage": "12,3",
+    "hit_level": "m,t",
+    "damage": "12,11,27",
     "startup": "i16",
-    "block": "+10",
+    "block": "+10g",
     "hit": "-6",
     "counter": "",
-    "note": "\n\nHeat Smash\nThrow on hit\n",
+    "note": "\n\nHeat Smash\n\nFloor Break\n17 chip damage on block\nTransition to attack throw on hit\n+15a if only the last hit connects\n+11d (-24) if only the last two hits connect\n2nd hit damage 11 > 18 if 1st hit whiffs\n3rd hit damage 27 > 30 if 1st hit whiffs\nHit level becomes m,m,m on block/whiff\n\n",
     "alternateInputs": [
       "in heat 2+3"
     ]
@@ -32,11 +32,11 @@
     "input": "f+1+2",
     "hit_level": "h",
     "damage": "26",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-9",
-    "hit": "+19a (+9)/HE",
+    "hit": "+19a (+9)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAbsorb an attack to power up\nchip damage on block\nGain Naniwa Gusto on Heat activation\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +43a (+35), +5\n\n\nBalcony Break\n+0 on block after absorbing an attack\nChip damage on block after attack absorption\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": [
       "f+1+2"
     ]
@@ -50,7 +50,7 @@
     "block": "-4c",
     "hit": "+9c",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +67a (+50), +5 on block\n\n\nSpike\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "d+2"
     ]
@@ -60,11 +60,11 @@
     "input": "db+1,2",
     "hit_level": "m,h",
     "damage": "13,20",
-    "startup": "i26~27",
+    "startup": ",i26~27",
     "block": "-9",
     "hit": "+22a (+13)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nGain Naniwa Gusto on Heat activation\nCombo from 1st hit\nCan be delayed 9F\nCombo can be delayed 9F from hit\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +34a (+27), +5\n\n\nBalcony Break\nCombo from 1st hit with 8f delay\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "db+1,2"
     ]
@@ -74,27 +74,27 @@
     "input": "SS 2",
     "hit_level": "m",
     "damage": "23",
-    "startup": "i13",
+    "startup": "i13~14",
     "block": "-13",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\nGain NWG on Heat activation\nBalcony break on airborne hit\n\n",
     "alternateInputs": [
       "SS 2"
     ]
   },
   {
     "name": "Compulsory Reform",
-    "input": "f+1+3_f+2+4,2",
-    "hit_level": "t(h),m",
-    "damage": "0,20",
+    "input": "DST 2",
+    "hit_level": "m",
+    "damage": "20",
     "startup": "i19",
     "block": "-3",
-    "hit": "+8a/HE",
+    "hit": "+8a",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat Activation\nChip on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\n\nBalcony Break\n\nElbow\nGain NWG on Heat Activation\nChip damage on blockSometimes written \nf+1+3,2\nDestabilizer.2\n\n",
     "alternateInputs": [
-      "f+1+3_f+2+4,2"
+      "DST 2"
     ]
   },
   {
@@ -116,11 +116,11 @@
     "input": "1,1",
     "hit_level": "h,m",
     "damage": "6,15",
-    "startup": "i24",
+    "startup": ",i24",
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 1st CH\nLinks to f+1\n\n",
+    "note": "\nCombo from 1st CH with 3f delay\nLinks to f+1 extensions\nInterrupt with i4 from 1st block\n\n",
     "alternateInputs": [
       "1,1"
     ]
@@ -130,11 +130,11 @@
     "input": "1,1,3",
     "hit_level": "h,m,m",
     "damage": "6,15,17",
-    "startup": "i21~22",
+    "startup": ",i21~22",
     "block": "-5",
     "hit": "+6",
     "counter": "+14c",
-    "note": "Can be delayed",
+    "note": "\nCombo from 2nd CH with 9f delay\nInput can be delayed 10f\n\n",
     "alternateInputs": [
       "1,1,3"
     ]
@@ -144,11 +144,11 @@
     "input": "1,2",
     "hit_level": "h,m",
     "damage": "6,9",
-    "startup": "i22~23",
+    "startup": ",i22~23",
     "block": "-8",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st hit\n",
+    "note": "\nCombo from 1st hit\nCombo from 1st CH with 3f delay\n",
     "alternateInputs": [
       "1,2"
     ]
@@ -158,13 +158,27 @@
     "input": "1,2,3",
     "hit_level": "h,m,m",
     "damage": "6,9,24",
-    "startup": "i31~33",
+    "startup": ",i31~33",
     "block": "-2",
     "hit": "+29a (+20)",
     "counter": "",
-    "note": "\nChip on block\nLink to f+4\nCan interrupt with up to i15 if previous hit is blocked\nCancel with input 1,2,3,B\nLast input can be held to power up\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r18 with B\nInterrupt with i15 from 2nd block\nLast input can be held to power up\n",
     "alternateInputs": [
       "1,2,3"
+    ]
+  },
+  {
+    "name": "Jab Uppercut > Spinning Heel Drop (Hold)",
+    "input": "1,2,3*",
+    "hit_level": "h,m,m",
+    "damage": "6,9,26",
+    "startup": ",i52~53",
+    "block": "+6",
+    "hit": "+28a (+19)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r15 with B\nInterrupt with i36 from 2nd block\n",
+    "alternateInputs": [
+      "1,2,3*"
     ]
   },
   {
@@ -172,11 +186,11 @@
     "input": "1,2,4",
     "hit_level": "h,m,m",
     "damage": "6,9,20",
-    "startup": "i18~19",
+    "startup": ",i18~19",
     "block": "-12",
-    "hit": "+12a",
+    "hit": "+12s",
     "counter": "",
-    "note": "Combo from 2nd CH\n",
+    "note": "\nCombo from 1st CH\nCombo from 2nd CH with 1f delay\n\n",
     "alternateInputs": [
       "1,2,4"
     ]
@@ -186,11 +200,11 @@
     "input": "1,3",
     "hit_level": "h,l",
     "damage": "6,10",
-    "startup": "i21",
+    "startup": ",i21",
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "\nCombo from 1st hit\n",
+    "note": "\nCombo from 1st hit with 2f delay\nCombo from 1st CH with 3f delay\n",
     "alternateInputs": [
       "1,3"
     ]
@@ -201,8 +215,8 @@
     "hit_level": "h",
     "damage": "9",
     "startup": "i12",
-    "block": "-11",
-    "hit": "+0",
+    "block": "-7",
+    "hit": "+2",
     "counter": "",
     "note": "\n",
     "alternateInputs": [
@@ -214,11 +228,11 @@
     "input": "2,1",
     "hit_level": "h,h",
     "damage": "9,10",
-    "startup": "i18~19",
-    "block": "-3",
-    "hit": "+8",
+    "startup": ",i18~19",
+    "block": "-6",
+    "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st hit\nJails\n",
+    "note": "\n\nElbow\nJail from 1st attack with 1f delay\n",
     "alternateInputs": [
       "2,1"
     ]
@@ -228,11 +242,11 @@
     "input": "2,1,2",
     "hit_level": "h,h,m",
     "damage": "9,10,16",
-    "startup": "i26~27",
+    "startup": ",i26~27",
     "block": "-10",
     "hit": "+16a (-1)",
     "counter": "",
-    "note": "Tornado\n",
+    "note": "\n\nTornado\n\nBalcony Break\nCombo from 2nd CH with 1f delay\nInterrupt with i8 from 2nd block\n\n",
     "alternateInputs": [
       "2,1,2"
     ]
@@ -242,11 +256,11 @@
     "input": "2,1,d+1+2",
     "hit_level": "h,h,m",
     "damage": "9,10,23",
-    "startup": "i28~30",
+    "startup": ",i28~30",
     "block": "-9",
     "hit": "+3c",
     "counter": "+38a",
-    "note": "\nCombo from 2nd CH\nCancel to standing with input 2,1,d+1+2,B\nCancel to FC with input 2,1,d+1+2,D\n",
+    "note": "\n\nSpike\nCombo from 2nd CH with 1f delay\nCancel to r20 with B\nCancel to FC with D\nInterrupt with i10 from 2nd block\n",
     "alternateInputs": [
       "2,1,d+1+2"
     ]
@@ -256,11 +270,11 @@
     "input": "2,3",
     "hit_level": "h,m",
     "damage": "9,16",
-    "startup": "i22~23",
-    "block": "-19",
-    "hit": "+14gc",
+    "startup": ",i22~23",
+    "block": "-17",
+    "hit": "+14g",
     "counter": "",
-    "note": "Combo from 1st hit\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 1f delay\nOpponent recovers crouching on hit\n\n",
     "alternateInputs": [
       "2,3"
     ]
@@ -284,11 +298,11 @@
     "input": "3,1",
     "hit_level": "m,m",
     "damage": "17,17",
-    "startup": "i18~19",
+    "startup": ",i18~19",
     "block": "-11",
     "hit": "+8",
     "counter": "+35a (+27)",
-    "note": "\nCombo from 1st hit\nCan be delayed 14f\nCombo can be delayed 14f from hit\n\n",
+    "note": "\nCombo from 1st hit with 14f delay\nInput can be delayed 14f\nMove can be delayed 10f\nBalcony break on CH\n\n",
     "alternateInputs": [
       "3,1"
     ]
@@ -299,10 +313,10 @@
     "hit_level": "h",
     "damage": "18",
     "startup": "i11",
-    "block": "-7",
+    "block": "-9",
     "hit": "+7",
     "counter": "+32a",
-    "note": "\n",
+    "note": "Balcony break on CH\n",
     "alternateInputs": [
       "4"
     ]
@@ -312,7 +326,7 @@
     "input": "1+2",
     "hit_level": "m",
     "damage": "21",
-    "startup": "i16~17",
+    "startup": "i16",
     "block": "-9",
     "hit": "+27a",
     "counter": "",
@@ -324,13 +338,13 @@
   {
     "name": "Ryuuntsui",
     "input": "3+4",
-    "hit_level": "mm",
+    "hit_level": "m,M",
     "damage": "10,21",
-    "startup": "i23",
+    "startup": "i23~24 i6~8",
     "block": "-6",
-    "hit": "+25d",
+    "hit": "+25a",
     "counter": "",
-    "note": "\nSpecial effect when hitting grounded opponents\nCancel to FC with input 3+4,D\n\n",
+    "note": "\n\nSpike\nCancel to FC with D\nr44 on grounded hit\n\n",
     "alternateInputs": [
       "3+4"
     ]
@@ -340,11 +354,11 @@
     "input": "1+4",
     "hit_level": "sl,h",
     "damage": "5,8",
-    "startup": "i14,i17",
-    "block": "-19",
-    "hit": "-8",
-    "counter": "",
-    "note": "\nJails\nCombo from 1st CH\n2nd hit when blocked is -3, on hit is +9\n\n",
+    "startup": "i14 i17",
+    "block": "-3",
+    "hit": "-3",
+    "counter": "+4",
+    "note": "\nJail from 1st attack\n\n",
     "alternateInputs": [
       "1+4"
     ]
@@ -354,7 +368,7 @@
     "input": "1+4,2",
     "hit_level": "sl,h,h",
     "damage": "5,8,10",
-    "startup": "i19",
+    "startup": ",i19",
     "block": "-2",
     "hit": "+9",
     "counter": "",
@@ -368,11 +382,11 @@
     "input": "1+4,2,4",
     "hit_level": "sl,h,h,m",
     "damage": "5,8,10,26",
-    "startup": "i24",
+    "startup": ",i24",
     "block": "-9",
     "hit": "+4",
     "counter": "+17a (+8)",
-    "note": "\nCombo from 3rd CH\n\n",
+    "note": "\nCombo from 3rd CH\nBalcony break on CH\n\n",
     "alternateInputs": [
       "1+4,2,4"
     ]
@@ -380,9 +394,9 @@
   {
     "name": "White Heron Lower Dance",
     "input": "1+4,2,d+4",
-    "hit_level": "sl,h,h,l",
+    "hit_level": "sl,h,h,L",
     "damage": "5,8,10,15",
-    "startup": "i24~25",
+    "startup": ",i24~25",
     "block": "-23",
     "hit": "+27d",
     "counter": "",
@@ -396,11 +410,11 @@
     "input": "1+4,3",
     "hit_level": "sl,h,m",
     "damage": "5,8,25",
-    "startup": "i31~33",
+    "startup": ",i31~33",
     "block": "-2",
     "hit": "+29a (+20)",
     "counter": "",
-    "note": "\nChip on block\nLink to attack from Spinning Heel Drop (f+3)\nCan be cancelled with input B\nLast input can be held to power up\n\n",
+    "note": "\n\nBalcony Break\nChip on block\nCancel to r18 with B\nInterrupt with i18 from 2nd block\nLast input can be held to power up\nLink to attack from Spinning Heel Drop (f+3)\n\n",
     "alternateInputs": [
       "1+4,3"
     ]
@@ -427,8 +441,8 @@
     "startup": ",i21~22",
     "block": "-5",
     "hit": "+6",
-    "counter": "",
-    "note": "Can be delayed",
+    "counter": "+14c",
+    "note": "\nCombo from 1st CH with 9f delay\nInput can be delayed 10f\n\n",
     "alternateInputs": [
       "f+1,3"
     ]
@@ -436,13 +450,13 @@
   {
     "name": "Whiplash Sacred Blade",
     "input": "f+1,4",
-    "hit_level": "m,l",
+    "hit_level": "m,L",
     "damage": "17,26",
-    "startup": "i25~27",
+    "startup": ",i25~27",
     "block": "-26",
-    "hit": "+24",
+    "hit": "+24a",
     "counter": "",
-    "note": "\n\nHoming\nCombo from 1st CH\nCan be delayed 15F\nCombo can be delayed 5F from CH\nInterruption 11F after 1st block\n\n",
+    "note": "\n\nHoming\nCombo from 1st CH\nInput can be delayed 15f\nInterrupt with i11 from 1st block\nCancel to FC -24 -13 r43? with DB\n\n",
     "alternateInputs": [
       "f+1,4"
     ]
@@ -450,13 +464,13 @@
   {
     "name": "Demon Slayer",
     "input": "f+2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "20",
-    "startup": "i17",
+    "startup": "i17~18",
     "block": "-18",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nCan be cancelled with input f+2,D\nGain NWG on hit with input f+2,1\nSometimes written Tooth Fairy\n",
+    "note": "\nCancel to r11 FC with D\nGain NWG on hit with 1\nhit advantage becomes +26a (+16) on NWG gain\nSometimes written Tooth Fairy\n",
     "alternateInputs": [
       "f+2"
     ]
@@ -470,37 +484,37 @@
     "block": "-2~+0",
     "hit": "+29a (+20)",
     "counter": "",
-    "note": "\nChip damage when guarded\nCan be cancelled with input B\n\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r33 with B\n\n",
     "alternateInputs": [
       "f+3"
     ]
   },
   {
     "name": "Spinning Heel Drop (Two Spins)",
-    "input": "f+3*n",
+    "input": "f+3*",
     "hit_level": "m",
     "damage": "26",
     "startup": "i52~i53",
     "block": "+6~+7",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "\nChip damage when guarded\nCan be cancelled with input B\n\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r55? with B\n\n",
     "alternateInputs": [
-      "f+3*n"
+      "f+3*"
     ]
   },
   {
     "name": "Spinning Heel Drop (Three Spins)",
-    "input": "f+3*",
-    "hit_level": "ub(m)",
+    "input": "f+3**",
+    "hit_level": "m!",
     "damage": "28",
-    "startup": "i70",
+    "startup": "i70~71",
     "block": "+28a (+19)",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCan be cancelled with input B\n\n",
+    "note": "\n\nBalcony Break\nCancel to r58? with B\n\n",
     "alternateInputs": [
-      "f+3*"
+      "f+3**"
     ]
   },
   {
@@ -508,11 +522,11 @@
     "input": "f+4",
     "hit_level": "h",
     "damage": "21",
-    "startup": "i19",
+    "startup": "i19~21",
     "block": "+3",
-    "hit": "+28",
-    "counter": "+28d",
-    "note": "\n\nHoming\n",
+    "hit": "+28a",
+    "counter": "",
+    "note": "\n\nHoming\nBalcony break on CH\n",
     "alternateInputs": [
       "f+4"
     ]
@@ -522,11 +536,11 @@
     "input": "f+1+2",
     "hit_level": "h",
     "damage": "26",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-9",
-    "hit": "+19a (+9)/HE",
+    "hit": "+19a (+9)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nAbsorb an attack to power up\nchip damage on block\nGain Naniwa Gusto on Heat activation\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +43a (+35), +5\n\n\nBalcony Break\n+0 on block after absorbing an attack\nChip damage on block after attack absorption\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": [
       "f+1+2"
     ]
@@ -534,13 +548,13 @@
   {
     "name": "Spinning Heel Chop > Naniwa Gusto",
     "input": "f+3+4",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "27",
     "startup": "i29~30",
     "block": "-1",
-    "hit": "-2(-11)",
+    "hit": "+18a (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage when guarded (8)\nOn hit, gain Naniwa Gusto\nIf you already have Naniwa Gusto it's 18a(+9) on hit\n\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nGain NWG on hit\n-2a (-11) on hit after NWG gain\n\n",
     "alternateInputs": [
       "f+3+4"
     ]
@@ -550,11 +564,11 @@
     "input": "f+2+3",
     "hit_level": "h",
     "damage": "21",
-    "startup": "i23",
+    "startup": "i23~24",
     "block": "+0",
-    "hit": "+25d",
+    "hit": "+25a",
     "counter": "",
-    "note": "\n\nBalcony Break\nSabaki\nAbsorbs Punch (H/M) during 4 to 15F\nStun on success punch parry\n\n",
+    "note": "\n\nBalcony Break\nSabaki, parries high or mid punches\n+51a on a successful parry\n\n",
     "alternateInputs": [
       "f+2+3"
     ]
@@ -564,7 +578,7 @@
     "input": "df+1",
     "hit_level": "m",
     "damage": "10",
-    "startup": "i13",
+    "startup": "i13~14",
     "block": "-3",
     "hit": "+8",
     "counter": "",
@@ -576,13 +590,13 @@
   {
     "name": "Falling Tower",
     "input": "df+1,2",
-    "hit_level": "m,h(,th)",
-    "damage": "10,13(,25)",
-    "startup": "i13",
-    "block": "-1",
-    "hit": "Th",
-    "counter": "Th",
-    "note": "\n\nSpike\nCombo from 1st CH\nCan be delayed 7F\nDamage () is Throw bonus\n\n",
+    "hit_level": "m,h,t",
+    "damage": "10,13,25",
+    "startup": ",i22",
+    "block": "-3",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nFloor Break\nCombo from 1st CH with 2f delay\nCombo from 1st hit when off-axis to the left or right\nInput can be delayed 7f\n+18a on off-axis hit, +16a on BT hit\nTransition to attack throw on standing front hit\nWon't transition to throw if opponent is too far (Jack-8 range 3.3~), gives +13 on hit instead\n\n",
     "alternateInputs": [
       "df+1,2"
     ]
@@ -592,11 +606,11 @@
     "input": "df+1,4",
     "hit_level": "m,m",
     "damage": "10,22",
-    "startup": "i13",
+    "startup": ",i23~24",
     "block": "-12",
     "hit": "+22a (+17)",
     "counter": "+59a",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nCan be delayed 7F\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st CH with 1f delay\nInput can be delayed 7f\n\n",
     "alternateInputs": [
       "df+1,4"
     ]
@@ -606,11 +620,11 @@
     "input": "df+2",
     "hit_level": "m",
     "damage": "14",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-6",
     "hit": "+35a (+25)",
     "counter": "",
-    "note": "+5 upon crouch hit\n",
+    "note": "+5s on crouch hit\n",
     "alternateInputs": [
       "df+2"
     ]
@@ -618,11 +632,11 @@
   {
     "name": "Kagamino",
     "input": "df+3",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "23",
-    "startup": "i20",
+    "startup": "i20~21",
     "block": "-8",
-    "hit": "+12d",
+    "hit": "+12a",
     "counter": "",
     "note": "Balcony Break\n",
     "alternateInputs": [
@@ -646,13 +660,13 @@
   {
     "name": "Sacred Blade",
     "input": "df+3+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "22",
-    "startup": "i28",
+    "startup": "i28~30",
     "block": "-26",
     "hit": "+70a (+54)",
     "counter": "",
-    "note": "\n\nHoming\nAlternate input: 3~4\nCancel to FC with input df+3+4,DB\n\n",
+    "note": "\n\nHoming\nAlternate input: 3~4\nCancel to r47? FC with DB\n\n",
     "alternateInputs": [
       "df+3+4"
     ]
@@ -666,7 +680,7 @@
     "block": "-4c",
     "hit": "+9c",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +67a (+50), +5 on block\n\n\nSpike\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "d+2"
     ]
@@ -674,13 +688,13 @@
   {
     "name": "Sashiro",
     "input": "d+1+2",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "20",
     "startup": "i20",
     "block": "-18",
-    "hit": "+11d",
+    "hit": "+11a",
     "counter": "",
-    "note": "Same move as FC.1+2\n",
+    "note": "Spike\n",
     "alternateInputs": [
       "d+1+2"
     ]
@@ -690,11 +704,11 @@
     "input": "d+3+4",
     "hit_level": "l,h",
     "damage": "5,20",
-    "startup": "i14",
-    "block": "-25",
+    "startup": "i14 i9~12",
+    "block": "-8",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\nBlock frame is blocked 1st attack\n-6F upon 2nd block\nSometimes written Can Cans\n",
+    "note": "\nCombo from 1st CH\n-25 if 1st hit is blocked\nSometimes written Can Cans\n",
     "alternateInputs": [
       "d+3+4"
     ]
@@ -706,7 +720,7 @@
     "damage": "13",
     "startup": "i14",
     "block": "-10",
-    "hit": "+7",
+    "hit": "+6",
     "counter": "",
     "note": "\n",
     "alternateInputs": [
@@ -718,11 +732,11 @@
     "input": "db+1,2",
     "hit_level": "m,h",
     "damage": "13,20",
-    "startup": "i26~27",
+    "startup": ",i26~27",
     "block": "-9",
     "hit": "+22a (+13)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nBalcony Break\nGain Naniwa Gusto on Heat activation\nCombo from 1st hit\nCan be delayed 9F\nCombo can be delayed 9F from hit\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +34a (+27), +5\n\n\nBalcony Break\nCombo from 1st hit with 8f delay\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "db+1,2"
     ]
@@ -732,11 +746,11 @@
     "input": "db+1,4",
     "hit_level": "m,m",
     "damage": "13,25",
-    "startup": "i28~29",
+    "startup": ",i28~29",
     "block": "-15",
     "hit": "+16a (+9)",
     "counter": "",
-    "note": "Tornado\n",
+    "note": "\n\nTornado\nCombo from 1st hit\n\n",
     "alternateInputs": [
       "db+1,4"
     ]
@@ -746,7 +760,7 @@
     "input": "db+2",
     "hit_level": "m",
     "damage": "22",
-    "startup": "i20",
+    "startup": "i20~21",
     "block": "-11",
     "hit": "+32a (+22)",
     "counter": "",
@@ -758,7 +772,7 @@
   {
     "name": "Enchanted Circle",
     "input": "db+3",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "17",
     "startup": "i20",
     "block": "-12",
@@ -772,13 +786,13 @@
   {
     "name": "",
     "input": "db+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "14",
-    "startup": "i21",
+    "startup": "i22~24",
     "block": "-11",
     "hit": "+0",
     "counter": "+3",
-    "note": "Cancel to FC with input D\n",
+    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "db+4"
     ]
@@ -786,13 +800,13 @@
   {
     "name": "",
     "input": "db+4,4",
-    "hit_level": "l,l",
+    "hit_level": "L,L",
     "damage": "14,15",
-    "startup": "i31~33",
+    "startup": ",i31~33",
     "block": "-7",
     "hit": "+4",
-    "counter": "+35d",
-    "note": "Cancel to FC with input D\n",
+    "counter": "+35a",
+    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "db+4,4"
     ]
@@ -800,43 +814,43 @@
   {
     "name": "Leg Cutter",
     "input": "db+4,4,4",
-    "hit_level": "l,l,l",
+    "hit_level": "L,L,L",
     "damage": "14,15,16",
-    "startup": "i31~33",
+    "startup": ",i31~33",
     "block": "-7",
     "hit": "+4",
-    "counter": "+35d",
-    "note": "Cancel to FC with input D\n",
+    "counter": "+35a",
+    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "db+4,4,4"
     ]
   },
   {
     "name": "Kariashi Shiranui",
-    "input": "(During Leg Cutter),3",
-    "hit_level": "h",
-    "damage": "21",
-    "startup": "i17",
+    "input": "db+4,3",
+    "hit_level": "L,h",
+    "damage": "14,21",
+    "startup": ",i17",
     "block": "-3",
     "hit": "+39a (+29)",
     "counter": "",
-    "note": "CH combo from Leg Cutter\n",
+    "note": "Combo from 1st CH with 1f delaySometimes written (During Leg Cutter).3\n",
     "alternateInputs": [
-      "(During Leg Cutter),3"
+      "db+4,3"
     ]
   },
   {
     "name": "Kariashi Hakuro",
-    "input": "(During Leg Cutter),1+4",
-    "hit_level": "sl,h",
-    "damage": "5,8",
-    "startup": "i22,i17",
-    "block": "-19",
+    "input": "db+4,1+4",
+    "hit_level": "L,sl,h",
+    "damage": "14,5,8",
+    "startup": ",i22 i17",
+    "block": "--3",
     "hit": "+9",
     "counter": "",
-    "note": "\nJails\nLink to attack to White Heron ()\nBlock frame is blocked 1st attack\n-3F upon 2nd block\n\n",
+    "note": "\nJail from 2nd attack\nLinks to 1+4 string extensions\n-19 if entire string is ducked\nSometimes written (During Leg Cutter).1+4\n",
     "alternateInputs": [
-      "(During Leg Cutter),1+4"
+      "db+4,1+4"
     ]
   },
   {
@@ -844,11 +858,11 @@
     "input": "db+1+2",
     "hit_level": "m,m",
     "damage": "10,20",
-    "startup": "i42,i3",
-    "block": "+10",
+    "startup": "i42 i3",
+    "block": "+10g +25w",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWall Crush  +25g on block \n\nParries lows\n\n",
+    "note": "\n\nBalcony Break\n\nWall Crush +25g on block\n\nSabaki, parries lows except weapons\n\n",
     "alternateInputs": [
       "db+1+2"
     ]
@@ -856,13 +870,13 @@
   {
     "name": "Violet",
     "input": "b+1",
-    "hit_level": "l(,th)",
-    "damage": "17(,22)",
-    "startup": "i29",
+    "hit_level": "L",
+    "damage": "17",
+    "startup": "i29~30",
     "block": "-10",
     "hit": "+6",
-    "counter": "Th",
-    "note": "\nConnect to Sumiregari upon CH\nDamage () is Throw bonus\nCan be cancelled into FC with input D\n\n",
+    "counter": "+0d",
+    "note": "\nTransition to attack throw on CH, +22 damage\nCancel to r14 FC with D\n\n",
     "alternateInputs": [
       "b+1"
     ]
@@ -886,11 +900,11 @@
     "input": "b+2,1",
     "hit_level": "m,m",
     "damage": "12,14",
-    "startup": "i15",
+    "startup": ",i28",
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 1st CH\nLink to attack from Lunging Mist Thrust ()\n\n",
+    "note": "\nCombo from 1st CH\nLinks to f+1 extensions\n\n",
     "alternateInputs": [
       "b+2,1"
     ]
@@ -898,13 +912,13 @@
   {
     "name": "Swallow Mallet Leg Cutter",
     "input": "b+2,4",
-    "hit_level": "m,l",
+    "hit_level": "m,L",
     "damage": "12,14",
-    "startup": "i15",
+    "startup": ",i33~35",
     "block": "-11",
     "hit": "+0",
     "counter": "+3",
-    "note": "\nLink to attack from Leg Cutter ()\nCan be cancelled with input D\n\n",
+    "note": "\nLinks to db+4 extensions\nTransition to r22 FC with D\n\n",
     "alternateInputs": [
       "b+2,4"
     ]
@@ -914,11 +928,11 @@
     "input": "b+2,1+2",
     "hit_level": "m,h",
     "damage": "12,7",
-    "startup": "i36",
+    "startup": ",i21",
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nJails\nCombo from 1st hit\nCan be delayed 12F\nCombo can be delayed 9F from CH\nCan be cancelled with input D\n\n",
+    "note": "\n\nElbow\nJail from 1st attack with 5f delay\nCombo from 1st CH with 9f delay\nInput can be delayed 12F\nCancel to r15 FC with D\n\n",
     "alternateInputs": [
       "b+2,1+2"
     ]
@@ -928,11 +942,11 @@
     "input": "b+2,1+2,4",
     "hit_level": "m,h,m",
     "damage": "12,7,20",
-    "startup": "i36",
+    "startup": ",i23~24",
     "block": "-13",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "\nCombo from 2nd CH\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st CH\nCombo from 2nd CH\n\n",
     "alternateInputs": [
       "b+2,1+2,4"
     ]
@@ -942,7 +956,7 @@
     "input": "b+3",
     "hit_level": "m",
     "damage": "15",
-    "startup": "i16",
+    "startup": "i16~17",
     "block": "-19",
     "hit": "+22a (+12)",
     "counter": "",
@@ -954,13 +968,13 @@
   {
     "name": "Dragon Wheel Kick Demon Slayer",
     "input": "b+3,2",
-    "hit_level": "m,m",
+    "hit_level": "m,M",
     "damage": "15,20",
-    "startup": "i16",
+    "startup": ",i17~18",
     "block": "-20",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nInterruption 23F after 1st block\nCan be cancelled with input D\non hit, gain NWG with input 1\n\n",
+    "note": "\nCancel to r11 with D\nGain NWG on hit with 1\nInterrupt with i23 on 1st block\n\n",
     "alternateInputs": [
       "b+3,2"
     ]
@@ -968,13 +982,13 @@
   {
     "name": "Dragon Wheel Leg Cutter",
     "input": "b+3,4",
-    "hit_level": "m,l",
+    "hit_level": "m,L",
     "damage": "15,14",
-    "startup": "i16",
+    "startup": ",i20~22",
     "block": "-11",
     "hit": "+0",
     "counter": "+3",
-    "note": "\nLink to attack from Leg Cutter ()\nCan be cancelled into FC with input D\n\n",
+    "note": "\nLinks to db+4 extensions\nTransition to r22 FC with D\n\n",
     "alternateInputs": [
       "b+3,4"
     ]
@@ -984,11 +998,11 @@
     "input": "b+4",
     "hit_level": "m",
     "damage": "17",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-7",
     "hit": "+8",
     "counter": "+56a",
-    "note": "\n",
+    "note": "Knee\n",
     "alternateInputs": [
       "b+4"
     ]
@@ -998,11 +1012,11 @@
     "input": "b+4,2",
     "hit_level": "m,m",
     "damage": "17,12",
-    "startup": "i15",
+    "startup": ",i18~19",
     "block": "-12",
     "hit": "+4c",
     "counter": "",
-    "note": "\nCan be delayed 15F\n\n",
+    "note": "\n\nSpike\n\nKnee\nInput can be delayed 14f\n\n",
     "alternateInputs": [
       "b+4,2"
     ]
@@ -1010,51 +1024,51 @@
   {
     "name": "Tsuyababuki",
     "input": "b+4,2,3",
-    "hit_level": "m,m,m",
+    "hit_level": "m,m,M",
     "damage": "17,12,21",
-    "startup": "i15",
+    "startup": ",i20~23",
     "block": "-16",
     "hit": "+15a (-2)",
     "counter": "",
-    "note": "\nCombo from 2nd hit\nCan be delayed 10F\nCombo can be delayed 10F from hit\non hit, can gain NWG with input 1\n\n",
+    "note": "\n\nBalcony Break\nCombo from 2nd hit with 6f delay\nMove can be delayed 3f\nGain NWG on hit with 1\n\n",
     "alternateInputs": [
       "b+4,2,3"
     ]
   },
   {
     "name": "Attack Reversal",
-    "input": "b+1+3_b+2+4",
+    "input": "b+1+3",
     "hit_level": "",
     "damage": "25",
     "startup": "",
-    "block": "-6",
+    "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nDoes 25 + 50% of reversed attack as damage\nOpp. Position on hit: Reverse Pos Foot-sd. Face-up\nReverses limb-based h/m attacks\n",
+    "note": "\nOpponent recovers FUFT\nReverses high or mid attacks\n",
     "alternateInputs": [
-      "b+1+3_b+2+4"
+      "b+1+3"
     ]
   },
   {
     "name": "Attack Reversal (Hold)",
-    "input": "b+1+3*_b+2+4*",
+    "input": "b+1+3*",
     "hit_level": "",
     "damage": "25",
     "startup": "",
-    "block": "-6",
+    "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nDoes 25 + 50% of reversed attack as damage\nOpp. Position on hit: Reverse Pos Foot-sd. Face-up\nReverses limb-based h/m attacks\n",
+    "note": "\nOpponent recovers FUFT\nReverses high or mid attacks\n",
     "alternateInputs": [
-      "b+1+3*_b+2+4*"
+      "b+1+3*"
     ]
   },
   {
     "name": "",
     "input": "b+1+4",
-    "hit_level": "h,l",
+    "hit_level": "h,L",
     "damage": "15,8",
-    "startup": "i12",
+    "startup": "i12 i17~18",
     "block": "-8",
     "hit": "+5",
     "counter": "+7",
@@ -1066,12 +1080,12 @@
   {
     "name": "Reverse Narcissus",
     "input": "b+1+4,3",
-    "hit_level": "h,l,l",
+    "hit_level": "h,L,L",
     "damage": "15,8,18",
-    "startup": "i12",
+    "startup": ",i32~33",
     "block": "-13",
     "hit": "-2",
-    "counter": "+16d",
+    "counter": "+16a",
     "note": "Combo from 2nd CH\n",
     "alternateInputs": [
       "b+1+4,3"
@@ -1080,13 +1094,13 @@
   {
     "name": "Narcissus",
     "input": "b+1+4,4",
-    "hit_level": "h,l,m",
+    "hit_level": "h,L,m",
     "damage": "15,8,23",
-    "startup": "i12",
+    "startup": ",i25~26",
     "block": "-14",
     "hit": "+5b",
-    "counter": "+5b",
-    "note": "\nCombo from 2nd CH\n\n",
+    "counter": "",
+    "note": "\nCombo from 2nd CH\nBalcony break on airborne hit\n\n",
     "alternateInputs": [
       "b+1+4,4"
     ]
@@ -1096,11 +1110,11 @@
     "input": "b+2+3",
     "hit_level": "m",
     "damage": "23",
-    "startup": "i24",
+    "startup": "i24~25",
     "block": "-9",
     "hit": "+6",
     "counter": "",
-    "note": "Sabaki absorbs kicks\n",
+    "note": "\nKick Sabaki, +59a on successful parry\nBalcony break on airborne hit\n",
     "alternateInputs": [
       "b+2+3"
     ]
@@ -1110,11 +1124,11 @@
     "input": "u+1+2",
     "hit_level": "m",
     "damage": "20",
-    "startup": "i31~i32",
+    "startup": "i31~32",
     "block": "-13~-12",
-    "hit": "+19d",
+    "hit": "+19a",
     "counter": "",
-    "note": "\nChip damage when guarded\n\n",
+    "note": "\n\nSpike\nChip damage when guarded\nPower up when using NWG or in Heat\n\n",
     "alternateInputs": [
       "u+1+2"
     ]
@@ -1122,13 +1136,13 @@
   {
     "name": "Sumiyoshi Festival Plunge",
     "input": "NWG u+1+2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "24",
-    "startup": "i31~i32",
+    "startup": "i31~32",
     "block": "+8~+9",
-    "hit": "KDN",
+    "hit": "+18a",
     "counter": "",
-    "note": "\nChip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n\n",
+    "note": "\n\nSpike\nChip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n\n",
     "alternateInputs": [
       "NWG u+1+2"
     ]
@@ -1136,13 +1150,13 @@
   {
     "name": "Rangetsu",
     "input": "uf+2",
-    "hit_level": "h(,th)",
-    "damage": "20(,25)",
+    "hit_level": "h,t",
+    "damage": "20,25",
     "startup": "i14",
-    "block": "-7",
-    "hit": "Th",
-    "counter": "Th",
-    "note": "Damage () is Throw bonus\n",
+    "block": "-1",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nFloor Break\nBalcony break on airborne hit\n+12a on off-axis hit, +10a on BT hit\nTransition to attack throw on standing front hit\nWon't transition to throw if opponent is too far (Jack-8 range 2.7~), gives +7 on hit instead\n\n",
     "alternateInputs": [
       "uf+2"
     ]
@@ -1166,7 +1180,7 @@
     "input": "uf+4",
     "hit_level": "m",
     "damage": "25",
-    "startup": "i20",
+    "startup": "i20~21",
     "block": "-13",
     "hit": "+31a (+21)",
     "counter": "",
@@ -1182,9 +1196,9 @@
     "damage": "30",
     "startup": "i23",
     "block": "+5",
-    "hit": "+14",
+    "hit": "+14c",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nSpike\nChip damage on block\n\n",
     "alternateInputs": [
       "f,F+1"
     ]
@@ -1194,11 +1208,11 @@
     "input": "f,F+2",
     "hit_level": "m",
     "damage": "16",
-    "startup": "i15",
-    "block": "-12",
+    "startup": "i15~16",
+    "block": "-9",
     "hit": "+1",
     "counter": "",
-    "note": "\n\n",
+    "note": "\n\nElbow\n\n",
     "alternateInputs": [
       "f,F+2"
     ]
@@ -1208,11 +1222,11 @@
     "input": "f,F+2,1",
     "hit_level": "m,h",
     "damage": "16,21",
-    "startup": "i15",
+    "startup": ",i21~22",
     "block": "-5",
     "hit": "+45a (-13)",
     "counter": "",
-    "note": "\nCombo from 1st hit\nCan be delayed 13F\nCombo can be delayed 8F from hit\nCombo can be delayed 11F from CH\n\n",
+    "note": "\n\nBalcony Break\n\nElbow\nCombo from 1st hit with 6f delay\nCombo from 1st CH with 10f delay\nInput can be delayed 12f\nMove can be delayed 10f\n\n",
     "alternateInputs": [
       "f,F+2,1"
     ]
@@ -1220,13 +1234,13 @@
   {
     "name": "Yata Kagami",
     "input": "f,F+2,3",
-    "hit_level": "m,m",
+    "hit_level": "m,M",
     "damage": "16,22",
-    "startup": "i15",
+    "startup": ",i27~28",
     "block": "-8",
-    "hit": "+15d",
+    "hit": "+15a",
     "counter": "",
-    "note": "\nCombo from 1st CH\nCan be delayed 13F\nCombo can be delayed 5F from CH\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st CH with 4f delay\nInput can be delayed 12f\nMove can be delayed 10f\n\n",
     "alternateInputs": [
       "f,F+2,3"
     ]
@@ -1234,13 +1248,13 @@
   {
     "name": "Higata no Kagami",
     "input": "f,F+2,1+2",
-    "hit_level": "m,m,sp",
+    "hit_level": "m,m",
     "damage": "16,25",
-    "startup": "i15",
+    "startup": ",i25~26",
     "block": "-13",
     "hit": "+23a (+13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nGain Naniwa Gusto on hit, adv. changes to +0 (-10)\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nCombo from 1st CH with 6f delay\nInput can be delayed 12f\nMove can be delayed 10f\nGain Naniwa Gusto on hit, advantage becomes +0a (-10)\n\n",
     "alternateInputs": [
       "f,F+2,1+2"
     ]
@@ -1250,11 +1264,11 @@
     "input": "f,F+3",
     "hit_level": "m",
     "damage": "23",
-    "startup": "i20",
+    "startup": "i20~21",
     "block": "-9",
     "hit": "+11g",
     "counter": "+35a",
-    "note": "\n\nBalcony Break\n\nHoming\n\n",
+    "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": [
       "f,F+3"
     ]
@@ -1263,12 +1277,12 @@
     "name": "Leaping Spin Kick",
     "input": "f,F+4",
     "hit_level": "h",
-    "damage": "28",
-    "startup": "i20",
+    "damage": "23",
+    "startup": "i20~21",
     "block": "-3",
     "hit": "+66a (+46)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCauses Strong Aerial Tailspin\n\n",
+    "note": "\n\nStrong Aerial Tailspin\n\nBalcony Break\n\n",
     "alternateInputs": [
       "f,F+4"
     ]
@@ -1276,13 +1290,13 @@
   {
     "name": "Tenjin Upward Strike",
     "input": "f,F+1+2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "20",
-    "startup": "i19",
+    "startup": "i19~20",
     "block": "-6",
     "hit": "+29a (+14)",
     "counter": "+68a (+52)",
-    "note": "\nChip damage when guarded\n\nTornado\n\n",
+    "note": "\n\nTornado\nChip damage when on block\nGrounded hit can be inconsistent sometimes\n\n",
     "alternateInputs": [
       "f,F+1+2"
     ]
@@ -1290,13 +1304,13 @@
   {
     "name": "Tenjin Festival Upward Strike",
     "input": "NWG f,F+1+2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "24",
-    "startup": "i19",
+    "startup": "i19~20",
     "block": "+2",
     "hit": "+67a (+51)",
     "counter": "",
-    "note": "\nChip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n\nTornado\n\n",
+    "note": "\n\nTornado\nChip damage on block\nConsumes NWG\nDuring Heat, remaining Heat is consumed\nGrounded hit can be inconsistent sometimes\nUnparryable by traditional parries, Asuka, Nina, etc\n\n",
     "alternateInputs": [
       "NWG f,F+1+2"
     ]
@@ -1309,8 +1323,8 @@
     "startup": "i24~28",
     "block": "+3~+7",
     "hit": "+16a (+7)",
-    "counter": "",
-    "note": "\nChip damage when guarded\nAlternate input: ub,b+3\n\n",
+    "counter": "+48a (+1)",
+    "note": "\n\nBalcony Break\nChip damage on block\n\n",
     "alternateInputs": [
       "f,f,F+3"
     ]
@@ -1320,11 +1334,11 @@
     "input": "f,f,F+1+2",
     "hit_level": "h",
     "damage": "30",
-    "startup": "i17",
+    "startup": "i17~18",
     "block": "+4",
     "hit": "+32a (+6)",
     "counter": "+67a (+51)",
-    "note": "\nChip damage when guarded\n\nHoming\n\nTornado",
+    "note": "\n\nTornado\n\nHoming\n\nBalcony Break\nChip damage on block\nUnparryable by traditional parries, Asuka, Nina, etc\n\n",
     "alternateInputs": [
       "f,f,F+1+2"
     ]
@@ -1334,11 +1348,11 @@
     "input": "NWG f,f,F+1+2",
     "hit_level": "h",
     "damage": "36",
-    "startup": "i17",
+    "startup": "i17~18",
     "block": "+11g",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n\nHoming\n\n",
+    "note": "\n\nTornado\n\nHoming\n\nBalcony Break\nChip damage on block\nConsumes NWG\nDuring Heat, remaining Heat is consumed\nUnparryable by traditional parries, Asuka, Nina, etc\n\n",
     "alternateInputs": [
       "NWG f,f,F+1+2"
     ]
@@ -1374,7 +1388,7 @@
   {
     "name": "Crouch Spin Kick",
     "input": "hFC 3",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "10",
     "startup": "i16",
     "block": "-17",
@@ -1402,13 +1416,13 @@
   {
     "name": "",
     "input": "FC 3+4",
-    "hit_level": "mm",
+    "hit_level": "m,m",
     "damage": "10,10",
-    "startup": "i21",
+    "startup": "i21~22 i9~10",
     "block": "-6",
     "hit": "+5c",
-    "counter": "+5c",
-    "note": "\n",
+    "counter": "",
+    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "FC 3+4"
     ]
@@ -1416,13 +1430,13 @@
   {
     "name": "Twin Cloud Kicks",
     "input": "FC 3+4,3",
-    "hit_level": "mm,mm",
+    "hit_level": "m,m,m,m",
     "damage": "10,10,10,10",
-    "startup": "i21",
+    "startup": ",i31~32 i9~10",
     "block": "+0c",
-    "hit": "+15d",
+    "hit": "+15a",
     "counter": "",
-    "note": "\nInterruption 11F after 2nd block\nCancel into FC with input D\n\n",
+    "note": "\nCombo from 3rd hit\nInterrupt with i11 from 2nd block\nTransition to r22 FC with D\n\n",
     "alternateInputs": [
       "FC 3+4,3"
     ]
@@ -1430,13 +1444,13 @@
   {
     "name": "Grace",
     "input": "FC df+2",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "10",
-    "startup": "i16",
+    "startup": "i16~17",
     "block": "-11",
     "hit": "+0",
     "counter": "+25g",
-    "note": "\nCrumple State 17F upon CH\n\n",
+    "note": "\nOnly i17 or faster guaranteed on CH\n\n",
     "alternateInputs": [
       "FC df+2"
     ]
@@ -1460,7 +1474,7 @@
     "input": "ws1",
     "hit_level": "m",
     "damage": "12",
-    "startup": "i14",
+    "startup": "i14~15",
     "block": "-7",
     "hit": "+4",
     "counter": "",
@@ -1474,11 +1488,11 @@
     "input": "ws1,4",
     "hit_level": "m,h",
     "damage": "12,20",
-    "startup": "i14",
-    "block": "-8",
+    "startup": ",i20",
+    "block": "-4",
     "hit": "+37a (+29)",
     "counter": "",
-    "note": "\nCombo from 1st hit\nCan be delayed 7F\n\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit with 7f delay\nMove can be delayed 6f\n\n",
     "alternateInputs": [
       "ws1,4"
     ]
@@ -1488,11 +1502,11 @@
     "input": "ws2",
     "hit_level": "m",
     "damage": "18",
-    "startup": "i13",
+    "startup": "i13~14",
     "block": "-8",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
+    "note": "Elbow\n",
     "alternateInputs": [
       "ws2"
     ]
@@ -1500,13 +1514,13 @@
   {
     "name": "Kohaku",
     "input": "ws2,1+2",
-    "hit_level": "mh,th",
+    "hit_level": "m,t",
     "damage": "18,8",
-    "startup": "i13",
-    "block": "",
-    "hit": "Th",
+    "startup": ",i24~25",
+    "block": "-5",
+    "hit": "+17",
     "counter": "",
-    "note": "\nCombo from 1st hit\nLink to attack from Destablilizer (f+1+3 or f+2+4)\n\n",
+    "note": "\nCombo from 1st hit with 3f delay\nMove can be delayed 2f\nLinks to Destabilizer (f+1+3_f+2+4) extensions on hit\n+9 on BT hit\n\n",
     "alternateInputs": [
       "ws2,1+2"
     ]
@@ -1514,13 +1528,13 @@
   {
     "name": "",
     "input": "ws2,1",
-    "hit_level": "mh",
+    "hit_level": "m,h",
     "damage": "18,10",
-    "startup": "i13",
+    "startup": ",i22",
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\nCombo from 1st hit\nContinuation into ten string\n\n",
+    "note": "\nCombo from 1st hit with 3f delay\nContinues into 10 strings\n\n",
     "alternateInputs": [
       "ws2,1"
     ]
@@ -1530,9 +1544,9 @@
     "input": "ws3",
     "hit_level": "m",
     "damage": "20",
-    "startup": "i18",
+    "startup": "i18~19",
     "block": "-16",
-    "hit": "Asuka_combos#Staples+35a (+25)",
+    "hit": "+35a (+25)",
     "counter": "",
     "note": "Tornado\n",
     "alternateInputs": [
@@ -1544,11 +1558,11 @@
     "input": "ws4",
     "hit_level": "m",
     "damage": "15",
-    "startup": "i11",
+    "startup": "i11~12",
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
+    "note": "Can hit grounded while up-close and off-axis\n",
     "alternateInputs": [
       "ws4"
     ]
@@ -1560,11 +1574,39 @@
     "damage": "20",
     "startup": "i21",
     "block": "-2",
-    "hit": "+13g",
-    "counter": "+63a",
-    "note": "\n\nWall Crush  +25g on hit\n\nCrumple state 17F upon CH\nCancel into FC with input D\n",
+    "hit": "+13g +25w",
+    "counter": "+14 +63a",
+    "note": "\n\nWall Crush +25g on hit\n\n\nElbow\nCancel to r18 FC with D\n",
     "alternateInputs": [
       "ws1+2"
+    ]
+  },
+  {
+    "name": "Naniwa Peacemaker Knuckle",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ]
+  },
+  {
+    "name": "Naniwa Peacemaker Knuckle (Hold)",
+    "input": "in rage df+1+2**",
+    "hit_level": "m,t",
+    "damage": "60+",
+    "startup": "i56",
+    "block": "+3",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nRage Art\nChip damage on block\nArmored for the full duration\nDamage increases with lower health\nRemoves recoverable health on hit\n",
+    "alternateInputs": [
+      "in rage df+1+2**"
     ]
   },
   {
@@ -1572,11 +1614,11 @@
     "input": "SS 2",
     "hit_level": "m",
     "damage": "23",
-    "startup": "i13",
+    "startup": "i13~14",
     "block": "-13",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat activation\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\nGain NWG on Heat activation\nBalcony break on airborne hit\n\n",
     "alternateInputs": [
       "SS 2"
     ]
@@ -1586,41 +1628,13 @@
     "input": "SS 4",
     "hit_level": "h",
     "damage": "18",
-    "startup": "i17",
-    "block": "-6",
-    "hit": "+7",
+    "startup": "i17~21",
+    "block": "-6~-2",
+    "hit": "+7~+11",
     "counter": "+30a",
-    "note": "Meaty 2F\n",
+    "note": "\n",
     "alternateInputs": [
       "SS 4"
-    ]
-  },
-  {
-    "name": "Naniwa Peacemaker Knuckle",
-    "input": "in rage df+1+2",
-    "hit_level": "m,th",
-    "damage": "10,49",
-    "startup": "i20",
-    "block": "-15",
-    "hit": "+0d",
-    "counter": "",
-    "note": "\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
-    "alternateInputs": [
-      "in rage df+1+2"
-    ]
-  },
-  {
-    "name": "Naniwa Peacemaker Knuckle",
-    "input": "in rage df+1+2**",
-    "hit_level": "m,th",
-    "damage": "60",
-    "startup": "i56",
-    "block": "+3",
-    "hit": "+0d",
-    "counter": "",
-    "note": "\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
-    "alternateInputs": [
-      "in rage df+1+2**"
     ]
   },
   {
@@ -1632,7 +1646,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nCannot block for 5 seconds\nCH state for 5 seconds\n",
+    "note": "\nTransition to Ultimate Tackle throw with 1+2\nCannot block for 5 seconds\nCH state for 5 seconds\n",
     "alternateInputs": [
       "1+2+3+4"
     ]
@@ -1642,8 +1656,8 @@
     "input": "(Back to wall) b,b,UB",
     "hit_level": "m",
     "damage": "21",
-    "startup": "i39",
-    "block": "+4c",
+    "startup": "i39~41",
+    "block": "+4c~+6c",
     "hit": "+22a",
     "counter": "",
     "note": "\n",
@@ -1660,7 +1674,7 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nOpp. Position on break: CCW\nOpp. Position on hit: Reverse Pos., F Sd. FU\n",
+    "note": "\n\nHoming\n\nFloor Break\nThrow break 1 or 2\n",
     "alternateInputs": [
       "1+3"
     ]
@@ -1671,10 +1685,10 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "-3",
+    "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nOpp. Position on break: CCW\nOpp. Position on hit: Head Sd. FD\n",
+    "note": "\n\nHoming\nThrow break 1 or 2\nSide switch on hit\nOpponent recovers FDFA on hit\n",
     "alternateInputs": [
       "2+4"
     ]
@@ -1688,7 +1702,7 @@
     "block": "-3",
     "hit": "-3d",
     "counter": "",
-    "note": "\nThrow break 1\nOpp. Position on break: CCW\nOpp. Position on hit: F Sd. FD\n",
+    "note": "\nThrow break 1\nOpponent recovers FDFT on hit\n",
     "alternateInputs": [
       "Left throw"
     ]
@@ -1702,7 +1716,7 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\nOpp. Position on break:\nOpp. Position on hit: FD F Sd.\n",
+    "note": "\nThrow break 2\nSide switch on hit\nOpponent recovers FUFA on hit\n",
     "alternateInputs": [
       "Right throw"
     ]
@@ -1714,65 +1728,65 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "+0d",
+    "hit": "+7d",
     "counter": "",
-    "note": "\nThrow break: none\nOpp. Position on break: -\nOpp. Position on hit: Head Sd. Face D\n",
+    "note": "\nUnbreakable\nSide switch on hit\nOpponent recovers FDFA on hit\n",
     "alternateInputs": [
       "Back throw"
     ]
   },
   {
-    "name": "Destabilizer",
-    "input": "f+1+3_f+2+4",
-    "hit_level": "t(h)",
+    "name": "Destabilizer (DST)",
+    "input": "f+1+3",
+    "hit_level": "t",
     "damage": "0",
-    "startup": "i19",
+    "startup": "i19~20",
     "block": "",
-    "hit": "+8",
+    "hit": "+17",
     "counter": "",
-    "note": "\nBreak: none\nOpp. Position on break:\nOpp. Position on hit: \n",
+    "note": "\nSometimes written DST\n",
     "alternateInputs": [
-      "f+1+3_f+2+4"
+      "f+1+3"
     ]
   },
   {
     "name": "Compulsory Reform",
-    "input": "f+1+3_f+2+4,2",
-    "hit_level": "t(h),m",
-    "damage": "0,20",
+    "input": "DST 2",
+    "hit_level": "m",
+    "damage": "20",
     "startup": "i19",
     "block": "-3",
-    "hit": "+8a/HE",
+    "hit": "+8a",
     "counter": "",
-    "note": "\n\nHeat Engager\n\nGain Naniwa Gusto on Heat Activation\nChip on block\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\n\nBalcony Break\n\nElbow\nGain NWG on Heat Activation\nChip damage on blockSometimes written \nf+1+3,2\nDestabilizer.2\n\n",
     "alternateInputs": [
-      "f+1+3_f+2+4,2"
+      "DST 2"
     ]
   },
   {
     "name": "Inescapable Tirade",
-    "input": "f+1+3_f+2+4,4",
-    "hit_level": "t(h),l",
-    "damage": "0,19",
+    "input": "DST 4",
+    "hit_level": "l",
+    "damage": "19",
     "startup": "i19",
     "block": "-14",
-    "hit": "+11d",
+    "hit": "+11a",
     "counter": "",
-    "note": "\n",
+    "note": "Sometimes written \nf+1+3,4\nDestabilizer.4\n\n",
     "alternateInputs": [
-      "f+1+3_f+2+4,4"
+      "DST 4"
     ]
   },
   {
     "name": "White Mountain",
     "input": "df+2+3",
-    "hit_level": "t(h)",
+    "hit_level": "t",
     "damage": "40",
     "startup": "i12",
     "block": "-6",
-    "hit": "",
+    "hit": "-6d",
     "counter": "",
-    "note": "\nBreak: 2\nOpp. Position on break:\nOpp. Position on hit: CCW. Head sd. FU\n",
+    "note": "\n\nFloor Break\nThrow break 2\nOpponent recovers off-axis FUFT on hit\nCan side switch on hit\n",
     "alternateInputs": [
       "df+2+3"
     ]
@@ -1780,13 +1794,13 @@
   {
     "name": "Cherry Blossom",
     "input": "uf+1+2",
-    "hit_level": "t(h)",
+    "hit_level": "t",
     "damage": "40",
     "startup": "i12",
     "block": "-3",
-    "hit": "",
+    "hit": "+0d",
     "counter": "",
-    "note": "\nBreak: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Head sd. FU\n",
+    "note": "\nThrow break 1+2\nOpponent recovers FUFA on hit\n",
     "alternateInputs": [
       "uf+1+2"
     ]
@@ -1794,43 +1808,43 @@
   {
     "name": "Falling Rain",
     "input": "FC db+1+2",
-    "hit_level": "t(h)",
+    "hit_level": "t",
     "damage": "15,15,15",
     "startup": "i11",
     "block": "-6",
     "hit": "+56a (+28)",
     "counter": "",
-    "note": "\nBreak: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Reverse Pos. Foot sd. FD\n2nd dmg is on landing\n3rd dmg is non-ukemi bonus\n",
+    "note": "\nThrow break 1+2\nSide switch on hit\n2nd damage on landing\n3rd damage without tech roll\n",
     "alternateInputs": [
       "FC db+1+2"
     ]
   },
   {
-    "name": "Naniwa Ultimate Tackle",
+    "name": "Naniwa Ultimate Tackle (Tackle)",
     "input": "1+2+3+4,1+2",
-    "hit_level": ",t(m)",
-    "damage": ",5,5",
-    "startup": "i61",
+    "hit_level": ",m,t",
+    "damage": ",0,0",
+    "startup": "i16",
     "block": "-6",
     "hit": "",
-    "counter": "",
-    "note": "\nBreak: 1+2\nOpp. Position on break: Reverse Pos.\nOpp. Position on hit: Foot sd. FU\nLeft slap is auto-attack\nThrow breaks 16f later (1f)\n",
+    "counter": "+3",
+    "note": "\nThrow break 1+2\nWorks on standing or crouching opponent\nTackle is reversed on the player on break\nOpponent recovers FUFT on hitSometimes written Tackle\n",
     "alternateInputs": [
       "1+2+3+4,1+2"
     ]
   },
   {
     "name": "Eternal Punishment",
-    "input": "1+2+3+4,1+2,1,2,1,2",
-    "hit_level": ",t(m)",
-    "damage": ",5,5,5,5,5,10",
-    "startup": "i61",
-    "block": "",
-    "hit": "",
+    "input": "Tackle 2,1,2,1",
+    "hit_level": "",
+    "damage": "5,5,5,10",
+    "startup": "",
+    "block": "+3c",
+    "hit": "+0d",
     "counter": "",
-    "note": "\nBreak: none\nOpp. Position on break:\nOpp. Position on hit: Foot sd. FU\n",
+    "note": "\nUnbreakable unless reversed\nonly 1st and 4th hits can be blocked\n1 to defend left side (against right punch)\n2 to defend right side (against left punch)\n1, 2 or 1+2 to defend tackle from behind\nDoes not consume CH state on hit\nSometimes written \n1+2+3+4,1+2,2,1,2,1\n\n",
     "alternateInputs": [
-      "1+2+3+4,1+2,1,2,1,2"
+      "Tackle 2,1,2,1"
     ]
   }
 ]
