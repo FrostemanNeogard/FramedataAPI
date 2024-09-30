@@ -129,6 +129,11 @@ export class FramedataService {
       .toLowerCase()
 
       // TODO: This is kinda stupid, maybe move the input shortcuts to a different function
+      .replaceAll('#', ':')
+      .replaceAll('.', '')
+      .replaceAll(' ', '')
+      .replaceAll(/ *\([^)]*\) */g, '')
+      .replaceAll(/[\u200B-\u200D\uFEFF]/g, '')
       .replaceAll('debug', 'b,db,d,df')
       .replaceAll('gs', 'f,n,b,db,d,df,f')
       .replaceAll('wr', 'f,f,f')
@@ -139,10 +144,7 @@ export class FramedataService {
       .replaceAll('ewgf', 'f,n,d,df:2')
       .replaceAll('heatsmash', 'in heat 2+3')
       .replaceAll('heatburst', '2+3')
-      .replaceAll('#', ':')
-      .replaceAll('.', '')
-      .replaceAll(/ *\([^)]*\) */g, '')
-      .replaceAll(/[\u200B-\u200D\uFEFF]/g, '')
+      .replaceAll('rageart', 'in rage df+1+2')
       .split('or')
       .pop()
       .replace(/[\s,/()]/g, '');
