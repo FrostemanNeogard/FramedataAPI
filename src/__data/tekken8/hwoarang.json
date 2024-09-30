@@ -752,7 +752,7 @@
     "block": "-8",
     "hit": "+10",
     "counter": "",
-    "note": "\nAlso possible during Right Stance\n\n",
+    "note": "\nAlso possible during Right Stance\nAirborne frames 5-17",
     "alternateInputs": ["ub+4"]
   },
   {
@@ -990,9 +990,9 @@
     "damage": "22",
     "startup": "i14~18",
     "block": "-12",
-    "hit": "+22",
+    "hit": "KND",
     "counter": "",
-    "note": "\n",
+    "note": "Allows follow up on NH",
     "alternateInputs": ["ws3"]
   },
   {
@@ -1649,7 +1649,7 @@
     "hit_level": "h,h",
     "damage": "17,26",
     "startup": "i15~16",
-    "block": "-2",
+    "block": "+6",
     "hit": "+24 (+14)",
     "counter": "",
     "note": "\n\nBalcony Break\n\n",
