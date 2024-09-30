@@ -1,16 +1,184 @@
 [
   {
-    "name": "",
-    "input": "",
+    "name": "Heat Burst",
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "[12;12]",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2c",
+    "counter": "",
+    "note": "\n\nHeat Burst\nCancel to r45 with b,b\n3 chip damage on block\n12 chip damage on hit\nOnly deals recoverable damage\nCannot cause a K.O.\n\n",
+    "alternateInputs": [
+      "2+3"
+    ]
+  },
+  {
+    "name": "Enraged Tettsui Otoshi",
+    "input": "in heat 2+3",
+    "hit_level": "m",
+    "damage": "50",
+    "startup": "i15",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nFloor Break\n\nReversal Break\nTransition to attack throw on hit\nCancel FUJ transition with B\n\n",
+    "alternateInputs": [
+      "in heat 2+3"
+    ]
+  },
+  {
+    "name": "Eight Thunder Kami Slayer",
+    "input": "in heat 2+3,F",
+    "hit_level": "m",
+    "damage": "50",
+    "startup": "i15",
+    "block": "",
+    "hit": "-2a",
+    "counter": "",
+    "note": "\n\nBalcony Break\n\nReversal Break\nTransition to attack throw on hit\nCancel FUJ transition with B\n\n",
+    "alternateInputs": [
+      "in heat 2+3,F"
+    ]
+  },
+  {
+    "name": "Thunderous Battering Ram",
+    "input": "in heat db+1+2",
+    "hit_level": "M?",
+    "damage": "25",
+    "startup": "i30",
+    "block": "",
+    "hit": "+0a (-17)",
+    "counter": "",
+    "note": "\n\nTornado\n\nBalcony Break\nChip damage on block\nReversal break?\nConsumes remaining Heat time\n\n",
+    "alternateInputs": [
+      "in heat db+1+2"
+    ]
+  },
+  {
+    "name": "Rending Battering Ram",
+    "input": "d+3,in heat 2",
+    "hit_level": "M?,SM?",
+    "damage": "25,25",
+    "startup": ",i30",
+    "block": "",
+    "hit": "-10a (-20)",
+    "counter": "",
+    "note": "\n\nTornado\nChip damage on block\nReversal break?\nConsumes remaining Heat time\nSometimes written H.d+3,2\n",
+    "alternateInputs": [
+      "d+3,in heat 2"
+    ]
+  },
+  {
+    "name": "Soaring Anvil Smasher",
+    "input": "uf+4,1",
+    "hit_level": "m,M?",
+    "damage": "17,30",
+    "startup": ",i25~30",
+    "block": "",
+    "hit": "+5a",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\nConsumes remaining Heat time\nSometimes written H.uf+4,1\n",
+    "alternateInputs": [
+      "uf+4,1"
+    ]
+  },
+  {
+    "name": "Shadow Step",
+    "input": "in heat b,b,n,3+4",
     "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\n",
+    "note": "\nConsumes all of the remaining Heat time\n\n",
     "alternateInputs": [
-      ""
+      "in heat b,b,n,3+4"
+    ]
+  },
+  {
+    "name": "Firestarter",
+    "input": "in heat FUJ 1+3",
+    "hit_level": "t",
+    "damage": "15",
+    "startup": "i18",
+    "block": "",
+    "hit": "+7",
+    "counter": "",
+    "note": "\nCancel RAI transition with B\nConsumes remaining Heat time\nThrow is unbreakable\n\n",
+    "alternateInputs": [
+      "in heat FUJ 1+3"
+    ]
+  },
+  {
+    "name": "Heaven's Merciless Wrath",
+    "input": "b+1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i42",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases WAR level by 1\n\n",
+    "alternateInputs": [
+      "b+1+2"
+    ]
+  },
+  {
+    "name": "Kidney Crush Combo",
+    "input": "uf+2,1",
+    "hit_level": "m,m",
+    "damage": "16,20",
+    "startup": ",i27~28",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nIncreases WAR level by 1\n\n",
+    "alternateInputs": [
+      "uf+2,1"
+    ]
+  },
+  {
+    "name": "Raoh Thrust",
+    "input": "f,F+1+2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i13",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nChip damage on block\nIncreases WAR level by 1\n\n",
+    "alternateInputs": [
+      "f,F+1+2"
+    ]
+  },
+  {
+    "name": "Iron Hand",
+    "input": "qcf+2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i14~15",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nIncreases WAR level by 1\nSometimes written d,df,f+2\n",
+    "alternateInputs": [
+      "qcf+2"
+    ]
+  },
+  {
+    "name": "Wind God Hasai Rengeki",
+    "input": "FUJ 1,1",
+    "hit_level": "h,h",
+    "damage": "13,20",
+    "startup": ",i17~18",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases WAR level by 1\n\n",
+    "alternateInputs": [
+      "FUJ 1,1"
     ]
   },
   {
@@ -78,7 +246,7 @@
     "block": "",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "note": "\nCombo from 1st hit\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "1,2,2"
     ]
@@ -134,7 +302,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nEnter Wind God's Kamae with D\n\n",
+    "note": "\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "1,b+2"
     ]
@@ -232,7 +400,7 @@
     "block": "",
     "hit": "-2",
     "counter": "",
-    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "note": "\nCombo from 1st hit\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "3,2"
     ]
@@ -302,7 +470,7 @@
     "block": "",
     "hit": "-2",
     "counter": "",
-    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "note": "\nCombo from 1st hit\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "f+2,2"
     ]
@@ -344,7 +512,7 @@
     "block": "",
     "hit": "+9",
     "counter": "",
-    "note": "\n\nKnee\nEnter Wind God's Kamae with D\n\n",
+    "note": "\n\nKnee\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "f+3"
     ]
@@ -358,7 +526,7 @@
     "block": "",
     "hit": "+7c",
     "counter": "",
-    "note": "\n\nSpike\nEnter Wind God's Kamae with D\n\n",
+    "note": "\n\nSpike\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "f+4"
     ]
@@ -378,7 +546,7 @@
     ]
   },
   {
-    "name": "Thunder God's Kamae",
+    "name": "RAI",
     "input": "f+3+4",
     "hit_level": "",
     "damage": "",
@@ -442,7 +610,7 @@
     "block": "",
     "hit": "+32a (+11)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nGuard Break?\n\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nReversal break?\n\n",
     "alternateInputs": [
       "df+1,2*"
     ]
@@ -456,7 +624,7 @@
     "block": "",
     "hit": "+19a (+14)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nRestores recoverable health on hit or block\nChip damage on block\nGuard Break?\n\n",
+    "note": "\n\nTornado\nCombo from 1st hit\nRestores recoverable health on hit or block\nChip damage on block\nReversal break?\n\n",
     "alternateInputs": [
       "df+1:2*"
     ]
@@ -582,7 +750,7 @@
     "block": "",
     "hit": "+9",
     "counter": "",
-    "note": "\nCombo from 1st hit\nEnter Thunder God's Kamae with F\n\n",
+    "note": "\nCombo from 1st hit\nEnter RAI with F\n\n",
     "alternateInputs": [
       "d+1,2"
     ]
@@ -602,7 +770,7 @@
     ]
   },
   {
-    "name": "Wind God's Kamae",
+    "name": "FUJ",
     "input": "d+1+2",
     "hit_level": "",
     "damage": "",
@@ -708,7 +876,7 @@
     "block": "",
     "hit": "+29a (+21)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nGuard Break?\nEnter Wind God's Kamae with F\n\n",
+    "note": "\n\nBalcony Break\nChip damage on block\nReversal break?\nEnter FUJ with F\n\n",
     "alternateInputs": [
       "b+2*"
     ]
@@ -722,7 +890,7 @@
     "block": "",
     "hit": "+29a (+21)",
     "counter": "",
-    "note": "\n\nBalcony Break\nRestores recoverable health on hit or block\nChip damage on block\nGuard Break?\n\n",
+    "note": "\n\nBalcony Break\nRestores recoverable health on hit or block\nChip damage on block\nReversal break?\n\n",
     "alternateInputs": [
       "b:2*"
     ]
@@ -778,7 +946,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases ? level by 1\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases WAR level by 1\n\n",
     "alternateInputs": [
       "b+1+2"
     ]
@@ -834,7 +1002,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nIncreases ? level by 1\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nIncreases WAR level by 1\n\n",
     "alternateInputs": [
       "uf+2,1"
     ]
@@ -918,7 +1086,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nChip damage on block\nIncreases ? level by 1\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nChip damage on block\nIncreases WAR level by 1\n\n",
     "alternateInputs": [
       "f,F+1+2"
     ]
@@ -932,7 +1100,7 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nIncreases ? level by 1\nSometimes written d,df,f+2\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\n\nBalcony Break\nIncreases WAR level by 1\nSometimes written d,df,f+2\n",
     "alternateInputs": [
       "qcf+2"
     ]
@@ -1058,7 +1226,7 @@
     "block": "",
     "hit": "+0c",
     "counter": "",
-    "note": "\nCombo from 1st hit\nEnter Wind God's Kamae with D\n\n",
+    "note": "\nCombo from 1st hit\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "ws4,4"
     ]
@@ -1100,23 +1268,23 @@
     "block": "",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\nBecomes Electric Thunder God Fist (f,n,d,df#1) during Heat, partially uses remaining Heat Time\nSometimes written tgf\n",
+    "note": "\nBecomes Electric Thunder God Fist (f,n,df#1) during Heat, partially uses remaining Heat Time\nSometimes written tgf\n",
     "alternateInputs": [
       "f,n,d,df+1"
     ]
   },
   {
-    "name": "Electric Thunder God Fist",
-    "input": "f,n,d,df:1",
+    "name": "\nOmen Thunder God Fist\nElectric Thunder God Fist\n",
+    "input": "f,n,df:1",
     "hit_level": "M?",
     "damage": "33",
     "startup": "i19~21",
     "block": "",
     "hit": "+26a (+16)",
     "counter": "",
-    "note": "\nChip damage on block\nSometimes written etgf\n",
+    "note": "\nChip damage on block\nSometimes written \notgf\netgf\n\n",
     "alternateInputs": [
-      "f,n,d,df:1"
+      "f,n,df:1"
     ]
   },
   {
@@ -1142,7 +1310,7 @@
     "block": "",
     "hit": "+39a (+29)",
     "counter": "",
-    "note": "\nChip damage on block\nSometimes written ewgf\n",
+    "note": "\nChip damage on block\nSometimes written \newgf\nelectric\n\n",
     "alternateInputs": [
       "f,n,d,df:2"
     ]
@@ -1268,13 +1436,13 @@
     "block": "",
     "hit": "-5a",
     "counter": "",
-    "note": "\n\nSpike\nCombo from 4th? hit\nEnter Wind God's Kamae with D\n\n",
+    "note": "\n\nSpike\nCombo from 4th? hit\nEnter FUJ with D\n\n",
     "alternateInputs": [
       "f,n,d,DF+4,4,4,n,4,4"
     ]
   },
   {
-    "name": "Thunder God's Kamae",
+    "name": "RAI",
     "input": "f+3+4",
     "hit_level": "",
     "damage": "",
@@ -1289,21 +1457,21 @@
   },
   {
     "name": "Hidden Thunder God Fist",
-    "input": "TGK 1",
+    "input": "RAI 1",
     "hit_level": "M?",
     "damage": "38",
     "startup": "i17~18",
     "block": "",
     "hit": "+12a (+2)",
     "counter": "",
-    "note": "\nGuard Break?\n\n",
+    "note": "\nReversal break?\n\n",
     "alternateInputs": [
-      "TGK 1"
+      "RAI 1"
     ]
   },
   {
     "name": "Thunder Cutter",
-    "input": "TGK 2",
+    "input": "RAI 2",
     "hit_level": "h",
     "damage": "25",
     "startup": "i17~18",
@@ -1312,12 +1480,12 @@
     "counter": "",
     "note": "\n\nHoming\nChip damage on block\n\n",
     "alternateInputs": [
-      "TGK 2"
+      "RAI 2"
     ]
   },
   {
     "name": "Jichinsai",
-    "input": "TGK 3",
+    "input": "RAI 3",
     "hit_level": "M?",
     "damage": "30",
     "startup": "i22~23",
@@ -1326,12 +1494,12 @@
     "counter": "",
     "note": "\nChip damage on block\n\n",
     "alternateInputs": [
-      "TGK 3"
+      "RAI 3"
     ]
   },
   {
     "name": "",
-    "input": "TGK 4",
+    "input": "RAI 4",
     "hit_level": "L",
     "damage": "15",
     "startup": "i19~20",
@@ -1340,12 +1508,12 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "TGK 4"
+      "RAI 4"
     ]
   },
   {
     "name": "",
-    "input": "TGK 4,DF+4",
+    "input": "RAI 4,DF+4",
     "hit_level": "L,L",
     "damage": "15,10",
     "startup": ",i24",
@@ -1354,12 +1522,12 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "TGK 4,DF+4"
+      "RAI 4,DF+4"
     ]
   },
   {
     "name": "Spinning Demon",
-    "input": "TGK 4,DF+4,4",
+    "input": "RAI 4,DF+4,4",
     "hit_level": "L,L,L",
     "damage": "15,10,10?",
     "startup": ",i24",
@@ -1368,12 +1536,12 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "TGK 4,DF+4,4"
+      "RAI 4,DF+4,4"
     ]
   },
   {
     "name": "Thunder Broken Toy",
-    "input": "TGK 1+3",
+    "input": "RAI 1+3",
     "hit_level": "t",
     "damage": "30",
     "startup": "i15~16",
@@ -1382,7 +1550,7 @@
     "counter": "",
     "note": "\nUnbreakable\n\n",
     "alternateInputs": [
-      "TGK 1+3"
+      "RAI 1+3"
     ]
   },
   {
@@ -1400,8 +1568,22 @@
     ]
   },
   {
+    "name": "Charging Hard",
+    "input": "d+1+2,P",
+    "hit_level": "",
+    "damage": "35",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "d+1+2,P"
+    ]
+  },
+  {
     "name": "",
-    "input": "WGK 1",
+    "input": "FUJ 1",
     "hit_level": "h",
     "damage": "13",
     "startup": "i12~13",
@@ -1410,26 +1592,26 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "WGK 1"
+      "FUJ 1"
     ]
   },
   {
     "name": "Wind God Hasai Rengeki",
-    "input": "WGK 1,1",
+    "input": "FUJ 1,1",
     "hit_level": "h,h",
     "damage": "13,20",
     "startup": ",i17~18",
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases ? level by 1\n\n",
+    "note": "\n\nHeat Engager\n\n\nHeat Dash \n\nIncreases WAR level by 1\n\n",
     "alternateInputs": [
-      "WGK 1,1"
+      "FUJ 1,1"
     ]
   },
   {
     "name": "Wind God Tettsui",
-    "input": "WGK 1,2",
+    "input": "FUJ 1,2",
     "hit_level": "h,m",
     "damage": "13,24",
     "startup": ",i21~22",
@@ -1438,12 +1620,12 @@
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit\n\n",
     "alternateInputs": [
-      "WGK 1,2"
+      "FUJ 1,2"
     ]
   },
   {
     "name": "Hidden Wind God Fist",
-    "input": "WGK 2",
+    "input": "FUJ 2",
     "hit_level": "m",
     "damage": "20",
     "startup": "i15~16",
@@ -1452,12 +1634,12 @@
     "counter": "",
     "note": "\n\nTornado\nChip damage on block\n\n",
     "alternateInputs": [
-      "WGK 2"
+      "FUJ 2"
     ]
   },
   {
     "name": "",
-    "input": "WGK 3",
+    "input": "FUJ 3",
     "hit_level": "m",
     "damage": "17",
     "startup": "i28~29",
@@ -1466,12 +1648,12 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "WGK 3"
+      "FUJ 3"
     ]
   },
   {
     "name": "Wind God Hell Axle",
-    "input": "WGK 3,4",
+    "input": "FUJ 3,4",
     "hit_level": "m,m",
     "damage": "17,20?",
     "startup": ",i20~21",
@@ -1480,12 +1662,12 @@
     "counter": "",
     "note": "\n\nStrong Aerial Tailspin\n\nBalcony Break\nChip damage on block\n\n",
     "alternateInputs": [
-      "WGK 3,4"
+      "FUJ 3,4"
     ]
   },
   {
     "name": "Wind God Geta Stomp",
-    "input": "WGK 4",
+    "input": "FUJ 4",
     "hit_level": "L",
     "damage": "20",
     "startup": "i18~19",
@@ -1494,12 +1676,12 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "WGK 4"
+      "FUJ 4"
     ]
   },
   {
     "name": "Tengu's Wings",
-    "input": "WGK 1+2",
+    "input": "FUJ 1+2",
     "hit_level": "m",
     "damage": "25",
     "startup": "i18~19",
@@ -1508,12 +1690,12 @@
     "counter": "",
     "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": [
-      "WGK 1+2"
+      "FUJ 1+2"
     ]
   },
   {
     "name": "Fire Starter",
-    "input": "WGK 1+3",
+    "input": "FUJ 1+3",
     "hit_level": "t",
     "damage": "15",
     "startup": "i18",
@@ -1522,12 +1704,12 @@
     "counter": "",
     "note": "\n\nHoming\nUnbreakable\n\n",
     "alternateInputs": [
-      "WGK 1+3"
+      "FUJ 1+3"
     ]
   },
   {
     "name": "Wind God Step",
-    "input": "WGK DF",
+    "input": "FUJ DF",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1536,40 +1718,54 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "WGK DF"
+      "FUJ DF"
+    ]
+  },
+  {
+    "name": "Mishima Style Ultimate Technique: Warrior Instinct",
+    "input": "1+4",
+    "hit_level": "SL?",
+    "damage": "[10;10]",
+    "startup": "i17",
+    "block": "",
+    "hit": "+21c",
+    "counter": "",
+    "note": "\n\nBalcony Break\nCan only be used once per match\nWAR level 3 required to use?\n\n",
+    "alternateInputs": [
+      "1+4"
     ]
   },
   {
     "name": "Ultimate Flash Punch Combo",
-    "input": "1,1,WIN 2",
+    "input": "1,1,WAin rage 2",
     "hit_level": "h,h,m",
     "damage": "5,6,20",
     "startup": ",i10",
     "block": "",
     "hit": "28a (+2)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nSometimes written WIN.1,1,2\n",
+    "note": "\n\nBalcony Break\nCombo from 1st hit\nChip damage on block\nSometimes written WAR.1,1,2\n",
     "alternateInputs": [
-      "1,1,WIN 2"
+      "1,1,WAin rage 2"
     ]
   },
   {
     "name": "Ultimate Demon Basara",
-    "input": "1,b+2,WIN 2",
+    "input": "1,b+2,WAin rage 2",
     "hit_level": "h,m,m",
     "damage": "5,17,22",
     "startup": ",i25~26",
     "block": "",
     "hit": "23a (+13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit\nChip damage on block\nRemoves opponent's recoverable health on hit\nSometimes written WIN.1,b+2,2\n",
+    "note": "\n\nBalcony Break\nCombo from 2nd hit\nChip damage on block\nRemoves opponent's recoverable health on hit\nSometimes written WAR.1,b+2,2\n",
     "alternateInputs": [
-      "1,b+2,WIN 2"
+      "1,b+2,WAin rage 2"
     ]
   },
   {
     "name": "Ultimate Demon Breath",
-    "input": "WIN 1+2",
+    "input": "WAin rage 1+2",
     "hit_level": "m",
     "damage": "34",
     "startup": "i12",
@@ -1578,40 +1774,26 @@
     "counter": "",
     "note": "\n\nBalcony Break\nChip Damage on block\n\n",
     "alternateInputs": [
-      "WIN 1+2"
-    ]
-  },
-  {
-    "name": "",
-    "input": "WIN 1+4",
-    "hit_level": "sm?",
-    "damage": "[10;10]",
-    "startup": "i17",
-    "block": "",
-    "hit": "+21c",
-    "counter": "",
-    "note": "\n\nBalcony Break\nPower up with higher levels?\n\n",
-    "alternateInputs": [
-      "WIN 1+4"
+      "WAin rage 1+2"
     ]
   },
   {
     "name": "Ultimate Muso Renken",
-    "input": "df+2,WIN 1",
+    "input": "df+2,WAin rage 1",
     "hit_level": "m,m",
     "damage": "8,20",
     "startup": ",i20~21",
     "block": "",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\nChip Damage on block\nSometimes written WIN.df+2,1\n",
+    "note": "\n\nTornado\nCombo from 1st hit\nChip Damage on block\nSometimes written WAR.df+2,1\n",
     "alternateInputs": [
-      "df+2,WIN 1"
+      "df+2,WAin rage 1"
     ]
   },
   {
     "name": "Ultimate Demon God Fist",
-    "input": "WIN f,F+2",
+    "input": "WAin rage f,F+2",
     "hit_level": "M?",
     "damage": "30",
     "startup": "i19~21",
@@ -1620,12 +1802,12 @@
     "counter": "",
     "note": "\n\nTornado\nChip Damage on block\n\n",
     "alternateInputs": [
-      "WIN f,F+2"
+      "WAin rage f,F+2"
     ]
   },
   {
     "name": "Ultimate Demon God Fist",
-    "input": "WIN f,F+2",
+    "input": "WAin rage f,F+2",
     "hit_level": "m",
     "damage": "25",
     "startup": "i20~22",
@@ -1634,12 +1816,12 @@
     "counter": "",
     "note": "\n\nTornado\nChip Damage on block\n\n",
     "alternateInputs": [
-      "WIN f,F+2"
+      "WAin rage f,F+2"
     ]
   },
   {
     "name": "Ultimate Spinning Demon",
-    "input": "WIN f,n,d,DF+4",
+    "input": "WAin rage f,n,d,DF+4",
     "hit_level": "L",
     "damage": "17",
     "startup": "i16~17",
@@ -1648,12 +1830,12 @@
     "counter": "",
     "note": "\n\n",
     "alternateInputs": [
-      "WIN f,n,d,DF+4"
+      "WAin rage f,n,d,DF+4"
     ]
   },
   {
     "name": "Ultimate Hidden Thunder God Fist",
-    "input": "WIN TGK 1",
+    "input": "WAin rage RAI 1",
     "hit_level": "M?",
     "damage": "42",
     "startup": "i17~19",
@@ -1662,12 +1844,12 @@
     "counter": "",
     "note": "\nChip damage on block\n\n",
     "alternateInputs": [
-      "WIN TGK 1"
+      "WAin rage RAI 1"
     ]
   },
   {
-    "name": "Ultimate Hidden Wind God Fist",
-    "input": "WIN TWK 1",
+    "name": "Ultimate Hidden WARd God Fist",
+    "input": "WAin rage FUJ 1",
     "hit_level": "m",
     "damage": "24",
     "startup": "i15~16",
@@ -1676,7 +1858,7 @@
     "counter": "",
     "note": "\n\nTornado\nChip damage on block\n\n",
     "alternateInputs": [
-      "WIN TWK 1"
+      "WAin rage FUJ 1"
     ]
   },
   {
@@ -1688,7 +1870,7 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nRage Art\n\nReversal Break\nEreases opponent's recoverable health on hit\nDamage increases with lower health, maximum 80\nTransition to attack throw on hit\nConsumes Rage\n",
+    "note": "\n\nRage Art\n\nReversal Break\nEreases opponent's recoverable health on hit\nDamage increases with lower health, maximum 80\nFreezes match timer on activation and on hit\nTransition to attack throw on hit\nConsumes Rage\n",
     "alternateInputs": [
       "in rage df+1+2"
     ]
@@ -1716,9 +1898,121 @@
     "block": "",
     "hit": "+9",
     "counter": "",
-    "note": "\nEnter Thunder God's Kamae with F\n\n",
+    "note": "\nEnter RAI with F\n\n",
     "alternateInputs": [
       "SS 2"
+    ]
+  },
+  {
+    "name": "Geta Stomp",
+    "input": "OTG d+4",
+    "hit_level": "L",
+    "damage": "30?",
+    "startup": "i19~20",
+    "block": "",
+    "hit": "-3a (-11)",
+    "counter": "",
+    "note": "\n\n",
+    "alternateInputs": [
+      "OTG d+4"
+    ]
+  },
+  {
+    "name": "Neck Breaker",
+    "input": "1+3",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "-1d",
+    "counter": "",
+    "note": "\n\nHoming\nThrow break 1 or 2\n\n",
+    "alternateInputs": [
+      "1+3"
+    ]
+  },
+  {
+    "name": "Jumping Powerbomb",
+    "input": "2+4",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\n\nFloor Break\nThrow break 1 or 2\n\n",
+    "alternateInputs": [
+      "2+4"
+    ]
+  },
+  {
+    "name": "Guillotine Chop",
+    "input": "Left throw",
+    "hit_level": "t",
+    "damage": "40",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "-3d",
+    "counter": "",
+    "note": "\nThrow break 1\n\n",
+    "alternateInputs": [
+      "Left throw"
+    ]
+  },
+  {
+    "name": "Freefall",
+    "input": "Right throw",
+    "hit_level": "t",
+    "damage": "45",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "-4d",
+    "counter": "",
+    "note": "\n\nFloor Break\nThrow break 2\n\n",
+    "alternateInputs": [
+      "Right throw"
+    ]
+  },
+  {
+    "name": "Atomic Drop",
+    "input": "Back throw",
+    "hit_level": "t",
+    "damage": "60",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "+0d",
+    "counter": "",
+    "note": "\nUnbreakable\n\n",
+    "alternateInputs": [
+      "Back throw"
+    ]
+  },
+  {
+    "name": "Stonehead",
+    "input": "uf+1+2",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12",
+    "block": "",
+    "hit": "+26a (+7)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nThrow break 1+2\n\n",
+    "alternateInputs": [
+      "uf+1+2"
+    ]
+  },
+  {
+    "name": "Headbutt Clash",
+    "input": "uf+1+4",
+    "hit_level": "t",
+    "damage": "30",
+    "startup": "i12",
+    "block": "",
+    "hit": "+26a (+7)",
+    "counter": "",
+    "note": "\n\nBalcony Break\nThrow break 1+2\nDifferent outcomes based on pressing 1, 2, 3 or 4?\n\n",
+    "alternateInputs": [
+      "uf+1+4"
     ]
   }
 ]
