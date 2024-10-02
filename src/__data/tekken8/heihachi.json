@@ -540,7 +540,7 @@
     "block": "+4",
     "hit": "+7c",
     "counter": "+26d",
-    "note": "\n\nSpike\nEnter FUJ r27 with D\n\n",
+    "note": "\n\nSpike\nEnter FUJ r27 with D\n+15c against a crouching opponent\n\n",
     "alternateInputs": [
       "f+4"
     ]
@@ -1517,7 +1517,7 @@
     "hit_level": "M",
     "damage": "30",
     "startup": "i22~23",
-    "block": "+7",
+    "block": "-7",
     "hit": "+3a",
     "counter": "",
     "note": "\n\nSpike\nChip damage on block\n\n",
@@ -1723,7 +1723,7 @@
   },
   {
     "name": "Ultimate Flash Punch Combo",
-    "input": "1,1,WAin rage 2",
+    "input": "1,1,WAR 2",
     "hit_level": "h,h,m",
     "damage": "5,6,20",
     "startup": ",i18",
@@ -1732,12 +1732,12 @@
     "counter": "",
     "note": "\n\nBalcony Break\nCombo from 1st hit with 12f delay\nChip damage on block\nSometimes written WAR.1,1,2\n",
     "alternateInputs": [
-      "1,1,WAin rage 2"
+      "1,1,WAR 2"
     ]
   },
   {
     "name": "Ultimate Demon Basara",
-    "input": "1,b+2,WAin rage 2",
+    "input": "1,b+2,WAR 2",
     "hit_level": "h,m,m",
     "damage": "5,17,22",
     "startup": ",i25~26",
@@ -1746,12 +1746,12 @@
     "counter": "",
     "note": "\n\nReversal Break\n\nBalcony Break\n\nHead\nCombo from 2nd hit\nChip damage on block\nErases opponent's recoverable health on hit\n+42a on airborne hit\nSometimes written WAR.1,b+2,2\n",
     "alternateInputs": [
-      "1,b+2,WAin rage 2"
+      "1,b+2,WAR 2"
     ]
   },
   {
     "name": "Ultimate Demon Breath",
-    "input": "WAin rage 1+2",
+    "input": "WAR 1+2",
     "hit_level": "m",
     "damage": "34",
     "startup": "i12",
@@ -1760,12 +1760,12 @@
     "counter": "",
     "note": "\n\nBalcony Break\nChip Damage on block\n\n",
     "alternateInputs": [
-      "WAin rage 1+2"
+      "WAR 1+2"
     ]
   },
   {
     "name": "Ultimate Muso Renken",
-    "input": "df+2,WAin rage 1",
+    "input": "df+2,WAR 1",
     "hit_level": "m,m",
     "damage": "8,20",
     "startup": ",i20~21",
@@ -1774,12 +1774,12 @@
     "counter": "",
     "note": "\n\nTornado\nCombo from 1st hit\nChip Damage on block\nSometimes written WAR.df+2,1\n",
     "alternateInputs": [
-      "df+2,WAin rage 1"
+      "df+2,WAR 1"
     ]
   },
   {
     "name": "Ultimate Demon God Fist",
-    "input": "WAin rage f,F+2",
+    "input": "WAR f,F+2",
     "hit_level": "M",
     "damage": "30",
     "startup": "i19~21",
@@ -1788,12 +1788,12 @@
     "counter": "",
     "note": "\n\nTornado\nChip Damage on block\n\n",
     "alternateInputs": [
-      "WAin rage f,F+2"
+      "WAR f,F+2"
     ]
   },
   {
-    "name": "Ultimate Demon God Fist",
-    "input": "WAin rage f,F+2",
+    "name": "Ultimate Splits Kick",
+    "input": "WAR f,F+3",
     "hit_level": "m",
     "damage": "25",
     "startup": "i20~22",
@@ -1802,12 +1802,12 @@
     "counter": "",
     "note": "\n\nTornado\n\nSpike\nChip Damage on block\n\n",
     "alternateInputs": [
-      "WAin rage f,F+2"
+      "WAR f,F+3"
     ]
   },
   {
     "name": "Ultimate Spinning Demon",
-    "input": "WAin rage f,n,d,DF+4",
+    "input": "WAR f,n,d,DF+4",
     "hit_level": "L",
     "damage": "17",
     "startup": "i16~17",
@@ -1816,12 +1816,12 @@
     "counter": "+28a",
     "note": "\nNo stagger on block\nLinks to f,n,d,DF+4 extensions\n\n",
     "alternateInputs": [
-      "WAin rage f,n,d,DF+4"
+      "WAR f,n,d,DF+4"
     ]
   },
   {
     "name": "Ultimate Hidden Thunder God Fist",
-    "input": "WAin rage RAI 1",
+    "input": "WAR RAI 1",
     "hit_level": "M",
     "damage": "42",
     "startup": "i17~19",
@@ -1830,12 +1830,12 @@
     "counter": "",
     "note": "\n\nReversal Break\nChip damage on block\n\n",
     "alternateInputs": [
-      "WAin rage RAI 1"
+      "WAR RAI 1"
     ]
   },
   {
     "name": "Ultimate Hidden Wind God Fist",
-    "input": "WAin rage FUJ 1",
+    "input": "WAR FUJ 2",
     "hit_level": "m",
     "damage": "24",
     "startup": "i15~16",
@@ -1844,7 +1844,7 @@
     "counter": "",
     "note": "\n\nTornado\n\nReversal Break\nChip damage on block\n\n",
     "alternateInputs": [
-      "WAin rage FUJ 1"
+      "WAR FUJ 2"
     ]
   },
   {
