@@ -22,7 +22,7 @@
     "block": "+10",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nReversal Break\n\nFloor Break\nChip damage on block\nTransition to attack throw on hit\nEnter RAI on block only\nCancel RAI transition with B, +6 on block instead\n\n",
+    "note": "\n\nHeat Smash\n\nReversal Break\n\nFloor Break\nChip damage on block\nTransition to attack throw on hit\nTransition to RAI on block only\nCancel RAI transition with B, +6 on block instead\n\n",
     "alternateInputs": [
       "in heat 2+3"
     ]
@@ -36,7 +36,7 @@
     "block": "+10",
     "hit": "-2d",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nReversal Break\n\nBalcony Break\nChip damage on block\nTransition to attack throw on hit\nEnter RAI on block only\nCancel RAI transition with B, +6 on block instead\n\n",
+    "note": "\n\nHeat Smash\n\nReversal Break\n\nBalcony Break\nChip damage on block\nTransition to attack throw on hit\nTransition to RAI on block only\nCancel RAI transition with B, +6 on block instead\n\n",
     "alternateInputs": [
       "in heat 2+3,F"
     ]
@@ -1303,14 +1303,28 @@
   },
   {
     "name": "\nOmen Thunder God Fist\nElectric Thunder God Fist\n",
-    "input": "f,n,df:1",
+    "input": "f,n,d,df:1",
     "hit_level": "M",
     "damage": "33",
     "startup": "i19~21",
     "block": "-11",
     "hit": "+26a (+16)",
     "counter": "",
-    "note": "\nChip damage on block\nSometimes written \nOTGF\nETGF\n\n",
+    "note": "\n9 chip damage on block\nSometimes written \nOTGF\nETGF\n\n",
+    "alternateInputs": [
+      "f,n,d,df:1"
+    ]
+  },
+  {
+    "name": "\nOmen Thunder God Fist\nElectric Thunder God Fist\n",
+    "input": "f,n,df:1",
+    "hit_level": "M",
+    "damage": "38",
+    "startup": "i19~21",
+    "block": "-11",
+    "hit": "+25a (+15)",
+    "counter": "",
+    "note": "\n11 chip damage on block\nSometimes written \nOTGF\nETGF\n\n",
     "alternateInputs": [
       "f,n,df:1"
     ]
@@ -1744,7 +1758,7 @@
     "block": "-13",
     "hit": "23a (+13)",
     "counter": "",
-    "note": "\n\nReversal Break\n\nBalcony Break\n\nHead\nCombo from 2nd hit\nChip damage on block\nErases opponent's recoverable health on hit\n+42a on airborne hit\nSometimes written WAR.1,b+2,2\n",
+    "note": "\n\nReversal Break\n\nBalcony Break\n\nHead\nCombo from 2nd hit\nChip damage on block\nErases opponent's recoverable health on hit\n+42d on airborne hit\nSometimes written WAR.1,b+2,2\n",
     "alternateInputs": [
       "1,b+2,WAR 2"
     ]
@@ -1800,7 +1814,7 @@
     "block": "+1",
     "hit": "+56a",
     "counter": "",
-    "note": "\n\nTornado\n\nSpike\nChip Damage on block\n\n",
+    "note": "\n\nSpike\nChip Damage on block\n\n",
     "alternateInputs": [
       "WAR f,F+3"
     ]
@@ -1856,7 +1870,7 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nRage Art\n\nReversal Break\nEreases opponent's recoverable health on hit\nDamage increases with lower health, maximum 80\nFreezes match timer on activation and on hit\nTransition to attack throw on hit\nConsumes Rage\n",
+    "note": "\n\nRage Art\n\nReversal Break\nEreases opponent's recoverable health on hit\nDamage increases with lower health, maximum 80\nFreezes match timer on activation and on hit\nRestores recoverable health on hit\nTransition to attack throw on hit\nConsumes Rage\n",
     "alternateInputs": [
       "in rage df+1+2"
     ]
