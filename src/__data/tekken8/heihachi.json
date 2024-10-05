@@ -1400,6 +1400,118 @@
     ]
   },
   {
+    "name": "Spinning Demon Thunder God Fist",
+    "input": "f,n,d,DF+4,1",
+    "hit_level": "L,m",
+    "damage": "15,20",
+    "startup": ",i23~24",
+    "block": "-15",
+    "hit": "+25a (+18)",
+    "counter": "",
+    "note": "\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,1"
+    ]
+  },
+  {
+    "name": "Spinning Demon Bell-Ringer",
+    "input": "f,n,d,DF+4,3",
+    "hit_level": "L,h",
+    "damage": "15,30",
+    "startup": ",i25~28",
+    "block": "+9",
+    "hit": "+45a",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,3"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,n,d,DF+4,n+4",
+    "hit_level": "L,m",
+    "damage": "15,10",
+    "startup": ",i24~25",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "",
+    "note": "\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,n+4"
+    ]
+  },
+  {
+    "name": "Spinning Demon Tsunami Kick",
+    "input": "f,n,d,DF+4,n+4,4",
+    "hit_level": "L,m,m",
+    "damage": "15,10,20",
+    "startup": ",i15",
+    "block": "-15",
+    "hit": "+0c",
+    "counter": "",
+    "note": "\n\nSpike\nCombo from 2nd hit\nEnter FUJ -9 +6c r31 with D\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,n+4,4"
+    ]
+  },
+  {
+    "name": "Spinning Demon Thunder God Fist",
+    "input": "f,n,d,DF+4,4,1",
+    "hit_level": "L,L,L,m",
+    "damage": "15,10,20",
+    "startup": ",i23~24",
+    "block": "-15",
+    "hit": "+25a (+18)",
+    "counter": "",
+    "note": "\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,1"
+    ]
+  },
+  {
+    "name": "Spinning Demon Bell-Ringer",
+    "input": "f,n,d,DF+4,4,3",
+    "hit_level": "L,L,h",
+    "damage": "15,10,30",
+    "startup": ",i25~28",
+    "block": "+9",
+    "hit": "+45a",
+    "counter": "",
+    "note": "\n\nBalcony Break\nChip damage on block\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,3"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,n,d,DF+4,4,n+4",
+    "hit_level": "L,L,m",
+    "damage": "15,10,10",
+    "startup": ",i24~25",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "",
+    "note": "\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,n+4"
+    ]
+  },
+  {
+    "name": "Spinning Demon Tsunami Kick",
+    "input": "f,n,d,DF+4,4,n+4,4",
+    "hit_level": "L,L,m,m",
+    "damage": "15,10,10,20",
+    "startup": ",i15",
+    "block": "-15",
+    "hit": "+0c",
+    "counter": "",
+    "note": "\n\nSpike\nCombo from 3rd hit\nEnter FUJ -9 +6c r31 with D\nCan be performed after any number of f,n,d,DF+4 lows\n\n",
+    "alternateInputs": [
+      "f,n,d,DF+4,4,n+4,4"
+    ]
+  },
+  {
     "name": "",
     "input": "f,n,d,DF+4,4",
     "hit_level": "L,L",
