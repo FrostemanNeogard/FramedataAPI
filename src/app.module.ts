@@ -4,9 +4,9 @@ import { AppService } from './app.service';
 import { FramedataController } from './framedata/framedata.controller';
 import { FramedataService } from './framedata/framedata.service';
 import { FramedataModule } from './framedata/framedata.module';
-import { CharacterCodeController } from './character-code/character-code.controller';
-import { CharacterCodeService } from './character-code/character-code.service';
-import { CharacterNameFormatterModule } from './character-code/character-code.module';
+import { CharacterCodeController } from './characterCode/characterCode.controller';
+import { CharacterCodeService } from './characterCode/characterCode.service';
+import { CharacterNameFormatterModule } from './characterCode/characterCode.module';
 
 @Module({
   imports: [FramedataModule, CharacterNameFormatterModule],

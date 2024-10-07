@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import * as fs from 'fs';
-import { FrameDataType } from 'src/__types/frame_data';
+import { FrameDataType } from 'src/__types/frameData';
 import { promisify } from 'util';
 
 @Injectable()
