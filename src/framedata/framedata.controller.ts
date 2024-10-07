@@ -6,7 +6,7 @@ import {
   BadRequestException,
 } from '@nestjs/common';
 import { FramedataService } from './framedata.service';
-import { FramedataRequestDto } from 'src/__dtos/frame_data_dto';
+import { FramedataRequestDto } from 'src/__dtos/frameDataDto';
 
 @Controller('framedata')
 export class FramedataController {
