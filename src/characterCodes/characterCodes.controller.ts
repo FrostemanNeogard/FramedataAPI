@@ -1,4 +1,10 @@
-import { Controller, Get, NotFoundException, Param } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Logger,
+  NotFoundException,
+  Param,
+} from '@nestjs/common';
 import { CharacterCodesService } from './characterCodes.service';
 import { GameCode } from 'src/__types/gameCode';
 import { CharacterCodeDto } from './dtos/characterCodeDto';
@@ -6,18 +12,27 @@ import { GameCodesService } from 'src/gameCodes/gameCodes.service';
 
 @Controller('charactercodes')
 export class CharacterCodesController {
+  private readonly logger: Logger;
+
   constructor(
     private characterCodesService: CharacterCodesService,
     private gameCodesService: GameCodesService,
-  ) {}
+  ) {
+    this.logger = new Logger();
+  }
 
-  @Get(':gameCode/:characterName')
+  @Get(':gameName/:characterName')
   public formatCharacterName(
-    @Param('gameCode') gameName: string,
+    @Param('gameName') gameName: string,
     @Param('characterName') characterName: string,
   ): CharacterCodeDto {
+    this.logger.log(
+      `Attempting to get characterCode for: ${characterName} in game: ${gameName}`,
+    );
+
     const gameCode: GameCode | null =
       this.gameCodesService.getGameCode(gameName);
+
     if (gameCode == null) {
       throw new NotFoundException("Couldn't find the given game.");
     }
@@ -26,8 +41,11 @@ export class CharacterCodesController {
       characterName,
       gameCode,
     );
+
     if (characterCode == null) {
-      throw new NotFoundException("Couldn't find the given character.");
+      throw new NotFoundException(
+        "Couldn't find the given character for the given game.",
+      );
     }
 
     return new CharacterCodeDto(characterCode);
