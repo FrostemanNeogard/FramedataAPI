@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import * as fs from 'fs';
-import { FrameDataType } from 'src/__types/frame_data';
+import { FrameDataType } from 'src/__types/frameData';
 import { promisify } from 'util';
 
 @Injectable()
@@ -11,16 +11,6 @@ export class FramedataService {
     characterCode: string,
     game: string,
   ): Promise<FrameDataType[]> {
-    if (!characterCode) {
-      this.logger.error(`No character name given.`);
-      throw new BadRequestException(`Invalid character name.`);
-    }
-
-    if (!game) {
-      this.logger.error(`No game name given.`);
-      throw new BadRequestException(`Invalid game name.`);
-    }
-
     const filePath = `src/__data/${game}/${characterCode}.json`;
 
     try {

@@ -1,5 +1,7 @@
+import { GameCode } from 'src/__types/gameCode';
+
 export class FramedataRequestDto {
-  gameCode: string;
+  gameCode: GameCode;
   characterCode: string;
   input: string;
 }

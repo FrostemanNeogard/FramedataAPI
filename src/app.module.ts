@@ -1,16 +1,21 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { FramedataController } from './framedata/framedata.controller';
 import { FramedataService } from './framedata/framedata.service';
 import { FramedataModule } from './framedata/framedata.module';
-import { CharacterCodeController } from './character-code/character-code.controller';
-import { CharacterCodeService } from './character-code/character-code.service';
-import { CharacterNameFormatterModule } from './character-code/character-code.module';
+import { CharacterCodesController } from './characterCodes/characterCodes.controller';
+import { CharacterCodesService } from './characterCodes/characterCodes.service';
+import { CharacterCodesModule } from './characterCodes/characterCodes.module';
+import { GameCodesModule } from './gameCodes/gameCodes.module';
+import { GameCodesService } from './gameCodes/gameCodes.service';
+import { GameCodesController } from './gameCodes/gameCodes.controller';
 
 @Module({
-  imports: [FramedataModule, CharacterNameFormatterModule],
-  controllers: [AppController, FramedataController, CharacterCodeController],
-  providers: [AppService, FramedataService, CharacterCodeService],
+  imports: [FramedataModule, CharacterCodesModule, GameCodesModule],
+  controllers: [
+    FramedataController,
+    CharacterCodesController,
+    GameCodesController,
+  ],
+  providers: [FramedataService, CharacterCodesService, GameCodesService],
 })
 export class AppModule {}
