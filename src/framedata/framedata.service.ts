@@ -11,16 +11,6 @@ export class FramedataService {
     characterCode: string,
     game: string,
   ): Promise<FrameDataType[]> {
-    if (!characterCode) {
-      this.logger.error(`No character name given.`);
-      throw new BadRequestException(`Invalid character name.`);
-    }
-
-    if (!game) {
-      this.logger.error(`No game name given.`);
-      throw new BadRequestException(`Invalid game name.`);
-    }
-
     const filePath = `src/__data/${game}/${characterCode}.json`;
 
     try {
