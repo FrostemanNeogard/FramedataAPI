@@ -1,6 +1,4 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { FramedataController } from './framedata/framedata.controller';
 import { FramedataService } from './framedata/framedata.service';
 import { FramedataModule } from './framedata/framedata.module';
@@ -10,7 +8,7 @@ import { CharacterNameFormatterModule } from './characterCode/characterCode.modu
 
 @Module({
   imports: [FramedataModule, CharacterNameFormatterModule],
-  controllers: [AppController, FramedataController, CharacterCodeController],
-  providers: [AppService, FramedataService, CharacterCodeService],
+  controllers: [FramedataController, CharacterCodeController],
+  providers: [FramedataService, CharacterCodeService],
 })
 export class AppModule {}
