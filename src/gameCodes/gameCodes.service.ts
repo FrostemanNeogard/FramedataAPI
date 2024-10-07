@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { GameCode, validGameCodes } from 'src/__types/gameCode';
 
 @Injectable()
-export class GameCodeService {
+export class GameCodesService {
   public getAllGameCodes(): GameCode[] {
     return [...validGameCodes];
   }

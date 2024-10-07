@@ -1,10 +1,10 @@
 import { Controller, Get } from '@nestjs/common';
-import { GameCodeService } from './gameCode.service';
+import { GameCodesService } from './gameCodes.service';
 import { GameCode } from 'src/__types/gameCode';
 
 @Controller('gamecodes')
 export class GameCodesController {
-  constructor(private readonly gameCodesService: GameCodeService) {}
+  constructor(private readonly gameCodesService: GameCodesService) {}
 
   @Get()
   public getAllGameCodes(): GameCode[] {

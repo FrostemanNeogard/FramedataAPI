@@ -4,7 +4,7 @@ import * as CharacterCodesData from '../__data/characterCodes.json';
 import { GameCode } from 'src/__types/gameCode';
 
 @Injectable()
-export class CharacterCodeService {
+export class CharacterCodesService {
   private readonly logger: Logger;
   private readonly allCharacterCodesMap: CharacterCodesForGameMap[];
 

@@ -1,14 +1,14 @@
 import { Controller, Get, NotFoundException, Param } from '@nestjs/common';
-import { CharacterCodeService } from './characterCode.service';
+import { CharacterCodesService } from './characterCodes.service';
 import { GameCode } from 'src/__types/gameCode';
 import { CharacterCodeDto } from './dtos/characterCodeDto';
-import { GameCodeService } from 'src/gameCode/gameCode.service';
+import { GameCodesService } from 'src/gameCodes/gameCodes.service';
 
-@Controller('charactercode')
-export class CharacterCodeController {
+@Controller('charactercodes')
+export class CharacterCodesController {
   constructor(
-    private characterCodeService: CharacterCodeService,
-    private gameCodeService: GameCodeService,
+    private characterCodesService: CharacterCodesService,
+    private gameCodesService: GameCodesService,
   ) {}
 
   @Get(':gameCode/:characterName')
@@ -17,12 +17,12 @@ export class CharacterCodeController {
     @Param('characterName') characterName: string,
   ): CharacterCodeDto {
     const gameCode: GameCode | null =
-      this.gameCodeService.getGameCode(gameName);
+      this.gameCodesService.getGameCode(gameName);
     if (gameCode == null) {
       throw new NotFoundException("Couldn't find the given game.");
     }
 
-    const characterCode = this.characterCodeService.getCharacterCode(
+    const characterCode = this.characterCodesService.getCharacterCode(
       characterName,
       gameCode,
     );
