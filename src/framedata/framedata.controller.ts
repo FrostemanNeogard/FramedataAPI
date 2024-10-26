@@ -12,6 +12,7 @@ import { FramedataService } from './framedata.service';
 import { FramedataRequestDto } from 'src/__dtos/frameDataDto';
 import { GameCode } from 'src/__types/gameCode';
 import { CharacterCodesService } from 'src/characterCodes/characterCodes.service';
+import { TekkenMoveCategory } from 'src/__types/moveCategories';
 
 @Controller('framedata')
 export class FramedataController {
@@ -47,6 +48,26 @@ export class FramedataController {
       characterCode,
       gameCode,
     );
+  }
+
+  @Get(':gameCode/:characterCode/:category')
+  public async getMoveCategoryForCharacter(
+    @Param('gameCode') gameCode: GameCode,
+    @Param('characterCode') characterCode: string,
+    @Param('category') category: TekkenMoveCategory,
+  ) {
+    const allFramedata = await this.framedataService.getCharacterFrameData(
+      characterCode,
+      gameCode,
+    );
+
+    const filteredMoves = allFramedata.filter((attack) =>
+      attack.note.includes(category),
+    );
+
+    const moveInputs = filteredMoves.map((attack) => attack.input);
+
+    return moveInputs;
   }
 
   @Post()
