@@ -1,4 +1,9 @@
-import { BadRequestException, Injectable, Logger } from '@nestjs/common';
+import {
+  BadRequestException,
+  Injectable,
+  Logger,
+  NotFoundException,
+} from '@nestjs/common';
 import * as fs from 'fs';
 import { FrameData } from 'src/__types/frameData';
 import { promisify } from 'util';
@@ -28,7 +33,7 @@ export class FramedataService {
     }
   }
 
-  async getSingleMoveFrameData(
+  async getSingleMoveFrameDataOrSimilarMoves(
     character: string,
     game: string,
     notation: string,
@@ -71,10 +76,12 @@ export class FramedataService {
     if (!attackInfo[0]) {
       similarityMap.sort((a, b) => b.similarity - a.similarity);
       const top5Moves = similarityMap.slice(0, 5).map((entry) => entry.move);
-      const uniqueSimilarMoves = top5Moves.filter(this.onlyUnique);
+      const uniqueSimilarMoves = top5Moves.filter(
+        (value, index, array) => array.indexOf(value) == index,
+      );
 
-      if (uniqueSimilarMoves.length === 0) {
-        throw new BadRequestException(`No data found for the given attack.`);
+      if (uniqueSimilarMoves.length == 0) {
+        throw new NotFoundException(`No data found for the given attack.`);
       }
 
       this.logger.error(
@@ -82,12 +89,9 @@ export class FramedataService {
       );
       return uniqueSimilarMoves;
     }
-    this.logger.log(`Found attack: ${attackInfo[0].input}`);
-    return attackInfo[0];
-  }
 
-  private onlyUnique(value, index, array) {
-    return array.indexOf(value) === index;
+    this.logger.log(`Found attack: ${attackInfo[0].input}`);
+    return [attackInfo[0]];
   }
 
   private calculateSimilarity(input1: string, input2: string): number {

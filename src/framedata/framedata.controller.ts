@@ -12,7 +12,10 @@ import { FramedataService } from './framedata.service';
 import { FramedataRequestDto } from 'src/__dtos/frameDataDto';
 import { GameCode } from 'src/__types/gameCode';
 import { CharacterCodesService } from 'src/characterCodes/characterCodes.service';
-import { TekkenMoveCategory } from 'src/__types/moveCategories';
+import {
+  TekkenMoveCategory,
+  tekkenMoveCategories,
+} from 'src/__types/moveCategories';
 
 @Controller('framedata')
 export class FramedataController {
@@ -37,7 +40,9 @@ export class FramedataController {
       this.logger.log(
         `Couldn't find character code for: ${characterName} in game: ${gameCode}`,
       );
-      throw new NotFoundException();
+      throw new NotFoundException(
+        'The given character was not found for the given game.',
+      );
     }
 
     this.logger.log(
@@ -56,6 +61,10 @@ export class FramedataController {
     @Param('characterCode') characterCode: string,
     @Param('category') category: TekkenMoveCategory,
   ) {
+    if (!tekkenMoveCategories.includes(category)) {
+      throw new BadRequestException('Invalid category.');
+    }
+
     const allFramedata = await this.framedataService.getCharacterFrameData(
       characterCode,
       gameCode,
@@ -67,21 +76,30 @@ export class FramedataController {
 
     const moveInputs = filteredMoves.map((attack) => attack.input);
 
+    if (moveInputs.length == 0) {
+      throw new NotFoundException();
+    }
+
     return moveInputs;
   }
 
   @Post()
   public async getFrameDataSingle(@Body() frameDataDto: FramedataRequestDto) {
-    this.logger.log('');
+    if (!frameDataDto.input) {
+      throw new BadRequestException();
+    }
 
-    try {
-      return await this.framedataService.getSingleMoveFrameData(
+    const frameData =
+      await this.framedataService.getSingleMoveFrameDataOrSimilarMoves(
         frameDataDto.characterCode,
         frameDataDto.gameCode,
         frameDataDto.input,
       );
-    } catch (error) {
-      return new BadRequestException(`${error}`);
+
+    if (frameData.length > 1) {
+      throw new NotFoundException({ similar_moves: frameData });
     }
+
+    return frameData;
   }
 }
