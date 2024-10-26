@@ -1,4 +1,6 @@
-export type FrameDataType = {
+import { TekkenMoveCategory } from './moveCategories';
+
+export type FrameData = {
   input: string;
   hit_level: string;
   damage: number;
@@ -6,7 +8,8 @@ export type FrameDataType = {
   block: number;
   hit: number;
   counter: number;
-  note: string;
+  notes: string[];
   name: string;
   alternateInputs: string[];
+  categories: TekkenMoveCategory[];
 };
