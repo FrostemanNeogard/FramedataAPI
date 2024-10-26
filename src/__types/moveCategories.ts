@@ -1,1 +1,2 @@
-export type TekkenMoveCategory = 'throw' | 'powercrush';
+export const tekkenMoveCategories = ['throw', 'powercrush'];
+export type TekkenMoveCategory = (typeof tekkenMoveCategories)[number];
