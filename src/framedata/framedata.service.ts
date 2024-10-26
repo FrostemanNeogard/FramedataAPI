@@ -1,6 +1,6 @@
 import { BadRequestException, Injectable, Logger } from '@nestjs/common';
 import * as fs from 'fs';
-import { FrameDataType } from 'src/__types/frameData';
+import { FrameData } from 'src/__types/frameData';
 import { promisify } from 'util';
 
 @Injectable()
@@ -10,7 +10,7 @@ export class FramedataService {
   async getCharacterFrameData(
     characterCode: string,
     game: string,
-  ): Promise<FrameDataType[]> {
+  ): Promise<FrameData[]> {
     const filePath = `src/__data/${game}/${characterCode}.json`;
 
     try {
@@ -38,16 +38,15 @@ export class FramedataService {
     );
 
     const frameData = await this.getCharacterFrameData(character, game);
-    const attackInfo: FrameDataType[] = frameData.filter((item) =>
+    const attackInfo: FrameData[] = frameData.filter((item) =>
       item.alternateInputs.includes(
         notation.replaceAll(/[\u200B-\u200D\uFEFF]/g, ''),
       ),
     );
 
-    const similarityMap: { move: FrameDataType; similarity: number }[] = [];
+    const similarityMap: { move: FrameData; similarity: number }[] = [];
     for (let i = 0; i < 2; i++) {
       if (!!attackInfo[0]) {
-        attackInfo[0].note = this.formatNotes(attackInfo[0].note);
         break;
       }
       this.logger.log(`Formatting notation, iteration: ${i}`);
@@ -56,7 +55,6 @@ export class FramedataService {
 
       for (let y = 0; y < frameData.length; y++) {
         const moveData = frameData[y];
-        moveData.note = this.formatNotes(moveData.note);
         moveData.alternateInputs.forEach((input) => {
           const formattedInput = this.formatNotation(input, removePlus);
           if (
@@ -98,20 +96,6 @@ export class FramedataService {
     const intersection = new Set([...set1].filter((x) => set2.has(x)));
     const union = new Set([...set1, ...set2]);
     return intersection.size / union.size;
-  }
-
-  private formatNotes(input: string) {
-    let output: string = input;
-    while (output.includes('\n\n')) {
-      output = output.replaceAll('\n\n', '\n');
-    }
-    if (output.startsWith('\n')) {
-      output = output.slice(1);
-    }
-    if (output.endsWith('\n')) {
-      output = output.slice(0, -1);
-    }
-    return output;
   }
 
   private formatNotation(inputNotation: string, removePlus: boolean): string {
