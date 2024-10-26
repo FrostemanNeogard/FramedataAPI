@@ -8,9 +8,15 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "+2c",
-    "note": "\n\nHeat Burst\nPress b,b to cancel attack\n\n",
     "alternateInputs": [
       "2+3"
+    ],
+    "categories": [
+      "powercrush"
+    ],
+    "notes": [
+      "Heat Burst",
+      "Press b,b to cancel attack"
     ]
   },
   {
@@ -22,9 +28,15 @@
     "block": "+3",
     "hit": "+0",
     "counter": "+0",
-    "note": "\n\nHeat Smash\nTransitions to Breaking Step on block\n\n",
     "alternateInputs": [
       "in heat 2+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Heat Smash",
+      "Transitions to Breaking Step on block"
     ]
   },
   {
@@ -36,9 +48,15 @@
     "block": "+3",
     "hit": "N/A",
     "counter": "N/A",
-    "note": "\n\nHeat Smash\nOnly possible on block\n\n",
     "alternateInputs": [
       "in heat 2+3,B"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Heat Smash",
+      "Only possible on block"
     ]
   },
   {
@@ -50,9 +68,14 @@
     "block": "+9",
     "hit": "+32a (-4)",
     "counter": "+32a (-4)",
-    "note": "\n\nHeat Smash\n+21 if blocked at the Wall\nCauses WallSplat on hit\n\n",
     "alternateInputs": [
       "in heat 2+3,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Smash",
+      "+21 if blocked at the Wall",
+      "Causes WallSplat on hit"
     ]
   },
   {
@@ -64,9 +87,16 @@
     "block": "+4",
     "hit": "+23c",
     "counter": "+23c",
-    "note": "\n\nBalcony Break\nPartially uses remaining Heat time\nTransitions to Awakened Breaking Step on hit or block\nCauses Strong Aerial Tailspin\nCauses WallSplat on hit\n\n",
     "alternateInputs": [
       "in heat db+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Partially uses remaining Heat time",
+      "Transitions to Awakened Breaking Step on hit or block",
+      "Causes Strong Aerial Tailspin",
+      "Causes WallSplat on hit"
     ]
   },
   {
@@ -78,9 +108,14 @@
     "block": "-13",
     "hit": "+72a (56)",
     "counter": "+72a (56)",
-    "note": "\n\nTornado\nUses Tornado on launch\n10 Recoverable Damage on block\n\n",
     "alternateInputs": [
       "in heat db+1+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Uses Tornado on launch",
+      "10 Recoverable Damage on block"
     ]
   },
   {
@@ -92,9 +127,12 @@
     "block": "+4",
     "hit": "+38a (28)",
     "counter": "+38a (28)",
-    "note": "\n9 Recoverable Damage on block\n\n",
     "alternateInputs": [
       "in heat db+1+2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "9 Recoverable Damage on block"
     ]
   },
   {
@@ -106,9 +144,12 @@
     "block": "+2",
     "hit": "+22a",
     "counter": "+22a",
-    "note": "\n10 Recoverable Damage on block\n\n",
     "alternateInputs": [
       "in heat db+1+2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "10 Recoverable Damage on block"
     ]
   },
   {
@@ -120,9 +161,12 @@
     "block": "-23",
     "hit": "-2d",
     "counter": "-2d",
-    "note": "\n10 Recoverable Damage on block\n\n",
     "alternateInputs": [
       "in heat db+1+2,DF+3"
+    ],
+    "categories": [],
+    "notes": [
+      "10 Recoverable Damage on block"
     ]
   },
   {
@@ -134,9 +178,12 @@
     "block": "-23",
     "hit": "+22a",
     "counter": "+22a",
-    "note": "\n4 Recoverable Damage on block\n\n",
     "alternateInputs": [
       "in heat db+1+2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "4 Recoverable Damage on block"
     ]
   },
   {
@@ -148,9 +195,12 @@
     "block": "-23",
     "hit": "+20d (-15)",
     "counter": "+20d (-15)",
-    "note": "\n\nFloor Break\n\n",
     "alternateInputs": [
       "in heat db+1+2,4,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break"
     ]
   },
   {
@@ -162,9 +212,12 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -176,9 +229,13 @@
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": "Jails\nCombo from 1st hit\n\n",
     "alternateInputs": [
       "1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Jails",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -190,9 +247,12 @@
     "block": "-16",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\n\nTornado\n\n",
     "alternateInputs": [
       "1,2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -204,9 +264,13 @@
     "block": "+0",
     "hit": "+31d",
     "counter": "",
-    "note": "\n\nFloor Break\nInterruptible by i10 from 2nd on block\n\n",
     "alternateInputs": [
       "1,2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break",
+      "Interruptible by i10 from 2nd on block"
     ]
   },
   {
@@ -218,9 +282,12 @@
     "block": "-4",
     "hit": "+23a (+14)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": [
       "1,2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -232,9 +299,12 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combo from 1st hit\n",
     "alternateInputs": [
       "1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit"
     ]
   },
   {
@@ -246,9 +316,12 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+28a",
-    "note": "Combo from 2nd CH\n",
     "alternateInputs": [
       "1,3,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -260,9 +333,12 @@
     "block": "+0",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -274,9 +350,12 @@
     "block": "-3",
     "hit": "+6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "2,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -288,9 +367,14 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+27a",
-    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH\n",
     "alternateInputs": [
       "2,1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH",
+      "Can be delayed",
+      "Combo can be delayed 9f from CH"
     ]
   },
   {
@@ -302,9 +386,12 @@
     "block": "-31",
     "hit": "+16d",
     "counter": "",
-    "note": "Interruptable by i16 after 2nd on block\n",
     "alternateInputs": [
       "2,1,4~4"
+    ],
+    "categories": [],
+    "notes": [
+      "Interruptable by i16 after 2nd on block"
     ]
   },
   {
@@ -316,9 +403,14 @@
     "block": "-9",
     "hit": "+11",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\nCan cancel into ZEN\n",
     "alternateInputs": [
       "2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st hit",
+      "Can cancel into ZEN"
     ]
   },
   {
@@ -330,9 +422,12 @@
     "block": "-6",
     "hit": "+14",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "2,4,F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -344,9 +439,12 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -358,9 +456,12 @@
     "block": "-1",
     "hit": "+7",
     "counter": "",
-    "note": "Combo from 1st hit\n",
     "alternateInputs": [
       "3,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit"
     ]
   },
   {
@@ -372,9 +473,12 @@
     "block": "+4",
     "hit": "+12",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "3,1,F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -386,9 +490,14 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+28d",
-    "note": "\nCombo from 2nd CH\nCan be delayed\nCombo can be delayed 9f from CH\n",
     "alternateInputs": [
       "3,1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH",
+      "Can be delayed",
+      "Combo can be delayed 9f from CH"
     ]
   },
   {
@@ -400,9 +509,15 @@
     "block": "-9",
     "hit": "+10",
     "counter": "+13c",
-    "note": "\n\nHoming\n\nBalcony Break\n",
     "alternateInputs": [
       "4"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Balcony Break"
     ]
   },
   {
@@ -414,9 +529,15 @@
     "block": "-14~-4",
     "hit": "+2a~+12a",
     "counter": "+2a~+12a?",
-    "note": "\n\nFloor Break\nAlternate input:\nws4~3\nCD.df+4,3+4\n",
     "alternateInputs": [
       "4~3"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break",
+      "Alternate input:",
+      "ws4~3",
+      "CD.df+4,3+4"
     ]
   },
   {
@@ -428,9 +549,13 @@
     "block": "-14",
     "hit": "+12a (+3)/HE",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nHeat Engager\n\n",
     "alternateInputs": [
       "1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Heat Engager"
     ]
   },
   {
@@ -442,9 +567,12 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "f+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -456,9 +584,12 @@
     "block": "-12",
     "hit": "+4",
     "counter": "",
-    "note": "Heat Engager\n\n",
     "alternateInputs": [
       "f+3,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager"
     ]
   },
   {
@@ -470,9 +601,12 @@
     "block": "-8",
     "hit": "+8",
     "counter": "",
-    "note": "\nB to shift to special back step (no stance / unique moves)\n\n",
     "alternateInputs": [
       "f+3,3"
+    ],
+    "categories": [],
+    "notes": [
+      "B to shift to special back step (no stance / unique moves)"
     ]
   },
   {
@@ -484,9 +618,12 @@
     "block": "-7",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "f+3,3,F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -498,9 +635,12 @@
     "block": "-8",
     "hit": "+4",
     "counter": "+42",
-    "note": "\n",
     "alternateInputs": [
       "f+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -512,9 +652,12 @@
     "block": "-1",
     "hit": "+11",
     "counter": "+49",
-    "note": "\n",
     "alternateInputs": [
       "f+4,F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -526,9 +669,14 @@
     "block": "-6",
     "hit": "+21a (+11)",
     "counter": "",
-    "note": " \n\nBalcony Break\nJails\n\n",
     "alternateInputs": [
       "f+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      " ",
+      "Balcony Break",
+      "Jails"
     ]
   },
   {
@@ -540,9 +688,12 @@
     "block": "-3",
     "hit": "+4",
     "counter": "+6",
-    "note": "\n",
     "alternateInputs": [
       "df+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -554,9 +705,13 @@
     "block": "-9",
     "hit": "+10",
     "counter": "+17a (+8)",
-    "note": "Combo from 1st hit\n\n\nBalcony Break\n\n",
     "alternateInputs": [
       "df+1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit",
+      "Balcony Break"
     ]
   },
   {
@@ -568,9 +723,12 @@
     "block": "-12",
     "hit": "+10a (+1)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": [
       "df+1,4~4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -582,9 +740,12 @@
     "block": "-9",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nBalcony Break\n\n",
     "alternateInputs": [
       "df+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -596,9 +757,12 @@
     "block": "-2",
     "hit": "+13",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+2~df"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -610,9 +774,12 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -624,9 +791,12 @@
     "block": "+6c~+7c",
     "hit": "+13c~+14c",
     "counter": "",
-    "note": "\n\nFloor Break\n\n",
     "alternateInputs": [
       "df+3~3"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break"
     ]
   },
   {
@@ -638,9 +808,12 @@
     "block": "+2c~+3c",
     "hit": "+9c~+10c",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+3~3~df"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -652,9 +825,13 @@
     "block": "+0~+1",
     "hit": "+8c~+9c/HE",
     "counter": "",
-    "note": "\n\nFloor Break\n\nHeat Engager\n\n\n",
     "alternateInputs": [
       "df+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break",
+      "Heat Engager"
     ]
   },
   {
@@ -666,9 +843,16 @@
     "block": "-13",
     "hit": "+0",
     "counter": "",
-    "note": "\nAbsorb an attack to power up, which adds 8 chip damage when guarded\n\nBalcony Break\n\n",
     "alternateInputs": [
       "d+1"
+    ],
+    "categories": [
+      "throw",
+      "powercrush"
+    ],
+    "notes": [
+      "Absorb an attack to power up, which adds 8 chip damage when guarded",
+      "Balcony Break"
     ]
   },
   {
@@ -680,9 +864,12 @@
     "block": "-14",
     "hit": "+4",
     "counter": "+71a (+55)",
-    "note": "\n\nTornado on CH\n\n",
     "alternateInputs": [
       "d+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado on CH"
     ]
   },
   {
@@ -694,9 +881,12 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "d+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -708,9 +898,12 @@
     "block": "-11",
     "hit": "-3",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "d+3,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -722,9 +915,14 @@
     "block": "-12",
     "hit": "+31(+23)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nWallSplat\n\n",
     "alternateInputs": [
       "d+3,4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "WallSplat"
     ]
   },
   {
@@ -736,9 +934,13 @@
     "block": "-12",
     "hit": "+10a (+1)",
     "counter": "",
-    "note": "\n\nBalcony Break\nWallsplat\n\n",
     "alternateInputs": [
       "d+3,4~4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Wallsplat"
     ]
   },
   {
@@ -750,9 +952,12 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "d+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -764,9 +969,12 @@
     "block": "-19",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "d+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -778,9 +986,12 @@
     "block": "-10",
     "hit": "+4",
     "counter": "+4",
-    "note": "\n",
     "alternateInputs": [
       "db+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -792,9 +1003,12 @@
     "block": "-12",
     "hit": "+7",
     "counter": "+43a",
-    "note": "Jails\n",
     "alternateInputs": [
       "db+2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Jails"
     ]
   },
   {
@@ -806,9 +1020,12 @@
     "block": "-9~-8",
     "hit": "+20a~+21a",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "db+2,2,3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -820,9 +1037,12 @@
     "block": "-8~-6",
     "hit": "+7a~+9a",
     "counter": "",
-    "note": "\n\nFloor Break\n\n",
     "alternateInputs": [
       "db+2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break"
     ]
   },
   {
@@ -834,9 +1054,12 @@
     "block": "-10~-8",
     "hit": "+17a~+19a",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "db+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -848,9 +1071,12 @@
     "block": "-13",
     "hit": "+3",
     "counter": "+13",
-    "note": "\n",
     "alternateInputs": [
       "db+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -862,9 +1088,13 @@
     "block": "-11",
     "hit": "+17",
     "counter": "",
-    "note": "\n\nBalcony Break\nWallsplat\n\n",
     "alternateInputs": [
       "db+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Wallsplat"
     ]
   },
   {
@@ -876,9 +1106,12 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -890,9 +1123,12 @@
     "block": "-10",
     "hit": "+32a (+17)",
     "counter": "",
-    "note": "\n\nTornado\n\n",
     "alternateInputs": [
       "b+1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -904,9 +1140,12 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -918,9 +1157,12 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -932,9 +1174,12 @@
     "block": "-6",
     "hit": "+5",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -946,9 +1191,12 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+3,F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -960,9 +1208,12 @@
     "block": "-9~-8",
     "hit": "+9~+10",
     "counter": "",
-    "note": "\n\nWall Crush  +21g on hit\n\n\n",
     "alternateInputs": [
       "b+3,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Wall Crush  +21g on hit"
     ]
   },
   {
@@ -974,9 +1225,12 @@
     "block": "-7",
     "hit": "+15a",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -988,9 +1242,15 @@
     "block": "-12",
     "hit": "+6",
     "counter": "",
-    "note": "Sabaki Parry: absorbs punches, causing +34ad (+26) KND on hit\n",
     "alternateInputs": [
       "b+1+2"
+    ],
+    "categories": [
+      "powercrush",
+      "parry"
+    ],
+    "notes": [
+      "Sabaki Parry: absorbs punches, causing +34ad (+26) KND on hit"
     ]
   },
   {
@@ -1002,9 +1262,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nHigh Crush evasion, can perform all attacks from ZEN Stance; f to shift to WR, df to shift to CD\n\n",
     "alternateInputs": [
       "b+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "High Crush evasion, can perform all attacks from ZEN Stance; f to shift to WR, df to shift to CD"
     ]
   },
   {
@@ -1016,9 +1279,12 @@
     "block": "",
     "hit": "+9a (0)",
     "counter": "",
-    "note": "\nUnblockable\n\n\n",
     "alternateInputs": [
       "ub+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Unblockable"
     ]
   },
   {
@@ -1030,9 +1296,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ub+1+2,b,b"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1044,9 +1313,12 @@
     "block": "-7~-6",
     "hit": "+6~+7",
     "counter": "+19a (+10)",
-    "note": "\n",
     "alternateInputs": [
       "uf+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1058,9 +1330,12 @@
     "block": "-9",
     "hit": "+6",
     "counter": "+59a",
-    "note": "\n",
     "alternateInputs": [
       "uf+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1072,9 +1347,12 @@
     "block": "-13",
     "hit": "+33a (+23a)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "uf+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1086,9 +1364,12 @@
     "block": "-13~-11",
     "hit": "+32a~+34a (+22a~+24a)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "uf,n+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1100,9 +1381,13 @@
     "block": "-8",
     "hit": "+15a (+6)/HE",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n6 Recoverable Damage on block\n\n",
     "alternateInputs": [
       "f,F+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "6 Recoverable Damage on block"
     ]
   },
   {
@@ -1114,9 +1399,12 @@
     "block": "-4~-2",
     "hit": "+24a~+26a",
     "counter": "",
-    "note": "\n\nFloor Break\n\n",
     "alternateInputs": [
       "f,F+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break"
     ]
   },
   {
@@ -1128,9 +1416,12 @@
     "block": "+1",
     "hit": "+7",
     "counter": "",
-    "note": "\nCan follow-up with any strings that start with 1 (e.g. f,F+3, 1, 2, 4)\n\n",
     "alternateInputs": [
       "f,F+3,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Can follow-up with any strings that start with 1 (e.g. f,F+3, 1, 2, 4)"
     ]
   },
   {
@@ -1142,9 +1433,12 @@
     "block": "-7~-6",
     "hit": "+22a (+12)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "f,F+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1156,9 +1450,12 @@
     "block": "-7",
     "hit": "+4~+5",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b,f+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1170,9 +1467,12 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+5/+9",
-    "note": "\n",
     "alternateInputs": [
       "b,f+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1184,9 +1484,12 @@
     "block": "-5",
     "hit": "+18a (+9)",
     "counter": "+50a roll (+3)",
-    "note": "\n",
     "alternateInputs": [
       "b,f+2,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1198,9 +1501,12 @@
     "block": "-14",
     "hit": "+37a (+27)",
     "counter": "",
-    "note": "\n\nTornado\n\n",
     "alternateInputs": [
       "b,f+2,1,df+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -1212,9 +1518,12 @@
     "block": "-9",
     "hit": "+6",
     "counter": "+59a",
-    "note": "\n",
     "alternateInputs": [
       "b,f+2,3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1226,9 +1535,12 @@
     "block": "+2",
     "hit": "+17",
     "counter": "+71a",
-    "note": "\n",
     "alternateInputs": [
       "b,f+2,3~F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1240,9 +1552,12 @@
     "block": "+6~+7",
     "hit": "+13a~+14a (+3~+4)",
     "counter": "",
-    "note": "\nAlternate input: WR.3 or f,n,d,df,UF+3\n\n",
     "alternateInputs": [
       "f,f,F+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input: WR.3 or f,n,d,df,UF+3"
     ]
   },
   {
@@ -1254,9 +1569,12 @@
     "block": "-26",
     "hit": "+22a~+23a",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "FC df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1268,9 +1586,12 @@
     "block": "-6~-5",
     "hit": "+5~+6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1282,9 +1603,13 @@
     "block": "-8~-7",
     "hit": "+3~+4",
     "counter": "",
-    "note": "\nTransition to -9 (ob) +2 (oh) ZEN with F\n\nFloor Break\n\n",
     "alternateInputs": [
       "ws1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to -9 (ob) +2 (oh) ZEN with F",
+      "Floor Break"
     ]
   },
   {
@@ -1296,9 +1621,12 @@
     "block": "-6",
     "hit": "+4",
     "counter": "",
-    "note": "Jails\n",
     "alternateInputs": [
       "ws1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Jails"
     ]
   },
   {
@@ -1310,9 +1638,12 @@
     "block": "-11",
     "hit": "-6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws1,3,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1324,9 +1655,12 @@
     "block": "-11",
     "hit": "+3",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws1,3,2,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1338,9 +1672,12 @@
     "block": "-31",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws1,3,2,1,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1352,9 +1689,12 @@
     "block": "-16",
     "hit": "-8",
     "counter": "",
-    "note": "\n\nFloor Break\n\n",
     "alternateInputs": [
       "ws1,3,2,1,4,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break"
     ]
   },
   {
@@ -1366,9 +1706,12 @@
     "block": "+6~+7",
     "hit": "+13c~+14c",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws1,3~3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1380,9 +1723,12 @@
     "block": "+2~+3",
     "hit": "+9c~+10",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws1,3~3,~df"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1394,9 +1740,12 @@
     "block": "-12~-11",
     "hit": "+39a~+40a (+29~+30a)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1408,9 +1757,14 @@
     "block": "-9~-11",
     "hit": "+10-~+12",
     "counter": "+22a",
-    "note": "\n\nHoming\n\n",
     "alternateInputs": [
       "ws3"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing"
     ]
   },
   {
@@ -1422,9 +1776,12 @@
     "block": "-3~-2",
     "hit": "+8~+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1436,9 +1793,12 @@
     "block": "-7~-6",
     "hit": "+4~+5",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws4,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1450,10 +1810,13 @@
     "block": "-13~-12",
     "hit": "+32a~+33a (+22~+23)",
     "counter": "",
-    "note": "\n\nTornado\n\n",
     "alternateInputs": [
       "CD df+1",
       "f,n,d,df1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -1465,10 +1828,13 @@
     "block": "-13~-12",
     "hit": "+36a~+37a (+26~+27)",
     "counter": "",
-    "note": "\n\nTornado\n\n",
     "alternateInputs": [
       "CD df:1",
       "f,n,d,df:1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -1480,10 +1846,13 @@
     "block": "-10~-9",
     "hit": "+74a~75a (+58~+59)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "CD df+2",
       "f,n,d,df2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1495,10 +1864,13 @@
     "block": "+5~+6",
     "hit": "+76a~+77a (+60~+61)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "CD df:2",
       "f,n,d,df:2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1510,10 +1882,13 @@
     "block": "-31~-30",
     "hit": "+8~+9",
     "counter": "",
-    "note": "\n\n",
     "alternateInputs": [
       "CD DF+4",
       "f,n,d,df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1525,10 +1900,13 @@
     "block": "-16~-15",
     "hit": "+21a~+22a",
     "counter": "",
-    "note": "\n\nFloor Break\n\n",
     "alternateInputs": [
       "CD DF+4,2",
       "f,n,d,df+4,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break"
     ]
   },
   {
@@ -1540,9 +1918,13 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nSteps forward\nCan transition to Breaking Step with input DF\n\n",
     "alternateInputs": [
       "f+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Steps forward",
+      "Can transition to Breaking Step with input DF"
     ]
   },
   {
@@ -1554,9 +1936,14 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nSteps backward\nCan transition to dash with input F\nCan transition to Breaking Step with input DF\n\n",
     "alternateInputs": [
       "b+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Steps backward",
+      "Can transition to dash with input F",
+      "Can transition to Breaking Step with input DF"
     ]
   },
   {
@@ -1568,9 +1955,12 @@
     "block": "-3~-2",
     "hit": "+8~+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ZEN 1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1582,9 +1972,12 @@
     "block": "-14~-13",
     "hit": "+32a~+33a (+6~+7)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ZEN 1,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1596,9 +1989,14 @@
     "block": "-9~-8",
     "hit": "0",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ZEN 1,3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1610,9 +2008,15 @@
     "block": "-5~-4",
     "hit": "+17a~+18a (+8~+9)/HE",
     "counter": "",
-    "note": "\n\nHoming\n\nHeat Engager\n\n\n",
     "alternateInputs": [
       "ZEN 2"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Heat Engager"
     ]
   },
   {
@@ -1624,9 +2028,15 @@
     "block": "-9~-8",
     "hit": "+10~+11",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\n",
     "alternateInputs": [
       "ZEN 3"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Balcony Break"
     ]
   },
   {
@@ -1638,9 +2048,12 @@
     "block": "+2~+8",
     "hit": "+17d~+23d",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ZEN 4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1652,9 +2065,14 @@
     "block": "-14",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ZEN 1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1666,9 +2084,13 @@
     "block": "+9~+15",
     "hit": "+19~ (+9~)",
     "counter": "",
-    "note": "\n\nWall Crush  +15g~+21g on block\n\n\nBalcony Break\n\n",
     "alternateInputs": [
       "ZEN 3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Wall Crush  +15g~+21g on block",
+      "Balcony Break"
     ]
   },
   {
@@ -1680,9 +2102,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ZEN 3+4~DF"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1694,9 +2119,12 @@
     "block": "-16~-14",
     "hit": "+31a~+29a (+21~+19)",
     "counter": "",
-    "note": "\n\nTornado\n\n",
     "alternateInputs": [
       "ZEN u+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -1708,9 +2136,14 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "Startup 1f-2f, parry 3f-9f, recovery 10f-31f.\n",
     "alternateInputs": [
       "b+1+3-b+2+4"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Startup 1f-2f, parry 3f-9f, recovery 10f-31f."
     ]
   },
   {
@@ -1722,9 +2155,14 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nErases opponent's recoverable health on hit\n\n",
     "alternateInputs": [
       "in rage df+1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Erases opponent's recoverable health on hit"
     ]
   },
   {
@@ -1736,9 +2174,12 @@
     "block": "+0",
     "hit": "+2",
     "counter": "",
-    "note": "Throw break: 1 or 2; LT when broken\n",
     "alternateInputs": [
       "1+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break: 1 or 2; LT when broken"
     ]
   },
   {
@@ -1750,9 +2191,12 @@
     "block": "-3",
     "hit": "+0",
     "counter": "",
-    "note": "Throw break: 1 or 2\n",
     "alternateInputs": [
       "2+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break: 1 or 2"
     ]
   },
   {
@@ -1764,9 +2208,12 @@
     "block": "-3",
     "hit": "+0",
     "counter": "",
-    "note": "Throw break: 1\n",
     "alternateInputs": [
       "Left Throw"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break: 1"
     ]
   },
   {
@@ -1778,9 +2225,12 @@
     "block": "-3",
     "hit": "+0",
     "counter": "",
-    "note": "Throw break: 2\n",
     "alternateInputs": [
       "Right Throw"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break: 2"
     ]
   },
   {
@@ -1792,9 +2242,12 @@
     "block": "",
     "hit": "+1",
     "counter": "",
-    "note": "Throw break: None\n",
     "alternateInputs": [
       "Back Throw"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break: None"
     ]
   },
   {
@@ -1806,9 +2259,13 @@
     "block": "-2",
     "hit": "-4",
     "counter": "",
-    "note": "\nThrow break: 2\nAlternate input: ZEN 2+3\n\n",
     "alternateInputs": [
       "df+2+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break: 2",
+      "Alternate input: ZEN 2+3"
     ]
   },
   {
@@ -1820,9 +2277,13 @@
     "block": "+0",
     "hit": "+0",
     "counter": "",
-    "note": "\n\nFloor Break\nThrow break: 1+2\n\n",
     "alternateInputs": [
       "uf+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break",
+      "Throw break: 1+2"
     ]
   },
   {
@@ -1834,9 +2295,12 @@
     "block": "-2",
     "hit": "0",
     "counter": "",
-    "note": "Throw break: 1\n",
     "alternateInputs": [
       "qcb+1+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break: 1"
     ]
   }
 ]

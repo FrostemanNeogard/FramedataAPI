@@ -8,9 +8,14 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\n\nHeat Burst\n",
     "alternateInputs": [
       "2+3"
+    ],
+    "categories": [
+      "powercrush"
+    ],
+    "notes": [
+      "Heat Burst"
     ]
   },
   {
@@ -22,9 +27,16 @@
     "block": "+11g",
     "hit": "+5",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nBalcony Break\nAutomatically transitions to DSS on block\n",
     "alternateInputs": [
       "in heat 2+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Heat Smash",
+      "Balcony Break",
+      "Automatically transitions to DSS on block"
     ]
   },
   {
@@ -36,9 +48,15 @@
     "block": "-12",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nCombos from 1st or 2nd hit CH\n\nBalcony Break\n",
     "alternateInputs": [
       "1,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
+      "Combos from 1st or 2nd hit CH",
+      "Balcony Break"
     ]
   },
   {
@@ -50,9 +68,16 @@
     "block": "-14",
     "hit": "+12a (+5)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5, +42a (+27)\n\n\nBalcony Break\nCombos from 1st or 2nd hit CH\nDelay-able \n",
     "alternateInputs": [
       "b+1,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash  +5, +42a (+27)",
+      "Balcony Break",
+      "Combos from 1st or 2nd hit CH",
+      "Delay-able "
     ]
   },
   {
@@ -64,9 +89,14 @@
     "block": "-8",
     "hit": "+42d (-16)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36d (+26)\n\n\nBalcony Break \n",
     "alternateInputs": [
       "uf+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36d (+26)",
+      "Balcony Break "
     ]
   },
   {
@@ -78,9 +108,15 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\nAlternate input DSS.f+3 \n",
     "alternateInputs": [
       "f,F+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +43d (+35)",
+      "Balcony Break",
+      "Alternate input DSS.f+3 "
     ]
   },
   {
@@ -92,9 +128,15 @@
     "block": "-9",
     "hit": "+39d (-19)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nChip damage on block \n",
     "alternateInputs": [
       "DSS f+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
+      "Balcony Break",
+      "Chip damage on block "
     ]
   },
   {
@@ -106,9 +148,16 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "\n\nTornado\n\nWeapon\nPartially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 \n",
     "alternateInputs": [
       "1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Weapon",
+      "Partially uses remaining Heat Time",
+      "Instant Tornado on CH",
+      "Alternate input DSS.1+2 "
     ]
   },
   {
@@ -120,9 +169,17 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nEnters DSS\nTransition to Slide Step with DF\nAbsorbs punch attacks and shifts to Dragon Parry \n",
     "alternateInputs": [
       "in heat d+1+2"
+    ],
+    "categories": [
+      "powercrush",
+      "parry"
+    ],
+    "notes": [
+      "Enters DSS",
+      "Transition to Slide Step with DF",
+      "Absorbs punch attacks and shifts to Dragon Parry "
     ]
   },
   {
@@ -134,9 +191,16 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nPunches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat\n",
     "alternateInputs": [
       "b+2+4"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Punches only",
+      "Partially restores remaining Heat Time",
+      "Does 38 damage in Heat"
     ]
   },
   {
@@ -148,9 +212,16 @@
     "block": "-15",
     "hit": "+0",
     "counter": "",
-    "note": "\nRage Art\nDamage increases with lower health\nErases opponent's recoverable health on hit\n",
     "alternateInputs": [
       "in rage df+1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Rage Art",
+      "Damage increases with lower health",
+      "Erases opponent's recoverable health on hit"
     ]
   },
   {
@@ -162,9 +233,12 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -176,9 +250,12 @@
     "block": "-8",
     "hit": "-6",
     "counter": "+6",
-    "note": "\n",
     "alternateInputs": [
       "1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -190,9 +267,15 @@
     "block": "-12",
     "hit": "+41d (-17)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\nCombos from 1st or 2nd hit CH\n\nBalcony Break\n",
     "alternateInputs": [
       "1,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
+      "Combos from 1st or 2nd hit CH",
+      "Balcony Break"
     ]
   },
   {
@@ -204,9 +287,13 @@
     "block": "-6",
     "hit": "+6",
     "counter": "",
-    "note": "\nTransition to DSS with F\n(-5 oB, +7 oH) \n",
     "alternateInputs": [
       "1,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to DSS with F",
+      "(-5 oB, +7 oH) "
     ]
   },
   {
@@ -218,9 +305,13 @@
     "block": "-3",
     "hit": "+6",
     "counter": "+6",
-    "note": "\nJails from 1st attack\nCombos from 1st hit\n",
     "alternateInputs": [
       "1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Jails from 1st attack",
+      "Combos from 1st hit"
     ]
   },
   {
@@ -232,9 +323,12 @@
     "block": "-8",
     "hit": "+4",
     "counter": "+4",
-    "note": "Combos from 1st hit CH\n",
     "alternateInputs": [
       "1,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit CH"
     ]
   },
   {
@@ -246,9 +340,15 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+9d",
-    "note": "\nCombos from 1st or 3rd hit CH\nDelay-able\nTransition to DSS with F\n(-3 oB, +10g oH, +15d CH)\n",
     "alternateInputs": [
       "1,2,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st or 3rd hit CH",
+      "Delay-able",
+      "Transition to DSS with F",
+      "(-3 oB, +10g oH, +15d CH)"
     ]
   },
   {
@@ -260,9 +360,12 @@
     "block": "-13",
     "hit": "+5a (-4)",
     "counter": "",
-    "note": "Balcony Break\n",
     "alternateInputs": [
       "1,2,2,1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -274,9 +377,15 @@
     "block": "-5",
     "hit": "+13",
     "counter": "",
-    "note": "\n\nWall Crush +24g on hit\n\n\nKnee\nCombos from 1st hit CH\nJails from 1st attack\n",
     "alternateInputs": [
       "1,2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Wall Crush +24g on hit",
+      "Knee",
+      "Combos from 1st hit CH",
+      "Jails from 1st attack"
     ]
   },
   {
@@ -288,9 +397,12 @@
     "block": "-20",
     "hit": "-11",
     "counter": "",
-    "note": "Transition to Slide Step with DF\n",
     "alternateInputs": [
       "1,2,uf+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to Slide Step with DF"
     ]
   },
   {
@@ -302,9 +414,12 @@
     "block": "-12",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "1,2,uf+3,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -316,9 +431,12 @@
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -330,9 +448,12 @@
     "block": "-8",
     "hit": "+4",
     "counter": "",
-    "note": "Delay-able\n",
     "alternateInputs": [
       "2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Delay-able"
     ]
   },
   {
@@ -344,9 +465,14 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+9d",
-    "note": "\nCombos from 2nd hit\nTransition to DSS with F\n(-3 oB, +10g oH, +15d)\n",
     "alternateInputs": [
       "2,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 2nd hit",
+      "Transition to DSS with F",
+      "(-3 oB, +10g oH, +15d)"
     ]
   },
   {
@@ -358,9 +484,14 @@
     "block": "-13",
     "hit": "+5a (-4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 2nd hit CH\nDelay-able\n",
     "alternateInputs": [
       "2,2,1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combos from 2nd hit CH",
+      "Delay-able"
     ]
   },
   {
@@ -372,9 +503,13 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\nCombos from 1st hit\nDelay-able\n",
     "alternateInputs": [
       "2,b+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Delay-able"
     ]
   },
   {
@@ -386,9 +521,13 @@
     "block": "-3",
     "hit": "+3",
     "counter": "",
-    "note": "\nCombos from 2nd hit CH\nDelay-able\n",
     "alternateInputs": [
       "2,b+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 2nd hit CH",
+      "Delay-able"
     ]
   },
   {
@@ -400,9 +539,14 @@
     "block": "-3",
     "hit": "+20a",
     "counter": "+55a",
-    "note": "\nCombos from 3rd hit CH\nDelay-able\nTransition to FC with D\n",
     "alternateInputs": [
       "2,b+2,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 3rd hit CH",
+      "Delay-able",
+      "Transition to FC with D"
     ]
   },
   {
@@ -414,9 +558,12 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -428,9 +575,13 @@
     "block": "-14",
     "hit": "-3",
     "counter": "+53a (+22)",
-    "note": "\nCombos from 1st hit CH\nDelay-able\n",
     "alternateInputs": [
       "3,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit CH",
+      "Delay-able"
     ]
   },
   {
@@ -442,9 +593,13 @@
     "block": "-10",
     "hit": "+19a (+10)",
     "counter": "",
-    "note": "\nCombos from 1st hit\n\nBalcony Break \n",
     "alternateInputs": [
       "3,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Balcony Break "
     ]
   },
   {
@@ -456,9 +611,12 @@
     "block": "-9",
     "hit": "+7",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -470,9 +628,15 @@
     "block": "-8",
     "hit": "+1",
     "counter": "+23a",
-    "note": "\nCombos from 1st hit\nTransition to DSS with F\n(+8 oB, +17g, +39a (+32))\nDSS allows full combo off of Magic 4\n",
     "alternateInputs": [
       "4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Transition to DSS with F",
+      "(+8 oB, +17g, +39a (+32))",
+      "DSS allows full combo off of Magic 4"
     ]
   },
   {
@@ -484,9 +648,15 @@
     "block": "-6",
     "hit": "-1",
     "counter": "+31a (+24)",
-    "note": "\nCombos off of 1st hit CH\nTransition to DSS with F\n(+8 oB, +13g, +45a (+38))\nDSS allows full combo off of Magic 4\n",
     "alternateInputs": [
       "4,3,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos off of 1st hit CH",
+      "Transition to DSS with F",
+      "(+8 oB, +13g, +45a (+38))",
+      "DSS allows full combo off of Magic 4"
     ]
   },
   {
@@ -498,9 +668,12 @@
     "block": "-1",
     "hit": "+30a (+13)",
     "counter": "",
-    "note": "Combos off of 1st hit CH\n",
     "alternateInputs": [
       "4,u+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos off of 1st hit CH"
     ]
   },
   {
@@ -512,9 +685,16 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "\n\nTornado\n\nWeapon\nPartially uses remaining Heat Time\nInstant Tornado on CH\nAlternate input DSS.1+2 \n",
     "alternateInputs": [
       "1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Weapon",
+      "Partially uses remaining Heat Time",
+      "Instant Tornado on CH",
+      "Alternate input DSS.1+2 "
     ]
   },
   {
@@ -526,9 +706,12 @@
     "block": "-13",
     "hit": "+3",
     "counter": "",
-    "note": "Alternate input DSS.3+4\n",
     "alternateInputs": [
       "3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input DSS.3+4"
     ]
   },
   {
@@ -540,9 +723,15 @@
     "block": "+7 (+10g w)",
     "hit": "+31d (-27)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 1st hit\nChip damage on block\nAlternate input DSS.3+4,4\n",
     "alternateInputs": [
       "3+4,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combos from 1st hit",
+      "Chip damage on block",
+      "Alternate input DSS.3+4,4"
     ]
   },
   {
@@ -554,9 +743,15 @@
     "block": "+0",
     "hit": "+6",
     "counter": "",
-    "note": "\nCan route into:\nRave War Combo (f+2,2,2), or\nBlazing Fist Combo (f+2,2,1+2)\nAlternate input DSS.f+2\n",
     "alternateInputs": [
       "f+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Can route into:",
+      "Rave War Combo (f+2,2,2), or",
+      "Blazing Fist Combo (f+2,2,1+2)",
+      "Alternate input DSS.f+2"
     ]
   },
   {
@@ -568,9 +763,16 @@
     "block": "+2",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input DSS.f+2~1\n",
     "alternateInputs": [
       "f+2~1"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Transition to DSS with F",
+      "(+5 oB, +33a (+7))",
+      "Alternate input DSS.f+2~1"
     ]
   },
   {
@@ -582,9 +784,12 @@
     "block": "-10",
     "hit": "+1",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "f+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -596,9 +801,13 @@
     "block": "-2",
     "hit": "+8",
     "counter": "",
-    "note": "\nTransition to DSS with F\n(+4 oB, +14g) \n",
     "alternateInputs": [
       "f+3,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to DSS with F",
+      "(+4 oB, +14g) "
     ]
   },
   {
@@ -610,9 +819,12 @@
     "block": "+3c",
     "hit": "+8c",
     "counter": "+55a",
-    "note": "Transition to FC with D\n",
     "alternateInputs": [
       "f+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to FC with D"
     ]
   },
   {
@@ -624,9 +836,12 @@
     "block": "-2",
     "hit": "+7c",
     "counter": "+49a",
-    "note": "Alternate input DSS.f+3+4\n",
     "alternateInputs": [
       "f+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input DSS.f+3+4"
     ]
   },
   {
@@ -638,9 +853,12 @@
     "block": "-1",
     "hit": "+5",
     "counter": "",
-    "note": "First hit of Law's 10 String\n",
     "alternateInputs": [
       "df+1"
+    ],
+    "categories": [],
+    "notes": [
+      "First hit of Law's 10 String"
     ]
   },
   {
@@ -652,9 +870,12 @@
     "block": "-16",
     "hit": "-5",
     "counter": "",
-    "note": "Combos from 1st hit\n",
     "alternateInputs": [
       "df+1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit"
     ]
   },
   {
@@ -666,9 +887,12 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Combos from 1st hit\n",
     "alternateInputs": [
       "df+1,3,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit"
     ]
   },
   {
@@ -680,9 +904,12 @@
     "block": "-7",
     "hit": "+34a (+24)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -694,9 +921,12 @@
     "block": "-13",
     "hit": "+52a (+21)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -708,9 +938,12 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -722,9 +955,13 @@
     "block": "-14",
     "hit": "+68a (+52)",
     "counter": "",
-    "note": "\n\nTornado\nCombos from 1st hit CH \n",
     "alternateInputs": [
       "df+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Combos from 1st hit CH "
     ]
   },
   {
@@ -736,9 +973,12 @@
     "block": "-8",
     "hit": "+3",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -750,9 +990,12 @@
     "block": "-15",
     "hit": "+4c",
     "counter": "+6a",
-    "note": "\n",
     "alternateInputs": [
       "df+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -764,9 +1007,12 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Transition to Slide Step with DF\n",
     "alternateInputs": [
       "d+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to Slide Step with DF"
     ]
   },
   {
@@ -778,9 +1024,13 @@
     "block": "-9",
     "hit": "+20a (+11)",
     "counter": "+65a (+45)",
-    "note": "\n\nBalcony Break\nTornado on CH\n",
     "alternateInputs": [
       "d+1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Tornado on CH"
     ]
   },
   {
@@ -792,9 +1042,12 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Alternate input FC.d+2\n",
     "alternateInputs": [
       "d+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input FC.d+2"
     ]
   },
   {
@@ -806,9 +1059,13 @@
     "block": "-15",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\nCombos from 1st hit CH\n\nTornado \n",
     "alternateInputs": [
       "d+2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit CH",
+      "Tornado "
     ]
   },
   {
@@ -820,9 +1077,12 @@
     "block": "-14",
     "hit": "-3",
     "counter": "",
-    "note": "Transition to FC with D\n",
     "alternateInputs": [
       "d+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to FC with D"
     ]
   },
   {
@@ -834,9 +1094,13 @@
     "block": "-7",
     "hit": "+20a",
     "counter": "+46CS",
-    "note": "\nCombos from 1st hit CH\nDelay-able \n",
     "alternateInputs": [
       "d+3,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit CH",
+      "Delay-able "
     ]
   },
   {
@@ -848,9 +1112,12 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "d+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -862,9 +1129,13 @@
     "block": "-12",
     "hit": "+0",
     "counter": "+5",
-    "note": "\nCombos from 1st hit\nNosebleed stun \n",
     "alternateInputs": [
       "d+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Nosebleed stun "
     ]
   },
   {
@@ -876,9 +1147,12 @@
     "block": "-14",
     "hit": "-2",
     "counter": "",
-    "note": "Alternate input FC.d+4\n",
     "alternateInputs": [
       "d+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input FC.d+4"
     ]
   },
   {
@@ -890,9 +1164,14 @@
     "block": "-14",
     "hit": "+14a",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 1st hit CH\nAlternate input FC.d+4,3\n",
     "alternateInputs": [
       "d+3+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combos from 1st hit CH",
+      "Alternate input FC.d+4,3"
     ]
   },
   {
@@ -904,9 +1183,12 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "db+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -918,9 +1200,12 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "db+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -932,9 +1217,12 @@
     "block": "-4",
     "hit": "+1d",
     "counter": "",
-    "note": "Transition to FUFA with D\n",
     "alternateInputs": [
       "db+2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to FUFA with D"
     ]
   },
   {
@@ -946,9 +1234,12 @@
     "block": "-13",
     "hit": "+3c",
     "counter": "+13g",
-    "note": "\n",
     "alternateInputs": [
       "db+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -960,9 +1251,14 @@
     "block": "-37",
     "hit": "+15a",
     "counter": "",
-    "note": "Homing\n",
     "alternateInputs": [
       "db+4"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing"
     ]
   },
   {
@@ -974,9 +1270,12 @@
     "block": "-8",
     "hit": "+30a (+12)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "db+4,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -988,9 +1287,13 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\nTransition to DSS with F\n(-3 oB, +8 oH) \n",
     "alternateInputs": [
       "b+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to DSS with F",
+      "(-3 oB, +8 oH) "
     ]
   },
   {
@@ -1002,9 +1305,15 @@
     "block": "-12",
     "hit": "+2",
     "counter": "",
-    "note": "\nCombos from 1st hit\nDelay-able\nTransition to DSS with F\n(-9 oB, +5 oH) \n",
     "alternateInputs": [
       "b+1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Delay-able",
+      "Transition to DSS with F",
+      "(-9 oB, +5 oH) "
     ]
   },
   {
@@ -1016,9 +1325,16 @@
     "block": "-14",
     "hit": "+12a (+5)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash  +5, +42a (+27)\n\n\nBalcony Break\nCombos from 1st or 2nd hit CH\nDelay-able \n",
     "alternateInputs": [
       "b+1,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash  +5, +42a (+27)",
+      "Balcony Break",
+      "Combos from 1st or 2nd hit CH",
+      "Delay-able "
     ]
   },
   {
@@ -1030,9 +1346,12 @@
     "block": "-8",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1044,9 +1363,14 @@
     "block": "-15",
     "hit": "+11a",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit CH\n",
     "alternateInputs": [
       "b+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Combos from 1st hit CH"
     ]
   },
   {
@@ -1058,9 +1382,15 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+9d",
-    "note": "\nCombos from 1st hit\nDelay-able\nTransition to DSS with F\n(-3 oB, +10 oH, +15d CH)\n",
     "alternateInputs": [
       "b+2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Delay-able",
+      "Transition to DSS with F",
+      "(-3 oB, +10 oH, +15d CH)"
     ]
   },
   {
@@ -1072,9 +1402,12 @@
     "block": "-12",
     "hit": "-1",
     "counter": "",
-    "note": "Delay-able\n",
     "alternateInputs": [
       "b+2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Delay-able"
     ]
   },
   {
@@ -1086,9 +1419,16 @@
     "block": "-7",
     "hit": "+36a (+26)",
     "counter": "",
-    "note": "\n\nTornado\nCombos from 2nd hit CH\nDelay-able\nTransition to DSS with F\n(+6 oB, +49a (+39) oH)\n",
     "alternateInputs": [
       "b+2,3,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Combos from 2nd hit CH",
+      "Delay-able",
+      "Transition to DSS with F",
+      "(+6 oB, +49a (+39) oH)"
     ]
   },
   {
@@ -1100,9 +1440,12 @@
     "block": "-37",
     "hit": "+11a",
     "counter": "",
-    "note": "Delay-able\n",
     "alternateInputs": [
       "b+2,3,d+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Delay-able"
     ]
   },
   {
@@ -1114,9 +1457,17 @@
     "block": "-12",
     "hit": "+17a (+8)",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\nTransition to BT with B\n(-11 oB, +18a (+9) oH)\n",
     "alternateInputs": [
       "b+3"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Balcony Break",
+      "Transition to BT with B",
+      "(-11 oB, +18a (+9) oH)"
     ]
   },
   {
@@ -1128,9 +1479,16 @@
     "block": "-7",
     "hit": "+3",
     "counter": "",
-    "note": "\n\nHoming\nTransition to BT with B\n(-4 oB, +6 oH) \n",
     "alternateInputs": [
       "b+4"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Transition to BT with B",
+      "(-4 oB, +6 oH) "
     ]
   },
   {
@@ -1142,9 +1500,13 @@
     "block": "-5",
     "hit": "+24a (+15)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 1st hit \n",
     "alternateInputs": [
       "b+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combos from 1st hit "
     ]
   },
   {
@@ -1156,9 +1518,12 @@
     "block": "-14",
     "hit": "+31a (+23)",
     "counter": "",
-    "note": "Balcony Break\n",
     "alternateInputs": [
       "b+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -1170,9 +1535,15 @@
     "block": "",
     "hit": "+7",
     "counter": "",
-    "note": "\nTransition to DSS on successful parry with F to be +14\nGuarantees DSS.1, DSS.2, DSS.f+1\n",
     "alternateInputs": [
       "b+1+3"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Transition to DSS on successful parry with F to be +14",
+      "Guarantees DSS.1, DSS.2, DSS.f+1"
     ]
   },
   {
@@ -1184,9 +1555,16 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nPunches only\nPartially restores remaining Heat Time\nDoes 38 damage in Heat\n",
     "alternateInputs": [
       "b+2+4"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Punches only",
+      "Partially restores remaining Heat Time",
+      "Does 38 damage in Heat"
     ]
   },
   {
@@ -1198,9 +1576,13 @@
     "block": "-18",
     "hit": "+16a (+6)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCan be done from DSS \n",
     "alternateInputs": [
       "b+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Can be done from DSS "
     ]
   },
   {
@@ -1212,9 +1594,12 @@
     "block": "-12",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ub+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1226,9 +1611,15 @@
     "block": "-7",
     "hit": "+13a (-4)",
     "counter": "",
-    "note": "\nJails from 1st to 3rd attack\nLast hit delay-able\nFrame data for 1st, 2nd and 3rd hits:\n(-9 oB, -3 oH) \n",
     "alternateInputs": [
       "ub+1,2,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Jails from 1st to 3rd attack",
+      "Last hit delay-able",
+      "Frame data for 1st, 2nd and 3rd hits:",
+      "(-9 oB, -3 oH) "
     ]
   },
   {
@@ -1240,9 +1631,13 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to Slide Step with DF\nAlternate input u+3 \n",
     "alternateInputs": [
       "ub+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to Slide Step with DF",
+      "Alternate input u+3 "
     ]
   },
   {
@@ -1254,9 +1649,12 @@
     "block": "-12",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ub+3,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1268,9 +1666,12 @@
     "block": "-13",
     "hit": "+19a (+9)",
     "counter": "+33a (+23)",
-    "note": "Sometimes written neutral hopkick\n",
     "alternateInputs": [
       "u+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Sometimes written neutral hopkick"
     ]
   },
   {
@@ -1282,9 +1683,14 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\nAlternate input:\nKi Charge~1\nb,B+2+3~1,3 \n",
     "alternateInputs": [
       "uf+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input:",
+      "Ki Charge~1",
+      "b,B+2+3~1,3 "
     ]
   },
   {
@@ -1296,9 +1702,15 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": "\nCombos from 1st hit\nAlternate input:\nKi Charge~1,3\nb,B+2+3~1,3 \n",
     "alternateInputs": [
       "uf+1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Alternate input:",
+      "Ki Charge~1,3",
+      "b,B+2+3~1,3 "
     ]
   },
   {
@@ -1310,9 +1722,14 @@
     "block": "-8",
     "hit": "+42d (-16)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36d (+26)\n\n\nBalcony Break \n",
     "alternateInputs": [
       "uf+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36d (+26)",
+      "Balcony Break "
     ]
   },
   {
@@ -1324,9 +1741,12 @@
     "block": "-13",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "Sometimes written hopkick\n",
     "alternateInputs": [
       "uf+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Sometimes written hopkick"
     ]
   },
   {
@@ -1338,9 +1758,12 @@
     "block": "-24",
     "hit": "+5",
     "counter": "",
-    "note": "Alternate input DSS.uf+3+4\n",
     "alternateInputs": [
       "uf+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input DSS.uf+3+4"
     ]
   },
   {
@@ -1352,9 +1775,12 @@
     "block": "-15",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "uf,n,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1366,9 +1792,13 @@
     "block": "-17",
     "hit": "+28a (+18)",
     "counter": "",
-    "note": "\nAlternate input\nUB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 \n",
     "alternateInputs": [
       "UF+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input",
+      "UB+4, U+4, FC.ub+4, FC.u+4, FC.uf+4 "
     ]
   },
   {
@@ -1380,9 +1810,18 @@
     "block": "-14",
     "hit": "+78a (+62)",
     "counter": "",
-    "note": "\nCombos from 1st hit\n\nTornado\n2nd hit Instant Tornado\n(+68a (+52) oH)\nAlternate input\nUB+4,3 U+4,3\nFC.ub+4,3 FC.u+4,3 FC.uf+4,3 \n",
     "alternateInputs": [
       "UF+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Tornado",
+      "2nd hit Instant Tornado",
+      "(+68a (+52) oH)",
+      "Alternate input",
+      "UB+4,3 U+4,3",
+      "FC.ub+4,3 FC.u+4,3 FC.uf+4,3 "
     ]
   },
   {
@@ -1394,9 +1833,12 @@
     "block": "-6",
     "hit": "+2",
     "counter": "+7",
-    "note": "\n",
     "alternateInputs": [
       "f,F+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1408,9 +1850,12 @@
     "block": "-4",
     "hit": "+2",
     "counter": "",
-    "note": "Delayable\n",
     "alternateInputs": [
       "f,F+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Delayable"
     ]
   },
   {
@@ -1422,9 +1867,14 @@
     "block": "-13",
     "hit": "+11a",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos off 2nd hit CH\nDelayable\n",
     "alternateInputs": [
       "f,F+2,1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combos off 2nd hit CH",
+      "Delayable"
     ]
   },
   {
@@ -1436,9 +1886,15 @@
     "block": "-14",
     "hit": "+37a (-21)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombos from 1st hit\nDelayable\n",
     "alternateInputs": [
       "f,F+2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Combos from 1st hit",
+      "Delayable"
     ]
   },
   {
@@ -1450,9 +1906,14 @@
     "block": "+2",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "\nChip damage on block\nTransition to DSS with F\n(+5 oB,+33a (+7))\n",
     "alternateInputs": [
       "f,F+2,f+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Chip damage on block",
+      "Transition to DSS with F",
+      "(+5 oB,+33a (+7))"
     ]
   },
   {
@@ -1464,9 +1925,15 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\nAlternate input DSS.f+3 \n",
     "alternateInputs": [
       "f,F+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +43d (+35)",
+      "Balcony Break",
+      "Alternate input DSS.f+3 "
     ]
   },
   {
@@ -1478,9 +1945,12 @@
     "block": "-11",
     "hit": "+18a (+1)",
     "counter": "",
-    "note": "Balcony Break\n",
     "alternateInputs": [
       "f,F+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -1492,9 +1962,15 @@
     "block": "+6",
     "hit": "+35d (-23)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nAlternate input wr3\nAirborne frames 3-32",
     "alternateInputs": [
       "f,f,F+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Alternate input wr3",
+      "Airborne frames 3-32"
     ]
   },
   {
@@ -1506,9 +1982,12 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Can cancel and transition to DSS with b,b\n",
     "alternateInputs": [
       "b,B+2+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Can cancel and transition to DSS with b,b"
     ]
   },
   {
@@ -1520,9 +1999,12 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "FC 1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1534,9 +2016,12 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Alternate input d+2\n",
     "alternateInputs": [
       "FC 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input d+2"
     ]
   },
   {
@@ -1548,9 +2033,12 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "FC 3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1562,9 +2050,12 @@
     "block": "-14",
     "hit": "+14a (-3)",
     "counter": "",
-    "note": "Combo from 1st hit CH\n",
     "alternateInputs": [
       "FC 3,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit CH"
     ]
   },
   {
@@ -1576,9 +2067,12 @@
     "block": "-14",
     "hit": "-2",
     "counter": "",
-    "note": "Alternate input d+3+4\n",
     "alternateInputs": [
       "FC 4"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input d+3+4"
     ]
   },
   {
@@ -1590,9 +2084,13 @@
     "block": "-14",
     "hit": "+14a",
     "counter": "",
-    "note": "\nCombos from 1st hit CH\nAlternate input d+3+4,3\n",
     "alternateInputs": [
       "FC 4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit CH",
+      "Alternate input d+3+4,3"
     ]
   },
   {
@@ -1604,9 +2102,12 @@
     "block": "-4",
     "hit": "+17a (+7)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "FC UF+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1618,9 +2119,12 @@
     "block": "-23",
     "hit": "+13",
     "counter": "",
-    "note": "\nAlternate input df+3 in Slide Step\n",
     "alternateInputs": [
       "FC df,d,df+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input df+3 in Slide Step"
     ]
   },
   {
@@ -1632,9 +2136,13 @@
     "block": "-7",
     "hit": "-1",
     "counter": "",
-    "note": "\nTransition to DSS with F\n(-4 oB, +2 oH) \n",
     "alternateInputs": [
       "ws1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to DSS with F",
+      "(-4 oB, +2 oH) "
     ]
   },
   {
@@ -1646,9 +2154,13 @@
     "block": "-9",
     "hit": "+40d (-18)",
     "counter": "",
-    "note": "\n\nBalcony Break\nDelayable \n",
     "alternateInputs": [
       "ws1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Delayable "
     ]
   },
   {
@@ -1660,9 +2172,12 @@
     "block": "-18",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1674,9 +2189,13 @@
     "block": "+17g",
     "hit": "+19",
     "counter": "",
-    "note": "\nAutomatically transitions to DSS on hit and block\nOn hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 \n",
     "alternateInputs": [
       "ws3"
+    ],
+    "categories": [],
+    "notes": [
+      "Automatically transitions to DSS on hit and block",
+      "On hit, guaranteed DSS.1, DSS.f+1, DSS.2, DSS.f+2, DSS.3+4,4 "
     ]
   },
   {
@@ -1688,9 +2207,13 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\nTransition to DSS with F\n(+5 oB, +16 oH) \n",
     "alternateInputs": [
       "ws4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to DSS with F",
+      "(+5 oB, +16 oH) "
     ]
   },
   {
@@ -1702,9 +2225,13 @@
     "block": "-14",
     "hit": "+68a (+52)",
     "counter": "",
-    "note": "\n\nTornado\nCombos from 1st hit CH \n",
     "alternateInputs": [
       "ws4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Combos from 1st hit CH "
     ]
   },
   {
@@ -1716,9 +2243,12 @@
     "block": "-21",
     "hit": "+0a (-17)",
     "counter": "",
-    "note": "Balcony Break\n",
     "alternateInputs": [
       "ws3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -1730,9 +2260,13 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nEnters DSS\nTransition to Slide Step with DF \n",
     "alternateInputs": [
       "d+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Enters DSS",
+      "Transition to Slide Step with DF "
     ]
   },
   {
@@ -1744,9 +2278,14 @@
     "block": "+0",
     "hit": "+8",
     "counter": "+18c",
-    "note": "\nChip damage on block\nAutomatically transitions to DSS on hit and block\nCH guarantees DSS.f+1, DSS.3+4,4\n",
     "alternateInputs": [
       "DSS 1"
+    ],
+    "categories": [],
+    "notes": [
+      "Chip damage on block",
+      "Automatically transitions to DSS on hit and block",
+      "CH guarantees DSS.f+1, DSS.3+4,4"
     ]
   },
   {
@@ -1758,9 +2297,13 @@
     "block": "+1",
     "hit": "+15d",
     "counter": "+50a",
-    "note": "\n\nBalcony Break\nChip damage on block \n",
     "alternateInputs": [
       "DSS 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block "
     ]
   },
   {
@@ -1772,9 +2315,16 @@
     "block": "+3",
     "hit": "+40a",
     "counter": "",
-    "note": "\n\nHoming\n\nBalcony Break\nChip damage on block \n",
     "alternateInputs": [
       "DSS 3"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Balcony Break",
+      "Chip damage on block "
     ]
   },
   {
@@ -1786,9 +2336,12 @@
     "block": "-13",
     "hit": "+6c",
     "counter": "+38d",
-    "note": "\n",
     "alternateInputs": [
       "DSS 4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1800,9 +2353,16 @@
     "block": "-13",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
-    "note": "\n\nTornado\n\nWeapon\nPartially uses remaining Heat time\nInstant Tornado on CH\nAlternate input 1+2\n",
     "alternateInputs": [
       "DSS 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Weapon",
+      "Partially uses remaining Heat time",
+      "Instant Tornado on CH",
+      "Alternate input 1+2"
     ]
   },
   {
@@ -1814,9 +2374,15 @@
     "block": "-9",
     "hit": "+39d (-19)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +36a (+26)\n\n\nBalcony Break\nChip damage on block \n",
     "alternateInputs": [
       "DSS f+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
+      "Balcony Break",
+      "Chip damage on block "
     ]
   },
   {
@@ -1828,9 +2394,16 @@
     "block": "+2",
     "hit": "+30a (+4)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nTransition to DSS with F\n(+5 oB, +33a (+7))\nAlternate input f+2~1\n",
     "alternateInputs": [
       "DSS f+2~1"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Transition to DSS with F",
+      "(+5 oB, +33a (+7))",
+      "Alternate input f+2~1"
     ]
   },
   {
@@ -1842,9 +2415,17 @@
     "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +5, +43d (+35)\n\n\nBalcony Break\nChip damage on block\nAlternate input f,F+3\n\nWhile transitioning to DSS from other moves, it is possible to input DSS.f+3 as a Just Frame (ex; 4,3~F:DSS.f+3) for 4 more damage.\n",
     "alternateInputs": [
       "DSS f+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +43d (+35)",
+      "Balcony Break",
+      "Chip damage on block",
+      "Alternate input f,F+3",
+      "While transitioning to DSS from other moves, it is possible to input DSS.f+3 as a Just Frame (ex; 4,3~F:DSS.f+3) for 4 more damage."
     ]
   },
   {
@@ -1856,9 +2437,14 @@
     "block": "+7 (+10g w)",
     "hit": "+31d (-27)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\n\nWhile transitioning to DSS from other moves, it is possible to input DSS.f+4 as a Just Frame (ex; 4,3~F:DSS.f+4) for 4 more damage.\n",
     "alternateInputs": [
       "DSS f+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "While transitioning to DSS from other moves, it is possible to input DSS.f+4 as a Just Frame (ex; 4,3~F:DSS.f+4) for 4 more damage."
     ]
   },
   {
@@ -1870,9 +2456,14 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1+2\n",
     "alternateInputs": [
       "DSS uf+1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2"
     ]
   },
   {
@@ -1884,9 +2475,12 @@
     "block": "+1",
     "hit": "+8",
     "counter": "",
-    "note": "Can route into the same strings as his normal 1\n",
     "alternateInputs": [
       "BT 1"
+    ],
+    "categories": [],
+    "notes": [
+      "Can route into the same strings as his normal 1"
     ]
   },
   {
@@ -1898,9 +2492,12 @@
     "block": "-14",
     "hit": "-1",
     "counter": "+52a",
-    "note": "\n",
     "alternateInputs": [
       "BT 2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1912,9 +2509,13 @@
     "block": "-14",
     "hit": "+31d (-27)",
     "counter": "",
-    "note": "\nCombos from 1st hit\nDelay-able \n",
     "alternateInputs": [
       "BT 2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Delay-able "
     ]
   },
   {
@@ -1926,9 +2527,12 @@
     "block": "-8",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "BT 3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1940,9 +2544,12 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "BT 4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1954,9 +2561,13 @@
     "block": "-12",
     "hit": "+12a (+3)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombos from 1st hit CH \n",
     "alternateInputs": [
       "BT 4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combos from 1st hit CH "
     ]
   },
   {
@@ -1968,9 +2579,15 @@
     "block": "+1",
     "hit": "+16g",
     "counter": "",
-    "note": "\n\nBalcony Break\nHoming \n",
     "alternateInputs": [
       "BT 1+2"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Balcony Break",
+      "Homing "
     ]
   },
   {
@@ -1982,9 +2599,12 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "BT d+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1996,9 +2616,12 @@
     "block": "-13",
     "hit": "+6c",
     "counter": "+26d",
-    "note": "\n",
     "alternateInputs": [
       "BT d+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -2010,9 +2633,13 @@
     "block": "-15",
     "hit": "+0",
     "counter": "",
-    "note": "\nTransition to FUFA with D\n(-2 oB, +13d oH) \n",
     "alternateInputs": [
       "BT d+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to FUFA with D",
+      "(-2 oB, +13d oH) "
     ]
   },
   {
@@ -2024,9 +2651,13 @@
     "block": "+0",
     "hit": "+16d (+6)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block \n",
     "alternateInputs": [
       "ss2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block "
     ]
   },
   {
@@ -2038,9 +2669,13 @@
     "block": "-13",
     "hit": "+7",
     "counter": "+16c",
-    "note": "\nAutomatically transitions to DSS on hit\nCH guarantees DSS.f+1, DSS.3+4,4 \n",
     "alternateInputs": [
       "ss3"
+    ],
+    "categories": [],
+    "notes": [
+      "Automatically transitions to DSS on hit",
+      "CH guarantees DSS.f+1, DSS.3+4,4 "
     ]
   },
   {
@@ -2052,9 +2687,12 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "Automatically transitions to DSS on hit and block\n",
     "alternateInputs": [
       "ss1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Automatically transitions to DSS on hit and block"
     ]
   },
   {
@@ -2066,9 +2704,12 @@
     "block": "-16",
     "hit": "+16d (+6)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ss1+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -2080,9 +2721,12 @@
     "block": "-12",
     "hit": "+63a (+43)",
     "counter": "",
-    "note": "Balcony Break\n",
     "alternateInputs": [
       "ss3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -2094,9 +2738,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -2108,9 +2755,14 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\nAlternate input:\nuf+1\nb,B+2+3~1,3 \n",
     "alternateInputs": [
       "1+2+3+4~1"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input:",
+      "uf+1",
+      "b,B+2+3~1,3 "
     ]
   },
   {
@@ -2122,9 +2774,15 @@
     "block": "-13",
     "hit": "-1",
     "counter": "",
-    "note": "\nCombos from 1st hit\nAlternate input:\nuf+1,3\nb,B+2+3~1,3 \n",
     "alternateInputs": [
       "1+2+3+4~1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combos from 1st hit",
+      "Alternate input:",
+      "uf+1,3",
+      "b,B+2+3~1,3 "
     ]
   },
   {
@@ -2136,9 +2794,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -2150,9 +2811,13 @@
     "block": "+1",
     "hit": "+50a",
     "counter": "",
-    "note": "\nChip damage on block\nAlternate input DSS.2 \n",
     "alternateInputs": [
       "1+2+3+4,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Chip damage on block",
+      "Alternate input DSS.2 "
     ]
   },
   {
@@ -2164,9 +2829,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "(While down, facing up) 1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -2178,9 +2846,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -2192,9 +2863,12 @@
     "block": "-1",
     "hit": "+45d (-13)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "(Back to wall) b,b,ub"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -2206,9 +2880,14 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1 or 2\n",
     "alternateInputs": [
       "1+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1 or 2"
     ]
   },
   {
@@ -2220,9 +2899,17 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1 or 2\nSide swap\nTransition to BT with D\n(+5 BT) \n",
     "alternateInputs": [
       "2+4"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1 or 2",
+      "Side swap",
+      "Transition to BT with D",
+      "(+5 BT) "
     ]
   },
   {
@@ -2234,9 +2921,14 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 1\n",
     "alternateInputs": [
       "Left Throw"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1"
     ]
   },
   {
@@ -2248,9 +2940,14 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "Throw break 2\n",
     "alternateInputs": [
       "Right Throw"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 2"
     ]
   },
   {
@@ -2262,9 +2959,14 @@
     "block": "",
     "hit": "+0d",
     "counter": "",
-    "note": "Unbreakable\n",
     "alternateInputs": [
       "Back Throw"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Unbreakable"
     ]
   },
   {
@@ -2276,9 +2978,14 @@
     "block": "-2",
     "hit": "+6d",
     "counter": "",
-    "note": "Throw break 1\n",
     "alternateInputs": [
       "f+2+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1"
     ]
   },
   {
@@ -2290,9 +2997,14 @@
     "block": "-6",
     "hit": "+3d",
     "counter": "",
-    "note": "Throw break 1+2\n",
     "alternateInputs": [
       "uf+1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2"
     ]
   },
   {
@@ -2304,9 +3016,15 @@
     "block": "-6",
     "hit": "-6d",
     "counter": "",
-    "note": "\nThrow break 1+2\n\nFloor Break \n",
     "alternateInputs": [
       "uf+1+2,2,1,1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2",
+      "Floor Break "
     ]
   },
   {
@@ -2318,9 +3036,14 @@
     "block": "-3",
     "hit": "+55a (+28)",
     "counter": "",
-    "note": "Throw break 1+2\n",
     "alternateInputs": [
       "f,F+3+4"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2"
     ]
   },
   {
@@ -2332,9 +3055,12 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "First 3 hits are a natural combo\n",
     "alternateInputs": [
       "df+1,3,2,2,3,3,3,4,4,4"
+    ],
+    "categories": [],
+    "notes": [
+      "First 3 hits are a natural combo"
     ]
   }
 ]

@@ -8,9 +8,19 @@
     "block": "+1",
     "hit": "+2c",
     "counter": "",
-    "note": "\n\nHeat Burst\nCancel to r45 with b,b\n3 chip damage on block\n12 chip damage on hit\nOnly deals recoverable damage\nCannot cause a K.O.\n\n",
     "alternateInputs": [
       "2+3"
+    ],
+    "categories": [
+      "powercrush"
+    ],
+    "notes": [
+      "Heat Burst",
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -22,9 +32,20 @@
     "block": "+10g",
     "hit": "-6",
     "counter": "",
-    "note": "\n\nHeat Smash\n\nFloor Break\n17 chip damage on block\nTransition to attack throw on hit\n+15a if only the last hit connects\n+11d (-24) if only the last two hits connect\n2nd hit damage 11 > 18 if 1st hit whiffs\n3rd hit damage 27 > 30 if 1st hit whiffs\nHit level becomes m,m,m on block/whiff\n\n",
     "alternateInputs": [
       "in heat 2+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Smash",
+      "Floor Break",
+      "17 chip damage on block",
+      "Transition to attack throw on hit",
+      "+15a if only the last hit connects",
+      "+11d (-24) if only the last two hits connect",
+      "2nd hit damage 11 > 18 if 1st hit whiffs",
+      "3rd hit damage 27 > 30 if 1st hit whiffs",
+      "Hit level becomes m,m,m on block/whiff"
     ]
   },
   {
@@ -36,9 +57,19 @@
     "block": "-9",
     "hit": "+19a (+9)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +43a (+35), +5\n\n\nBalcony Break\n+0 on block after absorbing an attack\nChip damage on block after attack absorption\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": [
       "f+1+2"
+    ],
+    "categories": [
+      "powercrush"
+    ],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +43a (+35), +5",
+      "Balcony Break",
+      "+0 on block after absorbing an attack",
+      "Chip damage on block after attack absorption",
+      "Gain Naniwa Gusto on Heat activation"
     ]
   },
   {
@@ -50,9 +81,15 @@
     "block": "-4c",
     "hit": "+9c",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +67a (+50), +5 on block\n\n\nSpike\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "d+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +67a (+50), +5 on block",
+      "Spike",
+      "Gain NWG on Heat activation"
     ]
   },
   {
@@ -64,9 +101,16 @@
     "block": "-9",
     "hit": "+22a (+13)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +34a (+27), +5\n\n\nBalcony Break\nCombo from 1st hit with 8f delay\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "db+1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +34a (+27), +5",
+      "Balcony Break",
+      "Combo from 1st hit with 8f delay",
+      "Gain NWG on Heat activation"
     ]
   },
   {
@@ -78,9 +122,15 @@
     "block": "-13",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\nGain NWG on Heat activation\nBalcony break on airborne hit\n\n",
     "alternateInputs": [
       "SS 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +36a (+26), +5",
+      "Gain NWG on Heat activation",
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -92,9 +142,19 @@
     "block": "-3",
     "hit": "+8a",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\n\nBalcony Break\n\nElbow\nGain NWG on Heat Activation\nChip damage on blockSometimes written \nf+1+3,2\nDestabilizer.2\n\n",
     "alternateInputs": [
       "DST 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +36a (+26), +5",
+      "Balcony Break",
+      "Elbow",
+      "Gain NWG on Heat Activation",
+      "Chip damage on blockSometimes written ",
+      "f+1+3,2",
+      "Destabilizer.2"
     ]
   },
   {
@@ -106,9 +166,12 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -120,9 +183,14 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 1st CH with 3f delay\nLinks to f+1 extensions\nInterrupt with i4 from 1st block\n\n",
     "alternateInputs": [
       "1,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH with 3f delay",
+      "Links to f+1 extensions",
+      "Interrupt with i4 from 1st block"
     ]
   },
   {
@@ -134,9 +202,13 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+14c",
-    "note": "\nCombo from 2nd CH with 9f delay\nInput can be delayed 10f\n\n",
     "alternateInputs": [
       "1,1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH with 9f delay",
+      "Input can be delayed 10f"
     ]
   },
   {
@@ -148,9 +220,13 @@
     "block": "-8",
     "hit": "+6",
     "counter": "",
-    "note": "\nCombo from 1st hit\nCombo from 1st CH with 3f delay\n",
     "alternateInputs": [
       "1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit",
+      "Combo from 1st CH with 3f delay"
     ]
   },
   {
@@ -162,9 +238,16 @@
     "block": "-2",
     "hit": "+29a (+20)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r18 with B\nInterrupt with i15 from 2nd block\nLast input can be held to power up\n",
     "alternateInputs": [
       "1,2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Cancel to r18 with B",
+      "Interrupt with i15 from 2nd block",
+      "Last input can be held to power up"
     ]
   },
   {
@@ -176,9 +259,15 @@
     "block": "+6",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r15 with B\nInterrupt with i36 from 2nd block\n",
     "alternateInputs": [
       "1,2,3*"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Cancel to r15 with B",
+      "Interrupt with i36 from 2nd block"
     ]
   },
   {
@@ -190,9 +279,13 @@
     "block": "-12",
     "hit": "+12s",
     "counter": "",
-    "note": "\nCombo from 1st CH\nCombo from 2nd CH with 1f delay\n\n",
     "alternateInputs": [
       "1,2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH",
+      "Combo from 2nd CH with 1f delay"
     ]
   },
   {
@@ -204,9 +297,13 @@
     "block": "-11",
     "hit": "+0",
     "counter": "",
-    "note": "\nCombo from 1st hit with 2f delay\nCombo from 1st CH with 3f delay\n",
     "alternateInputs": [
       "1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit with 2f delay",
+      "Combo from 1st CH with 3f delay"
     ]
   },
   {
@@ -218,9 +315,12 @@
     "block": "-7",
     "hit": "+2",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -232,9 +332,13 @@
     "block": "-6",
     "hit": "+6",
     "counter": "",
-    "note": "\n\nElbow\nJail from 1st attack with 1f delay\n",
     "alternateInputs": [
       "2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Elbow",
+      "Jail from 1st attack with 1f delay"
     ]
   },
   {
@@ -246,9 +350,15 @@
     "block": "-10",
     "hit": "+16a (-1)",
     "counter": "",
-    "note": "\n\nTornado\n\nBalcony Break\nCombo from 2nd CH with 1f delay\nInterrupt with i8 from 2nd block\n\n",
     "alternateInputs": [
       "2,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Combo from 2nd CH with 1f delay",
+      "Interrupt with i8 from 2nd block"
     ]
   },
   {
@@ -260,9 +370,16 @@
     "block": "-9",
     "hit": "+3c",
     "counter": "+38a",
-    "note": "\n\nSpike\nCombo from 2nd CH with 1f delay\nCancel to r20 with B\nCancel to FC with D\nInterrupt with i10 from 2nd block\n",
     "alternateInputs": [
       "2,1,d+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike",
+      "Combo from 2nd CH with 1f delay",
+      "Cancel to r20 with B",
+      "Cancel to FC with D",
+      "Interrupt with i10 from 2nd block"
     ]
   },
   {
@@ -274,9 +391,14 @@
     "block": "-17",
     "hit": "+14g",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit with 1f delay\nOpponent recovers crouching on hit\n\n",
     "alternateInputs": [
       "2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st hit with 1f delay",
+      "Opponent recovers crouching on hit"
     ]
   },
   {
@@ -288,9 +410,12 @@
     "block": "-7",
     "hit": "+9",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -302,9 +427,15 @@
     "block": "-11",
     "hit": "+8",
     "counter": "+35a (+27)",
-    "note": "\nCombo from 1st hit with 14f delay\nInput can be delayed 14f\nMove can be delayed 10f\nBalcony break on CH\n\n",
     "alternateInputs": [
       "3,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit with 14f delay",
+      "Input can be delayed 14f",
+      "Move can be delayed 10f",
+      "Balcony break on CH"
     ]
   },
   {
@@ -316,9 +447,12 @@
     "block": "-9",
     "hit": "+7",
     "counter": "+32a",
-    "note": "Balcony break on CH\n",
     "alternateInputs": [
       "4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony break on CH"
     ]
   },
   {
@@ -330,9 +464,12 @@
     "block": "-9",
     "hit": "+27a",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "1+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -344,9 +481,14 @@
     "block": "-6",
     "hit": "+25a",
     "counter": "",
-    "note": "\n\nSpike\nCancel to FC with D\nr44 on grounded hit\n\n",
     "alternateInputs": [
       "3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike",
+      "Cancel to FC with D",
+      "r44 on grounded hit"
     ]
   },
   {
@@ -358,9 +500,12 @@
     "block": "-3",
     "hit": "-3",
     "counter": "+4",
-    "note": "\nJail from 1st attack\n\n",
     "alternateInputs": [
       "1+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Jail from 1st attack"
     ]
   },
   {
@@ -372,9 +517,12 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\nCombo from 2nd CH\n\n",
     "alternateInputs": [
       "1+4,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -386,9 +534,13 @@
     "block": "-9",
     "hit": "+4",
     "counter": "+17a (+8)",
-    "note": "\nCombo from 3rd CH\nBalcony break on CH\n\n",
     "alternateInputs": [
       "1+4,2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 3rd CH",
+      "Balcony break on CH"
     ]
   },
   {
@@ -400,9 +552,12 @@
     "block": "-23",
     "hit": "+27d",
     "counter": "",
-    "note": "\nCombo from 3rd CH\n\n",
     "alternateInputs": [
       "1+4,2,d+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 3rd CH"
     ]
   },
   {
@@ -414,9 +569,17 @@
     "block": "-2",
     "hit": "+29a (+20)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip on block\nCancel to r18 with B\nInterrupt with i18 from 2nd block\nLast input can be held to power up\nLink to attack from Spinning Heel Drop (f+3)\n\n",
     "alternateInputs": [
       "1+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip on block",
+      "Cancel to r18 with B",
+      "Interrupt with i18 from 2nd block",
+      "Last input can be held to power up",
+      "Link to attack from Spinning Heel Drop (f+3)"
     ]
   },
   {
@@ -428,9 +591,12 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "f+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -442,9 +608,13 @@
     "block": "-5",
     "hit": "+6",
     "counter": "+14c",
-    "note": "\nCombo from 1st CH with 9f delay\nInput can be delayed 10f\n\n",
     "alternateInputs": [
       "f+1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH with 9f delay",
+      "Input can be delayed 10f"
     ]
   },
   {
@@ -456,9 +626,18 @@
     "block": "-26",
     "hit": "+24a",
     "counter": "",
-    "note": "\n\nHoming\nCombo from 1st CH\nInput can be delayed 15f\nInterrupt with i11 from 1st block\nCancel to FC -24 -13 r43? with DB\n\n",
     "alternateInputs": [
       "f+1,4"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Combo from 1st CH",
+      "Input can be delayed 15f",
+      "Interrupt with i11 from 1st block",
+      "Cancel to FC -24 -13 r43? with DB"
     ]
   },
   {
@@ -470,9 +649,15 @@
     "block": "-18",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nCancel to r11 FC with D\nGain NWG on hit with 1\nhit advantage becomes +26a (+16) on NWG gain\nSometimes written Tooth Fairy\n",
     "alternateInputs": [
       "f+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Cancel to r11 FC with D",
+      "Gain NWG on hit with 1",
+      "hit advantage becomes +26a (+16) on NWG gain",
+      "Sometimes written Tooth Fairy"
     ]
   },
   {
@@ -484,9 +669,14 @@
     "block": "-2~+0",
     "hit": "+29a (+20)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r33 with B\n\n",
     "alternateInputs": [
       "f+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Cancel to r33 with B"
     ]
   },
   {
@@ -498,9 +688,14 @@
     "block": "+6~+7",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nCancel to r55? with B\n\n",
     "alternateInputs": [
       "f+3*"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Cancel to r55? with B"
     ]
   },
   {
@@ -512,9 +707,13 @@
     "block": "+28a (+19)",
     "hit": "+28a (+19)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCancel to r58? with B\n\n",
     "alternateInputs": [
       "f+3**"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Cancel to r58? with B"
     ]
   },
   {
@@ -526,9 +725,15 @@
     "block": "+3",
     "hit": "+28a",
     "counter": "",
-    "note": "\n\nHoming\nBalcony break on CH\n",
     "alternateInputs": [
       "f+4"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Balcony break on CH"
     ]
   },
   {
@@ -540,9 +745,19 @@
     "block": "-9",
     "hit": "+19a (+9)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +43a (+35), +5\n\n\nBalcony Break\n+0 on block after absorbing an attack\nChip damage on block after attack absorption\nGain Naniwa Gusto on Heat activation\n\n",
     "alternateInputs": [
       "f+1+2"
+    ],
+    "categories": [
+      "powercrush"
+    ],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +43a (+35), +5",
+      "Balcony Break",
+      "+0 on block after absorbing an attack",
+      "Chip damage on block after attack absorption",
+      "Gain Naniwa Gusto on Heat activation"
     ]
   },
   {
@@ -554,9 +769,15 @@
     "block": "-1",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break\nChip damage on block\nGain NWG on hit\n-2a (-11) on hit after NWG gain\n\n",
     "alternateInputs": [
       "f+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block",
+      "Gain NWG on hit",
+      "-2a (-11) on hit after NWG gain"
     ]
   },
   {
@@ -568,9 +789,16 @@
     "block": "+0",
     "hit": "+25a",
     "counter": "",
-    "note": "\n\nBalcony Break\nSabaki, parries high or mid punches\n+51a on a successful parry\n\n",
     "alternateInputs": [
       "f+2+3"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Balcony Break",
+      "Sabaki, parries high or mid punches",
+      "+51a on a successful parry"
     ]
   },
   {
@@ -582,9 +810,12 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -596,9 +827,18 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nFloor Break\nCombo from 1st CH with 2f delay\nCombo from 1st hit when off-axis to the left or right\nInput can be delayed 7f\n+18a on off-axis hit, +16a on BT hit\nTransition to attack throw on standing front hit\nWon't transition to throw if opponent is too far (Jack-8 range 3.3~), gives +13 on hit instead\n\n",
     "alternateInputs": [
       "df+1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break",
+      "Combo from 1st CH with 2f delay",
+      "Combo from 1st hit when off-axis to the left or right",
+      "Input can be delayed 7f",
+      "+18a on off-axis hit, +16a on BT hit",
+      "Transition to attack throw on standing front hit",
+      "Won't transition to throw if opponent is too far (Jack-8 range 3.3~), gives +13 on hit instead"
     ]
   },
   {
@@ -610,9 +850,14 @@
     "block": "-12",
     "hit": "+22a (+17)",
     "counter": "+59a",
-    "note": "\n\nBalcony Break\nCombo from 1st CH with 1f delay\nInput can be delayed 7f\n\n",
     "alternateInputs": [
       "df+1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st CH with 1f delay",
+      "Input can be delayed 7f"
     ]
   },
   {
@@ -624,9 +869,12 @@
     "block": "-6",
     "hit": "+35a (+25)",
     "counter": "",
-    "note": "+5s on crouch hit\n",
     "alternateInputs": [
       "df+2"
+    ],
+    "categories": [],
+    "notes": [
+      "+5s on crouch hit"
     ]
   },
   {
@@ -638,9 +886,12 @@
     "block": "-8",
     "hit": "+12a",
     "counter": "",
-    "note": "Balcony Break\n",
     "alternateInputs": [
       "df+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -652,9 +903,12 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -666,9 +920,16 @@
     "block": "-26",
     "hit": "+70a (+54)",
     "counter": "",
-    "note": "\n\nHoming\nAlternate input: 3~4\nCancel to r47? FC with DB\n\n",
     "alternateInputs": [
       "df+3+4"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Alternate input: 3~4",
+      "Cancel to r47? FC with DB"
     ]
   },
   {
@@ -680,9 +941,15 @@
     "block": "-4c",
     "hit": "+9c",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +67a (+50), +5 on block\n\n\nSpike\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "d+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +67a (+50), +5 on block",
+      "Spike",
+      "Gain NWG on Heat activation"
     ]
   },
   {
@@ -694,9 +961,12 @@
     "block": "-18",
     "hit": "+11a",
     "counter": "",
-    "note": "Spike\n",
     "alternateInputs": [
       "d+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike"
     ]
   },
   {
@@ -708,9 +978,14 @@
     "block": "-8",
     "hit": "+30a (+20)",
     "counter": "",
-    "note": "\nCombo from 1st CH\n-25 if 1st hit is blocked\nSometimes written Can Cans\n",
     "alternateInputs": [
       "d+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH",
+      "-25 if 1st hit is blocked",
+      "Sometimes written Can Cans"
     ]
   },
   {
@@ -722,9 +997,12 @@
     "block": "-10",
     "hit": "+6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "db+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -736,9 +1014,16 @@
     "block": "-9",
     "hit": "+22a (+13)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +34a (+27), +5\n\n\nBalcony Break\nCombo from 1st hit with 8f delay\nGain NWG on Heat activation\n\n",
     "alternateInputs": [
       "db+1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +34a (+27), +5",
+      "Balcony Break",
+      "Combo from 1st hit with 8f delay",
+      "Gain NWG on Heat activation"
     ]
   },
   {
@@ -750,9 +1035,13 @@
     "block": "-15",
     "hit": "+16a (+9)",
     "counter": "",
-    "note": "\n\nTornado\nCombo from 1st hit\n\n",
     "alternateInputs": [
       "db+1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -764,9 +1053,12 @@
     "block": "-11",
     "hit": "+32a (+22)",
     "counter": "",
-    "note": "Tornado\n",
     "alternateInputs": [
       "db+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -778,9 +1070,12 @@
     "block": "-12",
     "hit": "+4c",
     "counter": "+14g",
-    "note": "\n",
     "alternateInputs": [
       "db+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -792,9 +1087,12 @@
     "block": "-11",
     "hit": "+0",
     "counter": "+3",
-    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "db+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to r22 FC with D"
     ]
   },
   {
@@ -806,9 +1104,12 @@
     "block": "-7",
     "hit": "+4",
     "counter": "+35a",
-    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "db+4,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to r22 FC with D"
     ]
   },
   {
@@ -820,9 +1121,12 @@
     "block": "-7",
     "hit": "+4",
     "counter": "+35a",
-    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "db+4,4,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to r22 FC with D"
     ]
   },
   {
@@ -834,9 +1138,12 @@
     "block": "-3",
     "hit": "+39a (+29)",
     "counter": "",
-    "note": "Combo from 1st CH with 1f delaySometimes written (During Leg Cutter).3\n",
     "alternateInputs": [
       "db+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH with 1f delaySometimes written (During Leg Cutter).3"
     ]
   },
   {
@@ -848,9 +1155,15 @@
     "block": "--3",
     "hit": "+9",
     "counter": "",
-    "note": "\nJail from 2nd attack\nLinks to 1+4 string extensions\n-19 if entire string is ducked\nSometimes written (During Leg Cutter).1+4\n",
     "alternateInputs": [
       "db+4,1+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Jail from 2nd attack",
+      "Links to 1+4 string extensions",
+      "-19 if entire string is ducked",
+      "Sometimes written (During Leg Cutter).1+4"
     ]
   },
   {
@@ -862,9 +1175,16 @@
     "block": "+10g +25w",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nWall Crush +25g on block\n\nSabaki, parries lows except weapons\n\n",
     "alternateInputs": [
       "db+1+2"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Balcony Break",
+      "Wall Crush +25g on block",
+      "Sabaki, parries lows except weapons"
     ]
   },
   {
@@ -876,9 +1196,13 @@
     "block": "-10",
     "hit": "+6",
     "counter": "+0d",
-    "note": "\nTransition to attack throw on CH, +22 damage\nCancel to r14 FC with D\n\n",
     "alternateInputs": [
       "b+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to attack throw on CH, +22 damage",
+      "Cancel to r14 FC with D"
     ]
   },
   {
@@ -890,9 +1214,12 @@
     "block": "-4c",
     "hit": "+1c",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "b+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -904,9 +1231,13 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\nCombo from 1st CH\nLinks to f+1 extensions\n\n",
     "alternateInputs": [
       "b+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH",
+      "Links to f+1 extensions"
     ]
   },
   {
@@ -918,9 +1249,13 @@
     "block": "-11",
     "hit": "+0",
     "counter": "+3",
-    "note": "\nLinks to db+4 extensions\nTransition to r22 FC with D\n\n",
     "alternateInputs": [
       "b+2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Links to db+4 extensions",
+      "Transition to r22 FC with D"
     ]
   },
   {
@@ -932,9 +1267,16 @@
     "block": "-9",
     "hit": "+2",
     "counter": "",
-    "note": "\n\nElbow\nJail from 1st attack with 5f delay\nCombo from 1st CH with 9f delay\nInput can be delayed 12F\nCancel to r15 FC with D\n\n",
     "alternateInputs": [
       "b+2,1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Elbow",
+      "Jail from 1st attack with 5f delay",
+      "Combo from 1st CH with 9f delay",
+      "Input can be delayed 12F",
+      "Cancel to r15 FC with D"
     ]
   },
   {
@@ -946,9 +1288,14 @@
     "block": "-13",
     "hit": "+18a (+9)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH\nCombo from 2nd CH\n\n",
     "alternateInputs": [
       "b+2,1+2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st CH",
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -960,9 +1307,12 @@
     "block": "-19",
     "hit": "+22a (+12)",
     "counter": "",
-    "note": "Sometimes written Backflip\n",
     "alternateInputs": [
       "b+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Sometimes written Backflip"
     ]
   },
   {
@@ -974,9 +1324,14 @@
     "block": "-20",
     "hit": "+33a (+23)",
     "counter": "",
-    "note": "\nCancel to r11 with D\nGain NWG on hit with 1\nInterrupt with i23 on 1st block\n\n",
     "alternateInputs": [
       "b+3,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Cancel to r11 with D",
+      "Gain NWG on hit with 1",
+      "Interrupt with i23 on 1st block"
     ]
   },
   {
@@ -988,9 +1343,13 @@
     "block": "-11",
     "hit": "+0",
     "counter": "+3",
-    "note": "\nLinks to db+4 extensions\nTransition to r22 FC with D\n\n",
     "alternateInputs": [
       "b+3,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Links to db+4 extensions",
+      "Transition to r22 FC with D"
     ]
   },
   {
@@ -1002,9 +1361,12 @@
     "block": "-7",
     "hit": "+8",
     "counter": "+56a",
-    "note": "Knee\n",
     "alternateInputs": [
       "b+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Knee"
     ]
   },
   {
@@ -1016,9 +1378,14 @@
     "block": "-12",
     "hit": "+4c",
     "counter": "",
-    "note": "\n\nSpike\n\nKnee\nInput can be delayed 14f\n\n",
     "alternateInputs": [
       "b+4,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike",
+      "Knee",
+      "Input can be delayed 14f"
     ]
   },
   {
@@ -1030,9 +1397,15 @@
     "block": "-16",
     "hit": "+15a (-2)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 2nd hit with 6f delay\nMove can be delayed 3f\nGain NWG on hit with 1\n\n",
     "alternateInputs": [
       "b+4,2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 2nd hit with 6f delay",
+      "Move can be delayed 3f",
+      "Gain NWG on hit with 1"
     ]
   },
   {
@@ -1044,9 +1417,13 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nOpponent recovers FUFT\nReverses high or mid attacks\n",
     "alternateInputs": [
       "b+1+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Opponent recovers FUFT",
+      "Reverses high or mid attacks"
     ]
   },
   {
@@ -1058,9 +1435,13 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nOpponent recovers FUFT\nReverses high or mid attacks\n",
     "alternateInputs": [
       "b+1+3*"
+    ],
+    "categories": [],
+    "notes": [
+      "Opponent recovers FUFT",
+      "Reverses high or mid attacks"
     ]
   },
   {
@@ -1072,9 +1453,12 @@
     "block": "-8",
     "hit": "+5",
     "counter": "+7",
-    "note": "Combo from 1st hit\n",
     "alternateInputs": [
       "b+1+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1086,9 +1470,12 @@
     "block": "-13",
     "hit": "-2",
     "counter": "+16a",
-    "note": "Combo from 2nd CH\n",
     "alternateInputs": [
       "b+1+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -1100,9 +1487,13 @@
     "block": "-14",
     "hit": "+5b",
     "counter": "",
-    "note": "\nCombo from 2nd CH\nBalcony break on airborne hit\n\n",
     "alternateInputs": [
       "b+1+4,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH",
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -1114,9 +1505,15 @@
     "block": "-9",
     "hit": "+6",
     "counter": "",
-    "note": "\nKick Sabaki, +59a on successful parry\nBalcony break on airborne hit\n",
     "alternateInputs": [
       "b+2+3"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Kick Sabaki, +59a on successful parry",
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -1128,9 +1525,14 @@
     "block": "-13~-12",
     "hit": "+19a",
     "counter": "",
-    "note": "\n\nSpike\nChip damage when guarded\nPower up when using NWG or in Heat\n\n",
     "alternateInputs": [
       "u+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike",
+      "Chip damage when guarded",
+      "Power up when using NWG or in Heat"
     ]
   },
   {
@@ -1142,9 +1544,15 @@
     "block": "+8~+9",
     "hit": "+18a",
     "counter": "",
-    "note": "\n\nSpike\nChip damage when guarded\nConsumes Naniwa Gusto\nDuring Heat, remaining Heat is consumed\n\n",
     "alternateInputs": [
       "NWG u+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike",
+      "Chip damage when guarded",
+      "Consumes Naniwa Gusto",
+      "During Heat, remaining Heat is consumed"
     ]
   },
   {
@@ -1156,9 +1564,16 @@
     "block": "-1",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nFloor Break\nBalcony break on airborne hit\n+12a on off-axis hit, +10a on BT hit\nTransition to attack throw on standing front hit\nWon't transition to throw if opponent is too far (Jack-8 range 2.7~), gives +7 on hit instead\n\n",
     "alternateInputs": [
       "uf+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Floor Break",
+      "Balcony break on airborne hit",
+      "+12a on off-axis hit, +10a on BT hit",
+      "Transition to attack throw on standing front hit",
+      "Won't transition to throw if opponent is too far (Jack-8 range 2.7~), gives +7 on hit instead"
     ]
   },
   {
@@ -1170,9 +1585,12 @@
     "block": "-3",
     "hit": "+8",
     "counter": "+33a",
-    "note": "\n",
     "alternateInputs": [
       "uf+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1184,9 +1602,12 @@
     "block": "-13",
     "hit": "+31a (+21)",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "uf+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1198,9 +1619,13 @@
     "block": "+5",
     "hit": "+14c",
     "counter": "",
-    "note": "\n\nSpike\nChip damage on block\n\n",
     "alternateInputs": [
       "f,F+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike",
+      "Chip damage on block"
     ]
   },
   {
@@ -1212,9 +1637,12 @@
     "block": "-9",
     "hit": "+1",
     "counter": "",
-    "note": "\n\nElbow\n\n",
     "alternateInputs": [
       "f,F+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Elbow"
     ]
   },
   {
@@ -1226,9 +1654,17 @@
     "block": "-5",
     "hit": "+45a (-13)",
     "counter": "",
-    "note": "\n\nBalcony Break\n\nElbow\nCombo from 1st hit with 6f delay\nCombo from 1st CH with 10f delay\nInput can be delayed 12f\nMove can be delayed 10f\n\n",
     "alternateInputs": [
       "f,F+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Elbow",
+      "Combo from 1st hit with 6f delay",
+      "Combo from 1st CH with 10f delay",
+      "Input can be delayed 12f",
+      "Move can be delayed 10f"
     ]
   },
   {
@@ -1240,9 +1676,15 @@
     "block": "-8",
     "hit": "+15a",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st CH with 4f delay\nInput can be delayed 12f\nMove can be delayed 10f\n\n",
     "alternateInputs": [
       "f,F+2,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st CH with 4f delay",
+      "Input can be delayed 12f",
+      "Move can be delayed 10f"
     ]
   },
   {
@@ -1254,9 +1696,17 @@
     "block": "-13",
     "hit": "+23a (+13)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit\nCombo from 1st CH with 6f delay\nInput can be delayed 12f\nMove can be delayed 10f\nGain Naniwa Gusto on hit, advantage becomes +0a (-10)\n\n",
     "alternateInputs": [
       "f,F+2,1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st hit",
+      "Combo from 1st CH with 6f delay",
+      "Input can be delayed 12f",
+      "Move can be delayed 10f",
+      "Gain Naniwa Gusto on hit, advantage becomes +0a (-10)"
     ]
   },
   {
@@ -1268,9 +1718,15 @@
     "block": "-9",
     "hit": "+11g",
     "counter": "+35a",
-    "note": "\n\nHoming\n\nBalcony Break\n\n",
     "alternateInputs": [
       "f,F+3"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Balcony Break"
     ]
   },
   {
@@ -1282,9 +1738,13 @@
     "block": "-3",
     "hit": "+66a (+46)",
     "counter": "",
-    "note": "\n\nStrong Aerial Tailspin\n\nBalcony Break\n\n",
     "alternateInputs": [
       "f,F+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Strong Aerial Tailspin",
+      "Balcony Break"
     ]
   },
   {
@@ -1296,9 +1756,14 @@
     "block": "-6",
     "hit": "+29a (+14)",
     "counter": "+68a (+52)",
-    "note": "\n\nTornado\nChip damage when on block\nGrounded hit can be inconsistent sometimes\n\n",
     "alternateInputs": [
       "f,F+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Chip damage when on block",
+      "Grounded hit can be inconsistent sometimes"
     ]
   },
   {
@@ -1310,9 +1775,19 @@
     "block": "+2",
     "hit": "+67a (+51)",
     "counter": "",
-    "note": "\n\nTornado\nChip damage on block\nConsumes NWG\nDuring Heat, remaining Heat is consumed\nGrounded hit can be inconsistent sometimes\nUnparryable by traditional parries, Asuka, Nina, etc\n\n",
     "alternateInputs": [
       "NWG f,F+1+2"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Tornado",
+      "Chip damage on block",
+      "Consumes NWG",
+      "During Heat, remaining Heat is consumed",
+      "Grounded hit can be inconsistent sometimes",
+      "Unparryable by traditional parries, Asuka, Nina, etc"
     ]
   },
   {
@@ -1324,9 +1799,13 @@
     "block": "+3~+7",
     "hit": "+16a (+7)",
     "counter": "+48a (+1)",
-    "note": "\n\nBalcony Break\nChip damage on block\n\n",
     "alternateInputs": [
       "f,f,F+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block"
     ]
   },
   {
@@ -1338,9 +1817,19 @@
     "block": "+4",
     "hit": "+32a (+6)",
     "counter": "+67a (+51)",
-    "note": "\n\nTornado\n\nHoming\n\nBalcony Break\nChip damage on block\nUnparryable by traditional parries, Asuka, Nina, etc\n\n",
     "alternateInputs": [
       "f,f,F+1+2"
+    ],
+    "categories": [
+      "parry",
+      "homing"
+    ],
+    "notes": [
+      "Tornado",
+      "Homing",
+      "Balcony Break",
+      "Chip damage on block",
+      "Unparryable by traditional parries, Asuka, Nina, etc"
     ]
   },
   {
@@ -1352,9 +1841,21 @@
     "block": "+11g",
     "hit": "+66a (+50)",
     "counter": "",
-    "note": "\n\nTornado\n\nHoming\n\nBalcony Break\nChip damage on block\nConsumes NWG\nDuring Heat, remaining Heat is consumed\nUnparryable by traditional parries, Asuka, Nina, etc\n\n",
     "alternateInputs": [
       "NWG f,f,F+1+2"
+    ],
+    "categories": [
+      "parry",
+      "homing"
+    ],
+    "notes": [
+      "Tornado",
+      "Homing",
+      "Balcony Break",
+      "Chip damage on block",
+      "Consumes NWG",
+      "During Heat, remaining Heat is consumed",
+      "Unparryable by traditional parries, Asuka, Nina, etc"
     ]
   },
   {
@@ -1366,9 +1867,12 @@
     "block": "-5",
     "hit": "+6",
     "counter": "",
-    "note": "\nTransition to Standing with f\n",
     "alternateInputs": [
       "hFC 1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to Standing with f"
     ]
   },
   {
@@ -1380,9 +1884,12 @@
     "block": "-4",
     "hit": "+7",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "hFC 2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1394,9 +1901,12 @@
     "block": "-17",
     "hit": "-6",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "hFC 3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1408,9 +1918,12 @@
     "block": "-15",
     "hit": "-4",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "hFC 4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1422,9 +1935,12 @@
     "block": "-6",
     "hit": "+5c",
     "counter": "",
-    "note": "Transition to r22 FC with D\n",
     "alternateInputs": [
       "FC 3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to r22 FC with D"
     ]
   },
   {
@@ -1436,9 +1952,14 @@
     "block": "+0c",
     "hit": "+15a",
     "counter": "",
-    "note": "\nCombo from 3rd hit\nInterrupt with i11 from 2nd block\nTransition to r22 FC with D\n\n",
     "alternateInputs": [
       "FC 3+4,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 3rd hit",
+      "Interrupt with i11 from 2nd block",
+      "Transition to r22 FC with D"
     ]
   },
   {
@@ -1450,9 +1971,12 @@
     "block": "-11",
     "hit": "+0",
     "counter": "+25g",
-    "note": "\nOnly i17 or faster guaranteed on CH\n\n",
     "alternateInputs": [
       "FC df+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Only i17 or faster guaranteed on CH"
     ]
   },
   {
@@ -1464,9 +1988,12 @@
     "block": "-9",
     "hit": "+34a (+26)",
     "counter": "",
-    "note": "Balcony Break\n",
     "alternateInputs": [
       "FC df+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -1478,9 +2005,12 @@
     "block": "-7",
     "hit": "+4",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "ws1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1492,9 +2022,14 @@
     "block": "-4",
     "hit": "+37a (+29)",
     "counter": "",
-    "note": "\n\nBalcony Break\nCombo from 1st hit with 7f delay\nMove can be delayed 6f\n\n",
     "alternateInputs": [
       "ws1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st hit with 7f delay",
+      "Move can be delayed 6f"
     ]
   },
   {
@@ -1506,9 +2041,12 @@
     "block": "-8",
     "hit": "+8",
     "counter": "",
-    "note": "Elbow\n",
     "alternateInputs": [
       "ws2"
+    ],
+    "categories": [],
+    "notes": [
+      "Elbow"
     ]
   },
   {
@@ -1520,9 +2058,17 @@
     "block": "-5",
     "hit": "+17",
     "counter": "",
-    "note": "\nCombo from 1st hit with 3f delay\nMove can be delayed 2f\nLinks to Destabilizer (f+1+3_f+2+4) extensions on hit\n+9 on BT hit\n\n",
     "alternateInputs": [
       "ws2,1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Combo from 1st hit with 3f delay",
+      "Move can be delayed 2f",
+      "Links to Destabilizer (f+1+3_f+2+4) extensions on hit",
+      "+9 on BT hit"
     ]
   },
   {
@@ -1534,9 +2080,13 @@
     "block": "-2",
     "hit": "+9",
     "counter": "",
-    "note": "\nCombo from 1st hit with 3f delay\nContinues into 10 strings\n\n",
     "alternateInputs": [
       "ws2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit with 3f delay",
+      "Continues into 10 strings"
     ]
   },
   {
@@ -1548,9 +2098,12 @@
     "block": "-16",
     "hit": "+35a (+25)",
     "counter": "",
-    "note": "Tornado\n",
     "alternateInputs": [
       "ws3"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
     ]
   },
   {
@@ -1562,9 +2115,12 @@
     "block": "-3",
     "hit": "+8",
     "counter": "",
-    "note": "Can hit grounded while up-close and off-axis\n",
     "alternateInputs": [
       "ws4"
+    ],
+    "categories": [],
+    "notes": [
+      "Can hit grounded while up-close and off-axis"
     ]
   },
   {
@@ -1576,9 +2132,14 @@
     "block": "-2",
     "hit": "+13g +25w",
     "counter": "+14 +63a",
-    "note": "\n\nWall Crush +25g on hit\n\n\nElbow\nCancel to r18 FC with D\n",
     "alternateInputs": [
       "ws1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Wall Crush +25g on hit",
+      "Elbow",
+      "Cancel to r18 FC with D"
     ]
   },
   {
@@ -1590,9 +2151,17 @@
     "block": "-15",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nRage Art\nDamage increases with lower health\nRemoves recoverable health on hit\nInput can be held\n",
     "alternateInputs": [
       "in rage df+1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Rage Art",
+      "Damage increases with lower health",
+      "Removes recoverable health on hit",
+      "Input can be held"
     ]
   },
   {
@@ -1604,9 +2173,18 @@
     "block": "+3",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nRage Art\nChip damage on block\nArmored for the full duration\nDamage increases with lower health\nRemoves recoverable health on hit\n",
     "alternateInputs": [
       "in rage df+1+2**"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Rage Art",
+      "Chip damage on block",
+      "Armored for the full duration",
+      "Damage increases with lower health",
+      "Removes recoverable health on hit"
     ]
   },
   {
@@ -1618,9 +2196,15 @@
     "block": "-13",
     "hit": "+13a (+4)",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\nGain NWG on Heat activation\nBalcony break on airborne hit\n\n",
     "alternateInputs": [
       "SS 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +36a (+26), +5",
+      "Gain NWG on Heat activation",
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -1632,9 +2216,12 @@
     "block": "-6~-2",
     "hit": "+7~+11",
     "counter": "+30a",
-    "note": "\n",
     "alternateInputs": [
       "SS 4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1646,9 +2233,14 @@
     "block": "",
     "hit": "",
     "counter": "",
-    "note": "\nTransition to Ultimate Tackle throw with 1+2\nCannot block for 5 seconds\nCH state for 5 seconds\n",
     "alternateInputs": [
       "1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to Ultimate Tackle throw with 1+2",
+      "Cannot block for 5 seconds",
+      "CH state for 5 seconds"
     ]
   },
   {
@@ -1660,9 +2252,12 @@
     "block": "+4c~+6c",
     "hit": "+22a",
     "counter": "",
-    "note": "\n",
     "alternateInputs": [
       "(Back to wall) b,b,UB"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1674,9 +2269,17 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHoming\n\nFloor Break\nThrow break 1 or 2\n",
     "alternateInputs": [
       "1+3"
+    ],
+    "categories": [
+      "throw",
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Floor Break",
+      "Throw break 1 or 2"
     ]
   },
   {
@@ -1688,9 +2291,18 @@
     "block": "-2",
     "hit": "+0d",
     "counter": "",
-    "note": "\n\nHoming\nThrow break 1 or 2\nSide switch on hit\nOpponent recovers FDFA on hit\n",
     "alternateInputs": [
       "2+4"
+    ],
+    "categories": [
+      "throw",
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Throw break 1 or 2",
+      "Side switch on hit",
+      "Opponent recovers FDFA on hit"
     ]
   },
   {
@@ -1702,9 +2314,15 @@
     "block": "-3",
     "hit": "-3d",
     "counter": "",
-    "note": "\nThrow break 1\nOpponent recovers FDFT on hit\n",
     "alternateInputs": [
       "Left throw"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1",
+      "Opponent recovers FDFT on hit"
     ]
   },
   {
@@ -1716,9 +2334,16 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 2\nSide switch on hit\nOpponent recovers FUFA on hit\n",
     "alternateInputs": [
       "Right throw"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 2",
+      "Side switch on hit",
+      "Opponent recovers FUFA on hit"
     ]
   },
   {
@@ -1730,9 +2355,16 @@
     "block": "",
     "hit": "+7d",
     "counter": "",
-    "note": "\nUnbreakable\nSide switch on hit\nOpponent recovers FDFA on hit\n",
     "alternateInputs": [
       "Back throw"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Unbreakable",
+      "Side switch on hit",
+      "Opponent recovers FDFA on hit"
     ]
   },
   {
@@ -1744,9 +2376,14 @@
     "block": "",
     "hit": "+17",
     "counter": "",
-    "note": "\nSometimes written DST\n",
     "alternateInputs": [
       "f+1+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Sometimes written DST"
     ]
   },
   {
@@ -1758,9 +2395,19 @@
     "block": "-3",
     "hit": "+8a",
     "counter": "",
-    "note": "\n\nHeat Engager\n\n\nHeat Dash +36a (+26), +5\n\n\nBalcony Break\n\nElbow\nGain NWG on Heat Activation\nChip damage on blockSometimes written \nf+1+3,2\nDestabilizer.2\n\n",
     "alternateInputs": [
       "DST 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +36a (+26), +5",
+      "Balcony Break",
+      "Elbow",
+      "Gain NWG on Heat Activation",
+      "Chip damage on blockSometimes written ",
+      "f+1+3,2",
+      "Destabilizer.2"
     ]
   },
   {
@@ -1772,9 +2419,14 @@
     "block": "-14",
     "hit": "+11a",
     "counter": "",
-    "note": "Sometimes written \nf+1+3,4\nDestabilizer.4\n\n",
     "alternateInputs": [
       "DST 4"
+    ],
+    "categories": [],
+    "notes": [
+      "Sometimes written ",
+      "f+1+3,4",
+      "Destabilizer.4"
     ]
   },
   {
@@ -1786,9 +2438,17 @@
     "block": "-6",
     "hit": "-6d",
     "counter": "",
-    "note": "\n\nFloor Break\nThrow break 2\nOpponent recovers off-axis FUFT on hit\nCan side switch on hit\n",
     "alternateInputs": [
       "df+2+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Floor Break",
+      "Throw break 2",
+      "Opponent recovers off-axis FUFT on hit",
+      "Can side switch on hit"
     ]
   },
   {
@@ -1800,9 +2460,15 @@
     "block": "-3",
     "hit": "+0d",
     "counter": "",
-    "note": "\nThrow break 1+2\nOpponent recovers FUFA on hit\n",
     "alternateInputs": [
       "uf+1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2",
+      "Opponent recovers FUFA on hit"
     ]
   },
   {
@@ -1814,9 +2480,17 @@
     "block": "-6",
     "hit": "+56a (+28)",
     "counter": "",
-    "note": "\nThrow break 1+2\nSide switch on hit\n2nd damage on landing\n3rd damage without tech roll\n",
     "alternateInputs": [
       "FC db+1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2",
+      "Side switch on hit",
+      "2nd damage on landing",
+      "3rd damage without tech roll"
     ]
   },
   {
@@ -1828,9 +2502,17 @@
     "block": "-6",
     "hit": "",
     "counter": "+3",
-    "note": "\nThrow break 1+2\nWorks on standing or crouching opponent\nTackle is reversed on the player on break\nOpponent recovers FUFT on hitSometimes written Tackle\n",
     "alternateInputs": [
       "1+2+3+4,1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2",
+      "Works on standing or crouching opponent",
+      "Tackle is reversed on the player on break",
+      "Opponent recovers FUFT on hitSometimes written Tackle"
     ]
   },
   {
@@ -1842,9 +2524,19 @@
     "block": "+3c",
     "hit": "+0d",
     "counter": "",
-    "note": "\nUnbreakable unless reversed\nonly 1st and 4th hits can be blocked\n1 to defend left side (against right punch)\n2 to defend right side (against left punch)\n1, 2 or 1+2 to defend tackle from behind\nDoes not consume CH state on hit\nSometimes written \n1+2+3+4,1+2,2,1,2,1\n\n",
     "alternateInputs": [
       "Tackle 2,1,2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Unbreakable unless reversed",
+      "only 1st and 4th hits can be blocked",
+      "1 to defend left side (against right punch)",
+      "2 to defend right side (against left punch)",
+      "1, 2 or 1+2 to defend tackle from behind",
+      "Does not consume CH state on hit",
+      "Sometimes written ",
+      "1+2+3+4,1+2,2,1,2,1"
     ]
   }
 ]
