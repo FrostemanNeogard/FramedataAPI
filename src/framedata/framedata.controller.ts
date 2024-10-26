@@ -62,7 +62,7 @@ export class FramedataController {
     );
 
     const filteredMoves = allFramedata.filter((attack) =>
-      attack.note.includes(category),
+      attack.categories.includes(category),
     );
 
     const moveInputs = filteredMoves.map((attack) => attack.input);
