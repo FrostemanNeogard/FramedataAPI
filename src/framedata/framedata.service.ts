@@ -58,7 +58,11 @@ export class FramedataService {
         const moveData = frameData[y];
         moveData.note = this.formatNotes(moveData.note);
         moveData.alternateInputs.forEach((input) => {
-          if (this.formatNotation(input, removePlus) === formattedNotation) {
+          const formattedInput = this.formatNotation(input, removePlus);
+          if (
+            formattedNotation == formattedInput ||
+            formattedNotation == this.formatNotation(moveData.name, removePlus)
+          ) {
             attackInfo.push(moveData);
           }
           const similarity = this.calculateSimilarity(input, notation);
@@ -122,6 +126,8 @@ export class FramedataService {
       .replaceAll(' ', '')
       .replaceAll(/ *\([^)]*\) */g, '')
       .replaceAll(/[\u200B-\u200D\uFEFF]/g, '')
+      .replaceAll('backturned', 'bt')
+      .replaceAll('backturn', 'bt')
       .replaceAll('debug', 'b,db,d,df')
       .replaceAll('gs', 'f,n,b,db,d,df,f')
       .replaceAll('wr', 'f,f,f')
