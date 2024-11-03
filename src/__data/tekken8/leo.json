@@ -104,14 +104,16 @@
     "hit": "+4d",
     "counter": "",
     "alternateInputs": [
-      "ws4,1+2"
+      "ws4,1+2",
+      "cd4,1+2",
+      "qcf4,1+2"
     ],
     "categories": [],
     "notes": [
       "Heat Engager",
       "Heat Dash +5 +43a (+35)",
       "Combo from 1st hit",
-      "Alternate input CD.4,1+2"
+      "Alternate input CD 4,1+2"
     ]
   },
   {
@@ -1802,11 +1804,13 @@
     "hit": "+5",
     "counter": "",
     "alternateInputs": [
-      "ws3"
+      "ws3",
+      "qcf3",
+      "cd3"
     ],
     "categories": [],
     "notes": [
-      "Alternate input CD.3"
+      "Alternate input CD 3"
     ]
   },
   {
@@ -1819,13 +1823,15 @@
     "hit": "+3",
     "counter": "",
     "alternateInputs": [
-      "ws3,1"
+      "ws3,1",
+      "cd3,1",
+      "qcf3,1"
     ],
     "categories": [],
     "notes": [
       "Combo from 1st hit",
       "Enter BOK -10 +9 with d",
-      "Alternate input CD.3,1"
+      "Alternate input CD 3,1"
     ]
   },
   {
@@ -1838,12 +1844,14 @@
     "hit": "+6d",
     "counter": "+31d (+23)",
     "alternateInputs": [
-      "ws3,1,2"
+      "ws3,1,2",
+      "cd3,1,2",
+      "qcf3,1,2"
     ],
     "categories": [],
     "notes": [
       "Combo from 1st CH",
-      "Alternate input CD.3,1,2"
+      "Alternate input CD 3,1,2"
     ]
   },
   {
@@ -1856,11 +1864,13 @@
     "hit": "+2",
     "counter": "",
     "alternateInputs": [
-      "ws4"
+      "ws4",
+      "qcf4",
+      "cd4"
     ],
     "categories": [],
     "notes": [
-      "Alternate input CD.4"
+      "Alternate input CD 4"
     ]
   },
   {
@@ -1873,14 +1883,16 @@
     "hit": "+4d",
     "counter": "",
     "alternateInputs": [
-      "ws4,1+2"
+      "ws4,1+2",
+      "cd4,1+2",
+      "qcf4,1+2"
     ],
     "categories": [],
     "notes": [
       "Heat Engager",
       "Heat Dash +5 +43a (+35)",
       "Combo from 1st hit",
-      "Alternate input CD.4,1+2"
+      "Alternate input CD 4,1+2"
     ]
   },
   {
@@ -1893,12 +1905,14 @@
     "hit": "+22g",
     "counter": "",
     "alternateInputs": [
-      "ws1+2"
+      "ws1+2",
+      "qcf1+2",
+      "cd1+2"
     ],
     "categories": [],
     "notes": [
       "Gain LTG +3 on hit with 1+2",
-      "Alternate input CD.1+2"
+      "Alternate input CD 1+2"
     ]
   },
   {
@@ -2343,7 +2357,8 @@
     "hit": "-1",
     "counter": "+11",
     "alternateInputs": [
-      "CD 1"
+      "CD 1",
+      "qcf1"
     ],
     "categories": [],
     "notes": [
@@ -2360,7 +2375,8 @@
     "hit": "+9",
     "counter": "",
     "alternateInputs": [
-      "CD 2"
+      "CD 2",
+      "qcf2"
     ],
     "categories": [],
     "notes": [
@@ -2377,7 +2393,8 @@
     "hit": "+10",
     "counter": "+30d",
     "alternateInputs": [
-      "CD 2,1"
+      "CD 2,1",
+      "qcf2,1"
     ],
     "categories": [],
     "notes": [
@@ -2396,7 +2413,8 @@
     "hit": "+10d (+0)",
     "counter": "",
     "alternateInputs": [
-      "CD 2,4"
+      "CD 2,4",
+      "qcf2,4"
     ],
     "categories": [],
     "notes": [
@@ -2416,7 +2434,8 @@
     "hit": "+13g",
     "counter": "",
     "alternateInputs": [
-      "CD 3+4"
+      "CD 3+4",
+      "qcf3+4"
     ],
     "categories": [
       "homing"
