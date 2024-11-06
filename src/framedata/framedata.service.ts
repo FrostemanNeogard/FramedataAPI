@@ -114,6 +114,8 @@ export class FramedataService {
       .replaceAll(' ', '')
       .replaceAll(/ *\([^)]*\) */g, '')
       .replaceAll(/[\u200B-\u200D\uFEFF]/g, '')
+      .replaceAll('h.', 'in heat')
+      .replaceAll('r.', 'in rage')
       .replaceAll('backturned', 'bt')
       .replaceAll('backturn', 'bt')
       .replaceAll('debug', 'b,db,d,df')
