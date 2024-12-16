@@ -1,0 +1,735 @@
+[
+  {
+    "name": "",
+    "input": "2+3",
+    "hit_level": "m",
+    "damage": "[12;12]",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2c",
+    "counter": "",
+    "alternateInputs": [
+      "2+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Burst",
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
+    ]
+  },
+  {
+    "name": "",
+    "input": "in heat 2+3",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "in heat 2+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Smash",
+      "Transition to attack throw on hit",
+      "Transition to PHX on block?",
+      "? Chip Damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+1,1,in heat 1",
+    "hit_level": "m,,",
+    "damage": ",",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,1,in heat 1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "2,2,in heat 2",
+    "hit_level": "h,,",
+    "damage": ",,",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "2,2,in heat 2"
+    ],
+    "categories": [],
+    "notes": [
+      "? Chip Damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "On hit regain recoverable health"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2,2,2",
+    "hit_level": ",,",
+    "damage": ",,",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+2,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "? Chip Damage on block",
+      "? Chip Damage on block in heat"
+    ]
+  },
+  {
+    "name": "",
+    "input": "SS 2,1",
+    "hit_level": "m,h?",
+    "damage": ", ()",
+    "startup": "i16",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "SS 2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "Perfect frame input to power up"
+    ]
+  },
+  {
+    "name": "",
+    "input": "PHX 1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "PHX 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "? Chip Damage on block",
+      "? Chip Damage on block in heat",
+      "On hit regain recoverable health"
+    ]
+  },
+  {
+    "name": "",
+    "input": "1",
+    "hit_level": "h",
+    "damage": "5",
+    "startup": "i10",
+    "block": "+1",
+    "hit": "+8",
+    "counter": "",
+    "alternateInputs": [
+      "1"
+    ],
+    "categories": [],
+    "notes": [
+      "Recovers 2f faster on hit or block (t27 r17)"
+    ]
+  },
+  {
+    "name": "",
+    "input": "2",
+    "hit_level": "h",
+    "damage": "",
+    "startup": "i10?",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "2,2",
+    "hit_level": "h,",
+    "damage": ",",
+    "startup": ",",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "2,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "2,2,2",
+    "hit_level": "h,,",
+    "damage": ",,",
+    "startup": ",",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "2,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "",
+    "startup": ",",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "On hit regain recoverable health"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2,2",
+    "hit_level": ",",
+    "damage": ",",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Hold F to shift to PHX"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2,2,2",
+    "hit_level": ",,",
+    "damage": ",,",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+2,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "? Chip Damage on block",
+      "? Chip Damage on block in heat"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+1",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "i13?",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "df+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+1,1",
+    "hit_level": "m,",
+    "damage": "",
+    "startup": "i13?",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+1,1,1",
+    "hit_level": "m,,",
+    "damage": "",
+    "startup": "i13?",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "b+1+2",
+    "hit_level": "m?",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "b+1+2"
+    ],
+    "categories": [
+      "powercrush"
+    ],
+    "notes": [
+      "Damage taken during power crush state is recoverable.",
+      "-9? on block if an attack is absorbed",
+      "? Chip Damage on block after absorbing an attack in power crush state",
+      "? Chip Damage on block while in heat after absorbing an attack in power crush state"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,f,F+2",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f,f,F+2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "1+2",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "On hit regain recoverable health"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "PHX 1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "PHX 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "? Chip Damage on block",
+      "? Chip Damage on block in heat",
+      "On hit regain recoverable health"
+    ]
+  },
+  {
+    "name": "",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t?",
+    "damage": "",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Base damage: 55",
+      "Damage increases with lower health, maximum 80 damage"
+    ]
+  },
+  {
+    "name": "",
+    "input": "SS 2",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "i20",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "SS 2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "SS 2,1",
+    "hit_level": "m,h?",
+    "damage": ", ()",
+    "startup": "i20",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "SS 2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +? on hit, +5 on block",
+      "Perfect frame input to power up"
+    ]
+  },
+  {
+    "name": "",
+    "input": "b+1+3",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "b+1+3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "OTG d+1+2",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "OTG d+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Weapon"
+    ]
+  },
+  {
+    "name": "",
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "CH state for 5 seconds",
+      "Can't block for 5 seconds"
+    ]
+  },
+  {
+    "name": "",
+    "input": "(back to wall) b,b,ub",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "i20",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "(back to wall) b,b,ub"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "1+3",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+3"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Throw break: 1 or 2",
+      "Can be done from FC"
+    ]
+  },
+  {
+    "name": "",
+    "input": "2+4",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "2+4"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Throw break: 1 or 2",
+      "Can be done from FC",
+      "Side switch on hit"
+    ]
+  },
+  {
+    "name": "",
+    "input": "Left Throw",
+    "hit_level": "t",
+    "damage": "",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "Left Throw"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break 1"
+    ]
+  },
+  {
+    "name": "",
+    "input": "Right Throw",
+    "hit_level": "t",
+    "damage": "",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "Right Throw"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break 2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "Back Throw",
+    "hit_level": "t",
+    "damage": "",
+    "startup": "i12~14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "Back Throw"
+    ],
+    "categories": [],
+    "notes": [
+      "Cannot break throw"
+    ]
+  },
+  {
+    "name": "",
+    "input": "uf+1+2",
+    "hit_level": "t",
+    "damage": "",
+    "startup": "i12",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "uf+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Throw break 1+2",
+      "Can be done from FC"
+    ]
+  }
+]
