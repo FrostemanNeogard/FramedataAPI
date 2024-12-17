@@ -36,6 +36,7 @@
     "categories": [],
     "notes": [
       "Heat Smash",
+      "Wall Crush +10g on block",
       "Transition to attack throw on hit",
       "Transition to PHX on block?",
       "? Chip Damage on block"
@@ -107,7 +108,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
+      "Heat Dash +5, +43d (+35d)",
       "Balcony Break (airborne)",
       "Weapon",
       "On hit regain recoverable health"
@@ -230,7 +231,8 @@
     "categories": [],
     "notes": [
       "Jail from 1st attack",
-      "Enter PHX r23 with F or 4 on hit or block"
+      "Combo from 1st hit",
+      "Enter -3/+6 PHX r23 with F or 4 on hit or block"
     ]
   },
   {
@@ -250,7 +252,7 @@
       "Spike",
       "Weapon",
       "Combo from 1st hit with 2f delay",
-      "Increase Zantetsuken gauge on hit or block",
+      "Increase Zantetsuken gauge on hit or block by 0.5 bars on block and 1 bar on hit?",
       "Only deals recoverable damage",
       "+11d on BT hit"
     ]
@@ -273,7 +275,8 @@
       "Weapon",
       "Combo from 1st CH",
       "Input can be delayed 2f",
-      "Chip damage on block",
+      "6 Chip damage on block",
+      "9 Chip damage on block in heat",
       "+20a (+11) on BT hit"
     ]
   },
@@ -311,6 +314,7 @@
       "Balcony Break",
       "Weapon",
       "Jail from 1st attack",
+      "Combo from 1st hit",
       "Input 1 during the 1st hit animation on frames 10~12 to add +3 damage"
     ]
   },
@@ -342,7 +346,7 @@
     "startup": ",i17~18",
     "block": "-13",
     "hit": "+8a (-1)",
-    "counter": "",
+    "counter": "+28d(+20d)",
     "alternateInputs": [
       "2,2,1"
     ],
@@ -531,7 +535,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
+      "Heat Dash +5, +43d (+35d)",
       "Balcony Break (airborne)",
       "Weapon",
       "On hit regain recoverable health"
@@ -1193,7 +1197,7 @@
     "startup": "i20~21",
     "block": "-4",
     "hit": "+9",
-    "counter": "",
+    "counter": "+9c",
     "alternateInputs": [
       "b+2"
     ],
@@ -1460,7 +1464,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
+      "Heat Dash +5, +43d (+35d)",
       "Balcony Break (airborne)",
       "Weapon",
       "On hit regain recoverable health"
