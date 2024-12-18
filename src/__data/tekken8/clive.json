@@ -1943,27 +1943,27 @@
     "name": "",
     "input": "1+4",
     "hit_level": "m",
-    "damage": "10",
+    "damage": "10-80",
     "startup": "i22",
     "block": "-15",
-    "hit": "+9a",
+    "hit": "+9a (ZAN1)",
     "counter": "",
     "alternateInputs": [
       "1+4"
     ],
     "categories": [],
     "notes": [
-      "Removes Recoverable Health (Level 5 only)",
+      "Removes Recoverable Health (ZAN5 only)",
       "Weapon",
-      "Increases ZAN gauge by 0.20 on hit",
-      "Increases ZAN gauge by 0.10 on block",
-      "Transitions to attack throw on hit with ZAN level 2 or higher",
-      "Rests ZAN gauge on hit when level 2 or higher",
-      "Damage increases with ZAN level:",
-      "Level 2: 45",
-      "Level 3: 55",
-      "Level 4: 65",
-      "Level 5: 80"
+      "Increases ZAN gauge by 0.20 on ZAN1 hit",
+      "Increases ZAN gauge by 0.10 on ZAN1 block",
+      "Transitions to attack throw on hit with ZAN2-5",
+      "Resets ZAN gauge on hit with ZAN2-5",
+      "Damage increases with ZAN gauge level:",
+      "ZAN2: 45",
+      "ZAN3: 55",
+      "ZAN4: 65",
+      "ZAN5: 80"
     ]
   },
   {
