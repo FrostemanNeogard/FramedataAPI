@@ -24,11 +24,11 @@
   {
     "name": "",
     "input": "in heat 2+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "hit_level": "m,t,m,m,m,m,m,m",
+    "damage": "55",
+    "startup": "i18",
+    "block": "+8",
+    "hit": "-10",
     "counter": "",
     "alternateInputs": [
       "in heat 2+3"
@@ -36,78 +36,244 @@
     "categories": [],
     "notes": [
       "Heat Smash",
+      "Balcony Break",
       "Wall Crush +10g on block",
-      "Transition to attack throw on hit",
-      "Transition to PHX on block?",
-      "? Chip Damage on block"
+      "Transition to attack throw on 1st hit",
+      "Regain recoverable health on hit",
+      "45 damage Balcony Break on 1st whiff",
+      "19 Chip Damage on block"
     ]
   },
   {
     "name": "",
-    "input": "2,2,in heat 2",
-    "hit_level": "h,m,",
-    "damage": "11,9,",
-    "startup": "i16",
-    "block": "",
-    "hit": "",
+    "input": "PHX in heat 2+3",
+    "hit_level": "m",
+    "damage": "42",
+    "startup": "i15~16",
+    "block": "+8",
+    "hit": "+0",
     "counter": "",
     "alternateInputs": [
-      "2,2,in heat 2"
+      "PHX in heat 2+3"
     ],
     "categories": [],
     "notes": [
-      "? Chip Damage on block"
+      "Floor Break",
+      "Increases ZAN gauge by 1.12? on hit",
+      "Increases ZAN gauge by 0.62? on block",
+      "Transition to throw on hit",
+      "Opponent recovers in FDFA state",
+      "Only deals recoverable damage",
+      "9 Chip Damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2,2,in heat 1",
+    "hit_level": "m,m,m",
+    "damage": "10,7,25",
+    "startup": "i26~27",
+    "block": "+2",
+    "hit": "+40d(-18d)",
+    "counter": "",
+    "alternateInputs": [
+      "f+2,2,in heat 1"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st hit",
+      "Consumes heat",
+      "7 Chip damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2,2,in heat 1*",
+    "hit_level": "m,m,m",
+    "damage": "10,7,30",
+    "startup": "i42~43",
+    "block": "+13",
+    "hit": "+52a",
+    "counter": "",
+    "alternateInputs": [
+      "f+2,2,in heat 1*"
+    ],
+    "categories": [],
+    "notes": [
+      "Guard Break",
+      "Consumes heat"
     ]
   },
   {
     "name": "",
     "input": "df+1,in heat 1",
-    "hit_level": "m,",
-    "damage": "10,",
-    "startup": "i16",
-    "block": "",
-    "hit": "",
+    "hit_level": "m,m,m",
+    "damage": "10,13,15",
+    "startup": "i22~23,i20~21",
+    "block": "-12",
+    "hit": "+3c",
     "counter": "",
     "alternateInputs": [
       "df+1,in heat 1"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit",
+      "Consumes heat",
+      "Enter PHX -1 +14 with F or 4 on hit or block",
+      "9 Chip damage on block"
     ]
   },
   {
     "name": "",
     "input": "df+1,in heat 1,1",
-    "hit_level": "m,,",
-    "damage": "10,,",
-    "startup": "i16",
-    "block": "",
-    "hit": "",
+    "hit_level": "m,m,m,m,m",
+    "damage": "10,13,15,17,22",
+    "startup": ",i25~26,i20~21",
+    "block": "-8",
+    "hit": "+14a(+4a)",
     "counter": "",
     "alternateInputs": [
       "df+1,in heat 1,1"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony Break",
+      "Combo from 3rd CH",
+      "14 Chip Damage on block"
     ]
   },
   {
     "name": "",
-    "input": "in heat ws3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "input": "df+1,in heat 1,2",
+    "hit_level": "m,m,m,h,h",
+    "damage": "10,13,15,10,12",
+    "startup": ",i23~24,i12~13",
+    "block": "-9",
+    "hit": "+8",
     "counter": "",
     "alternateInputs": [
-      "in heat ws3"
+      "df+1,in heat 1,2"
     ],
     "categories": [],
     "notes": [
-      "? Chip Damage on block"
+      "7 Chip Damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+1,in heat 1,2,1",
+    "hit_level": "m,m,m,h,h,m,m",
+    "damage": "10,13,15,10,12,10,16",
+    "startup": ",i20~21,i11~12",
+    "block": "-8",
+    "hit": "+15a(-2a)",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,in heat 1,2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Combo from 5th hit",
+      "9 Chip Damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "in heat u+1+2",
+    "hit_level": "m,m",
+    "damage": "18,21",
+    "startup": "i19~20,i20~21",
+    "block": "-12",
+    "hit": "+3c",
+    "counter": "",
+    "alternateInputs": [
+      "in heat u+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Consumes heat",
+      "Enter PHX -1 +14 with F or 4 on hit or block",
+      "13 Chip damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "in heat u+1+2,1",
+    "hit_level": "m,m,m,m",
+    "damage": "18,21,17,22",
+    "startup": ",i25~26,i20~21",
+    "block": "-8",
+    "hit": "+14a(+4a)",
+    "counter": "",
+    "alternateInputs": [
+      "in heat u+1+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "14 Chip Damage on block",
+      "Same move as (df+1,H.1),1?"
+    ]
+  },
+  {
+    "name": "",
+    "input": "in heat u+1+2,2",
+    "hit_level": "m,m,h,h",
+    "damage": "18,21,10,12",
+    "startup": ",i23~24,i12~13",
+    "block": "-9",
+    "hit": "+8",
+    "counter": "",
+    "alternateInputs": [
+      "in heat u+1+2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "7 Chip Damage on block",
+      "Same move as (df+1,H.1),2?"
+    ]
+  },
+  {
+    "name": "",
+    "input": "in heat u+1+2,2,1",
+    "hit_level": "m,m,h,h,m,m",
+    "damage": "18,21,10,12,10,16",
+    "startup": ",i20~21,i11~12",
+    "block": "-8",
+    "hit": "+15a(-2a)",
+    "counter": "",
+    "alternateInputs": [
+      "in heat u+1+2,2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Combo from 3rd hit",
+      "9 Chip Damage on block",
+      "Same move as (df+1,H.1,2),1?"
+    ]
+  },
+  {
+    "name": "",
+    "input": "PHX 2,in heat 1+2",
+    "hit_level": "mm",
+    "damage": "1232",
+    "startup": ",i23~24",
+    "block": "+4",
+    "hit": "+25a(-1a)",
+    "counter": "",
+    "alternateInputs": [
+      "PHX 2,in heat 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit",
+      "9 Chip Damage on block"
     ]
   },
   {
@@ -179,11 +345,11 @@
   {
     "name": "",
     "input": "SS 2,1",
-    "hit_level": "m,m",
-    "damage": "12,23 (26)",
-    "startup": "i22~23",
+    "hit_level": "M,m",
+    "damage": "12,23",
+    "startup": ",i22~23",
     "block": "-15",
-    "hit": "+35d(-23d)",
+    "hit": "+35d (-23d)",
     "counter": "",
     "alternateInputs": [
       "SS 2,1"
@@ -191,10 +357,13 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +45a(+35a) on hit, +5 on block",
+      "Heat Dash +5, +45a (+35a)",
       "Balcony Break",
-      "Perfect frame input window during frames 17? to 19?",
-      "Combo from 1st hit with 13f delay"
+      "Weapon",
+      "Input 1 during the 1st hit animation on frames 16~18 to add +3 damage",
+      "Combo from 1st hit with 11f delay",
+      "Input can be delayed 11f",
+      "Move can be delayed 10f"
     ]
   },
   {
@@ -253,7 +422,7 @@
     "notes": [
       "Jail from 1st attack",
       "Combo from 1st hit",
-      "Enter -3/+6 PHX r23 with F or 4 on hit or block"
+      "Enter PHX -3 +6 r23 with F or 4 on hit or block"
     ]
   },
   {
@@ -385,7 +554,7 @@
     "name": "",
     "input": "2,2,2",
     "hit_level": "h,m,M,m",
-    "damage": "11,9,15,20",
+    "damage": "11,9,15,20 (24)",
     "startup": ",i27~28 i31~32",
     "block": "-9",
     "hit": "+21a (+4)",
@@ -398,7 +567,7 @@
       "Tornado",
       "Balcony Break",
       "Weapon",
-      "Power up in Heat",
+      "Power up in Heat (24 damage)",
       "Input can be delayed 6f?",
       "Transition to PHX on hit only",
       "Cancel PHX transition with B"
@@ -1232,9 +1401,11 @@
     "alternateInputs": [
       "b+3"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      ""
+      "Strong parry effect: parries all highs or mids, except throws, unblockables and charge moves"
     ]
   },
   {
@@ -1541,7 +1712,7 @@
     "name": "",
     "input": "ws3",
     "hit_level": "m,m",
-    "damage": "20,15",
+    "damage": "20,15(20)",
     "startup": "i20~21 i28~41",
     "block": "-8",
     "hit": "+21a (+11a)",
@@ -1555,9 +1726,8 @@
     "notes": [
       "Homing",
       "Balcony Break",
-      "Power up in Heat",
-      "Jail from 1st attack",
-      "2nd hit available only as combo from 1st hit"
+      "Power up in Heat: 20 damage and +20a(+10a) on hit",
+      "Jail from 1st attack"
     ]
   },
   {
@@ -1727,7 +1897,7 @@
     "name": "",
     "input": "PHX 3,2",
     "hit_level": "L,m,m",
-    "damage": "8,18,20",
+    "damage": "8,18,20(36)",
     "startup": ",i30 i29~34",
     "block": "",
     "hit": "+39a (+29)",
@@ -1740,7 +1910,7 @@
       "Balcony Break",
       "Power up in Heat",
       "Available only as combo from 1st hit",
-      "30 damage in total for the full string with scaling"
+      "30 (38 in heat) damage in total for the full string with scaling"
     ]
   },
   {
@@ -1760,6 +1930,7 @@
       "Spike",
       "Available only as combo from 1st hit",
       "Increases ZAN gauge by 0.70 on hit (0.30 + 0.40)",
+      "Increases ZAN gauge by 0.24?? on block (? + ?)",
       "30 damage in total for the full string with scaling",
       "Only deals recoverable damage"
     ]
@@ -1960,6 +2131,7 @@
       "Transitions to attack throw on hit with ZAN2-5",
       "Resets ZAN gauge on hit with ZAN2-5",
       "Damage increases with ZAN gauge level:",
+      "ZAN1: 10",
       "ZAN2: 45",
       "ZAN3: 55",
       "ZAN4: 65",
@@ -2011,7 +2183,7 @@
   {
     "name": "",
     "input": "SS 2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "12",
     "startup": "i17~18",
     "block": "-9",
@@ -2022,17 +2194,18 @@
     ],
     "categories": [],
     "notes": [
-      "i26? effective startup time"
+      "Weapon",
+      "Side step takes 9f, effective startup i26"
     ]
   },
   {
     "name": "",
     "input": "SS 2,1",
-    "hit_level": "m,m",
-    "damage": "12,23 (26)",
-    "startup": "i22~23",
+    "hit_level": "M,m",
+    "damage": "12,23",
+    "startup": ",i22~23",
     "block": "-15",
-    "hit": "+35d(-23d)",
+    "hit": "+35d (-23d)",
     "counter": "",
     "alternateInputs": [
       "SS 2,1"
@@ -2040,10 +2213,34 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +45a(+35a) on hit, +5 on block",
+      "Heat Dash +5, +45a (+35a)",
       "Balcony Break",
-      "Perfect frame input window during frames 17? to 19?",
-      "Combo from 1st hit with 13f delay"
+      "Weapon",
+      "Input 1 during the 1st hit animation on frames 16~18 to add +3 damage",
+      "Combo from 1st hit with 11f delay",
+      "Input can be delayed 11f",
+      "Move can be delayed 10f"
+    ]
+  },
+  {
+    "name": "",
+    "input": "SS 1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i25~26",
+    "block": "+2",
+    "hit": "+49a",
+    "counter": "",
+    "alternateInputs": [
+      "SS 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike",
+      "Weapon",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat",
+      "Side step takes 9f, effective startup i34~35"
     ]
   },
   {
@@ -2058,9 +2255,30 @@
     "alternateInputs": [
       "b+3"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      ""
+      "Strong parry effect: parries all highs or mids, except throws, unblockables and charge moves"
+    ]
+  },
+  {
+    "name": "",
+    "input": "b+3,P",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "b+3,P"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Earliest cancel to parry attacks r23"
     ]
   },
   {
@@ -2069,8 +2287,8 @@
     "hit_level": "m",
     "damage": "35",
     "startup": "i20~21",
-    "block": "",
-    "hit": "+16a(+6a)",
+    "block": "+3",
+    "hit": "+16a (+6a)",
     "counter": "",
     "alternateInputs": [
       "b+3,P,2"
@@ -2078,17 +2296,18 @@
     "categories": [],
     "notes": [
       "Reversal Break",
-      "Balcony Break"
+      "Balcony Break",
+      "Weapon"
     ]
   },
   {
     "name": "",
     "input": "b+3,P,1+2",
-    "hit_level": "m",
-    "damage": "17,2,3,3,10",
+    "hit_level": "m,t",
+    "damage": "35",
     "startup": "i20~21",
-    "block": "",
-    "hit": "+16a(+6a)",
+    "block": "-13",
+    "hit": "+5d",
     "counter": "",
     "alternateInputs": [
       "b+3,P,1+2"
@@ -2096,9 +2315,11 @@
     "categories": [],
     "notes": [
       "Reversal Break",
-      "Increases ZAN bar on hit or block",
-      "Throw on hit",
-      "Sideswitch on hit"
+      "Weapon",
+      "Increases ZAN gauge by 0.72 on hit",
+      "Increases ZAN gauge by 0.10 on block",
+      "Transition to attack throw on hit",
+      "Side switch on hit"
     ]
   },
   {
@@ -2108,7 +2329,7 @@
     "damage": "35",
     "startup": "i12~14",
     "block": "-5",
-    "hit": "+0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "1+3"
@@ -2118,7 +2339,7 @@
     ],
     "notes": [
       "Homing",
-      "Throw break: 1 or 2",
+      "Throw break 1 or 2",
       "Can be done from FC",
       "Opponent recovers in FUFA state"
     ]
@@ -2130,7 +2351,7 @@
     "damage": "35",
     "startup": "i12~14",
     "block": "-5",
-    "hit": "+0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "2+4"
@@ -2140,10 +2361,10 @@
     ],
     "notes": [
       "Homing",
-      "Throw break: 1 or 2",
+      "Throw break 1 or 2",
       "Can be done from FC",
       "Side switch on hit and on throw break",
-      "Opponent recovers in FUFT state"
+      "Opponent recovers in FUFT"
     ]
   },
   {
@@ -2153,7 +2374,7 @@
     "damage": "40",
     "startup": "i12~14",
     "block": "-3",
-    "hit": "+0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "Left Throw"
@@ -2161,7 +2382,7 @@
     "categories": [],
     "notes": [
       "Throw break 1",
-      "Opponent recovers in FUFA state"
+      "Opponent recovers in FUFA"
     ]
   },
   {
@@ -2171,7 +2392,7 @@
     "damage": "40",
     "startup": "i12~14",
     "block": "-3",
-    "hit": "+0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "Right Throw"
@@ -2180,7 +2401,7 @@
     "notes": [
       "Throw break 2",
       "Side switch on hit",
-      "Opponent recovers in FUFT state"
+      "Opponent recovers in FUFT"
     ]
   },
   {
@@ -2190,15 +2411,15 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "+0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "Back Throw"
     ],
     "categories": [],
     "notes": [
-      "Cannot break throw",
-      "Opponent recovers in FUFA state"
+      "Unbreakable",
+      "Opponent recovers in FUFA"
     ]
   },
   {
@@ -2208,7 +2429,7 @@
     "damage": "40",
     "startup": "i12~14",
     "block": "-5",
-    "hit": "+0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "uf+1+2"
@@ -2217,7 +2438,7 @@
     "notes": [
       "Throw break 1+2",
       "Can be done from FC",
-      "Opponent recovers in FDFA state"
+      "Opponent recovers in FDFA"
     ]
   }
 ]
