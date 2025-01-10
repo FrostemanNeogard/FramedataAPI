@@ -4,13 +4,13 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  app.setGlobalPrefix('api/v2');
+  app.setGlobalPrefix('v1');
   app.enableCors();
 
   const config = new DocumentBuilder()
     .setTitle('Framedata API')
     .setDescription('An API to get framedata for fighting games.')
-    .setVersion('2.0')
+    .setVersion('1.0')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
