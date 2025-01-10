@@ -9,6 +9,8 @@ services:
     networks:
       - framedata_network
     restart: always
+    expose:
+      - 3000
 
 networks:
   framedata_network:
