@@ -59,8 +59,8 @@
     "categories": [],
     "notes": [
       "Floor Break",
-      "Increases ZAN gauge by 1.12? on hit",
-      "Increases ZAN gauge by 0.62? on block",
+      "Increases ZAN gauge by 1.16 on hit",
+      "Increases ZAN gauge by 0.66 on block",
       "Transition to throw on hit",
       "Opponent recovers in FDFA state",
       "Only deals recoverable damage",
@@ -261,8 +261,8 @@
   {
     "name": "",
     "input": "PHX 2,in heat 1+2",
-    "hit_level": "mm",
-    "damage": "1232",
+    "hit_level": "m,m",
+    "damage": "12,32",
     "startup": ",i23~24",
     "block": "+4",
     "hit": "+25a(-1a)",
@@ -272,6 +272,7 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Combo from 1st hit",
       "9 Chip Damage on block"
     ]
@@ -317,6 +318,7 @@
       "Spike",
       "Weapon",
       "Combo from 1st CH",
+      "Combo from 2nd hit",
       "Interrupt with i8 from 2nd block"
     ]
   },
@@ -814,6 +816,31 @@
   },
   {
     "name": "",
+    "input": "f+2,2,1+2",
+    "hit_level": "m,m,M",
+    "damage": "10,7,18",
+    "startup": ",i27~228",
+    "block": "-13c",
+    "hit": "+9a",
+    "counter": "",
+    "alternateInputs": [
+      "f+2,2,1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Spike",
+      "Weapon",
+      "Combo from 1st CH",
+      "Combo from 2nd hit",
+      "Interrupt with i8 from 2nd block",
+      "Increases ZAN gauge by 0.30 on hit",
+      "Increases ZAN gauge by 0.10 on block",
+      "Only deals recoverable damage"
+    ]
+  },
+  {
+    "name": "",
     "input": "f+2,2,2",
     "hit_level": "m,m,M",
     "damage": "10,7,20",
@@ -832,6 +859,7 @@
       "Spike",
       "Weapon",
       "Combo from 1st CH",
+      "Combo from 2nd hit",
       "Interrupt with i8 from 2nd block"
     ]
   },
@@ -1744,7 +1772,7 @@
     ],
     "categories": [],
     "notes": [
-      "Enter PHX r23 with F or 4 on hit or block"
+      "Enter PHX -5 +6 r23 with F or 4 on hit or block"
     ]
   },
   {
