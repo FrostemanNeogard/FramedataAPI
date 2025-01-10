@@ -94,6 +94,30 @@ export class FramedataService {
     return [attackInfo[0]];
   }
 
+  async saveCharacterFrameData(
+    characterCode: string,
+    game: string,
+    frameData: FrameData[],
+  ) {
+    const filePath = `src/__data/${game}/${characterCode}.json`;
+
+    try {
+      const writeFileAsync = promisify(fs.writeFile);
+      await writeFileAsync(
+        filePath,
+        JSON.stringify(frameData, null, 2),
+        'utf8',
+      );
+    } catch (error) {
+      this.logger.error(
+        `Failed to save frame data to ${filePath}. ${error.message}`,
+      );
+      throw new Error(
+        `Failed to save frame data for character: ${characterCode}`,
+      );
+    }
+  }
+
   private calculateSimilarity(input1: string, input2: string): number {
     const set1 = new Set(input1.split(''));
     const set2 = new Set(input2.split(''));
