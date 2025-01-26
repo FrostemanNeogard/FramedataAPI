@@ -233,30 +233,6 @@
     ]
   },
   {
-    "name": "Delta Slicer",
-    "input": "1,1,1",
-    "hit_level": "h,m,m",
-    "damage": "5,8,20",
-    "startup": ",i25~26",
-    "block": "-12",
-    "hit": "+5c",
-    "counter": "",
-    "alternateInputs": [
-      "1,1,1"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43d (+35)",
-      "Balcony Break",
-      "Combo from 2nd hit",
-      "Combo from 1st CH",
-      "This move is essentially homing"
-    ]
-  },
-  {
     "name": "Left Right Combo",
     "input": "1,2",
     "hit_level": "h,h",
@@ -392,25 +368,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Electric Jolt",
-    "input": "3+4",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i17~18",
-    "block": "-8",
-    "hit": "+43d (-15)",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break"
     ]
   },
   {
@@ -1765,23 +1722,6 @@
     ]
   },
   {
-    "name": "Dynamic Entry",
-    "input": "f+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to DEN"
-    ]
-  },
-  {
     "name": "",
     "input": "DEN 1",
     "hit_level": "h",
@@ -1817,25 +1757,6 @@
     ]
   },
   {
-    "name": "Double Barrel",
-    "input": "DEN 1,2",
-    "hit_level": "h,h",
-    "damage": "14,20",
-    "startup": ",i14~15",
-    "block": "-6",
-    "hit": "+47a (-11)",
-    "counter": "",
-    "alternateInputs": [
-      "DEN 1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break"
-    ]
-  },
-  {
     "name": "Rimfire",
     "input": "DEN 2",
     "hit_level": "m",
@@ -1867,29 +1788,6 @@
     "categories": [],
     "notes": [
       "On hit only"
-    ]
-  },
-  {
-    "name": "Bow Shock",
-    "input": "DEN 3",
-    "hit_level": "m",
-    "damage": "23",
-    "startup": "i22~23",
-    "block": "+5",
-    "hit": "+5",
-    "counter": "",
-    "alternateInputs": [
-      "DEN 3"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +34a (+27)",
-      "Homing",
-      "Transition to SEN (cannot cancel, does not transition when using Heat Dash)",
-      "4 chip damage on block"
     ]
   },
   {
@@ -2037,42 +1935,6 @@
     ]
   },
   {
-    "name": "Silent Entry",
-    "input": "DEN n,F",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "DEN n,F"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to SEN"
-    ]
-  },
-  {
-    "name": "Lightning Thrust",
-    "input": "SEN 1",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i12~13",
-    "block": "-6",
-    "hit": "+23a (+13)",
-    "counter": "",
-    "alternateInputs": [
-      "SEN 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break"
-    ]
-  },
-  {
     "name": "Turbine Hook",
     "input": "SEN 2",
     "hit_level": "l",
@@ -2214,26 +2076,6 @@
     ]
   },
   {
-    "name": "Blue Jet",
-    "input": "in heat LEN 1",
-    "hit_level": "l,th",
-    "damage": "20,15",
-    "startup": "i16~17",
-    "block": "-12c",
-    "hit": "+5",
-    "counter": "",
-    "alternateInputs": [
-      "in heat LEN 1"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Side switch on hit throw",
-      "Opponent is left FUFA"
-    ]
-  },
-  {
     "name": "Rising Force",
     "input": "LEN 2",
     "hit_level": "m",
@@ -2250,24 +2092,6 @@
       "Tornado",
       "8 chip damage on block",
       "Powers up during Heat (Uses Heat Time, Tornado launches on hit)"
-    ]
-  },
-  {
-    "name": "Rising Force (Heat)",
-    "input": "in heat LEN 2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i16~17",
-    "block": "-9",
-    "hit": "+65a (+49)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat LEN 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Tornado",
-      "9 chip damage on block"
     ]
   },
   {

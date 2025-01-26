@@ -617,25 +617,6 @@
     ]
   },
   {
-    "name": "Median Line Destruction",
-    "input": "1+2",
-    "hit_level": "m,m,h",
-    "damage": "4,4,16",
-    "startup": "i13 i8 i12",
-    "block": "-14",
-    "hit": "+12a (+3)",
-    "counter": "",
-    "alternateInputs": [
-      "1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Heat Dash +43a (+35), +5"
-    ]
-  },
-  {
     "name": "Left Sidekick",
     "input": "f+3",
     "hit_level": "m",
@@ -650,26 +631,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Tanden Nidan-uchi",
-    "input": "f+3,1",
-    "hit_level": "m,m",
-    "damage": "12,17",
-    "startup": ",i22",
-    "block": "-12",
-    "hit": "+4",
-    "counter": "",
-    "alternateInputs": [
-      "f+3,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +36a (+26), +5",
-      "Combo from 1st hit",
-      "Balcony break on airborne hit"
     ]
   },
   {
@@ -834,25 +795,6 @@
     "notes": [
       "Spike",
       "Enter Breaking Step +2c +9c r27 with df"
-    ]
-  },
-  {
-    "name": "Right Spinning Axe Kick",
-    "input": "df+4",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i20~i21",
-    "block": "+0",
-    "hit": "+8c",
-    "counter": "",
-    "alternateInputs": [
-      "df+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Spike",
-      "Heat Engager",
-      "Heat Dash +67a (+50), +5"
     ]
   },
   {
@@ -1388,27 +1330,6 @@
     "categories": [],
     "notes": [
       "Sometimes written Delayed Hopkick"
-    ]
-  },
-  {
-    "name": "Demon's Paw",
-    "input": "f,F+2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i14~15",
-    "block": "-8",
-    "hit": "+15a (+6)",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +36a (+26), +5",
-      "Balcony Break",
-      "Cannot be buffered",
-      "6 chip damage on block"
     ]
   },
   {
@@ -1997,29 +1918,6 @@
     ]
   },
   {
-    "name": "Zanshin",
-    "input": "b+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Can perform all attacks from ZEN Stance",
-      "Enter Breaking Step with DF",
-      "Cancel on any frame with f",
-      "Transition to dash with f",
-      "Steps backward",
-      "Actionable after 5f",
-      "Sometimes written CDS"
-    ]
-  },
-  {
     "name": "Brimstone Bite (1)",
     "input": "ZEN 1",
     "hit_level": "m",
@@ -2077,32 +1975,6 @@
       "+33a (+18) on side hit",
       "+18a (+11) and balcony break on BT hit",
       "Sometimes written CDS.1,3"
-    ]
-  },
-  {
-    "name": "Fiendish Claw",
-    "input": "ZEN 2",
-    "hit_level": "h",
-    "damage": "27",
-    "startup": "i21~i22",
-    "block": "-5",
-    "hit": "+17a (+8)",
-    "counter": "",
-    "alternateInputs": [
-      "ZEN 2"
-    ],
-    "categories": [
-      "powercrush",
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +34a (+27), +5",
-      "Homing",
-      "Balcony Break",
-      "Chip damage on block",
-      "+0 on block after absorbing an attack",
-      "Sometimes written CDS.2"
     ]
   },
   {

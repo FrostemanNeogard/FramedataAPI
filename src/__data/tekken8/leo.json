@@ -824,26 +824,6 @@
     ]
   },
   {
-    "name": "Bei Zhan Juan Long Jiao",
-    "input": "db+2,4",
-    "hit_level": "m,h",
-    "damage": "16,24",
-    "startup": "i24~26",
-    "block": "-9~-7",
-    "hit": "+12a (+3)",
-    "counter": "",
-    "alternateInputs": [
-      "db+2,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +64a (+42)",
-      "Balcony Break",
-      "Combo from 1st hit"
-    ]
-  },
-  {
     "name": "Lie Huo Fan Jiao",
     "input": "db+3",
     "hit_level": "h",
@@ -1016,25 +996,6 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
-    ]
-  },
-  {
-    "name": "Er Lang Dan Shan",
-    "input": "b+2,1+2",
-    "hit_level": "m,m",
-    "damage": "11,21",
-    "startup": "i27~28",
-    "block": "-11~-10",
-    "hit": "+8",
-    "counter": "",
-    "alternateInputs": [
-      "b+2,1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5 +67a (+50)",
       "Combo from 1st hit"
     ]
   },
@@ -1876,28 +1837,6 @@
     ]
   },
   {
-    "name": "Rising Bei Zhe Kao",
-    "input": "ws4,1+2",
-    "hit_level": "m,m",
-    "damage": "8,18",
-    "startup": "i25~27",
-    "block": "-12~-10",
-    "hit": "+4d",
-    "counter": "",
-    "alternateInputs": [
-      "ws4,1+2",
-      "cd4,1+2",
-      "qcf4,1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5 +43a (+35)",
-      "Combo from 1st hit",
-      "Alternate input CD.4,1+2"
-    ]
-  },
-  {
     "name": "Le Kua Kao",
     "input": "ws1+2",
     "hit_level": "m",
@@ -1995,24 +1934,6 @@
     ]
   },
   {
-    "name": "Jin Ji Du Li",
-    "input": "f+4",
-    "hit_level": "m",
-    "damage": "14",
-    "startup": "i17~18",
-    "block": "+9~+10",
-    "hit": "+15g",
-    "counter": "+19",
-    "alternateInputs": [
-      "f+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Stance moves may be delayed by 11F",
-      "Enter CD -5 +1 +5 with df"
-    ]
-  },
-  {
     "name": "Tu Bu Jin Ji Du Li",
     "input": "b+3+4",
     "hit_level": "",
@@ -2044,25 +1965,6 @@
     "categories": [],
     "notes": [
       "Enter BOK -7 +4 with d"
-    ]
-  },
-  {
-    "name": "Bai She Tui Chuang",
-    "input": "KNK 1,2",
-    "hit_level": "h,m",
-    "damage": "12,17",
-    "startup": "i18",
-    "block": "-9",
-    "hit": "+17",
-    "counter": "",
-    "alternateInputs": [
-      "KNK 1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5 +36a (+26)",
-      "Combo from 1st hit"
     ]
   },
   {
@@ -2311,27 +2213,6 @@
     "categories": [],
     "notes": [
       "Same move as f+4"
-    ]
-  },
-  {
-    "name": "Lao Pao Ba",
-    "input": "BOK 1+2",
-    "hit_level": "M",
-    "damage": "22",
-    "startup": "i20~21",
-    "block": "-12~-11",
-    "hit": "+15d",
-    "counter": "",
-    "alternateInputs": [
-      "BOK 1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5 +17d",
-      "Balcony Break",
-      "Spike",
-      "Chip damage on block"
     ]
   },
   {

@@ -836,26 +836,6 @@
     ]
   },
   {
-    "name": "Muso Basara",
-    "input": "df+1,2",
-    "hit_level": "m,m",
-    "damage": "8,20",
-    "startup": ",i22~23",
-    "block": "-14",
-    "hit": "+12a",
-    "counter": "",
-    "alternateInputs": [
-      "df+1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +18g, +43a (+35)",
-      "Combo from 1st hit with 2?F delay",
-      "Can be delayed"
-    ]
-  },
-  {
     "name": "Queen Bee Stinger",
     "input": "df+2",
     "hit_level": "m",
@@ -1546,26 +1526,6 @@
     ]
   },
   {
-    "name": "Trailokya Splits Kick",
-    "input": "f,F+3",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i20~22",
-    "block": "-3",
-    "hit": "+20a",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Spike"
-    ]
-  },
-  {
     "name": "Un Hien-geri",
     "input": "f,F+3+4",
     "hit_level": "h",
@@ -1796,23 +1756,6 @@
     ]
   },
   {
-    "name": "Wind God Step",
-    "input": "df+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "df+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Can transition to SEN with input WGS.f+3"
-    ]
-  },
-  {
     "name": "Thunder God Fist",
     "input": "WGS 1",
     "hit_level": "m",
@@ -2001,23 +1944,6 @@
     ]
   },
   {
-    "name": "Sentai",
-    "input": "f+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
     "name": "",
     "input": "SEN 1",
     "hit_level": "m",
@@ -2073,28 +1999,6 @@
     "categories": [],
     "notes": [
       "Tornado"
-    ]
-  },
-  {
-    "name": "Sen Kaijo-geri",
-    "input": "SEN 3",
-    "hit_level": "h",
-    "damage": "22",
-    "startup": "i12~13",
-    "block": "+1",
-    "hit": "+7",
-    "counter": "",
-    "alternateInputs": [
-      "SEN 3"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Homing",
-      "Heat Engager",
-      "Heat Dash +5, +34a (+27)",
-      "Deals chip damage on block"
     ]
   },
   {
@@ -2171,23 +2075,6 @@
     "notes": [
       "Throw break: none",
       "Opponent recovery on hit: FUFA"
-    ]
-  },
-  {
-    "name": "Senshin-zuki",
-    "input": "f+1+2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i32",
-    "block": "-11",
-    "hit": "+7",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Wall Crush +19g on hit"
     ]
   },
   {
@@ -2280,112 +2167,6 @@
     ]
   },
   {
-    "name": "Unsoku Gen",
-    "input": "b+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Partially drains heat meter when in heat",
-      "Transitions to UNS (Gen)",
-      "Can transition to UNS (Kou, u/d) with input u+3 or d+3",
-      "Can transition to SEN with input f+3",
-      "Can transition to WGS with input DF",
-      "Can execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF",
-      "See also Unsoku Cancel"
-    ]
-  },
-  {
-    "name": "Unsoku Kou",
-    "input": "d+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to UNS (Kou, d)",
-      "Can transition to UNS (Kou, u) with input u+3",
-      "Can transition to UNS (Gen) with input b+3",
-      "Can transition to WGS with input DF",
-      "Can execute EWGF or EWGK by inputting 2 or 3 respectively exactly one frame after DF"
-    ]
-  },
-  {
-    "name": "Unsoku Kou",
-    "input": "u+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "u+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to UNS (Kou, u)",
-      "Can transition to UNS (Kou, d) with input d+3",
-      "Can transition to WGS with input DF",
-      "Can execute EWGF or EWGK by inputting 2/3 exactly one frame after DF"
-    ]
-  },
-  {
-    "name": "Unpu Tobi-Manji",
-    "input": "UNS 4",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i18~19",
-    "block": "-8",
-    "hit": "+43a (-15)",
-    "counter": "",
-    "alternateInputs": [
-      "UNS 4"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Deals chip damage on block",
-      "Can be cancelled into crouch with DB/D/DF"
-    ]
-  },
-  {
-    "name": "Heaven's Wrath",
-    "input": "d+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Can transition to r14 SEN with input f+3",
-      "Can transition to r2 WGS with input DF",
-      "Sometimes written ",
-      "WRA",
-      "HW"
-    ]
-  },
-  {
     "name": "",
     "input": "WRA 1",
     "hit_level": "h",
@@ -2426,27 +2207,6 @@
       "Spike",
       "Combo from 1st hit",
       "Sometimes written HW.1,4"
-    ]
-  },
-  {
-    "name": "Iron Hand",
-    "input": "WRA 2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i15~16",
-    "block": "-9",
-    "hit": "+11a (+2)",
-    "counter": "",
-    "alternateInputs": [
-      "WRA 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Deals chip damage on block",
-      "Sometimes written HW.2"
     ]
   },
   {
@@ -3002,50 +2762,6 @@
       "Balcony Break",
       "Throw break: 2",
       "Opponent recovery on hit: FUFT"
-    ]
-  },
-  {
-    "name": "Haburi-kaze",
-    "input": "SEN 1+3",
-    "hit_level": "th(h)",
-    "damage": "12",
-    "startup": "i16",
-    "block": "",
-    "hit": "-3",
-    "counter": "",
-    "alternateInputs": [
-      "SEN 1+3"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Throw break: none",
-      "Opponent recovery on hit: FUFA"
-    ]
-  },
-  {
-    "name": "Heaven's Roar",
-    "input": "WRA 1+3",
-    "hit_level": "t (h)",
-    "damage": "20",
-    "startup": "i16",
-    "block": "",
-    "hit": "+10d",
-    "counter": "",
-    "alternateInputs": [
-      "WRA 1+3"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Unbreakable",
-      "Opponent recovery on hit: FUFT",
-      "Does 35 damage on wall hit",
-      "Sometimes written ",
-      "HW.1+3",
-      "HW.2+4"
     ]
   }
 ]

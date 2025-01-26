@@ -425,29 +425,6 @@
     ]
   },
   {
-    "name": "Gamma Howl (Gamma Charge)",
-    "input": "3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "pc7",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge",
-      "Powercrush active from 7f to 22f",
-      "Recover Heat and recoverable health when absorbing an attack",
-      "Gamma Charge is always in effect during Heat",
-      "Alternate input: ws3+4"
-    ]
-  },
-  {
     "name": "",
     "input": "1+4",
     "hit_level": "",
@@ -1498,46 +1475,6 @@
     ]
   },
   {
-    "name": "Piston Gun Assault",
-    "input": "b+2",
-    "hit_level": "m",
-    "damage": "27",
-    "startup": "i19",
-    "block": "+5",
-    "hit": "+2d",
-    "counter": "",
-    "alternateInputs": [
-      "b+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a(+26)",
-      "Balcony Break "
-    ]
-  },
-  {
-    "name": "Piston Gun Assault (charged)",
-    "input": "b+2*",
-    "hit_level": "m",
-    "damage": "40",
-    "startup": "i35",
-    "block": "-2 (+5 WC)",
-    "hit": "+17a (+9)",
-    "counter": "",
-    "alternateInputs": [
-      "b+2*"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a(+26)",
-      "Balcony Break",
-      "Wall crush",
-      "Chip damage on block (16)"
-    ]
-  },
-  {
     "name": "",
     "input": "b+3",
     "hit_level": "m",
@@ -1643,25 +1580,6 @@
       "Combos from 1st hit CH",
       "When comboing from 1st hit:",
       "Floor Break"
-    ]
-  },
-  {
-    "name": "Tyulpan Blast",
-    "input": "b+1+2",
-    "hit_level": "m",
-    "damage": "28",
-    "startup": "i14",
-    "block": "-19",
-    "hit": "-1d (-10)",
-    "counter": "",
-    "alternateInputs": [
-      "b+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43d(+35)",
-      "Balcony Break"
     ]
   },
   {
@@ -2673,63 +2591,6 @@
     ]
   },
   {
-    "name": "",
-    "input": "f+3",
-    "hit_level": "m",
-    "damage": "18",
-    "startup": "i15",
-    "block": "-9",
-    "hit": "+5",
-    "counter": "",
-    "alternateInputs": [
-      "f+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Knee",
-      "Transition to GMH with D",
-      "(+2 oB, +16g oH, +16 ch)",
-      "Alternate input ws3 "
-    ]
-  },
-  {
-    "name": "Two-Step Die",
-    "input": "f+3,2",
-    "hit_level": "m,h",
-    "damage": "18,20",
-    "startup": "i23",
-    "block": "-9",
-    "hit": "+44d (-14)",
-    "counter": "",
-    "alternateInputs": [
-      "f+3,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Combos from 1st hit",
-      "Alternate input ws3,2 "
-    ]
-  },
-  {
-    "name": "Machine Press",
-    "input": "f+3,1+2",
-    "hit_level": "m,m",
-    "damage": "18,20",
-    "startup": "i25",
-    "block": "-11c",
-    "hit": "+2d",
-    "counter": "+48a",
-    "alternateInputs": [
-      "f+3,1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Combos from 1st hit CH",
-      "Alternate input ws3,1+2 "
-    ]
-  },
-  {
     "name": "Toe Smash",
     "input": "ws4",
     "hit_level": "m",
@@ -2800,29 +2661,6 @@
     ]
   },
   {
-    "name": "Gamma Howl (Gamma Charge)",
-    "input": "3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "pc7",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge",
-      "Powercrush active from 7f to 22f",
-      "Recover Heat and recoverable health when absorbing an attack",
-      "Gamma Charge is always in effect during Heat",
-      "Alternate input: ws3+4"
-    ]
-  },
-  {
     "name": "Juggernaut Hook",
     "input": "GMH 1",
     "hit_level": "m",
@@ -2876,26 +2714,6 @@
     "notes": [
       "Transition to FC with D",
       "(+7 oH, +2 oB) "
-    ]
-  },
-  {
-    "name": "Full Metal Deathblow",
-    "input": "GMH 4",
-    "hit_level": "h",
-    "damage": "30",
-    "startup": "i14~18",
-    "block": "+4",
-    "hit": "+21d (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "GMH 4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a(+26)",
-      "Balcony Break",
-      "Chip damage on block (9)"
     ]
   },
   {
@@ -2960,27 +2778,6 @@
       "57 Damage if opponent hits the wall",
       "Throw Break 1+2",
       "Swaps positions on break"
-    ]
-  },
-  {
-    "name": "Particle Barrier",
-    "input": "GMH 3+4",
-    "hit_level": "sm",
-    "damage": "20",
-    "startup": "i20 pc6",
-    "block": "-13",
-    "hit": "+40d (-18)",
-    "counter": "",
-    "alternateInputs": [
-      "GMH 3+4"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a(+26)",
-      "Chip damage on block when absorbing an attack (6)"
     ]
   },
   {
@@ -3050,65 +2847,6 @@
     "categories": [],
     "notes": [
       "Recover in crouch "
-    ]
-  },
-  {
-    "name": "Jaguar Hook - Gamma",
-    "input": "GMC 1",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i22",
-    "block": "-6",
-    "hit": "+73a (+57)",
-    "counter": "",
-    "alternateInputs": [
-      "GMC 1"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Homing",
-      "Partially uses remaining Heat time",
-      "Chip damage on block (4) "
-    ]
-  },
-  {
-    "name": "Exaton Blast - Gamma",
-    "input": "GMC 2",
-    "hit_level": "h",
-    "damage": "42",
-    "startup": "i20 pc1",
-    "block": "+11",
-    "hit": "+31a (+5)",
-    "counter": "",
-    "alternateInputs": [
-      "GMC 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Tornado",
-      "Guard Break",
-      "Balcony Break",
-      "Partially uses remaining Heat time",
-      "Chip damage on block (4) "
-    ]
-  },
-  {
-    "name": "Sit Down",
-    "input": "d+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to SIT (Sit Down)"
     ]
   },
   {
@@ -3283,23 +3021,6 @@
       "Transition to GMH with D",
       "(+9 oB, +35d (+27) oH)",
       "Chip damage on block (6)"
-    ]
-  },
-  {
-    "name": "Double Axe",
-    "input": "d+1+2",
-    "hit_level": "m",
-    "damage": "18",
-    "startup": "i28",
-    "block": "+18g",
-    "hit": "+39d",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Recovers in SIT, then stands up "
     ]
   },
   {
@@ -3624,70 +3345,6 @@
     ]
   },
   {
-    "name": "Mimesis Overkill",
-    "input": "GMH 1+2",
-    "hit_level": "th",
-    "damage": "45 (57)",
-    "startup": "i16",
-    "block": "-6",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "GMH 1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "57 Damage if opponent hits the wall",
-      "Throw Break 1+2",
-      "Swaps positions on break"
-    ]
-  },
-  {
-    "name": "Gun Bomb",
-    "input": "GMH 1+3",
-    "hit_level": "t",
-    "damage": "30",
-    "startup": "i15",
-    "block": "!",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "GMH 1+3"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Crouch Throw (Unbreakable)",
-      "Floor Break",
-      "Alternate input d+1+3"
-    ]
-  },
-  {
-    "name": "Iron Gunman",
-    "input": "GMH 2+4",
-    "hit_level": "t",
-    "damage": "25",
-    "startup": "i15",
-    "block": "!",
-    "hit": "+6d",
-    "counter": "",
-    "alternateInputs": [
-      "GMH 2+4"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Cannot cancel into Heat Dash",
-      "Crouch Throw (Unbreakable)",
-      "Alternate input d+2+4"
-    ]
-  },
-  {
     "name": "Gun Bomb",
     "input": "d+1+3",
     "hit_level": "t",
@@ -3707,29 +3364,6 @@
       "Floor Break",
       "Can be done from crouch",
       "Alternate input GMH.1+3"
-    ]
-  },
-  {
-    "name": "Iron Gunman",
-    "input": "d+2+4",
-    "hit_level": "t",
-    "damage": "25",
-    "startup": "i12",
-    "block": "!",
-    "hit": "+6d",
-    "counter": "",
-    "alternateInputs": [
-      "d+2+4"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Cannot cancel into Heat Dash",
-      "Crouch Throw (Unbreakable)",
-      "Can be done from crouch",
-      "Alternate input GMH.2+4"
     ]
   },
   {

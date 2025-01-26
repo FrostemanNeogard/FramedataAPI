@@ -740,26 +740,6 @@
     ]
   },
   {
-    "name": "Rapid Strikes",
-    "input": "db+2,1",
-    "hit_level": "m,h",
-    "damage": "11,24",
-    "startup": ",i20",
-    "block": "-11",
-    "hit": "+41d (-17)",
-    "counter": "",
-    "alternateInputs": [
-      "db+2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Heat Dash +43d (+35)",
-      "Can be delayed"
-    ]
-  },
-  {
     "name": "Snake's Bite",
     "input": "db+3",
     "hit_level": "L",
@@ -829,26 +809,6 @@
     ]
   },
   {
-    "name": "Achernar",
-    "input": "b+1",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i19~20",
-    "block": "+0c",
-    "hit": "+6c",
-    "counter": "",
-    "alternateInputs": [
-      "b+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +67a (+50)",
-      "Transition to +0c, +6c FC with D",
-      "Launcher with heat dash"
-    ]
-  },
-  {
     "name": "Dust Storm",
     "input": "b+2",
     "hit_level": "m(th)",
@@ -898,47 +858,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Elnath",
-    "input": "b+3+4",
-    "hit_level": "h",
-    "damage": "25",
-    "startup": "i16",
-    "block": "-9",
-    "hit": "+19a (+9)",
-    "counter": "",
-    "alternateInputs": [
-      "b+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Heat Dash  +43d (+35)"
-    ]
-  },
-  {
-    "name": "Vega",
-    "input": "uf+1",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i24~25",
-    "block": "+1",
-    "hit": "+20d",
-    "counter": "",
-    "alternateInputs": [
-      "uf+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Heat Dash +67a (+50)",
-      "chip damage on block",
-      "during Heat, partially restore remaining Heat time",
-      "Cancel to FC with input uf+1,D"
     ]
   },
   {
@@ -1269,23 +1188,6 @@
     ]
   },
   {
-    "name": "Stealth Step",
-    "input": "df+3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "df+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to FC with SNK.DB"
-    ]
-  },
-  {
     "name": "Blinding Snake",
     "input": "SNK 1",
     "hit_level": "h",
@@ -1352,26 +1254,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Al-Sayf",
-    "input": "SNK 1+2",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i19",
-    "block": "+2c",
-    "hit": "+8c",
-    "counter": "",
-    "alternateInputs": [
-      "SNK 1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +67a (+50)",
-      "Floor Break",
-      "chip damage on block"
     ]
   },
   {

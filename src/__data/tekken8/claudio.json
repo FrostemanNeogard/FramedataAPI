@@ -249,32 +249,6 @@
     ]
   },
   {
-    "name": "Circle of Judgement",
-    "input": "2,1,2",
-    "hit_level": "h,m,m",
-    "damage": "10,13,25",
-    "startup": ",i16~18",
-    "block": "-13",
-    "hit": "+12a (+3)",
-    "counter": "",
-    "alternateInputs": [
-      "2,1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Strong Aerial Tailspin",
-      "Balcony Break",
-      "Combo from 2nd CH with 14f delay",
-      "Input can be delayed 15f",
-      "Move can be delayed 10f",
-      "Transition to r65 STB on hit without STB",
-      "-10a (-1) upon STB gain on an airborne hit",
-      "Interrupt with i1 from 1st block"
-    ]
-  },
-  {
     "name": "",
     "input": "3",
     "hit_level": "m",
@@ -289,27 +263,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Requiescat",
-    "input": "3,2",
-    "hit_level": "m,h",
-    "damage": "14,22",
-    "startup": ",i22~23",
-    "block": "-6",
-    "hit": "+25a (+16)",
-    "counter": "",
-    "alternateInputs": [
-      "3,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +34a (+27)",
-      "Balcony Break",
-      "Transition to r55 STB on hit without STB",
-      "-6a (-13) upon STB gain on an airborne hit"
     ]
   },
   {
@@ -1079,29 +1032,6 @@
     ]
   },
   {
-    "name": "Shining Ray",
-    "input": "b+4,2",
-    "hit_level": "m,m",
-    "damage": "10,20",
-    "startup": ",i20",
-    "block": "-11",
-    "hit": "+29a (+3)",
-    "counter": "",
-    "alternateInputs": [
-      "b+4,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Combo from 1st hit with no delay",
-      "Combo from 1st CH with 10f delay",
-      "Input can be delayed 12F",
-      "Transition to r45 STB on hit without STB and Heat"
-    ]
-  },
-  {
     "name": "Axial Ray",
     "input": "b+4,3",
     "hit_level": "m,h",
@@ -1220,27 +1150,6 @@
     "categories": [],
     "notes": [
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Meteor Storm",
-    "input": "u+2",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i21~22",
-    "block": "-8",
-    "hit": "+16a",
-    "counter": "",
-    "alternateInputs": [
-      "u+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Balcony Break",
-      "Spike",
-      "Transition to r49 STB on hit without STB and Heat"
     ]
   },
   {
@@ -1389,30 +1298,6 @@
     "categories": [],
     "notes": [
       "Knee"
-    ]
-  },
-  {
-    "name": "Ira",
-    "input": "f,f,F+2",
-    "hit_level": "h",
-    "damage": "40",
-    "startup": "i13~16",
-    "block": "+6",
-    "hit": "+24a (+19)",
-    "counter": "",
-    "alternateInputs": [
-      "f,f,F+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Transition to r51 STB without STB and Heat",
-      "Frame advantage +1a (-4) on STB gain",
-      "Chip damage on block",
-      "Cannot be buffered",
-      "Sometimes written wr2"
     ]
   },
   {

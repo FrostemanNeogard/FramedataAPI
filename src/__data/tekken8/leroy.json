@@ -483,27 +483,6 @@
     ]
   },
   {
-    "name": "Chain Punch: Stem",
-    "input": "1+2,1+2,1",
-    "hit_level": "h,h,h,h,h,h,m",
-    "damage": "9,9,20",
-    "startup": ",i17~18",
-    "block": "-17~-16",
-    "hit": "+7a(-2) / HE",
-    "counter": "",
-    "alternateInputs": [
-      "1+2,1+2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Elbow",
-      "Combo from 1st hit",
-      "Delayable"
-    ]
-  },
-  {
     "name": "Hermit",
     "input": "3+4",
     "hit_level": "sp",
@@ -647,25 +626,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Lao Weng Xuan Feng Jiao",
-    "input": "f+4,4",
-    "hit_level": "m,h",
-    "damage": "14,24",
-    "startup": ",i28~30",
-    "block": "-6",
-    "hit": "+20a (+11) / HE",
-    "counter": "",
-    "alternateInputs": [
-      "f+4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Combo from 1st hit"
     ]
   },
   {
@@ -1055,23 +1015,6 @@
     ]
   },
   {
-    "name": "Chanhui Zhang",
-    "input": "d+1+2",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i17~18",
-    "block": "-4~-3",
-    "hit": "+6c / HE",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager"
-    ]
-  },
-  {
     "name": "",
     "input": "db+1",
     "hit_level": "m",
@@ -1174,26 +1117,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Tan Sau Shui Yue Tu",
-    "input": "db+1+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i32~33",
-    "block": "-11~-10",
-    "hit": "+36d (+15)",
-    "counter": "",
-    "alternateInputs": [
-      "db+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Sabaki (partially restores remaining Heat time when successful during Heat)",
-      "chip damage on block"
     ]
   },
   {
@@ -1776,27 +1699,6 @@
     ]
   },
   {
-    "name": "Hermit",
-    "input": "3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Auto low parry",
-      "Partially restores remaining Heat time upon successful parry during Heat",
-      "Transition to n with HRM.3+4"
-    ]
-  },
-  {
     "name": "Tan Zhang",
     "input": "HRM 1",
     "hit_level": "m",
@@ -1936,28 +1838,6 @@
     "categories": [],
     "notes": [
       "Power up during Heat (partially uses remaining Heat time)"
-    ]
-  },
-  {
-    "name": "Chain Punch: Root",
-    "input": "HRM 1+2,1",
-    "hit_level": "m,h,h,h,h,m",
-    "damage": "12,x,x,x,20",
-    "startup": "i17~18",
-    "block": "-17",
-    "hit": "+7a(-2)/HE",
-    "counter": "",
-    "alternateInputs": [
-      "HRM 1+2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g +36a(+26)",
-      "Balcony Break",
-      "Elbow",
-      "Jailing",
-      "Delayable"
     ]
   },
   {

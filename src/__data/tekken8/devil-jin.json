@@ -1147,48 +1147,6 @@
     ]
   },
   {
-    "name": "Rakshasa's Fury",
-    "input": "b+2,3",
-    "hit_level": "h,m",
-    "damage": "11,23",
-    "startup": ",i25~127",
-    "block": "-14",
-    "hit": "+8a (-1)",
-    "counter": "",
-    "alternateInputs": [
-      "b+2,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break",
-      "16 Chip Damage on Heat Dash",
-      "Combo from 1st hit with 5f delay",
-      "Move can be delayed 3f"
-    ]
-  },
-  {
-    "name": "Wicked Jambu Spear",
-    "input": "b+3",
-    "hit_level": "M",
-    "damage": "24",
-    "startup": "i29~32",
-    "block": "-15~-18",
-    "hit": "+10~+13",
-    "counter": "",
-    "alternateInputs": [
-      "b+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43d (+35)",
-      "Balcony Break",
-      "17 Chip Damage on Heat Dash"
-    ]
-  },
-  {
     "name": "Demon Steel Pedal",
     "input": "b+4",
     "hit_level": "M",
@@ -1359,26 +1317,6 @@
     ]
   },
   {
-    "name": "Wraith Kick",
-    "input": "uf+4",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i18",
-    "block": "-8",
-    "hit": "+11",
-    "counter": "",
-    "alternateInputs": [
-      "uf+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break",
-      "16 Chip Damage on Heat Dash"
-    ]
-  },
-  {
     "name": "Hisou",
     "input": "uf+3+4",
     "hit_level": "m,m",
@@ -1393,29 +1331,6 @@
     "categories": [],
     "notes": [
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Demon's Paw",
-    "input": "f,F+2",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i15~16",
-    "block": "-8",
-    "hit": "+15a (+6)",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "i18 startup when unbuffered, and i16 startup when buffered",
-      "7 Chip Damage on block",
-      "10 Chip Damage on block while in heat",
-      "20 Chip Damage on Heat Dash"
     ]
   },
   {
@@ -1771,23 +1686,6 @@
     ]
   },
   {
-    "name": "Wheel of Pain",
-    "input": "4~3",
-    "hit_level": "M",
-    "damage": "21",
-    "startup": "i29-32",
-    "block": "-7c",
-    "hit": "+14a",
-    "counter": "",
-    "alternateInputs": [
-      "4~3"
-    ],
-    "categories": [],
-    "notes": [
-      "Spike"
-    ]
-  },
-  {
     "name": "Wind God Step",
     "input": "f,n,d,df",
     "hit_level": "",
@@ -2030,23 +1928,6 @@
     ]
   },
   {
-    "name": "Fly (FLY)",
-    "input": "3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
     "name": "Near Death",
     "input": "FLY 1",
     "hit_level": "h",
@@ -2188,23 +2069,6 @@
     ]
   },
   {
-    "name": "Mourning Crow (MCR)",
-    "input": "f+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Stance moves can be delayed by 10f"
-    ]
-  },
-  {
     "name": "Tiger Thrush",
     "input": "MCR 1",
     "hit_level": "m",
@@ -2241,28 +2105,6 @@
     ],
     "notes": [
       "Homing"
-    ]
-  },
-  {
-    "name": "Dark Arachnid Twister",
-    "input": "MCR 2,2",
-    "hit_level": "m,M",
-    "damage": "12,20",
-    "startup": ",i24-26",
-    "block": "-14c",
-    "hit": "+2a",
-    "counter": "",
-    "alternateInputs": [
-      "MCR 2,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Spike",
-      "16 Chip Damage on blocked Heat Dash",
-      "Combo from 1st hit",
-      "Opponent recovers FDFA on hit"
     ]
   },
   {
@@ -2617,28 +2459,6 @@
     "notes": [
       "Floor Break",
       "Throw break 2",
-      "Can be done from FC"
-    ]
-  },
-  {
-    "name": "Stonehead",
-    "input": "uf+1+2",
-    "hit_level": "t",
-    "damage": "35",
-    "startup": "i12",
-    "block": "+0",
-    "hit": "+25d (+7)",
-    "counter": "",
-    "alternateInputs": [
-      "uf+1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Balcony Break",
-      "Throw break 1+2",
-      "Side switch on throw break",
       "Can be done from FC"
     ]
   },

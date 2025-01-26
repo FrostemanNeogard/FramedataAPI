@@ -490,24 +490,6 @@
     ]
   },
   {
-    "name": "Sonic Fang",
-    "input": "1+2",
-    "hit_level": "m,m",
-    "damage": "7,21",
-    "startup": "i14",
-    "block": "-12",
-    "hit": "+18a (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash  (+5/+35d/-)"
-    ]
-  },
-  {
     "name": "",
     "input": "f+2",
     "hit_level": "m",
@@ -1181,26 +1163,6 @@
     ]
   },
   {
-    "name": "Rocket Launcher",
-    "input": "qcf+1",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i16",
-    "block": "-10",
-    "hit": "+16a (+7)",
-    "counter": "",
-    "alternateInputs": [
-      "qcf+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash (+5/+36a (+26)/+36a (+26))",
-      "Balcony Break",
-      "Input B to FLK (-3/+23a (+14)/+23a (+14))"
-    ]
-  },
-  {
     "name": "Low Cross Blaster",
     "input": "qcf+2",
     "hit_level": "l",
@@ -1215,28 +1177,6 @@
     "categories": [],
     "notes": [
       "Input F transitions to PAB"
-    ]
-  },
-  {
-    "name": "Eraser",
-    "input": "f,f,F+2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i20~24",
-    "block": "+6",
-    "hit": "+10d",
-    "counter": "",
-    "alternateInputs": [
-      "f,f,F+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash (+5/+67a (+50)/-)",
-      "Balcony Break",
-      "Spike",
-      "9 Chip Damage on block",
-      "12 Chip Damage on block while in heat"
     ]
   },
   {
@@ -1753,25 +1693,6 @@
     "notes": [
       "Transition into ALB",
       "Input f into PAB"
-    ]
-  },
-  {
-    "name": "Cyclone Punch",
-    "input": "ALB 2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i23",
-    "block": "-3",
-    "hit": "+16a (+7)",
-    "counter": "",
-    "alternateInputs": [
-      "ALB 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash (+5/+36a (+26)/-)",
-      "Balcony Break"
     ]
   },
   {
@@ -2744,27 +2665,6 @@
     ]
   },
   {
-    "name": "Vigilant Blow",
-    "input": "LNin heat 1",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i14-15",
-    "block": "-4",
-    "hit": "+9/HE",
-    "counter": "",
-    "alternateInputs": [
-      "LNin heat 1"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g +43a(+35)",
-      "Homing"
-    ]
-  },
-  {
     "name": "Bloodhound",
     "input": "LNin heat 2",
     "hit_level": "m",
@@ -2799,27 +2699,6 @@
       "Reversal Break",
       "Balcony Break",
       "Chip damage on block"
-    ]
-  },
-  {
-    "name": "Two-Faced",
-    "input": "in heat LNH",
-    "hit_level": "sp, m, h (th)",
-    "damage": "15",
-    "startup": "i18-19",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "in heat LNH"
-    ],
-    "categories": [
-      "throw",
-      "parry"
-    ],
-    "notes": [
-      "Parries mid attacks",
-      "Transitions to TFA after successful parry"
     ]
   },
   {

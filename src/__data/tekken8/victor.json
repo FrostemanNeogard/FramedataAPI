@@ -568,24 +568,6 @@
     ]
   },
   {
-    "name": "Carving Cameo",
-    "input": "f+4,1",
-    "hit_level": "m,h",
-    "damage": "15,21",
-    "startup": ",i23~24",
-    "block": "-4",
-    "hit": "+18a (+9) / HE",
-    "counter": "+18a (+9) / HE",
-    "alternateInputs": [
-      "f+4,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager"
-    ]
-  },
-  {
     "name": "Carving Intaglio",
     "input": "f+4,2",
     "hit_level": "m,m",
@@ -601,26 +583,6 @@
     "notes": [
       "CH on last hit or wallhit causes FDFA knockdown",
       "Transition to IAI with d or 3+4"
-    ]
-  },
-  {
-    "name": "Durandal",
-    "input": "f+1+2",
-    "hit_level": "m",
-    "damage": "35",
-    "startup": "i24~25",
-    "block": "-9",
-    "hit": "KND / HE",
-    "counter": "KND / HE",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Deals 10 chip damage on block",
-      "Partially restores Heat on hit"
     ]
   },
   {
@@ -815,24 +777,6 @@
       "Combo from 1st CH",
       "Jails from 1st hit",
       "Cannot be parried (weapon low)"
-    ]
-  },
-  {
-    "name": "Llawfrodedd",
-    "input": "d+2",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i18",
-    "block": "0",
-    "hit": "+4 / HE",
-    "counter": "+4",
-    "alternateInputs": [
-      "d+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -1116,25 +1060,6 @@
     "notes": [
       "Homing",
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Failnaught",
-    "input": "b+1+2",
-    "hit_level": "h",
-    "damage": "25",
-    "startup": "i19~20",
-    "block": "-9",
-    "hit": "+42 (-16) / HE",
-    "counter": "+42 (-16) / HE",
-    "alternateInputs": [
-      "b+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Deals 7 chip damage on block"
     ]
   },
   {
@@ -1461,23 +1386,6 @@
     ]
   },
   {
-    "name": "Iai Stance",
-    "input": "3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "i30",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Can cancel into FC with db"
-    ]
-  },
-  {
     "name": "",
     "input": "IAI 1",
     "hit_level": "m",
@@ -1784,26 +1692,6 @@
     ]
   },
   {
-    "name": "Perfumer",
-    "input": "f+3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "i20",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Can cancel into FC with df",
-      "Punch parry from frame 5 to 10"
-    ]
-  },
-  {
     "name": "Maceration",
     "input": "PRF 1",
     "hit_level": "l",
@@ -1888,25 +1776,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Flying Gentleman",
-    "input": "PRF 3",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i15~17",
-    "block": "-8",
-    "hit": "+41 (-17)",
-    "counter": "+41 (-17)",
-    "alternateInputs": [
-      "PRF 3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Knee"
     ]
   },
   {

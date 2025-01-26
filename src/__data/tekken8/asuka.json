@@ -737,30 +737,6 @@
     ]
   },
   {
-    "name": "Exorcisor",
-    "input": "f+1+2",
-    "hit_level": "h",
-    "damage": "26",
-    "startup": "i15~16",
-    "block": "-9",
-    "hit": "+19a (+9)",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
-      "Balcony Break",
-      "+0 on block after absorbing an attack",
-      "Chip damage on block after attack absorption",
-      "Gain Naniwa Gusto on Heat activation"
-    ]
-  },
-  {
     "name": "Spinning Heel Chop > Naniwa Gusto",
     "input": "f+3+4",
     "hit_level": "M",
@@ -933,26 +909,6 @@
     ]
   },
   {
-    "name": "Heaven's Hammer",
-    "input": "d+2",
-    "hit_level": "m",
-    "damage": "18",
-    "startup": "i18",
-    "block": "-4c",
-    "hit": "+9c",
-    "counter": "",
-    "alternateInputs": [
-      "d+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Spike",
-      "Gain NWG on Heat activation"
-    ]
-  },
-  {
     "name": "Sashiro",
     "input": "d+1+2",
     "hit_level": "L",
@@ -1003,27 +959,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Swallow Vortex",
-    "input": "db+1,2",
-    "hit_level": "m,h",
-    "damage": "13,20",
-    "startup": ",i26~27",
-    "block": "-9",
-    "hit": "+22a (+13)",
-    "counter": "",
-    "alternateInputs": [
-      "db+1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +34a (+27)",
-      "Balcony Break",
-      "Combo from 1st hit with 8f delay",
-      "Gain NWG on Heat activation"
     ]
   },
   {
@@ -2188,26 +2123,6 @@
     ]
   },
   {
-    "name": "Mist Palm Thrust",
-    "input": "SS 2",
-    "hit_level": "m",
-    "damage": "23",
-    "startup": "i13~14",
-    "block": "-13",
-    "hit": "+13a (+4)",
-    "counter": "",
-    "alternateInputs": [
-      "SS 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Gain NWG on Heat activation",
-      "Balcony break on airborne hit"
-    ]
-  },
-  {
     "name": "Camellia",
     "input": "SS 4",
     "hit_level": "h",
@@ -2387,30 +2302,6 @@
     ]
   },
   {
-    "name": "Compulsory Reform",
-    "input": "DST 2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i19",
-    "block": "-3",
-    "hit": "+8a",
-    "counter": "",
-    "alternateInputs": [
-      "DST 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Elbow",
-      "Gain NWG on Heat Activation",
-      "Chip damage on blockSometimes written ",
-      "f+1+3,2",
-      "Destabilizer.2"
-    ]
-  },
-  {
     "name": "Inescapable Tirade",
     "input": "DST 4",
     "hit_level": "l",
@@ -2540,41 +2431,6 @@
     ]
   },
   {
-    "name": "",
-    "input": "ws2",
-    "hit_level": "m",
-    "damage": "18",
-    "startup": "i13~14",
-    "block": "-8",
-    "hit": "+8",
-    "counter": "",
-    "alternateInputs": [
-      "ws2"
-    ],
-    "categories": [],
-    "notes": [
-      "Elbow"
-    ]
-  },
-  {
-    "name": "",
-    "input": "ws2,1",
-    "hit_level": "m,h",
-    "damage": "18,10",
-    "startup": ",i22",
-    "block": "-2",
-    "hit": "+9",
-    "counter": "",
-    "alternateInputs": [
-      "ws2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Combo from 1st hit with 3f delay",
-      "Continues into 10 strings"
-    ]
-  },
-  {
     "name": "3rd Hit",
     "input": "ws2,1,1",
     "hit_level": "m,h,m",
@@ -2694,92 +2550,6 @@
     ]
   },
   {
-    "name": "",
-    "input": "ws2",
-    "hit_level": "m",
-    "damage": "18",
-    "startup": "i13~14",
-    "block": "-8",
-    "hit": "+8",
-    "counter": "",
-    "alternateInputs": [
-      "ws2"
-    ],
-    "categories": [],
-    "notes": [
-      "Elbow"
-    ]
-  },
-  {
-    "name": "",
-    "input": "ws2,1",
-    "hit_level": "m,h",
-    "damage": "18,10",
-    "startup": ",i22",
-    "block": "-2",
-    "hit": "+9",
-    "counter": "",
-    "alternateInputs": [
-      "ws2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Combo from 1st hit with 3f delay",
-      "Continues into 10 strings"
-    ]
-  },
-  {
-    "name": "3rd Hit (2)",
-    "input": "ws2,1,1",
-    "hit_level": "m,h,m",
-    "damage": "18,10,8",
-    "startup": ",i22",
-    "block": "-23",
-    "hit": "-12",
-    "counter": "",
-    "alternateInputs": [
-      "ws2,1,1"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "4th Hit (2)",
-    "input": "ws2,1,1,1",
-    "hit_level": "m,h,m,h",
-    "damage": "18,10,8,8",
-    "startup": ",i22",
-    "block": "-25",
-    "hit": "-14",
-    "counter": "",
-    "alternateInputs": [
-      "ws2,1,1,1"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "5th Hit (2)",
-    "input": "ws2,1,1,1,2",
-    "hit_level": "m,h,m,h,m",
-    "damage": "18,10,8,8,6",
-    "startup": ",i22",
-    "block": "-11",
-    "hit": "+0",
-    "counter": "",
-    "alternateInputs": [
-      "ws2,1,1,1,2"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
     "name": "6th & 7th Hit (2)",
     "input": "ws2,1,1,1,2,1+4",
     "hit_level": "m,h,m,h,m,sll,h",
@@ -2824,58 +2594,6 @@
     "counter": "",
     "alternateInputs": [
       "ws2,1,1,1,2,1+4,1,3+4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "",
-    "input": "ws2",
-    "hit_level": "m",
-    "damage": "18",
-    "startup": "i13~14",
-    "block": "-8",
-    "hit": "+8",
-    "counter": "",
-    "alternateInputs": [
-      "ws2"
-    ],
-    "categories": [],
-    "notes": [
-      "Elbow"
-    ]
-  },
-  {
-    "name": "",
-    "input": "ws2,1",
-    "hit_level": "m,h",
-    "damage": "18,10",
-    "startup": ",i22",
-    "block": "-2",
-    "hit": "+9",
-    "counter": "",
-    "alternateInputs": [
-      "ws2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Combo from 1st hit with 3f delay",
-      "Continues into 10 strings"
-    ]
-  },
-  {
-    "name": "3rd Hit (3)",
-    "input": "ws2,1,1",
-    "hit_level": "m,h,m",
-    "damage": "18,10,8",
-    "startup": ",i22",
-    "block": "-23",
-    "hit": "-12",
-    "counter": "",
-    "alternateInputs": [
-      "ws2,1,1"
     ],
     "categories": [],
     "notes": [

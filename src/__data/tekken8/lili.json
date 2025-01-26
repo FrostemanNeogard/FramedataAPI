@@ -46,27 +46,6 @@
     ]
   },
   {
-    "name": "White Swan Mezzo Forte",
-    "input": "in heat 2+3",
-    "hit_level": "h,h,m,M",
-    "damage": "15,15,15,30",
-    "startup": "i23~24 i14~15 i36~38 i9~11",
-    "block": "+9",
-    "hit": "+20d(-15)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat 2+3"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Smash",
-      "Homing",
-      "Floor Break "
-    ]
-  },
-  {
     "name": "Rosa Giganteia Mezzo Forte",
     "input": "in heat BT 2+3",
     "hit_level": "l,M,M,M",
@@ -421,27 +400,6 @@
     ]
   },
   {
-    "name": "Peacock Waltz",
-    "input": "3,1",
-    "hit_level": "m,m",
-    "damage": "12,20",
-    "startup": ",i27~28",
-    "block": "-13",
-    "hit": "+40d (-18)",
-    "counter": "",
-    "alternateInputs": [
-      "3,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      " ",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Combo from 1st hit"
-    ]
-  },
-  {
     "name": "",
     "input": "3,2",
     "hit_level": "m,h",
@@ -509,31 +467,6 @@
     "categories": [],
     "notes": [
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Black Swan",
-    "input": "3+4",
-    "hit_level": "h,h",
-    "damage": "10,20",
-    "startup": "i23~24 i14~15",
-    "block": "-2",
-    "hit": "+20a (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      " ",
-      "Heat Dash +5, +62a (+42)",
-      "Homing",
-      "Balcony Break",
-      "Chip damage on block [8]",
-      "Jail from 1st attack"
     ]
   },
   {
@@ -1890,25 +1823,6 @@
     ]
   },
   {
-    "name": "Dew Glide",
-    "input": "qcf",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "qcf"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to Dew Glide",
-      "Transition to Crouch with d,DF",
-      "Transition to RAB with b+3 or b+4"
-    ]
-  },
-  {
     "name": "Rose",
     "input": "DEW 1",
     "hit_level": "m",
@@ -2004,28 +1918,6 @@
     ]
   },
   {
-    "name": "Nocturne",
-    "input": "DEW 2,1",
-    "hit_level": "m,m",
-    "damage": "13,20",
-    "startup": "i22",
-    "block": "-13",
-    "hit": "+17d",
-    "counter": "",
-    "alternateInputs": [
-      "DEW 2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +67a (+50)",
-      "Balcony Break",
-      "Combo from 1st hit with 8?F delay",
-      "Can be delayed up to 14?F",
-      "Floor breaks floating opponent"
-    ]
-  },
-  {
     "name": "Platinum Grace",
     "input": "DEW 3",
     "hit_level": "M",
@@ -2077,46 +1969,6 @@
     "notes": [
       "Balcony Break",
       "Transition to +0, +11 RAB with b+3 or b+4"
-    ]
-  },
-  {
-    "name": "Feisty Rabbit",
-    "input": "b+3_4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3_4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to RAB",
-      "Transition to DEW with F",
-      "Alternate input b+4 "
-    ]
-  },
-  {
-    "name": "Rabbit Song",
-    "input": "RAB 2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i20",
-    "block": "-9",
-    "hit": "+39d (-19)",
-    "counter": "",
-    "alternateInputs": [
-      "RAB 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26) ",
-      "Balcony Break",
-      "Powered up during Heat: 24 damage",
-      "Partially consumes remaining Heat Time"
     ]
   },
   {
@@ -2212,27 +2064,6 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Balcony Break",
-      "Combo from 1st hit with 4?F delay"
-    ]
-  },
-  {
-    "name": "Scorpio's Sting",
-    "input": "BT 1,4",
-    "hit_level": "h,h",
-    "damage": "8,21",
-    "startup": "i22",
-    "block": "-5",
-    "hit": "+10g",
-    "counter": "",
-    "alternateInputs": [
-      "BT 1,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +34d",
-      " ",
       "Balcony Break",
       "Combo from 1st hit with 4?F delay"
     ]

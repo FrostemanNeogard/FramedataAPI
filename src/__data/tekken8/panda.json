@@ -299,24 +299,6 @@
     ]
   },
   {
-    "name": "Demon Bear Breath",
-    "input": "1+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i13~14",
-    "block": "-13",
-    "hit": "+18g / HE",
-    "counter": "",
-    "alternateInputs": [
-      "1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager"
-    ]
-  },
-  {
     "name": "Hunting",
     "input": "3+4",
     "hit_level": "sp",
@@ -854,25 +836,6 @@
     ]
   },
   {
-    "name": "Bear Slash",
-    "input": "b+1",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i22~23",
-    "block": "-13",
-    "hit": "+13a",
-    "counter": "",
-    "alternateInputs": [
-      "b+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Transition to HBS with input D or 3+4 (does not shift when using Heat Dash)"
-    ]
-  },
-  {
     "name": "",
     "input": "b+2",
     "hit_level": "m",
@@ -960,30 +923,6 @@
       "Tornado",
       "Does not Tornado on wall hit",
       "Combos from 2nd hit CH"
-    ]
-  },
-  {
-    "name": "Bear X",
-    "input": "b+1+2",
-    "hit_level": "hh",
-    "damage": "10,20",
-    "startup": "i18~19",
-    "block": "-8",
-    "hit": "+13d / HE",
-    "counter": "",
-    "alternateInputs": [
-      "b+1+2"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Balcony Break",
-      "Floor Break",
-      "Heat Engager",
-      "Homing",
-      "chip damage",
-      "Transition to HBS with input D or 3+4 (does not shift when using Heat Dash)"
     ]
   },
   {
@@ -1345,26 +1284,6 @@
     ]
   },
   {
-    "name": "Rabid Bear",
-    "input": "f,f,F+1+2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i20~24",
-    "block": "+3",
-    "hit": "+35d (-23)",
-    "counter": "",
-    "alternateInputs": [
-      "f,f,F+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Chip damage",
-      "Transition to HBS with input D or 3+4 (does not shift when using Heat Dash)"
-    ]
-  },
-  {
     "name": "Watch Your Feet",
     "input": "FC 1",
     "hit_level": "l",
@@ -1536,28 +1455,6 @@
     ]
   },
   {
-    "name": "Hunting",
-    "input": "3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Alternate input: FDFA.3+4",
-      "Can low parry in HBS with HBS.F",
-      "Transition to HBS",
-      "Transition to standing with input ub or u or uf"
-    ]
-  },
-  {
     "name": "",
     "input": "HBS 1",
     "hit_level": "m",
@@ -1717,24 +1614,6 @@
     ]
   },
   {
-    "name": "Frolicking Bear",
-    "input": "HBS d+1+2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i16~20",
-    "block": "-9",
-    "hit": "0 / HE",
-    "counter": "",
-    "alternateInputs": [
-      "HBS d+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Transition to HBS (does not shift when using Heat Dash)"
-    ]
-  },
-  {
     "name": "",
     "input": "HBS b+1+2",
     "hit_level": "l",
@@ -1838,24 +1717,6 @@
     "notes": [
       "Alternate input: SIT.B",
       "Transition to HBS with input D or 3+4"
-    ]
-  },
-  {
-    "name": "Bear Sit",
-    "input": "d+3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to SIT",
-      "Transition to ROL with input f"
     ]
   },
   {

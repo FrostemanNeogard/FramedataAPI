@@ -829,26 +829,6 @@
     ]
   },
   {
-    "name": "Storming Flower",
-    "input": "db+1",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i18",
-    "block": "-9",
-    "hit": "+14a (+5)",
-    "counter": "",
-    "alternateInputs": [
-      "db+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Has Clean hit effect"
-    ]
-  },
-  {
     "name": "Feathered Fan",
     "input": "db+2",
     "hit_level": "l",
@@ -1009,26 +989,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Moonhare Palm",
-    "input": "b+4,1",
-    "hit_level": "m,m",
-    "damage": "10,20",
-    "startup": "i27",
-    "block": "-14",
-    "hit": "+40d (-18)",
-    "counter": "",
-    "alternateInputs": [
-      "b+4,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
-      "Combos from 1st hit",
-      "Balcony Break "
     ]
   },
   {
@@ -1823,24 +1783,6 @@
     ]
   },
   {
-    "name": "Phoenix",
-    "input": "d+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to AOP",
-      "Alternate input BT.d+1+2"
-    ]
-  },
-  {
     "name": "",
     "input": "AOP 1",
     "hit_level": "m",
@@ -1908,27 +1850,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Phoenix Double Palm",
-    "input": "AOP 2,1",
-    "hit_level": "m,m",
-    "damage": "10,20",
-    "startup": "i21",
-    "block": "-12",
-    "hit": "+13a (+4)",
-    "counter": "",
-    "alternateInputs": [
-      "AOP 2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43d (+35)",
-      "Combos from 1st hit",
-      "Cancel 2nd hit into BT with B",
-      "(-14, -3) "
     ]
   },
   {
@@ -2281,24 +2202,6 @@
     ]
   },
   {
-    "name": "Rain Dance",
-    "input": "b+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to BT",
-      "Alternate input BT.b+3+4, AOP.b+3+4"
-    ]
-  },
-  {
     "name": "",
     "input": "BT 1",
     "hit_level": "m",
@@ -2470,27 +2373,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Battering Storm",
-    "input": "BT 1+2,4",
-    "hit_level": "m,h",
-    "damage": "12,20",
-    "startup": "i23",
-    "block": "+3",
-    "hit": "+19a (+10)",
-    "counter": "",
-    "alternateInputs": [
-      "BT 1+2,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break",
-      "Combos from 1st hit",
-      "Chip on block"
     ]
   },
   {
@@ -2726,69 +2608,6 @@
     "notes": [
       "Unbreakable throw when connecting at close range",
       "Chip on block [9] "
-    ]
-  },
-  {
-    "name": "Hypnotist",
-    "input": "db+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "db+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to HYP",
-      "During Heat, taking 3 or more steps partially restores remaining Heat time",
-      "Alternate input ub+1+2"
-    ]
-  },
-  {
-    "name": "Spin Sticker",
-    "input": "HYP 2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i18",
-    "block": "-4",
-    "hit": "+22 (-13)",
-    "counter": "",
-    "alternateInputs": [
-      "HYP 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Wall Crush +24g on block (3 step version only",
-      "Balcony Break",
-      "Powered UpBased on the number of steps taken in HYP:HYP.2 damage increases and becomes plus on block. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.",
-      "Partially uses remaining Heat time",
-      "Chip on block"
-    ]
-  },
-  {
-    "name": "Blue Luan Sweep",
-    "input": "HYP 3",
-    "hit_level": "l",
-    "damage": "20",
-    "startup": "i20",
-    "block": "-13",
-    "hit": "+7c",
-    "counter": "",
-    "alternateInputs": [
-      "HYP 3"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Homing",
-      "Powered UpBased on the number of steps taken in HYP:HYP.3 damage increases and becomes more plus on hit. See the charts in th HYP section for more details. up when in Heat or based on the number of steps taken.",
-      "Partially uses remaining Heat time"
     ]
   },
   {

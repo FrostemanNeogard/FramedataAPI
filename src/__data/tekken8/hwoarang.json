@@ -873,26 +873,6 @@
     ]
   },
   {
-    "name": "Ignition Barrage",
-    "input": "df+3+4",
-    "hit_level": "m,h,m",
-    "damage": "7,4,17",
-    "startup": "i13,i14,i24~25",
-    "block": "-14",
-    "hit": "+4",
-    "counter": "",
-    "alternateInputs": [
-      "df+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Jails",
-      "Deals chip damage on block",
-      "Also possible during Right Stance"
-    ]
-  },
-  {
     "name": "",
     "input": "d+3",
     "hit_level": "l",
@@ -1393,26 +1373,6 @@
     ]
   },
   {
-    "name": "Peacekeeper",
-    "input": "f,F+4",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i17~18",
-    "block": "-7",
-    "hit": "+19 (+10)",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Also possible during Right Stance",
-      "Shifts to Right Stance (does not shift when using heat dash)"
-    ]
-  },
-  {
     "name": "Flying Nerichagi",
     "input": "f,f,F+3",
     "hit_level": "m",
@@ -1664,23 +1624,6 @@
       "Chip damage on block",
       "Also possible during Right Stance. The 4 input can be delayed up to 10 frames after the df input in RFF.",
       "Sometimes written JFSR"
-    ]
-  },
-  {
-    "name": "Disrespect",
-    "input": "1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Shifts to Backturn Stance"
     ]
   },
   {
@@ -2107,28 +2050,6 @@
     ]
   },
   {
-    "name": "Black Kite",
-    "input": "RFF df+3",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i22~24",
-    "block": "+1",
-    "hit": "+6",
-    "counter": "",
-    "alternateInputs": [
-      "RFF df+3"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Homing",
-      "Heat Engager",
-      "Deals chip damage on block",
-      "Remains in Right Stance"
-    ]
-  },
-  {
     "name": "Right Sidekick",
     "input": "RFF df+4",
     "hit_level": "m",
@@ -2302,24 +2223,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Left Flamingo Feint",
-    "input": "f+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Shifts to Left Flamingo",
-      "Sidesteps to the right"
     ]
   },
   {
@@ -2511,25 +2414,6 @@
     "categories": [],
     "notes": [
       "LFS.1+4,b,b to cancel"
-    ]
-  },
-  {
-    "name": "Flamingo Rocket",
-    "input": "LFS f+3",
-    "hit_level": "m",
-    "damage": "23",
-    "startup": "i19~20",
-    "block": "+4",
-    "hit": "+26",
-    "counter": "",
-    "alternateInputs": [
-      "LFS f+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager",
-      "Remains in Left Flamingo"
     ]
   },
   {
@@ -2818,24 +2702,6 @@
     ]
   },
   {
-    "name": "Right Flamingo Feint",
-    "input": "f,n,4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Shifts to Right Flamingo",
-      "Sidesteps to the left"
-    ]
-  },
-  {
     "name": "Flamingo Switch > Left Flamingo",
     "input": "RFS 3+4",
     "hit_level": "",
@@ -3099,23 +2965,6 @@
     ]
   },
   {
-    "name": "Left Heel Lance",
-    "input": "RFS b+3",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i16~17",
-    "block": "-9",
-    "hit": "+7",
-    "counter": "",
-    "alternateInputs": [
-      "RFS b+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager"
-    ]
-  },
-  {
     "name": "Right Thunderbolt",
     "input": "RFS b+4",
     "hit_level": "m",
@@ -3189,97 +3038,6 @@
     "notes": [
       "Tornado",
       "Shifts to Right Stance"
-    ]
-  },
-  {
-    "name": "",
-    "input": "in heat RFS f+4",
-    "hit_level": "h,h",
-    "damage": "8,10",
-    "startup": "i8,i10",
-    "block": "+0",
-    "hit": "+5",
-    "counter": "",
-    "alternateInputs": [
-      "in heat RFS f+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Remains in Right Flamingo"
-    ]
-  },
-  {
-    "name": "Right Viper Combo > Right Sword",
-    "input": "in heat RFS f+4,4",
-    "hit_level": "h,h,h",
-    "damage": "8,10,9",
-    "startup": "i23",
-    "block": "-6",
-    "hit": "+75 (+59)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat RFS f+4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Tornado",
-      "Instant Tornado on standing hit",
-      "Shifts to Right Stance",
-      "Combo from 1st hit",
-      "Partially uses remaining Heat time"
-    ]
-  },
-  {
-    "name": "",
-    "input": "in heat RFS d+4",
-    "hit_level": "l",
-    "damage": "20",
-    "startup": "i20~21",
-    "block": "-23",
-    "hit": "+7",
-    "counter": "",
-    "alternateInputs": [
-      "in heat RFS d+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Shifts to Right Stance",
-      "Partially uses remaining Heat time"
-    ]
-  },
-  {
-    "name": "",
-    "input": "in heat RFS d+4,3",
-    "hit_level": "l,h",
-    "damage": "20,12",
-    "startup": "i25",
-    "block": "-9",
-    "hit": "-1",
-    "counter": "",
-    "alternateInputs": [
-      "in heat RFS d+4,3"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "Predator Bardiche",
-    "input": "in heat RFS d+4,3,4",
-    "hit_level": "l,h,h",
-    "damage": "20,12,30",
-    "startup": "i27~28",
-    "block": "-9",
-    "hit": "+28a (+2)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat RFS d+4,3,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Combo from 1st or 2nd hit"
     ]
   },
   {

@@ -348,27 +348,6 @@
     ]
   },
   {
-    "name": "Salvo",
-    "input": "1,2,1",
-    "hit_level": "h,m,m",
-    "damage": "5,8,20",
-    "startup": ",i19~20",
-    "block": "-14",
-    "hit": "+15g",
-    "counter": "",
-    "alternateInputs": [
-      "1,2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
-      "Balcony Break",
-      "Combo from 1st or 2nd CH",
-      "Opponent recovers Crouching"
-    ]
-  },
-  {
     "name": "",
     "input": "1,3",
     "hit_level": "h,h",
@@ -731,28 +710,6 @@
       "Spike",
       "Combo from 1st CH",
       "+20 damage throw when hit from the front in close range"
-    ]
-  },
-  {
-    "name": "Crushing Blizzard",
-    "input": "f+3,1+2",
-    "hit_level": "m,m",
-    "damage": "11,27",
-    "startup": ",i30~31",
-    "block": "-3",
-    "hit": "+22a",
-    "counter": "",
-    "alternateInputs": [
-      "f+3,1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Balcony Break",
-      "Spike",
-      "Combo from 1st hit",
-      "Chip damage on block"
     ]
   },
   {
@@ -1424,26 +1381,6 @@
     ]
   },
   {
-    "name": "Tundra Slash",
-    "input": "b+4,3",
-    "hit_level": "m,h",
-    "damage": "15,16",
-    "startup": ",i17~18",
-    "block": "-9",
-    "hit": "+21a (+12)",
-    "counter": "",
-    "alternateInputs": [
-      "b+4,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break",
-      "Combo from 1st hit with 1f delay"
-    ]
-  },
-  {
     "name": "Blizzard Hammer",
     "input": "b+1+2",
     "hit_level": "m",
@@ -2072,28 +2009,6 @@
     ]
   },
   {
-    "name": "Ignition Switch",
-    "input": "SNK 4",
-    "hit_level": "M",
-    "damage": "22",
-    "startup": "i19~21",
-    "block": "+7",
-    "hit": "+8c",
-    "counter": "",
-    "alternateInputs": [
-      "SNK 4",
-      "qcf4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Balcony Break",
-      "Spike",
-      "Chip damage on blockSometimes written qcf+4"
-    ]
-  },
-  {
     "name": "",
     "input": "SNK 1+2",
     "hit_level": "m",
@@ -2493,27 +2408,6 @@
     ]
   },
   {
-    "name": "Cold Fate",
-    "input": "d+1+3",
-    "hit_level": "t",
-    "damage": "30",
-    "startup": "i12~14",
-    "block": "",
-    "hit": "+1d",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+3"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Crouch throw",
-      "Can't Heat Dash cancel"
-    ]
-  },
-  {
     "name": "Scorpion Scissors",
     "input": "uf+3+4",
     "hit_level": "t",
@@ -2530,79 +2424,6 @@
     ],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Feint & Catch",
-    "input": "1,3,2~1+2",
-    "hit_level": "h,h,t",
-    "damage": "5,14,40",
-    "startup": ",i29~32",
-    "block": "+5",
-    "hit": "-2d",
-    "counter": "",
-    "alternateInputs": [
-      "1,3,2~1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Throw break 1+2",
-      "Unbreakable during Heat",
-      "Partially uses remaining Heat time",
-      "Cancel with B",
-      "Alternate input f,F+2~1+2"
-    ]
-  },
-  {
-    "name": "Feint & Low Catch",
-    "input": "db+3~1+2",
-    "hit_level": "t",
-    "damage": "30",
-    "startup": "i19~20",
-    "block": "",
-    "hit": "+1d",
-    "counter": "",
-    "alternateInputs": [
-      "db+3~1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Side switch",
-      "Crouch throw",
-      "Cancel into FC with D_DB",
-      "Can't Heat Dash cancel"
-    ]
-  },
-  {
-    "name": "Tundra Strike > Ambush Tackle",
-    "input": "b+4,2,1+2",
-    "hit_level": "m,m,t",
-    "damage": "15,10,17",
-    "startup": ",i40",
-    "block": "-5",
-    "hit": "+3d",
-    "counter": "",
-    "alternateInputs": [
-      "b+4,2,1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Throw break 1+2",
-      "Recovery in BT",
-      "Unbreakable during Heat",
-      "Partially uses remaining Heat time",
-      "Alternate input:",
-      "ss2,1+2,1+2",
-      "ss3+4,1+2",
-      "(Face down).1+2,1+2",
-      "FC.df+1,H.1+2"
     ]
   },
   {

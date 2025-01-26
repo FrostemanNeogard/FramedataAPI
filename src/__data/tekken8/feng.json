@@ -466,27 +466,6 @@
     ]
   },
   {
-    "name": "Jiaolong Sea Splitter",
-    "input": "in heat 3+4",
-    "hit_level": "ub(m)",
-    "damage": "30",
-    "startup": "i30~31",
-    "block": "+12c g",
-    "hit": "+19d",
-    "counter": "",
-    "alternateInputs": [
-      "in heat 3+4"
-    ],
-    "categories": [
-      "powercrush",
-      "parry"
-    ],
-    "notes": [
-      "Partially consumes remaining Heat",
-      "Creates an unblockable shockwave along the ground that is +7g on hit and forces the opponent to crouch. The shockwave comes out even if the kick itself whiffs, or is parried by certain parries like Jin's or Reina's. It can be absorbed by a Power Crush."
-    ]
-  },
-  {
     "name": "",
     "input": "4",
     "hit_level": "h",
@@ -713,25 +692,6 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit"
-    ]
-  },
-  {
-    "name": "Tiger's Claw",
-    "input": "f+1+2",
-    "hit_level": "h",
-    "damage": "25",
-    "startup": "i19~20",
-    "block": "-9",
-    "hit": "+19d",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +35d",
-      "Balcony Break"
     ]
   },
   {
@@ -1319,25 +1279,6 @@
     ]
   },
   {
-    "name": "Iron Fortress",
-    "input": "b+1+2",
-    "hit_level": "m",
-    "damage": "31",
-    "startup": "i13~14",
-    "block": "-19",
-    "hit": "+18a (+13)",
-    "counter": "",
-    "alternateInputs": [
-      "b+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5 +18 at wall, +43d (+35)",
-      "Balcony Break"
-    ]
-  },
-  {
     "name": "Throat Gouge",
     "input": "ub+2",
     "hit_level": "m,h",
@@ -1509,25 +1450,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Exploding Dagger",
-    "input": "f,F+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i18~19",
-    "block": "-9",
-    "hit": "+16a (+7)",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break"
     ]
   },
   {
@@ -1954,27 +1876,6 @@
     ]
   },
   {
-    "name": "Slashing Tiger",
-    "input": "BT 2",
-    "hit_level": "m",
-    "damage": "27",
-    "startup": "i19~21",
-    "block": "-13",
-    "hit": "+17",
-    "counter": "",
-    "alternateInputs": [
-      "BT 2"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43d (+35)",
-      "Absorb an attack to power up and deal more damage on block"
-    ]
-  },
-  {
     "name": "Tremor Stomp",
     "input": "BT 3",
     "hit_level": "m",
@@ -2295,25 +2196,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Fei He Zhang",
-    "input": "KNP 2",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i14",
-    "block": "-9",
-    "hit": "+17",
-    "counter": "",
-    "alternateInputs": [
-      "KNP 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break"
     ]
   },
   {

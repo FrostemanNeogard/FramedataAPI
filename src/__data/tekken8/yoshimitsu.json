@@ -700,31 +700,6 @@
     ]
   },
   {
-    "name": "Enma's Flame",
-    "input": "3,1",
-    "hit_level": "m,h",
-    "damage": "12,22",
-    "startup": ",i22~24",
-    "block": "+7",
-    "hit": "+18g",
-    "counter": "",
-    "alternateInputs": [
-      "3,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +62a (+42)",
-      "Balcony Break",
-      "Weapon",
-      "Combo from 1st hit",
-      "4 chip damage on block",
-      "Does not transition to DGF during Heat activation or Heat Dash",
-      "Power up in NSS or Heat",
-      "Recovers in 1SS"
-    ]
-  },
-  {
     "name": "",
     "input": "3,2",
     "hit_level": "m,m",
@@ -1081,28 +1056,6 @@
       "Balcony Break",
       "-9 on block after absorbing an attack",
       "8 chip damage on attack absorbtion"
-    ]
-  },
-  {
-    "name": "Kuzuryu",
-    "input": "f+1+2",
-    "hit_level": "M",
-    "damage": "23",
-    "startup": "i20",
-    "block": "-12",
-    "hit": "+8a (-1)",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +62a (+42)",
-      "Balcony Break",
-      "Weapon",
-      "4 chip damage on block",
-      "29 damage and extended range in NSS or Heat"
     ]
   },
   {
@@ -2265,29 +2218,6 @@
       "Sometimes written ",
       "1SS.b+2,1",
       "b+2,1SS.1"
-    ]
-  },
-  {
-    "name": "Oma Kugiuchi",
-    "input": "b+2,2",
-    "hit_level": "m,h",
-    "damage": "12,21",
-    "startup": ",i22~23",
-    "block": "-13",
-    "hit": "+2a",
-    "counter": "",
-    "alternateInputs": [
-      "b+2,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +36a (+26)",
-      "Weapon",
-      "Combo from 1st with 1f delay",
-      "Combo from 1st CH with 7f delay",
-      "Input can be delayed 14f",
-      "Sometimes written 1SS.b+2,2"
     ]
   },
   {
@@ -3677,30 +3607,6 @@
     ]
   },
   {
-    "name": "Tenshu Kuzushi (Hold)",
-    "input": "KIN 2,1+2*",
-    "hit_level": "m,M",
-    "damage": "15,30",
-    "startup": ",i47~49",
-    "block": "+2~+4",
-    "hit": "+2a",
-    "counter": "",
-    "alternateInputs": [
-      "KIN 2,1+2*"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Spike",
-      "Weapon",
-      "9 chip damage on block",
-      "Power in NSS or Heat",
-      "Sometimes written ",
-      "1SS.KIN.2,1+2*",
-      "KIN.2,1SS.1+2*"
-    ]
-  },
-  {
     "name": "Shibakari",
     "input": "KIN 3",
     "hit_level": "L",
@@ -3838,30 +3744,6 @@
       "14 chip damage on block",
       "Powers in NSS or Heat",
       "Sometimes written 1SS.KIN.f+1*"
-    ]
-  },
-  {
-    "name": "Ganto",
-    "input": "KIN f+2",
-    "hit_level": "h",
-    "damage": "25",
-    "startup": "i12~13",
-    "block": "-1 +11w",
-    "hit": "+9a (+0)",
-    "counter": "",
-    "alternateInputs": [
-      "KIN f+2"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +34a (+27)",
-      "Homing",
-      "Balcony Break",
-      "Weapon",
-      "Wall Crush on block, +11g minimum"
     ]
   },
   {
@@ -4264,26 +4146,6 @@
       "Evades jabs from frames 4-14",
       "Evades mids from frames 7-12",
       "Can be canceled into other FLE moves (except FLE.n)"
-    ]
-  },
-  {
-    "name": "Flea Digger",
-    "input": "FLE d",
-    "hit_level": "M",
-    "damage": "0",
-    "startup": "i10",
-    "block": "",
-    "hit": "+31a (+24)",
-    "counter": "",
-    "alternateInputs": [
-      "FLE d"
-    ],
-    "categories": [],
-    "notes": [
-      "Evades jabs from frames 4-14",
-      "Evades mids from frames 7-12",
-      "Can be cancelled into other FLE moves (except FLE.n)",
-      "Only accessible after hitting with FLE.n"
     ]
   },
   {
@@ -4711,30 +4573,6 @@
     ]
   },
   {
-    "name": "NSS Naguri Kabuto Wari",
-    "input": "1,NSS 1",
-    "hit_level": "h,m",
-    "damage": "5,22",
-    "startup": ",i23",
-    "block": "-9",
-    "hit": "+16a",
-    "counter": "+52a",
-    "alternateInputs": [
-      "1,NSS 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Spike",
-      "Weapon",
-      "Combo from 1st hit with 1f delay",
-      "Input can be delayed 3f",
-      "Interrupt with i4 from 1st block",
-      "11 chip damage on block",
-      "Recovers 4 base health on hitSometimes written NSS.1,1"
-    ]
-  },
-  {
     "name": "Karakuri Uzumaki",
     "input": "2,NSS 1",
     "hit_level": "h,h",
@@ -4752,55 +4590,6 @@
       "Combo from 1st hit",
       "Jail from 2nd attack",
       "Sometimes written NSS.2,1"
-    ]
-  },
-  {
-    "name": "NSS Enma's Flame",
-    "input": "3,NSS 1",
-    "hit_level": "m,h",
-    "damage": "12,25",
-    "startup": ",i22~24",
-    "block": "+7",
-    "hit": "+18g",
-    "counter": "",
-    "alternateInputs": [
-      "3,NSS 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +62a (+42)",
-      "Balcony Break",
-      "Weapon",
-      "Combo from 1st hit",
-      "7 chip damage on block",
-      "Recovers 4 base health on hit",
-      "Does not transition to DGF during Heat Dash",
-      "Recovers in 1SSSometimes written NSS.3,1"
-    ]
-  },
-  {
-    "name": "Enma's Soul Blade",
-    "input": "3,2,NSS 1+2",
-    "hit_level": "m,m,M",
-    "damage": "12,12,30",
-    "startup": ",i26~27",
-    "block": "-14c",
-    "hit": "+20a (+10)",
-    "counter": "",
-    "alternateInputs": [
-      "3,2,NSS 1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Weapon",
-      "Combo from 2nd hit with 4f delay",
-      "Input can be delayed 10f",
-      "Move can be delayed 9f",
-      "15 chip damage on block",
-      "Clean hit 39 damage",
-      "Recovers 4 base health on hitSometimes written NSS.3,2,1+2"
     ]
   },
   {
@@ -4839,28 +4628,6 @@
     ]
   },
   {
-    "name": "Soul Stealer",
-    "input": "NSS 1+4",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i8~11",
-    "block": "-15",
-    "hit": "+14 +64a",
-    "counter": "",
-    "alternateInputs": [
-      "NSS 1+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Strong Aerial Tailspin",
-      "Weapon",
-      "Knockdown against BT opponent, +19a (+9)",
-      "4 chip damage on block",
-      "Recovers 2 base health on hit",
-      "Sometimes written NSS Flash"
-    ]
-  },
-  {
     "name": "NSS Spirit Shield",
     "input": "NSS 1+2+3",
     "hit_level": "h",
@@ -4894,29 +4661,6 @@
       "Tornado",
       "Combo from 1st CH",
       "Sometimes written NSS.f+2,1"
-    ]
-  },
-  {
-    "name": "NSS Kuzuryu",
-    "input": "NSS f+1+2",
-    "hit_level": "M",
-    "damage": "29",
-    "startup": "i20",
-    "block": "-12",
-    "hit": "+8a (-1)",
-    "counter": "",
-    "alternateInputs": [
-      "NSS f+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +62a (+42)",
-      "Balcony Break",
-      "Weapon",
-      "8 chip damage on block",
-      "Recovers 4 base health on hit",
-      "Extended range"
     ]
   },
   {
@@ -4961,28 +4705,6 @@
     ]
   },
   {
-    "name": "Wood Chopper",
-    "input": "df+3,NSS 1",
-    "hit_level": "m,M",
-    "damage": "10,24",
-    "startup": ",i23~24",
-    "block": "-9",
-    "hit": "+16a",
-    "counter": "+52a",
-    "alternateInputs": [
-      "df+3,NSS 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Spike",
-      "Weapon",
-      "Combo from 1st hit",
-      "Recovers 4 base health on hit",
-      "12 chip damage on block",
-      "Input can be held to transition to d+1*Sometimes written NSS.df+3,1"
-    ]
-  },
-  {
     "name": "NSS Gehosen (Simple Input)",
     "input": "NSS df+1+4",
     "hit_level": "m",
@@ -5001,27 +4723,6 @@
       "Can be performed in FC",
       "Power up input NSS.f,n,d,df+1",
       "Replaced by 1SS.df+1+4 when performed in BT"
-    ]
-  },
-  {
-    "name": "Quick Chop",
-    "input": "NSS d+1",
-    "hit_level": "M",
-    "damage": "24",
-    "startup": "i24~25",
-    "block": "-9",
-    "hit": "+16a",
-    "counter": "+52a",
-    "alternateInputs": [
-      "NSS d+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Spike",
-      "Weapon",
-      "Recovers health on hit",
-      "12 chip damage on block",
-      "Input can be held to transition to d+1*"
     ]
   },
   {
@@ -5191,28 +4892,6 @@
     ]
   },
   {
-    "name": "Soul Blade Yoshimitsu",
-    "input": "NSS ub+1+2",
-    "hit_level": "M",
-    "damage": "30",
-    "startup": "i24~25",
-    "block": "-8c",
-    "hit": "+16a (+6)",
-    "counter": "",
-    "alternateInputs": [
-      "NSS ub+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Weapon",
-      "15 chip damage on block",
-      "Clean hit 39 damage",
-      "Recovers 4 base health on hit",
-      "-12c if blocked at tip range"
-    ]
-  },
-  {
     "name": "Spinning Finger Stab",
     "input": "NSS ub+1+3",
     "hit_level": "m!",
@@ -5332,28 +5011,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "NSS Poison Wind Gold Strike",
-    "input": "uf+3+4,1,4,NSS 1",
-    "hit_level": "M,h,m,M",
-    "damage": "20,8,15,24",
-    "startup": ",i24~25",
-    "block": "-9",
-    "hit": "+16a",
-    "counter": "+52a",
-    "alternateInputs": [
-      "uf+3+4,1,4,NSS 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Spike",
-      "Weapon",
-      "Can transition to d+1*,n",
-      "12 chip damage on block",
-      "Recovers 4 base health on hitSometimes written NSS.uf+3+4,1,4,1"
     ]
   },
   {
@@ -5545,53 +5202,6 @@
     ]
   },
   {
-    "name": "",
-    "input": "KIN 1,NSS 1",
-    "hit_level": "m,m,m",
-    "damage": "10,5,20",
-    "startup": ",i23~24 i14~15",
-    "block": "-1",
-    "hit": "+37a (+29)",
-    "counter": "",
-    "alternateInputs": [
-      "KIN 1,NSS 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Spike",
-      "Weapon",
-      "Combo from 1st hit with 2f delay",
-      "4 chip damage on block",
-      "Recovers 4 base health on hitSometimes written ",
-      "NSS.KIN.1,1",
-      "KIN.NSS.1,1"
-    ]
-  },
-  {
-    "name": "NSS Tenshu Kuzushi",
-    "input": "KIN 2,NSS 1+2",
-    "hit_level": "m,M",
-    "damage": "15,30",
-    "startup": "i32~34",
-    "block": "-3",
-    "hit": "+15a",
-    "counter": "",
-    "alternateInputs": [
-      "KIN 2,NSS 1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Spike",
-      "Weapon",
-      "9 chip damage on block",
-      "Recovers 7 base health on hitSometimes written ",
-      "NSS.KIN.2,1+2",
-      "KIN.NSS.2,1+2"
-    ]
-  },
-  {
     "name": "NSS Tenshu Kuzushi (Hold)",
     "input": "KIN 2,NSS 1+2*",
     "hit_level": "m,M",
@@ -5614,68 +5224,6 @@
       "+26d (+26) on airborne hitSometimes written ",
       "NSS.KIN.2,1+2*",
       "KIN.NSS.2,1+2*"
-    ]
-  },
-  {
-    "name": "NSS Kincho Flash",
-    "input": "NSS KIN 1+4",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i12~15",
-    "block": "-15",
-    "hit": "+14 +64a",
-    "counter": "",
-    "alternateInputs": [
-      "NSS KIN 1+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Strong Aerial Tailspin",
-      "Weapon",
-      "Knockdown against BT opponent, +19a (+9)",
-      "4 chip damage on block",
-      "Recovers 2 base health on hit",
-      "Sometimes written KIN.NSS.1+4"
-    ]
-  },
-  {
-    "name": "NSS Submission Chakram",
-    "input": "NSS KIN f+1",
-    "hit_level": "M,M,M",
-    "damage": "6,6,12",
-    "startup": "i19~20 i6~7 i7~8",
-    "block": "-5",
-    "hit": "+18a (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "NSS KIN f+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Weapon",
-      "Combos from any hit",
-      "12 chip damage on block",
-      "Recovers 4 base health on hitSometimes written KIN.NSS.f+1"
-    ]
-  },
-  {
-    "name": "NSS Submission Chakram (Hold)",
-    "input": "NSS KIN f+1*",
-    "hit_level": "M,M,M,M,M,M",
-    "damage": "6,6,6,6,6,12",
-    "startup": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
-    "block": "-9",
-    "hit": "+29a (+14)",
-    "counter": "",
-    "alternateInputs": [
-      "NSS KIN f+1*"
-    ],
-    "categories": [],
-    "notes": [
-      "Weapon",
-      "Combos from any hit",
-      "21 chip damage on block",
-      "Recovers 8 base health on hitSometimes written KIN.NSS.f+1*"
     ]
   },
   {
@@ -5839,25 +5387,6 @@
     "categories": [],
     "notes": [
       "Airborne attack, can't be low parried"
-    ]
-  },
-  {
-    "name": "Dragonfly Twister",
-    "input": "DGF 4",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i18~20",
-    "block": "-4",
-    "hit": "+14g",
-    "counter": "",
-    "alternateInputs": [
-      "DGF 4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g, +62a (+42)",
-      "Balcony Break"
     ]
   },
   {

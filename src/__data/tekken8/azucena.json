@@ -674,27 +674,6 @@
     ]
   },
   {
-    "name": "Tifón Patear",
-    "input": "f+4,4",
-    "hit_level": "m,h",
-    "damage": "16,21",
-    "startup": ",i24~25",
-    "block": "-7",
-    "hit": "+19a (+10)",
-    "counter": "",
-    "alternateInputs": [
-      "f+4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break",
-      "Combo from 1st hit",
-      "Cancel 2nd hit into BT -19 -10 r20 with B"
-    ]
-  },
-  {
     "name": "Tifón Trueno",
     "input": "f+4,4~2",
     "hit_level": "m,h",
@@ -726,28 +705,6 @@
     "categories": [],
     "notes": [
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Aero Press Pegar",
-    "input": "f+1+2",
-    "hit_level": "h",
-    "damage": "25",
-    "startup": "i16~17",
-    "block": "-9",
-    "hit": "+41a (+17)",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
-      "Balcony Break",
-      "+0 on block if an attack is absorbed"
     ]
   },
   {
@@ -1253,26 +1210,6 @@
     "notes": [
       "Balcony Break",
       "Homing",
-      "Chip damage on block"
-    ]
-  },
-  {
-    "name": "Tacón Plunger",
-    "input": "b+3",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i22",
-    "block": "+4c",
-    "hit": "+8c",
-    "counter": "",
-    "alternateInputs": [
-      "b+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Spike",
       "Chip damage on block"
     ]
   },
@@ -1853,28 +1790,6 @@
       "Input can be delayed 9f",
       "Chip damage on block",
       "Cancel to BT -15 -10 r18 with B"
-    ]
-  },
-  {
-    "name": "Golpe Cappuccino",
-    "input": "LIB 2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i14~15",
-    "block": "-8",
-    "hit": "+22g",
-    "counter": "",
-    "alternateInputs": [
-      "LIB 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Wall splat on hit",
-      "Opponent recovers crouching on hit",
-      "(Ver.1.05.00) - Damage changed from 18. On hit changed from +11F. "
     ]
   },
   {
@@ -2796,28 +2711,6 @@
     "notes": [
       "Throw break 1+2Sometimes written ",
       "FC.1+2,1+2"
-    ]
-  },
-  {
-    "name": "Smell the Coffee",
-    "input": "d+1+3",
-    "hit_level": "t",
-    "damage": "30",
-    "startup": "i12~13",
-    "block": "",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+3"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Crouch throw",
-      "Unbreakable",
-      "Can't Heat Dash cancel"
     ]
   }
 ]

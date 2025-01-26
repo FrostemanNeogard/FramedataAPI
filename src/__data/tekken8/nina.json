@@ -46,24 +46,6 @@
     ]
   },
   {
-    "name": "Bullet Assassination (Close)",
-    "input": "in heat 2+3",
-    "hit_level": "m,h,h,h,h",
-    "damage": "20,9,12,9,12",
-    "startup": "i16 i28 i35 i42 i49",
-    "block": "+14",
-    "hit": "+43a (+10)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat 2+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Smash",
-      "Jails"
-    ]
-  },
-  {
     "name": "Aconite",
     "input": "f+4,2",
     "hit_level": "m,h",
@@ -861,51 +843,6 @@
     ]
   },
   {
-    "name": "Aconite",
-    "input": "f+4,2",
-    "hit_level": "m,h",
-    "damage": "15,22",
-    "startup": ",i18",
-    "block": "-9",
-    "hit": "+39d (-19)",
-    "counter": "",
-    "alternateInputs": [
-      "f+4,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Combo from 1st hit with 14f delay",
-      "Input can be delayed 15f",
-      "Move can be delayed 9f"
-    ]
-  },
-  {
-    "name": "Blonde Bomb",
-    "input": "f+1+2",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i17",
-    "block": "-14",
-    "hit": "+11a (+2)",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
-      "Balcony Break",
-      "Frame advantage is -8 if an attack is absorbed",
-      "Deals chip damage if an attack is absorbed"
-    ]
-  },
-  {
     "name": "Uppercut",
     "input": "df+1",
     "hit_level": "m",
@@ -1409,27 +1346,6 @@
     "notes": [
       "Tornado",
       "Combo from 1st CH with 1f delay"
-    ]
-  },
-  {
-    "name": "Reverberation Palm Bomb",
-    "input": "db+1+2",
-    "hit_level": "h,m",
-    "damage": "5,22",
-    "startup": "i11 i18",
-    "block": "-14",
-    "hit": "+10a (+1)",
-    "counter": "",
-    "alternateInputs": [
-      "db+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "+17",
-      "Heat Dash +5, +43a (+35)",
-      "Balcony Break",
-      "Jail from 1st attack"
     ]
   },
   {
@@ -2144,26 +2060,6 @@
     ]
   },
   {
-    "name": "Spiral Bombshell Blast",
-    "input": "f,f,F+1+2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i20~21",
-    "block": "+4",
-    "hit": "+12a (+3)",
-    "counter": "",
-    "alternateInputs": [
-      "f,f,F+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Chip damage on blockSometimes written wr1+2"
-    ]
-  },
-  {
     "name": "Wipe the Floor",
     "input": "d,DF+4",
     "hit_level": "L",
@@ -2615,28 +2511,6 @@
       "Chip damage on blockSometimes written ",
       "qcf+1",
       "d,df,F+1"
-    ]
-  },
-  {
-    "name": "Shut Up",
-    "input": "CD 2",
-    "hit_level": "M",
-    "damage": "25",
-    "startup": "i17~18",
-    "block": "-8",
-    "hit": "+32a (+17)",
-    "counter": "",
-    "alternateInputs": [
-      "CD 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +42a (+27)",
-      "Balcony Break",
-      "Sometimes written ",
-      "qcf+2",
-      "d,df,F+2"
     ]
   },
   {
@@ -3413,48 +3287,6 @@
     ]
   },
   {
-    "name": "Double Arm Break",
-    "input": "ABK 1",
-    "hit_level": "t",
-    "damage": "15",
-    "startup": "i12",
-    "block": "-3",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "ABK 1"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Removes Recoverable Health",
-      "Throw break 1",
-      "Powered up input: ABK.3,1,1+2"
-    ]
-  },
-  {
-    "name": "Falling Arm Break",
-    "input": "ABK 2",
-    "hit_level": "t",
-    "damage": "15",
-    "startup": "i12",
-    "block": "-3",
-    "hit": "+3d",
-    "counter": "",
-    "alternateInputs": [
-      "ABK 2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Removes Recoverable Health",
-      "Throw break 2",
-      "Powered up input: ABK.1,2,3,4,1+2"
-    ]
-  },
-  {
     "name": "Twisted Nightmare (NTM)",
     "input": "BTin rage 2",
     "hit_level": "t",
@@ -3514,26 +3346,6 @@
       "Removes Recoverable Health",
       "Throw break 2",
       "Powered up input: NTM.1,2,4,3,1+3"
-    ]
-  },
-  {
-    "name": "Running Jump Kick",
-    "input": "uf+3+4",
-    "hit_level": ",t",
-    "damage": ",18",
-    "startup": "i23",
-    "block": "-23a~-16a",
-    "hit": "+9a (-1)",
-    "counter": "",
-    "alternateInputs": [
-      "uf+3+4"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Transitions to throw on front hit",
-      "Throw break 2"
     ]
   }
 ]

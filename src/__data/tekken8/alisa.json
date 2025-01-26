@@ -415,32 +415,6 @@
     ]
   },
   {
-    "name": "Quick Trim",
-    "input": "3,2",
-    "hit_level": "m,h",
-    "damage": "10,20",
-    "startup": ",i26~27",
-    "block": "-2",
-    "hit": "+20a (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "3,2"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +34a (+27)",
-      "Homing",
-      "Balcony Break",
-      "Weapon",
-      "Combo from 1st hit",
-      "6 chip damage on block",
-      "Does not transition to DES when using Heat Dash"
-    ]
-  },
-  {
     "name": "Quick Access",
     "input": "3,f+2",
     "hit_level": "m,m",
@@ -480,28 +454,6 @@
     ]
   },
   {
-    "name": "Uninstall",
-    "input": "1+2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i19~20",
-    "block": "-4",
-    "hit": "+15a",
-    "counter": "",
-    "alternateInputs": [
-      "1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Balcony Break",
-      "Spike",
-      "Head",
-      "6 chip damage on block"
-    ]
-  },
-  {
     "name": "",
     "input": "f+2",
     "hit_level": "m",
@@ -516,28 +468,6 @@
     "categories": [],
     "notes": [
       "Enter DES with 1+2"
-    ]
-  },
-  {
-    "name": "Dual Session",
-    "input": "f+2,1",
-    "hit_level": "m,m",
-    "damage": "12,20",
-    "startup": ",i24~25",
-    "block": "-12",
-    "hit": "+14c",
-    "counter": "",
-    "alternateInputs": [
-      "f+2,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break",
-      "Weapon",
-      "Combo from 1st hit",
-      "6 chip damage on block"
     ]
   },
   {
@@ -1485,30 +1415,6 @@
     ]
   },
   {
-    "name": "Image Cutter",
-    "input": "uf+2",
-    "hit_level": "h",
-    "damage": "22",
-    "startup": "i16~17",
-    "block": "-2",
-    "hit": "+20a (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "uf+2"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Homing",
-      "Balcony Break",
-      "Weapon",
-      "6 chip damage on block"
-    ]
-  },
-  {
     "name": "",
     "input": "uf+3",
     "hit_level": "m",
@@ -2150,24 +2056,6 @@
     ]
   },
   {
-    "name": "Destructive Form",
-    "input": "d+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to r30 with db or d+1+2",
-      "Transition to DBT with DES.f+3_f+4"
-    ]
-  },
-  {
     "name": "Shredder",
     "input": "DES 1",
     "hit_level": "m,m,h,h,h,m",
@@ -2316,27 +2204,6 @@
       "Weapon",
       "Combo from 1st hit",
       "2 chip damage on block"
-    ]
-  },
-  {
-    "name": "Gigahertz Storm",
-    "input": "DES f+2,1,2",
-    "hit_level": "m,m,m,m,m,m",
-    "damage": "9,9,23",
-    "startup": ",i23~24 i4~5",
-    "block": "-13",
-    "hit": "+30d",
-    "counter": "",
-    "alternateInputs": [
-      "DES f+2,1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Weapon",
-      "Combo from 1st or 2nd CH",
-      "6 chip damage on block"
     ]
   },
   {
@@ -2618,23 +2485,6 @@
     ]
   },
   {
-    "name": "Boot",
-    "input": "f+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
     "name": "Abort",
     "input": "SBT D",
     "hit_level": "",
@@ -2796,24 +2646,6 @@
     "notes": [
       "Balcony Break",
       "Weapon"
-    ]
-  },
-  {
-    "name": "Dual Boot",
-    "input": "DES f+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "DES f+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Cancel to r33 with DBT.B",
-      "Transition to Evasive Action with input DBT.U_D"
     ]
   },
   {
@@ -2986,24 +2818,6 @@
       "Weapon",
       "Combo from 1st hit",
       "6 chip damage on block"
-    ]
-  },
-  {
-    "name": "Backup",
-    "input": "db+1",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "db+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to FC with D",
-      "Can perform WS moves after 24 frames"
     ]
   },
   {

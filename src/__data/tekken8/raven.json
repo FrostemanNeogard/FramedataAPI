@@ -644,24 +644,6 @@
     ]
   },
   {
-    "name": "Crusader",
-    "input": "1+2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i14",
-    "block": "-9",
-    "hit": "+15a",
-    "counter": "",
-    "alternateInputs": [
-      "1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +45a (+35) on hit, +5 on block"
-    ]
-  },
-  {
     "name": "",
     "input": "f+2",
     "hit_level": "m",
@@ -752,28 +734,6 @@
     "notes": [
       "Tornado",
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Minos Typhoon",
-    "input": "f+1+2",
-    "hit_level": "h,m",
-    "damage": "10,20",
-    "startup": "i18~19, i26",
-    "block": "-14",
-    "hit": "+30a (+4)",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +34a (+27) on hit, +5 on block",
-      "Balcony Break",
-      "Frame advantage is -9 if an attack is absorbed"
     ]
   },
   {
@@ -1923,30 +1883,6 @@
     ]
   },
   {
-    "name": "Spinning Middle Kick",
-    "input": "ws3+4",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i16~18",
-    "block": "-12~-10",
-    "hit": "+7~+9",
-    "counter": "",
-    "alternateInputs": [
-      "ws3+4"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Homing",
-      "Balcony Break",
-      "Heat Dash +62a (+42) on hit, +5 on block",
-      "Alternate input: qcf+3+4",
-      "Can cancel to r19 BT with B"
-    ]
-  },
-  {
     "name": "Shadow Sprint",
     "input": "qcf",
     "hit_level": "",
@@ -2164,27 +2100,6 @@
       "Balcony Break",
       "Combo from 1st hit",
       "Available only on hit or block"
-    ]
-  },
-  {
-    "name": "Dual Thanatos",
-    "input": "SZN 2",
-    "hit_level": "m,sm",
-    "damage": "20,10",
-    "startup": "i18, i23~24",
-    "block": "-9",
-    "hit": "+7a (-2)",
-    "counter": "",
-    "alternateInputs": [
-      "SZN 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +36a (+26) on hit, +5 on block",
-      "Balcony Break",
-      "Transition to second hit on hit",
-      "Recovers heat on normal hit"
     ]
   },
   {
@@ -2543,25 +2458,6 @@
     "categories": [],
     "notes": [
       "Will phase through opponent up-close"
-    ]
-  },
-  {
-    "name": "Chronos Lathe",
-    "input": "BT 4",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i19~20",
-    "block": "-5~-4",
-    "hit": "+44a (-14)",
-    "counter": "",
-    "alternateInputs": [
-      "BT 4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +36a (+26) on hit, +5 on block",
-      "Balcony Break"
     ]
   },
   {

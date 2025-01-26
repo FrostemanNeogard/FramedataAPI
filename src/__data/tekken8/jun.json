@@ -453,24 +453,6 @@
     ]
   },
   {
-    "name": "Shunkei",
-    "input": "1+2",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i13",
-    "block": "-12",
-    "hit": "+28a",
-    "counter": "",
-    "alternateInputs": [
-      "1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Heat Engager"
-    ]
-  },
-  {
     "name": "Shunkei > Heat Dash",
     "input": "in heat 1+2,F",
     "hit_level": "m",
@@ -662,27 +644,6 @@
     ]
   },
   {
-    "name": "Ame-no-Habakiri",
-    "input": "f+2,1+2",
-    "hit_level": "M,M",
-    "damage": "20,20",
-    "startup": "i29~32",
-    "block": "-9~-8",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+2,1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Combo from 1st hit",
-      "Chip damage (8) on block",
-      "Deals 18 damage to self (12 recoverable)",
-      "Available only on hit or block"
-    ]
-  },
-  {
     "name": "",
     "input": "f+3",
     "hit_level": "m",
@@ -793,25 +754,6 @@
       "Transition to r20 MIA on hit only",
       "Deals 6 damage to self (4 recoverable)",
       "Unparryable"
-    ]
-  },
-  {
-    "name": "",
-    "input": "in heat f+1+2,P",
-    "hit_level": "h",
-    "damage": "0",
-    "startup": "i12",
-    "block": "",
-    "hit": "+40g",
-    "counter": "",
-    "alternateInputs": [
-      "in heat f+1+2,P"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Sabaki, parries mid or high punches or kicks"
     ]
   },
   {
@@ -2354,25 +2296,6 @@
     ]
   },
   {
-    "name": "Zuiun Renkyaku",
-    "input": "IZU 3",
-    "hit_level": "m,h",
-    "damage": "10,16",
-    "startup": "i16~15 i14~15",
-    "block": "-6~-5",
-    "hit": "+12a (+3)",
-    "counter": "",
-    "alternateInputs": [
-      "IZU 3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Jail from 1st attack"
-    ]
-  },
-  {
     "name": "Zuiun Renkyaku > Heat Dash",
     "input": "in heat IZU 3,F",
     "hit_level": "m,h",
@@ -2626,26 +2549,6 @@
     ]
   },
   {
-    "name": "Yomotsu Mihashira",
-    "input": "in heat GEN 2+3",
-    "hit_level": "l,m",
-    "damage": "14,28",
-    "startup": "i20 i26",
-    "block": "-12",
-    "hit": "+33 (+5)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat GEN 2+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Smash",
-      "Ends heat",
-      "Restores 12 recoverable (6 on block)",
-      "Chip damage (4,12) on block"
-    ]
-  },
-  {
     "name": "Miare",
     "input": "b+1+2",
     "hit_level": "",
@@ -2683,29 +2586,6 @@
       "Tornado",
       "Chip damage (12) on block",
       "Deals 12 damage to self (8 recoverable)",
-      "Unparryable"
-    ]
-  },
-  {
-    "name": "Ame-no-Nuboko",
-    "input": "MIA 2",
-    "hit_level": "sm",
-    "damage": "30",
-    "startup": "i16",
-    "block": "-20",
-    "hit": "+26a (+0)",
-    "counter": "",
-    "alternateInputs": [
-      "MIA 2"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Chip damage (9) on block",
-      "Deals 6 damage to self (4 recoverable)",
       "Unparryable"
     ]
   },
@@ -2828,24 +2708,6 @@
       "Balcony Break",
       "Tornado",
       "Restores 3 health and 3 recoverable on hit"
-    ]
-  },
-  {
-    "name": "Kagura",
-    "input": "SS 4",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i18~20",
-    "block": "+6~+8",
-    "hit": "+8c~+10c",
-    "counter": "",
-    "alternateInputs": [
-      "SS 4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Spike"
     ]
   },
   {

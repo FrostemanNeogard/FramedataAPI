@@ -707,28 +707,6 @@
     ]
   },
   {
-    "name": "Phoenix Hook, Tiger Claw",
-    "input": "f+2",
-    "hit_level": "h,t",
-    "damage": "12,26",
-    "startup": "i13",
-    "block": "-5",
-    "hit": "+9",
-    "counter": "",
-    "alternateInputs": [
-      "f+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Heat Engager +9",
-      "Heat Dash +5, +62a (+42)",
-      "Transition to throw on front hit",
-      "+32a without throw transition"
-    ]
-  },
-  {
     "name": "",
     "input": "f+3",
     "hit_level": "h",
@@ -766,27 +744,6 @@
       "Homing",
       "Balcony Break",
       "Combo from 1st hit"
-    ]
-  },
-  {
-    "name": "Stone Lion",
-    "input": "f+4",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i22",
-    "block": "-5",
-    "hit": "+6",
-    "counter": "",
-    "alternateInputs": [
-      "f+4"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Homing"
     ]
   },
   {
@@ -1498,26 +1455,6 @@
     ]
   },
   {
-    "name": "Moonfall",
-    "input": "uf+2",
-    "hit_level": "h",
-    "damage": "26",
-    "startup": "i22~23",
-    "block": "+5",
-    "hit": "+17d FDFA",
-    "counter": "",
-    "alternateInputs": [
-      "uf+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Balcony Break",
-      "Chip damage (6)"
-    ]
-  },
-  {
     "name": "",
     "input": "uf+3",
     "hit_level": "m",
@@ -2136,32 +2073,6 @@
     ]
   },
   {
-    "name": "Phoenix Smasher",
-    "input": "CS 2",
-    "hit_level": "m",
-    "damage": "45",
-    "startup": "i13~14",
-    "block": "-17",
-    "hit": "+26a (-10) FDFA",
-    "counter": "",
-    "alternateInputs": [
-      "CS 2",
-      "cd2",
-      "qcf2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "H.CS.2 with Heat",
-      "Clean Hit range 2.3",
-      "30 damage without Clean Hit",
-      "Sometimes written ",
-      "qcf+2",
-      "Deathfist"
-    ]
-  },
-  {
     "name": "Gengetsu",
     "input": "CS 3",
     "hit_level": "L",
@@ -2407,28 +2318,6 @@
     "notes": [
       "Chip damage (7)",
       "Sometimes written qcb+1"
-    ]
-  },
-  {
-    "name": "Rubber Band Attack",
-    "input": "SWA 2",
-    "hit_level": "m",
-    "damage": "27",
-    "startup": "i15",
-    "block": "-9",
-    "hit": "+39d (-19)",
-    "counter": "",
-    "alternateInputs": [
-      "SWA 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Clean Hit range 2.45",
-      "Heat Dash disables Clean Hit",
-      "21 damage without Clean Hit",
-      "Sometimes written qcb+2"
     ]
   },
   {

@@ -790,26 +790,6 @@
     ]
   },
   {
-    "name": "Political Storm",
-    "input": "f+1+2,3,1+2",
-    "hit_level": "h,m,m,m,m",
-    "damage": "5,4,5,4,20",
-    "startup": ",i14,i22",
-    "block": "-15",
-    "hit": "+20d (+15)",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2,3,1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43d (+35)",
-      "Power up with input qcf+1+2 (adds 5 dmg to last hit)",
-      "Jail from any attack"
-    ]
-  },
-  {
     "name": "Horse Stance",
     "input": "f+3+4",
     "hit_level": "",
@@ -1263,26 +1243,6 @@
       "Balcony Break",
       "Combo from 1st hit",
       "Just frame input within a 2f window (21~22) adds 2 damage"
-    ]
-  },
-  {
-    "name": "Stalwart Governance",
-    "input": "b+1",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i18",
-    "block": "+2",
-    "hit": "+48d (-10)",
-    "counter": "",
-    "alternateInputs": [
-      "b+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "4 chip damage on block"
     ]
   },
   {
@@ -1890,26 +1850,6 @@
     ]
   },
   {
-    "name": "Flash Elbow",
-    "input": "FC df+2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i12",
-    "block": "-14",
-    "hit": "+9a",
-    "counter": "",
-    "alternateInputs": [
-      "FC df+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
-      "Balcony Break",
-      "Elbow"
-    ]
-  },
-  {
     "name": "Odd-tooth Snake",
     "input": "FC df+3",
     "hit_level": "L",
@@ -2051,23 +1991,6 @@
     ]
   },
   {
-    "name": "Horse Stance",
-    "input": "f+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Actionable after 20f"
-    ]
-  },
-  {
     "name": "Hachi-wari",
     "input": "HRS 1",
     "hit_level": "h",
@@ -2085,29 +2008,6 @@
     "notes": [
       "Balcony Break",
       "Homing"
-    ]
-  },
-  {
-    "name": "Unanimous Consent",
-    "input": "HRS 2",
-    "hit_level": "m,t",
-    "damage": "18,10",
-    "startup": "i16",
-    "block": "-10",
-    "hit": "+8",
-    "counter": "",
-    "alternateInputs": [
-      "HRS 2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Transitions to attack throw on front hit",
-      "Does not transition to throw when using Heat Dash",
-      "Activates Heat when throw is completed",
-      "Transition to r33 HAE on hit only",
-      "Cancel HAE transition with B"
     ]
   },
   {
@@ -2240,23 +2140,6 @@
     ]
   },
   {
-    "name": "Cat Stance",
-    "input": "b+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Actionable after 20f"
-    ]
-  },
-  {
     "name": "Mid Left Thrust",
     "input": "CAT 1",
     "hit_level": "m",
@@ -2345,25 +2228,6 @@
       "Combo from 2nd hit with 10f delay",
       "Combo from 1st CH",
       "Move can be delayed 9f"
-    ]
-  },
-  {
-    "name": "High Left Reverse Hook Kick",
-    "input": "CAT 3",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i13~14",
-    "block": "-4",
-    "hit": "+11g",
-    "counter": "",
-    "alternateInputs": [
-      "CAT 3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break"
     ]
   },
   {
@@ -2655,28 +2519,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Horse Stance > Heaven and Earth",
-    "input": "in heat HRS U",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "in heat HRS U"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Parries all highs or mids",
-      "Partially uses remaining Heat time",
-      "Entering HAE increases Heaven and Earth level (carries over into next round)",
-      "Heat consumption is reduced the higher the level"
     ]
   },
   {

@@ -421,26 +421,6 @@
     ]
   },
   {
-    "name": "Left Right Mid Kick",
-    "input": "1,2:4",
-    "hit_level": "h,h,m",
-    "damage": "5,9,12",
-    "startup": ",i18",
-    "block": "-12",
-    "hit": "+5",
-    "counter": "+58a",
-    "alternateInputs": [
-      "1,2:4"
-    ],
-    "categories": [],
-    "notes": [
-      "Jail from 1st attack",
-      "Combo from 2nd hit with 1f delay",
-      "Move can be input by pressing 4 during frames 10-13 of 1,2",
-      "Transition to r44 -14 +3 HMS with 3"
-    ]
-  },
-  {
     "name": "",
     "input": "1,3",
     "hit_level": "h,h",
@@ -473,26 +453,6 @@
     "notes": [
       "Input 3 during frames 13?-15? of previous hit",
       "Jail from 1st attack"
-    ]
-  },
-  {
-    "name": "Acid Rain",
-    "input": "1,3:3:3",
-    "hit_level": "h,h,m,h",
-    "damage": "5,5,4,14",
-    "startup": ",i21",
-    "block": "-17",
-    "hit": "+14",
-    "counter": "",
-    "alternateInputs": [
-      "1,3:3:3"
-    ],
-    "categories": [],
-    "notes": [
-      "Combo from 1st hit",
-      "Input 3 during frame 8? of previous hit",
-      "Timestop on hit",
-      "5 chip damage"
     ]
   },
   {
@@ -669,27 +629,6 @@
     ]
   },
   {
-    "name": "Mist Trap",
-    "input": "3~3:4",
-    "hit_level": "h,t",
-    "damage": "18,20",
-    "startup": "i34",
-    "block": "!",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "3~3:4"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Unbreakable",
-      "Perfect Input not required during Heat",
-      "Partially consumes remaining Heat Time, while Perfect input restores Heat Time"
-    ]
-  },
-  {
     "name": "Magic Four",
     "input": "4",
     "hit_level": "h",
@@ -793,29 +732,6 @@
       "Jail from 1st attack",
       "Combo from 2nd hit with no delay",
       "Frame advantage on 1st CH: +25a (+18)"
-    ]
-  },
-  {
-    "name": "Machinegun Kicks Cardinal",
-    "input": "4,4:4",
-    "hit_level": "h,h,h",
-    "damage": "14,5,12",
-    "startup": ",i20~21",
-    "block": "-9",
-    "hit": "+15a (+6)",
-    "counter": "",
-    "alternateInputs": [
-      "4,4:4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g +34d",
-      "Strong Aerial Tailspin",
-      "Combo from 2nd hit with 1f-5f delay only",
-      "Frame advantage on 1st CH: +29a (+22)",
-      "4 Chip Damage on block",
-      "5 Chip Damage on block in heat"
     ]
   },
   {
@@ -1015,27 +931,6 @@
     ]
   },
   {
-    "name": "Acid Storm Cardinal",
-    "input": "f+3,3,3,3,3:4",
-    "hit_level": "m,m,m,m,h,h",
-    "damage": "6,3,3,3,3,26",
-    "startup": "i23",
-    "block": "-9",
-    "hit": "+69a (+53)",
-    "counter": "",
-    "alternateInputs": [
-      "f+3,3,3,3,3:4"
-    ],
-    "categories": [],
-    "notes": [
-      "Tornado",
-      "Perfect Input not required during Heat",
-      "4 must be input during frames 7?-9? of previous hit",
-      "Partially consumes remaining Heat Time, while Perfect input restores Heat Time",
-      "Combos from 1st hit"
-    ]
-  },
-  {
     "name": "",
     "input": "f+4",
     "hit_level": "h",
@@ -1068,26 +963,6 @@
     "notes": [
       "Tornado",
       "Balcony Break",
-      "Combos on 1st hit CH"
-    ]
-  },
-  {
-    "name": "Deadly Revolution Cardinal",
-    "input": "f+4:1",
-    "hit_level": "h,h",
-    "damage": "13,25",
-    "startup": "i24",
-    "block": "+5",
-    "hit": "+20a (+3)",
-    "counter": "",
-    "alternateInputs": [
-      "f+4:1"
-    ],
-    "categories": [],
-    "notes": [
-      "Tornado",
-      "Balcony Break",
-      "10 chip damage",
       "Combos on 1st hit CH"
     ]
   },
@@ -1246,25 +1121,6 @@
     "categories": [],
     "notes": [
       "Transition to -9, +5 HMS with 3"
-    ]
-  },
-  {
-    "name": "Fabulous Whip",
-    "input": "df+4,4",
-    "hit_level": "m,h",
-    "damage": "14,22",
-    "startup": "i22-23",
-    "block": "-9",
-    "hit": "+10g",
-    "counter": "",
-    "alternateInputs": [
-      "df+4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +34d",
-      "Combos from 1st hit"
     ]
   },
   {
@@ -1603,27 +1459,6 @@
     ]
   },
   {
-    "name": "Double Fang Cardinal",
-    "input": "b+1:1+2",
-    "hit_level": "h,h",
-    "damage": "9,25",
-    "startup": "i21",
-    "block": "-6",
-    "hit": "+39d (-19)",
-    "counter": "",
-    "alternateInputs": [
-      "b+1:1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Combos from 1st hit",
-      "10 chip damage",
-      "Perfect Input not required during Heat",
-      "Partially consumes remaining Heat Time, while Perfect input restores Heat Time"
-    ]
-  },
-  {
     "name": "Rear Cross Punch",
     "input": "b+2",
     "hit_level": "h",
@@ -1771,25 +1606,6 @@
       "Balcony Break",
       "Only available upon successful parry",
       "Guaranteed hit"
-    ]
-  },
-  {
-    "name": "Silver Revolution",
-    "input": "b+3+4",
-    "hit_level": "h",
-    "damage": "23",
-    "startup": "i20",
-    "block": "-7",
-    "hit": "+15a (+6)",
-    "counter": "",
-    "alternateInputs": [
-      "b+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +34d",
-      "Balcony Break"
     ]
   },
   {
@@ -1950,48 +1766,6 @@
       "Balcony Break",
       "Transition to +5, +21gc, +72a (+56) MS with F",
       "6 chip damage"
-    ]
-  },
-  {
-    "name": "Jostle Wolf Cardinal",
-    "input": "f:F+2",
-    "hit_level": "h",
-    "damage": "26",
-    "startup": "i18",
-    "block": "+2",
-    "hit": "+18gc",
-    "counter": "+69a (+53)",
-    "alternateInputs": [
-      "f:F+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Tornado",
-      "Balcony Break",
-      "Transition to +5, +21gc, +72a (+56) MS with F",
-      "11 chip damage",
-      "Perfect Input not required during Heat",
-      "Partially consumes remaining Heat Time, while Perfect input restores Heat Time"
-    ]
-  },
-  {
-    "name": "Pulse Blast",
-    "input": "f,F+3",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i14~15",
-    "block": "-9",
-    "hit": "+21d (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36d",
-      "Balcony Break",
-      "Slight low profile"
     ]
   },
   {
@@ -2263,26 +2037,6 @@
     ]
   },
   {
-    "name": "Friction Spear Cardinal",
-    "input": "FC df,d,DF:3",
-    "hit_level": "l",
-    "damage": "25",
-    "startup": "i18~24",
-    "block": "-15*",
-    "hit": "+3",
-    "counter": "+5d",
-    "alternateInputs": [
-      "FC df,d,DF:3"
-    ],
-    "categories": [],
-    "notes": [
-      "Frame advantage on block depends on spacing.: Ranges from -15 up close, to -9 at tip range.",
-      "Perfect Input not required during Heat",
-      "Perfect input when DF and 3 are input during the same frame?",
-      "Partially consumes remaining Heat Time, while Perfect input restores Heat Time"
-    ]
-  },
-  {
     "name": "",
     "input": "ws1",
     "hit_level": "m",
@@ -2512,23 +2266,6 @@
     ]
   },
   {
-    "name": "Hitman",
-    "input": "3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to HMS"
-    ]
-  },
-  {
     "name": "Freaker Jab",
     "input": "HMS 1",
     "hit_level": "h",
@@ -2672,27 +2409,6 @@
     "notes": [
       "On CH:",
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Silver Slash",
-    "input": "HMS u+3",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i20~22",
-    "block": "-9",
-    "hit": "+23d (+13)",
-    "counter": "",
-    "alternateInputs": [
-      "HMS u+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5g +36d",
-      "Balcony Break",
-      "Transition to -9, +23d (+13) FC with D",
-      "7 chip damage"
     ]
   },
   {

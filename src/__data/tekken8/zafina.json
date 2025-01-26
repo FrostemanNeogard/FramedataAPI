@@ -580,29 +580,6 @@
     ]
   },
   {
-    "name": "Malicious Nail",
-    "input": "f+1+2",
-    "hit_level": "m,m",
-    "damage": "16,22",
-    "startup": "i19~20 i13~14",
-    "block": "-9",
-    "hit": "+5a (-5)",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Zafina receives recoverable health damage",
-      "Second hit available only on hit or block",
-      "8 chip damage on block",
-      "Azazel's Power"
-    ]
-  },
-  {
     "name": "",
     "input": "df+1",
     "hit_level": "m",
@@ -758,34 +735,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Miasma Bearer",
-    "input": "df+4,1",
-    "hit_level": "m,m",
-    "damage": "14,22",
-    "startup": ",i31",
-    "block": "-12",
-    "hit": "+3a",
-    "counter": "",
-    "alternateInputs": [
-      "df+4,1"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43a (+35)",
-      "Balcony Break",
-      "Spike",
-      "Combo from 1st hit",
-      "Cancel to FC -18 -2 r37 with D",
-      "Zafina receives recoverable health damage",
-      "Unparryable by traditional parries, Asuka, Nina, etc",
-      "8 chip damage on block",
-      "Azazel's Power"
     ]
   },
   {
@@ -1657,26 +1606,6 @@
     ]
   },
   {
-    "name": "Scarecrow Stance",
-    "input": "3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Cancel to r20 with db",
-      "Cancel to r28 with UB_U_UF",
-      "Stance sidestep with u_d",
-      "Backdash/dash with b_f"
-    ]
-  },
-  {
     "name": "",
     "input": "SCR 1",
     "hit_level": "h",
@@ -1726,31 +1655,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "",
-    "input": "SCR 2,1",
-    "hit_level": "m,m",
-    "damage": "17,25",
-    "startup": ",i21",
-    "block": "-6",
-    "hit": "+30a (+20)",
-    "counter": "",
-    "alternateInputs": [
-      "SCR 2,1"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "10 chip damage on block",
-      "Zafina receives recoverable damage",
-      "Unparryable by traditional parries, Asuka, Nina, etc",
-      "Azazel's Power"
     ]
   },
   {
@@ -2031,24 +1935,6 @@
     ]
   },
   {
-    "name": "Tarantula Stance",
-    "input": "d+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Cancel to r30 with DB_UB_U_UF",
-      "Crawl with F"
-    ]
-  },
-  {
     "name": "",
     "input": "TRT 1",
     "hit_level": "L",
@@ -2152,32 +2038,6 @@
   },
   {
     "name": "",
-    "input": "TRT df+1",
-    "hit_level": "M",
-    "damage": "30",
-    "startup": "i19~20",
-    "block": "+6",
-    "hit": "+30a (+15)",
-    "counter": "",
-    "alternateInputs": [
-      "TRT df+1"
-    ],
-    "categories": [
-      "powercrush",
-      "parry"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +35a (+27)",
-      "12 chip damage on block",
-      "Zafina receives recoverable health damage",
-      "Unparryable by traditional parries, Asuka, Nina, etc",
-      "Gains Power Crush frames during Heat (pc6~18)",
-      "Azazel's Power"
-    ]
-  },
-  {
-    "name": "",
     "input": "TRT d+1+2",
     "hit_level": "L",
     "damage": "20",
@@ -2191,28 +2051,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Mantis Stance",
-    "input": "d+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Cancel to r30 with db",
-      "Cancel to r38 with UB_U_UF",
-      "Can block in stance on frame 31~",
-      "Stance sidestep with u_d",
-      "Move backward/forward with b_f",
-      "Dash with f,f"
     ]
   },
   {
@@ -2402,34 +2240,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Vicious Claw",
-    "input": "MNT df+1",
-    "hit_level": "M",
-    "damage": "30",
-    "startup": "i24~25",
-    "block": "+6",
-    "hit": "+7a",
-    "counter": "",
-    "alternateInputs": [
-      "MNT df+1"
-    ],
-    "categories": [
-      "powercrush",
-      "parry"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Balcony Break",
-      "Spike",
-      "9 chip damage on block",
-      "Zafina receives recoverable health damage",
-      "Unparryable by traditional parries, Asuka, Nina, etc",
-      "Gains Power Crush frames during Heat (pc8~23)",
-      "Azazel's Power"
     ]
   },
   {

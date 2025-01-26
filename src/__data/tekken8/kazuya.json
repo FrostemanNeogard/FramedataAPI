@@ -521,27 +521,6 @@
     ]
   },
   {
-    "name": "Slaughter Hook",
-    "input": "df+1,2",
-    "hit_level": "m,h",
-    "damage": "11,20",
-    "startup": "i15",
-    "block": "+0c",
-    "hit": "+9g",
-    "counter": "",
-    "alternateInputs": [
-      "df+1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +67a (+50a) on hit, +5 on block",
-      "6 Chip Damage on block",
-      "8 Chip Damage on block in heat",
-      "Combo from 1st hit with 6?F delay"
-    ]
-  },
-  {
     "name": "Slaughter Uppercut",
     "input": "df+1,df+2",
     "hit_level": "m,m",
@@ -884,28 +863,6 @@
     ]
   },
   {
-    "name": "Goutsuiken",
-    "input": "db+1,2",
-    "hit_level": "m,m,m",
-    "damage": "7,8,15",
-    "startup": "i20",
-    "block": "-19",
-    "hit": "+9a (-8)",
-    "counter": "",
-    "alternateInputs": [
-      "db+1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +35a (+27a) on hit, +5 on block",
-      "Balcony Break",
-      "4 Chip Damage on block",
-      "8 (2+6) Chip Damage on block in heat",
-      "Combo from 1st hit with 1?F delay"
-    ]
-  },
-  {
     "name": "Lion Slayer",
     "input": "db+2",
     "hit_level": "m",
@@ -1169,49 +1126,6 @@
     ]
   },
   {
-    "name": "Flash Tornado",
-    "input": "b+4",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i17",
-    "block": "-5",
-    "hit": "+16g",
-    "counter": "",
-    "alternateInputs": [
-      "b+4"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +62a (+42a) on hit, +5 on block",
-      "Homing",
-      "6 Chip Damage on block",
-      "8 Chip Damage on block in heat"
-    ]
-  },
-  {
-    "name": "Kumo Kiri",
-    "input": "b+1+2",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i22",
-    "block": "-8",
-    "hit": "+5",
-    "counter": "",
-    "alternateInputs": [
-      "b+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +36a (+26a) on hit, +5 on block",
-      "6 Chip Damage on block",
-      "8 Chip Damage on block in heat"
-    ]
-  },
-  {
     "name": "Lightning Screw Uppercut",
     "input": "b+1+4",
     "hit_level": "ub(m)",
@@ -1381,27 +1295,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Devil Fist",
-    "input": "f,F+2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i16",
-    "block": "-9",
-    "hit": "+39d(-19)/HE",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +36a (+26a) on hit, +5 on block",
-      "Balcony Break",
-      "6 Chip Damage on block",
-      "8 Chip Damage on block in heat"
     ]
   },
   {

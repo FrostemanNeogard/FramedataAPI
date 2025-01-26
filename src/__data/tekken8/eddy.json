@@ -412,27 +412,6 @@
     ]
   },
   {
-    "name": "Lufada",
-    "input": "4,4",
-    "hit_level": "m,m",
-    "damage": "10,20",
-    "startup": ",i30~31",
-    "block": "-7",
-    "hit": "+12g",
-    "counter": "",
-    "alternateInputs": [
-      "4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +62a (+42)",
-      "Balcony Break",
-      "Combo from 1st CH with 4f delay",
-      "Input can be delayed 7f"
-    ]
-  },
-  {
     "name": "Faisão",
     "input": "1+2",
     "hit_level": "m",
@@ -610,26 +589,6 @@
     "categories": [],
     "notes": [
       "Sometimes written Handstand Position"
-    ]
-  },
-  {
-    "name": "Xangô",
-    "input": "f+3+4",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i19~21",
-    "block": "-9",
-    "hit": "+18a (+8)",
-    "counter": "",
-    "alternateInputs": [
-      "f+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "5 chip damage on block"
     ]
   },
   {
@@ -1267,29 +1226,6 @@
     ]
   },
   {
-    "name": "Lunging Brush Fire",
-    "input": "b+3+4",
-    "hit_level": "h",
-    "damage": "28",
-    "startup": "i20~21",
-    "block": "-7",
-    "hit": "+21a(+11)",
-    "counter": "",
-    "alternateInputs": [
-      "b+3+4"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Heat Dash: +43a(+35) on hit",
-      "Absorb an attack to power up",
-      "Add chip damage when guarded"
-    ]
-  },
-  {
     "name": "Perna da Lua",
     "input": "ub+3",
     "hit_level": "m",
@@ -1903,23 +1839,6 @@
     ]
   },
   {
-    "name": "Bananeira",
-    "input": "f+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Sometimes written Handstand Position"
-    ]
-  },
-  {
     "name": "Godeme Trovoada",
     "input": "HSP 1",
     "hit_level": "m",
@@ -2173,23 +2092,6 @@
     ]
   },
   {
-    "name": "Negativa",
-    "input": "d+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "d+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Can block with input RLX.B or RLX.DBSometimes written Relax"
-    ]
-  },
-  {
     "name": "",
     "input": "RLX 1",
     "hit_level": "L",
@@ -2327,26 +2229,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Chibata Ardente",
-    "input": "RLX 4,3",
-    "hit_level": "m,m",
-    "damage": "14,25",
-    "startup": ",i28~30",
-    "block": "-13",
-    "hit": "+16a/HE",
-    "counter": "",
-    "alternateInputs": [
-      "RLX 4,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Balcony Break",
-      "Heat Dash +67a(+50) on hit",
-      "Combos from 1st hit"
     ]
   },
   {
@@ -2507,65 +2389,6 @@
       "Balcony Break",
       "Can shift to RLX with input HSP.b+4,D",
       "7 Chip damage on block"
-    ]
-  },
-  {
-    "name": "Rabo de Arraia",
-    "input": "db+4,4",
-    "hit_level": "m,h",
-    "damage": "14,27",
-    "startup": ",i33~34",
-    "block": "-9",
-    "hit": "+19a(-7)",
-    "counter": "",
-    "alternateInputs": [
-      "db+4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "8 Chip damage on block",
-      "Mandinga level increases by 1 on hit",
-      "Combos from 1st hit"
-    ]
-  },
-  {
-    "name": "Combo Escorão",
-    "input": "HSP 2,3",
-    "hit_level": "m,m",
-    "damage": "15,23",
-    "startup": ",i26~27",
-    "block": "-13",
-    "hit": "-2(-11)",
-    "counter": "",
-    "alternateInputs": [
-      "HSP 2,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Combos from 1st hit",
-      "Mandinga level increases by 1 on hit",
-      "Can cancel into HSP with input HSP.2,3,F"
-    ]
-  },
-  {
-    "name": "Iemanjá",
-    "input": "RLX 3,3",
-    "hit_level": "L,h",
-    "damage": "12,27",
-    "startup": ",i25~26",
-    "block": "-13",
-    "hit": "-2(-3)",
-    "counter": "",
-    "alternateInputs": [
-      "RLX 3,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Combo from 1st clean hit",
-      "Jails from 1st hit",
-      "Mandinga level increases by 1 on hit"
     ]
   },
   {
@@ -2758,66 +2581,6 @@
     ],
     "notes": [
       "Throw break: 1+2"
-    ]
-  },
-  {
-    "name": "Batucada",
-    "input": "HSP 1+3",
-    "hit_level": "th(h)",
-    "damage": "26",
-    "startup": "i23~24",
-    "block": "",
-    "hit": "+6",
-    "counter": "",
-    "alternateInputs": [
-      "HSP 1+3"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Throw break: none",
-      "Shift to RLX on hit"
-    ]
-  },
-  {
-    "name": "Rodeo Spin",
-    "input": "RLX uf+1+2",
-    "hit_level": "th(h)",
-    "damage": "40",
-    "startup": "i17~18",
-    "block": "-6",
-    "hit": "+0",
-    "counter": "",
-    "alternateInputs": [
-      "RLX uf+1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Throw break: 1+2",
-      "Sideswitch on break"
-    ]
-  },
-  {
-    "name": "Vingativa Zanga",
-    "input": "d+1+3",
-    "hit_level": "th(m)",
-    "damage": "30",
-    "startup": "i12~13",
-    "block": "",
-    "hit": "-5",
-    "counter": "",
-    "alternateInputs": [
-      "d+1+3"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Throw break: none"
     ]
   },
   {
