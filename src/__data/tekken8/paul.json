@@ -27,7 +27,7 @@
     "input": "in heat 2+3",
     "hit_level": "L,m,t",
     "damage": "9,23,25",
-    "startup": "i18 i21 i38",
+    "startup": "i18,i21,i38",
     "block": "-12",
     "hit": "+3d",
     "counter": "",
@@ -65,10 +65,10 @@
       "throw"
     ],
     "notes": [
-      "Heat Engager +6",
-      "Heat Dash +5 (+18g wall), +62a (+42)",
+      "Heat Engager +9",
+      "Heat Dash +5, +62a (+42)",
       "Transition to throw on front hit",
-      "+32d without throw transition"
+      "+32a without throw transition"
     ]
   },
   {
@@ -86,7 +86,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 (+18g wall), +36a (+26)",
+      "Heat Dash +5, +36a (+26)",
       "Clean Hit range 2.45",
       "Heat Dash disables Clean Hit",
       "21 damage without Clean Hit",
@@ -110,7 +110,7 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 (+18g wall), +22a",
+      "Heat Dash +5, +62a (+42)",
       "Homing"
     ]
   },
@@ -118,10 +118,10 @@
     "name": "Moonfall",
     "input": "uf+2",
     "hit_level": "h",
-    "damage": "22",
+    "damage": "26",
     "startup": "i22~23",
     "block": "+5",
-    "hit": "\n+17d\nFDFA\n",
+    "hit": "+17d FDFA",
     "counter": "",
     "alternateInputs": [
       "uf+2"
@@ -129,9 +129,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 (+18g wall), +67a (+50)",
+      "Heat Dash +5, +67a (+50)",
       "Balcony Break",
-      "Chip Damage (6)"
+      "Chip damage (6)"
     ]
   },
   {
@@ -141,7 +141,7 @@
     "damage": "45",
     "startup": "i13~14",
     "block": "-17",
-    "hit": "\n+26a (-10)\nFDFA\n",
+    "hit": "+26a (-10) FDFA",
     "counter": "",
     "alternateInputs": [
       "CS 2",
@@ -152,12 +152,12 @@
     "notes": [
       "Heat Engager",
       "Balcony Break",
-      "Powers up in Heat",
+      "H.CS.2 with Heat",
       "Clean Hit range 2.3",
       "30 damage without Clean Hit",
       "Sometimes written ",
-      "Deathfist",
-      "qcf+2"
+      "qcf+2",
+      "Deathfist"
     ]
   },
   {
@@ -167,14 +167,14 @@
     "damage": "51",
     "startup": "i13~14",
     "block": "-13",
-    "hit": "\n+26a (-10)\nFDFA\n",
+    "hit": "+26a (-10) FDFA",
     "counter": "",
     "alternateInputs": [
       "in heat CS 2"
     ],
     "categories": [],
     "notes": [
-      "Heat Dash +5 (+18g wall), +36a (+26)",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Consumes Heat",
       "Chip damage (11)",
@@ -182,8 +182,8 @@
       "Heat Dash disables Clean Hit",
       "34 damage without Clean Hit",
       "Sometimes written ",
-      "Heat Deathfist",
-      "H.qcf+2"
+      "H.qcf+2",
+      "Heat Deathfist"
     ]
   },
   {
@@ -193,7 +193,7 @@
     "damage": "35",
     "startup": "i28",
     "block": "-9",
-    "hit": "\n+30d (-6)\nFDFA\n",
+    "hit": "+30d (-6) FDFA",
     "counter": "",
     "alternateInputs": [
       "in heat 1+2"
@@ -207,17 +207,16 @@
       "Charge begins on frame 1",
       "Requires 1~27f charge",
       "Delayed startup from 17~27f charge",
-      "Cancel input window 17~35f",
-      "Cancel to t27~35 r1 CS with f",
+      "Cancel to t27~35 r1 CS from 17~35f with f",
       "Sidestep u can be buffered 2f after cancel",
       "CS attacks can be buffered from 26f",
       "Decaying 13f delay on CS attacks",
       "Decays to 0 delay 24f after cancel",
-      "Cancel to t41~49 r12 SWA with b",
+      "Cancel to t41~49 r12 SWA from 17~35f with b",
       "Sidestep u can be buffered from 27f",
       "SWA attacks can be buffered from 26f",
       "H.1+2* from 28~55f charge",
-      "H.1+2** at 56f charge"
+      "Burning Fist at 56f charge"
     ]
   },
   {
@@ -227,7 +226,7 @@
     "damage": "40",
     "startup": "i46",
     "block": "+10",
-    "hit": "\n+30d (-6)\nFDFA\n",
+    "hit": "+30d (-6) FDFA",
     "counter": "",
     "alternateInputs": [
       "in heat 1+2*"
@@ -242,17 +241,16 @@
       "Charge begins on frame 1",
       "Requires 28~55f charge",
       "Delayed startup from 35~55f charge",
-      "Cancel input window 17~35f",
-      "Cancel to t27~35 r1 CS with f",
+      "Cancel to t27~35 r1 CS from 17~35f with f",
       "Sidestep u can be buffered 2f after cancel",
       "CS attacks can be buffered from 26f",
       "Decaying 13f delay on CS attacks",
       "Decays to 0 delay 24f after cancel",
-      "Cancel to t41~49 r12 SWA with b",
+      "Cancel to t41~49 r12 SWA from 17~35f with b",
       "Sidestep u can be buffered from 27f",
       "SWA attacks can be buffered from 26f",
       "H.1+2 from 1~27f charge",
-      "H.1+2** at 56f charge"
+      "Burning Fist at 56f charge"
     ]
   },
   {
@@ -262,7 +260,7 @@
     "damage": "50",
     "startup": "i71",
     "block": "",
-    "hit": "\n+30d (-6)\nFDFA\n",
+    "hit": "+30d (-6) FDFA",
     "counter": "",
     "alternateInputs": [
       "in heat 1+2**"
@@ -284,7 +282,7 @@
     "damage": "22,21",
     "startup": ",i13~14",
     "block": "",
-    "hit": "\n+16d (-20)\nFDFA\n",
+    "hit": "+16d (-20) FDFA",
     "counter": "",
     "alternateInputs": [
       "df+1+3,in heat qcf+2"
@@ -307,7 +305,7 @@
     "damage": "22,26",
     "startup": ",i13~14",
     "block": "",
-    "hit": "\n+16d (-20)\nFDFA\n",
+    "hit": "+16d (-20) FDFA",
     "counter": "",
     "alternateInputs": [
       "df+1+3:in heat qcf+2"
@@ -331,7 +329,7 @@
     "damage": "16,32",
     "startup": ",i29",
     "block": "-13",
-    "hit": "\n+29d (-7)\nFDFA\n",
+    "hit": "+29d (-7) FDFA",
     "counter": "",
     "alternateInputs": [
       "d+1,in heat 2"
@@ -356,7 +354,7 @@
     "damage": "16,45",
     "startup": ",i43",
     "block": "+12",
-    "hit": "\n+30d (-6)\nFDFA\n",
+    "hit": "+30d (-6) FDFA",
     "counter": "",
     "alternateInputs": [
       "d+1,in heat 2*"
@@ -395,6 +393,27 @@
       "Requires 42f charge",
       "b+2,1 from 0~41f charge",
       "Sometimes written H.b+2,1*"
+    ]
+  },
+  {
+    "name": "Hammer of the Gods (Hold)",
+    "input": "in heat f+1+2*",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i29~30",
+    "block": "+5c",
+    "hit": "+55a",
+    "counter": "",
+    "alternateInputs": [
+      "in heat f+1+2*"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Consumes Heat",
+      "Chip damage (13)",
+      "Requires 24f charge",
+      "f+1+2 from 0~23f charge"
     ]
   },
   {
@@ -556,7 +575,7 @@
       "Move can be delayed 4f",
       "Input can be delayed 4f",
       "Combo from 1st hit with 4f delay",
-      "Transition to r19 SWA +4 +14 +57a with b"
+      "Transition to t60 r19 SWA +4 +14g +57a at 43f with b"
     ]
   },
   {
@@ -573,8 +592,9 @@
     ],
     "categories": [],
     "notes": [
-      "Sidestep u can be buffered from 8f",
-      "SWA attacks can be buffered from 8f"
+      "Sidestep u can be buffered from 45f",
+      "SWA attacks can be buffered from 54f",
+      "Transition to cs1~ r9 -13 +4 +47a DPD from 61f with df"
     ]
   },
   {
@@ -610,22 +630,23 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Powers up in Heat",
+      "H.1+2 with Heat",
       "Move can be delayed 11f (i39)",
       "Charge begins on frame 1",
       "Requires 1~27f charge",
       "Delayed startup from 17~27f charge",
-      "Cancel input window 17~35f",
-      "Cancel to t27~35 r1 CS with f",
+      "Cancel to t27 r1 CS from 17~35f with f",
+      "Cancel can be delayed 8f",
       "Sidestep u can be buffered 2f after cancel",
       "CS attacks can be buffered from 26f",
       "Decaying 13f delay on CS attacks",
       "Decays to 0 delay 24f after cancel",
-      "Cancel to t41~49 r12 SWA with b",
+      "Cancel to t41 r12 SWA from 17~35f with b",
+      "Cancel can be delayed 8f",
       "Sidestep u can be buffered from 27f",
       "SWA attacks can be buffered from 26f",
       "1+2* from 28~55f charge",
-      "1+2** at 56f charge"
+      "Burning Fist at 56f charge"
     ]
   },
   {
@@ -643,23 +664,24 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Powers up in Heat",
+      "H.1+2* with Heat",
       "Chip damage (10)",
       "Move can be delayed 21f (i67)",
       "Charge begins on frame 1",
       "Requires 28~55f charge",
       "Delayed startup from 35~55f charge",
-      "Cancel input window 17~35f",
-      "Cancel to t27~35 r1 CS with f",
+      "Cancel to t27 r1 CS from 17~35f with f",
+      "Cancel can be delayed 8f",
       "Sidestep u can be buffered 2f after cancel",
       "CS attacks can be buffered from 26f",
       "Decaying 13f delay on CS attacks",
       "Decays to 0 delay 24f after cancel",
-      "Cancel to t41~49 r12 SWA with b",
+      "Cancel to t41 r12 SWA from 17~35f with b",
+      "Cancel can be delayed 8f",
       "Sidestep u can be buffered from 27f",
       "SWA attacks can be buffered from 26f",
       "1+2 from 1~27f charge",
-      "1+2** at 56f charge"
+      "Burning Fist at 56f charge"
     ]
   },
   {
@@ -677,7 +699,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Powers up in Heat",
+      "H.1+2** with Heat",
       "Charge begins on frame 1",
       "Requires 56f charge",
       "1+2 from 1~27f charge",
@@ -688,10 +710,10 @@
     "name": "Phoenix Hook, Tiger Claw",
     "input": "f+2",
     "hit_level": "h,t",
-    "damage": "14,26",
-    "startup": "i14",
+    "damage": "12,26",
+    "startup": "i13",
     "block": "-5",
-    "hit": "+6",
+    "hit": "+9",
     "counter": "",
     "alternateInputs": [
       "f+2"
@@ -700,10 +722,10 @@
       "throw"
     ],
     "notes": [
-      "Heat Engager +6",
-      "Heat Dash +5 (+18g wall), +62a (+42)",
+      "Heat Engager +9",
+      "Heat Dash +5, +62a (+42)",
       "Transition to throw on front hit",
-      "+32d without throw transition"
+      "+32a without throw transition"
     ]
   },
   {
@@ -750,9 +772,9 @@
     "name": "Stone Lion",
     "input": "f+4",
     "hit_level": "m",
-    "damage": "21",
+    "damage": "24",
     "startup": "i22",
-    "block": "-8",
+    "block": "-5",
     "hit": "+6",
     "counter": "",
     "alternateInputs": [
@@ -763,27 +785,51 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 (+18g wall), +22a",
+      "Heat Dash +5, +62a (+42)",
       "Homing"
     ]
   },
   {
     "name": "Hammer of the Gods",
     "input": "f+1+2",
-    "hit_level": "M",
+    "hit_level": "m",
     "damage": "22",
     "startup": "i20~21",
     "block": "+3c",
     "hit": "+8c",
-    "counter": "\n+20d\nFDFA\n",
+    "counter": "+35d (+27)",
     "alternateInputs": [
       "f+1+2"
     ],
     "categories": [],
     "notes": [
       "Balcony Break (CH only)",
-      "Chip damage on block",
-      "Can be charged"
+      "Chip damage (4)",
+      "Move can be delayed 9f (i29~30)",
+      "Delayed startup from 5~23f charge",
+      "f+1+2* at 24f charge",
+      "H.f+1+2* at 24f charge"
+    ]
+  },
+  {
+    "name": "Hammer of the Gods (Hold)",
+    "input": "f+1+2*",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i29~30",
+    "block": "+5c",
+    "hit": "+20d FDFA",
+    "counter": "+55a",
+    "alternateInputs": [
+      "f+1+2*"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "H.f+1+2* with Heat",
+      "Chip damage (10)",
+      "Requires 24f charge",
+      "f+1+2 from 0~23f charge"
     ]
   },
   {
@@ -818,7 +864,7 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to r15 SWA +3 +9 with b"
+      "Transition to r15 SWA +3 +9 from 2~14f, 16f with b"
     ]
   },
   {
@@ -835,8 +881,9 @@
     ],
     "categories": [],
     "notes": [
-      "Sidestep u can be buffered from 2f",
-      "SWA attacks can be buffered from 2f"
+      "Sidestep u can be buffered from 16f",
+      "SWA attacks can be buffered from 24f",
+      "Transition to cs1~ r9 -1 -12 DPD from 32f with df"
     ]
   },
   {
@@ -979,7 +1026,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Powers up in Heat",
+      "H.d+1,2 with Heat",
       "Move can be delayed 14f (i43)",
       "Charge begins on frame 16",
       "Requires 0~26f charge",
@@ -1004,7 +1051,7 @@
     "notes": [
       "Balcony Break",
       "Wall Crush +16g",
-      "Powers up in Heat",
+      "H.d+1,2* with Heat",
       "Chip damage (11)",
       "Charge begins on frame 16",
       "Requires 27f charge",
@@ -1019,7 +1066,7 @@
     "startup": ",i19",
     "block": "-31c",
     "hit": "-17",
-    "counter": "\n+14a\nFUFA\n",
+    "counter": "+14a FUFA",
     "alternateInputs": [
       "d+1,4"
     ],
@@ -1064,7 +1111,7 @@
     "categories": [],
     "notes": [
       "cs1~ from 6f d/db/df input hold",
-      "Input becomes OTG.d+2 against downed opponent"
+      "OTG.d+2 when opponent is downed"
     ]
   },
   {
@@ -1074,7 +1121,7 @@
     "damage": "9",
     "startup": "i15",
     "block": "-31c",
-    "hit": "\n+14a\nFUFA\n",
+    "hit": "+14a FUFA",
     "counter": "+14a",
     "alternateInputs": [
       "d+4"
@@ -1168,7 +1215,8 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Sometimes written Shoulder"
     ]
   },
   {
@@ -1195,7 +1243,7 @@
     "damage": "21",
     "startup": "i19~20",
     "block": "-11",
-    "hit": "\n+14d (-3)\nFDFA\n",
+    "hit": "+14d (-3) FDFA",
     "counter": "+28a (+18)",
     "alternateInputs": [
       "db+2"
@@ -1212,7 +1260,7 @@
     "hit_level": "L",
     "damage": "12",
     "startup": "i15~i17",
-    "block": "-18",
+    "block": "-18c",
     "hit": "-4",
     "counter": "",
     "alternateInputs": [
@@ -1229,7 +1277,7 @@
     "hit_level": "L",
     "damage": "6",
     "startup": "i12",
-    "block": "-15",
+    "block": "-15c",
     "hit": "-4",
     "counter": "",
     "alternateInputs": [
@@ -1283,14 +1331,14 @@
     "damage": "12,21",
     "startup": ",i20~21",
     "block": "-14",
-    "hit": "\n+16d (-1)\nFDFA\n",
+    "hit": "+16d (-1) FDFA",
     "counter": "",
     "alternateInputs": [
       "b+1,2"
     ],
     "categories": [],
     "notes": [
-      "Tornado ",
+      "Tornado",
       "Balcony Break",
       "Move can be delayed 5f",
       "Input can be delayed 5f",
@@ -1304,7 +1352,7 @@
     "damage": "25",
     "startup": "",
     "block": "",
-    "hit": "\n+1d\nFUFA\n",
+    "hit": "+1d FUFA",
     "counter": "",
     "alternateInputs": [
       "b+1+3_2+4"
@@ -1352,8 +1400,7 @@
       "Requires 0~41f charge",
       "Delayed startup from 22~41f charge",
       "Combo from 1st CH with 0~23f charge",
-      "b+2,1* at 42f charge",
-      "H.b+2,1* at 42f charge"
+      "b+2,1* / H.b+2,1* at 42f charge"
     ]
   },
   {
@@ -1371,7 +1418,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Powers up in Heat",
+      "H.b+2,1* with Heat",
       "Chip damage (7)",
       "Charge begins on frame 18",
       "Requires 42f charge",
@@ -1438,7 +1485,7 @@
     "hit_level": "m",
     "damage": "22",
     "startup": "i18",
-    "block": "-7",
+    "block": "-5",
     "hit": "+14d",
     "counter": "",
     "alternateInputs": [
@@ -1446,7 +1493,8 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "+21d (+14) on airborne opponent"
     ]
   },
   {
@@ -1456,7 +1504,7 @@
     "damage": "26",
     "startup": "i22~23",
     "block": "+5",
-    "hit": "\n+17d\nFDFA\n",
+    "hit": "+17d FDFA",
     "counter": "",
     "alternateInputs": [
       "uf+2"
@@ -1464,9 +1512,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 (+18g wall), +67a (+50)",
+      "Heat Dash +5, +67a (+50)",
       "Balcony Break",
-      "Chip Damage (6)"
+      "Chip damage (6)"
     ]
   },
   {
@@ -1705,7 +1753,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i27~34",
-    "block": "+2~+8",
+    "block": "+2",
     "hit": "+18a",
     "counter": "",
     "alternateInputs": [
@@ -1713,7 +1761,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Chip damage (8)"
     ]
   },
   {
@@ -1723,8 +1771,8 @@
     "damage": "21,34",
     "startup": "i18~19",
     "block": "-9",
-    "hit": "\n+0d\nFDFA\n",
-    "counter": "",
+    "hit": "+0d FDFA",
+    "counter": "+35a FUFA",
     "alternateInputs": [
       "f,f,F+2"
     ],
@@ -1733,8 +1781,8 @@
     ],
     "notes": [
       "Spike on 2nd hit",
-      "Transition to t183 throw on front hit only",
-      "+16d (-1) FUFA without throw transition"
+      "Transition to throw on airborne hit",
+      "+17d FDFA without throw transition"
     ]
   },
   {
@@ -1752,6 +1800,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "High Evasion",
       ".73 backward movement over first 14f",
       "Sometimes written ",
       "b,F+1",
@@ -1772,7 +1821,7 @@
     ],
     "categories": [],
     "notes": [
-      "Effective minimum startup i25 after DPD"
+      ""
     ]
   },
   {
@@ -1792,7 +1841,7 @@
       "Move can be delayed 10f",
       "Input can be delayed 10f",
       "Combo from 1st CH with 10f delay",
-      "Transition to r18 SWA +1 +14g +15 with b"
+      "Transition to t59 r19 SWA +1 +14g +15 from 39~44f with b"
     ]
   },
   {
@@ -1809,8 +1858,9 @@
     ],
     "categories": [],
     "notes": [
-      "Sidestep u can be buffered from 4f",
-      "SWA attacks can be buffered from 4f"
+      "Sidestep u can be buffered from 44f",
+      "SWA attacks can be buffered from 51f",
+      "Transition to cs1~ r9 -10 +4 +5 DPD from 60f with df"
     ]
   },
   {
@@ -1827,7 +1877,7 @@
     ],
     "categories": [],
     "notes": [
-      "Effective minimum startup i25 after DPD"
+      ""
     ]
   },
   {
@@ -1844,7 +1894,7 @@
     ],
     "categories": [],
     "notes": [
-      "Effective minimum startup i23 after DPD"
+      ""
     ]
   },
   {
@@ -1864,7 +1914,7 @@
       "Balcony Break",
       "Move can be delayed 12f",
       "Input can be delayed 12f",
-      "Combo from 1st hit with 8f delay"
+      "Combo from 1st hit with 12f delay"
     ]
   },
   {
@@ -1881,7 +1931,7 @@
     ],
     "categories": [],
     "notes": [
-      "Effective minimum startup i21 after DPD"
+      ""
     ]
   },
   {
@@ -1922,7 +1972,7 @@
     "name": "Big Bang Phoenix Smasher",
     "input": "in rage df+1+2",
     "hit_level": "m,t",
-    "damage": "55",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
     "hit": "+0d",
@@ -1930,13 +1980,15 @@
     "alternateInputs": [
       "in rage df+1+2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
       "Rage Art",
-      "Erases opponent's recoverable health on hit",
-      "Damage increases with lower health",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage",
       "114f cinematic freeze on frame 8",
       "t193 r56 on block",
       "t134 on whiff"
@@ -1973,9 +2025,8 @@
     ],
     "categories": [],
     "notes": [
-      "Spike against grounded opponent",
-      "+4 on hit against standing opponent",
-      "Input becomes d+2 against standing opponent"
+      "Spike",
+      "+4 on hit against standing opponent"
     ]
   },
   {
@@ -1994,7 +2045,7 @@
     "notes": [
       "Balcony Break",
       "Chip damage (6)",
-      "Effective minimum startup i30"
+      "Effective minimum startup 30f"
     ]
   },
   {
@@ -2011,7 +2062,7 @@
     ],
     "categories": [],
     "notes": [
-      "Effective minimum startup i28"
+      "Effective minimum startup 28f"
     ]
   },
   {
@@ -2030,10 +2081,10 @@
     "notes": [
       "Cannot be buffered",
       "1.12 movement over 20f",
-      "Cancel to sidestep u from 2f",
-      "Cancel to block from 2f",
-      "Transition to CS with f",
+      "Transition to CS from 2f with f",
       "Transition to r9 DPD from 3~19f with df",
+      "Cancel to r1 block from 2f with b",
+      "Cancel to r1 sidestep from 2f with u",
       "Sometimes written CD"
     ]
   },
@@ -2052,14 +2103,13 @@
     "categories": [],
     "notes": [
       "Cannot be buffered",
-      "t26 includes CD frames",
-      "t35 from 1+2 cancel",
+      "t35 from 1+2~f",
       "Exits crouching state on frame 1",
-      "Cancel to sidestep u from 2f",
-      "Cancel to block from 24f",
       "1.63 movement over 25f (includes CD)",
       "1.98 movement over 35f from 1+2 cancel",
-      "Transition to r9 DPD with df",
+      "Transition to r9 DPD from 2f with df",
+      "Cancel to r1 sidestep from 2f with u",
+      "Cancel to r1 block from 24f with b",
       "Sometimes written ",
       "CS",
       "qcf"
@@ -2092,7 +2142,7 @@
     "damage": "45",
     "startup": "i13~14",
     "block": "-17",
-    "hit": "\n+26a (-10)\nFDFA\n",
+    "hit": "+26a (-10) FDFA",
     "counter": "",
     "alternateInputs": [
       "CS 2",
@@ -2103,12 +2153,12 @@
     "notes": [
       "Heat Engager",
       "Balcony Break",
-      "Powers up in Heat",
+      "H.CS.2 with Heat",
       "Clean Hit range 2.3",
       "30 damage without Clean Hit",
       "Sometimes written ",
-      "Deathfist",
-      "qcf+2"
+      "qcf+2",
+      "Deathfist"
     ]
   },
   {
@@ -2119,7 +2169,7 @@
     "startup": "i18~19",
     "block": "-14c",
     "hit": "+0",
-    "counter": "\n+20a\nFUFA\n",
+    "counter": "+20a FUFA",
     "alternateInputs": [
       "CS 3",
       "cd3",
@@ -2140,7 +2190,7 @@
     "damage": "20",
     "startup": "i32~33",
     "block": "-12c",
-    "hit": "\n+71a (+55)\nT!\n",
+    "hit": "+71a (+55) T!",
     "counter": "",
     "alternateInputs": [
       "CS 1+2",
@@ -2161,7 +2211,7 @@
     "startup": "i19~20",
     "block": "-9",
     "hit": "+35a (+27)",
-    "counter": "\n+74a (+58)\nT!\n",
+    "counter": "+74a (+58) T!",
     "alternateInputs": [
       "CS 3+4",
       "cd3+4",
@@ -2171,6 +2221,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
+      "High Evasion (brief)",
       "Sometimes written qcf+3+4"
     ]
   },
@@ -2190,10 +2241,11 @@
     ],
     "categories": [],
     "notes": [
-      "Buffer window 2~9f",
-      "Sidestep u can be buffered from 2f",
-      "DPD attacks can be buffered from 2f",
-      "WS attacks can be buffered from 2f",
+      "Buffer window 2~9f (3~9f from SWA)",
+      "Sidestep can be buffered with u",
+      "DPD attacks can be buffered",
+      "While standing attacks can be buffered",
+      "Cancel to r1 block from 10f with b",
       "Sometimes written ",
       "DPD",
       "DD"
@@ -2215,7 +2267,7 @@
     "notes": [
       "Balcony Break",
       "Elbow",
-      "Effective minimum startup i25",
+      "Effective minimum startup 24f",
       "Sometimes written ",
       "DPD.2",
       "DD.2"
@@ -2228,7 +2280,7 @@
     "damage": "10,30",
     "startup": ",i18~19",
     "block": "-5",
-    "hit": "+21d (-5)",
+    "hit": "+23d FUFA",
     "counter": "",
     "alternateInputs": [
       "DPD df+2,1"
@@ -2250,10 +2302,10 @@
     "name": "Quick Lightning Breaker",
     "input": "DPD df+2,3",
     "hit_level": "m,M",
-    "damage": "17,22",
+    "damage": "10,22",
     "startup": ",i25~26",
     "block": "-13c",
-    "hit": "\n+10d\nFDFA\n",
+    "hit": "+10d FDFA",
     "counter": "+46a",
     "alternateInputs": [
       "DPD df+2,3"
@@ -2283,7 +2335,7 @@
     ],
     "categories": [],
     "notes": [
-      "Effective minimum startup i27",
+      "Effective minimum startup 27f",
       "Sometimes written ",
       "DPD.4",
       "DD.4"
@@ -2303,7 +2355,7 @@
     ],
     "categories": [],
     "notes": [
-      "Effective minimum startup i28",
+      "Effective minimum startup 28f",
       "t112 on hit",
       "Deals recoverable damage to self",
       "Sometimes written ",
@@ -2328,11 +2380,14 @@
       "Cannot be buffered",
       "Moves backward up to 1.04",
       "Less movement against distant opponent",
+      "cs1~10 against distant opponent",
       "Less movement from attack transition",
       "No crouching state from attack transition",
       "High evasion from attack transition",
-      "Sometimes written SWA or qcb",
-      "Can transition to DPD with SWA df"
+      "Transition to r9 DPD from 2f with df",
+      "Sometimes written ",
+      "SWA",
+      "qcb"
     ]
   },
   {
@@ -2342,7 +2397,7 @@
     "damage": "24",
     "startup": "i21~22",
     "block": "+0c",
-    "hit": "\n+21d\nFDFA\n",
+    "hit": "+21d FDFA",
     "counter": "+53a",
     "alternateInputs": [
       "SWA 1",
@@ -2369,7 +2424,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 (+18g wall), +36a (+26)",
+      "Heat Dash +5, +36a (+26)",
       "Clean Hit range 2.45",
       "Heat Dash disables Clean Hit",
       "21 damage without Clean Hit",
@@ -2441,7 +2496,7 @@
     "damage": "14,20,22",
     "startup": ",i25~26",
     "block": "-13c",
-    "hit": "\n+10d\nFDFA\n",
+    "hit": "+10d FDFA",
     "counter": "+46a",
     "alternateInputs": [
       "SWA 3,2,3",
@@ -2504,18 +2559,19 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
-    "hit": "\n+1d\nFUFA\n",
+    "block": "-6",
+    "hit": "+1d FUFA",
     "counter": "",
     "alternateInputs": [
       "1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2",
-      "-6 if broken",
       "Side switch"
     ]
   },
@@ -2525,39 +2581,41 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
-    "hit": "\n+1d\nFUFA\n",
+    "block": "-3",
+    "hit": "+1d FUFA",
     "counter": "",
     "alternateInputs": [
       "2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2",
-      "-3 standing if broken",
       "Side switch"
     ]
   },
   {
     "name": "Chest Crusher",
-    "input": "2+4,b",
+    "input": "2+4~b",
     "hit_level": "t",
     "damage": "40",
     "startup": "i12~14",
-    "block": "",
+    "block": "-2",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
-      "2+4,b"
+      "2+4~b"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
-      "Throw break 2",
-      "-2 if broken"
+      "Homing",
+      "Throw break 2"
     ]
   },
   {
@@ -2566,8 +2624,8 @@
     "hit_level": "t",
     "damage": "45",
     "startup": "i12~14",
-    "block": "",
-    "hit": "\n+1d\nFUFA\n",
+    "block": "-6",
+    "hit": "+1d FUFA",
     "counter": "",
     "alternateInputs": [
       "Left Throw"
@@ -2576,8 +2634,7 @@
       "throw"
     ],
     "notes": [
-      "Throw break 1",
-      "-6 if broken"
+      "Throw break 1"
     ]
   },
   {
@@ -2586,8 +2643,8 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12~14",
-    "block": "",
-    "hit": "\n-2d\nFUFA\n",
+    "block": "-3",
+    "hit": "-2d FUFA",
     "counter": "",
     "alternateInputs": [
       "Right Throw"
@@ -2597,7 +2654,6 @@
     ],
     "notes": [
       "Throw break 2",
-      "-3 if broken",
       "Side switch"
     ]
   },
@@ -2608,7 +2664,7 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "\n-14d\nFUFA\n",
+    "hit": "-14d FUFA",
     "counter": "",
     "alternateInputs": [
       "Back Throw 1+3"
@@ -2627,7 +2683,7 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "\n+1d\nFDFA\n",
+    "hit": "+1d FDFA",
     "counter": "",
     "alternateInputs": [
       "Back Throw 2+4"
@@ -2646,7 +2702,7 @@
     "hit_level": "t",
     "damage": "22",
     "startup": "i12~13",
-    "block": "",
+    "block": "-2",
     "hit": "+9",
     "counter": "",
     "alternateInputs": [
@@ -2656,8 +2712,7 @@
       "throw"
     ],
     "notes": [
-      "Throw break 1",
-      "-2 if broken"
+      "Throw break 1"
     ]
   },
   {
@@ -2667,7 +2722,7 @@
     "damage": "22,15",
     "startup": ",i13~14",
     "block": "",
-    "hit": "\n+16d (-20)\nFDFA\n",
+    "hit": "+16d (-20) FDFA",
     "counter": "",
     "alternateInputs": [
       "df+1+3,qcf+2"
@@ -2677,7 +2732,7 @@
     ],
     "notes": [
       "Balcony Break",
-      "Powers up in Heat",
+      "H.df+1+3,qcf+2 with Heat",
       "Strict qcf input required (d,f does not work)",
       "Perfect input window 55-56f",
       "Perfect input increases damage, wall carry"
@@ -2690,7 +2745,7 @@
     "damage": "22,20",
     "startup": ",i13~14",
     "block": "",
-    "hit": "\n+16d (-20)\nFDFA\n",
+    "hit": "+16d (-20) FDFA",
     "counter": "",
     "alternateInputs": [
       "df+1+3:qcf+2"
@@ -2700,7 +2755,7 @@
     ],
     "notes": [
       "Balcony Break",
-      "Powers up in Heat",
+      "H.df+1+3:qcf+2 with Heat",
       "Strict qcf input required (d,f does not work)",
       "Perfect input window 55-56f",
       "Perfect input increases damage, wall carry"
@@ -2712,8 +2767,8 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i11",
-    "block": "",
-    "hit": "\n+6d\nFUFA\n",
+    "block": "-2",
+    "hit": "+6d FUFA",
     "counter": "",
     "alternateInputs": [
       "b+1+4"
@@ -2723,7 +2778,6 @@
     ],
     "notes": [
       "Throw break 1",
-      "-2 if broken",
       "Side switch"
     ]
   },
@@ -2733,7 +2787,7 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -2744,8 +2798,7 @@
     ],
     "notes": [
       "Spike",
-      "Throw break 1+2",
-      "-6 if broken"
+      "Throw break 1+2"
     ]
   },
   {
@@ -2754,7 +2807,7 @@
     "hit_level": "t",
     "damage": "38",
     "startup": "i12",
-    "block": "",
+    "block": "+0 BT/+0 FUFA",
     "hit": "+20d",
     "counter": "",
     "alternateInputs": [
@@ -2767,7 +2820,6 @@
       "Balcony Break",
       "Throw break 1+2",
       "Side switch if broken",
-      "+0 BT if broken",
       "+0 FUFA if broken at wall"
     ]
   },
@@ -2777,7 +2829,7 @@
     "hit_level": "t",
     "damage": "0",
     "startup": "i26",
-    "block": "",
+    "block": "-5 BT",
     "hit": "+3d",
     "counter": "",
     "alternateInputs": [
@@ -2788,7 +2840,6 @@
     ],
     "notes": [
       "Throw break 1+2",
-      "-5 BT if broken",
       "Transition to Takedown on hit"
     ]
   },
@@ -2818,7 +2869,7 @@
     "hit_level": "t",
     "damage": "25",
     "startup": ",i26",
-    "block": "",
+    "block": "-9",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -2828,8 +2879,7 @@
       "throw"
     ],
     "notes": [
-      "Throw break 1+2",
-      "-9 if broken"
+      "Throw break 1+2"
     ]
   },
   {
@@ -2839,7 +2889,7 @@
     "damage": "50",
     "startup": ",i26",
     "block": "",
-    "hit": "\n+0d\nFDFA\n",
+    "hit": "+0d FDFA",
     "counter": "",
     "alternateInputs": [
       "FC 1+2,2,d+1,1,1+2"

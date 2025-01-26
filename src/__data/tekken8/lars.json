@@ -24,7 +24,7 @@
     "hit_level": "m",
     "damage": "55",
     "startup": "i18~19",
-    "block": "+8 (+10 DEN)",
+    "block": "+8c (+10c DEN)",
     "hit": "+0",
     "counter": "",
     "alternateInputs": [
@@ -77,20 +77,45 @@
     ]
   },
   {
+    "name": "Rising Force (Heat)",
+    "input": "in heat LEN 2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i16~17",
+    "block": "-9",
+    "hit": "+65a (+49)",
+    "counter": "",
+    "alternateInputs": [
+      "in heat LEN 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "9 chip damage on block"
+    ]
+  },
+  {
     "name": "Delta Slicer",
     "input": "1,1,1",
     "hit_level": "h,m,m",
     "damage": "5,8,20",
     "startup": ",i25~26",
     "block": "-12",
-    "hit": "KND",
+    "hit": "+5c",
     "counter": "",
     "alternateInputs": [
       "1,1,1"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      "Heat Engager"
+      "Heat Engager",
+      "Heat Dash +5, +43d (+35)",
+      "Balcony Break",
+      "Combo from 2nd hit",
+      "Combo from 1st CH",
+      "This move is essentially homing"
     ]
   },
   {
@@ -108,6 +133,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -126,6 +152,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -136,7 +163,7 @@
     "damage": "23",
     "startup": "i22~23",
     "block": "+5",
-    "hit": "+7",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "DEN 3"
@@ -146,9 +173,10 @@
     ],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +34a (+27)",
       "Homing",
       "Transition to SEN (cannot cancel, does not transition when using Heat Dash)",
-      "chip damage on block"
+      "4 chip damage on block"
     ]
   },
   {
@@ -166,6 +194,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -200,7 +229,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit CH"
     ]
   },
   {
@@ -210,14 +239,21 @@
     "damage": "5,8,20",
     "startup": ",i25~26",
     "block": "-12",
-    "hit": "KND",
+    "hit": "+5c",
     "counter": "",
     "alternateInputs": [
       "1,1,1"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      "Heat Engager"
+      "Heat Engager",
+      "Heat Dash +5, +43d (+35)",
+      "Balcony Break",
+      "Combo from 2nd hit",
+      "Combo from 1st CH",
+      "This move is essentially homing"
     ]
   },
   {
@@ -251,6 +287,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st CH",
       "Transition to LEN with input D"
     ]
   },
@@ -286,7 +323,7 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Transition to LEN"
+      "Transition to LEN, cannot cancel"
     ]
   },
   {
@@ -303,7 +340,24 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to LEN with input D (-11/+6/+6)"
+      "Transition to LEN with input D"
+    ]
+  },
+  {
+    "name": "",
+    "input": "3~D",
+    "hit_level": "h",
+    "damage": "16",
+    "startup": "i15",
+    "block": "-11",
+    "hit": "+6",
+    "counter": "",
+    "alternateInputs": [
+      "3~D"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -355,6 +409,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -381,16 +436,34 @@
     "hit_level": "h,m",
     "damage": "10,11",
     "startup": ",i12",
-    "block": "-5 SEN",
-    "hit": "+6 SEN",
+    "block": "-5",
+    "hit": "+6",
     "counter": "",
     "alternateInputs": [
       "f+1,2"
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Transition to SEN",
-      "Cancel SEN transition to standing with input B (-8/+3/+3)"
+      "Cancel SEN transition with input B"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+1,2~B",
+    "hit_level": "h,m",
+    "damage": "10,11",
+    "startup": ",i12",
+    "block": "-8",
+    "hit": "+3",
+    "counter": "",
+    "alternateInputs": [
+      "f+1,2~B"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -399,17 +472,35 @@
     "hit_level": "h,m,m",
     "damage": "10,11,20",
     "startup": ",i24",
-    "block": "-12 / -5 DEN",
-    "hit": "+41d (-17) / +48d (-10) DEN",
-    "counter": "",
+    "block": "-5",
+    "hit": "+48d (-10)",
+    "counter": "+49a",
     "alternateInputs": [
       "f+1,2,3"
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
+      "Combo from 2nd hit CH",
       "Transition to DEN",
-      "Cancel DEN transition to standing with input B",
-      "Balcony Break"
+      "Cancel DEN transition with input B"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+1,2,3~B",
+    "hit_level": "h,m,m",
+    "damage": "10,11,20",
+    "startup": ",i24",
+    "block": "-12",
+    "hit": "+41d (-17)",
+    "counter": "+42a",
+    "alternateInputs": [
+      "f+1,2,3~B"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -435,17 +526,35 @@
     "hit_level": "h,h",
     "damage": "10,15",
     "startup": ",i13",
-    "block": "-6 / -5 SEN",
-    "hit": "+5 / +6 SEN",
+    "block": "-5",
+    "hit": "+6",
     "counter": "",
     "alternateInputs": [
       "f+2,1"
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Jails",
       "Transition to SEN",
-      "Cancel SEN transition to standing with input B (-6/+5/+5)"
+      "Cancel SEN transition with input B"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f+2,1~B",
+    "hit_level": "h,h",
+    "damage": "10,15",
+    "startup": ",i13",
+    "block": "-6",
+    "hit": "+5",
+    "counter": "",
+    "alternateInputs": [
+      "f+2,1~B"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -496,7 +605,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Knee"
     ]
   },
   {
@@ -581,14 +690,15 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Shoulder"
     ]
   },
   {
     "name": "",
     "input": "df+1",
     "hit_level": "m",
-    "damage": "",
+    "damage": "14",
     "startup": "i13",
     "block": "-1",
     "hit": "+5",
@@ -607,16 +717,34 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i14",
-    "block": "-11 / -3 SEN",
-    "hit": "+1 / +9 SEN",
-    "counter": "+31 (+23) / +39 (+31)",
+    "block": "-3",
+    "hit": "+9",
+    "counter": "+39 (+31)",
     "alternateInputs": [
       "df+2"
     ],
     "categories": [],
     "notes": [
+      "Elbow",
       "Transition to SEN",
-      "Cancel SEN transition to standing with input B"
+      "Cancel SEN transition with input B"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+2~B",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i14",
+    "block": "-11",
+    "hit": "+1",
+    "counter": "+31 (+23)",
+    "alternateInputs": [
+      "df+2~B"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -625,8 +753,8 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i16",
-    "block": "-7 / -4 DEN",
-    "hit": "+5 / +8 DEN",
+    "block": "-7",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "df+3"
@@ -634,6 +762,23 @@
     "categories": [],
     "notes": [
       "Transition to DEN with input D"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+3~D",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i16",
+    "block": "-4",
+    "hit": "+8",
+    "counter": "",
+    "alternateInputs": [
+      "df+3~D"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -654,6 +799,23 @@
     ]
   },
   {
+    "name": "",
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "16",
+    "startup": "i15~16",
+    "block": "-8",
+    "hit": "+2",
+    "counter": "",
+    "alternateInputs": [
+      "df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
     "name": "Tactical Sword",
     "input": "d+2",
     "hit_level": "m",
@@ -667,6 +829,7 @@
     ],
     "categories": [],
     "notes": [
+      "Elbow",
       "Transition to FC with input D"
     ]
   },
@@ -701,7 +864,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit CH"
     ]
   },
   {
@@ -752,6 +915,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Transition to LEN with input D"
     ]
   },
@@ -761,8 +925,8 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i15",
-    "block": "-8 / -5 SEN",
-    "hit": "+3 / +6 SEN",
+    "block": "-8",
+    "hit": "+3",
     "counter": "",
     "alternateInputs": [
       "db+2"
@@ -770,6 +934,23 @@
     "categories": [],
     "notes": [
       "Transition to SEN with input F"
+    ]
+  },
+  {
+    "name": "",
+    "input": "db+2~F",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i15",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "alternateInputs": [
+      "db+2~F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -795,8 +976,8 @@
     "hit_level": "m,m",
     "damage": "12,15",
     "startup": ",i19",
-    "block": "-13 / +13",
-    "hit": "+8 / +24 (+14)",
+    "block": "-13",
+    "hit": "+8",
     "counter": "",
     "alternateInputs": [
       "db+2,3"
@@ -805,6 +986,26 @@
     "notes": [
       "Tornado",
       "Input can be held to power up and deal more chip damage on block"
+    ]
+  },
+  {
+    "name": "HE Combination (Hold)",
+    "input": "db+2,3*",
+    "hit_level": "m,m",
+    "damage": "12,25",
+    "startup": ",i51",
+    "block": "+13",
+    "hit": "+24d (+14)",
+    "counter": "",
+    "alternateInputs": [
+      "db+2,3*"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Input can be partially held from i? to i?",
+      "10 chip damage on block"
     ]
   },
   {
@@ -830,15 +1031,33 @@
     "hit_level": "m",
     "damage": "18",
     "startup": "i26",
-    "block": "-13 / -8 DEN",
-    "hit": "+6 / +7 DEN",
-    "counter": "+10 / +11 DEN",
+    "block": "-13",
+    "hit": "+6",
+    "counter": "+10",
     "alternateInputs": [
       "db+1+2"
     ],
     "categories": [],
     "notes": [
-      "Transition to DEN with input D"
+      "Transition to DEN with input D",
+      "Backsway"
+    ]
+  },
+  {
+    "name": "",
+    "input": "db+1+2~D",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i26",
+    "block": "-8",
+    "hit": "+7",
+    "counter": "+11",
+    "alternateInputs": [
+      "db+1+2~D"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -891,7 +1110,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit",
+      "Can be delayed from 1st hit by ??? frames",
+      "Can be delayed by a total of ??? frames"
     ]
   },
   {
@@ -918,8 +1139,8 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i17",
-    "block": "-12 / -5 SEN",
-    "hit": "+4 / +11 SEN",
+    "block": "-12",
+    "hit": "+4",
     "counter": "",
     "alternateInputs": [
       "b+3"
@@ -927,6 +1148,23 @@
     "categories": [],
     "notes": [
       "Transition to SEN with input F"
+    ]
+  },
+  {
+    "name": "",
+    "input": "b+3~F",
+    "hit_level": "m",
+    "damage": "14",
+    "startup": "i17",
+    "block": "-5",
+    "hit": "+11",
+    "counter": "",
+    "alternateInputs": [
+      "b+3~F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -960,7 +1198,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Knee"
     ]
   },
   {
@@ -979,13 +1217,13 @@
       "throw"
     ],
     "notes": [
-      ""
+      "Knee"
     ]
   },
   {
     "name": "Wind Liger",
     "input": "b+1+2",
-    "hit_level": "mm",
+    "hit_level": "m,m",
     "damage": "4,20",
     "startup": "i21~22,i8~9",
     "block": "-9",
@@ -998,8 +1236,9 @@
       "homing"
     ],
     "notes": [
+      "Balcony Break",
       "Homing",
-      "Balcony Break"
+      "Can evade jabs from range"
     ]
   },
   {
@@ -1033,7 +1272,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: ub+3, u+3"
+      ""
     ]
   },
   {
@@ -1050,7 +1289,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: ub+4, u+4"
+      ""
     ]
   },
   {
@@ -1067,14 +1306,14 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: ub+3+4, u+3+4"
+      ""
     ]
   },
   {
     "name": "Avalanche Flip Break Down",
     "input": "uf+3+4,4",
-    "hit_level": "sp,th(m)",
-    "damage": "40",
+    "hit_level": "sp,m,th",
+    "damage": "20,20",
     "startup": ",i17~18",
     "block": "-4",
     "hit": "0",
@@ -1139,8 +1378,26 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to SEN on hit with input F",
-      "Tornado"
+      "Tornado",
+      "Transition to SEN on hit with input F"
+    ]
+  },
+  {
+    "name": "",
+    "input": "f,F+2~F",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i21~22",
+    "block": "",
+    "hit": "+37a",
+    "counter": "",
+    "alternateInputs": [
+      "f,F+2~F"
+    ],
+    "categories": [],
+    "notes": [
+      "On hit only",
+      "Switches sides"
     ]
   },
   {
@@ -1166,8 +1423,8 @@
     "hit_level": "l,h",
     "damage": "12,15",
     "startup": ",i24",
-    "block": "-7 DEN",
-    "hit": "+9 DEN",
+    "block": "-7",
+    "hit": "+9",
     "counter": "",
     "alternateInputs": [
       "f,F+4,2"
@@ -1208,8 +1465,9 @@
     ],
     "categories": [],
     "notes": [
+      "Elbow",
       "Balcony Break",
-      "chip damage on block"
+      "4 chip damage on block"
     ]
   },
   {
@@ -1278,7 +1536,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "chip damage on block"
+      "9 chip damage on block"
     ]
   },
   {
@@ -1322,7 +1580,7 @@
     "damage": "16",
     "startup": "i15~16",
     "block": "-12",
-    "hit": "+38a / +36a SEN",
+    "hit": "+38a",
     "counter": "",
     "alternateInputs": [
       "ws1"
@@ -1335,12 +1593,30 @@
   },
   {
     "name": "",
+    "input": "ws1~F",
+    "hit_level": "m",
+    "damage": "16",
+    "startup": "i15~16",
+    "block": "",
+    "hit": "+36a",
+    "counter": "",
+    "alternateInputs": [
+      "ws1~F"
+    ],
+    "categories": [],
+    "notes": [
+      "On hit only",
+      "Switches sides"
+    ]
+  },
+  {
+    "name": "",
     "input": "ws2",
     "hit_level": "m",
     "damage": "13",
     "startup": "i13~14",
-    "block": "-8 / -12 DEN / -5 SEN",
-    "hit": "+3/ -1 DEN / +6 SEN",
+    "block": "-8",
+    "hit": "+3",
     "counter": "",
     "alternateInputs": [
       "ws2"
@@ -1349,6 +1625,40 @@
     "notes": [
       "Transition to DEN with D",
       "Transition to SEN with F"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2~D",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i13~14",
+    "block": "-12",
+    "hit": "-1",
+    "counter": "",
+    "alternateInputs": [
+      "ws2~D"
+    ],
+    "categories": [],
+    "notes": [
+      "Retreats during stance transition"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2~F",
+    "hit_level": "m",
+    "damage": "13",
+    "startup": "i13~14",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "alternateInputs": [
+      "ws2~F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1374,8 +1684,8 @@
     "hit_level": "m,h",
     "damage": "13,20",
     "startup": ",i20",
-    "block": "-15 / -11 LEN",
-    "hit": "-3 / +6 LEN",
+    "block": "-15",
+    "hit": "-3",
     "counter": "",
     "alternateInputs": [
       "ws2,3"
@@ -1387,13 +1697,30 @@
     ]
   },
   {
+    "name": "",
+    "input": "ws2,3~D",
+    "hit_level": "m,h",
+    "damage": "13,20",
+    "startup": ",i20",
+    "block": "-11",
+    "hit": "+6",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,3~D"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
     "name": "Tower Cannon",
     "input": "ws3",
     "hit_level": "h",
     "damage": "30",
     "startup": "i20",
-    "block": "0 / +4 LEN",
-    "hit": "+21 (+15) / +26 (+20) LEN",
+    "block": "0",
+    "hit": "+21 (+15)",
     "counter": "",
     "alternateInputs": [
       "ws3"
@@ -1401,6 +1728,23 @@
     "categories": [],
     "notes": [
       "Transition to LEN with input D"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws3~D",
+    "hit_level": "h",
+    "damage": "30",
+    "startup": "i20",
+    "block": "+4",
+    "hit": "+26 (+20)",
+    "counter": "",
+    "alternateInputs": [
+      "ws3~D"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1443,15 +1787,33 @@
     "hit_level": "h",
     "damage": "14",
     "startup": "i11~12",
-    "block": "+1 / -3 SEN",
-    "hit": "+8 / +4 SEN",
+    "block": "+1",
+    "hit": "+8",
     "counter": "",
     "alternateInputs": [
       "DEN 1"
     ],
     "categories": [],
     "notes": [
+      "Elbow",
       "Transition to SEN with input F"
+    ]
+  },
+  {
+    "name": "",
+    "input": "DEN 1~F",
+    "hit_level": "h",
+    "damage": "14",
+    "startup": "i11~12",
+    "block": "-3",
+    "hit": "+4",
+    "counter": "",
+    "alternateInputs": [
+      "DEN 1~F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1469,6 +1831,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -1479,8 +1842,8 @@
     "damage": "19",
     "startup": "i17~19",
     "block": "-7",
-    "hit": "+7 / +9 Flip",
-    "counter": "+62a / +64 Flip",
+    "hit": "+7",
+    "counter": "+62a",
     "alternateInputs": [
       "DEN 2"
     ],
@@ -1490,13 +1853,30 @@
     ]
   },
   {
+    "name": "",
+    "input": "DEN 2~UF",
+    "hit_level": "m",
+    "damage": "19",
+    "startup": "i17~19",
+    "block": "",
+    "hit": "+9",
+    "counter": "+64",
+    "alternateInputs": [
+      "DEN 2~UF"
+    ],
+    "categories": [],
+    "notes": [
+      "On hit only"
+    ]
+  },
+  {
     "name": "Bow Shock",
     "input": "DEN 3",
     "hit_level": "m",
     "damage": "23",
     "startup": "i22~23",
     "block": "+5",
-    "hit": "+7",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "DEN 3"
@@ -1506,9 +1886,10 @@
     ],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +34a (+27)",
       "Homing",
       "Transition to SEN (cannot cancel, does not transition when using Heat Dash)",
-      "chip damage on block"
+      "4 chip damage on block"
     ]
   },
   {
@@ -1552,15 +1933,32 @@
     "hit_level": "l",
     "damage": "21",
     "startup": "i22~23",
-    "block": "-14 / -7 SEN",
-    "hit": "-3 / +4 SEN",
-    "counter": "+5 / +12 SEN",
+    "block": "-14",
+    "hit": "-3",
+    "counter": "+5",
     "alternateInputs": [
       "DEN 3+4"
     ],
     "categories": [],
     "notes": [
       "Transition to SEN with input F"
+    ]
+  },
+  {
+    "name": "",
+    "input": "DEN 3+4~F",
+    "hit_level": "l",
+    "damage": "21",
+    "startup": "i22~23",
+    "block": "-7",
+    "hit": "+4",
+    "counter": "+12",
+    "alternateInputs": [
+      "DEN 3+4~F"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1617,7 +2015,8 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to DEN"
+      "Transition to DEN",
+      "Can only performed on first DEN transition"
     ]
   },
   {
@@ -1669,6 +2068,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -1750,7 +2150,7 @@
     "hit_level": "mm",
     "damage": "22 (11)",
     "startup": "i13~14,i18~19",
-    "block": "+0",
+    "block": "+0c",
     "hit": "+22d (-13)",
     "counter": "",
     "alternateInputs": [
@@ -1759,7 +2159,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "chip damage on block"
+      "6 chip damage on block"
     ]
   },
   {
@@ -1848,25 +2248,50 @@
     "categories": [],
     "notes": [
       "Tornado",
+      "8 chip damage on block",
       "Powers up during Heat (Uses Heat Time, Tornado launches on hit)"
+    ]
+  },
+  {
+    "name": "Rising Force (Heat)",
+    "input": "in heat LEN 2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i16~17",
+    "block": "-9",
+    "hit": "+65a (+49)",
+    "counter": "",
+    "alternateInputs": [
+      "in heat LEN 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "9 chip damage on block"
     ]
   },
   {
     "name": "Zeus Unlimited",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
-    "hit": "0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "in rage df+1+2"
     ],
     "categories": [],
     "notes": [
-      "Template:RageArt",
-      "Erase opponent's recoverable health on hit"
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -1900,7 +2325,29 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "4 Chip damage on block",
+      "7 Chip damage on block in heat"
+    ]
+  },
+  {
+    "name": "Wall Jump Divekick",
+    "input": "(Back to wall) b,b,UB",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i29~30",
+    "block": "-1",
+    "hit": "+45d (-13)",
+    "counter": "",
+    "alternateInputs": [
+      "(Back to wall) b,b,UB"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Bryan",
+      "Kazuya",
+      "Lars",
+      "Law"
     ]
   },
   {

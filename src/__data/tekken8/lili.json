@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12 (12)",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -15,7 +15,12 @@
       "powercrush"
     ],
     "notes": [
-      "Heat Burst"
+      "Heat Burst",
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -41,7 +46,7 @@
     ]
   },
   {
-    "name": "White Swan Mezzo Forte (Block)",
+    "name": "White Swan Mezzo Forte",
     "input": "in heat 2+3",
     "hit_level": "h,h,m,M",
     "damage": "15,15,15,30",
@@ -86,8 +91,8 @@
     "name": "Peacock Waltz",
     "input": "3,1",
     "hit_level": "m,m",
-    "damage": "12,24",
-    "startup": "i27",
+    "damage": "12,20",
+    "startup": ",i27~28",
     "block": "-13",
     "hit": "+40d (-18)",
     "counter": "",
@@ -100,14 +105,14 @@
       " ",
       "Heat Dash +5, +36a (+26)",
       "Balcony Break",
-      "Combos from 1st hit"
+      "Combo from 1st hit"
     ]
   },
   {
     "name": "Black Swan",
     "input": "3+4",
     "hit_level": "h,h",
-    "damage": "30",
+    "damage": "10,20",
     "startup": "i23~24 i14~15",
     "block": "-2",
     "hit": "+20a (+11)",
@@ -123,7 +128,9 @@
       " ",
       "Heat Dash +5, +62a (+42)",
       "Homing",
-      "Balcony Break "
+      "Balcony Break",
+      "Chip damage on block [8]",
+      "Jail from 1st attack"
     ]
   },
   {
@@ -143,7 +150,8 @@
       "Heat Engager",
       "Heat Dash +67a (+50)",
       "Balcony Break",
-      "Combos from 1st hit",
+      "Combo from 1st hit with 8?F delay",
+      "Can be delayed up to 14?F",
       "Floor breaks floating opponent"
     ]
   },
@@ -165,7 +173,7 @@
       "Heat Dash +5, +34d",
       " ",
       "Balcony Break",
-      "Combos from 1st hit"
+      "Combo from 1st hit with 4?F delay"
     ]
   },
   {
@@ -224,30 +232,10 @@
     "categories": [],
     "notes": [
       "All moves named Piercing Thorn share these properties when in Heat",
+      "H.RAB4 (js15~)",
       "Balcony Break",
       "Chip damage on block [16]",
       "Partially consumes remaining Heat time"
-    ]
-  },
-  {
-    "name": "La Vie en Rose Fortissimo",
-    "input": "in rage df+1+2",
-    "hit_level": "m,t",
-    "damage": "55+",
-    "startup": "i20",
-    "block": "-15",
-    "hit": "+0",
-    "counter": "",
-    "alternateInputs": [
-      "in rage df+1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Rage Art",
-      "Damage increases with lower health",
-      "Erases opponent's recoverable health on hit"
     ]
   },
   {
@@ -264,7 +252,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -272,9 +260,9 @@
     "input": "1,1",
     "hit_level": "h,h",
     "damage": "5,16",
-    "startup": "i20~21",
-    "block": "-4~-3",
-    "hit": "+4~+5",
+    "startup": ",i20~21",
+    "block": "-6",
+    "hit": "+4",
     "counter": "",
     "alternateInputs": [
       "1,1"
@@ -282,24 +270,28 @@
     "categories": [],
     "notes": [
       "Elbow",
-      "Combos from 1st hit"
+      "Jail from 1st attack with no delay",
+      "Combo from 1st hit with 5f delay",
+      "Input can be delayed 6f"
     ]
   },
   {
     "name": "Tricolore",
     "input": "1,1,3",
-    "hit_level": "h,h,m",
+    "hit_level": "h,h,M",
     "damage": "5,16,17",
-    "startup": "i20~21",
-    "block": "-15~-14",
-    "hit": "+6~+7d",
+    "startup": ",i20~21",
+    "block": "-15",
+    "hit": "+6d",
     "counter": "+25a",
     "alternateInputs": [
       "1,1,3"
     ],
     "categories": [],
     "notes": [
-      "Combos from 2nd hit CH"
+      "Combo from 2nd CH with 6f delay",
+      "Input can be delayed 6f",
+      "Move can be delayed 5f"
     ]
   },
   {
@@ -307,7 +299,7 @@
     "input": "1,2",
     "hit_level": "h,h",
     "damage": "5,12",
-    "startup": "i12",
+    "startup": ",i12",
     "block": "-3",
     "hit": "+8",
     "counter": "",
@@ -316,7 +308,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit"
+      "Jail from 1st attack with 6f delay"
     ]
   },
   {
@@ -324,7 +316,7 @@
     "input": "1,2,3",
     "hit_level": "h,h,L",
     "damage": "5,12,13",
-    "startup": "i26",
+    "startup": ",i26",
     "block": "-13",
     "hit": "-2",
     "counter": "+6c",
@@ -333,7 +325,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 2nd hit CH"
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -341,9 +333,9 @@
     "input": "1,2,4",
     "hit_level": "h,h,m",
     "damage": "5,12,20",
-    "startup": "i29",
-    "block": "-9 / +2 H +7wc",
-    "hit": "+5a (-4)",
+    "startup": ",i29~34",
+    "block": "-9~-4",
+    "hit": "+2a (-7)",
     "counter": "",
     "alternateInputs": [
       "1,2,4"
@@ -352,7 +344,9 @@
     "notes": [
       "Balcony Break",
       "Chip on block [6]",
-      "Powers up in Heat: 30 damage, +2 ob, 13 Chip, +18a (-8) oh",
+      "Input can be delayed 4f",
+      "Move can be delayed 3f",
+      "Powers up in Heat: 30 damage, +2 ob, Wall Crush +7g, 13 Chip, +18a (-8) oh",
       "Partially consumes remaining Heat time"
     ]
   },
@@ -378,7 +372,7 @@
     "input": "2,3",
     "hit_level": "h,L",
     "damage": "8,13",
-    "startup": "i26",
+    "startup": ",i26",
     "block": "-12",
     "hit": "-2",
     "counter": "+6c",
@@ -387,7 +381,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit"
+      "Combo from 1st hit"
     ]
   },
   {
@@ -395,8 +389,8 @@
     "input": "2,4",
     "hit_level": "h,h",
     "damage": "8,20",
-    "startup": "i22~26",
-    "block": "-2",
+    "startup": ",i22~26",
+    "block": "-2~+2",
     "hit": "+24a (+15)",
     "counter": "",
     "alternateInputs": [
@@ -405,7 +399,8 @@
     "categories": [],
     "notes": [
       "Balcony Break ",
-      "Combos from 1st hit"
+      "Combo from 1st hit with 5f delay",
+      "Input can be delayed 10f"
     ]
   },
   {
@@ -413,7 +408,7 @@
     "input": "3",
     "hit_level": "m",
     "damage": "12",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-11",
     "hit": "-3",
     "counter": "",
@@ -429,8 +424,8 @@
     "name": "Peacock Waltz",
     "input": "3,1",
     "hit_level": "m,m",
-    "damage": "12,24",
-    "startup": "i27",
+    "damage": "12,20",
+    "startup": ",i27~28",
     "block": "-13",
     "hit": "+40d (-18)",
     "counter": "",
@@ -443,7 +438,7 @@
       " ",
       "Heat Dash +5, +36a (+26)",
       "Balcony Break",
-      "Combos from 1st hit"
+      "Combo from 1st hit"
     ]
   },
   {
@@ -451,7 +446,7 @@
     "input": "3,2",
     "hit_level": "m,h",
     "damage": "12,8",
-    "startup": "i27",
+    "startup": ",i27",
     "block": "-5",
     "hit": "+2",
     "counter": "+10",
@@ -460,8 +455,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit",
-      "Transition to -2, +5, +14 DEW with F"
+      "Combo from 1st hit with 2f delay",
+      "Enter DEW -2 +5 +14 with F"
     ]
   },
   {
@@ -469,8 +464,8 @@
     "input": "3,2,3",
     "hit_level": "m,h,h",
     "damage": "12,8,22",
-    "startup": "i24",
-    "block": "-9",
+    "startup": ",i24~27",
+    "block": "-9~-6",
     "hit": "+13a (+4)",
     "counter": "",
     "alternateInputs": [
@@ -479,7 +474,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combos from 2nd hit CH"
+      "Combo from 2nd CH with 4f delay"
     ]
   },
   {
@@ -504,7 +499,7 @@
     "input": "1+2",
     "hit_level": "m",
     "damage": "26",
-    "startup": "i12",
+    "startup": "i12~13",
     "block": "-12",
     "hit": "+20d (+10)",
     "counter": "",
@@ -513,14 +508,14 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break "
+      "Balcony Break"
     ]
   },
   {
     "name": "Black Swan",
     "input": "3+4",
     "hit_level": "h,h",
-    "damage": "30",
+    "damage": "10,20",
     "startup": "i23~24 i14~15",
     "block": "-2",
     "hit": "+20a (+11)",
@@ -536,7 +531,9 @@
       " ",
       "Heat Dash +5, +62a (+42)",
       "Homing",
-      "Balcony Break "
+      "Balcony Break",
+      "Chip damage on block [8]",
+      "Jail from 1st attack"
     ]
   },
   {
@@ -571,7 +568,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combos from 1st hit"
+      "Combo from 1st hit with 3?F delay"
     ]
   },
   {
@@ -635,7 +632,7 @@
     "hit_level": "m,M",
     "damage": "6,20",
     "startup": "i18~20 i11~13",
-    "block": "-4",
+    "block": "-9",
     "hit": "+6d",
     "counter": "",
     "alternateInputs": [
@@ -1604,9 +1601,10 @@
     "notes": [
       "Homing",
       "Balcony Break",
+      "1 spin (i10 delay + i18)",
       "Hold to power up:",
-      "2 spins: +12 on block, 11 chip damage",
-      "3 spins: Unblockable, 50 damage "
+      "2 spins (i33 delay + i18): +12 on block, 11 chip damage",
+      "3 spins (i56 delay + i18): Unblockable, 50 damage "
     ]
   },
   {
@@ -1616,7 +1614,7 @@
     "damage": "30",
     "startup": "i19",
     "block": "-2 / +4 H +7wc",
-    "hit": "+7 (-2)",
+    "hit": "+4a (-5)",
     "counter": "",
     "alternateInputs": [
       "f,F+3+4"
@@ -1625,7 +1623,7 @@
     "notes": [
       "Balcony Break",
       "Chip damage on block [9]",
-      "Powers up in Heat: 36 damage, +4 ob, 16 Chip, +18a (-8) oh",
+      "Powers up in Heat: 36 damage, +4 ob, Wall Crush +7g, 16 Chip, +18a (-8) oh",
       "Partially consumes remaining Heat time"
     ]
   },
@@ -2022,7 +2020,8 @@
       "Heat Engager",
       "Heat Dash +67a (+50)",
       "Balcony Break",
-      "Combos from 1st hit",
+      "Combo from 1st hit with 8?F delay",
+      "Can be delayed up to 14?F",
       "Floor breaks floating opponent"
     ]
   },
@@ -2066,8 +2065,8 @@
     "name": "Cloisonne",
     "input": "DEW 3+4",
     "hit_level": "h",
-    "damage": "26",
-    "startup": "i12",
+    "damage": "6,20",
+    "startup": "i12~14, i5~6",
     "block": "+6",
     "hit": "+17g",
     "counter": "",
@@ -2148,7 +2147,7 @@
     "damage": "24 (36)",
     "startup": "i23",
     "block": "-2 / +4 H +9wc",
-    "hit": "+7a (-2)",
+    "hit": "+4a (-5)",
     "counter": "",
     "alternateInputs": [
       "RAB 4"
@@ -2157,7 +2156,7 @@
     "notes": [
       "Balcony Break",
       "Powered up during Heat:",
-      "36 damage, +4 ob",
+      "36 damage, +4 ob, Wall Crush +9g",
       "Partially consumes remaining Heat Time"
     ]
   },
@@ -2179,57 +2178,6 @@
       "All RAB moves are available",
       "Partially restores remaining Heat Time",
       "Transition to DEW with F "
-    ]
-  },
-  {
-    "name": "Stunning Toe Kick",
-    "input": "ss3",
-    "hit_level": "M",
-    "damage": "20",
-    "startup": "i16",
-    "block": "-9",
-    "hit": "+35d (+27)",
-    "counter": "",
-    "alternateInputs": [
-      "ss3"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break "
-    ]
-  },
-  {
-    "name": "Demilune",
-    "input": "ss4",
-    "hit_level": "m",
-    "damage": "18",
-    "startup": "i20",
-    "block": "-2",
-    "hit": "+4",
-    "counter": "+11g",
-    "alternateInputs": [
-      "ss4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to -13, -7, +0 RAB with b+3 or b+4 "
-    ]
-  },
-  {
-    "name": "Minuet",
-    "input": "ss1+2",
-    "hit_level": "m",
-    "damage": "21",
-    "startup": "i19",
-    "block": "+0",
-    "hit": "+25a (+16)",
-    "counter": "+64a",
-    "alternateInputs": [
-      "ss1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break "
     ]
   },
   {
@@ -2265,7 +2213,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
-      "Combos from 1st hit"
+      "Combo from 1st hit with 4?F delay"
     ]
   },
   {
@@ -2286,7 +2234,7 @@
       "Heat Dash +5, +34d",
       " ",
       "Balcony Break",
-      "Combos from 1st hit"
+      "Combo from 1st hit with 4?F delay"
     ]
   },
   {
@@ -2531,6 +2479,98 @@
       "Transitions to RAB",
       "Transition to DEW with F",
       "Alternate input b+4"
+    ]
+  },
+  {
+    "name": "La Vie en Rose Fortissimo",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ]
+  },
+  {
+    "name": "Ki Charge",
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "Stunning Toe Kick",
+    "input": "ss3",
+    "hit_level": "M",
+    "damage": "20",
+    "startup": "i16",
+    "block": "-9",
+    "hit": "+35d (+27)",
+    "counter": "",
+    "alternateInputs": [
+      "ss3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break "
+    ]
+  },
+  {
+    "name": "Demilune",
+    "input": "ss4",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i20",
+    "block": "-2",
+    "hit": "+4",
+    "counter": "+11g",
+    "alternateInputs": [
+      "ss4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to -13, -7, +0 RAB with b+3 or b+4 "
+    ]
+  },
+  {
+    "name": "Minuet",
+    "input": "ss1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i19",
+    "block": "+0",
+    "hit": "+25a (+16)",
+    "counter": "+64a",
+    "alternateInputs": [
+      "ss1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break "
     ]
   },
   {

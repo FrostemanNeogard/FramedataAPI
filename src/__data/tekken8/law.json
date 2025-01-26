@@ -141,87 +141,43 @@
   },
   {
     "name": "Tornado Claw",
-    "input": "1+2",
+    "input": "in heat 1+2",
     "hit_level": "m",
     "damage": "20",
-    "startup": "i16",
-    "block": "-13",
-    "hit": "+12a (+5)",
-    "counter": "+66a (+50)",
+    "startup": "i16~17",
+    "block": "-8~-7",
+    "hit": "+66a (+50)",
+    "counter": "",
     "alternateInputs": [
-      "1+2"
+      "in heat 1+2"
     ],
     "categories": [],
     "notes": [
       "Tornado",
       "Weapon",
       "Partially uses remaining Heat Time",
-      "Instant Tornado on CH",
       "Alternate input DSS.1+2 "
     ]
   },
   {
-    "name": "Dragon Charge (Heat)",
-    "input": "in heat d+1+2",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "in heat d+1+2"
-    ],
-    "categories": [
-      "powercrush",
-      "parry"
-    ],
-    "notes": [
-      "Enters DSS",
-      "Transition to Slide Step with DF",
-      "Absorbs punch attacks and shifts to Dragon Parry "
-    ]
-  },
-  {
     "name": "Dragon Parry",
-    "input": "b+2+4",
+    "input": "in heat DSS,P",
     "hit_level": "t",
-    "damage": "34 (38 Heat)",
-    "startup": "i16",
+    "damage": "38",
+    "startup": "i16~17",
     "block": "",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
-      "b+2+4"
+      "in heat DSS,P"
     ],
     "categories": [
       "throw"
     ],
     "notes": [
       "Punches only",
-      "Partially restores remaining Heat Time",
-      "Does 38 damage in Heat"
-    ]
-  },
-  {
-    "name": "Fate of the Dragon",
-    "input": "in rage df+1+2",
-    "hit_level": "m,t",
-    "damage": "55+",
-    "startup": "i20",
-    "block": "-15",
-    "hit": "+0",
-    "counter": "",
-    "alternateInputs": [
-      "in rage df+1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Rage Art",
-      "Damage increases with lower health",
-      "Erases opponent's recoverable health on hit"
+      "Heat only",
+      "Partially restores remaining Heat Time"
     ]
   },
   {
@@ -681,8 +637,8 @@
     "input": "1+2",
     "hit_level": "m",
     "damage": "20",
-    "startup": "i16",
-    "block": "-13",
+    "startup": "i16~17",
+    "block": "-13~12",
     "hit": "+12a (+5)",
     "counter": "+66a (+50)",
     "alternateInputs": [
@@ -692,7 +648,7 @@
     "notes": [
       "Tornado",
       "Weapon",
-      "Partially uses remaining Heat Time",
+      "Partially uses remaining Heat Time in heat",
       "Instant Tornado on CH",
       "Alternate input DSS.1+2 "
     ]
@@ -702,7 +658,7 @@
     "input": "3+4",
     "hit_level": "m,m",
     "damage": "5,10",
-    "startup": "i14",
+    "startup": "i14~15, i11",
     "block": "-13",
     "hit": "+3",
     "counter": "",
@@ -729,6 +685,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Wall Crush +10g on block",
       "Combos from 1st hit",
       "Chip damage on block",
       "Alternate input DSS.3+4,4"
@@ -951,7 +908,7 @@
     "input": "df+4,3",
     "hit_level": "m,m",
     "damage": "15,23",
-    "startup": "i29",
+    "startup": "i29~31",
     "block": "-14",
     "hit": "+68a (+52)",
     "counter": "",
@@ -1100,6 +1057,7 @@
     "categories": [],
     "notes": [
       "Combos from 1st hit CH",
+      "-30 on block from 1st block",
       "Delay-able "
     ]
   },
@@ -1135,6 +1093,7 @@
     "categories": [],
     "notes": [
       "Combos from 1st hit",
+      "-26 on 1st block",
       "Nosebleed stun "
     ]
   },
@@ -1531,7 +1490,7 @@
     "input": "b+1+3",
     "hit_level": "",
     "damage": "",
-    "startup": "ps2~11",
+    "startup": "",
     "block": "",
     "hit": "+7",
     "counter": "",
@@ -1551,7 +1510,7 @@
     "input": "b+2+4",
     "hit_level": "t",
     "damage": "34 (38 Heat)",
-    "startup": "ps2~11",
+    "startup": "i20",
     "block": "",
     "hit": "+0d",
     "counter": "",
@@ -1894,6 +1853,7 @@
       "Tornado",
       "Balcony Break",
       "Combos from 1st hit",
+      "Jails from 1st block with ?F delay",
       "Delayable"
     ]
   },
@@ -1969,8 +1929,7 @@
     "notes": [
       "Balcony Break",
       "Chip damage on block",
-      "Alternate input wr3",
-      "Airborne frames 3-32"
+      "Alternate input wr3"
     ]
   },
   {
@@ -2183,7 +2142,7 @@
   {
     "name": "Side Kick",
     "input": "ws3",
-    "hit_level": "m",
+    "hit_level": "h",
     "damage": "16",
     "startup": "i16",
     "block": "+17g",
@@ -2443,6 +2402,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Wall Crush +10g on block",
       "Chip damage on block",
       "While transitioning to DSS from other moves, it is possible to input DSS.f+4 as a Just Frame (ex; 4,3~F:DSS.f+4) for 4 more damage."
     ]
@@ -2730,6 +2690,30 @@
     ]
   },
   {
+    "name": "Fate of the Dragon",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ]
+  },
+  {
     "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "",
@@ -2786,7 +2770,7 @@
     ]
   },
   {
-    "name": "Ki Charge (Hold)",
+    "name": "Ki Charge",
     "input": "1+2+3+4",
     "hit_level": "",
     "damage": "",

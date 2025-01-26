@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12 (12)",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -16,7 +16,11 @@
     ],
     "notes": [
       "Heat Burst",
-      "Cancel to r45 with b,b"
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -35,8 +39,8 @@
     "notes": [
       "Heat Smash",
       "Balcony Break",
-      "Restores recoverable health",
-      "Chip damage on block"
+      "Restores 32 recoverable on hit (16 on block)",
+      "Chip damage (8,9) on block"
     ]
   },
   {
@@ -54,7 +58,9 @@
     "categories": [],
     "notes": [
       "Heat Smash",
-      "Ends heat"
+      "Ends heat",
+      "Restores 12 recoverable (6 on block)",
+      "Chip damage (4,12) on block"
     ]
   },
   {
@@ -110,8 +116,8 @@
     "notes": [
       "Heat Engager",
       "Combo from 1st hit",
-      "Chip damage on block",
-      "Deals 6/3 self-damage and 12/8 recoverable gauge",
+      "Chip damage (8) on block",
+      "Deals 18 damage to self (12 recoverable)",
       "Available only on hit or block"
     ]
   },
@@ -152,8 +158,8 @@
     "notes": [
       "Heat Engager",
       "Balcony Break",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (9) on block",
+      "Deals 6 damage to self (4 recoverable)",
       "Unparryable"
     ]
   },
@@ -176,24 +182,6 @@
     ]
   },
   {
-    "name": "Amatsu Izanami",
-    "input": "df+1+2",
-    "hit_level": "m",
-    "damage": "55+",
-    "startup": "i20",
-    "block": "-15",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "df+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Rage Art",
-      "Removes opponent recoverable health on hit"
-    ]
-  },
-  {
     "name": "Jab",
     "input": "1",
     "hit_level": "h",
@@ -207,7 +195,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -224,8 +212,7 @@
     ],
     "categories": [],
     "notes": [
-      "Shifts to IZU",
-      "Recover 2 health and 2 recoverable gauge on hit"
+      "Restores 2 health and 2 recoverable on hit"
     ]
   },
   {
@@ -281,7 +268,7 @@
       "Homing",
       "Combo from 2nd CH with 5f delay",
       "Jail from 2nd block with 1f delay",
-      "Restore 2 health on hit"
+      "Restores 2 health on hit"
     ]
   },
   {
@@ -390,8 +377,8 @@
       "Balcony Break",
       "Combo from 3rd CH",
       "Input can be delayed 10f",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat"
+      "Chip damage (9) on block",
+      "Deals 6 damage to self (4 recoverable)"
     ]
   },
   {
@@ -517,7 +504,7 @@
       "Spike",
       "3rd hit available only as combo from 2nd hit",
       "Can recover in r22 FC with D on whiff",
-      "Deals recoverable self-damage when not in Heat"
+      "Deals 12 damage to self (8 recoverable) "
     ]
   },
   {
@@ -648,13 +635,13 @@
     "startup": "i20",
     "block": "0",
     "hit": "+9",
-    "counter": "+5",
+    "counter": "+13",
     "alternateInputs": [
       "f+1"
     ],
     "categories": [],
     "notes": [
-      "Recover 2 health and 2 recoverable gauge on hit"
+      "Restores 2 health and 2 recoverable on hit"
     ]
   },
   {
@@ -690,8 +677,8 @@
     "notes": [
       "Heat Engager",
       "Combo from 1st hit",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (8) on block",
+      "Deals 18 damage to self (12 recoverable)",
       "Available only on hit or block"
     ]
   },
@@ -747,7 +734,7 @@
     "notes": [
       "Homing",
       "Combo from 1st hit with 5f delay",
-      "Restore 2 health on hit"
+      "Restores 2 health on hit"
     ]
   },
   {
@@ -804,7 +791,7 @@
     ],
     "notes": [
       "Transition to r20 MIA on hit only",
-      "Deals recoverable self-damage when not in Heat",
+      "Deals 6 damage to self (4 recoverable)",
       "Unparryable"
     ]
   },
@@ -843,7 +830,8 @@
       "parry"
     ],
     "notes": [
-      "Punch sabaki, +51a on a successful parry"
+      "Punch sabaki",
+      "Crumple stun launcher (+51a) on parry effect"
     ]
   },
   {
@@ -929,8 +917,8 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (4) on block",
+      "Deals 24 damage to self (16 recoverable)",
       "Available only on hit or block"
     ]
   },
@@ -962,13 +950,14 @@
     "startup": "i15",
     "block": "-14",
     "hit": "+48a (+17)",
-    "counter": "+6 +52a",
+    "counter": "+52a",
     "alternateInputs": [
       "df+4"
     ],
     "categories": [],
     "notes": [
-      "Tornado"
+      "Tornado",
+      "Crumple stun launcher (+52a) on CH"
     ]
   },
   {
@@ -1091,8 +1080,8 @@
     ],
     "notes": [
       "Tornado",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (11) on block",
+      "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
   },
@@ -1110,7 +1099,10 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st CHSometimes written Can Cans"
+      " ",
+      "Combo from 1st CH",
+      "Jails from 1st hit",
+      "Sometimes written Can Cans"
     ]
   },
   {
@@ -1165,8 +1157,8 @@
     "notes": [
       "Balcony Break",
       "Combo from any hit",
-      "Restore 4 health and 4 recoverable gauge on hit",
-      "Last hit is unparryable"
+      "Restores 4 health and 4 recoverable",
+      "Unparryable"
     ]
   },
   {
@@ -1366,7 +1358,7 @@
     ],
     "categories": [],
     "notes": [
-      "Restores recoverable health with each pulse",
+      "Restores 2 recoverable health with each pulse",
       "Transition to r30 with u_d",
       "Cancel to r15 with DB"
     ]
@@ -1409,8 +1401,8 @@
       "Tornado",
       "Combo from 2nd CH with 6f delay",
       "Input can be delayed 14f",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (9) on block",
+      "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
   },
@@ -1484,8 +1476,8 @@
     ],
     "notes": [
       "Tornado",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (8) on block",
+      "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
   },
@@ -1590,11 +1582,8 @@
     "alternateInputs": [
       "u+4"
     ],
-    "categories": [
-      "homing"
-    ],
+    "categories": [],
     "notes": [
-      "Homing",
       "Alternate input: ub+4"
     ]
   },
@@ -1614,7 +1603,7 @@
     "notes": [
       "Balcony Break",
       "Jail from 1st attack",
-      "Deals 4/2 self-damage and 8/4 recoverable gauge",
+      "Deals 12 damage to self (8 recoverable)",
       "2nd hit available only on hit or block",
       "Recovery listed is for the 1st hit"
     ]
@@ -1636,8 +1625,8 @@
     ],
     "notes": [
       "Tornado",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (9) on block",
+      "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
   },
@@ -1691,9 +1680,9 @@
     "notes": [
       "Tornado",
       "Combo from 1st hit",
-      "Deals 6/3 self-damage and 12/6 recoverable gauge",
       "Transition to r17 MIA on hit only",
-      "3rd hit available only as combo from 2nd hit"
+      "3rd hit available only as combo from 2nd hit",
+      "3rd hit deals 12 damage to self (8 recoverable)"
     ]
   },
   {
@@ -1766,7 +1755,7 @@
     ],
     "categories": [],
     "notes": [
-      "Restores recoverable health with each pulse",
+      "Restores 2 recoverable health with each pulse",
       "Transition to r30 with u_d",
       "Cancel to r15 with DB"
     ]
@@ -1787,7 +1776,7 @@
     "notes": [
       "Balcony Break",
       "Combo from 1st hit with 8f delay",
-      "Tornado"
+      "Aerial Tornado"
     ]
   },
   {
@@ -1860,8 +1849,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat"
+      "Chip damage (6) on block; +5 chip damage in Heat",
+      "Deals 6 damage to self (4 recoverable) "
     ]
   },
   {
@@ -1931,7 +1920,7 @@
     ],
     "categories": [],
     "notes": [
-      "Deals recoverable self-damage when not in Heat",
+      "Deals 18 damage to self (12 recoverable)",
       "2nd hit available only on hit or block",
       "Recovery listed is for the 1st hit"
     ]
@@ -1950,7 +1939,7 @@
     ],
     "categories": [],
     "notes": [
-      "Applies 70% combo scaling on counter hit"
+      ""
     ]
   },
   {
@@ -2041,7 +2030,7 @@
     ],
     "categories": [],
     "notes": [
-      "Restores recoverable health with each pulse",
+      "Restores 2 recoverable health with each pulse",
       "Transition to r30 with u_d",
       "Cancel to r15 with DB"
     ]
@@ -2282,8 +2271,7 @@
     ],
     "notes": [
       "Homing",
-      "Alternate input: ub+2",
-      "Restore 2 health on hit"
+      "Alternate input: ub+2"
     ]
   },
   {
@@ -2320,7 +2308,8 @@
       "Balcony Break",
       "Tornado",
       "Combo from 1st hit with 6f delay",
-      "Restore 1 health and 1 recoverable gauge on hit"
+      "Restores 1 health on hit",
+      "Restores 1 additional recoverable on hit"
     ]
   },
   {
@@ -2359,8 +2348,8 @@
     ],
     "notes": [
       "Tornado",
-      "Chip damage on block",
-      "Deals recoverable self-damage damage when not in Heat",
+      "Chip damage (8) on block",
+      "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
   },
@@ -2434,7 +2423,7 @@
       "Balcony Break",
       "Combo from 1st hit",
       "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat"
+      "Deals 18 damage to self (12 recoverable)"
     ]
   },
   {
@@ -2495,9 +2484,7 @@
     "notes": [
       "Cancel to r18 FC with D",
       "Parries low punches or kicks",
-      "Parries throws",
-      "Restore 8 health and 8 recoverable gauge on successful throw parry",
-      "Restore 14 health and 14 recoverable gauge on successful low parry"
+      "Parries throws"
     ]
   },
   {
@@ -2516,7 +2503,7 @@
       "throw"
     ],
     "notes": [
-      "Restores up to 37 recoverable health",
+      "Restores 14 health and 14 recoverable",
       "Opponent recovers FDFA"
     ]
   },
@@ -2536,7 +2523,8 @@
       "throw"
     ],
     "notes": [
-      ""
+      "Restores 8 health and 8 recoverable",
+      "Opponent recovers FUFA (sideways)"
     ]
   },
   {
@@ -2545,7 +2533,7 @@
     "hit_level": "L",
     "damage": "22",
     "startup": "i20~21",
-    "block": "-12~-11",
+    "block": "-13~-12",
     "hit": "+3c~+4c",
     "counter": "+26a",
     "alternateInputs": [
@@ -2573,7 +2561,7 @@
     ],
     "notes": [
       "Transitions to attack throw on front hit only, otherwise knockdown",
-      "Deals recoverable self-damage (less in Heat)",
+      "Deals 12 damage to self (8 recoverable)",
       "Frame advantage is -9 if an attack is absorbed",
       "Chip damage on block if an attack is absorbed"
     ]
@@ -2592,15 +2580,14 @@
     ],
     "categories": [],
     "notes": [
-      "Spike",
-      "Transition to crouching with GEN 3~D"
+      "Spike"
     ]
   },
   {
     "name": "Getsuun Renken",
     "input": "GEN 3,2",
     "hit_level": "M,M",
-    "damage": "14,16",
+    "damage": "14,20",
     "startup": ",i24",
     "block": "-9",
     "hit": "+33a (+18)",
@@ -2613,8 +2600,8 @@
     ],
     "notes": [
       "Combo from 1st hit",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (8) on block",
+      "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
   },
@@ -2653,7 +2640,9 @@
     "categories": [],
     "notes": [
       "Heat Smash",
-      "Ends heat"
+      "Ends heat",
+      "Restores 12 recoverable (6 on block)",
+      "Chip damage (4,12) on block"
     ]
   },
   {
@@ -2670,7 +2659,7 @@
     ],
     "categories": [],
     "notes": [
-      "Restores recoverable health with each pulse",
+      "Restores 2 recoverable with each pulse",
       "Transition to r30 with u_d",
       "Cancel to r15 with DB"
     ]
@@ -2692,8 +2681,8 @@
     ],
     "notes": [
       "Tornado",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (12) on block",
+      "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
   },
@@ -2715,8 +2704,8 @@
     "notes": [
       "Heat Engager",
       "Balcony Break",
-      "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat",
+      "Chip damage (9) on block",
+      "Deals 6 damage to self (4 recoverable)",
       "Unparryable"
     ]
   },
@@ -2736,7 +2725,7 @@
       "parry"
     ],
     "notes": [
-      "Chip damage on block",
+      "Chip damage (22) on block",
       "Unparryable"
     ]
   },
@@ -2756,8 +2745,7 @@
       "homing"
     ],
     "notes": [
-      "Homing",
-      "Restore 2 health on hit"
+      "Homing"
     ]
   },
   {
@@ -2782,6 +2770,48 @@
     ]
   },
   {
+    "name": "Amatsu Izanami",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ]
+  },
+  {
+    "name": "Ki Charge",
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Can't block for 5 seconds",
+      "CH state for 5 seconds"
+    ]
+  },
+  {
     "name": "Kasanegasumi",
     "input": "SS 2",
     "hit_level": "m",
@@ -2797,7 +2827,7 @@
     "notes": [
       "Balcony Break",
       "Tornado",
-      "Restore 3 health and 3 recoverable gauge"
+      "Restores 3 health and 3 recoverable on hit"
     ]
   },
   {
@@ -2856,24 +2886,6 @@
       "Jail from 1st attack",
       "Combo from 1st hit",
       "Recovery listed is for the last hit"
-    ]
-  },
-  {
-    "name": "Ki Charge",
-    "input": "1+2+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "1+2+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "CH state for 5 seconds",
-      "Can't block for 5 seconds"
     ]
   },
   {
@@ -2962,9 +2974,11 @@
       "1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2"
     ]
   },
@@ -2981,9 +2995,11 @@
       "2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2",
       "Side switch"
     ]

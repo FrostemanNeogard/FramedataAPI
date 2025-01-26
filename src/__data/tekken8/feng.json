@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -16,7 +16,11 @@
     ],
     "notes": [
       "Heat Burst",
-      "Cancel move with b,b"
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -25,7 +29,7 @@
     "hit_level": "m,m",
     "damage": "22,26",
     "startup": "i21,24",
-    "block": "+12",
+    "block": "+12, +24 on STC at Wall, +19 at Wall",
     "hit": "+30d (-6)",
     "counter": "",
     "alternateInputs": [
@@ -35,7 +39,7 @@
     "notes": [
       "Heat Smash",
       "Chip damage on block",
-      "Transitions to STC on block"
+      "Transitions to STC on block, can cancel with b."
     ]
   },
   {
@@ -93,7 +97,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5, +43d (+35)",
+      "Heat Dash +5 +18 at wall, +43d (+35)",
       "Balcony Break"
     ]
   },
@@ -131,6 +135,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -138,7 +143,7 @@
     "name": "Slashing Tiger",
     "input": "BT 2",
     "hit_level": "m",
-    "damage": "23",
+    "damage": "27",
     "startup": "i19~21",
     "block": "-13",
     "hit": "+17",
@@ -151,6 +156,7 @@
     ],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +43d (+35)",
       "Absorb an attack to power up and deal more damage on block"
     ]
   },
@@ -268,7 +274,7 @@
     "damage": "5,19",
     "startup": "i16~17",
     "block": "-5",
-    "hit": "+8",
+    "hit": "+8~+9",
     "counter": "",
     "alternateInputs": [
       "1,3"
@@ -372,7 +378,7 @@
     "name": "Peacock Sweep",
     "input": "3,3,4",
     "hit_level": "m,h,l",
-    "damage": "15,18,23",
+    "damage": "15,10,23",
     "startup": "i25~26",
     "block": "-12",
     "hit": "+7c",
@@ -402,9 +408,27 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from 1st hit",
-      "Can be charged to power up:",
-      "At full charge +7 on block 14 chip damage "
+      "Combo from 1st hit"
+    ]
+  },
+  {
+    "name": "Peacock Strike (Hold)",
+    "input": "3,1+2*",
+    "hit_level": "m,m",
+    "damage": "15,35",
+    "startup": "i44~45",
+    "block": "+7",
+    "hit": "+23d (+13d)",
+    "counter": "",
+    "alternateInputs": [
+      "3,1+2*"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Wall Crush +19g on block",
+      "14 Chip Damage on block",
+      "16 Chip Damage on block in heat"
     ]
   },
   {
@@ -487,13 +511,13 @@
     "startup": "i28~i34",
     "block": "-7",
     "hit": "+1c",
-    "counter": "+16a",
+    "counter": "+16a~+22a",
     "alternateInputs": [
       "4~3"
     ],
     "categories": [],
     "notes": [
-      ""
+      "* Combo at tip range"
     ]
   },
   {
@@ -510,7 +534,7 @@
     ],
     "categories": [],
     "notes": [
-      "Punch sabaki",
+      "Punch sabaki ps5~9",
       "Wall Crush  +20g on hit"
     ]
   },
@@ -522,7 +546,7 @@
     "startup": "i15",
     "block": "-8",
     "hit": "+3",
-    "counter": "",
+    "counter": "+10",
     "alternateInputs": [
       "f+2"
     ],
@@ -839,7 +863,7 @@
     "startup": "i23~24",
     "block": "-4",
     "hit": "+15g",
-    "counter": "",
+    "counter": "+27d",
     "alternateInputs": [
       "df+4,3"
     ],
@@ -1194,7 +1218,7 @@
     "name": "",
     "input": "b+2",
     "hit_level": "m",
-    "damage": "15",
+    "damage": "13",
     "startup": "i17",
     "block": "-11",
     "hit": "+0c",
@@ -1229,7 +1253,7 @@
     "name": "",
     "input": "b+2,3,4",
     "hit_level": "m,l,m",
-    "damage": "15,10,13",
+    "damage": "13,6,13",
     "startup": "i24~25",
     "block": "-12",
     "hit": "+19a (+12)",
@@ -1246,7 +1270,7 @@
     "name": "Hungry Tiger",
     "input": "b+2,3,4,2",
     "hit_level": "m,l,m,m",
-    "damage": "15,10,13,22",
+    "damage": "13,6,13,22",
     "startup": "i24~25",
     "block": "-6",
     "hit": "+4",
@@ -1309,7 +1333,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5, +43d (+35)",
+      "Heat Dash +5 +18 at wall, +43d (+35)",
       "Balcony Break"
     ]
   },
@@ -1320,7 +1344,7 @@
     "damage": "8,20",
     "startup": "i16,15",
     "block": "-10",
-    "hit": "+10g",
+    "hit": "+10",
     "counter": "",
     "alternateInputs": [
       "ub+2"
@@ -1618,7 +1642,7 @@
     "hit_level": "m",
     "damage": "30",
     "startup": "i20~25",
-    "block": "+6",
+    "block": "+6~+11g",
     "hit": "+13d (+3)",
     "counter": "",
     "alternateInputs": [
@@ -1628,91 +1652,6 @@
     "notes": [
       "Balcony Break",
       "Chip damage on block"
-    ]
-  },
-  {
-    "name": "Lingering Shadow",
-    "input": "qcf",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "qcf"
-    ],
-    "categories": [],
-    "notes": [
-      "D,df to enter crouching state"
-    ]
-  },
-  {
-    "name": "Landslide",
-    "input": "qcf+1",
-    "hit_level": "l",
-    "damage": "23",
-    "startup": "i22~23",
-    "block": "-14",
-    "hit": "+2",
-    "counter": "+31a",
-    "alternateInputs": [
-      "qcf+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Head"
-    ]
-  },
-  {
-    "name": "Mountain Crusher",
-    "input": "qcf+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i22~23",
-    "block": "-14",
-    "hit": "+35a (+25)",
-    "counter": "",
-    "alternateInputs": [
-      "qcf+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Tornado"
-    ]
-  },
-  {
-    "name": "Yan Wang's Wrath",
-    "input": "qcf+1+2",
-    "hit_level": "m",
-    "damage": "25",
-    "startup": "i16~17",
-    "block": "0c",
-    "hit": "+7c",
-    "counter": "+23d",
-    "alternateInputs": [
-      "qcf+1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Head"
-    ]
-  },
-  {
-    "name": "",
-    "input": "qcf+3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "qcf+3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to STC"
     ]
   },
   {
@@ -1898,7 +1837,7 @@
     "startup": "i11~12",
     "block": "-7",
     "hit": "+7",
-    "counter": "+29d",
+    "counter": "+29g",
     "alternateInputs": [
       "ws4"
     ],
@@ -1925,6 +1864,271 @@
     ]
   },
   {
+    "name": "Hidden Intentions",
+    "input": "SS 2",
+    "hit_level": "h",
+    "damage": "18",
+    "startup": "i15",
+    "block": "+3",
+    "hit": "+9b",
+    "counter": "+31d",
+    "alternateInputs": [
+      "SS 2"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Recovers in BT"
+    ]
+  },
+  {
+    "name": "Swift Sweep Kick",
+    "input": "SS 4",
+    "hit_level": "l",
+    "damage": "19",
+    "startup": "i21~22",
+    "block": "-31c",
+    "hit": "+8 (-8)",
+    "counter": "+72a (+56)",
+    "alternateInputs": [
+      "SS 4"
+    ],
+    "categories": [],
+    "notes": [
+      "Has a clean hit effect"
+    ]
+  },
+  {
+    "name": "Enlightened Circle",
+    "input": "SS 1+2",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i22~23",
+    "block": "+1~+2",
+    "hit": "+21d (+12)",
+    "counter": "",
+    "alternateInputs": [
+      "SS 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Chip damage on block"
+    ]
+  },
+  {
+    "name": "Zhuan Shen Huan Wu",
+    "input": "b+3~4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "b+3~4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transitions to BT",
+      "Enter STC with F"
+    ]
+  },
+  {
+    "name": "Backfist",
+    "input": "BT 1",
+    "hit_level": "h",
+    "damage": "12",
+    "startup": "i12",
+    "block": "-3",
+    "hit": "+14",
+    "counter": "",
+    "alternateInputs": [
+      "BT 1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "Slashing Tiger",
+    "input": "BT 2",
+    "hit_level": "m",
+    "damage": "27",
+    "startup": "i19~21",
+    "block": "-13",
+    "hit": "+17",
+    "counter": "",
+    "alternateInputs": [
+      "BT 2"
+    ],
+    "categories": [
+      "powercrush"
+    ],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +43d (+35)",
+      "Absorb an attack to power up and deal more damage on block"
+    ]
+  },
+  {
+    "name": "Tremor Stomp",
+    "input": "BT 3",
+    "hit_level": "m",
+    "damage": "33",
+    "startup": "i32~33",
+    "block": "+8c",
+    "hit": "+8c",
+    "counter": "",
+    "alternateInputs": [
+      "BT 3"
+    ],
+    "categories": [],
+    "notes": [
+      "Chip damage on block",
+      "Transition to STC with f"
+    ]
+  },
+  {
+    "name": "Hustle Elbow",
+    "input": "BT 1+2",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i16~17",
+    "block": "-3",
+    "hit": "+8",
+    "counter": "+41d (+33)",
+    "alternateInputs": [
+      "BT 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break (CH only)"
+    ]
+  },
+  {
+    "name": "Reverse Fractured Diamond",
+    "input": "BT d+1",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i20~21",
+    "block": "-13c",
+    "hit": "+4",
+    "counter": "+16d",
+    "alternateInputs": [
+      "BT d+1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "Reverse Mighty Sweep Kick",
+    "input": "BT d+3",
+    "hit_level": "l",
+    "damage": "20",
+    "startup": "i18~20",
+    "block": "-26c",
+    "hit": "-3",
+    "counter": "+70a (+54)",
+    "alternateInputs": [
+      "BT d+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Has clean hit effect"
+    ]
+  },
+  {
+    "name": "Lingering Shadow",
+    "input": "qcf",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "qcf"
+    ],
+    "categories": [],
+    "notes": [
+      "D,df to enter crouching state"
+    ]
+  },
+  {
+    "name": "Landslide",
+    "input": "qcf+1",
+    "hit_level": "l",
+    "damage": "23",
+    "startup": "i22~23",
+    "block": "-14",
+    "hit": "+2",
+    "counter": "+31a",
+    "alternateInputs": [
+      "qcf+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Head"
+    ]
+  },
+  {
+    "name": "Mountain Crusher",
+    "input": "qcf+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i22~23",
+    "block": "-14",
+    "hit": "+35a (+25)",
+    "counter": "",
+    "alternateInputs": [
+      "qcf+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado"
+    ]
+  },
+  {
+    "name": "Yan Wang's Wrath",
+    "input": "qcf+1+2",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i16~17",
+    "block": "0c",
+    "hit": "+7c",
+    "counter": "+13",
+    "alternateInputs": [
+      "qcf+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Head"
+    ]
+  },
+  {
+    "name": "",
+    "input": "qcf+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "qcf+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transitions to STC"
+    ]
+  },
+  {
     "name": "Shifting Clouds",
     "input": "f+3+4",
     "hit_level": "",
@@ -1940,7 +2144,10 @@
       "parry"
     ],
     "notes": [
+      "Takes 20 Frames",
+      "Parry State from 3~18 Frame",
       "Parries high and mid fist and feet moves (not elbows/knees/heads etc)",
+      "Can be do it by QCF+3+4",
       "If 1 hit is parried, you can still do your STC move, if 2 hits are parried it launches"
     ]
   },
@@ -1970,7 +2177,7 @@
     "damage": "18",
     "startup": "i14~15",
     "block": "-3",
-    "hit": "+25",
+    "hit": "+25g",
     "counter": "",
     "alternateInputs": [
       "STC 2"
@@ -2009,7 +2216,7 @@
     "startup": "i20",
     "block": "-13",
     "hit": "+3",
-    "counter": "",
+    "counter": "+14",
     "alternateInputs": [
       "STC 4"
     ],
@@ -2068,7 +2275,9 @@
     ],
     "categories": [],
     "notes": [
-      "Enter STC with f"
+      "Enter STC with f",
+      "Take 15 Frames",
+      "Autoblock 20 Frames"
     ]
   },
   {
@@ -2103,6 +2312,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break"
     ]
   },
@@ -2194,134 +2404,10 @@
     ]
   },
   {
-    "name": "Zhuan Shen Huan Wu",
-    "input": "b+3~4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3~4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to BT",
-      "Enter STC with F"
-    ]
-  },
-  {
-    "name": "Backfist",
-    "input": "BT 1",
-    "hit_level": "h",
-    "damage": "12",
-    "startup": "i12",
-    "block": "-3",
-    "hit": "+14g",
-    "counter": "",
-    "alternateInputs": [
-      "BT 1"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "Slashing Tiger",
-    "input": "BT 2",
-    "hit_level": "m",
-    "damage": "27",
-    "startup": "i19~21",
-    "block": "-13",
-    "hit": "+17",
-    "counter": "",
-    "alternateInputs": [
-      "BT 2"
-    ],
-    "categories": [
-      "powercrush"
-    ],
-    "notes": [
-      "Heat Engager",
-      "Absorb an attack to power up and deal more damage on block"
-    ]
-  },
-  {
-    "name": "Tremor Stomp",
-    "input": "BT 3",
-    "hit_level": "m",
-    "damage": "33",
-    "startup": "i32~33",
-    "block": "+8c",
-    "hit": "+8c",
-    "counter": "",
-    "alternateInputs": [
-      "BT 3"
-    ],
-    "categories": [],
-    "notes": [
-      "Chip damage on block",
-      "Transition to STC with f"
-    ]
-  },
-  {
-    "name": "Hustle Elbow",
-    "input": "BT 1+2",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i16~17",
-    "block": "-3",
-    "hit": "+8",
-    "counter": "+41d (+33)",
-    "alternateInputs": [
-      "BT 1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break (CH only)"
-    ]
-  },
-  {
-    "name": "Reverse Fractured Diamond",
-    "input": "BT d+1",
-    "hit_level": "l",
-    "damage": "20",
-    "startup": "i20~21",
-    "block": "-13c",
-    "hit": "+4",
-    "counter": "+16d",
-    "alternateInputs": [
-      "BT d+1"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "Reverse Mighty Sweep Kick",
-    "input": "BT d+3",
-    "hit_level": "l",
-    "damage": "20",
-    "startup": "i18~20",
-    "block": "-26c",
-    "hit": "-3",
-    "counter": "+70a (+54)",
-    "alternateInputs": [
-      "BT d+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Has clean hit effect"
-    ]
-  },
-  {
     "name": "Enlighted Yellow Dragon Palm",
     "input": "in rage df+1+2",
-    "hit_level": "t",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
     "hit": "+0d",
@@ -2329,13 +2415,16 @@
     "alternateInputs": [
       "in rage df+1+2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
       "Rage Art",
-      "Erases opponent's recoverable health on hit",
-      "Damage increases with lower health"
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2373,61 +2462,6 @@
     ]
   },
   {
-    "name": "Hidden Intentions",
-    "input": "SS 2",
-    "hit_level": "h",
-    "damage": "18",
-    "startup": "i15",
-    "block": "+3",
-    "hit": "+9b",
-    "counter": "+31d",
-    "alternateInputs": [
-      "SS 2"
-    ],
-    "categories": [
-      "homing"
-    ],
-    "notes": [
-      "Homing",
-      "Recovers in BT"
-    ]
-  },
-  {
-    "name": "Swift Sweep Kick",
-    "input": "SS 4",
-    "hit_level": "l",
-    "damage": "19",
-    "startup": "i21~22",
-    "block": "-31c",
-    "hit": "+8 (-8)",
-    "counter": "+72a (+56)",
-    "alternateInputs": [
-      "SS 4"
-    ],
-    "categories": [],
-    "notes": [
-      "Has a clean hit effect"
-    ]
-  },
-  {
-    "name": "Enlightened Circle",
-    "input": "SS 1+2",
-    "hit_level": "m",
-    "damage": "24",
-    "startup": "i22~23",
-    "block": "+1",
-    "hit": "+21d (+12)",
-    "counter": "",
-    "alternateInputs": [
-      "SS 1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Chip damage on block"
-    ]
-  },
-  {
     "name": "Spring Up",
     "input": "FUFT b+3+4",
     "hit_level": "m",
@@ -2462,18 +2496,37 @@
     ]
   },
   {
+    "name": "Evading Wall",
+    "input": "B,B,U/B",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i39~41",
+    "block": "+4c",
+    "hit": "+22",
+    "counter": "+22",
+    "alternateInputs": [
+      "B,B,U/B"
+    ],
+    "categories": [],
+    "notes": [
+      "The move only can be do it near the wall with the back at the wall allowing to escape from the corner and on hit starts combo, similar to a launcher and without tornado."
+    ]
+  },
+  {
     "name": "Neck Twister",
     "input": "1+3",
-    "hit_level": "h",
+    "hit_level": "t",
     "damage": "35",
-    "startup": "",
-    "block": "",
-    "hit": "-3",
+    "startup": "i12~14",
+    "block": "-6",
+    "hit": "-4",
     "counter": "",
     "alternateInputs": [
       "1+3"
     ],
-    "categories": [],
+    "categories": [
+      "throw"
+    ],
     "notes": [
       "Throw break 1 or 2"
     ]
@@ -2481,16 +2534,18 @@
   {
     "name": "Serpent Slayer",
     "input": "2+4",
-    "hit_level": "h",
+    "hit_level": "t",
     "damage": "35",
-    "startup": "",
-    "block": "",
+    "startup": "i12~14",
+    "block": "-3",
     "hit": "0",
     "counter": "",
     "alternateInputs": [
       "2+4"
     ],
-    "categories": [],
+    "categories": [
+      "throw"
+    ],
     "notes": [
       "Throw break 1 or 2"
     ]
@@ -2498,16 +2553,18 @@
   {
     "name": "Jaws of Death",
     "input": "Left Throw",
-    "hit_level": "h",
+    "hit_level": "t",
     "damage": "40",
-    "startup": "",
-    "block": "",
+    "startup": "i12~14",
+    "block": "-3",
     "hit": "-6",
     "counter": "",
     "alternateInputs": [
       "Left Throw"
     ],
-    "categories": [],
+    "categories": [
+      "throw"
+    ],
     "notes": [
       "Throw break 1"
     ]
@@ -2515,16 +2572,18 @@
   {
     "name": "Wandering Soul",
     "input": "Right Throw",
-    "hit_level": "h",
+    "hit_level": "t",
     "damage": "40",
-    "startup": "",
-    "block": "",
+    "startup": "i12~14",
+    "block": "-3",
     "hit": "-4",
     "counter": "",
     "alternateInputs": [
       "Right Throw"
     ],
-    "categories": [],
+    "categories": [
+      "throw"
+    ],
     "notes": [
       "Throw break 2"
     ]
@@ -2532,16 +2591,18 @@
   {
     "name": "Violent Storm",
     "input": "Back Throw",
-    "hit_level": "h",
+    "hit_level": "t",
     "damage": "50",
-    "startup": "",
+    "startup": "i12~14",
     "block": "",
     "hit": "-4",
     "counter": "",
     "alternateInputs": [
       "Back Throw"
     ],
-    "categories": [],
+    "categories": [
+      "throw"
+    ],
     "notes": [
       "Cannot break throw"
     ]
@@ -2549,16 +2610,18 @@
   {
     "name": "Kunlun Avalanche",
     "input": "uf+1+2",
-    "hit_level": "h",
+    "hit_level": "t",
     "damage": "40",
-    "startup": "",
-    "block": "",
+    "startup": "i12~14",
+    "block": "-6",
     "hit": "0",
     "counter": "",
     "alternateInputs": [
       "uf+1+2"
     ],
-    "categories": [],
+    "categories": [
+      "throw"
+    ],
     "notes": [
       "Spike",
       "Throw break 1+2"
@@ -2567,16 +2630,18 @@
   {
     "name": "Pao Lau Impaler",
     "input": "BT 1+4_2+3",
-    "hit_level": "h",
+    "hit_level": "t",
     "damage": "45",
-    "startup": "",
-    "block": "",
-    "hit": "-5",
+    "startup": "i12~14",
+    "block": "-6",
+    "hit": "-4",
     "counter": "",
     "alternateInputs": [
       "BT 1+4_2+3"
     ],
-    "categories": [],
+    "categories": [
+      "throw"
+    ],
     "notes": [
       "Throw break 1+2"
     ]

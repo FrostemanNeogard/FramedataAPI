@@ -3,8 +3,8 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "",
-    "startup": "",
+    "damage": "[12;12]",
+    "startup": "i16",
     "block": "+1",
     "hit": "+2c",
     "counter": "",
@@ -12,23 +12,22 @@
       "2+3"
     ],
     "categories": [
-      "powercrush",
-      "parry"
+      "powercrush"
     ],
     "notes": [
       "Heat Burst",
-      "Cancel with b,b",
+      "Cancel to r45 with b,b",
       "3 chip damage on block",
-      "Partially uses Heat",
-      "Unparryable",
-      "Ignores regular power crush armor"
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
     "name": "Curse of Azazel",
     "input": "in heat 2+3",
     "hit_level": "h,sm",
-    "damage": "15,4,5,5,4,18",
+    "damage": "51",
     "startup": "i12~13 i47~53 i1~7 i1~7 i1~6 i1~2",
     "block": "+3",
     "hit": "+0d",
@@ -36,22 +35,19 @@
     "alternateInputs": [
       "in heat 2+3"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Heat Smash",
+      "Reversal Break",
       "Balcony Break",
-      "Hit throw on the first hit",
-      "Unparryable",
-      "Ignores regular power crush armor",
-      "Jails"
+      "Jail from 1st attack",
+      "Transition to attack throw on hit"
     ]
   },
   {
     "name": "Malice of Azazel",
     "input": "in heat SCR 2+3",
-    "hit_level": "l,m",
+    "hit_level": "L,m",
     "damage": "10,20",
     "startup": "i19",
     "block": "-14",
@@ -63,7 +59,8 @@
     "categories": [],
     "notes": [
       "Heat Smash",
-      "Balcony Break "
+      "Reversal Break",
+      "Balcony Break"
     ]
   },
   {
@@ -73,7 +70,7 @@
     "damage": "16,22",
     "startup": "i19~20 i13~14",
     "block": "-9",
-    "hit": "+5d(-5)",
+    "hit": "+5a (-5)",
     "counter": "",
     "alternateInputs": [
       "f+1+2"
@@ -81,12 +78,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +36a (+26)",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
-      "Azazel's Power",
       "Zafina receives recoverable health damage",
-      "Second hit only comes out on hit or block",
-      "8 chip damage on block"
+      "Second hit available only on hit or block",
+      "8 chip damage on block",
+      "Azazel's Power"
     ]
   },
   {
@@ -94,24 +91,27 @@
     "input": "df+4,1",
     "hit_level": "m,m",
     "damage": "14,22",
-    "startup": "i31",
+    "startup": ",i31",
     "block": "-12",
-    "hit": "+3d",
+    "hit": "+3a",
     "counter": "",
     "alternateInputs": [
       "df+4,1"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +17d",
+      "Heat Dash +5, +43a (+35)",
       "Balcony Break",
       "Spike",
-      "Azazel's Power",
+      "Combo from 1st hit",
+      "Cancel to FC -18 -2 r37 with D",
       "Zafina receives recoverable health damage",
-      "Deals 8 chip damage on block",
-      "Cancel and transition to -18, -2 FC with D",
-      "Combos from 1st hit"
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "8 chip damage on block",
+      "Azazel's Power"
     ]
   },
   {
@@ -119,86 +119,78 @@
     "input": "SCR 2,1",
     "hit_level": "m,m",
     "damage": "17,25",
-    "startup": "i21",
+    "startup": ",i21",
     "block": "-6",
-    "hit": "+30d(+20)",
+    "hit": "+30a (+20)",
     "counter": "",
     "alternateInputs": [
       "SCR 2,1"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +36a(+26)",
-      "Azazel's Power",
+      "Heat Dash +5, +36a (+26)",
+      "Balcony Break",
+      "10 chip damage on block",
       "Zafina receives recoverable damage",
-      "10 chip damage on block"
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Azazel's Power"
     ]
   },
   {
     "name": "",
     "input": "TRT df+1",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "30",
     "startup": "i19~20",
     "block": "+6",
-    "hit": "+30a(+15)",
+    "hit": "+30a (+15)",
     "counter": "",
     "alternateInputs": [
       "TRT df+1"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush",
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +35d",
-      "Azazel's Power",
-      "Zafina receives recoverable health damage",
+      "Heat Dash +5, +35a (+27)",
       "12 chip damage on block",
-      "Gains Power Crush frames during heat"
+      "Zafina receives recoverable health damage",
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Gains Power Crush frames during Heat (pc6~18)",
+      "Azazel's Power"
     ]
   },
   {
     "name": "Vicious Claw",
     "input": "MNT df+1",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "30",
     "startup": "i24~25",
     "block": "+6",
-    "hit": "+7d",
+    "hit": "+7a",
     "counter": "",
     "alternateInputs": [
       "MNT df+1"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush",
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +67a(+50",
+      "Heat Dash +5, +67a (+50)",
+      "Balcony Break",
       "Spike",
-      "Azazel's Power",
+      "9 chip damage on block",
       "Zafina receives recoverable health damage",
-      "Gains Power Crush frames during Heat",
-      "9 chip damage on block"
-    ]
-  },
-  {
-    "name": "",
-    "input": "in rage df+1+2",
-    "hit_level": "m,t",
-    "damage": "55",
-    "startup": "i20",
-    "block": "-15",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "in rage df+1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Rage Art",
-      "Damage increases with lower health",
-      "Erases opponent's recoverable health on hit"
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Gains Power Crush frames during Heat (pc8~23)",
+      "Azazel's Power"
     ]
   },
   {
@@ -215,7 +207,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -223,7 +215,7 @@
     "input": "1,2",
     "hit_level": "h,h",
     "damage": "5,9",
-    "startup": "i12",
+    "startup": ",i12",
     "block": "-3",
     "hit": "+8",
     "counter": "",
@@ -232,7 +224,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit"
+      "Jail from 1st attack"
     ]
   },
   {
@@ -240,7 +232,7 @@
     "input": "1,2,3",
     "hit_level": "h,h,h",
     "damage": "5,9,12",
-    "startup": "i20",
+    "startup": ",i20",
     "block": "0",
     "hit": "+9",
     "counter": "",
@@ -249,9 +241,9 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition -9, +0 with B",
-      "Combos from 2nd hit CH",
-      "Can be delayed"
+      "Combo from 2nd hit CH with 8f delay",
+      "Move can be delayed 7f",
+      "Cancel SCR transition -9 +0 t71 r28 with B"
     ]
   },
   {
@@ -259,7 +251,7 @@
     "input": "1,3",
     "hit_level": "h,h",
     "damage": "5,14",
-    "startup": "i17~18",
+    "startup": ",i17~18",
     "block": "-2",
     "hit": "+7",
     "counter": "",
@@ -268,8 +260,10 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition -8, +1 with B",
-      "Combos from 1st hit"
+      "Combo from 1st hit with 3f delay",
+      "Jail from 1st attack with 1f delay",
+      "Move can be delayed 2f",
+      "Cancel SCR transition -8 +1 t55 r26 with B"
     ]
   },
   {
@@ -277,9 +271,9 @@
     "input": "1,4",
     "hit_level": "h,m",
     "damage": "5,17",
-    "startup": "i19",
+    "startup": ",i19",
     "block": "-5",
-    "hit": "+22",
+    "hit": "+22g",
     "counter": "+53a",
     "alternateInputs": [
       "1,4"
@@ -287,7 +281,8 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Combos from 1st hit "
+      "Combo from 1st hit with 3f delay",
+      "Move can be delayed 1f"
     ]
   },
   {
@@ -312,7 +307,7 @@
     "input": "2,1",
     "hit_level": "h,m",
     "damage": "8,9",
-    "startup": "i23~25",
+    "startup": ",i23~25",
     "block": "-6c",
     "hit": "+2",
     "counter": "",
@@ -321,15 +316,17 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit CH"
+      "Spike",
+      "Combo from 1st hit CH with 3f delay",
+      "Move can be delayed 1f"
     ]
   },
   {
     "name": "Kapara",
     "input": "2,1,3",
-    "hit_level": "h,m,l",
+    "hit_level": "h,m,L",
     "damage": "8,9,11",
-    "startup": "i32",
+    "startup": ",i32",
     "block": "-17",
     "hit": "+4d",
     "counter": "",
@@ -338,9 +335,10 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel and transition to -9, -17 MNT with D",
-      "Combos from 2nd hit CH",
-      "Can be delayed"
+      "Combo from 2nd hit CH with 1f delay",
+      "Input can be delayed 11f",
+      "Move can be delayed 10f",
+      "Cancel 3rd hit to MNT -17 -9 r25 with D"
     ]
   },
   {
@@ -348,7 +346,7 @@
     "input": "2,2",
     "hit_level": "h,m",
     "damage": "8,12",
-    "startup": "i19-20",
+    "startup": ",i19-20",
     "block": "-9",
     "hit": "+2",
     "counter": "+7",
@@ -357,8 +355,9 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit CH",
-      "Can be delayed "
+      "Combo from 1st hit CH with 6f delay",
+      "Input can be delayed 13f",
+      "Move can be delayed 11f"
     ]
   },
   {
@@ -366,18 +365,19 @@
     "input": "2,2,1+2",
     "hit_level": "h,m,m,m,m",
     "damage": "8,12,7,11,14",
-    "startup": "i25~26 i10~11 i4~5",
-    "block": "-9",
-    "hit": "+19d(-16)",
+    "startup": ",i25~26 i10~11 i4~5",
+    "block": "-9c",
+    "hit": "+19d (-16)",
     "counter": "",
     "alternateInputs": [
       "2,2,1+2"
     ],
     "categories": [],
     "notes": [
-      "Floor Break",
-      "Combos from 2nd hit CH",
-      "Can be delayed "
+      "Spike",
+      "Combo from 2nd hit CH with 9f delay",
+      "Input can be delayed 14f",
+      "Move can be delayed 9f"
     ]
   },
   {
@@ -386,7 +386,7 @@
     "hit_level": "h",
     "damage": "17",
     "startup": "i13",
-    "block": "0",
+    "block": "+0",
     "hit": "+9",
     "counter": "",
     "alternateInputs": [
@@ -394,7 +394,7 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition -8, +1 with B"
+      "Cancel SCR transition -8 +1 t40 r27 with B"
     ]
   },
   {
@@ -405,13 +405,13 @@
     "startup": "i14~15",
     "block": "-6",
     "hit": "-1",
-    "counter": "+19a(+10)",
+    "counter": "+19a (+10)",
     "alternateInputs": [
       "4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -422,13 +422,13 @@
     "startup": "i16~17",
     "block": "-12",
     "hit": "+4",
-    "counter": "+24a",
+    "counter": "+25a",
     "alternateInputs": [
       "1+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike"
     ]
   },
   {
@@ -436,7 +436,7 @@
     "input": "1+2,4",
     "hit_level": "m,m",
     "damage": "17,10",
-    "startup": "i24~25",
+    "startup": ",i24~25",
     "block": "-10",
     "hit": "+1",
     "counter": "+6",
@@ -445,25 +445,28 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit"
+      "Combo from 1st hit with 1f delay",
+      "Interrupt with i6 from 1st block"
     ]
   },
   {
     "name": "Manticore",
     "input": "1+2,4,4",
     "hit_level": "m,m,m",
-    "damage": "17,10,12",
-    "startup": "i30~31",
+    "damage": "17,10,20",
+    "startup": ",i30~31",
     "block": "-11",
-    "hit": "+19d",
+    "hit": "+19a",
     "counter": "",
     "alternateInputs": [
       "1+2,4,4"
     ],
     "categories": [],
     "notes": [
-      "Combos from 2nd hit CH",
-      "Can pick up from the ground with db+3 for a juggle"
+      "Balcony break on airborne hit",
+      "Combo from 2nd hit CH with 1f delay",
+      "Can pick up from the ground with db+3 for a juggle",
+      "Interrupt with i12 from 2nd block"
     ]
   },
   {
@@ -480,7 +483,10 @@
     ],
     "categories": [],
     "notes": [
-      "Transitions to SCR"
+      "Cancel to r20 with db",
+      "Cancel to r28 with UB_U_UF",
+      "Stance sidestep with u_d",
+      "Backdash/dash with b_f"
     ]
   },
   {
@@ -490,7 +496,7 @@
     "damage": "17",
     "startup": "i19",
     "block": "-18",
-    "hit": "-9",
+    "hit": "-6",
     "counter": "+52a",
     "alternateInputs": [
       "f+2"
@@ -505,8 +511,8 @@
     "input": "f+2,3",
     "hit_level": "m,h",
     "damage": "17,12",
-    "startup": "i19",
-    "block": "0",
+    "startup": ",i19",
+    "block": "+0",
     "hit": "+9",
     "counter": "",
     "alternateInputs": [
@@ -514,9 +520,10 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition -9, +0 with B",
-      "Combos from 1st hit",
-      "Can be delayed"
+      "Cancel SCR transition -9 +0 t68 r28 with B",
+      "Combo from 1st hit with 13f delay",
+      "Input can be delayed 17f",
+      "Move can be delayed 15f"
     ]
   },
   {
@@ -524,16 +531,17 @@
     "input": "f+2,3,4",
     "hit_level": "m,h,m",
     "damage": "17,12,25",
-    "startup": "i28~29",
+    "startup": ",i28~29",
     "block": "-18",
-    "hit": "+18d(8)",
+    "hit": "+18a (+8)",
     "counter": "",
     "alternateInputs": [
       "f+2,3,4"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -543,7 +551,7 @@
     "damage": "28",
     "startup": "i21",
     "block": "+3",
-    "hit": "+68a(48)",
+    "hit": "+68a (+48)",
     "counter": "",
     "alternateInputs": [
       "f+3"
@@ -551,7 +559,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Cancel SCR transition -1, +64a with B"
+      "Cancel SCR transition -1 +64a (+44) t52 r31 with B"
     ]
   },
   {
@@ -578,7 +586,7 @@
     "damage": "16,22",
     "startup": "i19~20 i13~14",
     "block": "-9",
-    "hit": "+5d(-5)",
+    "hit": "+5a (-5)",
     "counter": "",
     "alternateInputs": [
       "f+1+2"
@@ -586,12 +594,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +36a (+26)",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
-      "Azazel's Power",
       "Zafina receives recoverable health damage",
-      "Second hit only comes out on hit or block",
-      "8 chip damage on block"
+      "Second hit available only on hit or block",
+      "8 chip damage on block",
+      "Azazel's Power"
     ]
   },
   {
@@ -616,7 +624,7 @@
     "input": "df+1,2",
     "hit_level": "m,m",
     "damage": "10,16",
-    "startup": "i15~16",
+    "startup": ",i15~16",
     "block": "-13",
     "hit": "+3",
     "counter": "",
@@ -625,7 +633,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit"
+      "Combo from 1st hit with 3f delay"
     ]
   },
   {
@@ -633,9 +641,9 @@
     "input": "df+1,2,1",
     "hit_level": "m,m,m",
     "damage": "10,16,20",
-    "startup": "i25",
+    "startup": ",i25",
     "block": "-13",
-    "hit": "+23d(13)",
+    "hit": "+23a (+13)",
     "counter": "",
     "alternateInputs": [
       "df+1,2,1"
@@ -643,8 +651,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combos from 2nd hit CH",
-      "Can be delayed"
+      "Combo from 2nd hit CH with 12f delay",
+      "Interrupt with i1 from 2nd block"
     ]
   },
   {
@@ -652,7 +660,7 @@
     "input": "df+1,4",
     "hit_level": "m,h",
     "damage": "10,18",
-    "startup": "i19~20",
+    "startup": ",i19~20",
     "block": "-6",
     "hit": "+12g",
     "counter": "",
@@ -662,7 +670,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combos from 1st hit"
+      "Combo from 1st hit"
     ]
   },
   {
@@ -679,7 +687,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Launches crouching opponent",
+      "Can evade some highs"
     ]
   },
   {
@@ -696,7 +705,7 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition -10, -1 with B"
+      "Cancel SCR transition -10 -1 t43 r28 with B"
     ]
   },
   {
@@ -704,7 +713,7 @@
     "input": "df+3,4",
     "hit_level": "m,h",
     "damage": "15,17",
-    "startup": "i23~24",
+    "startup": ",i23~24",
     "block": "-6",
     "hit": "+22a",
     "counter": "+55a",
@@ -713,15 +722,16 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit"
+      "Balcony break on airborne hit",
+      "Combo from 1st hit"
     ]
   },
   {
     "name": "Pukku",
     "input": "df+3,d+4",
-    "hit_level": "m,l",
+    "hit_level": "m,L",
     "damage": "15,15",
-    "startup": "i25~26",
+    "startup": ",i25~26",
     "block": "-14",
     "hit": "+1c",
     "counter": "",
@@ -730,7 +740,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit"
+      "Combo from 1st hit"
     ]
   },
   {
@@ -755,24 +765,27 @@
     "input": "df+4,1",
     "hit_level": "m,m",
     "damage": "14,22",
-    "startup": "i31",
+    "startup": ",i31",
     "block": "-12",
-    "hit": "+3d",
+    "hit": "+3a",
     "counter": "",
     "alternateInputs": [
       "df+4,1"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +17d",
+      "Heat Dash +5, +43a (+35)",
       "Balcony Break",
       "Spike",
-      "Azazel's Power",
+      "Combo from 1st hit",
+      "Cancel to FC -18 -2 r37 with D",
       "Zafina receives recoverable health damage",
-      "Deals 8 chip damage on block",
-      "Cancel and transition to -18, -2 FC with D",
-      "Combos from 1st hit"
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "8 chip damage on block",
+      "Azazel's Power"
     ]
   },
   {
@@ -780,9 +793,9 @@
     "input": "df+4,2",
     "hit_level": "m,m",
     "damage": "14,20",
-    "startup": "i27~29",
+    "startup": ",i27~29",
     "block": "-13",
-    "hit": "+24a(+9)",
+    "hit": "+24a (+9)",
     "counter": "",
     "alternateInputs": [
       "df+4,2"
@@ -790,7 +803,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Combos from 1st hit "
+      "Combo from 1st hit"
     ]
   },
   {
@@ -809,14 +822,14 @@
       "homing"
     ],
     "notes": [
-      "Homing "
+      "Homing"
     ]
   },
   {
     "name": "",
     "input": "d+1",
     "hit_level": "m",
-    "damage": "",
+    "damage": "11",
     "startup": "i12",
     "block": "-16",
     "hit": "-8",
@@ -826,25 +839,26 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike"
     ]
   },
   {
     "name": "Ningishzida",
     "input": "d+1,1",
     "hit_level": "m,m",
-    "damage": "",
-    "startup": "i17~18",
+    "damage": "11,17",
+    "startup": ",i17~18",
     "block": "-12",
-    "hit": "+19a(+12)",
-    "counter": "+28a(+22)",
+    "hit": "+19a (+12)",
+    "counter": "+29a (+23)",
     "alternateInputs": [
       "d+1,1"
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit CH",
-      "Delayable"
+      "Combo from 1st hit CH with 18f delay",
+      "Input can be delayed 18f",
+      "Move can be delayed 10f"
     ]
   },
   {
@@ -855,13 +869,13 @@
     "startup": "i19~20",
     "block": "-16c",
     "hit": "-3c",
-    "counter": "+17d",
+    "counter": "+17a",
     "alternateInputs": [
       "d+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike"
     ]
   },
   {
@@ -869,7 +883,7 @@
     "input": "d+2,4",
     "hit_level": "m,m",
     "damage": "17,10",
-    "startup": "i26",
+    "startup": ",i26",
     "block": "-22",
     "hit": "-4",
     "counter": "-4c",
@@ -878,8 +892,8 @@
     ],
     "categories": [],
     "notes": [
-      "Floor Break",
-      "Transition to -22, -4 TRT with D"
+      "Spike",
+      "Enter TRT -22 -4 with D"
     ]
   },
   {
@@ -887,8 +901,8 @@
     "input": "d+2,4,3",
     "hit_level": "m,m,m",
     "damage": "17,10,10",
-    "startup": "i28~31",
-    "block": "-12",
+    "startup": ",i28~31",
+    "block": "-13~-10",
     "hit": "+18a",
     "counter": "",
     "alternateInputs": [
@@ -896,13 +910,13 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 2nd hit CH"
+      "Combo from 2nd hit CH"
     ]
   },
   {
     "name": "Earwig Pincer",
     "input": "d+3",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "14",
     "startup": "i22",
     "block": "-15",
@@ -913,14 +927,14 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to -13, +7c MNT with D",
+      "Enter MNT -13 +7c r32 with D",
       "Evasive (can go under some mids)"
     ]
   },
   {
     "name": "",
     "input": "d+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "8",
     "startup": "i17~18",
     "block": "-19",
@@ -937,19 +951,19 @@
   {
     "name": "Iskur",
     "input": "d+4,3",
-    "hit_level": "l,h",
+    "hit_level": "L,h",
     "damage": "8,10",
-    "startup": "i19",
+    "startup": ",i19",
     "block": "-6",
-    "hit": "+36a(+26)",
+    "hit": "+36a (+26)",
     "counter": "",
     "alternateInputs": [
       "d+4,3"
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st hit CH",
-      "Delayable"
+      "Combo from 1st hit CH with 11f delay",
+      "Move can be delayed 9f"
     ]
   },
   {
@@ -966,7 +980,8 @@
     ],
     "categories": [],
     "notes": [
-      " Transitions to TRT"
+      "Cancel to r30 with DB_UB_U_UF",
+      "Crawl with F"
     ]
   },
   {
@@ -983,7 +998,12 @@
     ],
     "categories": [],
     "notes": [
-      "Transitions to MNT"
+      "Cancel to r30 with db",
+      "Cancel to r38 with UB_U_UF",
+      "Can block in stance on frame 31~",
+      "Stance sidestep with u_d",
+      "Move backward/forward with b_f",
+      "Dash with f,f"
     ]
   },
   {
@@ -1006,7 +1026,7 @@
   {
     "name": "Acinaces",
     "input": "db+3",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "13",
     "startup": "i18",
     "block": "-8",
@@ -1017,13 +1037,13 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition -11, +0 with B"
+      "Cancel SCR transition -11 +0 t48 r30 with B"
     ]
   },
   {
     "name": "",
     "input": "db+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "14",
     "startup": "i21~22",
     "block": "-12",
@@ -1034,34 +1054,30 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to -13, -4 MNT with D",
-      "Alternate input FC.db+4"
+      "Transition to -13 -4 +2 MNT with D"
     ]
   },
   {
     "name": "Euphrates Cannon",
     "input": "db+4,2",
-    "hit_level": "l,m",
+    "hit_level": "L,m",
     "damage": "14,17",
-    "startup": "i29~32",
+    "startup": ",i29~32",
     "block": "-13",
-    "hit": "+68a(+52)",
+    "hit": "+68a (+52)",
     "counter": "",
     "alternateInputs": [
       "db+4,2"
     ],
     "categories": [],
     "notes": [
-      "Instant Tornado",
-      "Does not apply Tornado mid-combo",
-      "Combos from 1st hit CH",
-      "Alternate input FC.db+4,2"
+      "Combo from 1st hit CH"
     ]
   },
   {
     "name": "",
     "input": "db+1+2",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "10",
     "startup": "i28~29",
     "block": "-16",
@@ -1078,12 +1094,12 @@
   {
     "name": "Sirrush",
     "input": "db+1+2,1+2",
-    "hit_level": "l,m",
+    "hit_level": "L,m",
     "damage": "10,20",
-    "startup": "i33",
+    "startup": ",i33",
     "block": "-16",
-    "hit": "+5a(-4)",
-    "counter": "+37a(-10)",
+    "hit": "+5a (-4)",
+    "counter": "+37a (-10)",
     "alternateInputs": [
       "db+1+2,1+2"
     ],
@@ -1108,7 +1124,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Transition to attack throw on standing or airborne front hit with 1+2",
+      "4f input window for attack throw (frames 14~17)"
     ]
   },
   {
@@ -1127,10 +1144,9 @@
       "throw"
     ],
     "notes": [
-      "Hit Throw",
-      "Azazel's Power",
       "Zafina receives recoverable health damage",
-      "Switches sides"
+      "Side switch on hit",
+      "Azazel's Power"
     ]
   },
   {
@@ -1149,7 +1165,9 @@
       "homing"
     ],
     "notes": [
-      "Homing"
+      "Homing",
+      "Balcony break on airborne hit",
+      "+23a on BT hit"
     ]
   },
   {
@@ -1159,14 +1177,15 @@
     "damage": "23",
     "startup": "i24~26",
     "block": "-14",
-    "hit": "+12d",
+    "hit": "+12a",
     "counter": "",
     "alternateInputs": [
       "b+3"
     ],
     "categories": [],
     "notes": [
-      "Powercrush"
+      "Balcony Break",
+      "Spike"
     ]
   },
   {
@@ -1191,19 +1210,18 @@
     "input": "b+4,4",
     "hit_level": "m,m",
     "damage": "14,20",
-    "startup": "i20~22",
+    "startup": ",i20~22",
     "block": "-14",
-    "hit": "+9a(0)",
-    "counter": "",
+    "hit": "+9a (+0)",
+    "counter": "+41a (-6)",
     "alternateInputs": [
       "b+4,4"
     ],
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Delayable",
-      "Hit-confirmable",
-      "Combos from 1st hit"
+      "Combos from 1st hit with 16f delay",
+      "Move can be delayed 9f"
     ]
   },
   {
@@ -1212,15 +1230,50 @@
     "hit_level": "m!",
     "damage": "40",
     "startup": "i64",
-    "block": "!",
-    "hit": "+41a(+10)",
+    "block": "",
+    "hit": "+41a (+10)",
     "counter": "",
     "alternateInputs": [
       "b+2+3"
     ],
     "categories": [],
     "notes": [
-      "Unblockable"
+      "+45a on side/BT hit"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ub+3",
+    "hit_level": "m",
+    "damage": "19",
+    "startup": "i22~23",
+    "block": "-17",
+    "hit": "-6",
+    "counter": "",
+    "alternateInputs": [
+      "ub+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony break on airborne hit"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ub+4",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i17~18",
+    "block": "-13",
+    "hit": "+19a (+9)",
+    "counter": "+29a (+19)",
+    "alternateInputs": [
+      "ub+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Recovers 2f faster on hit (t48 r30)"
     ]
   },
   {
@@ -1237,9 +1290,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "ub+1",
-      "u+1"
+      ""
     ]
   },
   {
@@ -1249,16 +1300,14 @@
     "damage": "25",
     "startup": "i22~23",
     "block": "-8",
-    "hit": "+17d",
+    "hit": "+17a",
     "counter": "",
     "alternateInputs": [
       "uf+3"
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "ub+3",
-      "u+3"
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -1268,16 +1317,14 @@
     "damage": "18",
     "startup": "i17~18",
     "block": "-13",
-    "hit": "+29a(19)",
+    "hit": "+29a (+19)",
     "counter": "",
     "alternateInputs": [
       "uf+4"
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "ub+4",
-      "u+4"
+      "Recovers 2 frames faster on hit (t48 r30)"
     ]
   },
   {
@@ -1287,7 +1334,7 @@
     "damage": "20",
     "startup": "i15~16",
     "block": "+1",
-    "hit": "+21a(12)",
+    "hit": "+21a (+12)",
     "counter": "+38a",
     "alternateInputs": [
       "f,F+2"
@@ -1315,17 +1362,18 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition +4, +9c with B"
+      "Spike",
+      "Cancel SCR transition +4 +9c +14c t51 r29 with B"
     ]
   },
   {
     "name": "Sagaris Smash",
     "input": "f,F+3,1",
     "hit_level": "m,m",
-    "damage": "20",
-    "startup": "i18",
+    "damage": "20,24",
+    "startup": ",i18",
     "block": "-16",
-    "hit": "+5d",
+    "hit": "+5a",
     "counter": "",
     "alternateInputs": [
       "f,F+3,1"
@@ -1333,7 +1381,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combos from 1st hit CH",
+      "Combos from 1st hit CH with 11f? delay",
       "Can be delayed"
     ]
   },
@@ -1344,7 +1392,7 @@
     "damage": "20",
     "startup": "i17~19",
     "block": "-8",
-    "hit": "+18a(+9)",
+    "hit": "+18a (+9)",
     "counter": "",
     "alternateInputs": [
       "f,F+4"
@@ -1364,14 +1412,15 @@
     "damage": "10,21",
     "startup": "i21 i8~12",
     "block": "-11",
-    "hit": "+15a(+6)",
+    "hit": "+15a (+6)",
     "counter": "",
     "alternateInputs": [
       "f,F+3+4"
     ],
     "categories": [],
     "notes": [
-      "Transition to -12, +14a MNT with D"
+      "Balcony Break",
+      "Enter MNT -12 +14a (+5) with D"
     ]
   },
   {
@@ -1381,7 +1430,7 @@
     "damage": "30",
     "startup": "i23~26",
     "block": "+7",
-    "hit": "+19a(9)",
+    "hit": "+19a (+9)",
     "counter": "",
     "alternateInputs": [
       "f,f,F+3"
@@ -1389,7 +1438,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Cancel SCR transition +3, +15a with B",
+      "Cancel SCR transition +3 +15a (+5) t58 r32 with B",
       "9 chip damage on block"
     ]
   },
@@ -1409,6 +1458,7 @@
       "homing"
     ],
     "notes": [
+      "Strong Aerial Tailspin",
       "Homing",
       "Balcony Break",
       "8 chip damage on block"
@@ -1416,20 +1466,21 @@
   },
   {
     "name": "Tarantula Dive",
-    "input": "wr4",
-    "hit_level": "l",
+    "input": "Win rage f+4",
+    "hit_level": "L",
     "damage": "21",
     "startup": "i14~30",
-    "block": "-52",
-    "hit": "-7d",
+    "block": "-52~-36",
+    "hit": "-7a",
     "counter": "",
     "alternateInputs": [
-      "wr4"
+      "Win rage f+4"
     ],
     "categories": [],
     "notes": [
-      "Transition to -52, -7BT with U",
-      "Transition to -52, -7 TRT with D"
+      "Enter BT -52 -7a with U",
+      "Enter TRT -52 -7a r35 with D",
+      "Zafina must run for 32f to access this move"
     ]
   },
   {
@@ -1446,9 +1497,6 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "FC.db+1",
-      "FC.df+1",
       "Transition to r24 with f",
       "Transition input can be delayed 16f"
     ]
@@ -1467,9 +1515,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "FC.db+2",
-      "FC.df+2"
+      ""
     ]
   },
   {
@@ -1486,8 +1532,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input:",
-      "FC.db+3"
+      ""
     ]
   },
   {
@@ -1504,26 +1549,24 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "FC.db+4",
-      "FC.df+4"
+      ""
     ]
   },
   {
     "name": "",
     "input": "FC df+3",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "15",
     "startup": "i23~24",
     "block": "-26",
-    "hit": "+14d",
+    "hit": "+14a",
     "counter": "",
     "alternateInputs": [
       "FC df+3"
     ],
     "categories": [],
     "notes": [
-      "On hit or whiff, hold D to transition to MNT (becomes +13d)"
+      "Enter MNT -26 +13a with D"
     ]
   },
   {
@@ -1531,7 +1574,7 @@
     "input": "ws1",
     "hit_level": "m",
     "damage": "8",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-10",
     "hit": "+1",
     "counter": "",
@@ -1548,7 +1591,7 @@
     "input": "ws1,2",
     "hit_level": "m,m",
     "damage": "8,8",
-    "startup": "i20~21",
+    "startup": ",i20~21",
     "block": "-13",
     "hit": "+36a (+26)",
     "counter": "",
@@ -1557,7 +1600,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit with 9f delay",
+      "Delay does not change the timing of the attack"
     ]
   },
   {
@@ -1575,7 +1619,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Can transition to MNT by holding D (becomes -40/+2)"
+      "Enter MNT -40 +2a (-8) r60 with D"
     ]
   },
   {
@@ -1592,7 +1636,7 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition by holding B (becomes -8/+1)"
+      "Cancel SCR transition -8 +1 t39 r27 with B"
     ]
   },
   {
@@ -1613,20 +1657,23 @@
     ]
   },
   {
-    "name": "",
-    "input": "SCR db",
+    "name": "Scarecrow Stance",
+    "input": "3+4",
     "hit_level": "",
     "damage": "",
-    "startup": "19",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "SCR db"
+      "3+4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Cancel to r20 with db",
+      "Cancel to r28 with UB_U_UF",
+      "Stance sidestep with u_d",
+      "Backdash/dash with b_f"
     ]
   },
   {
@@ -1651,16 +1698,17 @@
     "input": "SCR 1,4",
     "hit_level": "h,m",
     "damage": "12,18",
-    "startup": "i22",
+    "startup": ",i22",
     "block": "-6",
     "hit": "+7",
-    "counter": "+32d",
+    "counter": "+32a",
     "alternateInputs": [
       "SCR 1,4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1685,20 +1733,24 @@
     "input": "SCR 2,1",
     "hit_level": "m,m",
     "damage": "17,25",
-    "startup": "i21",
+    "startup": ",i21",
     "block": "-6",
-    "hit": "+30d(+20)",
+    "hit": "+30a (+20)",
     "counter": "",
     "alternateInputs": [
       "SCR 2,1"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +36a(+26)",
-      "Azazel's Power",
+      "Heat Dash +5, +36a (+26)",
+      "Balcony Break",
+      "10 chip damage on block",
       "Zafina receives recoverable damage",
-      "10 chip damage on block"
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Azazel's Power"
     ]
   },
   {
@@ -1706,16 +1758,18 @@
     "input": "SCR 2,2",
     "hit_level": "m,m",
     "damage": "17,17",
-    "startup": "i22",
+    "startup": ",i22",
     "block": "-10",
     "hit": "+8c",
-    "counter": "+8d",
+    "counter": "+8a",
     "alternateInputs": [
       "SCR 2,2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike",
+      "Combo from 1st hit with 6f delay",
+      "Delay does not change the timing of the attack"
     ]
   },
   {
@@ -1740,26 +1794,28 @@
     "input": "SCR 3,3",
     "hit_level": "m,h",
     "damage": "15,20",
-    "startup": "i16",
-    "block": "0",
-    "hit": "+25a(+15)",
+    "startup": ",i16",
+    "block": "+0",
+    "hit": "+25a (+15)",
     "counter": "",
     "alternateInputs": [
       "SCR 3,3"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Combo from 1st hit with 14f delay",
+      "Move can be delayed 9f"
     ]
   },
   {
     "name": "",
     "input": "SCR 4",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "20",
     "startup": "i15~16",
     "block": "-18",
-    "hit": "+58a(+42)",
+    "hit": "+58a (+42)",
     "counter": "",
     "alternateInputs": [
       "SCR 4"
@@ -1776,14 +1832,15 @@
     "damage": "20",
     "startup": "i17~19",
     "block": "+6",
-    "hit": "+17d",
+    "hit": "+17a",
     "counter": "",
     "alternateInputs": [
       "SCR 1+2"
     ],
     "categories": [],
     "notes": [
-      "Hold D to transition to TRT (remains +6/+17d)"
+      "Spike",
+      "Enter TRT with D"
     ]
   },
   {
@@ -1793,41 +1850,47 @@
     "damage": "10,20",
     "startup": "i18~19 i6~8",
     "block": "-12",
-    "hit": "+8",
+    "hit": "+8g",
     "counter": "",
     "alternateInputs": [
       "SCR 3+4"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Jail from 1st attack"
     ]
   },
   {
     "name": "",
     "input": "SCR df+1",
-    "hit_level": "m,m",
+    "hit_level": "m,M",
     "damage": "10,20",
     "startup": "i18 i17~19",
-    "block": "-6",
-    "hit": "+33a(+18)",
+    "block": "-9",
+    "hit": "+33a (+18)",
     "counter": "",
     "alternateInputs": [
       "SCR df+1"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush",
+      "parry"
+    ],
     "notes": [
       "Tornado",
-      "Azazel's Power",
+      "Jail from 1st attack",
+      "8 chip damage on block",
       "Zafina receives recoverable health damage",
-      "Gains Power Crush frames during Heat",
-      "8 chip damage on block"
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Gains Power Crush frames during Heat (pc8~17)",
+      "Azazel's Power"
     ]
   },
   {
     "name": "",
     "input": "SCR df+3",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "10",
     "startup": "i28~30",
     "block": "-23",
@@ -1846,11 +1909,11 @@
   {
     "name": "",
     "input": "SCR df+3,3",
-    "hit_level": "l,l",
+    "hit_level": "L,L",
     "damage": "10,10",
-    "startup": "i29~31",
+    "startup": ",i29~31",
     "block": "-23",
-    "hit": "+54a(+38)",
+    "hit": "+54a (+38)",
     "counter": "",
     "alternateInputs": [
       "SCR df+3,3"
@@ -1860,14 +1923,13 @@
     ],
     "notes": [
       "Homing",
-      "Launches into Tornado",
-      "Does not apply Tornado mid-combo"
+      "Combo from 1st hit"
     ]
   },
   {
     "name": "",
     "input": "SCR df+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "17",
     "startup": "i19~20",
     "block": "-14",
@@ -1895,7 +1957,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Interrupt with i13 if Zafina uses SCR.4",
+      "Can hit grounded when off-axis"
     ]
   },
   {
@@ -1903,35 +1966,34 @@
     "input": "SCR d+3,3",
     "hit_level": "l,h",
     "damage": "10,28",
-    "startup": "i24",
+    "startup": ",i24",
     "block": "+3",
-    "hit": "+77a(+61)",
+    "hit": "+77a (+61)",
     "counter": "",
     "alternateInputs": [
       "SCR d+3,3"
     ],
     "categories": [],
     "notes": [
-      "Can hold B to exit SCR (becomes -1/",
-      "Launches into Tornado",
-      "Does not apply Tornado mid-combo"
+      "Combo from 1st CH",
+      "Cancel SCR transition -1 +73a (+57) t55 r31 with B"
     ]
   },
   {
     "name": "",
     "input": "SCR d+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "20",
     "startup": "i24~30",
     "block": "-25",
-    "hit": "-4d",
+    "hit": "-4a",
     "counter": "",
     "alternateInputs": [
       "SCR d+4"
     ],
     "categories": [],
     "notes": [
-      "Can hold D to transition to MNT (remains -25/-4d)"
+      "Enter MNT with D"
     ]
   },
   {
@@ -1954,12 +2016,12 @@
   {
     "name": "",
     "input": "SCR b+1+2",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "16",
     "startup": "i16",
     "block": "-17",
-    "hit": "+3",
-    "counter": "+12d",
+    "hit": "+3c",
+    "counter": "+12a",
     "alternateInputs": [
       "SCR b+1+2"
     ],
@@ -1969,8 +2031,8 @@
     ]
   },
   {
-    "name": "",
-    "input": "TRT db",
+    "name": "Tarantula Stance",
+    "input": "d+1+2",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1978,22 +2040,23 @@
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "TRT db"
+      "d+1+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Cancel to r30 with DB_UB_U_UF",
+      "Crawl with F"
     ]
   },
   {
     "name": "",
     "input": "TRT 1",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "13",
     "startup": "i18",
     "block": "-11",
     "hit": "+5",
-    "counter": "+15d",
+    "counter": "+15a",
     "alternateInputs": [
       "TRT 1"
     ],
@@ -2005,11 +2068,11 @@
   {
     "name": "",
     "input": "TRT 2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "24",
-    "startup": "i34-36",
+    "startup": "i34~36",
     "block": "-9",
-    "hit": "=+40a(+30)",
+    "hit": "+40a (+30)",
     "counter": "",
     "alternateInputs": [
       "TRT 2"
@@ -2026,14 +2089,14 @@
     "damage": "16",
     "startup": "i14~i15",
     "block": "-7",
-    "hit": "+15d",
+    "hit": "+15a",
     "counter": "",
     "alternateInputs": [
       "TRT 3"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike"
     ]
   },
   {
@@ -2043,14 +2106,14 @@
     "damage": "10",
     "startup": "i26",
     "block": "-22",
-    "hit": "-4b",
+    "hit": "-4",
     "counter": "-4c",
     "alternateInputs": [
       "TRT 4"
     ],
     "categories": [],
     "notes": [
-      "Can hold D to transition to TRT instead of MNT"
+      "Cancel MNT transition with D, recover in TRT"
     ]
   },
   {
@@ -2058,7 +2121,7 @@
     "input": "TRT 4,3",
     "hit_level": "m,m",
     "damage": "10,10",
-    "startup": "i28~31",
+    "startup": ",i28~31",
     "block": "-13",
     "hit": "+18a",
     "counter": "",
@@ -2067,16 +2130,16 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st CH"
     ]
   },
   {
     "name": "",
     "input": "TRT 1+2",
-    "hit_level": "m,m",
+    "hit_level": "m,M",
     "damage": "7,20",
     "startup": "i19~20 i9~10",
-    "block": "-12",
+    "block": "-12c",
     "hit": "+14a",
     "counter": "",
     "alternateInputs": [
@@ -2090,33 +2153,37 @@
   {
     "name": "",
     "input": "TRT df+1",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "30",
     "startup": "i19~20",
     "block": "+6",
-    "hit": "+30a(+15)",
+    "hit": "+30a (+15)",
     "counter": "",
     "alternateInputs": [
       "TRT df+1"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush",
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +35d",
-      "Azazel's Power",
-      "Zafina receives recoverable health damage",
+      "Heat Dash +5, +35a (+27)",
       "12 chip damage on block",
-      "Gains Power Crush frames during heat"
+      "Zafina receives recoverable health damage",
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Gains Power Crush frames during Heat (pc6~18)",
+      "Azazel's Power"
     ]
   },
   {
     "name": "",
     "input": "TRT d+1+2",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "20",
     "startup": "i25",
     "block": "-21",
-    "hit": "+10d",
+    "hit": "+10a",
     "counter": "",
     "alternateInputs": [
       "TRT d+1+2"
@@ -2124,6 +2191,28 @@
     "categories": [],
     "notes": [
       ""
+    ]
+  },
+  {
+    "name": "Mantis Stance",
+    "input": "d+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "d+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Cancel to r30 with db",
+      "Cancel to r38 with UB_U_UF",
+      "Can block in stance on frame 31~",
+      "Stance sidestep with u_d",
+      "Move backward/forward with b_f",
+      "Dash with f,f"
     ]
   },
   {
@@ -2148,7 +2237,7 @@
     "input": "MNT 1,3",
     "hit_level": "m,h",
     "damage": "12,12",
-    "startup": "i19",
+    "startup": ",i19",
     "block": "0",
     "hit": "+9",
     "counter": "",
@@ -2157,7 +2246,7 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel SCR transition by holding B (becomes -8/+1)"
+      "Cancel SCR transition -8 +1 t46 r27 with B"
     ]
   },
   {
@@ -2182,7 +2271,7 @@
     "input": "MNT 2,1",
     "hit_level": "m,m",
     "damage": "19,10",
-    "startup": "i18~19",
+    "startup": ",i18~19",
     "block": "-14",
     "hit": "-3",
     "counter": "",
@@ -2191,7 +2280,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Input can be delayed 5f"
     ]
   },
   {
@@ -2201,20 +2290,21 @@
     "damage": "19,10,25",
     "startup": "i27~28",
     "block": "-13",
-    "hit": "+13a(+4)",
+    "hit": "+13a (+4)",
     "counter": "",
     "alternateInputs": [
       "MNT 2,1,4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony Break",
+      "Combo from 2nd hit"
     ]
   },
   {
     "name": "",
     "input": "MNT 3",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "12",
     "startup": "i15~16",
     "block": "-12",
@@ -2231,24 +2321,24 @@
   {
     "name": "Sweeping Claw",
     "input": "MNT 3,1",
-    "hit_level": "l,m",
+    "hit_level": "L,m",
     "damage": "12,16",
-    "startup": "i24",
+    "startup": ",i24",
     "block": "-9",
-    "hit": "+22a(+15)",
+    "hit": "+22a (+15)",
     "counter": "",
     "alternateInputs": [
       "MNT 3,1"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st CH"
     ]
   },
   {
     "name": "",
     "input": "MNT 4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "13",
     "startup": "i17~18",
     "block": "-19",
@@ -2259,24 +2349,25 @@
     ],
     "categories": [],
     "notes": [
-      "Hold D to transition to TRT"
+      "Enter TRT with D"
     ]
   },
   {
     "name": "Neti",
     "input": "MNT 4,3",
-    "hit_level": "l,m",
+    "hit_level": "L,m",
     "damage": "13,23",
-    "startup": "i27",
+    "startup": ",i27",
     "block": "-30",
-    "hit": "+32a(+22)",
+    "hit": "+32a (+22)",
     "counter": "",
     "alternateInputs": [
       "MNT 4,3"
     ],
     "categories": [],
     "notes": [
-      "Tornado"
+      "Tornado",
+      "Combo from 1st CH"
     ]
   },
   {
@@ -2286,14 +2377,14 @@
     "damage": "21",
     "startup": "i20",
     "block": "-12",
-    "hit": "+18d",
+    "hit": "+18a",
     "counter": "",
     "alternateInputs": [
       "MNT 1+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike"
     ]
   },
   {
@@ -2316,24 +2407,29 @@
   {
     "name": "Vicious Claw",
     "input": "MNT df+1",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "30",
     "startup": "i24~25",
     "block": "+6",
-    "hit": "+7d",
+    "hit": "+7a",
     "counter": "",
     "alternateInputs": [
       "MNT df+1"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush",
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5 +67a(+50",
+      "Heat Dash +5, +67a (+50)",
+      "Balcony Break",
       "Spike",
-      "Azazel's Power",
+      "9 chip damage on block",
       "Zafina receives recoverable health damage",
-      "Gains Power Crush frames during Heat",
-      "9 chip damage on block"
+      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Gains Power Crush frames during Heat (pc8~23)",
+      "Azazel's Power"
     ]
   },
   {
@@ -2343,7 +2439,7 @@
     "damage": "10",
     "startup": "i19~20",
     "block": "-9",
-    "hit": "+32a(22)",
+    "hit": "+32a (+22)",
     "counter": "",
     "alternateInputs": [
       "MNT df+2"
@@ -2360,14 +2456,15 @@
     "damage": "20",
     "startup": "i15~16",
     "block": "-17",
-    "hit": "+19cg",
+    "hit": "+19g",
     "counter": "",
     "alternateInputs": [
       "MNT df+3"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony break on airborne hit",
+      "Hitbox extends to both legs, can hit while Zafina is BT"
     ]
   },
   {
@@ -2386,13 +2483,14 @@
       "homing"
     ],
     "notes": [
-      "Homing"
+      "Homing",
+      "Balcony Break"
     ]
   },
   {
     "name": "",
     "input": "MNT d+1",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "14",
     "startup": "i15~16",
     "block": "-11",
@@ -2409,12 +2507,12 @@
   {
     "name": "Mantis Sickle",
     "input": "MNT d+1,4",
-    "hit_level": "l,m",
+    "hit_level": "L,m",
     "damage": "14,23",
     "startup": "i27~30",
     "block": "-16",
-    "hit": "+15(+6)",
-    "counter": "+60a(+40)",
+    "hit": "+15 (+6)",
+    "counter": "+60a (+40)",
     "alternateInputs": [
       "MNT d+1,4"
     ],
@@ -2426,7 +2524,7 @@
   {
     "name": "Mantis Slide",
     "input": "MNT d+4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "19",
     "startup": "i20~27",
     "block": "-22~-15",
@@ -2443,10 +2541,10 @@
   {
     "name": "Enki",
     "input": "MNT uf+3",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "25",
     "startup": "i26~28",
-    "block": "-9",
+    "block": "-9c",
     "hit": "+11d",
     "counter": "",
     "alternateInputs": [
@@ -2454,24 +2552,32 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike",
+      "Enter MNT with D"
     ]
   },
   {
-    "name": "Adramelech",
-    "input": "SS 1+2",
-    "hit_level": "m",
-    "damage": "22",
-    "startup": "i17~18",
-    "block": "-2",
-    "hit": "+8c",
-    "counter": "+28a",
+    "name": "",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
     "alternateInputs": [
-      "SS 1+2"
+      "in rage df+1+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2493,11 +2599,28 @@
     ]
   },
   {
+    "name": "Adramelech",
+    "input": "SS 1+2",
+    "hit_level": "m",
+    "damage": "22",
+    "startup": "i17~18",
+    "block": "-2",
+    "hit": "+8c",
+    "counter": "+28a",
+    "alternateInputs": [
+      "SS 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Spike"
+    ]
+  },
+  {
     "name": "Revenge Hand",
     "input": "b+1+3",
-    "hit_level": "m,m",
-    "damage": "5,35",
-    "startup": "i6",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
     "block": "",
     "hit": "+12d",
     "counter": "",
@@ -2508,8 +2631,25 @@
       "parry"
     ],
     "notes": [
-      "Parry",
-      "Alternate input: b+2+4"
+      "Zafina automatically retaliates on a successful parry",
+      "Deals recoverable self-damage"
+    ]
+  },
+  {
+    "name": "",
+    "input": "b+1+3,P",
+    "hit_level": ",m,m",
+    "damage": ",5,35",
+    "startup": ",i30~34 i29~30",
+    "block": "+2",
+    "hit": "+12d",
+    "counter": "",
+    "alternateInputs": [
+      "b+1+3,P"
+    ],
+    "categories": [],
+    "notes": [
+      "17 chip damage on block"
     ]
   },
   {
@@ -2518,16 +2658,18 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
-    "hit": "0",
+    "block": "-4",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2"
     ]
   },
@@ -2537,18 +2679,20 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
-    "hit": "0",
+    "block": "-4",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2",
-      "Transitions to MNT"
+      "Transition to MNT on hit"
     ]
   },
   {
@@ -2557,8 +2701,8 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12~14",
-    "block": "",
-    "hit": "0",
+    "block": "-3",
+    "hit": "+7d",
     "counter": "",
     "alternateInputs": [
       "Left Throw"
@@ -2567,7 +2711,8 @@
       "throw"
     ],
     "notes": [
-      "Throw break 1"
+      "Throw break 1",
+      "Side switch on hit"
     ]
   },
   {
@@ -2576,8 +2721,8 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12~14",
-    "block": "",
-    "hit": "+7",
+    "block": "-3",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "Right Throw"
@@ -2586,7 +2731,8 @@
       "throw"
     ],
     "notes": [
-      "Throw break 2"
+      "Throw break 2",
+      "Side switch on hit"
     ]
   },
   {
@@ -2596,7 +2742,7 @@
     "damage": "50",
     "startup": "i12~14",
     "block": "",
-    "hit": "0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "Back Throw"
@@ -2614,8 +2760,8 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12",
-    "block": "",
-    "hit": "0",
+    "block": "-6",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "uf+1+2"

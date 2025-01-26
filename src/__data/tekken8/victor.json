@@ -90,7 +90,7 @@
     "notes": [
       "Balcony Break",
       "Heat Engager",
-      "Deals chip damage on block",
+      "Deals 10 chip damage on block",
       "Partially restores Heat on hit"
     ]
   },
@@ -109,7 +109,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Deals chip damage on block"
+      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -117,7 +117,7 @@
     "input": "b+1+2",
     "hit_level": "h",
     "damage": "25",
-    "startup": "i15~16",
+    "startup": "i19~20",
     "block": "-9",
     "hit": "+42 (-16) / HE",
     "counter": "+42 (-16) / HE",
@@ -128,7 +128,7 @@
     "notes": [
       "Heat Engager",
       "Balcony Break",
-      "Deals chip damage on block"
+      "Deals 7 chip damage on block"
     ]
   },
   {
@@ -291,7 +291,7 @@
     "name": "",
     "input": "2,2",
     "hit_level": "h,mm",
-    "damage": "10,10,5",
+    "damage": "10,5,5",
     "startup": "i17~18,i7",
     "block": "-12",
     "hit": "-2",
@@ -308,19 +308,20 @@
     "name": "Crybaby Sophia",
     "input": "2,2,2",
     "hit_level": "h,mm,h",
-    "damage": "10,10,5,12",
+    "damage": "10,5,5,12",
     "startup": "i22",
     "block": "-3",
-    "hit": "+4 (W! +12)",
-    "counter": "+4 (W! +12)",
+    "hit": "+4",
+    "counter": "",
     "alternateInputs": [
       "2,2,2"
     ],
     "categories": [],
     "notes": [
-      "Chip damage on block",
+      "Strong Aerial Tailspin",
+      "4 chip damage on blocked gunshot",
       "Transitions to IAI on hit or block",
-      "Causes Wall Stun"
+      "Wall Crush +12g on hit"
     ]
   },
   {
@@ -354,7 +355,7 @@
     ],
     "categories": [],
     "notes": [
-      "Hit confirmable"
+      "delayable"
     ]
   },
   {
@@ -406,7 +407,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Deals chip damage on block"
+      "Deals 7 chip damage on block"
     ]
   },
   {
@@ -541,9 +542,12 @@
     "alternateInputs": [
       "f+3"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      "Can transition to FC with df"
+      "Can transition to FC with df",
+      "Punch parry from frame 5 to 10"
     ]
   },
   {
@@ -595,8 +599,8 @@
     ],
     "categories": [],
     "notes": [
-      "CH on last hit causes knockdown",
-      "Can transition to IAI with f+4,2,3+4 or f+4,2~D"
+      "CH on last hit or wallhit causes FDFA knockdown",
+      "Transition to IAI with d or 3+4"
     ]
   },
   {
@@ -615,7 +619,7 @@
     "notes": [
       "Balcony Break",
       "Heat Engager",
-      "Deals chip damage on block",
+      "Deals 10 chip damage on block",
       "Partially restores Heat on hit"
     ]
   },
@@ -719,7 +723,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Deals chip damage on block"
+      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -753,9 +757,10 @@
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Only occurs on hit or block",
       "Causes Wall Stun",
-      "Deals chip damage on block",
+      "Deals 6 chip damage on blocked gunshot",
       "Transitions to IAI (cannot cancel)"
     ]
   },
@@ -807,7 +812,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st CH",
+      "Jails from 1st hit",
+      "Cannot be parried (weapon low)"
     ]
   },
   {
@@ -825,7 +832,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Deals chip damage on block"
+      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -896,7 +903,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Deals chip damage on block"
+      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -1043,7 +1050,7 @@
     "name": "Strobing Memories",
     "input": "b+2",
     "hit_level": "h",
-    "damage": "0",
+    "damage": "5",
     "startup": "i12",
     "block": "-9",
     "hit": "+2",
@@ -1053,9 +1060,7 @@
     ],
     "categories": [],
     "notes": [
-      "Deals 5 recoverable damage on hit.",
-      "Cannot cause KO",
-      "Applies 90% combo scaling on counter hit"
+      ""
     ]
   },
   {
@@ -1110,8 +1115,7 @@
     ],
     "notes": [
       "Homing",
-      "Balcony Break",
-      "Deals chip damage on block"
+      "Balcony Break"
     ]
   },
   {
@@ -1130,7 +1134,7 @@
     "notes": [
       "Heat Engager",
       "Balcony Break",
-      "Deals chip damage on block"
+      "Deals 7 chip damage on block"
     ]
   },
   {
@@ -1164,14 +1168,15 @@
     ],
     "categories": [],
     "notes": [
-      "Deals chip damage on block"
+      "Deals 11 chip damage on block",
+      "Victor teleports overhead on frame 10 and descends downward for the rest of the startup; evades some highs and mids but vulnerable on descent (lows, throws, etc. hit)"
     ]
   },
   {
     "name": "Excalibur",
     "input": "in heat u+1+2",
     "hit_level": "m",
-    "damage": "37, 14",
+    "damage": "51",
     "startup": "i31~32",
     "block": "-4",
     "hit": "0a (-1)",
@@ -1181,8 +1186,10 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Alternate input: H.ub+1+2",
-      "Balcony Break"
+      "Victor teleports overhead on frame 10 and descends downward for the rest of the startup; evades some highs and mids but vulnerable on descent (lows, throws, etc. hit)",
+      "Deals 23 chip damage on block"
     ]
   },
   {
@@ -1218,7 +1225,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
-      "Hit confirmable",
+      "Twitch confirmable",
       "Cancel the second hit with down or 3+4 to go into IAI"
     ]
   },
@@ -1291,7 +1298,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Deals chip damage on block"
+      "Deals 7 chip damage on block"
     ]
   },
   {
@@ -1309,13 +1316,13 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Deals chip damage on block",
-      "Can transition to IAI with f,f,F+2,3+4 or f,f,F+2~D"
+      "Deals 6 chip damage on block",
+      "Transition to IAI with d or 3+4 (+5 oB)"
     ]
   },
   {
     "name": "Amour Shaft",
-    "input": "d,df,f+2",
+    "input": "qcf+2",
     "hit_level": "h",
     "damage": "16",
     "startup": "i22",
@@ -1323,12 +1330,13 @@
     "hit": "+4",
     "counter": "+4 (W! +12)",
     "alternateInputs": [
-      "d,df,f+2"
+      "qcf+2"
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Transition to IAI",
-      "Deals chip damage on block",
+      "Deals 6 chip damage on block",
       "Causes Wall stun"
     ]
   },
@@ -1363,7 +1371,7 @@
     ],
     "categories": [],
     "notes": [
-      "Launcher"
+      ""
     ]
   },
   {
@@ -1415,7 +1423,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Deals chip damage on block"
+      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -1503,7 +1511,7 @@
       "Tornado",
       "Balcony Break",
       "Can cancel the second hit by holding down or pressing 3+4. Will transition to IAI",
-      "Hit confirmable"
+      "Hit confirmable 10F"
     ]
   },
   {
@@ -1520,7 +1528,8 @@
     ],
     "categories": [],
     "notes": [
-      "Hit Confirmable"
+      "Hit Confirmable 11F",
+      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -1529,7 +1538,7 @@
     "hit_level": "m,m,m",
     "damage": "9,15,16",
     "startup": ",i23~24",
-    "block": "-18",
+    "block": "-18c",
     "hit": "+8a (-27)",
     "counter": "+8a (-27)",
     "alternateInputs": [
@@ -1538,7 +1547,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Deals chip damage on block"
+      "Deals 15 (6+9) chip damage on block"
     ]
   },
   {
@@ -1555,7 +1564,8 @@
     ],
     "categories": [],
     "notes": [
-      "Deals chip damage on block"
+      "Deals 9 chip damage on block",
+      "Hit confirmable 11F"
     ]
   },
   {
@@ -1573,7 +1583,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Tornado"
+      "Tornado",
+      "Deals 9 chip damage on block"
     ]
   },
   {
@@ -1620,15 +1631,15 @@
     "startup": ",i26~27",
     "block": "-5",
     "hit": "+26 (+0)",
-    "counter": "Launch T!",
+    "counter": "Launch",
     "alternateInputs": [
       "IAI 4,2"
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Balcony Break",
-      "Tailspin",
-      "Strong aerial tailspin"
+      "Deals 8 chip damage on block"
     ]
   },
   {
@@ -1645,7 +1656,7 @@
     ],
     "categories": [],
     "notes": [
-      "Deals chip damage on block"
+      "Deals 12 chip damage on block"
     ]
   },
   {
@@ -1663,7 +1674,7 @@
     "categories": [],
     "notes": [
       "Transition to IAI",
-      "Deals chip damage on block"
+      "Deals 11 chip damage on block"
     ]
   },
   {
@@ -1680,7 +1691,8 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to IAI on hit"
+      "Transition to IAI",
+      "Deals 18 chip damage on block"
     ]
   },
   {
@@ -1788,14 +1800,14 @@
     ],
     "notes": [
       "Can cancel into FC with df",
-      "Punch parry effect from frames 5~10"
+      "Punch parry from frame 5 to 10"
     ]
   },
   {
     "name": "Maceration",
     "input": "PRF 1",
     "hit_level": "l",
-    "damage": "20",
+    "damage": "17",
     "startup": "i19~20",
     "block": "-12",
     "hit": "+4",
@@ -1805,7 +1817,7 @@
     ],
     "categories": [],
     "notes": [
-      "Deals chip damage on block"
+      ""
     ]
   },
   {
@@ -1856,7 +1868,9 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Strong Aerial Tailspin",
+      "Balcony Break",
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -1899,9 +1913,9 @@
     "name": "Cordial Circuit",
     "input": "PRF 4",
     "hit_level": "h",
-    "damage": "20",
+    "damage": "17",
     "startup": "i18~19",
-    "block": "-2",
+    "block": "-6",
     "hit": "+13g",
     "counter": "+14c",
     "alternateInputs": [
@@ -1912,8 +1926,7 @@
     ],
     "notes": [
       "Homing",
-      "Balcony Break",
-      "Deals chip damage on block"
+      "Balcony Break"
     ]
   },
   {
@@ -1931,7 +1944,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Deals chip damage on block"
+      "Deals 7 chip damage on block"
     ]
   },
   {
@@ -1948,43 +1961,31 @@
     ],
     "categories": [],
     "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "",
-    "input": "PRF u",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "PRF u"
-    ],
-    "categories": [],
-    "notes": [
-      ""
+      "Recovers crouched"
     ]
   },
   {
     "name": "Coup de Chevalier",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
-    "hit": "th",
-    "counter": "th",
+    "hit": "+0d",
+    "counter": "",
     "alternateInputs": [
       "in rage df+1+2"
     ],
     "categories": [],
     "notes": [
       "Rage Art",
-      "Removes recoverable health on hit",
-      "Alternate input: R.R2"
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -1999,9 +2000,11 @@
     "alternateInputs": [
       "FC 1+2"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      ""
+      "Not parryable (weapon low)"
     ]
   },
   {

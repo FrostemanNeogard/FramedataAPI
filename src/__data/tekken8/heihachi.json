@@ -114,7 +114,7 @@
   },
   {
     "name": "Soaring Anvil Smasher",
-    "input": "uf+4,1",
+    "input": "uf+4,in heat 1",
     "hit_level": "m,M",
     "damage": "17,30",
     "startup": ",i25~30",
@@ -122,7 +122,7 @@
     "hit": "+5a",
     "counter": "",
     "alternateInputs": [
-      "uf+4,1"
+      "uf+4,in heat 1"
     ],
     "categories": [],
     "notes": [
@@ -214,7 +214,7 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43d (+35), +5",
+      "Heat Dash +5, +43d (+35)",
       "Balcony Break",
       "Gain 1 Ultimate Count on Heat activation",
       "Parries all mid or high punches or kicks",
@@ -236,7 +236,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage on block",
       "Combo from 1st hit with 10f delay",
@@ -258,7 +258,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage on block",
       "Gain 1 Ultimate Count on Heat activation"
@@ -279,7 +279,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43d (+35), +5",
+      "Heat Dash +5, +43d (+35)",
       "Balcony Break",
       "Gain 1 Ultimate Count on Heat activation",
       "Can be buffered",
@@ -301,7 +301,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +34a (+27), +5",
+      "Heat Dash +5, +34a (+27)",
       "Balcony Break",
       "Combo from 1st hit with 9f delay",
       "Move can be delayed 7f",
@@ -970,7 +970,8 @@
     "notes": [
       "Balcony break on airborne hit",
       "Jail from 1st attack",
-      "Powered up input df+3,1+2,qcf+1 (5 additional damage)"
+      "Powered up input df+3,1+2,qcf+1 (5 additional damage)",
+      "Last button should be input as late as possible?"
     ]
   },
   {
@@ -1320,7 +1321,7 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43d (+35), +5",
+      "Heat Dash +5, +43d (+35)",
       "Balcony Break",
       "Gain 1 Ultimate Count on Heat activation",
       "Parries all mid or high punches or kicks",
@@ -1344,7 +1345,7 @@
     ],
     "notes": [
       "Parries mid or high punches",
-      "Attack is guaranteed after a successful parry",
+      "? on successful parry",
       "Balcony Break"
     ]
   },
@@ -1401,7 +1402,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage on block",
       "Combo from 1st hit with 10f delay",
@@ -1515,7 +1516,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage on block",
       "Gain 1 Ultimate Count on Heat activation"
@@ -1536,7 +1537,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43d (+35), +5",
+      "Heat Dash +5, +43d (+35)",
       "Balcony Break",
       "Gain 1 Ultimate Count on Heat activation",
       "Can be buffered",
@@ -1593,7 +1594,7 @@
     ],
     "categories": [],
     "notes": [
-      "On clean hit: +17a and 20 damage"
+      "Clean hit +17a and 20 damage"
     ]
   },
   {
@@ -1852,6 +1853,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
+      "Wall Crush +13g on block",
       "Chip damage on block"
     ]
   },
@@ -1890,152 +1892,6 @@
     ]
   },
   {
-    "name": "Spinning Demon Thunder God Fist",
-    "input": "f,n,d,DF+4,1",
-    "hit_level": "L,m",
-    "damage": "15,20",
-    "startup": ",i23~24",
-    "block": "-15",
-    "hit": "+25a (+18)",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
-    "name": "Spinning Demon Bell-Ringer",
-    "input": "f,n,d,DF+4,3",
-    "hit_level": "L,h",
-    "damage": "15,30",
-    "startup": ",i25~28",
-    "block": "+9",
-    "hit": "+45a",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Chip damage on block",
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
-    "name": "",
-    "input": "f,n,d,DF+4,n+4",
-    "hit_level": "L,m",
-    "damage": "15,10",
-    "startup": ",i24~25",
-    "block": "-3",
-    "hit": "+8",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,n+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
-    "name": "Spinning Demon Tsunami Kick",
-    "input": "f,n,d,DF+4,n+4,4",
-    "hit_level": "L,m,m",
-    "damage": "15,10,20",
-    "startup": ",i15",
-    "block": "-15",
-    "hit": "+0c",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,n+4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Spike",
-      "Combo from 2nd hit",
-      "Enter FUJ -9 +6c r31 with D",
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
-    "name": "Spinning Demon Thunder God Fist",
-    "input": "f,n,d,DF+4,4,1",
-    "hit_level": "L,L,L,m",
-    "damage": "15,10,20",
-    "startup": ",i23~24",
-    "block": "-15",
-    "hit": "+25a (+18)",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,4,1"
-    ],
-    "categories": [],
-    "notes": [
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
-    "name": "Spinning Demon Bell-Ringer",
-    "input": "f,n,d,DF+4,4,3",
-    "hit_level": "L,L,h",
-    "damage": "15,10,30",
-    "startup": ",i25~28",
-    "block": "+9",
-    "hit": "+45a",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,4,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Chip damage on block",
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
-    "name": "",
-    "input": "f,n,d,DF+4,4,n+4",
-    "hit_level": "L,L,m",
-    "damage": "15,10,10",
-    "startup": ",i24~25",
-    "block": "-3",
-    "hit": "+8",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,4,n+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
-    "name": "Spinning Demon Tsunami Kick",
-    "input": "f,n,d,DF+4,4,n+4,4",
-    "hit_level": "L,L,m,m",
-    "damage": "15,10,10,20",
-    "startup": ",i15",
-    "block": "-15",
-    "hit": "+0c",
-    "counter": "",
-    "alternateInputs": [
-      "f,n,d,DF+4,4,n+4,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Spike",
-      "Combo from 3rd hit",
-      "Enter FUJ -9 +6c r31 with D",
-      "Can be performed after any number of f,n,d,DF+4 lows"
-    ]
-  },
-  {
     "name": "",
     "input": "f,n,d,DF+4,4",
     "hit_level": "L,L",
@@ -2049,7 +1905,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "+26a if previous hit connects"
     ]
   },
   {
@@ -2066,7 +1922,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "+26a if previous hit connects"
     ]
   },
   {
@@ -2304,7 +2160,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +34a (+27), +5",
+      "Heat Dash +5, +34a (+27)",
       "Balcony Break",
       "Combo from 1st hit with 9f delay",
       "Move can be delayed 7f",
@@ -2499,7 +2355,7 @@
     "damage": "5,6,20",
     "startup": ",i18",
     "block": "-17",
-    "hit": "28a (+2)",
+    "hit": "+28a (+2)",
     "counter": "",
     "alternateInputs": [
       "1,1,WAR 2"
@@ -2519,7 +2375,7 @@
     "damage": "5,17,22",
     "startup": ",i25~26",
     "block": "-13",
-    "hit": "23a (+13)",
+    "hit": "+23a (+13)",
     "counter": "",
     "alternateInputs": [
       "1,b+2,WAR 2"
@@ -2532,7 +2388,7 @@
       "Combo from 2nd hit",
       "Chip damage on block",
       "Erases opponent's recoverable health on hit",
-      "+42d on airborne hit",
+      "+42d on airborne hit, opponent can tech roll after",
       "Sometimes written WAR.1,b+2,2"
     ]
   },
@@ -2680,9 +2536,9 @@
     "categories": [],
     "notes": [
       "Rage Art",
+      "Removes Recoverable Health",
       "Reversal Break",
-      "Ereases opponent's recoverable health on hit",
-      "Damage increases with lower health, maximum 80",
+      "Damage increases with lower health, maximum 82",
       "Freezes match timer on activation and on hit",
       "Restores recoverable health on hit",
       "Transition to attack throw on hit",
@@ -2899,7 +2755,7 @@
       "Balcony Break",
       "Throw break 1+2",
       "Headbutt can be reversed with input 1 or 2 or 3 or 4",
-      "Works on Male characters only?"
+      "Works on Male characters only"
     ]
   }
 ]

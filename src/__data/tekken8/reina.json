@@ -12,17 +12,13 @@
       "2+3"
     ],
     "categories": [
-      "powercrush",
-      "parry"
+      "powercrush"
     ],
     "notes": [
       "Heat Burst",
-      "Alternate input: R1",
       "Cancel to r45 with b,b",
       "3 chip damage on block",
-      "Partially uses Heat",
-      "Unparryable",
-      "Ignores regular power crush armor"
+      "Partially uses Heat"
     ]
   },
   {
@@ -178,8 +174,8 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +18g, +17d",
-      "Combo from 1st hit without delay",
+      "Heat Dash +18g, +43a (+35)",
+      "Combo from 1st hit with 2?F delay",
       "Can be delayed"
     ]
   },
@@ -221,7 +217,7 @@
     "notes": [
       "Homing",
       "Heat Engager",
-      "Heat Dash +5, +34d",
+      "Heat Dash +5, +34a (+27)",
       "Deals chip damage on block"
     ]
   },
@@ -281,7 +277,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -308,17 +304,18 @@
     "damage": "5,6,12",
     "startup": ",i13",
     "block": "-17",
-    "hit": "\n+11 SEN\n+2 (cancel)\n",
+    "hit": "+11",
     "counter": "",
     "alternateInputs": [
       "1,1,2"
     ],
     "categories": [],
     "notes": [
-      "Cancel transition with input B",
-      "Hit-confirmable from 1st hit",
       "Combo from 1st hit with 11f delay",
-      "Wall crush on hit, +23g minimum"
+      "Hit-confirmable from 1st hit",
+      "Cancel transition with input B, frame advantage +2",
+      "Wall Crush +23g on hit",
+      "Transition to SEN on hit only"
     ]
   },
   {
@@ -718,9 +715,9 @@
   {
     "name": "Sentai",
     "input": "f+3",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": ",i18~19",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -729,7 +726,7 @@
     ],
     "categories": [],
     "notes": [
-      "Actionable from r28"
+      ""
     ]
   },
   {
@@ -765,7 +762,7 @@
     ],
     "categories": [],
     "notes": [
-      "Wall crush on hit, +19g"
+      "Wall Crush +19g on hit"
     ]
   },
   {
@@ -782,7 +779,7 @@
     ],
     "categories": [],
     "notes": [
-      "can be cancelled into crouch with input DB/D/DF"
+      "Cancel to r24 FC at earliest with input DB/D/DF"
     ]
   },
   {
@@ -799,7 +796,7 @@
     ],
     "categories": [],
     "notes": [
-      "can be cancelled into crouch with input DB/D/DF"
+      "Cancel to r24 FC at earliest with input DB/D/DF"
     ]
   },
   {
@@ -816,7 +813,7 @@
     ],
     "categories": [],
     "notes": [
-      "Can transition to SEN (-3/+4/+4) with input F",
+      "Can transition to r18 SEN (-3/+4/+4) with input F",
       "Cannot block up to i15 on empty transition on block"
     ]
   },
@@ -834,8 +831,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit without delay",
-      "Can be delayed"
+      "Combo from 1st hit with 18F delay",
+      "Can be delayed 19F"
     ]
   },
   {
@@ -853,8 +850,8 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +18g, +17d",
-      "Combo from 1st hit without delay",
+      "Heat Dash +18g, +43a (+35)",
+      "Combo from 1st hit with 2?F delay",
       "Can be delayed"
     ]
   },
@@ -950,7 +947,7 @@
   {
     "name": "",
     "input": "df+3+4",
-    "hit_level": "mh",
+    "hit_level": "m,h",
     "damage": "5,10",
     "startup": "i16,i5~9",
     "block": "-15",
@@ -961,13 +958,13 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Transition to attack throw on CH"
     ]
   },
   {
     "name": "Nen Dougarami",
     "input": "CH df+3+4",
-    "hit_level": "m,th",
+    "hit_level": "m,t",
     "damage": "6,35",
     "startup": "i16",
     "block": "",
@@ -986,7 +983,7 @@
   {
     "name": "Kasho Maki-manji",
     "input": "df+3+4,4",
-    "hit_level": "mh,m",
+    "hit_level": "m,h,m",
     "damage": "5,10,20",
     "startup": ",i20",
     "block": "-14",
@@ -2006,7 +2003,7 @@
   {
     "name": "Sentai",
     "input": "f+3",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
@@ -2017,7 +2014,7 @@
     ],
     "categories": [],
     "notes": [
-      "Actionable from r28"
+      ""
     ]
   },
   {
@@ -2056,8 +2053,8 @@
       "Balcony Break",
       "Blue spark with input qcf+2 for 5 extra damage",
       "Hit-confirmable from 1st hit or if attack was absorbed",
-      "Combo from 1st hit even with delay",
-      "Can be delayed",
+      "Combo from 1st hit even with 9?F delay",
+      "Can be delayed by 10?F",
       "Becomes -9 on block if 1st hit absorbed an attack"
     ]
   },
@@ -2096,7 +2093,7 @@
     "notes": [
       "Homing",
       "Heat Engager",
-      "Heat Dash +5, +34d",
+      "Heat Dash +5, +34a (+27)",
       "Deals chip damage on block"
     ]
   },
@@ -2190,7 +2187,7 @@
     ],
     "categories": [],
     "notes": [
-      "Wall crush on hit, +19g"
+      "Wall Crush +19g on hit"
     ]
   },
   {
@@ -2713,14 +2710,14 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written f,n,3"
     ]
   },
   {
     "name": "Sacred Dismantle Spark",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
     "hit": "+0d",
@@ -2730,9 +2727,14 @@
     ],
     "categories": [],
     "notes": [
-      "Erases opponent's recoverable health on hit",
-      "Alternate input: R2",
-      "150% Scaling at 1HP - 82dmg"
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2809,7 +2811,7 @@
     "name": "",
     "input": "OTG d+4",
     "hit_level": "L",
-    "damage": "11",
+    "damage": "14",
     "startup": "i19",
     "block": "-19",
     "hit": "-8 / -8a (-16)",
@@ -2819,14 +2821,14 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "22 dmg if done with input OTG.d+4 alone"
     ]
   },
   {
     "name": "Totetsu Jyurin",
     "input": "OTG d+4,1",
     "hit_level": "L,L",
-    "damage": "11,17",
+    "damage": "14,17",
     "startup": ",i20~21",
     "block": "-26",
     "hit": "-10 / -15a (-23)",
@@ -2836,7 +2838,7 @@
     ],
     "categories": [],
     "notes": [
-      "Blue spark with input OTG.d+4:1 for 3 extra damage",
+      "Blue spark with input OTG.d+4:1 for 20 dmg",
       "Jails from 1st block",
       "Combo from 1st hit"
     ]

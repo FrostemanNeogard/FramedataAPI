@@ -113,7 +113,7 @@
       "Heat Engager",
       "Heat Dash +5 +43a (+35)",
       "Combo from 1st hit",
-      "Alternate input CD 4,1+2"
+      "Alternate input CD.4,1+2"
     ]
   },
   {
@@ -139,7 +139,7 @@
     "name": "Lao Pao Ba",
     "input": "BOK 1+2",
     "hit_level": "M",
-    "damage": "21",
+    "damage": "22",
     "startup": "i20~21",
     "block": "-12~-11",
     "hit": "+15d",
@@ -309,7 +309,8 @@
     ],
     "categories": [],
     "notes": [
-      "Jail from 1st attack"
+      "Jail from 1st block",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -519,6 +520,7 @@
     ],
     "categories": [],
     "notes": [
+      "Stance moves may be delayed by 11F",
       "Enter CD -5 +1 +5 with df"
     ]
   },
@@ -607,7 +609,9 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Balcony Break"
+      "Balcony Break",
+      "Combo from 1st CH with 7?F delay",
+      "Move can be delayed 8?F"
     ]
   },
   {
@@ -685,7 +689,7 @@
     "name": "Fu Hu",
     "input": "d+1",
     "hit_level": "m",
-    "damage": "19",
+    "damage": "18",
     "startup": "i18~19",
     "block": "-2~-1",
     "hit": "+5",
@@ -696,9 +700,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Enter FC with d",
-      "Transition to crouching with d+1~D",
-      "Applies 70% combo scaling on counter hit"
+      "Enter FC with d"
     ]
   },
   {
@@ -1276,8 +1278,7 @@
     ],
     "notes": [
       "Parries high and mid punches",
-      "Hit after parry is the same as on CH",
-      "Parry active frames 5~9"
+      "Hit after parry is the same as on CH"
     ]
   },
   {
@@ -1349,7 +1350,8 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Same move as uf+4"
     ]
   },
   {
@@ -1619,7 +1621,7 @@
     ],
     "categories": [],
     "notes": [
-      "Can combo from 1st hit on wall"
+      ""
     ]
   },
   {
@@ -1763,7 +1765,7 @@
     "name": "Huo Da Ding Zhou",
     "input": "ws1,4,1",
     "hit_level": "m,L,m",
-    "damage": "13,12,21",
+    "damage": "13,12,24",
     "startup": "i22",
     "block": "-14",
     "hit": "+12a (+3)",
@@ -1810,7 +1812,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input CD 3"
+      "Alternate input CD.3"
     ]
   },
   {
@@ -1831,7 +1833,7 @@
     "notes": [
       "Combo from 1st hit",
       "Enter BOK -10 +9 with d",
-      "Alternate input CD 3,1"
+      "Alternate input CD.3,1"
     ]
   },
   {
@@ -1850,8 +1852,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st CH",
-      "Alternate input CD 3,1,2"
+      "Combo from 1st CH or 2nd CH",
+      "Alternate input CD.3,1,2"
     ]
   },
   {
@@ -1870,7 +1872,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input CD 4"
+      "Alternate input CD.4"
     ]
   },
   {
@@ -1892,7 +1894,7 @@
       "Heat Engager",
       "Heat Dash +5 +43a (+35)",
       "Combo from 1st hit",
-      "Alternate input CD 4,1+2"
+      "Alternate input CD.4,1+2"
     ]
   },
   {
@@ -1912,7 +1914,7 @@
     "categories": [],
     "notes": [
       "Gain LTG +3 on hit with 1+2",
-      "Alternate input CD 1+2"
+      "Alternate input CD.1+2"
     ]
   },
   {
@@ -1990,6 +1992,24 @@
       "Balcony Break",
       "Chip damage on block",
       "Combo from 1st hit"
+    ]
+  },
+  {
+    "name": "Jin Ji Du Li",
+    "input": "f+4",
+    "hit_level": "m",
+    "damage": "14",
+    "startup": "i17~18",
+    "block": "+9~+10",
+    "hit": "+15g",
+    "counter": "+19",
+    "alternateInputs": [
+      "f+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Stance moves may be delayed by 11F",
+      "Enter CD -5 +1 +5 with df"
     ]
   },
   {
@@ -2083,7 +2103,7 @@
     "name": "Er Qi Jiao",
     "input": "KNK 3,4",
     "hit_level": "m,m",
-    "damage": "13,23",
+    "damage": "13,18",
     "startup": "i15",
     "block": "-12",
     "hit": "+80a",
@@ -2199,7 +2219,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Stance moves may be delayed by 8F?",
+      "May perform FC moves from frame 9?"
     ]
   },
   {
@@ -2327,7 +2348,9 @@
     ],
     "categories": [],
     "notes": [
-      "No crouching stateSometimes written qcf"
+      "Cancel into sidestep with U?",
+      "No crouching state",
+      "Sometimes written qcf"
     ]
   },
   {
@@ -2399,8 +2422,7 @@
     "categories": [],
     "notes": [
       "Wall Crush on hit +22g",
-      "Combo from 1st hitSometimes written qcf+2,1",
-      "Can be delayed"
+      "Combo from 1st hitSometimes written qcf+2,1"
     ]
   },
   {
@@ -2419,9 +2441,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from 1st hitSometimes written qcf+2,4",
-      "Can be delayed",
-      "Chip damage on block"
+      "Combo from 1st hitSometimes written qcf+2,4"
     ]
   },
   {
@@ -2448,7 +2468,7 @@
   {
     "name": "Transcendent Blow",
     "input": "in rage df+1+2",
-    "hit_level": "m",
+    "hit_level": "m,t",
     "damage": "55+",
     "startup": "i20",
     "block": "-15",
@@ -2459,14 +2479,21 @@
     ],
     "categories": [],
     "notes": [
-      "Rage Art"
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
     "name": "Zhen Jiao",
     "input": "OTG d+3+4",
     "hit_level": "L",
-    "damage": "21",
+    "damage": "20",
     "startup": "i21~22",
     "block": "-13~-12",
     "hit": "+3",

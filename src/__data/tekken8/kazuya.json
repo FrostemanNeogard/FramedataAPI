@@ -15,15 +15,14 @@
       "powercrush"
     ],
     "notes": [
-      "Heat Burst",
-      "Alternate input: R1"
+      "Heat Burst"
     ]
   },
   {
     "name": "Omega Crash",
     "input": "in heat 2+3",
     "hit_level": "l,m,th",
-    "damage": "9,20,34",
+    "damage": "12,20,34",
     "startup": "i18",
     "block": "-14",
     "hit": "Th",
@@ -35,8 +34,7 @@
       "throw"
     ],
     "notes": [
-      "Heat Smash",
-      "Alternate input: R1"
+      "Heat Smash"
     ]
   },
   {
@@ -54,9 +52,10 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +67a(+50) on hit",
-      "Chip damage on block (6)",
-      "Combos from first hit"
+      "Heat Dash +67a (+50a) on hit, +5 on block",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat",
+      "Combo from 1st hit with 6?F delay"
     ]
   },
   {
@@ -74,10 +73,11 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +35a on hit",
+      "Heat Dash +35a (+27a) on hit, +5 on block",
       "Balcony Break",
-      "Chip damage when guarded",
-      "Combos from first hit"
+      "4 Chip Damage on block",
+      "8 (2+6) Chip Damage on block in heat",
+      "Combo from 1st hit with 1?F delay"
     ]
   },
   {
@@ -97,8 +97,10 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42) on hit",
-      "Homing"
+      "Heat Dash +62a (+42a) on hit, +5 on block",
+      "Homing",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
     ]
   },
   {
@@ -116,8 +118,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26) on hit",
-      "Chip damage when guarded"
+      "Heat Dash +36a (+26a) on hit, +5 on block",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
     ]
   },
   {
@@ -135,8 +138,10 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a(+26) on hit",
-      "Balcony Break"
+      "Heat Dash +36a (+26a) on hit, +5 on block",
+      "Balcony Break",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
     ]
   },
   {
@@ -153,7 +158,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -163,7 +168,7 @@
     "damage": "5,6",
     "startup": ",i15",
     "block": "-1",
-    "hit": "+8",
+    "hit": "+6",
     "counter": "",
     "alternateInputs": [
       "1,1"
@@ -530,9 +535,10 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +67a(+50) on hit",
-      "Chip damage on block (6)",
-      "Combos from first hit"
+      "Heat Dash +67a (+50a) on hit, +5 on block",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat",
+      "Combo from 1st hit with 6?F delay"
     ]
   },
   {
@@ -551,7 +557,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
-      "Combos on 1st Counterhit"
+      "Combo from 1st CH with 6?F delay"
     ]
   },
   {
@@ -561,7 +567,7 @@
     "damage": "11,20",
     "startup": "i16",
     "block": "-11",
-    "hit": "+18Sp",
+    "hit": "KND",
     "counter": "",
     "alternateInputs": [
       "df+1,4"
@@ -569,7 +575,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from 1st hit"
+      "Combo from 1st hit with 6?F delay"
     ]
   },
   {
@@ -635,7 +641,7 @@
     "hit_level": "m,m,m",
     "damage": "13,15,21",
     "startup": "i18",
-    "block": "-18",
+    "block": "-14",
     "hit": "+8(-1)",
     "counter": "+25",
     "alternateInputs": [
@@ -655,7 +661,7 @@
     "hit_level": "m,m,m",
     "damage": "13,15,25",
     "startup": "i46",
-    "block": "+11(+18w)",
+    "block": "+11",
     "hit": "+10(+1)",
     "counter": "",
     "alternateInputs": [
@@ -665,6 +671,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
+      "Wall Crush +18g on block",
       "Chip damage when guarded"
     ]
   },
@@ -814,7 +821,7 @@
     "hit_level": "l",
     "damage": "6",
     "startup": "i12",
-    "block": "-17",
+    "block": "-15",
     "hit": "-4",
     "counter": "",
     "alternateInputs": [
@@ -891,10 +898,11 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +35a on hit",
+      "Heat Dash +35a (+27a) on hit, +5 on block",
       "Balcony Break",
-      "Chip damage when guarded",
-      "Combos from first hit"
+      "4 Chip Damage on block",
+      "8 (2+6) Chip Damage on block in heat",
+      "Combo from 1st hit with 1?F delay"
     ]
   },
   {
@@ -1177,8 +1185,10 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42) on hit",
-      "Homing"
+      "Heat Dash +62a (+42a) on hit, +5 on block",
+      "Homing",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
     ]
   },
   {
@@ -1196,8 +1206,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26) on hit",
-      "Chip damage when guarded"
+      "Heat Dash +36a (+26a) on hit, +5 on block",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
     ]
   },
   {
@@ -1387,8 +1398,10 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a(+26) on hit",
-      "Balcony Break"
+      "Heat Dash +36a (+26a) on hit, +5 on block",
+      "Balcony Break",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
     ]
   },
   {
@@ -1431,7 +1444,7 @@
     "hit_level": "m",
     "damage": "30",
     "startup": "i22~25",
-    "block": "+9",
+    "block": "+6",
     "hit": "+13a(+3)",
     "counter": "",
     "alternateInputs": [
@@ -1445,7 +1458,7 @@
   },
   {
     "name": "Crouch Jab",
-    "input": "FC 1",
+    "input": "hFC 1",
     "hit_level": "sl",
     "damage": "5",
     "startup": "i10",
@@ -1453,24 +1466,24 @@
     "hit": "+6",
     "counter": "",
     "alternateInputs": [
-      "FC 1"
+      "hFC 1"
     ],
     "categories": [],
     "notes": [
-      "Returns to standing when input F"
+      "Transition to Standing with f"
     ]
   },
   {
     "name": "Crouch Straight",
-    "input": "FC 2",
-    "hit_level": "sm",
+    "input": "hFC 2",
+    "hit_level": "sl",
     "damage": "8",
     "startup": "i11",
     "block": "-4",
     "hit": "+7",
     "counter": "",
     "alternateInputs": [
-      "FC 2"
+      "hFC 2"
     ],
     "categories": [],
     "notes": [
@@ -1479,15 +1492,15 @@
   },
   {
     "name": "Crouch Spin Kick",
-    "input": "FC 3",
-    "hit_level": "l",
+    "input": "hFC 3",
+    "hit_level": "L",
     "damage": "10",
     "startup": "i16",
     "block": "-17",
     "hit": "-6",
     "counter": "",
     "alternateInputs": [
-      "FC 3"
+      "hFC 3"
     ],
     "categories": [],
     "notes": [
@@ -1496,15 +1509,15 @@
   },
   {
     "name": "Crouch Shin Kick",
-    "input": "FC 4",
+    "input": "hFC 4",
     "hit_level": "l",
     "damage": "6",
     "startup": "i12",
-    "block": "-17",
+    "block": "-15",
     "hit": "-4",
     "counter": "",
     "alternateInputs": [
-      "FC 4"
+      "hFC 4"
     ],
     "categories": [],
     "notes": [
@@ -1676,7 +1689,7 @@
     "hit_level": "h",
     "damage": "25",
     "startup": "i19",
-    "block": "-9",
+    "block": "+5",
     "hit": "+11a",
     "counter": "",
     "alternateInputs": [
@@ -1688,16 +1701,16 @@
     ]
   },
   {
-    "name": "Spin Knuckle Jab",
-    "input": "BT 1_2",
+    "name": "",
+    "input": "BT 1",
     "hit_level": "h",
     "damage": "15",
     "startup": "i8",
-    "block": "-8",
-    "hit": "+3",
+    "block": "-3",
+    "hit": "+8",
     "counter": "",
     "alternateInputs": [
-      "BT 1_2"
+      "BT 1"
     ],
     "categories": [],
     "notes": [
@@ -1724,11 +1737,11 @@
   {
     "name": "Crouch Spin Knuckle",
     "input": "BT d+1",
-    "hit_level": "sm",
-    "damage": "10",
+    "hit_level": "sl",
+    "damage": "15",
     "startup": "i10",
-    "block": "-2",
-    "hit": "+9",
+    "block": "+6",
+    "hit": "-5",
     "counter": "",
     "alternateInputs": [
       "BT d+1"
@@ -1742,10 +1755,10 @@
     "name": "Crouch Spin Kick",
     "input": "BT d+3",
     "hit_level": "l",
-    "damage": "12",
-    "startup": "i10",
-    "block": "-11",
-    "hit": "+3",
+    "damage": "6",
+    "startup": "i12",
+    "block": "-15",
+    "hit": "-4",
     "counter": "",
     "alternateInputs": [
       "BT d+3"
@@ -1756,16 +1769,16 @@
     ]
   },
   {
-    "name": "Reverse Jump Kick",
-    "input": "BT uf+3",
+    "name": "",
+    "input": "BT u+3",
     "hit_level": "m",
-    "damage": "-",
-    "startup": "i10",
-    "block": "",
+    "damage": "18",
+    "startup": "i9",
+    "block": "-12",
     "hit": "+19a (+9)",
     "counter": "",
     "alternateInputs": [
-      "BT uf+3"
+      "BT u+3"
     ],
     "categories": [],
     "notes": [
@@ -1875,7 +1888,7 @@
     ],
     "categories": [],
     "notes": [
-      "Becomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)Sometimes written wgf"
+      "Becomes Electric Wind God Fist during Heat (partially uses remaining Heat Time)Sometimes written WGF"
     ]
   },
   {
@@ -1893,7 +1906,7 @@
     "categories": [],
     "notes": [
       "Chip damage when guarded",
-      "Sometimes written ewgf"
+      "Sometimes written EWGF"
     ]
   },
   {
@@ -1910,13 +1923,12 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
-      "Chip damage on block"
+      "Balcony Break"
     ]
   },
   {
     "name": "Spinning Demon",
-    "input": "f,n,d,df+4",
+    "input": "f,n,d,DF+4",
     "hit_level": "l",
     "damage": "15",
     "startup": "i16",
@@ -1924,16 +1936,16 @@
     "hit": "-3c",
     "counter": "+20a",
     "alternateInputs": [
-      "f,n,d,df+4"
+      "f,n,d,DF+4"
     ],
     "categories": [],
     "notes": [
-      "Sometimes written hellsweep"
+      "Sometimes written Hellsweep"
     ]
   },
   {
     "name": "Spinning Demon > Left Hook",
-    "input": "f,n,d,df+4,1",
+    "input": "f,n,d,DF+4,1",
     "hit_level": "l,m",
     "damage": "15,23",
     "startup": "i26",
@@ -1941,18 +1953,18 @@
     "hit": "+17a(+10",
     "counter": "",
     "alternateInputs": [
-      "f,n,d,df+4,1"
+      "f,n,d,DF+4,1"
     ],
     "categories": [],
     "notes": [
       "Balcony Break",
       "Combo from first hit",
-      "Sometimes written hellsweep"
+      "Sometimes written Hellsweep"
     ]
   },
   {
     "name": "Illusive Demon",
-    "input": "f,n,d,df+4,4",
+    "input": "f,n,d,DF+4,4",
     "hit_level": "l,h",
     "damage": "15,25",
     "startup": "i30",
@@ -1960,23 +1972,24 @@
     "hit": "+5a(+4)",
     "counter": "",
     "alternateInputs": [
-      "f,n,d,df+4,4"
+      "f,n,d,DF+4,4"
     ],
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from first hit"
+      "Combo from first hit",
+      "Sometimes written Hellsweep"
     ]
   },
   {
     "name": "Patricide Fist",
     "input": "f,n,d,df+1+2",
     "hit_level": "m",
-    "damage": "33",
+    "damage": "25",
     "startup": "i24",
     "block": "+5",
     "hit": "+25a(+15)",
-    "counter": "",
+    "counter": "+59a",
     "alternateInputs": [
       "f,n,d,df+1+2"
     ],
@@ -1989,7 +2002,7 @@
   },
   {
     "name": "Devil Break",
-    "input": "DVK 1,1,2,F",
+    "input": "1,1,2,DVK F",
     "hit_level": "h,h,m,th",
     "damage": "5,6,12,8",
     "startup": "i10",
@@ -1997,7 +2010,7 @@
     "hit": "+5",
     "counter": "",
     "alternateInputs": [
-      "DVK 1,1,2,F"
+      "1,1,2,DVK F"
     ],
     "categories": [
       "throw"
@@ -2005,7 +2018,11 @@
     "notes": [
       "Jails",
       "Partially uses remaining Heat time",
-      "Only on hit"
+      "Only on hit",
+      "Sometimes written ",
+      "1,1,2,H.F",
+      "DVK.1,1,2,F",
+      "H.1,1,2,F"
     ]
   },
   {
@@ -2022,7 +2039,8 @@
     ],
     "categories": [],
     "notes": [
-      "Partially uses remaining Heat time"
+      "Partially uses remaining Heat time",
+      "Sometimes written H.3+4"
     ]
   },
   {
@@ -2044,7 +2062,7 @@
       "Tornado",
       "Partially uses remaining Heat time",
       "absorb an attack to power up",
-      "Can be executed from while standing state"
+      "Sometimes written H.1+4"
     ]
   },
   {
@@ -2061,7 +2079,8 @@
     ],
     "categories": [],
     "notes": [
-      "Partially uses remaining Heat time"
+      "Partially uses remaining Heat time",
+      "Sometimes written H.db+3+4"
     ]
   },
   {
@@ -2078,7 +2097,8 @@
     ],
     "categories": [],
     "notes": [
-      "Partially uses remaining Heat time"
+      "Partially uses remaining Heat time",
+      "Sometimes written H.db+3+4~df"
     ]
   },
   {
@@ -2096,7 +2116,8 @@
     "categories": [],
     "notes": [
       "Partially uses remaining Heat time",
-      "Jack-8 or Alisa can recovery 20 by input 1+2"
+      "Jack-8 or Alisa can recovery 20 by input 1+2",
+      "Sometimes written H.ub+1+2"
     ]
   },
   {
@@ -2113,7 +2134,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written ",
+      "DVK.u+1+2",
+      "H.uf+1+2",
+      "H.u+1+2"
     ]
   },
   {
@@ -2134,7 +2158,8 @@
     "notes": [
       "Partially uses remaining Heat time",
       "Only on hit",
-      "Cancel throw transition with f,F+2~B"
+      "Throw can be canceled with B",
+      "Sometimes written H.f,F+2"
     ]
   },
   {
@@ -2154,16 +2179,19 @@
     ],
     "notes": [
       "Partially uses remaining Heat time",
-      "On hit, does not shift to throw with n"
+      "On hit, does not shift to throw with n",
+      "Sometimes written ",
+      "DVK.cd+1",
+      "H.f,n,d,df+1"
     ]
   },
   {
     "name": "Tempest Blaster",
     "input": "DVK f,n,d,df+3",
     "hit_level": "h,th",
-    "damage": "30,20",
+    "damage": "30,15",
     "startup": "i18",
-    "block": "+4",
+    "block": "+6",
     "hit": "Th",
     "counter": "",
     "alternateInputs": [
@@ -2173,13 +2201,17 @@
       "throw"
     ],
     "notes": [
-      "Chip damage on block",
-      "Cancel throw transition with DVK f,n,d,df+3~B"
+      "Partially uses remaining heat",
+      "Throw can be canceled with b",
+      "Meaty hit is +5",
+      "Sometimes written ",
+      "DVK.cd+3",
+      "H.f,n,d,df+3"
     ]
   },
   {
     "name": "Abyss Damnation",
-    "input": "DVK f,n,d,df+4,1,1",
+    "input": "f,n,d,DF+4,1,DVK 1",
     "hit_level": "l,m,m,th",
     "damage": "15,23,16,15",
     "startup": "i16",
@@ -2187,18 +2219,21 @@
     "hit": "+0",
     "counter": "",
     "alternateInputs": [
-      "DVK f,n,d,df+4,1,1"
+      "f,n,d,DF+4,1,DVK 1"
     ],
     "categories": [
       "throw"
     ],
     "notes": [
-      "Partially uses remaining Heat time"
+      "Partially uses remaining Heat time",
+      "Sometimes written ",
+      "DVK.f,n,d,DF+4,1,1",
+      "DVK.cd+4,1,1"
     ]
   },
   {
     "name": "Spinning Demon to Left Hook > Thunder God Fist",
-    "input": "DVK f,n,d,df+4,1,1,B",
+    "input": "f,n,d,DF+4,1,DVK 1,B",
     "hit_level": "l,m,m,th,sp",
     "damage": "15,23,16,15,0",
     "startup": "i16",
@@ -2206,13 +2241,15 @@
     "hit": "+17a (+10)",
     "counter": "",
     "alternateInputs": [
-      "DVK f,n,d,df+4,1,1,B"
+      "f,n,d,DF+4,1,DVK 1,B"
     ],
     "categories": [
       "throw"
     ],
     "notes": [
-      ""
+      "Sometimes written ",
+      "DVK.f,n,d,DF+4,1,1,B",
+      "DVK.cd+4,1,1,B"
     ]
   },
   {
@@ -2230,7 +2267,8 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Partially uses remaining Heat time"
+      "Partially uses remaining Heat time",
+      "Sometimes written H.SS.2"
     ]
   },
   {
@@ -2247,26 +2285,32 @@
     ],
     "categories": [],
     "notes": [
-      "Partially uses remaining Heat time"
+      "Partially uses remaining Heat time",
+      "Sometimes written H.OTG.db+1+2"
     ]
   },
   {
     "name": "Demonic Catastrophe",
     "input": "in rage df+1+2",
-    "hit_level": "m,th",
-    "damage": "10,45",
-    "startup": "",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
     "block": "-15",
-    "hit": "",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "in rage df+1+2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
-      "Erases opponent's recoverable health on hit"
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2333,9 +2377,11 @@
       "1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break: 1 or 2",
       "Recovers BT on break"
     ]
@@ -2353,9 +2399,11 @@
       "2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break: 1 or 2"
     ]
   },

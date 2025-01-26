@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -16,7 +16,11 @@
     ],
     "notes": [
       "Heat Burst",
-      "Beats all Power Crush armor."
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -32,7 +36,8 @@
       "in heat 2+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "powercrush"
     ],
     "notes": [
       "Heat Smash",
@@ -121,10 +126,12 @@
       "JGR 1+3_2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
       "Heat Engager",
+      "Homing",
       "Cannot throw break. Cannot heat dash.",
       "Restores some Heat Gauge in Heat.",
       "Opponent recovers in FUFA.",
@@ -168,7 +175,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -514,7 +521,7 @@
     "damage": "18,20",
     "startup": "i15~16",
     "block": "",
-    "hit": "+1d",
+    "hit": "-5d",
     "counter": "",
     "alternateInputs": [
       "f+3:1+2"
@@ -1047,8 +1054,7 @@
     ],
     "categories": [],
     "notes": [
-      "Tracks left side. (one of the few for King)",
-      "cs6~"
+      "Tracks left side. (one of the few for King)"
     ]
   },
   {
@@ -1082,7 +1088,9 @@
     "alternateInputs": [
       "db+1+2"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush"
+    ],
     "notes": [
       "Able to tank 10 frame jab if King is -4 or less (1 frame earlier than other Power Crush)",
       "Armor duration is  24 frames if you let it end normally",
@@ -1284,10 +1292,10 @@
     "name": "Guillotine Drop",
     "input": "b+3:1+2",
     "hit_level": "h,t",
-    "damage": "23, 15",
+    "damage": "2320",
     "startup": "i16~18",
     "block": "",
-    "hit": "+0d",
+    "hit": "-7d",
     "counter": "",
     "alternateInputs": [
       "b+3:1+2"
@@ -1490,7 +1498,7 @@
     "name": "Stomache Smash / Jaguar Hammer",
     "input": "f,f,n,2",
     "hit_level": "l/(l,t)",
-    "damage": "17/(20,30)",
+    "damage": "17/(20,35)",
     "startup": "i18",
     "block": "-13",
     "hit": "+5s/(0d)",
@@ -1558,7 +1566,7 @@
     ],
     "categories": [],
     "notes": [
-      "Forces crouching on block and hit.",
+      "Forces crouching on hit.",
       "Allow crouching throw on hit.",
       "Chip damage on block."
     ]
@@ -1673,7 +1681,7 @@
     ],
     "categories": [],
     "notes": [
-      "Can also be done by f,n,d,DF+1/CD.1.",
+      "Can also be performed with f,n,d,DF+1/CD.1.",
       "Tornado on grounded hit."
     ]
   },
@@ -1684,7 +1692,7 @@
     "damage": "21",
     "startup": "i15",
     "block": "-14",
-    "hit": "+56d",
+    "hit": "+56a",
     "counter": "",
     "alternateInputs": [
       "FC df+2"
@@ -1763,11 +1771,8 @@
     "alternateInputs": [
       "ws2,2"
     ],
-    "categories": [
-      "homing"
-    ],
+    "categories": [],
     "notes": [
-      "Homing",
       "Balcony Break",
       "Combo from 1st hit."
     ]
@@ -2214,10 +2219,12 @@
       "JGR 1+3_2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
       "Heat Engager",
+      "Homing",
       "Cannot throw break. Cannot heat dash.",
       "Restores some Heat Gauge in Heat.",
       "Opponent recovers in FUFA.",
@@ -2240,8 +2247,7 @@
     "notes": [
       "Duck high while moving forward.",
       "Input f,n,d,df,f+(button) for instant ws moves.",
-      "1st f cannot be held more than 10 frames.",
-      "Can be performed from a dash"
+      "1st f cannot be held more than 10 frames."
     ]
   },
   {
@@ -2258,13 +2264,13 @@
     ],
     "categories": [],
     "notes": [
-      "Can also be done by f,n,d,DF+1/CD.1.",
+      "Can also be performed with f,n,d,DF+1/CD.1.",
       "Tornado on grounded hit."
     ]
   },
   {
     "name": "Knee Lift",
-    "input": "f,n,d,DF+4/CD 4",
+    "input": "CD 4",
     "hit_level": "m",
     "damage": "21",
     "startup": "i15~16",
@@ -2272,7 +2278,7 @@
     "hit": "+49a(+18)",
     "counter": "+53d",
     "alternateInputs": [
-      "f,n,d,DF+4/CD 4"
+      "CD 4"
     ],
     "categories": [],
     "notes": [
@@ -2282,15 +2288,15 @@
   },
   {
     "name": "Black Bomb",
-    "input": "f,n,d,DF+1+2 / CD 1+2",
+    "input": "CD 1+2",
     "hit_level": "m",
     "damage": "24",
     "startup": "i20~23",
-    "block": "-5",
+    "block": "-5c",
     "hit": "+16d",
     "counter": "+52d",
     "alternateInputs": [
-      "f,n,d,DF+1+2 / CD 1+2"
+      "CD 1+2"
     ],
     "categories": [],
     "notes": [
@@ -2302,8 +2308,8 @@
   {
     "name": "Anger Of The Beast (Rage Art)",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
     "hit": "+0d",
@@ -2313,10 +2319,14 @@
     ],
     "categories": [],
     "notes": [
-      "Armor all attacks and ignore throws.",
-      "Beat all armor including Rage Art.",
-      "Erases opponent's recoverable health on hit.",
-      "Damage distribution are 10,3,25,10,7, only adds 2 damage on CH."
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2435,6 +2445,7 @@
       "parry"
     ],
     "notes": [
+      "2 Throw Break",
       "Parry opponent's right kick.",
       "Just frame input right before camera returns to normal position to deal extra damage.",
       "Opponent recovers in FUFT."
@@ -2462,7 +2473,7 @@
     "input": "ss3+4",
     "hit_level": "h",
     "damage": "50",
-    "startup": "i21~25/i27~31",
+    "startup": "i27~31",
     "block": "0",
     "hit": "+0d",
     "counter": "",
@@ -2473,7 +2484,7 @@
     "notes": [
       "Deals a lot of chip damage on block.",
       "Tracks side steps.",
-      "Side Step Left is 6 frames faster than SS Right."
+      "In game frame data incorrectly shows that SSL 3+4 is i21"
     ]
   },
   {
@@ -2518,19 +2529,22 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~15 / i15~17",
-    "block": "",
+    "block": "-6",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "1+3 / f+1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "1 or 2 throw break.",
       "Input f+1+3 to increase throw range, but its startup is 3 frames slower.",
-      "Opponent recovers in FUFA."
+      "Opponent recovers in FUFA.",
+      "Side switch on successful throw break"
     ]
   },
   {
@@ -2539,16 +2553,18 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~15 / i15~17",
-    "block": "",
+    "block": "-3",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "2+4 / f+2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "1 or 2 throw break.",
       "Input f+2+4 to increase throw range, but its startup is 3 frames slower.",
       "Side switch. Opponent recovers in FUFA."
@@ -2560,7 +2576,7 @@
     "hit_level": "t",
     "damage": "30",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+19d(-7) / +17d(-13)",
     "counter": "",
     "alternateInputs": [
@@ -2582,7 +2598,7 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "(depends)",
-    "block": "",
+    "block": "-3",
     "hit": "+36d",
     "counter": "",
     "alternateInputs": [
@@ -2603,7 +2619,7 @@
     "hit_level": "t",
     "damage": "42",
     "startup": "(depends)",
-    "block": "",
+    "block": "-3",
     "hit": "+21d",
     "counter": "",
     "alternateInputs": [
@@ -2666,7 +2682,7 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12",
-    "block": "",
+    "block": "-2",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -2686,7 +2702,7 @@
     "hit_level": "t",
     "damage": "40 (8+20+12)",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+1d / 0d",
     "counter": "",
     "alternateInputs": [
@@ -2707,16 +2723,18 @@
     "hit_level": "t",
     "damage": "0",
     "startup": "i12~17",
-    "block": "",
+    "block": "-3",
     "hit": "+14g / -2",
     "counter": "",
     "alternateInputs": [
       "b+1+2(,f,F)"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "1+2 throw break. Side switch.",
       "Damage becomes 15 on wall splat.",
       "Shifts to JGR, input f,F / b,B to cancel shift."
@@ -2749,7 +2767,7 @@
     "hit_level": "t",
     "damage": "53",
     "startup": "i11",
-    "block": "",
+    "block": "-2",
     "hit": "-1d",
     "counter": "",
     "alternateInputs": [
@@ -2770,8 +2788,8 @@
     "hit_level": "t",
     "damage": "50",
     "startup": "i11",
-    "block": "",
-    "hit": "+0d",
+    "block": "-6",
+    "hit": "-6d",
     "counter": "",
     "alternateInputs": [
       "qcb+1+2"
@@ -2793,7 +2811,7 @@
     "hit_level": "t",
     "damage": "40(45)",
     "startup": "i10",
-    "block": "",
+    "block": "-5",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -2816,7 +2834,7 @@
     "hit_level": "t",
     "damage": "45(50),20 / 70",
     "startup": "i10",
-    "block": "",
+    "block": "-13",
     "hit": "-22d(-50)",
     "counter": "",
     "alternateInputs": [
@@ -2840,7 +2858,7 @@
     "hit_level": "t",
     "damage": "50(55)",
     "startup": "i12~14",
-    "block": "",
+    "block": "-6",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -2864,7 +2882,7 @@
     "hit_level": "t",
     "damage": "30",
     "startup": "i11",
-    "block": "",
+    "block": "-2/-7",
     "hit": "+8d",
     "counter": "",
     "alternateInputs": [
@@ -2884,7 +2902,7 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i11",
-    "block": "",
+    "block": "-7",
     "hit": "-14d",
     "counter": "",
     "alternateInputs": [
@@ -2905,7 +2923,7 @@
     "hit_level": "t",
     "damage": "45",
     "startup": "i11",
-    "block": "",
+    "block": "-7",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -2926,7 +2944,7 @@
     "hit_level": "t",
     "damage": "45",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -2968,7 +2986,7 @@
     "hit_level": "t(s)",
     "damage": "0",
     "startup": "i26",
-    "block": "",
+    "block": "-5",
     "hit": "+3d",
     "counter": "",
     "alternateInputs": [
@@ -2988,7 +3006,7 @@
     "hit_level": "t",
     "damage": "5,5,5,15",
     "startup": "i26",
-    "block": "",
+    "block": "+0",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3008,7 +3026,7 @@
     "hit_level": "t",
     "damage": "25",
     "startup": "i26",
-    "block": "",
+    "block": "-9",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -3049,7 +3067,7 @@
     "hit_level": "t",
     "damage": "20",
     "startup": "i26",
-    "block": "",
+    "block": "+0",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -3158,7 +3176,7 @@
     "hit_level": "t(g)",
     "damage": "20,10 / 35",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+1d(-40)",
     "counter": "",
     "alternateInputs": [
@@ -3179,7 +3197,7 @@
     "hit_level": "t(g)",
     "damage": "25",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3200,7 +3218,7 @@
     "hit_level": "t(g)",
     "damage": "28",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -3220,7 +3238,7 @@
     "hit_level": "t(g)",
     "damage": "30",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+22d",
     "counter": "",
     "alternateInputs": [
@@ -3241,7 +3259,7 @@
     "hit_level": "t(g)",
     "damage": "28",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3261,7 +3279,7 @@
     "hit_level": "t(g)",
     "damage": "32",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3281,7 +3299,7 @@
     "hit_level": "t(g)",
     "damage": "0",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+25d",
     "counter": "",
     "alternateInputs": [
@@ -3297,15 +3315,15 @@
   },
   {
     "name": "Camel Clutch",
-    "input": "FDFT db+1+3_2+4",
+    "input": "FDFin rage db+1+3_2+4",
     "hit_level": "t(g)",
     "damage": "35",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
-      "FDFT db+1+3_2+4"
+      "FDFin rage db+1+3_2+4"
     ],
     "categories": [
       "throw"
@@ -3322,7 +3340,7 @@
     "hit_level": "t(g)",
     "damage": "37",
     "startup": "i18~20",
-    "block": "",
+    "block": "+0",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3338,7 +3356,7 @@
   },
   {
     "name": "Mid-Air Leg Cross Hold",
-    "input": "AIR 1+3 / AIR f+1+3",
+    "input": "AIin rage 1+3 / AIin rage f+1+3",
     "hit_level": "t(a)",
     "damage": "30",
     "startup": "i12~14 / i15~17",
@@ -3346,12 +3364,14 @@
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
-      "AIR 1+3 / AIR f+1+3"
+      "AIin rage 1+3 / AIin rage f+1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Cannot throw break.",
       "Input f+1+3 to increase throw range, but its startup is 3 frames slower.",
       "Opponent recovers in FDFT."
@@ -3359,7 +3379,7 @@
   },
   {
     "name": "Spine Cracker",
-    "input": "AIR 2+4 / AIR f+2+4",
+    "input": "AIin rage 2+4 / AIin rage f+2+4",
     "hit_level": "t(a)",
     "damage": "20",
     "startup": "i12~14 / i15~17",
@@ -3367,13 +3387,15 @@
     "hit": "+40d(+35)",
     "counter": "",
     "alternateInputs": [
-      "AIR 2+4 / AIR f+2+4"
+      "AIin rage 2+4 / AIin rage f+2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
       "Tornado",
+      "Homing",
       "Cannot throw break.",
       "Input f+2+4 to increase throw range, but its startup is 3 frames slower.",
       "Opponent recovers in FUFT."
@@ -3381,7 +3403,7 @@
   },
   {
     "name": "Double Heel Hold (DHH)",
-    "input": "AIR d+1+3_2+4",
+    "input": "AIin rage d+1+3_2+4",
     "hit_level": "t(a)",
     "damage": "15",
     "startup": "i12~13",
@@ -3389,7 +3411,7 @@
     "hit": "-5d",
     "counter": "",
     "alternateInputs": [
-      "AIR d+1+3_2+4"
+      "AIin rage d+1+3_2+4"
     ],
     "categories": [
       "throw"
@@ -3401,15 +3423,15 @@
   },
   {
     "name": "Flapjack (From DHH)",
-    "input": "DHH 1+2,1+2",
+    "input": "DHin heat 1+2,1+2",
     "hit_level": "t",
     "damage": "15",
     "startup": "i12~13",
-    "block": "",
+    "block": "-6",
     "hit": "-3d",
     "counter": "",
     "alternateInputs": [
-      "DHH 1+2,1+2"
+      "DHin heat 1+2,1+2"
     ],
     "categories": [
       "throw"
@@ -3421,15 +3443,15 @@
   },
   {
     "name": "Giant Swing (From DHH)",
-    "input": "DHH 2,1,3,4",
+    "input": "DHin heat 2,1,3,4",
     "hit_level": "t",
     "damage": "12,13 / 32",
     "startup": "i12~13",
-    "block": "",
+    "block": "-6",
     "hit": "-7d(-40)",
     "counter": "",
     "alternateInputs": [
-      "DHH 2,1,3,4"
+      "DHin heat 2,1,3,4"
     ],
     "categories": [
       "throw"
@@ -3442,7 +3464,7 @@
   },
   {
     "name": "Running Jaguar Bomb",
-    "input": "AIR f,f,F+2+4",
+    "input": "AIin rage f,f,F+2+4",
     "hit_level": "t(a)",
     "damage": "65(70)",
     "startup": "i10",
@@ -3450,7 +3472,7 @@
     "hit": "+4d",
     "counter": "",
     "alternateInputs": [
-      "AIR f,f,F+2+4"
+      "AIin rage f,f,F+2+4"
     ],
     "categories": [
       "throw"
@@ -3465,7 +3487,7 @@
   },
   {
     "name": "Aerial Jaguar Bomb",
-    "input": "AIR f,hcf+1_2",
+    "input": "AIin rage f,hcf+1_2",
     "hit_level": "t(a)",
     "damage": "55(60)",
     "startup": "i10 / i12~14",
@@ -3473,7 +3495,7 @@
     "hit": "+3d",
     "counter": "",
     "alternateInputs": [
-      "AIR f,hcf+1_2"
+      "AIin rage f,hcf+1_2"
     ],
     "categories": [
       "throw"
@@ -3515,16 +3537,18 @@
     "hit_level": "t",
     "damage": "19",
     "startup": "i32",
-    "block": "",
+    "block": "-2",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
       "df+1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "1 throw break. Side Switch.",
       "Very slow crouch dash then grab.",
       "Opponent recovers in FUFA."
@@ -3557,7 +3581,7 @@
     "hit_level": "t",
     "damage": "7/15",
     "startup": "i32",
-    "block": "",
+    "block": "-9",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3599,7 +3623,7 @@
     "hit_level": "t",
     "damage": "15/20/31",
     "startup": "i32",
-    "block": "",
+    "block": "-3",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -3621,7 +3645,7 @@
     "hit_level": "t",
     "damage": "20/25",
     "startup": "i32",
-    "block": "",
+    "block": "-6",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -3643,16 +3667,18 @@
     "hit_level": "t",
     "damage": "20",
     "startup": "i32",
-    "block": "",
+    "block": "-2",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
       "df+2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "2 throw break. Side Switch.",
       "Very slow crouch dash then grab.",
       "Opponent recovers in FUFT."
@@ -3671,9 +3697,11 @@
       "ss2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "2 throw break (except from behind).",
       "RSSB2 from side/behind, RSSB1 from front, doesn't change to left/right/behind throw.",
       "Opponent recovers in FUFT.",
@@ -3707,7 +3735,7 @@
     "hit_level": "t",
     "damage": "7/15",
     "startup": "i13",
-    "block": "",
+    "block": "-3",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3792,7 +3820,7 @@
     "hit_level": "t",
     "damage": "25",
     "startup": "i12",
-    "block": "",
+    "block": "-2",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3812,7 +3840,7 @@
     "hit_level": "t",
     "damage": "25",
     "startup": "i12",
-    "block": "",
+    "block": "-10",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3823,6 +3851,7 @@
     ],
     "notes": [
       "1 throw break. Side Switch.",
+      "King suffers 10 recoverable damage on successful throw break",
       "Opponent recovers in FDFR. Max damage 50."
     ]
   },
@@ -3832,7 +3861,7 @@
     "hit_level": "t",
     "damage": "30",
     "startup": "i12",
-    "block": "",
+    "block": "-10",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3843,6 +3872,7 @@
     ],
     "notes": [
       "2 throw break.",
+      "King suffers 10 recoverable damage on successful throw break",
       "Opponent recovers in FDFR. Max damage 55."
     ]
   },
@@ -3852,7 +3882,7 @@
     "hit_level": "t",
     "damage": "20",
     "startup": "i12",
-    "block": "",
+    "block": "-10",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3863,6 +3893,7 @@
     ],
     "notes": [
       "1+2 throw break.",
+      "King suffers 10 recoverable damage on successful throw break",
       "Opponent recovers in FDFL."
     ]
   },
@@ -3892,7 +3923,7 @@
     "hit_level": "t",
     "damage": "20",
     "startup": "i12",
-    "block": "",
+    "block": "-2",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -3912,7 +3943,7 @@
     "hit_level": "t",
     "damage": "12,18",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+2d",
     "counter": "",
     "alternateInputs": [
@@ -3932,7 +3963,7 @@
     "hit_level": "t",
     "damage": "20",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -3972,7 +4003,7 @@
     "hit_level": "t",
     "damage": "20",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -3992,7 +4023,7 @@
     "hit_level": "t",
     "damage": "25",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -4012,7 +4043,7 @@
     "hit_level": "t",
     "damage": "60",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -4032,16 +4063,18 @@
     "hit_level": "t",
     "damage": "20",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "JGS 1+4_2+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "1 or 2 throw break, depending on King's input.",
       "Opponent recovers in FDFT.",
       "Becomes f,hcf+1 / 2+4 on air grab / wall splat."
@@ -4073,7 +4106,7 @@
     "hit_level": "t",
     "damage": "13",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -4093,7 +4126,7 @@
     "hit_level": "t",
     "damage": "12",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+1d",
     "counter": "",
     "alternateInputs": [
@@ -4113,8 +4146,8 @@
     "hit_level": "t",
     "damage": "24",
     "startup": "i12",
-    "block": "",
-    "hit": "",
+    "block": "-6",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "MMD3 2,3,1,1+2"
@@ -4153,7 +4186,7 @@
     "hit_level": "t",
     "damage": "11,15",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -4173,7 +4206,7 @@
     "hit_level": "t",
     "damage": "18",
     "startup": "i12",
-    "block": "",
+    "block": "-3",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -4193,7 +4226,7 @@
     "hit_level": "t",
     "damage": "31",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "-10d",
     "counter": "",
     "alternateInputs": [

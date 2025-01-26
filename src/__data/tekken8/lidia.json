@@ -2,11 +2,11 @@
   {
     "name": "Heat Burst",
     "input": "2+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
+    "hit_level": "m",
+    "damage": "12",
+    "startup": "i16",
+    "block": "+1",
+    "hit": "+2c",
     "counter": "",
     "alternateInputs": [
       "2+3"
@@ -15,17 +15,20 @@
       "powercrush"
     ],
     "notes": [
-      ""
+      "Heat Burst",
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "Partially uses Heat"
     ]
   },
   {
     "name": "Efflorescent Blizzard",
     "input": "in heat 2+3",
-    "hit_level": "m",
+    "hit_level": "m,m,m,h",
     "damage": "55",
     "startup": "i18",
-    "block": "+10 HAE",
-    "hit": "",
+    "block": "+10g",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "in heat 2+3"
@@ -34,8 +37,9 @@
     "notes": [
       "Heat Smash",
       "Balcony Break",
-      "Transition to HAE on block",
-      "Cancel HAE transition on block with input B"
+      "Transition to r31 HAE on block",
+      "Cancel HAE transition with B",
+      "Transition to attack throw on hit"
     ]
   },
   {
@@ -44,18 +48,64 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i31",
-    "block": "",
-    "hit": "+37a (+29) HAE",
+    "block": "+1",
+    "hit": "+37a (+29)",
     "counter": "",
     "alternateInputs": [
       "in heat 1+2"
     ],
     "categories": [],
     "notes": [
-      "Partially uses remaining Heat time",
       "Reversal Break",
-      "Cancel with input b,b or f,f",
-      "Cancel HAE transition with input B"
+      "Cancel with b,b or f,f",
+      "Transition to HAE on hit or block only",
+      "Cancel HAE transition with B",
+      "Partially uses remaining Heat time",
+      "Hold for 20~30 frames"
+    ]
+  },
+  {
+    "name": "Heian Shodan Seikenzuki (Slight Hold) > Heaven and Earth",
+    "input": "in heat 1+2*",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i42~64",
+    "block": "+10g",
+    "hit": "+37a (+29)",
+    "counter": "",
+    "alternateInputs": [
+      "in heat 1+2*"
+    ],
+    "categories": [],
+    "notes": [
+      "Reversal Break",
+      "Cancel with b,b or f,f",
+      "Transition to HAE on hit or block only",
+      "Cancel HAE transition with B",
+      "Partially uses remaining Heat time",
+      "Hold for 31~54 frames"
+    ]
+  },
+  {
+    "name": "Heian Shodan Seikenzuki: Digress > Heaven and Earth",
+    "input": "in heat 1+2**",
+    "hit_level": "m",
+    "damage": "40",
+    "startup": "i65",
+    "block": "+15g",
+    "hit": "+63a",
+    "counter": "",
+    "alternateInputs": [
+      "in heat 1+2**"
+    ],
+    "categories": [],
+    "notes": [
+      "Reversal Break",
+      "Cancel with b,b or f,f",
+      "Transition to HAE on hit or block only",
+      "Cancel HAE transition with B",
+      "Partially uses remaining Heat time",
+      "Hold for 55 frames"
     ]
   },
   {
@@ -64,16 +114,17 @@
     "hit_level": "m",
     "damage": "22",
     "startup": "i13",
-    "block": "",
-    "hit": "+17 HRS",
+    "block": "+5",
+    "hit": "+17",
     "counter": "",
     "alternateInputs": [
       "in heat f,F+2"
     ],
     "categories": [],
     "notes": [
-      "Partially uses remaining Heat time",
       "Reversal Break",
+      "Transition to HRS on hit or block only",
+      "Partially uses remaining Heat time",
       "Input H.f,f,F+2 to power up"
     ]
   },
@@ -83,7 +134,7 @@
     "hit_level": "h",
     "damage": "37",
     "startup": "i13~15",
-    "block": "+5 HAE",
+    "block": "+5",
     "hit": "+31a (+23)",
     "counter": "",
     "alternateInputs": [
@@ -91,10 +142,11 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
       "Tornado",
-      "Partially uses remaining Heat time",
-      "Cancel HAE transition with input B"
+      "Balcony Break",
+      "Transition to HAE on hit or block only",
+      "Cancel HAE transition with B",
+      "Partially uses remaining Heat time"
     ]
   },
   {
@@ -103,8 +155,8 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i22",
-    "block": "",
-    "hit": "+38a (+30) HAE",
+    "block": "+10g",
+    "hit": "+38a (+30)",
     "counter": "",
     "alternateInputs": [
       "in heat WLF 1"
@@ -113,8 +165,30 @@
     "notes": [
       "Balcony Break",
       "Tornado",
-      "Can hold, cancel hold with input b,b or f,f",
-      "Cancel HAE transition with input B"
+      "Cancel with b,b or f,f on frames 10~18",
+      "Transition to HAE on hit or block only",
+      "Cancel HAE transition with B"
+    ]
+  },
+  {
+    "name": "Bassai-zuki (Hold) > Heaven and Earth",
+    "input": "in heat WLF 1*",
+    "hit_level": "m",
+    "damage": "34",
+    "startup": "i36",
+    "block": "+15g",
+    "hit": "+66",
+    "counter": "",
+    "alternateInputs": [
+      "in heat WLF 1*"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Cancel with b,b or f,f on frames 10~18",
+      "Transition to HAE on hit or block only",
+      "Cancel HAE transition with B",
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -132,9 +206,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43d (+35) on hit, +5 on block",
+      "Heat Dash +5, +43d (+35)",
       "Power up with input qcf+1+2 (adds 5 dmg to last hit)",
-      "Combo from any hit"
+      "Jail from any attack"
     ]
   },
   {
@@ -152,9 +226,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26) on hit, +5 on block",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
-      "4 Chip damage on block"
+      "4 chip damage on block"
     ]
   },
   {
@@ -172,7 +246,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35) on hit, +5 on block",
+      "Heat Dash +5, +43a (+35)",
       "Balcony Break",
       "Elbow"
     ]
@@ -180,23 +254,24 @@
   {
     "name": "Unanimous Consent",
     "input": "HRS 2",
-    "hit_level": "m,th",
+    "hit_level": "m,t",
     "damage": "18,10",
     "startup": "i16",
     "block": "-10",
     "hit": "+8",
-    "counter": "+8",
+    "counter": "",
     "alternateInputs": [
       "HRS 2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
-      "Throw when hit from the front on the ground (does not shift when using Heat Dash)",
       "Heat Engager",
-      " when throw is completed",
-      "Cancel HAE transition with input B"
+      "Heat Dash +5, +67a (+50)",
+      "Transitions to attack throw on front hit",
+      "Does not transition to throw when using Heat Dash",
+      "Activates Heat when throw is completed",
+      "Transition to r33 HAE on hit only",
+      "Cancel HAE transition with B"
     ]
   },
   {
@@ -206,14 +281,15 @@
     "damage": "20",
     "startup": "i13~14",
     "block": "-4",
-    "hit": "+11",
-    "counter": "+11",
+    "hit": "+11g",
+    "counter": "",
     "alternateInputs": [
       "CAT 3"
     ],
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break"
     ]
   },
@@ -231,7 +307,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -257,7 +333,7 @@
     "hit_level": "h,h,m",
     "damage": "5,8,10",
     "startup": ",i22",
-    "block": "-8 (-16)",
+    "block": "-8",
     "hit": "+8",
     "counter": "",
     "alternateInputs": [
@@ -265,8 +341,10 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st or 2nd hit",
-      "Transition to CAT on hit or block only"
+      "Combo from 1st hit",
+      "Combo from 2nd hit with 3f delay",
+      "Transition to CAT on hit or block only",
+      "CAT transition is -16"
     ]
   },
   {
@@ -277,13 +355,14 @@
     "startup": ",i26~27",
     "block": "-6",
     "hit": "+20a (+11)",
-    "counter": "+20a (+11)",
+    "counter": "",
     "alternateInputs": [
       "1,2,3"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Input can be delayed 3f"
     ]
   },
   {
@@ -300,6 +379,9 @@
     ],
     "categories": [],
     "notes": [
+      "Input can be delayed 8f",
+      "Interrupt with i7 from 2nd block",
+      "Can be low parried on hit",
       "Can hit grounded while off-axis"
     ]
   },
@@ -344,7 +426,7 @@
     "hit_level": "h,h",
     "damage": "8,20",
     "startup": ",i20",
-    "block": "-4 (-12)",
+    "block": "-4",
     "hit": "+11g",
     "counter": "",
     "alternateInputs": [
@@ -352,9 +434,11 @@
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Balcony Break",
       "Combo from 1st hit with 4f delay",
-      "Transition to CAT on hit or block only"
+      "Transition to CAT on hit or block only",
+      "CAT transition is -12"
     ]
   },
   {
@@ -365,7 +449,7 @@
     "startup": ",i21",
     "block": "-8",
     "hit": "+4",
-    "counter": "+4",
+    "counter": "",
     "alternateInputs": [
       "2,4"
     ],
@@ -406,9 +490,10 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Balcony break on airborne hit",
       "Combo from 1st hit with 3f delay",
-      "Just frame input within a 3f window (14~16) adds 2 damage"
+      "Just frame input within a 3f window (14~16) adds 2 damage",
+      "Balcony break on airborne hit",
+      "Hitstop 20f on hit"
     ]
   },
   {
@@ -462,7 +547,8 @@
     "notes": [
       "Balcony Break",
       "Cancel with b,b or f,f",
-      "Opponent recovers crouching on hit"
+      "Opponent recovers crouching on hit",
+      "Hold for 20~30 frames"
     ]
   },
   {
@@ -481,6 +567,7 @@
     "notes": [
       "Balcony Break",
       "Cancel with input b,b or f,f",
+      "Hold for 31~54 frames",
       "5 chip damage on block"
     ]
   },
@@ -498,7 +585,8 @@
     ],
     "categories": [],
     "notes": [
-      "9 chip damage on block"
+      "9 chip damage on block",
+      "Hold for 55 frames"
     ]
   },
   {
@@ -506,7 +594,7 @@
     "input": "3+4",
     "hit_level": "m,m",
     "damage": "6,20",
-    "startup": "i20~21,i18",
+    "startup": "i20~21, i18",
     "block": "+0",
     "hit": "+23g",
     "counter": "",
@@ -515,6 +603,7 @@
     ],
     "categories": [],
     "notes": [
+      "Jail from 1st attack",
       "Balcony break on airborne hit",
       "Transition to CAT on hit or block only"
     ]
@@ -587,10 +676,11 @@
     "notes": [
       "Combo from 1st CH with 10f delay",
       "Move can be delayed 7f",
+      "Can be ducked on hit",
       "Interrupt with i5 from 1st block",
-      "6 chip damage on block",
       "Power up with input qcf+4, adds 2 damage",
-      "Balcony break on airborne hit"
+      "Balcony break on airborne hit",
+      "6 chip damage on block"
     ]
   },
   {
@@ -624,7 +714,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit with 1f delay"
+      "Jail from 1st attack with 1f delay"
     ]
   },
   {
@@ -678,7 +768,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Jail from 1st attack"
     ]
   },
   {
@@ -696,7 +786,7 @@
     "categories": [],
     "notes": [
       "Knee",
-      "Combo from 1st hit"
+      "Jail from 1st attack"
     ]
   },
   {
@@ -714,9 +804,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43d (+35) on hit, +5 on block",
+      "Heat Dash +5, +43d (+35)",
       "Power up with input qcf+1+2 (adds 5 dmg to last hit)",
-      "Combo from any hit"
+      "Jail from any attack"
     ]
   },
   {
@@ -733,7 +823,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Actionable after 20f"
     ]
   },
   {
@@ -895,6 +985,7 @@
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "7 chip damage on block"
     ]
   },
@@ -1001,7 +1092,7 @@
     "categories": [],
     "notes": [
       "Combo from 1st CH with 1f delay",
-      "Jail from 1st block"
+      "Jail from 1st hit"
     ]
   },
   {
@@ -1022,6 +1113,40 @@
       "Balcony Break",
       "Combo from 2nd hit",
       "Combo from 1st CH"
+    ]
+  },
+  {
+    "name": "",
+    "input": "d+4",
+    "hit_level": "l",
+    "damage": "6",
+    "startup": "i12",
+    "block": "-15",
+    "hit": "-4",
+    "counter": "",
+    "alternateInputs": [
+      "d+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "Down Jab",
+    "input": "db+1",
+    "hit_level": "sl",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "alternateInputs": [
+      "db+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to r24? with f"
     ]
   },
   {
@@ -1047,7 +1172,7 @@
     "hit_level": "L",
     "damage": "17",
     "startup": "i16~17",
-    "block": "-11 (-19)",
+    "block": "-11",
     "hit": "+7",
     "counter": "",
     "alternateInputs": [
@@ -1060,7 +1185,8 @@
       "Homing",
       "Clean hit adds 3 damage",
       "Transition to HRS on hit or block only",
-      "Transition to attack throw on CH"
+      "Transition to attack throw on CH",
+      "HRS transition is -19"
     ]
   },
   {
@@ -1122,19 +1248,21 @@
   },
   {
     "name": "For the Nation",
-    "input": "P db+3+4",
+    "input": "db+3+4,P 1",
     "hit_level": "m,h",
     "damage": "21,21",
-    "startup": "i22,i16",
+    "startup": ",i16",
     "block": "",
     "hit": "+33a (+25)",
     "counter": "",
     "alternateInputs": [
-      "P db+3+4"
+      "db+3+4,P 1"
     ],
     "categories": [],
     "notes": [
-      "2f input window for power up on frames 21~22, adds 2 damage"
+      "Balcony Break",
+      "Combo from 1st hit",
+      "Just frame input within a 2f window (21~22) adds 2 damage"
     ]
   },
   {
@@ -1152,9 +1280,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26) on hit, +5 on block",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
-      "4 Chip damage on block"
+      "4 chip damage on block"
     ]
   },
   {
@@ -1317,7 +1445,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Actionable after 20f"
     ]
   },
   {
@@ -1401,7 +1529,7 @@
     "hit_level": "m,h",
     "damage": "10,16",
     "startup": "i15~16,i13",
-    "block": "-5 (-13)",
+    "block": "-5",
     "hit": "+69a (+53)",
     "counter": "",
     "alternateInputs": [
@@ -1412,7 +1540,8 @@
       "Balcony Break",
       "Tornado",
       "Transition to CAT on hit or block only",
-      "2nd hit available only as combo from 1st hit"
+      "2nd hit available only as combo from 1st hit",
+      "CAT transition is -13"
     ]
   },
   {
@@ -1675,7 +1804,7 @@
     "hit_level": "m,m",
     "damage": "18,22",
     "startup": ",i24~25",
-    "block": "-6 (-14)",
+    "block": "-6",
     "hit": "+24g",
     "counter": "+59a",
     "alternateInputs": [
@@ -1687,7 +1816,8 @@
       "Combo from 1st hit",
       "Combo from 1st CH with 12f delay",
       "Transition to WLF on hit or block only",
-      "Balcony break on airborne hit"
+      "Balcony break on airborne hit",
+      "WLF transition is -14"
     ]
   },
   {
@@ -1774,7 +1904,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35) on hit, +5 on block",
+      "Heat Dash +5, +43a (+35)",
       "Balcony Break",
       "Elbow"
     ]
@@ -1804,7 +1934,7 @@
     "startup": "i13~14",
     "block": "-3",
     "hit": "+4",
-    "counter": "+4",
+    "counter": "",
     "alternateInputs": [
       "ws1"
     ],
@@ -1819,15 +1949,16 @@
     "hit_level": "m,h",
     "damage": "12,18",
     "startup": ",i21~22",
-    "block": "0 CAT",
-    "hit": "+11 CAT",
-    "counter": "+11 CAT",
+    "block": "+0",
+    "hit": "+11",
+    "counter": "",
     "alternateInputs": [
       "ws1,2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit with 1f delay",
+      "Transition to CAT on hit or block only"
     ]
   },
   {
@@ -1838,13 +1969,15 @@
     "startup": ",i21~22",
     "block": "-13",
     "hit": "+21a (+16)",
-    "counter": "+21a (+16)",
+    "counter": "",
     "alternateInputs": [
       "ws1,4"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Knee",
+      "Combo from 1st hit with 1f delay"
     ]
   },
   {
@@ -1872,7 +2005,7 @@
     "startup": "i14~15",
     "block": "-12",
     "hit": "+32a (+24)",
-    "counter": "+71a (+55) T!",
+    "counter": "+71a (+55)",
     "alternateInputs": [
       "ws3"
     ],
@@ -1890,7 +2023,7 @@
     "startup": "i11~12",
     "block": "-4",
     "hit": "+7",
-    "counter": "+7",
+    "counter": "",
     "alternateInputs": [
       "ws4"
     ],
@@ -1905,15 +2038,16 @@
     "hit_level": "m,h",
     "damage": "13,12",
     "startup": ",i18",
-    "block": "+0 CAT",
-    "hit": "+8 CAT",
-    "counter": "+8 CAT",
+    "block": "+0",
+    "hit": "+8",
+    "counter": "",
     "alternateInputs": [
       "ws4,2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit with 2f delay",
+      "Transition to CAT on hit or block only"
     ]
   },
   {
@@ -1930,7 +2064,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Actionable after 20f"
     ]
   },
   {
@@ -1939,9 +2073,9 @@
     "hit_level": "h",
     "damage": "22",
     "startup": "i17",
-    "block": "+1 WLF",
-    "hit": "+16 WLF",
-    "counter": "+16 WLF",
+    "block": "+1",
+    "hit": "+16g",
+    "counter": "",
     "alternateInputs": [
       "HRS 1"
     ],
@@ -1956,23 +2090,24 @@
   {
     "name": "Unanimous Consent",
     "input": "HRS 2",
-    "hit_level": "m,th",
+    "hit_level": "m,t",
     "damage": "18,10",
     "startup": "i16",
     "block": "-10",
     "hit": "+8",
-    "counter": "+8",
+    "counter": "",
     "alternateInputs": [
       "HRS 2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
-      "Throw when hit from the front on the ground (does not shift when using Heat Dash)",
       "Heat Engager",
-      " when throw is completed",
-      "Cancel HAE transition with input B"
+      "Heat Dash +5, +67a (+50)",
+      "Transitions to attack throw on front hit",
+      "Does not transition to throw when using Heat Dash",
+      "Activates Heat when throw is completed",
+      "Transition to r33 HAE on hit only",
+      "Cancel HAE transition with B"
     ]
   },
   {
@@ -1983,7 +2118,7 @@
     "startup": "i22~24",
     "block": "-4",
     "hit": "+34a (+26)",
-    "counter": "+34a (+26)",
+    "counter": "",
     "alternateInputs": [
       "HRS 3"
     ],
@@ -1991,6 +2126,7 @@
       "homing"
     ],
     "notes": [
+      "Strong Aerial Tailspin",
       "Balcony Break",
       "Homing"
     ]
@@ -2001,24 +2137,26 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i28",
-    "block": "+8 WLF",
-    "hit": "+22d WLF",
-    "counter": "+44a WLF",
+    "block": "+8",
+    "hit": "+22d",
+    "counter": "+44a",
     "alternateInputs": [
       "HRS 4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike",
+      "6 chip damage on block",
+      "Transition to WLF on hit or block only"
     ]
   },
   {
     "name": "Low Chop",
     "input": "HRS 1+2",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "17",
     "startup": "i20~21",
-    "block": "-18c",
+    "block": "-18",
     "hit": "-1c",
     "counter": "+67a (+51)",
     "alternateInputs": [
@@ -2032,9 +2170,9 @@
   {
     "name": "Horse Stance > Stalking Wolf Stance",
     "input": "HRS F",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i20~21",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2043,15 +2181,15 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Actionable after 20f"
     ]
   },
   {
     "name": "Horse Stance > Cancel",
     "input": "HRS b",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i8",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2060,32 +2198,36 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "After recovery, limited to blocking for 13 frames",
+      "Takes 8f to cancel into block"
     ]
   },
   {
     "name": "Horse Stance > Heaven and Earth",
     "input": "in heat HRS U",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i8",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
     "alternateInputs": [
       "in heat HRS U"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      ""
+      "Increases Heaven and Earth level",
+      "Parries all highs or mids"
     ]
   },
   {
     "name": "Horse Stance > Vacuity",
     "input": "HRS b,B",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i15",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2111,7 +2253,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Actionable after 20f"
     ]
   },
   {
@@ -2139,7 +2281,7 @@
     "startup": "i14~15",
     "block": "-10",
     "hit": "+1",
-    "counter": "+1",
+    "counter": "",
     "alternateInputs": [
       "CAT 2"
     ],
@@ -2163,7 +2305,8 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Just Input to power up"
+      "Combo from 1st CH",
+      "Just frame input within a 3f window (13~15) adds 2 damage"
     ]
   },
   {
@@ -2174,13 +2317,13 @@
     "startup": ",i18~19",
     "block": "-10",
     "hit": "+1",
-    "counter": "+1",
+    "counter": "",
     "alternateInputs": [
       "CAT 2,3"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st CH"
     ]
   },
   {
@@ -2191,13 +2334,17 @@
     "startup": ",i18",
     "block": "-10",
     "hit": "+12a (+3)",
-    "counter": "+12a (+3)",
+    "counter": "",
     "alternateInputs": [
       "CAT 2,3,1"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Elbow",
+      "Combo from 2nd hit with 10f delay",
+      "Combo from 1st CH",
+      "Move can be delayed 9f"
     ]
   },
   {
@@ -2207,49 +2354,53 @@
     "damage": "20",
     "startup": "i13~14",
     "block": "-4",
-    "hit": "+11",
-    "counter": "+11",
+    "hit": "+11g",
+    "counter": "",
     "alternateInputs": [
       "CAT 3"
     ],
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break"
     ]
   },
   {
     "name": "",
     "input": "CAT 4",
-    "hit_level": "l",
+    "hit_level": "L",
     "damage": "10",
     "startup": "i19~20",
-    "block": "-6 WLF (-14)",
-    "hit": "+8c WLF",
-    "counter": "+33a WLF",
+    "block": "-6",
+    "hit": "+8c",
+    "counter": "+33a",
     "alternateInputs": [
       "CAT 4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Transition to WLF on hit or block only",
+      "Crouching state ends early on frame 20 when transitioning to WLF",
+      "WLF transition is -14"
     ]
   },
   {
     "name": "Crouching Tiger, Rising Dragon",
     "input": "CAT 4,3+4",
-    "hit_level": "l,m",
+    "hit_level": "L,M",
     "damage": "10,25",
     "startup": ",i38~39",
     "block": "-14",
-    "hit": "+5d",
-    "counter": "+5d",
+    "hit": "+5a",
+    "counter": "",
     "alternateInputs": [
       "CAT 4,3+4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike",
+      "Combo from 1st CH"
     ]
   },
   {
@@ -2258,23 +2409,24 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i16",
-    "block": "-3 WLF",
-    "hit": "+27g WLF",
-    "counter": "+37 (+29) WLF",
+    "block": "-3",
+    "hit": "+27g",
+    "counter": "+37 (+29)",
     "alternateInputs": [
       "CAT 1+2"
     ],
     "categories": [],
     "notes": [
-      "Tornado"
+      "Tornado",
+      "Transition to WLF on hit or block only"
     ]
   },
   {
     "name": "Cat Stance > Stalking Wolf Stance",
     "input": "CAT F",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i16",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2283,15 +2435,15 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Actionable after 20f"
     ]
   },
   {
     "name": "Cat Stance > Cancel",
     "input": "CAT b",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i8",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2300,32 +2452,36 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "After recovery, limited to blocking for 13 frames",
+      "Takes 8f to cancel into block"
     ]
   },
   {
     "name": "Cat Stance > Heaven and Earth",
     "input": "in heat CAT U",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i8",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
     "alternateInputs": [
       "in heat CAT U"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      ""
+      "Increases Heaven and Earth level",
+      "Parries all highs or mids"
     ]
   },
   {
     "name": "Cat Stance > Vacuity",
     "input": "CAT b,B",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i15",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2342,19 +2498,19 @@
     "input": "WLF 1",
     "hit_level": "m",
     "damage": "24",
-    "startup": "i22",
+    "startup": "i22~36",
     "block": "+2",
     "hit": "+30a (+22)",
-    "counter": "+31a (+23)",
+    "counter": "",
     "alternateInputs": [
       "WLF 1"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
       "Tornado",
-      "Can hold, cancel hold with input b,b or f,f",
-      "Chip damage on block"
+      "Balcony Break",
+      "Cancel with b,b or f,f on frames 10~18",
+      "4 Chip damage on block"
     ]
   },
   {
@@ -2372,13 +2528,13 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Chip damage on block"
+      "13 Chip damage on block"
     ]
   },
   {
     "name": "Jion Upward Thrust",
     "input": "WLF 2",
-    "hit_level": "m",
+    "hit_level": "M",
     "damage": "21",
     "startup": "i15~16",
     "block": "-7",
@@ -2389,7 +2545,8 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Steel pedal"
     ]
   },
   {
@@ -2400,7 +2557,7 @@
     "startup": "i17",
     "block": "-6",
     "hit": "+4",
-    "counter": "+4",
+    "counter": "",
     "alternateInputs": [
       "WLF 3"
     ],
@@ -2417,38 +2574,40 @@
     "startup": ",i26",
     "block": "-6",
     "hit": "+37a (+29)",
-    "counter": "+37a (+29)",
+    "counter": "",
     "alternateInputs": [
       "WLF 3,1"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Combo from 1st CH"
     ]
   },
   {
     "name": "Serpent Incision",
     "input": "WLF 4",
-    "hit_level": "lm",
+    "hit_level": "L,M",
     "damage": "10,20",
     "startup": "i20,i23~25",
     "block": "-16",
-    "hit": "-7d",
-    "counter": "-7d",
+    "hit": "-7a",
+    "counter": "",
     "alternateInputs": [
       "WLF 4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike",
+      "Second hit available on hit or block only"
     ]
   },
   {
     "name": "Stalking Wolf Stance > Cancel",
     "input": "WLF b",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i8",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2457,32 +2616,36 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "After recovery, limited to blocking for 13 frames",
+      "Takes 8f to cancel into block"
     ]
   },
   {
     "name": "Stalking Wolf Stance > Heaven and Earth",
     "input": "in heat WLF U",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i8",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
     "alternateInputs": [
       "in heat WLF U"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      ""
+      "Increases Heaven and Earth level",
+      "Parries all highs or mids"
     ]
   },
   {
     "name": "Stalking Wolf Stance > Vacuity",
     "input": "WLF b,B",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i15",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2495,9 +2658,9 @@
     ]
   },
   {
-    "name": "Heaven and Earth",
+    "name": "Horse Stance > Heaven and Earth",
     "input": "in heat HRS U",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
     "startup": "",
     "block": "",
@@ -2510,10 +2673,10 @@
       "parry"
     ],
     "notes": [
+      "Parries all highs or mids",
       "Partially uses remaining Heat time",
       "Entering HAE increases Heaven and Earth level (carries over into next round)",
-      "Heat consumption is reduced the higher the level",
-      "Has a Strong Parry effect"
+      "Heat consumption is reduced the higher the level"
     ]
   },
   {
@@ -2530,18 +2693,20 @@
     ],
     "categories": [],
     "notes": [
+      "Spike",
       "Power up based on Heaven and Earth level",
-      "Chip damage on block"
+      "Chip damage on block",
+      "Guarantees grounded hit vs airborne opponent"
     ]
   },
   {
     "name": "Heaven's Sword: Wreath Puncture",
     "input": "HAE 2",
-    "hit_level": "mm",
+    "hit_level": "m,m",
     "damage": "10,26",
-    "startup": "i13,i20~21",
+    "startup": "i13, i20~21",
     "block": "+6",
-    "hit": "+14d",
+    "hit": "+14a",
     "counter": "",
     "alternateInputs": [
       "HAE 2"
@@ -2549,18 +2714,20 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Chip damage on block",
       "Power up based on Heaven and Earth level",
-      "Chip damage on block"
+      "+35a (-1) on hit with HAE level 3",
+      "2nd hit available on hit or block only"
     ]
   },
   {
     "name": "Heaven's Cannon: Crushing Defamation",
     "input": "HAE 1+2",
-    "hit_level": "ub(h)",
+    "hit_level": "h!",
     "damage": "35",
     "startup": "i16",
-    "block": "+0d",
-    "hit": "+0d",
+    "block": "",
+    "hit": "+0a",
     "counter": "",
     "alternateInputs": [
       "HAE 1+2"
@@ -2574,9 +2741,9 @@
   {
     "name": "Heaven and Earth",
     "input": "P HAE",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i16",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2586,32 +2753,39 @@
     "categories": [],
     "notes": [
       "Transition to HAE",
-      "partially restore remaining Heat time"
+      "Partially restore remaining Heat time"
     ]
   },
   {
     "name": "Scarlet Valor: Martial Devotion",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
-    "block": "",
-    "hit": "",
+    "block": "-15",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "in rage df+1+2"
     ],
     "categories": [],
     "notes": [
-      "Rage Art"
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
     "name": "Bow",
     "input": "1+3+4",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i20",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2626,9 +2800,9 @@
   {
     "name": "Ki Charge",
     "input": "1+2+3+4",
-    "hit_level": "sp",
+    "hit_level": "",
     "damage": "",
-    "startup": "i20",
+    "startup": "",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2637,7 +2811,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Can't block for 5 seconds",
+      "CH state for 5 seconds"
     ]
   },
   {
@@ -2646,7 +2821,7 @@
     "hit_level": "m",
     "damage": "18",
     "startup": "i18",
-    "block": "0",
+    "block": "+0c",
     "hit": "+5c",
     "counter": "+21d",
     "alternateInputs": [
@@ -2654,7 +2829,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike",
+      "Elbow"
     ]
   },
   {
@@ -2686,17 +2862,19 @@
     "alternateInputs": [
       "b+1+3"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
-      ""
+      "Parries high or mid punches"
     ]
   },
   {
     "name": "Law of the Land",
     "input": "P b+1+3",
-    "hit_level": "hhh",
+    "hit_level": "h,h,h",
     "damage": "5,5,20",
-    "startup": "i16,i16,i16",
+    "startup": "i16, i16, i16",
     "block": "",
     "hit": "+23a (+18)",
     "counter": "",
@@ -2705,23 +2883,24 @@
     ],
     "categories": [],
     "notes": [
-      "Input 2 at the right time to power up"
+      "Input 2 within a 2f window (15~16) on the second punch, adds 2 damage"
     ]
   },
   {
     "name": "Veto",
     "input": "OTG d+1+2",
     "hit_level": "L",
-    "damage": "19",
+    "damage": "24",
     "startup": "i18~19",
     "block": "-13",
-    "hit": "-2a (-10)",
+    "hit": "+6c",
     "counter": "",
     "alternateInputs": [
       "OTG d+1+2"
     ],
     "categories": [],
     "notes": [
+      "Spike",
       "Power up based on Heaven and Earth level",
       "Regain recoverable health"
     ]
@@ -2732,7 +2911,7 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
+    "block": "-3",
     "hit": "+4",
     "counter": "",
     "alternateInputs": [
@@ -2754,7 +2933,7 @@
     "hit_level": "t",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
+    "block": "-6",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -2766,9 +2945,10 @@
     ],
     "notes": [
       "Homing",
-      "Spike",
+      "Floor Break",
       "Throw break: 1 or 2",
-      "Opponent on hit: FUFA, sideswitch"
+      "Opponent on hit: FUFA",
+      "Side switch on hit"
     ]
   },
   {
@@ -2777,18 +2957,16 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12~14",
-    "block": "",
+    "block": "-3",
     "hit": "+4",
     "counter": "",
     "alternateInputs": [
       "Left throw"
     ],
     "categories": [
-      "throw",
-      "homing"
+      "throw"
     ],
     "notes": [
-      "Homing",
       "Throw break: 1",
       "Opponent on break: standing"
     ]
@@ -2799,21 +2977,20 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12~14",
-    "block": "",
+    "block": "-3",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "Right throw"
     ],
     "categories": [
-      "throw",
-      "homing"
+      "throw"
     ],
     "notes": [
-      "Homing",
-      "Spike",
+      "Floor Break",
       "Throw break: 2",
-      "Opponent on hit: FUFA, sideswitch"
+      "Opponent on hit: FUFA",
+      "Side switch on hit"
     ]
   },
   {
@@ -2844,7 +3021,7 @@
     "hit_level": "t",
     "damage": "40",
     "startup": "i12",
-    "block": "",
+    "block": "-6",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [

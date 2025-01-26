@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12 (12)",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -16,7 +16,11 @@
     ],
     "notes": [
       "Heat Burst",
-      "Cancel to r45 with b,b"
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -26,7 +30,7 @@
     "damage": "10,4,2,3,3,3,25",
     "startup": "i16",
     "block": "+8 LNH",
-    "hit": "0",
+    "hit": "+0",
     "counter": "",
     "alternateInputs": [
       "in heat 2+3"
@@ -38,10 +42,8 @@
       "Heat Smash",
       "Floor Break",
       "Spike",
-      "Chip damage on block",
-      "On block, transitions to LNH",
-      "Alternate input: H.FLK.2+3 or H.PAB.2+3",
-      "Can cancel LNH tansition with in heat 2+3~B"
+      "14 Chip Damage on block",
+      "Alternate input: H.FLK.2+3 or H.PAB.2+3"
     ]
   },
   {
@@ -66,7 +68,7 @@
     "name": "Two-Faced (TFA)",
     "input": "in heat EXD 1+3",
     "hit_level": "h (th)",
-    "damage": "0",
+    "damage": "",
     "startup": "i18",
     "block": "",
     "hit": "",
@@ -75,9 +77,11 @@
       "in heat EXD 1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Unbreakable",
       "Transitions to TFA"
     ]
@@ -109,7 +113,7 @@
     "hit_level": "th",
     "damage": "15",
     "startup": "i18",
-    "block": "0",
+    "block": "+0",
     "hit": "+14",
     "counter": "",
     "alternateInputs": [
@@ -129,7 +133,7 @@
     "hit_level": "th",
     "damage": "50",
     "startup": "i18",
-    "block": "0",
+    "block": "+0",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
@@ -158,8 +162,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash  (+5/+35d/-)",
-      "Can be performed from while standing state"
+      "Heat Dash  (+5/+35d/-)"
     ]
   },
   {
@@ -177,9 +180,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash (+5/+36a (+26)/-)",
+      "Heat Dash (+5/+36a (+26)/+36a (+26))",
       "Balcony Break",
-      "Input B to FLK (-3/+23a (+14)/-)"
+      "Input B to FLK (-3/+23a (+14)/+23a (+14))"
     ]
   },
   {
@@ -189,7 +192,7 @@
     "damage": "30",
     "startup": "i20~24",
     "block": "+6",
-    "hit": "+17",
+    "hit": "+10d",
     "counter": "",
     "alternateInputs": [
       "f,f,F+2"
@@ -200,7 +203,8 @@
       "Heat Dash (+5/+67a (+50)/-)",
       "Balcony Break",
       "Spike",
-      "Chip Damage On block"
+      "9 Chip Damage on block",
+      "12 Chip Damage on block while in heat"
     ]
   },
   {
@@ -220,6 +224,27 @@
       "Heat Engager",
       "Heat Dash (+5/+36a (+26)/-)",
       "Balcony Break"
+    ]
+  },
+  {
+    "name": "Vigilant Blow",
+    "input": "LNin heat 1",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i14-15",
+    "block": "-4",
+    "hit": "+9/HE",
+    "counter": "",
+    "alternateInputs": [
+      "LNin heat 1"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5g +43a(+35)",
+      "Homing"
     ]
   },
   {
@@ -244,7 +269,7 @@
     "input": "1,1",
     "hit_level": "h,h",
     "damage": "5,7",
-    "startup": "i10",
+    "startup": "i15",
     "block": "-3",
     "hit": "+3",
     "counter": "",
@@ -265,7 +290,7 @@
     "input": "1,d+1",
     "hit_level": "h,m",
     "damage": "5,15",
-    "startup": "i10",
+    "startup": "i25",
     "block": "-6",
     "hit": "+0",
     "counter": "+5",
@@ -282,7 +307,7 @@
     "input": "1,1,d+1",
     "hit_level": "h,h,m",
     "damage": "5,7,15",
-    "startup": "i10",
+    "startup": "i25",
     "block": "-6",
     "hit": "+0",
     "counter": "+5",
@@ -299,7 +324,7 @@
     "input": "1,1,2",
     "hit_level": "h,h,h",
     "damage": "5,7,15",
-    "startup": "i10",
+    "startup": "i13-14",
     "block": "-7",
     "hit": "+4",
     "counter": "",
@@ -308,7 +333,7 @@
     ],
     "categories": [],
     "notes": [
-      "NC from first hit",
+      "Combo from 1st hit",
       "Input 3 to LWV (-5/+6/+6)",
       "Input 4 to RWV (-5/+6/+6)",
       "Input b+3_4 SWY (-5/+6/+6)",
@@ -331,7 +356,8 @@
     "notes": [
       "Input 3 to LWV (-4/+7/+7)",
       "Input 4 to RWV (-4/+7/+7)",
-      "Input b+3_4 to SWY (-4/+7/+7)"
+      "Input b+3_4 to SWY (-4/+7/+7)",
+      "Input f+3_4 DCK (-2/+9/+9)"
     ]
   },
   {
@@ -339,7 +365,7 @@
     "input": "1,2,1",
     "hit_level": "h,h,h",
     "damage": "5,10,15",
-    "startup": "i10",
+    "startup": "i14",
     "block": "-3",
     "hit": "+3",
     "counter": "",
@@ -348,6 +374,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st CH or 2nd CH",
       "Input f to PAB (-2/+4/+4)",
       "Input b to FLK (-1/+5/+5)"
     ]
@@ -357,7 +384,7 @@
     "input": "1,2,1,2",
     "hit_level": "h,h,h,m",
     "damage": "5,10,15,15",
-    "startup": "i10",
+    "startup": "i18-19",
     "block": "-10",
     "hit": "+16a (+7)",
     "counter": "",
@@ -367,7 +394,11 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Input f+3_4 to DCK (-4/+22a (+13)/-)"
+      "Combo from 3rd CH",
+      "Transition to LWV with 3 (-6/+20a (+11)/+20a (+11))",
+      "Transition to RWV with 4 (-6/+20a (+11)/+20a (+11))",
+      "Transition to SWY with b+3_4 (-6/+20a (+11)/+20a (+11))",
+      "Input f+3_4 to DCK (-4/+22a (+13)/+22a (+13))"
     ]
   },
   {
@@ -375,7 +406,7 @@
     "input": "1,2,1,d+2",
     "hit_level": "h,h,h,l",
     "damage": "5,10,15,19",
-    "startup": "i10",
+    "startup": "i26-27",
     "block": "-12",
     "hit": "+1c",
     "counter": "+14d",
@@ -409,7 +440,7 @@
     "input": "2,1",
     "hit_level": "h,h",
     "damage": "12,14",
-    "startup": "i12",
+    "startup": "i19",
     "block": "-5",
     "hit": "+6",
     "counter": "",
@@ -418,6 +449,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Input f to PAB (+2/+13g/+13)",
       "Input b to FLK (+3/+14g/+14)"
     ]
@@ -427,7 +459,7 @@
     "input": "2,1,2",
     "hit_level": "h,h,m",
     "damage": "12,14,22",
-    "startup": "i12",
+    "startup": "i25",
     "block": "-11",
     "hit": "+13a (+4)",
     "counter": "",
@@ -436,15 +468,16 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Combo from 2nd CH"
     ]
   },
   {
     "name": "Cromwell Combination",
     "input": "2,2",
-    "hit_level": "h,h",
+    "hit_level": "h,m",
     "damage": "12,17",
-    "startup": "i12",
+    "startup": "i22-24",
     "block": "-14",
     "hit": "+6",
     "counter": "",
@@ -453,7 +486,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tornado"
     ]
   },
   {
@@ -496,7 +529,7 @@
     "input": "f+2,1",
     "hit_level": "m,h",
     "damage": "11,12",
-    "startup": "i21~22",
+    "startup": "i15",
     "block": "-5",
     "hit": "+1",
     "counter": "",
@@ -505,8 +538,9 @@
     ],
     "categories": [],
     "notes": [
-      "Input f to PAB (+0/+4/+4)",
-      "Input b to FLK (+1/+5/+5)"
+      "Combo from 1st hit",
+      "Input f to r15? PAB (+0/+4/+4)",
+      "Input b to r14? FLK (+1/+5/+5)"
     ]
   },
   {
@@ -514,7 +548,7 @@
     "input": "f+2,1~2",
     "hit_level": "m,m",
     "damage": "11,20",
-    "startup": "i21~22",
+    "startup": "i31",
     "block": "-10",
     "hit": "+36d (+28)",
     "counter": "",
@@ -530,43 +564,46 @@
     "name": "",
     "input": "f+2,2",
     "hit_level": "m,m",
-    "damage": "1115",
-    "startup": "i21~22",
+    "damage": "11,15",
+    "startup": "i16~17",
     "block": "-6",
-    "hit": "+11",
+    "hit": "+11g",
     "counter": "",
     "alternateInputs": [
       "f+2,2"
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Transistion to LNH",
-      "Can cancel LNH tansition with in heat f+2,2~B"
+      "Input b to cancel LNH r29? (-10/+7/+7)"
     ]
   },
   {
     "name": "Conqueror Combination",
     "input": "f+2,2,1+2",
     "hit_level": "m,m,m,m,m",
-    "damage": "1115,5,8,20",
-    "startup": "i21~22",
+    "damage": "11,15,5,8,20",
+    "startup": "i18~19, i7~8, i16",
     "block": "-12",
-    "hit": "+5",
+    "hit": "+5c",
     "counter": "",
     "alternateInputs": [
       "f+2,2,1+2"
     ],
     "categories": [],
     "notes": [
-      "Spike"
+      "Combo from 2nd CH",
+      "Spike",
+      "Floor Break"
     ]
   },
   {
     "name": "",
     "input": "f+1+2",
-    "hit_level": "m,m",
+    "hit_level": "m,h",
     "damage": "10,12",
-    "startup": "i15",
+    "startup": "i15~16, i7~9",
     "block": "-14",
     "hit": "-3",
     "counter": "",
@@ -575,15 +612,15 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Jails from 1st hit"
     ]
   },
   {
     "name": "Shotgun Combination",
     "input": "f+1+2,2",
-    "hit_level": "m,m,m",
-    "damage": "10,1220",
-    "startup": "i15",
+    "hit_level": "m,h,m",
+    "damage": "10,12,20",
+    "startup": "i18~19",
     "block": "-13",
     "hit": "+3d",
     "counter": "",
@@ -592,7 +629,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit"
     ]
   },
   {
@@ -602,7 +639,7 @@
     "damage": "12",
     "startup": "i13",
     "block": "-2",
-    "hit": "+4",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "df+1"
@@ -619,8 +656,8 @@
     "name": "Uppercut Cross Combo",
     "input": "df+1,2",
     "hit_level": "m,h",
-    "damage": "1213",
-    "startup": "i13",
+    "damage": "12,13",
+    "startup": "i19",
     "block": "-6",
     "hit": "+3",
     "counter": "+5",
@@ -629,18 +666,19 @@
     ],
     "categories": [],
     "notes": [
-      "Input 3 to LWV (-16/-9/-9)",
-      "Input 4 to RWV (-16/-9/-9)",
-      "Input b+3_4 to SWY (-16/-9/-9)",
-      "Input f+3_4 to DCK (-14/-7/-7)"
+      "Combo from 1st hit",
+      "Input 3 to cancel into r16? LWV (-16/-9/-9)",
+      "Input 4 to cancel into r16? RWV (-16/-9/-9)",
+      "Input b+3_4 to cancel into SWY (-16/-9/-9)",
+      "Input f+3_4 to cancel into DCK (-14/-7/-7)"
     ]
   },
   {
     "name": "Uppercut Psyche-out Hook",
     "input": "df+1,2~1",
     "hit_level": "m,h",
-    "damage": "1220",
-    "startup": "i13",
+    "damage": "12,20",
+    "startup": "i30~31",
     "block": "-2",
     "hit": "+2",
     "counter": "+61a",
@@ -649,15 +687,15 @@
     ],
     "categories": [],
     "notes": [
-      "Input b to FLK (+0/+4/+63a)"
+      "Input b to r14? FLK (+0/+4/+63a)"
     ]
   },
   {
     "name": "Uppercut Psyche-out Body",
     "input": "df+1,2~2",
     "hit_level": "m,m",
-    "damage": "1212",
-    "startup": "i13",
+    "damage": "12,12",
+    "startup": "i37",
     "block": "-10",
     "hit": "+36d (+28)",
     "counter": "",
@@ -666,8 +704,7 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
-      "Input b to FLK (+0/+4/+36d (+28))"
+      "Balcony Break"
     ]
   },
   {
@@ -675,16 +712,19 @@
     "input": "df+1,2~f+1+2",
     "hit_level": "m,h,h",
     "damage": "12,8,12",
-    "startup": "i13",
+    "startup": "i34, i9",
     "block": "-3",
     "hit": "+0",
-    "counter": "+61a",
+    "counter": "",
     "alternateInputs": [
       "df+1,2~f+1+2"
     ],
     "categories": [],
     "notes": [
-      "Input b to FLK (+0/+4/+63a)"
+      "Input 3 to LWV (-4/-1/-1)",
+      "Input 4 to RWV (-4/-1/-1)",
+      "Input b+3_4 to SWY (-4/-1/-1)",
+      "Input f+3_4 to DCK (-2/+1/+1)"
     ]
   },
   {
@@ -721,7 +761,7 @@
     ],
     "categories": [],
     "notes": [
-      "Recover in crouch"
+      ""
     ]
   },
   {
@@ -746,7 +786,7 @@
     "input": "d+2,1",
     "hit_level": "l,m",
     "damage": "11,8",
-    "startup": "i17",
+    "startup": "i14~15",
     "block": "-11",
     "hit": "-5",
     "counter": "+0",
@@ -755,10 +795,11 @@
     ],
     "categories": [],
     "notes": [
-      "Input 3 to LWV (-6/+0/+0)",
-      "Input 4 to RWV (-6/+0/+0)",
-      "Input b+3_4 to SWY (-6/+0/+0)",
-      "Input f+3_4 to DCK (-4/+2/+7)"
+      "Combo from 1st CH",
+      "Input 3 to cancel into LWV (-6/+0/+0)",
+      "Input 4 to cancel into RWV (-6/+0/+0)",
+      "Input b+3_4 to cancel into SWY (-6/+0/+0)",
+      "Input f+3_4 to cancel into DCK (-4/+2/+7)"
     ]
   },
   {
@@ -766,7 +807,7 @@
     "input": "d+2,1,2",
     "hit_level": "l,m,h",
     "damage": "11,8,17",
-    "startup": "i17",
+    "startup": "i24~25",
     "block": "-2",
     "hit": "+27a (+18)",
     "counter": "+56a",
@@ -775,14 +816,15 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Combo from 2nd CH"
     ]
   },
   {
     "name": "",
     "input": "db+1",
-    "hit_level": "sm",
-    "damage": "",
+    "hit_level": "sl",
+    "damage": "5",
     "startup": "i10",
     "block": "-5",
     "hit": "+6",
@@ -792,7 +834,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Transition to Standing with f"
     ]
   },
   {
@@ -834,7 +876,7 @@
     "input": "db+3,2",
     "hit_level": "l,h",
     "damage": "10,10",
-    "startup": "i16",
+    "startup": "i15~16",
     "block": "-6",
     "hit": "+8",
     "counter": "",
@@ -843,8 +885,10 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from first hit",
+      "-27 on block after blocking first hit",
       "Transition to LNH",
-      "Can cancel LNH tansition with db+3,2~B"
+      "Input b to cancel LNH (-31/-10/+4/+4)"
     ]
   },
   {
@@ -886,7 +930,7 @@
     "input": "b+1,2",
     "hit_level": "h,h",
     "damage": "10,17",
-    "startup": "i13",
+    "startup": "i17~18",
     "block": "+3",
     "hit": "+8",
     "counter": "",
@@ -898,8 +942,10 @@
     ],
     "notes": [
       "Homing",
+      "Strong Aerial Tailspin",
+      "Combo from 1st hit",
       "Transitions to LNH",
-      "Can cancel LNH tansition with b+1,2~B"
+      "Input b to cancel LNH (-1/+4/+4)"
     ]
   },
   {
@@ -907,7 +953,7 @@
     "input": "b+1,2~1",
     "hit_level": "h,m",
     "damage": "10,17",
-    "startup": "i13",
+    "startup": "i30~31",
     "block": "-8",
     "hit": "+4",
     "counter": "+63a",
@@ -924,7 +970,7 @@
     "input": "b+1,d+2",
     "hit_level": "h,l",
     "damage": "10,10",
-    "startup": "i13",
+    "startup": "i27~28",
     "block": "-11",
     "hit": "+0",
     "counter": "",
@@ -933,6 +979,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Input F to PAB (-9/+2/+2)"
     ]
   },
@@ -941,23 +988,24 @@
     "input": "b+1,d+2,1",
     "hit_level": "h,l,m",
     "damage": "10,10,10",
-    "startup": "i13",
+    "startup": "i25~27",
     "block": "-9",
-    "hit": "+35",
+    "hit": "+35a (+20a)",
     "counter": "",
     "alternateInputs": [
       "b+1,d+2,1"
     ],
     "categories": [],
     "notes": [
-      "Tornado"
+      "Tornado",
+      "Combo from 2nd CH"
     ]
   },
   {
     "name": "Body Bomb",
     "input": "b+2",
     "hit_level": "m",
-    "damage": "15",
+    "damage": "20",
     "startup": "i17",
     "block": "-13",
     "hit": "+14",
@@ -967,7 +1015,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Can evade highs"
     ]
   },
   {
@@ -990,7 +1038,7 @@
       "Homing",
       "Causes Strong Aerial Tailspin",
       "Transition into LNH",
-      "Input b to cancel LNH"
+      "Input b to cancel LNH (+3/+14/+14)"
     ]
   },
   {
@@ -998,7 +1046,7 @@
     "input": "ub+2~1",
     "hit_level": "m",
     "damage": "17",
-    "startup": "i30",
+    "startup": "i30~31",
     "block": "-8",
     "hit": "+4",
     "counter": "+63a",
@@ -1013,9 +1061,9 @@
   {
     "name": "Hellfire",
     "input": "ub+1+2",
-    "hit_level": "m",
+    "hit_level": "ub(m)",
     "damage": "70",
-    "startup": "i66",
+    "startup": "i66~69",
     "block": "+12a (+1)",
     "hit": "+12a (+1)",
     "counter": "",
@@ -1066,7 +1114,7 @@
     "input": "uf+3",
     "hit_level": "l",
     "damage": "20",
-    "startup": "i36",
+    "startup": "i36~37",
     "block": "-12",
     "hit": "+9",
     "counter": "",
@@ -1083,7 +1131,7 @@
     "input": "uf+3,2",
     "hit_level": "l,h",
     "damage": "20,10",
-    "startup": "i36",
+    "startup": "i15~16",
     "block": "-6",
     "hit": "+8",
     "counter": "",
@@ -1092,8 +1140,10 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
+      "-27 on block after blocking 1st hit",
       "Transition to LNH",
-      "Can cancel LNH tansition with uf+3,2~B"
+      "Input b to cancel LNH (-31/-10/+4/+4)"
     ]
   },
   {
@@ -1110,7 +1160,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony Break"
     ]
   },
   {
@@ -1145,9 +1195,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash (+5/+36a (+26)/-)",
+      "Heat Dash (+5/+36a (+26)/+36a (+26))",
       "Balcony Break",
-      "Input B to FLK (-3/+23a (+14)/-)"
+      "Input B to FLK (-3/+23a (+14)/+23a (+14))"
     ]
   },
   {
@@ -1157,7 +1207,7 @@
     "damage": "18",
     "startup": "i19",
     "block": "-18",
-    "hit": "+2",
+    "hit": "+2c",
     "counter": "",
     "alternateInputs": [
       "qcf+2"
@@ -1174,7 +1224,7 @@
     "damage": "30",
     "startup": "i20~24",
     "block": "+6",
-    "hit": "+17",
+    "hit": "+10d",
     "counter": "",
     "alternateInputs": [
       "f,f,F+2"
@@ -1185,7 +1235,8 @@
       "Heat Dash (+5/+67a (+50)/-)",
       "Balcony Break",
       "Spike",
-      "Chip Damage On block"
+      "9 Chip Damage on block",
+      "12 Chip Damage on block while in heat"
     ]
   },
   {
@@ -1210,7 +1261,7 @@
     "input": "FC df+2",
     "hit_level": "m",
     "damage": "20",
-    "startup": "i16~17",
+    "startup": "i16",
     "block": "-15",
     "hit": "+34a (+24)",
     "counter": "",
@@ -1219,7 +1270,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tornado"
     ]
   },
   {
@@ -1227,7 +1278,7 @@
     "input": "WS 1",
     "hit_level": "m",
     "damage": "12",
-    "startup": "i11",
+    "startup": "i11~12",
     "block": "-3",
     "hit": "+3",
     "counter": "+8",
@@ -1244,7 +1295,7 @@
     "input": "WS 1,1",
     "hit_level": "m,h",
     "damage": "12,7",
-    "startup": "i11",
+    "startup": "i15",
     "block": "-3",
     "hit": "+3",
     "counter": "",
@@ -1253,6 +1304,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Input 3 to LWV (-6/+0/+0)",
       "Input 4 to RWV (-6/+0/+0)",
       "Input b+3_4 to SWY (-6/+0/+0)",
@@ -1264,7 +1316,7 @@
     "input": "WS 1,2",
     "hit_level": "m,m",
     "damage": "12,20",
-    "startup": "i11",
+    "startup": "i13~14",
     "block": "-13",
     "hit": "+3c",
     "counter": "+23d",
@@ -1273,7 +1325,8 @@
     ],
     "categories": [],
     "notes": [
-      "Spike"
+      "Spike",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1281,7 +1334,7 @@
     "input": "WS 2",
     "hit_level": "m",
     "damage": "17",
-    "startup": "i13",
+    "startup": "i13~15",
     "block": "-7",
     "hit": "+4",
     "counter": "",
@@ -1301,7 +1354,7 @@
     "input": "WS 2,2",
     "hit_level": "m,m",
     "damage": "17,15",
-    "startup": "i13",
+    "startup": "i16~17",
     "block": "-6",
     "hit": "+11",
     "counter": "",
@@ -1310,8 +1363,27 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Transition to LNH",
-      "Can cancel LNH tansition with WS 2,2~B"
+      "Input b to cancel LNH (-10/+7/+7)"
+    ]
+  },
+  {
+    "name": "Sonic Fang",
+    "input": "WS 1+2",
+    "hit_level": "m,m",
+    "damage": "7,21",
+    "startup": "i14, i9-10",
+    "block": "-12",
+    "hit": "+18a (+11)",
+    "counter": "",
+    "alternateInputs": [
+      "WS 1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash  (+5/+35d/-)"
     ]
   },
   {
@@ -1345,7 +1417,7 @@
     ],
     "categories": [],
     "notes": [
-      "Input b to FLK (-3/+8/+8)"
+      "Input b to r18? FLK (-3/+8/+8)"
     ]
   },
   {
@@ -1353,7 +1425,7 @@
     "input": "LWV 1,1",
     "hit_level": "m,m",
     "damage": "14,22",
-    "startup": "i15",
+    "startup": "i24~26",
     "block": "-13",
     "hit": "+28a (+19)",
     "counter": "",
@@ -1362,7 +1434,9 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Strong Aerial Tailspin",
+      "Balcony Break",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1370,7 +1444,7 @@
     "input": "LWV 1,f+1",
     "hit_level": "m,m",
     "damage": "14,9",
-    "startup": "i15",
+    "startup": "i17",
     "block": "-3",
     "hit": "+3",
     "counter": "",
@@ -1379,7 +1453,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1387,7 +1461,7 @@
     "input": "LWV 1,f+1,1",
     "hit_level": "m,m,h",
     "damage": "14,9,8",
-    "startup": "i15",
+    "startup": "i16",
     "block": "+3",
     "hit": "+7",
     "counter": "+68a",
@@ -1396,7 +1470,8 @@
     ],
     "categories": [],
     "notes": [
-      "Input b to FLK (+4/+3/+68a)"
+      "Combo from 1st or 2nd hit",
+      "Input b to r14? FLK (+4/+3/+68a)"
     ]
   },
   {
@@ -1404,7 +1479,7 @@
     "input": "LWV 1,2",
     "hit_level": "m,h",
     "damage": "14,14",
-    "startup": "i15",
+    "startup": "i22~23",
     "block": "+3",
     "hit": "+8",
     "counter": "",
@@ -1417,8 +1492,9 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Homing",
+      "Combo from 1st hit",
       "Transition to LNH",
-      "Can cancel LNH tansition with LWV 1,2~B"
+      "Input b to cancel LNH (-1/+4/+4)"
     ]
   },
   {
@@ -1426,7 +1502,7 @@
     "input": "LWV 1,2~1",
     "hit_level": "m,m",
     "damage": "14,17",
-    "startup": "i15",
+    "startup": "i30~31",
     "block": "-8",
     "hit": "+4",
     "counter": "+63a",
@@ -1460,7 +1536,7 @@
     "input": "LWV 2,1",
     "hit_level": "m,m",
     "damage": "13,21",
-    "startup": "i14~16",
+    "startup": "i19",
     "block": "-8",
     "hit": "+4c",
     "counter": "+7d",
@@ -1470,7 +1546,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Input f into PAB (-1/+8/+8)"
+      "Combo from 1st CH"
     ]
   },
   {
@@ -1510,9 +1586,9 @@
   {
     "name": "Hawk Swoop Combo",
     "input": "RWV 1,2",
-    "hit_level": "m,h(?)",
+    "hit_level": "m,h",
     "damage": "13,17",
-    "startup": "i14~16",
+    "startup": "i22~23",
     "block": "+3",
     "hit": "+8",
     "counter": "",
@@ -1525,16 +1601,17 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Homing",
+      "Combo from 1st hit",
       "Transition into LNH",
-      "Can cancel LNH tansition with RWV 1,2~B"
+      "Input b to cancel LNH (-1/+4/+4)"
     ]
   },
   {
     "name": "Swindler",
     "input": "RWV 1,2~1",
     "hit_level": "m,m",
-    "damage": "13,?",
-    "startup": "i14~16",
+    "damage": "13,17",
+    "startup": "i30~31",
     "block": "-8",
     "hit": "+4",
     "counter": "+63a",
@@ -1560,12 +1637,12 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony Break"
     ]
   },
   {
-    "name": "Swaying",
-    "input": "b+3",
+    "name": "Flicker Stance",
+    "input": "b+3_4",
     "hit_level": "sp",
     "damage": "",
     "startup": "",
@@ -1573,7 +1650,7 @@
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "b+3"
+      "b+3_4"
     ],
     "categories": [],
     "notes": [
@@ -1588,16 +1665,16 @@
     "input": "SWY 1",
     "hit_level": "m",
     "damage": "26",
-    "startup": "i16",
+    "startup": "i16~17",
     "block": "-1c",
-    "hit": "+14",
+    "hit": "+14c",
     "counter": "",
     "alternateInputs": [
       "SWY 1"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Can be +15c at farther ranges"
     ]
   },
   {
@@ -1605,7 +1682,7 @@
     "input": "SWY 2",
     "hit_level": "m",
     "damage": "30",
-    "startup": "i17",
+    "startup": "i17~18",
     "block": "-18",
     "hit": "+36a",
     "counter": "",
@@ -1622,9 +1699,9 @@
     "input": "SWY 1+2",
     "hit_level": "th",
     "damage": "",
-    "startup": "i10",
+    "startup": "i10~15",
     "block": "-2",
-    "hit": "+1 / +10wc",
+    "hit": "+1 / +10~17wc",
     "counter": "",
     "alternateInputs": [
       "SWY 1+2"
@@ -1634,6 +1711,7 @@
     ],
     "notes": [
       "+10 when opponent hits the wall, if the throw is successful",
+      "Frame advantage on wall crush increases up to +17 the further the opponent is from the wall",
       "Throw break 1+2"
     ]
   },
@@ -1642,7 +1720,7 @@
     "input": "SWY 1+2~b_u_d",
     "hit_level": "th",
     "damage": "",
-    "startup": "i10",
+    "startup": "i10~15",
     "block": "-2",
     "hit": "+1 / +13~17wc",
     "counter": "",
@@ -1655,6 +1733,7 @@
     "notes": [
       "+13 when opponent hits the wall after being rotated by < 90 degrees",
       "+17 when opponent hits the wall after being rotated by > 90 degrees",
+      "Frame advantage on wall crush increases up to +17 the further the opponent is from the wall",
       "Throw break 1+2"
     ]
   },
@@ -1743,7 +1822,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony Break"
     ]
   },
   {
@@ -1760,7 +1839,7 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      ""
     ]
   },
   {
@@ -1825,7 +1904,7 @@
     "hit_level": "h",
     "damage": "21",
     "startup": "i15",
-    "block": "-3",
+    "block": "-7",
     "hit": "+9d",
     "counter": "+49a",
     "alternateInputs": [
@@ -1844,7 +1923,7 @@
     "input": "DCK 1+2",
     "hit_level": "m,m",
     "damage": "3,3",
-    "startup": "i16",
+    "startup": "i16, i7",
     "block": "-9",
     "hit": "+2",
     "counter": "",
@@ -1861,7 +1940,7 @@
     "input": "DCK 1+2,1+2",
     "hit_level": "m,m,m,m",
     "damage": "3,3,3,3",
-    "startup": "i16",
+    "startup": "i5, i2",
     "block": "-9",
     "hit": "+2",
     "counter": "",
@@ -1870,7 +1949,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1878,7 +1957,7 @@
     "input": "DCK 1+2,1+2,1+2",
     "hit_level": "m,m,m,m,m,m",
     "damage": "3,3,3,3,2,2",
-    "startup": "i16",
+    "startup": "i5, i2",
     "block": "-9",
     "hit": "+2",
     "counter": "",
@@ -1887,7 +1966,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1895,7 +1974,7 @@
     "input": "DCK 1+2,1+2,1+2,1+2",
     "hit_level": "m,m,m,m,m,m,m,m",
     "damage": "3,3,3,3,2,2,2,12",
-    "startup": "i16",
+    "startup": "i7, i9",
     "block": "-12",
     "hit": "+32a (+22)",
     "counter": "",
@@ -1904,7 +1983,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit"
     ]
   },
   {
@@ -1912,7 +1991,7 @@
     "input": "DCK f+3_4",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i16",
+    "startup": "i7, i9",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2001,7 +2080,7 @@
     "input": "PAB 1",
     "hit_level": "h",
     "damage": "10",
-    "startup": "i12",
+    "startup": "i12~13",
     "block": "-2",
     "hit": "+9",
     "counter": "",
@@ -2010,15 +2089,15 @@
     ],
     "categories": [],
     "notes": [
-      "Remains in PAB"
+      ""
     ]
   },
   {
     "name": "",
     "input": "PAB 1,2",
     "hit_level": "h,h",
-    "damage": "1014",
-    "startup": "i12",
+    "damage": "10,14",
+    "startup": "i15~16",
     "block": "+0",
     "hit": "+8",
     "counter": "",
@@ -2027,17 +2106,17 @@
     ],
     "categories": [],
     "notes": [
-      "Remains in PAB"
+      "Combo from 1st"
     ]
   },
   {
     "name": "Albion Combination",
     "input": "PAB 1,2,1",
     "hit_level": "h,h,m",
-    "damage": "101421",
-    "startup": "i12",
+    "damage": "10,14,21",
+    "startup": "i18~20",
     "block": "-13",
-    "hit": "+8",
+    "hit": "+8c",
     "counter": "+44a",
     "alternateInputs": [
       "PAB 1,2,1"
@@ -2045,13 +2124,13 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Remains in PAB"
+      "Combo from 2nd CH"
     ]
   },
   {
     "name": "Spite Hook",
     "input": "PAB 2",
-    "hit_level": ",h",
+    "hit_level": "h",
     "damage": "19",
     "startup": "i14",
     "block": "-3",
@@ -2065,9 +2144,9 @@
       "homing"
     ],
     "notes": [
-      "Remains in PAB",
+      "Homing",
       "Punch parry",
-      "Homing"
+      "+0d and 25 damage on a successful parry"
     ]
   },
   {
@@ -2094,7 +2173,7 @@
     "input": "PAB f+2",
     "hit_level": "m",
     "damage": "18",
-    "startup": "i18",
+    "startup": "i18~19",
     "block": "-13",
     "hit": "+31a (+16)",
     "counter": "",
@@ -2103,15 +2182,15 @@
     ],
     "categories": [],
     "notes": [
-      "Remains in PAB"
+      ""
     ]
   },
   {
     "name": "Straight Punch Combination",
     "input": "PAB f+2,1",
     "hit_level": "m,m",
-    "damage": "1824",
-    "startup": "i18",
+    "damage": "18,24",
+    "startup": "i34~35",
     "block": "+1",
     "hit": "+24a (+14)",
     "counter": "",
@@ -2121,7 +2200,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Interruptible by i13 move"
+      "Combo from 1st hit",
+      "Interruptible by i16 or faster moves"
     ]
   },
   {
@@ -2129,7 +2209,7 @@
     "input": "PAB f+1+2",
     "hit_level": "h,h",
     "damage": "12,23",
-    "startup": "i12",
+    "startup": "i12, i15~16",
     "block": "-5",
     "hit": "+24a (+15)",
     "counter": "",
@@ -2138,7 +2218,8 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -2146,7 +2227,7 @@
     "input": "PAB df+1",
     "hit_level": "m",
     "damage": "12",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-9",
     "hit": "+2",
     "counter": "",
@@ -2155,15 +2236,15 @@
     ],
     "categories": [],
     "notes": [
-      "Remains in PAB"
+      ""
     ]
   },
   {
     "name": "",
     "input": "PAB df+1,1",
     "hit_level": "m,m",
-    "damage": "1214",
-    "startup": "i15",
+    "damage": "12,14",
+    "startup": "i19~20",
     "block": "-10",
     "hit": "+1",
     "counter": "",
@@ -2172,15 +2253,15 @@
     ],
     "categories": [],
     "notes": [
-      "Remains in PAB"
+      "Combo from 1st hit"
     ]
   },
   {
     "name": "",
     "input": "PAB df+1,1,2",
     "hit_level": "m,m,m",
-    "damage": "121412",
-    "startup": "i15",
+    "damage": "12,14,12",
+    "startup": "i22",
     "block": "-11",
     "hit": "-3",
     "counter": "",
@@ -2189,15 +2270,15 @@
     ],
     "categories": [],
     "notes": [
-      "Remains in PAB"
+      "Combo from 2nd CH"
     ]
   },
   {
     "name": "Argos Rush",
     "input": "PAB df+1,1,2,1",
     "hit_level": "m,m,m,m",
-    "damage": "121412,20",
-    "startup": "i15",
+    "damage": "12,14,12,20",
+    "startup": "i16",
     "block": "-13",
     "hit": "+17d",
     "counter": "",
@@ -2206,15 +2287,16 @@
     ],
     "categories": [],
     "notes": [
-      "Spike"
+      "Spike",
+      "Combo from 3rd hit"
     ]
   },
   {
     "name": "Cross Cut",
     "input": "PAB df+1,2",
-    "hit_level": "m,m,h",
-    "damage": "1220",
-    "startup": "i15",
+    "hit_level": "m,h",
+    "damage": "12,20",
+    "startup": "i18-19",
     "block": "-6",
     "hit": "+10",
     "counter": "",
@@ -2223,7 +2305,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Wall Crush +18g on hit",
+      "Combo from 1st hit",
+      "6 Chip Damage on block",
+      "8 Chip Damage on block in heat"
     ]
   },
   {
@@ -2231,7 +2316,7 @@
     "input": "PAB df+2",
     "hit_level": "m",
     "damage": "16",
-    "startup": "i16",
+    "startup": "i16~17",
     "block": "-10",
     "hit": "+31a (+21)",
     "counter": "",
@@ -2240,8 +2325,7 @@
     ],
     "categories": [],
     "notes": [
-      "Elbow",
-      "Remains in PAB"
+      "Elbow"
     ]
   },
   {
@@ -2249,7 +2333,7 @@
     "input": "PAB d+1",
     "hit_level": "l",
     "damage": "11",
-    "startup": "i15",
+    "startup": "i15~16",
     "block": "-12",
     "hit": "+2",
     "counter": "",
@@ -2258,7 +2342,6 @@
     ],
     "categories": [],
     "notes": [
-      "Remains in PAB",
       "Alternate input: FC df1"
     ]
   },
@@ -2267,7 +2350,7 @@
     "input": "PAB d+2",
     "hit_level": "l",
     "damage": "25",
-    "startup": "i28",
+    "startup": "i28~29",
     "block": "-12",
     "hit": "+7",
     "counter": "+32a",
@@ -2276,7 +2359,7 @@
     ],
     "categories": [],
     "notes": [
-      "Hold D to FC"
+      "Transition to FC with D"
     ]
   },
   {
@@ -2284,7 +2367,7 @@
     "input": "PAB b+1",
     "hit_level": "m",
     "damage": "15",
-    "startup": "i17",
+    "startup": "i17~18",
     "block": "-19",
     "hit": "-6",
     "counter": "",
@@ -2301,7 +2384,7 @@
     "input": "PAB b+1,1",
     "hit_level": "m,h",
     "damage": "15,10",
-    "startup": "i17",
+    "startup": "i18~19",
     "block": "-7",
     "hit": "-1",
     "counter": "",
@@ -2310,7 +2393,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st hit"
     ]
   },
   {
@@ -2318,7 +2401,7 @@
     "input": "PAB b+1,1,2",
     "hit_level": "m,h,m",
     "damage": "15,10,12",
-    "startup": "i17",
+    "startup": "i18~20",
     "block": "-11",
     "hit": "-5",
     "counter": "",
@@ -2327,7 +2410,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 2nd CH"
     ]
   },
   {
@@ -2335,7 +2418,7 @@
     "input": "PAB b+1,1,2,1",
     "hit_level": "m,h,m,m",
     "damage": "15,10,12,21",
-    "startup": "i17",
+    "startup": "i21",
     "block": "-10",
     "hit": "+16a (+7)",
     "counter": "",
@@ -2345,6 +2428,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Combo from 3rd hit",
       "Input b to FLK (-3/+23a (+14)/-)"
     ]
   },
@@ -2353,7 +2437,7 @@
     "input": "PAB b+2",
     "hit_level": "m",
     "damage": "25",
-    "startup": "i28",
+    "startup": "i28~29",
     "block": "-13",
     "hit": "+11a (+2)",
     "counter": "",
@@ -2371,21 +2455,21 @@
     "input": "PAB uf+2",
     "hit_level": "m",
     "damage": "23",
-    "startup": "i17",
+    "startup": "i17~19",
     "block": "-15",
-    "hit": "+34a (+24)",
+    "hit": "+34a (+24",
     "counter": "",
     "alternateInputs": [
       "PAB uf+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tornado"
     ]
   },
   {
     "name": "Flicker Stance",
-    "input": "b+3_4",
+    "input": "b+3+4",
     "hit_level": "sp",
     "damage": "",
     "startup": "",
@@ -2393,12 +2477,13 @@
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "b+3_4"
+      "b+3+4"
     ],
     "categories": [],
     "notes": [
       "Transition to FLK",
-      "Auto blocks high and mid"
+      "Auto blocks high and mid",
+      "Can perform an i5? cancel to r35? LWV/RWV with input 3 or 4"
     ]
   },
   {
@@ -2424,7 +2509,7 @@
     "input": "FLK 1,1",
     "hit_level": "h,h",
     "damage": "14,8",
-    "startup": "i12",
+    "startup": "i15",
     "block": "-9",
     "hit": "+0",
     "counter": "",
@@ -2433,6 +2518,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st CH",
       "Input b to stay in FLK (-4/+5/+5)",
       "Input 3+4 to ALB (+17g/+28g/+28)"
     ]
@@ -2442,7 +2528,7 @@
     "input": "FLK 1,1,1",
     "hit_level": "h,h,h",
     "damage": "14,8,8",
-    "startup": "i12",
+    "startup": "i15",
     "block": "-9",
     "hit": "+0",
     "counter": "",
@@ -2451,8 +2537,44 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 2nd CH",
       "Input b to stay in FLK (-4/+5/+5)",
       "Input 3+4 to ALB (+17g/+28g/+28)"
+    ]
+  },
+  {
+    "name": "Spiteful Combination",
+    "input": "FLK 1,1,1,2",
+    "hit_level": "h,h,h,m",
+    "damage": "14,8,8,22",
+    "startup": "i20~22",
+    "block": "-12",
+    "hit": "+17a (+0)",
+    "counter": "",
+    "alternateInputs": [
+      "FLK 1,1,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 3rd hit"
+    ]
+  },
+  {
+    "name": "",
+    "input": "FLK 1,1,2",
+    "hit_level": "h,h,m",
+    "damage": "14,8,22",
+    "startup": "i20~22",
+    "block": "-12",
+    "hit": "+17a (+0)",
+    "counter": "",
+    "alternateInputs": [
+      "FLK 1,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH",
+      "Same hit as (FLK.1,1,1),2"
     ]
   },
   {
@@ -2460,7 +2582,7 @@
     "input": "FLK 1,1,f+1",
     "hit_level": "h,h,m",
     "damage": "14,8,17",
-    "startup": "i12",
+    "startup": "i15",
     "block": "-5",
     "hit": "+0",
     "counter": "+10d",
@@ -2470,6 +2592,7 @@
     "categories": [],
     "notes": [
       "Spike",
+      "Combo from 2nd CH",
       "Same hit as (FLK.1),f+1"
     ]
   },
@@ -2478,7 +2601,7 @@
     "input": "FLK 1,1,d+1",
     "hit_level": "h,h,h",
     "damage": "14,8,23",
-    "startup": "i12",
+    "startup": "i15~17",
     "block": "+0",
     "hit": "+18g",
     "counter": "+42a",
@@ -2487,6 +2610,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 2nd CH",
       "Same hit as (FLK.1),d+1"
     ]
   },
@@ -2495,7 +2619,7 @@
     "input": "FLK 1,2",
     "hit_level": "h,m",
     "damage": "14,22",
-    "startup": "i12",
+    "startup": "i20~22",
     "block": "-12",
     "hit": "+17a (+0)",
     "counter": "",
@@ -2504,41 +2628,8 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st CH",
       "Same hit as (FLK.1,1,1),2"
-    ]
-  },
-  {
-    "name": "",
-    "input": "FLK 1,1,2",
-    "hit_level": "h,h,m",
-    "damage": "14,8,22",
-    "startup": "i12",
-    "block": "-12",
-    "hit": "+17a (+0)",
-    "counter": "",
-    "alternateInputs": [
-      "FLK 1,1,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Same hit as (FLK.1,1,1),2"
-    ]
-  },
-  {
-    "name": "Spiteful Combination",
-    "input": "FLK 1,1,1,2",
-    "hit_level": "h,h,h,m",
-    "damage": "14,8,8",
-    "startup": "i12",
-    "block": "-12",
-    "hit": "+17a (+0)",
-    "counter": "",
-    "alternateInputs": [
-      "FLK 1,1,1,2"
-    ],
-    "categories": [],
-    "notes": [
-      ""
     ]
   },
   {
@@ -2546,7 +2637,7 @@
     "input": "FLK 1,f+1",
     "hit_level": "h,m",
     "damage": "14,17",
-    "startup": "i12",
+    "startup": "i15",
     "block": "-5",
     "hit": "+0",
     "counter": "+10d",
@@ -2555,7 +2646,8 @@
     ],
     "categories": [],
     "notes": [
-      "Spike"
+      "Spike",
+      "Combo from 1st CH"
     ]
   },
   {
@@ -2563,7 +2655,7 @@
     "input": "FLK 1,d+1",
     "hit_level": "h,h",
     "damage": "14,23",
-    "startup": "i12",
+    "startup": "i15~17",
     "block": "+0",
     "hit": "+18g",
     "counter": "+42a",
@@ -2572,7 +2664,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st CH"
     ]
   },
   {
@@ -2580,7 +2672,7 @@
     "input": "FLK 2",
     "hit_level": "m",
     "damage": "21",
-    "startup": "i18",
+    "startup": "i18~19",
     "block": "-5c",
     "hit": "+7d",
     "counter": "+42a",
@@ -2597,7 +2689,7 @@
     "input": "FLK b+2",
     "hit_level": "h",
     "damage": "21",
-    "startup": "i14",
+    "startup": "i14~15",
     "block": "-9",
     "hit": "+35d (+27)",
     "counter": "",
@@ -2615,7 +2707,7 @@
     "input": "FLK 1+2",
     "hit_level": "th",
     "damage": "40",
-    "startup": "i12",
+    "startup": "i12~14",
     "block": "-6",
     "hit": "+0d",
     "counter": "",
@@ -2653,7 +2745,7 @@
   },
   {
     "name": "Vigilant Blow",
-    "input": "LNH 1",
+    "input": "LNin heat 1",
     "hit_level": "m",
     "damage": "21",
     "startup": "i14-15",
@@ -2661,7 +2753,7 @@
     "hit": "+9/HE",
     "counter": "",
     "alternateInputs": [
-      "LNH 1"
+      "LNin heat 1"
     ],
     "categories": [
       "homing"
@@ -2674,7 +2766,7 @@
   },
   {
     "name": "Bloodhound",
-    "input": "LNH 2",
+    "input": "LNin heat 2",
     "hit_level": "m",
     "damage": "22",
     "startup": "i16-17",
@@ -2682,7 +2774,7 @@
     "hit": "+61a (+51)",
     "counter": "",
     "alternateInputs": [
-      "LNH 2"
+      "LNin heat 2"
     ],
     "categories": [],
     "notes": [
@@ -2691,22 +2783,22 @@
   },
   {
     "name": "Swingfire Advance",
-    "input": "LNH 1+2",
+    "input": "LNin heat 1+2",
     "hit_level": "h",
     "damage": "24",
     "startup": "i18-19",
     "block": "+12",
-    "hit": "+6a(-3)",
+    "hit": "+51a (+31)",
     "counter": "",
     "alternateInputs": [
-      "LNH 1+2"
+      "LNin heat 1+2"
     ],
     "categories": [],
     "notes": [
       "Guard Break",
+      "Reversal Break",
       "Balcony Break",
-      "Chip damage on block",
-      "Reversal break"
+      "Chip damage on block"
     ]
   },
   {
@@ -2733,14 +2825,55 @@
   {
     "name": "Dear Land of Hope",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "",
-    "startup": "",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
     "block": "-15",
-    "hit": "",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "in rage df+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ]
+  },
+  {
+    "name": "Taunt",
+    "input": "1+2+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "Ki Charge",
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2+3+4"
     ],
     "categories": [],
     "notes": [
@@ -2790,16 +2923,18 @@
     "hit_level": "throw",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
+    "block": "-6",
     "hit": "",
     "counter": "",
     "alternateInputs": [
       "1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2"
     ]
   },
@@ -2809,16 +2944,18 @@
     "hit_level": "throw",
     "damage": "35",
     "startup": "i12~14",
-    "block": "",
+    "block": "-3",
     "hit": "",
     "counter": "",
     "alternateInputs": [
       "2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Floor Break",
       "Throw break 1 or 2"
     ]
@@ -2886,7 +3023,7 @@
     "hit_level": "throw",
     "damage": "40",
     "startup": "i12",
-    "block": "",
+    "block": "+0",
     "hit": "",
     "counter": "",
     "alternateInputs": [
@@ -2905,7 +3042,7 @@
     "hit_level": "throw",
     "damage": "40",
     "startup": "i12",
-    "block": "",
+    "block": "-2",
     "hit": "",
     "counter": "",
     "alternateInputs": [

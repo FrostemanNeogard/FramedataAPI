@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12 (12)",
+    "damage": "(12)",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -35,7 +35,8 @@
     ],
     "notes": [
       "Heat Smash",
-      "Balcony Break "
+      "Balcony Break",
+      "Chip damage on block (19)"
     ]
   },
   {
@@ -75,7 +76,7 @@
       "Heat Dash +5, +36a(+26)",
       "Balcony Break",
       "Wall crush",
-      "Chip damage on block"
+      "Chip damage on block (16)"
     ]
   },
   {
@@ -102,8 +103,8 @@
     "input": "GMH 4",
     "hit_level": "h",
     "damage": "30",
-    "startup": "i14",
-    "block": "+3",
+    "startup": "i14~18",
+    "block": "+4",
     "hit": "+21d (+11)",
     "counter": "",
     "alternateInputs": [
@@ -114,7 +115,7 @@
       "Heat Engager",
       "Heat Dash +5, +36a(+26)",
       "Balcony Break",
-      "Chip damage on block"
+      "Chip damage on block (9)"
     ]
   },
   {
@@ -122,7 +123,7 @@
     "input": "GMH 3+4",
     "hit_level": "sm",
     "damage": "20",
-    "startup": "i20",
+    "startup": "i20 pc6",
     "block": "-13",
     "hit": "+40d (-18)",
     "counter": "",
@@ -135,7 +136,7 @@
     "notes": [
       "Heat Engager",
       "Heat Dash +5, +36a(+26)",
-      "Chip damage on block when absorbing an attack"
+      "Chip damage on block when absorbing an attack (6)"
     ]
   },
   {
@@ -144,7 +145,7 @@
     "hit_level": "t",
     "damage": "25",
     "startup": "i12",
-    "block": "",
+    "block": "!",
     "hit": "+6d",
     "counter": "",
     "alternateInputs": [
@@ -157,6 +158,7 @@
       "Heat Engager",
       "Cannot cancel into Heat Dash",
       "Crouch Throw (Unbreakable)",
+      "Can be done from crouch",
       "Alternate input GMH.2+4"
     ]
   },
@@ -165,7 +167,7 @@
     "input": "3+4",
     "hit_level": "",
     "damage": "",
-    "startup": "",
+    "startup": "pc7",
     "block": "",
     "hit": "",
     "counter": "",
@@ -177,9 +179,9 @@
     ],
     "notes": [
       "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge",
+      "Powercrush active from 7f to 22f",
       "Recover Heat and recoverable health when absorbing an attack",
-      "Gamma Charge is always",
-      "in effect during Heat",
+      "Gamma Charge is always in effect during Heat",
       "Alternate input: ws3+4"
     ]
   },
@@ -201,15 +203,15 @@
     "notes": [
       "Homing",
       "Partially uses remaining Heat time",
-      "Chip damage on block "
+      "Chip damage on block (4) "
     ]
   },
   {
     "name": "Exaton Blast - Gamma",
     "input": "GMC 2",
     "hit_level": "h",
-    "damage": "22",
-    "startup": "i20",
+    "damage": "42",
+    "startup": "i20 pc1",
     "block": "+11",
     "hit": "+31a (+5)",
     "counter": "",
@@ -222,28 +224,7 @@
       "Guard Break",
       "Balcony Break",
       "Partially uses remaining Heat time",
-      "Chip damage on block "
-    ]
-  },
-  {
-    "name": "Terraforming Cannon",
-    "input": "in rage df+1+2",
-    "hit_level": "m,t",
-    "damage": "55+",
-    "startup": "i20",
-    "block": "-15",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "in rage df+1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Rage Art",
-      "Damage increases with lower health",
-      "Erases opponent's recoverable health on hit"
+      "Chip damage on block (4) "
     ]
   },
   {
@@ -280,7 +261,7 @@
       "Elbow",
       "Combos from 1st hit",
       "Transition to GMH with D",
-      "(+4c oB, +8c oH, +16d) "
+      "(+4 oB, +8c oH, +16d cH) "
     ]
   },
   {
@@ -314,7 +295,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t29 r18)"
     ]
   },
   {
@@ -384,7 +365,42 @@
     "categories": [],
     "notes": [
       "Knee",
+      "Combo from 1st hit",
       "2nd hit Balcony Break on CH "
+    ]
+  },
+  {
+    "name": "Left Kick",
+    "input": "3",
+    "hit_level": "h",
+    "damage": "30",
+    "startup": "i18",
+    "block": "-14",
+    "hit": "+18d (+8)",
+    "counter": "",
+    "alternateInputs": [
+      "3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
+    ]
+  },
+  {
+    "name": "Right Kick",
+    "input": "4",
+    "hit_level": "h",
+    "damage": "18",
+    "startup": "i16",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "+32d (+22)",
+    "alternateInputs": [
+      "4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break on CH"
     ]
   },
   {
@@ -413,7 +429,7 @@
     "input": "3+4",
     "hit_level": "",
     "damage": "",
-    "startup": "",
+    "startup": "pc7",
     "block": "",
     "hit": "",
     "counter": "",
@@ -425,9 +441,9 @@
     ],
     "notes": [
       "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge",
+      "Powercrush active from 7f to 22f",
       "Recover Heat and recoverable health when absorbing an attack",
-      "Gamma Charge is always",
-      "in effect during Heat",
+      "Gamma Charge is always in effect during Heat",
       "Alternate input: ws3+4"
     ]
   },
@@ -445,15 +461,15 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input hcf+1",
-      "1+4 can be held for up to 5 spins (or multiple 360 motions)"
+      "Alternate input hcf",
+      "Can be held for up to 5 spins"
     ]
   },
   {
     "name": "Gigaton Punch",
     "input": "1+4,1",
     "hit_level": "m",
-    "damage": "25 (30)",
+    "damage": "25",
     "startup": "i17(43~)",
     "block": "+21g",
     "hit": "+7a (-2)",
@@ -464,8 +480,9 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block",
-      "Alternate input hcf+1 to do 5 more damage"
+      "Alternate input hcf,1 to power up",
+      "Chip damage on block (7)",
+      " "
     ]
   },
   {
@@ -491,7 +508,7 @@
     "input": "1+4,df+1",
     "hit_level": "m",
     "damage": "21",
-    "startup": "i21(41~)",
+    "startup": "i20~23",
     "block": "-17",
     "hit": "+52a (+42)",
     "counter": "",
@@ -501,15 +518,16 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Alternate input hcf,df+1Sometimes written one"
+      "Non just frame version of 1+4:df+1",
+      "Alternate input hcf,df+1 to power up"
     ]
   },
   {
     "name": "Prime Windup Uppercut",
     "input": "1+4:df+1",
     "hit_level": "m",
-    "damage": "36",
-    "startup": "i21(41~)",
+    "damage": "30",
+    "startup": "i20~23",
     "block": "-17",
     "hit": "+66a (+50)",
     "counter": "",
@@ -518,10 +536,10 @@
     ],
     "categories": [],
     "notes": [
-      "Just Frame version of 1+4,df+1 (hcf,df+1)",
       "Tornado",
       "Instant Tornado",
-      "Alternate input hcf:df+1Sometimes written one"
+      "Just frame version of 1+4,df+1",
+      "Alternate input hcf:df+1 to power up"
     ]
   },
   {
@@ -607,8 +625,7 @@
     ],
     "categories": [],
     "notes": [
-      "Can be charged to power up",
-      "Chip damage on block"
+      "Can be charged to power up "
     ]
   },
   {
@@ -627,7 +644,7 @@
     "notes": [
       "Balcony Break",
       "Wall crush",
-      "Chip damage on block "
+      "Chip damage on block (16) "
     ]
   },
   {
@@ -663,7 +680,7 @@
     "notes": [
       "Knee",
       "Transition to GMH with D",
-      "(+2 oB, +16g oH)",
+      "(+2 oB, +16g oH, +16 ch)",
       "Alternate input ws3 "
     ]
   },
@@ -705,6 +722,23 @@
     ]
   },
   {
+    "name": "",
+    "input": "f+4",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i17",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "+32d (+22)",
+    "alternateInputs": [
+      "f+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break on CH"
+    ]
+  },
+  {
     "name": "Dark Greeting",
     "input": "f+4~1",
     "hit_level": "h",
@@ -743,17 +777,19 @@
     "input": "f+1+2",
     "hit_level": "m,m",
     "damage": "12,20",
-    "startup": "i27",
+    "startup": "i27 pc7",
     "block": "-12",
     "hit": "+32d (+6)",
     "counter": "",
     "alternateInputs": [
       "f+1+2"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush"
+    ],
     "notes": [
       "Balcony Break",
-      "Chip damage on block "
+      "Chip damage on block when absorbing an attack (12) "
     ]
   },
   {
@@ -772,7 +808,7 @@
     "notes": [
       "Headbutt",
       "Transition to GMH with D",
-      "(-3 oB, +15g oH)"
+      "(-3 oB, +15c oH)"
     ]
   },
   {
@@ -1028,8 +1064,7 @@
     ],
     "notes": [
       "Homing",
-      "Alternate input b,db,d,df+1 to power up",
-      "(28 damage, i29)Sometimes written debug"
+      "Alternate input b,db,d,df+1 to power up"
     ]
   },
   {
@@ -1048,7 +1083,7 @@
     "notes": [
       "Balcony Break",
       "Alternate input b,db,d,df+2 to power up",
-      "(31 damage, i22)"
+      " "
     ]
   },
   {
@@ -1082,7 +1117,26 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input FC.d+2 "
+      "Alternate input FC.2 "
+    ]
+  },
+  {
+    "name": "",
+    "input": "d+2,1",
+    "hit_level": "s,l",
+    "damage": "8,6",
+    "startup": "i24",
+    "block": "-14",
+    "hit": "-3",
+    "counter": "",
+    "alternateInputs": [
+      "d+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input FC.2,1",
+      "Combos from 1st hit",
+      "First two hits of 10 hit combo "
     ]
   },
   {
@@ -1157,8 +1211,8 @@
     "name": "",
     "input": "db+1",
     "hit_level": "l",
-    "damage": "5",
-    "startup": "i13",
+    "damage": "13",
+    "startup": "i12",
     "block": "-12",
     "hit": "+1",
     "counter": "",
@@ -1174,7 +1228,7 @@
     "name": "",
     "input": "db+1,1",
     "hit_level": "l,l",
-    "damage": "5,5",
+    "damage": "13,5",
     "startup": "i16",
     "block": "-12",
     "hit": "-1",
@@ -1191,7 +1245,7 @@
     "name": "",
     "input": "db+1,1,1",
     "hit_level": "l,l,l",
-    "damage": "5,5,5",
+    "damage": "13,5,5",
     "startup": "i16",
     "block": "-12",
     "hit": "-1",
@@ -1208,7 +1262,7 @@
     "name": "Machinegun Blast",
     "input": "db+1,1,1,2",
     "hit_level": "l,l,l,m",
-    "damage": "5,5,5,21",
+    "damage": "13,5,5,21",
     "startup": "i19",
     "block": "-11",
     "hit": "+43a (-4)",
@@ -1228,7 +1282,7 @@
     "damage": "24",
     "startup": "i22",
     "block": "-18",
-    "hit": "+3",
+    "hit": "+3c",
     "counter": "+33d",
     "alternateInputs": [
       "db+2"
@@ -1252,24 +1306,7 @@
     ],
     "categories": [],
     "notes": [
-      "Chip damage on block "
-    ]
-  },
-  {
-    "name": "Power Shovel (charged)",
-    "input": "db+2*",
-    "hit_level": "l",
-    "damage": "30",
-    "startup": "i36",
-    "block": "-33",
-    "hit": "+17d",
-    "counter": "",
-    "alternateInputs": [
-      "db+2*"
-    ],
-    "categories": [],
-    "notes": [
-      "Chip damage on block "
+      "Chip damage on block (9)"
     ]
   },
   {
@@ -1448,7 +1485,7 @@
     "hit_level": "m,m",
     "damage": "17,17",
     "startup": "i26",
-    "block": "-14",
+    "block": "-14c",
     "hit": "+15d",
     "counter": "+47a",
     "alternateInputs": [
@@ -1497,7 +1534,7 @@
       "Heat Dash +5, +36a(+26)",
       "Balcony Break",
       "Wall crush",
-      "Chip damage on block"
+      "Chip damage on block (16)"
     ]
   },
   {
@@ -1569,7 +1606,7 @@
     "notes": [
       "Balcony Break",
       "Wall Crush +3 on block",
-      "Chip damage on block "
+      "Chip damage on block (16) "
     ]
   },
   {
@@ -1593,7 +1630,7 @@
     "name": "Sherman Stomp",
     "input": "b+4,4",
     "hit_level": "m,m",
-    "damage": "1621",
+    "damage": "16,21",
     "startup": "i30",
     "block": "-4",
     "hit": "-8d",
@@ -1632,20 +1669,21 @@
     "input": "ub+1+2",
     "hit_level": "h",
     "damage": "30",
-    "startup": "i20",
+    "startup": "i20 pc7",
     "block": "-9",
-    "hit": "+23",
+    "hit": "+23d",
     "counter": "",
     "alternateInputs": [
       "ub+1+2"
     ],
     "categories": [
+      "powercrush",
       "homing"
     ],
     "notes": [
       "Balcony Break",
       "Homing",
-      "Chip damage on block"
+      "Chip damage on block when absorbing an attack (12)"
     ]
   },
   {
@@ -1750,7 +1788,7 @@
     "input": "uf+2",
     "hit_level": "m",
     "damage": "25",
-    "startup": "i24",
+    "startup": "i24 js9",
     "block": "+4c",
     "hit": "+7c",
     "counter": "+11d",
@@ -1763,11 +1801,28 @@
     ]
   },
   {
+    "name": "",
+    "input": "uf,n,2",
+    "hit_level": "m",
+    "damage": "28",
+    "startup": "i32",
+    "block": "-1c",
+    "hit": "+10c",
+    "counter": "",
+    "alternateInputs": [
+      "uf,n,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
     "name": "Terrapulser",
     "input": "uf+3",
     "hit_level": "l",
-    "damage": "8",
-    "startup": "i23",
+    "damage": "(8)",
+    "startup": "i23 js9",
     "block": "-12",
     "hit": "+8c",
     "counter": "",
@@ -1776,9 +1831,8 @@
     ],
     "categories": [],
     "notes": [
-      "Automatically transitions to GMH on hit or block",
-      "Alternate input ub+3, u+3",
-      "js9~23"
+      "Automatically transitions to GMH on hit",
+      "Alternate input ub+3, u+3"
     ]
   },
   {
@@ -1786,7 +1840,7 @@
     "input": "uf+3+4",
     "hit_level": "m",
     "damage": "23",
-    "startup": "i34",
+    "startup": "i34 js8",
     "block": "+13cg",
     "hit": "+20d",
     "counter": "",
@@ -1813,7 +1867,7 @@
     "categories": [],
     "notes": [
       "Transition to GMH with D",
-      "(+4c oB, +8c oH) "
+      "(+4 oB, +8c oH, +16d cH) "
     ]
   },
   {
@@ -1848,7 +1902,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Chip damage on block "
+      "Chip damage on block (14) "
     ]
   },
   {
@@ -1884,7 +1938,7 @@
     "notes": [
       "Tornado ",
       "Balcony Break",
-      "Chip damage on block"
+      "Chip damage on block (12)"
     ]
   },
   {
@@ -1938,7 +1992,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input FC.d+1+2"
+      " "
     ]
   },
   {
@@ -1955,7 +2009,8 @@
     ],
     "categories": [],
     "notes": [
-      "Low attack on landing"
+      "Low attack on landing",
+      "(-110 oB, -65 oH)"
     ]
   },
   {
@@ -1964,15 +2019,16 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i22",
-    "block": "+10",
-    "hit": "+6",
+    "block": "+6",
+    "hit": "+10",
     "counter": "",
     "alternateInputs": [
       "f,f,F+2"
     ],
     "categories": [],
     "notes": [
-      "Chip damage on block",
+      "Chip damage on block (7)",
+      "Guarantees i10 moves on hit",
       "Alternate input wr2"
     ]
   },
@@ -1981,7 +2037,7 @@
     "input": "f,f,F+1+2",
     "hit_level": "m",
     "damage": "34",
-    "startup": "i20",
+    "startup": "i20~23",
     "block": "+4",
     "hit": "+7a (-2)",
     "counter": "",
@@ -1991,8 +2047,128 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block",
+      "Chip damage on block (10)",
       "Alternate input wr1+2"
+    ]
+  },
+  {
+    "name": "Debugger",
+    "input": "b,db,d,df+1",
+    "hit_level": "l",
+    "damage": "28",
+    "startup": "i29",
+    "block": "-37",
+    "hit": "+18d",
+    "counter": "",
+    "alternateInputs": [
+      "b,db,d,df+1"
+    ],
+    "categories": [
+      "homing"
+    ],
+    "notes": [
+      "Homing",
+      "Alternate input df+1+4",
+      " Sometimes written debug"
+    ]
+  },
+  {
+    "name": "Megaton Blast",
+    "input": "b,db,d,df+2",
+    "hit_level": "m",
+    "damage": "31",
+    "startup": "i22",
+    "block": "-9",
+    "hit": "+31d (-5)",
+    "counter": "",
+    "alternateInputs": [
+      "b,db,d,df+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Alternate input df+2+3",
+      " "
+    ]
+  },
+  {
+    "name": "",
+    "input": "HCF",
+    "hit_level": "",
+    "damage": "",
+    "startup": "i22~",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "HCF"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input 1+4",
+      "Can be looped together in 360 motions for up to 5 spins",
+      " "
+    ]
+  },
+  {
+    "name": "Gigaton Punch",
+    "input": "HCF,1",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i17(43~)",
+    "block": "+21g",
+    "hit": "+7a (-2)",
+    "counter": "+39d (-8)",
+    "alternateInputs": [
+      "HCF,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Alternate input 1+4,1",
+      "Chip damage on block (9)",
+      " "
+    ]
+  },
+  {
+    "name": "Windup Uppercut",
+    "input": "HCF,df+1",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i20~23",
+    "block": "-17",
+    "hit": "+52a (+42)",
+    "counter": "",
+    "alternateInputs": [
+      "HCF,df+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Non blue spark version, for a just frame version search \"emgf\"",
+      "Alternate input 1+4,df+1",
+      " Sometimes written one"
+    ]
+  },
+  {
+    "name": "Prime Windup Uppercut",
+    "input": "HCF:df+1",
+    "hit_level": "m",
+    "damage": "36",
+    "startup": "i20~23",
+    "block": "-17",
+    "hit": "+66a (+50)",
+    "counter": "",
+    "alternateInputs": [
+      "HCF:df+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Instant Tornado",
+      "Just frame version of hcf,df+1, for a normal version search \"one\"",
+      "Alternate input 1+4:df+1",
+      " Sometimes written emgf"
     ]
   },
   {
@@ -2061,6 +2237,25 @@
     "categories": [],
     "notes": [
       "Alternate input d+2 "
+    ]
+  },
+  {
+    "name": "",
+    "input": "FC 2,1",
+    "hit_level": "s,l",
+    "damage": "8,6",
+    "startup": "i24",
+    "block": "-14",
+    "hit": "-3",
+    "counter": "",
+    "alternateInputs": [
+      "FC 2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Alternate input d+2,1",
+      "Combos from 1st hit",
+      "First two hits of 10 hit combo "
     ]
   },
   {
@@ -2222,7 +2417,7 @@
     "hit_level": "m,m",
     "damage": "12,10",
     "startup": "i26",
-    "block": "-13",
+    "block": "-4",
     "hit": "+7",
     "counter": "",
     "alternateInputs": [
@@ -2256,7 +2451,7 @@
     "hit_level": "m,h",
     "damage": "12,23",
     "startup": "i19",
-    "block": "-13",
+    "block": "-4",
     "hit": "+32a",
     "counter": "",
     "alternateInputs": [
@@ -2404,7 +2599,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block"
+      "Chip damage on block (12)"
     ]
   },
   {
@@ -2473,12 +2668,13 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combos from 1st hit "
+      "Combos from 1st hit",
+      "Chip damage on block (7)"
     ]
   },
   {
     "name": "",
-    "input": "ws3",
+    "input": "f+3",
     "hit_level": "m",
     "damage": "18",
     "startup": "i15",
@@ -2486,19 +2682,19 @@
     "hit": "+5",
     "counter": "",
     "alternateInputs": [
-      "ws3"
+      "f+3"
     ],
     "categories": [],
     "notes": [
       "Knee",
       "Transition to GMH with D",
-      "(+2 oB, +16g oH)",
-      "Alternate input f+3 "
+      "(+2 oB, +16g oH, +16 ch)",
+      "Alternate input ws3 "
     ]
   },
   {
     "name": "Two-Step Die",
-    "input": "ws3,2",
+    "input": "f+3,2",
     "hit_level": "m,h",
     "damage": "18,20",
     "startup": "i23",
@@ -2506,18 +2702,18 @@
     "hit": "+44d (-14)",
     "counter": "",
     "alternateInputs": [
-      "ws3,2"
+      "f+3,2"
     ],
     "categories": [],
     "notes": [
       "Balcony Break",
       "Combos from 1st hit",
-      "Alternate input f+3,2 "
+      "Alternate input ws3,2 "
     ]
   },
   {
     "name": "Machine Press",
-    "input": "ws3,1+2",
+    "input": "f+3,1+2",
     "hit_level": "m,m",
     "damage": "18,20",
     "startup": "i25",
@@ -2525,12 +2721,12 @@
     "hit": "+2d",
     "counter": "+48a",
     "alternateInputs": [
-      "ws3,1+2"
+      "f+3,1+2"
     ],
     "categories": [],
     "notes": [
       "Combos from 1st hit CH",
-      "Alternate input f+3,1+2 "
+      "Alternate input ws3,1+2 "
     ]
   },
   {
@@ -2608,7 +2804,7 @@
     "input": "3+4",
     "hit_level": "",
     "damage": "",
-    "startup": "",
+    "startup": "pc7",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2620,9 +2816,9 @@
     ],
     "notes": [
       "When timed with opponent attack, or absorbing an attack, shift to Gamma Charge",
+      "Powercrush active from 7f to 22f",
       "Recover Heat and recoverable health when absorbing an attack",
-      "Gamma Charge is always",
-      "in effect during Heat",
+      "Gamma Charge is always in effect during Heat",
       "Alternate input: ws3+4"
     ]
   },
@@ -2652,7 +2848,7 @@
     "hit_level": "h",
     "damage": "40",
     "startup": "i20",
-    "block": "+11",
+    "block": "+11g",
     "hit": "+21d (+11)",
     "counter": "",
     "alternateInputs": [
@@ -2679,7 +2875,7 @@
     "categories": [],
     "notes": [
       "Transition to FC with D",
-      "(+7 oH) "
+      "(+7 oH, +2 oB) "
     ]
   },
   {
@@ -2687,7 +2883,7 @@
     "input": "GMH 4",
     "hit_level": "h",
     "damage": "30",
-    "startup": "i14",
+    "startup": "i14~18",
     "block": "+4",
     "hit": "+21d (+11)",
     "counter": "",
@@ -2699,7 +2895,50 @@
       "Heat Engager",
       "Heat Dash +5, +36a(+26)",
       "Balcony Break",
-      "Chip damage on block"
+      "Chip damage on block (9)"
+    ]
+  },
+  {
+    "name": "Gun Bomb",
+    "input": "GMH 1+3",
+    "hit_level": "t",
+    "damage": "30",
+    "startup": "i15",
+    "block": "!",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "GMH 1+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Crouch Throw (Unbreakable)",
+      "Floor Break",
+      "Alternate input d+1+3"
+    ]
+  },
+  {
+    "name": "Iron Gunman",
+    "input": "GMH 2+4",
+    "hit_level": "t",
+    "damage": "25",
+    "startup": "i15",
+    "block": "!",
+    "hit": "+6d",
+    "counter": "",
+    "alternateInputs": [
+      "GMH 2+4"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Heat Engager",
+      "Cannot cancel into Heat Dash",
+      "Crouch Throw (Unbreakable)",
+      "Alternate input d+2+4"
     ]
   },
   {
@@ -2728,7 +2967,7 @@
     "input": "GMH 3+4",
     "hit_level": "sm",
     "damage": "20",
-    "startup": "i20",
+    "startup": "i20 pc6",
     "block": "-13",
     "hit": "+40d (-18)",
     "counter": "",
@@ -2741,7 +2980,7 @@
     "notes": [
       "Heat Engager",
       "Heat Dash +5, +36a(+26)",
-      "Chip damage on block when absorbing an attack"
+      "Chip damage on block when absorbing an attack (6)"
     ]
   },
   {
@@ -2767,7 +3006,7 @@
     "input": "GMH f+2",
     "hit_level": "m",
     "damage": "34",
-    "startup": "i29",
+    "startup": "i17",
     "block": "-13",
     "hit": "+30a (+4)",
     "counter": "",
@@ -2784,7 +3023,7 @@
     "input": "GMH ub",
     "hit_level": "",
     "damage": "",
-    "startup": "",
+    "startup": "js12",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2793,7 +3032,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recover in crouch "
     ]
   },
   {
@@ -2801,7 +3040,7 @@
     "input": "GMH uf",
     "hit_level": "",
     "damage": "",
-    "startup": "",
+    "startup": "js12",
     "block": "",
     "hit": "",
     "counter": "",
@@ -2810,7 +3049,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recover in crouch "
     ]
   },
   {
@@ -2831,15 +3070,15 @@
     "notes": [
       "Homing",
       "Partially uses remaining Heat time",
-      "Chip damage on block "
+      "Chip damage on block (4) "
     ]
   },
   {
     "name": "Exaton Blast - Gamma",
     "input": "GMC 2",
     "hit_level": "h",
-    "damage": "22",
-    "startup": "i20",
+    "damage": "42",
+    "startup": "i20 pc1",
     "block": "+11",
     "hit": "+31a (+5)",
     "counter": "",
@@ -2852,7 +3091,7 @@
       "Guard Break",
       "Balcony Break",
       "Partially uses remaining Heat time",
-      "Chip damage on block "
+      "Chip damage on block (4) "
     ]
   },
   {
@@ -3042,11 +3281,12 @@
     "notes": [
       "Balcony Break",
       "Transition to GMH with D",
-      "(+9 oB, +35d (+27) oH)"
+      "(+9 oB, +35d (+27) oH)",
+      "Chip damage on block (6)"
     ]
   },
   {
-    "name": "Get Up Punch",
+    "name": "Double Axe",
     "input": "d+1+2",
     "hit_level": "m",
     "damage": "18",
@@ -3060,6 +3300,47 @@
     "categories": [],
     "notes": [
       "Recovers in SIT, then stands up "
+    ]
+  },
+  {
+    "name": "Terraforming Cannon",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "55+",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
+    ]
+  },
+  {
+    "name": "Ki Charge",
+    "input": "1+2+3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "1+2+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -3078,7 +3359,8 @@
       "throw"
     ],
     "notes": [
-      "Throw Break 1 or 2"
+      "Throw Break 1 or 2",
+      "Swaps positions on break"
     ]
   },
   {
@@ -3098,6 +3380,7 @@
     ],
     "notes": [
       "Throw Break 1 or 2",
+      "Swaps positions on break",
       "Side Switch"
     ]
   },
@@ -3205,7 +3488,7 @@
     "input": "df,DF+2+4",
     "hit_level": "t",
     "damage": "10",
-    "startup": "i11",
+    "startup": "i14",
     "block": "-2",
     "hit": "+54a",
     "counter": "",
@@ -3277,7 +3560,8 @@
     "notes": [
       "Throw Break 1+2",
       "Balcony Break",
-      "Wallsplats opponent"
+      "Wallsplats opponent",
+      "If blocked, does 20 chip dmg and is -2 oB"
     ]
   },
   {
@@ -3362,6 +3646,49 @@
   },
   {
     "name": "Gun Bomb",
+    "input": "GMH 1+3",
+    "hit_level": "t",
+    "damage": "30",
+    "startup": "i15",
+    "block": "!",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "GMH 1+3"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Crouch Throw (Unbreakable)",
+      "Floor Break",
+      "Alternate input d+1+3"
+    ]
+  },
+  {
+    "name": "Iron Gunman",
+    "input": "GMH 2+4",
+    "hit_level": "t",
+    "damage": "25",
+    "startup": "i15",
+    "block": "!",
+    "hit": "+6d",
+    "counter": "",
+    "alternateInputs": [
+      "GMH 2+4"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Heat Engager",
+      "Cannot cancel into Heat Dash",
+      "Crouch Throw (Unbreakable)",
+      "Alternate input d+2+4"
+    ]
+  },
+  {
+    "name": "Gun Bomb",
     "input": "d+1+3",
     "hit_level": "t",
     "damage": "30",
@@ -3378,6 +3705,7 @@
     "notes": [
       "Crouch Throw (Unbreakable)",
       "Floor Break",
+      "Can be done from crouch",
       "Alternate input GMH.1+3"
     ]
   },
@@ -3387,7 +3715,7 @@
     "hit_level": "t",
     "damage": "25",
     "startup": "i12",
-    "block": "",
+    "block": "!",
     "hit": "+6d",
     "counter": "",
     "alternateInputs": [
@@ -3400,6 +3728,7 @@
       "Heat Engager",
       "Cannot cancel into Heat Dash",
       "Crouch Throw (Unbreakable)",
+      "Can be done from crouch",
       "Alternate input GMH.2+4"
     ]
   },

@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12 (12)",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -58,7 +58,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +34a +5g",
+      "Heat Dash +5, +34a (+27)",
       "Balcony Break",
       "Combo from 1st CH",
       "Combo from 2nd CH with 3f delay",
@@ -80,7 +80,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35), +5",
+      "Heat Dash +5, +43a (+35)",
       "Balcony break on airborne hit",
       "Jail from 1st attack"
     ]
@@ -100,7 +100,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage on block (8)",
       "Sometimes written Mach Punch"
@@ -122,10 +122,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Elbow",
-      "Chip damage 8 (30%) on block"
+      "Chip damage 8 (30%) on blockSometimes written ",
+      "qcf+1+2",
+      "d,df,f+1+2"
     ]
   },
   {
@@ -143,7 +145,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42), +5",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break",
       "Elbow",
       "Combo from 1st hit with 8f delay",
@@ -165,7 +167,7 @@
     ],
     "categories": [],
     "notes": [
-      "r17 on hit or block"
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -235,7 +237,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +34a +5g",
+      "Heat Dash +5, +34a (+27)",
       "Balcony Break",
       "Combo from 1st CH",
       "Combo from 2nd CH with 3f delay",
@@ -1253,23 +1255,6 @@
     ]
   },
   {
-    "name": "",
-    "input": "db+4",
-    "hit_level": "l",
-    "damage": "6",
-    "startup": "i12",
-    "block": "-15",
-    "hit": "-4",
-    "counter": "",
-    "alternateInputs": [
-      "db+4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
     "name": "Crash Impact",
     "input": "db+1+2",
     "hit_level": "m,h",
@@ -1284,7 +1269,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35), +5",
+      "Heat Dash +5, +43a (+35)",
       "Balcony break on airborne hit",
       "Jail from 1st attack"
     ]
@@ -1951,7 +1936,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage on block (8)",
       "Sometimes written Mach Punch"
@@ -2160,7 +2145,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written qcf+1"
     ]
   },
   {
@@ -2511,7 +2496,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written ",
+      "qcf+2",
+      "d,df,f+2"
     ]
   },
   {
@@ -2529,7 +2516,9 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit with 4f delay"
+      "Combo from 1st hit with 4f delaySometimes written ",
+      "qcf+2,1",
+      "d,df,f+2,1"
     ]
   },
   {
@@ -2550,7 +2539,9 @@
       "Balcony Break",
       "Spike",
       "Combo from 1st hit with 4f delay",
-      "+9a on BT hit"
+      "+9a on BT hitSometimes written ",
+      "qcf+2,2",
+      "d,df,f+2,2"
     ]
   },
   {
@@ -2571,7 +2562,9 @@
       "Tornado",
       "Knee",
       "Combo from 1st hit with 4f delay",
-      "Gain SNE on hit, -12a"
+      "Gain SNE on hit, -12aSometimes written ",
+      "qcf+2,4",
+      "d,df,f+2,4"
     ]
   },
   {
@@ -2589,7 +2582,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written ",
+      "qcf+4",
+      "d,df,f+4"
     ]
   },
   {
@@ -2608,7 +2603,10 @@
     "categories": [],
     "notes": [
       "Combo from 1st CH",
-      "Cancel to SS -12 -5 -3 r9 with u_d"
+      "Cancel to SS -12 -5 -3 r9 with u_d",
+      "Sometimes written ",
+      "qcf+4,1",
+      "d,df,f+4,1"
     ]
   },
   {
@@ -2626,7 +2624,10 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Sometimes written ",
+      "qcf+4,1,2",
+      "d,df,f+4,1,2"
     ]
   },
   {
@@ -2645,7 +2646,10 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Opponent recovers FUFA on hit"
+      "Opponent recovers FUFA on hit",
+      "Sometimes written ",
+      "qcf+4,1,4",
+      "d,df,f+4,1,4"
     ]
   },
   {
@@ -2664,10 +2668,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Elbow",
-      "Chip damage 8 (30%) on block"
+      "Chip damage 8 (30%) on blockSometimes written ",
+      "qcf+1+2",
+      "d,df,f+1+2"
     ]
   },
   {
@@ -2799,9 +2805,11 @@
     "categories": [],
     "notes": [
       "Rage Art",
+      "Removes Recoverable Health",
       "Reversal Break",
-      "Ereases opponent's recoverable health on hit",
-      "Damage increases with lower health, maximum 80",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
       "Transition to attack throw on hit",
       "Consumes Rage"
     ]
@@ -2873,12 +2881,29 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42), +5",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break",
       "Elbow",
       "Combo from 1st hit with 8f delay",
       "Input can be delayed 11f",
       "Move can be delayed 10f"
+    ]
+  },
+  {
+    "name": "Wall Jump Attack",
+    "input": "(Back to wall) b,b,UB",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i29~30",
+    "block": "-1",
+    "hit": "+45d (-13)",
+    "counter": "",
+    "alternateInputs": [
+      "(Back to wall) b,b,UB"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   },
   {
@@ -3021,7 +3046,7 @@
     ]
   },
   {
-    "name": "1st Hit",
+    "name": "",
     "input": "b+3",
     "hit_level": "m",
     "damage": "12",

@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "37",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -65,7 +65,7 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35), +5",
+      "Heat Dash +5, +43a (+35)",
       "Balcony Break",
       "+0 on block after absorbing an attack",
       "Chip damage on block after attack absorption",
@@ -87,7 +87,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +67a (+50), +5 on block",
+      "Heat Dash +5, +67a (+50)",
       "Spike",
       "Gain NWG on Heat activation"
     ]
@@ -107,7 +107,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +34a (+27), +5",
+      "Heat Dash +5, +34a (+27)",
       "Balcony Break",
       "Combo from 1st hit with 8f delay",
       "Gain NWG on Heat activation"
@@ -128,7 +128,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Gain NWG on Heat activation",
       "Balcony break on airborne hit"
     ]
@@ -148,7 +148,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Elbow",
       "Gain NWG on Heat Activation",
@@ -753,7 +753,7 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35), +5",
+      "Heat Dash +5, +43a (+35)",
       "Balcony Break",
       "+0 on block after absorbing an attack",
       "Chip damage on block after attack absorption",
@@ -947,7 +947,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +67a (+50), +5 on block",
+      "Heat Dash +5, +67a (+50)",
       "Spike",
       "Gain NWG on Heat activation"
     ]
@@ -1020,7 +1020,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +34a (+27), +5",
+      "Heat Dash +5, +34a (+27)",
       "Balcony Break",
       "Combo from 1st hit with 8f delay",
       "Gain NWG on Heat activation"
@@ -1625,6 +1625,7 @@
     "categories": [],
     "notes": [
       "Spike",
+      "Recovers in r55 on hit or on block",
       "Chip damage on block"
     ]
   },
@@ -1778,16 +1779,13 @@
     "alternateInputs": [
       "NWG f,F+1+2"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Tornado",
       "Chip damage on block",
       "Consumes NWG",
       "During Heat, remaining Heat is consumed",
-      "Grounded hit can be inconsistent sometimes",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "Grounded hit can be inconsistent sometimes"
     ]
   },
   {
@@ -1821,15 +1819,13 @@
       "f,f,F+1+2"
     ],
     "categories": [
-      "parry",
       "homing"
     ],
     "notes": [
       "Tornado",
       "Homing",
       "Balcony Break",
-      "Chip damage on block",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "Chip damage on block"
     ]
   },
   {
@@ -1845,17 +1841,16 @@
       "NWG f,f,F+1+2"
     ],
     "categories": [
-      "parry",
       "homing"
     ],
     "notes": [
       "Tornado",
       "Homing",
       "Balcony Break",
+      "Wall Crush +18g~19g on block",
       "Chip damage on block",
       "Consumes NWG",
-      "During Heat, remaining Heat is consumed",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "During Heat, remaining Heat is consumed"
     ]
   },
   {
@@ -2154,14 +2149,16 @@
     "alternateInputs": [
       "in rage df+1+2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
       "Rage Art",
-      "Damage increases with lower health",
-      "Removes recoverable health on hit",
-      "Input can be held"
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2176,15 +2173,18 @@
     "alternateInputs": [
       "in rage df+1+2**"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
       "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage",
       "Chip damage on block",
-      "Armored for the full duration",
-      "Damage increases with lower health",
-      "Removes recoverable health on hit"
+      "Armored for the full duration"
     ]
   },
   {
@@ -2202,7 +2202,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Gain NWG on Heat activation",
       "Balcony break on airborne hit"
     ]
@@ -2401,7 +2401,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26), +5",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Elbow",
       "Gain NWG on Heat Activation",
@@ -2537,6 +2537,366 @@
       "Does not consume CH state on hit",
       "Sometimes written ",
       "1+2+3+4,1+2,2,1,2,1"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i13~14",
+    "block": "-8",
+    "hit": "+8",
+    "counter": "",
+    "alternateInputs": [
+      "ws2"
+    ],
+    "categories": [],
+    "notes": [
+      "Elbow"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2,1",
+    "hit_level": "m,h",
+    "damage": "18,10",
+    "startup": ",i22",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit with 3f delay",
+      "Continues into 10 strings"
+    ]
+  },
+  {
+    "name": "3rd Hit",
+    "input": "ws2,1,1",
+    "hit_level": "m,h,m",
+    "damage": "18,10,8",
+    "startup": ",i22",
+    "block": "-23",
+    "hit": "-12",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "4th Hit",
+    "input": "ws2,1,1,1",
+    "hit_level": "m,h,m,h",
+    "damage": "18,10,8,8",
+    "startup": ",i22",
+    "block": "-25",
+    "hit": "-14",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "5th Hit",
+    "input": "ws2,1,1,1,2",
+    "hit_level": "m,h,m,h,m",
+    "damage": "18,10,8,8,6",
+    "startup": ",i22",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "6th Hit",
+    "input": "ws2,1,1,1,2,1",
+    "hit_level": "m,h,m,h,m,sm",
+    "damage": "18,10,8,8,6,5",
+    "startup": ",i22",
+    "block": "-10",
+    "hit": "+1",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "7th Hit",
+    "input": "ws2,1,1,1,2,1,4",
+    "hit_level": "m,h,m,h,m,sm,m",
+    "damage": "18,10,8,8,6,5,7",
+    "startup": ",i22",
+    "block": "-16",
+    "hit": "-6",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2,1,4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "8th Hit",
+    "input": "ws2,1,1,1,2,1,4,3",
+    "hit_level": "m,h,m,h,m,sm,m,l",
+    "damage": "18,10,8,8,6,5,7,7",
+    "startup": ",i22",
+    "block": "-25",
+    "hit": "-9",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2,1,4,3"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "10 Hit Combo 1",
+    "input": "ws2,1,1,1,2,1,4,3,3+4",
+    "hit_level": "m,h,m,h,m,sm,m,l,m,m",
+    "damage": "18,10,8,8,6,5,7,7,25,25",
+    "startup": ",i22",
+    "block": "-11",
+    "hit": "KND",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2,1,4,3,3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i13~14",
+    "block": "-8",
+    "hit": "+8",
+    "counter": "",
+    "alternateInputs": [
+      "ws2"
+    ],
+    "categories": [],
+    "notes": [
+      "Elbow"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2,1",
+    "hit_level": "m,h",
+    "damage": "18,10",
+    "startup": ",i22",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit with 3f delay",
+      "Continues into 10 strings"
+    ]
+  },
+  {
+    "name": "3rd Hit (2)",
+    "input": "ws2,1,1",
+    "hit_level": "m,h,m",
+    "damage": "18,10,8",
+    "startup": ",i22",
+    "block": "-23",
+    "hit": "-12",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "4th Hit (2)",
+    "input": "ws2,1,1,1",
+    "hit_level": "m,h,m,h",
+    "damage": "18,10,8,8",
+    "startup": ",i22",
+    "block": "-25",
+    "hit": "-14",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "5th Hit (2)",
+    "input": "ws2,1,1,1,2",
+    "hit_level": "m,h,m,h,m",
+    "damage": "18,10,8,8,6",
+    "startup": ",i22",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "6th & 7th Hit (2)",
+    "input": "ws2,1,1,1,2,1+4",
+    "hit_level": "m,h,m,h,m,sll,h",
+    "damage": "18,10,8,8,6,7,5",
+    "startup": ",i22",
+    "block": "-33",
+    "hit": "-7",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2,1+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "8th Hit (2)",
+    "input": "ws2,1,1,1,2,1+4,1",
+    "hit_level": "m,h,m,h,m,sll,h,h",
+    "damage": "18,10,8,8,6,7,5,6",
+    "startup": ",i22",
+    "block": "-10",
+    "hit": "-43",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2,1+4,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "10 Hit Combo 2",
+    "input": "ws2,1,1,1,2,1+4,1,3+4",
+    "hit_level": "m,h,m,h,m,sll,h,h,l,m",
+    "damage": "18,10,8,8,6,7,5,6,5,24",
+    "startup": ",i22",
+    "block": "-43",
+    "hit": "LNC",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,1,2,1+4,1,3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2",
+    "hit_level": "m",
+    "damage": "18",
+    "startup": "i13~14",
+    "block": "-8",
+    "hit": "+8",
+    "counter": "",
+    "alternateInputs": [
+      "ws2"
+    ],
+    "categories": [],
+    "notes": [
+      "Elbow"
+    ]
+  },
+  {
+    "name": "",
+    "input": "ws2,1",
+    "hit_level": "m,h",
+    "damage": "18,10",
+    "startup": ",i22",
+    "block": "-2",
+    "hit": "+9",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit with 3f delay",
+      "Continues into 10 strings"
+    ]
+  },
+  {
+    "name": "3rd Hit (3)",
+    "input": "ws2,1,1",
+    "hit_level": "m,h,m",
+    "damage": "18,10,8",
+    "startup": ",i22",
+    "block": "-23",
+    "hit": "-12",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "10 Hit Combo 3",
+    "input": "ws2,1,1,3",
+    "hit_level": "m,h,m,,m",
+    "damage": "18,10,8,10",
+    "startup": ",i21",
+    "block": "",
+    "hit": "+11a (+1)",
+    "counter": "",
+    "alternateInputs": [
+      "ws2,1,1,3"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break"
     ]
   }
 ]

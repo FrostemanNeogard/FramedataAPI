@@ -529,7 +529,7 @@
     "hit_level": "m,m",
     "damage": "10,12",
     "startup": ",i20~21",
-    "block": "-26",
+    "block": "-16",
     "hit": "+35a (+25)",
     "counter": "",
     "alternateInputs": [
@@ -573,6 +573,23 @@
     "notes": [
       "Combo from 1st hit",
       "chip damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i12",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "alternateInputs": [
+      "df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -1846,7 +1863,7 @@
     "name": "",
     "input": "SIT 1",
     "hit_level": "l",
-    "damage": "10",
+    "damage": "15",
     "startup": "i21~22",
     "block": "-12",
     "hit": "+4",
@@ -1863,7 +1880,7 @@
     "name": "Double Trout Sweep",
     "input": "SIT 1,1",
     "hit_level": "l,l",
-    "damage": "10,13",
+    "damage": "15,13",
     "startup": ",i25~26",
     "block": "-12",
     "hit": "+6",
@@ -2021,11 +2038,11 @@
   {
     "name": "Type 38 Eradication Weapon: Aramaki",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
-    "hit": "0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "in rage df+1+2"
@@ -2033,7 +2050,13 @@
     "categories": [],
     "notes": [
       "Rage Art",
-      "Erase opponent's recoverable health on hit"
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2316,8 +2339,9 @@
       "throw"
     ],
     "notes": [
-      "Throw break: none",
+      "Removes Recoverable Health",
       "Spike",
+      "Throw break: none",
       "Opponent status on hit: FUFA"
     ]
   }

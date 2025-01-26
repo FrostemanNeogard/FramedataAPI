@@ -3,7 +3,7 @@
     "name": "Heat Burst",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -12,16 +12,15 @@
       "2+3"
     ],
     "categories": [
-      "powercrush",
-      "parry"
+      "powercrush"
     ],
     "notes": [
       "Heat Burst",
       "Cancel to r45 with b,b",
       "3 chip damage on block",
-      "Partially uses Heat",
-      "Unparryable",
-      "Ignores regular power crush armor"
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -30,25 +29,22 @@
     "hit_level": "M,m,m,m",
     "damage": "51",
     "startup": "i18~19",
-    "block": "+4~+5",
+    "block": "+4",
     "hit": "-3d",
     "counter": "",
     "alternateInputs": [
       "in heat 2+3"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Heat Smash",
+      "Reversal Break",
       "Balcony Break",
-      "Recovers health on hit",
-      "Transition to r29 DGF on block with U, +10~+11",
+      "Recovers 4 base health on hit",
+      "Enter DGF +10 r29 with U on block",
       "Transition to attack throw after 1st hit",
-      "Ignores regular power crush armor",
       "14 chip damage on block",
       "Jail from 1st attack",
-      "Unparryable",
       "Ends Heat"
     ]
   },
@@ -58,8 +54,8 @@
     "hit_level": "m,h",
     "damage": "12,22",
     "startup": ",i22~24",
-    "block": "+7~+9",
-    "hit": "+18g~+20g",
+    "block": "+7",
+    "hit": "+18g",
     "counter": "",
     "alternateInputs": [
       "3,1"
@@ -67,12 +63,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~7g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "Combo from 1st hit",
       "4 chip damage on block",
-      "Does not transition to DGF during Heat activation and Heat Dash",
+      "Does not transition to DGF during Heat activation or Heat Dash",
       "Power up in NSS or Heat",
       "Recovers in 1SS"
     ]
@@ -92,7 +88,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "4 chip damage on block",
@@ -114,12 +110,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~+6g +36a (+26)",
+      "Heat Dash +5g, +36a (+26)",
       "Weapon",
       "Combo from 1st with 1f delay",
       "Combo from 1st CH with 7f delay",
       "Input can be delayed 14f",
-      "Alternate notation: 1SS.b+2,2"
+      "Sometimes written 1SS.b+2,2"
     ]
   },
   {
@@ -128,7 +124,7 @@
     "hit_level": "h",
     "damage": "25",
     "startup": "i12~13",
-    "block": "-1~+0",
+    "block": "-1 +11w",
     "hit": "+9a (+0)",
     "counter": "",
     "alternateInputs": [
@@ -139,11 +135,11 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash  +5g~+6g +34a",
+      "Heat Dash +5g, +34a (+27)",
       "Homing",
       "Balcony Break",
       "Weapon",
-      "Wall crush on block +11g minimum, 3 damage on wall hit"
+      "Wall Crush on block, +11g minimum"
     ]
   },
   {
@@ -152,8 +148,8 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i18~20",
-    "block": "-4~-2",
-    "hit": "+14g~+15g",
+    "block": "-4",
+    "hit": "+14g",
     "counter": "",
     "alternateInputs": [
       "DGF 4"
@@ -161,7 +157,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~+7g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break"
     ]
   },
@@ -169,9 +165,9 @@
     "name": "Dragonfly Blade (Heat)",
     "input": "in heat DGF 1",
     "hit_level": "M",
-    "damage": "20",
+    "damage": "26",
     "startup": "i30~31",
-    "block": "+2~+3",
+    "block": "+2",
     "hit": "+46a",
     "counter": "",
     "alternateInputs": [
@@ -181,8 +177,8 @@
     "notes": [
       "Spike",
       "Weapon",
-      "14 chip damage on block",
-      "Recovers health on hit"
+      "18 chip damage on block",
+      "Recovers 4 base health on hit"
     ]
   },
   {
@@ -191,7 +187,7 @@
     "hit_level": "h,h,h",
     "damage": "10,10,20",
     "startup": "i16~17 i11~12 i11~12",
-    "block": "+4~+5",
+    "block": "+4",
     "hit": "+18a (+9)",
     "counter": "",
     "alternateInputs": [
@@ -205,14 +201,14 @@
       "Balcony Break",
       "Weapon",
       "17 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 4 base health on hit"
     ]
   },
   {
     "name": "NSS Naguri Kabuto Wari",
     "input": "1,NSS 1",
     "hit_level": "h,m",
-    "damage": "7,22",
+    "damage": "5,22",
     "startup": ",i23",
     "block": "-9",
     "hit": "+16a",
@@ -223,8 +219,13 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Spike",
+      "Weapon",
+      "Combo from 1st hit with 1f delay",
+      "Input can be delayed 3f",
+      "Interrupt with i4 from 1st block",
       "11 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written NSS.1,1"
     ]
   },
   {
@@ -233,8 +234,8 @@
     "hit_level": "m,h",
     "damage": "12,25",
     "startup": ",i22~24",
-    "block": "+7~+9",
-    "hit": "+18g~+20g",
+    "block": "+7",
+    "hit": "+18g",
     "counter": "",
     "alternateInputs": [
       "3,NSS 1"
@@ -242,14 +243,14 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~7g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "Combo from 1st hit",
       "7 chip damage on block",
-      "Recovers health no hit",
+      "Recovers 4 base health on hit",
       "Does not transition to DGF during Heat Dash",
-      "Recovers in 1SS"
+      "Recovers in 1SSSometimes written NSS.3,1"
     ]
   },
   {
@@ -258,7 +259,7 @@
     "hit_level": "m,m,M",
     "damage": "12,12,30",
     "startup": ",i26~27",
-    "block": "-14c~-13c",
+    "block": "-14c",
     "hit": "+20a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -268,10 +269,12 @@
     "notes": [
       "Balcony Break",
       "Weapon",
-      "Combo from 2nd hit",
+      "Combo from 2nd hit with 4f delay",
+      "Input can be delayed 10f",
+      "Move can be delayed 9f",
       "15 chip damage on block",
       "Clean hit 39 damage",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written NSS.3,2,1+2"
     ]
   },
   {
@@ -280,7 +283,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i8~11",
-    "block": "-15~-12",
+    "block": "-15",
     "hit": "+14 +64a",
     "counter": "",
     "alternateInputs": [
@@ -292,8 +295,8 @@
       "Weapon",
       "Knockdown against BT opponent, +19a (+9)",
       "4 chip damage on block",
-      "Recovers health on hit",
-      "Alternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4"
+      "Recovers 2 base health on hit",
+      "Sometimes written NSS Flash"
     ]
   },
   {
@@ -311,10 +314,11 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "8 chip damage on block",
+      "Recovers 4 base health on hit",
       "Extended range"
     ]
   },
@@ -324,9 +328,9 @@
     "hit_level": "m,M",
     "damage": "10,24",
     "startup": ",i23~24",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+16a",
-    "counter": "+6a",
+    "counter": "+52a",
     "alternateInputs": [
       "df+3,NSS 1"
     ],
@@ -335,9 +339,9 @@
       "Spike",
       "Weapon",
       "Combo from 1st hit",
-      "Recovers health on hit",
+      "Recovers 4 base health on hit",
       "12 chip damage on block",
-      "Input can be held to transition to d+1*"
+      "Input can be held to transition to d+1*Sometimes written NSS.df+3,1"
     ]
   },
   {
@@ -346,9 +350,9 @@
     "hit_level": "M",
     "damage": "24",
     "startup": "i24~25",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+16a",
-    "counter": "+6a",
+    "counter": "+52a",
     "alternateInputs": [
       "NSS d+1"
     ],
@@ -367,7 +371,7 @@
     "hit_level": "M",
     "damage": "30",
     "startup": "i24~25",
-    "block": "-8c~-7c",
+    "block": "-8c",
     "hit": "+16a (+6)",
     "counter": "",
     "alternateInputs": [
@@ -379,17 +383,17 @@
       "Weapon",
       "15 chip damage on block",
       "Clean hit 39 damage",
-      "Recovers health on hit",
-      "-12c~-13c if blocked at tip range"
+      "Recovers 4 base health on hit",
+      "-12c if blocked at tip range"
     ]
   },
   {
     "name": "NSS Poison Wind Gold Strike",
     "input": "uf+3+4,1,4,NSS 1",
     "hit_level": "M,h,m,M",
-    "damage": "20,8,15,15",
+    "damage": "20,8,15,24",
     "startup": ",i24~25",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+16a",
     "counter": "+52a",
     "alternateInputs": [
@@ -397,11 +401,12 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Spike",
       "Weapon",
       "Can transition to d+1*,n",
       "12 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written NSS.uf+3+4,1,4,1"
     ]
   },
   {
@@ -410,7 +415,7 @@
     "hit_level": "m,m,m",
     "damage": "10,5,20",
     "startup": ",i23~24 i14~15",
-    "block": "-1~+0",
+    "block": "-1",
     "hit": "+37a (+29)",
     "counter": "",
     "alternateInputs": [
@@ -418,10 +423,14 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Spike",
       "Weapon",
       "Combo from 1st hit with 2f delay",
-      "Recovers health on hit"
+      "4 chip damage on block",
+      "Recovers 4 base health on hitSometimes written ",
+      "NSS.KIN.1,1",
+      "KIN.NSS.1,1"
     ]
   },
   {
@@ -430,7 +439,7 @@
     "hit_level": "m,M",
     "damage": "15,30",
     "startup": "i32~34",
-    "block": "-3~-1",
+    "block": "-3",
     "hit": "+15a",
     "counter": "",
     "alternateInputs": [
@@ -442,29 +451,33 @@
       "Spike",
       "Weapon",
       "9 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 7 base health on hitSometimes written ",
+      "NSS.KIN.2,1+2",
+      "KIN.NSS.2,1+2"
     ]
   },
   {
-    "name": "NSS Tenshu Kuzushi (Hold)",
-    "input": "KIN 2,NSS 1+2*",
+    "name": "Tenshu Kuzushi (Hold)",
+    "input": "KIN 2,1+2*",
     "hit_level": "m,M",
     "damage": "15,30",
     "startup": ",i47~49",
-    "block": "+14~+16",
-    "hit": "+69a (+49)",
+    "block": "+2~+4",
+    "hit": "+2a",
     "counter": "",
     "alternateInputs": [
-      "KIN 2,NSS 1+2*"
+      "KIN 2,1+2*"
     ],
     "categories": [],
     "notes": [
       "Balcony Break",
       "Spike",
       "Weapon",
-      "Guard break",
-      "12 chip damage on block",
-      "Recovers health on hit"
+      "9 chip damage on block",
+      "Power in NSS or Heat",
+      "Sometimes written ",
+      "1SS.KIN.2,1+2*",
+      "KIN.2,1SS.1+2*"
     ]
   },
   {
@@ -473,7 +486,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i12~15",
-    "block": "-15~-12",
+    "block": "-15",
     "hit": "+14 +64a",
     "counter": "",
     "alternateInputs": [
@@ -481,10 +494,12 @@
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Weapon",
       "Knockdown against BT opponent, +19a (+9)",
       "4 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 2 base health on hit",
+      "Sometimes written KIN.NSS.1+4"
     ]
   },
   {
@@ -493,7 +508,7 @@
     "hit_level": "M,M,M",
     "damage": "6,6,12",
     "startup": "i19~20 i6~7 i7~8",
-    "block": "-5~-4",
+    "block": "-5",
     "hit": "+18a (+11)",
     "counter": "",
     "alternateInputs": [
@@ -504,7 +519,7 @@
       "Weapon",
       "Combos from any hit",
       "12 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written KIN.NSS.f+1"
     ]
   },
   {
@@ -513,7 +528,7 @@
     "hit_level": "M,M,M,M,M,M",
     "damage": "6,6,6,6,6,12",
     "startup": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
-    "block": "--9~-8",
+    "block": "-9",
     "hit": "+29a (+14)",
     "counter": "",
     "alternateInputs": [
@@ -524,14 +539,14 @@
       "Weapon",
       "Combos from any hit",
       "21 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 8 base health on hitSometimes written KIN.NSS.f+1*"
     ]
   },
   {
     "name": "Jab",
     "input": "1",
     "hit_level": "h",
-    "damage": "7",
+    "damage": "5",
     "startup": "i10",
     "block": "+1",
     "hit": "+8",
@@ -541,14 +556,14 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
     "name": "Naguri Kabuto Wari",
     "input": "1,1",
     "hit_level": "h,m",
-    "damage": "7,19",
+    "damage": "5,19",
     "startup": ",i23",
     "block": "-9",
     "hit": "+4c",
@@ -560,11 +575,13 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Combo from 1st hit with 2f delay",
+      "Combo from 1st hit with 1f delay",
       "Input can be delayed 3f",
       "Interrupt with i4 from 1st block",
       "3 chip damage on block",
-      "Power up in NSS or Heat"
+      "Power up in NSS or Heat Sometimes written ",
+      "1SS.1,1",
+      "1,1SS.1"
     ]
   },
   {
@@ -581,7 +598,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate notation: 1SS.2"
+      ""
     ]
   },
   {
@@ -590,7 +607,7 @@
     "hit_level": "h,m",
     "damage": "10,23",
     "startup": ",i26~27",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+12a",
     "counter": "",
     "alternateInputs": [
@@ -601,10 +618,11 @@
       "Balcony Break",
       "Weapon",
       "Combo from 1st CH with 2f delay",
-      "Move can be delayed 2f",
       "Cancel to r15 with b",
       "Interrupt with i8 from 1st block",
-      "Alternate notation: 1SS.2,1"
+      "Becomes a different move in NSSSometimes written ",
+      "1SS.2,1",
+      "2,1SS.1"
     ]
   },
   {
@@ -622,10 +640,10 @@
     "categories": [],
     "notes": [
       "Tornado",
+      "Balcony break on airborne hit",
       "Combo from 1st hit with 1f delay",
-      "Move can be delayed 1f",
-      "Transition to NSS on hit or block only",
-      "Transition to r25 KIN with 1+2"
+      "Enter KIN with 1+2",
+      "Transition to NSS on hit or block only"
     ]
   },
   {
@@ -634,7 +652,7 @@
     "hit_level": "h,h",
     "damage": "10,24",
     "startup": ",i26~27",
-    "block": "-10~-9",
+    "block": "-10",
     "hit": "+16a (+7)",
     "counter": "",
     "alternateInputs": [
@@ -661,8 +679,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit with 2f delay",
-      "Move can be delayed 2f"
+      "Combo from 1st hit with 2f delay"
     ]
   },
   {
@@ -671,15 +688,15 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i15~16",
-    "block": "-9~-8",
-    "hit": "+5~+6",
+    "block": "-9",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "3"
     ],
     "categories": [],
     "notes": [
-      "Sometimes written Enma"
+      ""
     ]
   },
   {
@@ -688,8 +705,8 @@
     "hit_level": "m,h",
     "damage": "12,22",
     "startup": ",i22~24",
-    "block": "+7~+9",
-    "hit": "+18g~+20g",
+    "block": "+7",
+    "hit": "+18g",
     "counter": "",
     "alternateInputs": [
       "3,1"
@@ -697,12 +714,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~7g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "Combo from 1st hit",
       "4 chip damage on block",
-      "Does not transition to DGF during Heat activation and Heat Dash",
+      "Does not transition to DGF during Heat activation or Heat Dash",
       "Power up in NSS or Heat",
       "Recovers in 1SS"
     ]
@@ -730,7 +747,7 @@
     "hit_level": "m,m,M",
     "damage": "12,12,29",
     "startup": ",i26~27",
-    "block": "-14c~-13c",
+    "block": "-14c",
     "hit": "+20a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -740,7 +757,10 @@
     "notes": [
       "Balcony Break",
       "Weapon",
-      "Combo from 2nd hit",
+      "Combo from 2nd hit with 4f delay",
+      "Input can be delayed 10f",
+      "Move can be delayed 9f",
+      "Interrupt with i7 from 2nd block",
       "5 chip damage on block",
       "Power up in NSS or Heat"
     ]
@@ -751,15 +771,15 @@
     "hit_level": "m,m",
     "damage": "6,22",
     "startup": "i17~18 i28~29",
-    "block": "-6~-5",
-    "hit": "+3~+4",
+    "block": "-6",
+    "hit": "+3",
     "counter": "",
     "alternateInputs": [
       "3~4"
     ],
     "categories": [],
     "notes": [
-      "Transition to r18 DGF with 1SS.U"
+      "Enter DGF +5 +14 r18 with 1SS.U"
     ]
   },
   {
@@ -768,18 +788,15 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i25~26",
-    "block": "-13~-12",
+    "block": "-13",
     "hit": "+52a (+42)",
     "counter": "",
     "alternateInputs": [
       "4~3"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
-      "Tornado",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "Tornado"
     ]
   },
   {
@@ -788,15 +805,15 @@
     "hit_level": "h",
     "damage": "12",
     "startup": "i12~13",
-    "block": "-11~-10",
-    "hit": "+0~+1",
+    "block": "-11",
+    "hit": "+0",
     "counter": "+20a (+10)",
     "alternateInputs": [
       "4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony break on airborne hit"
     ]
   },
   {
@@ -813,8 +830,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit with 4f delay",
-      "Move can be delayed 4f"
+      "Combo from 1st hit with 4f delay"
     ]
   },
   {
@@ -823,8 +839,8 @@
     "hit_level": "h,h,m",
     "damage": "12,12,5",
     "startup": ",i30~31",
-    "block": "-22~-21",
-    "hit": "-12~-11",
+    "block": "-22",
+    "hit": "-12",
     "counter": "",
     "alternateInputs": [
       "4,4,2"
@@ -840,8 +856,8 @@
     "hit_level": "h,h,m,h",
     "damage": "12,12,5,6",
     "startup": ",i22~23",
-    "block": "-24~-23",
-    "hit": "-13~-12",
+    "block": "-24",
+    "hit": "-13",
     "counter": "",
     "alternateInputs": [
       "4,4,2,2"
@@ -867,7 +883,9 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Alternate notation: 1SS.4,4,2,2,1"
+      "Sometimes written ",
+      "1SS.4,4,2,2,1",
+      "4,4,2,2,1SS.1"
     ]
   },
   {
@@ -886,8 +904,9 @@
     "notes": [
       "Weapon",
       "Cancel early to r26 with B (earliest cancel -12a)",
-      "Possible to double-hit",
-      "Alternate notation: 1SS.4,4,2,2,1~1"
+      "Possible to double-hitSometimes written ",
+      "1SS.4,4,2,2,1~1",
+      "4,4,2,2,1SS.1~1"
     ]
   },
   {
@@ -896,7 +915,7 @@
     "hit_level": "h,h,h",
     "damage": "12,12,20",
     "startup": ",i24~25",
-    "block": "-4~-3",
+    "block": "-4",
     "hit": "+18a (+9)",
     "counter": "",
     "alternateInputs": [
@@ -905,8 +924,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from 2nd CH with 4f delay",
-      "Move can be delayed 4f"
+      "Combo from 2nd CH with 4f delay"
     ]
   },
   {
@@ -915,8 +933,8 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i6~9",
-    "block": "-15~-12",
-    "hit": "+14c~+17c",
+    "block": "-15",
+    "hit": "+14c",
     "counter": "",
     "alternateInputs": [
       "1+4"
@@ -925,10 +943,10 @@
     "notes": [
       "Weapon",
       "70% proration on standing hit",
-      "Knockdown against BT opponent, +11a (FDFT)",
+      "Knockdown against BT opponent +11a (FDFT)",
       "Power up in NSS or HeatSometimes written ",
-      "Yoshimitsu Flash",
-      "Soul Stealer"
+      "1SS.1+4",
+      "Flash"
     ]
   },
   {
@@ -946,7 +964,8 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Alternate notation: 1SS.1+2+3"
+      "Can hit grounded when up-close and off-axis",
+      "Sometimes written 1SS.1+2+3"
     ]
   },
   {
@@ -955,8 +974,8 @@
     "hit_level": "h",
     "damage": "18",
     "startup": "i17~18",
-    "block": "-4~-3",
-    "hit": "+14g~+15g",
+    "block": "-4",
+    "hit": "+14g",
     "counter": "+39a",
     "alternateInputs": [
       "f+2"
@@ -972,7 +991,7 @@
     "hit_level": "h,M",
     "damage": "18,21",
     "startup": ",i26~27",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+17a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -982,9 +1001,9 @@
     "notes": [
       "Tornado",
       "Weapon",
-      "Combo from 1st CH",
-      "Alternate input: BT.2,1",
-      "Alternate notation: 1SS.f+2,1"
+      "Combo from 1st CH with 1f delaySometimes written ",
+      "1SS.f+2,1",
+      "f+2,1SS.1"
     ]
   },
   {
@@ -992,7 +1011,7 @@
     "input": "f+2,db+2",
     "hit_level": "h,m",
     "damage": "18,8",
-    "startup": ",i10~14",
+    "startup": ",i15",
     "block": "-5",
     "hit": "+6",
     "counter": "",
@@ -1010,7 +1029,7 @@
     "hit_level": "h",
     "damage": "24",
     "startup": "i16~17",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+17a (+8)",
     "counter": "",
     "alternateInputs": [
@@ -1030,8 +1049,8 @@
     "hit_level": "h,m",
     "damage": "24,20",
     "startup": ",i23~24",
-    "block": "-6~-5",
-    "hit": "+37a (+23a)",
+    "block": "-6",
+    "hit": "+37a (+23)",
     "counter": "",
     "alternateInputs": [
       "f+3,4"
@@ -1060,7 +1079,7 @@
     ],
     "notes": [
       "Balcony Break",
-      "-9 on attack absorbtion",
+      "-9 on block after absorbing an attack",
       "8 chip damage on attack absorbtion"
     ]
   },
@@ -1079,7 +1098,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "4 chip damage on block",
@@ -1107,8 +1126,9 @@
       "Attacks after 1st only come out on hit",
       "Combo from 1st hit does 2,1,1 damage",
       "Combo does 2 extra damage from FLE.n",
-      "Cancel to r55 BT with b",
-      "Alternate notation: 1SS.f+3+4"
+      "Cancel to r65 BT earliest on frame 10 with b",
+      "Automatically recovers to r55 IND on self-wallsplat",
+      "Sometimes written 1SS.f+3+4"
     ]
   },
   {
@@ -1134,8 +1154,8 @@
     "hit_level": "m,h",
     "damage": "14,16",
     "startup": ",i25~26",
-    "block": "-4~-3",
-    "hit": "+14g~+15g",
+    "block": "-4",
+    "hit": "+14g",
     "counter": "+39a",
     "alternateInputs": [
       "df+1,2"
@@ -1152,7 +1172,7 @@
     "hit_level": "m,h,M",
     "damage": "14,16,19",
     "startup": ",i26~27",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+17a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -1162,8 +1182,9 @@
     "notes": [
       "Tornado",
       "Weapon",
-      "Combo from 2nd CH",
-      "Alternate notation: 1SS.df+1,2,1"
+      "Combo from 2nd CH with 1f delaySometimes written ",
+      "1SS.df+1,2,1",
+      "df+1,2,1SS.1"
     ]
   },
   {
@@ -1197,7 +1218,8 @@
     ],
     "categories": [],
     "notes": [
-      "Jail from 1st attack with 2f delay"
+      "Jail from 1st attack with 2f delay",
+      "2nd hit can whiff at certain ranges, -20 on whiff"
     ]
   },
   {
@@ -1206,7 +1228,7 @@
     "hit_level": "m",
     "damage": "13",
     "startup": "i15~16",
-    "block": "-7~-6",
+    "block": "-7",
     "hit": "+34a (+24)",
     "counter": "",
     "alternateInputs": [
@@ -1214,8 +1236,8 @@
     ],
     "categories": [],
     "notes": [
-      "On hit +4s~+5s against crouching opponent",
-      "On CH launches crouching opponent"
+      "+4s against crouching",
+      "Launches crouching on CH"
     ]
   },
   {
@@ -1224,8 +1246,8 @@
     "hit_level": "m",
     "damage": "10",
     "startup": "i17~18",
-    "block": "-4~-3",
-    "hit": "+4~+5",
+    "block": "-4",
+    "hit": "+4",
     "counter": "",
     "alternateInputs": [
       "df+3"
@@ -1241,19 +1263,22 @@
     "hit_level": "m,M",
     "damage": "10,20",
     "startup": ",i23~24",
-    "block": "-9~-8",
-    "hit": "+4c~+5c",
+    "block": "-9",
+    "hit": "+4c",
     "counter": "+6a",
     "alternateInputs": [
       "df+3,1"
     ],
     "categories": [],
     "notes": [
+      "Spike",
       "Weapon",
       "Combo from 1st hit",
       "4 chip damage on block",
       "Power up in NSS or Heat",
-      "Input can be held to transition to d+1*"
+      "Input can be held to transition to d+1*Sometimes written ",
+      "1SS.df+3,1",
+      "df+3,1SS.1"
     ]
   },
   {
@@ -1279,7 +1304,7 @@
     "hit_level": "M",
     "damage": "20",
     "startup": "i20~21",
-    "block": "-17~-16",
+    "block": "-17",
     "hit": "+35a (+25)",
     "counter": "",
     "alternateInputs": [
@@ -1288,11 +1313,11 @@
     "categories": [],
     "notes": [
       "Weapon",
+      "Enter KIN r30 with 1+2",
       "Can be buffered",
-      "Transition to r37 KIN with 1+2",
       "Can be performed in FC",
-      "Power up input: f,n,d,df+1",
-      "Alternate notation: 1SS.df+1+4"
+      "Power up input f,n,d,df+1",
+      "Sometimes written 1SS.df+1+4"
     ]
   },
   {
@@ -1301,8 +1326,8 @@
     "hit_level": "m",
     "damage": "18",
     "startup": "i17~18",
-    "block": "-13~-12",
-    "hit": "+6",
+    "block": "-13",
+    "hit": "+6g",
     "counter": "+58a (+38)",
     "alternateInputs": [
       "df+2+3"
@@ -1310,9 +1335,9 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Can be buffered",
       "Can be performed in FC",
-      "Power up input: f,n,d,df+2",
-      "Alternate notation: 1SS.df+2+3"
+      "Power up input f,n,d,df+2Sometimes written 1SS.df+2+3"
     ]
   },
   {
@@ -1321,8 +1346,8 @@
     "hit_level": "M",
     "damage": "15",
     "startup": "i24~25",
-    "block": "-9~-8",
-    "hit": "+1c~+2c",
+    "block": "-9",
+    "hit": "+1c",
     "counter": "+6a",
     "alternateInputs": [
       "d+1"
@@ -1332,7 +1357,7 @@
       "Spike",
       "Weapon",
       "4 chip damage on block",
-      "Power up in NSS or Heat "
+      "Power up in NSS or Heat"
     ]
   },
   {
@@ -1342,7 +1367,7 @@
     "damage": "20",
     "startup": "i55~56",
     "block": "",
-    "hit": "+4c~+5c",
+    "hit": "+4c",
     "counter": "+6a",
     "alternateInputs": [
       "d+1*(1),n"
@@ -1351,7 +1376,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Constantly realigns while charging",
+      "Slowly realigns while charging",
       "Can be canceled with b*"
     ]
   },
@@ -1362,7 +1387,7 @@
     "damage": "25",
     "startup": "i99~100",
     "block": "",
-    "hit": "+4c~+5c",
+    "hit": "+4c",
     "counter": "+6a",
     "alternateInputs": [
       "d+1*(2),n"
@@ -1371,7 +1396,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Constantly realigns while charging",
+      "Slowly realigns while charging",
       "Can be canceled with b*"
     ]
   },
@@ -1382,7 +1407,7 @@
     "damage": "30",
     "startup": "i130~131",
     "block": "",
-    "hit": "+4c~+5c",
+    "hit": "+4c",
     "counter": "+6a",
     "alternateInputs": [
       "d+1*(3),n"
@@ -1391,7 +1416,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Constantly realigns while charging",
+      "Slowly realigns while charging",
       "Can be canceled with b*"
     ]
   },
@@ -1411,7 +1436,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Constantly realigns while charging",
+      "Slowly realigns while charging",
       "Can be canceled with b*"
     ]
   },
@@ -1431,7 +1456,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Constantly realigns while charging",
+      "Slowly realigns while charging",
       "Can be canceled with b*"
     ]
   },
@@ -1451,7 +1476,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Constantly realigns while charging",
+      "Slowly realigns while charging",
       "Can be canceled with b*"
     ]
   },
@@ -1461,8 +1486,8 @@
     "hit_level": "M",
     "damage": "12",
     "startup": "i16~17",
-    "block": "-9~-8",
-    "hit": "+0~+1",
+    "block": "-9",
+    "hit": "+0",
     "counter": "",
     "alternateInputs": [
       "d+2"
@@ -1478,7 +1503,7 @@
     "hit_level": "M,h",
     "damage": "12,23",
     "startup": ",i27~28",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+17a (+8)",
     "counter": "",
     "alternateInputs": [
@@ -1490,8 +1515,9 @@
       "Weapon",
       "Combo from 1st hit with 8f delay",
       "Input can be delayed 16f",
-      "Move can be delayed 10f",
-      "Alternate notation: 1SS.d+2,1"
+      "Move can be delayed 10fSometimes written ",
+      "1SS.d+2,1",
+      "d+2,1SS.1"
     ]
   },
   {
@@ -1500,8 +1526,8 @@
     "hit_level": "M,m",
     "damage": "12,17",
     "startup": ",i22~23",
-    "block": "-12~-11",
-    "hit": "+7g~+8g",
+    "block": "-12",
+    "hit": "+7g",
     "counter": "+28a (+22)",
     "alternateInputs": [
       "d+2,2"
@@ -1512,7 +1538,7 @@
       "Combo from 1st hit with 13f delay",
       "Input can be delayed 16f",
       "Move can be delayed 10f",
-      "In 1SS transition to r31 NSS with B"
+      "In 1SS Enter NSS r31 with B"
     ]
   },
   {
@@ -1521,7 +1547,7 @@
     "hit_level": "M,m,h",
     "damage": "12,17,20",
     "startup": ",i19~20",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+8a (-1)",
     "counter": "",
     "alternateInputs": [
@@ -1533,7 +1559,9 @@
       "Weapon",
       "Input can be delayed 10f",
       "Move can be delayed 9f",
-      "Alternate notation: 1SS.d+2,2,1"
+      "Sometimes written ",
+      "1SS.d+2,2,1",
+      "d+2,2,1SS.1"
     ]
   },
   {
@@ -1542,7 +1570,7 @@
     "hit_level": "M,m,M",
     "damage": "12,17,19",
     "startup": ",i25~27",
-    "block": "-13~-11",
+    "block": "-13",
     "hit": "+16a (+9)",
     "counter": "",
     "alternateInputs": [
@@ -1562,8 +1590,8 @@
     "hit_level": "M,m,m",
     "damage": "12,17,17",
     "startup": ",i29~30",
-    "block": "-12~-11",
-    "hit": "+2c~+3c",
+    "block": "-12",
+    "hit": "+2c",
     "counter": "+42a",
     "alternateInputs": [
       "d+2,2,d+1"
@@ -1573,7 +1601,8 @@
       "Spike",
       "Weapon",
       "Input can be delayed 10f",
-      "Move can be delayed 9f"
+      "Move can be delayed 9f",
+      "Last hit has shorter range and no Weapon property in NSS"
     ]
   },
   {
@@ -1627,7 +1656,7 @@
       "Weapon",
       "60 self damage during 1st recovery frame",
       "Can connect from the front if the opponent attacks into it",
-      "Alternate notation: 1SS.d+1+4"
+      "Sometimes written 1SS.d+1+4"
     ]
   },
   {
@@ -1752,7 +1781,7 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony break on CH",
+      "Balcony break on airborne or CH",
       "Combo from 1st with 1f delay",
       "Combo from 1st CH with 8f delay",
       "Input can be delayed 8f"
@@ -1760,7 +1789,7 @@
   },
   {
     "name": "",
-    "input": "DB+2",
+    "input": "db+2",
     "hit_level": "m",
     "damage": "8",
     "startup": "i15",
@@ -1768,7 +1797,7 @@
     "hit": "+6",
     "counter": "",
     "alternateInputs": [
-      "DB+2"
+      "db+2"
     ],
     "categories": [],
     "notes": [
@@ -1777,7 +1806,7 @@
   },
   {
     "name": "",
-    "input": "DB+2,2",
+    "input": "db+2,2",
     "hit_level": "m,m",
     "damage": "8,7",
     "startup": ",i10~14",
@@ -1785,7 +1814,7 @@
     "hit": "+2~+6",
     "counter": "",
     "alternateInputs": [
-      "DB+2,2"
+      "db+2,2"
     ],
     "categories": [],
     "notes": [
@@ -1794,7 +1823,7 @@
   },
   {
     "name": "",
-    "input": "DB+2,2,2",
+    "input": "db+2,2,2",
     "hit_level": "m,m,m",
     "damage": "8,7,6",
     "startup": ",i10~14",
@@ -1802,7 +1831,7 @@
     "hit": "+2~+6",
     "counter": "",
     "alternateInputs": [
-      "DB+2,2,2"
+      "db+2,2,2"
     ],
     "categories": [],
     "notes": [
@@ -1811,7 +1840,7 @@
   },
   {
     "name": "",
-    "input": "DB+2,2,2,2",
+    "input": "db+2,2,2,2",
     "hit_level": "m,m,m,m",
     "damage": "8,7,6,5",
     "startup": ",i10~14",
@@ -1819,7 +1848,7 @@
     "hit": "+2~+6",
     "counter": "",
     "alternateInputs": [
-      "DB+2,2,2,2"
+      "db+2,2,2,2"
     ],
     "categories": [],
     "notes": [
@@ -1828,7 +1857,7 @@
   },
   {
     "name": "",
-    "input": "DB+2,2,2,2,2",
+    "input": "db+2,2,2,2,2",
     "hit_level": "m,m,m,m,m",
     "damage": "8,7,6,5,4",
     "startup": ",i10~14",
@@ -1836,7 +1865,7 @@
     "hit": "+2~+6",
     "counter": "",
     "alternateInputs": [
-      "DB+2,2,2,2,2"
+      "db+2,2,2,2,2"
     ],
     "categories": [],
     "notes": [
@@ -1846,7 +1875,7 @@
   },
   {
     "name": "Stone Fists",
-    "input": "DB+2,2,2,2,2,2",
+    "input": "db+2,2,2,2,2,2",
     "hit_level": "m,m,m,m,m,m",
     "damage": "8,7,6,5,4,3",
     "startup": ",i10~14",
@@ -1854,7 +1883,7 @@
     "hit": "-37",
     "counter": "",
     "alternateInputs": [
-      "DB+2,2,2,2,2,2"
+      "db+2,2,2,2,2,2"
     ],
     "categories": [],
     "notes": [
@@ -1863,15 +1892,15 @@
   },
   {
     "name": "",
-    "input": "DB+3",
+    "input": "db+3",
     "hit_level": "l",
     "damage": "8",
     "startup": "i18~19",
-    "block": "-25~-24",
-    "hit": "-14~-13",
+    "block": "-25",
+    "hit": "-14",
     "counter": "",
     "alternateInputs": [
-      "DB+3"
+      "db+3"
     ],
     "categories": [],
     "notes": [
@@ -1880,25 +1909,25 @@
   },
   {
     "name": "",
-    "input": "DB+3,3",
+    "input": "db+3,3",
     "hit_level": "l,l",
     "damage": "8,7",
     "startup": ",i15~17",
-    "block": "-19~-17",
-    "hit": "-7~-5",
+    "block": "-19",
+    "hit": "-7",
     "counter": "",
     "alternateInputs": [
-      "DB+3,3"
+      "db+3,3"
     ],
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Transition to r20 IND with d+3+4"
+      "Enter IND r20 with d+3+4"
     ]
   },
   {
     "name": "",
-    "input": "DB+3,3,3",
+    "input": "db+3,3,3",
     "hit_level": "l,l,l",
     "damage": "8,7,7",
     "startup": ",i15~17",
@@ -1906,61 +1935,61 @@
     "hit": "-7~-5",
     "counter": "",
     "alternateInputs": [
-      "DB+3,3,3"
+      "db+3,3,3"
     ],
     "categories": [],
     "notes": [
       "Combo from 2nd CH",
-      "Transition to r20 IND with d+3+4"
+      "Enter IND r20 with d+3+4"
     ]
   },
   {
     "name": "",
-    "input": "DB+3,3,3,3",
+    "input": "db+3,3,3,3",
     "hit_level": "l,l,l,l",
     "damage": "8,7,7,5",
     "startup": ",i15~17",
-    "block": "-19~-17",
-    "hit": "-7~-5",
+    "block": "-19",
+    "hit": "-7",
     "counter": "",
     "alternateInputs": [
-      "DB+3,3,3,3"
+      "db+3,3,3,3"
     ],
     "categories": [],
     "notes": [
       "Combo from 3rd CH",
-      "Transition to r20 IND with d+3+4"
+      "Enter IND r20 with d+3+4"
     ]
   },
   {
     "name": "",
-    "input": "DB+3,3,3,3,3",
+    "input": "db+3,3,3,3,3",
     "hit_level": "l,l,l,l,l",
     "damage": "8,7,7,5,5",
     "startup": ",i15~17",
-    "block": "-19~-17",
-    "hit": "-7~-5",
+    "block": "-19",
+    "hit": "-7",
     "counter": "",
     "alternateInputs": [
-      "DB+3,3,3,3,3"
+      "db+3,3,3,3,3"
     ],
     "categories": [],
     "notes": [
       "Combo from 4th CH",
-      "Transition to r20 IND with d+3+4"
+      "Enter IND r20 with d+3+4"
     ]
   },
   {
     "name": "Manji Spin Low Kicks",
-    "input": "DB+3,3,3,3,3,3",
+    "input": "db+3,3,3,3,3,3",
     "hit_level": "l,l,l,l,l,l",
     "damage": "8,7,7,5,5,5",
     "startup": ",i9~11",
-    "block": "-26~-24",
-    "hit": "-15~-13",
+    "block": "-26",
+    "hit": "-15",
     "counter": "",
     "alternateInputs": [
-      "DB+3,3,3,3,3,3"
+      "db+3,3,3,3,3,3"
     ],
     "categories": [],
     "notes": [
@@ -1969,26 +1998,23 @@
   },
   {
     "name": "Manji Spin Low Kicks Front Kick",
-    "input": "DB+3,3,3,3,3,4",
+    "input": "db+3,3,3,3,3,4",
     "hit_level": "l,l,l,l,l,m",
     "damage": "8,7,7,5,5,15",
     "startup": ",i12~13",
-    "block": "-8~-7",
+    "block": "-8",
     "hit": "+23a (+13)",
     "counter": "",
     "alternateInputs": [
-      "DB+3,3,3,3,3,4"
+      "db+3,3,3,3,3,4"
     ],
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Transition to r21 KIN with 1+2 (-6~-5 on block)",
-      "Transition to r24 NSS with B",
+      "Enter KIN -6 +25a (+15) r21 with 1+2",
+      "Enter NSS -6 +25a (+15) r24 with B",
       "Same animation as ws4",
-      "Alternate inputs:",
-      "DB+3,3,4",
-      "DB+3,3,3,4",
-      "DB+3,3,3,3,4"
+      "Can be performed following any number of db+3 lows except the first one"
     ]
   },
   {
@@ -2040,12 +2066,12 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: BDS.2"
+      ""
     ]
   },
   {
     "name": "Backflip Kick",
-    "input": "BDS 1",
+    "input": "BDS 3",
     "hit_level": "m",
     "damage": "23",
     "startup": "i17~30",
@@ -2053,11 +2079,11 @@
     "hit": "-13~+0",
     "counter": "",
     "alternateInputs": [
-      "BDS 1"
+      "BDS 3"
     ],
     "categories": [],
     "notes": [
-      "Alternate input: BDS.4"
+      "Can hit from the front of the opponent attacks into it"
     ]
   },
   {
@@ -2083,9 +2109,9 @@
     "hit_level": "h,h",
     "damage": "8,9",
     "startup": ",i11~12",
-    "block": "+4~+5",
-    "hit": "+5~+6",
-    "counter": "+10~+11",
+    "block": "+4",
+    "hit": "+5",
+    "counter": "+10",
     "alternateInputs": [
       "B+1,1"
     ],
@@ -2100,9 +2126,9 @@
     "hit_level": "h,h,h",
     "damage": "8,9,10",
     "startup": ",i11~12",
-    "block": "+4~+5",
-    "hit": "+5~+6",
-    "counter": "+10~+11",
+    "block": "+4",
+    "hit": "+5",
+    "counter": "+10",
     "alternateInputs": [
       "B+1,1,1"
     ],
@@ -2117,9 +2143,9 @@
     "hit_level": "h,h,h,h",
     "damage": "8,9,10,12",
     "startup": ",i11~12",
-    "block": "+4~+5",
-    "hit": "+5~+6",
-    "counter": "+10~+11",
+    "block": "+4",
+    "hit": "+5",
+    "counter": "+10",
     "alternateInputs": [
       "B+1,1,1,1"
     ],
@@ -2134,9 +2160,9 @@
     "hit_level": "h,h,h,h,h",
     "damage": "8,9,10,12,14",
     "startup": ",i11~12",
-    "block": "+4~+5",
-    "hit": "+5~+6",
-    "counter": "+10~+11",
+    "block": "+4",
+    "hit": "+5",
+    "counter": "+10",
     "alternateInputs": [
       "B+1,1,1,1,1"
     ],
@@ -2168,17 +2194,17 @@
     "hit_level": "h,h,l",
     "damage": "8,9,7",
     "startup": ",i13~14",
-    "block": "-20~-19",
-    "hit": "-9~-8",
+    "block": "-20",
+    "hit": "-9",
     "counter": "",
     "alternateInputs": [
       "B+1,1,DB+3"
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "b+1,db+3 (Combos)",
-      "b+1,1,db+3 (Combos)"
+      "Combo from 1st hit",
+      "Links to db+3 extensions",
+      "Can be performed from a single B+1"
     ]
   },
   {
@@ -2187,60 +2213,18 @@
     "hit_level": "h,h,l,l",
     "damage": "8,9,7,5",
     "startup": ",i15~17",
-    "block": "-19~-17",
-    "hit": "-7~-5",
+    "block": "-19",
+    "hit": "-7",
     "counter": "",
     "alternateInputs": [
       "B+1,1,DB+3,3"
     ],
     "categories": [],
     "notes": [
-      "Transition to r20 IND with d+3+4",
-      "Alternate inputs:",
-      "b+1,DB+3,3 (Combos)",
-      "b+1,1,DB+3,3"
-    ]
-  },
-  {
-    "name": "",
-    "input": "B+1,1,DB+3,3,3",
-    "hit_level": "h,h,l,l,l",
-    "damage": "8,9,7,5,5",
-    "startup": ",i9~11",
-    "block": "-27~-25",
-    "hit": "-15~-13",
-    "counter": "",
-    "alternateInputs": [
-      "B+1,1,DB+3,3,3"
-    ],
-    "categories": [],
-    "notes": [
-      "Alternate inputs:",
-      "b+1,DB+3,3,3",
-      "b+1,1,DB+3,3,3"
-    ]
-  },
-  {
-    "name": "",
-    "input": "B+1,1,DB+3,3,4",
-    "hit_level": "h,h,l,l,m",
-    "damage": "8,9,7,5,15",
-    "startup": ",i12~13",
-    "block": "-8~-7",
-    "hit": "+23a (+13a)",
-    "counter": "",
-    "alternateInputs": [
-      "B+1,1,DB+3,3,4"
-    ],
-    "categories": [],
-    "notes": [
-      "Balcony Break",
-      "Transition to r21 KIN with 1+2 (-6~-5 on block)",
-      "Transition to r24 NSS with B",
-      "Same animation as ws4",
-      "Alternate inputs:",
-      "b+1,DB+3,3,4",
-      "b+1,1,DB+3,3,4"
+      "Combo from 3rd CH",
+      "Links to db+3 extensions",
+      "Enter IND r20 with d+3+4",
+      "Can be performed from a single B+1"
     ]
   },
   {
@@ -2249,15 +2233,15 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i14~15",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "",
     "alternateInputs": [
       "b+2"
     ],
     "categories": [],
     "notes": [
-      "Transition to r27 KIN with 1+2"
+      "Enter KIN r27 with n,1+2"
     ]
   },
   {
@@ -2266,7 +2250,7 @@
     "hit_level": "m,M",
     "damage": "12,20",
     "startup": ",i27~28",
-    "block": "-17~-16",
+    "block": "-17",
     "hit": "+28a (+18)",
     "counter": "",
     "alternateInputs": [
@@ -2276,9 +2260,11 @@
     "notes": [
       "Weapon",
       "Combo from 1st CH with 2f delay",
-      "Transition to r30 KIN with 1+2",
+      "Enter KIN r30 with 1+2",
       "Input can be delayed 14f",
-      "Alternate notation: 1SS.b+2,1"
+      "Sometimes written ",
+      "1SS.b+2,1",
+      "b+2,1SS.1"
     ]
   },
   {
@@ -2296,12 +2282,12 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~+6g +36a (+26)",
+      "Heat Dash +5g, +36a (+26)",
       "Weapon",
       "Combo from 1st with 1f delay",
       "Combo from 1st CH with 7f delay",
       "Input can be delayed 14f",
-      "Alternate notation: 1SS.b+2,2"
+      "Sometimes written 1SS.b+2,2"
     ]
   },
   {
@@ -2318,8 +2304,7 @@
     ],
     "categories": [],
     "notes": [
-      "8 self-damage",
-      "Alternate input: b+4"
+      "8 self-damage"
     ]
   },
   {
@@ -2337,7 +2322,7 @@
     "categories": [],
     "notes": [
       "10 self-damage",
-      "Alternate input: b+4,4"
+      "18 self-damage in total"
     ]
   },
   {
@@ -2354,8 +2339,8 @@
     ],
     "categories": [],
     "notes": [
-      "4 self-damage",
-      "Alternate input: b+4,4,4"
+      "5 self-damage",
+      "23 self-damage in total"
     ]
   },
   {
@@ -2372,8 +2357,8 @@
     ],
     "categories": [],
     "notes": [
-      "4 self-damage",
-      "Alternate input: b+4,4,4,4"
+      "5 self-damage",
+      "28 self-damage in total"
     ]
   },
   {
@@ -2390,8 +2375,8 @@
     ],
     "categories": [],
     "notes": [
-      "4 self-damage",
-      "Alternate input: b+4,4,4,4,4"
+      "5 self-damage",
+      "33 self-damage in total"
     ]
   },
   {
@@ -2408,8 +2393,8 @@
     ],
     "categories": [],
     "notes": [
-      "4 self-damage",
-      "Alternate input: b+4,4,4,4,4,4"
+      "5 self-damage",
+      "38 self-damage in total"
     ]
   },
   {
@@ -2428,7 +2413,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Alternate notation: 1SS.ub+1"
+      "Sometimes written 1SS.ub+1"
     ]
   },
   {
@@ -2437,7 +2422,7 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i20~22",
-    "block": "-19~-17",
+    "block": "-19",
     "hit": "+12a (+2)",
     "counter": "",
     "alternateInputs": [
@@ -2455,7 +2440,7 @@
     "hit_level": "M",
     "damage": "25",
     "startup": "i24~25",
-    "block": "-8c~-7c",
+    "block": "-8c",
     "hit": "+27a (+17)",
     "counter": "",
     "alternateInputs": [
@@ -2466,7 +2451,7 @@
       "Balcony Break",
       "Weapon",
       "5 chip damage on block",
-      "Power up in NSS or Heat"
+      "Power up in NSS or HeatSometimes written 1SS.ub+1+2"
     ]
   },
   {
@@ -2485,7 +2470,7 @@
     "notes": [
       "Weapon",
       "Punishable on close hit with FUFT.3",
-      "Alternate notation: 1SS.ub+1+3"
+      "Sometimes written 1SS.ub+1+3"
     ]
   },
   {
@@ -2502,8 +2487,11 @@
     ],
     "categories": [],
     "notes": [
+      "Spike",
       "Weapon",
-      "Alternate notation: 1SS.ub+1+3,1+2"
+      "Sometimes written ",
+      "1SS.ub+1+3,1+2",
+      "ub+1+3,1SS.1+2"
     ]
   },
   {
@@ -2522,8 +2510,9 @@
     "notes": [
       "Weapon",
       "Cancel early to r21 with B (earliest cancel -12a)",
-      "Possible to double-hit",
-      "Alternate notation: 1SS.ub+1+3,n+1"
+      "Possible to double-hit during cancelSometimes written ",
+      "1SS.ub+1+3,n+1",
+      "ub+1+3,1SS.n+1"
     ]
   },
   {
@@ -2532,8 +2521,8 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i24~25",
-    "block": "-5~-4",
-    "hit": "+4c~+5c",
+    "block": "-5",
+    "hit": "+4c",
     "counter": "",
     "alternateInputs": [
       "u+1"
@@ -2542,7 +2531,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Alternate notation: 1SS.u+1"
+      "Sometimes written 1SS.u+1"
     ]
   },
   {
@@ -2560,8 +2549,10 @@
     "categories": [],
     "notes": [
       "Spike",
+      "Floor break occurs on 2nd hit",
       "Evades some mid attacks from frames ?-?",
-      "Can be floated out of invisibility frames"
+      "Yoshimitsu becomes invisible on frames 15~30 but can still be floated",
+      "-1 if the 2nd hit whiffs"
     ]
   },
   {
@@ -2570,8 +2561,8 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i24~25",
-    "block": "-4~-3",
-    "hit": "+5c~+6c",
+    "block": "-4",
+    "hit": "+5c",
     "counter": "+50a",
     "alternateInputs": [
       "uf+1"
@@ -2580,17 +2571,17 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Alternate notation: 1SS.uf+1"
+      "Sometimes written 1SS.uf+1"
     ]
   },
   {
     "name": "Kurama Itto",
     "input": "uf+2",
-    "hit_level": "m",
+    "hit_level": "L",
     "damage": "25",
     "startup": "i35~36",
-    "block": "-16~-15",
-    "hit": "+6g~+7g",
+    "block": "-16",
+    "hit": "+6g",
     "counter": "+25a",
     "alternateInputs": [
       "uf+2"
@@ -2617,7 +2608,7 @@
     "notes": [
       "Knee",
       "Can evade jabs at frames 5-7",
-      "Alternate inputs: ub+3, u+3"
+      "Recovers 1f faster on hit or block"
     ]
   },
   {
@@ -2626,7 +2617,7 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i20~22",
-    "block": "-9~-7",
+    "block": "-9",
     "hit": "+22a",
     "counter": "",
     "alternateInputs": [
@@ -2638,8 +2629,7 @@
     "notes": [
       "Homing",
       "Balcony Break",
-      "Spike",
-      "Alternate input: u+4"
+      "Spike"
     ]
   },
   {
@@ -2654,16 +2644,14 @@
     "alternateInputs": [
       "uf+3+4"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Spike",
-      "In 1SS cancel to r18 DGF with 1+2",
-      "In 1SS transition to r28 FLE with d+1+2",
-      "Transition to r28 IND with d+3+4 (or NSS.d+1+2)",
-      "On hit, transitions to r49 backward jump automatically",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "In 1SS cancel to DGF r18 with 1+2",
+      "In 1SS enter FLE r28 with d+1+2",
+      "In 1SS enter IND r28 with d+1+2 (or NSS.d+1+2)",
+      "On hit, transitions to -4a r49 backward jump automatically",
+      "Landing on opponent's head, transitions to -48a (-58) r75 hop automatically, hitting Yoshimitsu during this animation forces him into BT"
     ]
   },
   {
@@ -2672,8 +2660,8 @@
     "hit_level": "M,h",
     "damage": "20,8",
     "startup": ",i16~18",
-    "block": "-1~+1",
-    "hit": "-42",
+    "block": "-1",
+    "hit": "-43",
     "counter": "",
     "alternateInputs": [
       "uf+3+4,1"
@@ -2708,8 +2696,8 @@
     "hit_level": "M,h,m,M",
     "damage": "20,8,15,15",
     "startup": ",i24~25",
-    "block": "-9~-8",
-    "hit": "+1c~+2c",
+    "block": "-9",
+    "hit": "+1c",
     "counter": "+6a",
     "alternateInputs": [
       "uf+3+4,1,4,1"
@@ -2718,10 +2706,10 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Can transition to d+1*,n",
       "4 chip damage on block",
-      "Power up in NSS or Heat",
-      "Alternate notation: 1SS.uf+3+4,b+1,4,d+1)"
+      "Power up in NSS or HeatSometimes written ",
+      "1SS.uf+3+4,b+1,4,1",
+      "uf+3+4,b+1,4,1SS.1"
     ]
   },
   {
@@ -2757,6 +2745,7 @@
     "categories": [],
     "notes": [
       "Spike",
+      "Floor break occurs on 3rd hit",
       "Evades mid attacks from frames ?-?"
     ]
   },
@@ -2766,19 +2755,16 @@
     "hit_level": "M,m",
     "damage": "20,25",
     "startup": ",i25~26",
-    "block": "-13~-12",
+    "block": "-13",
     "hit": "+52a (+42)",
     "counter": "",
     "alternateInputs": [
       "uf+3+4,3+4"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Tornado",
-      "Combo from 1st hit",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "Combo from 1st hit"
     ]
   },
   {
@@ -2797,9 +2783,9 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Cancel to r34 DGF with 1+2 on frames 1-34",
+      "Cancel to r34 DGF with 1+2 on frames 1~34",
       "Cancel to r30 DGF with 1+2 on frame 35. delayable up to frame 92",
-      "Alternate notation: 1SS.uf+1+3"
+      "Becomes a different move in NSSSometimes written 1SS.uf+1+3"
     ]
   },
   {
@@ -2808,7 +2794,7 @@
     "hit_level": "M",
     "damage": "25",
     "startup": "i55~56",
-    "block": "-3~-2",
+    "block": "-3",
     "hit": "+34a",
     "counter": "",
     "alternateInputs": [
@@ -2828,7 +2814,7 @@
     "hit_level": "M",
     "damage": "30",
     "startup": "i83~84",
-    "block": "-1c~+0c",
+    "block": "-1",
     "hit": "+34a",
     "counter": "",
     "alternateInputs": [
@@ -2847,7 +2833,7 @@
     "input": "uf+1+3,b",
     "hit_level": "M!",
     "damage": "35",
-    "startup": "i55~56",
+    "startup": "i93~94",
     "block": "",
     "hit": "+24a",
     "counter": "",
@@ -2859,7 +2845,8 @@
       "Spike",
       "Weapon",
       "Cancel to r27 DGF with 1+2",
-      "Input during frames 1-31 of uf+1+2"
+      "Input during frames 1-31 of uf+1+2",
+      "Yoshimitsu will recover BT if the opponent is far"
     ]
   },
   {
@@ -2896,8 +2883,8 @@
     "categories": [],
     "notes": [
       "Transitions to attack throw only on front hit (air hit OK)",
-      "3f input window for the transition (i13~15)",
-      "After hit transition to r20 IND with d+3+4"
+      "3f input window for the transition (frames 13~15)",
+      "After hit, enter IND r20 with d+3+4"
     ]
   },
   {
@@ -2906,15 +2893,15 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i23~24",
-    "block": "-4~-3",
-    "hit": "+5~+6",
+    "block": "-4",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "f,F+3"
     ],
     "categories": [],
     "notes": [
-      "Transition to r26 KIN with 1+2 (+3~+4 on block, +12~+13 on hit)",
+      "Enter KIN r25 +3 +12 with 1+2",
       "Cannot be buffered"
     ]
   },
@@ -2922,9 +2909,9 @@
     "name": "Fubuki Knee",
     "input": "f,F+4",
     "hit_level": "m",
-    "damage": "20z",
+    "damage": "20",
     "startup": "i15~16",
-    "block": "-6~-5",
+    "block": "-6",
     "hit": "+37a (+23)",
     "counter": "",
     "alternateInputs": [
@@ -2934,7 +2921,8 @@
     "notes": [
       "Balcony Break",
       "Knee",
-      "Cannot be buffered"
+      "Cannot be buffered",
+      "-12 if Yoshimitsu holds back to turn around and block"
     ]
   },
   {
@@ -2943,20 +2931,17 @@
     "hit_level": "m",
     "damage": "22",
     "startup": "i22~24",
-    "block": "-8~-6",
-    "hit": "+3c~+5c",
+    "block": "-8",
+    "hit": "+3c",
     "counter": "",
     "alternateInputs": [
       "f,F+1+2"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Spike",
       "Cannot be buffered",
-      "Visually similar to f,F+3+4",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "Visually similar to f,F+3+4"
     ]
   },
   {
@@ -2965,20 +2950,17 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i22~24",
-    "block": "-20~-18",
-    "hit": "-9c~-7c",
+    "block": "-20",
+    "hit": "-9c",
     "counter": "",
     "alternateInputs": [
       "f,F+3+4"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Spike",
       "Cannot be buffered",
-      "Visually similar to f,F+1+2",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "Visually similar to f,F+1+2"
     ]
   },
   {
@@ -2987,20 +2969,18 @@
     "hit_level": "m,m",
     "damage": "15,15",
     "startup": ",i12~18",
-    "block": "-31~-25",
+    "block": "-31",
     "hit": "-2a (-12)",
     "counter": "",
     "alternateInputs": [
       "f,F+3+4,1+2"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
+      "Balcony Break",
       "Combo from 1st CH",
       "Tremendous forward travel",
-      "Unparryable by traditional parries, Asuka, Nina, etc",
-      "Automatically recovers to r? IND on self wallsplat"
+      "Automatically recovers to r55 IND on self-wallsplat"
     ]
   },
   {
@@ -3020,7 +3000,7 @@
       "Tornado",
       "Combo from 2nd hit",
       "Combo from 1st CH",
-      "Tremendous forward travel"
+      "Tremendous forward travelSometimes written Shark Attack"
     ]
   },
   {
@@ -3038,9 +3018,11 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "60 self-damage during 1st recovery frame",
       "Cannot be buffered",
-      "NSS.f,F+1+4 will always cancel into Confusion"
+      "60 self-damage during 1st recovery frame",
+      "NSS.f,F+1+4 will always cancel into Confusion",
+      "Dealing lethal damage will award the victory to Yoshimitsu",
+      "Holding any direction will trigger the attack, not just forward"
     ]
   },
   {
@@ -3075,7 +3057,8 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "185 self-damage during 1st recovery frame"
+      "185 self-damage during 1st recovery frame",
+      "Dealing lethal damage will award the victory to Yoshimitsu"
     ]
   },
   {
@@ -3093,18 +3076,18 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Alternate notation: 1SS.b,B+1+4",
-      "Bad hitbox, will go over crouching opponents sometimes"
+      "Cannot be buffered",
+      "Poor hitbox, will go over crouching opponents sometimesSometimes written 1SS.b,B+1+4"
     ]
   },
   {
     "name": "Thunder Blade Feint to Soul Stealer",
     "input": "b,B+1+4,B",
-    "hit_level": ",m",
-    "damage": ",20",
-    "startup": ",i22~25",
-    "block": "-15~-12",
-    "hit": "+14c~+17c",
+    "hit_level": "m",
+    "damage": "20",
+    "startup": "i22~25",
+    "block": "-15",
+    "hit": "+14c",
     "counter": "",
     "alternateInputs": [
       "b,B+1+4,B"
@@ -3113,10 +3096,8 @@
     "notes": [
       "Weapon",
       "70% proration on standing hit",
-      "Knockdown against BT opponent, +11a (FDFT)",
-      "Power up in NSS or Heat",
-      "Total startup is i47~50",
-      "Alternate notation: 1SS.b,B+1+4,B"
+      "Knockdown against BT opponent +11a (FDFT)",
+      "Power up in NSS or HeatSometimes written 1SS.b,B+1+4,B"
     ]
   },
   {
@@ -3125,7 +3106,7 @@
     "hit_level": "M",
     "damage": "22",
     "startup": "i17~18",
-    "block": "-17~-16",
+    "block": "-17",
     "hit": "+35a (+25a)",
     "counter": "",
     "alternateInputs": [
@@ -3135,9 +3116,11 @@
     "notes": [
       "Weapon",
       "Can be buffered",
-      "Can transition to r37 KIN with 1+2",
-      "Can be performed in FC",
-      "Alternate notation: 1SS.f,n,d,df+1"
+      "Enter KIN r30 with 1+2",
+      "Can be performed from FC",
+      "Sometimes written ",
+      "1SS.f,n,d,df+1",
+      "CD+1"
     ]
   },
   {
@@ -3146,8 +3129,8 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i14~15",
-    "block": "-13~-12",
-    "hit": "+6g~+7g",
+    "block": "-13",
+    "hit": "+6g",
     "counter": "+58a (+38)",
     "alternateInputs": [
       "f,n,d,df+2"
@@ -3157,7 +3140,7 @@
       "Balcony Break",
       "Weapon",
       "Can be buffered",
-      "Can be performed in FC"
+      "Can be performed in FCSometimes written CD+2"
     ]
   },
   {
@@ -3180,7 +3163,7 @@
       "Can be buffered",
       "Can be performed in FC",
       "1st and 2nd hits connect only vs airborne opponent",
-      "Alternate notation: 1SS.qcf+1"
+      "Sometimes written 1SS.qcf+1"
     ]
   },
   {
@@ -3189,7 +3172,7 @@
     "hit_level": "M",
     "damage": "30",
     "startup": "i22~23",
-    "block": "+5g~+6g",
+    "block": "+5g",
     "hit": "+13a (+3)",
     "counter": "",
     "alternateInputs": [
@@ -3198,24 +3181,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "9 chip damage on block"
-    ]
-  },
-  {
-    "name": "Manji Kick > Manji Dragonfly",
-    "input": "f,f,F+3,U",
-    "hit_level": "M",
-    "damage": "30",
-    "startup": "i22~23",
-    "block": "+7g~+8g",
-    "hit": "+15a (+5)",
-    "counter": "",
-    "alternateInputs": [
-      "f,f,F+3,U"
-    ],
-    "categories": [],
-    "notes": [
-      "Unavailable in NSS"
+      "9 chip damage on block",
+      "Enter DGF +7 +15a (+5) r34 with 1SS.U"
     ]
   },
   {
@@ -3232,10 +3199,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "FC.db+1",
-      "FC.df+1",
-      "Transition to r24 with f",
+      "Transition to r25? with f",
       "Transition input can be delayed 16f"
     ]
   },
@@ -3253,9 +3217,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs:",
-      "FC.db+2",
-      "FC.df+2"
+      ""
     ]
   },
   {
@@ -3264,7 +3226,7 @@
     "hit_level": "L",
     "damage": "10",
     "startup": "i16",
-    "block": "-16",
+    "block": "-17",
     "hit": "-6",
     "counter": "",
     "alternateInputs": [
@@ -3272,7 +3234,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: 1SS.FC.df+3"
+      ""
     ]
   },
   {
@@ -3289,7 +3251,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: FC.db+4"
+      ""
     ]
   },
   {
@@ -3298,8 +3260,8 @@
     "hit_level": "L",
     "damage": "18",
     "startup": "i18~19",
-    "block": "-26~-25",
-    "hit": "+4c~+5c",
+    "block": "-26",
+    "hit": "+4c",
     "counter": "+31a",
     "alternateInputs": [
       "FC df+4"
@@ -3309,8 +3271,8 @@
     ],
     "notes": [
       "Homing",
-      "Can be done from Crouch Level 2",
-      "Can transition to IND with FC df+4,d+3+4"
+      "Enter IND -26 +8c +35a r24 with d+3+4",
+      "Can be done from Crouch Level 2Sometimes written hFC.df+4"
     ]
   },
   {
@@ -3319,15 +3281,15 @@
     "hit_level": "l",
     "damage": "8",
     "startup": "i18~19",
-    "block": "-25~-24",
-    "hit": "-14~-13",
+    "block": "-25",
+    "hit": "-14",
     "counter": "",
     "alternateInputs": [
       "FC db+3"
     ],
     "categories": [],
     "notes": [
-      "Leads to db+3 extensions"
+      "Links to db+3 extensions"
     ]
   },
   {
@@ -3345,9 +3307,7 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Alternate input: FC.db,b+1",
-      "Alternate notation: 1SS.FC.DF+1",
-      "Alternate name: Samurai Cutter"
+      "Sometimes written 1SS.FC.DF+1"
     ]
   },
   {
@@ -3356,9 +3316,9 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i14~15",
-    "block": "-10~-9",
-    "hit": "+1~+2",
-    "counter": "+6~+7",
+    "block": "-10",
+    "hit": "+1",
+    "counter": "+6",
     "alternateInputs": [
       "ws1"
     ],
@@ -3385,7 +3345,8 @@
       "Combo from 1st hit with 11f delay",
       "Combo from 1st CH with 13f delay",
       "Input can be delayed 13f",
-      "Move can be delayed 8f"
+      "Move can be delayed 8f",
+      "Cancel to Spinning Evade -5 -16 r25 with b+3_b+4"
     ]
   },
   {
@@ -3413,8 +3374,8 @@
     "hit_level": "m,h,h,m",
     "damage": "12,12,12,25",
     "startup": ",i25~26",
-    "block": "+0c~+1c",
-    "hit": "+6c~+7c",
+    "block": "+0c",
+    "hit": "+6c",
     "counter": "",
     "alternateInputs": [
       "ws1,1,1,1"
@@ -3427,30 +3388,13 @@
     ]
   },
   {
-    "name": "Door Knocker to Spinning Evade",
-    "input": "ws1,1~b+3",
-    "hit_level": "m,h",
-    "damage": "12,12",
-    "startup": ",i25~26",
-    "block": "-16",
-    "hit": "-5",
-    "counter": "",
-    "alternateInputs": [
-      "ws1,1~b+3"
-    ],
-    "categories": [],
-    "notes": [
-      "Alternate input: ws1,1~b+4"
-    ]
-  },
-  {
     "name": "Door Knocker to Back Knuckle",
     "input": "ws1,2",
     "hit_level": "m,h",
     "damage": "12,18",
     "startup": ",i25~26",
-    "block": "-4~-3",
-    "hit": "+14g~+15g",
+    "block": "-4",
+    "hit": "+14g",
     "counter": "+39a",
     "alternateInputs": [
       "ws1,2"
@@ -3470,7 +3414,7 @@
     "hit_level": "m,h,M",
     "damage": "12,18,21",
     "startup": ",i26~27",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+17a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -3481,15 +3425,17 @@
       "Tornado",
       "Weapon",
       "Combo from 2nd CH",
-      "Alternate notation: 1SS.ws1,2,1"
+      "Sometimes written ",
+      "1SS.ws1,2,1",
+      "ws1,2,1SS.1"
     ]
   },
   {
     "name": "Door Knocker > Back Knuckle Slap U Crazy",
     "input": "ws1,2,db+2",
-    "hit_level": "m,h,m",
-    "damage": "12,18,8",
-    "startup": ",i15",
+    "hit_level": "m,hm",
+    "damage": "12,188",
+    "startup": "i15",
     "block": "-5",
     "hit": "+6",
     "counter": "",
@@ -3507,15 +3453,15 @@
     "hit_level": "m",
     "damage": "13",
     "startup": "i15~16",
-    "block": "-4~-3",
-    "hit": "+7~+8",
+    "block": "-4",
+    "hit": "+7",
     "counter": "",
     "alternateInputs": [
       "ws2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Balcony break or airborne hit"
     ]
   },
   {
@@ -3534,7 +3480,9 @@
     "notes": [
       "Weapon",
       "Combo from 1st hit with 1f delay",
-      "Alternate notation: 1SS.ws+2,1"
+      "Sometimes written ",
+      "1SS.ws+2,1",
+      "ws+2,1SS.1"
     ]
   },
   {
@@ -3559,7 +3507,7 @@
     "input": "ws3,2",
     "hit_level": "m,m",
     "damage": "12,20",
-    "startup": "i32",
+    "startup": ",i32",
     "block": "-12c",
     "hit": "+0a",
     "counter": "",
@@ -3579,16 +3527,16 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i11~12",
-    "block": "-6~-5",
-    "hit": "+5~+6",
+    "block": "-6",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "ws4"
     ],
     "categories": [],
     "notes": [
-      "Transition to r21 KIN with 1+2",
-      "Transition to r24 NSS with B"
+      "Enter KIN r24 with 1+2",
+      "Enter NSS r24 with B"
     ]
   },
   {
@@ -3608,8 +3556,7 @@
     ],
     "notes": [
       "Can recover to r17 FC with D",
-      "Parries all highs or mids, except unblockables and some charge moves",
-      "Alternate inputs: BT.1+2, FC.db+1+2 FC.d+1+2"
+      "Strong Attack Reversal: parries all highs or mids, except throws, unblockables and charge moves"
     ]
   },
   {
@@ -3626,7 +3573,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written KIN.P"
     ]
   },
   {
@@ -3661,7 +3608,8 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Weapon"
+      "Weapon",
+      "Deals 2 chip damage in NSS"
     ]
   },
   {
@@ -3670,8 +3618,8 @@
     "hit_level": "m,m,m",
     "damage": "10,5,15",
     "startup": ",i23~24 i14~15",
-    "block": "-9~-8",
-    "hit": "+7c~+8c",
+    "block": "-9",
+    "hit": "+7c",
     "counter": "",
     "alternateInputs": [
       "KIN 1,1"
@@ -3682,7 +3630,9 @@
       "Weapon",
       "Combo from 1st hit with 2f delay",
       "Power up in NSS or Heat",
-      "Alternate notation: 1SS.KIN.1,1"
+      "Sometimes written ",
+      "1SS.KIN.1,1",
+      "KIN.1,1SS.1"
     ]
   },
   {
@@ -3691,7 +3641,7 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i21~22",
-    "block": "-14~-13",
+    "block": "-14",
     "hit": "+26a (+16a)",
     "counter": "",
     "alternateInputs": [
@@ -3721,7 +3671,9 @@
       "Weapon",
       "6 chip damage on block",
       "Power in NSS or Heat",
-      "Alternate notation: 1SS.KIN.2,1+2"
+      "Sometimes written ",
+      "1SS.KIN.2,1+2",
+      "KIN.2,1SS.1+2"
     ]
   },
   {
@@ -3743,7 +3695,9 @@
       "Weapon",
       "9 chip damage on block",
       "Power in NSS or Heat",
-      "Alternate notation: 1SS.KIN.2,1+2*"
+      "Sometimes written ",
+      "1SS.KIN.2,1+2*",
+      "KIN.2,1SS.1+2*"
     ]
   },
   {
@@ -3754,7 +3708,7 @@
     "startup": "i25~32",
     "block": "-16~-9",
     "hit": "+13a",
-    "counter": "+24a",
+    "counter": "+25a",
     "alternateInputs": [
       "KIN 3"
     ],
@@ -3769,7 +3723,7 @@
     "hit_level": "h",
     "damage": "23",
     "startup": "i16~17",
-    "block": "+0~+1",
+    "block": "+0",
     "hit": "+20a (+11)",
     "counter": "+49a",
     "alternateInputs": [
@@ -3781,9 +3735,8 @@
     "notes": [
       "Homing",
       "Balcony Break",
-      "Can transition to r26 KIN with 1+2",
-      "Can transition to r28 MED with 3+4",
-      "Alternate input: SS.4"
+      "Enter KIN +3 +23a (+14) r26 with 1+2",
+      "Enter MED -1 +19a (+10) r28 with 3+4"
     ]
   },
   {
@@ -3792,7 +3745,7 @@
     "hit_level": "m,m,m,m",
     "damage": "4,4,4,24",
     "startup": "i12~13 i6~7 i7~8 i11~13",
-    "block": "-6~-4",
+    "block": "-6",
     "hit": "+11a",
     "counter": "",
     "alternateInputs": [
@@ -3800,10 +3753,9 @@
     ],
     "categories": [],
     "notes": [
+      "Spike",
       "Weapon",
       "Combos from any hit",
-      "Floor break final hit",
-      "Realigns between hits",
       "Despite being i12, it always connects on i13 after f,F+3,1+2 on hit"
     ]
   },
@@ -3813,8 +3765,8 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i10~13",
-    "block": "-15~-12",
-    "hit": "+14c~+17c",
+    "block": "-15",
+    "hit": "+14c",
     "counter": "",
     "alternateInputs": [
       "KIN 1+4"
@@ -3823,9 +3775,8 @@
     "notes": [
       "Weapon",
       "70% proration on standing hit",
-      "Knockdown against BT opponent, +11a (FDFT)",
-      "Power up in NSS or Heat",
-      "Alternate notation: 1SS.KIN.1+4"
+      "Knockdown against BT opponent +11a (FDFT)",
+      "Power up in NSS or HeatSometimes written 1SS.KIN.1+4"
     ]
   },
   {
@@ -3843,8 +3794,8 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Alternate notation: 1SS.KIN.d+1",
-      "Transition to crouching with KIN d+1~DB"
+      "Cancel to r34 FC with DB on frame 16",
+      "Sometimes written 1SS.KIN.d+1"
     ]
   },
   {
@@ -3853,7 +3804,7 @@
     "hit_level": "M,M,M",
     "damage": "6,6,10",
     "startup": "i19~20 i6~7 i7~8",
-    "block": "-5~-4",
+    "block": "-5",
     "hit": "-2",
     "counter": "",
     "alternateInputs": [
@@ -3865,7 +3816,7 @@
       "Combos from any hit",
       "8 chip damage on block",
       "Powers in NSS or Heat",
-      "Alternate notation: 1SS.KIN.f+1"
+      "Sometimes written 1SS.KIN.f+1"
     ]
   },
   {
@@ -3874,7 +3825,7 @@
     "hit_level": "M,M,M,M,M,M",
     "damage": "6,6,6,6,6,10",
     "startup": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+29a (+14)",
     "counter": "",
     "alternateInputs": [
@@ -3886,7 +3837,7 @@
       "Combos from any hit",
       "14 chip damage on block",
       "Powers in NSS or Heat",
-      "Alternate notation: 1SS.KIN.f+1*"
+      "Sometimes written 1SS.KIN.f+1*"
     ]
   },
   {
@@ -3895,7 +3846,7 @@
     "hit_level": "h",
     "damage": "25",
     "startup": "i12~13",
-    "block": "-1~+0",
+    "block": "-1 +11w",
     "hit": "+9a (+0)",
     "counter": "",
     "alternateInputs": [
@@ -3906,11 +3857,11 @@
     ],
     "notes": [
       "Heat Engager",
-      "Heat Dash  +5g~+6g +34a",
+      "Heat Dash +5g, +34a (+27)",
       "Homing",
       "Balcony Break",
       "Weapon",
-      "Wall crush on block +11g minimum, 3 damage on wall hit"
+      "Wall Crush on block, +11g minimum"
     ]
   },
   {
@@ -3919,8 +3870,8 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i15~16",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "",
     "alternateInputs": [
       "KIN b+2"
@@ -3936,7 +3887,7 @@
     "hit_level": "m,M",
     "damage": "15,19",
     "startup": ",i23~24",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+30a (+20)",
     "counter": "",
     "alternateInputs": [
@@ -3947,7 +3898,7 @@
       "Tornado",
       "Weapon",
       "Combo from 1st hit",
-      "Alternate notation: 1SS.KIN.b+2,1"
+      "Sometimes written 1SS.KIN.b+2,1"
     ]
   },
   {
@@ -3966,7 +3917,8 @@
     "notes": [
       "Weapon",
       "Backswing blow",
-      "Unavailable in NSS"
+      "Unavailable in NSS",
+      "Move is delayed by 5f"
     ]
   },
   {
@@ -3983,7 +3935,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Can be counterhitSometimes written 1SS.KIN.u+1+2"
     ]
   },
   {
@@ -4000,7 +3952,24 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs: b+3+4, BT.3+4"
+      "Yoshimitsu recovers in BT"
+    ]
+  },
+  {
+    "name": "Meditation to Backturn",
+    "input": "MED 3+4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "MED 3+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -4062,42 +4031,6 @@
     ]
   },
   {
-    "name": "",
-    "input": "MED b",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "MED b"
-    ],
-    "categories": [],
-    "notes": [
-      "Can be cancelled into a backturned move",
-      "Can be cancelled into instant while standing",
-      "Creates distance with the opponent"
-    ]
-  },
-  {
-    "name": "",
-    "input": "MED u",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "MED u"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions into sidewalk with held input"
-    ]
-  },
-  {
     "name": "Back Handspring",
     "input": "MED 3",
     "hit_level": "m,M",
@@ -4111,29 +4044,9 @@
     ],
     "categories": [],
     "notes": [
-      "Spike on second hit",
-      "BT.d+3 is guaranteed on meaty block"
-    ]
-  },
-  {
-    "name": "Back Handspring to Quick Slash",
-    "input": "MED 3,d+1",
-    "hit_level": "m,M,M",
-    "damage": "15,15,15",
-    "startup": ",i24~25",
-    "block": "-9~-8",
-    "hit": "+1c~+2c",
-    "counter": "+6a",
-    "alternateInputs": [
-      "MED 3,d+1"
-    ],
-    "categories": [],
-    "notes": [
       "Spike",
-      "Weapon",
-      "4 chip damage on block",
-      "Power up in NSS or Heat",
-      "Recovers in 1SS"
+      "BT.d+3 is guaranteed on meaty block",
+      "1st hit only connects if the opponent is close enough"
     ]
   },
   {
@@ -4150,24 +4063,7 @@
     ],
     "categories": [],
     "notes": [
-      "Recovers health"
-    ]
-  },
-  {
-    "name": "Meditation to Backturn",
-    "input": "MED 3+4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "MED 3+4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
+      "Recovers 12 base health"
     ]
   },
   {
@@ -4176,8 +4072,8 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i6~9",
-    "block": "-15~-12",
-    "hit": "+14c~+17c",
+    "block": "-15",
+    "hit": "+14c",
     "counter": "",
     "alternateInputs": [
       "MED 1+4"
@@ -4186,9 +4082,8 @@
     "notes": [
       "Weapon",
       "70% proration on standing hit",
-      "Knockdown against BT opponent, +11a (FDFT)",
-      "Power up in NSS or Heat",
-      "Alternate notation: 1SS.BT.1+4"
+      "Knockdown against BT opponent +11a (FDFT)",
+      "Power up in NSS or HeatSometimes written 1SS.MED.1+4"
     ]
   },
   {
@@ -4205,7 +4100,6 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: BT.d+1+2",
       "Unavailable in NSS"
     ]
   },
@@ -4279,8 +4173,7 @@
     "categories": [],
     "notes": [
       "Side switches on close hit",
-      "Can combo to ws4 on no side switch",
-      "Alternate input: FLE.1~df+3+4"
+      "Can combo to ws4 on no side switch"
     ]
   },
   {
@@ -4297,8 +4190,7 @@
     ],
     "categories": [],
     "notes": [
-      "Evades like a sidestep",
-      "Alternate input: FLE.4"
+      "Evades like a sidestep"
     ]
   },
   {
@@ -4307,7 +4199,7 @@
     "hit_level": "h",
     "damage": "20",
     "startup": "i18~19",
-    "block": "-8~-7",
+    "block": "-8",
     "hit": "+31a (+21)",
     "counter": "",
     "alternateInputs": [
@@ -4325,18 +4217,15 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i25~26",
-    "block": "-13~-12",
+    "block": "-13",
     "hit": "+52a (+42)",
     "counter": "",
     "alternateInputs": [
       "FLE 3+4"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
-      "Tornado",
-      "Unparryable by traditional parries, Asuka, Nina, etc"
+      "Tornado"
     ]
   },
   {
@@ -4344,7 +4233,7 @@
     "input": "FLE f,f",
     "hit_level": "M,M,M,M,M",
     "damage": "3,3,3,3,3",
-    "startup": "i17~19,i6~8 i5~7 i6~8 i6~8",
+    "startup": "i17~19 i6~8 i5~7 i6~8 i6~8",
     "block": "-10",
     "hit": "+1",
     "counter": "",
@@ -4353,8 +4242,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combos from 1st",
-      "Floor break at the wall only",
+      "Combos from any hit",
+      "Floor break on all hits",
       "Sometimes combos into FLE.n"
     ]
   },
@@ -4378,7 +4267,7 @@
     ]
   },
   {
-    "name": "Flea Digger Strike",
+    "name": "Flea Digger",
     "input": "FLE d",
     "hit_level": "M",
     "damage": "0",
@@ -4391,10 +4280,9 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
       "Evades jabs from frames 4-14",
       "Evades mids from frames 7-12",
-      "Can be cancelled  into other FLE moves (except FLE.n)",
+      "Can be cancelled into other FLE moves (except FLE.n)",
       "Only accessible after hitting with FLE.n"
     ]
   },
@@ -4404,7 +4292,7 @@
     "hit_level": "h",
     "damage": "23",
     "startup": "i20~21",
-    "block": "+7g~+8g",
+    "block": "+7",
     "hit": "+19a (+10)",
     "counter": "+64a (+44)",
     "alternateInputs": [
@@ -4415,7 +4303,8 @@
     ],
     "notes": [
       "Homing",
-      "Balcony Break"
+      "Balcony Break",
+      "Weapon"
     ]
   },
   {
@@ -4454,7 +4343,7 @@
   },
   {
     "name": "Flea > Dragonfly Feint",
-    "input": "FLE u+1+2",
+    "input": "FLE u+3+4",
     "hit_level": "m",
     "damage": "30",
     "startup": "i38~40",
@@ -4462,7 +4351,7 @@
     "hit": "+21a (+12)",
     "counter": "",
     "alternateInputs": [
-      "FLE u+1+2"
+      "FLE u+3+4"
     ],
     "categories": [],
     "notes": [
@@ -4484,8 +4373,7 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
-      "Alternate inputs: FLE.u and FLE.ub"
+      "Balcony Break"
     ]
   },
   {
@@ -4507,23 +4395,6 @@
     ]
   },
   {
-    "name": "Flea Step Backward (WFL)",
-    "input": "FLE b",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "FLE b"
-    ],
-    "categories": [],
-    "notes": [
-      "In WFL from frames 20-50"
-    ]
-  },
-  {
     "name": "Sakanobori",
     "input": "WFL 3",
     "hit_level": "m",
@@ -4535,31 +4406,13 @@
     "alternateInputs": [
       "WFL 3"
     ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Balcony Break",
-      "Unparryable by traditional parries, Asuka, Nina, etc",
-      "Does 37 damage on Clean Hit (See next entry)"
-    ]
-  },
-  {
-    "name": "Sakanobori",
-    "input": "WFL 3 (Close Hit)",
-    "hit_level": "m,t",
-    "damage": "37,20",
-    "startup": "i17",
-    "block": "",
-    "hit": "+15a",
-    "counter": "",
-    "alternateInputs": [
-      "WFL 3 (Close Hit)"
-    ],
     "categories": [],
     "notes": [
-      "Transition to attack throw only on front hit",
-      "Can side switch on hit"
+      "Balcony Break",
+      "FLE step takes 19 frames, effective startup i36",
+      "Clean hit, 1st hit 25 > 37 damage",
+      "Transition to attack throw on close standing hit, +15a r43 FLE and 20 extra damage",
+      "Can side switch on throw hit"
     ]
   },
   {
@@ -4568,15 +4421,15 @@
     "hit_level": "L",
     "damage": "15",
     "startup": "i23~24",
-    "block": "-9~-8",
-    "hit": "+12c~+13c",
+    "block": "-9",
+    "hit": "+12c",
     "counter": "+20a",
     "alternateInputs": [
       "WFL 4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "FLE step takes 19 frames, effective startup i42~43"
     ]
   },
   {
@@ -4593,7 +4446,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: BT.d+3+4"
+      "All stance moves are bufferable"
     ]
   },
   {
@@ -4610,8 +4463,9 @@
     ],
     "categories": [],
     "notes": [
-      "Restores recoverable health with each pulse",
-      "Can be cancelled into other IND moves"
+      "Recovers 3 recoverable health with each pulse",
+      "Can be cancelled into other IND moves",
+      "Inputting anything other than IND.3+4 or IND.u will put Yoshimitsu in a spinning animation that takes 29 frames to complete before any move comes out"
     ]
   },
   {
@@ -4628,7 +4482,6 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: IND.d",
       "Evasive, can go under some attacks if timed"
     ]
   },
@@ -4646,24 +4499,10 @@
     ],
     "categories": [],
     "notes": [
-      "If closer than 1.75 units, recovers r51, 1 unit behind the opponent"
-    ]
-  },
-  {
-    "name": "Indian Stance Vaccum Dance",
-    "input": "IND b",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "IND b"
-    ],
-    "categories": [],
-    "notes": [
-      "If in BT.IND closer than 1.75 units, recovers r51, 4.2 units away from the opponent"
+      "If closer than 1.75 units, recovers r49, 1 unit behind the opponent",
+      "If in BT.IND closer than 1.75 units, recovers r49, 4.2 units away from the opponent",
+      "If farther than 1.75 units, recovers r49 BT in the same location",
+      "Evasive, can go under some attacks"
     ]
   },
   {
@@ -4683,7 +4522,7 @@
       "Spike",
       "Weapon",
       "Same animation as the ending of qcf+1",
-      "Alternate notation: 1SS.IND.1"
+      "Sometimes written 1SS.IND.1"
     ]
   },
   {
@@ -4700,38 +4539,34 @@
     ],
     "categories": [],
     "notes": [
-      "Leads to DB+2,2 extensions",
-      "Yoshimitsu will transition to IND.u if the distance to the opponent is less than 1.00 units",
-      "Yoshimitsu will teleport if the distance to the opponent is less than 0.50 units"
+      "Links to db+2 extensions",
+      "Greater forward momentum than a standing db+2"
     ]
   },
   {
     "name": "",
     "input": "IND 3",
-    "hit_level": "m",
-    "damage": "15",
-    "startup": "i12~18",
-    "block": "-31~-25",
+    "hit_level": ",m",
+    "damage": ",15",
+    "startup": "i32~38",
+    "block": "-31",
     "hit": "-2a (-12)",
     "counter": "",
     "alternateInputs": [
       "IND 3"
     ],
-    "categories": [
-      "parry"
-    ],
+    "categories": [],
     "notes": [
       "Balcony Break",
-      "Automatically recovers to r? IND on self wallsplat",
-      "Unparryable by traditional parries, Asuka, Nina, etc",
+      "Automatically recovers to r55 IND on self-wallsplat",
       "Tremendous forward travel"
     ]
   },
   {
     "name": "Indian Stance Cannon",
     "input": "IND 3,3+4",
-    "hit_level": "m,m",
-    "damage": "15,20",
+    "hit_level": ",m,m",
+    "damage": ",15,20",
     "startup": ",i27",
     "block": "-13",
     "hit": "+52a (+42)",
@@ -4743,7 +4578,7 @@
     "notes": [
       "Tornado",
       "Combo from 1st hit",
-      "Tremendous forward travel"
+      "Tremendous forward travelSometimes written Shark Attack"
     ]
   },
   {
@@ -4752,9 +4587,9 @@
     "hit_level": "L",
     "damage": "18",
     "startup": "i47~48",
-    "block": "-26~-25",
-    "hit": "+4c~+5c",
-    "counter": "",
+    "block": "-26",
+    "hit": "+4c",
+    "counter": "+31a",
     "alternateInputs": [
       "IND 4"
     ],
@@ -4763,7 +4598,8 @@
     ],
     "notes": [
       "Homing",
-      "Can transition to IND with IND 4,d+3+4"
+      "Enter IND -26 +8 +35a r24 with d+3+4",
+      "Sometimes written hFC.df+4"
     ]
   },
   {
@@ -4788,9 +4624,9 @@
     "input": "IND 3+4",
     "hit_level": "m,m",
     "damage": "6,22",
-    "startup": "i17~18 i28~29",
-    "block": "-6~-5",
-    "hit": "+3~+4",
+    "startup": "i17~18 i10~11",
+    "block": "-6",
+    "hit": "+3",
     "counter": "",
     "alternateInputs": [
       "IND 3+4"
@@ -4799,8 +4635,8 @@
       "homing"
     ],
     "notes": [
-      "Transition to r18 DGF with 1SS.U",
-      "Homing"
+      "Homing",
+      "Enter DGF r18 with 1SS.U"
     ]
   },
   {
@@ -4819,7 +4655,8 @@
     "notes": [
       "Allows 8-way directional movement in IND",
       "Continues as long as 3+4 is held",
-      "Holding a directional input and pressing 1, 2 or 1+2 will play different voicelines"
+      "Holding a directional input and pressing 1, 2 or 1+2 will play different voicelines",
+      "Yoshimitsu must rest his arms before he can move, this animation takes 30 frames, this animation does not occur when using NSS.d+1+2"
     ]
   },
   {
@@ -4853,8 +4690,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: BT.b+1+2",
-      "Alternate name: Mutou no Kiwami"
+      ""
     ]
   },
   {
@@ -4878,7 +4714,7 @@
     "name": "NSS Naguri Kabuto Wari",
     "input": "1,NSS 1",
     "hit_level": "h,m",
-    "damage": "7,22",
+    "damage": "5,22",
     "startup": ",i23",
     "block": "-9",
     "hit": "+16a",
@@ -4889,8 +4725,13 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Spike",
+      "Weapon",
+      "Combo from 1st hit with 1f delay",
+      "Input can be delayed 3f",
+      "Interrupt with i4 from 1st block",
       "11 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written NSS.1,1"
     ]
   },
   {
@@ -4910,7 +4751,7 @@
       "Balcony Break",
       "Combo from 1st hit",
       "Jail from 2nd attack",
-      "Alternate notation: NSS.2,1"
+      "Sometimes written NSS.2,1"
     ]
   },
   {
@@ -4919,8 +4760,8 @@
     "hit_level": "m,h",
     "damage": "12,25",
     "startup": ",i22~24",
-    "block": "+7~+9",
-    "hit": "+18g~+20g",
+    "block": "+7",
+    "hit": "+18g",
     "counter": "",
     "alternateInputs": [
       "3,NSS 1"
@@ -4928,14 +4769,14 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~7g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "Combo from 1st hit",
       "7 chip damage on block",
-      "Recovers health no hit",
+      "Recovers 4 base health on hit",
       "Does not transition to DGF during Heat Dash",
-      "Recovers in 1SS"
+      "Recovers in 1SSSometimes written NSS.3,1"
     ]
   },
   {
@@ -4944,7 +4785,7 @@
     "hit_level": "m,m,M",
     "damage": "12,12,30",
     "startup": ",i26~27",
-    "block": "-14c~-13c",
+    "block": "-14c",
     "hit": "+20a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -4954,10 +4795,12 @@
     "notes": [
       "Balcony Break",
       "Weapon",
-      "Combo from 2nd hit",
+      "Combo from 2nd hit with 4f delay",
+      "Input can be delayed 10f",
+      "Move can be delayed 9f",
       "15 chip damage on block",
       "Clean hit 39 damage",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written NSS.3,2,1+2"
     ]
   },
   {
@@ -4974,7 +4817,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written NSS.4,4,2,2,1"
     ]
   },
   {
@@ -4992,7 +4835,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Cancel early to r30 with B"
+      "Cancel early to r30 with BSometimes written NSS.4,4,2,2,1~1"
     ]
   },
   {
@@ -5001,7 +4844,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i8~11",
-    "block": "-15~-12",
+    "block": "-15",
     "hit": "+14 +64a",
     "counter": "",
     "alternateInputs": [
@@ -5013,8 +4856,8 @@
       "Weapon",
       "Knockdown against BT opponent, +19a (+9)",
       "4 chip damage on block",
-      "Recovers health on hit",
-      "Alternate inputs: b+1+4, f+1+4, db+1+4, ws1+4, FC.D+1+4"
+      "Recovers 2 base health on hit",
+      "Sometimes written NSS Flash"
     ]
   },
   {
@@ -5040,7 +4883,7 @@
     "hit_level": "h,m",
     "damage": "18,21",
     "startup": ",i26~27",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+17a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -5050,7 +4893,7 @@
     "notes": [
       "Tornado",
       "Combo from 1st CH",
-      "Alternate input: BT.2,NSS.1"
+      "Sometimes written NSS.f+2,1"
     ]
   },
   {
@@ -5068,10 +4911,11 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break",
       "Weapon",
       "8 chip damage on block",
+      "Recovers 4 base health on hit",
       "Extended range"
     ]
   },
@@ -5092,17 +4936,19 @@
       "Balcony Break",
       "Head",
       "Cancel to r55 BT with b",
-      "Transition to r33? IND with d+3+4",
-      "+20a on left/right side hit"
+      "Enter IND +12a (+3) r29 with d+3+4 on hit",
+      "Automatically recovers to r55 IND on self-wallsplat",
+      "Recovers 12f faster on hit",
+      "+20a on side hit"
     ]
   },
   {
     "name": "Tsuka Atemi Swipe",
     "input": "df+1,2,NSS 1",
-    "hit_level": "m,h,m",
+    "hit_level": "m,h,M",
     "damage": "14,16,19",
     "startup": ",i26~27",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+17a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -5111,7 +4957,7 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Combo from 2nd CH"
+      "Combo from 2nd CHSometimes written NSS.df+1,2,1"
     ]
   },
   {
@@ -5120,9 +4966,9 @@
     "hit_level": "m,M",
     "damage": "10,24",
     "startup": ",i23~24",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+16a",
-    "counter": "+6a",
+    "counter": "+52a",
     "alternateInputs": [
       "df+3,NSS 1"
     ],
@@ -5131,9 +4977,9 @@
       "Spike",
       "Weapon",
       "Combo from 1st hit",
-      "Recovers health on hit",
+      "Recovers 4 base health on hit",
       "12 chip damage on block",
-      "Input can be held to transition to d+1*"
+      "Input can be held to transition to d+1*Sometimes written NSS.df+3,1"
     ]
   },
   {
@@ -5142,7 +4988,7 @@
     "hit_level": "m",
     "damage": "19",
     "startup": "i20~21",
-    "block": "-17~-16",
+    "block": "-17",
     "hit": "+35a (+25)",
     "counter": "",
     "alternateInputs": [
@@ -5150,10 +4996,10 @@
     ],
     "categories": [],
     "notes": [
+      "Enter KIN r37 with 1+2",
       "Can be buffered",
-      "Transition to r37 KIN with 1+2",
       "Can be performed in FC",
-      "Power up input: NSS.f,n,d,df+1",
+      "Power up input NSS.f,n,d,df+1",
       "Replaced by 1SS.df+1+4 when performed in BT"
     ]
   },
@@ -5163,9 +5009,9 @@
     "hit_level": "M",
     "damage": "24",
     "startup": "i24~25",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+16a",
-    "counter": "+6a",
+    "counter": "+52a",
     "alternateInputs": [
       "NSS d+1"
     ],
@@ -5184,8 +5030,8 @@
     "hit_level": "M,h",
     "damage": "12,18",
     "startup": ",i27~28",
-    "block": "-9~-8",
-    "hit": "+10g~+11g",
+    "block": "-9",
+    "hit": "+10g",
     "counter": "",
     "alternateInputs": [
       "d+2,NSS 1"
@@ -5195,7 +5041,7 @@
       "Balcony Break",
       "Combo from 1st hit with 8f delay",
       "Input can be delayed 16f",
-      "Move can be delayed 10f"
+      "Move can be delayed 10fSometimes written NSS.d+2,1"
     ]
   },
   {
@@ -5204,7 +5050,7 @@
     "hit_level": "M,m,h",
     "damage": "12,17,20",
     "startup": ",i19~20",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+8a (-1)",
     "counter": "",
     "alternateInputs": [
@@ -5214,7 +5060,7 @@
     "notes": [
       "Balcony Break",
       "Input can be delayed 10f",
-      "Move can be delayed 9f"
+      "Move can be delayed 9fSometimes written NSS.d+2,2,1"
     ]
   },
   {
@@ -5223,8 +5069,8 @@
     "hit_level": "M,m,m",
     "damage": "12,17,17",
     "startup": ",i29~30",
-    "block": "-12~-11",
-    "hit": "+2c~+3c",
+    "block": "-12",
+    "hit": "+2c",
     "counter": "+42a",
     "alternateInputs": [
       "d+2,2,NSS d+1"
@@ -5233,7 +5079,7 @@
     "notes": [
       "Spike",
       "Input can be delayed 10f",
-      "Move can be delayed 9f"
+      "Move can be delayed 9fSometimes written NSS.d+2,2,d+1"
     ]
   },
   {
@@ -5284,7 +5130,6 @@
     ],
     "categories": [],
     "notes": [
-      "In-game frame data incorrectly dispalys this move as i11",
       "Transition to r24 with f"
     ]
   },
@@ -5294,7 +5139,7 @@
     "hit_level": "m,m",
     "damage": "12,17",
     "startup": ",i27~28",
-    "block": "-17~-16",
+    "block": "-17",
     "hit": "+28a (+18)",
     "counter": "",
     "alternateInputs": [
@@ -5302,9 +5147,9 @@
     ],
     "categories": [],
     "notes": [
+      "Enter KIN r30 with 1+2",
       "Combo from 1st CH with 2f delay",
-      "Transition to r30 KIN with 1+2",
-      "Input can be delayed 14f"
+      "Input can be delayed 14fSometimes written NSS.b+2,1"
     ]
   },
   {
@@ -5313,8 +5158,8 @@
     "hit_level": "m,h",
     "damage": "12,18",
     "startup": ",i22~23",
-    "block": "-10~-9",
-    "hit": "+0~+1",
+    "block": "-10",
+    "hit": "+0",
     "counter": "",
     "alternateInputs": [
       "b+2,NSS 2"
@@ -5322,10 +5167,10 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~+6g +36a (+26)",
+      "Heat Dash +5g, +36a (+26)",
       "Combo from 1st with 1f delay",
       "Combo from 1st CH with 7f delay",
-      "Input can be delayed 14f"
+      "Input can be delayed 14fSometimes written NSS.b+2,2"
     ]
   },
   {
@@ -5351,7 +5196,7 @@
     "hit_level": "M",
     "damage": "30",
     "startup": "i24~25",
-    "block": "-8c~-7c",
+    "block": "-8c",
     "hit": "+16a (+6)",
     "counter": "",
     "alternateInputs": [
@@ -5363,8 +5208,8 @@
       "Weapon",
       "15 chip damage on block",
       "Clean hit 39 damage",
-      "Recovers health on hit",
-      "-12c~-13c if blocked at tip range"
+      "Recovers 4 base health on hit",
+      "-12c if blocked at tip range"
     ]
   },
   {
@@ -5390,15 +5235,15 @@
     "hit_level": "m!h",
     "damage": "50,15",
     "startup": ",i18~19",
-    "block": "-15~-4",
-    "hit": "-4~-3",
+    "block": "-15",
+    "hit": "-4",
     "counter": "+45a",
     "alternateInputs": [
       "NSS ub+1+3,1+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Spike"
     ]
   },
   {
@@ -5416,7 +5261,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Cancel early to r21 with B"
+      "Cancel to r94 with B on frame 64"
     ]
   },
   {
@@ -5425,8 +5270,8 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i25~26",
-    "block": "-5~-4",
-    "hit": "+4c~+5c",
+    "block": "-5",
+    "hit": "+4c",
     "counter": "",
     "alternateInputs": [
       "NSS u+1"
@@ -5442,8 +5287,8 @@
     "hit_level": "L",
     "damage": "18",
     "startup": "i27~29",
-    "block": "+4~+6",
-    "hit": "+20c~+22c",
+    "block": "+5",
+    "hit": "+21g",
     "counter": "",
     "alternateInputs": [
       "NSS u+1+2"
@@ -5451,7 +5296,8 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Can't be low parried"
+      "Can't be low parried",
+      "Opponent recovers crouching"
     ]
   },
   {
@@ -5460,8 +5306,8 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i25~26",
-    "block": "-4~-3",
-    "hit": "+5c~+6c",
+    "block": "-4",
+    "hit": "+5c",
     "counter": "+15a",
     "alternateInputs": [
       "NSS uf+1"
@@ -5492,9 +5338,9 @@
     "name": "NSS Poison Wind Gold Strike",
     "input": "uf+3+4,1,4,NSS 1",
     "hit_level": "M,h,m,M",
-    "damage": "20,8,15,15",
+    "damage": "20,8,15,24",
     "startup": ",i24~25",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+16a",
     "counter": "+52a",
     "alternateInputs": [
@@ -5502,11 +5348,12 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Spike",
       "Weapon",
       "Can transition to d+1*,n",
       "12 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written NSS.uf+3+4,1,4,1"
     ]
   },
   {
@@ -5529,10 +5376,10 @@
   {
     "name": "Thunder Palm Strike Feint to Soul Stealer",
     "input": "NSS b,B+1+4,B",
-    "hit_level": ",m",
-    "damage": ",20",
+    "hit_level": "m",
+    "damage": "20",
     "startup": ",i22~25",
-    "block": "-15~-12",
+    "block": "-15",
     "hit": "+14 +64a",
     "counter": "",
     "alternateInputs": [
@@ -5540,10 +5387,11 @@
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Weapon",
       "Knockdown against BT opponent, +19a (+9)",
       "4 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 2 base health on hit"
     ]
   },
   {
@@ -5552,7 +5400,7 @@
     "hit_level": "m",
     "damage": "19",
     "startup": "i17~18",
-    "block": "-17~-16",
+    "block": "-17",
     "hit": "+35a (+25a)",
     "counter": "",
     "alternateInputs": [
@@ -5560,9 +5408,11 @@
     ],
     "categories": [],
     "notes": [
+      "Weapon",
       "Can be buffered",
-      "Can transition to r37 KIN with 1+2",
-      "Can be performed in FC"
+      "Enter KIN r30 with 1+2",
+      "Can be performed from FC",
+      "Sometimes written NSS.CD+1"
     ]
   },
   {
@@ -5571,7 +5421,7 @@
     "hit_level": "M",
     "damage": "30",
     "startup": "i53~56",
-    "block": "-8c~-5c",
+    "block": "-8c",
     "hit": "+5a",
     "counter": "",
     "alternateInputs": [
@@ -5581,7 +5431,7 @@
     "notes": [
       "Spike",
       "Can be buffered",
-      "Can be performed in FC"
+      "Can be performed in FCSometimes written NSS.d,df,f+1"
     ]
   },
   {
@@ -5590,7 +5440,7 @@
     "hit_level": "l",
     "damage": "12",
     "startup": "i25~26",
-    "block": "-16~-15",
+    "block": "-16",
     "hit": "+27a",
     "counter": "",
     "alternateInputs": [
@@ -5598,7 +5448,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: NSS.db,b+1"
+      "Sometimes written FC.NSS.DF+1"
     ]
   },
   {
@@ -5607,16 +5457,18 @@
     "hit_level": "l,L",
     "damage": "12,20",
     "startup": ",i25~26",
-    "block": "-14~-13",
-    "hit": "+14~+15",
+    "block": "-14",
+    "hit": "+14",
     "counter": "",
     "alternateInputs": [
       "NSS FC DF+1,2"
     ],
     "categories": [],
     "notes": [
+      "Spike",
       "Combo from 1st hit",
-      "Alternate input: NSS.db,b+1,2"
+      "Interrupt with i7 from 1st block",
+      "Sometimes written FC.NSS.DF+1,2"
     ]
   },
   {
@@ -5625,7 +5477,7 @@
     "hit_level": "L",
     "damage": "12",
     "startup": "i20~21",
-    "block": "-26~-25",
+    "block": "-26",
     "hit": "+67a (+51)",
     "counter": "",
     "alternateInputs": [
@@ -5633,7 +5485,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written FC.NSS.df+3"
     ]
   },
   {
@@ -5651,7 +5503,7 @@
     "categories": [],
     "notes": [
       "Elbow",
-      "Combo from 1st hit with 1f delay"
+      "Combo from 1st hitSometimes written NSS.ws2,1"
     ]
   },
   {
@@ -5668,8 +5520,10 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony break on airborne hit",
+      "Elbow",
       "Combo from 2nd CH",
-      "Elbow"
+      "Sometimes written NSS.ws2,1,2"
     ]
   },
   {
@@ -5678,7 +5532,7 @@
     "hit_level": "m,h,h",
     "damage": "13,16,25",
     "startup": ",i25~26",
-    "block": "-7~-6",
+    "block": "-7",
     "hit": "+27a (+17)",
     "counter": "",
     "alternateInputs": [
@@ -5687,7 +5541,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from 2nd CH"
+      "Combo from 2nd CHSometimes written NSS.ws+2,1,3"
     ]
   },
   {
@@ -5696,7 +5550,7 @@
     "hit_level": "m,m,m",
     "damage": "10,5,20",
     "startup": ",i23~24 i14~15",
-    "block": "-1~+0",
+    "block": "-1",
     "hit": "+37a (+29)",
     "counter": "",
     "alternateInputs": [
@@ -5704,10 +5558,14 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Spike",
       "Weapon",
       "Combo from 1st hit with 2f delay",
-      "Recovers health on hit"
+      "4 chip damage on block",
+      "Recovers 4 base health on hitSometimes written ",
+      "NSS.KIN.1,1",
+      "KIN.NSS.1,1"
     ]
   },
   {
@@ -5716,7 +5574,7 @@
     "hit_level": "m,M",
     "damage": "15,30",
     "startup": "i32~34",
-    "block": "-3~-1",
+    "block": "-3",
     "hit": "+15a",
     "counter": "",
     "alternateInputs": [
@@ -5728,7 +5586,9 @@
       "Spike",
       "Weapon",
       "9 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 7 base health on hitSometimes written ",
+      "NSS.KIN.2,1+2",
+      "KIN.NSS.2,1+2"
     ]
   },
   {
@@ -5737,7 +5597,7 @@
     "hit_level": "m,M",
     "damage": "15,30",
     "startup": ",i47~49",
-    "block": "+14~+16",
+    "block": "+14",
     "hit": "+69a (+49)",
     "counter": "",
     "alternateInputs": [
@@ -5748,9 +5608,12 @@
       "Balcony Break",
       "Spike",
       "Weapon",
-      "Guard break",
+      "Guard Break",
       "12 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 2 base health on hit",
+      "+26d (+26) on airborne hitSometimes written ",
+      "NSS.KIN.2,1+2*",
+      "KIN.NSS.2,1+2*"
     ]
   },
   {
@@ -5759,7 +5622,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i12~15",
-    "block": "-15~-12",
+    "block": "-15",
     "hit": "+14 +64a",
     "counter": "",
     "alternateInputs": [
@@ -5767,10 +5630,12 @@
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Weapon",
       "Knockdown against BT opponent, +19a (+9)",
       "4 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 2 base health on hit",
+      "Sometimes written KIN.NSS.1+4"
     ]
   },
   {
@@ -5779,7 +5644,7 @@
     "hit_level": "M,M,M",
     "damage": "6,6,12",
     "startup": "i19~20 i6~7 i7~8",
-    "block": "-5~-4",
+    "block": "-5",
     "hit": "+18a (+11)",
     "counter": "",
     "alternateInputs": [
@@ -5790,7 +5655,7 @@
       "Weapon",
       "Combos from any hit",
       "12 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 4 base health on hitSometimes written KIN.NSS.f+1"
     ]
   },
   {
@@ -5799,7 +5664,7 @@
     "hit_level": "M,M,M,M,M,M",
     "damage": "6,6,6,6,6,12",
     "startup": "i19~20 i6~7 i7~8 i6~7 i7~8 i7~8",
-    "block": "--9~-8",
+    "block": "-9",
     "hit": "+29a (+14)",
     "counter": "",
     "alternateInputs": [
@@ -5810,7 +5675,24 @@
       "Weapon",
       "Combos from any hit",
       "21 chip damage on block",
-      "Recovers health on hit"
+      "Recovers 8 base health on hitSometimes written KIN.NSS.f+1*"
+    ]
+  },
+  {
+    "name": "",
+    "input": "NSS KIN d+1",
+    "hit_level": "L",
+    "damage": "17",
+    "startup": "i23~24",
+    "block": "-13",
+    "hit": "+3",
+    "counter": "+38a",
+    "alternateInputs": [
+      "NSS KIN d+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Cancel to r34 FC with DB on frame 16Sometimes written KIN.NSS.d+1"
     ]
   },
   {
@@ -5819,7 +5701,7 @@
     "hit_level": "M",
     "damage": "15",
     "startup": "i48~51",
-    "block": "-8c~-5c",
+    "block": "-8c",
     "hit": "+5a",
     "counter": "",
     "alternateInputs": [
@@ -5828,7 +5710,8 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Same animation as the ending of NSS.qcf+1"
+      "Same animation as the ending of NSS.qcf+1",
+      "Sometimes written IND.NSS.1"
     ]
   },
   {
@@ -5837,7 +5720,7 @@
     "hit_level": "l",
     "damage": "15",
     "startup": "i17~18",
-    "block": "-13~-12",
+    "block": "-13",
     "hit": "+3",
     "counter": "+38a",
     "alternateInputs": [
@@ -5845,7 +5728,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Yoshimitsu remains in NSSSometimes written BT.NSS+d1"
     ]
   },
   {
@@ -5862,25 +5745,9 @@
     ],
     "categories": [],
     "notes": [
-      "Unavailable in 1SS",
-      "Alternate input: BT.u+1+2"
-    ]
-  },
-  {
-    "name": "Dragonfly Cancel",
-    "input": "DGF d",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "DGF d"
-    ],
-    "categories": [],
-    "notes": [
-      ""
+      "Cancel to r12 with db_d_df (js1~10)",
+      "Unavailable in NSS",
+      "Actionable after 15 frames, except when using DGF.2 which can be performed after 10 frames"
     ]
   },
   {
@@ -5897,23 +5764,6 @@
     ],
     "categories": [],
     "notes": [
-      "realigns with opponent, closes distance"
-    ]
-  },
-  {
-    "name": "Dragonfly Backward",
-    "input": "DGF b",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "DGF b"
-    ],
-    "categories": [],
-    "notes": [
       "realigns with opponent, creates distance"
     ]
   },
@@ -5923,8 +5773,8 @@
     "hit_level": "M",
     "damage": "22",
     "startup": "i30~31",
-    "block": "-2c~-1c / +2",
-    "hit": "+10a / +46a",
+    "block": "-2c",
+    "hit": "+10a",
     "counter": "+46a",
     "alternateInputs": [
       "DGF 1"
@@ -5933,8 +5783,8 @@
     "notes": [
       "Spike",
       "Weapon",
-      "7 chip damage on block",
-      "Power up in Heat: +2 ob, 14 chip dmg, launch on normal hit, 26 dmg, recovers health on hit",
+      "11 chip damage on block",
+      "Power up in Heat",
       "Partially uses remaining Heat time"
     ]
   },
@@ -5944,7 +5794,7 @@
     "hit_level": "h",
     "damage": "15",
     "startup": "i16~18",
-    "block": "+4~+6",
+    "block": "+4",
     "hit": "+13s",
     "counter": "",
     "alternateInputs": [
@@ -5961,7 +5811,7 @@
     "hit_level": "h,M",
     "damage": "15,22",
     "startup": "i26~28",
-    "block": "-14~-12",
+    "block": "-14",
     "hit": "+15a (+8)",
     "counter": "",
     "alternateInputs": [
@@ -5971,7 +5821,7 @@
     "notes": [
       "Tornado",
       "Combo from 1st hit",
-      "Transition to r32 NSS with B"
+      "Enter NSS r33 with B"
     ]
   },
   {
@@ -5980,15 +5830,15 @@
     "hit_level": "L",
     "damage": "18",
     "startup": "i22~23",
-    "block": "-13~-12",
-    "hit": "+6c~+7c",
-    "counter": "+27a",
+    "block": "-13",
+    "hit": "+6c",
+    "counter": "+28a",
     "alternateInputs": [
       "DGF 3"
     ],
     "categories": [],
     "notes": [
-      "Can't be low parried"
+      "Airborne attack, can't be low parried"
     ]
   },
   {
@@ -5997,8 +5847,8 @@
     "hit_level": "m",
     "damage": "24",
     "startup": "i18~20",
-    "block": "-4~-2",
-    "hit": "+14g~+15g",
+    "block": "-4",
+    "hit": "+14g",
     "counter": "",
     "alternateInputs": [
       "DGF 4"
@@ -6006,7 +5856,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5g~+7g +62a (+42)",
+      "Heat Dash +5g, +62a (+42)",
       "Balcony Break"
     ]
   },
@@ -6034,7 +5884,7 @@
     "damage": "17,18",
     "startup": "i20~21",
     "block": "",
-    "hit": "+0~+1",
+    "hit": "+0",
     "counter": "",
     "alternateInputs": [
       "DGF 3+4"
@@ -6052,7 +5902,7 @@
     "hit_level": "h",
     "damage": "23",
     "startup": "i20~21",
-    "block": "+7~+8",
+    "block": "+7",
     "hit": "+19a (+10)",
     "counter": "+64a (+44)",
     "alternateInputs": [
@@ -6064,8 +5914,7 @@
     "notes": [
       "Homing",
       "Balcony Break",
-      "Weapon",
-      "Alternate input: FLE.f+2"
+      "Weapon"
     ]
   },
   {
@@ -6074,7 +5923,7 @@
     "hit_level": "h,h,h",
     "damage": "10,10,20",
     "startup": "i16~17 i11~12 i11~12",
-    "block": "-2~-1 / +4",
+    "block": "-2",
     "hit": "+18a (+9)",
     "counter": "",
     "alternateInputs": [
@@ -6087,9 +5936,9 @@
       "Homing",
       "Balcony Break",
       "Weapon",
+      "Jail from 1st attack",
       "12 chip damage on block",
-      "Power up in Heat: +4 ob, 17 (4,4,9) chip dmg, recovers health on hit",
-      "Partially uses remaining Heat time"
+      "Power up in Heat"
     ]
   },
   {
@@ -6140,6 +5989,7 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony break on airborne hit",
       "Elbow",
       "Combo from 1st CH"
     ]
@@ -6150,7 +6000,7 @@
     "hit_level": "h,h",
     "damage": "16,25",
     "startup": ",i25~26",
-    "block": "-7~-6",
+    "block": "-7",
     "hit": "+27a (+17)",
     "counter": "",
     "alternateInputs": [
@@ -6168,8 +6018,8 @@
     "hit_level": "h",
     "damage": "18",
     "startup": "i16~17",
-    "block": "-4~-3",
-    "hit": "+14g~+15g",
+    "block": "-4",
+    "hit": "+14g",
     "counter": "+39a",
     "alternateInputs": [
       "BT 2"
@@ -6186,7 +6036,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i24~26",
-    "block": "-3~-1",
+    "block": "-3",
     "hit": "+11a",
     "counter": "",
     "alternateInputs": [
@@ -6203,23 +6053,22 @@
     "hit_level": "L",
     "damage": "20",
     "startup": "i17~18",
-    "block": "-13~-12",
-    "hit": "+3~+4",
+    "block": "-13",
+    "hit": "+3",
     "counter": "+38a",
     "alternateInputs": [
       "BT d+1"
     ],
     "categories": [],
     "notes": [
-      "Weapon",
-      "Can be performed in NSS with BT.b~db+1+2"
+      "WeaponSometimes written 1SS.BT.d+1"
     ]
   },
   {
     "name": "Trailokya Pilgrimage",
     "input": "in rage df+1+2",
-    "hit_level": "m",
-    "damage": "10,45+",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
     "hit": "+0d",
@@ -6230,8 +6079,13 @@
     "categories": [],
     "notes": [
       "Rage Art",
-      "Damage increases with lower health",
-      "Erases opponent's recoverable health on hit"
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -6258,15 +6112,15 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i17~18",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "+27a (+17)",
     "alternateInputs": [
       "SS 1"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sidestep adds minimum 9f, effective startup i26~27"
     ]
   },
   {
@@ -6275,7 +6129,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i18~19",
-    "block": "-13~-12",
+    "block": "-13",
     "hit": "+30a (+20)",
     "counter": "",
     "alternateInputs": [
@@ -6283,7 +6137,8 @@
     ],
     "categories": [],
     "notes": [
-      "Tornado"
+      "Tornado",
+      "Sidestep adds minimum 9f, effective startup i27~28"
     ]
   },
   {
@@ -6309,8 +6164,8 @@
     "hit_level": "M",
     "damage": "24",
     "startup": "i27~29",
-    "block": "-13~-11",
-    "hit": "-8c~-6c",
+    "block": "-13",
+    "hit": "-8c",
     "counter": "",
     "alternateInputs": [
       "OTG u+1"
@@ -6321,7 +6176,7 @@
       "Spike",
       "Weapon",
       "16 damage -16a against airborne opponent",
-      "19 damage -13a (-23a) against a grounded opponent",
+      "19 damage -13a (-23) against a grounded opponent",
       "Unavailable in NSS"
     ]
   },
@@ -6338,9 +6193,11 @@
       "1+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Throw break 1 or 2"
     ]
   },
@@ -6357,9 +6214,11 @@
       "2+4"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
+      "Homing",
       "Floor Break",
       "Throw break 1 or 2",
       "Side switch on hit"
@@ -6466,7 +6325,7 @@
       "Yoshimitsu recovers 16 health",
       "On break:",
       "-Opponent recovers 22 health (35 on backthrow)",
-      "-Yoshimitsu loses 16 health"
+      "-Yoshimitsu loses 16 healthSometimes written d,df,f+2"
     ]
   },
   {
@@ -6487,7 +6346,7 @@
     "notes": [
       "Unbreakable",
       "Opponent recovers 26 health",
-      "Yoshimitsu loses 35 health"
+      "Yoshimitsu loses 35 healthSometimes written d,db,b,f+2"
     ]
   }
 ]

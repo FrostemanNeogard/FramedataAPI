@@ -41,6 +41,7 @@
       "Jail from 1st attack",
       "Transition to attack throw on hit",
       "Transition to MCR on block only",
+      "Can cancel transition to MCR on block with B at +2~+12",
       "8 Chip Damage on block"
     ]
   },
@@ -159,7 +160,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42) on hit, +5 on block",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break",
       "16 Chip Damage on Heat Dash",
       "Combo from 1st hit with 5f delay",
@@ -181,7 +182,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35) on hit, +5 on block",
+      "Heat Dash +5, +43d (+35)",
       "Balcony Break",
       "17 Chip Damage on Heat Dash"
     ]
@@ -201,7 +202,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42) on hit, +5 on block",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break",
       "16 Chip Damage on Heat Dash"
     ]
@@ -221,8 +222,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26) on hit, +5 on block",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
+      "i18 startup when unbuffered, and i16 startup when buffered",
       "7 Chip Damage on block",
       "10 Chip Damage on block while in heat",
       "20 Chip Damage on Heat Dash"
@@ -243,7 +245,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +67a (+50) on hit, +5 on block",
+      "Heat Dash +5, +67a (+50)",
       "Spike",
       "16 Chip Damage on blocked Heat Dash",
       "Combo from 1st hit",
@@ -264,7 +266,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -289,7 +291,7 @@
     "input": "1,1,2",
     "hit_level": "h,h,m",
     "damage": "5,6,14",
-    "startup": ",i13",
+    "startup": ",i13~14",
     "block": "-17",
     "hit": "+18a (+13)",
     "counter": "",
@@ -583,7 +585,7 @@
     "input": "1+4",
     "hit_level": "SL,h",
     "damage": "5,5",
-    "startup": ",i16",
+    "startup": "i16~17,i14",
     "block": "-3",
     "hit": "+4",
     "counter": "",
@@ -610,6 +612,7 @@
     "categories": [],
     "notes": [
       "Tornado",
+      "Combo from 2nd CH",
       "6 chip damage on block"
     ]
   },
@@ -715,8 +718,8 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Combo on 1st CH with 3f delay",
-      "Input can be delayed 15f",
+      "Combo on 1st CH with 4?f delay",
+      "Input can be delayed 16?f",
       "Enter FLY +36a (+26) with ub_u_uf on hit"
     ]
   },
@@ -826,6 +829,7 @@
       "Tornado",
       "Combo from 2nd CH with 4f delay",
       "Input can be delayed 16f",
+      "Jails for 3?F from 2nd hit",
       "Enter MCR +36a (+26) with ub_u_uf on hit"
     ]
   },
@@ -919,7 +923,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Could be sidewalked left under specific circumstances."
     ]
   },
   {
@@ -1082,7 +1086,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracks SSR/SWR completely"
     ]
   },
   {
@@ -1157,7 +1161,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42) on hit, +5 on block",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break",
       "16 Chip Damage on Heat Dash",
       "Combo from 1st hit with 5f delay",
@@ -1179,7 +1183,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +43a (+35) on hit, +5 on block",
+      "Heat Dash +5, +43d (+35)",
       "Balcony Break",
       "17 Chip Damage on Heat Dash"
     ]
@@ -1252,7 +1256,11 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Tracking score notes:",
+      "Tracking score based on i40 impact",
+      "Tracking score only for immediate sidestep/sidewalk. Move can be sidewalked on reaction at any frame advantage",
+      "Tracks only SSR when opponent is +5~+7"
     ]
   },
   {
@@ -1296,8 +1304,8 @@
     "hit_level": "h",
     "damage": "10",
     "startup": "i21~23",
-    "block": "+11",
-    "hit": "+16",
+    "block": "+11~+13",
+    "hit": "+16~+18",
     "counter": "",
     "alternateInputs": [
       "uf+1"
@@ -1308,6 +1316,7 @@
       "Weapon",
       "Balcony break on airborne hit",
       "Transition to r20 MCR on hit or block only",
+      "r47 opponent hitstun",
       "2 Chip Damage on block",
       "3 Chip Damage on block while in heat"
     ]
@@ -1364,7 +1373,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +62a (+42) on hit, +5 on block",
+      "Heat Dash +5, +62a (+42)",
       "Balcony Break",
       "16 Chip Damage on Heat Dash"
     ]
@@ -1401,8 +1410,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +36a (+26) on hit, +5 on block",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
+      "i18 startup when unbuffered, and i16 startup when buffered",
       "7 Chip Damage on block",
       "10 Chip Damage on block while in heat",
       "20 Chip Damage on Heat Dash"
@@ -1423,6 +1433,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "i23 startup when unbuffered, and i21 startup when buffered",
       "Opponent recovers crouching on hit"
     ]
   },
@@ -1460,9 +1471,13 @@
     "alternateInputs": [
       "b,f+2"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      "Can be buffered"
+      "Input bufferable",
+      "Homing at +3 and above",
+      "Can be sidestepped to the right at -2 to +2"
     ]
   },
   {
@@ -1652,6 +1667,7 @@
     ],
     "categories": [],
     "notes": [
+      "Strong Aerial Tailspin",
       "Balcony Break On air hit",
       "Weapon",
       "Combo from 1st CH with 1f delay",
@@ -1787,8 +1803,10 @@
     "notes": [
       "Cannot be buffered",
       "Stance moves can be buffered out of heat dash",
+      "Recovers in WS for 6 frames starting at frame 20",
       "Cancel to sidestep with u",
-      "Cancel to block with b"
+      "Cancel to block with b",
+      "Sometimes written CD"
     ]
   },
   {
@@ -1806,7 +1824,8 @@
     "categories": [],
     "notes": [
       "Can access wr3 by inputting 3 on frames 1~2",
-      "Unable to act from frames 3~26"
+      "Unable to act from frames 3~26",
+      "Sometimes written CD.UF"
     ]
   },
   {
@@ -1823,7 +1842,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written CD.df+1"
     ]
   },
   {
@@ -1843,7 +1862,8 @@
       "Floor Break",
       "Transition to attack throw on hit",
       "Available only on hit",
-      "Opponent recovers FDFA on hit"
+      "Opponent recovers FDFA on hit",
+      "Sometimes written CD.df+1,UF"
     ]
   },
   {
@@ -1863,7 +1883,9 @@
       "Turns into EWGF (f,n,d,df#2) while in heat",
       "Consumes 70F of remaining heat time while in heat",
       "8 Chip Damage on block while in heat",
-      "Sometimes written WGF"
+      "Sometimes written ",
+      "WGF",
+      "CD.df+2"
     ]
   },
   {
@@ -1882,10 +1904,11 @@
     "notes": [
       "4 Chip Damage on block",
       "8 Chip Damage on block while in heat",
+      "Can also be performed with f,n,df#2 (i13~)",
       "Sometimes written ",
       "EWGF",
       "Electric",
-      "Can be input with f,n,df+2"
+      "CD.df#2"
     ]
   },
   {
@@ -1904,7 +1927,8 @@
     "notes": [
       "Spike",
       "7 Chip Damage on block",
-      "10 Chip Damage on block while in heat"
+      "10 Chip Damage on block while in heat",
+      "Sometimes written CD.df+3"
     ]
   },
   {
@@ -1921,7 +1945,7 @@
     ],
     "categories": [],
     "notes": [
-      "Opponent recovers FDFA on hit"
+      "Opponent recovers FDFA on hitSometimes written CD.DF+3"
     ]
   },
   {
@@ -1938,7 +1962,9 @@
     ],
     "categories": [],
     "notes": [
-      "Sometimes written Hellsweep"
+      "Sometimes written ",
+      "Hellsweep",
+      "CD.DF+4"
     ]
   },
   {
@@ -1956,7 +1982,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 1st hitSometimes written Hellsweep"
+      "Combo from 1st hitSometimes written CD.DF+4,4"
     ]
   },
   {
@@ -1976,7 +2002,7 @@
       "Tornado",
       "Available only on hit",
       "Opponent recovers FUFA on hit",
-      "Sometimes written Hellsweep"
+      "Sometimes written CD.DF+4,1+2"
     ]
   },
   {
@@ -1999,7 +2025,8 @@
       "Balcony Break",
       "7 Chip Damage on block",
       "10 Chip Damage on block while in heat",
-      "Opponent recovers FUFA on CH"
+      "Opponent recovers FUFA on CH",
+      "Sometimes written CD.df+1+2"
     ]
   },
   {
@@ -2231,7 +2258,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash +67a (+50) on hit, +5 on block",
+      "Heat Dash +5, +67a (+50)",
       "Spike",
       "16 Chip Damage on blocked Heat Dash",
       "Combo from 1st hit",
@@ -2314,7 +2341,7 @@
     "name": "Devil Dimension: Tainted Chains",
     "input": "in rage df+1+2",
     "hit_level": "m,t",
-    "damage": "55+",
+    "damage": "10-15,3-5,42-60",
     "startup": "i20",
     "block": "-15",
     "hit": "+0d",
@@ -2322,13 +2349,16 @@
     "alternateInputs": [
       "in rage df+1+2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
       "Rage Art",
-      "Damage increases with lower health, maximum 80 damage",
-      "Removes recoverable health on hit",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage",
       "Opponent recovers FDFA on hit"
     ]
   },
@@ -2414,8 +2444,8 @@
     "hit_level": "L",
     "damage": "25",
     "startup": "i23~31",
-    "block": "-14",
-    "hit": "+5a",
+    "block": "-16~-8",
+    "hit": "+5a~+13a",
     "counter": "",
     "alternateInputs": [
       "OTG d+1+2"
@@ -2423,7 +2453,8 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Balcony break on CH"
+      "Balcony break on CH",
+      "Typically connects grounded on frames i25~26 of startup at -14~-13/+12a~+13a(+0a~+1a)"
     ]
   },
   {

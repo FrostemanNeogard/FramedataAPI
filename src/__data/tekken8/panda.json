@@ -25,7 +25,7 @@
     "damage": "44 (16)",
     "startup": "i15~16",
     "block": "+7 / +6 ROL / +11 HBS",
-    "hit": "-3 / N/A ROL / N/A HBS",
+    "hit": "-3d / N/A ROL / N/A HBS",
     "counter": "",
     "alternateInputs": [
       "in heat 2+3"
@@ -33,6 +33,7 @@
     "categories": [],
     "notes": [
       "Heat Smash",
+      "Floor Break",
       "Spike",
       "Alternate input: H.HBS.2+3",
       "Transition to ROL with input F",
@@ -53,6 +54,7 @@
     ],
     "categories": [],
     "notes": [
+      "Alternate input: H.ROL.uf+3+4",
       "Partially uses remaining heat time",
       "Transition to SIT (cannot cancel)"
     ]
@@ -111,6 +113,7 @@
     ],
     "notes": [
       "Balcony Break",
+      "Floor Break",
       "Heat Engager",
       "Homing",
       "chip damage",
@@ -483,6 +486,7 @@
     ],
     "categories": [],
     "notes": [
+      "Floor Break",
       "Combo from 2nd hit",
       "Combo from 1st CH",
       "Can be delayed 10F",
@@ -554,8 +558,26 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Combo from 1st hit",
       "chip damage on block"
+    ]
+  },
+  {
+    "name": "",
+    "input": "df+4",
+    "hit_level": "m",
+    "damage": "15",
+    "startup": "i12",
+    "block": "-4",
+    "hit": "+7",
+    "counter": "",
+    "alternateInputs": [
+      "df+4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   },
   {
@@ -625,6 +647,7 @@
     ],
     "categories": [],
     "notes": [
+      "Floor Break",
       "Combo from 1st hit",
       "Hold 2 to power up, up to 2 charge levels",
       "Transition to HBS with input D or 3+4"
@@ -644,6 +667,7 @@
     ],
     "categories": [],
     "notes": [
+      "Floor Break",
       "chip damage on block",
       "Heat skips to Level 2 charge",
       "Transition to HBS with input D or 3+4"
@@ -665,6 +689,7 @@
       "powercrush"
     ],
     "notes": [
+      "Floor Break",
       "chip damage on block",
       "Cannot absorb with power crush",
       "Heat reduces charge length (consumes remaining time)",
@@ -753,7 +778,8 @@
     ],
     "categories": [],
     "notes": [
-      "+10 CH but only on the last hit"
+      "Combos from 1st hit",
+      "+10 CH but only on the last hit "
     ]
   },
   {
@@ -787,6 +813,7 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "Hold 2+3 to power up, up to 2 charge levels and deal more chip damage on block"
     ]
   },
@@ -804,6 +831,7 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "chip damage on block"
     ]
   },
@@ -821,6 +849,7 @@
     ],
     "categories": [],
     "notes": [
+      "Balcony Break",
       "chip damage on block"
     ]
   },
@@ -874,6 +903,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combos from 1st hit",
       "Transition to HBS with input D or 3+4",
       "Transition to ROL with input F"
     ]
@@ -892,7 +922,8 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Combos from 2nd hit CH"
     ]
   },
   {
@@ -909,7 +940,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combos from 1st hit CH"
     ]
   },
   {
@@ -927,7 +958,8 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Does not tornado on wall hit"
+      "Does not Tornado on wall hit",
+      "Combos from 2nd hit CH"
     ]
   },
   {
@@ -947,6 +979,7 @@
     ],
     "notes": [
       "Balcony Break",
+      "Floor Break",
       "Heat Engager",
       "Homing",
       "chip damage",
@@ -1047,8 +1080,8 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i34~39",
-    "block": "+10",
-    "hit": "+20",
+    "block": "+14cg",
+    "hit": "+20d",
     "counter": "",
     "alternateInputs": [
       "u+3+4"
@@ -1829,7 +1862,7 @@
     "name": "",
     "input": "SIT 1",
     "hit_level": "l",
-    "damage": "10",
+    "damage": "15",
     "startup": "i21~22",
     "block": "-12",
     "hit": "+4",
@@ -1846,7 +1879,7 @@
     "name": "Double Trout Sweep",
     "input": "SIT 1,1",
     "hit_level": "l,l",
-    "damage": "10,13",
+    "damage": "15,13",
     "startup": ",i25~26",
     "block": "-12",
     "hit": "+6",
@@ -2004,21 +2037,25 @@
   {
     "name": "Close Call! Panda Storming Flower",
     "input": "in rage df+1+2",
-    "hit_level": "m,th",
-    "damage": "55",
+    "hit_level": "m,t",
+    "damage": "55+",
     "startup": "i20",
     "block": "-15",
-    "hit": "0",
+    "hit": "+0d",
     "counter": "",
     "alternateInputs": [
       "in rage df+1+2"
     ],
-    "categories": [
-      "throw"
-    ],
+    "categories": [],
     "notes": [
       "Rage Art",
-      "Erase opponent's Recoverable Health on hit"
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum 82",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {
@@ -2301,8 +2338,9 @@
       "throw"
     ],
     "notes": [
-      "Throw break: none",
+      "Removes Recoverable Health",
       "Spike",
+      "Throw break: none",
       "Opponent status on hit: FUFA"
     ]
   }
