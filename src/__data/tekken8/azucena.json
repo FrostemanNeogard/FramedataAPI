@@ -285,7 +285,8 @@
       "Heat Engager",
       "Heat Dash +5, +67a (+50)",
       "Spike",
-      "Chip damage on block"
+      "6 chip damage on block",
+      "8 chip damage on block during heat"
     ]
   },
   {
@@ -687,7 +688,9 @@
     ],
     "categories": [],
     "notes": [
-      "Chip damage on block"
+      "6 chip damage on block",
+      "9 chip damage on block during heat",
+      "Interrupt with i21 from 1st block"
     ]
   },
   {
@@ -704,7 +707,9 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Tornado on CH",
+      "Interrupt with i19 from 1st block"
     ]
   },
   {
@@ -1168,7 +1173,8 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit with 6f delay",
-      "Chip damage on block"
+      "4 chip damage on block",
+      "6 chip damage on block during heat"
     ]
   },
   {
@@ -1188,7 +1194,8 @@
       "Balcony Break",
       "Combo from 2nd CH with 6f delay",
       "Input can be delayed 9f",
-      "Chip damage on block",
+      "6 chip damage on block",
+      "8 chip damage on block during heat",
       "Cancel to BT -15 -10 r18 with F"
     ]
   },
@@ -1210,7 +1217,8 @@
     "notes": [
       "Balcony Break",
       "Homing",
-      "Chip damage on block"
+      "6 chip damage on block",
+      "8 chip damage on block during heat"
     ]
   },
   {
@@ -1429,7 +1437,8 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Chip damage on block"
+      "8 chip damage on block",
+      "11 chip damage on block during heat"
     ]
   },
   {
@@ -1486,7 +1495,8 @@
       "Balcony Break",
       "Elbow",
       "Jail from 1st attack",
-      "Chip damage on block",
+      "8 chip damage on block",
+      "(3)+9 chip damage on block during heat",
       "Available only as combo from 1st hit"
     ]
   },
@@ -1624,7 +1634,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block",
+      "6 chip damage on block",
+      "9 chip damage on block during heat",
       "Opponent recovers crouching"
     ]
   },
@@ -1768,7 +1779,8 @@
     ],
     "categories": [],
     "notes": [
-      "Chip damage on block"
+      "4 chip damage on block",
+      "5 chip damage on block during heat"
     ]
   },
   {
@@ -1788,7 +1800,8 @@
       "Balcony Break",
       "Combo from 1st hit with 6f delay",
       "Input can be delayed 9f",
-      "Chip damage on block",
+      "6 chip damage on block",
+      "8 chip damage on block during heat",
       "Cancel to BT -15 -10 r18 with B"
     ]
   },
@@ -1940,7 +1953,8 @@
     "notes": [
       "Homing",
       "Balcony Break",
-      "Chip damage on block",
+      "7 chip damage on block",
+      "10 chip damge on block during heat",
       "Frame advantage is +0 if an attack is absorbed"
     ]
   },
@@ -2142,6 +2156,8 @@
       "Combo from 1st hit with 2f delay",
       "Combo from 1st CH with 4f delay",
       "Input can be delayed 10f",
+      "6 chip damage on block",
+      "9 chip damage on block during heat",
       "Cancel to LIB -19 -13 r20 with F",
       "(Ver.1.05.00) - Chip Damage added."
     ]
@@ -2209,7 +2225,7 @@
     "damage": "23",
     "startup": "i19~20",
     "block": "-13",
-    "hit": "+4",
+    "hit": "+4 LIB",
     "counter": "+14c",
     "alternateInputs": [
       "BT 3"
@@ -2218,6 +2234,7 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Balcony break on airborne hit",
+      "Transition to LIB on hit",
       "(Ver.1.05.00) - Changed the opponent's behavior on aerial hit to \"Strong Aerial Tailspin\"."
     ]
   },
@@ -2639,8 +2656,9 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to throw on front hit only",
-      "18 damage to Azucena when blocked",
+      "Transition to throw on front standing hit only",
+      "Crouching",
+      "18 damage to Azucena when hitting crouching opponent (block)",
       "Damage on hit and block is recoverable health",
       "Cannot KO Azucena when blocked",
       "r41 FC on whiff"

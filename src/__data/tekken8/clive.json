@@ -39,8 +39,11 @@
       "Balcony Break",
       "Wall Crush +10g on block",
       "Transition to attack throw on 1st hit",
-      "Regain recoverable health on hit",
       "45 damage Balcony Break on 1st whiff",
+      "Recover 27-45 recoverable health on hit:",
+      "Regain 18?-19? additional recoverable health on hit",
+      "Recover 19 recoverable health on 1st whiff and 2nd hit:",
+      "Regain 12? addditional recoverable health on 1st whiff and 2nd hit",
       "19 Chip Damage on block"
     ]
   },
@@ -295,7 +298,11 @@
       "Heat Dash +5, +43d (+35d)",
       "Balcony Break (airborne)",
       "Weapon",
-      "On hit regain recoverable health"
+      "On hit regain 5 additional recoverable health",
+      "Tracking Notes:",
+      "Opponent can sidewalk to the left at -4",
+      "Opponent can sidestep to the right at -4",
+      "Opponent can sidestep to the left at -2"
     ]
   },
   {
@@ -388,7 +395,7 @@
       "Weapon",
       "6 Chip Damage on block",
       "12 Chip Damage on block in heat",
-      "On hit regain recoverable health"
+      "On hit regain 3 additional recoverable health"
     ]
   },
   {
@@ -834,7 +841,10 @@
     "notes": [
       "Spike",
       "3 Chip Damage on block",
-      "5 Chip Damage on block in heat"
+      "5 Chip Damage on block in heat",
+      "Tracking notes:",
+      "Opponent can sidewalk to the left at -4",
+      "Opponent can sidestep to the right at -8"
     ]
   },
   {
@@ -868,7 +878,11 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Opponent can sidestep to the right at -2",
+      "Opponent can sidewalk to the right at -3",
+      "Opponent can sidestep to the left at -6",
+      "Opponent can sidewalk to the left at -7"
     ]
   },
   {
@@ -963,7 +977,11 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "2nd hit available only on hit or block"
+      "2nd hit available only on hit or block",
+      "Tracking notes:",
+      "Opponent can sidestep to the left at -6",
+      "Opponent can sidestep to the right at -2",
+      "Opponent can sidewalk to the right at -5"
     ]
   },
   {
@@ -1074,7 +1092,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Opponent can sidestep right at -10",
+      "Opponent can sidewalk left at +0",
+      "Opponent can sidestep left at +6"
     ]
   },
   {
@@ -1083,8 +1104,8 @@
     "hit_level": "sl",
     "damage": "8",
     "startup": "i11",
-    "block": "-4",
-    "hit": "+7",
+    "block": "-6",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "d+2"
@@ -1146,7 +1167,10 @@
       "Balcony Break",
       "Weapon",
       "6 Chip Damage on block",
-      "9 Chip Damage on block in heat"
+      "9 Chip Damage on block in heat",
+      "Tracking notes:",
+      "Opponent can sidewalk left at -1 (or -2?)",
+      "Opponent cannot sidestep right or sidewalk right?."
     ]
   },
   {
@@ -1205,7 +1229,10 @@
     ],
     "categories": [],
     "notes": [
-      "Weapon"
+      "Weapon",
+      "Tracking notes:",
+      "Opponent can sidestep right at -10",
+      "Opponent can sidewalk left at -2?"
     ]
   },
   {
@@ -1263,7 +1290,7 @@
       "homing"
     ],
     "notes": [
-      "Homing"
+      "Effectively homing?"
     ]
   },
   {
@@ -1341,13 +1368,16 @@
     "alternateInputs": [
       "b+2"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
       "Strong Aerial Tailspin",
       "Balcony Break",
       "Weapon",
       "Enter PHX +6 +23 r24 with F or 4 on block or hit",
-      "+15a (+6) on BT hit"
+      "+15a (+6) on BT hit",
+      "Effectively homing?"
     ]
   },
   {
@@ -1385,7 +1415,10 @@
     "notes": [
       "Balcony Break",
       "Steel pedal, opponent recovers in FUFT",
-      "Opponent recovers crouching on standing hit"
+      "Opponent recovers crouching on standing hit",
+      "Tracking notes:",
+      "Opponent can sidestep right at -6",
+      "Opponent can sidewalk left at -5"
     ]
   },
   {
@@ -1552,7 +1585,9 @@
       "Weapon",
       "Increases ZAN gauge by 0.40 on hit",
       "Increases ZAN gauge by 0.14 on block",
-      "Only deals recoverable damage"
+      "Only deals recoverable damage",
+      "Tracking notes:",
+      "Assuming i24 startup (f,n,f,f+2)"
     ]
   },
   {
@@ -1592,6 +1627,23 @@
       "4 Chip Damage on block",
       "7 Chip Damage on block in heat",
       "Sometimes written wr2"
+    ]
+  },
+  {
+    "name": "Crouch Jab",
+    "input": "FC 1",
+    "hit_level": "sl",
+    "damage": "5",
+    "startup": "i10",
+    "block": "-5",
+    "hit": "+6",
+    "counter": "",
+    "alternateInputs": [
+      "FC 1"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to Standing with f"
     ]
   },
   {
@@ -1728,7 +1780,7 @@
       "-9 on block if after absorbing an attack in power crush state",
       "6 Chip Damage on block after absorbing an attack in power crush state",
       "7 Chip Damage on block while in heat after absorbing an attack in power crush state",
-      "On hit regain recoverable health",
+      "On 1st hit regain 5 additional recoverable health",
       "+4d on side or BT hit"
     ]
   },
@@ -1768,7 +1820,7 @@
     "notes": [
       "Tornado",
       "Weapon",
-      "On hit regain recoverable health",
+      "On hit regain 5 additional recoverable health",
       "Combo from 1st hit with 4f delay",
       "Input can be delayed 16f",
       "Move can be delayed 10f"

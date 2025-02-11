@@ -295,7 +295,10 @@
     ],
     "categories": [],
     "notes": [
-      "Recovers 2f faster on hit or block (t29 r18)"
+      "Recovers 2f faster on hit or block (t29 r18)",
+      "Tracking notes:",
+      "May be sidewalked left only at +4. Pseudo-homing right tracking.",
+      "May be sidestepped right at -7."
     ]
   },
   {
@@ -531,9 +534,14 @@
     "alternateInputs": [
       "f+1"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      ""
+      "Tracking Notes:",
+      "Might be sidewalked left at +8 only?",
+      "Might be sidestepped left at -4 only?",
+      "Effectively homing?"
     ]
   },
   {
@@ -638,6 +646,9 @@
     ],
     "categories": [],
     "notes": [
+      "Tracking notes:",
+      "Can be sidewalked left at -2 or -1",
+      "Can be sidestepped right at -4",
       "Sometimes written stop sign"
     ]
   },
@@ -766,7 +777,10 @@
     ],
     "notes": [
       "Balcony Break",
-      "Chip damage on block when absorbing an attack (12) "
+      "Chip damage on block when absorbing an attack (12)",
+      "Tracking notes:",
+      "Can sidewalked left at -7",
+      "Can sidestepped at -6"
     ]
   },
   {

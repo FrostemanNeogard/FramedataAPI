@@ -145,7 +145,8 @@
       "Balcony Break",
       "Weapon",
       "Combo from 1st hit",
-      "6 chip damage on block"
+      "6 chip damage on block",
+      "Does not transition to DES when using Heat Dash"
     ]
   },
   {
@@ -829,7 +830,7 @@
     "damage": "14,24",
     "startup": ",i18~21",
     "block": "-9",
-    "hit": "+28 (+13)",
+    "hit": "+28a (+13a)",
     "counter": "",
     "alternateInputs": [
       "d+2,4"
@@ -2231,7 +2232,7 @@
     "damage": "34",
     "startup": "i23~27 i1~5 i1~4 i1~4 i1~5 i1~5 i1~4 i1~1",
     "block": "+5",
-    "hit": "+33",
+    "hit": "+33a",
     "counter": "",
     "alternateInputs": [
       "DES f+1+2"
@@ -2250,7 +2251,7 @@
     "damage": "34,20",
     "startup": ",i20~26",
     "block": "-53",
-    "hit": "+41",
+    "hit": "+41a",
     "counter": "",
     "alternateInputs": [
       "DES f+1+2,1+2"
@@ -2326,7 +2327,7 @@
     "damage": ",25",
     "startup": ",i20~21",
     "block": "-13",
-    "hit": "+14",
+    "hit": "+14c",
     "counter": "",
     "alternateInputs": [
       "DES d+3,1"
@@ -2362,7 +2363,7 @@
     "hit_level": "m,m,SL,SL,SL,SL",
     "damage": "17,8,5,5,5,5",
     "startup": ",i20~21 i1~6 i1~5 i1~5 i1~3",
-    "block": "-3",
+    "block": "-3c",
     "hit": "+5",
     "counter": "",
     "alternateInputs": [

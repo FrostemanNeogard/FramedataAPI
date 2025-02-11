@@ -300,7 +300,6 @@
       "Homing",
       "Balcony Break",
       "Heat Dash +62a (+42) on hit, +5 on block",
-      "Alternate input: qcf+3+4",
       "Can cancel to r19 BT with B"
     ]
   },
@@ -395,7 +394,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
-      "Combo from 1st CH"
+      "Combo from 1st or 2nd CH"
     ]
   },
   {
@@ -483,7 +482,8 @@
     ],
     "categories": [],
     "notes": [
-      "Jail from 1st attack"
+      "Combo from 1st hit",
+      "Jail from 1st block"
     ]
   },
   {
@@ -536,7 +536,8 @@
     ],
     "categories": [],
     "notes": [
-      "Jail from 1st attack"
+      "Combo from 1st hit",
+      "Jail from 1st block"
     ]
   },
   {
@@ -750,7 +751,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Pseudo-homing. Can only be sidewalked left at range"
     ]
   },
   {
@@ -2367,6 +2368,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Available only on hit or block",
       "Combo from 2nd hit",
       "Combo from 1st CH"
     ]
@@ -2894,6 +2896,45 @@
     ]
   },
   {
+    "name": "Utsusemi Escape",
+    "input": "b+1+3",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "b+1+3"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Parries all attacks except for Rage Arts"
+    ]
+  },
+  {
+    "name": "Utsusemi Escape",
+    "input": "b+1+3,P",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "-31",
+    "counter": "",
+    "alternateInputs": [
+      "b+1+3,P"
+    ],
+    "categories": [
+      "parry"
+    ],
+    "notes": [
+      "Deals recoverable self-damage on a successful parry",
+      "Raven will teleport back a safe distance"
+    ]
+  },
+  {
     "name": "Wild Hunt X-ecutor",
     "input": "in rage df+1+2",
     "hit_level": "m,t",
@@ -3001,47 +3042,6 @@
     "categories": [],
     "notes": [
       "Spike"
-    ]
-  },
-  {
-    "name": "Utsusemi Escape",
-    "input": "b+1+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+1+3"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Parries all attacks except for Rage Arts",
-      "Alternate input: b+2+4"
-    ]
-  },
-  {
-    "name": "Utsusemi Escape",
-    "input": "b+1+3,P",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "-31",
-    "counter": "",
-    "alternateInputs": [
-      "b+1+3,P"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Deals recoverable self-damage on a successful parry",
-      "Raven will teleport back a safe distance",
-      "Alternate input: BT.b+1+3 or BT.b+2+4"
     ]
   },
   {
