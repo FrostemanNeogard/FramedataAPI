@@ -53,6 +53,7 @@
       "Heat Engager",
       "Heat Dash +5g +34d",
       "Strong Aerial Tailspin",
+      "Balcony Break",
       "Combo from 2nd hit with 1f-5f delay only",
       "Frame advantage on 1st CH: +29a (+22)",
       "4 Chip Damage on block",
@@ -234,6 +235,7 @@
     "categories": [],
     "notes": [
       "Tornado",
+      "10 chip damage",
       "Perfect Input not required during Heat",
       "4 must be input during frames 7?-9? of previous hit",
       "Partially consumes remaining Heat Time, while Perfect input restores Heat Time",
@@ -308,7 +310,7 @@
     "name": "Friction Spear Cardinal",
     "input": "FC df,d,DF:3",
     "hit_level": "l",
-    "damage": "25",
+    "damage": "23",
     "startup": "i18~24",
     "block": "-15*",
     "hit": "+3",
@@ -318,10 +320,11 @@
     ],
     "categories": [],
     "notes": [
-      "Frame advantage on block depends on spacing.: Ranges from -15 up close, to -9 at tip range.",
+      "* Frame advantage on block depends on spacing.: Ranges from -15 up close, to -9 at tip range.",
       "Perfect Input not required during Heat",
-      "Perfect input when DF and 3 are input during the same frame?",
-      "Partially consumes remaining Heat Time, while Perfect input restores Heat Time"
+      "Perfect input when DF and 3 are input during the same frame",
+      "Partially consumes remaining Heat Time, while Perfect input restores Heat Time",
+      "Is not bufferable from full crouch (regular version gets buffered instead)"
     ]
   },
   {
@@ -1734,7 +1737,7 @@
     "name": "Jostle Wolf",
     "input": "f,F+2",
     "hit_level": "h",
-    "damage": "26",
+    "damage": "23",
     "startup": "i18",
     "block": "+2",
     "hit": "+18gc",
@@ -1935,7 +1938,7 @@
     "input": "FC df+4",
     "hit_level": "l",
     "damage": "17",
-    "startup": "i16",
+    "startup": "i16~17",
     "block": "-14",
     "hit": "-3",
     "counter": "+25d",
@@ -1944,7 +1947,7 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to 14, -3, +25d HMS with 3"
+      "Transition to -14, -3, +25d HMS with 3"
     ]
   },
   {
@@ -1961,7 +1964,7 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to -, +28a (+18) HMS with 3",
+      "Transition to -17, +28a (+18) HMS with 3",
       "Alternate input FC.UB+4, FC.U+4"
     ]
   },
@@ -2015,7 +2018,8 @@
     ],
     "categories": [],
     "notes": [
-      "* Frame advantage on block depends on spacing.: Ranges from -15 up close, to -9 at tip range."
+      "* Frame advantage on block depends on spacing: Ranges from -15 up close, to -9 at tip range.",
+      "Bufferable from full crouch"
     ]
   },
   {
