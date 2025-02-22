@@ -41,7 +41,11 @@
       "Reversal Break",
       "Balcony Break",
       "Transition to attack throw on hit",
-      "Chip damage on block"
+      "Chip damage on block",
+      "Tracking notes:",
+      "Can be sidewalked left at -4, -3, -1, and +2 onwards (difficult to sidewalk)",
+      "Tracks SSL/SSR/SWR completely?",
+      "Pseudo homing low"
     ]
   },
   {
@@ -132,7 +136,8 @@
       "Heat Dash +5, +67a (+50)",
       "Balcony Break",
       "Spike",
-      "Transition to r49 STB on hit without STB and Heat"
+      "Transition to r49 STB on hit without STB and Heat",
+      "Linear move"
     ]
   },
   {
@@ -154,8 +159,14 @@
       "Balcony Break",
       "Transition to r51 STB without STB and Heat",
       "Frame advantage +1a (-4) on STB gain",
-      "Chip damage on block",
+      "8 chip damage on block",
+      "15 chip damage on block in heat",
       "Cannot be buffered",
+      "Tracking notes:",
+      "Assuming i18 startup (f,n,f,n,f+2)",
+      "Can be sidestepped left at -10",
+      "Can be sidewalked right at -7",
+      "Can be sidestepped right from -5 to -2",
       "Sometimes written wr2"
     ]
   },
@@ -262,7 +273,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidewalked left at +1",
+      "Tracks sidestep right and sidewalk right completely?"
     ]
   },
   {
@@ -279,7 +292,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidestepped right at -7",
+      "Can be sidewalked left at +0 (difficult)?",
+      "Pseudo homing to SSL/SWL side?"
     ]
   },
   {
@@ -397,9 +413,13 @@
     "alternateInputs": [
       "f+2"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidestepped right at -7",
+      "Homing to SSL/SWL side?"
     ]
   },
   {
@@ -513,7 +533,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidewalked left at -4 or -5 or -2?",
+      "Can be sidestepped left at -3",
+      "Can be sidestepped right at -7"
     ]
   },
   {
@@ -566,7 +589,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidestepped left from -5 to -6 and -2 only?",
+      "Can be sidewalked left at -4",
+      "Cannot be sidestepped or sidewalked right?"
     ]
   },
   {
@@ -598,9 +624,13 @@
     "alternateInputs": [
       "df+2"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidestepped right at -3 or -5 (but not -4?)",
+      "Completely homing to SSL/SWL?"
     ]
   },
   {
@@ -615,9 +645,13 @@
     "alternateInputs": [
       "df+3"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidestepped left at -6",
+      "Completely homing to SSR/SWR?"
     ]
   },
   {
@@ -725,7 +759,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidewalked left at -5",
+      "Can be sidewalked right at -3",
+      "Can be sidestepped right at -2"
     ]
   },
   {
@@ -828,7 +865,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidewalked left at -1",
+      "Can be sidestepped right at -4"
     ]
   },
   {
@@ -862,7 +901,10 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidewalked at -7",
+      "Can be sidestepped right at -6",
+      "Can be sidestepped left at -5"
     ]
   },
   {
@@ -879,7 +921,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidestepped right at -7",
+      "Pseudo homing to SSL/SWL side?"
     ]
   },
   {
@@ -914,7 +958,12 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Balcony Break"
+      "Balcony Break",
+      "Tracking notes:",
+      "Can be sidewalked left at -7",
+      "Can be sidewalked right at -5",
+      "Can be sidestepped right at -4",
+      "Can be sidestepped left at +1"
     ]
   },
   {
@@ -966,9 +1015,15 @@
     "alternateInputs": [
       "b+3"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
-      "Knee"
+      " ",
+      "Knee",
+      "Tracking notes:",
+      "Can be sidewalked left at -4",
+      "Completely homing to SSL/SSR/SWR?"
     ]
   },
   {
@@ -1006,7 +1061,12 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Tracking notes:",
+      "Can be sidestepped left at -7",
+      "Can be sidewalked right at -6",
+      "Can be sidestepped right at -4",
+      "Increased tracking when b4,1 is input?",
+      "Cannot be sidestepped/sidewalked right when b4,1 is input at +1 onwards?"
     ]
   },
   {
@@ -1028,7 +1088,8 @@
       "Combo from 1st hit with no delay",
       "Combo from 1st CH with 10f delay",
       "Input can be delayed 12F",
-      "Chip damage on block"
+      "5 chip damage on block",
+      "7 chip damage on block in heat"
     ]
   },
   {
@@ -1168,7 +1229,11 @@
     "notes": [
       "20 damage with input ub+3",
       "21 damage with input u+3",
-      "Chip damage on block"
+      "6 chip damage on block",
+      "9 chip damage on block in heat",
+      "Tracking notes:",
+      "Linear move",
+      "No tracking to SSL/SWL side?"
     ]
   },
   {
@@ -1289,15 +1354,21 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i15~17",
-    "block": "-1",
-    "hit": "+5",
-    "counter": "+13",
+    "block": "-1~+1",
+    "hit": "+6~+8",
+    "counter": "+13~+15",
     "alternateInputs": [
       "f,F+4"
     ],
     "categories": [],
     "notes": [
-      "Knee"
+      "Knee",
+      "i16 startup when buffering f,n. i18 fastest startup when unbuffered",
+      "Tracking notes:",
+      "Assuming i18 startup (f,n,f,f+4)",
+      "Can be sidestepped right at -11",
+      "Can be sidewalked left at -9",
+      "Can be sidestepped left at -7"
     ]
   },
   {
@@ -1481,7 +1552,8 @@
       "Balcony Break",
       "Weapon",
       "Combo from 1st hit with 1f delay",
-      "Chip damage on block",
+      "6 chip damage on block",
+      "12 chip damage on block in heat",
       "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead",
       "Sometimes written STB.4,2"
     ]
@@ -1505,7 +1577,8 @@
       "Combo from 1st hit with 11f delay",
       "Input can be delayed 11f",
       "Move can be delayed 10f",
-      "Chip damage on block",
+      "3 chip damage on block",
+      "6 chip damage on block in heat",
       "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead",
       "Sometimes written STB.f+1+2,1+2"
     ]
@@ -1526,7 +1599,8 @@
     "notes": [
       "Tornado",
       "Combo from 1st hit",
-      "Chip damage on block",
+      "4 chip damage on block",
+      "8 chip damage on block in heat",
       "Interrupt with i8 from 1st block",
       "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead",
       "Sometimes written STB.d+1,2"
@@ -1547,8 +1621,14 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Chip damage on block",
-      "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead"
+      "5 chip damage on block",
+      "9 chip damage on block in heat",
+      "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead",
+      "Tracking notes:",
+      "Can be sidewalked left at -6",
+      "Can be sidewalked right at -5",
+      "Can be sidestepped right at -4",
+      "Can be sidestepped left at +1"
     ]
   },
   {
@@ -1569,7 +1649,8 @@
       "Spike",
       "Combo from 2nd CH",
       "Interrupt with i5 from 2nd block",
-      "Chip damage on block",
+      "7 chip damage on block",
+      "14 chip damage on block in heat",
       "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead",
       "Sometimes written STB.b+4,3,2"
     ]
@@ -1590,8 +1671,13 @@
     "notes": [
       "Wall Crush +8g on block",
       "Balcony Break",
-      "Chip damage on block",
+      "7 chip damage on block",
+      "19 chip damage on block in heat",
       "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead",
+      "Tracking notes:",
+      "Assuming i19 startup from buffered manual input (temporary tracking score result)",
+      "Can be sidestepped and sidewalked left at -12",
+      "Tracks SSR/SWR completely?",
       "Sometimes written ",
       "wr1+2",
       "STB.wr1+2"
@@ -1614,7 +1700,8 @@
       "Tornado",
       "Combo from 1st hit with 1f delay",
       "Interrupt with i10 from 1st block",
-      "Chip damage on block",
+      "4 chip damage on block",
+      "8 chip damage on block in heat",
       "Consumes STB, but if in Heat, partially depletes the remaining Heat time instead",
       "Sometimes written STB.ws1,2"
     ]
@@ -1675,7 +1762,13 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Side step takes 9f, effective startup i29",
+      "Tracking notes:",
+      "Assuming i29 startup (9f sidestep)",
+      "Can be sidewalked left from -11 to +2 (SSL4)",
+      "Can be sidewalked left from -6 to -5 and -2 (SSR4)",
+      "Tracks SSR/SWR completely?",
+      "Pseudo homing low?"
     ]
   },
   {

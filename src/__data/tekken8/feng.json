@@ -1119,7 +1119,8 @@
     ],
     "notes": [
       "Tornado",
-      "Homing"
+      "Homing",
+      "Recover in FC on hit"
     ]
   },
   {
@@ -1262,6 +1263,24 @@
     ]
   },
   {
+    "name": "Zhuan Shen Huan Wu",
+    "input": "b+3~4",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "b+3~4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transitions to BT",
+      "Enter STC with F"
+    ]
+  },
+  {
     "name": "Fish Hook",
     "input": "b+4",
     "hit_level": "m",
@@ -1326,7 +1345,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Chip damage on block"
     ]
   },
   {
@@ -1838,24 +1857,6 @@
     "notes": [
       "Balcony Break",
       "Chip damage on block"
-    ]
-  },
-  {
-    "name": "Zhuan Shen Huan Wu",
-    "input": "b+3~4",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3~4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transitions to BT",
-      "Enter STC with F"
     ]
   },
   {
