@@ -3,6 +3,7 @@ import { AppModule } from '../app.module';
 import { FramedataService } from '../framedata/framedata.service';
 import * as fs from 'fs';
 import * as path from 'path';
+import { FrameData } from 'src/__types/frameData';
 
 async function migrateData() {
   console.log('Starting migration...');
@@ -43,8 +44,15 @@ async function migrateData() {
       console.log('Processing character:', characterName);
 
       try {
-        const frameData = rawFrameData.map((move) => ({
-          ...move,
+        const frameData = rawFrameData.map((move: FrameData) => ({
+          input: move.input == '' ? ' ' : move.input,
+          hit_level: move.hit_level == '' ? ' ' : move.hit_level,
+          counter: move.counter == '' ? ' ' : move.counter,
+          hit: move.hit == '' ? ' ' : move.hit,
+          block: move.block == '' ? ' ' : move.block,
+          startup: move.startup == '' ? ' ' : move.startup,
+          damage: move.damage == '' ? ' ' : move.damage,
+          name: move.name == '' ? ' ' : move.name,
           alternateInputs: move.alternateInputs || [],
           categories: move.categories || [],
           notes: move.notes || [],
