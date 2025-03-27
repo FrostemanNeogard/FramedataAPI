@@ -1,21 +1,17 @@
 import { Module } from '@nestjs/common';
-import { FramedataController } from './framedata/framedata.controller';
-import { FramedataService } from './framedata/framedata.service';
+import { MongooseModule } from '@nestjs/mongoose';
 import { FramedataModule } from './framedata/framedata.module';
-import { CharacterCodesController } from './characterCodes/characterCodes.controller';
-import { CharacterCodesService } from './characterCodes/characterCodes.service';
 import { CharacterCodesModule } from './characterCodes/characterCodes.module';
 import { GameCodesModule } from './gameCodes/gameCodes.module';
-import { GameCodesService } from './gameCodes/gameCodes.service';
-import { GameCodesController } from './gameCodes/gameCodes.controller';
 
 @Module({
-  imports: [FramedataModule, CharacterCodesModule, GameCodesModule],
-  controllers: [
-    FramedataController,
-    CharacterCodesController,
-    GameCodesController,
+  imports: [
+    MongooseModule.forRoot(
+      process.env.MONGODB_URI || 'mongodb://localhost:27017/tekken-framedata',
+    ),
+    FramedataModule,
+    CharacterCodesModule,
+    GameCodesModule,
   ],
-  providers: [FramedataService, CharacterCodesService, GameCodesService],
 })
 export class AppModule {}
