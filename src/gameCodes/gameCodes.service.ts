@@ -1,5 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { GameCode, validGameCodes } from 'src/__types/gameCode';
+import { GameCode, validGameCodes } from '../__types/gameCode';
 
 @Injectable()
 export class GameCodesService {

@@ -9,13 +9,13 @@ import {
   Patch,
 } from '@nestjs/common';
 import { FramedataService } from './framedata.service';
-import { GameCode } from 'src/__types/gameCode';
-import { CharacterCodesService } from 'src/characterCodes/characterCodes.service';
+import { GameCode } from '../__types/gameCode';
+import { CharacterCodesService } from '../characterCodes/characterCodes.service';
 import {
   TekkenMoveCategory,
   tekkenMoveCategories,
-} from 'src/__types/moveCategories';
-import { FrameData } from 'src/__types/frameData';
+} from '../__types/moveCategories';
+import { FrameData } from '../__types/frameData';
 
 @Controller('framedata')
 export class FramedataController {

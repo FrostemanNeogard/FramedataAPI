@@ -6,9 +6,9 @@ import {
   Param,
 } from '@nestjs/common';
 import { CharacterCodesService } from './characterCodes.service';
-import { GameCode } from 'src/__types/gameCode';
+import { GameCode } from '../__types/gameCode';
 import { CharacterCodeDto } from './dtos/characterCodeDto';
-import { GameCodesService } from 'src/gameCodes/gameCodes.service';
+import { GameCodesService } from '../gameCodes/gameCodes.service';
 
 @Controller('charactercodes')
 export class CharacterCodesController {
