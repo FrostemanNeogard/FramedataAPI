@@ -4,28 +4,41 @@ import {
   Logger,
   NotFoundException,
 } from '@nestjs/common';
-import * as fs from 'fs';
-import { FrameData } from 'src/__types/frameData';
-import { promisify } from 'util';
+import { InjectModel } from '@nestjs/mongoose';
+import { Model } from 'mongoose';
+import { FrameData, FrameDataDocument } from './schemas/framedata.schema';
 
 @Injectable()
 export class FramedataService {
   private readonly logger = new Logger();
 
+  constructor(
+    @InjectModel(FrameData.name)
+    private frameDataModel: Model<FrameDataDocument>,
+  ) {}
+
   async getCharacterFrameData(
     characterCode: string,
     game: string,
   ): Promise<FrameData[]> {
-    const filePath = `src/__data/${game}/${characterCode}.json`;
-
     try {
-      const readFileAsync = promisify(fs.readFile);
-      const data = await readFileAsync(filePath, 'utf8');
-      const jsonData = JSON.parse(data);
-      return jsonData;
+      const frameData = await this.frameDataModel
+        .find({
+          characterCode,
+          game,
+        })
+        .exec();
+
+      if (!frameData || frameData.length === 0) {
+        throw new BadRequestException(
+          `No framedata was found for the given character and game combo.`,
+        );
+      }
+
+      return frameData;
     } catch (error) {
       this.logger.error(
-        `An error occurred when reading ${filePath}. ${error.code}: ${error.message}`,
+        `An error occurred when fetching framedata for ${characterCode} in ${game}. ${error.message}`,
       );
       throw new BadRequestException(
         `No framedata was found for the given character and game combo.`,
@@ -99,18 +112,25 @@ export class FramedataService {
     game: string,
     frameData: FrameData[],
   ) {
-    const filePath = `src/__data/${game}/${characterCode}.json`;
-
     try {
-      const writeFileAsync = promisify(fs.writeFile);
-      await writeFileAsync(
-        filePath,
-        JSON.stringify(frameData, null, 2),
-        'utf8',
-      );
+      // First delete existing data for this character and game
+      await this.frameDataModel.deleteMany({
+        characterCode,
+        game,
+      });
+
+      // Add game and characterCode to each frame data entry
+      const frameDataWithMetadata = frameData.map((data) => ({
+        ...data,
+        game,
+        characterCode,
+      }));
+
+      // Insert new data
+      await this.frameDataModel.insertMany(frameDataWithMetadata);
     } catch (error) {
       this.logger.error(
-        `Failed to save frame data to ${filePath}. ${error.message}`,
+        `Failed to save frame data for character: ${characterCode}. ${error.message}`,
       );
       throw new Error(
         `Failed to save frame data for character: ${characterCode}`,
