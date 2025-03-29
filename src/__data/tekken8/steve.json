@@ -36,14 +36,18 @@
       "in heat 2+3"
     ],
     "categories": [
-      "throw"
+      "throw",
+      "homing"
     ],
     "notes": [
       "Heat Smash",
       "Floor Break",
       "Spike",
+      "Can cancel transition to LNH on block with B at -9",
       "14 Chip Damage on block",
-      "Alternate input: H.FLK.2+3 or H.PAB.2+3"
+      "Alternate input: H.FLK.2+3 or H.PAB.2+3",
+      "Tracking notes:",
+      "Homing?"
     ]
   },
   {
@@ -60,7 +64,8 @@
     ],
     "categories": [],
     "notes": [
-      "Transitions to EXD",
+      "Transitions to r13 EXD",
+      "r25? EXD FC cancel?",
       "Partially uses remaining heat time"
     ]
   },
@@ -152,7 +157,7 @@
     "input": "1+2",
     "hit_level": "m,m",
     "damage": "7,21",
-    "startup": "i14",
+    "startup": "i14, i9-10",
     "block": "-12",
     "hit": "+18a (+11)",
     "counter": "",
@@ -162,7 +167,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Heat Dash  (+5/+35d/-)"
+      "Heat Dash  (+5/+35d)"
     ]
   },
   {
@@ -182,7 +187,8 @@
       "Heat Engager",
       "Heat Dash (+5/+36a (+26)/+36a (+26))",
       "Balcony Break",
-      "Input B to FLK (-3/+23a (+14)/+23a (+14))"
+      "Shift to r18? FLK with B (-3/+23a (+14)/+23a (+14))",
+      "r18? FLK FC cancel?"
     ]
   },
   {
@@ -261,7 +267,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -278,11 +284,14 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
-      "Transition to LWV with 3 (-6/+0/+0)",
-      "Transition to RWV with 4 (-6/+0/+0)",
-      "Transition to SWY with b+3_4 (-6/+0/+0)",
-      "Transition to DCK with f+3_4 (-2/+4/+4)"
+      "Combo from 1st hit with 4F delay",
+      "Jails from 1st block with 2F delay",
+      "Move can be delayed by 4F",
+      "Shift to LWV with 3 (-6/+0)",
+      "Shift to RWV with 4 (-6/+0)",
+      "Shift to SWY with b+3_4 (-6/+0)",
+      "Shift to r20? DCK with f+3_4 (-2/+4)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -299,7 +308,9 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to FLK with b (+0/+6/+11)"
+      "Shift to r18? FLK with b (+0/+6/+11)",
+      "r18? FLK FC cancel?",
+      "Move can be delayed by 3F"
     ]
   },
   {
@@ -316,7 +327,9 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to FLK with b (+0/+6/+11)"
+      "Shift to r18? FLK with b (+0/+6/+11)",
+      "r18? FLK FC cancel?",
+      "Move can be delayed by 3F"
     ]
   },
   {
@@ -333,11 +346,14 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
-      "Input 3 to LWV (-5/+6/+6)",
-      "Input 4 to RWV (-5/+6/+6)",
-      "Input b+3_4 SWY (-5/+6/+6)",
-      "Input f+3_4 DCK (-3/+8/+8)"
+      "Combo from 1st hit with 3F delay",
+      "Jail from 1st block with 3F delay",
+      "Move can be delayed by 3F",
+      "Shift to LWV with 3 (-5/+6)",
+      "Shift to RWV with 4 (-5/+6)",
+      "Shift to SWY with b+3_4 (-5/+6)",
+      "Shift to r20? DCK with f+3_4 (-3/+8)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -354,10 +370,13 @@
     ],
     "categories": [],
     "notes": [
-      "Input 3 to LWV (-4/+7/+7)",
-      "Input 4 to RWV (-4/+7/+7)",
-      "Input b+3_4 to SWY (-4/+7/+7)",
-      "Input f+3_4 DCK (-2/+9/+9)"
+      "Combo from 1st hit",
+      "Jail from 1st block",
+      "Shift to LWV with 3 (-4/+7)",
+      "Shift to RWV with 4 (-4/+7)",
+      "Shift to SWY with b+3_4 (-4/+7)",
+      "Shift to r20? DCK with f+3_4 (-2/+9)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -375,8 +394,10 @@
     "categories": [],
     "notes": [
       "Combo from 1st CH or 2nd CH",
-      "Input f to PAB (-2/+4/+4)",
-      "Input b to FLK (-1/+5/+5)"
+      "Jail from 1st block",
+      "Input f to r19? PAB (-2/+4)",
+      "Input b to r18? FLK (-1/+5)",
+      "r18? PAB/FLK FC cancel?"
     ]
   },
   {
@@ -395,10 +416,11 @@
     "notes": [
       "Balcony Break",
       "Combo from 3rd CH",
-      "Transition to LWV with 3 (-6/+20a (+11)/+20a (+11))",
-      "Transition to RWV with 4 (-6/+20a (+11)/+20a (+11))",
-      "Transition to SWY with b+3_4 (-6/+20a (+11)/+20a (+11))",
-      "Input f+3_4 to DCK (-4/+22a (+13)/+22a (+13))"
+      "Shift to LWV with 3 (-6/+20a (+11))",
+      "Shift to RWV with 4 (-6/+20a (+11))",
+      "Shift to SWY with b+3_4 (-6/+20a (+11))",
+      "Shift to r20? DCK with f+3_4 (-4/+22a (+13))",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -415,7 +437,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "d or db to recover in r30 FC"
     ]
   },
   {
@@ -450,8 +472,10 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Input f to PAB (+2/+13g/+13)",
-      "Input b to FLK (+3/+14g/+14)"
+      "Jail from 1st block",
+      "Input f to r15? PAB (+2/+13g/+13)",
+      "Input b to r14? FLK (+3/+14g/+14)",
+      "r14? PAB/FLK FC cancel?"
     ]
   },
   {
@@ -469,7 +493,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from 2nd CH"
+      "Combo from 2nd CH with 3?F delay",
+      "Move can be delayed by 10?F"
     ]
   },
   {
@@ -486,7 +511,83 @@
     ],
     "categories": [],
     "notes": [
-      "Tornado"
+      "Tornado",
+      "Combo from 1st hit"
+    ]
+  },
+  {
+    "name": "Ducking Left",
+    "input": "3",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i22-24",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "3"
+    ],
+    "categories": [],
+    "notes": [
+      "Actionable for 21F",
+      "Shift to r15 SWY with b+3_4 after 7F with 14F delay",
+      "Shift to r1 DCK with f+3_4 after 7F with 14F delay",
+      "Input d+3_4 to shift to r8 RWV (laterally evasive transition) after 20F",
+      "SWY transition notes:",
+      "Transition is t45? r15 cs1~36? and actionable for 21F.",
+      "Can transition from SWY into LWV/RWV after 10F with 10F delay?",
+      "Can transition from SWY into DCK after 25F",
+      "DCK transition notes:",
+      "Transition is t60? r15 cs1~35? and actionable for 35F.",
+      "Can transition from DCK into LWV/RWV after 25?F",
+      "Can transition from DCK into SWY after 35?F"
+    ]
+  },
+  {
+    "name": "Ducking Right",
+    "input": "4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i22-24",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "4"
+    ],
+    "categories": [],
+    "notes": [
+      "Actionable for 21F",
+      "Shift to r15 SWY with b+3_4 after 7F with 14F delay",
+      "Shift to r1 DCK with f+3_4 after 7F with 14F delay",
+      "Input u+3_4 to shift to r8 LWV (laterally evasive transition) after 20F",
+      "SWY transition notes:",
+      "Transition is t45? r15 cs1~36? and actionable for 21F.",
+      "Can transition from SWY into LWV/RWV after 10F with 10F delay?",
+      "Can transition from SWY into DCK after 25F",
+      "DCK transition notes:",
+      "Transition is t60? r15 cs1~35? and actionable for 35F.",
+      "Can transition from DCK into LWV/RWV after 25?F",
+      "Can transition from DCK into SWY after 35?F"
+    ]
+  },
+  {
+    "name": "Quick Spin",
+    "input": "3+4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "i14, i9-10",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition into ALB",
+      "Input f into r10 PAB after 20F",
+      "Input u_d to shift into i13 ALB.d_u after 24F"
     ]
   },
   {
@@ -520,9 +621,11 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
-      "Input f to r15? PAB (+0/+4/+4)",
-      "Input b to r14? FLK (+1/+5/+5)"
+      "Combo from 1st hit with 7F delay",
+      "Move can be delayed by 16F",
+      "Shift to r15? PAB with f (+0/+4)",
+      "Shift to r14? FLK with b (+1/+5)",
+      "r14? PAB/FLK FC cancel?"
     ]
   },
   {
@@ -556,9 +659,10 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
+      "Combo from 1st hit with 6F delay",
+      "Move can be delayed by 16F",
       "Transistion to LNH",
-      "Input b to cancel LNH r29? (-10/+7/+7)"
+      "Input b to cancel LNH r29? (-10/+7)"
     ]
   },
   {
@@ -594,7 +698,7 @@
     ],
     "categories": [],
     "notes": [
-      "Jails from 1st hit"
+      "Jail from 1st block"
     ]
   },
   {
@@ -611,7 +715,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 2nd hit"
     ]
   },
   {
@@ -628,10 +732,11 @@
     ],
     "categories": [],
     "notes": [
-      "Input 3 to LWV (-7/0/0)",
-      "Input 4 to RWV (-7/0/0)",
-      "Input b+3_4 to SWY (-7/0/0)",
-      "Input f+3_4 to DCK (-5/+2/+2)"
+      "Shift to LWV with 3 (-7/0)",
+      "Shift to RWV with 4 (-7/0)",
+      "Shift to SWY with b+3_4 (-7/0)",
+      "Shift to r20? DCK with f+3_4 (-5/+2)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -649,10 +754,11 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Input 3 to cancel into r16? LWV (-16/-9/-9)",
-      "Input 4 to cancel into r16? RWV (-16/-9/-9)",
-      "Input b+3_4 to cancel into SWY (-16/-9/-9)",
-      "Input f+3_4 to cancel into DCK (-14/-7/-7)"
+      "Cancel into r16? LWV with 3 to (-16/-9) at frame 17",
+      "Cancel into r16? RWV with 4 (-16/-9) at frame 17",
+      "Cancel into r16? SWY with b+3_4 (-16/-9) at frame 17",
+      "Cancel into r14? DCK with f+3_4 (-14/-7) at frame 17",
+      "r15? DCK FC cancel?"
     ]
   },
   {
@@ -669,7 +775,8 @@
     ],
     "categories": [],
     "notes": [
-      "Input b to r14? FLK (+0/+4/+63a)"
+      "Shift to r14? FLK with b (+0/+4/+63a)",
+      "r14? FLK FC cancel?"
     ]
   },
   {
@@ -697,16 +804,17 @@
     "startup": "i34, i9",
     "block": "-3",
     "hit": "+0",
-    "counter": "",
+    "counter": "+3",
     "alternateInputs": [
       "df+1,2~f+1+2"
     ],
     "categories": [],
     "notes": [
-      "Input 3 to LWV (-4/-1/-1)",
-      "Input 4 to RWV (-4/-1/-1)",
-      "Input b+3_4 to SWY (-4/-1/-1)",
-      "Input f+3_4 to DCK (-2/+1/+1)"
+      "Shift to r22? LWV with 3 (-4/-1/+2)",
+      "Shift to r22? RWV with 4 (-4/-1/+2)",
+      "Shift to r22? SWY with b+3_4 (-4/-1/+2)",
+      "Shift to r20? DCK with f+3_4 (-2/+1/+4)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -723,10 +831,11 @@
     ],
     "categories": [],
     "notes": [
-      "Input 3 to LWV (-7/+10/+12)",
-      "Input 4 to RWV (-7/+10/+12)",
-      "Input b+3_4 to SWY (-7/+10/+12)",
-      "Input f+3_4 to DCK (-2/+15g/+17)"
+      "Shift to r22? LWV with 3 (-7/+10/+12c)",
+      "Shift to r22? RWV with 4 (-7/+10/+12c)",
+      "Shift to r22? SWY with b+3_4 (-7/+10/+12c)",
+      "Shift to r18? DCK with f+3_4 (-2/+15g/+17c)",
+      "r19? DCK FC cancel?"
     ]
   },
   {
@@ -777,11 +886,13 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st CH",
-      "Input 3 to cancel into LWV (-6/+0/+0)",
-      "Input 4 to cancel into RWV (-6/+0/+0)",
-      "Input b+3_4 to cancel into SWY (-6/+0/+0)",
-      "Input f+3_4 to cancel into DCK (-4/+2/+7)"
+      "Combo from 1st CH with 13F delay",
+      "Move can be delayed by 13F",
+      "Shift to r22 LWV with 3 (-6/+0/+5)",
+      "Shift to r22 RWV with 4 (-6/+0/+5)",
+      "Shift to r22 SWY with b+3_4 (-6/+0/+5)",
+      "Shift to r20 DCK with f+3_4 (-4/+2/+7)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -833,7 +944,7 @@
     ],
     "categories": [],
     "notes": [
-      "d or db to recover in crouch"
+      "d or db to recover in r30 FC"
     ]
   },
   {
@@ -867,10 +978,10 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from first hit",
+      "Combo from 1st hit",
       "-27 on block after blocking first hit",
-      "Transition to LNH",
-      "Input b to cancel LNH (-31/-10/+4/+4)"
+      "Transition to r30 LNH",
+      "Input b to cancel into r34 LNH (-31/-10/+4)"
     ]
   },
   {
@@ -904,7 +1015,8 @@
     ],
     "categories": [],
     "notes": [
-      "Input B to FLK (-1/+10/+69)"
+      "Input B to r16? FLK (-1/+10/+69)",
+      "r16? FLK FC cancel?"
     ]
   },
   {
@@ -927,7 +1039,7 @@
       "Strong Aerial Tailspin",
       "Combo from 1st hit",
       "Transitions to LNH",
-      "Input b to cancel LNH (-1/+4/+4)"
+      "Input b to cancel LNH r34? (-1/+4)"
     ]
   },
   {
@@ -962,7 +1074,8 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Input F to PAB (-9/+2/+2)"
+      "Input F to r25? PAB (-9/+2)",
+      "r25? PAB FC cancel?"
     ]
   },
   {
@@ -1020,7 +1133,7 @@
       "Homing",
       "Causes Strong Aerial Tailspin",
       "Transition into LNH",
-      "Input b to cancel LNH (+3/+14/+14)"
+      "Input b to cancel LNH r30? (+3/+14/+14)"
     ]
   },
   {
@@ -1124,8 +1237,8 @@
     "notes": [
       "Combo from 1st hit",
       "-27 on block after blocking 1st hit",
-      "Transition to LNH",
-      "Input b to cancel LNH (-31/-10/+4/+4)"
+      "Transition to r30? LNH",
+      "Input b to cancel into r34? LNH (-31/-10/+4)"
     ]
   },
   {
@@ -1176,7 +1289,8 @@
     ],
     "categories": [],
     "notes": [
-      "Input F transitions to PAB"
+      "Shift to r36? PAB with F (-18/+2c)",
+      "r36? FC cancel?"
     ]
   },
   {
@@ -1262,10 +1376,13 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Input 3 to LWV (-6/+0/+0)",
-      "Input 4 to RWV (-6/+0/+0)",
-      "Input b+3_4 to SWY (-6/+0/+0)",
-      "Input f+3_4 to DCK (-2/+4/+4)"
+      "Combo from 1st CH with 11F delay",
+      "Move can be delayed by 11F",
+      "Shift to r22? LWV with 3 (-6/+0)",
+      "Shift to r22? RWV with 4 (-6/+0)",
+      "Shift to r22? SWY with b+3_4 (-6/+0)",
+      "Shift to r20? DCK with f+3_4 (-2/+4)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -1283,7 +1400,10 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 1st hit"
+      "Combo from 1st hit with 1F delay",
+      "Combo from 1st CH with 11F delay",
+      "Jail from 1st block with 3F delay",
+      "Move can be delayed by 11F"
     ]
   },
   {
@@ -1300,10 +1420,11 @@
     ],
     "categories": [],
     "notes": [
-      "Input 3 to LWV (-7/+4/+4)",
-      "Input 4 to RWV (-7/+4/+4)",
-      "Input b+3_4 to SWY (-7/+4/+4)",
-      "Input f+3_4 to DCK (-5/+6/+6)"
+      "Shift to r22? LWV with 3 (-7/+4)",
+      "Shift to r22? RWV with 4 (-7/+4)",
+      "Shift to r22? SWY with b+3_4 (-7/+4)",
+      "Shift to r20? DCK with f+3_4 (-5/+6)",
+      "r22? DCK FC cancel?"
     ]
   },
   {
@@ -1320,44 +1441,11 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
+      "Combo from 1st hit with 5F delay",
+      "Jail from 1st block with no delay",
+      "Move can be delayed by 5F",
       "Transition to LNH",
-      "Input b to cancel LNH (-10/+7/+7)"
-    ]
-  },
-  {
-    "name": "Sonic Fang",
-    "input": "WS 1+2",
-    "hit_level": "m,m",
-    "damage": "7,21",
-    "startup": "i14, i9-10",
-    "block": "-12",
-    "hit": "+18a (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "WS 1+2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash  (+5/+35d/-)"
-    ]
-  },
-  {
-    "name": "Ducking Left",
-    "input": "3",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3"
-    ],
-    "categories": [],
-    "notes": [
-      ""
+      "Input b to cancel LNH at r29? (-10/+7)"
     ]
   },
   {
@@ -1393,7 +1481,8 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Balcony Break",
-      "Combo from 1st hit"
+      "Combo from 1st hit with 5F delay",
+      "Move can be delayed by 10F"
     ]
   },
   {
@@ -1410,7 +1499,9 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit with 10F delay",
+      "Jail from 1st block with 1F delay",
+      "Move can be delayed by 10F"
     ]
   },
   {
@@ -1428,7 +1519,8 @@
     "categories": [],
     "notes": [
       "Combo from 1st or 2nd hit",
-      "Input b to r14? FLK (+4/+3/+68a)"
+      "Shift to r14? FLK with b (+4/+8/+69a)",
+      "r14? FLK FC cancel?"
     ]
   },
   {
@@ -1449,9 +1541,10 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Homing",
-      "Combo from 1st hit",
+      "Combo from 1st hit with 7F delay",
+      "Move can be delayed by 10F",
       "Transition to LNH",
-      "Input b to cancel LNH (-1/+4/+4)"
+      "Input b to cancel LNH at r34? (-1/+4/+4)"
     ]
   },
   {
@@ -1468,7 +1561,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Input 1 at frame 17 of LWV.1,2"
     ]
   },
   {
@@ -1485,7 +1578,8 @@
     ],
     "categories": [],
     "notes": [
-      "Input f to PAB (-1/+8/+8)"
+      "Shift to r10? PAB with f (-1/+8)",
+      "r10? PAB FC cancel?"
     ]
   },
   {
@@ -1503,24 +1597,8 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 1st CH"
-    ]
-  },
-  {
-    "name": "Ducking Right",
-    "input": "4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
+      "Combo from 1st CH with 5F delay",
+      "Move can be delayed by 11F"
     ]
   },
   {
@@ -1529,15 +1607,16 @@
     "hit_level": "m",
     "damage": "13",
     "startup": "i14~16",
-    "block": "-5",
-    "hit": "+4",
+    "block": "-5~-3",
+    "hit": "+4~+6",
     "counter": "",
     "alternateInputs": [
       "RWV 1"
     ],
     "categories": [],
     "notes": [
-      "Input f into PAB (-1/+8/+8)"
+      "Shift to r10? PAB with f (-1~+1/+8~+10)",
+      "r10? PAB FC cancel?"
     ]
   },
   {
@@ -1558,9 +1637,10 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Homing",
-      "Combo from 1st hit",
+      "Combo from 1st hit with 2F delay",
+      "Move can be delayed by 11F",
       "Transition into LNH",
-      "Input b to cancel LNH (-1/+4/+4)"
+      "Input b to cancel LNH at r34? (-1/+4/+4)"
     ]
   },
   {
@@ -1577,7 +1657,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Input 1 at frame 17 of RWV.1,2"
     ]
   },
   {
@@ -1588,128 +1668,13 @@
     "startup": "i15",
     "block": "-13",
     "hit": "+10a (+1)",
-    "counter": "",
+    "counter": "+31a (+5)",
     "alternateInputs": [
       "RWV 2"
     ],
     "categories": [],
     "notes": [
       "Balcony Break"
-    ]
-  },
-  {
-    "name": "Flicker Stance",
-    "input": "b+3_4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "b+3_4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition to SWY",
-      "Input 3 to LWV",
-      "Input 4 to RWV",
-      "Input f+3_4 to DCK"
-    ]
-  },
-  {
-    "name": "Billy Club",
-    "input": "SWY 1",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i16~17",
-    "block": "-1c",
-    "hit": "+14c",
-    "counter": "",
-    "alternateInputs": [
-      "SWY 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Can be +15c at farther ranges"
-    ]
-  },
-  {
-    "name": "Snake Charmer",
-    "input": "SWY 2",
-    "hit_level": "m",
-    "damage": "30",
-    "startup": "i17~18",
-    "block": "-18",
-    "hit": "+36a",
-    "counter": "",
-    "alternateInputs": [
-      "SWY 2"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "Position Change",
-    "input": "SWY 1+2",
-    "hit_level": "th",
-    "damage": "",
-    "startup": "i10~15",
-    "block": "-2",
-    "hit": "+1 / +10~17wc",
-    "counter": "",
-    "alternateInputs": [
-      "SWY 1+2"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "+10 when opponent hits the wall, if the throw is successful",
-      "Frame advantage on wall crush increases up to +17 the further the opponent is from the wall",
-      "Throw break 1+2"
-    ]
-  },
-  {
-    "name": "",
-    "input": "SWY 1+2~b_u_d",
-    "hit_level": "th",
-    "damage": "",
-    "startup": "i10~15",
-    "block": "-2",
-    "hit": "+1 / +13~17wc",
-    "counter": "",
-    "alternateInputs": [
-      "SWY 1+2~b_u_d"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "+13 when opponent hits the wall after being rotated by < 90 degrees",
-      "+17 when opponent hits the wall after being rotated by > 90 degrees",
-      "Frame advantage on wall crush increases up to +17 the further the opponent is from the wall",
-      "Throw break 1+2"
-    ]
-  },
-  {
-    "name": "Quick Spin",
-    "input": "3+4",
-    "hit_level": "sp",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Transition into ALB",
-      "Input f into PAB"
     ]
   },
   {
@@ -1731,53 +1696,54 @@
   },
   {
     "name": "Cyclone Left (Right)",
-    "input": "ALB d_u",
+    "input": "ALB d",
     "hit_level": "sp",
     "damage": "",
-    "startup": "i34",
+    "startup": "i13",
     "block": "",
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "ALB d_u"
+      "ALB d"
     ],
     "categories": [],
     "notes": [
-      "Input F to transition PAB"
+      "Input F to shift to r10 PAB after 20F"
     ]
   },
   {
     "name": "Double Cyclone Punch",
-    "input": "ALB d_u,1",
+    "input": "ALB d,1",
     "hit_level": "sp,m",
-    "damage": ",34",
-    "startup": ",i12",
+    "damage": "34",
+    "startup": "i12",
     "block": "-3",
     "hit": "+16a (+7)",
     "counter": "",
     "alternateInputs": [
-      "ALB d_u,1"
+      "ALB d,1"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "ALB.d_u takes 37 frames, effective startup time is i49"
     ]
   },
   {
     "name": "Double Cyclone Knee Punch",
-    "input": "ALB d_u,d+1",
+    "input": "ALB d,d+1",
     "hit_level": "sp,l",
-    "damage": ",30",
-    "startup": ",i22",
+    "damage": "30",
+    "startup": "i22",
     "block": "-12",
     "hit": "+14d",
     "counter": "",
     "alternateInputs": [
-      "ALB d_u,d+1"
+      "ALB d,d+1"
     ],
     "categories": [],
     "notes": [
-      ""
+      "ALB.d_u takes 37 frames, effective startup time is i59"
     ]
   },
   {
@@ -1795,11 +1761,16 @@
     "categories": [],
     "notes": [
       "Transition to DCK",
-      "Input u+3_4 to LWV",
-      "Input d+3_4 to RWV",
-      "Input b+3_4 to SWY",
-      "Input f+3_4 to DCK",
-      "Input db to FC"
+      "Actionable for 19F",
+      "Input u+3_4 to r25 cs1~25 LWV after 9F with 10F delay",
+      "Input d+3_4 to r25 cs1~25  RWV after 9F with 10F delay",
+      "Input b+3_4 to r10 SWY after 14F with 5F delay",
+      "Input f+3_4 to r6 EXD after 19F",
+      "Shift to r15 FC with db after 9F with 10F delay",
+      "WV transition notes:",
+      "Transition is t45 r25 cs1~25 and actionable for 14F.",
+      "Can immediately transition into r15 SWY with 14F delay?",
+      "Can immediately transition into r1 DCK with 14F delay?"
     ]
   },
   {
@@ -1853,7 +1824,9 @@
       "Input 3 to LWV (+1/+17d/+57a)",
       "Input 4 to RWV (+1/+17d/+57a)",
       "Input b+3_4 to SWY (+1/+17d/+57a)",
-      "Input f+3_4 to DCK (+3/+19d/+59a)"
+      "Input f+3_4 to DCK (+3/+19d/+59a)",
+      "6 chip damage on block",
+      "8 chip damage on block in heat"
     ]
   },
   {
@@ -1887,7 +1860,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "Jail from 1st block?"
     ]
   },
   {
@@ -1904,7 +1878,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "Jail from 1st block?"
     ]
   },
   {
@@ -1921,7 +1896,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "Jail from 1st block?"
     ]
   },
   {
@@ -1938,7 +1914,16 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to EXTDCK"
+      "Transition to EXD",
+      "Actionable for 19F",
+      "Input u+3_4 to r18 cs1~25 LWV after 9F with 10F delay",
+      "Input d+3_4 to r18 cs1~25 RWV after 9F with 10F delay",
+      "Input b+3_4 to r10 SWY after 14F with 5F delay",
+      "Input db to r15 FC with db after 9F with 10F delay",
+      "WV transition notes:",
+      "Transition is t38 r18 cs1~18 and actionable for 14F.",
+      "Can immediately transition into r15 SWY with 14F delay?",
+      "Can immediately transition into r1 DCK with 14F delay?"
     ]
   },
   {
@@ -1955,7 +1940,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "8 chip damage on block",
+      "9 chip damage on block in heat"
     ]
   },
   {
@@ -1972,7 +1958,8 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "6 chip damage on block",
+      "8 chip damage on block in heat"
     ]
   },
   {
@@ -1992,7 +1979,9 @@
       "Input 3 to LWV (+10/+59a/-)",
       "Input 4 to RWV (+10/+59a/-)",
       "Input b+3_4 to SWY (+10/+57a/-)",
-      "Input f+3_4 to DCK (+12/+59a/-)"
+      "Input f+3_4 to DCK (+12/+59a/-)",
+      "11 chip damage on block",
+      "12 chip damage on block in heat"
     ]
   },
   {
@@ -2010,7 +1999,16 @@
     "categories": [],
     "notes": [
       "Transition to PAB",
-      "Auto blocks high and mid"
+      "i21? auto high/mid block",
+      "Can move forward with f after 20F",
+      "Can transition to r1 FC with db after 20F",
+      "Can transition to r1 standing with f+3+4 after 20F",
+      "Stance moves and the following transitions can be performed instantly after inputting f+3+4:",
+      "Input 3 to shift to r7? LWV (laterally evasive transition)",
+      "Input 4 to shift to r7? RWV (laterally evasive transition)",
+      "Input 3+4 to shift to r1? ALB",
+      "Input f+3_4 to shift to r6 DCK",
+      "Input b+3_4 to shift to r10 SWY"
     ]
   },
   {
@@ -2044,7 +2042,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st"
+      "Combo from 1st hit",
+      "Jail from 1st block"
     ]
   },
   {
@@ -2062,7 +2061,9 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 2nd CH"
+      "Combo from 2nd CH with 8F delay",
+      "Jail from 1st block with no delay",
+      "Move can be delayed by 10F"
     ]
   },
   {
@@ -2156,8 +2157,7 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
-      "Combo from 1st hit"
+      "Balcony Break"
     ]
   },
   {
@@ -2191,7 +2191,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit with 7F delay",
+      "Move can be delayed by 12f"
     ]
   },
   {
@@ -2208,7 +2209,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 2nd CH"
+      "Combo from 2nd CH with 5F delay",
+      "Move can be delayed by 10F"
     ]
   },
   {
@@ -2226,7 +2228,9 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 3rd hit"
+      "Combo from 3rd hit with 2F delay",
+      "Jail from 3rd block with no delay",
+      "Move can be delayed by 2F"
     ]
   },
   {
@@ -2244,7 +2248,7 @@
     "categories": [],
     "notes": [
       "Wall Crush +18g on hit",
-      "Combo from 1st hit",
+      "Combo from 1st hit with 8F delay",
       "6 Chip Damage on block",
       "8 Chip Damage on block in heat"
     ]
@@ -2280,7 +2284,7 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to FC with D"
+      ""
     ]
   },
   {
@@ -2314,7 +2318,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit with 11F delay",
+      "Move can be delayed by 13F"
     ]
   },
   {
@@ -2331,7 +2336,8 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 2nd CH"
+      "Combo from 2nd CH with 4F delay",
+      "Move can be delayed by 10F"
     ]
   },
   {
@@ -2350,7 +2356,9 @@
     "notes": [
       "Balcony Break",
       "Combo from 3rd hit",
-      "Input b to FLK (-3/+23a (+14)/-)"
+      "Jail from 3rd block",
+      "Shift to r18? FLK with b (-3/+23a (+14))",
+      "r18? FLK FC cancel?"
     ]
   },
   {
@@ -2378,7 +2386,7 @@
     "damage": "23",
     "startup": "i17~19",
     "block": "-15",
-    "hit": "+34a (+24",
+    "hit": "+34a (+24)",
     "counter": "",
     "alternateInputs": [
       "PAB uf+2"
@@ -2386,6 +2394,115 @@
     "categories": [],
     "notes": [
       "Tornado"
+    ]
+  },
+  {
+    "name": "Flicker Stance",
+    "input": "b+3_4",
+    "hit_level": "sp",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "b+3_4"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to SWY",
+      "Actionable for 15F",
+      "Shift to r25 cs1?~25? LWV with u+3_4 after 5F with 10F delay",
+      "Shift to r25 cs1?~25? RWV with d+3_4 after 5F with 10F delay",
+      "Shift to r6 DCK with f+3_4 after 20F in SWY",
+      "WV transition notes:",
+      "Transition is t45 r25 cs1~25 and actionable for 14F.",
+      "Can immediately transition into r15 SWY with 14F delay?",
+      "Can immediately transition into r1 DCK with 14F delay?"
+    ]
+  },
+  {
+    "name": "Billy Club",
+    "input": "SWY 1",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i16~17",
+    "block": "-1c~+0c",
+    "hit": "+14c~+15c",
+    "counter": "",
+    "alternateInputs": [
+      "SWY 1"
+    ],
+    "categories": [],
+    "notes": [
+      "Can be +15c at farther ranges",
+      "10 chip damage on block",
+      "11 chip damage on block in heat"
+    ]
+  },
+  {
+    "name": "Snake Charmer",
+    "input": "SWY 2",
+    "hit_level": "m",
+    "damage": "30",
+    "startup": "i17~18",
+    "block": "-18",
+    "hit": "+36a",
+    "counter": "",
+    "alternateInputs": [
+      "SWY 2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "Position Change",
+    "input": "SWY 1+2",
+    "hit_level": "th",
+    "damage": "",
+    "startup": "i10~15",
+    "block": "-2",
+    "hit": "+1 / +10~17wc",
+    "counter": "",
+    "alternateInputs": [
+      "SWY 1+2"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "3 damage on wall crush",
+      "+10 when opponent hits the wall, if the throw is successful",
+      "Frame advantage on wall crush increases up to +17 the further the opponent is from the wall",
+      "Throw break 1+2",
+      "10F throw break window for NH and CH SWY.1+2"
+    ]
+  },
+  {
+    "name": "",
+    "input": "SWY 1+2~b_u_d",
+    "hit_level": "th",
+    "damage": "",
+    "startup": "i10~15",
+    "block": "-2",
+    "hit": "+1 / +13~23?wc",
+    "counter": "",
+    "alternateInputs": [
+      "SWY 1+2~b_u_d"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "3 damage on wall crush",
+      "+13 when opponent hits the wall after being rotated by < 90 degrees",
+      "+17 when opponent hits the wall after being rotated by > 90 degrees",
+      "+23? when opponent hits the wall after being rotated by 180 degrees?",
+      "Frame advantage on wall crush increases up to +23? the further the opponent is from the wall",
+      "Throw break 1+2",
+      "10F throw break window for NH and CH SWY.1+2"
     ]
   },
   {
@@ -2403,8 +2520,13 @@
     "categories": [],
     "notes": [
       "Transition to FLK",
-      "Auto blocks high and mid",
-      "Can perform an i5? cancel to r35? LWV/RWV with input 3 or 4"
+      "Actionable for 64F",
+      "Auto i5? high and mid neutral block high and mid?",
+      "Can cancel immediately into FC with db after b+3+4 input (3F iWS)",
+      "Can cancel immediately into r6 DCK with f+3_4",
+      "Can cancel immediately into r10 SWY with b+3_4",
+      "Input 3 to shift to r8 LWV (laterally evasive transition)",
+      "Input 4 to shift to r8 RWV (laterally evasive transition)"
     ]
   },
   {
@@ -2421,8 +2543,9 @@
     ],
     "categories": [],
     "notes": [
-      "Input b to stay in FLK (-1/+10/+10)",
-      "Input 3+4 to ALB (+17g/+28g/+28)"
+      "Input b to stay in r18? FLK (-1/+10/+10)",
+      "Shift to r1? ALB with 3+4 (+17g/+28g/+28) with 2?F delay",
+      "r18? FLK FC cancel?"
     ]
   },
   {
@@ -2439,9 +2562,12 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st CH",
-      "Input b to stay in FLK (-4/+5/+5)",
-      "Input 3+4 to ALB (+17g/+28g/+28)"
+      "Combo from 1st CH with 3F delay",
+      "Jail from 1st block with 3F delay",
+      "Move can be delayed by 3F",
+      "Input b to stay in r18? FLK (-4/+5/+5)",
+      "Shift to r1? ALB with 3+4 (+14g/+23g/+23)",
+      "r18? FLK FC cancel?"
     ]
   },
   {
@@ -2458,9 +2584,11 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 2nd CH",
-      "Input b to stay in FLK (-4/+5/+5)",
-      "Input 3+4 to ALB (+17g/+28g/+28)"
+      "Combo from 2nd CH with 1F delay",
+      "Jail from 2nd block with 1F delay",
+      "Move can be delayed by 1F",
+      "Input b to stay in r18? FLK (-4/+5/+5)",
+      "Shift to r1 ALB with 3+4 (+14g/+23g/+23)"
     ]
   },
   {
@@ -2477,6 +2605,7 @@
     ],
     "categories": [],
     "notes": [
+      "Tornado",
       "Combo from 3rd hit"
     ]
   },
@@ -2494,6 +2623,7 @@
     ],
     "categories": [],
     "notes": [
+      "Tornado",
       "Combo from 2nd CH",
       "Same hit as (FLK.1,1,1),2"
     ]
@@ -2513,7 +2643,9 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 2nd CH",
+      "Combo from 2nd CH with 9F delay",
+      "Jail from 2nd block with no delay",
+      "Move can be delayed by 11F",
       "Same hit as (FLK.1),f+1"
     ]
   },
@@ -2531,7 +2663,10 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 2nd CH",
+      "Balcony Break",
+      "Combo from 2nd CH with 9F delay",
+      "Jail from 2nd block with no delay",
+      "Move can be delayed by 11F",
       "Same hit as (FLK.1),d+1"
     ]
   },
@@ -2549,6 +2684,7 @@
     ],
     "categories": [],
     "notes": [
+      "Tornado",
       "Combo from 1st CH",
       "Same hit as (FLK.1,1,1),2"
     ]
@@ -2568,7 +2704,9 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 1st CH"
+      "Combo from 1st CH with 14F delay",
+      "Jail from 1st block with 3F delay",
+      "Move can be delayed by 14F"
     ]
   },
   {
@@ -2585,7 +2723,10 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st CH"
+      "Balcony Break",
+      "Combo from 1st CH with 14F delay",
+      "Jail from 1st block with 3F delay",
+      "Move can be delayed by 14F"
     ]
   },
   {
@@ -2602,7 +2743,9 @@
     ],
     "categories": [],
     "notes": [
-      "Spike"
+      "Spike",
+      "6 chip damage on block",
+      "8 chip damage on block in heat"
     ]
   },
   {
@@ -2657,10 +2800,11 @@
     "categories": [],
     "notes": [
       "Transition to LNH",
-      "Input 3 to LWV",
-      "Input 4 to RWV",
-      "Input b+3_4 to SWY",
-      "Input f+3_4 to DCK",
+      "Actionable for 120F",
+      "Input 3 to shift to LWV (laterally evasive transition)",
+      "Input 4 to shift to RWV (laterally evasive transition)",
+      "Input f+3_4 to shift to DCK",
+      "Input b+3_4 to shift to SWY",
       "Sometimes written Outfox"
     ]
   },
@@ -2698,7 +2842,8 @@
       "Guard Break",
       "Reversal Break",
       "Balcony Break",
-      "Chip damage on block"
+      "9 chip damage on block",
+      "11 chip damage on block in heat"
     ]
   },
   {
@@ -2932,6 +3077,74 @@
     ],
     "notes": [
       "2 Throw break"
+    ]
+  },
+  {
+    "name": "3rd hit",
+    "input": "df+1,2~f+1+2,1",
+    "hit_level": "m,h,h,m",
+    "damage": "12,8,12,7",
+    "startup": "i17~18",
+    "block": "-19",
+    "hit": "-8",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,2~f+1+2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH"
+    ]
+  },
+  {
+    "name": "4th hit",
+    "input": "df+1,2~f+1+2,1,1",
+    "hit_level": "m,h,h,m,m",
+    "damage": "12,8,12,7,8",
+    "startup": "i23~26",
+    "block": "-25",
+    "hit": "-17",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,2~f+1+2,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 3rd hit"
+    ]
+  },
+  {
+    "name": "5th hit",
+    "input": "df+1,2~f+1+2,1,1,2",
+    "hit_level": "m,h,h,m,m,m",
+    "damage": "12,8,12,7,8,8",
+    "startup": "i22~23",
+    "block": "",
+    "hit": "-8",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,2~f+1+2,1,1,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 4th hit"
+    ]
+  },
+  {
+    "name": "6th hit",
+    "input": "df+1,2~f+1+2,1,1,2,1",
+    "hit_level": "m,h,h,m,m,m,h",
+    "damage": "12,8,12,7,8,8,8",
+    "startup": "i15~15",
+    "block": "-9",
+    "hit": "+5",
+    "counter": "",
+    "alternateInputs": [
+      "df+1,2~f+1+2,1,1,2,1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
     ]
   }
 ]

@@ -46,11 +46,11 @@
   {
     "name": "Yomotsu Mihashira",
     "input": "in heat GEN 2+3",
-    "hit_level": "l,m",
+    "hit_level": "L,M",
     "damage": "14,28",
-    "startup": "i20 i26",
-    "block": "-12",
-    "hit": "+33 (+5)",
+    "startup": "i20~21 i26~41",
+    "block": "-12~+3",
+    "hit": "+25 (+7)",
     "counter": "",
     "alternateInputs": [
       "in heat GEN 2+3"
@@ -58,9 +58,12 @@
     "categories": [],
     "notes": [
       "Heat Smash",
-      "Ends heat",
+      "Reversal Break",
+      "Balcony Break",
+      "Jail from 1st attack",
       "Restores 12 recoverable (6 on block)",
-      "Chip damage (4,12) on block"
+      "Chip damage (4,12) on block",
+      "Ends heat"
     ]
   },
   {
@@ -97,7 +100,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Heat Engager"
+      "Heat Engager",
+      "Heat Dash +5, +43d (+35)"
     ]
   },
   {
@@ -106,8 +110,8 @@
     "hit_level": "M,M",
     "damage": "20,20",
     "startup": "i29~32",
-    "block": "-9~-8",
-    "hit": "",
+    "block": "-9",
+    "hit": "+32a (+17)",
     "counter": "",
     "alternateInputs": [
       "f+2,1+2"
@@ -115,7 +119,9 @@
     "categories": [],
     "notes": [
       "Heat Engager",
-      "Combo from 1st hit",
+      "Heat Dash +5, +42a (+27)",
+      "Balcony Break",
+      "Jail from 1st attack",
       "Chip damage (8) on block",
       "Deals 18 damage to self (12 recoverable)",
       "Available only on hit or block"
@@ -127,7 +133,7 @@
     "hit_level": "m,h",
     "damage": "10,16",
     "startup": "i16~15 i14~15",
-    "block": "-6~-5",
+    "block": "-6",
     "hit": "+12a (+3)",
     "counter": "",
     "alternateInputs": [
@@ -136,6 +142,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Jail from 1st attack"
     ]
@@ -157,6 +164,7 @@
     ],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage (9) on block",
       "Deals 6 damage to self (4 recoverable)",
@@ -169,8 +177,8 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i18~20",
-    "block": "+6~+8",
-    "hit": "+8c~+10c",
+    "block": "+6",
+    "hit": "+8c",
     "counter": "",
     "alternateInputs": [
       "SS 4"
@@ -178,6 +186,7 @@
     "categories": [],
     "notes": [
       "Heat Engager",
+      "Heat Dash +5, +67a (+50)",
       "Spike"
     ]
   },
@@ -212,6 +221,7 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit with 1f delay",
       "Restores 2 health and 2 recoverable on hit"
     ]
   },
@@ -229,25 +239,8 @@
     ],
     "categories": [],
     "notes": [
-      "Jail from 1st attack"
-    ]
-  },
-  {
-    "name": "",
-    "input": "1,2,u_d",
-    "hit_level": "h,h",
-    "damage": "5,8",
-    "startup": ",i16",
-    "block": "+1",
-    "hit": "+10g",
-    "counter": "",
-    "alternateInputs": [
-      "1,2,u_d"
-    ],
-    "categories": [],
-    "notes": [
-      "Cannot block for 13f.",
-      "Frame advantage only applies to SS moves."
+      "Jail from 1st attack with 2f delay",
+      "Enter SS +1 +10g r16 with u or d"
     ]
   },
   {
@@ -256,9 +249,9 @@
     "hit_level": "h,h,h",
     "damage": "5,8,17",
     "startup": ",i16~17",
-    "block": "+6~+7",
-    "hit": "+11~+12",
-    "counter": "+20c~+21c",
+    "block": "+6",
+    "hit": "+11",
+    "counter": "+20c",
     "alternateInputs": [
       "1,2,2"
     ],
@@ -278,15 +271,15 @@
     "hit_level": "h,h,m",
     "damage": "5,8,16",
     "startup": ",i27~28",
-    "block": "-12~-11",
-    "hit": "+5~+6",
+    "block": "-12",
+    "hit": "+5",
     "counter": "+15a (+6)",
     "alternateInputs": [
       "1,2,4"
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
+      "Balcony Break (airborne)",
       "Combo from 2nd CH with 3f delay",
       "Input can be delayed 9f"
     ]
@@ -305,7 +298,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st CH"
+      "Combo from 1st CH with 2f delay"
     ]
   },
   {
@@ -339,6 +332,7 @@
     ],
     "categories": [],
     "notes": [
+      "Elbow",
       "Combo from 1st hit with 9f delay",
       "Input can be delayed 10f"
     ]
@@ -373,13 +367,16 @@
     "alternateInputs": [
       "2,1,4,1"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Balcony Break",
       "Combo from 3rd CH",
       "Input can be delayed 10f",
       "Chip damage (9) on block",
-      "Deals 6 damage to self (4 recoverable)"
+      "Deals 6 damage to self (4 recoverable)",
+      "Unparryable by traditional parries, Asuka, Nina, etc"
     ]
   },
   {
@@ -408,7 +405,7 @@
     "damage": "7,9,21",
     "startup": ",i22",
     "block": "+2",
-    "hit": "+48a (+10)",
+    "hit": "+48d (+10)",
     "counter": "",
     "alternateInputs": [
       "2,1,1+2"
@@ -416,6 +413,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Elbow",
       "Combo from 2nd CH with 9f delay"
     ]
   },
@@ -424,8 +422,8 @@
     "input": "3",
     "hit_level": "m",
     "damage": "20",
-    "startup": ",i14~15",
-    "block": "-13~-12",
+    "startup": "i14~15",
+    "block": "-13",
     "hit": "+18a (+1)",
     "counter": "",
     "alternateInputs": [
@@ -444,26 +442,9 @@
     "startup": "i12",
     "block": "-9",
     "hit": "+7",
-    "counter": "+32a",
+    "counter": "+32d",
     "alternateInputs": [
       "4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "Shunkei > Heat Dash",
-    "input": "in heat 1+2,F",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i13",
-    "block": "+5",
-    "hit": "+43a (+35)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat 1+2,F"
     ],
     "categories": [],
     "notes": [
@@ -476,7 +457,7 @@
     "hit_level": "m,M,M",
     "damage": "6,18,20",
     "startup": "i23~24 i30~31 i16",
-    "block": "-6~-5",
+    "block": "-6",
     "hit": "+26a (+8)",
     "counter": "",
     "alternateInputs": [
@@ -486,7 +467,7 @@
     "notes": [
       "Spike",
       "3rd hit available only as combo from 2nd hit",
-      "Can recover in r22 FC with D on whiff",
+      "Can recover in r22 FC with D on whiff or block",
       "Deals 12 damage to self (8 recoverable) "
     ]
   },
@@ -616,9 +597,9 @@
     "hit_level": "m",
     "damage": "15",
     "startup": "i20",
-    "block": "0",
+    "block": "+0",
     "hit": "+9",
-    "counter": "+13",
+    "counter": "+14",
     "alternateInputs": [
       "f+1"
     ],
@@ -633,7 +614,7 @@
     "hit_level": "M",
     "damage": "20",
     "startup": "i17~18",
-    "block": "-18~-17",
+    "block": "-18",
     "hit": "+33a (+23)",
     "counter": "",
     "alternateInputs": [
@@ -641,7 +622,7 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel to r11 FC with D"
+      "Cancel to r26 FC with D"
     ]
   },
   {
@@ -658,24 +639,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "",
-    "input": "f+3~u_d",
-    "hit_level": "m",
-    "damage": "13",
-    "startup": "i16",
-    "block": "-2",
-    "hit": "+14g",
-    "counter": "",
-    "alternateInputs": [
-      "f+3~u_d"
-    ],
-    "categories": [],
-    "notes": [
-      ""
+      "Enter SS -16 +14g r21 with u_d",
+      "r21 when attacking after SS",
+      "r35 when blocking after SS"
     ]
   },
   {
@@ -684,9 +650,9 @@
     "hit_level": "m,h",
     "damage": "13,17",
     "startup": ",i20~21",
-    "block": "+6~+7",
-    "hit": "+11~+12",
-    "counter": "+20c~+21C",
+    "block": "+6",
+    "hit": "+11",
+    "counter": "+20c",
     "alternateInputs": [
       "f+3,2"
     ],
@@ -733,6 +699,7 @@
       "homing"
     ],
     "notes": [
+      "Balcony Break (airborne)",
       "Homing"
     ]
   },
@@ -752,8 +719,10 @@
       "parry"
     ],
     "notes": [
+      "Balcony Break (airborne)",
       "Transition to r20 MIA on hit only",
       "Deals 6 damage to self (4 recoverable)",
+      "Power up in Heat (gains parry)",
       "Unparryable"
     ]
   },
@@ -763,7 +732,7 @@
     "hit_level": "h",
     "damage": "21",
     "startup": "i28~29",
-    "block": "+0~+1",
+    "block": "+0",
     "hit": "+25a",
     "counter": "",
     "alternateInputs": [
@@ -773,6 +742,7 @@
       "parry"
     ],
     "notes": [
+      "Balcony Break (airborne)",
       "Punch sabaki",
       "Crumple stun launcher (+51a) on parry effect"
     ]
@@ -783,8 +753,8 @@
     "hit_level": "m",
     "damage": "10",
     "startup": "i13~14",
-    "block": "-3~-2",
-    "hit": "+8~+9",
+    "block": "-3",
+    "hit": "+8",
     "counter": "",
     "alternateInputs": [
       "df+1"
@@ -800,15 +770,16 @@
     "hit_level": "m,m",
     "damage": "10,17",
     "startup": ",i24~25",
-    "block": "-11~-10",
-    "hit": "+2~+3",
-    "counter": "+13g~+14g",
+    "block": "-11",
+    "hit": "+2",
+    "counter": "+13g",
     "alternateInputs": [
       "df+1,1"
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "Interrupt with i5 from 1st block"
     ]
   },
   {
@@ -817,15 +788,16 @@
     "hit_level": "m,h",
     "damage": "10,12",
     "startup": ",i22~23",
-    "block": "-4~-3",
-    "hit": "+6~+7",
-    "counter": "+11~+12",
+    "block": "-4",
+    "hit": "+6",
+    "counter": "+11",
     "alternateInputs": [
       "df+1,2"
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "Interrupt with i4 from 1st block"
     ]
   },
   {
@@ -834,7 +806,7 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i16~17",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+29a (+19)",
     "counter": "",
     "alternateInputs": [
@@ -851,7 +823,7 @@
     "hit_level": "m,M",
     "damage": "14,12",
     "startup": "i25~26",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+38a (+28)",
     "counter": "",
     "alternateInputs": [
@@ -900,6 +872,7 @@
     "categories": [],
     "notes": [
       "Tornado",
+      "Balcony Break (airborne)",
       "Crumple stun launcher (+52a) on CH"
     ]
   },
@@ -909,8 +882,8 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i24~25",
-    "block": "-11~-10",
-    "hit": "+1~+2",
+    "block": "-11",
+    "hit": "+1",
     "counter": "",
     "alternateInputs": [
       "df+3+4"
@@ -926,7 +899,7 @@
     "hit_level": "m,m",
     "damage": "17,20",
     "startup": ",i33~34",
-    "block": "-13~-12",
+    "block": "-13",
     "hit": "+17a (+10)",
     "counter": "",
     "alternateInputs": [
@@ -943,8 +916,8 @@
     "hit_level": "m,L",
     "damage": "17,17",
     "startup": ",i25~26",
-    "block": "-13~-12",
-    "hit": "+4c~+5c",
+    "block": "-13",
+    "hit": "+4c",
     "counter": "+26a",
     "alternateInputs": [
       "df+3+4,4"
@@ -960,8 +933,8 @@
     "hit_level": "m",
     "damage": "18",
     "startup": "i20~21",
-    "block": "-4c~-3c",
-    "hit": "+9c~+10c",
+    "block": "-4c",
+    "hit": "+9c",
     "counter": "+18a",
     "alternateInputs": [
       "d+2"
@@ -994,7 +967,7 @@
     "hit_level": "L,h",
     "damage": "10,20",
     "startup": ",i25~26",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+13a (+4)",
     "counter": "",
     "alternateInputs": [
@@ -1035,8 +1008,8 @@
     "damage": "5,20",
     "startup": "i14 i24~27",
     "block": "-25",
-    "hit": "-6 (high blocked)",
-    "counter": "+30a (+20)",
+    "hit": "+30a (+20)",
+    "counter": "",
     "alternateInputs": [
       "d+3+4"
     ],
@@ -1044,7 +1017,8 @@
     "notes": [
       " ",
       "Combo from 1st CH",
-      "Jails from 1st hit",
+      "Jail from 1st attack",
+      "-6 only if 2nd hit is blocked",
       "Sometimes written Can Cans"
     ]
   },
@@ -1054,7 +1028,7 @@
     "hit_level": "m",
     "damage": "7",
     "startup": "i15~16",
-    "block": "-8~-7",
+    "block": "-8",
     "hit": "+1",
     "counter": "",
     "alternateInputs": [
@@ -1110,9 +1084,9 @@
     "hit_level": "L",
     "damage": "15",
     "startup": "i23~24",
-    "block": "-12~-11",
-    "hit": "+2~+3",
-    "counter": "+14g~+15g",
+    "block": "-12",
+    "hit": "+2",
+    "counter": "+14g",
     "alternateInputs": [
       "db+2"
     ],
@@ -1152,7 +1126,7 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to r22 FC with D"
+      "Transition to r28 FC with D"
     ]
   },
   {
@@ -1170,7 +1144,7 @@
     "categories": [],
     "notes": [
       "Combo from 1st CH",
-      "Transition to r22 FC with D"
+      "Transition to r28 FC with D"
     ]
   },
   {
@@ -1187,7 +1161,7 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to r22 FC with D"
+      "Transition to r28 FC with D"
     ]
   },
   {
@@ -1226,8 +1200,8 @@
     ],
     "categories": [],
     "notes": [
-      "Cancel to r14 FC with D",
-      "Transition to attack throw on CH, 22 damage",
+      "Cancel to r39 FC with D on frame 25",
+      "Transition to attack throw on CH, +22 damage, total 44",
       "Opponent recovers FDFA on CH"
     ]
   },
@@ -1237,8 +1211,8 @@
     "hit_level": "m",
     "damage": "10",
     "startup": "i14~15",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "",
     "alternateInputs": [
       "b+2"
@@ -1254,8 +1228,8 @@
     "hit_level": "m,h",
     "damage": "10,7",
     "startup": ",i15~16",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "",
     "alternateInputs": [
       "b+2,1"
@@ -1263,47 +1237,9 @@
     "categories": [],
     "notes": [
       "Elbow",
-      "Combo from 1st hit with 5f? delay"
-    ]
-  },
-  {
-    "name": "",
-    "input": "b+2,1~F",
-    "hit_level": "m,h",
-    "damage": "10,7",
-    "startup": ",i15~16",
-    "block": "+0~+1",
-    "hit": "+11g~+12g",
-    "counter": "",
-    "alternateInputs": [
-      "b+2,1~F"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Cancel to r18 FC with D",
-      "Parries low punches or kicks",
-      "Parries throws"
-    ]
-  },
-  {
-    "name": "",
-    "input": "b+2,1~B",
-    "hit_level": "m,h",
-    "damage": "10,7",
-    "startup": ",i15~16",
-    "block": "+0~+1",
-    "hit": "+11g~+12g",
-    "counter": "",
-    "alternateInputs": [
-      "b+2,1~B"
-    ],
-    "categories": [],
-    "notes": [
-      "Restores 2 recoverable health with each pulse",
-      "Transition to r30 with u_d",
-      "Cancel to r15 with DB"
+      "Combo from 1st hit with 5f? delay",
+      "Enter GEN +0 +11g r18 with F",
+      "Enter MIA +0 +11g r18 with B"
     ]
   },
   {
@@ -1374,7 +1310,7 @@
     "hit_level": "m,m",
     "damage": "10,10",
     "startup": ",i16~17",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+3",
     "counter": "",
     "alternateInputs": [
@@ -1399,7 +1335,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written Backflip"
     ]
   },
   {
@@ -1419,6 +1355,7 @@
     ],
     "notes": [
       "Tornado",
+      "Combo from 1st hit",
       "Chip damage (8) on block",
       "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
@@ -1438,8 +1375,9 @@
     ],
     "categories": [],
     "notes": [
+      "Combo from 1st hit",
       "Links to db+4 extensions",
-      "Can recover in r22 FC with D"
+      "Can recover in r28 FC with D"
     ]
   },
   {
@@ -1448,8 +1386,8 @@
     "hit_level": "m",
     "damage": "14",
     "startup": "i13~14",
-    "block": "-7~-8",
-    "hit": "+5~+6",
+    "block": "-7",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "b+4"
@@ -1465,8 +1403,8 @@
     "hit_level": "m,M",
     "damage": "14,17",
     "startup": ",i22~23",
-    "block": "-13~-12",
-    "hit": "+5~+6",
+    "block": "-13",
+    "hit": "+5",
     "counter": "+28a (+18)",
     "alternateInputs": [
       "b+4,2"
@@ -1482,7 +1420,7 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i28~29",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+9a (+0)",
     "counter": "",
     "alternateInputs": [
@@ -1493,7 +1431,7 @@
     ],
     "notes": [
       "Balcony Break",
-      "Frame advantage is -8 if an attack is absorbed"
+      "-8 on block after absorbing an attack"
     ]
   },
   {
@@ -1503,7 +1441,7 @@
     "damage": "50",
     "startup": "i57~58",
     "block": "",
-    "hit": "+6~+7",
+    "hit": "+6a",
     "counter": "",
     "alternateInputs": [
       "b+2+3"
@@ -1527,7 +1465,7 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: ub+4"
+      "Balcony Break (airborne)"
     ]
   },
   {
@@ -1579,15 +1517,15 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i20~21",
-    "block": "-6~-5",
-    "hit": "+5~+6",
+    "block": "-6",
+    "hit": "+5",
     "counter": "+30a",
     "alternateInputs": [
       "uf+3"
     ],
     "categories": [],
     "notes": [
-      "Alternate inputs: ub+3, u+3"
+      "Balcony Break (airborne)"
     ]
   },
   {
@@ -1596,8 +1534,8 @@
     "hit_level": "m",
     "damage": "10",
     "startup": "i16~18",
-    "block": "-20~-18",
-    "hit": "-9~-7",
+    "block": "-20",
+    "hit": "-9",
     "counter": "",
     "alternateInputs": [
       "uf+4"
@@ -1623,7 +1561,7 @@
     "notes": [
       "Tornado",
       "Combo from 1st hit",
-      "Transition to r17 MIA on hit only",
+      "Transition to MIA on hit only",
       "3rd hit available only as combo from 2nd hit",
       "3rd hit deals 12 damage to self (8 recoverable)"
     ]
@@ -1633,7 +1571,7 @@
     "input": "uf+3+4",
     "hit_level": "m,M",
     "damage": "5,21",
-    "startup": "i20~23 i26~30",
+    "startup": "i20~23 i2~6",
     "block": "-8~-4",
     "hit": "+18a",
     "counter": "",
@@ -1642,8 +1580,7 @@
     ],
     "categories": [],
     "notes": [
-      "Spike",
-      "Alternate inputs: ub+3+4, u+3+4"
+      "Spike"
     ]
   },
   {
@@ -1652,55 +1589,16 @@
     "hit_level": "m",
     "damage": "16",
     "startup": "i16~17",
-    "block": "-12~-11",
-    "hit": "+3~+4",
+    "block": "-12",
+    "hit": "+3",
     "counter": "",
     "alternateInputs": [
       "f,F+2"
     ],
     "categories": [],
     "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "",
-    "input": "f,F+2~F",
-    "hit_level": "m",
-    "damage": "16",
-    "startup": "i16~17",
-    "block": "+1~+2",
-    "hit": "+16g~+17g",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+2~F"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Cancel to r18 FC with D",
-      "Parries low punches or kicks",
-      "Parries throws"
-    ]
-  },
-  {
-    "name": "",
-    "input": "f,F+2~B",
-    "hit_level": "m",
-    "damage": "16",
-    "startup": "i16~17",
-    "block": "+1~+2",
-    "hit": "+16g~+17g",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+2~B"
-    ],
-    "categories": [],
-    "notes": [
-      "Restores 2 recoverable health with each pulse",
-      "Transition to r30 with u_d",
-      "Cancel to r15 with DB"
+      "Enter GEN +1 +16g r18 wiith F",
+      "Enter GEN +1 +16g r18 wiith B"
     ]
   },
   {
@@ -1717,9 +1615,10 @@
     ],
     "categories": [],
     "notes": [
+      "Tornado",
       "Balcony Break",
-      "Combo from 1st hit with 8f delay",
-      "Aerial Tornado"
+      "Elbow",
+      "Combo from 1st hit with 8f delay"
     ]
   },
   {
@@ -1745,8 +1644,8 @@
     "hit_level": "m",
     "damage": "23",
     "startup": "i18~19",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "",
     "alternateInputs": [
       "f,F+3"
@@ -1755,7 +1654,8 @@
       "homing"
     ],
     "notes": [
-      "Homing"
+      "Homing",
+      "Balcony Break (airborne)"
     ]
   },
   {
@@ -1764,7 +1664,7 @@
     "hit_level": "m,m,m",
     "damage": "23,12,15",
     "startup": ",i35~36 i41~42",
-    "block": "+3~+4",
+    "block": "+3",
     "hit": "+19a",
     "counter": "",
     "alternateInputs": [
@@ -1774,7 +1674,8 @@
     "notes": [
       "Spike",
       "Chip damage on block",
-      "Interrupt with i11 from 1st block"
+      "Interrupt with i11 from 1st block",
+      "+14d on BT hit"
     ]
   },
   {
@@ -1789,11 +1690,14 @@
     "alternateInputs": [
       "f,F+1+2"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Balcony Break",
       "Chip damage (6) on block; +5 chip damage in Heat",
-      "Deals 6 damage to self (4 recoverable) "
+      "Deals 6 damage to self (4 recoverable) ",
+      "Non-limb attack, unparryable by Asuka, Nina, etc"
     ]
   },
   {
@@ -1804,7 +1708,7 @@
     "startup": "i24~28",
     "block": "+3~+7",
     "hit": "+14a (+5)",
-    "counter": "+46a (-1)",
+    "counter": "+46d (-1)",
     "alternateInputs": [
       "f,f,F+3"
     ],
@@ -1812,7 +1716,7 @@
     "notes": [
       "Balcony Break",
       "Chip damage on block",
-      "Alternate input: ub,b+3"
+      "Sometimes written wr3"
     ]
   },
   {
@@ -1821,15 +1725,15 @@
     "hit_level": "m,m",
     "damage": "10,10",
     "startup": "i21~22 i23~24",
-    "block": "-6~-5",
-    "hit": "+5c~+6c",
+    "block": "-6",
+    "hit": "+5c",
     "counter": "",
     "alternateInputs": [
       "FC 3+4"
     ],
     "categories": [],
     "notes": [
-      "Can recover in r22 FC with D"
+      "Can recover in r24 FC with D"
     ]
   },
   {
@@ -1846,7 +1750,7 @@
     ],
     "categories": [],
     "notes": [
-      "Can recover in r22 FC with D"
+      "Can recover in r24 FC with D"
     ]
   },
   {
@@ -1855,7 +1759,7 @@
     "hit_level": "sl,m",
     "damage": "6,30",
     "startup": "i10 i25~26",
-    "block": "-19~-18",
+    "block": "-19",
     "hit": "+26a (+11)",
     "counter": "",
     "alternateInputs": [
@@ -1865,7 +1769,7 @@
     "notes": [
       "Deals 18 damage to self (12 recoverable)",
       "2nd hit available only on hit or block",
-      "Recovery listed is for the 1st hit"
+      "Recovery listed is for the 1st hit, t74 both hits"
     ]
   },
   {
@@ -1874,15 +1778,15 @@
     "hit_level": "L",
     "damage": "12",
     "startup": "i16~17",
-    "block": "-11~-10",
-    "hit": "+0~+1",
-    "counter": "+18~+19",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+18",
     "alternateInputs": [
       "FC df+2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Only i14 or faster attacks guaranteed on CH"
     ]
   },
   {
@@ -1909,8 +1813,8 @@
     "hit_level": "h",
     "damage": "14",
     "startup": "i12~13",
-    "block": "-6~-5",
-    "hit": "+5~+6",
+    "block": "-6",
+    "hit": "+5",
     "counter": "",
     "alternateInputs": [
       "ws1"
@@ -1926,8 +1830,8 @@
     "hit_level": "h,h",
     "damage": "14,7",
     "startup": ",i15~16",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "",
     "alternateInputs": [
       "ws1,1"
@@ -1935,47 +1839,9 @@
     "categories": [],
     "notes": [
       "Elbow",
-      "Combo from 1st hit"
-    ]
-  },
-  {
-    "name": "",
-    "input": "ws1,1~F",
-    "hit_level": "h,h",
-    "damage": "14,7",
-    "startup": ",i15~16",
-    "block": "+0~+1",
-    "hit": "+11g~+12g",
-    "counter": "",
-    "alternateInputs": [
-      "ws1,1~F"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Cancel to r18 FC with D",
-      "Parries low punches or kicks",
-      "Parries throws"
-    ]
-  },
-  {
-    "name": "",
-    "input": "ws1,1~B",
-    "hit_level": "h,h",
-    "damage": "14,7",
-    "startup": ",i15~16",
-    "block": "+0~+1",
-    "hit": "+11g~+12g",
-    "counter": "",
-    "alternateInputs": [
-      "ws1,1~B"
-    ],
-    "categories": [],
-    "notes": [
-      "Restores 2 recoverable health with each pulse",
-      "Transition to r30 with u_d",
-      "Cancel to r15 with DB"
+      "Combo from 1st hit",
+      "Enter GEN +0 +11g r18 with F",
+      "Enter MIA +0 +11g r18 with B"
     ]
   },
   {
@@ -2009,13 +1875,16 @@
     "alternateInputs": [
       "ws1,1,2"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Tornado",
       "Combo from 2nd CH with 6f delay",
       "Input can be delayed 14f",
       "Chip damage on block",
-      "Deals recoverable self-damage when not in Heat"
+      "Deals recoverable self-damage when not in Heat",
+      "Unparryable"
     ]
   },
   {
@@ -2024,8 +1893,8 @@
     "hit_level": "h,h,h",
     "damage": "14,7,24",
     "startup": ",i23~25",
-    "block": "-8~-7",
-    "hit": "+42a (-16)",
+    "block": "-8",
+    "hit": "+42d (-16)",
     "counter": "",
     "alternateInputs": [
       "ws1,1,4"
@@ -2034,7 +1903,8 @@
     "notes": [
       "Balcony Break",
       "Combo from 2nd CH with 6f delay",
-      "Input can be delayed 14f"
+      "Input can be delayed 14f",
+      "+13d on BT hit"
     ]
   },
   {
@@ -2043,8 +1913,8 @@
     "hit_level": "h,m",
     "damage": "14,16",
     "startup": ",i22~23",
-    "block": "-11~-10",
-    "hit": "+0c~+1c",
+    "block": "-11",
+    "hit": "+0c",
     "counter": "",
     "alternateInputs": [
       "ws1,4"
@@ -2063,8 +1933,8 @@
     "hit_level": "h,m,L",
     "damage": "14,16,17",
     "startup": ",i23~24",
-    "block": "-16~-14",
-    "hit": "+0c~+1c",
+    "block": "-16",
+    "hit": "+0c",
     "counter": "+13a",
     "alternateInputs": [
       "ws1,4,2"
@@ -2081,7 +1951,7 @@
     "hit_level": "h,m,m",
     "damage": "14,16,28",
     "startup": ",i25~26",
-    "block": "-20~-19",
+    "block": "-20",
     "hit": "+16a (+11)",
     "counter": "",
     "alternateInputs": [
@@ -2090,6 +1960,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Elbow",
       "Combo from 2nd CH"
     ]
   },
@@ -2099,8 +1970,8 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i13~14",
-    "block": "-8~-7",
-    "hit": "+5~+6",
+    "block": "-8",
+    "hit": "+5",
     "counter": "+32a",
     "alternateInputs": [
       "ws2"
@@ -2116,7 +1987,7 @@
     "hit_level": "m,m",
     "damage": "12,20",
     "startup": ",i22~23",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+19a (10)",
     "counter": "",
     "alternateInputs": [
@@ -2134,7 +2005,7 @@
     "hit_level": "M",
     "damage": "16",
     "startup": "i14~15",
-    "block": "-13~-12",
+    "block": "-13",
     "hit": "+25a (+5)",
     "counter": "",
     "alternateInputs": [
@@ -2151,7 +2022,7 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i11~12",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+18a (+11)",
     "counter": "",
     "alternateInputs": [
@@ -2170,14 +2041,14 @@
     "startup": "i21",
     "block": "-2",
     "hit": "+5",
-    "counter": "+17 +63a",
+    "counter": "+14 +63a",
     "alternateInputs": [
       "ws1+2"
     ],
     "categories": [],
     "notes": [
       "Elbow",
-      "Can recover in r18 FC with D"
+      "Cancel to r39 FC with D on frame 20"
     ]
   },
   {
@@ -2186,7 +2057,7 @@
     "hit_level": "m",
     "damage": "23",
     "startup": "i18~19",
-    "block": "-21~-20",
+    "block": "-21",
     "hit": "+38a (+28)",
     "counter": "",
     "alternateInputs": [
@@ -2203,9 +2074,9 @@
     "hit_level": "h",
     "damage": "17",
     "startup": "i23~24",
-    "block": "+6~+7",
-    "hit": "+11~+12",
-    "counter": "+20c~+21c",
+    "block": "+6",
+    "hit": "+11",
+    "counter": "+20c",
     "alternateInputs": [
       "u+2"
     ],
@@ -2214,7 +2085,7 @@
     ],
     "notes": [
       "Homing",
-      "Alternate input: ub+2"
+      "Restores 2 health and 2 recoverable on hit"
     ]
   },
   {
@@ -2223,8 +2094,8 @@
     "hit_level": "h",
     "damage": "7",
     "startup": "i13~14",
-    "block": "-7~-6",
-    "hit": "+4~+5",
+    "block": "-7",
+    "hit": "+4",
     "counter": "",
     "alternateInputs": [
       "IZU 1"
@@ -2240,19 +2111,22 @@
     "hit_level": "h,h",
     "damage": "7,26",
     "startup": ",i23~24",
-    "block": "-4~-3",
+    "block": "-4",
     "hit": "+30a (+20)",
     "counter": "",
     "alternateInputs": [
       "IZU 1,1"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Balcony Break",
       "Tornado",
       "Combo from 1st hit with 6f delay",
       "Restores 1 health on hit",
-      "Restores 1 additional recoverable on hit"
+      "Restores 1 additional recoverable on hit",
+      "Non-limb attack, unparryable by Asuka, Nina, etc"
     ]
   },
   {
@@ -2291,26 +2165,9 @@
     ],
     "notes": [
       "Tornado",
-      "Chip damage (8) on block",
+      "Chip damage (9) on block",
       "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
-    ]
-  },
-  {
-    "name": "Zuiun Renkyaku > Heat Dash",
-    "input": "in heat IZU 3,F",
-    "hit_level": "m,h",
-    "damage": "10,16",
-    "startup": "i16~15 i14~15",
-    "block": "+5~+6",
-    "hit": "+36a (+26)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat IZU 3,F"
-    ],
-    "categories": [],
-    "notes": [
-      "Jail from 1st attack"
     ]
   },
   {
@@ -2319,8 +2176,8 @@
     "hit_level": "L",
     "damage": "15",
     "startup": "i21~22",
-    "block": "-37~-36",
-    "hit": "-1c~+0c",
+    "block": "-37",
+    "hit": "-1c",
     "counter": "+23a",
     "alternateInputs": [
       "IZU 4"
@@ -2342,12 +2199,15 @@
     "alternateInputs": [
       "IZU 4,1"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Balcony Break",
       "Combo from 1st hit",
       "Chip damage on block",
-      "Deals 18 damage to self (12 recoverable)"
+      "Deals 18 damage to self (12 recoverable)",
+      "Unparryable"
     ]
   },
   {
@@ -2356,7 +2216,7 @@
     "hit_level": "M",
     "damage": "24",
     "startup": "i21~22",
-    "block": "-12~-11",
+    "block": "-12",
     "hit": "+19a",
     "counter": "",
     "alternateInputs": [
@@ -2366,8 +2226,28 @@
       "powercrush"
     ],
     "notes": [
+      "Balcony Break",
       "Spike",
       "Frame advantage is -6 if an attack is absorbed"
+    ]
+  },
+  {
+    "name": "Tsukuyomi",
+    "input": "IZU 1+4",
+    "hit_level": "t",
+    "damage": "35",
+    "startup": "i14",
+    "block": "-6",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "IZU 1+4"
+    ],
+    "categories": [
+      "throw"
+    ],
+    "notes": [
+      "Throw break 1+2"
     ]
   },
   {
@@ -2376,8 +2256,8 @@
     "hit_level": "m",
     "damage": "21",
     "startup": "i16~17",
-    "block": "-9~-8",
-    "hit": "+2~+3",
+    "block": "-9",
+    "hit": "+2",
     "counter": "+23",
     "alternateInputs": [
       "IZU f+1+2"
@@ -2387,6 +2267,7 @@
     ],
     "notes": [
       "Homing",
+      "Balcony Break (airborne)",
       "Only i13 or faster attacks guaranteed on CH"
     ]
   },
@@ -2406,7 +2287,7 @@
       "parry"
     ],
     "notes": [
-      "Cancel to r18 FC with D",
+      "Cancel to r34 FC with D on frame 16",
       "Parries low punches or kicks",
       "Parries throws"
     ]
@@ -2415,7 +2296,7 @@
     "name": "Amaterasu",
     "input": "f+3+4,P (Low)",
     "hit_level": "t",
-    "damage": "4,2,2,2,2,2,2,2,2",
+    "damage": "20",
     "startup": "",
     "block": "",
     "hit": "+0d",
@@ -2457,8 +2338,8 @@
     "hit_level": "L",
     "damage": "22",
     "startup": "i20~21",
-    "block": "-13~-12",
-    "hit": "+3c~+4c",
+    "block": "-13",
+    "hit": "+3c",
     "counter": "+26a",
     "alternateInputs": [
       "GEN 1"
@@ -2484,10 +2365,11 @@
       "powercrush"
     ],
     "notes": [
-      "Transitions to attack throw on front hit only, otherwise knockdown",
+      "Transition to attack throw on front standing or airborne hit",
       "Deals 12 damage to self (8 recoverable)",
       "Frame advantage is -9 if an attack is absorbed",
-      "Chip damage on block if an attack is absorbed"
+      "Chip damage on block if an attack is absorbed",
+      "+10a (+1) and Balcony Break on BT hit"
     ]
   },
   {
@@ -2511,7 +2393,7 @@
     "name": "Getsuun Renken",
     "input": "GEN 3,2",
     "hit_level": "M,M",
-    "damage": "14,20",
+    "damage": "14,16",
     "startup": ",i24",
     "block": "-9",
     "hit": "+33a (+18)",
@@ -2523,8 +2405,8 @@
       "parry"
     ],
     "notes": [
-      "Combo from 1st hit",
-      "Chip damage (8) on block",
+      "Combo from 1st hit with 8f delay",
+      "Input can be delayed 10f",
       "Deals 12 damage to self (8 recoverable)",
       "Unparryable"
     ]
@@ -2563,9 +2445,10 @@
     ],
     "categories": [],
     "notes": [
-      "Restores 2 recoverable with each pulse",
-      "Transition to r30 with u_d",
-      "Cancel to r15 with DB"
+      "Enter SS r16 with u_d",
+      "r30 when blocking after SS",
+      "Cancel to r15 with DB",
+      "Restores 2 recoverable with each pulse"
     ]
   },
   {
@@ -2574,7 +2457,7 @@
     "hit_level": "M",
     "damage": "30",
     "startup": "i24~25",
-    "block": "-9~-8",
+    "block": "-9",
     "hit": "+72a (+56)",
     "counter": "",
     "alternateInputs": [
@@ -2591,34 +2474,14 @@
     ]
   },
   {
-    "name": "Ame-no-Nuboko > Heat Dash",
-    "input": "in heat MIA 2,F",
-    "hit_level": "sm",
-    "damage": "30",
-    "startup": "i16",
-    "block": "+5",
-    "hit": "+36a (+26)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat MIA 2,F"
-    ],
-    "categories": [
-      "parry"
-    ],
-    "notes": [
-      "Chip damage (22) on block",
-      "Unparryable"
-    ]
-  },
-  {
     "name": "Izumo Strike",
     "input": "MIA 1+2",
     "hit_level": "h",
     "damage": "17",
     "startup": "i23~24",
-    "block": "+6~+7",
-    "hit": "+11~+12",
-    "counter": "+20c~+21c",
+    "block": "+6",
+    "hit": "+11",
+    "counter": "+20c",
     "alternateInputs": [
       "MIA 1+2"
     ],
@@ -2626,7 +2489,8 @@
       "homing"
     ],
     "notes": [
-      "Homing"
+      "Homing",
+      "Restores 2 health and 2 recoverable on hit"
     ]
   },
   {
@@ -2645,7 +2509,7 @@
       "parry"
     ],
     "notes": [
-      "Cancel to r18 FC with D",
+      "Cancel to r34 FC with D on frame 16",
       "Parries low punches or kicks",
       "Parries throws"
     ]
@@ -2712,30 +2576,13 @@
     ]
   },
   {
-    "name": "Kagura > Heat Dash",
-    "input": "in heat SS 4,F",
-    "hit_level": "m",
-    "damage": "20",
-    "startup": "i18~20",
-    "block": "+5~+7",
-    "hit": "+67a (+50)",
-    "counter": "",
-    "alternateInputs": [
-      "in heat SS 4,F"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
     "name": "Sankouchou",
     "input": "SS 1+2",
     "hit_level": "h,h,m",
     "damage": "7,9,18",
     "startup": "i16 i17 i15~16",
     "block": "-4",
-    "hit": "+7c~+8c",
+    "hit": "+7c",
     "counter": "",
     "alternateInputs": [
       "SS 1+2"
@@ -2747,8 +2594,7 @@
       "Homing",
       "Spike",
       "Jail from 1st attack",
-      "Combo from 1st hit",
-      "Recovery listed is for the last hit"
+      "Combo from 1st or 2nd hit"
     ]
   },
   {
@@ -2767,7 +2613,6 @@
       "parry"
     ],
     "notes": [
-      "Alternate input: b+2+4",
       "Parries mid or high punches or kicks"
     ]
   },
@@ -2775,10 +2620,10 @@
     "name": "",
     "input": "b+1+3,P",
     "hit_level": "t",
-    "damage": "7,8,10",
+    "damage": "25",
     "startup": "i16 i17 i15~16",
     "block": "",
-    "hit": "+0d",
+    "hit": "-4d",
     "counter": "",
     "alternateInputs": [
       "b+1+3,P"
@@ -2804,7 +2649,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Can perform wr3 with input 3"
     ]
   },
   {
@@ -2814,7 +2659,7 @@
     "damage": "21",
     "startup": "i39~41",
     "block": "+4c~+6c",
-    "hit": "+22",
+    "hit": "+22a",
     "counter": "",
     "alternateInputs": [
       "(Back to wall) b,b,UB"
@@ -2864,7 +2709,7 @@
     "notes": [
       "Homing",
       "Throw break 1 or 2",
-      "Side switch"
+      "Side switch on hit"
     ]
   },
   {
@@ -2883,8 +2728,7 @@
       "throw"
     ],
     "notes": [
-      "Throw break 1",
-      "Can side switch on hit"
+      "Throw break 1"
     ]
   },
   {
@@ -2971,7 +2815,7 @@
     "input": "FC db+1+2",
     "hit_level": "t",
     "damage": "15,15,15",
-    "startup": "i11~12",
+    "startup": "i14~15",
     "block": "-6",
     "hit": "+56a (+28)",
     "counter": "",
@@ -2984,26 +2828,6 @@
     "notes": [
       "Throw break 1+2",
       "Opponent can tech roll to reduce the landing damage"
-    ]
-  },
-  {
-    "name": "Tsukuyomi",
-    "input": "IZU 1+4",
-    "hit_level": "t",
-    "damage": "35",
-    "startup": "i14",
-    "block": "-6",
-    "hit": "+0d",
-    "counter": "",
-    "alternateInputs": [
-      "IZU 1+4"
-    ],
-    "categories": [
-      "throw"
-    ],
-    "notes": [
-      "Throw break 1+2",
-      "Alternate input: IZU.2+3"
     ]
   }
 ]

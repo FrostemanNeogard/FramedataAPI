@@ -3,7 +3,7 @@
     "name": "",
     "input": "2+3",
     "hit_level": "m",
-    "damage": "12",
+    "damage": "[12;12]",
     "startup": "i16",
     "block": "+1",
     "hit": "+2c",
@@ -13,7 +13,12 @@
     ],
     "categories": [],
     "notes": [
-      "Heat Burst"
+      "Heat Burst",
+      "Cancel to r45 with b,b",
+      "3 chip damage on block",
+      "12 chip damage on hit",
+      "Only deals recoverable damage",
+      "Cannot cause a K.O."
     ]
   },
   {
@@ -312,7 +317,7 @@
     "hit_level": "l",
     "damage": "23",
     "startup": "i18~24",
-    "block": "-15*",
+    "block": "-15~-9",
     "hit": "+3",
     "counter": "+5d",
     "alternateInputs": [
@@ -341,7 +346,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Recovers 2f faster on hit or block (t27 r17)"
     ]
   },
   {
@@ -2010,7 +2015,7 @@
     "hit_level": "l",
     "damage": "20",
     "startup": "i18~24",
-    "block": "-15*",
+    "block": "-15~-9",
     "hit": "+3",
     "counter": "+5d",
     "alternateInputs": [
@@ -2403,7 +2408,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i26~29",
-    "block": "-5c",
+    "block": "-7c",
     "hit": "+13c",
     "counter": "",
     "alternateInputs": [

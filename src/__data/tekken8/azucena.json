@@ -219,10 +219,7 @@
     "notes": [
       "Heat Engager",
       "Heat Dash +5, +36a (+26)",
-      "Balcony Break",
-      "Wall splat on hit",
-      "Opponent recovers crouching on hit",
-      "(Ver.1.05.00) - Damage changed from 18. On hit changed from +11F. "
+      "Balcony Break"
     ]
   },
   {
@@ -344,8 +341,7 @@
     "notes": [
       "Combo from 1st hit",
       "Transition to LIB on standing hit only",
-      "(Ver.1.04.00) - Changed from -9F on block.",
-      "(Ver.1.05.00) - On counterhit, now applies knockdown for follow up."
+      "Delayable"
     ]
   },
   {
@@ -525,8 +521,7 @@
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
-      "(Ver.1.05.00) - Damage changed from 15,11."
+      "Combo from 1st hit"
     ]
   },
   {
@@ -563,8 +558,7 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break",
-      "(Ver.1.05.00) - Damage changed from 20."
+      "Balcony Break"
     ]
   },
   {
@@ -744,8 +738,7 @@
     "categories": [],
     "notes": [
       "Jail from 1st attack with 1f delay",
-      "Enter BT -5 +6 r23 with B",
-      "(Ver.1.04.00) - Damage changed from 11,17"
+      "Enter BT -5 +6 r23 with B"
     ]
   },
   {
@@ -997,8 +990,7 @@
     "notes": [
       "Combo from 1st CH with 2f delay",
       "Input can be delayed 10f",
-      "Cancel to LIB -20 -9 r18 with F",
-      "(Ver.1.05.00) - New Cancel."
+      "Cancel to LIB -20 -9 r18 with F"
     ]
   },
   {
@@ -1067,7 +1059,7 @@
     ],
     "categories": [],
     "notes": [
-      "(Ver.1.04.00) - Damage changed from 12."
+      ""
     ]
   },
   {
@@ -1086,6 +1078,7 @@
     "notes": [
       "Tornado",
       "Balcony Break",
+      "Jails from first hit",
       "Combo from 1st CH"
     ]
   },
@@ -1385,7 +1378,7 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Balcony Break",
-      "Combo from 1st hit"
+      "Combo from 1st hit with 11f delay"
     ]
   },
   {
@@ -1402,7 +1395,8 @@
     ],
     "categories": [],
     "notes": [
-      "Spike"
+      "Spike",
+      "20 damage when u+4 or ub+4 input is used"
     ]
   },
   {
@@ -1437,8 +1431,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "8 chip damage on block",
-      "11 chip damage on block during heat"
+      "Chip damage on block"
     ]
   },
   {
@@ -1457,8 +1450,8 @@
     "notes": [
       "Spike",
       "Enter BT with B",
-      "Chip damage on block",
-      "(Ver.1.05.00) - On normal hit, now applies knockdown for follow up."
+      "8 chip damage on block",
+      "11 chip damage on block during heat"
     ]
   },
   {
@@ -1735,10 +1728,10 @@
     "name": "Crema Petalo",
     "input": "LIB P (High)",
     "hit_level": "",
-    "damage": "25",
+    "damage": "0",
     "startup": "",
     "block": "",
-    "hit": "+7",
+    "hit": "Frame advantage depends on the move that gets parried.",
     "counter": "",
     "alternateInputs": [
       "LIB P (High)"
@@ -1755,7 +1748,7 @@
     "damage": "15,20",
     "startup": "i7~8 i19~20",
     "block": "",
-    "hit": "+8",
+    "hit": "+8 on standing lows, will cause a juggle on lows with float properties",
     "counter": "",
     "alternateInputs": [
       "LIB P (Low)"
@@ -1839,7 +1832,7 @@
       "Spike",
       "Combo from 1st CH with 7f delay",
       "Input can be delayed 8f",
-      "(Ver.1.05.00) - Behavoir on normal hit has been changed to match counter hit. On hit, changed from +8."
+      "On block only regular i10 punishers are guaranteed, even though she is backturned.}"
     ]
   },
   {
@@ -1856,7 +1849,7 @@
     ],
     "categories": [],
     "notes": [
-      "(Ver.1.05.00) - Recovery time has decreased by 3F."
+      ""
     ]
   },
   {
@@ -1874,7 +1867,7 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit with 9f delay",
-      "(Ver.1.05.00) - Recovery time has decreased by 1F."
+      "Launches from first counter hit"
     ]
   },
   {
@@ -1913,7 +1906,8 @@
     "notes": [
       "Balcony Break",
       "Spike",
-      "Combo from 1st hit with 5f delay"
+      "Combo from 1st hit with 5f delay",
+      "Will not wall splat when the first hit is a counter hit due to float state"
     ]
   },
   {
@@ -2024,8 +2018,7 @@
     ],
     "categories": [],
     "notes": [
-      "Can be canceled at r20 with 1, performs the same attack as uf+1",
-      "(Ver.1.05.00) - Recovery for attacks changed from 45F. Movement remains unchanged."
+      "Can be canceled at r20 with 1, performs the same attack as uf+1"
     ]
   },
   {
@@ -2101,7 +2094,7 @@
     ],
     "categories": [],
     "notes": [
-      "(Ver.1.05.00) - Recovery changed from 28F."
+      ""
     ]
   },
   {
@@ -2158,8 +2151,7 @@
       "Input can be delayed 10f",
       "6 chip damage on block",
       "9 chip damage on block during heat",
-      "Cancel to LIB -19 -13 r20 with F",
-      "(Ver.1.05.00) - Chip Damage added."
+      "Cancel to LIB -19 -13 r20 with F"
     ]
   },
   {
@@ -2234,8 +2226,7 @@
     "notes": [
       "Strong Aerial Tailspin",
       "Balcony break on airborne hit",
-      "Transition to LIB on hit",
-      "(Ver.1.05.00) - Changed the opponent's behavior on aerial hit to \"Strong Aerial Tailspin\"."
+      "Transition to LIB on hit"
     ]
   },
   {
@@ -2561,7 +2552,7 @@
     ],
     "notes": [
       "Throw break 1 or 2",
-      "Side switch"
+      "Side switch on hit and break"
     ]
   },
   {
@@ -2639,14 +2630,14 @@
     ],
     "notes": [
       "Throw break 1+2",
-      "Can side switch on hit"
+      "side switch on hit"
     ]
   },
   {
     "name": "UFO Roll",
     "input": "d+1+2",
     "hit_level": "l",
-    "damage": "21",
+    "damage": "[21;21]",
     "startup": "i25~26",
     "block": "-4",
     "hit": "+0d",
@@ -2657,7 +2648,6 @@
     "categories": [],
     "notes": [
       "Transition to throw on front standing hit only",
-      "Crouching",
       "18 damage to Azucena when hitting crouching opponent (block)",
       "Damage on hit and block is recoverable health",
       "Cannot KO Azucena when blocked",

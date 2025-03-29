@@ -184,7 +184,9 @@
       "Heat Engager",
       "Heat Dash +5, +43d (+35)",
       "Balcony Break",
-      "17 Chip Damage on Heat Dash"
+      "17 Chip Damage on Heat Dash",
+      "Backsway",
+      "Max distance from opponent when performed at tip range: ~3.82-3.83 (frames 16-19?)"
     ]
   },
   {
@@ -865,8 +867,8 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 1st hit with 10f delay",
-      "Move can be delayed 9f"
+      "Combo from 1st hit with 11?f delay",
+      "Move can be delayed 10?f "
     ]
   },
   {
@@ -923,7 +925,9 @@
     ],
     "categories": [],
     "notes": [
-      "Could be sidewalked left under specific circumstances."
+      " * Tracking notes:",
+      "Pseudo homing",
+      "Can only be sidewalked left at +1 and +8"
     ]
   },
   {
@@ -1331,7 +1335,11 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Tracking notes:",
+      "Can be sidestepped right at -10",
+      "Can be sidewalked left from +1 to +2 only",
+      "Pseudo homing to SSL/SWL side?"
     ]
   },
   {
@@ -2014,14 +2022,16 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "14 damage with combo scaling from 1st hit",
+      "24 damage total from 1st hit"
     ]
   },
   {
     "name": "Devil Starstorm",
     "input": "FLY 4,2,1+2",
     "hit_level": "M,m,m!,M!",
-    "damage": "10,20,15",
+    "damage": "10,20,14,20",
     "startup": ",i27~28 i22~60",
     "block": "",
     "hit": "-6a",
@@ -2031,7 +2041,9 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "15 (7+8) damage with combo scaling from 1st hit",
+      "39 damage total from 1st hit"
     ]
   },
   {
@@ -2160,14 +2172,16 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "14 damage with combo scaling from 1st hit",
+      "24 damage total from 1st hit"
     ]
   },
   {
     "name": "Devil Starstorm",
     "input": "MCR 4,2,1+2",
     "hit_level": "M,m,m!,M!",
-    "damage": "10,20,15",
+    "damage": "10,20,14,20",
     "startup": ",i27~28 i22~60",
     "block": "",
     "hit": "-6a",
@@ -2177,7 +2191,9 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "15 (7+8) damage with combo scaling from 1st hit",
+      "39 damage total from 1st hit"
     ]
   },
   {

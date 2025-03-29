@@ -378,7 +378,7 @@
     "hit_level": "h",
     "damage": "30",
     "startup": "i18",
-    "block": "-14",
+    "block": "-13",
     "hit": "+18d (+8)",
     "counter": "",
     "alternateInputs": [
@@ -823,7 +823,7 @@
     "name": "Overheat",
     "input": "df+1,1",
     "hit_level": "m,m",
-    "damage": "12",
+    "damage": "12,20",
     "startup": "i29",
     "block": "-11",
     "hit": "+21cg",

@@ -642,7 +642,7 @@
       "Tornado",
       "Balcony break on airborne hit",
       "Combo from 1st hit with 1f delay",
-      "Enter KIN with 1+2",
+      "Enter KIN r26 with 1+2",
       "Transition to NSS on hit or block only"
     ]
   },
@@ -2429,7 +2429,7 @@
     "input": "ub+1+3,n+1",
     "hit_level": "m!,m!",
     "damage": "40,22",
-    "startup": ",i28~113",
+    "startup": ",i28~113 i2~4",
     "block": "",
     "hit": "-57a",
     "counter": "",
@@ -2439,7 +2439,7 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Cancel early to r21 with B (earliest cancel -12a)",
+      "Cancel early to r25 with B on frame 64",
       "Possible to double-hit during cancelSometimes written ",
       "1SS.ub+1+3,n+1",
       "ub+1+3,1SS.n+1"
@@ -2519,7 +2519,7 @@
     "categories": [],
     "notes": [
       "Weapon",
-      "Cancel to r20 FC with D"
+      "Cancel to r47 FC with D on frame 27"
     ]
   },
   {
@@ -2538,7 +2538,9 @@
     "notes": [
       "Knee",
       "Can evade jabs at frames 5-7",
-      "Recovers 1f faster on hit or block"
+      "Sometimes written ",
+      "Hopkick",
+      "Hopknee"
     ]
   },
   {
@@ -2577,7 +2579,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "In 1SS cancel to DGF r18 with 1+2",
+      "In 1SS cancel to DGF r41 with 1+2 on frame 23",
       "In 1SS enter FLE r28 with d+1+2",
       "In 1SS enter IND r28 with d+1+2 (or NSS.d+1+2)",
       "On hit, transitions to -4a r49 backward jump automatically",
@@ -2713,8 +2715,8 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Cancel to r34 DGF with 1+2 on frames 1~34",
-      "Cancel to r30 DGF with 1+2 on frame 35. delayable up to frame 92",
+      "Cancel to r64 DGF with 1+2 on frame 34",
+      "Cancel to r60 DGF with 1+2 on frame 35, delayable up to frame 92",
       "Becomes a different move in NSSSometimes written 1SS.uf+1+3"
     ]
   },
@@ -2774,7 +2776,7 @@
     "notes": [
       "Spike",
       "Weapon",
-      "Cancel to r27 DGF with 1+2",
+      "Cancel to r106 DGF with 1+2 on frame 79",
       "Input during frames 1-31 of uf+1+2",
       "Yoshimitsu will recover BT if the opponent is far"
     ]
