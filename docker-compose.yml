@@ -1,5 +1,6 @@
 services:
   api:
+    container_name: fdapi
     build: .
     volumes:
       - /usr/src/app
@@ -17,6 +18,7 @@ services:
       - mongodb
 
   mongodb:
+    container_name: fddb
     image: mongo:latest
     ports:
       - '27017:27017'
