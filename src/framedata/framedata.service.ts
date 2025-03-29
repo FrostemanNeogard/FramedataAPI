@@ -111,22 +111,20 @@ export class FramedataService {
     characterCode: string,
     game: string,
     frameData: FrameData[],
-  ) {
+  ): Promise<void> {
     try {
-      // First delete existing data for this character and game
+      // TODO: Get back to this. See what needs to change for you to update a single entry.
       await this.frameDataModel.deleteMany({
         characterCode,
         game,
       });
 
-      // Add game and characterCode to each frame data entry
       const frameDataWithMetadata = frameData.map((data) => ({
         ...data,
         game,
         characterCode,
       }));
 
-      // Insert new data
       await this.frameDataModel.insertMany(frameDataWithMetadata);
     } catch (error) {
       this.logger.error(

@@ -15,7 +15,8 @@ import {
   TekkenMoveCategory,
   tekkenMoveCategories,
 } from '../__types/moveCategories';
-import { FrameData } from '../__types/frameData';
+import { FramedataPatchDto } from 'src/__dtos/frameDataDto';
+import { FrameData } from './schemas/framedata.schema';
 
 @Controller('framedata')
 export class FramedataController {
@@ -136,7 +137,7 @@ export class FramedataController {
     @Param('gameCode') gameCode: GameCode,
     @Param('characterCode') characterCode: string,
     @Param('input') input: string,
-    @Body() updates: Partial<FrameData>,
+    @Body() patchBody: FramedataPatchDto,
   ) {
     const characterCodeResolved = this.characterCodesService.getCharacterCode(
       characterCode,
@@ -152,34 +153,25 @@ export class FramedataController {
       );
     }
 
-    const frameData = await this.framedataService.getCharacterFrameData(
-      characterCodeResolved,
-      gameCode,
-    );
-
-    const moveIndex = frameData.findIndex(
-      (move) => move.input === input || move.alternateInputs.includes(input),
-    );
-
-    if (moveIndex === -1) {
-      throw new NotFoundException(
-        `Move with input "${input}" not found for character "${characterCode}" in game "${gameCode}".`,
+    const framedata =
+      await this.framedataService.getSingleMoveFrameDataOrSimilarMoves(
+        characterCodeResolved,
+        gameCode,
+        input,
       );
-    }
 
-    const moveToUpdate = frameData[moveIndex];
-    frameData[moveIndex] = { ...moveToUpdate, ...updates };
+    const framedataEntity = new FrameData(patchBody);
 
     try {
       await this.framedataService.saveCharacterFrameData(
         characterCodeResolved,
         gameCode,
-        frameData,
+        framedataEntity,
       );
       this.logger.log(
         `Successfully updated move "${input}" for character "${characterCode}" in game "${gameCode}".`,
       );
-      return frameData[moveIndex];
+      return framedata;
     } catch (error) {
       this.logger.error(
         `Failed to update move "${input}" for character "${characterCode}" in game "${gameCode}". ${error.message}`,
