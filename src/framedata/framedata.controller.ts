@@ -79,7 +79,6 @@ export class FramedataController {
       throw new BadRequestException('Invalid category.');
     }
 
-    //
     const allFramedata = await this.framedataService.getCharacterFrameData(
       characterCodeResolved,
       gameCode,
