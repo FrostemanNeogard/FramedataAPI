@@ -177,10 +177,90 @@
     ]
   },
   {
+    "name": "Left Right Piercing Thorn (Heat)",
+    "input": "1,2,in heat 4",
+    "hit_level": "h,h,m",
+    "damage": "5,12,30",
+    "startup": ",i29~34",
+    "block": "+5~+10",
+    "hit": "+18~23a (-8~-3)",
+    "counter": "",
+    "alternateInputs": [
+      "1,2,in heat 4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "13 chip damage on block",
+      "Input can be delayed 4?f",
+      "Move can be delayed 3?f",
+      "Partially consumes remaining Heat time"
+    ]
+  },
+  {
+    "name": "Piercing Thorn (Heat)",
+    "input": "in heat f,F+3+4",
+    "hit_level": "m",
+    "damage": "36",
+    "startup": "i19~25",
+    "block": "+7~+13",
+    "hit": "+20~26a (-6~+0)",
+    "counter": "",
+    "alternateInputs": [
+      "in heat f,F+3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "16 chip damage on block",
+      "Partially consumes remaining Heat time"
+    ]
+  },
+  {
+    "name": "Rose Piercing Thorn (Heat)",
+    "input": "DEW 1,in heat 4",
+    "hit_level": "m,m",
+    "damage": "12,36",
+    "startup": "i25~31",
+    "block": "+7~+13",
+    "hit": "+20~26a (-6~+0)",
+    "counter": "",
+    "alternateInputs": [
+      "DEW 1,in heat 4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combos from 1st hit CH",
+      "16 chip damage on block",
+      "Partially consumes remaining Heat time"
+    ]
+  },
+  {
+    "name": "Rabbit Song",
+    "input": "in heat RAB 2",
+    "hit_level": "m",
+    "damage": "24",
+    "startup": "i20",
+    "block": "-9",
+    "hit": "+39d (-19)",
+    "counter": "",
+    "alternateInputs": [
+      "in heat RAB 2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26) ",
+      "Balcony Break",
+      "Partially consumes remaining Heat Time"
+    ]
+  },
+  {
     "name": "Rabbit Dance (Heat)",
     "input": "in heat RAB 3",
     "hit_level": "L",
-    "damage": "20",
+    "damage": "22",
     "startup": "i20~21",
     "block": "-13",
     "hit": "+24a",
@@ -193,28 +273,26 @@
     ],
     "notes": [
       "Homing",
+      "Tornado on CH",
       "Partially consumes remaining Heat time "
     ]
   },
   {
-    "name": "Piercing Thorn (Heat)",
-    "input": "in heat f,F+3+4 (etc )",
+    "name": "Rabbit Piercing Thorn (Heat)",
+    "input": "in heat RAB 4",
     "hit_level": "m",
     "damage": "36",
-    "startup": "i19",
-    "block": "+4 (+9w)",
-    "hit": "+20a (-6)",
+    "startup": "i23~29",
+    "block": "+7~+13",
+    "hit": "+20~26a (-6~+0)",
     "counter": "",
     "alternateInputs": [
-      "in heat f,F+3+4 (etc )"
+      "in heat RAB 4"
     ],
     "categories": [],
     "notes": [
-      "All moves named Piercing Thorn share these properties when in Heat",
-      "H.RAB4 (js15~)",
       "Balcony Break",
-      "Chip damage on block [16]",
-      "Partially consumes remaining Heat time"
+      "Partially consumes remaining Heat Time"
     ]
   },
   {
@@ -325,7 +403,7 @@
       "Chip on block [6]",
       "Input can be delayed 4f",
       "Move can be delayed 3f",
-      "Powers up in Heat: 30 damage, +2 ob, Wall Crush +7g, 13 Chip, +18a (-8) oh",
+      "Powers up in Heat",
       "Partially consumes remaining Heat time"
     ]
   },
@@ -1104,7 +1182,7 @@
   },
   {
     "name": "Feisty Rabbit",
-    "input": "b+3_4",
+    "input": "b+3",
     "hit_level": "",
     "damage": "",
     "startup": "",
@@ -1112,7 +1190,7 @@
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "b+3_4"
+      "b+3"
     ],
     "categories": [],
     "notes": [
@@ -1496,24 +1574,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "",
-    "input": "f,F+4,B",
-    "hit_level": "L",
-    "damage": "23",
-    "startup": "i22",
-    "block": "-6",
-    "hit": "+10g",
-    "counter": "+10",
-    "alternateInputs": [
-      "f,F+4,B"
-    ],
-    "categories": [],
-    "notes": [
-      ""
+      "Transition to -6, +10g, +10 BT with B"
     ]
   },
   {
@@ -1546,7 +1607,7 @@
     "hit_level": "m",
     "damage": "30",
     "startup": "i19",
-    "block": "-2 / +4 H +7wc",
+    "block": "-2",
     "hit": "+4a (-5)",
     "counter": "",
     "alternateInputs": [
@@ -1556,7 +1617,7 @@
     "notes": [
       "Balcony Break",
       "Chip damage on block [9]",
-      "Powers up in Heat: 36 damage, +4 ob, Wall Crush +7g, 16 Chip, +18a (-8) oh",
+      "Powers up in Heat",
       "Partially consumes remaining Heat time"
     ]
   },
@@ -1978,7 +2039,7 @@
     "damage": "20",
     "startup": "i20",
     "block": "-13",
-    "hit": "+3c / +24a H",
+    "hit": "+3c",
     "counter": "+70a (+54)",
     "alternateInputs": [
       "RAB 3"
@@ -1988,7 +2049,8 @@
     ],
     "notes": [
       "Homing",
-      "Powered up during Heat: KND on normal hit",
+      "Tornado on CH",
+      "Powered up during Heat: 22 damage and KND on normal hit",
       "Partially consumes remaining Heat Time "
     ]
   },
@@ -1996,9 +2058,9 @@
     "name": "Rabbit Piercing Thorn",
     "input": "RAB 4",
     "hit_level": "m",
-    "damage": "24 (36)",
+    "damage": "24",
     "startup": "i23",
-    "block": "-2 / +4 H +9wc",
+    "block": "-2",
     "hit": "+4a (-5)",
     "counter": "",
     "alternateInputs": [
@@ -2007,8 +2069,7 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Powered up during Heat:",
-      "36 damage, +4 ob, Wall Crush +9g",
+      "Powered up during Heat",
       "Partially consumes remaining Heat Time"
     ]
   },

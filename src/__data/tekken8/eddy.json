@@ -216,7 +216,7 @@
     "categories": [],
     "notes": [
       "Jail from 1st attack with 4f delay",
-      "Enter HSP -8 +3 with F"
+      "Enter HSP -8 +3 r27 with F"
     ]
   },
   {
@@ -460,7 +460,9 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Combo from 1st CH with with 12f delay",
+      "Input can be delayed 17f",
+      "Move can be delayed 15f"
     ]
   },
   {
@@ -498,8 +500,7 @@
     "notes": [
       "Balcony Break",
       "Combo from 1st hit",
-      "Can cancel to r23 HSP with F, -17 on block -5 on hit",
-      "Cancel to HSP -17 -5 r23 with F"
+      "Cancel to HSP -17 -5 r43 with F on frame 20"
     ]
   },
   {
@@ -2114,7 +2115,7 @@
     "hit_level": "L,m",
     "damage": "7,17",
     "startup": ",i25~26",
-    "block": "-14c",
+    "block": "-14",
     "hit": "+5c",
     "counter": "+42a",
     "alternateInputs": [

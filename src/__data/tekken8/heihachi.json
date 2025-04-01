@@ -40,7 +40,7 @@
       "Heat Smash",
       "Reversal Break",
       "Floor Break",
-      "Chip damage on block",
+      "15 chip damage on block",
       "Transition to attack throw on hit",
       "Transition to RAI on block only",
       "Cancel RAI transition with B, +6 on block instead"
@@ -63,7 +63,7 @@
       "Heat Smash",
       "Reversal Break",
       "Balcony Break",
-      "Chip damage on block",
+      "15 chip damage on block",
       "Transition to attack throw on hit",
       "Transition to RAI on block only",
       "Cancel RAI transition with B, +6 on block instead"
@@ -81,12 +81,15 @@
     "alternateInputs": [
       "in heat db+1+2"
     ],
-    "categories": [],
+    "categories": [
+      "powercrush"
+    ],
     "notes": [
       "Tornado",
       "Reversal Break",
       "Balcony Break",
-      "Chip damage on block",
+      "11 chip damage on block",
+      "12 chip damage on block after absorbing an attack in power crush state",
       "Consumes remaining Heat time"
     ]
   },
@@ -261,7 +264,9 @@
       "Heat Dash +5, +36a (+26)",
       "Balcony Break",
       "Chip damage on block",
-      "Gain 1 Ultimate Count on Heat activation"
+      "Gain 1 Ultimate Count on Heat activation",
+      "Tracking notes:",
+      "Assuming i16 startup (f,n,f,f+1+2)"
     ]
   },
   {
@@ -523,7 +528,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block"
+      "12 chip damage on block",
+      "13 chip damage on block in heat"
     ]
   },
   {
@@ -860,14 +866,15 @@
     "notes": [
       "Reversal Break",
       "Balcony Break",
-      "Chip damage on block"
+      "11 chip damage on block",
+      "12 chip damage on block in heat"
     ]
   },
   {
     "name": "Zenith Muso Tekken",
     "input": "df+1:2*",
     "hit_level": "m,m",
-    "damage": "10,23",
+    "damage": "10,23 (28)",
     "startup": ",i28~29",
     "block": "-9",
     "hit": "+19a (+14)",
@@ -880,10 +887,14 @@
       "Tornado",
       "Reversal Break",
       "Combo from 1st hit",
-      "Chip damage on block",
-      "Restores recoverable health on hit or block",
+      "9 chip damage on block",
+      "10 chip damage on block in heat",
+      "11 chip damage on block with perfect frame input",
+      "12 chip damage on block with perfect frame input in heat",
+      "Restores 6 additional recoverable health on hit or block",
+      "Restores 9 additional recoverable health on hit or block with perfect frame input",
       "23 damage upon releasing input within the 5f window (frames 18–22)",
-      "28 damage on a perfect input release exactly on frame 17"
+      "28 damage on a perfect input release exactly on frame 17 (gold spark)"
     ]
   },
   {
@@ -1321,7 +1332,7 @@
     ],
     "notes": [
       "Parries mid or high punches",
-      "? on successful parry",
+      "+40d (-18) on successful parry",
       "Balcony Break"
     ]
   },
@@ -1609,7 +1620,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 1st hit",
+      "Combo from 1st hit with 9?F delay",
       "Enter FUJ -9 +6c r31 with D"
     ]
   },
@@ -1904,7 +1915,7 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 4th hit",
+      "Combo from 4th hit with 11?F delay",
       "Enter FUJ -9 +6c r31 with D",
       "Can be performed after any number of f,n,d,DF+4 lows"
     ]
@@ -2307,7 +2318,7 @@
     "hit_level": "m",
     "damage": "25",
     "startup": "i20~22",
-    "block": "+1",
+    "block": "+1c",
     "hit": "+56a",
     "counter": "",
     "alternateInputs": [
@@ -2608,7 +2619,7 @@
       "Balcony Break",
       "Throw break 1+2",
       "Headbutt can be reversed with input 1 or 2 or 3 or 4",
-      "Works on Male characters only"
+      "Only works on Male characters and Reina"
     ]
   }
 ]

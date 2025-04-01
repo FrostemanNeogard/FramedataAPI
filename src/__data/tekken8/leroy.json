@@ -46,7 +46,7 @@
     "damage": "9,9,20",
     "startup": ",i17~18",
     "block": "-17~-16",
-    "hit": "+7a(-2) / HE",
+    "hit": "+7a(-2)~+8a(-1) / HE",
     "counter": "",
     "alternateInputs": [
       "1+2,1+2,1"
@@ -57,7 +57,8 @@
       "Balcony Break",
       "Elbow",
       "Combo from 1st hit",
-      "Delayable"
+      "Delayable",
+      "jails"
     ]
   },
   {
@@ -76,7 +77,8 @@
     "notes": [
       "Heat Engager",
       "Balcony Break",
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "Slighly delayable"
     ]
   },
   {
@@ -119,8 +121,8 @@
   {
     "name": "Chain Punch: Root",
     "input": "HRM 1+2,1",
-    "hit_level": "m,h,h,h,h,m",
-    "damage": "12,x,x,x,20",
+    "hit_level": "m,h,h,h,m",
+    "damage": "3,3,3,3,20",
     "startup": "i17~18",
     "block": "-17",
     "hit": "+7a(-2)/HE",
@@ -170,7 +172,8 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit CH",
-      "slightly delayable"
+      "slightly delayable",
+      "jails unless delayed"
     ]
   },
   {
@@ -357,7 +360,8 @@
       "Balcony Break",
       "Tornado",
       "Elbow",
-      "Combo from 3rd hit"
+      "Combo from 3rd hit",
+      "Delayable"
     ]
   },
   {
@@ -480,7 +484,8 @@
     "categories": [],
     "notes": [
       "Power up during Heat (partially uses remaining Heat time)",
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "jails"
     ]
   },
   {
@@ -510,8 +515,8 @@
     "hit_level": "h",
     "damage": "15",
     "startup": "i14~16",
-    "block": "-9",
-    "hit": "+2",
+    "block": "-9~-7",
+    "hit": "+2~+4",
     "counter": "",
     "alternateInputs": [
       "f+2"
@@ -564,7 +569,7 @@
     "damage": "14",
     "startup": "i14~15",
     "block": "-7~-6",
-    "hit": "+7",
+    "hit": "+7~+8",
     "counter": "",
     "alternateInputs": [
       "f+3"
@@ -687,7 +692,7 @@
     "input": "df+1,1+2",
     "hit_level": "m,h",
     "damage": "10,9",
-    "startup": ",i18",
+    "startup": "i14",
     "block": "-2",
     "hit": "+4",
     "counter": "",
@@ -919,7 +924,7 @@
     "startup": "i15~16",
     "block": "-13~-12",
     "hit": "-2~-1",
-    "counter": "",
+    "counter": "+3~+4",
     "alternateInputs": [
       "d+2"
     ],
@@ -1174,7 +1179,7 @@
     "notes": [
       "Parry (partially restores remaining Heat time when successful during Heat)",
       "Becomes Superior Twin Dragon Gate upon perfect parry",
-      "Is ps3~ from HRM.b+2"
+      "Is ps3~15 from HRM.b+2"
     ]
   },
   {
@@ -1240,8 +1245,8 @@
     "hit_level": "h",
     "damage": "27",
     "startup": "i22~23",
-    "block": "+9",
-    "hit": "+16c",
+    "block": "+9~+10",
+    "hit": "+16~+17c",
     "counter": "",
     "alternateInputs": [
       "b+3"
@@ -1540,7 +1545,8 @@
     "categories": [],
     "notes": [
       "Tornado",
-      "Combos from 1st hit "
+      "Combos from 1st hit",
+      "Has evasive properties "
     ]
   },
   {
@@ -1827,8 +1833,8 @@
   {
     "name": "",
     "input": "HRM 1+2",
-    "hit_level": "m,h,h,h,h",
-    "damage": "12,x,x,x",
+    "hit_level": "m,h,h,h",
+    "damage": "3,3,3,3",
     "startup": "i14",
     "block": "-2",
     "hit": "+5",
@@ -1838,6 +1844,7 @@
     ],
     "categories": [],
     "notes": [
+      "12 damage total",
       "Power up during Heat (partially uses remaining Heat time)"
     ]
   },
@@ -2126,12 +2133,15 @@
     "alternateInputs": [
       "db+2+3"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
       "Weapon",
       "Tornado",
       "Only once per match",
-      "chip damage on block"
+      "chip damage on block",
+      "Tracks to both sides effectively homing"
     ]
   },
   {
