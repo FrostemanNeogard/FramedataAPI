@@ -117,9 +117,9 @@
     "name": "Durandal",
     "input": "f+1+2",
     "hit_level": "m",
-    "damage": "35",
+    "damage": "30",
     "startup": "i24~25",
-    "block": "-9",
+    "block": "+3",
     "hit": "+1a / HE",
     "counter": "",
     "alternateInputs": [
@@ -168,8 +168,6 @@
     ],
     "categories": [],
     "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +43d (+35d)",
       "Balcony Break",
       "Deals 7 chip damage on block"
     ]
@@ -1051,7 +1049,7 @@
     "input": "b+2",
     "hit_level": "h",
     "damage": "5",
-    "startup": "i12",
+    "startup": "i10",
     "block": "-9",
     "hit": "+2",
     "counter": "+14",
@@ -1106,8 +1104,8 @@
     "damage": "20",
     "startup": "i18~19",
     "block": "-2",
-    "hit": "+13g",
-    "counter": "+14c",
+    "hit": "+13",
+    "counter": "+13",
     "alternateInputs": [
       "b+4"
     ],
@@ -1140,7 +1138,7 @@
     "name": "Caliburnus",
     "input": "u+1+2",
     "hit_level": "m",
-    "damage": "37",
+    "damage": "32",
     "startup": "i31~32",
     "block": "-20",
     "hit": "+1a",
@@ -1189,7 +1187,8 @@
       "Balcony Break",
       "Combo from 1st hit",
       "Twitch confirmable",
-      "Cancel the second hit with down or 3+4 to go into IAI"
+      "Cancel the second hit with down or 3+4 to go into IAI",
+      "Transition to PRF with F"
     ]
   },
   {
@@ -1281,6 +1280,23 @@
       "Balcony Break",
       "Deals 6 chip damage on block",
       "Transition to IAI with d or 3+4 at +5 / +37d (-21d) / +64a (+48a)"
+    ]
+  },
+  {
+    "name": "Tear Drop Cut",
+    "input": "f,f,F+1+2",
+    "hit_level": "l,l",
+    "damage": "10,14",
+    "startup": "i18",
+    "block": "-14",
+    "hit": "+4 IAI",
+    "counter": "+15g",
+    "alternateInputs": [
+      "f,f,F+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Transition to IAI at +4 on hit"
     ]
   },
   {
@@ -1459,7 +1475,8 @@
       "Balcony Break",
       "Combo from 1st hit",
       "Can cancel the second hit by holding down or pressing 3+4. Will transition to IAI",
-      "Hit confirmable 10F"
+      "Hit confirmable 10F",
+      "Transition to PRF with F"
     ]
   },
   {
@@ -1512,8 +1529,11 @@
     "alternateInputs": [
       "IAI 1,1+2"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
+      "Homing",
       "Combo from 1st hit",
       "Deals 9 chip damage on block",
       "Hit confirmable 11F",
@@ -1526,7 +1546,7 @@
     "hit_level": "m",
     "damage": "23",
     "startup": "i16~17",
-    "block": "-7",
+    "block": "-9",
     "hit": "+15 (+5)",
     "counter": "",
     "alternateInputs": [
@@ -1545,7 +1565,7 @@
     "hit_level": "m,th(m)",
     "damage": "13 (25)",
     "startup": "i17",
-    "block": "-14",
+    "block": "-13",
     "hit": "+25 (+10)",
     "counter": "",
     "alternateInputs": [
@@ -1607,10 +1627,32 @@
     "alternateInputs": [
       "IAI 1+2"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
+      "Homing",
       "Deals 12 chip damage on block",
       "Opponent is FUFA on CH"
+    ]
+  },
+  {
+    "name": "Passelande",
+    "input": "IAI d+1",
+    "hit_level": "m",
+    "damage": "25",
+    "startup": "i18",
+    "block": "-2",
+    "hit": "+24a / HE",
+    "counter": "",
+    "alternateInputs": [
+      "IAI d+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +42a (+27a)",
+      "Deals 7 chip damage on block"
     ]
   },
   {
@@ -1628,7 +1670,7 @@
     "categories": [],
     "notes": [
       "Transition to IAI",
-      "Deals 11 chip damage on block"
+      "Deals 6 chip damage on block"
     ]
   },
   {
@@ -1740,7 +1782,7 @@
     "name": "Maceration",
     "input": "PRF 1",
     "hit_level": "l",
-    "damage": "17",
+    "damage": "15",
     "startup": "i19~20",
     "block": "-12",
     "hit": "+4",
@@ -1831,8 +1873,8 @@
     "damage": "17",
     "startup": "i18~19",
     "block": "-2",
-    "hit": "+13g",
-    "counter": "+14c",
+    "hit": "+13",
+    "counter": "+13",
     "alternateInputs": [
       "PRF 4"
     ],
@@ -1919,7 +1961,8 @@
       "parry"
     ],
     "notes": [
-      "Not parryable (weapon low)"
+      "Not parryable (weapon low)",
+      "Transition to PRF (-17 / +6) with F"
     ]
   },
   {

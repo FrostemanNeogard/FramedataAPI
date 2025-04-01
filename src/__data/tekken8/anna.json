@@ -44,6 +44,107 @@
     ]
   },
   {
+    "name": "Aphrodite's Scorn",
+    "input": "3+4",
+    "hit_level": "m",
+    "damage": "26",
+    "startup": "i14",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, ?",
+      "Balcony Break"
+    ]
+  },
+  {
+    "name": "Gancanagh's Pipe",
+    "input": "f,F+3,2",
+    "hit_level": "m,M",
+    "damage": "14,20",
+    "startup": ",i28~29",
+    "block": "-7",
+    "hit": "+20d",
+    "counter": "",
+    "alternateInputs": [
+      "f,F+3,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +67a (+50)",
+      "Weapon",
+      "Combo from 1st hit",
+      "6 chip damage on block",
+      "? chip damage on block in heat"
+    ]
+  },
+  {
+    "name": "",
+    "input": "FC df+1",
+    "hit_level": ",m",
+    "damage": "",
+    "startup": "i20",
+    "block": "-10",
+    "hit": "+21d (+11)",
+    "counter": "",
+    "alternateInputs": [
+      "FC df+1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +36a (+26)",
+      "Weapon"
+    ]
+  },
+  {
+    "name": "Cupid's Arrow",
+    "input": "HAM 1",
+    "hit_level": "h",
+    "damage": "20",
+    "startup": "i13~14",
+    "block": "+6",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "HAM 1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, ?",
+      "Elbow",
+      "Balcony Break",
+      "6 chip damage on block",
+      "? chip damage on block in heat"
+    ]
+  },
+  {
+    "name": "Carmine Hands",
+    "input": "CJM 2,1",
+    "hit_level": "h?,m?",
+    "damage": ",",
+    "startup": "i?",
+    "block": "",
+    "hit": "?",
+    "counter": "",
+    "alternateInputs": [
+      "CJM 2,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Heat Engager",
+      "Heat Dash +5, +?",
+      "Combo from 1st hit?"
+    ]
+  },
+  {
     "name": "Roasted with Eternal Love",
     "input": "1,2,1,2",
     "hit_level": "h,h,h,m,m,m",
@@ -79,6 +180,7 @@
       "Weapon",
       "Combo from 1st hit",
       "Fragile debuff on hit or block, opponent receives chip damage from any attack, removed when they attack you",
+      "6 chip damage on block",
       "Sometimes written H.uf+3,1"
     ]
   },
@@ -139,7 +241,9 @@
     "notes": [
       "Weapon",
       "Combo from 1st hit",
-      "Sometimes written H.FC.df+2,1"
+      "Sometimes written ",
+      "FC.df+2,H.1",
+      "H.FC.df+2,1"
     ]
   },
   {
@@ -241,7 +345,7 @@
     ],
     "categories": [],
     "notes": [
-      ""
+      "Cancel transition with db? at +9 on hit?"
     ]
   },
   {
@@ -296,6 +400,23 @@
     ]
   },
   {
+    "name": "Right High Kick",
+    "input": "4",
+    "hit_level": "h",
+    "damage": "",
+    "startup": "i11",
+    "block": "-9",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "4"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
     "name": "Open Sesame",
     "input": "1+2",
     "hit_level": "m",
@@ -313,25 +434,6 @@
     "notes": [
       "Homing",
       "Only deals recoverable damage"
-    ]
-  },
-  {
-    "name": "Aphrodite's Scorn",
-    "input": "3+4",
-    "hit_level": "m",
-    "damage": "26",
-    "startup": "i14",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "3+4"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, ?",
-      "Balcony Break"
     ]
   },
   {
@@ -402,7 +504,7 @@
     "categories": [],
     "notes": [
       "Combo from 1st hit",
-      "Enter HMC +0 +7 with F"
+      "Enter HAM +0 +7 with F"
     ]
   },
   {
@@ -586,14 +688,14 @@
     "damage": "14",
     "startup": "i17~18",
     "block": "-13",
-    "hit": "+8c HMC",
+    "hit": "+8c HAM",
     "counter": "+13",
     "alternateInputs": [
       "db+4"
     ],
     "categories": [],
     "notes": [
-      "Transition to HMC on hit only?"
+      "Transition to HAM on hit only?"
     ]
   },
   {
@@ -649,7 +751,7 @@
     ],
     "notes": [
       "Homing",
-      "Transition to HMC on hit only"
+      "Transition to HAM on hit only"
     ]
   },
   {
@@ -683,7 +785,8 @@
     ],
     "categories": [],
     "notes": [
-      "Transition to HMC on hit only"
+      "Transition to HAM on hit only",
+      "Cancel HAM transition with input db?"
     ]
   },
   {
@@ -758,26 +861,6 @@
     "categories": [],
     "notes": [
       ""
-    ]
-  },
-  {
-    "name": "Gancanagh's Pipe",
-    "input": "f,F+3,2",
-    "hit_level": "m,M",
-    "damage": "14,20",
-    "startup": ",i28~29",
-    "block": "-7",
-    "hit": "+20d",
-    "counter": "",
-    "alternateInputs": [
-      "f,F+3,2"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +67a (+50)",
-      "Weapon",
-      "Combo from 1st hit"
     ]
   },
   {
@@ -887,25 +970,6 @@
     ]
   },
   {
-    "name": "",
-    "input": "FC df+1",
-    "hit_level": ",m",
-    "damage": "",
-    "startup": "i20",
-    "block": "-10",
-    "hit": "+21d (+11)",
-    "counter": "",
-    "alternateInputs": [
-      "FC df+1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, +36a (+26)",
-      "Weapon"
-    ]
-  },
-  {
     "name": "Right Handed Sweep",
     "input": "FC df+2",
     "hit_level": ",L",
@@ -979,7 +1043,7 @@
     "hit_level": "m",
     "damage": "20",
     "startup": "i11~12",
-    "block": "",
+    "block": "-3",
     "hit": "+8",
     "counter": "",
     "alternateInputs": [
@@ -1025,30 +1089,8 @@
     ]
   },
   {
-    "name": "Assassin's Dagger",
-    "input": "HMC 1",
-    "hit_level": "h",
-    "damage": "20",
-    "startup": "i13~14",
-    "block": "+6",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "HMC 1"
-    ],
-    "categories": [],
-    "notes": [
-      "Heat Engager",
-      "Heat Dash +5, ?",
-      "Elbow",
-      "Balcony Break",
-      "6 chip damage on block",
-      "? chip damage on block in heat"
-    ]
-  },
-  {
     "name": "",
-    "input": "HMC 2",
+    "input": "HAM 2",
     "hit_level": "m",
     "damage": "12",
     "startup": "i15~16",
@@ -1056,7 +1098,7 @@
     "hit": "+3",
     "counter": "",
     "alternateInputs": [
-      "HMC 2"
+      "HAM 2"
     ],
     "categories": [],
     "notes": [
@@ -1067,44 +1109,47 @@
   },
   {
     "name": "",
-    "input": "HMC 2,1",
+    "input": "HAM 2,1",
     "hit_level": "m,h",
-    "damage": "12",
+    "damage": "1223?",
     "startup": ",i25~26",
     "block": "",
-    "hit": "",
+    "hit": "+17a (+8a)?",
     "counter": "",
     "alternateInputs": [
-      "HMC 2,1"
+      "HAM 2,1"
     ],
     "categories": [],
     "notes": [
       "Strong Aerial Tailspin",
       "Weapon",
-      "Chip damage on block"
+      "Combo from 1st hit?",
+      "6 chip damage on block",
+      "? chip damage on block in heat"
     ]
   },
   {
     "name": "",
-    "input": "HMC 2,1,2",
+    "input": "HAM 2,1,2",
     "hit_level": "m,h,M",
-    "damage": "12",
+    "damage": "1223?",
     "startup": ",i33~34",
     "block": "+6c",
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "HMC 2,1,2"
+      "HAM 2,1,2"
     ],
     "categories": [],
     "notes": [
       "Weapon",
-      "Chip damage on block"
+      "9 chip damage on block",
+      "? chip damage on block in heat"
     ]
   },
   {
     "name": "",
-    "input": "HMC 2,2",
+    "input": "HAM 2,2",
     "hit_level": "m,M?",
     "damage": "12,23",
     "startup": ",i22~23",
@@ -1112,7 +1157,7 @@
     "hit": "+33",
     "counter": "",
     "alternateInputs": [
-      "HMC 2,2"
+      "HAM 2,2"
     ],
     "categories": [],
     "notes": [
@@ -1124,7 +1169,7 @@
   },
   {
     "name": "",
-    "input": "HMC 3",
+    "input": "HAM 3",
     "hit_level": "L",
     "damage": "17",
     "startup": "i20~21",
@@ -1132,7 +1177,7 @@
     "hit": "-3",
     "counter": "+6",
     "alternateInputs": [
-      "HMC 3"
+      "HAM 3"
     ],
     "categories": [
       "homing"
@@ -1143,7 +1188,7 @@
   },
   {
     "name": "",
-    "input": "HMC 4",
+    "input": "HAM 4",
     "hit_level": "m,m",
     "damage": "",
     "startup": "i16~19 i4~6",
@@ -1151,7 +1196,7 @@
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "HMC 4"
+      "HAM 4"
     ],
     "categories": [],
     "notes": [
@@ -1160,7 +1205,7 @@
   },
   {
     "name": "",
-    "input": "HMC 1+2",
+    "input": "HAM 1+2",
     "hit_level": "M",
     "damage": "",
     "startup": "i24~25",
@@ -1168,12 +1213,13 @@
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "HMC 1+2"
+      "HAM 1+2"
     ],
     "categories": [],
     "notes": [
       "Weapon",
-      "Chip damage on block"
+      "14 chip damage on block",
+      "? chip damage on block in heat"
     ]
   },
   {
@@ -1204,6 +1250,40 @@
     "counter": "",
     "alternateInputs": [
       "CJM 1"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "input": "CJM 2",
+    "hit_level": "h?",
+    "damage": "",
+    "startup": "i10?",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "CJM 2"
+    ],
+    "categories": [],
+    "notes": [
+      ""
+    ]
+  },
+  {
+    "name": "Picking Heel",
+    "input": "CJM 3",
+    "hit_level": "m",
+    "damage": "",
+    "startup": "i12~14",
+    "block": "-12",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "CJM 3"
     ],
     "categories": [],
     "notes": [
@@ -1260,30 +1340,29 @@
     ],
     "categories": [],
     "notes": [
-      "Alternate input: CJM.db+3"
+      ""
     ]
   },
   {
     "name": "Dendrobates Azureus",
-    "input": ",3",
-    "hit_level": ",h",
+    "input": "CJM d+3,3",
+    "hit_level": "L,h",
     "damage": "",
     "startup": ",i21",
     "block": "",
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      ",3"
+      "CJM d+3,3"
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
-      "Alternate input: CJM.db+3,3"
+      "Combo from 1st hit"
     ]
   },
   {
     "name": "",
-    "input": "PLT 1",
+    "input": "TOM 1",
     "hit_level": "m",
     "damage": "",
     "startup": "8~57",
@@ -1291,7 +1370,7 @@
     "hit": "",
     "counter": "",
     "alternateInputs": [
-      "PLT 1"
+      "TOM 1"
     ],
     "categories": [],
     "notes": [
@@ -1302,7 +1381,7 @@
   },
   {
     "name": "",
-    "input": "PLT 2",
+    "input": "TOM 2",
     "hit_level": "m",
     "damage": "",
     "startup": "8~107",
@@ -1310,12 +1389,36 @@
     "hit": "-1a (-2)",
     "counter": "",
     "alternateInputs": [
-      "PLT 2"
+      "TOM 2"
     ],
     "categories": [],
     "notes": [
       "21 chip damage on block",
       "? chip damage on block in heat"
+    ]
+  },
+  {
+    "name": "Some Like It Rough!",
+    "input": "in rage df+1+2",
+    "hit_level": "m,t",
+    "damage": "",
+    "startup": "i20",
+    "block": "-15",
+    "hit": "+0d",
+    "counter": "",
+    "alternateInputs": [
+      "in rage df+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Rage Art",
+      "Removes Recoverable Health",
+      "Reversal Break",
+      "Damage increases with lower health, maximum ??",
+      "Freezes match timer on activation and on hit",
+      "Restores recoverable health on hit",
+      "Transition to attack throw on hit",
+      "Consumes Rage"
     ]
   },
   {

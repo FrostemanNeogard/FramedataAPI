@@ -1514,14 +1514,14 @@
     "damage": "14",
     "startup": "i12",
     "block": "-9",
-    "hit": "+1",
+    "hit": "+2",
     "counter": "",
     "alternateInputs": [
       "f,F+2"
     ],
     "categories": [],
     "notes": [
-      "Can transition to SEN (+2/+12/+12) with input F",
+      "Can transition to SEN (+2/+13/+13) with input F",
       "Cannot block up to i12 on empty transition on block"
     ]
   },
@@ -2360,7 +2360,7 @@
     "hit_level": "M",
     "damage": "26",
     "startup": "i18~19",
-    "block": "-5",
+    "block": "+3",
     "hit": "+5d",
     "counter": "",
     "alternateInputs": [
@@ -2588,7 +2588,7 @@
     "name": "Totetsu Jyurin",
     "input": "OTG d+4,1",
     "hit_level": "L,L",
-    "damage": "14,17",
+    "damage": "14,17 (20)",
     "startup": ",i20~21",
     "block": "-26",
     "hit": "-10 / -15a (-23)",
@@ -2598,7 +2598,7 @@
     ],
     "categories": [],
     "notes": [
-      "Blue spark with input OTG.d+4:1 for 20 dmg",
+      "Blue spark with input OTG.d+4:1 on frames 15-18 for 20 dmg",
       "Jails from 1st block",
       "Combo from 1st hit"
     ]

@@ -34,7 +34,8 @@
     "notes": [
       "Heat Smash",
       "Balcony Break",
-      "Enter CD +16g with df on block"
+      "Enter CD +16g with df on block",
+      "14 chip damage on block"
     ]
   },
   {
@@ -52,7 +53,8 @@
     "categories": [],
     "notes": [
       "Heat Smash",
-      "Balcony Break"
+      "Balcony Break",
+      "11 chip damage on block"
     ]
   },
   {
@@ -152,8 +154,7 @@
       "Heat Engager",
       "Heat Dash +5 +17d",
       "Balcony Break",
-      "Spike",
-      "Chip damage on block"
+      "Spike"
     ]
   },
   {
@@ -557,7 +558,8 @@
     "notes": [
       "Tornado",
       "Balcony Break",
-      "Chip damage on block"
+      "7 chip damage on block",
+      "10 chip damage on block in heat"
     ]
   },
   {
@@ -1126,20 +1128,22 @@
   },
   {
     "name": "Jin Gang Hua Shan Tuo Tian Zhang",
-    "input": "b+1+2,1+2,d,df,f+2",
+    "input": "b+1+2,1+2,2",
     "hit_level": "m,m,m",
-    "damage": "15,13,30",
+    "damage": "15,13,25 (30)",
     "startup": "i20~21",
     "block": "-13~-12",
     "hit": "+17d (+12)",
     "counter": "",
     "alternateInputs": [
-      "b+1+2,1+2,d,df,f+2"
+      "b+1+2,1+2,2"
     ],
     "categories": [],
     "notes": [
       "Combo from 2nd CH",
-      "Chip damage on block",
+      "Power up with motion input d,df,f+2",
+      "12 chip damage on block with motion input",
+      "13 chip damage on block with motion input in heat",
       "Deals 25 damage without motion input"
     ]
   },
@@ -1600,6 +1604,8 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "9 chip damage on block",
+      "12 chip damage on block in heat",
       "Alternate input wr3"
     ]
   },
@@ -1889,9 +1895,10 @@
     "notes": [
       "Balcony Break",
       "Spike",
-      "Chip damage on block",
       "Combo from 1st hit",
-      "Enter BOK +4c +19d with d"
+      "Enter BOK +4c +19d with d",
+      "8 chip damage on block",
+      "9 chip damage on block in heat"
     ]
   },
   {
@@ -1909,9 +1916,10 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block",
       "Combo from 1st hit",
-      "+27a (+17)"
+      "+27a (+17)",
+      "8 chip damage on block",
+      "9 chip damage on block in heat"
     ]
   },
   {
@@ -1929,8 +1937,9 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Chip damage on block",
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "10 chip damage on block",
+      "11 chip damage on block in heat"
     ]
   },
   {
@@ -2053,7 +2062,8 @@
       "Tornado",
       "Balcony Break",
       "On non-CH grounded connect",
-      "Chip Damage on Block"
+      "6 chip damage on block",
+      "8 chip damage on block in heat"
     ]
   },
   {
@@ -2195,7 +2205,8 @@
     "notes": [
       "Homing",
       "Balcony Break",
-      "Chip damage on block"
+      "9 chip damage on block",
+      "12 chip damage on block in heat"
     ]
   },
   {
@@ -2322,7 +2333,9 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Combo from 1st hitSometimes written qcf+2,4"
+      "Combo from 1st hit",
+      "7 chip damage on block",
+      "10 chip damage on block in heatSometimes written qcf+2,4"
     ]
   },
   {

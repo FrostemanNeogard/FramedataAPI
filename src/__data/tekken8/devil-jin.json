@@ -47,20 +47,20 @@
   },
   {
     "name": "Inner Purgatory",
-    "input": "in heat MCR 2+3",
+    "input": "in heat MCR 1+2",
     "hit_level": "h!,t",
-    "damage": "23,16",
+    "damage": "12,27",
     "startup": "i20",
     "block": "",
     "hit": "+0d",
     "counter": "",
     "alternateInputs": [
-      "in heat MCR 2+3"
+      "in heat MCR 1+2"
     ],
     "categories": [],
     "notes": [
-      "Heat Smash",
-      "Transition to attack throw on standing or airborne hit"
+      "Transition to attack throw on standing or airborne hit",
+      "Consumes 300F of the heat timer"
     ]
   },
   {
@@ -126,6 +126,26 @@
     ]
   },
   {
+    "name": "Spinning Demon Leviathan",
+    "input": "f,n,d,DF+4,in heat 3",
+    "hit_level": "L,SM",
+    "damage": "7,26 (18)",
+    "startup": ",i31",
+    "block": "",
+    "hit": "+72a (+56a)",
+    "counter": "",
+    "alternateInputs": [
+      "f,n,d,DF+4,in heat 3"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Available only on hit",
+      "18dmg with combo scaling from 1st",
+      "Sometimes written CD.DF+4,H.3"
+    ]
+  },
+  {
     "name": "Spiral of Madness > Annihilation Beam",
     "input": "f,n,d,df+1+2,in heat 1+2",
     "hit_level": "m,SM",
@@ -184,7 +204,9 @@
       "Heat Engager",
       "Heat Dash +5, +43d (+35)",
       "Balcony Break",
-      "17 Chip Damage on Heat Dash"
+      "17 Chip Damage on Heat Dash",
+      "Backsway",
+      "Max distance from opponent when performed at tip range: ~3.82-3.83 (frames 16-19?)"
     ]
   },
   {
@@ -747,7 +769,7 @@
     "damage": "11,20",
     "startup": ",i17",
     "block": "-9",
-    "hit": "+44d (-14)",
+    "hit": "+20a",
     "counter": "",
     "alternateInputs": [
       "df+1,2"
@@ -755,8 +777,31 @@
     "categories": [],
     "notes": [
       "Balcony Break",
+      "Combo on 1st hit with 6f delay",
       "Combo on 1st CH with 10f delay",
       "Move can be delayed 4f"
+    ]
+  },
+  {
+    "name": "Dark Twin Apparition",
+    "input": "df+1,4",
+    "hit_level": "m,m",
+    "damage": "11,23",
+    "startup": ",i20~21",
+    "block": "-13",
+    "hit": "+16g",
+    "counter": "+31d (+23d)",
+    "alternateInputs": [
+      "df+1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Opponent recovers crouching on normal hit",
+      "Enter MCR +16 with F on hit",
+      "Enter MCR +31d (+23d) with F on CH",
+      "Combo on 1st CH with 10f delay",
+      "Move can be delayed 5f"
     ]
   },
   {
@@ -771,11 +816,17 @@
     "alternateInputs": [
       "df+2"
     ],
-    "categories": [],
+    "categories": [
+      "homing"
+    ],
     "notes": [
       "Enter MCR +14 with F on hit",
       "Enter MCR +17 with F on CH",
-      "Transition to MCR on standing hit only"
+      "Transition to MCR on standing hit only",
+      "Tracking notes:",
+      "Can sidewalk left at -6",
+      "Can sidestep left at -5",
+      "Completely homing to SSR/SWR side"
     ]
   },
   {
@@ -865,8 +916,8 @@
     "categories": [],
     "notes": [
       "Spike",
-      "Combo from 1st hit with 10f delay",
-      "Move can be delayed 9f"
+      "Combo from 1st hit with 11?f delay",
+      "Move can be delayed 10?f "
     ]
   },
   {
@@ -923,7 +974,9 @@
     ],
     "categories": [],
     "notes": [
-      "Could be sidewalked left under specific circumstances."
+      " * Tracking notes:",
+      "Pseudo homing",
+      "Can only be sidewalked left at +1 and +8"
     ]
   },
   {
@@ -1331,7 +1384,11 @@
     ],
     "categories": [],
     "notes": [
-      "Balcony Break"
+      "Balcony Break",
+      "Tracking notes:",
+      "Can be sidestepped right at -10",
+      "Can be sidewalked left from +1 to +2 only",
+      "Pseudo homing to SSL/SWL side?"
     ]
   },
   {
@@ -1481,17 +1538,20 @@
     "name": "Laser Slice",
     "input": "b,f+2,3",
     "hit_level": "m,h",
-    "damage": "12,24",
+    "damage": "12,21",
     "startup": ",i19~20",
-    "block": "-9",
-    "hit": "+9",
+    "block": "-5",
+    "hit": "+16g",
     "counter": "",
     "alternateInputs": [
       "b,f+2,3"
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit with 8f delay"
+      "Balcony Break",
+      "Combo from 1st hit with 8f delay",
+      "Opponent recovers crouching on hit",
+      "Transition to MCR +14 with F on hit"
     ]
   },
   {
@@ -2014,14 +2074,16 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "14 damage with combo scaling from 1st hit",
+      "24 damage total from 1st hit"
     ]
   },
   {
     "name": "Devil Starstorm",
     "input": "FLY 4,2,1+2",
     "hit_level": "M,m,m!,M!",
-    "damage": "10,20,15",
+    "damage": "10,20,14,20",
     "startup": ",i27~28 i22~60",
     "block": "",
     "hit": "-6a",
@@ -2031,7 +2093,9 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "15 (7+8) damage with combo scaling from 1st hit",
+      "39 damage total from 1st hit"
     ]
   },
   {
@@ -2095,8 +2159,8 @@
     "hit_level": "m",
     "damage": "12",
     "startup": "i15~16",
-    "block": "-13",
-    "hit": "-5",
+    "block": "-9",
+    "hit": "-1",
     "counter": "",
     "alternateInputs": [
       "MCR 2"
@@ -2115,8 +2179,8 @@
     "damage": "26",
     "startup": "i23",
     "block": "-7",
-    "hit": "+16a (-1)",
-    "counter": "+70a (+54)",
+    "hit": "+70a (+54)",
+    "counter": "",
     "alternateInputs": [
       "MCR 3"
     ],
@@ -2124,7 +2188,6 @@
     "notes": [
       "Tornado",
       "Balcony Break",
-      "Opponent recovers FDFA on hit",
       "7 Chip Damage on block",
       "10 Chip Damage on block while in heat"
     ]
@@ -2160,14 +2223,16 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "14 damage with combo scaling from 1st hit",
+      "24 damage total from 1st hit"
     ]
   },
   {
     "name": "Devil Starstorm",
     "input": "MCR 4,2,1+2",
     "hit_level": "M,m,m!,M!",
-    "damage": "10,20,15",
+    "damage": "10,20,14,20",
     "startup": ",i27~28 i22~60",
     "block": "",
     "hit": "-6a",
@@ -2177,7 +2242,9 @@
     ],
     "categories": [],
     "notes": [
-      "Available only on hit"
+      "Available only on 1st hit",
+      "15 (7+8) damage with combo scaling from 1st hit",
+      "39 damage total from 1st hit"
     ]
   },
   {
