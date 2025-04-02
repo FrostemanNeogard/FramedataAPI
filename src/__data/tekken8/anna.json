@@ -49,17 +49,20 @@
     "hit_level": "m",
     "damage": "26",
     "startup": "i14",
-    "block": "",
-    "hit": "",
+    "block": "-16",
+    "hit": "+9a (+0)",
     "counter": "",
     "alternateInputs": [
       "3+4"
     ],
-    "categories": [],
+    "categories": [
+      "parry"
+    ],
     "notes": [
       "Heat Engager",
-      "Heat Dash +5, ?",
-      "Balcony Break"
+      "Heat Dash +5, +36a (+26)",
+      "Balcony Break",
+      "Hip attack, unparryable by traditional parries, Asuka, Nina, etc"
     ]
   },
   {
@@ -269,15 +272,16 @@
     "hit_level": "h,h",
     "damage": "5,8",
     "startup": ",i10",
-    "block": "",
-    "hit": "",
+    "block": "-3",
+    "hit": "+8",
     "counter": "",
     "alternateInputs": [
       "1,2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Jail from 1st attack with 4f delay",
+      "Enter HAM +0 +11 r19 with F"
     ]
   },
   {
@@ -287,31 +291,87 @@
     "damage": "5,8,4",
     "startup": ",i16",
     "block": "-4",
-    "hit": "",
+    "hit": "+0",
     "counter": "",
     "alternateInputs": [
       "1,2,1"
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Jail from 1st attack with 3f delay",
+      "Combo from 1st hit with 4f delay",
+      "Input can be delayed 10f"
+    ]
+  },
+  {
+    "name": "Frost Combination",
+    "input": "1,2,1,4",
+    "hit_level": "h,h,h,m",
+    "damage": "5,8,4,18",
+    "startup": ",i20~21",
+    "block": "+4",
+    "hit": "+32a (+22)",
+    "counter": "",
+    "alternateInputs": [
+      "1,2,1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Chip damage on block"
     ]
   },
   {
     "name": "",
     "input": "1,2,2",
     "hit_level": "h,h,M",
-    "damage": "5,8",
+    "damage": "5,8,20",
     "startup": ",i26~27",
     "block": "-8",
-    "hit": "",
-    "counter": "",
+    "hit": "+12",
+    "counter": "+76a (+60)",
     "alternateInputs": [
       "1,2,2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Transition to HAM on hit only"
+    ]
+  },
+  {
+    "name": "Bermuda Triangle",
+    "input": "1,2,4",
+    "hit_level": "h,h,h",
+    "damage": "5,8,22",
+    "startup": ",i22",
+    "block": "-6",
+    "hit": "+20a (+11)",
+    "counter": "+49a",
+    "alternateInputs": [
+      "1,2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 2nd CH"
+    ]
+  },
+  {
+    "name": "Reverse PDK Combo",
+    "input": "1,4",
+    "hit_level": "h,L",
+    "damage": "5,12",
+    "startup": ",i22~23",
+    "block": "-13",
+    "hit": "-2",
+    "counter": "",
+    "alternateInputs": [
+      "1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st hit"
     ]
   },
   {
@@ -320,15 +380,15 @@
     "hit_level": "h",
     "damage": "10",
     "startup": "i10",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-3",
+    "hit": "+3",
+    "counter": "+9",
     "alternateInputs": [
       "2"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Enter HMC +1 +7 +13 with F"
     ]
   },
   {
@@ -337,15 +397,17 @@
     "hit_level": "h,M",
     "damage": "10,20",
     "startup": ",i26~27",
-    "block": "-6",
+    "block": "-8",
     "hit": "+12",
-    "counter": "",
+    "counter": "+76a (+60)",
     "alternateInputs": [
       "2,2"
     ],
     "categories": [],
     "notes": [
-      "Cancel transition with db? at +9 on hit?"
+      "Combo from 1st CH",
+      "Input can be delayed 5f",
+      "Transition to HAM on hit only"
     ]
   },
   {
@@ -354,15 +416,36 @@
     "hit_level": "h,m",
     "damage": "10,14",
     "startup": ",i19~20",
-    "block": "",
+    "block": "-3",
     "hit": "+8",
-    "counter": "",
+    "counter": "+12",
     "alternateInputs": [
       "2,3"
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit"
+      "Jail from 1st attack",
+      "Combo from 1st CH with 2f delay",
+      "Input can be delayed 2f"
+    ]
+  },
+  {
+    "name": "Jab Roundhouse",
+    "input": "2,4",
+    "hit_level": "h,h",
+    "damage": "10,22",
+    "startup": ",i22",
+    "block": "-6",
+    "hit": "+20a (+11)",
+    "counter": "+49a",
+    "alternateInputs": [
+      "2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 1st CH with 9f delay",
+      "Input can be delayed 10f"
     ]
   },
   {
@@ -371,8 +454,8 @@
     "hit_level": "m",
     "damage": "17",
     "startup": "i14~16",
-    "block": "",
-    "hit": "",
+    "block": "-6",
+    "hit": "+3",
     "counter": "",
     "alternateInputs": [
       "3"
@@ -396,31 +479,69 @@
     ],
     "categories": [],
     "notes": [
-      "Spike"
+      "Spike",
+      "Combo from 1st hit"
     ]
   },
   {
     "name": "Right High Kick",
     "input": "4",
     "hit_level": "h",
-    "damage": "",
+    "damage": "15",
     "startup": "i11",
     "block": "-9",
-    "hit": "",
-    "counter": "",
+    "hit": "+7",
+    "counter": "+7s",
     "alternateInputs": [
       "4"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Sometimes written Magic Four"
+    ]
+  },
+  {
+    "name": "",
+    "input": "4,2",
+    "hit_level": "h,h",
+    "damage": "15,2",
+    "startup": ",i25~26",
+    "block": "-8",
+    "hit": "-4",
+    "counter": "",
+    "alternateInputs": [
+      "4,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH"
+    ]
+  },
+  {
+    "name": "Blonde Bomb Blitz",
+    "input": "4,2,1+2",
+    "hit_level": "h,h,m",
+    "damage": "15,2,21",
+    "startup": ",i27",
+    "block": "-15",
+    "hit": "+8a (-1)",
+    "counter": "+28d (+20)",
+    "alternateInputs": [
+      "4,2,1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Combo from 2nd hit",
+      "Combo from 1st CH"
     ]
   },
   {
     "name": "Open Sesame",
     "input": "1+2",
     "hit_level": "m",
-    "damage": "5",
+    "damage": "[5;5]",
     "startup": "i16~18",
     "block": "+1",
     "hit": "+9",
@@ -433,7 +554,8 @@
     ],
     "notes": [
       "Homing",
-      "Only deals recoverable damage"
+      "Enter HAM +3 +8 with F on hit only",
+      "100% recoverable damage"
     ]
   },
   {
@@ -442,8 +564,8 @@
     "hit_level": "h",
     "damage": "14",
     "startup": "i14",
-    "block": "",
-    "hit": "",
+    "block": "-2",
+    "hit": "+4",
     "counter": "",
     "alternateInputs": [
       "f+2"
@@ -459,8 +581,8 @@
     "hit_level": "h,h",
     "damage": "14,20",
     "startup": ",i19~20",
-    "block": "",
-    "hit": "+12",
+    "block": "-7",
+    "hit": "+12g",
     "counter": "",
     "alternateInputs": [
       "f+2,3"
@@ -468,8 +590,44 @@
     "categories": [],
     "notes": [
       "Balcony Break",
-      "Elbow",
-      "Combo from 1st hit"
+      "Combo from 1st hit",
+      "Input can be delayed 12f",
+      "Move can be delayed 7f"
+    ]
+  },
+  {
+    "name": "Hammer Chance",
+    "input": "f+3",
+    "hit_level": "",
+    "damage": "",
+    "startup": "",
+    "block": "",
+    "hit": "",
+    "counter": "",
+    "alternateInputs": [
+      "f+3"
+    ],
+    "categories": [],
+    "notes": [
+      "Cancel to r23 FC with db on frame 13"
+    ]
+  },
+  {
+    "name": "Blonde Bomb",
+    "input": "f+1+2",
+    "hit_level": "m",
+    "damage": "21",
+    "startup": "i17",
+    "block": "-13",
+    "hit": "+19a (+14)",
+    "counter": "+28d (+20)",
+    "alternateInputs": [
+      "f+1+2"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break"
     ]
   },
   {
@@ -497,31 +655,34 @@
     "startup": ",i16",
     "block": "-5",
     "hit": "+2",
-    "counter": "",
+    "counter": "+9",
     "alternateInputs": [
       "df+1,2"
     ],
     "categories": [],
     "notes": [
-      "Combo from 1st hit",
-      "Enter HAM +0 +7 with F"
+      "Jail from 1st attack",
+      "Enter HAM +0 +7 +14 with F"
     ]
   },
   {
     "name": "Uppercut Jab > Radiant Arch",
     "input": "df+1,2,3",
-    "hit_level": "m,h",
-    "damage": "10,10",
+    "hit_level": "m,h,m",
+    "damage": "10,10,20",
     "startup": ",i24~25",
     "block": "-12",
-    "hit": "",
+    "hit": "+19a (+2)",
     "counter": "",
     "alternateInputs": [
       "df+1,2,3"
     ],
     "categories": [],
     "notes": [
-      "Cancel to CJM -17 -12? -5? with b"
+      "Tornado",
+      "Balcony Break",
+      "Combo from 2nd CH",
+      "Cancel to CJM -17 -10 -3 r35 with B on frame 20"
     ]
   },
   {
@@ -532,13 +693,16 @@
     "startup": ",i17~20",
     "block": "-5",
     "hit": "+20a (+11)",
-    "counter": "+14",
+    "counter": "+14c",
     "alternateInputs": [
       "df+1,2,4"
     ],
     "categories": [],
     "notes": [
-      "Combo from 2nd CH"
+      "Balcony Break",
+      "Combo from 2nd CH with 10f delay",
+      "Input can be delayed 10f",
+      "Move can be delayed 8f"
     ]
   },
   {
@@ -555,18 +719,18 @@
     ],
     "categories": [],
     "notes": [
-      "launches crouching opponent?"
+      "Launches crouching opponent"
     ]
   },
   {
     "name": "",
     "input": "df+3",
     "hit_level": "m",
-    "damage": "",
+    "damage": "13",
     "startup": "i14",
-    "block": "",
-    "hit": "",
-    "counter": "",
+    "block": "-11",
+    "hit": "+0",
+    "counter": "+1",
     "alternateInputs": [
       "df+3"
     ],
@@ -579,34 +743,163 @@
     "name": "",
     "input": "df+3,1",
     "hit_level": "m,h",
-    "damage": "",
+    "damage": "13,10",
     "startup": ",i30",
-    "block": "",
-    "hit": "",
+    "block": "-3",
+    "hit": "+7",
     "counter": "",
     "alternateInputs": [
       "df+3,1"
     ],
     "categories": [],
     "notes": [
-      ""
+      "Cancel to CJM -15 -4 -3 r33 with B on frame 14",
+      "Cancel to SS -10 +1 +2 r37 with U_D on frame 28",
+      "r43 when blocking after SS"
+    ]
+  },
+  {
+    "name": "Twisting Fascinator",
+    "input": "df+3,1,1",
+    "hit_level": "m,h,M",
+    "damage": "13,10,25",
+    "startup": ",i30~42",
+    "block": "-11~+1",
+    "hit": "+9a (-1)",
+    "counter": "",
+    "alternateInputs": [
+      "df+3,1,1"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Weapon",
+      "Fragile debuff on hit or block, opponent receives chip damage from any attack, removed when they attack you",
+      "Unpunishable on block due to pushback",
+      "Interrupt with i12 from 2nd block",
+      "5 Chip damage on block"
     ]
   },
   {
     "name": "",
     "input": "df+3,1,2",
-    "hit_level": "m,h,M?",
-    "damage": "",
+    "hit_level": "m,h,M",
+    "damage": "13,10,35",
     "startup": ",i30~42",
-    "block": "",
-    "hit": "",
+    "block": "-11~+1",
+    "hit": "+3d",
     "counter": "",
     "alternateInputs": [
       "df+3,1,2"
     ],
     "categories": [],
     "notes": [
-      "Weapon"
+      "Balcony Break",
+      "Weapon",
+      "Fragile debuff on hit or block, opponent receives chip damage from any attack, removed when they attack you",
+      "Unpunishable on block due to pushback",
+      "Interrupt with i12 from 2nd block",
+      "7 Chip damage on block"
+    ]
+  },
+  {
+    "name": "Twisting Combo",
+    "input": "df+3,1,4",
+    "hit_level": "m,h,h",
+    "damage": "13,10,20",
+    "startup": ",i15~16",
+    "block": "-3",
+    "hit": "+4",
+    "counter": "",
+    "alternateInputs": [
+      "df+3,1,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st CH",
+      "Combo from 2nd hit with 10f delay",
+      "Input can be delayed 10f",
+      "Move can be delayed 8f"
+    ]
+  },
+  {
+    "name": "Creeping Snake",
+    "input": "df+3,2",
+    "hit_level": "m,h",
+    "damage": "13,9",
+    "startup": ",i19",
+    "block": "-2",
+    "hit": "+4",
+    "counter": "+10",
+    "alternateInputs": [
+      "df+3,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 1st hit with 10f delay",
+      "Input can be delayed 10f",
+      "Enter HAM -2 +4 +10 r21 with F"
+    ]
+  },
+  {
+    "name": "Creeping Stinger",
+    "input": "df+3,2,2",
+    "hit_level": "m,h,M",
+    "damage": "13,9,20",
+    "startup": ",i26~27",
+    "block": "-8",
+    "hit": "+12",
+    "counter": "+76a (+60)",
+    "alternateInputs": [
+      "df+3,2,2"
+    ],
+    "categories": [],
+    "notes": [
+      "Combo from 2nd CH",
+      "Input can be delayed 10f",
+      "Move can be delayed 5f",
+      "Transition to HAM on hit only"
+    ]
+  },
+  {
+    "name": "Creeping Snake > Right High Kick",
+    "input": "df+3,2,4",
+    "hit_level": "m,h,h",
+    "damage": "13,9,22",
+    "startup": ",i22",
+    "block": "",
+    "hit": "+20a (+11)",
+    "counter": "+49a",
+    "alternateInputs": [
+      "df+3,2,4"
+    ],
+    "categories": [],
+    "notes": [
+      "Balcony Break",
+      "Combo from 2nd CH with 9f delay",
+      "Input can be delayed 10f"
+    ]
+  },
+  {
+    "name": "Furious Hail",
+    "input": "df+3,3+4",
+    "hit_level": "m,m,m",
+    "damage": "13,6,10",
+    "startup": ",i32~34 i11~12",
+    "block": "-4",
+    "hit": "+78a (+62)",
+    "counter": "",
+    "alternateInputs": [
+      "df+3,3+4"
+    ],
+    "categories": [],
+    "notes": [
+      "Tornado",
+      "Balcony Break",
+      "Knee",
+      "Input can be delayed 10f",
+      "Instant Tornado only if both knees connect",
+      "+27a (+17) if only the last hit connects"
     ]
   },
   {
@@ -626,8 +919,7 @@
     ],
     "notes": [
       "Tracking notes:",
-      "Homing to SSR side?",
-      " "
+      "Homing to SSR side"
     ]
   },
   {
@@ -1065,23 +1357,6 @@
     "counter": "",
     "alternateInputs": [
       "ws4"
-    ],
-    "categories": [],
-    "notes": [
-      ""
-    ]
-  },
-  {
-    "name": "Hammer Chance",
-    "input": "f+3",
-    "hit_level": "",
-    "damage": "",
-    "startup": "",
-    "block": "",
-    "hit": "",
-    "counter": "",
-    "alternateInputs": [
-      "f+3"
     ],
     "categories": [],
     "notes": [
